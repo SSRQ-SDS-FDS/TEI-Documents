@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234" xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+
+			</titleStmt>
+
+			<publicationStmt>
+				<date type="electronic" when="2019-05-29"/>
+				<date type="print"/>
+			</publicationStmt>
+
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ_FR_I_2_8_0056_028</idno>
+			</seriesStmt>
+
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<idno>StAFR, Ratsmanual 174 (1623), S. 217</idno>
+					</msIdentifier>
+					<head>François Feudy, Pierre Feudy – Anweisung / Instruction</head>
+					<msContents>
+						<summary></summary> 
+						<msItem>
+							<textLang>de, fr</textLang> 
+							<filiation type="current"/>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support>
+									<material/>
+								</support>
+								<extent>
+									<dimensions type="leaves">
+										<height unit="cm" quantity="0.0"/>
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+									<dimensions type="plica">
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+								</extent>
+							</supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1623-03-27">27 <foreign xml:lang="la">martii</foreign> 1623</origDate>
+							<origPlace/>
+						</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+			<particDesc default="false"/>
+			<settingDesc default="false"/>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<p><lb/>Gfangne im <placeName ref="loc007683.02">bösen thurn</placeName></p>
+						<p><lb/><hi rend="outdent">1.</hi> <persName ref="per009535a.04">François Feydi</persName> confessant d’estre sorcier, avoir fait 
+							<lb/>mourir avec de la <term ref="lem018382">graisse</term> gens et bestes, meurtry et aidé a 
+							<lb/>mourtryr avec ses freres et autres en divers lieux, oultre plu<lb break="no"/>sieurs larrecins. Man soll mit dem <term ref="lem002679.16">keyserlichen 
+							<lb/>rechten</term> mit ime <term ref="lem010306">fürfahren</term>, darzwüschen auch zu mehrer 
+							<lb/>information sich in etlichen der nächstgelegnen dörffern erkhun<lb break="no"/>digen der jenigen, so er machen zu sterben oder auch des <term ref="lem000310.12">veechs</term>.</p>
+						<p><lb/><hi rend="outdent">2.</hi> <persName ref="per009534a.02">Pierre Feydi</persName>, syn bruder, hat auch neben den diebstälen 
+							<lb/>bekhent, das er mit <term ref="lem011432">salbe</term> lüth und <term ref="lem000310.12">veech</term> machen zsterben. 
+						<lb/>Man soll mit disem wie mit dem obern procedieren und 
+						<lb/>information nemmen.</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+
+<?oxy_options track_changes="on"?>

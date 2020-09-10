@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="headerinfo"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <date type="electronic" when="2020-08-17"/>    <date type="print"/>
+    <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Collection des sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS_NE_3_171</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier>
+      <idno>AVN B 101.14.001, fol. 445r</idno>
+     </msIdentifier>
+     <head>Droit matrimonial non écrit</head>
+     <msContents>
+      <summary>Lorsque deux personnes sont unie par le mariage sans avoir conclu de contrat écrit,
+       ils sont mariés conformément à la coutume du lieu dont ils sont ressortissants.</summary>
+      <msItem>
+       <textLang>français</textLang>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="33"/>
+          <width unit="cm" quantity="23.5"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <origDate when="1660-03-07" calendar="Julian"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>
+      </origin>
+     </history>
+     <additional>
+      <listBibl>
+       <head/>
+       <bibl/>
+      </listBibl>
+     </additional>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key005098"></term>
+     <term ref="key004993"></term>
+     <term ref="key000468"></term>
+     <term ref="key000494"></term>
+     <term ref="key000863"></term>
+     <term ref="key000138"></term>
+     <term ref="key000558"></term>
+
+    </keywords>
+   </textClass>
+   <particDesc default="false"/>
+   <settingDesc default="false"/>
+  </profileDesc>
+ </teiHeader>
+ 
+ <text>
+  <group>
+   <text>
+    <body>
+        
+     
+     <pb n="445r" facs="AVN_B_101.14.001_0445r"/> 
+        
+     <div>
+      <head>
+       <lb/>Déclaration touchant comment un <lb/>contrat de mariage se doit entendre quand <lb/>il
+       n’y a aucun traité par écrit. </head>
+      <p>
+       <lb/>Sur la requeste presentée par <lb/>monsieur <persName ref="per010196">Purry</persName>
+       ministre par devant monsieur <lb/>le maistre bourgeois &amp; <orgName ref="org003085">Conseil
+        Estroit de la Ville de <lb/><placeName ref="loc007786">Neufchastel</placeName></orgName> le
+       <origDate when="1660-03-07" calendar="Julian">7 de mars 1660</origDate>, tendante aux fins <lb/>d’avoir le
+       point de coustume suivant. </p>
+      <p>
+       <lb/>Sçavoir sy deux personnes estans alliez au <choice>
+        <abbr>S<hi rend="sup">t</hi></abbr>
+        <expan>Saint</expan>
+       </choice> Estat <lb/>de mariage par ensemble, &amp; n’y ayant aucun traité <lb/>de mariage
+       escrit, sy ledit traité ne se doit pas <lb/>entendre suivant la coustume du lieu où lesdites
+       <lb/>parties sont <choice>
+        <sic>resortissables</sic>
+        <corr>ressortissantes</corr>
+       </choice>. </p>
+      <p>
+       <lb/><orgName ref="org003085">Mesdits <choice>
+         <abbr>S<hi rend="sup">rs</hi></abbr>
+         <expan>sieurs</expan>
+        </choice> du Conseil</orgName> ayants eu advis &amp; meure <lb/>premeditation par ensemble
+       ont donné par <choice>
+        <abbr>declaraon</abbr>
+        <expan>déclaration</expan>
+       </choice>
+       <lb/>que suivant la coustume usitée en la souveraineté <lb/>de <placeName ref="loc007785"
+        >Neufchastel</placeName> de pere à fils &amp; de tout temps <lb/>immemorial jusqu’à present
+       la coustume estre telle. </p>
+      <p>
+       <lb/>Assavoir, que deux personnes estants alliés par ensemble <lb/>au <choice>
+        <abbr>S<hi rend="sup">t</hi></abbr>
+        <expan>Saint</expan>
+       </choice> Estat de mariage, &amp; n’y ayant aucun traité de <lb/>mariage escrit, ledit traité
+       se doit entendre &amp; se <lb/>conformer à la coustume du lieu où <choice>
+        <abbr>lesd</abbr>
+        <expan>lesdites</expan>
+       </choice> parties <lb/>sont <choice>
+        <sic>resortissables</sic>
+        <corr>ressortissantes</corr>
+       </choice>.</p>
+      <p>Ce qu’a esté ainsy <lb/>passé conclud &amp; arresté les an &amp; jour que dessus <lb/>&amp;
+       ordonné à moy secretaire de Ville l’expedier en <lb/>ceste forme, sous le <term ref="lem016327">seel</term>
+       de la mayorie &amp; justice <lb/><choice>
+        <abbr>dud</abbr>
+        <expan>dudit</expan>
+       </choice>
+       <origPlace ref="loc007786">Neufchastel</origPlace>, &amp; signature de ma main. </p>
+      <p>
+       <lb/>Pour copie extraite sur le vray original signé par <lb/>moy <persName ref="per009020"><choice>
+         <abbr>M</abbr>
+         <expan>Maurice</expan>
+        </choice> Tribolet</persName>, &amp; sur icelle la presente. </p>
+     </div>
+      
+      <div>
+       <signed><persName ref="per008992"><choice><abbr>N</abbr><expan>Nicolas</expan></choice> Huguenaud</persName> <figure type="notarial sign"/></signed>
+      </div>
+     
+       
+    </body>
+   </text>
+  </group>
+ </text>
+</TEI>

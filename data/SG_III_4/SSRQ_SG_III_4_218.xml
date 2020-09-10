@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-08-15"/>
+            <date type="print"/>
+            <availability><p xml:id="facs">Sibylle Malamud</p></availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_218</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>StAZH B II 800, S. 43</idno>
+               </msIdentifier>
+               <head>Ratsprotokoll: Der Zürcher Rat verurteilt die wegen Giftmords und Diebstahls in
+                  Werdenberg verdächtigte Anna Maria Meith aus Eriskirch</head>
+               <msContents>
+                  <summary>
+                     <p>Anna Maria Meith aus Eriskrich, die mit dem in St. Fiden hingerichteten
+                        Christoph Beau, der in Werdenberg Leutnant Wohlgemut vergiftet und bestohlen
+                        hat, gemeinsame Sache gemacht haben soll, soll am Nachmittag in das
+                        Halseisen gestellt, mit Ruten ausgepeitscht und mit ihrem Säugling auf ewig
+                        verbannt werden.</p>
+                  </summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <filiation type="current">Aufzeichnung, Buch (179 Seiten + 14 Blätter Index)</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="34.0"/>
+                              <width unit="cm" quantity="11.0"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1733-02-11"/>
+                     <origPlace>Zürich</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head>Literatur</head>
+                     <bibl><ref
+                        target="http://permalink.snl.ch/bib/chbsg991001180649803977"
+                        >Malamud 2018</ref>, <ref target="https://www.ssrq-sds-fds.ch/fileadmin/user_upload/publikationen/WeGe_1_18_S._240_255min.pdf">S. 240–255</ref></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key005479">Giftmord</term>
+               <term ref="key000291">Diebstahl</term>
+               <term ref="key004605">Hinrichtung</term>
+               <term ref="key000604">Todesstrafe</term>
+               <term ref="key003366">Enthauptung</term>
+               <term ref="key000911">Unzucht</term>
+               <term ref="key000602">Unehelicher</term>
+               <term ref="key000598">Verbannung</term>
+               <term ref="key005217">Stadtverweis</term>
+               <term ref="key003369">Folter</term>
+               <term ref="key004416">Hochgerichtsfall</term>
+               <term ref="key005473">Offizialverfahren</term>
+               <term ref="key000701">Verhör</term>
+               <term ref="key005344">Untersuchungsprozess</term>
+               <term ref="key003037">Gerichtsverfahren</term>
+               <term ref="key000948">Ehrenstrafe</term>
+               <term ref="key000905">Strafe</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <div>
+                  <p><pb n="43" facs="StAZH_B_II_800_43"/><gap reason="irrelevant"/><note>Protokolleinträge des Zürcher Natalrats.</note>
+                     <lb/>Nach belesung der mit <persName ref="per010885">Anna <lb/>Maria Meithin</persName> von
+                     <placeName ref="loc008630.02">Erißkirch</placeName> aus <lb/>dem <placeName ref="loc005561"
+                        >Schwabenland</placeName>, so mit dem <lb/>zu <placeName ref="loc008631.02">St.
+                           Vyden</placeName>
+                     <term ref="lem004397">hingerichteten</term>
+                     <persName ref="per010886a">Christof <lb/>Beau</persName>, welcher im <placeName
+                        ref="loc000440">Werdembergischen</placeName>
+                     <lb/>den <choice>
+                        <abbr>kayßerl lieut</abbr>
+                        <expan>kaiserlichen leutnant</expan>
+                     </choice>
+                     <persName ref="per010887a">Wohlgemuth</persName>
+                     <lb/><term ref="lem016356">vergifftet</term> und <term ref="lem013361">bestollen</term>,
+                     gemein<lb break="no"/>same gehabt, geführter <term ref="lem016999.02">nachgän<lb break="no"
+                     />gen</term>, ward die ausmachung der <lb/>sach in pleno vorzunemmen und <lb/>darnach weiter
+                     mit recht er<lb break="no"/>kennt, daß dieselbe disen <term ref="lem001998">nach<lb
+                        break="no"/>mittag</term> an das <term ref="lem003423">halßeisen</term> ge<lb break="no"
+                        />stellet, <term ref="lem017001.02">mit ruthen ausgestrichen</term>
+                     <lb/>und auff ewig von hiesiger statt <lb/>und <term ref="lem012781">land verwisen</term>,
+                     auch ihro <lb/>ihr <term ref="lem000130">kind</term> mitgegeben werden solle. <gap
+                        reason="irrelevant"/><note>Es folgen weitere Protokolleinträge des Zürcher Natalrats.</note>
+                  </p>
+               </div>
+               
+            </body>
+         </text>
+      </group>
+      <back>
+         <div>
+            <p>Der Eintrag in den Zürcher Ratsmanualen ist als einzelne Quelle wenig aussagekräftig.
+               Stellt man diesen jedoch in einen grösseren Zusammenhang, so ist der Fall
+               aussergewöhnlich, nicht nur wegen des angeblichen <term ref="key005479"
+                  >Giftmords</term>, sondern wegen der über 100 Akten, die darüber entstanden sind.
+               Der für damalige Verhältnisse riesige Aktenberg ist angewachsen, weil sich drei <term
+                  ref="key003233">Obrigkeiten</term> um die <term ref="key000420">Gefangenen</term>,
+               die Prozessführung sowie um das beschlagnahmte <term ref="key004489">Geld</term>
+               streiten: Die Tat findet in <placeName ref="loc000440">Werdenberg</placeName> statt,
+               das unter <orgName ref="org001197">Glarner</orgName> Herrschaft steht, die
+               Verdächtigten werden jedoch in <placeName ref="loc000278">Sax-Forstegg</placeName>
+               verhaftet, das zu <orgName ref="org001196">Zürich</orgName> gehört. Durch die <term
+                  ref="key000958">Flucht</term> von <persName ref="per010886a">Christoph
+                  Beau</persName>, der in <placeName ref="loc008631">St. Fiden</placeName> wieder
+               verhaftet wird, kommt der Abt von <orgName ref="org000581">St. Gallen</orgName> als
+               dritte Obrigkeit hinzu. Die Konstellation von drei konkurrierenden Obrigkeiten führt
+               zu einer Flut von Schriftstücken, die akribisch verfasst und aufbewahrt werden.
+               Minuziös untersuchen die <term ref="key000065">Beamteten</term> den Ablauf der
+               Geschehnisse, wollen jedes Detail genau wissen und schreiben alles nieder. Ungewollt
+               eröffnen sie uns damit Einblick in den Alltag der «kleinen» Leute: Die Quellen sind
+               damit nicht nur in rechtsgeschichtlicher, sondern auch in verwaltungs-, sozial-,
+               alltags- oder medizingeschichtlicher Hinsicht interessant. Der Fall ist ausführlich
+               beschrieben und untersucht im ersten Band der Werdenberger Geschichte(n), weshalb
+               hier zum besseren Verständnis der Ereignisse und zur Bedeutung für die
+               Rechtsgeschichte auf den Artikel verwiesen wird (vgl. ausführlich <bibl><ref
+                     target="http://permalink.snl.ch/bib/chbsg991001180649803977">Malamud
+                  2018</ref>, <ref
+                     target="https://www.ssrq-sds-fds.ch/fileadmin/user_upload/publikationen/WeGe_1_18_S._240_255min.pdf"
+                     >S.&#160;240–255</ref></bibl>). </p>
+         </div>
+      </back>
+   </text>
+</TEI>
+

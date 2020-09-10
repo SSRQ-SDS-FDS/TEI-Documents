@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-08-15"/>
+            <date type="print"/>
+            <availability default="false">
+               <p xml:id="facs">Staatsarchiv St. Gallen (StASG)</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_220</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>StASG AA 2 A 9-2-29</idno>
+                  <altIdentifier>
+                     <idno>StASG AA 2 A 9-2</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <head>Schiedsspruch zwischen Sennwald und Landschreiber Roduner betreffend die
+                  Bleiche, die dem Landschreiber vor sechs Jahren bewilligt worden ist</head>
+               <msContents>
+                  <summary>
+                     <p>Schiedsspruch zwischen Sennwald und Landschreiber Roduner betreffend die
+                        Bleiche:</p>
+                     <p>1. Der Landschreiber soll den Bannbach, die Gewässer sowie Stege und Wege so
+                        in Stand stellen, dass sich niemand mehr zu beklagen habe.</p>
+                     <p>2. Wenn in den folgenden drei Jahren neue Beschwerden der Gemeinde erfolgen,
+                        muss der Landschreiber allfällige Schäden in Ordnung bringen.</p>
+                     <p>3. Roduner soll jährlich 50 Gulden zum Gemeidenutzen abgeben.</p>
+                     <p>4. Was den Transport betrifft, sollen Roduner und die Gemeindevögte
+                        zusammenkommen und schauen, dass die Gemeindegenossen daran verdienen
+                        können.</p>
+                     <p>5. Als Knechte empfiehlt der Landvogt die Herrschaftsleute, besonders die
+                        Sennwalder. Es werden fünf Sennwalder angestellt. Richter Ulrich Göldi, Wirt
+                        Hans Wohlwend, Schulmeister Andreas Roduner und Bäcker Jakob Göldi waren die
+                        vier Gesandten, die im Januar 1734 in Zürich waren. Unterschrift von Beat
+                        Ziegler, Landvogt.</p>
+                  </summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <filiation type="current">Aufzeichnung (Doppelblatt, Einzelblatt)</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="35.0"/>
+                              <width unit="cm" quantity="22.0"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate from="1735-01-19" to="1735-01-25"/>
+                     <origPlace>Schloss Forstegg</origPlace>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000688">Bleiche</term>
+               <term ref="key000687">Gewerbe</term>
+               <term ref="key000172">Walke</term>
+               <term ref="key000310">Landschreiber</term>
+               <term ref="key000259">Bach</term>
+               <term ref="key000715">Wasser</term>
+               <term ref="key000711">Verschmutzung</term>
+               <term ref="key003511">Hochwasser</term>
+               <term ref="key003343">Konflikt</term>
+               <term ref="key004966">Gemeinde</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   
+   <text>
+      <group>
+         <text>
+            <body>
+               <div>
+                  <pb n="1r" facs="StASG_AA_2_A_09-2-29_01"/>
+                  <p>
+                     <lb/>Verglichs-puncten nach dem befehl <abbr>mgnhhhr</abbr> und <lb/>oberren vom
+                     <origDate when="1734-10-09">9.ten weinmonat 1734</origDate> zwüschen der ge<lb
+                        break="no"/>meind <orgName ref="org003296">Sennwald</orgName> und dem landtschreiber
+                     <persName ref="per010313a">Roduner</persName> daselbst, <lb/>betrefende die von
+                     hochgedacht <abbr>mgnhhhr</abbr>
+                     <date type="deadline" when="1738-04-25">biß mit Geörgi
+                        <lb/>1738</date><note>Wahrscheinlich handelt es sich hier um eine schlecht
+                           geschriebene 5, denn laut der Zürcher Ratserkenntnis ist ihm die Bleiche nur bis zum
+                           <date type="deadline" when="1735-04-25">Georgstag 1735</date> bewilligt
+                           (<ref>StASG&#160;AA&#160;2&#160;A 9-2-23</ref>).</note> gnädig bewilligte <term
+                              ref="lem004676.06">bleicki</term>, errichtet von landtvogt <lb/><persName
+                                 ref="per002483a">Beat Ziegler</persName> zu <placeName ref="loc000278"
+                                    >Sax</placeName> und in beyweßen entsbenannter per<lb break="no"/>sohnen, beleßen im
+                     schloß <origPlace ref="loc006124">Forst-Eck</origPlace>, mittwuchß, den <origDate
+                        when="1735-01-19">19.ten <lb/>jenner 1735</origDate>.</p>
+                  <p>
+                     <lb/>Zum ersten soll der <term ref="lem002854">landtschreiber</term> die von der
+                     gemeind <lb/>geführte klägten und beschwerden, sonderheitlich mit dem <lb/><term
+                        ref="lem015113.06">bann-bach</term>, <term ref="lem003135">gewäßer</term>, <term
+                           ref="lem001145">stäg und wegen</term> abheben und al<lb break="no"/>les nach
+                     gutbefinden und wohlgefallen <abbr>ugnhhhr</abbr>
+                     <lb/>und oberen einrichten und machen, damit deroselben <lb/>hoches ansehen beobachtet
+                     und also die gemeind schad<lb break="no"/>loß gehalten werde.</p>
+                  <p>
+                     <lb/>Wann dann zum anderen in der zeit der <date dur="P3Y">drey jahren</date>
+                     <lb/>neüe <term ref="lem000991">beschwerden</term> von der <term ref="lem006896"
+                        >gmeind</term> oder eint oder an<lb break="no"/>deren <term ref="lem002448"
+                           >gemeindts-genoßen</term> entstehen wurden, solle <lb/>der <term ref="lem002854"
+                              >landtschreiber</term>, wann <term ref="lem000969">schaden</term> were verursachet
+                     worden, <lb/>solchen zu oberkeitlicher zufridenheit abtragen und <lb/>die allfähligen
+                     neüen beschwerden abthun, damit also <lb/>die gemeindtsgnoßen in ruh, auch ohne kösten
+                     und <lb/>schaden seyn könnind.</p>
+                  <p>
+                     <lb/>Drittens und weilen es nit allein umb das zuthun, <pb n="1v" facs="StASG_AA_2_A_09-2-29_02"/>
+                     <lb/>daß der schaden gewendt, sonderen auch daß der <term ref="lem014298">gemeind<lb
+                        break="no"/>nuzen</term> von ime, dem landtvogt, aufrichtig beförderet <lb/>werde,
+                     so solle der <term ref="lem002854">landtschreiber</term> zu end eines jeden jahrs
+                     <lb/><measure type="currency" quantity="50" unit="fl">50 </measure> in das <term
+                        ref="lem000376">schloß</term> bringen, damit solche von dem landt<lb break="no"
+                        />vogt dem <term ref="lem004105">gmeindvogt</term> zu aüfnung des <term
+                           ref="lem003088">gmeind-guts</term>
+                     <lb/>oder der <term ref="lem001528">auwen</term> eingehändiget werden könind. Wird
+                     <lb/>also die erste zahlung seyn im <date type="deadline" when="1735-12">christmonat
+                        dißes an<lb break="no"/>getrettenen 1735 jahrs</date>, alles in dem verstand, nach
+                     der <lb/>zeit, wann kan gebleickt werden.</p>
+                  <p>
+                     <lb/>Viertens, was dann das <term ref="lem012274">fuhr-werck</term> von <term
+                        ref="lem010348.04">leinwätt</term>, <term ref="lem004519.03">äschen</term>
+                     <lb/>oder anderem betrifft, wird der landtschreiber, die <term ref="lem000089"
+                        >ambts<lb break="no"/>männere</term> und der <term ref="lem004105"
+                           >gmeindvogt</term> zusammentretten und <lb/>eine ordentliche einrichtung machen,
+                     damit die <term ref="lem002448">gmeind<lb break="no"/>gnoßen</term> auch in disem
+                     stuck etwas verdienen könind.</p>
+                  <p>
+                     <lb/>Fünfftens der <term ref="lem000232">knechten</term> halb, so habe ich dem herren
+                     <lb/><term ref="lem002843">statt-ammann</term><note>Hier ist wohl der Stadtammann
+                        von Altstätten, <persName ref="per007966a">Johannes Kuster</persName>, gemeint. Laut
+                        dem diesem Vergleich angehängten Bericht des Landvogts bezahlt der Stadtammann dem
+                        Landschreiber im Zusammenhang mit der Bleiche jährlich 195 Gulden. Er ist wohl
+                        Transportunternehmer und Hauptabnehmer der Ware.</note> die <term ref="lem001593"
+                           >herrschafftleüth</term> zugebrauchen recommen<lb break="no"/>diert, sonderheitlich
+                     die <orgName ref="org003296">Sennwalder</orgName>. Gleich er dann zum <lb/>anfang
+                     fünff angedungen und wird sich könfftig <lb/>vorauß die <orgName ref="org003296"
+                        >Sennwalder</orgName> angelegen seyn laßen, wann er <lb/>sihet, daß mann sich auch
+                     befleißet, ihme mit liebe, <lb/>freündlichkeit und dienstfertigkeit an die hand zu
+                     gehen.</p>
+                  <p>
+                     <lb/><term ref="lem000342">Richter</term>
+                     <persName ref="per010315a">Ulrich Rich</persName>, <term ref="lem002854"
+                        >landtschreiber</term>
+                     <abbr>hr</abbr>
+                     <persName ref="per010313a">Ulrich Roduner</persName>, <lb/><term ref="lem000642"
+                        >landtweibel</term>
+                     <abbr>hr</abbr>
+                     <persName ref="per010316a">Ulrich Leüwener</persName> und <term ref="lem004105"
+                        >gemeindvogt</term>
+                     <lb/><persName ref="per010319a">Ulrich Göldi</persName>.</p>
+                  <p><lb/><term ref="lem000342">Richter</term>
+                     <persName ref="per010320a">Ulrich Göldi</persName>, <term ref="lem000842">wirth</term>
+                     <persName ref="per010321a">Hans Wolwend</persName>, schul<pb n="2r"  facs="StASG_AA_2_A_09-2-29_02" break="no"
+                     /><lb/>meister <persName ref="per010322a">Andreas Roduner</persName> und <term
+                        ref="lem003398.04">beck</term>
+                     <persName ref="per010324a">Jacob Göldi</persName> wa<lb break="no"/>ren die vier
+                     außschüß, so anno <origDate from="1734-01-01" to="1734-01-31">1734 im
+                        jenner</origDate> in <placeName ref="loc000065">Zürich</placeName>
+                     <lb/>gewesen.</p>
+                  <p><lb/>1. <persName ref="per010326">Uli Göldi</persName>, <unclear>alixen</unclear>,
+                     <term ref="lem002547">schumacher</term> auß der <placeName ref="loc008430.02"
+                        >Aügstis Rieder</placeName>
+                     <term ref="lem005168.03">rood</term>.</p>
+                  <p><lb/>2. <persName ref="per010330">Uli Leüwener</persName>, <term ref="lem000682"
+                     >schulmeister</term> aus der <placeName ref="loc008431.02"
+                        >Lögeter</placeName>-rood.</p>
+                  <p>
+                     <lb/>3. <persName ref="per010328a">Andreas Auer</persName>, genannt klein, auß der
+                     <placeName ref="loc008432.02">Leüwener</placeName>-rood.</p>
+                  <p>
+                     <lb/>4. <persName ref="per010331">Hans Frick</persName>, genannt breit, auß der
+                     <placeName ref="loc008433.02">Untersteiner</placeName>-<term ref="lem005168.03"
+                        >rood</term>.</p>
+                  <p>
+                     <lb/>5. <persName ref="per010332">Hans Reich</persName>, der <term ref="lem001677"
+                        >fischer</term>, auß der <placeName ref="loc008434.02">Ägeter</placeName>-rood.</p>
+                  <p>
+                     <lb/>Der <persName ref="per010327a">Hans Göldi, genannt Galluß Rothen</persName>, auß
+                     der <placeName ref="loc008435.02">Ob<lb break="no"/>wäger</placeName>-<term
+                        ref="lem005168.03">rood</term> ist nit kommen.</p>
+                  <p>
+                     <lb/>Und der richter <persName ref="per010329">Hans Auer</persName> ware <term
+                        ref="lem002432">kranck</term> am <term ref="lem016115.01">stich</term>, <lb/>alle
+                     auß dem <placeName ref="loc000950">Sennwald</placeName>.</p>
+                  <p>
+                     <lb/>Danne habe ich, endtsbenannter, vor mich zu meiner sicherheit und auf <lb/>meine
+                     kösten zu unparteyischen zeügen zu dißer <lb/>handlung genommen, namblich:</p>
+                  <p>
+                     <lb/>Von <placeName ref="loc000691">Saletz</placeName>
+                     <term ref="lem000449">landammann</term> herr <persName ref="per010333">Ulrich
+                        Ryner</persName> und <term ref="lem000342">rich<lb break="no"/>ter</term>
+                     <persName ref="per010334a">Jacob Bösch</persName>.</p>
+                  <p><lb/>Von <placeName ref="loc006042">Sax</placeName> richter <persName ref="per010335"
+                     >Johannes Bernegger</persName>, der <term ref="lem003984">ferwer</term>.</p>
+                  <p><lb/>Zugaben. <gap/><note>Es folgt hier ein Bericht über Verhandlungen auf Schloss
+                     <placeName ref="loc006124">Forstegg</placeName>, die am <date when="1735-01-25"
+                        >25. Januar 1735</date> betreffend die Weiterführung der Bleiche geführt
+                     wurden.</note></p>
+               </div>
+               <div>
+                  <pb n="3v" facs="StASG_AA_2_A_09-2-29_04"/>
+                  <signed><lb/><handShift scribe="per002483a"/>Bescheint <lb/><persName ref="per002483a"
+                     >Beat Ziegler</persName>, <lb/><choice>
+                        <abbr>dinst</abbr>
+                        <expan>dienstag</expan>
+                     </choice>, <origDate when="1735-01-25">25. 1735</origDate>, <lb/>deß abendts</signed>
+                  <div>
+                     <ab type="archiving reference" place="below">N. 6</ab>
+                  </div>
+               </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div n="1">
+            <p>Um die <term ref="key000688">Bleiche</term> und Walke von <term ref="key000310"
+                  >Landschreiber</term>
+               <persName ref="per010313a">Ulrich Roduner</persName> kommt es in <placeName
+                  ref="loc000950">Sennwald</placeName> zu grossen Streitigkeiten. Als der
+               Landschreiber im März 1727 eigenmächtig Wasser aus einem herrschaftlichen Bannbach
+               für seine Bleiche und Walke ableitet, lässt <orgName ref="org001196">Zürich</orgName>
+               ihn bis zum Aufritt eines Landvogts im nächsten Jahr mit möglichst geringem Schaden
+               für die <term ref="key003963">Fischer</term> gewähren
+                     (<bibl><ref>StASG&#160;AA&#160;2&#160;A 9-2-4</ref></bibl>). Ein Jahr später
+               bewilligt <orgName ref="org001196">Zürich</orgName> dem Landschreiber, die
+                  <orig>vorhabende <term ref="lem004676.07">bleichi</term> und <term
+                     ref="lem000357.05">walchi</term> würklich in den stand [zu] stellen</orig>,
+               doch mit der Bedingung, dass dem <term ref="key000259">Bach</term> nicht geschadet
+               wird. Sein Wasser muss er in den <placeName ref="loc008436.01">Mülbach</placeName>
+               leiten, damit für den <term ref="key003498">Müller</term> kein Wassermangel entsteht.
+               Sollte sich nach einer Besichtigung ergeben, dass durch seine Bleiche Schäden
+               entstehen, kann die <term ref="key000297">Bewilligung</term> geändert werden
+                     (<bibl><ref>StASG&#160;AA&#160;2&#160;A 9-2-4</ref></bibl>). Nach einer
+               Besichtigung durch Säckelmeister <persName ref="per010912a">Ulrich</persName>
+                     (<bibl><ref>StASG&#160;AA&#160;2&#160;A 9-2-9</ref></bibl>) sowie vom alten und
+               neuen Landvogt wird festgestellt, dass der Landschreiber nicht nur die Walke
+               ungefragt an den Bannbach gestellt, sondern auch den Bach erweitert und mit einem
+               Damm versehen hat, so dass Wege und Güter überschwemmt werden. Zudem verbraucht er
+               übermässig Holz und durch den Damm ist den Fischen der Weg in die oberen Teile des
+               Baches verwehrt (<bibl><ref>StASG&#160;AA&#160;2&#160;A 9-2-12</ref></bibl>). Doch
+               das Gutachten der beiden Säckelmeister von Zürich vom <date when="1728-06-17">17.
+                  Juni 1728</date> relativiert diese Vorwürfe und schlägt Gegenmassnamen vor
+                     (<bibl><ref>StASG&#160;AA&#160;2&#160;A 9-2-13</ref></bibl>), so dass bis 1734
+               die Bleiche ungehindert betrieben wird.</p>
+            <p>Anfang <date when="1734">1734</date> verlangen jedoch die Abgeordneten der Gemeinde
+                  <orgName ref="org003296">Sennwald</orgName> wegen der grossen Schäden durch die
+               Bleiche eine Aufhebung der vor sechs Jahren ausgegebenen Bewilligung, worauf die
+               Verordneten von <placeName ref="loc000066">Zürich</placeName> auf Ratifikation der
+               Obrigkeit entscheiden, dass Landschreiber <persName ref="per010313a"
+                  >Roduner</persName> seine Bleiche bis auf den <date type="deadline"
+                  when="1735-04-25">Georgstag 1735</date> weiterführen dürfe und diese danach ohne
+               eine neue Bewilligung auflösen müsse (<bibl><ref>StASG&#160;AA&#160;2&#160;A
+                     9-2-17</ref></bibl>; zum Datum des Georgtages im Bistum Chur vgl. die Fussnote
+               in <ref>SSRQ_SG_III_4_250</ref>). Zürich bestätigt diesen Vergleich, doch mit dem
+               Zusatz, dass eine <term ref="key000297">Bewilligung</term> zur Weiterführung vom
+               Willen der Gemeinde <orgName ref="org003296">Sennwald</orgName> abhängen solle. Zudem
+               müsse der Landschreiber Entschädigungszahlungen tätigen
+                     (<bibl><ref>StASG&#160;AA&#160;2&#160;A 9-2-18</ref></bibl>).</p>
+            <p>Dieser Entscheid führt nicht nur zwischen der Gemeinde <orgName ref="org003296"
+                  >Sennwald</orgName> und Landschreiber <persName ref="per010313a"
+                  >Roduner</persName>, sondern auch innerhalb der Gemeinde Sennwald zu heftigen
+               Streitigkeiten, worauf Zürich am <date when="1734-10-09">9. Oktober 1734</date>
+                     (<bibl><ref>StASG&#160;AA&#160;2&#160;A 9-2-23</ref></bibl>) den Landvogt
+               beauftragt, zwischen Gemeinde und Landschreiber zu vermitteln. Am <date
+                  when="1735-01-19">19. Januar 1735</date> wird der hier edierte Vergleich
+               aufgestellt, dem ein ausführlicher Lagebericht angehängt ist. Da sich jedoch ein
+               Grossteil der Gemeinde der Weiterführung der Bleiche weiter widersetzt und anführt,
+               dass dieser Vergleich der Erkenntnis von Zürich vom 25. Januar 1734 widerspreche,
+               kommt es am <date when="1735-02-05">5. Februar 1735</date> zu einer Anhörung einiger
+               Abgeordneter der Gemeinde <orgName ref="org003296">Sennwald</orgName>. Der Landvogt
+               versucht, mit einer halbstündigen Rede die Gemeindeabgeordneten vom Nutzen der
+               Bleiche für die Gemeinde zu überzeugen. Doch alle seine Bemühungen scheitern, da alle
+               Anwesenden keine Bleiche mehr wollen. Darauf gibt auch Landschreiber <persName
+                  ref="per010313a">Roduner</persName> nach und verspricht, auf die Bleiche zu
+               verzichten (<bibl><ref>StASG&#160;AA&#160;2&#160;A 9-2-31</ref></bibl>; vgl. auch die
+               zu diesem Konflikt angefertigte Zeichnung der Bleiche und Walke
+                     [<bibl><ref>StASG&#160;AA&#160;2&#160;A 9-2-27</ref></bibl>]). Ein
+               Wiedereröffnungsversuch einige Jahre später scheitert (vgl. <bibl><ref>StAZH A 346.5,
+                     Nr. 299</ref>; <ref>Nr. 303–304</ref></bibl>; zur Bleiche siehe auch <bibl><ref
+                     target="http://permalink.snl.ch/bib/chbsg000141314">Kreis 1923</ref>, S.
+                  100–101</bibl>).</p>
+            <p>Die Bleiche und Walke lag nach einer zeitgenössischen Zeichnung beim
+               <placeName ref="loc010950">Mädlibach</placeName>, der bei <placeName ref="loc010951.01">Rohert</placeName> durchfloss
+                     (<bibl><ref>StASG AA 2 A 9-2-27</ref></bibl>).</p>
+         </div>
+         <div n="2"><p>1762 wurde die Errichtung einer Bleiche in Frümsen gestatten, die jedoch auch nur wenige Jahre in
+               Betrieb war. <date when="1774">1774</date> wird eine Wiedereinrichtung einer <term
+                  ref="key000688">Bleiche</term> in Betracht gezogen und zwar beim <term
+                  ref="key000108">Weiher</term> in <placeName ref="loc006121">Frümsen</placeName>
+                     (<bibl><ref>StAZH&#160;A&#160;346.6, Nr.&#160;147</ref></bibl>;
+            <bibl><ref target="http://permalink.snl.ch/bib/chbsg000141314">Kreis 1923</ref>, S. 101</bibl>). Weiteres ist dazu nicht
+               bekannt.</p></div>
+         <div n="3"><p>Zur Bleiche in <placeName ref="loc007867">Werdenberg-Wartau</placeName>: Als <date
+            when="1706">1706</date> Richter und Landesfähnrich <persName ref="per008734a">Gallus
+               Engler</persName> von <placeName ref="loc000016">Werdenberg</placeName> von seinem
+            Schwager Landeshauptmann <persName ref="per008735a">David Hilty</persName> die <term
+               ref="key000967">Färberei</term> zusammen mit der <term ref="key005154">Mange</term> mit
+            allem Zubehör erwirbt, bestätigt <orgName ref="org001197">Glarus</orgName>, <orig>daß in
+               unsserer graffschafft <placeName ref="loc000440">Werdenberg</placeName> mehr nit als nur
+               ein <term ref="lem004676.08">bleicke</term> stath und platz haben solle, so wollen wir
+               danne ihme, fenderich <persName ref="per008734a">Engler</persName>, weilen er daß gantze
+               haus, <term ref="lem000389.02">farb</term> und <term ref="lem004477">mange</term>, wie
+               obstath, besitzet, auch die gnad und ehehaffte zur bleicke</orig> geben (<bibl><ref
+                  target="https://archivverzeichnis.gl.ch/home/#/content/85e11623d05e4ed088f788722b004138"
+                  >LAGL&#160;AG III.2401:044</ref>, S. 350</bibl>). 1721 ersucht Richter <persName
+                     ref="per008734a">Engler</persName> den Landvogt um Hilfe, weil ihm Säckelmeister
+            <persName ref="per010336">Lienhard Vetsch</persName> das Recht an einer einzigen Bleiche
+            streitig machen will (<bibl><ref
+               target="https://archivverzeichnis.gl.ch/home/#/content/e9d83c80726f4918a5061ee78bf1ca3c"
+               >LAGL&#160;AG&#160;III.2459:068</ref></bibl>). Nach dem Urbar von 1754 zahlt der
+            Besitzer der Bleiche jährlich 1 Pfund (<bibl><ref
+               target="https://archivverzeichnis.gl.ch/home/#/content/85e11623d05e4ed088f788722b004138"
+               >LAGL&#160;AG III.2401:044</ref>, S. 351</bibl>, vgl. auch den dazugehörigen <term
+                  ref="key004531">Wechselkurs</term>). 1784 ist <persName ref="per010337">Linus Johannes
+                     Hilty</persName> als Bleicher erwähnt ([PA&#160;Hilty] Privatarchiv Mappe Grafschaft
+            Werdenberg, Älteres, 24.06.1784).</p></div>
+      </back>
+   </text>
+</TEI>

@@ -1,0 +1,455 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+
+			</titleStmt>
+
+			<publicationStmt>
+				<date type="electronic" when="2019-03-20"/>
+				<date type="print"/>
+			</publicationStmt>
+
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ_FR_I_2_8_0021_006</idno>
+			</seriesStmt>
+
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<idno>StAFR, Thurnrodel 9 II, S. 180–194</idno>
+					</msIdentifier>
+					<head>Marie Crespon – Verhör und Urteil / Interrogatoire et jugement</head>
+					<msContents>
+						<summary></summary> 
+						<msItem>
+							<textLang>de</textLang> 
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support>
+									<material></material>
+								</support>
+								<extent>
+									<dimensions type="leaves">
+										<height unit="cm" quantity="0.0"/>
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+									<dimensions type="plica">
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+								</extent>
+							</supportDesc>
+						</objectDesc>
+						</physDesc>
+					<history>
+						<origin>
+							<origDate when="1600-06-10"></origDate><note>Le présent interrogatoire et jugement n’est pas daté, mais il pourrait s’agir du 10 juin 1593, date du jugement donnée dans&#160;: StAFR, Ratsmanual 151 (1600), S. 272.</note>
+							<origPlace></origPlace>
+						</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+							
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+			<particDesc default="false"/>
+			<settingDesc default="false"/>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+					
+					
+						<pb n="180"/><p><lb/>Vollgt die <term ref="lem009471.06">müßhandlung</term> unnd 
+							<lb/><term ref="lem001254">vergicht</term>, so <persName ref="per009773a.02">Merya</persName>, <persName ref="per009774a.01"><sic>Jhean</sic> Crepons</persName> 
+							<lb/>von <placeName ref="loc008154.02">Tschiesa</placeName>, in der herschafft <placeName ref="loc000464">Bern</placeName> 
+							<lb/>gsessen, eheliche tochter, in unserer 
+							<lb/><abbr>g</abbr> <choice><abbr>herr</abbr><expan>herren</expan></choice> unnd obern dißer loblichen 
+							<lb/>statt <placeName ref="loc001060.02">Fryburg</placeName> gefencklichen <term ref="lem004405">banden</term> 
+							<lb/><term ref="lem001236.16">verjächen</term> unnd bekhendt hatt.</p>
+						
+						<p><lb/>Allß erstlich, so hatt die vorgenante <persName ref="per009773a.02">Merya
+								<lb/>Crepon</persName>
+							<term ref="lem001236.16">verjächen</term> unnd bekhendt, das der <term
+								ref="lem011429.09">böß <lb/>geyst</term> vor <date dur="P1Y">einen jar</date> ongferlich in
+								<persName>Frantz <lb/>Freleys</persName> huß zu ira khommen, ohne
+							das sy <lb/>gar nit wust, das es der <term ref="lem014673.06">böß
+								fündt</term> were. <lb/>In bedacht, er wie ein andere mans person
+							<lb/>gestalltet, wyßhoßen unnd ein grauw <lb/><term ref="lem000195.07"
+								>wanmoscht</term> antragendt, doch die füß wie ein <lb/>ochs
+							habendt. Inden ermellter <persName>Freley</persName> sy <pb n="181"
+							/><lb/>sträng anhiellt, sich ime zu ergeben, dan er sy <lb/>rych gnug
+							machen wurdt, das iren nit mehr von<lb break="no"/>nötten, die <term
+								ref="lem002264.12">almußen</term> zu fordern müssen. So sy <lb/>nit
+							thun wollt, sonders alls sy das heyllig <lb/><term ref="lem016600.02"
+								>crütz</term> für sich macht unnd sich gesegnet, verschwandt
+							<lb/>der <term ref="lem011429.09">böß geyst</term>
+							<term ref="lem011078">angents</term> von ir.</p>
+						
+						<p><lb/>Item hatt sy wytter bekhendt, vor <date dur="P1Y">einem jar</date> 
+							<lb/>achtmal der unkhüescheit halben mit <sic>ober<lb break="no"/>mellenn</sic> <persName>Frantz Freley</persName>, so man ouch unlan<lb break="no"/>gest executiert, vergässen zehaben.</p>
+						
+						<p><lb/><subst><del>I</del><add place="inline">Denne</add></subst> hatt sy <term
+								ref="lem001236.16">verjächen</term> unnd bekhendt, sich <lb/>dem
+								<term ref="lem014673.07">bößen vindt</term> ergäben zehaben, so sy
+							<lb/>mit synen <term ref="lem015716.02">kräuwlen</term> mit gunst
+							zumellden <lb/>an ir wyblichen <term ref="lem015717.02">schem</term>
+							<term ref="lem016598">zeichnet</term> allß ouch <lb/>uff dem houpt, do
+							sy khein haar hatt; unnd <lb/>allß derselb <term ref="lem011429.05">böß
+								geist</term> nun sollichs an ir <lb/><term ref="lem015709"
+								>verbracht</term>, hatt sy ime, mit <unclear>gunscht</unclear>
+							zumellden, <lb/>noch den hindern khüssen müssen. Es <pb n="182"
+							/><lb/>sye ouch ernampt <term ref="lem011429.05">böß geist</term>, ir
+							meyster, <lb/><persName>Poffaret</persName> genant.</p>
+						
+						<p><lb/>Item wytter hatt sy bekhendt, mit ermellten <lb/><term ref="lem014673.09">bößen
+								fündt</term>, irem meyster, ein mal zu<lb break="no"/>schaffen
+							gehept, so sy gar warm tchte.</p>
+						
+						<p><lb/>Denne hatt sy <term ref="lem001236.16">verjächen</term>, das der <term
+								ref="lem011429.05">böß geist</term>, ir <lb/>meyster, ira etwas
+							kleinen samens geben <lb/>mit bevelch, lütt unnd <term
+								ref="lem005796.03">gutt</term> domit zu
+							<lb/><term ref="lem016356.04">vergüfftenn</term> söllen. So sy gethan unnd <sic>er<lb
+									break="no"/>melles</sic> samens <persName>Pierre
+								Brageis</persName> von <placeName ref="loc008154.03"
+								>Chiesas</placeName>
+							<lb/><term ref="lem000310.12">veech</term> geben unnd ime elliche <term ref="lem001076.48">khü</term>
+							davon <lb/>abgangen unnd gstorbenn syendt.</p>
+						
+						<p><lb/>Wytter hatt sy bekhendt, mit ermelltem <lb/><term ref="lem011429.13">bößen
+							geist</term>, irem meyster, im <term ref="lem016527.04">ofenhuß</term>
+							<lb/>zu <placeName ref="loc006003.04">Ösch</placeName> zu schaffen ghept
+							habe.</p>
+						
+						<pb n="183"/><p><lb/>Item hatt sy wytter <term ref="lem001236.16">verjächen</term>, <persName>Claudo</persName>,
+							den <lb/><term ref="lem000560.03">schryber</term> von <placeName ref="loc007851.07">Castell
+									<abbr>St</abbr> Denis</placeName>, mit einem <lb/>öpffel, so sy
+							ime geben, vergifft zehaben, <lb/>das er sinn gstorbenn syg.</p>
+						
+						<p><lb/>Wytter hatt sy bekhendt, den <term ref="lem015821.02">grysen</term> von <placeName ref="loc007922.02">Sensales</placeName> 
+							<lb/>ein tochter mit einer <term ref="lem001126.06">büren</term> (so sy ira gebenn) 
+							<lb/>vergüfft hab, unnd das deßwegenn sye sy nit 
+							<lb/>beherbergen wollen.</p>
+						
+						<p><lb/>Mehr hatt sy <term ref="lem001236.16">verjächen</term>, doselbs by <placeName
+								ref="loc007922.02">Sensales</placeName>
+							<lb/>ein <term ref="lem001394.10">geyß</term> unnd zwo
+								<unclear>zycklü</unclear><note>Gemeint sind vermutlich
+								Zicklein.</note>, so <persName>Pierre Genz</persName>
+							<lb/>gsyn, mit ermelltem samen oder stoub vergüfft <lb/>zehaben, unnd
+							sinn sterben müssen.</p>
+						
+						<p><lb/>Item, so hatt sy ouch bekhendt, das der vorernampt <lb/><persName>Frantz
+								Freley</persName> unnd der <term ref="lem011429.05">böß geist</term>
+							das <term ref="lem014650.01">verschinen</term>
+							<lb/>jar ein grossen treffenlichen <term ref="lem007347.02">hagell</term> gmacht. <lb/>Vorhabens, das gantz thaal domit zu<term
+								ref="lem005335">verderben</term>. <pb n="184"/><lb/>Sy, gefangne,
+							habe aber doch nit darzu verhollffen, <lb/>aberwoll innen (dwyll sy
+							sollichs verhand<lb break="no"/>let) das morgen brott zugrüscht.</p>
+						
+						<p><lb/>Wytter hatt sy <term ref="lem001236.16">verjächen</term>, das sy unnd der 
+							<lb/>obernampt <persName>Frantz Freley</persName> eines andern 
+							<lb/>mals im bach von <placeName ref="loc007922.02">Sensales</placeName>, dorin sy mitt 
+							<lb/>wyssen rutten gschlagen, den <term ref="lem007347.02">hagell</term> gmacht 
+							<lb/>habindt.</p>
+						
+						<p><lb/>Denne hatt sy bekhendt, vor <date dur="P6W">sechs wuchen</date> 
+							<lb/>zu <placeName ref="loc007899.05">Bervischen</placeName> zwo <term ref="lem001076.59">khü</term> vor einem matten 
+							<lb/>thurli vergüfft zuhaben, unnd das deßwegen 
+							<lb/>sy ira etwas <term ref="lem002272.03">mülch</term> geben, so ira <term ref="lem014889.02">wee</term> im 
+							<lb/>buch gethan.</p>
+						
+						<p><lb/>Wytter hatt sy <term ref="lem001236.16">verjächen</term> zu <placeName ref="loc008048.03">Corbers</placeName> ein 
+							<lb/><choice><abbr>f</abbr><expan>frau</expan></choice> mit einem öpffell (so sy ira geben<choice><sic></sic><corr>)</corr></choice>
+							<lb/>vergüfft habe.</p>
+						
+						<pb n="185"/><p><lb/>Item, so hatt sy wytter bekhendt, im <placeName ref="loc007682.05">Grossen
+								<lb/>Wyler</placeName> obgryers<note>Der Schreiber meinte wohl
+									<orig>ob <placeName ref="loc005708.02"
+								>Gryers</placeName></orig>.</note> in <persName>Frantz
+									<unclear>Laupes</unclear></persName> huß ein <lb/>tochter
+							vergifft zehaben.</p>
+						
+						<p><lb/>Denne, so habe sy by <placeName ref="loc007851.07">Castell <abbr>St</abbr>
+								Denis</placeName> ein <lb/>schwyn vergüfft.</p>
+						
+						<p><lb/>Unnd zu <placeName ref="loc007894.03">Gurmells</placeName> hab sy ouch ein
+							<term  ref="lem001815.06">färli</term> unnd <lb/>ein geyß vergüfft.</p>
+						
+						<p><lb/>Wytter hatt sy <term ref="lem001236.16">verjächen</term> unnd anzeigt, das sy der
+								<lb/><term ref="lem000481.27">wienachten</term>, so sy uff den
+									catoli<subst><del>ch</del><add place="overwritten"
+								>schenn</add></subst> gebietten <lb/>herumb zogen, der <term
+								ref="lem014673.10">böß vündt</term> gar nütt dan <lb/>allein einer
+							nacht zu ira in die gfangen<lb break="no"/>schafft khommen unnd ira
+							starck verbotten, die <lb/>warheit nit zu bekhennen, dan sonst man
+							<lb/>sy verbrennen werdt.</p>
+						
+						<p><seg><lb/>Denne hab sy bekhendt, der <term ref="lem015197">üppigen</term> sachen <lb/>halb
+								ellff männer <term ref="lem015248.02">erkhendt</term> zehaben.</seg>
+							<pb n="186"/><seg><lb/><subst><del>denne</del><add place="inline"
+										>Hatt</add></subst> sy <term ref="lem001236.16"
+									>verjächen</term>, aber mals <lb/>zwey schaaff vergüfft
+								zehaben.</seg>
+							<seg><lb/>Unnd <persName>Jehan <unclear>Datan</unclear></persName> habe
+								sy ein geyß <lb/>vergüfft.</seg></p>
+						
+						<p><lb/>Mehr hatt sy bekhendt, dem <persName>Marc von 
+							<lb/><placeName ref="loc008099.05">Viffis</placeName></persName> ein tochter vergifft zu haben und 
+							<lb/>das deßwegen sy ira <term ref="lem015230.02">dhein</term> brott nit geben wellen.</p>
+						
+						<p><lb/>Item, so hatt sy wytter bekhendt, <persName>Frantzceyßa <lb/>Mußi</persName> im
+								<placeName ref="loc007682.05">Großen Wyler</placeName> ob <placeName
+								ref="loc005708.02">Gryers</placeName> mit einer <lb/><term
+								ref="lem001126.06">büren</term> vergifft zehaben. Deß sy noch kranck
+							<lb/>sye unnd sy, gefangin, ime es nit wider <lb/>abnemmen mög. Es sye
+							dan sach, das der <term ref="lem011429.09">böß <lb/>geyst</term> ira
+							etwas zügs darzu gebe, sollichs <lb/>zu <term ref="lem015722"
+								>emendieren</term> mögen. Doch ist sy dißer <lb/>wortten wider
+							abgfallen unnd anzeigt, eine <lb/>irer <term ref="lem011441.04"
+								>gspülen</term> es gethan habe.</p>
+						
+						<pb n="187"/><p><lb/>Denne hatt sy <term ref="lem001236.16">verjächen</term>, wie sy dem <persName>Grimo 
+							<lb/>de Choz</persName> etliche schaaff vergüfft hab unnd 
+							<lb/>sinn gstorben syendt.</p>
+						
+						<p><lb/>Wytter hatt sy bekhendt, zur <placeName ref="loc008133.03">Nüwenstadt</placeName><note>L’identification du lieu est incertaine. Il pourrait s’agir du quartier de la <placeName ref="loc008133">Neuveville</placeName> ou de <placeName ref="loc001311">La Neuveville</placeName>.</note> ein 
+							<lb/>wybs person <persName>Legiera Bessonna</persName> genant, so 
+							<lb/>by den <persName>Marele</persName> gedient, vergüfft hab unnd 
+							<lb/>desselbigen müssen.</p>
+						
+						<p><lb/>Allß ouch im <placeName ref="loc008089.04">Rottschmondt</placeName> habe sy ein 
+							<lb/>man, der alls <persName>Nico Bowey</persName> genant, vergüfft, 
+							<lb/>das er sin ouch gstorben sye.</p>
+						
+						<p><lb/>Sy hatt ouch anzeigt, wie das sy <term ref="lem015723.02">enendt</term>  
+							<lb/>dem see gar vil <subst><del>füchs</del><add place="inline"><term ref="lem000310.12">veechs</term></add></subst> umbracht 
+							<lb/>unnd vergüfft habe.</p>
+						
+						<p><lb/>Item, so hatt sy ouch bekhendt, allhie in dißer <lb/>statt an der <placeName
+								ref="loc008378.02">Rychen gassen</placeName> 6 portten <lb/>oder
+							hüßthüren, wie ouch in der <placeName ref="loc008379.03">Schmidt
+								<lb/>gassen</placeName>, deren huß <term ref="lem000281.04"
+								>gsundt</term> sy aber doch nitt <lb/>khendt, uß bevelch deß <term
+								ref="lem011429.10">bößen geysts</term>
+							<pb n="188"/><lb/>angsalbet unnd geschmürbt habe.</p>
+						
+						<p><lb/>Wytter hatt sy <term ref="lem001236.16">verjächen</term> unnd bekhendt, 
+							<lb/>mit iren <term ref="lem011441.02">gspilen</term> unnd consortten in 
+							<lb/>der tyfflü<subst><del>ch</del><add place="overwritten">schen</add></subst> seckt unnd <term ref="lem015075.03">sinagog</term> 
+							<lb/>gwäßen zesyn.</p>
+						
+						<p><lb/>Denne hatt sy bekhendt, wie sy unnd 
+							<lb/>ir gspüle den <persName>Piere Rossie</persName> von 
+							<lb/><placeName ref="loc008089.04">Rottschmondt</placeName> mit etlichen <term ref="lem001126.06">büren</term> unnd 
+							<lb/>nussen, so sy ime geben, vergifft habindt, 
+							<lb/>das er sinn stärben müssen.</p>
+						
+						<p><lb/>Mehr hatt sy anzeigt, das eine irer 
+							<lb/><term ref="lem011441.04">gspülen</term> ein allten man zu <placeName ref="loc007894.03">Gurmells</placeName> im 
+							<lb/>ersten nüwen huß vergüfft hab.</p>
+						
+						<p><lb/>Sy hatt ouch <term ref="lem001236.16">verjächen</term>, es sye <lb/><date dur="2.5">zwey jar unnd ein
+							halbs</date>, das sy gefangne <lb/>sich dem <term ref="lem007321.07"
+								>tyffell</term> ergäben unnd ine <lb/>für iren meyster erkhendt
+							hab.</p>
+						
+						<pb n="189"/><p><lb/>Item, so hatt sy wytter bekhendt mit iren <lb/><term ref="lem011441.04">gspülen</term> unnd
+							consortten by einem wasser <lb/>gägen <placeName ref="loc008150.01"
+								>Maracon</placeName>, ir böße seckt unnd <lb/><term
+								ref="lem015075.03">sinagog</term> gehallten zehabenn.</p>
+						
+						<p><lb/>Sy hatt ouch bekhendt zu <placeName ref="loc008151.02">Corsier</placeName> einer 
+							<lb/>armen <choice><abbr>f</abbr><expan>frau</expan></choice> zwey schaaff.</p>
+						
+						<p><lb/>Item dem <persName>Marmet Ramel</persName> zu <placeName ref="loc008152.02">Chardonna</placeName> 
+							<lb/>dry kölber.</p>
+						
+						<add hand="other hand" place="inline"><p><lb/>Deme ouch zu <placeName ref="loc008151.03">Corsio</placeName> zwey schaff, so der
+											<persName>Ram<subst><del>e</del><add place="overwritten"
+											>l</add></subst>en</persName>
+								<lb/>waren.</p>
+						
+							<p><lb/>Allß auch by einer <term ref="lem000072.06">müli</term> ein <term ref="lem001076.42">khu</term>, so ir kalb
+								<lb/>hatt, vergüfftet unnd sinn alle abgangen unnd gestorben
+								<lb/>syendt.</p>
+					
+							<p><lb/>Item hatt sy witter <term ref="lem001236.16">verjächen</term> unnd bekhenndt,
+								<lb/>das sy uff dem <placeName ref="loc008305.02">Mont von
+									Chardona</placeName> ein kleine <lb/>schür, so nitt vill wert
+								was, mitt für, so ira der <lb/><term ref="lem011429.09">böß
+									geyst</term>, ir meyster, gäben unnd ira bevolchen <lb/>sollichs
+								zethun, söllen angesteckt unnd verbrendt habe.</p>
+					
+							<p><lb/>Deme hatt sy auch bekhenndt, das der <term ref="lem007321.08">tyfell</term>, ir
+								<lb/>meyster, ira, der gefangnen, zum gar offtermall anlaß
+								<lb/>gäben, die lütt in diser statt zu vergifften unnd <lb/>das von
+								deßwegen, das man allhie über die armen <lb/>so erbärm<add
+									place="above">k</add>lich ist, vill <term ref="lem002264.17"
+									>allmußen</term> gäben.</p></add> 
+						
+						<pb n="190"/><p><lb/>Wytter hatt sy <term ref="lem001236.16">verjächen</term>, eins mals ira ein <lb/><choice>
+								<abbr>f</abbr>
+								<expan>frau</expan>
+							</choice> by <placeName ref="loc008091">Plasselb</placeName>
+							<term ref="lem015734.02">bekhommen</term>, so zu ira, <lb/>gefangnen,
+							sagt, das diewyl unnd sy nit vill <lb/><term ref="lem002264.17"
+								>allmußen</term> unnd brotts in den dörffern <lb/>fundindt, so
+							wöllten sy deß bößen sa<lb break="no"/>mens unnd <term ref="lem017889">staubs</term> säyen unnd den
+								landt<lb break="no"/>lütten ir <term ref="lem000310.12">veech</term>
+							vergüfften, wellches sy <lb/>an etlichen ortten ouch gethan, weyß aber
+							<lb/>doch nit, die dörffer zu nampsen, dan allein <lb/>es zu <placeName
+								ref="loc008069">Maggenberg</placeName> sye.</p>
+						
+						<p><lb/>Wytter hatt sy ouch <term ref="lem001236.16">verjächen</term> unnd be<lb break="no"
+							/>khendt, das sy unnd ir <term ref="lem011441.03">gspüli</term> eins
+							mals <lb/>by <placeName ref="loc007853.04">Brock</placeName> einen so
+							gar grossen <term ref="lem016610.01">wasserbruch</term>
+							<lb/>unnd muß angricht, so by acht <term ref="lem000185.08"
+								>juffertten</term>
+							<lb/>erdtrichs verderpt unnd <term ref="lem016089.02"
+								>zerschleyfft</term> habe.</p>
+						
+						<p><lb/>Item wytter hatt sy <term ref="lem001236.16">verjächen</term> unnd 
+							<lb/>bekhendt, mit vor ernampten <persName>Francey 
+							<lb/>Freley</persName> und den <term ref="lem011429.10">bößen geyst</term> by dem 
+							<lb/><term ref="lem002275.01">wyer</term> der matten <placeName>Aux Pangiertes</placeName><note>L’identification du lieu est incertaine. Il pourrait s’agir des <placeName ref="loc008532">Pangires</placeName>.</note>, 
+							<pb n="191"/><lb/>in der herschafft <placeName>Corjonay</placeName><note>L’identification du lieu est incertaine. Il pourrait s’agir de <placeName ref="loc008533">Cojonnex</placeName>.</note> glägen, verhollffen 
+							<lb/>ein <term ref="lem007347.02">hagell</term> zemachen.</p>
+						
+						<p><lb/>Wytter hatt sy <term ref="lem001236.16">verjächen</term>, eins andern mals <lb/>mit
+							ermelltem <persName>Francey Freley</persName> unnd iren <lb/>beyder
+							bößen geystern, by dem wasser
+							<lb/><placeName>Cherniat</placeName><!-- Ort --> genant zu nechst einer
+							müli, dem <lb/><term ref="lem016611.03">chastelain</term>
+							<persName>Gay</persName> gehörig, ein anderer <term ref="lem007347.02">hagell</term> <lb/>verhollffen
+							zemachen.</p>
+						
+						<p><lb/>Item, so hatt sy wytter bekhendt, iren <lb/>ersten eheman, <persName>Bernardt
+								Groz</persName> genant, unnd <lb/>zwo irer eygnen lyblichen töchtern
+							vergifft <lb/>zehaben, unnd das deßwegen ernampter ir man <lb/>sy so
+							ubell tractiert unnd gschlagen unnd sy <lb/>gar jung was.</p>
+						
+						<p><lb/>Wytter hatt sy bekhendt, iren andern eheman,  
+							<lb/><persName>Francey Maning</persName> genant, vergifft zehaben,  
+							<lb/>unnd das von deßwegen er ira alles ir hab 
+							<lb/>unnd gutt <term ref="lem010279.03">verthett</term>.</p>
+							
+						<pb n="192"/><p><lb/>Lestlich hatt sy <term ref="lem001236.16">verjächen</term> unnd bekhendt, <lb/>ira nit zu
+							wüssen, wie vil jar oder <lb/>wie lang es sy<del>g</del>, das sy sich
+							deß <term ref="lem014640.06">strudell<lb break="no"/>wercks</term>
+							angenommen oder beladen; vermei<lb break="no"/>nende, es <date dur="P12Y">12</date> oder <date dur="P14Y">14 jar</date>
+							syn mög, das sy <lb/>der <term ref="lem011429.09">böß geyst</term> deß
+							ortts antastet unnd <lb/>besessen hab.</p>
+						
+						<p><lb/>Diße vorgemellte <term ref="lem009471.06">müßhandlung</term> und <lb/>frävell hatt
+							obgenante <persName ref="per009773a.02">Merya Crepon</persName>
+							<lb/>vor, in unnd nach der martter fry <lb/>bekhendt unnd bestättiget,
+							ouch dero<lb break="no"/>wegen vor uß gott, den almechtigen, <lb/>unnd
+							ein gnadige oberkheidt umb gnadt <lb/>unnd vätterliche verzyehung
+							gebätten.</p>
+						
+						<pb n="193"/><p><lb/>Allßo nach abhör unnd verläßung obernamp<lb break="no"/>ter armen <choice>
+								<abbr>f</abbr>
+								<expan>frau</expan>
+							</choice> begangnen missethatt, deren <lb/>sy nochmaln nach der
+							erlüttnen martter <lb/>vor mehreren gwallt bekhandtlich unnd <lb/><term
+								ref="lem015183.02">anredt</term> gsyn, haben min <abbr>g</abbr>
+							<choice>
+								<abbr>herr</abbr>
+								<expan>herren</expan>
+							</choice> unnd <lb/>obern deß täglichen raths hoch unnd <lb/>woll
+							ermellter statt <placeName ref="loc001060.02">Fryburg</placeName> daruff
+							zu <lb/>urtheill gsprochen unnd <term ref="lem005962">erkhendt</term>,
+							das min <lb/>gnädiger <choice>
+								<abbr>herr</abbr>
+								<expan>herre</expan>
+							</choice> schultheyß, allß ein <lb/>statthallter <placeName
+								ref="loc000672">deß heiligen Romischen rychs </placeName><lb/>unnd
+							ein liebhaber der gerechtikheidt, die <lb/>gemellte <persName
+								ref="per009773a.02">Merya Crepon</persName> dem <term ref="lem002262"
+								>nachrichter</term>
+							<lb/>ubergäben solle mit sollichem bevelch, das <lb/>diesselbig zur
+							anzeigung irer begangnen <lb/>missethatt sy mitt vornen zesamen
+							gebundnen <lb/>henden uff ein schleyffen rücklingen legen <lb/>unnd
+							bünden, zu einer berücht, das sy nit <lb/>würdig, uff daz heillig
+							ertrich zegan unnd <lb/>damethin zur statt hin uß, biß zur
+							<lb/>gwonlichen grichtstatt deß <placeName ref="loc008248.02"
+								>Galgenbergs</placeName> mit <pb n="194"/><lb/>mit zweyen rossen
+							schleyffen, <subst><del>nemmen</del><lb/><add place="inline">sy</add></subst> doselbst ab der schleyffen
+							nemen, sy <lb/>uff ein <term ref="lem016524.07">plochleytter</term>
+							bünden, darnach ouch <lb/>ein bygen holtz mit strauw unnd <lb/><term
+								ref="lem003247.05">bullffer</term> bestreüwt unnd beschenk uff
+							<lb/>richten, dieselb mit fyr anzünden. <lb/>Demnach der armen <choice>
+								<abbr>f</abbr>
+								<expan>frau</expan>
+							</choice> ir brust mit eins <lb/>seckli <term ref="lem002321.07">bücksen
+								bullffers</term> uberzychen <lb/>unnd sy allso lebendig sampt der
+								ploch<lb break="no"/>leyttern ins fyr stossen, so lang unnd
+							<lb/>vill biß der gantz lyb zu <term ref="lem004519.05">eschen</term>
+								ver<lb break="no"/>brendt syg, ouch dodannen nit wychen solle,
+								<lb/><term ref="lem005687">untz</term> das seel unnd lyb von
+							einandern ver<lb break="no"/>scheyden syent, unnd wo sy einiche gütter
+							<lb/>hette, die sollendt der oberkheidt, hinder <lb/>deren sy ligendt,
+							confisquiert unnd ver<lb break="no"/>fallen syn, hiemitt
+									<subst><del>h</del><add place="overwritten">s</add></subst>o
+							hälff unnd <lb/>gnadt gott der armen seel.</p> 
+						
+						
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>

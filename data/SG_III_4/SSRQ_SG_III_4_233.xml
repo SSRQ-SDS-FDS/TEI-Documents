@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-08-19"/>
+            <date type="print"/>
+            <availability default="false">
+               <p xml:id="facs">Staatsarchiv St. Gallen (StASG)</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_233</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>StASG AA 2 B 006, S. 69–76</idno>
+                  <altIdentifier>
+                     <idno>StASG AA 2 B 6</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <head>Beschreibung der Wahl, Pflichten und Einkommen der Richter, Landschreiber, Landweibel und Landammann der Landvogtei Sax-Forstegg durch Landvogt Johannes Ulrich</head>
+               <msContents>
+                  <summary><p>Der Landvogt Johannes Ulrich beschreibt die Wahl, Pflichten und Einkommen der Amtleute –
+                     Richter, Landschreiber, Landweibel und Landammann – der Landvogtei Sax-Forstegg.</p></summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <author role="scribe"><persName ref="per010271">Johannes Ulrich</persName>, Landvogt von Sax-Forstegg</author>
+                     <filiation type="current">Aufzeichnung, Buch (134 Seiten) mit kartoniertem Einband</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="24.5"/>
+                              <width unit="cm" quantity="19.5"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate from="1755-01-01" to="1755-12-31">Ohne Monat und Tag.</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000555">Wahl</term>
+               <term ref="key000065">Amtleute</term>
+               <term ref="key003718">Landammann</term>
+               <term ref="key000310">Landschreiber</term>
+               <term ref="key000180">Landvogt</term>
+               <term ref="key000200">Pflicht</term>
+               <term ref="key000212">Lohn</term>
+               <term ref="key000287">Appellation</term>
+               <term ref="key000205">Einkommen</term>
+               <term ref="key000103">Richter</term>
+               <term ref="key000151">Niedergericht</term>
+               <term ref="key004317">Landschreiberei</term>
+               <term ref="key000324">Landweibel</term>
+               <term ref="key004838">Läufer</term>
+               <term ref="key000243">Dienst</term>
+               <term ref="key003401">Geschenk</term>
+               <term ref="key000243">Dienst</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   
+   <text>
+      <group>
+         <text>
+            <body>
+               <div>
+                  <p><gap reason="irrelevant"/>
+                     <pb n="69" facs="StASG_AA_2_B_006_068_069"/>
+                     <seg>
+                        <lb/><add place="left margin">§ 28</add>
+                        <head resp="sm"><term ref="key000555">Wahl</term> und <term ref="key000200">Pflichten</term>
+                           der <term ref="key000103">Richter</term></head> Einem herren <term ref="lem000266"
+                              >landtvogt</term> gehörret alß ein <term ref="lem002748">regule</term> auch zu die
+                        <lb/>wider-<term ref="lem001594">besetzung</term> der ledig gewordenen <term
+                           ref="lem014235">richter stellen</term>, doch <lb/>daß er denn<del>en</del> neüen aus eben
+                        der <term ref="lem006896">gemeind</term> nemen muß, in <lb/>welcher der abgegangene gewesen,
+                        damit eine jede gemeind <lb/>ihre anzahl richter beybehalte.</seg>
+                     <seg>Wann <add place="above">ich</add> einem neüen <term ref="lem000342">richter</term>
+                        <lb/>durch meinen <term ref="lem016642.02">reit-knecht</term> seine beförderung habe
+                        anzeigen <lb/>und ihme darzu glük wünschen laßen, so pflegten sie anfäng<lb break="no"/>lich
+                        vieles wehen von ihrer unwürdigkeit und geringem <choice>
+                           <sic>ver<lb break="no"/>verstand</sic>
+                           <corr>verstand</corr>
+                        </choice> zu machen, ja thaten der gleichen, alß wann sie solche <lb/><term ref="lem001151"
+                           >ehre</term> abgraben oder gar ausschlagen wollend. Darzu aber keinen <lb/>rechter ernst
+                        gewesen. Weilen ich aber solcher unnöhtiger <lb/>complimenten überdrüßig ware, so gabe ich
+                        nachgehends <lb/>dem <term ref="lem016642.02">reit-knecht</term> gewohnlich 2 biß 3 in den
+                        <term ref="lem011977">vorschlag</term>, mit dem <lb/>befehl, daß wann der erste nicht also
+                        bald die angetragene ehre <lb/>annemmen wolle, er also bald zu dem zweyten, und wann auch
+                        <lb/>diser bedenklichkeiten mieche, zu dem dritten kehren sollle, <lb/>welches so viel
+                        gefruchtet, daß hernach je der erste die <term ref="lem004843">eh<lb break="no"
+                        />ren-stell</term> also bald angenommen und in dem <term ref="lem000376">schloß</term>
+                        seine <term ref="lem009621">ver<lb break="no"/>ehrungen</term> gegen mir, meiner liebsten,
+                        beyden <term ref="lem000261">knaben</term> und <lb/>sambtlichen <term ref="lem005075"
+                           >diensten</term> abgeherrschet, welches aber, wie leicht <lb/>zu erachten, ungleich
+                        ausgefallen.</seg></p><p>
+                           <pb n="70" facs="StASG_AA_2_B_006_070_071"/>
+                           <seg><head resp="sm"><term ref="key000555">Wahl</term>, <term ref="key000200"
+                              >Pflichten</term> und <term ref="key000205">Einkommen</term> von <term ref="key000310"
+                                 >Landschreiber</term> und <term ref="key000324">Landweibel</term></head></seg>
+                           <seg>
+                              <lb/>Die <term ref="lem016635.02">landschreiber</term> und <term ref="lem016636.02"
+                                 >landweibel stell</term> wird auch von <lb/>einem <choice>
+                                    <abbr>hrn</abbr>
+                                    <expan>herrn</expan>
+                                 </choice><note>Die häufig gebrauchten Abkürzungen von <orig>herr</orig> oder
+                                    <orig>herren</orig> werden im Folgenden stillschweigend aufgelöst.</note> landtvogt
+                              alleinig <term ref="lem001780">besetzet</term>, ohne <add place="above">aber</add> daß er
+                              hier<lb break="no"/>bey an eine gewüße <term ref="lem006896">gemeind</term> gebunden ist,
+                              doch ist die <term ref="lem012796">land<lb break="no"/>schreiberey</term> allen spuhren nach
+                              schon mehr alß ein <date dur="P100Y">seculum</date>
+                              <lb/>successive in dem <placeName ref="loc000950">Sännwald</placeName> gebliben, auch hat
+                              dissere ge<lb break="no"/>meind schon unerdenckliche jahr den <term ref="lem000642"
+                                 >landweibel</term> gehabt, <lb/>ehedem ist auch ein <term ref="lem000043">weibel</term> aus
+                              der <placeName ref="loc006042">Saxer</placeName> gemeind gewesen.</seg>
+                           <seg><lb/>Der <term ref="lem002854">landschreiber</term>
+                              <subst><del>ist</del><add place="above">wäre</add></subst> pflichtig, <date dur="R/P1W">alle
+                                 wochen</date>
+                              <num value="2">2</num> mahl in das <lb/><term ref="lem000376">schloß</term> zu kommen, um zu
+                              fragen, ob der herr <term ref="lem000266">landtvogt</term> et<lb break="no"/>was zu befehlen
+                              habe, allein ich müeßte mich meistens <lb/>mit einem mahl benüegen. Hingegen schlichtete ich
+                              dann auch <lb/>manches allein, worzu der landschreiber nur das <term ref="lem004265"
+                                 >sitzgelt</term>
+                              <lb/>von <measure type="currency" quantity="40" unit="xr">40 xr</measure> auch gehörret
+                              hätte. Und wann er es dann andete, <lb/>so tröstete ich ihne mit seiner <term
+                                 ref="lem002620">saumselligkeit</term> in das <term ref="lem000376">schloß</term>
+                              <lb/>zu kommen.</seg>
+                           <seg>Er ist auch schuldig, die <term ref="lem000333">mandat</term> in alle <num value="3"
+                              >3</num>
+                              <term ref="lem000240">kirchen</term>
+                              <lb/>zu machen, was gattung ein herr landvogt solcher ausgehen <lb/>zu laßen nöhtig
+                              findet.</seg>
+                           <seg>Auch wäre er pflichtig, alle <term ref="lem016645.01">send<lb break="no"
+                           />schreiben</term> auszufehrtigen, allein ich projectirte und schribe <lb/>alle <term
+                              ref="lem006187">brieff</term>, wohin sie auch waren, lieber selber. Die ge<lb break="no"
+                              />schribene <term ref="lem000333">mandat</term>
+                              <term ref="lem003473">liset</term> er im <placeName ref="loc000950">Sännwald</placeName>, in
+                              anderen <subst><del>gemeinden</del><add place="above">kirchen</add></subst>
+                              <lb/>aber die <term ref="lem000682">schulmeistere</term>. Das <term ref="lem012365"
+                                 >bättags</term> und andere hochobrig<lb break="no"/><pb n="71" facs="StASG_AA_2_B_006_070_071"/>keitliche mandata aber
+                              werden von denn herren <term ref="lem000672">pfarreren</term>
+                              <lb/>ab der <term ref="lem003605">cantzel</term> verlesen.</seg>
+                           <seg>Dem <term ref="lem002854">landschreiber</term> gabe ich <date dur="R/P1Y">alle
+                              jahr</date>
+                              <lb/>eine nohtdurfft <term ref="lem000759">holtz</term>, doch nicht als eine schuldigkeit,
+                              sonderen <lb/>weil seine einkönfften sonsten von weniger ertragenheit sind <lb/>und er, wie
+                              obgemelt, die <term ref="lem005370.02">mandata</term> schreiben muß.</seg>
+                           <seg>
+                              <lb/>Der <term ref="lem000642">landweibel</term> ist schuldig, je den anderen tag in das
+                              <term ref="lem000376">schloß</term> zu <lb/>kommen und die befehl eines herrn landtvogts zu
+                              gewährtigen <lb/>und zu vollstreken. Wann er das <term ref="lem009601">ehe-</term> oder
+                              sonsten ein <term ref="lem009774">halbes</term>
+                              <lb/>oder <term ref="lem009775">gantzes gericht</term> besamlet, so hat er <measure
+                                 type="currency" quantity="30" unit="xr">30 xr</measure>
+                              <term ref="lem016531">biehter-lohn</term>
+                              <lb/>und am <term ref="lem008523">grichtstag</term>
+                              <measure type="currency" quantity="40" unit="xr">40 xr</measure> für die <term
+                                 ref="lem016174">abwahrt</term>. Wann ich eine par<lb break="no"/>they durch eine andere
+                              parthey in das schloß citiren laßen und <lb/>solche nicht erscheinen wollen, ich citire sie
+                              dann durch den <term ref="lem000043">weibel</term>, <lb/>so müeßte ein solche parthey ihme
+                              auch <measure type="currency" quantity="30" unit="xr">30 xr</measure> bezahlen. Son<lb
+                                 break="no"/>sten gibt es auch anlääs, daß der weibel gäng thun und obrig<lb break="no"
+                                 />keitliche befehl ohne <term ref="lem000282">lohn</term> ausrichten muß, öffters nur
+                              <measure type="currency" quantity="15" unit="xr">15</measure> biß <lb/><measure
+                                 type="currency" quantity="20" unit="xr">20 xr</measure> zu lohn hat, welches alhier so
+                              genau nicht bestimmet <lb/>werden kan.</seg>
+                           <seg>Wann der <term ref="lem000043">weibel</term> eine persohn, <term ref="lem012815"
+                              >mann-</term> oder <lb/><term ref="lem012807">weib<del>s</del>lichen geschlechts</term>, in
+                              den <term ref="lem000442.04">thurn</term> thut, so gehörret ihme <lb/>von jede persohn
+                              <measureGrp><measure type="currency" quantity="1" unit="fl">1</measure>
+                                 <measure type="currency" quantity="30" unit="xr">30 xr</measure></measureGrp>
+                              <term ref="lem002619.05">thurnloßung</term> und für die <lb/><term ref="lem007271"
+                                 >atzung</term>
+                              <date dur="R/P1D">alle tag</date> auch für jede persohn <measure type="currency"
+                                 quantity="12" unit="xr">12 xr</measure>, um welches <lb/>er dann <term ref="lem003100"
+                                    >morgens</term> und <term ref="lem001493">abends</term> dennen <term ref="lem000728"
+                                       >gefangenen</term> das <term ref="lem001801">eßen</term>
+                              <pb n="72" facs="StASG_AA_2_B_006_072_073"/>
+                              <lb/>zu bringen muß und gibet mann ihme jedes mahl <measure type="volume" quantity="0.5"
+                                 unit="Mass" commodity="wine">½ mas <lb/>wein</measure>
+                              <term ref="lem008908">und brodt</term>, für welches der <term ref="lem000728"
+                                 >gefangene</term> alle tag <measure type="currency" quantity="15" unit="xr">15 xr</measure>
+                              <lb/>und widerum <measure type="currency" quantity="15" unit="xr">15 xr</measure> für seine
+                              eigene <term ref="lem000514">zehrung</term> zahlen muß. <lb/>Hat es der gefangene nicht im
+                              vermögen, solche umkösten <lb/>zu bezahlen, so kommen selbige in die obrigkeitliche rechnung
+                              <lb/>under den titul ausgeben an kösten, so über die gefangenen <lb/>und <term
+                                 ref="lem001473">malefizische</term> persohnen ergangen.</seg>
+                           <seg>Wann ein herr <lb/><term ref="lem000266">landtvogt</term> in einer anderen alß der
+                              <placeName ref="loc007990">Sännwalder</placeName>
+                              <term ref="lem000240">kirchen</term>, all<lb break="no"/>wo der <term ref="lem000043"
+                                 >weibel</term>
+                              <term ref="lem003077">kirchgenößig</term> ist, eintweders <term ref="lem015671"
+                                 >ehegaumer</term>
+                              <lb/>beeydiget oder sonsten obrigkeitliche geschäfft vorhabe, <lb/>so laßt mann es den
+                              weibel wüßen, welcher dann für das <lb/><term ref="lem000376">schloß</term> kombt und mit
+                              dem herrn landtvogt in <term ref="lem017049.02">weiß und blau</term>
+                              <lb/>in die <term ref="lem000240">kirchen</term> gehet. Auch muß der <term ref="lem000043"
+                                 >weibel</term> in <term ref="lem017049">weiß und <lb/>blau</term> mit dem herrn landtvogt
+                              auf die <term ref="lem000666">jahrmarkt</term> gehen <lb/>und ihme daselbß <term
+                                 ref="lem013833">abwahrten</term>, so wohl alß der <term ref="lem002319">laüfer</term> im
+                              <lb/><term ref="lem016639.02">rökli</term> und an solchen wohl achtung geben, ob sich kein
+                              <term ref="lem000575">jud</term>
+                              <lb/>ohnangemeldet eingeschlichen habe. In welchem fahl einem <lb/>solchen munter zu <term
+                                 ref="lem017050.02">zwahen</term> wäre. Von seinem schuldigen <lb/>einzug des <term
+                                    ref="lem013095">standgelts</term> an diseren <term ref="lem000666">jahrmarkten</term> ist
+                              oben <lb/>bey anlaas des <term ref="lem000349">zohls</term> meldung geschehen.<note>Vgl.
+                                 <ref>SSRQ_SG_III_4_232</ref>.</note> Die <term ref="lem000663">wochen-</term>
+                              <lb/>oder <term ref="lem016615">meyen markt</term> muß er von mahl zu mahl rüefen und
+                              <lb/>hat hierfür am <term ref="lem009066">zeit gricht</term> von dem <term ref="lem001110"
+                                 >wäg-gelt</term>
+                              <measure type="currency" quantity="15" unit="xr">15 krzr.</measure></seg>
+                           <pb n="73" facs="StASG_AA_2_B_006_072_073"/>
+                           <seg>
+                              <lb/>Ohne vorwüßen eines herrn landtvogts ist der <term ref="lem000043">weibel</term> nicht
+                              be<lb break="no"/>rechtiget, <del>s</del> einem <term ref="lem000867">frömbden</term> seine
+                              <term ref="lem000037">schulden</term> in der herrschafft ein<lb break="no"/>zutreiben oder
+                              einem einheimischen auf begehren des frömb<lb break="no"/>den einen <term ref="lem002200"
+                                 >schatz-tag</term> anzukünden, sonderen es solle sich ein <lb/>rechts begehrender <term
+                                    ref="lem000867">frömbder</term> um seine <term ref="lem000037">schuld</term> eintweders
+                              selb<lb break="no"/>sten bey einem herrn landtvogt anmelden oder seine sach durch <lb/>den
+                              weibel vortragen laßen.</seg>
+                           <seg>Was des <term ref="lem006255">weibels ambt</term> bey <lb/>dem <term ref="lem009066"
+                              >zeitgericht</term> seye, wird bey desselben beschreibung vor<lb break="no"
+                              />kommen.<note>Vgl. <ref>SSRQ_SG_III_4_234</ref>.</note></seg>
+                           <seg>Es prætendirte der weibel offtermahlen, daß ihme <lb/>und nicht dem <term
+                              ref="lem016641.02">schloß-reit-knecht</term> die ankündung eines <lb/>neüen <term
+                                 ref="lem000342">richters</term> und eines neü erwehlten <term ref="lem000449"
+                                    >landammans</term> zu<lb break="no"/>gehörre, allein ich habe ihne des ersteren halber
+                              allezeit in <lb/>fründtlichkeit auf die eingerißene übung und also abgewi<lb break="no"
+                              />sen. Der <term ref="lem016638.02">landtamman stell</term> halber glaubte ich selber, es
+                              gehöre <lb/>das sothane <term ref="lem016644.02">botten-brodt</term> dem <term
+                                 ref="lem000043">weibel</term>, ich wurde aber benach<lb break="no"/>richtiget, daß so wohl
+                              dem landamman <persName ref="per010333a">Rhyner</persName> sellig zu <placeName
+                                 ref="loc000691">Sallez</placeName>, <lb/>alß landamman <persName ref="per010764"
+                                    >Roduner</persName> sellig im <placeName ref="loc000950">Sännwald</placeName> die freüd
+                              ihrer <lb/>beförderung durch den <term ref="lem016642.02">reitknecht</term> angekündet
+                              worden, <lb/>des nahen ich dann auch diseres <term ref="lem016646.02">nützli</term> dem
+                              <term ref="lem016642.02">reit-knecht</term> zu hielte. <lb/>Hingegen dem <term
+                                 ref="lem000043">weibel</term> sagte, daß wann er mich eines anderen <lb/>grundlich
+                              berichten könne, mein reitknecht das erhaltene <pb n="74" facs="StASG_AA_2_B_006_074_075"/>
+                              <lb/><term ref="lem003836">trinkgelt</term> taliter qualiter zurukgeben und ihme zustel<lb
+                                 break="no"/>len müese; allein der bewis seiner rechten blibe us und <lb/>ich wurde
+                              inzwischend für das recht des <term ref="lem016642.02">reitknechts</term> nach <lb/>des
+                              mehreren berichtet, so daß selbiger sein von dem <term ref="lem000449">land<lb break="no"
+                              />amman</term>
+                              <persName ref="per010763">Hanselmann</persName> erhaltenes <term ref="lem016644.02"
+                                 >botten-brodt</term> nach diser <lb/>stund behalten hat.</seg>
+                           <seg>Des dismahligen landweibels <term ref="lem000129">vatter</term>
+                              <lb/>hätte nebend dem <term ref="lem016637.02">landweibel-posten</term> auch den <term
+                                 ref="lem016643.02">holzforster<lb break="no"/>dienst</term>. Sie sind dermahlen aber
+                              gesönderet und kan kein <lb/>landweibel mit einichem recht prætendiren, daß der holz<lb
+                                 break="no"/>forster-dienst an sein dienst verknüpfet seyn solle. Es <lb/>hat ein jedwederer
+                              an seinem ohrt genug zu thun.</seg>
+                           <seg>
+                              <lb/>Dem <term ref="lem000043">weibel</term> gehörret <date dur="R/P1Y">alle jahr</date>
+                              <measure type="currency" quantity="5" unit="fl">5 </measure> alß sein <term
+                                 ref="lem002206.04">wahrt-gelt</term>, <lb/>welches <abbr>mngndhherren</abbr> verrechnet
+                              wird under dem titul <lb/>ausgeben an jährlichen <term ref="lem000612">belohnungen</term>.
+                              Und weilen er <lb/><term ref="lem001325">winters zeit</term> wenige gelegenheit hatte, sich
+                              in dem <term ref="lem010641">gemeind<lb break="no"/>holtz</term> zu beholtzen, so gabe ich
+                              ihme <date dur="R/P1Y">alle jahr</date> eine ehrliche <lb/>nohturfft <term ref="lem000759"
+                                 >holtz</term>, welches er aber keines wegs mit recht <lb/>oder alß ein salarium, das von
+                              seinem posten abhange, <lb/>forderen, sonderen um solches alß eine gnad und gutthat <lb/>bey
+                              einem herrn landtvogt anhalten solle.</seg></p><p>
+                     <pb n="75" facs="StASG_AA_2_B_006_074_075"/>
+                     <seg><head resp="sm"><term ref="key000555">Wahl</term>, <term ref="key000200"
+                              >Pflichten</term> und <term ref="key000205">Einkommen</term> des <term
+                              ref="key003718">Landammanns</term></head></seg>
+                     <seg><lb/>Was die <term ref="lem016638.03">landamman-stell</term> betrifft, so
+                        thun solche <abbr>mnegndhherren</abbr>
+                        <lb/><orgName ref="org004016">kleine räht in Zürich</orgName> vergeben. Wann
+                        ein <term ref="lem000449">landtamman</term> stirbt, <lb/>so thut ein herr
+                           <term ref="lem000266">landtvogt</term> solchen <term ref="lem001200.09"
+                           >todesfahl</term> durch ein <term ref="lem001765">schreiben</term>
+                        <lb/>an <abbr>mngndhherren</abbr> berichten und in dißerem schreiben zu
+                        gleich <lb/>auch aus jeder <term ref="lem000394">kirchhörri</term> einen,
+                        also <num value="3">3</num>
+                        <term ref="lem000342">richtere</term> in den <lb/><term ref="lem011977"
+                           >vorschlag</term>, aus welchen er dann einen hochgedacht
+                           <abbr>mngndhhrn</abbr>
+                        <lb/>besonders <term ref="lem013057">recommandiren</term> thut. Da dann noch
+                        allezeit, wenigstens <lb/>so viel mir im wüßen, erfolget, daß der von einem
+                        herren <lb/>landtvogt also recommandirte richter von <abbr>mngndhhrn</abbr>
+                        <lb/>einhellig zu einem <term ref="lem000449">landamman</term>
+                        <term ref="lem000406">erwehlet</term> worden, welches <lb/>dann durch eine
+                        erkantnuß aus der underschreiberey kund ge<lb break="no"/>machet wird und
+                        durch den <term ref="lem016642.02">reit-knecht</term> dem neüen land<lb
+                           break="no"/>amman, welches von herrn landtvogt <persName ref="per002483"
+                           >Ziegler</persName>, meinem lieben <lb/><term ref="lem000129"
+                           >vatter</term><note><persName ref="per010765">Hans Heinrich
+                              Ulrich</persName> war nach Landvogt <persName ref="per002483">Beat
+                              Ziegler</persName> und vor seinem Sohn <persName ref="per010271"
+                              >Johannes Ulrich</persName> Landvogt von 1737–1746 in <placeName
+                              ref="loc000278">Sax-Forstegg</placeName>.</note> und mir geüebet
+                        worden, ohngeachtet des widerspre<lb break="no"/>chens von seihten des <term
+                           ref="lem000043">weibels</term>, wie in dem vorgehenden ar<lb break="no"
+                        />ticul das mehrere zu sehen.</seg>
+                     <seg>Nach solcher <term ref="lem002086">wahl</term> dann thut ein <lb/>neüer
+                           <term ref="lem000449">landamman</term> gegen einem herrn <term
+                           ref="lem000266">landtvogt</term>, frau <term ref="lem016612">landt<lb
+                              break="no"/>vögtin</term>, <term ref="lem000130">kinder</term> und
+                        sambtliche <term ref="lem005075">dienst</term>, anständige <term
+                           ref="lem009621">verehrungen</term>
+                        <lb/>machen und præstiret seinen <term ref="lem000070">eydt</term> an dem
+                        nächst darauf <lb/>folgenden <term ref="lem009066">zeit
+                        gericht</term>.</seg>
+                     <seg>Es ist ein <term ref="lem000449">landamman</term> schuldig, <date
+                           dur="R/P1W">alle <lb/>wochen</date> ein mahl in das <term ref="lem000376"
+                           >schloß</term> zu kommen, um zu fragen, <pb n="76"
+                           facs="StASG_AA_2_B_006_076_077"/>
+                        <lb/>ob der herr <term ref="lem000266">landtvogt</term> etwas zu befehlen
+                        habe oder ob etwas <lb/>zu verhandlen seye, in welchem fahl dann ein herr
+                        landtvogt <lb/>nicht wohl anderst kan, alß bey allen vorfallenheiten da
+                        <lb/>etwas zubeurtheilen oder auch nur zu schlichten und gütlich <lb/>zu
+                        vergleichen ist, <add place="above">den landamman</add> zu sich zu ziehen.
+                        Wurde aber der <term ref="lem000449">land<lb break="no"/>amman</term> in
+                        beobachtung solcher schuldigkeit <term ref="lem014152">saumsellig</term>
+                        seyn, <lb/>so hat er sich auch nicht zu beklagen, wann ein herr landtvogt
+                        <lb/>ohne ihne das eint und andere eröhrteren thut. Sonsten <lb/>gehörret
+                        der landammann wie zu dem <term ref="lem009601">ehegricht</term>, also auch
+                        <lb/>allen anderen <term ref="lem009774">halben</term> und gantzen <term
+                           ref="lem016390">herrschaftsgerichten</term>, <lb/>und <del>beß</del>
+                        beziehet jedes mahl <measure type="currency" quantity="40" unit="xr">40
+                           xr</measure>
+                        <term ref="lem004265">sitz gelt</term>. An dem <term ref="lem009066">zeit
+                           <lb/>gericht</term> führet er den <term ref="lem000804">stab</term> und
+                        das <term ref="lem016489">præsidium</term>, so auch bey <lb/>dennen so
+                        geheißenen <term ref="lem002156">gekaufften-gerichten</term>, sonsten hat er
+                        <lb/>keine weitere <term ref="lem002833">besoldung</term>, ausgenommen
+                           <measure type="currency" quantity="1.5" unit="fl">1½ </measure>
+                        <term ref="lem016234">sigel gelt</term>, <lb/>wann von dem <term
+                           ref="lem009066">zeit-gricht</term> und <term ref="lem002156">gekaufftem
+                           gericht</term> an den <lb/>herrn <term ref="lem000266">landtvogt</term>
+                        <term ref="lem001043">appelliret</term> wird. Ein herr landtvogt gibt
+                        <lb/>auch einem <term ref="lem000449">landamman</term> zu seiner
+                        ergötzlichkeit eine nohturfft <lb/><term ref="lem000759">holtz</term>,
+                        welches der verstorbene landamman <persName ref="per010764"
+                           >Roduner</persName> sellig durch <lb/>intercession des herrn doctor und
+                        examinator <persName ref="per002483a">Zigelers</persName> sellig von
+                        <lb/>ihro gnaden dem herren burgermeister <persName ref="per010766a"
+                           >Hirzel</persName> sellig erhalten <lb/>mögen.</seg>
+                     <pb n="77" facs="StASG_AA_2_B_006_076_077"/>
+                     <gap reason="irrelevant"/><note>S.&#160;77–79 folgen Ausführungen zu den <term
+                           ref="key005210">Sittenwächtern</term> (vgl. dazu
+                           <ref>SSRQ_SG_III_4_178</ref>; <ref>SSRQ_SG_III_4_177</ref>,
+                        Art.&#160;11–13, 20–21). S.&#160;80–97 folgt die Darstellung zu den <term
+                           ref="key000057">Gerichten</term> (<ref>SSRQ_SG_III_4_234</ref>).</note>
+                  </p>
+               </div>
+               
+            </body>
+         </text>
+      </group>
+      <back>
+         <div><p>Der Auszug über die <term ref="key000065">Amtleute</term> von <placeName ref="loc000278"
+            >Sax-Forstegg</placeName> stammt aus dem Handbuch von Landvogt <persName ref="per010271a"
+               >Johannes Ulrich</persName> von <date when="1755">1755</date> (zum Handbuch allgemein vgl. die
+            Kommentare in <ref>SSRQ_SG_III_4_234</ref>). Die Ausführungen von Landvogt Ulrich über
+            ihre <term ref="key000200">Pflichten</term>, <term ref="key000212">Löhne</term> und <term
+               ref="key000555">Wahlen</term> sind sehr wichtig, da sonst nur die <term ref="key000179"
+                  >Eide</term> der Amtleute (vgl. <ref>SSRQ_SG_III_4_147</ref>) sowie Eid und <term
+                     ref="key000341">Ordnung</term> eines <term ref="key000180">Landvogts</term>
+            (<ref>SSRQ_SG_III_4_160</ref>; <ref>SSRQ_SG_III_4_207</ref>;
+            <ref>SSRQ_SG_III_4_212</ref>) zur Verwaltung in Sax-Forstegg weitere Aufschlüsse
+            liefern.</p>
+            <p>Weitere Auszüge des Handbuchs siehe <ref>SSRQ_SG_III_4_232</ref>;
+               <ref>SSRQ_SG_III_4_234</ref>.</p></div>
+      </back>
+   </text>
+</TEI>

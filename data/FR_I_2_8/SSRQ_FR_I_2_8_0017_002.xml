@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+
+			</titleStmt>
+
+			<publicationStmt>
+				<date type="electronic" when="2019-03-20"/>
+				<date type="print"/>
+			</publicationStmt>
+
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ_FR_I_2_8_0017_002</idno>
+			</seriesStmt>
+
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<idno>StAFR, Thurnrodel 9.I, S. 158–160</idno>
+					</msIdentifier>
+					<head>Jenon Davet-Carra – Verhör / Interrogatoire</head>
+					<msContents>
+						<summary></summary> 
+						<msItem>
+							<textLang>de</textLang> 
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support>
+									<material></material>
+								</support>
+								<extent>
+									<dimensions type="leaves">
+										<height unit="cm" quantity="0.0"/>
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+									<dimensions type="plica">
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+								</extent>
+							</supportDesc>
+						</objectDesc>
+						</physDesc>
+					<history>
+						<origin>
+							<origDate when="1593-05-05"></origDate>
+							<origPlace></origPlace>
+						</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+							
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+			<particDesc default="false"/>
+			<settingDesc default="false"/>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+					 
+						<pb n="158"/><p><lb/>Im <placeName ref="loc007683.02">bösen thurn</placeName>, <origDate when="1593-05-05">5
+									<foreign xml:lang="la">maii</foreign> 93</origDate>
+							<seg><lb/><foreign xml:lang="la">Judex</foreign>
+								<abbr>h</abbr>
+								<choice>
+									<abbr>groß</abbr>
+									<expan>großweibel</expan>
+								</choice><note>Gemeint ist <persName ref="per009927">Kaspar
+										Wicht</persName>.</note>
+								<foreign xml:lang="la"><choice>
+										<abbr>pntes</abbr>
+										<expan>presentes</expan>
+									</choice></foreign></seg>
+							<seg><lb/><abbr>H</abbr>
+								<persName ref="per009922a.01">Leymer</persName>, <abbr>j</abbr>
+								<persName ref="per009923a.01">von Dießbach</persName>, <unclear><choice>
+										<abbr>b</abbr>
+										<expan>beyd</expan>
+									</choice></unclear> der räthen</seg>
+							<seg><lb/>60</seg>
+							<seg><lb/><persName ref="per009924"><choice>
+										<abbr>E</abbr>
+										<expan>Erhard</expan>
+									</choice> Garmißwyll</persName>, <persName ref="per009212"
+									>Spreng</persName>, <persName ref="per009925a.01"
+									>Julliart</persName>, <persName ref="per009926"
+									>Burgcknecht</persName></seg></p>
+						<!-- PS: mit seg strukturiert -->
+						<p><seg><lb/><persName ref="per009744a">Jenon</persName>, <persName ref="per009745"><add
+										place="above" type="sign">Jacob</add> Davet</persName> von
+									<placeName>Chappallet</placeName><note>L’identification du lieu
+									est incertaine. En date du 15 mai 1593, Jenon est dite de
+										<placeName ref="loc007599">Ponthaux</placeName>.</note>
+								<add place="above" type="sign">tochter</add>, ist widerumb
+								<lb/>erfragt worden, ob sy nit von <subst><del>brest</del><add
+										place="inline"><placeName>Bertzi</placeName></add></subst>
+								<lb/>sye, sagt sy nein; woll ir man, den sy <lb/>gehept hatt, sye
+										<subst><del>woll</del><add place="inline">von</add></subst>
+								gemelten <placeName>Bertzi</placeName>
+								<lb/>kommen. Ob sy nit <persName>Franceysa Bodyn</persName>
+								<lb/>von <placeName ref="loc007599.04">Pontaux</placeName> kenne;
+								sagt, <del rend="underline">sy</del> sy könne <lb/>dieselbe woll,
+								man habe sy zu <placeName ref="loc007603.06">Wiflispurg</placeName>
+								<lb/>gricht; deßglychen ouch, wo der bach <choice>
+									<abbr>gntt</abbr>
+									<expan>genannt</expan>
+								</choice>
+								<placeName ref="loc008335">des <lb/>Chaudeyres</placeName>. Ir
+										<subst><del>man</del><add place="above">sun</add></subst>
+								hatt aber daselbs <lb/>ein matten koufft, da gng sy acht
+										<subst><del>haben</del>
+									<lb/><add place="inline">darzu haben</add></subst>. Des kündts
+								halben, so sy zur <lb/>schüren by <placeName ref="loc007610.03"
+									>Peterlingen</placeName> gelassen, sye
+											<subst><del>we</del><del><add place="above"
+										>aber</add></del>
+									<lb/><add place="inline">leider</add></subst> durch hungers
+										<subst><del>gschechen</del><add place="inline"
+									>wegen</add></subst> gschechen, <lb/>dan
+										<subst><del>do</del><add place="inline">es
+									domaln</add></subst> in der <unclear>zthürn</unclear> zytt
+								<lb/>was, und von wegen sy das groß <term ref="lem014889.02"
+									>wee</term><note>Gemeint ist Epilepsie.</note>,
+										<subst><del>hatt</del>
+									<lb/><add place="inline">darvor behiet gott</add></subst> ein
+								jeder christen<lb break="no"/>mensch, <subst><del>und</del><add
+										place="inline">hatt</add></subst>; habe aber innen <lb/>den
+									<term ref="lem000643.11">meidtlinen</term> und kinden kein <term
+									ref="lem015733.03">guffen</term>
+								<lb/>geben. Sy habe aber doch nit nütt <lb/>mit der
+									<persName>Franceysa</persName> uneerlichs noch böses
+								<lb/>ghandlet noch begangen, dan das die <lb/>gemelte
+									<persName>Franceysa</persName> ira ein schüsslen <lb/>volen
+									<term ref="lem016569.03">scheidtmülch</term> geben.</seg>
+							<seg>Nachdem sy <lb/>nun drymal uffzogen worden, hatt sy <lb/>woll
+								bekent, das sy einist mit gemelter
+									<lb/><persName>Franceisa</persName>
+								<subst><del>und ira</del><add place="inline">ghan</add></subst>
+								<placeName ref="loc007616">Chandon</placeName>
+								<lb/>gangen umb die <term ref="lem010256.03">vester zytt</term>; und
+								gemelte <lb/><persName>Franceysa</persName> sprach zu ira, der
+								gfangnen, <lb/>sy solte ira wartten <subst><del>g</del><add
+										place="inline">und gng</add></subst> hiemit <add
+									place="left margin" type="sign"><persName>Gempler
+										Fran<lb break="no"/>ceisa</persName></add>
+								<lb/>ab weg. Do ghört dise gfangne woll, <lb/>das einer sagte,
+										<subst><del>k</del><add place="inline">den</add></subst> sy
+								doch nit gsechen <lb/><subst><del>sprecheh</del><add place="inline"
+										>sprechende</add></subst>: <q>Kumbst nit, ich hab <lb/>dich
+									so lang gewartett.</q> Sy, die gefangne, <lb/>mocht aber
+								niemandts gsechen, dan allein die <pb n="159"/><lb/>wort hören
+								sprechen, welches vor <date dur="P6M">einem halben <lb/>jar</date> ongferlich gschechen an
+								einem weg by <subst><del>prelaz</del><add place="left margin"
+										type="sign"><placeName ref="loc007616"
+										>Chandon</placeName></add></subst>. <lb/>Demnach das sy
+								mehrgemelte <persName>Franceisa</persName> zu <lb/><placeName
+									ref="loc007655.04">Montenach</placeName> by der bruck antroffen
+								und wolten <lb/>zu <placeName ref="loc007610.02"
+									>Petterlingen</placeName> ghen, habe aber daselbs nit von
+								<lb/>ira gsechen noch ghörtt. <subst><del>Sy</del><add
+										place="inline">Die</add></subst>
+								<persName>Franceysa</persName> bleib woll <lb/>dahinden. <term
+									ref="lem006484.07">Nachwerts</term> aber bekant sy doch,
+								<lb/>das sy mit einem schwartzen man alls ouch <lb/>die
+									<persName>Franceysa</persName> gekürzwylet und <term
+									ref="lem001041.02">dantzet</term>. <lb/>Wie sy nun den nammen
+									<persName ref="per000353">Jesus</persName> nampsette,
+								<lb/>verschudt der schwarz man. Nachdem sy ein wyl <lb/>gedanzet,
+								verschudt er ettlich mallen, das sy in nit <lb/>gschach, dan sy
+								nampsette offt <persName ref="per000353">Jesus</persName> unnd
+									<persName ref="per000169a.06">Mariam</persName>.</seg>
+							<seg><lb/>Antreffendt aber <subst><del>der frouw von</del><add
+										place="inline">eines frauwlin</add></subst>
+								<lb/>spricht sy, das alls sy <subst><del>ver</del><add
+										place="inline">verrytten</add></subst> und der hand wusch,
+								<lb/>hat gemelte <subst><del>frauwlin</del><add place="inline"
+										>gfangne</add></subst> ein wyß <lb/><term ref="lem015804.02"
+									>fürtch</term> an, und <subst><del>wusch</del><add
+										place="left margin" type="sign">trechnett</add></subst> das
+								frouwlyn <lb/>die handt <subst><del>it</del><add place="inline"
+										>ir</add></subst>
+								<term ref="lem015804.02">fürtch</term> und
+										<subst><del>hulfft</del><add place="inline"
+									>bevalch</add></subst>
+								<lb/>innen, ein <term ref="lem002264.17">allmußen</term> zegeben,
+								welches geschachen. <lb/>Wie sy nun ein wenig geritten, ful das roß
+								mit <lb/>ira; und alls sy dan heim kam, schukten sy die
+										<lb/><subst><del>frauw</del><add place="inline"
+										>gfangne</add></subst>
+								<term ref="lem006199">reichen</term>, dan sy vermeinten,
+										<subst><del>die fro</del><add place="inline">sy
+									wäre</add></subst>
+								<add place="left margin" type="sign">des fals <lb/>schuldig; und
+									<lb/>kam zu dem <lb/>fröuwlin, dan <lb/>sy nit woll <lb/>uff
+									was. <del>Gab <lb/>ira aber</del>
+									<lb/>Das frouwlin <lb/>wardt aber <lb/>glych gsundt, <lb/>so
+									bald sy von <lb/>ira wider <lb/>hin <lb/>weg zoch.</add>
+								<lb/>Unnd der schwarz man, so zu ira by <placeName ref="loc007616"
+									>Chandon</placeName>
+								<lb/>kam, sage <subst><del>sy</del><add place="inline"
+									>er</add></subst> zu ira, ob sy nit ouch welle <lb/>eins mit
+										i<subst><del>ra</del><add place="above">me</add></subst>
+								sye, sagt sy: <q>Nein, <subst><del>do</del><add place="inline"
+											>behütt</add></subst> mich <lb/>gott.</q> Und er mocht
+								nit z ira khommen, dan <lb/>sy ein rosenkranz by ira hatt; und do
+								sprach <lb/>er zu ira, er were ir meister und welle <lb/>mehr zu ira
+								kommen. <del>dan sy nampsette <lb/>alzytt den nammen <persName
+										ref="per000353">Jesus</persName> und <persName
+										ref="per000169">Mariae</persName></del>
+								<lb/>Demnach so ghort sy ouch, das er zu ira <lb/>sprach,
+										<subst><del>we</del><add place="inline">er</add></subst>
+								welle wol verschaffen, das sy <lb/>niemes mehr arm wurt syn,
+										<subst><del>und sagte <lb/>ouch</del><add place="inline">er
+										verlur sich</add></subst> allweg. Wie sy nun <lb/>zu ime
+								sagtt, er solt hinweg ghen, do <lb/>sagt er zu ira: <q>Oho! Ich wyl
+									dich <subst><del>zu</del><add place="inline">wol</add></subst>
+									<lb/>haben.</q> Und sagt zu ira, er welle ira <measure
+									type="currency" quantity="20" unit="lb">20 </measure>
+								<lb/>geben, und empfung <subst><del>es</del><add place="inline"
+										>in</add></subst> irem <term ref="lem015804.02"
+									>fürtch</term>. <lb/><del>Wie sy nun es wolt
+										<unclear>nemen</unclear> bruchen, fandt <lb/>es sich nütt
+									den eiching blätter</del> Sy <del>verneint</del>
+								<lb/>meinte nit anderst, dan das es <term ref="lem016570.02">dück
+									<lb/>pfenig</term> waren und grobs gelt. Wie sy nun <lb/>in der
+								sunen sass und es racht bschuwet, <lb/>waren es nur <subst><del>wie
+										gsegt</del><add place="above">eichin</add></subst> blätter
+								und <lb/>zeigt ira an: <q>Das gib ich dir für ein <term
+										ref="lem010889">wortzeichen</term>, <pb n="160"/><lb/>und
+									kum offt z mir mit der <persName>Franceisa</persName>, <lb/>dan
+									ich wil dich mehr ghan fünden.</q> Do sprach <lb/>sy, ja, sy
+								müße ghan armusen suchen, <lb/>und gab ira ein <add
+									place="left margin" type="sign">starcken</add>
+								<term ref="lem016571.02">handt streich</term> uff der <lb/>rechte
+								achseln, sagende, die wilt nit <lb/>kommen <del>und wan der <term
+										ref="lem011429">böß geist</term>
+									<lb/>nampsette sich des bösen <add place="above">des</add>
+									<term ref="lem011429">bössen geists</term>
+									<lb/>nammen hatt sy vergessen, dan das er ira <lb/>saget, er
+									were der <term ref="lem011429">böß geist</term>, ist
+										<persName>Perroget</persName>
+									<lb/>genampt</del> und <del>der</del> er sye
+									<persName>Perroquet</persName>
+								<lb/>genant, derhalben so pittet sy gott und<note>La phrase se
+									termine ainsi.</note>
+							</seg></p>		
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>

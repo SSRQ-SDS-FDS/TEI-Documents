@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+
+			</titleStmt>
+
+			<publicationStmt>
+				<date type="electronic" when="2019-05-29"/>
+				<date type="print"/> 
+			</publicationStmt>
+
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ_FR_I_2_8_0051_016</idno>
+			</seriesStmt>
+
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<idno>StAFR, Thurnrodel 11, S. 150–151</idno>
+					</msIdentifier>
+					<head>Pierre Bosson, Jean Malley – Verhör / Interrogatoire</head>
+					<msContents>
+						<summary></summary> 
+						<msItem>
+							<textLang>fr, de</textLang> 
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support>
+									<material></material>
+								</support>
+								<extent>
+									<dimensions type="leaves">
+										<height unit="cm" quantity="0.0"/>
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+									<dimensions type="plica">
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+								</extent>
+							</supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1620-09-16"><num value="16">xvi</num> <foreign xml:lang="la"><choice><abbr>7bris</abbr><expan>septembris</expan></choice></foreign> <hi rend="underline">1620</hi></origDate>
+							<origPlace></origPlace>
+						</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+							
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+			<particDesc default="false"/>
+			<settingDesc default="false"/>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="150"/><p><lb/><foreign xml:lang="la">Bis</foreign><note>Vermutlich wurde der Angeklagte zum zweiten Mal verhört.</note></p> 
+							<p><foreign xml:lang="la">Ibidem</foreign><note>Das Verhör fand im <placeName ref="loc007683">Bösen Turm</placeName> statt.</note></p>
+						
+						<p><seg><lb/><add place="left margin">Hat nüt bezalt.</add></seg> 
+							<seg><persName ref="per009569">Pierre Bosson</persName><note>Pierre Bosson sera condamné et exécuté en 1623. Voir <ref>SSRQ_FR_I_2_8_056_041</ref>.</note>, de <placeName ref="loc007647.03">Romond</placeName>, ne sait qu’il aye <term ref="lem015635.24">ballé</term> 
+								<lb/>aulcune <term ref="lem018382.02">graise</term> a <persName ref="per009614">Hausy Malley</persName>, disant 
+						<lb/>luy faire grand tort de l’<term ref="lem015356.06">acculper</term> de 
+						<lb/>cela&#160;; que veritablement il auroit prins 
+								<lb/>du pain, <term ref="lem018643.01">fromage</term> et fruit, mais non pas 
+						<lb/>aultre chose.</seg></p>
+						
+						<pb n="151"/><p><lb/><foreign xml:lang="la">Ibidem</foreign><note>Das Verhör fand im <placeName ref="loc007683">Bösen Turm</placeName> statt.</note></p>
+						
+						<p><seg><lb/><add place="left margin">Hat nüt bezalt.</add></seg> 
+							<seg><persName ref="per009614">Hausy Malley</persName> faisant du commencement ne<lb break="no"/>gative de sa primiere confession, neantmoins 
+						<lb/>en la fin l’a confirmé, confessant son 
+						<lb/>maistre le seroit venu trouver <add place="above">de nuict</add> aux prisons, 
+						<lb/>luy commandant de se retirer de sa confes<lb break="no"/>sion et la nyer, et qu’on luy porteroit 
+						<lb/>le lendemain le s<hi rend="sup">t</hi> sacrement, lequel 
+						<lb/>devoit remettre hors de la bouche.</seg> 
+						<seg><lb/>Disant dadvantage que tout ce qu’il a cy<lb break="no"/>devant confessé estre que trop veritable, 
+						<lb/>hormis de ne s’avoir oublié avec les <term ref="lem015407.03">pudres</term>, 
+						<lb/>que seulement avec la <subst><del>bl</del><add place="inline">brebis</add></subst> et la 
+						<lb/><term ref="lem015014">moge</term>.</seg> <seg>En aprés ledit <persName ref="per009569">Bosson</persName> estant 
+						<lb/>confronté avec ledit <persName ref="per009614">Maley</persName>, il a dit n’estre 
+						<lb/><persName ref="per009618">Pierre Brasey</persName>, lequel luy a <term ref="lem015635.24">ballé</term> de la 
+							<lb/><term ref="lem018382.02">graise</term>&#160;; que n’a jamais accusé ledit <persName ref="per009569">Bosson</persName>, 
+						<lb/>duquel ne sait aulcun mal. Aultre n’a 
+						<lb/>dit.</seg> 
+							<seg><add place="left margin">Hingericht <origDate when="1620-09-18">18 
+						<lb/><foreign xml:lang="la"><choice><abbr>7br</abbr><expan>septembris</expan></choice></foreign> <hi rend="underline">1620</hi></origDate></add><note>Der Schreiber hat sich wohl geirrt: Laut den Ratsprotokollen fand die Hinrichtung am <date when="1620-09-19">19. September 1620</date> statt.</note></seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+
+
+
+<?oxy_options track_changes="on"?>

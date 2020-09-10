@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+
+			</titleStmt>
+
+			<publicationStmt>
+				<date type="electronic" when="2018-12-12"/>
+				<date type="print"/>
+			</publicationStmt>
+
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ_FR_I_2_8_0013_003</idno>
+			</seriesStmt>
+
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<idno>StAFR, Ratsmanual 90 (1564), S. 44</idno>
+					</msIdentifier>
+					<head>Collette Bosson – Urteil / Jugement</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang>de, fr</textLang>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support>
+									<material></material>
+								</support>
+								<extent>
+									<dimensions type="leaves">
+										<height unit="cm" quantity="0.0"/>
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+									<dimensions type="plica">
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+								</extent>
+							</supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate when="1564-07-16">16 <foreign xml:lang="la">jullii</foreign> [1564]</origDate>
+							<origPlace></origPlace>
+						</origin>
+					</history>
+					<additional>
+						<listBibl>
+							
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+			<particDesc default="false"/>
+			<settingDesc default="false"/>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<p><lb/><persName ref="per009742a.01">Colleta</persName> relaissee de <persName ref="per009743">Francoys Bosson</persName> 
+							<lb/>de la terre de <placeName ref="loc007646.04">Geneve</placeName></p>  
+						<p><lb/>Das arm wyb ist <term ref="lem011898.02">bekandtlich</term> gsinn, gott unnd alles himmelsch 
+							<lb/><term ref="lem014456.03">hörr</term> gelougnet unnd den tuffel zu herrn erkhandt von 
+							<lb/>armut wegen. Sye ouch schuldig an dem <term ref="lem007347">hagel</term>, der solliche 
+							<lb/>schaden zu <unclear><placeName ref="loc007661.02">Wippingen</placeName></unclear> unnd anderßwo gethan. Si hatt ouch 
+							<lb/><term ref="lem001236">verjechen</term>, mit dem tuffel, ouch mit sinem sun, zeschaffen 
+							<lb/>habe gehept unnd <term ref="lem000310.13">vich</term> machen sterben. Deßhalb si zum 
+							<lb/><term ref="lem012936.03">füwr</term> <term ref="lem005962">erkhendt</term> ist.</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+
+
+
+<?oxy_options track_changes="on"?>

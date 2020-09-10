@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     n="1234"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="headerinfo"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2020-08-17"/>    <date type="print"/>
+    <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Collection des sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des
+      sources
+      du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS_NE_3_455</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>AVN B 101.14.002, fol. 81r–81v</idno>
+               </msIdentifier>
+               <head>Dettes de la communauté conjugale</head>
+               <msContents>
+                  <summary>Le bien du mari doit supporter et payer les dettes qu’il a créées avec sa
+                     femme tant que possible. Lorsque le bien du mari ne suffit pas, les créanciers
+                     peuvent agir sur les biens de la femme qui devient alors créancière de son
+                     mari. Si la femme s’est obligée conjointement avec son mari, le créancier peut
+                     agir directement sur le bien de la femme coobligée sans qu’il soit tenu
+                     d’épuiser le bien du mari. </summary>
+                  <msItem>
+                     <textLang>français</textLang>
+                     <filiation type="current"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="34.5"/>
+                              <width unit="cm" quantity="22"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1788-07-21"/>
+                     <origPlace ref="loc007786">Neuchâtel</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head/>
+                     <bibl/>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key005115"/>
+               <term ref="key003521"/>
+               <term ref="key000058"/>
+               <term ref="key004001"/>
+               <term ref="key000138"/>
+               <term ref="key000558"/>
+               <term ref="key003331"></term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="81r" facs="AVN_B_101.14.002_0081r"/>
+               <div>
+                  <p>
+                     <lb/>Du <origDate when="1788-07-21">21<hi rend="sup">e</hi> juillet
+                        1788</origDate>. </p>
+                  <p>
+                     <lb/>Sur la requête présentée à monsieur le maître bourgeois <lb/>en chef &amp;
+                     à <orgName ref="org003085">messieurs du Petit Conseil</orgName> par monsieur
+                        <persName ref="per008718">Jannot</persName>, <lb/>avocat agissant au nom de
+                     madame de <persName ref="per008719">Tulment née de <lb/>Monvert</persName>, aux
+                     fins d’avoir la déclaration de la coutume de <lb/>ce pays sur les cas suivants. </p>
+                  <p>
+                     <lb/>1. Si les dettes de la communauté conjugale ne sont pas <lb/>à la charge
+                     du mari seul, tant qu’il a des bien pour <lb/>les acquiter&#160;? </p>
+                  <p>
+                     <lb/>2. Si lors que les biens du mary ne suffisent pas pour aquiter <lb/>les
+                     dettes de la conjonction, les créanciers ne peuvent pas <lb/>agir sur les biens
+                     de la femme pour se procurer leur <lb/>payement, et si dans ce cas la femme ne
+                     devient pas <lb/>créancière de son mari, pour les sommes qu’elle a payées
+                     <lb/>aux créancier de la conjonction. </p>
+                  <p>
+                     <lb/>3. Si lors que la femme s’est obligée conjointement avec son <lb/>mari, le
+                     créancier n’est pas en droit d’agir directement sur <lb/>les biens de la femme
+                     co-obligée, sans qu’il soit tenu <lb/>d’épuiser les biens du mari&#160;; et si dans
+                     ce cas la femme <pb n="81v" facs="AVN_B_101.14.002_0081v"/>
+                     <lb/>la femme ne devient pas créancière de son mari, de <lb/>la totalité des
+                     sommes qu’elle aura payées&#160;? </p>
+                  <p>
+                     <lb/>Sur quoi monsieur le maître bourgeois et <orgName ref="org003085"
+                        >messieurs du Conseil</orgName>, <lb/>ayant consulté ensemble &amp;
+                     déliberé, ils ont donné par <lb/>déclaration que la coutume a été constamment
+                     dans <lb/>ce pays. </p>
+                  <p>
+                     <lb/>1&#160;: Que le bien du mari doit supporter et payer les <lb/>dettes qu’il a
+                     créés avec sa femme, tant qu’il y en a <lb/>pour les aquiter. </p>
+                  <p>
+                     <lb/>2&#160;: Lors que le bien du mari ne suffit pas pour aquiter <lb/>les dettes de
+                     la conjonction, les créancier peuvent agir <lb/>sur les biens de la femme pour
+                     se procurer leurs payement <lb/>et dans ce cas, elle devient créancière de son
+                     mari pour <lb/>les sommes qu’elle aura payées aux créanciers de ladite
+                     <lb/>conjonction. </p>
+                  <p>
+                     <lb/>3&#160;: Lors que la femme s’est obligée conjointement avec <lb/>son mari, le
+                     créancier est en droit d’agir <choice>
+                        <abbr>directem<hi rend="sup">t</hi></abbr>
+                        <expan>directement</expan>
+                     </choice>
+                     <lb/>sur le bien de ladite femme co-obligée, sans qu’il <lb/>soit tenu
+                     d’épuiser le bien du mari, et dans ce cas <lb/>ladite femme peut se dédomager
+                     sur le bien de son <lb/>mari, s’il y en a de reste après que ses dettes
+                     particulières <lb/>créées avant le mariage seront aquittées. </p>
+                  <p>
+                     <lb/>Laquelle déclaration ainsi rendue, il a été ordonné <lb/>au soussigné
+                     secrétaire du Conseil de Ville, de <lb/>l’expédier en cette forme, sous le
+                     sceau de la mairie &amp; <lb/>justice de cette ville, à <origPlace
+                        ref="loc007786">Neufchatel</origPlace>, le <origDate when="1788-07-21">vingt
+                        un juillet <lb/>mil sept cent quatre vingt huit</origDate>. </p>
+               </div>
+               <div>
+                  <lb/>
+                  <signed>
+                     <persName ref="per008712">
+                        <choice>
+                           <abbr>C&#160;F</abbr>
+                           <expan>Claude François</expan>
+                        </choice> Bovet</persName>
+                     <figure type="notarial sign"/></signed>
+               </div>
+            </body>
+         </text>
+      </group>
+   </text>
+</TEI>

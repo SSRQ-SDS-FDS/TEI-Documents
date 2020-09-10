@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="headerinfo"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <date type="electronic" when="2020-08-17"/>
+    <date type="print"/>
+    <availability><p xml:id="facs">Adrien Wyssbrod</p></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Collection des sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS_NE_3_049</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier>
+      <idno>AEN 14JL–451, fol. 239v–240r</idno>
+     </msIdentifier>
+     <head>Procédure de notification d’un jugement par contumace</head>
+     <msContents>
+      <summary>La notification d’une sentence obtenue par contumace doit être faite à la partie
+       adverse dans la huitaine, par l’entremise du sautier.</summary>
+      <msItem>
+       <textLang>français</textLang>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="34"/>
+          <width unit="cm" quantity="22.5"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <origDate when="1605-02-25" calendar="Julian"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>
+      </origin>
+     </history>
+     <additional>
+      <listBibl>
+       <head/>
+       <bibl/>
+      </listBibl>
+     </additional>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key000683"></term>
+     <term ref="key000683"></term>
+     <term ref="key005021"></term>
+     <term ref="key005189"></term>
+     <term ref="key005117"></term>
+
+    </keywords>
+   </textClass>
+   <particDesc default="false"/>
+   <settingDesc default="false"/>
+  </profileDesc>
+ </teiHeader>
+ 
+ <text>
+  <group>
+   <text>
+    <body>
+     <pb n="239v" facs="AEN_14JL_451_0239v"/>
+     <div>
+      <p>
+       <lb/>Je <persName ref="per010508a.01">Daniel Huguenauld</persName> mayre et du <orgName
+        ref="org003085">Conseil de la ville de <lb/><placeName ref="loc007786"
+         >Neufchastel</placeName></orgName> pour et au nom de l’excellence et grandeur de ma dame la
+       <lb/>duchesse de <placeName ref="loc008493">Longueville</placeName> et de <placeName
+        ref="loc008494.03">Touteville</placeName>, et de monseigneur son très illustre <lb/>filz
+       notre souverain prince <choice>
+        <abbr>mgr</abbr>
+        <expan>monseigneur</expan>
+       </choice> sçavoir fais a <choice>
+        <sic>quil</sic>
+        <corr>qui</corr>
+       </choice> il appartiendra, <lb/>que le <date when="1605-02-22" calendar="Julian"
+        >vingtdeuxieme jour du mois de febvrier l’an de salut mille six centz <lb/>et cinq</date>,
+       administrant justice par devant moy et <term ref="lem017673.02">aucuns</term> des sieurs
+       conseillers <lb/>de <choice>
+        <abbr>lad</abbr>
+        <expan>ladite</expan>
+       </choice> ville, est comparu <choice>
+        <abbr>honn</abbr>
+        <expan>honorable</expan>
+       </choice>
+       <persName ref="per012907a.01">Conrard Ferron dict Pontus</persName> bourgeois <choice>
+        <abbr>dud</abbr>
+        <expan>dudit</expan>
+       </choice>
+       <lb/><placeName ref="loc007786">Neufchastel</placeName> residant a <placeName ref="loc008483"
+        >Cressier</placeName>, lequel tant en son nom que de <persName ref="per012909a.01"
+        >Pierre</persName> son <lb/>frere, assisté d’<choice>
+        <abbr>honnor</abbr>
+        <expan>honnorable</expan>
+       </choice>
+       <persName ref="per011225a.02">Ollivier Amyod</persName> bourgeois <choice>
+        <abbr>dud</abbr>
+        <expan>dudit</expan>
+       </choice> lieu, a proposé a <lb/>forme de droict, comme il leur est requis d’avoir
+       declaration d’un poinct <lb/>de coustume pour en faire paroistre en la cause qui est <term
+        ref="lem018433.02">ventilée</term> en la justice <lb/>de <placeName ref="loc007800.04"
+        >Sainct Blaise</placeName> entre eux et la communauté de <placeName ref="loc008483"
+        >Cressier</placeName> assavoir <term ref="lem016286">mon</term>
+       <lb/>quand quelqu’un forme demande a un autre, ou bien obtient un <term ref="lem015646"
+        >passement</term>
+       <lb/>coutumace, et il est requis faire <del rend="strikethrough"><gap reason="illegible"
+         unit="character" quantity="6"/></del> sçavoir tel <term ref="lem016019">exploict</term> de
+       justice a la <lb/>contrepartie deans la <date dur="P8D">huictaine</date> par le <term
+        ref="lem014994.03">soubtier</term>, mesme que l’officier soit <lb/>mayre ou autre qui
+       preside ordonne a son <term ref="lem014994.03">soubtier</term>, de le notifier a <choice>
+        <abbr>lad</abbr>
+        <expan>ladite</expan>
+       </choice>
+       <lb/>contrepartie, <del rend="strikethrough"><gap reason="illegible" unit="word" quantity="1"
+        /></del> que ladicte ordonnance ne suffit, parce que ce n’est <lb/>sinon comme prester <choice>
+        <abbr>led</abbr>
+        <expan>ledit</expan>
+       </choice>
+       <term ref="lem014994.03">soubtier</term>, ains que pour effectuer ce que l’officier <lb/>a
+       ordonné, la partie qui <sic>juste et agit</sic> se doibt dans la <date dur="P8D"
+        >huictaine</date> approcher <lb/>du <term ref="lem014994.03">soubtier</term> et luy payer
+       ses droicts pour faire a faire ladicte notification <lb/>a peyne de nullite, sur tout quand
+       la contrepartie est residante en un <lb/>autre lieu, parquoy et d’aultant que ceste ville est
+       le chef et lieu capital <lb/>du conté, en laquelle les declaration des poincts de coustume
+       usitez riere <lb/>tout <choice>
+        <abbr>led</abbr>
+        <expan>ledit</expan>
+       </choice> conté, de temps immemorial et jusqu’a <choice>
+        <abbr>pnt</abbr>
+        <expan>présent</expan>
+       </choice> ont esté faictes, <lb/>demandoit tant en son nom que de <choice>
+        <abbr>sond</abbr>
+        <expan>sondit</expan>
+       </choice> frere droict et judicialle <lb/>cognoissance que declaration leur fust faite du
+       poinct de coustume <lb/>susmentionné. </p>
+      <p>
+       <lb/>Et en ayant esté par <choice>
+        <abbr>moyd</abbr>
+        <expan>moydit</expan>
+       </choice> mayre demandé le droict aux sieurs <lb/>conseillers lors assemblez en assez petit
+       nombre, iceulx pour en declairer <lb/>meurement prindrent jour d’advis pour referer ce faict
+       en <orgName ref="org003085">conseil</orgName>, <lb/>afin d’en communiquer et resouldre avec
+       le reste de <orgName ref="org003085">messieurs les <lb/>vingtquatres conseilliers</orgName>
+       leurs confreres et de faict estant le <orgName ref="org003085">conseil</orgName>
+       <lb/>convocqué et assemblé le dimanche suivant <date when="1605-02-24">vingtquattrieme <choice>
+         <abbr>dud</abbr>
+         <expan>dudit</expan>
+        </choice>
+        <lb/>mois</date>, <choice>
+        <abbr>lesd</abbr>
+        <expan>lesdits</expan>
+       </choice> sieurs conseilliers se rememorant de ce que par le passé <pb n="240r"
+        facs="AEN_14JL_451_0240r"/>
+       <lb/>et jusqu’a present a esté usitez et de coustume en tels evenements par <lb/>meure
+       consultation, ont dict et declairé que lors qu’il est question <lb/><add place="left margin"
+        rend="pencil" hand="later hand"><choice>
+         <abbr>P de C</abbr>
+         <expan>Point de coustume</expan>
+        </choice> du <date when="1605-02-25" calendar="Julian">25 fevrier 1605</date></add> de faire
+       notifier a quelqu’un une demande qu’on luy a formée, et <lb/>un <term ref="lem015646"
+        >passement</term> qu’on a obtenu contre luy, ou quelque autre <term ref="lem016019.04"
+        >exploict</term>
+       <lb/>de justice <term ref="lem018616.02">ores</term> que l’officier qui preside soit mayre ou
+       autre <lb/>ordonne au <term ref="lem014994.03">soubtier</term> de laisser sçavoir tel <term
+        ref="lem016019.04">exploict</term> a <choice>
+        <abbr>lad</abbr>
+        <expan>ladite</expan>
+       </choice> contrepartie, <lb/>cela ne suffit pas, <term ref="lem015643">ains</term> fault que
+       suivant coustume la partie <lb/>qui agit, a ladicte demande, ou <del rend="strikethrough"
+        >qu’il</del> qui a obtenu passement, et <lb/>faict faire <del rend="strikethrough"><gap
+         reason="illegible" unit="word" quantity="1"/></del> l’exploit, s’approche <choice>
+        <abbr>dud</abbr>
+        <expan>dudit</expan>
+       </choice>
+       <term ref="lem014994.03">soubtier</term> deans la <date dur="P8D">huictaine</date>, <lb/>et
+       le requierre de faire telle notification, en luy payant ses droicts <lb/>specialement quand
+       il luy convient aller hors du lieu, d’aultant <lb/>que l’ordonnance de l’officier et
+       president ne sert sinon pour prester <lb/>le <term ref="lem014994.03">soubtier</term> et
+       l’authoriser de la part de la seigneurie pour notifier <lb/>ce qui est requis a la
+       contrepartie. </p>
+      <p>
+       <lb/>De laquelle declaration de poinct de coustume, <choice>
+        <abbr>led</abbr>
+        <expan>ledit</expan>
+       </choice>
+       <persName ref="per011225a.02">Ollivier Amyod</persName>
+       <lb/>au nom <choice>
+        <abbr>desd</abbr>
+        <expan>desdits</expan>
+       </choice> freres <orgName ref="org005272">Ferron</orgName> a requis et demandé avoir acte
+       pour s’en <lb/>servir ou ils pretendent, et que par les <choice>
+        <abbr>honnor</abbr>
+        <expan>honorables</expan>
+       </choice> et prudents, <persName ref="per010427a.03">Jehan <lb/>Rougemont</persName>,
+        <persName ref="per011737a.01">Guillame Massonde</persName> et le notayre soubsigné,
+       conseillers <lb/>de <placeName ref="loc007786">Neufchastel</placeName> luy a esté
+       cogneu et adjugé, et par <choice>
+        <abbr>moyd</abbr>
+        <expan>moydit</expan>
+       </choice> mayre <lb/>ordonné <choice>
+        <abbr>aud</abbr>
+        <expan>audit</expan>
+       </choice>
+       <choice>
+        <abbr>not</abbr>
+        <expan>notaire</expan>
+       </choice> de l’expedier en ceste forme, selon <choice>
+        <abbr>lad</abbr>
+        <expan>ladite</expan>
+       </choice>
+       <lb/>resolution de <orgName ref="org003085">Conseil</orgName>, faict <del
+        rend="strikethrough"><gap reason="illegible" unit="character" quantity="3"/></del> le
+        <origDate when="1605-02-25" calendar="Julian">lundy vingtcinquieme jour <lb/><choice>
+         <abbr>dud</abbr>
+         <expan>dudit</expan>
+        </choice> mois de febvrier, <choice>
+         <abbr>aud</abbr>
+         <expan>audit</expan>
+        </choice> an mille six cents et cinq</origDate>.
+      </p>
+     </div>
+     <div>
+      <signed><persName ref="per010433a.03"/>
+       <figure type="notarial sign"/> not</signed>
+     </div>
+    </body>
+   </text>
+  </group>
+ </text>
+</TEI>

@@ -1,0 +1,682 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die
+          Landschaften und Landstädte, Band 4: Die Rechtsquellen der Region Werdenberg: Grafschaft
+          Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft
+          Hohensax-Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-08-22"/>
+            <date type="print"/>
+            <availability><p xml:id="facs">Staatsarchiv St. Gallen (StASG)</p></availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_158_1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>StASG AA 2 U 44</idno>
+               </msIdentifier>
+               <head>Friedrich Ludwig von Sax-Hohensax verkauft wegen hoher Verschuldung die Freiherrschaft Sax-Forstegg für 115'000 Gulden an Zürich</head>
+               <msContents>
+                  <summary>
+                     <p>Freiherr Friedrich Ludwig von Sax-Hohensax verkauft mit Einwilligung seines Vetters Johann Christoph von Sax-Hohensax wegen hoher Verschuldung für 115’000 Gulden die
+                    Freiherrschaft Sax-Forstegg mit allen Rechten an Zürich. Johann Christoph von Sax-Hohensax siegelt für den Aussteller.</p>
+                  </summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <filiation type="current">Original</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Pergament</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="47.0"/>
+                              <width unit="cm" quantity="72.5"/>
+                           </dimensions>
+                           <dimensions type="plica">
+                              <width unit="cm" quantity="11.0"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <sealDesc>
+                     <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI"
+                           n="1"
+                           nontei:condition="well-preserved"
+                           nontei:material="wax in a box"
+                           nontei:shape="round"
+                           nontei:attachment="sealed on a parchment tag"
+                           facs="StASG_AA_2_U_44_s_01">
+                        <persName role="sigillant" ref="per004774a">Freiherr Friedrich Ludwig von
+                      Sax-Hohensax</persName>
+                     </seal>
+                     <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI"
+                           n="2"
+                           nontei:condition="well-preserved"
+                           nontei:material="wax in a box"
+                           nontei:shape="round"
+                           nontei:attachment="sealed on a parchment tag"
+                           facs="StASG_AA_2_U_44_s_02">
+                        <persName role="sigillant" ref="per004678a">Freiherr Johann Christoph von
+                      Sax-Hohensax</persName>
+                     </seal>
+                  </sealDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1615-04-15"/>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head>Literatur</head>
+                     <bibl><ref target="http://permalink.snl.ch/bib/chbsg000140891">Malamud 2015</ref>, S. 234–246</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000369">Kauf</term>
+               <term ref="key000140">Herrschaft</term>
+               <term ref="key000336">Nutzniessung</term>
+               <term ref="key000058">Schulden</term>
+               <term ref="key000044"/>
+               <term ref="key000837"/>
+               <term ref="key000183"/>
+               <term ref="key000811"/>
+               <term ref="key004699"/>
+               <term ref="key000258"/>
+               <term ref="key003818"/>
+               <term ref="key000151"/>
+               <term ref="key000626"/>
+               <term ref="key000047"/>
+               <term ref="key000049"/>
+               <term ref="key000479"/>
+               <term ref="key000493"/>
+               <term ref="key000154"/>
+            </keywords>
+         </textClass>
+         <particDesc/>
+         <settingDesc/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <div>
+                  <pb facs="StASG_AA_2_U_44_r"/>
+                  <p>
+                     <lb/>Wir, <persName ref="per004774a">Fridrich Ludwig, fryherr von der Hohen
+                        Sax, herr zuͦ Sax unnd Vorstegk</persName>, bekhennen offentlich unnd thuͦn
+                     khundt menigklichem mit dißerm brieff, das <lb/>wir mit wolbedachtem muͦt unnd
+                     guͦter, zytlicher vorbetrachtung, sonnderlichen inn bysinn, auch mit gunst,
+                     wüßen unnd willen deß wolgebornnen herrn <persName ref="per004678a">Johann
+                        Christoffs, fryherrn von der Hohen Sax, herr zuͦ <placeName ref="loc000278"
+                           >Sax und Vorstegk</placeName>, zuͦ <placeName ref="loc006924"
+                           >Uster</placeName></persName>, unnßers fründtlichen, lieben vetern, umb
+                     unnßers beßern nutzes <lb/>unnd frommen willen, auch zuͦ entledigung deß uff
+                     unns gewachßnen großen <term ref="lem010379">schuldenlasts</term>, eines
+                     ufrechten, stedten, vesten, redlichen, immerwehrenden unnd eewigen,
+                     unwiderrüfflichen <term ref="lem006669">kauffs</term>, wie der vor allen
+                     lüthen, richteren unnd gerichten, geistlichen unnd weltlichen, guͦt khrafft
+                     unnd macht hatt, <lb/>haben soll unnd mag, glycherwyß als were der vor
+                     ordenlichem gricht gefertiget unnd mit urteil bekhrefftiget, verkaufft unnd
+                     zekhauffen geben haben unnd gebent auch hiemit wüßentlich für unns unnd unnßere
+                     erben zekhauffen den edlen, gestrengen, frommen, vesten, fürsichtigen, wyßen
+                     herren <lb/><orgName ref="org002406">burgermeister, rethen, burgeren unnd
+                        gmeiner statt <placeName ref="loc000065">Zürich</placeName></orgName>,
+                     unnßeren günstigen, lieben herren unnd fründen, unnd allen iren nachkhommen
+                     namblich: <seg n="1">Unnßer <term ref="lem000268">herrschafft</term>
+                        <placeName ref="loc000278">Sax unnd Vorstegk</placeName>, mit <term
+                           ref="lem000975">hohen</term> unnd <term ref="lem000976">nideren
+                           grichten</term>, deßglychen die <term ref="lem000975">hochen
+                           gricht</term> inn der <placeName ref="loc000951">Lientz</placeName> unnd
+                        am <placeName ref="loc006476.01">Büchel</placeName>. </seg>
+                     <seg n="2">Item <lb/>die <term ref="lem012213">mannschafft</term> inn dißeren
+                        herrschafften.</seg>
+                     <seg n="3">Verner das <term ref="lem015211.02">lybeigenbuͦch</term>, so über
+                        das halbe theil der <term ref="lem001593">herrschaft lüthen</term> ruͤrt. </seg>
+                     <seg n="4">Item die <term ref="lem000337">fäl</term> unnd <term
+                           ref="lem015212.02">bastartfäl</term> inn der gantzen herrschafft. </seg>
+                     <seg n="5">Item die <term ref="lem000456">lehenschafft</term> unnd <term
+                           ref="lem004050">collatur</term> dryger <term ref="lem000673"
+                           >pfarrkirchen</term> zuͦ <placeName ref="loc006249">Sax</placeName>,
+                           <placeName ref="loc007990">Sennwald</placeName> unnd <placeName
+                           ref="loc007991">Saletz</placeName>.</seg>
+                     <seg n="6">Item den <term ref="lem000461">wildbann</term>, <lb/>mehr das <term
+                           ref="lem000376">schloß</term>
+                        <placeName ref="loc006124">Vorstegk</placeName> sambt <term ref="lem000248"
+                           >hüßeren</term>, <term ref="lem000246">garten</term>, <term
+                           ref="lem000249.03">schüren</term>, <term ref="lem001613"
+                           >stallungen</term> unnd aller annderer zuͦgehördt <abbr>etc</abbr>.</seg>
+                     <seg n="7">Wyter die <term ref="lem000030">vischentzen</term> im <placeName
+                           ref="loc000644">Rhyn</placeName> sambt annderen hochen grechtigkeiten
+                        unnd <term ref="lem005999">ylancken</term>
+                        <term ref="lem014605.10">erich</term>, da der <placeName ref="loc000644"
+                           >Rhyn</placeName>, so lang die herrschafft sich erstreckt, biß an das
+                        annder <term ref="lem002177">port</term> deß <term ref="lem005584"
+                           >hußes</term>
+                        <placeName ref="loc007946">Sax</placeName>
+                        <term ref="lem002369">eigenthumb</term>
+                        <lb/>ist, sambt der grechtigkeit, wann ein <term ref="lem001473"
+                           >malefitzische</term> ald straffwürdige person uff dem <placeName
+                           ref="loc000644">Rhyn</placeName> ergriffen wurde, das den besitzeren der
+                        herrschafft denselben zestraffen zuͦstadt. </seg>
+                     <seg n="8">Item <num value="5">fünff</num>
+                        <term ref="lem015113.04">banneter bechen</term> sambt dem <term
+                           ref="lem002275.03">wyger</term> bim <term ref="lem000376">schloß</term>
+                        <placeName ref="loc006124">Vorstegk</placeName>, darunder sind <num
+                           value="3">dryg</num>
+                        <term ref="lem000320">bech</term> im <placeName ref="loc000950"
+                           >Sennwald</placeName>, der viert zuͦ <lb/><placeName ref="loc000691"
+                           >Saletz</placeName> unnd der fünfft im <placeName ref="loc000389"
+                           >Hag</placeName>.</seg>
+                     <seg n="9">An <term ref="lem004267.09">räben</term> ein <term ref="lem000164"
+                           >wyngarten</term> uffm <placeName ref="loc008200.02">Obern
+                           Forst</placeName> genannt, item ein stuck genannt der <placeName
+                           ref="loc008201.02">Frömser Wyngarten</placeName>, item ein stuck genannt
+                        der <placeName ref="loc008202.02">Klyn Wyngarten</placeName> bim huß
+                           <placeName ref="loc007946">Sax</placeName>, ein stuck genannt der
+                           <placeName ref="loc008203.02">Ober Wyngarten</placeName> sambt dem
+                        byligenden guͦt unnd noch ein stuck <lb/><term ref="lem003780.01"
+                           >wißwachs</term> oben doran gelegen genannt die <placeName
+                           ref="loc006163.01">Ebni</placeName> unnd aber ein stuck oben doran
+                        genannt der <placeName ref="loc008205.01">Frischenberg</placeName> unnd ein
+                        stuck genannt der <placeName ref="loc008204.02">Unnder Wyngarten</placeName>
+                        unnd unnd ein stückli wißwachs darby gelegen.</seg>
+                     <seg n="10">An <term ref="lem000028">holtz</term> den gantzen <term
+                           ref="lem000251">wald</term> hinderm schloß <placeName ref="loc006124"
+                           >Vorstegk</placeName>, item ein stuck wald <lb/>genannt <placeName
+                           ref="loc006044.03">Biggis Holtz</placeName>, mehr ein stuck wald
+                           <placeName ref="loc008206.02">Kapfhalden</placeName> genannt, wyter ein
+                        stuck wald der <placeName ref="loc008207.02">Herren Holtz</placeName>
+                        genannt, by dem altem schloß <placeName ref="loc000185">Hohen
+                           Sax</placeName> gelegen, unnd ein gantzen wald heißt inn Kälen.</seg>
+                     <seg n="11">Item ein hübsche <term ref="lem002898">behußung</term> zuͦ
+                           <placeName ref="loc006042">Sax</placeName> sambt übrigen hüßeren,
+                        schüren, gärten unnd aller <lb/>zuͦgehördt, welliches huß inn <placeName
+                           ref="loc006130.07">Saxer Alp</placeName> uff siben stöß grechtigkeit
+                        hat.</seg>
+                     <seg n="12">An <term ref="lem003780.01">wißwachs</term>, <term ref="lem000548"
+                           >rieteren</term> unnd <term ref="lem000027">weiden</term> ein stückli
+                        guͦt hinder dem <term ref="lem000376">schloß</term>, ein stückli weid
+                        hinderm <placeName ref="loc008236.02"><term ref="lem015219.02"
+                              >Sennhuß</term></placeName>, ein stuck genannt der <placeName
+                           ref="loc008200.03">Obervorst</placeName>, ein stuck genannt das
+                           <placeName ref="loc008209.02">Veld</placeName>, ein stuck guͦt sambt der
+                           <placeName ref="loc008211.01">Wettistuden</placeName>
+                        <lb/>uff dem <placeName ref="loc008212.02">Unndern Vorst</placeName>, ein
+                        guͦt die <placeName ref="loc008210.01">Wetti</placeName> genannt sambt dem
+                           <placeName ref="loc008214">Unndern</placeName> unnd <placeName
+                           ref="loc008213.01">Obern Burstriet</placeName>. Ein stuck genannt
+                           <placeName ref="loc008216.02">Butzenwinckel</placeName>, item die
+                           <placeName ref="loc008218.02">Unnder</placeName> unnd <placeName
+                           ref="loc008217.02">Ober Theilmäder</placeName>, item die <placeName
+                           ref="loc008215.02">Burstmäder</placeName>. Mehr ein stuck deß <placeName
+                           ref="loc008219.02">Müllers Mader</placeName> genannt, ein stuck weid
+                        genannt die <placeName ref="loc007750.03">Vörst</placeName>, ein stuck <term
+                           ref="lem002450.08">stroüwi</term> heißt Im <lb/>
+                        <placeName ref="loc008384.03">Vom Ortlen</placeName>, ein stuck genannt
+                           <placeName ref="loc008221.02">Inns Frömsers Riet</placeName>, ein stuck
+                        genannt der <placeName ref="loc008222.01">Alber</placeName>, item ein stuck
+                        genannt <placeName ref="loc008223.02">Rürgarten</placeName> samt dem
+                        byligenden stuck, so der <placeName ref="loc008224.02">Brül</placeName>
+                        heißt, auch die <placeName ref="loc008225.02">Brülwiß</placeName>, alles an
+                        ein annderen gelegen. Item ein stuck genannt deß <placeName
+                           ref="loc008226.02">Mennlis Hofstatt</placeName>, ein stuck genannt <lb/>
+                        <placeName ref="loc006046.03">Schuͦmachers Veld</placeName>, ein stückli
+                        genannt das <placeName ref="loc008227.02">Fulwißli</placeName> unnd <measure
+                           unit="Mannmad" quantity="14" type="area">vierzechen manmad</measure> uff
+                           <placeName ref="loc008208.02">Saxer Fruͤriet</placeName>.</seg>
+                     <seg n="13">Verner den <term ref="lem000169">hof</term>
+                        <placeName ref="loc006533.02">Gardis</placeName> mit nachvolgenden stucken:
+                        Nammlich <term ref="lem008955">huß unnd hofstatt</term>, <term
+                           ref="lem000249.01">schür</term>, <term ref="lem001613">stallung</term>
+                        unnd ein <term ref="lem000076">guͦt</term> darby, alles inn einem <term
+                           ref="lem006002">infang</term> gelegen. Item ein stuck <term
+                           ref="lem000251">wald</term> der <placeName ref="loc008228.02">Tür<lb
+                              break="no"/>enbüchel</placeName> genannt. Mehr ein stuck guͦt heißt
+                        deß <placeName ref="loc008229.02">Oügstlers Veld</placeName>, wyter ein
+                        stuck guͦt genannt <placeName ref="loc008230.02">Ellsenmâß</placeName>, ein
+                        stuck genannt das <placeName ref="loc008231.02">Maaß</placeName>, ein stuck
+                        genannt <placeName ref="loc008232.01">Haberrüti</placeName>, ist ein <term
+                           ref="lem002759">summerweid</term>, ein stuck genannt Im <placeName
+                           ref="loc006261.04">Herrweg</placeName>, ist ein gantz <term
+                           ref="lem015217.02">kornveld</term>, doran seyt man sambt dem <placeName
+                           ref="loc008233">Haberveld</placeName>
+                        <measure commodity="pulses" unit="Scheffel" quantity="22" type="volume"
+                           >zwentzig <lb/>unnd zwen schöffel allerley frücht</measure>, ein stuck
+                        genannt das <placeName ref="loc008233.02">Haberveld</placeName> unnd
+                           <measure quantity="6" type="area" unit="Mannmad">sechs
+                           mannwerch</measure> uff dem <placeName ref="loc006117.02"
+                           >Saxerriet</placeName>.</seg>
+                     <seg n="14">Wyter ein <term ref="lem000306">alp</term> zuͦ beiden hüßeren
+                           <placeName ref="loc006124">Vorstegk</placeName> unnd <placeName
+                           ref="loc007946">Sax</placeName> heißt <placeName ref="loc006126.04">Alp
+                           Pylen</placeName>. Item uß <orgName ref="org001175">Saxer</orgName> alp
+                           <placeName ref="loc006130.08">Dafrußen</placeName> unnd <placeName
+                           ref="loc006130.09">Frußlen</placeName> hat das huß <placeName
+                           ref="loc007946">Sax</placeName>
+                        <date dur="R/P1Y">jerlich</date>s zinßes <measure type="volume"
+                           unit="Viertel" commodity="lard" quantity="5">fünff viert<lb break="no"
+                           />el schmaltz</measure>, <num value="30">dryßig</num>
+                        <term ref="lem000054">käß</term> unnd <num value="5">fünff</num>
+                        <term ref="lem000139">ziger</term>. Mehr dem huß <placeName ref="loc006124"
+                           >Vorstegk</placeName> gehört <date dur="R/P1Y">jerlich</date> uß
+                           <placeName ref="loc006123.03">Alp Peel</placeName>
+                        <measure unit="Viertel" commodity="lard" quantity="2" type="volume">zwey
+                           viertel schmaltz</measure> unnd uß <placeName ref="loc006126.04">Alp
+                           Pylen</placeName>
+                        <measure unit="Viertel" commodity="lard" quantity="3" type="volume">drü
+                           viertel schmaltz</measure> unnd <num value="8">acht</num>
+                        <term ref="lem000054">käß</term>.</seg>
+                     <seg n="15">Item im <placeName ref="loc000950">Sennwald</placeName> sind zwo
+                           <term ref="lem006000.06">zwingmüllinen</term> sambt <term ref="lem000321"
+                           >stampf</term> unnd <term ref="lem000355">blüwel</term> unnd zuͦ
+                           <placeName ref="loc006238">Sax</placeName> ein zwingmülli <lb/>sambt
+                        stampf unnd blüwel. </seg>
+                     <seg n="16">Verner den <term ref="lem000073">zehenden</term> im <placeName
+                           ref="loc000389">Hag</placeName>, so zuͦ gmeinen jaren <measure
+                           commodity="wheat" unit="Scheffel" quantity="9" type="volume">achtzechen
+                           schöffel halb weißen</measure>, <measure commodity="grain"
+                           unit="Scheffel" quantity="9" type="volume">unnd halb korn</measure>,
+                           <measure commodity="flax" unit="Pfund" quantity="60" type="weight"
+                           >sechtzig pfund grüsten flachß</measure> unnd <measure commodity="flax"
+                           quantity="1" unit="Scheffel" type="volume">ein schöffel
+                           flachßsammen</measure> ertreit. Item den zehenden zuͦ <placeName
+                           ref="loc006042">Sax</placeName>, der ertreit ungefahrlich <measure
+                           unit="Scheffel" quantity="25" commodity="grain_wheat" type="volume"
+                           >zwentzig unnd fünff schöffel <lb/>korn unnd weyßen</measure>. Item den
+                           <term ref="lem014550">kälber zehenden</term> zuͦ <placeName
+                           ref="loc006042">Sax</placeName>, für jedes <term ref="lem002088"
+                           >kalb</term>
+                        <measure commodity="lard" unit="Mass" quantity="1" type="volume">ein maaß
+                           schmaltz</measure>. Item den <term ref="lem015218.02">nuß zehenden</term>
+                        zuͦ <placeName ref="loc006042">Sax</placeName> unnd auch den <term
+                           ref="lem012841">reben zehnden</term>.</seg>
+                     <seg n="17">Verner die <term ref="lem014694">lyb-</term> unnd <term
+                           ref="lem015214.02">zugtagwen</term>, so gmeine <term ref="lem001593"
+                           >herrschafft lüth</term> zethuͦnd schuldig.</seg>
+                     <seg n="18">Item das <term ref="lem001110">weggelt</term> von allen den <term
+                           ref="lem001407">wahren</term>, so durch <lb/>die herrschafft gefhürt
+                        werdent, darvon gehört den <term ref="lem000329">unnderthonen</term>, umb
+                        das sy die <term ref="lem000114">straßen</term> inn guͦten ehren halten
+                        muͤßend, der halbe theil.<note>Zum Zoll oder Weggeld vgl.
+                              <ref>SSRQ_SG_III_4_232</ref>.</note></seg>
+                     <seg n="19">Sodenne an unabloßigen unnd abloßigen <term ref="lem001234"
+                           >geltzinßen</term> an gelt <measureGrp><measure type="currency" unit="fl"
+                              quantity="8929">achtthußent nünhundert zwentzig nün guldin</measure>,
+                              <measure unit="bz" quantity="11" type="currency">einliff
+                              batzen</measure>
+                           <measure unit="d" quantity="1" type="currency">und ein pfen<lb break="no"
+                              />ing</measure></measureGrp>. Item an <date dur="R/P1Y"
+                        >jerlich</date>en pfenningzinßen an gelt <measureGrp><measure
+                              type="currency" unit="lb" quantity="792">sibenhundert nüntzig zwey
+                              pfund</measure>
+                           <measure type="currency" unit="ß" quantity="20">unnd zwentzig schilling
+                              pfenning</measure></measureGrp>, an eewigen unablößigen <term
+                           ref="lem015220.02">hofgülten</term> an <measureGrp><measure type="volume"
+                              commodity="wheat" unit="Scheffel" quantity="15">weißen fünffzechen
+                              schöffel</measure>
+                           <measure quantity="2" unit="Viertel" type="volume">zwey viertel</measure>
+                           <measure quantity="3" unit="Mass" type="volume">drü
+                           meßli</measure></measureGrp>, an <measure commodity="pea" unit="Viertel"
+                           quantity="1" type="volume">erbßen ein viertel</measure>, an <measure
+                           commodity="lard" unit="Mass" quantity="49" type="volume">gsottnenem
+                           <lb/>schmaltz viertzig und nün maß</measure>, an <measure
+                           commodity="cheese" unit="Pfund" quantity="881" type="weight">keßen
+                           achthundert achtzig unnd ein pfund</measure>, an gelt
+                              <measureGrp><measure type="currency" unit="fl" quantity="29">zwentzig
+                              nün guldin</measure>
+                           <measure unit="bz" quantity="11" type="currency">einlif batzen</measure>
+                           <measure type="currency" unit="d" quantity="2">unnd zwen
+                              pfenning</measure></measureGrp>. Verner an <measure type="volume"
+                           commodity="wheat" unit="Viertel" quantity="2">weyßen zwey
+                           viertel</measure> unnd an <measureGrp><measure commodity="oat"
+                              unit="Scheffel" quantity="6" type="volume">fuͦter haber sechs
+                              schöffel,</measure>
+                           <measure unit="Viertel" quantity="3" type="volume">drü viertel</measure>
+                           <measure unit="Vierling" quantity="2" type="volume">unnd zwen
+                              vierling</measure>
+                        </measureGrp>. <lb/>Unnd dann gadt dem <placeName ref="loc008201.03"
+                           >Frümbßer Wyngarten</placeName>
+                        <date dur="R/P1Y">jerlich</date> yn an <measure commodity="picket"
+                           type="undefined" unit="Bürde" quantity="28">sticklen zwentzig unnd acht
+                           burdin</measure> unnd an <measure type="volume" commodity="dung"
+                           unit="Fuder" quantity="33">mist dryßig unnd drü fuͦder</measure>.</seg>
+                     <seg>Alles mit steg, weg, grund, gradt, waßer, waßerrechten, fryheit, ehaffte,
+                        rechtung unnd zuͦgehördt, wie wir unnd unßere vorelteren das biß<lb
+                           break="no"/>hero ingehebt, beseßen, genutzet unnd genoßen habent, es syge
+                        von recht oder altem harkhommen, darinn nützit ußgenommen noch vorbehalten,
+                        ouch die <term ref="lem000973">brief</term>, <term ref="lem001183"
+                           >schrifften</term>, <term ref="lem002554">register</term>, <term
+                           ref="lem001360">offnungen</term> unnd <term ref="lem000032.09"
+                           >rödel</term> darüber wyßend. Jedoch ist hierby ußbedingt vorgenannts
+                        unnßers lieben <term ref="lem000399">vetern</term> herrn <lb/><persName
+                           ref="per004678a">Johann Christoff</persName>s drite theil, so er an der
+                        hochheit unnd <term ref="lem001470">malefitz</term> dißer herrschafft
+                           <placeName ref="loc000278">Sax unnd Vorstegk</placeName>, wie auch inn
+                        der <placeName ref="loc000951">Lientz</placeName> unnd am <placeName
+                           ref="loc006476.01">Büchel</placeName> hatt. </seg> Z<seg>Ferner mit denen
+                        gedingen, das by dem <term ref="lem000376">schloß</term>
+                        <placeName ref="loc006124">Vorstegk</placeName> unnd <term ref="lem001152"
+                           >huß</term>
+                        <placeName ref="loc007946">Sax</placeName>, auch annderen zuͦgehörigen
+                        hüßeren blyben, was <term ref="lem006001.03">nuͦt und <lb/>nagel</term>
+                        begryfft. Ouch <term ref="lem000142.10">hoüw</term>, <term
+                           ref="lem006371.02">strouw</term>, <term ref="lem002330">buw</term>, <term
+                           ref="lem015221.02">trottgschir</term>, <term ref="lem000759">holtz</term>
+                        unnd annders derglychen, item alle <term ref="lem000843">vaß</term> unnd die
+                        zwey <term ref="lem007180.05">eerinen</term>
+                        <term ref="lem015216.02">veldstücklin</term>, wie auch zechen <term
+                           ref="lem004228.02">topellhaagen</term>. </seg>
+                     <seg>Es ist auch harinn luther unnd eigentlich abgeredt unnd von unns, dem
+                           <term ref="lem002447">verkoüffer</term>, angenommen, <lb/>wovehr den
+                        herren <term ref="lem002446">khoüfferen</term> an obinverlybten stucken unnd
+                        gülten etwas abgahn ald über das, so sy, wie hienach volget, von
+                        unnßertwegen zuͦ bezalen über sich genommen, wytere <term ref="lem000037"
+                           >schulden</term> fürhin khommen sölten, das wir, der verkhoüffer, den
+                        herren khoüfferen umb daßelbig wandel unnd abtrag tuͦn <lb/>oder aber unns
+                        an der <term ref="lem004126">kauffsumma</term> abgezogen werden. Unnd wie
+                        die wyter fürhin khommenden schulden selbsten ohne iren costen unnd schaden
+                           <term ref="lem005196.02">abferggen</term>.</seg>
+                     <seg>Sodenne der <term ref="lem014697.02">buw-</term> oder <term
+                           ref="lem015213.02">reblüthen</term>
+                        <term ref="lem000612.01">belohnung</term> betreffende, da söllend die herren
+                        khoüfferen unns umb das, so wir inen <term ref="lem009478.01">hürigs</term>
+                        jars <lb/>für ire gethannene <term ref="lem002351">werch</term> bezalt,
+                        widerumb guͦtmachen. Dargegen, was <term ref="lem008562">frefel unnd
+                           buͦßen</term> von dato diß briefs an <term ref="lem008106"
+                           >verfallen</term> werdent, die söllent allencklich den herren khoüfferen
+                        gediennen unnd gehören. Was aber darvor gefallen sambt den alten <term
+                           ref="lem003014">restantzen</term>, söllend sy, die herren <lb/>khoüffere,
+                        sich nützit annemmen. Zuͦdem unnd über diß alles soll den herren khoüfferen
+                        verlangen unnd werden alle zinß, zehenden zuͦsambt der nutzung von allen
+                        guͤteren, glych diß gegenwürtigen jars gefallende unnd wir, der verkhoüffer,
+                        weder darzuͦ noch doran khein rechtsamme vorder<lb break="no"/>ung noch
+                        ansprach nit haben, dheins wegs. </seg>
+                     <seg>Wir, der verkhoüffer, söllend auch unverzogenlich den herren <orgName
+                           ref="org001196">von <placeName ref="loc000065"
+                           >Zürich</placeName></orgName> als koüfferen alle unnßere urbar, offnungen
+                        unnd anndere brieff umb dißere herrschafft, höf ald guͤtere luthend
+                        überantworten unnd wüßentlich nützit <lb/>verhalten.</seg>
+                     <seg>Unnd ist dißer khauff ergangen unnd beschechen umb <measure
+                           type="currency" unit="fl" origin="ZH" quantity="105000">einhundert und
+                           fünfthußent guldin</measure> guͦter der statt <placeName ref="loc000065"
+                           ><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>Zürich<?oxy_custom_end?></placeName>
+                        müntz unnd wehrung, deßglychen mehrgenanntem, unnßerm vetern, herrn
+                           <persName ref="per004678a">Johann Christoff, fryherrn von der Hohen
+                           Sax</persName>
+                        <abbr>etc</abbr>, für die disers <lb/>kauffs halber gehebte beschwerd unnd
+                        dardurch entgahnde erbsgrechtigkeit auch <measure type="currency" unit="fl"
+                           origin="ZH" quantity="10000">zechenthußent guldin</measure> vorgemelter
+                        müntz ald wehrung, welliches zuͦsammen <measure type="currency" unit="fl"
+                           origin="ZH" quantity="115000">einhundert thußent und fünfzechenthußent
+                           guldin</measure> thuͦt. </seg>
+                     <seg>Mehr über das habent gemelte herren koüffere unns, <lb/>dem verkhoüffer,
+                        uff unnßer anhalten verehrt die dryg unnd zwentzig <term ref="lem002096"
+                           >stöß</term> uff den alpen <placeName ref="loc000684.05"
+                           >Schöpß</placeName> und <placeName ref="loc000247.05"
+                           >Tils</placeName>,<note>Später kommen die Alpstösse der beiden Alpen an
+                           Zürich. Zu den beiden Alpen Tüls und Scheibs vgl. auch <bibl><ref
+                                 target="http://permalink.snl.ch/bib/chbsg000150285">Reich
+                                 2001</ref>, S. 23–30</bibl>; <bibl><ref
+                                 target="http://permalink.snl.ch/bib/chbsg000150286">Reich
+                                 2000</ref>, S. 40–44</bibl>.</note> so glychwol hierinn nit
+                        begriffen unnd aber doch zuͦ dem huß <placeName ref="loc007946"
+                           >Sax</placeName> gehörig sind, mit dem anhang, wann sy einen <term
+                           ref="lem011800">ambtman</term> ald <term ref="lem005172">vogt</term> gen
+                           <placeName ref="loc006124">Vorstegk</placeName> oder <placeName
+                           ref="loc007946">Sax</placeName> setzen wurden, <lb/>unnd derselbige zuͦ
+                        beßerer erhaltung synes <term ref="lem000310">vychs</term> dieselben stöß
+                        zebruchen begehrte, das dann wir demselben, wo wir es unnßers vychs halber
+                        entberen möchten, die inn dem gelt, wie anndere auch thuͦnd, lychen söllen.
+                        Wann auch innskhünfftig wir hieobangezogne stöß ver<lb break="no"/>khauffen
+                        welten, söllen wir pflichtig syn, dieselben zum vordristen den <orgName
+                           ref="org001196">herren von <placeName ref="loc000065"
+                           >Zürich</placeName></orgName> inn dem <term ref="lem002415">pryß</term>
+                        der <term ref="lem001434">alpgrechtigkeit</term> feil zebieten unnd sontst
+                        annderwerts ohne derselben bewilligung nit zuͦverenderen.</seg>
+                     <seg>Vor wellicher obernennten <term ref="lem004126">kauffsumma</term> die
+                        herren koüffere <lb/>von unnßertwegen zuͦbezalen über sich genommen <measure
+                           type="currency" unit="fl" quantity="75000">fünff unnd sibentzig thußent
+                           guldin</measure> unnd unns versprochen, die übrigen <measure
+                           type="currency" unit="fl" quantity="30000">dryßig thußent
+                           guldin</measure>
+                        <date dur="R/P1Y">jerlich</date>en unnd so lang wir einich anndere
+                        herrschafft ald huß khauffen wurden, mit <measure type="currency" unit="fl"
+                           quantity="1500">fünffzechenhundert guldinen</measure>, wie auch vor
+                           offtge<lb break="no"/>nanntem unnßerm lieben vetern syne <measure
+                           type="currency" unit="fl" quantity="10000">zechen thußent
+                           guldin</measure> mit <measure type="currency" unit="fl" quantity="500"
+                           >fünffhundert guldinen</measure> zuͦverzinßen, alles vermög der deßhalber
+                        ufgerichten unnd unns <add place="above">beidersyts</add> zuͦgestelten <term
+                           ref="lem001659">verschrybungen</term>. Deßhalb wir sy, die herren
+                        khoüffere, unnd all ir nachkhommen umb völlige summa der <lb/><measure
+                           type="currency" unit="fl" quantity="115000">einhundert thußent unnd
+                           fünffzechenthußent guldinen</measure> jetztgehörter maßen für unns unnd
+                        unnßer erben, diewyl die also inn unnßern schynbaren nutz khommen unnd
+                        bewendt, quidt, ledig unnd loß sagen. Es ist auch by abhandlung unnd
+                        beschließung dißers kauffs <lb/>abgeredt unnd vergünstiget worden, wann
+                        khünfftigklich wir oder vilgedachter unnßer veter <persName ref="per004678a"
+                           >Johann Christoff, fryherr von der Hohen Sax</persName>
+                        <abbr>etc</abbr>, ald unnßer beidersyts ehlichen männlichen lybserben dißere
+                        herrschafft unnd zuͦgehört widerumb zuͦ unnßeren handen ziechen welten, das
+                        wir das <lb/>inn der abgeredten khauffsumma der <measure type="currency"
+                           unit="fl" quantity="115000">hundert thußent unnd fünffzechen thußent
+                           guldinen</measure> unnd nach billichem abtrag deßen, so an den
+                        schlößeren, hüßeren unnd guͤteren verbuwen unnd erbeßeret werden möchte, zuͦ
+                        billichen unnd dißerm kauff gemeßen zalungen mit sambt dem zinß von gantzem
+                        <lb/>ußstandt wol thuͦn mögint. Unnd dann habent offtbemelte herren
+                        khoüffere auch bewilliget, unns noch ein jar oder annderthalbs inn dem huß
+                        zuͦ <placeName ref="loc007946">Sax</placeName> vergebens zuͦ laßen, unnß
+                        nach nothurfft mit <term ref="lem000759">holtz</term> zuͦversehen unnd noch
+                        darzuͦ zwey oder drygen <term ref="lem000579">pferden</term>, deßglychen
+                           <num value="3">dryg</num>
+                        <lb/>oder <num value="4">vier</num>
+                        <term ref="lem000776">haubt vych</term>
+                        <term ref="lem000142.10">hoüw</term> unnd <term ref="lem006371.04"
+                           >strauw</term> volgen zulaßen unnd inn der zyt unns auch das <term
+                           ref="lem014718">jagen</term> erlaubt unnd zuͦgelaßen syn. Haruff so geben
+                        wir, der verkoüffer, söllich unnßer besitzung, recht unnd grechtigkeit mit
+                        aller begryffung unnd zuͦgehördt, von und uß unnß<lb break="no"/>er unnd
+                        unnßerer erben unnd inn der gemelten <orgName ref="org001196">herren von
+                              <placeName ref="loc000065">Zürich</placeName></orgName> unnd irer
+                        nachkhommen handen unnd gwalt. Setzend sy also darin mit diserm brief als
+                        inn recht ruͤwig, nutzlich unnd inhablich gwalt, gwer unnd eigenschafft.
+                        Also das sy nun hinfüro sölliches alles innhaben, besitzen, nutzen <lb/>unnd
+                        nießen, besetzen unnd entsetzen unnd damit handlen, wandlen, thuͦn unnd
+                        laßen als mit annderm irer statt guͦt. Deß von unns unnd unnßeren erben unnd
+                        sontst mengklichs halb ungeiirt unnd <damage agent="fold">
+                           <supplied source="StAZH A 346.3, Nr. 147">unverhindert. Wir, der
+                              verkhoüffer, geloben</supplied></damage> unnd versprechen auch für uns
+                        <lb/>unnd unnßer erben, den vilgesagten herren khoüfferen unnd iren
+                        nachkhommen söllicher khauffs, wie vorgeschriben stadt, für fryg unnd wyter
+                        unverkhümbert, ledig, eigen <damage agent="fold">
+                           <supplied source="StAZH A 346.3, Nr. 147">widermengklichs ansprach,
+                              intrag unnd irrung</supplied></damage> recht war unnd tröster zesind
+                        unnd darumb guͦte, ufrechte, redliche werrschafft ze<lb break="no"/>thuͦnd
+                        unnd zetragen gegen mengklichem unnd an allen stetten unnd enden inn unnd
+                        ußerthalb rechtens, da sy deß bedörffen unnd nothurfftig werden, wie recht
+                        unnd landtsbrüchig ist, inn unnßerem costen unnd ohne der gemelten <orgName
+                           ref="org001196">herren von <placeName ref="loc000065">Zürich</placeName>
+                        </orgName> costen unnd schaden.</seg>
+                     <seg>Unnd ob über die brief, <lb/>rödel, <term ref="lem000372">urbar</term>
+                        unnd urkhundt, so wir, der verkhoüffer, den herren khoüfferen übergeben unnd
+                        zuͦstellen, wie einiche mehr, vil oder wenig, über die verkhauffte
+                        herrschafft, recht unnd grechtigkeit wyßende, by handen hetten oder aber
+                        deßhalb hinfür einich brief oder geschrifften funden wurden, dieselben
+                        söllen <lb/>unnd wellen wir unnd unnßer erben inen, herren khoüfferen, unnd
+                        iren nachkhommen auch zuͦhanden hinuß geben. Oder wo das nit bescheche,
+                        söllend doch söllich verhalten brief unns, dem verkhoüffer, oder unnßeren
+                        erben kheinen nutz noch fürstand, ouch den herren khoüfferen unnd iren
+                        nachkhommen <lb/>dhein nachteil noch schaden inn unnd ußerthalb rechtens
+                        gebären noch bringen. Unnd hieby entzychend unnd begebend wir unns für unns
+                        unnd unnßer erben der vermelten herrschaften, besitzungen, hüßeren,
+                        müllinen, renten, gülten, guͤteren, mannschafften, gerichten unnd
+                        <lb/>rechten, auch aller unnd jeder zuͦgehördt, aller eigenschafft,
+                        gerechtigkeit, besitzung, vorderung unnd ansprach, dann wir unns hiemit
+                        aller hilf, schirms, geistlichs unnd weltlichs rechtens unnd gmeinlich aller
+                        annderer ußzügen, gsüchen, fünden unnd arglisten ald wardurch dißer
+                        redlicher khauff <lb/>widertriben oder inn einigen weg verletzt oder
+                        geschwecht werden möchte, wüßentlich verzigen unnd begeben haben. Bereden
+                        unnd versprechend auch by unnßern guͦten thrüwen unnd glauben für unns unnd
+                        unnßer erben, dißen kauff unnd brief mit synem innhalt aller unnd jet<lb
+                           break="no"/>licher puncten unnd artigklen wahr unnd stedt zuͦ halten
+                        wider all ußzüg, intrag, irrung unnd widerred, gethrüwlich unnd ohn alle
+                        gefherd.</seg>
+                     <seg>Unnd deß alleßen zuͦ wahrem unnd vestem urkhundt unnd stedter sicherheit,
+                        so haben wir, der verkhoüffer, für <lb/>unns unnd unnßer erben unnßer eigen
+                        anerboren insigel offentlich gehenckt an disern brief, darnebent zuͦ mehrer
+                        zügknuß obvermelten, unnßern lieben vetern, herrn <persName ref="per004678a"
+                           >Johann Christoff, fryherrn von der Hohen Sax</persName>
+                        <abbr>etc</abbr>, erbeten, das er syn eigen, anerboren insigel (doch ime
+                        unnd synen erb<lb break="no"/>en ohne schaden) zuͦ dem unnßern hat thuͦn
+                        hencken, <origDate when="1615-04-15">den fünffzechenden tag apprellens, nach
+                           der geburt <persName ref="per000353">Christi</persName>, unnßers lieben
+                           herrn, gezalt ainthußent sechshundert unnd fünffzechen
+                        jare</origDate>.</seg>
+                  </p>
+               </div>
+               <pb facs="StASG_AA_2_U_44_v"/>
+               <div>
+                  <ab type="dorsal" place="verso" hand="hand17c">
+                     <lb/>Kouffbrieff <lb/>Umb die herrschafft <placeName ref="loc000278">Sax unnd
+                        Forstegk</placeName>
+                     <lb/>anno <date when="1615">1615</date>
+                  </ab>
+               </div>
+               <div>
+                  <ab type="archiving reference" place="verso" hand="hand17c">
+                     <lb/>Gefürt in die 39.<hi rend="sup">te</hi>
+                     <term ref="lem002745">trukin</term>
+                     <lb/>der <term ref="lem003878">sacristey</term> zum <placeName ref="loc007562"
+                        >Großen <lb/>Münster</placeName></ab>
+               </div>
+               <div>
+                  <ab type="archiving reference" place="verso" hand="hand17c">
+                     <lb/>14</ab>
+               </div>
+               <div>
+                  <ab type="archiving reference" place="verso" hand="hand18c">
+                     <lb/>
+                     <abbr>Trk</abbr> 39 <unclear>b</unclear> 3; <del>N 14</del>.</ab>
+               </div>
+               <div>
+                  <ab type="archiving reference" place="verso" hand="hand18c">
+                     <lb/>Ingroßiert</ab>
+               </div>
+               <div>
+                  <ab type="archiving reference" place="verso" hand="hand18c">
+                     <lb/>
+                     <del>N<hi rend="sup">o</hi>
+                     </del> 44</ab>
+               </div>
+               <div>
+                  <ab type="archiving reference" place="verso" hand="hand19c">
+                     <lb/>Arca ecce <lb/>Cista 4</ab>
+               </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div n="1">
+            <p>Als 1613 <persName ref="per004549">Adriana Franziska von Sax-Hohensax</persName> ihren in
+            <placeName ref="loc000486">Lindau</placeName> verpfändeten Schmuck auslösen und
+          stattdessen Geld auf die Freiherrschaft <placeName ref="loc000278">Sax-Forstegg</placeName>
+          aufnehmen möchte, stellt <orgName ref="org001196">Zürich</orgName> fest, dass die
+          Herrschaft bereits so stark belastet ist, dass kein Geld mehr aufgenommen werden kann
+              (<bibl><ref>StASG AA 2 A 2-4-35</ref></bibl>). Schliesslich unterbreitet <persName ref="per004774a">Friedrich Ludwig von Sax-Hohensax</persName>
+               <orgName ref="org001196">Zürich</orgName> anfang 1615 aufgrund der Schuldenlast einen
+          Vorschlag zur Übergabe der Freiherrschaft <placeName ref="loc000278">Sax-Forstegg</placeName>
+          an Zürich (<bibl><ref>StAZH A 346.3, Nr. 146</ref></bibl>) und erstellt am 18. März 1615
+          ein Verzeichnis über die Rechte und Einkommen der Herrschaft, das mehrheitlich in den
+          Kaufbrief aufgenommen wird (<ref>SSRQ_SG_III_4_157</ref>). Gleichentags verhandeln
+          Bürgermeister und Rat von Zürich über den <term ref="key000369">Kauf</term>
+              (<bibl><ref>StAZH A 346.3, Nr. 142</ref></bibl>) und treffen mit Friedrich Ludwig eine
+          Vereinbarung über den Kauf und die Bezahlungsmodalitäten der auf der Herrschaft lastenden
+            <term ref="key000058">Schulden</term> (<bibl><ref>StAZH A 346.3, Nr. 143</ref></bibl>). </p>
+            <p>Zu den Hintergründen des <term ref="key000231">Verkaufs</term> der Freiherrschaft
+                  <placeName ref="loc000278">Sax-Forstegg</placeName> an <orgName ref="org001196"
+                  >Zürich</orgName>, zur Schuldenlast und zur Rolle der Zürcher Vögte vgl.
+               ausführlich <bibl><ref target="http://permalink.snl.ch/bib/chbsg000140891">Malamud
+                     2015</ref>, S. 234–246</bibl>; zu den finanziellen Schwierigkeiten der
+               Sax-Hohensaxer und dem Übergang der Freiherrschaft Sax-Forstegg an Zürich siehe auch
+               die Dokumente in <bibl><ref>StAZH A 346.3</ref></bibl>; <bibl><ref>StASG AA 2 A
+                     2</ref></bibl>; die Schuldverschreibungen <bibl><ref>StAZH C III
+                     22, Nr. 262</ref>; <ref>C III 22 Nr. 296</ref>; <ref>C III 22 Nr. 360</ref>;
+                     <ref>C III 22 Nr. 361a</ref>; <ref>C III 22 Nr. 377</ref>; <ref>C III 22 Nr.
+                     392</ref>; <ref>C III 22 Nr. 396</ref></bibl> sowie die Schuldverzeichnisse
+                     <bibl><ref>StASG AA 2 A 2-4-42</ref>; <ref> AA 2 A 02-4-43</ref>; <ref> AA 2 A
+                     2-4-44</ref></bibl>; <bibl><ref>StAZH A 346.3, Nr. 163</ref></bibl>.</p>
+         </div>
+         <div n="2">
+            <p>Nach dem Verkauf am 15. April 1615 stellt <orgName ref="org001196">Zürich</orgName>
+               <persName ref="per004774a">Friedrich Ludwig von Sax-Hohensax</persName>, seiner
+               Ehefrau und seiner Schwester sowie der Stadt <orgName ref="org001179">St.
+                  Gallen</orgName> diverse Schuldbriefe aus (Originale: <bibl><ref>StAZH C
+                     I, Nr. 3715</ref></bibl> [15.04.1516–15.05.1615]). Am 25. April berät Zürich
+               über den <term ref="key004378">Aufritt</term> und die <term ref="key000212"
+                  >Entlöhnung</term> eines <term ref="key000180">Landvogts</term>
+                     (<bibl><ref>StAZH A 346.3, Nr. 170</ref></bibl>) und übernimmt mit wenigen
+               Anpassungen gleichentags die frühere <term ref="key004065">Polizeiordnung</term> von
+               1609 (<ref>SSRQ_SG_III_4_153</ref>). Am 9. Mai nehmen die Abgeordneten von Zürich
+               erste Amtshandlungen vor (<bibl><ref>StAZH A 346.3, Nr. 149</ref></bibl>) und drei
+               Tage später entlässt Friedrich Ludwig von Sax-Hohensax die <orgName ref="org001228"
+                  >Bewohnerschaft von Sax-Forstegg</orgName> und der <orgName ref="org002818"
+                  >Lienz</orgName> aus dem <term ref="key000179">Eid</term> (Original:
+                     <bibl><ref>StASG AA 2 U 45</ref></bibl>; Kopie: <bibl><ref>KA Werdenberg im OA
+                     Grabs Nr. 43–39 [Kopialbuch Schäpper], S. 148–149</ref></bibl>, siehe auch die
+               Beschreibung der Eidentlassung in <bibl><ref>KA Werdenberg im OA Grabs Nr. 43-39,
+                     S. 150–151</ref></bibl> sowie den Kommentar zu <ref>SSRQ_SG_III_4_153</ref>). </p>
+         </div>
+         <!-- PS: ab hier auskommentieren oder Kommentare ausformulieren SM: ich lasse es weg, oder findest Du, es ist wichtig?
+   <div n="3"><p>11. November verpflichtet sich UZH laut Kaufvertrag, die 10000 Gulden mit jährlich 500 Gul denzu
+     verzinsen (<bibl><ref>StAZH&#160;A&#160;346.3,&#160;Nr.&#160;160</ref></bibl>) Ausstehende Schulden und Zinsen, die ZH FL und CL
+     noch aus dem Verkauf schuldig bleibt <bibl><ref>StAZH&#160;A&#160;346.3,&#160;Nr.&#160;193</ref></bibl>; 1625 CL verkauft
+     dritten Teil des Hochgerichts an ZH um 5000 Gulden (Original: <bibl><ref>StASG&#160;AA&#160;2&#160;U&#160;52</ref></bibl>).</p></div>
+   <div n="4"><p>Inventar Schloss, Aufritt Landvogt. Signaturen bereits an neue Sign in ZH angepasst</p></div> -->
+      </back>
+   </text>
+</TEI>

@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     n="1234"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="headerinfo"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2020-08-17"/>    <date type="print"/>
+    <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Collection des sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des
+      sources
+      du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS_NE_3_409</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>AVN B 101.14.002, fol. 50r–50v</idno>
+               </msIdentifier>
+               <head>Effet de la faillite d’un homme sur les biens de sa femme</head>
+               <msContents>
+                  <summary>Les biens de la femme peuvent-ils être saisis en cas de faillite de son mari et si oui, à quelles conditions.</summary>
+                  <msItem>
+                     <textLang>français</textLang>
+                     <filiation type="current"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="34.5"/>
+                              <width unit="cm" quantity="22"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1733-10-12"/>
+                     <origPlace ref="loc007786">Neuchâtel</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head/>
+                     <bibl/>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key004367"/>
+               <term ref="key000138"/>
+               <term ref="key003521"/>
+               <term ref="key000558"/>
+               <term ref="key000863"/>
+               <term ref="key000058"/>
+               <term ref="key003331"></term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="50r" facs="AVN_B_101.14.002_0050r"/>
+               <div>
+                  <p>
+                     <lb/>Sur la très humble requête présentée par <lb/><persName ref="per008661a"
+                        >Jaqueline Depierre</persName>, femme du <choice>
+                        <abbr>S<hi rend="sup">r</hi>
+                        </abbr>
+                        <expan>sieur</expan>
+                     </choice>
+                     <persName ref="per008660">Siliman</persName>, <lb/>bourgeois de cette ville,
+                     aux fins d’obtenir <lb/>de messieurs le maître bourgeois en chef et
+                        <lb/><orgName ref="org003085">Conseil Étroit</orgName>, leur déclaration de
+                     la coutume <lb/>de <placeName ref="loc007785">Neufchatel</placeName> sur les
+                     cas suivants. </p>
+                  <p>
+                     <lb/>1<hi rend="sup">o</hi>. Si lorsqu’un mary faisant <term ref="lem014969"
+                        >discution</term>, les <lb/>biens de sa femme (mariée suivant la coutume
+                     <lb/>de ce pays) peuvent être mis en <sic>biens gisants</sic>
+                     <lb/>et être saisis pour debtes contractées par <choice>
+                        <abbr>led<hi rend="sup">t</hi>
+                        </abbr>
+                        <expan>ledit</expan>
+                     </choice>
+                     <lb/>mary, soit seul, ou en société avec quelqu’un, <lb/>soit pour
+                     cautionements faits avant ou pendant <lb/>la conjonction de mariage&#160;? </p>
+                  <p>
+                     <lb/>2<hi rend="sup">o</hi>. Si plûtot il ne se doit pas faire un relief ou
+                     <lb/>discernement exacts des biens de la femme <lb/>du discutant, auxquels
+                     biens on ne peut <lb/>toucher pour les susdittes debtes, ou <choice>
+                        <abbr>cautionem</abbr>
+                        <expan>cautionnements</expan>
+                     </choice>
+                     <lb/>contractés avant ou pendant la susditte <lb/>conjonction de mariage. </p>
+                  <p>
+                     <lb/>3<hi rend="sup">o</hi>. Et enfin, si le droit de rétorsion ou représaille
+                     <lb/>n’est pas receu dans ce pays, en telle sorte <lb/>qu’un créancier
+                     étranger, n’a sur les biens <lb/>d’un débiteur discutant pour se procurer
+                     <lb/>payement, d’autre droit que le créancier de <lb/>ce pays n’auroit dans le
+                     pays du débiteur <lb/>étrangers, à tous égards. </p>
+                  <p>
+                     <lb/>Messieurs, le maître bourgeois en chef <lb/>et du <orgName ref="org003085"
+                        >Conseil Étroit</orgName>, après avoir consulté et <lb/>délibéré entr’eux
+                     donnent par déclaration <lb/>que de tous tems la coutume de <placeName
+                        ref="loc007785">Neufchatel</placeName>
+                     <lb/>est&#160;: <lb/><add place="below" type="catchword">Sur le</add>
+                  </p>
+                  <pb n="50v" facs="AVN_B_101.14.002_0050v"/>
+                  <p>
+                     <lb/>Sur le premier, lorsqu’un mary fait <lb/><term ref="lem014969"
+                        >discution</term>, les biens de sa femme doivent <lb/>être mis en biens
+                     gisants et être discutés <lb/>pour acquitter les debtes, faites constant
+                     <lb/>le mariage tant seulement, mais non pas celles <lb/>contractées avant le
+                     mariage, non plus que <lb/>les cautionements par luy faits en derrière <lb/>de
+                     sa femme, et dans lesquels elle ne seroit <lb/>pas entrée&#160;; toutefois après que
+                     les biens <lb/>dudit mary serons totalement épuisés et <lb/>qu’ils n’aurons put
+                     suffir pour acquitter <lb/><choice>
+                        <abbr>lesd<hi rend="sup">e</hi>
+                        </abbr>
+                        <expan>lesdites</expan>
+                     </choice> dettes. </p>
+                  <p>
+                     <lb/>Sur le second, la femme a droit de faire <lb/>relief de tous ses biens,
+                     pour n’être mis en <lb/>bien gisant, et encore moins discutés, qu’après
+                     <lb/>que ceux du mary n’aurons put suffir à <lb/>l’acquet de ses dettes. </p>
+                  <p>
+                     <lb/>Sur le 3<hi rend="sup">me</hi> ont continuera à colloquer dans <lb/>les
+                     décrets et <term ref="lem014969">discutions</term>, les créanciers qui <lb/>ne
+                     seront pas sujets ou régnicoles de l’État <lb/>suivant le rang et datte de leur
+                     créance comme <lb/>du passé, pourveu qu’ils fassent duement <lb/>conster que
+                     l’on en use de même chez eux envers <lb/>les sujets de cet État&#160;; mais, ne
+                     pouvant le faire, <lb/>ils seront colloqués après les créanciers de
+                     <lb/>l’État, et après ceux qui devront être traittés <lb/>comme les sujets de
+                     ce pays. </p>
+                  <p>
+                     <lb/>Laquelle déclaration a été ainsy faite <lb/>et ordonné à moy secrétaire de
+                     Ville de la <lb/>rédiger par écrit en cette forme sous le sceau <lb/>de la
+                     justice et mayerie dudit <origPlace ref="loc007786">Neufchatel</origPlace> le
+                        <lb/><origDate when="1733-10-12">douzième d’octobre mille sept cent et
+                        trente trois</origDate>. </p>
+                  <p>
+                     <lb/>Signé a l’original. </p>
+               </div>
+               <div>
+                  <signed>
+                     <persName ref="per008674">
+                        <choice>
+                           <abbr>L</abbr>
+                           <expan>Louis</expan>
+                        </choice> de Montmollin</persName>
+                     <figure type="notarial sign"/></signed>
+               </div>
+            </body>
+            <back>
+               <div>
+                  <p>Un autre point de coutume sur la même affaire est demandé le <date when="1733-10-15">15 octobre 1733</date><ref>SDS_NE_3_410</ref> par <persName ref="per008662">Jean Rodolphe Liectane</persName>, probablement le créditeur du mari de
+        <persName ref="per008661a">Jaqueline Depierre</persName>.</p>
+               </div>
+            </back>
+         </text>
+      </group>
+   </text>
+</TEI>

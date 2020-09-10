@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-09-17"/>
+            <date type="print"/>
+            <availability><p xml:id="facs">Staatsarchiv St. Gallen (StASG)</p></availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_124</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>StASG AA 3 A 5-1b</idno>
+                  
+               </msIdentifier>
+               <head>Glarus hebt das Urteil des Gerichts in Werdenberg gegen Gabriel Beusch wegen Lästerung der Mutter Gottes (Blasphemie) auf und bestraft die Richter</head>
+               <msContents>
+                  <summary>
+                     <p>Gabriel Beusch bezeichnet die Gottesmutter Maria in einem Wirtshaus unter Anwesenheit vieler Personen als Hure, die aus einem Frauenhaus käme und nichts wert sei. Glarus schickt daraufhin Vogt Konrad Hässi nach Werdenberg, der den Richtern vor dem Endurteil mitteilen soll, dass Glarus wünscht, dass der Delinquent ohne Gnade an Leib und Leben verurteilt werde.</p>
+                     <p>Nach der Rückkehr berichtet Konrad Hässi, dass der Delinquent mit dem Leben davon gekommen sei und vom Gericht nicht so verurteilt worden sei, wie Glarus dies gefordert habe.</p>
+                     <p>Glarus hebt deshalb das Urteil auf und will den Delinquenten selbst verurteilen. Mittlerweile ist Gabriel Beusch aber geflüchtet und Glarus befiehlt, dass man ihn sofort gefangen nehmen soll. Wer ihm Unterschlupf gewährt, wird hart bestraft werden.</p>
+                     <p>Jeder Richter wird mit 30 Gulden gebüsst und verliert seine Ehre und Wehrhaftigkeit. Wer die Busse nicht bezahlen kann, muss sie im Gefängnis absitzen, für 3 Gulden pro Tag und Nacht.</p>
+                     <p>Der Aussteller siegelt.</p>
+                  </summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <filiation type="current">Original (Doppelblatt)</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="29.5"/>
+                              <width unit="cm" quantity="21.0"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <sealDesc>
+                     <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI"
+                           n="1"
+                           nontei:material="papered seal"
+                           nontei:attachment="applied"
+                           nontei:place="end"
+                           nontei:shape="round" 
+                           nontei:condition="well-preserved">
+                        <orgName role="sigillant" ref="org001197">Glarus</orgName>
+                     </seal>
+                  </sealDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1546-07-12">den xij tag howmonat</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000482">Gotteslästerung</term>
+               <term ref="key000044">Hochgericht</term>
+               <term ref="key000103">Richter</term>
+               <term ref="key003037">Gerichtsverfahren</term>
+               <term ref="key000905">Strafe</term>
+               <term ref="key004418">Hochgerichtsurteil</term>
+               <term ref="key001001">Ungehorsam</term>
+               <term ref="key004376">Ehre und Gewehr</term>
+               <term ref="key001046"/>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <div org="uniform" sample="complete">
+                  <p>
+                     <pb n="1r" facs="StASG_AA_3_A_5-1b_01"/>
+                     <seg>
+                        <lb/>Wir, der <orgName ref="org003243">stadhallter unnd rath an stat unnd uß
+                           gwalt <lb/>einer ganntzenn <orgName ref="org003243"
+                              >lanndtzgemeindt</orgName> zu <placeName ref="loc000326"
+                              >Glarus</placeName></orgName>, fuͦgennt <orgName ref="org003242">allen
+                           <lb/>dennenn, so inn stadt unnd lanndt inn unnser herschafft
+                              <lb/><placeName ref="loc000440">Werdennberg</placeName></orgName>
+                        sindt, unnd besonnders denen, so nach <lb/>volgennd sachenn berurenn will,
+                        zu wüssen, so dann <persName ref="per008844a">Gaͤbly <lb/>Büsch</persName>
+                        die ewig rein magt <persName ref="per000169">Maria</persName>, die gebererin
+                        unsers <lb/>trosts unnd heyllandts <persName ref="per000353">Jesu
+                           Christi</persName>, an ir heilig <term ref="lem001151">eere</term>
+                        <lb/>verruchtlich, ungcristennlich, ja unmentschlich in <lb/><term
+                           ref="lem007057">offem wirtz huß</term> inn bywesenn viler personen,
+                        ferembder <lb/><add place="left margin">und</add> heymscher, <term
+                           ref="lem001154.07">gesmecht</term> und ein <term ref="lem000658.01"
+                           >huͦren</term> geschulten, die nütt <lb/>besser sölle synn dann ein
+                        andere <term ref="lem000658.01">huͦr</term>, die uß dem <term
+                           ref="lem014813.02">huͦr<lb break="no"/>huß</term> komen unnd sy nütz
+                        wert. Wie dann söllichs <lb/>alles <choice>
+                           <sic>durch durch</sic>
+                           <corr>durch</corr>
+                        </choice> die <term ref="lem000582">kundtschafft</term> gnugsam erwisen
+                        <lb/>wordenn, das er sämblichs greth hab.</seg>
+                     <seg>Unnd dann <lb/>wir derhalb vormals unseren lieben und getrüwenn
+                        <lb/>rathsfrundt, denn vogt <persName ref="per006348a">Cuͦnradt
+                           Hässy</persName> in gemelt <lb/>graffschafft mit entlichem bevelch
+                        abgefertigett haben, <lb/>das er gegent dem selbenn verruchten, gottlossen
+                           <lb/><term ref="lem001019">mentschen</term> allem das bloß recht on alle
+                        verschonungen <lb/><term ref="lem000987">libs unnd lebenns</term> handle und
+                        fürnemen welle. Und <lb/>er dann solich unnser meynung und will den <term
+                           ref="lem000342">richteren</term>
+                        <lb/>unnd einem <term ref="lem000034">gricht</term> vor uß sprechung der
+                           <term ref="lem014814.02">endt urtel</term>
+                        <lb/>eroffnet, damitt sy sich demnach wüssent ze richten haben, <lb/>dann
+                        wir dem kein gnadt miteillen mögent noch wellent, <lb/>der sich selbs an
+                        gottlicher <sic>manestett</sic><note anchored="true">Hier handelt es sich
+                           wohl um einen Verschreiber für <orig><term ref="lem015134"
+                                 >majestät</term></orig>.</note> unnd siner wirdigen <lb/><add
+                           place="left margin"><term ref="lem002058">muͦter</term></add> so hochlich
+                        verletz hatt. Ouch inn dem stücken, so am <lb/>meistenn unseren waren <term
+                           ref="lem011348">christenlichen glouben</term> berërdt, <lb/>dann wir
+                        gemeyndlich im glouben beckennen und vor<lb break="no"/>sechennd, das der
+                        sonn gottes rein erboren uß der reinen <lb/><term ref="lem015094"
+                           >junckfrouwen</term> vonn dem <term ref="lem014815.01">heiligen
+                           geist</term> empfanngen <abbr>etc</abbr>. Wie <lb/>dann vilfaltig nüw und
+                        alt <term ref="lem009640">testennments</term> der halb <lb/>ware
+                        kundtschafft unnd meldung thutt.</seg>
+                     <seg>Über söllichs <lb/>alles wir jetz vonn gemelten ratzbotten, als er wider
+                        <lb/>an heymsch komen, bricht, das gedachter <term ref="lem014816.02">boser
+                           mendsch</term>, der <lb/><persName ref="per008844a">Gebly</persName>, mit
+                        dem <term ref="lem002291">leben</term> darvon komen unnd kein urthel <pb
+                           n="1v" facs="StASG_AA_3_A_5-1b_02"/>
+                        <lb/>vonn dem gricht nie gsprochenn, die im sin leben in einichem <lb/>weg
+                        berürt hab unnd dennocht die <term ref="lem000342">richter</term> vonn im,
+                        dem <lb/>bottenn, ernstlich zu vor unnsers willens und der grusamme <lb/>red
+                        ermannt wordenn. Jedoch hatt es alles nütt beschlossen <lb/>zu glicher wyß
+                        alles, ob sy selbs der redt kein acht gebendt, <lb/>wyl unnd dann kundt und
+                        offennbar und am tag lyt, das <lb/>das gemelt gricht alhie wider gott unnd
+                        alle recht der geistlichen <lb/>unnd weltlichenn lüttenn ouch wider alle
+                        billicheytt. Des <lb/>wir uns alles ein oberkeytt der enden größlich <term
+                           ref="lem009568.03">schemen</term>
+                        <lb/>müssennt, wo das uß kompt, gricht und geurteilt haben <lb/>unnd dann
+                        gott unnd die menschen, so <term ref="lem010302.04">christen lüt</term>
+                        sintt, <lb/>ann uns mittler zytt söllich urtelen uns
+                        <sic>erforderung</sic>.</seg>
+                     <seg>
+                        <lb/>So habennt wir uff hütt dises brieffs dato uß macht <lb/>unnd gewalt
+                        und ouch nach unser <term ref="lem002748.01">regalien</term> und
+                        <lb/>fryheyttenn, damit wir vonn <term ref="lem000022">küng</term> und <term
+                           ref="lem000021">keysserenn</term>
+                        <lb/><term ref="lem006555">gefrytt</term> syndt, obgemelt urtel, so wider
+                        gott, eer und <lb/>recht gefelt, <term ref="lem002438">uffgehept</term> unnd
+                        hinabkenntt, hebennt <lb/>die uff und beckennd sy ab in chrafft diß
+                        brieffs:</seg>
+                     <seg>Also <lb/>das wir gegent dem <term ref="lem009526.03">secher</term>, wann
+                        wir den gehalten mögent, <lb/>wyter recht werdent ergann lassen, jetz als
+                        dann und <lb/>dann als jetz. So dann wie ouch bricht, das gedachter
+                           <lb/><persName ref="per008844a">Gebli</persName>
+                        <term ref="lem006637">landflüchtig</term> worden und unser wyter recht<lb
+                           break="no"/>ferttigung nütt erwarten wellen, so gebiettendt wir
+                        <lb/>allen <orgName ref="org003242">unseren der graffschafft <placeName
+                              ref="loc000440">Werdenberg</placeName>, in stadt <lb/>unnd
+                           lanndt</orgName>, wer des ansichtig und gwar wurde, da <lb/>soll mann inn
+                        ungewarneter <term ref="lem009526">sacher</term>
+                        <term ref="lem002611.14">vencklich</term>
+                        <lb/><sic>annenemmenn</sic> unnd denn einem <term ref="lem000266"
+                           >landtvögt</term>
+                        <term ref="lem004363">uber <lb/>antwurtenn</term>. Unnd wer der were, der
+                        sollichs <lb/>nüt erstattete und im <term ref="lem003582.05"
+                           >underschloüff</term> gebe, <term ref="lem011573">tags oder
+                           <lb/>nachtz</term>, denn werdent wir straffen der massen, das <lb/>einer
+                        wette, er were sy müssig gangen.</seg>
+                     <seg><sic>Umd</sic> dem <lb/>nach gemelt gricht, so <term ref="lem011202.03"
+                           >lichtfernig</term> das <term ref="lem000361">recht</term>, die thatt
+                        <lb/>und unser ernstlich ermann und warnen uber sechen <lb/>und verachtett,
+                        so beckenenndt wir aber in krafft <lb/>dises <del>brieffs</del> unsers
+                        offenen brieffs, das sy nütt me <lb/>tügennlich zu keinen eern beckenndt.
+                        Beckenendt <lb/>sy der massen ab vonn <term ref="lem007325.02">eer und
+                           geweer</term>
+                        <abbr>etc</abbr>, <pb n="2r" facs="StASG_AA_3_A_5-1b_02"/>
+                        <lb/>namlich alle, die so in unser herrschafft gsessen und <lb/>da urtel
+                        gesprochen und gefelt habent, darzuͦ ein jeder <lb/><measure quantity="30"
+                           type="currency" unit="fl">drissig guldin</measure> zu rechter <term
+                           ref="lem000036">buß</term>, uns alles der oberhandt <lb/>biß zu nechsten
+                           <date type="deadline" when="--11-11">sant <persName ref="per000141"
+                              >Martis</persName> tag</date> erlegen und betzallen. Und <lb/>welcher
+                        dann so <term ref="lem006408">armm</term> am <term ref="lem005362"
+                           >guͦtt</term>, der soll es in dem <term ref="lem014817.02">bösen
+                           <lb/>thüren</term> ablegen, allweg mit einer <term ref="lem011235">nacht
+                           und tag</term>
+                        <measure quantity="3" type="currency" unit="fl">iij </measure> biß <lb/>zu
+                        volliger verrichtung diser buͦß.</seg>
+                     <seg>Darby wellent <lb/>wir ermant und gewarnett habenn <lb/><orgName
+                           ref="org003242">die unseren in stadt unnd lanndt <placeName
+                              ref="loc000440">Werdenberg</placeName></orgName>, das sy fürhin das
+                        gricht <lb/>der massenn beserennt und besorgenndt, das mann nach <lb/>dem
+                        rechten und nach der <term ref="lem004421">thatt</term>
+                        <term ref="lem014818.02">urtel fell</term>, es betreff, <lb/>was es well,
+                        und allso gfarlich nüt meer farendt (wie <lb/>hie vor beschechen, dann so
+                        wyter der glichen und anders, <lb/>das gott lang wenden well und in keines
+                        menschen gedanck <lb/>unnd sin <add place="above">nit</add> me komen well)
+                        sich zu tragen würde, das mann <lb/>allda so gfarlich sich erzeigen wurdent,
+                        wir sölich <lb/>gricht zu unnseren handen ziehenn und sy an ir gricht
+                        <lb/>und fryheytten straffen, dann niemann sich der fryheyt <lb/><term
+                           ref="lem011012.03">bruͤmen</term>, dann der, so sich recht brüchenndt,
+                        wie dann <lb/>das <term ref="lem018816">keyserlich recht</term> zu
+                        geben.</seg>
+                     <seg>Unnd zu warem, <lb/>offen urkundt habent wir unnsers landes <lb/>secret
+                        insigel uff disen brieff gethrückt, der gebent <lb/>ist uff <origDate
+                           when="1546-07-12">mentag, den xij tag höwmonat im jar nach <lb/>der
+                           gebürt Christi tüsent fünffhündert viertzig <lb/>unnd sechs
+                           jar.</origDate>
+                     </seg>
+                  </p>
+               </div>
+               <pb facs="StASG_AA_3_A_5-1b_03"/>
+               <div org="uniform" sample="complete">
+                  <ab type="dorsal" place="verso" hand="hand16c">
+                     <lb/>Straff des gerichtz zuͦ <placeName ref="loc000440">Werdenberg</placeName>
+                     umb <lb/>das si <persName ref="per008844a">Gäbli Buschen</persName> nit am
+                     leben <lb/>gestrafft, der die <term ref="lem002058">muͦter</term> gottes mit
+                     <lb/>schantlichen worten <term ref="lem001154.08">geschmaͤcht</term> hat<add
+                        place="below" hand="hand19c?">unter aufhebung des urtheils</add></ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab type="archiving reference" place="verso">Ao 1546, den 12ten heüwmonet</ab>
+               </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div n="1" org="uniform" sample="complete">
+            <p>Wenige Tage vor Ausgabe der hier edierten Aufhebung des gerichtlichen Urteils durch
+               Glarus, meldet am <date when="1546-07-05">5. Juli 1546</date> Landammann <persName
+                  ref="per001885a">Dionys Bussi</persName> von <placeName ref="loc000326"
+                  >Glarus</placeName> an der <term ref="key000681">Jahrrechnung</term> in <placeName
+                  ref="loc000020">Baden</placeName>, dass jemand in <placeName ref="loc000440"
+                  >Werdenberg</placeName> die Mutter Gottes als <term ref="key001089">Hure</term>
+               beschimpft habe und man ihn in Werdenberg vor das <term ref="key000337"
+                  >Landgericht</term> gestellt und den <term ref="key000515">Landrichtern</term>
+               befohlen habe, den Lästerer an Leib und Leben zu bestrafen. Trotz dieser Warnung
+               hätten die Landrichter den <term ref="key003291">Delinquent</term> nur zu einer <term
+                  ref="key000948">Ehrenstrafe</term>, nämlich ein paar Schläge durch den <term
+                  ref="key000641">Henker</term>, verurteilt. Die <orgName ref="org001197">Herren von
+                  Glarus</orgName> hätten darauf das <term ref="key000683">Urteil</term> aufgehoben
+               und die Richter ehr- und wehrlos erklärt und mit 40 Gulden bestraft (in der hier
+               edierten Urkunde fällt die Strafe jedoch etwas milder aus). Da jedoch am Landgericht
+               nach altem Brauch zwei Richter aus der Grafschaft <placeName ref="loc000925"
+                  >Sargans</placeName> sitzen, verlangt er von den Eidgenossen, diese beiden Richter
+               auch zu bestrafen (<bibl><ref target="http://permalink.snl.ch/bib/chbsg000143937">EA,
+                     Bd. 4/1d</ref>, <ref
+                     target="http://digital.ub.uni-duesseldorf.de/periodical/pageview/214640">Art.
+                     301e</ref></bibl>). Der Begriff Landgericht oder Landrichter stammt hier aus
+               den Eidgenössischen Abschieden und wird in zeitgenössischen Werdenberger Quellen nur
+               in einem Fragment (<ref>SSRQ_SG_III_4_098</ref>) für das Hochgericht verwendet, das
+               möglicherweise der Herrschaft <placeName ref="loc006040">Hohensax und
+                  Gams</placeName> zugeordnet wird. Bei Beusch wird der Begriff Landgericht mit dem
+               Werdenberger Zeitgericht gleichgesetzt (<bibl><ref>Beusch 1918</ref>, S.
+               57–58</bibl>).</p>
+         </div>
+         <div n="2" org="uniform" sample="complete">
+            <p>Der Fall ist in verschiedener Hinsicht interessant: Laut dem sogenannten Verzicht-
+               und Gnadenbrief verlieren die Werdenberger das Recht, Übeltäter gefangen zu nehmen,
+               vor ihr eigenes Hochgericht zu laden und zu bestrafen (<ref>SSRQ_SG_III_4_110</ref>).
+               Doch diese Aufhebung des Urteils durch Glarus zeigt, dass Werdenberg über ein eigenes
+                  <term ref="key000044">Hochgericht</term> verfügt, mit dem Recht, über Leben und
+               Tod zu richten. Das Hochgericht ist jedoch kein von der Obrigkeit Glarus unabhängiges
+               Gericht; vielmehr wird den Richtern vor dem Endurteil die Erwartung von Glarus
+               bezüglich des Urteils bekannt gegeben und es wird davon ausgegangen, dass sich die
+               Richter danach richten. Als sie der Empfehlung von Glarus nicht Folge leisten, werden
+               sie mit Ehr- und Wehrlosigkeit sowie mit hohen <term ref="key000184">Bussen</term>
+               bestraft. Ausserdem kann Glarus ohne Weiteres das Endurteil des Hochgerichts
+               aufheben, den Fall an sich ziehen und selbst beurteilen. Glarus droht zudem, der
+               Herrschaft bei Wiederholung einer solchen <term ref="key001001"
+                  >Widersetzlichkeit</term> das Hochgericht zu entziehen. </p>
+            <p>Nach Beusch liegt die Ausübung der <term ref="key003994">Hochgerichtsbarkeit</term>
+               beim <orgName ref="org001211">Rat von Glarus</orgName> (<bibl><ref
+                     target="http://permalink.snl.ch/bib/chbsg000143946">Beusch 1918</ref>,
+                  S. 59–60</bibl>) und nur die Voruntersuchung obliegt dem Landvogt. Die Quelle
+               zeigt jedoch, dass Werdenberg zumindest im 16. Jh. ein selbständig urteilendes
+               Hochgericht besitzt. Sowohl das Hochgericht als auch die Hinrichtungsstätte müssen
+               zwar weiter bestanden haben (vgl. die Hochgerichtsform der Landvogtei Werdenberg,
+                     <bibl><ref>PGA Buchs B 11.21-04</ref>, S. 53–69</bibl>, gedruckt bei <bibl><ref
+                     target="http://permalink.snl.ch/bib/chbsg000142658">Senn,
+                  Gerichts-Form</ref></bibl>, vgl. auch den Kommentar in
+                  <ref>SSRQ_SG_III_4_225</ref>), doch die Glarner Ratsprotokolle aus dem 18. Jh.
+               zeigen eindeutig, dass der Landvogt die Voruntersuchung leitet, danach die Unterlagen
+               nach Glarus schickt, wo sie vor dem Glarner Rat verlesen werden. Dieser fällt das
+               Urteil und schickt dieses nach Werdenberg, wo vor dem Hochgericht nur noch die
+               formale Bestätigung sowie die Vollstreckung des Urteils stattfindet (vgl. z. B.
+                     <bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/e1b547638fb04eea87351c1304a3b3cd"
+                     >LAGL AAA 1/58</ref>, 16.06.1735</bibl> oder <bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/1ee33e82ae0b45cbb99f3f6ab8c27599"
+                     >LAGL AAA 1/59</ref>, 24.09./05.10.1737</bibl>; ähnlich wie in Hohensax-Gams,
+               vgl. <ref>SSRQ_SG_III_4_224</ref>). Ab wann die Werdenberger Richter im
+               hochgerichtlichen Verfahren das Glarner Urteil nur noch formal bestätigen, ist nicht
+               bekannt. Die Durchsicht zahlreicher Ratsprotokollbände Ende des 16. und Anfang des
+               17. Jh. hat nichts ergeben (die Gemeinen Ratsprotokolle von Glarus haben nur bis 1625
+               ein Register. Da Hochgerichtsfälle selten sind, ist es in den späteren Jahren
+               praktisch unmöglich, in vernünftigem Zeitaufwand einen Hochgerichtsfall zu finden,
+               der nicht anderswo dokumentiert ist. Der Übergang war möglicherweise fliessend).
+               Spätestens ab Mitte des 17. Jh. ist diese Verfahrensform üblich, denn in der
+               Verwaltungsreform von 1653 und später in der Remedur von 1725 heisst es, dass in
+               Malefizsachen <orig>ein jederweilliger landtvogt unß bericht ze thuen und unßers
+                  guetachten, rath und bevelchs zu erwarten wüßen wirt.</orig>
+                  (<ref>SSRQ_SG_III_4_185</ref>, Art. 13; <ref>SSRQ_SG_III_4_216</ref>, Art.
+               16).</p></div>
+            <div n="3"><p>Über die Verfassung dieses Hochgerichts ist kaum etwas bekannt, da keine Gerichtsprotokolle der
+               Landvogtei Werdenberg überliefert sind. Die nach Glarner Vorbild angelegte
+               Hochgerichtsform von Werdenberg zeigt nur den formelhaften Ablauf eines
+               Hochgerichtsverfahrens. Die Hochgerichtsform stammt laut Beusch aus dem Jahr <date
+                  when="1592">1592</date> (ohne Beleg). Die Vorlage der von Senn gedruckten
+               Hochgerichtsform ist ein Nachtrag aus der Mitte des <date from="1601-01-01"
+                  to="1700-12-31">17. Jh.</date>, die sich im Werdenberger Landbuch von <date
+                  when="1639">1639</date> im PA Buchs (vgl. dazu den Kommentar in
+                  <ref>SSRQ_SG_III_4_225</ref>) befindet. Eine Abschrift im Landesarchiv Glarus
+                     (<bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/8f5e161edea24131b13f51ff22e11599"
+                     >LAGL AG III.2462:012</ref></bibl>) datiert aus dem Jahr <date when="1690"
+                  >1690</date>. Über das Hochgericht wissen wir nur, dass zwei Richter dieses
+               Hochgerichts aus der Landvogtei <placeName ref="loc000925">Sargans</placeName>, wohl
+               aus der Herrschaft <placeName ref="loc000827">Wartau</placeName>, stammen. Die beiden
+               Richter der Herrschaft Wartau sind Eigenleute von Glarus, unterstehen jedoch nicht
+               der Hochgerichtsbarkeit der Landvogtei Werdenberg. Die Besetzung des Gerichts erfolgt
+               nach der territorialen und nicht der rechtlichen Zugehörigkeit. </p>
+            <p>In den <term ref="key000588">Gerichtsordnungen</term>, die in den <term
+                  ref="key000122">Urbaren</term> überliefert sind, wird nur das <term
+                  ref="key000151">Niedergericht</term>, das sogenannte <term ref="key001042"
+                  >Zeitgericht</term> im Mai und im Herbst mit sieben Richtern genannt, das über Gut
+               und Ehre richtet (<ref>SSRQ_SG_III_4_143</ref>, Art. 1;
+                  <ref>SSRQ_SG_III_4_229</ref>, Art. 2.1). </p>
+         </div>
+         
+      </back>
+   </text>
+</TEI>

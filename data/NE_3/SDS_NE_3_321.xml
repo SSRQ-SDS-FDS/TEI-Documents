@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="headerinfo"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <date type="electronic" when="2020-08-17"/>    <date type="print"/>
+    <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Collection des sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS_NE_3_321</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier>
+      <idno>AVN B 101.14.001, fol. 552r</idno>
+     </msIdentifier>
+     <head>Obligation de s’acquitter des dettes</head>
+     <msContents>
+      <summary>Si les enfants n’ont pas fait quittance et abandonné formellement et en ouverte
+       justice les biens de leurs pères et mères, ils sont tenus et obligés de payer et de s’acquitter
+       des dettes de leurs parents.</summary>
+      <msItem>
+       <textLang>français</textLang>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="33"/>
+          <width unit="cm" quantity="23.5"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <origDate when="1694-06-22" calendar="Julian"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>
+      </origin>
+     </history>
+     <additional>
+      <listBibl>
+       <head/>
+       <bibl/>
+      </listBibl>
+     </additional>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key000058"></term>
+     <term ref="key000920"></term>
+     <term ref="key000815"></term>
+     <term ref="key000244"></term>
+     <term ref="key000476"></term>
+     <term ref="key000803"></term>
+     <term ref="key005065"></term>
+     <term ref="key003331"></term>
+    </keywords>
+   </textClass>
+   <particDesc default="false"/>
+   <settingDesc default="false"/>
+  </profileDesc>
+ </teiHeader>
+
+ <text>
+  <group>
+   <text>
+    <body>
+        
+     
+     <pb n="552r" facs="AVN_B_101.14.001_0552r"/> 
+        
+     <div>
+      
+      <head>
+       <lb/>Les enfans qui n’ont point fait <choice><abbr>abandonaon</abbr><expan>abandonation</expan></choice>
+       <lb/>formelle en justice sont tenus payer les
+       <lb/>dettes de leur pere et mere.
+      </head>
+      
+      <p>
+       <lb/>Sur la requeste adressée à monsieur <lb/>le maistre bourgeois et <orgName
+        ref="org003085">messieurs du Conseil Estroit</orgName> de la <lb/>Ville de <placeName
+        ref="loc007786">Neufchâtel</placeName> par monsieur le chatelain <persName ref="per008991"
+        >Simon Brun</persName>, <lb/>le vendredy <origDate when="1694-06-22" calendar="Julian">22<hi rend="sup">e</hi>
+        juin 1694</origDate>, demandant d’avoir le point <lb/>de coutume suivant. </p>
+      
+      <p>
+       <lb/>Scavoir sy lors que des enfans n’ont point fait quittance
+       <lb/>et abandonnation formelle en ouverte justice des biens de leurs
+       <lb/>peres et meres, s’ils ne sont pas obligés de payer et aquiter
+       <lb/>leurs dettes.
+      </p>
+      
+      <p>
+       <lb/><orgName ref="org003085"><choice>
+         <abbr>Mesd</abbr>
+         <expan>Mesdits</expan>
+        </choice> sieurs du Conseil</orgName>, ayant eu advis et meure deliberation <lb/>par
+       ensemble, donnent par declaration suivant la coutume <lb/>usitée en la souveraineté de
+       <placeName ref="loc007785">Neufchatel</placeName> de pere à fils et de tout <lb/>temps immemorial jusques à
+       present, la coutume estre telle. </p>
+      
+      <p>
+       <lb/>Assavoir que lors que des enfans n’ont point faits quitance
+       <lb/>et abandonnation formelle en ouverte justice des biens de leurs
+       <lb/>peres et meres, <add place="above">ils</add> sont tenus et obligés de payer et aquiter
+       <lb/>leurs dettes.
+      </p>
+      
+      <p>
+       <lb/>Ce qu’a esté ainsi passé, conclud, et arresté l’an et jour <lb/>que dessus&#160;; &amp;
+       ordonné à moy secretaire de Ville de l’expedier <lb/>en cette forme, sous le <term ref="lem016327.02">séel</term> de la
+       mayorie et justice <choice>
+        <abbr>dud</abbr>
+        <expan>dudit</expan>
+       </choice>
+       <lb/><origPlace ref="loc007786">Neufchâtel</origPlace> et signature de ma main. </p>
+  
+      
+      <div>
+       <p>
+        <lb/>Copie extraite de sur l’original
+        <lb/>signé par moy.
+       </p>
+       <signed><persName ref="per008992"><choice><abbr>N</abbr><expan>Nicolas</expan></choice> Huguenaud</persName> <figure type="notarial sign"/></signed>
+      </div>
+      
+    
+      </div>
+     
+       
+    </body>
+   </text>
+  </group>
+ </text>
+</TEI>

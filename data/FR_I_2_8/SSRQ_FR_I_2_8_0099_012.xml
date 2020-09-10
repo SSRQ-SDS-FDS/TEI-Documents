@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+
+			</titleStmt>
+
+			<publicationStmt>
+				<date type="electronic" when="2019-10-14"/>
+				<date type="print"/>
+			</publicationStmt>
+
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ_FR_I_2_8_0099_012</idno>
+			</seriesStmt>
+
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<idno>StAFR, Thurnrodel 14, S. 141</idno>
+					</msIdentifier>
+					<head>Christine Bovigny-Corby – Verhör / Interrogatoire</head>
+					<msContents>
+						<summary></summary> 
+						<msItem>
+							<textLang>fr, de</textLang> 
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support>
+									<material></material>
+								</support>
+								<extent>
+									<dimensions type="leaves">
+										<height unit="cm" quantity="0.0"/>
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+									<dimensions type="plica">
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+								</extent>
+							</supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1645-04-27"/>
+							<origPlace></origPlace>
+						</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+							
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+			<particDesc default="false"/>
+			<settingDesc default="false"/>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<p><lb/><placeName ref="loc007683.20">Thurn</placeName>, <origDate when="1645-04-27">27 <foreign xml:lang="la">aprilis</foreign> 1645</origDate>, <persName ref="per012378a.01">Heydt</persName><note>Es handelt sich um einen Stadtweibel.</note>
+							<seg><lb/><abbr>H</abbr> <persName ref="per012379a.01">Progin</persName><!-- Hans Rudolf, damals Bürgermeister --></seg>
+							<seg><lb/><persName ref="per011519a.01">Techterman</persName><!-- Hans Jacob, LX --></seg>
+							<seg><lb/><persName>Python</persName><note>Es handelt sich entweder um <persName ref="per012380">Jost Python</persName> oder um <persName ref="per012381">Hans Ulrich Python</persName>. Beide sassen damals im Stadtgericht.</note></seg>
+							<seg><lb/><persName ref="per011548a.01">Reiff</persName><!-- Wilhelm, CC --></seg>
+							<seg><lb/><choice><abbr>W</abbr><expan>Weibel</expan></choice></seg></p>
+												
+						<p><seg><persName ref="per011980b.01">Christina Corby</persName>, relicte de feu <persName ref="per011981a.02">George <subst><del>Corby</del><add place="above">Boviny</add></subst></persName> d’<placeName ref="loc007678.03">Avri</placeName>, 
+							<lb/>a soustenu a la simple <term ref="lem018231">corde</term> de ne s’estre jamais 
+							<lb/>abandonnee a aulcun curé, ny aulcun aultres&#160;; qu’elle 
+							<lb/>a bien esté prisonniere icy, ils font <date dur="P8Y">8 ans</date>, et bannie 
+							<lb/>hors de la ville, mais qu’elle sçait pas la raison de 
+							<lb/>son <subst><del>emprisonnement</del><add place="above">bannissement</add></subst>&#160;; qu’elle n’est point sorciere, 
+							<lb/>et que Dieu luy <subst><del>pa</del><add place="inline">veuille</add></subst> pardonner tous ses 
+							<lb/>peschez&#160;; que celuy de <term ref="lem018521">sorcellerie</term>&#160;; qu’elle n’a jamais 
+							<lb/>veu <persName ref="per011219a.04">Satan</persName> et n’a aussy jamais veu, ny heu aulcun 
+							<lb/>corbeau aupres de soy&#160;; qu’<subst><del>il</del><add place="overwritten">on</add></subst> ne la faira jamais 
+							<lb/>dire aultrement.</seg> <seg>Nie aussy d’avoir tousché une 
+							<lb/>femme allant a l’eglise par le col&#160;; qu’il luy 
+							<lb/>arrive tort&#160;; qu’elle n’a jamais esté trouvee en la 
+							<lb/>couschette du curé d’<placeName ref="loc007678.03">Avri</placeName>, ny d’avoir commis aulcun 
+							<lb/>larrecin.</seg></p>				
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+
+
+
+<?oxy_options track_changes="on"?>

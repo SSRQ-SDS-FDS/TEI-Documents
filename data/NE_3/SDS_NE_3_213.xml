@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="headerinfo"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <date type="electronic" when="2020-08-17"/>
+    <date type="print"/>
+    <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Collection des sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS_NE_3_213</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier>
+      <idno>AVN B 101.14.001, fol. 470v</idno>
+     </msIdentifier>
+     <head>Témoins et preuves lors de traite de troisième instance</head>
+     <msContents>
+      <summary>Une personne qui a obtenu une traite adjugée à la troisième instance est obligée de
+       présenter ses témoins et preuves et de s’y restreindre.</summary>
+      <msItem>
+       <textLang>français</textLang>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="33"/>
+          <width unit="cm" quantity="23.5"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <origDate when="1668-11-03" calendar="Julian"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>
+      </origin>
+     </history>
+     <additional>
+      <listBibl>
+       <head/>
+       <bibl/>
+      </listBibl>
+     </additional>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term></term>
+     <term ref="key005189"></term>
+     <term ref="key000078"></term>
+     <term ref="key001006"></term>
+     
+    </keywords>
+   </textClass>
+   <particDesc default="false"/>
+   <settingDesc default="false"/>
+  </profileDesc>
+ </teiHeader>
+ 
+ <text>
+  <group>
+   <text>
+    <body>
+        
+     
+     <pb n="470v" facs="AVN_B_101.14.001_0470v"/> 
+        
+     <div>
+      <del rend="crossout"><head>
+        <lb/>Poinct de coustume qui porte que <lb/>quand un homme est en possession d’une <term
+         ref="lem014968">taxe</term>, si <lb/>celuy qui le veut faire decheoir n’est pas.
+       </head></del>
+      <head>
+       <lb/>Point de coustume concernant la <lb/><term ref="lem017004.02">restrinction de
+        prouvage</term>. </head>
+      <p>
+       <lb/>Sur la requeste d’<choice>
+        <abbr>honn.</abbr>
+        <expan>honnorable</expan>
+       </choice>
+       <persName ref="per009989a.01">Claudy <lb/>Purry</persName>, bourgeois de la Ville <placeName
+        ref="loc007786">Neufchâtel</placeName> &amp; <term ref="lem014994.02">sautier</term>
+       <lb/>de ladite ville, adressée à monsieur le maistre <choice>
+        <abbr>bourg</abbr>
+        <expan>bourgeois</expan>
+       </choice>
+       <lb/>et <orgName ref="org003085">Conseil Estroit</orgName> d’<choice>
+        <abbr>icelled</abbr>
+        <expan>icelledite</expan>
+       </choice> ville, le <origDate when="1668-11-03" calendar="Julian">3 de novembre <hi rend="underline"
+        >1668</hi></origDate>, <lb/>tendante aux fins d’avoir le point de coustume suivant. </p>
+      <p>
+       <lb/>Assavoir si une personne qui a une <term ref="lem016409"
+       >traite</term> n’est
+       <lb/>pas obligé à la troisieme instance suivante après <lb/>ladite <term ref="lem016409"
+        >traite</term> adjugée de faire <term ref="lem017004.04">restrinction</term>. </p>
+      <p>
+       <lb/><orgName ref="org003085"><choice>
+         <abbr>Mesd.</abbr>
+         <expan>Mesdits</expan>
+        </choice> sieurs du Conseil</orgName> ayans eu advis &amp; meure <lb/>premeditation par
+       ensemble <term ref="lem015635.04">baillent</term> par declaration <lb/>suivant la coustume
+       usitée en la souveraineté de <placeName ref="loc007785"><choice>
+         <abbr>Neufchel</abbr>
+         <expan>Neufchâtel</expan>
+        </choice></placeName>
+       <lb/>de pere à fils &amp; de tout temps immemorial jusqu’à present <lb/>la coustume estre
+       telle. </p>
+      <p>
+       <lb/>Assavoir que quand une personne a obtenu une <lb/><term ref="lem016409.02"
+        >traicte</term>, à la troisième instance après ladite <term ref="lem016409.02"
+        >traicte</term> adjugée <lb/>il est obligé de <term ref="lem015635">bailler</term> par
+       escript tous les tesmoins &amp; <lb/>papiers qu’il pretend se servir, &amp; faire <term
+        ref="lem017004.04">restrinction</term> à iceux. </p>
+      <p>
+       <lb/>Ce qu’a esté ainsi pasé, conclud &amp; arresté les an <lb/>et jour que devant, &amp;
+       ordonné à moy secretaire de Ville <lb/>l’expedier en cette forme sous le <term
+        ref="lem016327">seel</term> de la mayorie &amp; <lb/>justice <choice>
+        <abbr>dud</abbr>
+        <expan>dudit</expan>
+       </choice>
+       <origPlace ref="loc007786">Neufchâtel</origPlace>, &amp; signature de ma main. </p>
+      <p>
+       <lb/>Extrait pour copie sur celle qu’en avoit pris sur l’original <lb/>feu monsieur le <choice>
+        <abbr>mre</abbr>
+        <expan>maitre</expan>
+       </choice> bourgeois <persName ref="per009020"><choice>
+         <abbr>M</abbr>
+         <expan>Maurice</expan>
+        </choice> Tribolet</persName>. </p>
+     </div>
+      
+      <div>
+       <signed><persName ref="per008992"><choice><abbr>N</abbr><expan>Nicolas</expan></choice> Huguenaud</persName> <figure type="notarial sign"/></signed>
+      </div>
+    </body>
+   </text>
+  </group>
+ </text>
+</TEI>

@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+
+			</titleStmt>
+
+			<publicationStmt>
+				<date type="electronic" when="2019-05-29"/>
+				<date type="print"/>
+			</publicationStmt>
+
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ_FR_I_2_8_0051_008</idno>
+			</seriesStmt>
+
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<idno>StAFR, Thurnrodel 11, S. 142</idno>
+					</msIdentifier>
+					<head>Jean Malley et alii – Verhör / Interrogatoire</head>
+					<msContents>
+						<summary></summary> 
+						<msItem>
+							<textLang>fr, de</textLang> 
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support>
+									<material></material>
+								</support>
+								<extent>
+									<dimensions type="leaves">
+										<height unit="cm" quantity="0.0"/>
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+									<dimensions type="plica">
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+								</extent>
+							</supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1620-09-03"></origDate>
+							<origPlace></origPlace>
+						</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+							
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+			<particDesc default="false"/>
+			<settingDesc default="false"/>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<p><lb/>Im <placeName ref="loc007594">Rosey</placeName>
+							<seg><lb/><origDate when="1620-09-03">3. <choice><abbr>herbst</abbr><expan>herbstmonat</expan></choice> <hi rend="underline">1620</hi></origDate>, <choice><abbr>j</abbr><expan>judex</expan></choice> <abbr>h</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per009249">Daniel von Montenach</persName>.</note> – 1<note>Diese Zahl diente zur Verrechnung der Sitzungsgelder, und sie signalisiert, wie oft die Mitglieder des Gerichts anwesend waren.</note></seg>
+							<seg><lb/><abbr>H</abbr> <persName ref="per009250">Gerwer</persName>, <abbr>h</abbr> <persName ref="per009255">Affry</persName></seg>
+							<seg><lb/><persName ref="per009251">Känel</persName>,  <persName ref="per009123">Werli</persName></seg>
+							<seg><lb/><persName ref="per009387">Werli</persName></seg>
+							<seg><lb/>Weybel</seg></p>
+						
+						<p><seg><lb/><add place="left margin">Hat nüt bezalt.</add></seg> 
+							<seg><persName ref="per009614">Jean Porsy <choice><abbr>als</abbr><expan>alias</expan></choice> Malley</persName> de <placeName ref="loc008033.02">Porsy</placeName>, ballivage  
+						<lb/>de <placeName ref="loc007647.05">Romondt</placeName>, a dit d’avoir ouy dire des 
+						<lb/>paysans qu’on le cherchoit et que <persName ref="per009613">Hausy 
+						<lb/>Botting</persName> l’auroit accusé d’avoir fait du 
+						<lb/>mal&#160;; qu’il <del>se</del> seroit venu se presenter, 
+						<lb/>affirmant n’avoir commis aulcun mal, hor<lb break="no"/>mis avoir prins du fruit; par aultre 
+						<lb/>chose, ne sait d’aulcune <term ref="lem015014">moge</term>, ny cav<lb break="no"/>valle, hormis que <add place="above" type="sign">luy</add> et un sien compagnon 
+						<lb/>en volurent tuer une a <placeName ref="loc008028.03">Girmoine</placeName>. Aultre 
+						<lb/>n’a dit.</seg></p>
+						
+						<p><foreign xml:lang="la">Ibidem</foreign><note>Die beiden nächsten Verhöre fanden im Anschluss statt.</note></p>
+						
+						<p><seg><lb/><add place="left margin">Hat nüt bezalt.</add></seg> 
+							<seg><persName>Imo</persName>, ignorant son surnom, n’a fait aulcun 
+						<lb/>mal que prins du fruit&#160;; ne sait aussy 
+						<lb/>rien d<subst><del>e</del><add place="overwritten">u</add></subst> susdit <persName ref="per009614">Malley</persName> que nagueres <subst><del>de l’avoir</del> 
+						<lb/><add place="inline">qu’il</add></subst> a cogneu.</seg></p>
+						
+						<p><seg><lb/><add place="left margin">Hat nüt bezalt.</add></seg> 
+							<seg><persName>Willi Rossalet</persName> de <placeName ref="loc008034.03">Marlie</placeName> a dit comme 
+						<lb/>ledit <persName>Imo</persName>.</seg></p>		
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+
+
+
+<?oxy_options track_changes="on"?>

@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="headerinfo"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <date type="electronic" when="2020-08-17"/>    <date type="print"/>
+    <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Collection des sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS_NE_3_008</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier>
+      <idno>AVN B 101.14.001, fol. 354v–356r</idno>
+     </msIdentifier>
+     <head>Succession des enfants par leurs parents</head>
+     <msContents>
+      <summary>Si des enfants émancipés décèdent ab intestat, leurs biens reviennent sans autres
+       héritiers à leurs plus proches parents. Ceux qui souhaitent être mis en possession doivent le
+       faire sur le jour des six semaines après l’ensevelissement.</summary>
+      <msItem>
+       <textLang>français</textLang>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="33"/>
+          <width unit="cm" quantity="23.5"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <origDate when="1574-01-04"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>
+      </origin>
+     </history>
+     <additional>
+      <listBibl>
+       <head/>
+       <bibl/>
+      </listBibl>
+     </additional>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key000920"></term>
+     <term ref="key000815"></term>
+     <term ref="key000050"></term>
+     <term ref="key005153"></term>
+     <term ref="key000803"></term>
+     <term ref="key005198"></term>
+     <term ref="key000925"></term>
+     <term ref="key004770"></term>
+     <term ref="key005179"></term>
+     <term ref="key005117"></term>
+     <term ref="key003024"></term>
+    </keywords>
+   </textClass>
+   <particDesc default="false"/>
+   <settingDesc default="false"/>
+  </profileDesc>
+ </teiHeader>
+ 
+ <text>
+  <group>
+   <text>
+    <body>
+     <pb n="354v" facs="AVN_B_101.14.001_0354v"/>
+     <div>
+      <head>
+       <lb/>Declaration sy les peres &amp; <lb/>meres heritent leurs enfans et s’il est requis
+       <lb/>se mettre en possession par justice du bien <lb/>d’un deffunct.</head>
+      <p>
+       <lb/>Sur le <origDate when="1574-01-04">quatriesme jour de janvier l’an de
+        nostre <lb/>seigneur <hi rend="underline">1574</hi></origDate>, pardevant moy, <persName
+        ref="per010641">Antoine Aubert</persName>, <lb/>mayre &amp; du <orgName ref="org003085"
+        >Conseil de la Ville de <placeName ref="loc007786">Neufchastel</placeName></orgName>, au nom
+       <lb/>et pour la part de tres illustre &amp; puissante princesse <lb/><persName
+        ref="per010524">Marie</persName> de <placeName ref="loc008494.02">Toutteville</placeName>,
+       marquise de <placeName ref="loc008515">Rothelin</placeName>, comtesse <lb/>dudict <placeName
+        ref="loc007785">Neufchastel</placeName> etc. et pardevant <orgName ref="org003085">les
+        sieurs conseillers</orgName>
+       <lb/>dudict lieu cy apres nommez est comparu judiciallement <lb/>honnorable homme <persName
+        ref="per010652">Anthoine Servant</persName> bourgeois d’<placeName ref="loc007693"
+        >Estavayer</placeName>
+       <lb/>lequel par un <term ref="lem016298">parlier</term> par moy à luy octroyé a exposé &amp;
+       <lb/>faict entendre estre chose veritable que par cy devant il <lb/>avoit esté marié es
+       coustume du Comté dudict <placeName ref="loc007785">Neufchastel</placeName>
+       <lb/>et d’aultant qu’il a besoin de certains poincts des coustumes <lb/>dudict lieu, demande
+       que declaration luy soit faicte sy <lb/>les effans heus en loyal mariage, estans emancipez et
+        <lb/><term ref="lem014992.05">detronquez</term> d’avec pere ou mere soit par partage que
+       <lb/>mariage divis mouvans ab intestat, le bien par eulx <lb/>delaissé ne doibt revenir et
+       retomber au pere et à la <lb/>mere dont il est extraict et party, et que par apres
+       <lb/>lesdictes coustumes ne portent que lesdictes pere ou mere <lb/>puissent faire et
+       disposer dudict bien à leur bon voulloir <lb/>et plaisir sans empeschement <term
+        ref="lem016032.03">destourbier</term> ny contredict. <lb/>En outre demande declaration,
+       assavoir mon que <lb/>celuy ou ceux qui pretendent jouyr des escheutes &amp; <lb/>successions
+       advenues ne se doibvent pas mettre en <lb/>possession et investiture sur le jour des <date
+        dur="P6W">six semaines</date>
+       <pb n="355r" facs="AVN_B_101.14.001_0355r"/>
+       <lb/>apres l’ensevelissement du deffunct et en cas que <lb/>cela ne fust faict&#160;;
+       assavoir mon si les pretendans <lb/>à ladicte succession peuvent estre jouissans de
+       <lb/>leurs action, priant affectueusement par droict &amp; <lb/>judicialle cognoissance
+       desdicts deux poincts avoir <lb/>declaration pour s’en servir au besoin luy sera apres
+       <lb/>laquelle propositive ainsi estre faicte &amp; ledict mayre <lb/>en demanday le droict
+       ausdicts <orgName ref="org003085">sieurs conseillers</orgName>
+       <lb/>lesquels apres avoir heu advis &amp; conseil par ensemble, <lb/>et estre bien souvenans
+       &amp; memoratifs d’un decret faict en <lb/>l’an <date when="1532">mille cinq cents trente
+        deux</date>, tous par une voix <lb/>concordablement m’ont declaré &amp; rapporté que, pour
+       <lb/>ensuivre ledict decret mesme, ce que notoirement le <lb/>temps passé jusques à
+       maintenant a esté usité, la <lb/>coustume du Comté dudict <placeName ref="loc007785"
+        >Neufchastel</placeName> a esté et est <lb/>encore telle que estant, le mary &amp; femme
+       conjoincts <lb/>au sainct estat de mariage esdictes coustumes ayans <lb/>enffans procéez de
+       leur corps et iceux par apres <lb/>venoyent à estre emancipez et <term ref="lem014992.10"
+        >destronqués</term> d’avecq <lb/>leursdicts pere ou mere, soit par partage que mariage
+       <lb/>divis, la coustume du païs porte que s’ils mourroyent <lb/>sans <term ref="lem015995.02"
+        >hoirs</term> procrés de leurs corps et sans faire <lb/>testament ny donnation, le bien par
+       eux delaissé <lb/>doibt monter et revenir au tronc d’où il est party, <lb/>assavoir le
+       paternel au paternel, et le maternel au <lb/>maternel comme chose equitable et raisonnable
+       duquel <lb/>bien lesdicts pere et mere suivant lesdictes coustumes <lb/>mesmes les libertez
+       &amp; franchises en peuvent et doibvent <lb/>faire à leur bon voulloir et plaisir et le
+       tester et donner <lb/>à qui bon leur semblera comme francs bourgeois, <lb/>reservés a <term
+        ref="lem016348.02">moisnes blancs</term>, sans contredict de personne. <pb n="355v"
+        facs="AVN_B_101.14.001_0355v"/>
+       <lb/>Et quant au regard des <term ref="lem016349.02">escheutes</term> et successions, la
+       <lb/>coustume dudict Comté de <placeName ref="loc007785">Neufchastel</placeName> est telle,
+       que <lb/>celuy ou ceux (sachant la mort du deffunct) qui <lb/>pretendront avoir action à
+       ladicte succession se <lb/>doibvent approcher sur le jour des <date dur="P6W">six
+        sepmaines</date>
+       <lb/>apres l’ensevelissement d’icelluy dit deffunct pour se <lb/>mettre en possession &amp;
+       investiture de leur pretendit. <lb/>Estre ce faict, doibvent pleinement &amp; passiblement
+       jouir <lb/>dudict bien et action mais estans au lieu &amp; ils ne <lb/>s’approchent pour se
+       mettre en possession et investiture <lb/>estan bien <term ref="lem016350.02">certiorés</term>
+       du trespas du deffunct, celuy ou <lb/>ceux ne pourront nullement avoir acces audict bien
+       <lb/>ains en sont entierement &amp; pour le tout privez &amp; <lb/>dejettés, et celuy ou ceux
+       qui ne seront au lieu, lesdictes <lb/>coustumes portent qu’ils ont <date dur="P1Y6W"><term
+         ref="lem014776">an et jour</term></date> qu’est <date dur="P1Y6W"><add place="above">un an
+         et</add> six <lb/>sepmaines</date> pour s’apporcher et se mettre en pocession et
+       <lb/>investiture dudict bien delaissez par le deffunct, que <lb/>alors venant dedans ledict
+       temps, il peut jouyr de <lb/>son pretendit. Et s’il ne vient durant ledict terme d’<date
+        dur="P1Y6W"><term ref="lem014776">an <lb/>&amp; jour</term></date> ains qu’il laisse icelluy
+       passer et expirer, <lb/>il est entierement frustré de ladicte succession et n’en <lb/>pourra
+       avoir nulle jouissance. Sy donc il n’est <lb/>rellevé par une audiance generalle &amp;
+       justice <lb/>souveraine. Et c’est icy la coustume touchant ledict <lb/>poinct que nous les cy
+       apres nommez avons <lb/>dicte &amp; declarée au plus pres de nos consciences, <lb/>selon ce
+       qu’en a esté usé et qu’encor de present on <lb/>faict à tout ce Comté de <placeName
+        ref="loc007785">Neufchastel</placeName> en ensuivant <pb n="356r"
+        facs="AVN_B_101.14.001_0356r"/>
+       <lb/>ce decret sur ce faict &amp; dressé, laquelle declaration <lb/>de coustume, ledict
+        <persName ref="per010652">Anthoine Servant</persName> a prié avoir par <lb/>escript pour
+       s’en servir et ayder au besoin luy ferat, ce que <lb/>judiciallement luy fust adjugée, et a
+       moy notaire <lb/>soubscript commandé luy expedier ces presentes en ceste <lb/>mesme forme
+       soubs le <term ref="lem016327">seel</term> de la mayorie dudict <placeName ref="loc007786"
+        >Neufchastel</placeName>
+       <lb/>cy mis en placquard pour plus grande approbation&#160;; c’est par <lb/>l’adjudication
+       des honnorables prudents &amp; sages <persName ref="per010594a.01">Jehan
+        <lb/>Trybollet</persName>
+       <term ref="lem016294">banderet</term>, <persName ref="per010647">Pierre Amiod</persName>,
+        <persName ref="per010595">Claude Clerc</persName>, <persName ref="per010601a.01">Jehan
+        <lb/>Poury</persName>, <persName ref="per010625a.02">Loys Descostes</persName>, <persName
+        ref="per010515">Pierre Quelin</persName>, <persName ref="per010653a.01">Jaques
+        Fequenet</persName>, <lb/><persName ref="per010602a.01">Guillame Henry dit
+        D’Allemagne</persName>, <persName ref="per010634">Guillaume Hudry</persName>, <lb/><persName
+        ref="per010626a.02">Jaques Steff</persName>, <persName ref="per010635">Pierre
+        Jacquemet</persName>, <persName ref="per010648">Abraham de Vy</persName>, le <lb/>notaire
+       soubsigné, <persName ref="per010654">Jehan Barrillier</persName>, <persName
+        ref="per010603a.01">Jehan Vuillame</persName>, <lb/><persName ref="per010655">George
+        Bosset</persName>, <persName ref="per010508">Daniel Huguenaud</persName>, <persName
+        ref="per010636a.02">Loys Ustervald</persName> et <lb/><persName ref="per010510a.01">Jehan
+        Grenot</persName> tous conseillers dudict <placeName ref="loc007786"
+       >Neufchastel</placeName>, que ce <lb/>ont cogneu et sentencé les an &amp; jour que dessus
+       signée par <lb/>le <choice>
+        <abbr>S<hi rend="sup">r</hi></abbr>
+        <expan>sieur</expan>
+       </choice>
+       <persName ref="per010617a.01">Jehan Petter</persName>.</p>
+      <p>
+       <lb/>Coppie prinse &amp; collationnée à son original par <lb/>moy <persName
+        ref="per010433a.01"><choice>
+         <abbr>D</abbr>
+         <expan>David</expan>
+        </choice> Bailliod</persName>.</p>
+      <p>
+       <lb/><handShift/>Et par moy <choice>
+        <abbr>not</abbr>
+        <expan>notaire</expan>
+       </choice>, extraict sur <lb/><choice>
+        <abbr>lad</abbr>
+        <expan>ladicte</expan>
+       </choice> copie, sans mutation.</p>
+     </div>
+     <div>
+      <signed><persName ref="per010440">Carrel</persName>
+       <figure type="notarial sign"/></signed>
+     </div>
+    </body>
+    <back>
+     <div>
+      <p>Ce point de coutume est cité dans les points <ref>SDS_NE_3_054</ref>, <ref>SDS_NE_3_178</ref> et <ref>SDS_NE_3_235</ref>.</p>
+     </div>
+    </back>
+   </text>
+  </group>
+ </text>
+</TEI>

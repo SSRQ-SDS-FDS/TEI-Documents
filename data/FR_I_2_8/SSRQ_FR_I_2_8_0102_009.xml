@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+
+
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+
+			</titleStmt>
+
+			<publicationStmt>
+				<date type="electronic" when="2019-10-14"/>
+				<date type="print"/>
+			</publicationStmt>
+
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ_FR_I_2_8_0102_009</idno>
+			</seriesStmt>
+
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<idno>StAFR, Thurnrodel 13, S. 454–455</idno>
+					</msIdentifier>
+					<head>Anni Summerau – Verhör / Interrogatoire</head>
+					<msContents>
+						<summary></summary> 
+						<msItem>
+							<textLang>de</textLang> 
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support>
+									<material></material>
+								</support>
+								<extent>
+									<dimensions type="leaves">
+										<height unit="cm" quantity="0.0"/>
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+									<dimensions type="plica">
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+								</extent>
+							</supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate when="1637-09-02"/>
+							<origPlace></origPlace>
+						</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc> 
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+			<particDesc default="false"/>
+			<settingDesc default="false"/>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="454"/><p><lb/>Im <placeName ref="loc007683">bösen thurn</placeName>
+							
+							<seg><lb/><origDate when="1637-09-02">2 <foreign xml:lang="la">septembris</foreign> 1637</origDate>, <foreign xml:lang="la"><choice><abbr>jud</abbr> <expan>judex</expan></choice></foreign> <abbr>h</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per011527">Beat Jakob von Montenach</persName>.</note></seg>
+							<seg><lb/><abbr>H</abbr> <persName ref="per009267">Brodard</persName>, <abbr>h</abbr> <choice><abbr>burgerm</abbr><expan><term ref="lem018597.02">burgermeister</term></expan></choice><note>Gemeint ist <persName ref="per011533">Tobias Gottrau</persName>.</note></seg>
+							<seg><lb/><persName ref="per011523a.01">Wildt</persName>, <persName ref="per011521a.01">Heylman</persName></seg>
+							<seg><lb/><persName ref="per011540a.02">Gartner</persName>, <persName ref="per011532a.01">Brünißholz</persName></seg>
+							<seg><lb/><choice><abbr>W</abbr><expan>Weibel</expan></choice></seg></p>
+							
+						<pb n="455"/><p><seg><lb/><add place="left margin"><measure type="currency" unit="lb" quantity="12">12 </measure>.</add></seg> <seg><persName ref="per012302a">Anni Sommerow</persName> bekennt, den <hi rend="font change"><persName>Vizona</persName></hi> <measure type="currency" unit="bz" quantity="2">zwen batzen</measure> 
+							<lb/>endtzuckt zu haben. Sy habe geredt, der <persName>Wagner</persName> habe 
+							<lb/>ein wyssen <term ref="lem016423.02">bry</term> gessen, darab er erstickt sye. Sy be<lb break="no"/>kennt ouch, zum <hi rend="font change"><persName>Jacquat</persName></hi> gesagt zu haben, da der 
+							<lb/><persName>Wagner</persName> gstorben war: <q>Eß ist dir leidt, mir aber 
+							<lb/>ein <term ref="lem004841.04">frowd</term>.</q> Uff die proposition, warumb man so 
+							<lb/>vil leidts von ihren rede, hat geandtworttet, wan 
+							<lb/>ein menschen im <term ref="lem004517.03">unfal</term> sye, so wolle jederman uff ihn 
+							<lb/><term ref="lem017843.02">schryen</term>. Ihr böß maul hab sy in ungunst gebracht.
+							<lb/>Ist mit dem <term ref="lem018237.09">zehndner</term> <term ref="lem016150">uffzogen</term> worden. Bittet 
+							<lb/>umb gnad.</seg></p>
+						
+					</div>
+				</body>
+				
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+
+<?oxy_options track_changes="on"?>

@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="headerinfo"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <date type="electronic" when="2020-08-17"/>
+    <date type="print"/>
+    <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Collection des sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS_NE_3_341</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier>
+      <idno>AVN B 101.14.001, fol. 589br</idno>
+     </msIdentifier>
+     <head>Rapport de la commission des franchises</head>
+     <msContents>
+      <summary>Rapport de la «&#160;commission des franchises&#160;» sur plusieurs points de coutumes et
+       délibération du Conseil. Le premier point aboutit à demander aux Quatre Ministraux d’abolir
+       la coutume des héritiers nécessaires. Le second point renvoie la question des signatures
+       privées à la commission. Le troisième point, qui est rejeté, concerne la justice sommaire
+       pour les amendes de douze batz. Le quatrième point qui traite de l’abolition du grapillage
+       nécessite l’avis du gouvernement.</summary>
+      <msItem>
+       <textLang>français</textLang>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="33"/>
+          <width unit="cm" quantity="23.5"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <origDate from="1701-05-26" to="1701-08-01"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>
+      </origin>
+     </history>
+     <additional>
+      <listBibl>
+       <head/>
+       <bibl/>
+      </listBibl>
+     </additional>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key005017"></term>
+     <term ref="key000815"></term>
+     <term ref="key000920"></term>
+     <term ref="key000815"></term>
+     <term ref="key004774"></term>
+     <term ref="key004997"></term>   
+     <term ref="key005490"></term>
+     
+    </keywords>
+   </textClass>
+   <particDesc default="false"/>
+   <settingDesc default="false"/>
+  </profileDesc>
+ </teiHeader>
+ 
+ <text>
+  <group>
+   <text>
+    <body>
+        
+     
+     <pb n="589br" facs="AVN_B_101.14.001_0589br"/>
+     
+        
+     <div>
+      <p><seg>
+        <lb/><persName><choice>
+          <abbr>M</abbr>
+          <expan>Monsieur</expan>
+         </choice> B<hi rend="sup">o</hi></persName>
+        <num value="37">IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII</num></seg>
+       <seg><lb/><persName><choice>
+          <abbr>M</abbr>
+          <expan>Monsieur</expan>
+         </choice> P</persName>
+        <num value="7">IIIIIII</num></seg><seg><lb/><persName><choice>
+          <abbr>M</abbr>
+          <expan>Monsieur</expan>
+         </choice> G<hi rend="sup">t</hi></persName>
+        <num value="1">I</num></seg><seg><lb/>La commission des franchises a fait rapport des <lb/>differents
+        objets relatifs à la legislation dont l’examen <lb/>lui avoit été délégué.</seg></p>
+      
+      <p>
+       <lb/>Et premierement elle a presenté son prejugé relatif <lb/>a la <del rend="strikethrough"
+        >loi q mature de l’heredité necessaire</del> qualité <lb/>d’<term ref="lem014973.02">heritiers
+        necessaires</term>
+       <del rend="strikethrough">que donne aux enfants relativ</del>
+       <lb/>de leurs peres <add place="above">meres</add> et autres ascendants paternels &amp; mater
+        <lb break="no"/>nels, <del rend="rubbing">Sur</del> que donne aux enfants une ancienne
+       <lb/>coûtume de cet état.</p>
+      
+      <p>
+       <lb/>Sur quoi délibéré le <orgName ref="org003085">Conseil</orgName>
+       <lb/><add place="left margin">assemblé</add>a dit que l’on charge <orgName ref="org003119"><choice>
+         <abbr>MM</abbr>
+         <expan>Messieurs</expan>
+        </choice> les Quatre <choice>
+         <abbr>M<hi rend="sup">x</hi></abbr>
+         <expan>Ministraux</expan>
+        </choice></orgName> qui assisterent <lb/>à la cloture des Etats de cette année d’insister
+       par une <lb/>requisition motivee sur l’abolition de la susditte coûtume <lb/>et sur la
+       reforme de touts les points de la <choice>
+        <abbr>jurisprud<hi rend="sup">ce</hi></abbr>
+        <expan>jurisprudence</expan>
+       </choice>
+       <lb/>de cet état <del rend="strikethrough">relatif</del> qui lui sont relatifs&#160;: fondés sur
+       touts <lb/>les inconvenients qui en ont resulté jusqu’à present <lb/>et sur le peu de fruit
+       qui en resulte aujourd’huy à <lb/>raison des renonciations. </p>
+      
+      <p>
+       <lb/>Et secondement sur la foi et l’efficacité que nos <lb/>coûtumes accordent aux ecritures,
+       et signatures <lb/>privées. <del rend="strikethrough">Et sur les</del>
+      </p>
+      
+      <p>
+       <lb/>Surquoi deliberé le <orgName ref="org003085">Conseil</orgName>
+       <lb/><del rend="strikethrough">remarquant le multitude excessive combien de <lb/>procès
+        de</del> faux <del rend="strikethrough">se sont suscités</del> met pour le <choice>
+        <abbr>mom<hi rend="sup">t</hi></abbr>
+        <expan>moment</expan>
+       </choice>
+       <lb/>la <choice>
+        <abbr>pposition</abbr>
+        <expan>proposition</expan>
+       </choice> de coté renvoyt a la commission a la <lb/>travailler de nouveau. </p>
+      
+      <p>
+       <lb/><choice>
+        <abbr>Troisiémemt</abbr>
+        <expan>Troisièmement</expan>
+       </choice> sur la proposition faite au <orgName ref="org003085">Conseil</orgName>
+       <lb/>de rendre les justices sommaires lorsqu’il s’agira <lb/>d’une amende de <measure origin="NE" type="currency" unit="bz" quantity="12">12&#160;<choice>
+         <abbr>bz</abbr>
+         <expan>batz</expan>
+        </choice></measure> pour laquelle la <choice>
+        <abbr>Sgrie</abbr>
+        <expan>Seigneurie</expan>
+       </choice> pour <lb break="no"/>suivra, et d’entendre lour competence <del
+        rend="strikethrough">au delà de leur</del>
+       <lb/>dans les actions personnelles. </p>
+      
+      <p>
+       <lb/>Surquoi delibéré il a
+       <lb/>été dit, que l’on rejette l’une et l’autre propositon.
+      </p>
+      
+      <p>
+       <lb/>Quatriémement sur la proposition de demander <lb/>au <orgName ref="org003167">souverain
+        tribunal</orgName> l’abolition du <term ref="lem016408.02">grapillage</term>. </p>
+      
+      <p>
+       <lb/>Sur quoi delibéré le <orgName ref="org003085">Conseil</orgName> estime que l’on <choice>
+        <abbr>prealablem<hi rend="sup">t</hi></abbr>
+        <expan>préalablement</expan>
+       </choice>
+       <lb/>demander au <choice>
+        <abbr>gouvernem<hi rend="sup">t</hi></abbr>
+        <expan>gouvernement</expan>
+       </choice> une conference sur cet <lb/>objet. </p>
+      
+      </div>
+     
+       
+    </body>
+    <back>
+     <div><p>Il ne s’agit pas d’un point de coutume, mais d’une délibération de la commission des franchises
+       concernant une réforme de la législation et notamment l’abolition d’une coutume. Elle figure
+       sur un folio volant ajouté au coutumier.</p></div>
+    </back>
+   </text>
+  </group>
+ </text>
+</TEI>

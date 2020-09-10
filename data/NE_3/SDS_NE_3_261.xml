@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="headerinfo"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <date type="electronic" when="2020-08-17"/>     <date type="print"/>
+    <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Collection des sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS_NE_3_261</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier>
+      <idno>AVN B 101.14.001, fol. 509v–510r</idno>
+     </msIdentifier>
+     <head>Prérogative accordée par testament</head>
+     <msContents>
+      <summary>Un père peut disposer de la moitié de ses biens par testament en faveur de ses fils
+       au préjudice de ses filles, pour autant qu’il leur laisse leur légitime. Il peut également
+       favoriser un fils par codicille ou par un autre moyen. La légitime est toujours
+       réservée.</summary>
+      <msItem>
+       <textLang>français</textLang>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="33"/>
+          <width unit="cm" quantity="23.5"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <origDate when="1674-04-16" calendar="Julian"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>
+      </origin>
+     </history>
+     <additional>
+      <listBibl>
+       <head/>
+       <bibl/>
+      </listBibl>
+     </additional>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key000920"></term>
+     <term ref="key000815"></term>
+     <term ref="key000244"></term>
+     <term ref="key004411"></term>
+     <term ref="key000803"></term>
+     <term ref="key000635"></term>
+     <term ref="key005078"></term>
+     <term ref="key003521"></term>
+    </keywords>
+   </textClass>
+   <particDesc default="false"/>
+   <settingDesc default="false"/>
+  </profileDesc>
+ </teiHeader>
+ 
+ <text>
+  <group>
+   <text>
+    <body>
+        
+     
+     <pb n="509v" facs="AVN_B_101.14.001_0509v"/> 
+        
+     <div>
+      
+      <head>
+       <lb/>Touchant la prerogative qu’un pere
+       <lb/>peut donner à ses enfans masles. Et aussi
+       <lb/>touchant la piece que le mesme pere peut donner
+       <lb/>à un de <choice><abbr>sesd.</abbr><expan>sesdits</expan></choice> enfans par devant les autres de
+       <lb/><choice><abbr>lad.</abbr><expan>ladite</expan></choice> prerogative.
+      </head>
+     
+      <p>
+       <lb/>Sur la requeste adressée à <lb/>monsieur le maistre bourgeois &amp; <orgName
+        ref="org003085">Conseil Estroit de <lb/>la Ville de <placeName ref="loc007786"
+         >Neuchatel</placeName></orgName>, par le <choice>
+        <abbr>s<hi rend="sup">r</hi></abbr>
+        <expan>sieur</expan>
+         </choice> greffier <persName ref="per009785">Cortaillod</persName>, <lb/>agissant au nom d’une partie de <choice>
+        <abbr>Mess<hi rend="sup">rs</hi></abbr>
+        <expan>messieurs</expan>
+       </choice> les heritiers <lb/>de feu <choice>
+        <abbr>Mons<hi rend="sup">r</hi></abbr>
+        <expan>monsieur</expan>
+       </choice>
+       <persName ref="per009786">de Clepends</persName>, tendante aux fins d’avoir <lb/>les poincts de coustume
+       suivants. </p>
+      
+      <p>
+       <lb/>Sçavoir en premier lieu, si un pere par la <lb/>coustume de <placeName ref="loc007785"
+        >Neufchatel</placeName> n’a pas le pouvoir de donner <lb/>par son testament à ses enfans
+       masles la moitié de <lb/>tous ses biens en prerogative par devant ses filles, en <lb/>leur
+       laissant leur <term ref="lem015074">legitime</term>. </p>
+      
+      <p>
+       <lb/>Secondement, si par un <term ref="lem014981.01">codicile</term> posterieur <lb/><choice>
+        <abbr>aud.</abbr>
+        <expan>audit</expan>
+       </choice> testament, ce mesme pere n’a pas le pouvoir d’eslire <lb/>une des pieces de <choice>
+        <abbr>lad.</abbr>
+        <expan>ladite</expan>
+       </choice> prerogative pour en prerogativer <lb/>l’un de ses masles par devant l’autre, &amp;
+       l’estimer à <lb/>certain prix, pour en rembourcer l’autre, voire s’il n’a <lb/>pas le droit
+       de la luy donner tout à fait, sans toutefois <lb/>luy oster de sa <term ref="lem015074">legitime</term>. </p>
+      
+      <p>
+       <lb/><orgName ref="org003085">Mesdits <choice><abbr>s<hi rend="sup">rs</hi></abbr><expan>sieurs</expan></choice> du Conseil</orgName> ayans eu advis &amp; meure
+       <lb/>premeditation par ensemble, <term ref="lem015635.04">baillent</term> par declaration,
+       <lb/>suivant la coustume usitée en la souveraineté de
+       <lb/><placeName ref="loc007785">Neufchatel</placeName> de pere à fils &amp; de tout temps immemorial
+       <lb/>jusqu’à present.
+      </p>
+      
+      <p>
+       <lb/>Assavoir sur le premier poinct, qu’un pere a le <lb/>droit &amp; pouvoir de disposer de
+       la moitié de ses biens par <lb/>testament ou autrement en prerogative à ses masles <lb/>par
+       devant ses filles, moyennant il leur laisse leur <lb/><term ref="lem015074">legitime</term>. </p>
+      
+      <p>
+       <lb/>Et sur le second poinct, conformément à ce <lb/>qu’en fut desja declaré le <date
+        when="1629-06-17" calendar="Julian">17 juin <hi rend="underline">1629</hi></date><note>Voir
+         <ref>SDS_NE_3_091</ref>.</note> que le <lb/>mesme pere par <term ref="lem014981.01"
+        >codicile</term> ou autrement après son <pb n="510r" facs="AVN_B_101.14.001_0510r"/>
+       <lb/>son testament peut donner &amp; laisser par prerogative <lb/>à aucuns de ses enfans des
+       pieces entieres de ses biens, <lb/>maisons &amp; possessions, entant qu’il soit fait droit
+       sur <lb/>ses autres biens à ses autres enfans de leur portion <lb/>et <term ref="lem015074"
+        >legitime</term>, ou de la valeur, au taux &amp; evaluation de <lb/>gens de justice, au cas
+       que <choice>
+        <abbr>led.</abbr>
+        <expan>ledit</expan>
+       </choice> pere n’en ait luy mesme <lb/>ordonné &amp; establi recompense &amp; satisfaction
+       suffisante. </p>
+      
+      <p>
+       <lb/>Ce qu’a esté ainsi passé, conclud &amp; arresté <del rend="strikethrough">les</del>
+       <lb/><choice><abbr>aud.</abbr><expan>audit</expan></choice> <orgName ref="org003085">Conseil</orgName> le <origDate when="1674-04-16" calendar="Julian">16<hi rend="sup">e</hi> jour d’avril <hi rend="underline">1674</hi></origDate> &amp; ordonné à
+       <lb/>moy secretaire de Ville l’expedier en cette forme, sous le
+       <lb/><term ref="lem016327">seel</term> de la mayrie &amp; justice <choice><abbr>dud.</abbr><expan>dudit</expan></choice> <origPlace ref="loc007786">Neufchatel</origPlace> &amp; signature
+       <lb/>de ma main.
+      </p>
+      
+      <p>
+       <lb/>Pour copie extraite de sur celle qu’en avoit fait feu <choice>
+        <abbr>mons<hi rend="sup">r</hi></abbr>
+        <expan>monsieur</expan>
+       </choice>
+       <lb/>le secretaire de Ville <persName ref="per009020"><choice><abbr>M</abbr><expan>Maurice</expan></choice> Tribolet</persName>, de sur l’original. </p>
+      
+     </div>
+      
+      <div>
+       <signed><persName ref="per008992"><choice><abbr>N</abbr><expan>Nicolas</expan></choice> Huguenaud</persName> <figure type="notarial sign"/></signed>
+      </div>
+     
+       
+    </body>
+   </text>
+  </group>
+ </text>
+</TEI>

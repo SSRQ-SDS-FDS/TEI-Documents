@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="headerinfo"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <date type="electronic" when="2020-08-17"/>
+    <date type="print"/>
+    <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Collection des sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS_NE_3_159</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier>
+      <idno>AVN B 101.14.001, fol. 434v</idno>
+     </msIdentifier>
+     <head>Soustraction à la justice d’un bourgeois</head>
+     <msContents>
+      <summary>Aucun bourgeois de Neuchâtel ne peut être soustrait à la justice ordinaire pour une
+       cause civile, ni par ordre ni par arrêt du Conseil d’État.</summary>
+      <msItem>
+       <textLang>français</textLang>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="33"/>
+          <width unit="cm" quantity="23.5"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <origDate when="1658-11-03" calendar="Julian"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>
+      </origin>
+     </history>
+     <additional>
+      <listBibl>
+       <head/>
+       <bibl/>
+      </listBibl>
+     </additional>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key005189"></term>
+     <term ref="key005021"></term>
+     <term ref="key000494"></term>
+    </keywords>
+   </textClass>
+   <particDesc default="false"/>
+   <settingDesc default="false"/>
+  </profileDesc>
+ </teiHeader>
+ 
+ <text>
+  <group>
+   <text>
+    <body>
+     <pb n="434v" facs="AVN_B_101.14.001_0434v"/>
+     <div>
+      <head>
+       <lb/>Declaration pour sçavoir sy un <lb/>bourgeois peut estre distrait de la <lb/>justice
+       ordinaire. </head>
+      <p>
+       <lb/>Sur la requeste presentée par <lb/><choice>
+        <abbr>honor</abbr>
+        <expan>honorable</expan>
+       </choice>
+       <persName ref="per010245a.02">Leonor Purry</persName>, par devant <orgName ref="org003085"
+        >messieurs <lb/>du Conseil Estroit de la Ville de <placeName ref="loc007786"
+         >Neufchastel</placeName></orgName>, le <lb/><origDate when="1658-11-03" calendar="Julian"
+        >troizieme jour de novembre 1658</origDate>, tendante aux <lb/>fins d’avoir le point
+       suivant. </p>
+      <p>
+       <lb/>Sçavoir si un bourgeois de <placeName ref="loc007786">Neufchastel</placeName> offrant
+       <lb/>justice à sa partie pour une cause civile peut <lb/>estre distrait de la justice
+       ordinaire, soit par <lb/>mandement soit par arrest de <orgName ref="org003098">Conseil
+        d’Estat</orgName>
+       <lb/>ne s’estant jamais voulu submettre à l’un ny à <lb/>l’autre, &amp; si en tel cas un
+       bourgeois <choice>
+        <abbr>dud</abbr>
+        <expan>dudit</expan>
+       </choice>
+       <placeName ref="loc007786">Neufchâtel</placeName>
+       <lb/>est sujet à tel mandement ou arrest du <orgName ref="org003098">Conseil
+        <lb/>d’Estat</orgName>. </p>
+      <p>
+       <lb/><orgName ref="org003085">Mesdits <choice>
+         <abbr>S<hi rend="sup">rs</hi></abbr>
+         <expan>sieurs</expan>
+        </choice> du Conseil</orgName> ayants eu advis &amp; meure <lb/>premeditation par ensemble
+       ont donné &amp; donnent <lb/>par declaration, que suivant la coustume usitée <lb/>en la
+       souveraineté de <placeName ref="loc007785">Neufchastel</placeName> de pere à fils <lb/>&amp;
+       de tout temps immemorial jusqu’à present la <lb/>coustume estre telle. </p>
+     </div>
+     <div>
+      <ab type="marginal note" place="left margin" hand="hand17c"><lb/>Le <date when="1681-11-18"
+        calendar="Julian">18 <choice>
+         <abbr>9bre</abbr>
+         <expan>novembre</expan>
+        </choice> 1681</date><note>Ce point de coutume est introuvable. Il est également cité dans
+         <ref>SDS_NE_3_322</ref>.</note>
+       <orgName ref="org003085"><choice>
+         <abbr>m<hi rend="sup">rs</hi></abbr>
+         <expan>messieurs</expan>
+        </choice>
+        <lb/>du Conseil</orgName> ont accordé <lb/>un semblable point de <lb/>coustume à <choice>
+        <abbr>mons<hi rend="sup">r</hi></abbr>
+        <expan>monsieur</expan>
+       </choice>
+       <lb/><persName ref="per008990a.02">Tribolet Hardy</persName>, maire <lb/>de ceste ville.
+       Signé <lb/><persName ref="per009020"><choice>
+         <abbr>M</abbr>
+         <expan>Maurice</expan>
+        </choice> Tribolet</persName></ab>
+     </div>
+     <div>
+      <p>
+       <lb/>Assavoir qu’aucun bourgeois de <placeName ref="loc007786">Neufchastel</placeName> ne
+       peut <lb/>estre distrait de la justice ordinaire pour une cause <lb/>civile par mandement, ny
+       par arrest de <orgName ref="org003098">Conseil d’Estat</orgName>
+       <lb/>s’il ne s’y est submis.</p>
+      <p>Ce qu’a esté ainsi passé &amp; <lb/>arresté les an &amp; jour que dessus, &amp; ordonné à
+       moy <lb/>secretaire de Ville l’expedier en ceste forme sous le <lb/><term ref="lem016327"
+        >seel</term> de la mayorie &amp; justice <choice>
+        <abbr>dud</abbr>
+        <expan>dudit</expan>
+       </choice>
+       <origPlace ref="loc007786"><choice>
+         <abbr>Neufch<hi rend="sup">el</hi></abbr>
+         <expan>Neufchâtel</expan>
+        </choice></origPlace> &amp; signature <lb/>de ma main. </p>
+     </div>
+     <div>
+      <p>
+       <lb/>Pour copie extraite sur le vray original signé <lb/>par moy <persName ref="per009020"><choice>
+         <abbr>M</abbr>
+         <expan>Maurice</expan>
+        </choice> Tribolet</persName>, &amp; sur icelle la presente. </p>
+      <signed><persName ref="per008992"><choice>
+         <abbr>N</abbr>
+         <expan>Nicolas</expan>
+        </choice> Huguenaud</persName>
+       <figure type="notarial sign"/></signed>
+     </div>
+    </body>
+    <back>
+     <div>
+      <p>Ce point de coutume est cité dans le point <ref>SDS_NE_3_322</ref>.</p>
+     </div>
+    </back>
+    
+    
+   </text>
+  </group>
+ </text>
+</TEI>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="headerinfo"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <date type="electronic" when="2020-08-17"/>   
+    <date type="print"/>
+    <availability><p xml:id="facs">Adrien Wyssbrod</p></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Collection des sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS_NE_3_131</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier>
+      <idno>AVN B 101.01.01.007, fol. 179r</idno>
+     </msIdentifier>
+     <head>Délai de revendication d’une mise en taxe</head>
+     <msContents>
+      <summary>Demande si le délai est de la huitaine, mais il est renvoyé à une connaissance de
+       justice.</summary>
+      <msItem>
+       <textLang>français</textLang>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="34"/>
+          <width unit="cm" quantity="23.5"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <origDate when="1647-11-09" calendar="Julian"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>
+      </origin>
+     </history>
+     <additional>
+      <listBibl>
+       <head/>
+       <bibl/>
+      </listBibl>
+     </additional>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key005095"></term> 
+     <term ref="key004001"></term> 
+     <term ref="key003867"></term> 
+     <term ref="key005117"></term> 
+     <term ref="key005189"></term> 
+     <term ref="key005128"></term> 
+    </keywords>
+   </textClass>
+   <particDesc default="false"/>
+   <settingDesc default="false"/>
+  </profileDesc>
+ </teiHeader>
+ 
+ <text>
+  <group>
+   <text>
+    <body>
+     
+     
+     <pb n="179r" facs="AVN_B_101.01.01.007_0179r"/> 
+     
+     
+     <div>
+      <head>
+       <lb/>Du <date when="1647-11-09" calendar="Julian">IX<hi rend="sup">e</hi> de <choice>
+         <abbr>9<hi rend="sup">bre</hi></abbr>
+         <expan>novembre</expan>
+        </choice>
+        <hi rend="underline">1647</hi></date> en <orgName ref="org003167">Conseil <del
+         rend="blackened"><gap unit="character" quantity="5"/></del>
+        <lb/>estroict</orgName> presidant <choice>
+        <abbr>mons<hi rend="sup">r</hi></abbr>
+        <expan>monsieur</expan>
+       </choice> le <choice>
+        <abbr>mre bourg</abbr>
+        <expan>maître-bourgeois</expan>
+       </choice>
+       <lb/><persName ref="per010145a.01">Abraham Francey</persName>
+      </head>
+            
+      <lb/><add place="left margin">Points de cou<lb break="no"/>tume</add>
+      <add place="left margin" rend="pencil" hand="later hand"><choice>
+        <abbr>Délib</abbr>
+        <expan>Délibération</expan>
+       </choice></add>
+      <p>
+       <lb/>Le <choice>
+        <abbr>s<hi rend="sup">r</hi></abbr>
+        <expan>sieur</expan>
+       </choice>
+       <persName ref="per011342">Jonas Favargier</persName>
+       <term ref="lem015881.02">recepveur</term> des parties <lb/>casuelles a requis esclaircissement d’un point de
+       <lb/>coustume, scavoir <term ref="lem016286">mon</term> si un crediteur vient à <lb/>faire
+        <term ref="lem014995.06">taxer</term> sur les biens de son debiteur, et sur <lb/><choice>
+        <abbr>lad.</abbr>
+        <expan>ladite</expan>
+       </choice>
+       <term ref="lem014995.02">taxe</term> il vient à se <term ref="lem015647">clamer</term>, s’il
+       n’est pas <lb/>obligé de le faire dans <date dur="P8D">huictaine</date>, et dans <choice>
+        <abbr>lad.</abbr>
+        <expan>ladite</expan>
+       </choice>
+       <lb/><date dur="P8D">huictaine</date> la notiffier à la partie, sinon que <choice>
+        <abbr>lad.</abbr>
+        <expan>ladite</expan>
+       </choice>
+       <lb/><term ref="lem014995.02">taxe</term> doit sortir son effect. </p>
+      <p>
+       <lb/>Crainte de consequence pour n’en avoir trouvé <lb/>enseignement pour semblable faict,
+        <term ref="lem014980.08">renvoyé en <lb/>justice</term> au jugement qui s’en pourra
+       ensuivre.</p>
+     </div>
+     
+       
+    </body>
+   </text>
+  </group>
+ </text>
+</TEI>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-08-15"/>
+            <date type="print"/>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_104_1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno source="https://archivverzeichnis.gl.ch/home/#/content/d034d1da5f404445834f73e5eab09392">LAGL AG III.2405:013</idno>
+               </msIdentifier>
+               <head>Verkauf der Grafschaft Werdenberg und Herrschaft Wartau durch Wolfgang von Hewen, Domherr von Strassburg und Konstanz, und seinen Bruder Freiherr Georg von Hewen an Glarus</head>
+               <msContents>
+                  <summary>
+                     <p>Wolfgang von Hewen, Domherr von Strassburg und Konstanz, und Freiherr Georg von Hewen, sein Bruder, verkaufen Glarus Burg, Stadt und Grafschaft Werdenberg sowie Burg und Herrschaft Wartau mit allen Rechten und Zubehör für 21’500 Rheinische Gulden, so wie sie alles einst von Freiherr Mathis von Castelwart gekauft haben. Alle dazugehörigen Urkunden und Rodel übergeben sie Ammann und Rat von Glarus mit der Zusicherung, Dokumente, die künftig in Erscheinung treten, nachzusenden.</p>
+                     <p>Es siegeln Wolfgang und Georg von Hewen.</p>
+                  </summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <filiation type="current">Original</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Pergament</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="34.0"/>
+                              <width unit="cm" quantity="58.0"/>
+                           </dimensions>
+                           <dimensions type="plica">
+                              <width unit="cm" quantity="9.5"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <sealDesc>
+                     <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI"
+                           n="1"
+                           nontei:condition="absent"
+                           nontei:attachment="sealed on a parchment tag">
+                        <persName role="sigillant" ref="per001679a">Wolfgang von Hewen</persName>
+                     </seal>
+                     <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI"
+                           n="2"
+                           nontei:condition="absent"
+                           nontei:attachment="sealed on a parchment tag">
+                        <persName role="sigillant" ref="per001638a">Georg von Hewen</persName>
+                     </seal>
+                  </sealDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1517-03-31"/>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head>Editionen</head>
+                     <bibl><ref target="https://www.ssrq-sds-fds.ch/online/GL_1.1/index.html#p_186">SSRQ GL 1.1, Nr. 92</ref></bibl>
+                     <bibl><ref target="http://permalink.snl.ch/bib/chbsg000150602">Tschudi 1726</ref>, S. 6–8</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000369">Kauf</term>
+               <term ref="key000140">Herrschaft</term>
+               <term ref="key000036">Vogtei</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <div org="uniform" sample="complete">
+                  <p>
+                     <persName ref="per001679a">Wolfgang von Hewen</persName>, Domherr von
+                        <placeName ref="loc007730">Strassburg</placeName> und <placeName
+                        ref="loc000924">Konstanz</placeName>, und Freiherr <persName
+                        ref="per001638a">Georg von Hewen</persName>, sein Bruder, verkaufen <orgName
+                        ref="org001197">Glarus</orgName>
+                     <term ref="key000021">Burg</term>, <term ref="key000109">Stadt</term> und
+                     Grafschaft <placeName ref="loc000440">Werdenberg</placeName> sowie Burg und
+                        <term ref="key000140">Herrschaft</term>
+                     <placeName ref="loc000827">Wartau</placeName> mit allen Rechten und Zubehör für
+                     <measure origin="Rh" quantity="21500" type="currency" unit="fl">21’500
+                        Rheinische Gulden</measure>, so wie sie alles einst von Freiherr <persName
+                        ref="per004694">Mathis von Castelwart</persName> gekauft haben.<note
+                        anchored="true">Am <date when="1498-09-24">24. September 1498</date> kaufte
+                        der Churer Bischof <persName ref="per000401b">Heinrich von Hewen</persName>
+                        für seine beiden Neffen <persName ref="per001679a">Wolfgang</persName> und
+                           <persName ref="per001638a">Georg von Hewen</persName> die Grafschaft
+                           <placeName ref="loc000440">Werdenberg</placeName> und die Herrschaft
+                           <placeName ref="loc000827">Wartau</placeName> für <measure
+                           quantity="24000" type="currency" unit="fl">24'000 Gulden</measure> von
+                           <persName ref="per004694">Mathis von Castelwart</persName> (Original:
+                              <bibl><ref
+                              target="https://archivverzeichnis.gl.ch/home/#/content/b5e0b945b0e9417bbfb077a611178477"
+                              >LAGL AG III.2405:011</ref></bibl>).</note> Alle dazugehörigen <term
+                        ref="key003025">Urkunden</term> und <term ref="key000677">Rodel</term>
+                     übergeben sie <orgName ref="org003239">Ammann und Rat von Glarus</orgName> mit
+                     der Zusicherung, Dokumente, die künftig in Erscheinung treten, nachzusenden. </p>
+               </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div org="uniform" sample="complete">
+            <p>Der <term ref="key000369">Kauf</term> der Grafschaft <placeName ref="loc000440">Werdenberg</placeName> und Herrschaft <placeName ref="loc000827">Wartau</placeName> durch
+      <orgName ref="org001197">Glarus</orgName>
+               <date when="1517">1517</date> ist ediert und kommentiert im Rechtsquellenband Glarus (<bibl><ref target="https://www.ssrq-sds-fds.ch/online/GL_1.1/index.html#p_186">SSRQ GL 1.1, Nr. 92</ref></bibl>). Werdenberg-Wartau bleibt bis <date when="1798">1798</date> in Besitz von Glarus (<ref>SSRQ_SG_III_4_258</ref>).</p>
+         </div>
+      </back>
+   </text>
+</TEI>

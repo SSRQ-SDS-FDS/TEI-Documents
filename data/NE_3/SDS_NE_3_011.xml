@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="headerinfo"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <date type="electronic" when="2020-08-17"/>
+    <date type="print"/>
+    <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Collection des sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS_NE_3_011</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier>
+      <idno>AVN B 101.14.001, fol. 359v–360v</idno>
+     </msIdentifier>
+     <head>Déduction d’une dette sur la légitime</head>
+     <msContents>
+      <summary>Un père peut déduire le montant de dettes remboursées pour le compte d’un fils de sa
+       légitime, afin de ne pas causer de tort à ses autres enfants.</summary>
+      <msItem>
+       <textLang>français</textLang>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="33"/>
+          <width unit="cm" quantity="23.5"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <origDate when="1578-02-28"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>
+      </origin>
+     </history>
+     <additional>
+      <listBibl>
+       <head/>
+       <bibl/>
+      </listBibl>
+     </additional>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key000058"></term>
+     <term ref="key005155"></term>
+     <term ref="key000815"></term>
+     <term ref="key000920"></term>
+     <term ref="key000925"></term>
+     <term ref="key005110"></term>
+     <term ref="key003331"></term>
+    </keywords>
+   </textClass>
+   <particDesc default="false"/>
+   <settingDesc default="false"/>
+  </profileDesc>
+ </teiHeader>
+ 
+ <text>
+  <group>
+   <text>
+    <body>
+        
+     
+     <pb n="359v" facs="AVN_B_101.14.001_0359v"/> 
+        
+     <div>
+      <head>
+       <lb/>Declaration d’un poinct de coustume <lb/>assavoir que le pere peut retirer sur la
+       <lb/><term ref="lem015074">legitime</term> d’un sien enffant les debtes qu’il <lb/>auroit payées pour luy
+       pour ne faire tort <lb/>à ses autres enffans.</head>
+      <p>
+       <lb/>Sur le <origDate when="1578-02-28" calendar="Julian">dernier de febvrier mille cinq
+        cents septante huict</origDate>
+       <lb/>pardevant moy, <persName ref="per010594a.01">Jehan Trybollet</persName>, <term
+        ref="lem016294">banderet</term> et du <orgName ref="org003085">Conseil de la <lb/>Ville de
+         <placeName ref="loc007786">Neufchastel</placeName></orgName>, pour et au nom de <persName
+        ref="per010524">ma dame nostre <lb/>souveraine princesse</persName> et <orgName
+        ref="org003085">les sieurs conseillers</orgName> dudict lieu <lb/>cy apres nommez, est
+       comparu judiciallement en ouverte justice <lb/>honneste <persName ref="per010637a.01"
+        >Guillaume Rossellet</persName> bourgeois dudict <placeName ref="loc007786"
+        >Neufchastel</placeName>
+       <lb/>lequel par son <term ref="lem016298">parlier</term> a faict entendre, comme nagueres il
+       <lb/>avoit demandé declaration par justice, touchant les debtes <lb/>par luy payées pour feu
+        <persName ref="per010638">Henry</persName> son fils, afin de retirer le <lb/>payement sur
+       son bien &amp; <term ref="lem015074">legitime</term>, par ce qu’il avoit <pb n="360r"
+        facs="AVN_B_101.14.001_0360r"/>
+       <lb/>d’autres effans et pour n’en faire ny trop ny peu ladicte <lb/>cognoissance luy avoit
+       esté mise entre mains pour selon <lb/>icelle se regler &amp; conduires. Touttesfois icelle
+       est tellement <lb/>esgarée qu’il ne luy est possible la recouvrer sinon par le <lb/>moyen de
+       la presente cognoissance, au moyen de laquelle <lb/>demande qu’elle luy soit relevée &amp;
+       donnée par escript d’autant <lb/>qu’il n’en scait aucune trace ny enseignement par escript,
+       comme <lb/>s’il est de besoin il en fera foy &amp; serment. </p>
+      <p>
+       <lb/>Et je, ledict lieutenent, en demanday le droict esdicts <orgName ref="org003085"
+        >seigneurs <lb/>conseillers</orgName>, lesquellz cogneurent que devant toutes choses ledict
+       <lb/><persName ref="per010637.02">Rossellet</persName> debvoir faire foy &amp; serment ne sçavoir aucunes
+       nouvelles <lb/>par escript de la sentence &amp; declaration que maintenant il <lb/>demande
+       l’ayant faict en seroit congneu plus a plein sur ce ledict
+       <lb/><persName ref="per010637.02">Rossellet</persName> le serment luy estre <unclear><gap unit="character" quantity="3"/></unclear> et dict et juré
+       par sa bonne <lb/>foy que ladicte congoissance a esté perdue, de sorte qu’il n’a jamais
+       <lb/>seu où elle pouvoit estre. </p>
+      <p>
+       <lb/>Cela estre faict ledict <persName ref="per010637.02">Rossellet</persName> a demandé plus
+       oultre le droict <lb/>et <term ref="lem015997.02">vuidange</term> de la petition lequel fut
+       demandé esdicts <orgName ref="org003085">seigneurs <lb/>conseillers</orgName>, lesquels apres
+       avoir heu advis &amp; Conseil par ensemble <lb/>cogneurent que ladicte sentence debvoit estre
+       rellevée par escript <lb/>audict <persName ref="per010637.02">Rossellet</persName> pour s’en
+       servir à son besoin. Au moyen dequoy <lb/>moy nottaire soubscript la luy ay relevé en ceste
+       forme, selon <lb/>l’instruction que j’en ay trouvée sur mes registre. Assavoir <lb/>que
+       touchant des debtes &amp; payements que ledict <persName ref="per010637a.01">Guillaume
+        <lb/>Rossellet</persName> feroit pour feu <persName ref="per010638a.01">Henry
+        Rossellet</persName> son fils tant devers <lb/>le fils de <persName ref="per010640">Blaise
+        Hardy</persName> nommé <persName ref="per010639a.01">Loys</persName>, qu’autrepart ledict
+        <lb/><persName ref="per010637.02">Rossellet</persName> debvoit retirer tels <term
+        ref="lem016291.02">deniers</term> sur le bien &amp; <term ref="lem015074">legitime</term>
+       <lb/>de sondict fils <persName ref="per010638">Henry</persName> pour ne frauder &amp; faire
+       tort à ses <lb/>autres enffans et a luy mesme touttefois en faisant tels <lb/>payements il en
+       debvoit retirer quictance &amp; descharge affin <lb/>d’en faire exhibition en temps &amp;
+       lieu requise le tout sans <lb/>fraud. Telle est la declaration que fut rendue par <orgName
+        ref="org003085">messieurs <pb n="360v" facs="AVN_B_101.14.001_0360v"/>
+        <lb/>les conseillers dudict <placeName ref="loc007786">Neufchastel</placeName></orgName>
+       tenant le baston <lb/>honnorable <persName ref="per010641a.03">Anthoine Aubert</persName>
+       mayre dudit <placeName ref="loc007786">Neufchastel</placeName>
+       <lb/>pour lors laquelle declaration ledict <persName ref="per010637.02">Rossellet</persName>
+       a demandé <lb/>avoir par escript que luy fut octroyé par les honnorables <lb/>&amp; prudents
+        <persName ref="per010515">Pierre Quelin</persName>, <persName ref="per010634">Guillaume <del
+         rend="strikethrough">Hardy</del><add place="above">Hudry</add></persName>, <persName
+        ref="per010603a">Jean Vuillame</persName>
+       <lb/><del rend="blackened"><gap unit="character" quantity="2"/></del>, <persName
+        ref="per010510a.01">Jehan Grenot</persName> conseillers dudict <placeName ref="loc007786"
+        >Neufchastel</placeName> les an <lb/>&amp; jour que dessus. </p>
+     </div>
+     
+       
+    </body>
+    <back>
+     <div><p>Cette déclaration s’apparente plus à une sentence (connaissance de justice) qu’à un point de
+       coutume de par sa forme.</p></div>
+    </back>
+   </text>
+  </group>
+ </text>
+</TEI>

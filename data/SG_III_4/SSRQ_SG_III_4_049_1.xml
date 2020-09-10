@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+    <persName>Sibylle Malamud</persName>
+    <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+    <persName>Sibylle Malamud</persName>
+    <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-06-06"/>
+            <date type="print"/>
+            <availability><p xml:id="facs">Sibylle Malamud</p></availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+    <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+    <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_049_1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+    <msIdentifier>
+       <idno>KA Werdenberg OA Grabs Nr. 10-12</idno>
+    </msIdentifier>
+    <head>Abschrift der Rechte der Bürgerschaft der Stadt Werdenberg (städtische Rechte)</head>
+    <msContents>
+       <summary>Es werden die Rechte der Bürger der Stadt Werdenberg aufgeführt über den Wochenmarkt, die Wahl des Bürgermeisters, städtische Amtleute (Stadtknecht, Feueraufseher, Bannwart, Fischer), strafrechtliche Kompetenzen, den Erwerb des Bürgerrechts, Masse und Gewichte, das Tavernenrecht, Todfall und Fasnachtshennen, Hintersassen, Fischerei und die Gant.</summary>
+       <msItem>
+          <textLang>Deutsch</textLang>
+          <filiation type="original">
+             <origDate from="1451-01-01" to="1500-12-31">Undatiert.</origDate>
+             <idno>KA Werdenberg OA Grabs, Nr. 10-12</idno>
+          </filiation>
+          <filiation type="current">Abschrift (Doppelblatt)</filiation>
+       </msItem>
+    </msContents>
+    <physDesc>
+       <objectDesc>
+          <supportDesc>
+             <support>
+                <material>Papier</material>
+             </support>
+             <extent>
+                <dimensions type="leaves">
+        <height unit="cm" quantity="33.0"/>
+        <width unit="cm" quantity="21.0"/>
+                </dimensions>
+             </extent>
+             <condition>an den Faltstellen z. T. gebrochen</condition>
+          </supportDesc>
+       </objectDesc>
+    </physDesc>
+    <history>
+       <origin>
+          <origDate from="1601-01-01" to="1700-12-31"/>
+       </origin>
+    </history>
+    <additional>
+       <listBibl>
+          <head>Regest</head>
+          <bibl><ref target="http://permalink.snl.ch/bib/chbsg000142779">Hilty 1898</ref>, S. 28–32</bibl>
+       </listBibl>
+    </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+    <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+    <term ref="key000086">Bürger</term>
+    <term ref="key000766">Stadtrecht</term>
+    <term ref="key003217">Privileg</term>
+    <term ref="key000586">Strafrecht</term>
+    <term ref="key004037">Marktrecht</term>
+    <term ref="key000555">Wahl</term>
+    <term ref="key000429">Wochengericht</term>
+    <term ref="key000412">Gant</term>
+    <term ref="key000273">Abgabe</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <div org="uniform" sample="complete">
+                  <pb n="1" facs="KA_Werdenberg_OA_Grabs_Nr._10-12_S1"/>
+                  <head>Abgeschrifft eines alten brifs, waß die alden <term ref="lem012837.04"
+                        >burgerrecht</term>
+                     <lb/>geweßen</head>
+                  <p>
+                     <lb/>
+                     <seg n="1"><sic>Iten</sic> deß ersten ist unsser alt herrkoumen, daß wir an
+                           <date type="deadline" when="--11-11">sand <persName ref="per000141"
+                              >Marte</persName>s<lb break="no"/>tag</date> setzen ein <orgName
+                           ref="org003063">burgermeister und rat</orgName> und die selben handt
+                           <del>g</del>
+                        <lb/>gewalt, all unser sachen ze <term ref="lem006666">regieren</term> mit
+                        gewalt eines herren, <lb/>es sige mit <term ref="lem010662">bauwen</term>
+                        und alleß daß sey anlanget und da bei <lb/>hand zebüten ein anderen an ein
+                           <term ref="lem000036">buoß</term> und biß auff <measure type="currency"
+                           unit="lb" quantity="1">ein lib <lb/>pfaund</measure> und daß ze zichen
+                        und daß an iren <term ref="lem000274">bauw</term><note anchored="true">Es
+                           könnte hier auch die <term ref="key000081">Stadtmauer</term> gemeint
+                           sein.</note> und <lb/><term ref="lem002779">metzg</term> ze
+                        richten.</seg>
+                     <seg n="2">Me han sey den ein <term ref="lem008776">statknecht</term> ze
+                        setzen, <lb/><app>
+                           <lem>wolen seyn wend</lem>
+                           <rdg wit="Burgerarchiv Grabs U 0019-2">welchen sy wend</rdg>
+                        </app>, doch daß ein herr die <term ref="lem000209">stür</term> wertet,
+                        <lb/>doch sol derselb statknecht ein <term ref="lem000070">eid</term>
+                        schweren dem herren und <lb/>den <orgName ref="org001185">burger</orgName>,
+                        wie daß von alten herrkoumen ist uhngefahrlich.</seg>
+                     <lb/>
+                     <seg n="3">Me hand sey <term ref="lem003051">fürschauwer</term> ze setzen und
+                        die hand auch <lb/>gewaldt deß fürs halb, daß ze <add place="above"
+                           >ver</add>büten und ze versorgen <app>
+                           <lem>bei <lb/><measure type="currency" unit="ß" quantity="1">ein
+                                 scheillig pfenig</measure> und auff <sic>beiß</sic>
+                              <measure type="currency" unit="lb" quantity="1">ein
+                              pfaundt</measure></lem>
+                           <rdg wit="Burgerarchiv Grabs U 0019-2">an einem <lb/>schilig pfenig auff
+                              biß ein <sic>leib</sic>
+                           </rdg>
+                        </app>. Wan eß für auff<lb break="no"/>gieng und daß von dem <term
+                           ref="lem007885">haußwirt</term> nit beschrauwen wurd oder <lb/>von dem
+                           <term ref="lem000910">haußgeseindt</term> und man eß verschlachen waldt,
+                        wan <lb/>man daß inen wirt, derselb ist den <orgName ref="org001185"
+                           >burger</orgName>en <measure type="currency" unit="lb" quantity="10">10
+                           pfundt</measure> verfalen <lb/>buß. Und ob eß von inen beschrauwen
+                        wurdei, nach dem auch <lb/>sind sei den <orgName ref="org001185"
+                           >burger</orgName>en <measure type="currency" unit="lb" quantity="1">1
+                           pfundt</measure>
+                        <term ref="lem000036">bues</term> verfalen.<del>Und eß</del>
+                        <lb/>Auch sond sei auff den selben tag <app>
+                           <lem>fürer</lem>
+                           <rdg wit="Burgerarchiv Grabs U 0019-2">stürer</rdg>
+                        </app> setzen, wie <del>eß wie</del>
+                        <lb/>eß von alten herkaumen ist, und dabey sond allwegend eines <lb/>herren
+                        gewalts sein.</seg>
+                     <seg n="4">Me hand wir ein <app>
+                           <lem>mesmer</lem>
+                           <rdg wit="Burgerarchiv Grabs U 0019-2">pächter</rdg>
+                        </app> ze setzen und <lb/>git ein herr dem statknecht und dem <app>
+                           <lem>mesmer</lem>
+                           <rdg wit="Burgerarchiv Grabs U 0019-2">pächter</rdg>
+                        </app> jedwederen <lb/>ein <term ref="lem013136">alpköss</term>
+                        <date dur="R/P1Y">alle jar</date>.</seg>
+                     <seg n="5">Und auch seind wir von alten her<lb break="no"/>kaumen, daß wir ein
+                           <term ref="lem000663">wuchenmart</term> an der <term ref="lem005219"
+                           >mitwuchen</term> solen han <lb/>und am <term ref="lem005220.04"
+                           >donsttag</term>
+                        <term ref="lem000970">wochengericht</term>.</seg>
+                     <seg n="6">Item me, wer <term ref="lem001911">zugkt</term> oder <lb/><term
+                           ref="lem000632">schlacht</term> oder den anderen <term ref="lem001928"
+                           >heist leigen</term> in der <term ref="lem000184">stat</term> und so ver
+                        ir <lb/><term ref="lem019034.02">wer</term> got, derselb ist den <orgName
+                           ref="org001185">burger</orgName>en ein bouß verfalen, nammlich <lb/>an
+                        einem <date period="P1WD">sonntag</date> oder an einem banend <term
+                           ref="lem001997">firtag</term> oder an den <lb/><date period="P4WD"
+                           >mitwuchen</date> von deß <term ref="lem005586">marts</term> wegen
+                           <measure type="currency" unit="ß" quantity="10">10 scheillig</measure>
+                        <term ref="lem008106">verfallen</term> und sunst <lb/>an einem <term
+                           ref="lem002151">werchtag</term>
+                        <measure type="currency" unit="ß" quantity="5">5 scheillig</measure> bueß
+                        und anen <term ref="lem000666">jarmarckt</term>
+                        <lb/><measure type="currency" unit="ß" quantity="30">30 scheillig</measure>
+                           b<del>e</del>uoß; und ein <term ref="lem014604.03">frig</term> und ein
+                           <term ref="lem000198">walser</term> allwegen drey<lb break="no"
+                           /><del>wegen</del>falteig, auch welcher die grossen buß verfil aber
+                        treitfacht.</seg>
+                     <lb/>
+                     <seg n="7">Iten wen <app>
+                           <lem>eined</lem>
+                           <rdg wit="Burgerarchiv Grabs U 0019-2">gemeindt</rdg>
+                        </app> oder ein burger <app>
+                           <lem>weten</lem>
+                           <rdg wit="Burgerarchiv Grabs U 0019-2">werden</rdg>
+                        </app> wil oder eine oder einr <lb/>ein <term ref="lem000248">hauß</term> in
+                        der stat kauffen oder verkauffen, <app>
+                           <lem>die so <unclear>möglich es</unclear></lem>
+                           <rdg wit="Burgerarchiv Grabs U 0019-1">die selben jeglichs</rdg>
+                        </app> ist <lb/>den burgeren <measure commodity="wine" quantity="1"
+                           unit="Viertel" type="volume">
+                           <add place="above">ein</add> firtel win</measure> schouldig ze
+                        geben.</seg>
+                     <seg n="8">Item die <orgName ref="org001185">burger</orgName> hand ge<lb
+                           break="no"/>walt über mans <term ref="lem000196">maß</term> wägen, die ze
+                           <term ref="lem001595">pfächten</term> und den <term ref="lem000282"
+                           >lohn</term> ze nemen, <lb/>wie von alten herrkoumen ist im stat und land
+                        überall.</seg>
+                     <pb n="2" facs="KA_Werdenberg_OA_Grabs_Nr._10-12_S2"/>
+                     <lb/>
+                     <seg n="9">Item eß sol auch kein<note anchored="true">In der späteren Kopie
+                           ohne <orig>kein</orig> (<ref>Burgerarchiv Grabs U 0019-2</ref>). In der
+                           älteren Kopie (<ref>Burgerarchiv Grabs U 0019-1</ref>) ist der
+                           unbestimmte Artikel nicht entzifferbar. In der Stadt gibt es jedoch keine
+                           herrschaftliche Taverne, d.h. die Bürger besitzen das Recht zur Ausübung
+                           des Gastwirtegewerbes, ohne der Obrigkeit das Umgeld bezahlen zu
+                           müssen.</note>
+                        <term ref="lem000068">taffern</term> in der stat sein und mag ein
+                        <lb/>jeglicher <term ref="lem006887">schencken</term> oder nit, wan ehr
+                        wil.</seg>
+                     <seg n="10">Item die <orgName ref="org001185">burger und burgerin</orgName>
+                        <lb/>in der stat und vor der stat sind nit schuldig ze <term ref="lem001564"
+                           >falen</term> noch <term ref="lem000607">fasnach<lb break="no"
+                           />henen</term> noch kaine jüngen <app>
+                           <lem><unclear>zolsuden</unclear></lem>
+                           <rdg wit="Burgerarchiv Grabs U 0019-2">zehenten</rdg>
+                        </app> noch kainne zechenden, dem der <lb/>sich auff dem felld
+                        zichnet.</seg>
+                     <lb/>
+                     <seg n="11">Iten alle <term ref="lem001660">auß<del>burger</del>lüdt</term> und
+                        nit b<subst><del><gap unit="character" quantity="2"/></del><add
+                              place="overwritten">ur</add></subst>gen sind, die <subst><del>
+                              <gap unit="character" quantity="2"/></del><add place="overwritten"
+                              >in</add></subst>
+                        <add place="above">die</add> stat <lb/>zichen, han ale unsserei <term
+                           ref="lem000314">freiheiden</term>, die wir hand, wil sey im stätli
+                        <lb/>seitzen, ußbenumen der <term ref="lem000337">fall</term> und der <app>
+                           <lem>für</lem>
+                           <rdg wit="Burgerarchiv Grabs U 0019-2">stür</rdg>
+                        </app> halb.</seg>
+                     <seg n="12">Iten f<subst><del><gap unit="character" quantity="4"/></del><add
+                              place="overwritten">ärner</add></subst> sind <lb/>wir von alden
+                        herrkoumen, daß wir <term ref="lem001677">fischer</term> in der stat hand
+                        setzen und die <lb/>mogen fischen im <placeName ref="loc000644.09"
+                           >Rin</placeName> und in <term ref="lem000320">bechen</term>, wo sei wend,
+                        und wir alle samen <lb/>uß benambt, wen daß <term ref="lem014605.01"
+                           >ärg</term><note anchored="true">Wohl Arche, eine Vorrichtung zum Fischen
+                           bzw. ein Pfahlwerk für Reusen, vgl. dazu die Schreibvarianten im
+                           Sachregister von <ref>SSRQ TG I/1</ref> unter dem Lemma
+                              <quote>ärich</quote>.</note> geschlagen ist, so dar nieman
+                           <del>fischer</del>
+                        <lb/>darob fischen mit schädlichen <term ref="lem000864.02"
+                           >garnen</term>.<note anchored="true">In den Kopien im <ref>Burgerarchiv
+                              Grabs U 0019</ref> ist zusätzlich von einer anderen Hand der 8.
+                           Artikel aus dem Burgerlibell (<ref>SSRQ_SG_III_4_116</ref>)
+                           notiert.</note>
+                     </seg>
+                     <seg n="13">Iten auch hand wir <term ref="lem000111">ban<lb break="no"
+                           />warter</term> über daß <term ref="lem001561">banholtz</term> ze setzen
+                        und daß <term ref="lem002098.08">var</term> jederman <lb/>ze scheirmen,
+                        ußbenumen, daß ein <app>
+                           <lem><persName ref="per004470a.01">Jörg Schlegel</persName></lem>
+                           <rdg wit="Burgerarchiv Grabs U 0019-2"><abbr>h.</abbr>
+                              <persName ref="per004471a.01">Härich Schlegen</persName></rdg>
+                        </app> darin mag <lb/>hauwen und wir mögend unß darauß bauwen die <term
+                           ref="lem001778">ringmur</term>
+                        <lb/>und anders, auch <term ref="lem001579">kalch</term> brenen und zuo der
+                        mur und zuo steg <lb/>und weg und zuo der <term ref="lem000072"
+                           >müllei</term> und eine gemine <orgName ref="org001185"
+                           >burgerschafft</orgName> hat <lb/>ze machen.</seg>
+                     <seg n="14">Me hat der <term ref="lem008776.03">statknecht</term> alle burger
+                        und burgerin <lb/>in der herschafft über in stat und land ze <term
+                           ref="lem000687">pfenden</term> und zuo büten, <lb/>es sige von minen
+                        herren wegen oder von der burger wegen <lb/>umb seinen lohn, der den von
+                        alten her ist und wie daß von allten <lb/>herkoumen <del>ist</del>. Und der
+                           <term ref="lem000642">landweibel</term> die <term ref="lem000507"
+                           >landlüdth</term> auch in der maß <lb/>wie ob stath.</seg>
+                     <seg>Und wan die baid weibel einen pfendten, so soll <lb/>der statknecht die
+                           <term ref="lem000604">gandt</term>
+                        <term ref="lem008779">fercken</term> und forfören. Den ist also, wan
+                        <lb/>sey einen pfenen, sol daß <term ref="lem000218">pfandt</term>
+                        <date dur="P14D">14 tag</date> uß ston und wan sey <lb/>daß aber verston, so
+                        mogens daß <term ref="lem000218">pfand</term> verkauffen, doch sol eß
+                        <lb/>am <term ref="lem001491">abend</term> hinder dem <app>
+                           <lem>vutil</lem>
+                           <rdg wit="Burgerarchiv Grabs U 0019-2"><term ref="lem012835.03"
+                                 >putill</term></rdg>
+                        </app> ligen und am abend dem verkündten <lb/>und am abend eß ver verdingen
+                        auß herren gewalt; und morndeß <lb/>anfahlen zu verkauffen, <lb/>wan man
+                        umbgendtlich <choice>
+                           <sic>meß meß</sic>
+                           <corr>meß</corr>
+                        </choice> hat <lb/>gehabt, und auffhören, wen man <term ref="lem001162.01"
+                           >vesper</term> lüth, und ist daß pfandt <lb/>verstanden, daß niemand eß
+                        selben tag verkauffen, <lb/>wan der tag hin ist, daß man die müntz nemen
+                        köndt.</seg>
+                     <lb/>
+                     <seg n="15">Iten dem <term ref="lem000282">lohn</term> wie daß
+                           <del>reisten</del>
+                        <term ref="lem002664.07">raissen</term> und daß gericht <lb/>ze besetzen und
+                        ze <term ref="lem001564.03">falen</term>, auch <term ref="lem007653"
+                           >ledigei</term>
+                        <term ref="lem000130">kindt</term>, und von <term ref="lem000461.03"
+                           >wildbans</term>
+                        <lb/>wegen und anders, daß die gantzei gemin inlanget, an die <app>
+                           <lem>geminen <lb/>waschen</lem>
+                           <rdg wit="Burgerarchiv Grabs U 0019-2">gemeinen wachßend</rdg>
+                        </app> und sey mit unß da reden.</seg>
+                  </p>
+               </div>
+               <pb facs="KA_Werdenberg_OA_Grabs_Nr._10-12_v"/>
+               <div org="uniform" sample="complete">
+                  <ab type="dorsal" place="verso" hand="hand17c">
+                     <lb/>Abschrifft auß <lb/>einem alten <lb/>brieff geschrieben <lb/>allen
+                     burgerlichen <lb/>recht zu senden <lb/>von allter her <lb/>mit dem zeichen
+                        <abbr>W.</abbr></ab>
+               </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div org="uniform" sample="complete">
+            <p>Die vorliegende Abschrift ist undatiert und stammt wahrscheinlich aus dem <date
+                  from="1601" to="1700">17. Jh</date>. Die Abschrift liegt zusammen mit einer
+               weiteren aus dem 17. Jh. im Burgerarchiv Grabs U 0019. Es sind Abschriften einer
+               älteren Aufzeichnung aus dem 15. Jh. Da die erwähnte Metzgerei den Bürgern erst <date
+                  when="1489">1489</date> bewilligt worden ist (<ref>SSRQ_SG_III_4_087</ref>), muss
+               die älteste Aufzeichnung kurz nach <date when="1489">1489</date> entstanden sein.
+               Diese ist jedoch in einem schlechten Zustand und schwer lesbar, weshalb die hier
+               vorliegende Abschrift aus dem <date from="1600" to="1700">17. Jh</date> als Vorlage
+               gewählt wurde.</p>
+          
+            <p>Aufgrund der beiden
+               Aufzeichnungen aus dem <date from="1451" to="1500">15. Jh</date> (vgl. auch <ref>SSRQ_SG_III_4_048</ref>) handelt es sich 
+              um Bürgerrechte, die
+					zur Grafenzeit und wohl bis zum Kauf von <placeName ref="loc000440">Werdenberg</placeName> durch <orgName ref="org001197">Glarus</orgName>
+    <date when="1517">1517</date> oder bis <date when="1538">1538</date> bestanden
+					haben. Die Formulierungen <orig>mit der gewalt eines herren</orig> oder
+						<orig>ein herr</orig> zeigen, dass es sich um eine Einzelperson und nicht um
+					Glarus, das in den Quellen im Plural  als <orig>die gnädigen herren</orig>
+					bezeichnet wird, handelt. Die unter Glarus im Libell von 1538 formulierten
+					Bürgerrechte unterscheiden sich deutlich von den hier aufgeführten Bürgerrechten
+					(vgl. dazu <ref>SSRQ_SG_III_4_116</ref>). </p>
+         </div>
+      </back>
+   </text>
+</TEI>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-08-19"/>
+            <date type="print"/>
+            <availability default="false">
+               <p xml:id="facs">Staatsarchiv St. Gallen (StASG)</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_212</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>StASG AA 2 A 3-13-22</idno>
+                  <altIdentifier>
+                     <idno>StASG AA 2 A 3-13</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <head>Reform (Nova) betreffend den Landvogt in der Landvogtei Sax und Forstegg</head>
+               <msContents>
+                  <summary><p>1. Der neue Landvogt soll neu 10 Jahre Landvogt sein, seine Nachfolger 9 Jahre.</p> <p>2. Die
+   Landvögte sollen alle zwei Jahre nach Zürich reisen und Rechnung ablegen; im Jahr dazwischen
+   sollen sie die Rechnung schicken.</p> <p>3. Butter, Käse etc., die der Landvogt bisher der Obrigkeit in
+   die Rechnung setzen musste, darf er als eigene Einkünfte behalten.</p></summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <filiation type="current">Aufzeichnung (Doppelblatt)</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="34.5"/>
+                              <width unit="cm" quantity="21.5"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1717-12-20"/>
+                     <origPlace>Zürich</origPlace>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000180">Landvogt</term>
+               <term ref="key005253">Amtszeit</term>
+               <term ref="key000574">Rechnung</term>
+               <term ref="key000341">Ordnung</term>
+               <term ref="key000204">Verwaltung</term>
+               <term ref="key000887">Reform</term>
+               <term ref="key000272">Verwaltungsreform</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   
+   <text>
+      <group>
+         <text>
+            <body>
+               <div>
+                  <p><pb n="1r" facs="StASG_AA_2_A_03-13-22_01"/>
+                     <lb/>Nova<note>Im Sinne von Neuerung, Reform.</note>, <origPlace ref="loc000065"
+                        >Zürich</origPlace>, den <origDate when="1717-12-20">20sten xbris 1717</origDate>.</p>
+                  <p><seg><lb/>Dißmahlen habe nur das einige zuberichten, <lb/>daß verschinen <term
+                     ref="lem005238">donerstag</term> räth und burger <lb/>gehalten worden, da die verordnete
+                     <term ref="lem002749">commission</term>
+                     <lb/>von <num value="8">8</num> herren, denen die herschafft <placeName ref="loc000278"
+                        >Sax</placeName>
+                     <lb/>zu untersuhen und mitel außzufinden, wie <lb/>bey kömfftiger neüwer <term
+                        ref="lem002961">regierung</term> die<lb break="no"/>selbe wider in ein beßeren stand möchte
+                     <lb/>gesetzt werden, <term ref="lem013171">relatiert</term> und darauf erkent
+                     <lb/>worden,</seg>
+                     <seg n="1"> daß der könnftige neüwe herr <lb/><term ref="lem000266">landtvogt</term>
+                        <date dur="P10Y">10 jahr</date> da solle bleiben, nach <lb/>ihme aber die folgende <date
+                           dur="P9Y">9 jahr</date>.</seg></p><p>
+                     <seg n="2">
+                        <lb/>Demnach daß fürohin die herren landtvögt <lb/>zu <date dur="R/P2Y">2 jahren</date> um
+                        persöhnlich sich stellen <lb/>solle und daß einte jahr nur die <term ref="lem007398"
+                           >rechnung</term>
+                        <lb/>senden.</seg></p><p>
+                     <seg n="3">
+                        <lb/>Dritens, daß <term ref="lem000603">anken</term>, <term ref="lem000054">keß</term>
+                        <abbr>etc</abbr>, die er biß <lb/>dahin unser <choice><abbr>gnd</abbr><expan>gnädiger</expan></choice> herrn in der <term
+                           ref="lem007398">rechnung</term>
+                        <lb/>bringen müßen, zu seinem <term ref="lem016116.02">burg-guet</term>
+                        <lb/>dienen solle.</seg>
+                     <seg>Wer sich nun hierüber werde <pb n="1v" facs="StASG_AA_2_A_03-13-22_02"/>
+                        <lb/>dahin anmelden, wird die zeit bald lehren, <lb/>man will sagen von herren <term
+                           ref="lem003966.03">assesor</term>
+                        <persName ref="per009091a">Waser</persName>
+                        <lb/>und herren landtvogt <persName ref="per010359">Brämen</persName>
+                        <abbr>etc</abbr>.</seg></p>
+               </div>
+               <pb facs="StASG_AA_2_A_03-13-22_03"/>
+               <div>
+                  <ab type="dorsal" place="verso" hand="hand18c"><lb/>Nova <lb/><abbr>betr</abbr> die verbeßerung der
+                     <lb/><term ref="lem003711">vogtey</term>
+                     <placeName ref="loc000278">Sax</placeName>, <handShift/><lb/>den <date when="1717-12-20">20. xbris 1717</date></ab>
+               </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div n="1">
+            <p>Seit der Übernahme der Freiherrschaft <placeName ref="loc000278"
+                  >Sax-Forstegg</placeName> durch <orgName ref="org001196">Zürich</orgName>
+               <date when="1615">1615</date> beträgt die <term ref="key000272">Amtszeit</term> eines
+                  <term ref="key000180">Landvogts</term> sechs Jahre. Im Zuge der <term
+                  ref="key000272">Verwaltungsreform</term> von <date when="1717">1717</date> wird
+               eine längere Amtszeit von 9 Jahren eingeführt (für den ersten Landvogt von 10
+               Jahren). Nach diesem Entscheid tritt <persName ref="per009091a">Kaspar
+                  Waser</persName> sein Amt im <date when="1718-05">Mai 1718</date> für <date
+                  dur="P10Y">10 Jahre</date> an, sein Nachfolger <persName ref="per002483a">Beat
+                  Ziegler</persName> sowie alle späteren Landvögte sind <date dur="P9Y">9
+                  Jahre</date> im Amt (vgl. die Landvogtliste aus dem 19. Jh.
+                     [<bibl><ref>StASG&#160;AA&#160;2&#160;A 3-2b</ref></bibl>] sowie das
+               Verzeichnis der Landvögte in der Einleitung). Für die jährliche Rechnungsablegung
+               muss der Landvogt nur noch alle <date dur="R/P2Y">zwei Jahre</date> persönlich
+               erscheinen.</p>
+            <p>Vgl. dazu auch das Gutachten wegen Verwaltungssachen vom 6. Februar 1717 zur Verbesserung des
+               Einkommens eines Landvogts, wo bereits unter anderem auch die Erhöhung der Regierungszeit eines
+               Landvogts von sechs auf neun Jahre empfohlen wird (<bibl><ref>StASG AA 2 A
+                  3-13-21</ref></bibl>).</p>
+         </div>
+         <div n="2"><p>Zu den Rechten und Pflichten eines Landvogts der Landvogtei Sax-Forstegg vgl. auch <term
+                  ref="key000179">Eid</term> und <term ref="key000574">Ordnung</term> eines
+               Landvogts (vor 1717) (<ref>SSRQ_SG_III_4_207</ref> sowie
+               <ref>SSRQ_SG_III_4_160</ref>; <ref>SSRQ_SG_III_4_161</ref>).</p></div>
+      </back>
+   </text>
+</TEI>
+
+
+

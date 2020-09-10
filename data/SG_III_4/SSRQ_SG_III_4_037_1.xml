@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+    <persName>Sibylle Malamud</persName>
+    <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+    <persName>Sibylle Malamud</persName>
+    <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-04-17"/>
+            <date type="print"/>
+            <availability><p xml:id="facs">Staatsarchiv St. Gallen (StASG)</p></availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+    <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+    <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_037_1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>StASG AA 2a U 01</idno>
+                  <altIdentifier>
+                     <idno>StASG AA 2a U 1</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <head>Schiedsspruch von Freiherr Wolfhart V. von Brandis im Streit zwischen Sennwald
+                  und den Leuten von Sax und Salez um Nutzungsrechte auf dem Saxer Riet</head>
+               <msContents>
+                  <summary>
+                     <p>Freiherr Wolfhart V. von Brandis schlichtet auf Bitte von Freiherr Diepold
+                        von Sax-Hohensax und Johann von Sax-Hohensax zusammen mit Klaus von Lötsch,
+                        Landammann des Grafen Heinrich von Werdenberg-Sargans im Walgau, Hermann
+                        Ätti, Bürger von Feldkirch, Burkhard Plattner von Werdenberg und Hans Signer
+                        von Gamprin den Streit zwischen den Kirchgenossen von Sennwald, die unter
+                        Tornen, oberhalb von Mur und unter Lienz wohnen, sowie den Dorfbewohnern von
+                        Sax und Salez um den Weidgang im Frühling auf dem Saxer Riet. </p>Die
+                     Schiedleute siegeln beide Ausfertigungen. Burkhard Plattner siegelt auch für
+                     Hans Signer.</summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <filiation type="current">Original</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Pergament</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="22.0"/>
+                              <width unit="cm" quantity="43.0"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <sealDesc>
+                     <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1"
+                        nontei:condition="chamfered" nontei:material="wax" nontei:shape="round"
+                        nontei:attachment="sealed on a parchment tag"
+                        facs="StASG_AA_2a_U_01_s_01">
+                        <persName role="sigillant" ref="per001002">Wolfhart V. von
+                           Brandis</persName>
+                     </seal>
+                     <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="2"
+                        nontei:condition="well-preserved" nontei:material="wax" nontei:shape="round"
+                        nontei:attachment="sealed on a parchment tag"
+                        facs="StASG_AA_2a_U_01_s_02">
+                        <persName role="sigillant" ref="per004503">Klaus von Lötsch</persName>
+                     </seal>
+                     <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="3"
+                        nontei:condition="absent" nontei:attachment="sealed on a parchment tag">
+                        <persName role="sigillant" ref="per004504">Hermann Ätti</persName>
+                     </seal>
+                     <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="4"
+                        nontei:condition="chamfered" nontei:material="wax" nontei:shape="oval"
+                        nontei:attachment="sealed on a parchment tag"
+                        facs="StASG_AA_2a_U_01_s_04">
+                        <persName role="sigillant" ref="per004436">Burkhard Plattner</persName>
+                     </seal>
+                  </sealDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1423-06-04"/>
+                     <origPlace>Feldkirch</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head>Regest</head>
+                     <bibl><ref target="http://permalink.snl.ch/bib/chbsg000091563">LUB</ref> II, Regestensammlung, 4.
+                        Juni 1423</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+    <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+    <term ref="key000307">Allmend</term>
+    <term ref="key000336">Nutzung</term>
+    <term ref="key000719">Tratt</term>
+    <term ref="key000298">Vieh</term>
+    <term ref="key003343">Konflikt</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+    <div org="uniform" sample="complete">
+       <pb facs="StASG_AA_2a_U_01_r"/>
+       <p>
+                     <seg>
+                        <lb/>Ich, <persName ref="per001002">Wolfhart von Brandes, fryger
+                           herre</persName>, in der hienach <sic>geschirbnen</sic> sach gemain man,
+                           <persName ref="per004503">Claus von Loͤtsch</persName>, an dirre zite des
+                        edeln, wolgeborn, mins gnaͤdigen herren <lb/>grauff <persName
+                           ref="per000123">Hainrichs von Werdenberg von Sangans</persName> landamman
+                        in <placeName ref="loc000831">Walgoͤw</placeName>, und <persName
+                           ref="per004504">Herman Aͤtti</persName>, ain burger zuͤ <placeName
+                           ref="loc000061">Veltkirch</placeName>, baid zuͦgesetzt <term
+                           ref="lem000425.15">schidlût</term> von wegen <orgName ref="org001784">der
+                           lût</orgName> allesampt <lb/>gemainlich gesessen in <placeName
+                           ref="loc006114">Sennwalder kirchspel</placeName> merklich underm
+                           <placeName ref="loc006116.02">Tornach</placeName> und dem <term
+                           ref="lem000251">wald</term> dem <app>
+                           <lem><term ref="lem002045.04">vorst</term></lem>
+                           <rdg wit="StASG AA 2 A 1-3">borst</rdg>
+                        </app><note anchored="true">Forst ist hier möglicherweise appellativisch
+                           gemeint (Mail von Hans Stricker, 4.3.2017). Es könnte sich jedoch auch
+                           entweder um das Waldstück und Wiesland <placeName ref="loc007750"
+                              >Forst</placeName> südlich von <placeName ref="loc007751.01"
+                              >Sennwald</placeName> handeln in der Ebene westlich von <placeName
+                              ref="loc007752.01">Bad Forstegg</placeName> (<bibl><ref
+                                 target="http://permalink.snl.ch/bib/chbsg000146201">Stricker
+                                 2017</ref>, Bd. 6, S. 191</bibl>) oder um die bewaldete Kuppe mit
+                           Namen Forst südlich der Burg <placeName ref="loc006124"
+                              >Forstegg</placeName>.</note> und obrenthalb <app>
+                           <lem><placeName ref="loc006115.02">Murort</placeName><note
+                                 anchored="true">Die Zuordnung zu Mur in ortsnamen.ch ist unsicher.
+                                 Mur heisst es im Nordosten von Sennwald, beim <placeName
+                                    ref="loc007753.01">Bergli</placeName>. Der Ort liegt in der Nähe
+                                 des <placeName ref="loc007275">Bofelbachs</placeName>, der als
+                                    <term ref="key000305">Grenze</term> zwischen <placeName
+                                    ref="loc000950">Sennwald</placeName> und <placeName
+                                    ref="loc000951">Lienz</placeName> genannt wird
+                                    (<ref>SSRQ_SG_III_4_089</ref>; <bibl><ref>StASG AA 2 B
+                                       001a, fol. 164r–165r</ref></bibl>). Ort könnte hier als
+                                 Appellativ (für Rand, Ecke, Kante oder Mauer) stehen (Mail von Hans
+                                 Stricker, 4.4.2017).</note></lem>
+                           <rdg wit="StASG AA 2 A 1-3">Wurort</rdg>
+                        </app> under der <placeName ref="loc000951">Lientz</placeName>, niemant
+                        dârinne usgenomme <lb/>noch hindan gesetzt, ains tails, <persName
+                           ref="per004436">Burkart Blattner</persName> von <placeName
+                           ref="loc000016">Werdenberg</placeName> und <persName ref="per004505"
+                           >Haͤnni Signer</persName> von <placeName ref="loc000936"
+                           >Gampprin</placeName>, och baid zuͤgesetzt schidlût von wegen der
+                           <orgName ref="org001175">
+                           <term ref="lem000765.08">dorfflu̍th</term>en gemainlich <lb/>ze
+                           Sax</orgName> und ze <orgName ref="org001785">Saletzz</orgName>, och
+                        niemant darinn usgenommen noch hindan gesetzt, des andern tails, vergehent
+                        all fu̍nf mit disem brief und tuͦnd kund aller meͣnglich von soͤlicher
+                        zwayung, <lb/>speͣnne und <term ref="lem002858">stoͤß</term> wegen, so lang
+                        zite zwischen baiden parthyen obgenannt bisher gewesen sind, nammlich alle
+                        jâr am <date period="spring">fruͤling</date> von <term ref="lem000252"
+                           >wunne und waid</term> und och von <term ref="lem007596">uftriben</term>
+                        und <lb/>
+                        <term ref="lem008233">abtriben</term>s ir <term ref="lem000310">vich</term>s
+                        wegen uff <placeName ref="loc006117.02">Saxerriet</placeName>. Das da
+                        baidtail lu̍te und sunderlichen darzuͦ und darîn begriffen die vesten und
+                        edeln <persName ref="per004507">Diepolt von Sax</persName>, fryger herre,
+                        und <lb/><persName ref="per004506">Hanns von Sax</persName>, gesessen uff
+                           <placeName ref="loc006069.07">Frischenberg</placeName>, won die baid mit
+                        sampt baiden obgenamten parthyen von ir selbs und derselben obgedachten
+                        lu̍ten von soͤlicher wunn, waid, uff <lb/>und abtribens wegen sy darumbe zuͦ
+                        entschaiden willenklich uff uns komen sind, uns gebetten, getrûwt und
+                        verhaissen haben, wie wir sy harinne zuͦ der <term ref="lem000426"
+                           >minne</term> entschaiden <lb/>und darumb ussprechen, dar sy, ir erben
+                        und nâchkommen denselben, u̍nser spruch ewigklich halten wellen und dem bi
+                        iren trûwen gnuͦg tuͦn sollen. Und also wir <lb/>uns des von ir ernstlichen
+                        bett angenomen und nach baiderteil verhörung ir kuntschafft, red und
+                        widerred alle fûnf luter ainhelleklich zuͦ der minne entschaiden, <lb/>inen
+                        usgesprochen haben und sprechen also mit disem offenn gegenwûrtigen
+                        brief:</seg>
+                     <seg n="1">Des ersten, daz die <term ref="lem000674">kirchgenossen</term>, die
+                        zuͦenander inn <placeName ref="loc006114">Sennwald</placeName> ze kirchen
+                        gehoͤrent <lb/>und nammlich zwischen den obgenamten <term ref="lem000693"
+                           >marken</term> sesshafft sind, alle gemainlich oder sunderlich, all ir
+                        erben und nâchkomen, alles ir vich und <term ref="lem001069">roß</term> ald
+                        welherlay ander <lb/>ir vich daz ist, nu̍tzit usgenommen, nû hinnanthin
+                        ewigklich und ains jeglichen jars <date dur="R/P1Y">jaͤrklich</date>
+                        besunder uff dem obgenamten <placeName ref="loc006117.02"
+                           >Saxerriet</placeName>, nammlich <date dur="P7D">siben tag</date> ze
+                           <lb/><date when="--05">usgaͤndem maygen</date> und <date dur="P7D">siben
+                           tag</date> ze <date when="--06">zugaͤndem brâchot</date> anenander nach
+                        ir notdurfft waiden sond und mugent. Und nach den <date dur="P14D">vierzehen
+                           tagen</date> sollen sy irû <lb/>roß je dennocht <date dur="P6D">sechs
+                           tag</date> dâselbs lenger haben und waiden, alles âne gevaͤrde.</seg>
+                     <seg n="2">Item so soͤllen die <orgName ref="org001175">lût von Sax</orgName>
+                        und von <orgName ref="org001785">Saletzz</orgName>, all ir erben und
+                        nachkomen <lb/>nû hinnanthin ewigklich und ains jeglichen jars besunder vonn
+                           <damage agent="fold"><supplied source="StASG AA 2 A 1-3"
+                              >angandem</supplied></damage>
+                        <date period="spring">fruͤling</date> bis ûntz an den <date when="--06-20"
+                           >vierden tag vor sant <persName ref="per000049">Johann</persName>s tag ze
+                           sûnnwenden</date> uff <placeName ref="loc006117.02">Saxerriet</placeName>
+                        <lb/><damage agent="fold"><supplied source="StASG AA 2 A 1-3"
+                              >mit</supplied></damage> allem irem vich, welherlay das ist, nutzit
+                        usgenomen och also waiden ane all gevaͤrde.</seg>
+                     <seg n="3">Und sunder so soll das obgenamt <placeName ref="loc006117.02"
+                           >Saxerriet</placeName> dâruf und hieru̍ber <lb/>aͤllu̍ jar gepannot und
+                        derselb <term ref="lem008878">panne</term> gehalten werden, als danne von
+                        alter her umb pannen, sitt und gewonlich gewesen ist ane alle
+                        gevaͤrde.</seg>
+                     <seg n="4">
+                        <orgName ref="org001175">Die von Sax</orgName> und <lb/>die von <orgName
+                           ref="org001785">Saletzz</orgName>, alle ir erben und nachkomen sond sich
+                        och nû hinnanthin mit iren <term ref="lem000057">schwinen</term>
+                        beschaidenlich halten zuͤ wayden und ungevärlichen, als sy bishar och
+                        <lb/>getan haben und sitt und gewônlich gewesen ist.</seg>
+                     <seg>Und ze wârem, offenen urku̍nd und gerechter, vester sicherhait und guͦter,
+                        ewiger gezu̍gknu̍sse, so haben wir, obgenant <lb/><persName ref="per001002a"
+                           >Wolffhart von Brandes</persName>, fryger herr, gemain man, <persName
+                           ref="per004503">Claus von Loͤtsch</persName>, <persName ref="per004504"
+                           >Herman Aͤtti</persName> und <persName ref="per004436">Burkart
+                           Blattner</persName>, schidlût, alle vier, u̍nsru̍ aignu̍ insigel,
+                        sunderlich <persName ref="per004436">Burkart <lb/>Blattner</persName> das
+                        min och von wegen mins mittgesellen <persName ref="per004505">Haͤnni
+                           Signer</persName>s bett offenlich gehenkt an disen spruchbrief, der zwen
+                        glich von wort zuͤ wort geschriben sind, <lb/>doch uns allen fu̍nfen und
+                        ûnser aller erben unschaͤdlich, des och ich, <persName ref="per004505"
+                           >Haͤnni Sygner</persName>, also alles under mins mitgesellen <persName
+                           ref="per004436">Burkart Blattner</persName>s insigel selb vergichtig
+                        <lb/>bin nâch diss brieffs lut und sag, geben ze <origPlace ref="loc000061"
+                           >Veltkirch</origPlace>, do man zalt nach <persName ref="per000353"
+                           >Crist</persName>s gepurte <origDate when="1423-06-04">vierzehenhûndert
+                           und im dritten und zwaintzigosten jâren an dem <lb/>naͤchsten fritag nâch
+                           ûnsers herren fronlichams tag.</origDate></seg>
+                  </p>
+    </div>
+               <pb facs="StASG_AA_2a_U_01_v"/>
+            </body>
+            <back>
+    <div org="uniform" sample="complete">
+       <p>Im Nutzungskonflikt zwischen den Kirchgenossen von Sennwald und den Dorfgenossen von Sax
+                     und Salez zeigen sich deutlich die zu einem Verband gefestigten Dorf- oder
+                     Kirchgenossenschaften in der Region Werdenberg (vgl. dazu auch
+                        <ref>SSRQ_SG_III_4_007</ref>). Die jeweiligen Bewohner des Dorfes oder der
+                     Pfarrei treten gemeinschaftlich organisiert und nach aussen als einheitlicher
+                     Verband auf, um ihre Angelegenheiten und Interessen zu vertreten und
+                     durchzusetzen. Im Mittelpunkt steht dabei die Frage der Allmendnutzung. Zur
+                     Bildung der Dorfgenossenschaften und der Dorfgemeinden vgl. <bibl><ref
+                           target="http://www.hls-dhs-dss.ch/textes/d/D7947.php">HLS</ref></bibl>;
+                           <bibl><ref target="http://permalink.snl.ch/bib/chbsg000150460">Rösener
+                           1985</ref>, S. 155–176</bibl>; <bibl><ref
+                           target="http://permalink.snl.ch/bib/chbsg000150644">Bader
+                        1964</ref></bibl>; einen Überblick zur historischen Forschung zum Dorf
+                     bietet <bibl><ref target="http://permalink.snl.ch/bib/chbsg000013915">Hürlimann
+                           2000</ref>, S. 169–173</bibl>. Zu den Aufgaben und Funktionen eines
+                     Dorfes vgl. <bibl><ref target="http://permalink.snl.ch/bib/chbsg000013915"
+                           >Hürlimann 2000</ref>, S. 174–177</bibl>. Die Gemeinschaft der <orgName
+                        ref="org001185">Stadtbürger von Werdenberg</orgName> wird bereits etwas
+                     früher fassbar (vgl. <ref>SSRQ_SG_III_4_032</ref>;
+                     <ref>SSRQ_SG_III_4_035</ref>). Erstmals werden auch die Grenzen der Pfarrei
+                     Sennwald genannt. Zu den Grenzen der Pfarreien Grabs und Gams vgl.
+                        <ref>SSRQ_SG_III_4_053</ref>. </p>
+    </div>
+    <!-- <div n="2" org="uniform" sample="complete">
+       <p>Zum <placeName ref="loc006117">Saxer Riet</placeName> vgl. auch Urteil (<date when="1545-05-12">5.12.1545</date>) und Appellation (<date when="1546-06-15">15.6.1546</date>) zwischen den Leuten von <orgName ref="org001785">Salez</orgName>, <orgName ref="org001175">Sax</orgName> und
+								<orgName ref="org001787">Haag</orgName> über den gemeinsamen
+     	Weidgang auf dem <placeName ref="loc006117">Saxer Riet</placeName> (<bibl><ref>EKGA Salez,
+     	   32.01.51, Herstellungswirtschaft, Landwirtschaft</ref></bibl>; <bibl><ref>StASG
+     	      AA 2a U 14</ref></bibl>):</p>
+       <p>1. Haag nutzt zusammen mit Salez und Sax  das Saxer Riet, darf jedoch nur diejenigen Tiere
+							auftreiben, die es auf den eigenen Gütern überwintert hat.</p>
+       <p>2. Wenn jemand von Haag im <term ref="key000726">Frühling</term>
+          <term ref="key000264">Pferde</term> oder <term ref="key000069">Rinder</term> kauft, darf
+							er diese nicht auf dem Saxer Riet weiden lassen.</p>
+       <p>3. Wenn jemand von Haag Stroh oder Heu kauft und dieses nicht aus seinen Eigengütern bezieht, darf er die Tiere auch nicht auf das Saxer Riet lassen.</p>
+       <p>4. Zieht ein Fremder in die Gemeinde, darf er seine Tiere auch nicht dort weiden lassen, ausser er wird von der Herrschaft und der Gemeinde in das Bürgerrecht aufgenommen.</p>
+    </div>
+    <div n="3" org="uniform" sample="complete">
+       <p>
+          <date when="1788">1788</date> kommt es zu einem langwierigen Streit zwischen den Leuten von Haag,
+							Salez, <orgName ref="org001784">Sennwald</orgName> und Sax wegen des
+     	Auftriebs von <term ref="key000070">Schafen</term> durch die Saxer auf den gemeinsamen
+     	<term ref="key003803">Weidgang</term> im Saxer Riet. In einer Ratserkenntnis vom
+								<date when="1788-02-09">9. Februar 1788</date> wird Sax bei seinen
+							alten Rechten laut Spruch von <date when="1423">1423</date> geschützt.
+							Damit aber die drei Gemeinden am <placeName ref="loc000644">Rhein</placeName>, Sennwald, Salez und Haag, in ihrer für den
+							Unterhalt der Wuhren nötigen Pferdezucht nicht behindert werden, darf
+							Sax nicht mehr als 700 Schafe weiden lassen und muss diese am alten
+							Maitag abtreiben (<bibl><ref>OGA Sax ohne Signatur</ref></bibl>; <bibl><ref>OGA Sennwald
+								Mappe Verschiedene Dokumente: Wasser, Strassen, Marken, Wald
+								etc.</ref></bibl>).</p> 
+    </div>-->
+            </back>
+         </text>
+      </group>
+   </text>
+</TEI>

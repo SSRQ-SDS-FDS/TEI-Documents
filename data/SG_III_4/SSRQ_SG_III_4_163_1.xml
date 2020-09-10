@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-08-15"/>
+            <date type="print"/>
+            <availability><p xml:id="facs">Sibylle Malamud</p></availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_163_1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>OGA Gams Nr. 91</idno>
+               </msIdentifier>
+               <head>Erbrechtsbestimmungen in Hohensax-Gams mit Nachträgen bis 1715</head>
+               <msContents>
+                  <summary>
+                     <p>Ein Ausschuss der Gemeinde Gams, bestehend aus Johannes Kessler, alt Landammann von
+                     			Gams, Landammann Hans Thür, Landammann Andreas Schöb, der Ältere, Landammann Hans Schöb,
+                     			der Jüngere, Ulrich Schöb, Hans Beusch, Hans Hardegger, Fridolin Lenherr, Melchior
+                    			Kaiser, Michael Schärer, Hans Kaiser, Michael Wessner, Kaspar Hämmerli, Michael Haldner,
+                    			Kaspar Hardegger, Hans Weber und Nikolaus Haldner, Landschreiber von Gams, stellen
+                    			zusammen mit Melchior Betschart, Landvogt im Gaster und Hohensax-Gams, Artikel über das
+                     			Erbrecht auf, die der Gemeinde vorgelesen und vom Landvogt und der Gemeinde angenommen
+                   		werden.</p> <p>Melchior Betschart von Schwyz siegelt.</p>
+                  </summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <filiation type="current">Original, Heft (3 Doppelblätter) mit Umschlag</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Pergament</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="26.0"/>
+                              <width unit="cm" quantity="22.0"/>
+                           </dimensions>
+                        </extent>
+                        <condition>starke Feuchtigkeitsschäden auf der letzten Seite</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <sealDesc>
+                     <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI"
+                           n="1"
+                           nontei:material="wax in a box"
+                           nontei:condition="well-preserved"
+                           nontei:shape="round"
+                           nontei:attachment="sealed on a lace">
+                        <persName role="sigillant" ref="per009069a">Melchior Betschart von Schwyz</persName>
+                     </seal>
+                  </sealDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1622-04-25">St. Georg</origDate>
+                     <origPlace>Gams</origPlace>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000597">Erbrecht</term>
+               <term ref="key003342">Frau im Erbrecht</term>
+               <term ref="key000920">Erbschaft</term>
+               <term ref="key004770">Erbe</term>
+               <term ref="key000602">Unehelich</term>
+               <term ref="key001043">Verwandte</term>
+               <term ref="key000816">Familie</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="I" facs="OGA_Gams_Nr._91_I"/>
+               <div org="uniform" sample="complete">
+                  <head>
+                     <lb/>Daß ist der erb zohl<note anchored="true">Sollte wohl heissen <orig>zedel.</orig>
+                     </note> und
+       gehörtt <lb/>der gemäindt oder herschafft <placeName ref="loc006040.06">Hochen Sax <lb/>und
+        Gammbs</placeName>, <lb/>anno <origDate when="1622">1622</origDate>
+                  </head>
+               </div>
+               <div org="uniform" sample="complete">
+                  <pb n="1" facs="OGA_Gams_Nr._91_1"/>
+                  <p>
+                     <lb/>Zu wüssen und thüond <lb/>kundt menigkhlichem offennbar hiemit, daß uff
+                     datto <lb/>die frommen, ersamen unnd wysenn landtamman unnd <orgName
+                        ref="org003341">gantze gmeind <lb/>der herrschafft <placeName
+                           ref="loc006040">Hochen Sax</placeName> zu <placeName ref="loc000211"
+                           >Gamß</placeName></orgName> mit hilff und zuthun deß <lb/>frommen,
+                     ehrenvesten, fürsichtigen, ersamen unnd wysenn herrenn <lb/><persName
+                        ref="per009069a">Melchior Bettschert</persName> von <placeName
+                        ref="loc000730">Schwytz</placeName>, diser zith regierender lanndt<lb
+                        break="no"/>vogt zu <placeName ref="loc000842">Windegck, Wesenn,
+                        Gastell</placeName>, wie ouch der herrschafft <lb/><placeName
+                        ref="loc006040">Hochenn Sax</placeName> zu <placeName ref="loc000211"
+                        >Gamß</placeName>, in nammen beider loblichenn ohrttenn <lb/><orgName
+                        ref="org001191">Schwytz</orgName> unnd <orgName ref="org001197"
+                        >Glaruß</orgName> alß unnseren hochehrenden, gnädigenn, <lb/>liebenn herren
+                     oberenn unnd vätteren <abbr>etc</abbr>, sich mit einanderen ver<lb break="no"
+                     />einbaret, verglichenn haben unnd einß worden sind umb und von <lb/>wegenn ein
+                        <term ref="lem000597">lanndträcht</term> zu machenn unnd zu verbesseren von
+                     der <lb/>
+                     <term ref="lem009881">ehrbfällen</term> wegen, da man doch ein alter <term
+                        ref="lem002684">birmentenen</term> besigle<lb break="no"/>lenn brieff harumb
+                     ghebt, wellicher aber fast alt und zimlicher <lb/>maßenn verblichenn, daß von
+                     nöthen gsyn, ein anderen widerumb <lb/>uffzerichten unnd noch ettwaß witers zu
+                     verbeseren. Also hatt <lb/>ein ersame gmeindt von nötten syn bedunckt, daß eß
+                        gnug<lb break="no"/>sam sye, ein <term ref="lem004032.12">ußschutz</term> zu
+                        <term ref="lem000406.08">ehrwellen</term> unnd den sälbigen bevelch und
+                     <lb/>gwalt gebenn, artickell zu stellenn, waß sy vermeynen, der <lb/>gantzenn
+                        <term ref="lem006896">gmeindt</term> nutz unnd frommen ze syn, damit man
+                     alle zith <lb/>in erbfählenn gägen einanderen khönn in einigkheit, in guttem
+                     <lb/>willen verblibenn unnd läbenn. <seg>Und sind mit nammen har<lb break="no"
+                        />zu disem <term ref="lem004032.12">ußschutz</term>
+                        <term ref="lem003551.03">erkießt</term> unnd verordnett worden: Erstlichen
+                        <lb/>unnser obgemelter herr <term ref="lem000266">lanndtvogt</term>
+                        <persName ref="per009069a">Betschert</persName>, mehr von der gm<lb
+                           break="no"/>eind herr <persName ref="per009070a">Johanneß
+                           Keßler</persName>, <term ref="lem001863">alter landtamman</term>, <choice>
+                           <abbr>l.</abbr>
+                           <expan>land</expan>
+                        </choice>
+                        <term ref="lem000449">ammen</term>
+                        <persName ref="per009071a">Hanß Thür</persName>, <lb/><choice>
+                           <abbr>l.</abbr>
+                           <expan>land</expan>
+                        </choice>amman <persName ref="per009072a">Andereß Schöb, der
+                           elter</persName>, <choice>
+                           <abbr>l.</abbr>
+                           <expan>land</expan>
+                        </choice>amman <persName ref="per009073a">Hanß Schöb, der
+                        jüngerr</persName>, <pb n="2" facs="OGA_Gams_Nr._91_2"/>
+                        <lb/><persName ref="per009074a">Ulrich Schöb</persName>, <persName
+                           ref="per009075a">Hannß Büsch</persName>, <persName ref="per009076a">Hannß
+                           Hardecker</persName>, <persName ref="per009078">Fridly
+                        Lenherr</persName>, <persName ref="per009079">Melch<lb break="no"/>er
+                           Keiser</persName>, <persName ref="per009081">Michell Schärer</persName>,
+                           <persName ref="per009080">Hannß Keiser</persName>, <persName
+                           ref="per009082a">Michell Wesner</persName>, <persName ref="per009083a"
+                           >Caspar <lb/>Hämerli</persName>, <persName ref="per009084">Michell
+                           Haldner</persName>, <persName ref="per009077">Caspar
+                        Hardecker</persName>, <persName ref="per009086a">Hannß Wäber</persName> unnd
+                           <lb/><persName ref="per009085a">Niclauß Haldner</persName>, <term
+                           ref="lem002854">lanndtschriber</term> in <placeName ref="loc000211"
+                           >Gamß</placeName>
+                        <abbr>etc</abbr>.</seg>
+                     <seg>Also habend gesagte <lb/>herrenn, voruß herr landtvogt und die ersammen
+                        personnen, sich in disem <lb/>werch mit allem flyß unnd ernst unnd der
+                        gantzen <term ref="lem006896">gmeind</term> nutz<lb break="no"/>es
+                        betrachtet unnd sich bearbeitet, ouch disere nachgemelte artickell
+                        <lb/>gestelt, welliche widerumb vor der gmeind verleßen und <lb/>solliche
+                           <term ref="lem008109">mit mehrer hand</term> uff unnd angenommen worden
+                        und die nach <lb/>irem bestenn vermögen zu haltenn unnd nachzekhommen sölle
+                           werd<lb break="no"/>enn versprochenn und sölle ouch darby verblibenn, wie
+                        dan hernach <lb/>volgt unnd von artickell zu artickell verschribenn statt
+                           <abbr>etc</abbr>:</seg>
+                  </p>
+                  <p>
+                     <seg n="1">
+                        <lb/>Erstlichen: Wan sich zwey <term ref="lem001020.06">ehementschenn</term>
+        zusammen vermächlend <lb/>unnd waß sy alß dan zusamen bringend an <term ref="lem000062">ligendem gutt</term>, eß sige <lb/>wyb oder manßperson, ligende güötter hatt, sol eß darby
+         ver<lb break="no"/>blibenn unnd sin ligend gutt habenn, wellicher gstalt eß wehrre, <lb/>in
+        erbfählenn oder sunst <abbr>etc</abbr>.</seg>
+                  </p>
+                  <p>
+                     <seg n="2">
+                        <lb/>Zuom anderen: Waß sy an <term ref="lem000519">farendem gutt</term> zusamen
+        brächtend, <lb/>waß dan wehrre, sollennd die <term ref="lem009788">zwen theil</term> deß
+         <term ref="lem000220">manß</term> syn unnd <lb/>der <term ref="lem002019.16">drittheil</term> der <term ref="lem002312">frouwenn</term>, eß sige glich <term ref="lem000308">gelt</term>, <term ref="lem000037">schuldenn</term> oder <lb/>ander <term ref="lem009873">färenndts</term>. Eß verblipt ouch jedtwederß by synem an<lb break="no"/>legettenn <term ref="lem000188">gwannd</term>, ja, so khein <term ref="lem015418.03">vortheil</term> darin erfundenn <lb/>wirth, eß sige glich mit <term ref="lem003435">wehr</term> oder <term ref="lem001947">waffenn</term> oder der<lb break="no"/>glichenn,
+        waß eß syn möcht.</seg>
+                  </p>
+                  <p>
+                     <pb n="3" facs="OGA_Gams_Nr._91_3"/>
+                     <seg n="3">
+                        <lb/>Zum drittenn: So zwey <term ref="lem001020.06">ehementschen</term> sich mitt
+         <term ref="lem000248">haus</term> han ver<lb break="no"/>besertten unnd fürschlüögend an
+        ligentem oder farenthem gutt, <lb/>so sollennd die zwen theil am sälbigen deß manß syn unnd
+        derr <lb/>drittheil der frouwenn <abbr>etc</abbr>. Hyngegen aber, wider verhoffen, wan
+        <lb/>daß <term ref="lem001488.04">unglückh</term> verhandenn, daß sich begebe, daß zwey
+         ehement<lb break="no"/>schenn <term ref="lem015289.02">verunhußettenn</term> unnd <term ref="lem010279">verthättenn</term> und inen am gutt <lb/>abgienng, sol ein <term ref="lem000220">man</term>
+                        <term ref="lem009788">zwen theil</term> unnd ein <term ref="lem002312">frouw</term> den
+         <term ref="lem002019.01">dritten <lb/>theil</term> zuͧ enndtgelten unnd abzutragenn
+        schuldig syn, so wyth eß <lb/>gelanngen mag.</seg>
+                  </p>
+                  <p>
+                     <seg n="4">
+                        <lb/>Zum vierttenn: Waß aber anthrifft der <term ref="lem000881"
+                           >bloumen</term>, wellicher <lb/>uff beider güötteren oder ouch uff dem
+                           <term ref="lem013545.02">ehrhußetten</term> gutt ge<lb break="no"
+                        />wachßenn oder angesäyth wehrre biß zu <date when="--04-25">sanntt
+                              <persName ref="per000270">Jörgenn</persName> tag</date><note
+                           anchored="true">Nach Grotefend ist im Bistum Chur der Georgstag der 25.
+                           April, wobei dies nach den neuesten Erkenntnissen von Tschaikner offenbar
+                           nicht für das ganze Bistum gilt (vgl. dazu ausführlicher Fussnote in
+                              <ref>SSRQ_SG_III_4_250</ref>).</note>
+                        <lb/>unnd sich dan nach <date when="--04-25">sant <persName ref="per000270"
+                              >Jörgen</persName> tag</date> zu thrüöge unnd begebe, daß <lb/>under
+                        zweyenn ehementschen daß ein von dem anderen (von gott, <lb/>dem
+                        allmächtigenn, durch den zittlichen <term ref="lem000233">tod</term>
+                        berüöfft wurde), so sol <lb/>daß, so <choice>
+                           <sic>noch noch</sic>
+                           <corr>noch</corr>
+                        </choice> in <term ref="lem002291">läbenn</term> ist, mit deß abgestorbnen
+                        erben gutt rächt, <lb/>macht unnd gwalt habenn, allenn den <term
+                           ref="lem000881">bloumen</term>, der uff obgemelten <lb/>iren beider
+                        eignen und erkoufften <term ref="lem000076">güötteren</term> gewachßenn ist,
+                        <lb/>von <date when="--04-25">sanntt <persName ref="per000270"
+                              >Jörgen</persName> tag</date> biß zu <date when="--11-11">sanntt
+                              <persName ref="per000141">Marthiß</persName></date> tag also mit
+                           ein<lb break="no"/>anderen inzüchenn und der costenn, so daruff gadt, sol
+                        der man <lb/>oder syne erbenn die zwen theil abtragen unnd endtgelten unnd
+                        <lb/>die frouw oder ire erbenn den dritten theil costenn habenn. <lb/>Unnd
+                        so dan der bluomen allen vollkhommen inzogen ist, alß dan <lb/>so mag die
+                        person, so noch in läbenn, mit deß abgestorbnen <term ref="lem001415"
+                           >erben</term>
+                        <pb n="4" facs="OGA_Gams_Nr._91_4"/>
+                        <lb/>theillen unnd gehörend <term ref="lem009788">zwen theil</term> dem
+                           <term ref="lem000220">man</term> oder synen <term ref="lem001415"
+                           >erben</term>
+                        <lb/>unnd der <term ref="lem002019.16">drittheil</term> der <term
+                           ref="lem002312">frouwenn</term> oder iren <term ref="lem001415"
+                           >erben</term> und nach<lb break="no"/>khommen <abbr>etc</abbr>.</seg>
+                  </p>
+                  <p>
+                     <seg n="5">
+                        <lb/>Ittem zum fünfften: Ob zwey <term ref="lem001020.06">ehementschen</term>
+                        <term ref="lem000130">khinder</term> by ein<lb break="no"/>annderen ehrzügtend und ob eß
+        sich begebe, in <term ref="lem009881">erbfählen</term>
+                        <lb/>sollend eheliche <term ref="lem000529.48">geschwösterige</term> den annderen erbenn,
+        welliche <lb/>von <term ref="lem000129">vatter</term> unnd <term ref="lem000292">muotter</term> libliche geschwösterig sinnd.</seg>
+                  </p>
+                  <p>
+                     <seg>
+                        <lb/><add place="below" hand="other hand">Anno <origDate when="1715"
+                              >1715</origDate> ist von <term ref="lem009043">amman und
+                           gricht</term>, so woll voner gantzen gmändt auff und an<lb break="no"
+                           />genomen worden, daß die <term ref="lem000130">kindt</term> nit mehr
+                           solen <term ref="lem000129">vater</term> und <term ref="lem000292"
+                              >mueter</term> toth <sic>nit mehr solen <lb/>sollen</sic><note
+                              anchored="true">In der Abschrift im OGA Gams Nr. 91a
+                              gleichlautend.</note> entgelten, sunder nebent den <term
+                              ref="lem000529.13">geschwüstrigen</term> erben und ist von dem her
+                              land<lb break="no"/>vogt <app>
+                              <lem><term ref="lem003614">radiffiziert</term></lem>
+                              <rdg wit="OGA Gams Nr. 91a"><gap reason="irrelevant"/></rdg>
+                           </app><note anchored="true">Das schwer lesbare Wort konnte wohl vom
+                              Schreiber der Kopie nicht entziffert werden.</note> und guotgehäisen
+                           worden.</add>
+                     </seg>
+                  </p>
+                  <p>
+                     <seg n="6">
+                        <lb/>Zum sächßten: Wan eß sich begebe, daß ein <term ref="lem000220">man</term>
+        oder ein <term ref="lem002312">frouw</term>
+                        <lb/>von ein anderen sturbend unnd daß in <term ref="lem002291">läbenn</term> sich widerumb
+         <lb/>
+                        <term ref="lem001017">vermächlen</term> wurde unnd ouch kinder bim anderen <term ref="lem000267.07">gmachell</term>
+                        <lb/>gewunend oder vor bim abgestorbnen <term ref="lem000130">kind</term> hette und so eß
+        sich <lb/>alß dan zu thrüöge, daß die kind nit liblich von vatter unnd <lb/>muotter
+        geschwösterig wehrennd, die sond erbenn ein <term ref="lem002019.14">dritt<lb break="no"/>theil</term> oder in ein hand unnd die anderenn ein <term ref="lem009788">zwen
+         theil</term> oderr <lb/>in beid händ <abbr>etc</abbr>.</seg>
+                  </p>
+                  <p>
+                     <seg n="7">
+                        <lb/>Zum sibenten: So eß sich abermalen zutrüög und begeb, <lb/>daß ein <term ref="lem009881">erbfahl</term> noch witter fiel an rächte <term ref="lem002294">schwösterkind</term>
+                        <lb/>oder ein <term ref="lem015288.02">halbschwösterkhind</term> old <term ref="lem002023">bruoderkhind</term> oder irenn <lb/>
+                        <term ref="lem000130">khinderen</term> old <term ref="lem000499.17">khindtskinderen</term>, so sollend und mögend rächte <pb n="5" facs="OGA_Gams_Nr._91_5"/>
+                        <lb/>schwösterkhind old ein halbschwöster khind oder ire khindts<lb break="no"/>kinder ein
+        theil erbenn alß der ander oder deß ander unnd <lb/>nit gesünderet werdenn. Die, die ehelich
+        geboren sind, alle<lb break="no"/>zith dem nechsten <term ref="lem001572">bluott</term> nach
+         <abbr>etc</abbr>, dem <term ref="lem002787">stamm</term> nach <abbr>etc</abbr>.</seg>
+                  </p>
+                  <p>
+                     <seg n="8">
+                        <lb/>Ittem zum achten: So eß sich zu trüöge, daß <term ref="lem002393.02">ohneheliche</term>
+                        <term ref="lem000130">kind</term>
+                        <lb/>wehrennd unnd sy hettend eheliche <term ref="lem000529">geschwösterig</term> und die
+        <lb/>ohnehelichenn ohn <term ref="lem000260.13">liberbenn</term> absturbend, so mögend die
+        ehelichen <lb/>an ston unnd erben, aber die ohnehelichenn sy, die ehelichen, nitt, <lb/>aber
+        fürtthin so sol eß fallen an daß nechste <term ref="lem001572">bluott</term>
+                        <abbr>etc</abbr>.</seg>
+                  </p>
+                  <p>
+                     <seg n="9">
+                        <lb/>Zum nüntten: Wan daß <term ref="lem007653">ledige</term> kind werend und
+        andere, <lb/>die nit ehelich erzüget sind, die mögend iren <term ref="lem000292">muotter</term>
+                        <term ref="lem002285.10">ehne</term>
+                        <lb/>unnd <term ref="lem002286.01">ana</term> erbenn an ir muotter statt, so die muotterr
+        <lb/>ehelich gewesenn ist, aber dem vätterlichen stammen nach sollend <lb/>sy nit erbenn syn
+         <abbr>etc</abbr>.</seg>
+                  </p>
+                  <p>
+                     <seg n="10">
+                        <lb/>Zum zächenden sollend unnd mögend ouch eheliche <term ref="lem003174.13">enichly</term>
+                        <lb/>ire <term ref="lem002285.11">ehnne</term> unnd <term ref="lem002286.03">anna</term>
+        erbenn an ir vatter unnd muotter <lb/>statt, so vatter unnd muotter ehelich gsyn.</seg>
+                  </p>
+                  <p>
+                     <pb n="6" facs="OGA_Gams_Nr._91_6"/>
+                     <seg n="11">
+                        <lb/>Zuom einlifften: Wan eß sich begeb, daß dye <term ref="lem003174.14">ennichly</term> sturb<lb break="no"/>ennd ohne <term ref="lem000260.07">liberben</term>
+        unnd sy hettend gutt, wie eß an sy khommen <lb/>wehr oder gfallenn, ouch weder vatter noch
+        muotter old ge<lb break="no"/>sagtenn vatter und muotter geschwösterige, ein halb oderr
+        <lb/>rächte, eß hette aber daß ennichli <term ref="lem000128">fründt</term>, die ime
+         geschwöst<lb break="no"/>erig khind wehrennd, ouch nach sym <term ref="lem002285.12">ehene</term> unnd <term ref="lem002286.01">ana</term> (eß <lb/>hette einß oder beide), wie
+        daß wehre, so mögendts mit <lb/>ein anderen anstan unnd erben, ein person wie die ander,
+        <lb/>eß sye glich ein halbe oder rächte und dan fürthin daß nech<lb break="no"/>ste <term ref="lem001572">bluott</term>.</seg>
+                  </p>
+                  <p>
+                     <seg n="12">
+                        <lb/>Zuom zwölfften: Daß wan ein <term ref="lem000130">khind</term> wehr, daß
+        guott hett, <lb/>wie daß an ineß khommen unnd eß hett syn vatter old die <lb/>muotter oder
+        noch beide unnd mehr geschwösterige, so sol einß <lb/>erbenn wie daß anderr.</seg>
+                  </p>
+                  <p>
+                     <seg n="13">
+                        <lb/>Schliesslichen und letsten: Daß wan ein <term ref="lem000130">kind</term>
+        sturb ohn lib<lb break="no"/>erbenn und ohn geschwösterige unnd eß hette guott, wie
+        <lb/>sollicheß an ines gfallenn, und wehrend vater und muter <lb/>noch by läbenn, sol einß
+        erben wie daß ander. Wan aber <lb/>daß ein vor dem anderen abgstorben vor deß khindts tod,
+         <pb n="7" facs="OGA_Gams_Nr._91_7"/>
+                        <lb/>eß wehre der vatter, so sond die nechsten <term ref="lem000128">fründ</term> an deß <term ref="lem000129">vatters</term>
+                        <lb/>statt den <term ref="lem009788">zwen theil</term> erbenn. Ist aber die <term ref="lem000292">muotter</term> gestorben <lb/>vor dem vater oder sige noch by läbenn nach
+        deß vatters tod, <lb/>sol sy, die frouw, oder ire nechsten <term ref="lem002284.07">verwandtenn</term> nämen und <lb/>erbenn den <term ref="lem002019.15">drittenn
+         theil</term>.</seg>
+                  
+                     <seg n="14">Witter ist <lb/>hierynnen erkhentt, wie man erbt, so sol man erzüchen <lb/>unnd
+         <term ref="lem011270">blönnen</term>
+                        <abbr>etc</abbr>.</seg>
+                  </p>
+                  <p>
+                     <lb/>Unnd deß zu wahrem urkhundt und in crafft diß brieffs, <lb/>daß disenn
+                     allenn obgemelten articklen flysig gehorsamett <lb/>unnd nachkhommen werde unnd
+                     sich mengcklicher hieran wüsse <lb/>zu verhaltenn, so habend wir, obgesagte
+                     personnen, wie <lb/>ouch ein ganntze <orgName ref="org003341.01">gmeindt der
+                        herrschafft <placeName ref="loc006040">Hochen Sax</placeName> zuo
+                           <lb/><placeName ref="loc000211">Gamß</placeName></orgName> mit sunderem
+                     flyß unnd ernst gebetten unnd <lb/>erbättenn den obgemelten frommen,
+                     ehrenvestenn, <lb/>fürsichtigen, ersammen und wysenn herren <persName
+                        ref="per009069a">Melchior Bettsch<lb break="no"/>ertt</persName> von
+                        <placeName ref="loc000730">Schwytz</placeName>, alß unnser geliebter her
+                     lanndtvogt, <lb/>daß ehr syn eigen secrett insigel an disen brieff gehengckht
+                     <lb/>hatt <abbr>etc</abbr>, jedoch zevor uff guottheißenn unnd bestättigung
+                     <lb/>unnseren hochehrenden, gnädigenn, lieben herren oberenn <lb/>unnd vätteren
+                     beider loblichenn ohrtten <orgName ref="org001191">Schwytz</orgName> und
+                        <orgName ref="org001197">Glaruß</orgName>. <lb/>Welliche bekrefftigung
+                     ußbracht ist wordenn durch den <lb/>frommen, ehren<add place="above"
+                        >vesten</add>, fürnemen, ehrsamen unnd wysenn herren <lb/>
+                     <persName ref="per009087a">Fridli Tolder</persName> von <placeName
+                        ref="loc000326">Glaruß</placeName>, wellicher nach <term ref="lem004855"
+                        >abrith</term> herren <lb/>landtvogt <persName ref="per009069a"
+                        >Betschert</persName>s ouch unser lieber landtvogt gwesen <pb n="8"
+                        facs="OGA_Gams_Nr._91_8"/>
+                     <lb/>ist. Eß sol ouch diser brieff unnd sygell ime, herren landt<lb break="no"
+                     />vogt <persName ref="per009069a">Bettschert</persName>, unnd synen erben, wie
+                     ouch unseren hoch<lb break="no"/>ehrenden, gnädigen, lieben herren oberenn und
+                     vättern <lb/>fryheittenn unnd grächtigkeitten glichfahls an unsern <lb/>von
+                        <placeName ref="loc000211">Gamß</placeName> rächtsammenen ohne schädlich syn
+                        <abbr>etc</abbr>, der <lb/>gäben unnd beschechen <origDate when="1622-04-25"
+                        >uff deß helligen ritters sanntt <lb/><persName ref="per000270"
+                           >Jörgenntag</persName>, von der gnadrichen geburtt <persName
+                           ref="per000353">Jesu Christy</persName>
+                        <lb/>unsers erlössers und sälligmachers gezelt sächszächen <lb/>hundert
+                        zwentzig unnd zwey jarr</origDate>.</p>
+                  <add place="below" hand="other hand"><p>
+                        <lb/>Heinach volgendt ein artickell, so ettwaß strittigkeit <lb/>erhept unnd
+                        zugetragen, wellicheß aber uff den <origDate when="1629-12-10">10. tag
+                           <lb/>christmonat im 1629isten jar</origDate> durch beide herrenn
+                           <lb/><persName ref="per002419">Johann Jacob Imlig</persName>, der zith
+                        regierender, und <persName ref="per009069a">Melchior
+                           <lb/>Bettschert</persName>, alter landtvogt im <placeName
+                           ref="loc000842.14">Gastell</placeName>, <placeName ref="loc000833.05"
+                           >Weßen</placeName> und <placeName ref="loc000211">Gamß</placeName>,
+                        <lb/>beid deß raths zu <placeName ref="loc000730">Schwitz</placeName>, sy,
+                        die von <orgName ref="org001881">Gamß</orgName>, fründtlich <lb/>unnd
+                        güöttlich vertragen und verglichen haben und ouch <lb/>durch mich,
+                        lanndtschriber <persName ref="per009088a">Tolder</persName> von <placeName
+                           ref="loc000326">Glaruß</placeName>, ingschriben <lb/>worden:</p>
+                     <p>
+                        <seg>Wan jetz fürhin zu <placeName ref="loc000211">Gamß</placeName> ein <term ref="lem002051">erbfahl</term> fallen wurde, <lb/>daß die zwen theil uff deß nechsten
+          <term ref="lem002788.03">manß stammen</term>
+                           <lb/>fallen solle unnd der dritte theil uff den <term ref="lem015287.02">wybstammen</term>
+                           <lb/>biß in daß vierte <term ref="lem003743">glid</term> unnd danethin für daß vierte <pb n="9" facs="OGA_Gams_Nr._91_9"/>
+                           <lb/>glid hyn an daß nechst eehelich <term ref="lem002942.05">geblüöt</term> und darby den <lb/>sälben brieff unnd sygell in crefften
+         erkhent. Und die <lb/>wil diser brieff von beiden ohrten in crefften erkhent <lb/>wordenn,
+         hand wir daßalbig ouch darby bliben lassen.</seg>
+                     </p></add>
+                  <p>
+                     <add place="below" hand="other hand"><lb/>Zuo wüssen und khund geton sye
+                        hiemitt, daß uff den tag <lb/>deß <origDate when="1715">1715isten
+                           johrs</origDate> von einer gantzen ersamen <orgName ref="org001881"
+                           >gemaind</orgName> und auch uß gutt<lb break="no"/>haißen deß herrn
+                        landvogts <persName ref="per011518"><unclear>Carla</unclear>
+                           Haußer</persName> von <placeName ref="loc000326">Glarus</placeName> einen
+                        neüwen artickhel <lb/>erbens halber ist angenomen und in den erbfahl
+                        imgeschriben worden ist, daß <lb/>die kinder vater und muoters tod nit mer
+                        entgelten söllen, willen vor disem <lb/><unclear>forenher</unclear> die
+                        kinder nit an vater und muter stadt vor denen geschwüsterigen <damage
+                           agent="water spot"><unclear>aber <lb/>könen</unclear></damage> erben. Fiele aber <damage agent="water spot" quantity="5"
+                           unit="words"/> nit uß füofrlich mögen <damage agent="water spot"><gap unit="line" quantity="22"/></damage><note anchored="true">Der Text ist durch Feuchtigkeitsflecken stark
+                           beschädigt. Da die Lesung zu viele Unsicherheiten und Lücken aufweist,
+                           wird auf eine weitere Transkription verzichtet. Alle Nachträge fehlen in
+                           der Kopie StASG AA 2 A 14-14. In der Kopie im OGA Gams Nr. 91a fehlt nur
+                           der letzte Nachtrag von 1715.</note></add>
+                  </p>
+               </div>
+               <pb facs="OGA_Gams_Nr._91_v"/>
+               <div org="uniform" sample="complete">
+                  <ab type="archiving reference" place="above" hand="hand17c">No. 13</ab>
+               </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div org="uniform" sample="complete">
+            <p>Das Original des Erbrechts von <placeName ref="loc006040">Hohensax-Gams</placeName>
+               enthält zwei Nachträge aus den Jahren <date when="1629">1629</date> und <date
+                  when="1715">1715</date>. Der Nachtrag von 1715 ist wegen Feuchtigkeitsschäden nur
+               noch teilweise lesbar. Die Kopie von 1675 im StASG (<bibl><ref>StASG AA 2 A
+                     14-14</ref></bibl>) enthält keine Nachträge. Eine weitere Kopie im OGA Gams
+               enthält nur den Nachtrag von 1629 (<bibl><ref>OGA Gams Nr. 91a</ref></bibl>).</p>
+         </div>
+      </back>
+   </text>
+</TEI>

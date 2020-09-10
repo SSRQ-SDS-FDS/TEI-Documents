@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+
+			</titleStmt>
+
+			<publicationStmt>
+				<date type="electronic" when="2019-05-29"/>
+				<date type="print"/>
+			</publicationStmt>
+
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ_FR_I_2_8_0060_010</idno>
+			</seriesStmt>
+
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<idno>StAFR, Thurnrodel 11, S. 315–316</idno>
+					</msIdentifier>
+					<head>Jean Cordey – Verhör / Interrogatoire</head>
+					<msContents>
+						<summary></summary> 
+						<msItem>
+							<textLang>fr</textLang> 
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support>
+									<material></material>
+								</support>
+								<extent>
+									<dimensions type="leaves">
+										<height unit="cm" quantity="0.0"/>
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+									<dimensions type="plica">
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+								</extent>
+							</supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1623-06-19"></origDate>
+							<origPlace></origPlace>
+						</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+							
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		
+		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+			<particDesc default="false"/>
+			<settingDesc default="false"/>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="315"/><p><lb/><origDate when="1623-06-19">Le 19 juin 1623</origDate><note>Das Verhör fand im <placeName ref="loc007683">Bösen Turm</placeName> statt.</note>, <persName ref="per009446">Nußbauwm</persName><note>Gemeint ist ein Stadtweibel.</note>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <persName ref="per006751">Erhard</persName>, <abbr>h<hi rend="sup">r</hi></abbr> <persName ref="per009449a.01">Fögylly</persName></seg>
+							<seg><lb/><persName ref="per006531a.01">Petter von Ligritz</persName>, <persName ref="per009253a.05">Hannß Bockard</persName>, <persName ref="per009448a.01">Petter zum Waldt</persName><note>Gemeint ist ein Stadtweibel, der vom Schreiber irrtümlicherweise den Repräsentanten des Rats der Sechzig hinzugefügt wurde.</note></seg>
+							<seg><lb/><persName ref="per009460a.02">Emanuel Gottrow</persName></seg>
+							<seg><lb/><persName>Bralliard</persName> schryber<note>Gemeint ist wohl Ratsherr <persName ref="per009463">Peter Braillard</persName>.</note></seg></p>
+						
+						<p><seg><lb/><add place="left margin"><foreign xml:lang="la">Nihil solvit</foreign>.</add></seg> 
+							<seg><persName ref="per009489">Jean Cordey</persName> de <placeName ref="loc007934.05">Mignyres</placeName> <add type="sign" place="above">ayant esté eslevé a la simple <term ref="lem018231">corde</term></add>, a confessé avoir esté 
+								<lb/>en la <term ref="lem017043.01">secte</term> vers <placeName>les Biolles</placeName><note>L’identification du lieu est incertaine. Il pourrait s’agir des <placeName ref="loc008571">Bioles au Blanc</placeName>.</note> entre <placeName ref="loc007932.03">Vesyn</placeName> et <placeName ref="loc007934.06">Mignyre</placeName>, 
+						<lb/>ou il luy sembloit que <persName>George Marmet</persName> de <placeName ref="loc007931.01">Cugy</placeName> estoit 
+							<lb/>et <persName><subst><del>Cat</del> <add place="inline">Pierre</add></subst> Cattela</persName>, et <persName>Jean Baptista Pidau</persName><note>Cet individu a déjà été inquiété en avril 1620, mais libéré. Voir StAFR, Ratsmanual 171 (1620), S. 187, 191, 206. Il est à nouveau interrogé en mai 1623, torturé et condamné. A cette occasion, il dénonce notamment <persName ref="per009500">Jean Monneron</persName>. Il bénéficie d’une mitigation de peine&#160;: il est décapité avant d’être brûlé, le 9 juin 1623. Voir StAFR, Ratsmanual 174 (1623), S. 363, 376, 380. Son cas n’est pas documenté dans les Thurnrodel car son procès semble avoir été entièrement mené à <placeName ref="loc007931">Cugy</placeName>.</note>, et 
+						<lb/>des femmes qu’il na cogneu, ou ils dançoent, il y a <date dur="P6Y">6 ans</date>. 
+						<lb/>Item une femme de <placeName ref="loc007610">Payerne</placeName> nommee <persName>la Vignionna</persName> 
+						<lb/>et une fille a <persName><choice><abbr>Fran</abbr><expan>François</expan></choice> Fogt</persName> qu’est mariee <subst><del>a J</del><add place="inline">Jacques Destrey</add></subst>. 
+						<lb/>Item <add place="above">ledit</add> <persName>Jacques Destrey</persName> <subst><del>et sa femme</del><add place="above">mesme</add></subst> et <persName>Sara</persName>, <subst><del>femme</del><add place="above">relicte</add></subst> de 
+								<add place="left margin"><persName><choice><abbr>Guille</abbr><expan>Guillaume</expan></choice> de Trey</persName> 
+						<lb/>de <placeName ref="loc007610">Payerne</placeName></add>.</seg></p>
+						
+						<p><lb/>Item a confessé que <persName>Sathan</persName> luy dit qu’il se devoit donner 
+						<lb/>a luy, mais il ne voulut pas, ains luy donnat 
+						<lb/><date dur="P8D">huict jours</date> d’advis. Et une aultre foys il <del>l</del> 
+						<lb/>l’attacquat derechef et luy dit qu’il devoit jetter 
+						<lb/>de luy ce qu’il portoit, <choice><abbr>assr</abbr><expan>assavoir</expan></choice> de la cyre beniste 
+						<lb/><add place="left margin">et un evangile</add>, mais il ne voulut pas, parquoy il le laissat&#160;; 
+						<lb/>et se nommoit <persName>Grabiez</persName>.</p>
+						
+						<p><lb/>Item une aultre foys, il confesse d’avoir renoncé 
+							<lb/>Dieu et la Vierge <persName ref="per000169a.05">Marie</persName> et <subst><del>luy font</del> <add place="inline">avoir faict</add></subst> 
+							<lb/>hommage au <term ref="lem017521">diable</term> en le baysant, <add place="left margin" type="sign">et luy a <term ref="lem014914.03">estrain</term> <lb/>le premier doy de <lb/>la main ou il <lb/>pense estre <term ref="lem018895.02">marqué</term></add>,  luy ayant promis 
+						<lb/>assés or et argent pour trionfer avec les aultres.</p>
+						
+						<p><lb/>Item a confessé qu’il avoit <term ref="lem015355.02">diablyé</term> que sa femme 
+						<lb/>ne dormiroit pas telle nuict avec luy, s’estant combattu 
+						<lb/>par ensemble, et neanmoings estant endormy, elle 
+						<lb/>retornat vers luy par la fenestre, <subst><del>qu</del> <add place="inline">et</add> </subst> pense 
+						<lb/>que cela soit l’occasion que <persName>Sathan</persName> a eu puissance 
+						<lb/>sur luy. Il dit aussi qu’il luy sembloit avoir 
+						<lb/>receu beaucoup d’argent de son <choice><abbr>mre</abbr><expan>maitre</expan></choice>, que puis aprés 
+						<lb/>ne furent que de <term ref="lem018302.08">feilles</term> de <term ref="lem016908.02">chasne</term>, exepté <measure type="currency" quantity="3" unit="Gros">troys groz</measure>.</p>
+						
+						<pb n="316"/><p><lb/>Item a confessé sa femme propre estre aussi 
+						<lb/>sorciere et avoir esté deux fois avec luy a 
+							<lb/>la <term ref="lem017043.01">secte</term>.</p>
+						
+						<p><lb/>Item avoir esté une aultre foys en la <term ref="lem017043.01">secte</term> au 
+						<lb/>champ au <placeName ref="loc008580.01">Viaujoz</placeName>, dessus <placeName ref="loc007931.01">Cugy</placeName>, ou les cy devant 
+						<lb/>estoyent.</p>
+						
+						<p><lb/>Item a confessé d’avoir esté au <placeName>Croux</placeName><note>L’dentification du lieu est incertaine. Il existe plusieurs lieux-dits aux alentours du ruisseau du <placeName ref="loc008562">Creux des Prés</placeName>, comme le <placeName ref="loc008564">Creux des Roches</placeName> ou le <placeName ref="loc008565">Creux du Loup</placeName>. Un peu plus éloigné, mais plus proche de la Petite Glâne, il existe un lieu-dit <placeName ref="loc008566">Le Crau Renaud</placeName>.</note> a la <term ref="lem017043.01">secte</term> 
+						<lb/>avec les cy devant.</p>
+						
+						<p><lb/>Item a dit que <persName>Pernon</persName>, relicte de <persName>Jean Pitti Claudo</persName>, 
+						<lb/>qui hante a <choice><abbr>pnt</abbr><expan>present</expan></choice> contre <placeName ref="loc007609.01">Estavayer le <subst><del><gap reason="illegible" unit="cm" quantity="1"/></del><add place="overwritten">G</add></subst>ybloux</placeName>, 
+						<lb/>demandant l’aumosne, luy a donné une foys 
+						<lb/>une suppe que sa femme et elle luy avoent 
+						<lb/>fait, et dempuis il n’a rien peu faire de bon 
+						<lb/>et pense que ladite <persName>Pernon</persName> soyt sorciere pour 
+						<lb/>avoir esté <term ref="lem015356.02">accorpee</term> et bannie de <placeName>Biolley</placeName><note>L’identification du lieu est incertaine. Il pourrait s’agir de <placeName ref="loc009164">Le Biolley</placeName>.</note>.
+							<lb/><add place="interlinear">Dempuis a dit <add place="above" type="sign">elle</add> avoir esté a la <term ref="lem017043.01">secte</term> d’amont de <placeName ref="loc007931.01">Cugy</placeName> avec luy.</add></p>
+						
+						<p><lb/>Item confesse avoir receu de la <term ref="lem018382">graisse</term> de son 
+							<lb/><choice><abbr>mre</abbr><expan>maitre</expan></choice> avec laquelle il a fait mourrir son <term ref="lem018315">chat</term> 
+						<lb/>propre.</p>
+						
+						<p><lb/>La femme a <persName>Michel Bidiville</persName> appellee <persName>Anna</persName>, 
+							<lb/><persName>Claude Pittipieroz</persName> jadis <choice><abbr>mral</abbr><expan><term ref="lem017410.05">metral</term></expan></choice> <add place="left margin" type="sign">et sa femme <lb/><persName>Pernon</persName> qu’est venue de <placeName>Sottin</placeName></add>, <persName>Pierre Bidiwille</persName>, 
+							<lb/>tous de <placeName>Granges</placeName><note>L’identification du lieu est incertaine. Il pourrait s’agir de <placeName ref="loc008572">Granges-près-Marnand</placeName>.</note>, sont aussi esté en la <term ref="lem017043.01">secte</term> avec 
+						<lb/>luy es lieux sus nommés.</p>
+						
+						<p><lb/>Item confesse avoir fait mourir <subst><del>un de ses enfans</del><add place="above">son filz</add></subst> propre<del>s</del> 
+							<lb/>avec sa <term ref="lem018382">graisse</term>, luy ayant donné dans du pain et du 
+						<lb/><term ref="lem014943">beurre</term>.</p>
+						
+						<p><lb/>Item la femme de <persName>Jean Lamy</persName> nommee <persName>Ann<subst><del>e</del><add place="overwritten">y</add></subst>l<subst><del>y</del><add place="overwritten">i</add></subst></persName> et 
+						<lb/><persName>Jacques Tissot l’Ancien</persName> de <placeName ref="loc007934.08">Mignire</placeName>, qu’a esté a la guerre 
+						<lb/>avec luy, <subst><del>de <placeName ref="loc007934.08">Mignire</placeName></del><add place="inline">sont sorciers.</add></subst></p>
+						
+						<p><lb/><subst><del><persName>Nicod Grand</persName> de <placeName>Granges</placeName><note>L’identification du lieu est incertaine. Il pourrait s’agir de <placeName ref="loc008572">Granges-près-Marnand</placeName>.</note></del>
+							<add place="above">Ce <persName>Nicod</persName> est trassé pour ce qu’il l’a pris pour son frere qu’est mort.</add></subst><note>Il s’agit bien d’un justificatif de la rasure du nom de cet individu, apporté par le greffier lui-même.</note> 
+							<add place="left margin" type="sign">Et certain <persName>Bidivillie</persName> 
+						<lb/>qui demeure au carri 
+						<lb/>(vers <persName><choice><abbr>Fran</abbr><expan>François</expan></choice> Perrod</persName> 
+						<lb/>qui vent vin)</add>, il luy semble <add place="above">les</add> avoir veu 
+							<lb/>a la <term ref="lem017043.01">secte</term>, mais il ne le peult bien sçavoir, car ils 
+						<lb/>estoyent <subst><del>ve</del> <add place="inline">envelopé</add></subst>.</p>
+						
+						<p><lb/><del>Item</del> Item a confessé <del>avec sa grai</del> d’avoir donné de 
+							<lb/>sa <term ref="lem018382">graisse</term> a un <term ref="lem018314.02">chain</term>, a <placeName>Granges</placeName><note>L’identification du lieu est incertaine. Il pourrait s’agir de <placeName ref="loc008572">Granges-près-Marnand</placeName>.</note>, qui l’avoit <term ref="lem015357.02">mort</term>, 
+						<lb/>et ne sçait s’il <add place="above">en</add> est mort.</p>
+						
+						<p><lb/>Le tout de ce que devant il l’a soubstenu a la simple 
+							<lb/><term ref="lem018231">corde</term>.</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+
+
+
+<?oxy_options track_changes="on"?>

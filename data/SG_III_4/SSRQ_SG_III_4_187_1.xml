@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-08-15"/>
+            <date type="print"/>
+            <availability><p xml:id="facs">Sibylle Malamud</p></availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_187_1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno source=" https://archivverzeichnis.gl.ch/home/#/content/f8b68778386042b8bd36a9116842d11e">LAGL AG III.2425:001</idno>
+               </msIdentifier>
+               <head>Bestätigung von Glarus für die Untertanen der Herrschaft Wartau betreffend die Hubgült und den Versammlungsort im Kriegsfall</head>
+               <msContents>
+                  <summary>
+                     <p>Landammann und Landrat von Glarus treffen für die Untertanen der Herrschaft Wartau
+                        eine Entscheidung bezüglich der zu entrichtenden Hubgült. Erste Unklarheiten entstanden,
+                        als die zuständigen Landvögte von Werdenberg die Abgaben erhöhen wollten. Man einigte
+                        sich damals, dass von 57 Scheffeln 1 Viertel und 1,5 Kopf Korn gegeben werden sollen
+                        bzw. für jeden Scheffel 27 Batzen. Dies wird nun hiermit verbrieft mit der Zusicherung,
+                        dass die Abgaben, gezählt vom Regierungsantritt des Landvogts und Mitrats Jakob Feldmann
+                        von Mitte Mai 1650, während vierzig Jahren nicht angehoben werden dürfen. Im Kriegsfalle
+                        hatten sich die wehrpflichtigen Wartauer bisher im Schloss Wartau einzufinden. Weil
+                        dieses nun baufällig und unbewohnt ist, wird der Kirchhof von Gretschins zum
+                        Besammlungsort. Die Lehen des Ammanns Jakob Müller sind von den Abmachungen nicht
+                        betroffen.</p> <p>Der Aussteller siegelt.</p>
+                  </summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <filiation type="current">Original</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Pergament</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="29.0"/>
+                              <width unit="cm" quantity="38.0"/>
+                           </dimensions>
+                           <dimensions type="plica">
+                              <width unit="cm" quantity="2.5"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <sealDesc>
+                     <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI"
+                           n="1"
+                           nontei:condition="well-preserved"
+                           nontei:material="wax in a box"
+                           nontei:shape="round"
+                           nontei:attachment="sealed on a parchment tag">
+                        <orgName role="sigillant" ref="org001197">Glarus</orgName>
+                     </seal>
+                  </sealDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1653-09-22"/>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000810">Hubgült</term>
+               <term ref="key000238">Friedhof</term>
+               <term ref="key000147">Gut</term>
+               <term ref="key001067">Dach</term>
+               <term ref="key000886">Moderation</term>
+               <term ref="key000296">Bestätigung</term>
+               <term ref="key000186">Schloss</term>
+               <term ref="key004426">Kriegsgefahr</term>
+               <term ref="key003565">Versammlungsplatz</term>
+               <term ref="key004924">Umrechnung</term>
+               <term ref="key000154">Zins</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <div org="uniform" sample="complete">
+                  <pb facs="LAGL_AG_III.2425_001r"/>
+                  <p>
+                     <seg>
+                        <lb/>Wir, landtaman und gantz geseßner landts rath zu <orgName
+                           ref="org003239">Glaruß</orgName>, urkhundten und <lb/>bekennend
+                        offentlich hiemit, alls dann wir erinneret und berichtet worden, waß
+                        gestalten unßer besonders liebe und gethreüwe der herrschafft <lb/><orgName
+                           ref="org003725">Wartaw</orgName> vor etwaß jahren zum theil bei keiner
+                        gewüßheit der <term ref="lem004542">huobgült</term>, so sei <date
+                           dur="R/P1Y">järlichen</date> von unßer, der enden habenden <term
+                           ref="lem000076">güetern</term> zu erlegen sich pflichtig <lb/>wüßend,
+                        verbleiben können, sondren von unßren <term ref="lem000266"
+                           >landtvögten</term> zu <placeName ref="loc000440">Werdenberg</placeName>,
+                        alls wellche sollches erheben, mit steigerung an gesechen und beschwert
+                        worden. <lb/>Da nun sei zu erhaltung einer satten gewüßheit, waß sei
+                        jährlichen in sollcher qualitet abstatten sollen, vor waß wenig jahren unß
+                        dißer, ihrer angelegenheit <lb/>verstendiget und pitliche werbung gethon,
+                        ihnnen mit gnediger willfertigkeit entsprochen worden. Nun haben sei seit
+                        har <date dur="R/P1Y">jedes jahrs</date> nach sollcher <lb/>disposition ein
+                        gleiche quantitet, namlichen von <measure quantity="57" type="volume"
+                           unit="Scheffel">fünffzig und siben schöffel</measure>
+                        <measureGrp><measure type="volume" unit="Viertel" quantity="1"
+                              commodity="grain">einem viertel</measure> und <measure type="volume"
+                              quantity="1.5" unit="Kopf" commodity="grain">ander halbem
+                              kopf</measure> koren</measureGrp>, von <measure quantity="1"
+                           type="volume" unit="Scheffel">jedem schöffel</measure>
+                        <lb/><measure quantity="27" type="currency" unit="bz">zwentzig und siben
+                           guet batzen</measure> bezalt. Sitenweilen aber sei hierumb mit keinem
+                           <term ref="lem002931">instrument</term> versechen, sei inn der bei sorg
+                        stehend, sollches in der ge<lb break="no"/>dechtnuß erlöschen unnd sei etwan
+                        von landtvögten old gesandten mit grösser an muetung angesuecht werden
+                        möchten. Deßwegen nechst undertheniger <lb/>bedangkhung dißer vätterlichen
+                           <unclear>nultigkeit</unclear>, ihr gantz angelegenliche pitt seige, wir
+                        wolten verdeüth, ihnnen ertheilte, erkantnuß und resolution <lb/>zu
+                        confirmiern, unß noch mahlen gefallen laßen unnd ihnnen hierumb brief und
+                        sigel under unßrem nammen und secret übergeben.</seg>
+                     <seg>
+                        <lb/>So danne auch dißen bericht mit underfächrende, daß die alte <term
+                           ref="lem000809">ordnung</term> und bestellung vermögen thüege,<note
+                           anchored="true">Vgl. dazu den <term ref="key000179">Eid</term> der
+                           Eigenleute von Wartau aus dem 16. Jh. <bibl><ref
+                                 target="https://www.ssrq-sds-fds.ch/online/SG_III_2/index.html#p_384"
+                                 >SSRQ SG III/2, Nr. 112</ref></bibl>.</note> daß wan sich
+                        ohnnruewen eröügen, <lb/>inmaßen, daß man den <term ref="lem001164"
+                           >sturm</term> ergehen lassen müesst, sei mit ihren <term ref="lem003435"
+                           >wehrn</term> dem <term ref="lem000376">schloss</term> zu lauffen sollen.
+                        Nun werend sei willig und geneigt, hierin <lb/>die gehorsamme ze thuen, wan
+                        aber in betrachtung gezogen worden, daß daß schloss daselbsten <term
+                           ref="lem005157">abgangen</term>, in gebrochen und in maßen be<lb
+                           break="no"/>schaffen, daß es ohnne <term ref="lem000360">tach</term> und
+                        von niemandem bewont werd und zu achten seige, weil dißere ordnung alt, sei
+                        darumb beschechen, daß sei alls <lb/>dann von einem herren, der daß <term
+                           ref="lem000376">schloß</term> besitze, commendirt werden, haben sei
+                        vermeint, unß belieben möcht, deß halb umb etwaß <term ref="lem002581"
+                           >enderung</term> zethuen.</seg>
+                     <seg>
+                        <lb/>Habend wir, waß den ersten puncten der <term ref="lem004542">huob
+                           gült</term> betrifft, ja löbentige entsinung, daß an geregter maßen, wie
+                        ein erkantnuß <lb/>gethon, deßwegen wir in behertzigung unnd ansechung der
+                        gestaltsamme, selbige nochmahlen in bester form bestettiget haben wollen,
+                           sollcher<lb break="no"/>maßen und mit der teütsch und heitern meinung,
+                        daß geredt, die unßern zu <orgName ref="org003725">Wartaw</orgName>
+                        <date dur="R/P1Y">jährlich</date> so vil für die huob gült legen und be<lb
+                           break="no"/>zallen sollen, wie sei jetz die jüngsten jahr gethon und oben
+                        vermelt ist, namlich von den <measure quantity="57" type="volume"
+                           unit="Scheffel">57 schöffel</measure>
+                        <measureGrp><measure type="volume" unit="Viertel" quantity="1"
+                              commodity="grain">1 fiertel</measure> und <measure type="volume"
+                              quantity="1.5" unit="Kopf" commodity="grain">1½ kopf
+                           korn</measure></measureGrp>, von <lb/>jedem schöffel <measure
+                           quantity="27" type="currency" unit="bz">27 bz</measure>. Und hierin under
+                        einichem vorwand weder von <term ref="lem002718">gsandten</term> noch <term
+                           ref="lem000266">landtvogten</term> gantz nit gesteigeret werden sollen
+                           <lb/><date dur="P40Y">viertzig jahr</date> lang, zu rechnen von der zeit
+                        an, alls unßer mitrath, herr landtvogt <persName ref="per002425a">Jacob
+                           Feltman</persName>, daß andere mahl seiner <placeName ref="loc000440"
+                           >Werdenbergischen</placeName>
+                        <lb/>regierung denn <term ref="lem004051">auffrit</term> genommen, so
+                        beschechen <origDate when="1650-05-15">zu miten mayo 1650</origDate>. Und ob
+                        ihnnen wider vertrowen gleich mehr an geforderet werden <lb/>solt, sei doch
+                        mehr nit zu bezallen schuldig sein sollen.</seg>
+                     <seg>
+                        <lb/>Hier bei auch zu wüßen, daß waß die <term ref="lem000038"
+                        >lechen</term>, so <term ref="lem015445">aman</term>
+                        <persName ref="per010047a">Jacob Müller</persName> und <lb/>seine mithaffte
+                        tragen, dißer brief selbige einicher gestalten nichts berüehrt, sondern
+                        selbige in ihrer absönderlichen beschaffenheit ver<lb break="no"
+                        />bleiben.</seg>
+                     <seg>Belangend demnach den andern puncten, befinden wir auch, daß es ein
+                        ohnnnottwendigkeit seie, weilen daß <lb/><term ref="lem000376"
+                           >schloss</term> bekantermaßen beschaffen und gantz öd, daß die unßren
+                        auff ergehenden <term ref="lem001164">sturm</term> sich zu dem selben thuen
+                        sollen. Und habend deßwegen <lb/>für daß künfftig geordnet, daß wan wegen
+                           <term ref="lem011244.04">kriegsentpörungen</term>, daß gott gnedig
+                        abwenden, <term ref="lem001164">sturm</term> ergehn müesst, sei nit mehr mit
+                        <lb/>ihren <term ref="lem003435">wehren</term> zu verdeüter <term
+                           ref="lem015882.02">schloss burg</term>, sondern auff den <term
+                           ref="lem001170.10">kirchhooff</term> lauffen, daselbsten sich besamlen
+                        und erwarten sollen, wo man sei <lb/>dann commendirn werde.</seg>
+                     <seg>In crafft diß briefs und deß alles zu wahrem urkhundt, so haben wir unßers
+                        landts secret insigel (doch unß <lb/>inn all ander weg an unßerer hochheit,
+                        recht und gerechtigkeit ohnn præjudicierlich), offentlich gehengkht an dißen
+                        brief, der geben, den <origDate when="1653-09-22">22.ten <lb/>september nach
+                              <persName ref="per000353">Christi Jesu</persName> heillsame geburt
+                           gezelt sächtzächen hundert fünfftzig und dreüw jahre</origDate>. </seg>
+                  </p>
+               </div>
+               <pb facs="LAGL_AG_III.2425_001v"/>
+               <div org="uniform" sample="complete">
+                  <ab type="dorsal" place="verso" hand="hand17c">
+                     <lb/>Urkund wegen der <term ref="lem004542">huobgült</term> und <lb/>deß <term
+                        ref="lem000318">gelts</term> darfür und dann auch, <lb/>wie sich die
+                        <orgName ref="org003725">Warthauwer</orgName> in kriegsstürmen <lb/>samlen
+                     sollind, anno 1653</ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab type="archiving reference" place="verso">
+                     <lb/>
+                     <del>N<hi rend="sup">o</hi> 214</del> N<hi rend="sup">o</hi>44</ab>
+               </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div n="1" org="uniform" sample="complete">
+            <p>Zu den <term ref="key000810">Hubgülten</term> in <placeName ref="loc000827"
+                  >Wartau</placeName>
+               <!-- Herrschaft nicht Gemeinde, richtig? ja --> vgl. auch die <term ref="key000122"
+                  >Urbare</term>, wonach die <term ref="key000154">Zinsen</term> auf den <date
+                  when="--02-01">1. Februar</date> zu entrichten sind (so z. B. das Urbar von
+                  <placeName ref="loc007867">Werdenberg-Wartau</placeName> von <date when="1543"
+                  >1543</date>
+               <bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/c7e914fc9ab545c0972480eeb2eb63fd"
+                     >LAGL AG III.2401:035</ref>, S. 71–108</bibl> oder von <date when="1581"
+                  >1581</date>
+               <bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/c2059982dff24cf4a39e89d03ce5013a"
+                     >LAGL AG III.2401:037</ref>, S. 111–141</bibl>) sowie die sogenannten Hubrodel
+               oder Hubzinsrodel (<bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/391ce7139c0d44d4875e17903d3d8751"
+                     >LAGL AG III.2401:005</ref></bibl> [1613]; <bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/04a40ce5c5d94d86a8d5aa0fca075637"
+                     >LAGL AG III.2401:023</ref></bibl> [1629–1678]; <bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/4349d738105d4caeacbedbffea72e083"
+                     >LAGL AG III.2401:030</ref></bibl> [1714–1720]; <bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/f3a3a3c5606a446eb4e41b15a924e363"
+                     >LAGL AG III.2401:031</ref></bibl> und <bibl><ref>StASG AA 3 B 3</ref></bibl>
+               [1784]; <bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/32d7b89bf36e4be3b0d07986b0295321"
+                     >LAGL AG III.2401:029</ref></bibl> [Register von 1784].) Vgl. auch die
+               Schreiben oder Notizen über die Erneuerung der Hubzinsrodel <bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/51da6ebe57e045f2827dc2bf0adf37d5"
+                     >LAGL AG III.2433:008</ref></bibl>; <bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/9e6bc2192f764f5a9c90a57c0ff89c20"
+                        >LAGL AG III.2430:030</ref></bibl>; <bibl><ref copyOf="https://archivverzeichnis.gl.ch/home/#/content/60be1731c3ba4fa0ab5f035ececece9e">LAGL AG III.2430:031</ref></bibl>. </p>
+            <p>Zum Konflikt zwischen <orgName ref="org001197">Glarus</orgName> und <orgName
+                  ref="org003725">Wartau</orgName> um ausstehende <term ref="key000810"
+                  >Hubzinsen</term> (1730–1731) vgl. <bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/5c2f1dfe8ecb40de9396c5c3968e6287"
+                     >LAGL AG III.2430:026</ref></bibl>; <bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/5b8aa20253b34b08a12baedeecf248b0"
+                     >LAGL AG III.2430:027</ref></bibl>; <bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/8e205d19e44e4e249797f98ac767f858"
+                     >LAGL AG III.2430:037</ref></bibl>; <bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/cd58e6a91b1b4549a34ff6a35474bfad"
+                     >LAGL AG III.2430:032</ref></bibl>; <bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/b2bed6787dbb4be2be71352ab98db6c3"
+                     >LAGL AG III.2430:033</ref></bibl>; <bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/278909a5a2d8434c9a11b51fcc3816e3"
+                     >LAGL AG III.2425:006</ref></bibl>. Weitere Quellen zu den Hubzinsen:
+                     <bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/e1fdb429f7b64a06b9457149249308ec"
+                     >LAGL AG III.2427:055</ref></bibl>; <bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/9f8e52aaa39f4533a1583a7b97f5b864"
+                     >LAGL AG III.2429:027</ref>, S. 17</bibl>. </p>
+         </div>
+         <div n="2" org="uniform" sample="complete">
+            <p>Der <term ref="key003565">Versammlungsplatz</term> bei der Burg <placeName
+                  ref="loc000829">Wartau</placeName> bei Kriegsgefahr ist auch im <term
+                  ref="key000179">Eid</term> der <term ref="key000085">Leibeigenen</term> der
+               Herrschaft <placeName ref="loc000827">Wartau</placeName> aus dem <date
+                  from="1501-01-01" to="1600-12-31">16. Jh.</date> festgehalten (<bibl><ref
+                     target="https://www.ssrq-sds-fds.ch/online/SG_III_2/index.html#p_384">SSRQ SG
+                     III/2, Nr. 112</ref></bibl>). Die Burg wird wahrscheinlich bereits vor Mitte
+               des 16. Jh. verlassen und gegen Ende des Jahrhunderts zeigen sich erste
+               Verfallserscheinungen (Literatur:  <ref
+                  target="http://permalink.snl.ch/bib/chbsg000038423">Graber 2003</ref>, S. 88–89;
+                     <bibl><ref target="http://permalink.snl.ch/bib/chbsg000142793">Winteler
+                     1923</ref>, S. 121</bibl>).</p>
+         </div>
+      </back>
+   </text>
+</TEI>

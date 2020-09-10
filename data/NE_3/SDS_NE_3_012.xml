@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="headerinfo"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <date type="electronic" when="2020-08-17"/>    <date type="print"/>
+    <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Collection des sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS_NE_3_012</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier>
+      <idno>AVN B 101.14.001, fol. 360v–361v</idno>
+     </msIdentifier>
+     <head>Tutelle des orphelins</head>
+     <msContents>
+      <summary>En cas de décès des parents et à moins de dispositions testamentaires spécifiques, la
+       tutelle des orphelins échoit au côté paternel. Le choix d’un tuteur dans le testament est
+       libre, qu’il soit issu du côté maternel ou extérieur à la famille.</summary>
+      <msItem>
+       <textLang>français</textLang>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="33"/>
+          <width unit="cm" quantity="23.5"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <origDate when="1581-01-27"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>
+      </origin>
+     </history>
+     <additional>
+      <listBibl>
+       <head/>
+       <bibl/>
+      </listBibl>
+     </additional>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term/>
+     <term ref="key000997"/>
+     <term ref="key005061"/>
+     <term ref="key000311"/>
+     <term ref="key000925"/>
+     <term ref="key005111"/>
+    </keywords>
+   </textClass>
+   <particDesc default="false"/>
+   <settingDesc default="false"/>
+  </profileDesc>
+ </teiHeader>
+ 
+ <text>
+  <group>
+   <text>
+    <body>
+     <pb n="360v" facs="AVN_B_101.14.001_0360v"/>
+     <div>
+      <head>
+       <lb/>Declaration à qui la <lb/>tutelle des enffans appartient apres le <lb/>deceds du pere
+       &amp; de la mere. </head>
+      <p>
+       <lb/>Je, <persName ref="per010595">Claude Clerc</persName>, du <orgName ref="org003085"
+        >Conseil</orgName> et à present mayre de la <lb/>Ville de <placeName ref="loc007786"
+        >Neufchastel</placeName>, au nom &amp; pour la part de tres illustre <lb/>&amp; puissante
+       dame &amp; princesse <persName ref="per010524">Marie de Bourbon</persName> duchesse <lb/>de
+        <placeName ref="loc008493">Longueville</placeName> &amp; de <placeName ref="loc008494.02"
+        >Toutteville</placeName>, comtesse souveraine dudict <lb/><placeName ref="loc007785"
+        >Neufchastel</placeName> et de <placeName ref="loc005950.05">Vallangin</placeName> &amp;
+       mere tutrice ayant le bail <lb/>et gouvernement noble de <persName ref="per010525"
+        >Henry</persName> &amp; <persName ref="per010529">François d’Orleans</persName> nos
+       <lb/>souverains princes ses tres chers &amp; tres aymez enffans <lb/>faire sçavoir à qu’il
+       appartiendra, que pardevant moy et <lb/>les sieurs conseillers dudit lieu cy apres nommez
+       comparus <lb/>sont les honnorables et discrets <persName ref="per010621a.01">Jehan
+        Perrochet</persName> de <lb/><placeName ref="loc007815.03">Aulvernier</placeName>,
+       secretaire de la justice de <placeName ref="loc008513.02">la Coste</placeName>, <persName
+        ref="per010622a.01">Blaise <lb/>Bonhoste</persName> notaire, <persName ref="per010623"
+        >Pierre Preudhon</persName> &amp; <persName ref="per010624a">Pierre Vuatel</persName>
+       <lb/>de <placeName ref="loc007879">Peseux</placeName>, tous bourgeois dudict <placeName
+        ref="loc007786">Neufchastel</placeName>, exposans <lb/>par la bouche de leur <term
+        ref="lem016298">parlier</term> avoir besoin d’un poinct de <lb/>coustume duquel ils
+       pretendent se servir. Et d’aultant que <pb n="361r" facs="AVN_B_101.14.001_0361r"/>
+       <lb/>ceste Ville est le lieu capital et le chef de tout ce Comté <lb/>demandant par
+       declaration judicialle leur declarer, assavoir <lb/><term ref="lem016286">mon</term>
+       <choice>
+        <abbr>quad</abbr>
+        <expan>quand</expan>
+       </choice> le pere et la mere deceddent de ce monde, et ilz <lb/>delaissent des enffans un ou
+       plusieurs à qui directement <lb/>selon lesdicts us et coustume dudict <placeName
+        ref="loc007785">Neufchastel</placeName> la tutelle <lb/>regime et gouvernement de leurs
+       corps et biens doibt <lb/>appartenir soit du costé paternel ou maternel. </p>
+      <p>
+       <lb/>Et je ledit mayre en demanday sur ce le droit et declaration <lb/><orgName
+        ref="org003085">esdicts <choice>
+         <abbr>S<hi rend="sup">rs</hi></abbr>
+         <expan>seigneurs</expan>
+        </choice> conseillers</orgName> apres avoir heu advis et conseil par <lb/>ensemble m’ont
+       rapporté &amp; declaré par une voix que la <lb/>coustume de ceste Ville principal membre
+       &amp; lieu capital de <lb/>tout ce Comté dudict <placeName ref="loc007785"
+        >Neufchastel</placeName>, a esté et est encore telle <lb/>pratiquée et usitée de pere à fils
+       de tout le temps passé <lb/>jusques à maintenant que quand le pere et la mere <lb/>deceddent
+       de ce monde, et ils delaissent des enffans, on a <lb/>tousjours veu que vrayement la tutelle,
+       regime et <lb/>gouvernement de leurs corps et biens, doibt de plein droict <lb/><term
+        ref="lem016267.02">competer</term> et appartenir aux proches parens du costé paternel
+       <lb/>advenant que les deffuncts n’en ayent ordonnés par <lb/>testament, mais n’en ayant point
+       faict autre denomination <lb/>et declaration lesdicts parents peuvent si bon leur semble
+       <lb/>eslire &amp; choisir des tuteurs parens dudict costé paternel, voire <lb/>mesmes autres,
+       encores qu’ils ne soyent parens, comme bon <lb/>leur semblera, et que mieux ils adviseront,
+       ou bien lesdicts <lb/>parens pourront tirer à eux ladicte tutelle et la commettre <lb/>à
+       personnages qu’ils verront estre de besoin, et touttesfois <lb/>suffisans propres et capables
+       à l’exercice et execution de <lb/>telle charge, ou bien à deffault de parens proches, mesmes
+       <lb/>ne desirant ladicte charge et tutelle s’approchans pardevant <lb/><orgName
+        ref="org003119">messieurs les Quatres Ministraux</orgName> comme pere des orphelins <pb
+        n="361v" facs="AVN_B_101.14.001_0361v"/>
+       <lb/>pour les requerir et supplier d’y pourvoir, c’est alors à <lb/>leur puissance et charge
+       d’y commettre un ou plusieurs <lb/>tuteurs sans reffus ny difficulté, n’ayant jamais vue
+       <lb/>qu’en cestedicte Ville et Comté la <term ref="lem015946">tuition</term> et tutelle
+       d’enffans <lb/>orphelins soit parvenue ny moins administrée du costé <lb/>maternel, sans le
+       consentement et advis des plus proches <lb/>parens du paternel. Et telle a esté et est
+       encores la <lb/>coustume usité de tout temps sans memoire du contraire, <lb/>laquelle
+       declaration judiciallement faicte comme dit est <lb/>lesdicts <persName ref="per010621"
+        >Perrochet</persName> et consors ont demandé avoir par <lb/>escript pour eulx <add
+        place="above">en</add> servir ou mestier leur fera. Ce que leur <lb/>a esté cogneu &amp;
+       adjugé, soubs le <term ref="lem016327">seel</term> de la mayorie dudict <lb/><placeName
+        ref="loc007786">Neufchastel</placeName> &amp; seing manuel du secretaire de ladicte justice
+       <lb/>par les honnorables prudents et sages <persName ref="per010594a.01">Jehan
+        Trybollet</persName>
+       <lb/><term ref="lem016294">banderet</term>, <persName ref="per010601a.01">Jehan
+        Poury</persName>, <persName ref="per010625a.01">Louys Descostes</persName>, <persName
+        ref="per010600">Jonas <lb/>Merveilleux</persName>, <persName ref="per010515">Pierre
+        Quelin</persName>, <persName ref="per010602a.01">Guillaume Henry dit Dallemagne</persName>,
+        <lb/><persName ref="per010626">Jacques Stesf</persName>, <persName ref="per010634a.01"
+        >Guilliaume Hudry</persName>, <persName ref="per010635">Pierre Jacquemet</persName>,
+        <persName ref="per010603a.01">Jehan <lb/>Vuillame</persName>, <persName ref="per010508"
+        >Daniel Huguenaud</persName>, <persName ref="per010636a.01">Loys Ustervaldes</persName>,
+        <persName ref="per010510a.01">Jehan <lb/>Grenot</persName>, <persName ref="per010574a.01"
+        >Jehan Bourgeois dict Blanc</persName>, <persName ref="per010606a.01">Pierre
+        Favergier</persName>, <lb/><persName ref="per010607a.01">Henry Bourgeois dict
+        Coinchely</persName>, <persName ref="per010575">Jacques Hudryet</persName>, <persName
+        ref="per010611">Perrenet <lb/>Bretel</persName>, <persName ref="per010613">Josué
+        Huguenaud</persName> &amp; <persName ref="per010615a.01">Jehan <add place="above"
+         >Jacques</add> Jaquemet</persName> tous <lb/>conseillers dudict <placeName ref="loc007786"
+          >Neufchastel</placeName> le <origDate when="1581-01-27">vingt septiesme de <lb/>janvier l’an
+        de salut mille cinq cents quatre vingts et <lb/>un</origDate>. Signée par le <choice>
+        <abbr>S<hi rend="sup">r</hi></abbr>
+        <expan>sieur</expan>
+       </choice>
+       <persName ref="per010617a.01">Jehan Petter</persName>. </p>
+      <p>
+       <lb/>Coppie prinse &amp; collationnée à son original par moy <lb/><persName
+        ref="per010433a.01"><choice>
+         <abbr>D</abbr>
+         <expan>David</expan>
+        </choice> Baillod</persName>. </p>
+      <p>
+       <lb/><handShift/>Et par moy <choice>
+        <abbr>not</abbr>
+        <expan>notaire</expan>
+       </choice> fidelement extraict <lb/>de <choice>
+        <abbr>lad</abbr>
+        <expan>ladite</expan>
+       </choice> copie sans mutations. </p>
+     </div>
+     <div>
+      <signed><persName ref="per010440">Carrel</persName>
+       <figure type="notarial sign"/></signed>
+     </div>
+    </body>
+    <back>
+     <div>
+      <p>Ce point de coutume est cité dans le point <ref>SDS_NE_3_254</ref>.</p>
+     </div>
+    </back>
+   </text>
+   
+  </group>
+ </text>
+</TEI>

@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+
+			</titleStmt>
+
+			<publicationStmt>
+				<date type="electronic" when="2019-03-20"/>
+				<date type="print"/>
+			</publicationStmt>
+
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ_FR_I_2_8_0035_005</idno>
+			</seriesStmt>
+
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<idno>StAFR, Thurnrodel 10, S. 296–297</idno>
+					</msIdentifier>
+					<head>Anna Page-Dulin – Verhör / Interrogatoire</head>
+					<msContents>
+						<summary></summary> 
+						<msItem>
+							<textLang>fr, de</textLang> 
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support>
+									<material></material>
+								</support>
+								<extent>
+									<dimensions type="leaves">
+										<height unit="cm" quantity="0.0"/>
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+									<dimensions type="plica">
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+								</extent>
+							</supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1611-08-12"></origDate>
+							<origPlace></origPlace>
+						</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+							
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc> 
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+			<particDesc default="false"/>
+			<settingDesc default="false"/>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+				
+						<pb n="296"/><p><lb/>Im <placeName ref="loc007683.02">bösen thurn</placeName>, <origDate when="1611-08-12">12 <foreign xml:lang="la">augusti</foreign> 1611</origDate>
+							<seg><lb/><foreign xml:lang="la">Judice</foreign> <abbr>h</abbr> <choice><abbr>groß</abbr> <expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per009100">Rudolf Weck</persName>.</note></seg>
+							<seg><lb/><foreign xml:lang="la">Presentibus</foreign> <abbr>h</abbr> <persName ref="per009101">Keller</persName>, <persName ref="per009102">Amman</persName></seg>
+							<seg><lb/><persName ref="per009128">Gurnel</persName>, <persName ref="per009103">Zum Holtz</persName></seg>
+							<seg><lb/><persName ref="per009106">Tumbe</persName>, <persName ref="per009105">Pavillard</persName></seg>
+							<seg><lb/>Weybel</seg></p>
+							
+						<p><seg><lb/><add place="left margin"><foreign xml:lang="la"><choice><abbr>ßt</abbr><expan>Solvit</expan></choice></foreign> <measure type="currency" unit="lb" quantity="3">3 </measure>.</add></seg> 
+						<seg>Ayant mes honorés seigneurs de la justice examiné et 
+						<lb/><term ref="lem018774.04">admonesté</term> la devant <choice><abbr>noee</abbr><expan>nommee</expan></choice> <persName ref="per009210">Anna Dulin</persName> a debvoir dire 
+						<lb/>la pure verité sur les articles <subst><del>s</del><add place="inline">a</add></subst> elle proposés au 
+						<lb/>contenuz de l’examen contre elle levé, <subst><del>il</del><add place="inline">icelle</add></subst> n’a vouluz 
+						<lb/>confesser aucun point, ains a soustenuz estre entierement 
+						<lb/>innocente de tout ce qu’on l’auroit accusee.</seg> <seg>Deneguant 
+						<lb/>n’avoir donné aucun <term ref="lem015011">lait</term> au <term ref="lem015172">pasteur</term> d’<placeName ref="loc007902.02">Escuvillens</placeName> ou <subst><del>st</del><add place="inline">a</add></subst> 
+						<lb/>ses gens pour leur faire mal, ny a persone que ce soit, 
+					<pb n="297"/><lb/><choice><abbr>coe</abbr><expan>comme</expan></choice> aussy de n’avoir touché la viande que <persName>Christina</persName>, fillie 
+						<lb/>dudit <term ref="lem015172">pasteur</term>, pourtoit a son <term ref="lem015008.02">foudard</term>. A dit que jamais elle 
+						<lb/>aye fait perdre le <term ref="lem015011">lait</term> <subst><del>ny</del><add place="inline">a gens</add></subst> ny bestes. Si aucuns 
+						<lb/>sont devenuz malades, ladite prisoniere a dit n’en estre 
+						<lb/>cause, <choice><abbr>coe</abbr><expan>comme</expan></choice> elle mesme l’a esté aussy et les siens, ne 
+						<lb/>voulant toutesfois dire que persone leur aye donné 
+						<lb/>la maladie.</seg> <seg>Dadvantage a denegué n’avoir fait 
+						<lb/>aucun enfant estropié ou <term ref="lem015148.02">deible</term> de ses membres&#160;; 
+						<lb/>et singulierement l’enfant de <persName>Franceysa Roc</persName>, lequel 
+						<lb/>est venuz sur terre tout <term ref="lem015148.02">deible</term>, ayant une grosse teste.</seg> 
+						<seg><lb/>Confessant par aprés avoir esté a l’enfantement de 
+						<lb/><persName>Franceysa Robin</persName>, a laquelle elle a pourté des oeufs, 
+						<lb/>ne sachant de mellieur. Si son enfant est mort par aprés, 
+						<lb/>ladite detenue s’est excusee de ne sçavoir la cause, pour 
+						<lb/>ce qu’elle <subst><del>s’en est allee</del><add place="inline">s’est enallee</add></subst> et departie de la sans 
+						<lb/>y arrester gueres.</seg> <seg>Du <term ref="lem015146.02">laqué</term> d’<placeName ref="loc007901.02">Aulteripue</placeName>, a dit <choice><abbr>coe</abbr><expan>comme</expan></choice> 
+						<lb/>cy devant, n’avoir eu aucune dispute avec luy pour le 
+						<lb/>regard du <term ref="lem015149.02">diesme</term> appartenant a ladite <unclear><choice><abbr>voe</abbr><expan>votre</expan></choice></unclear> maison.</seg> <seg>A dit 
+							<lb/>n’estre <term ref="lem018895.04">marquee</term> du <term ref="lem017521">diable</term>, ny estre sorciere, ains avoir 
+						<lb/>vescuz le jour de sa vie a la crainte de Dieu, le 
+						<lb/>priant qu’il luy veuille en ses tribulations et torments 
+						<lb/>secourir et luy donner patience.</seg> <seg>A esté eslevee par 
+							<lb/>trois fois sans <term ref="lem018285">pierre</term>&#160;; et elle n’a vouluz confesser 
+						<lb/>aucun crime, criant mercy a Dieu et a messeigneurs.</seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+

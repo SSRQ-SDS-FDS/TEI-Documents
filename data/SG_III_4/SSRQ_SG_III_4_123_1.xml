@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften
+     und Landstädte, Band 4: Die Rechtsquellen der Grafschaft Werdenberg, Freiherrschaft
+     Sax-Forstegg und Herrschaft Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-08-19"/>
+            <date type="print"/>
+            <availability><p xml:id="facs">Staatsarchiv St. Gallen (StASG)</p></availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_123_1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>StASG AA 3 U 13</idno>
+               </msIdentifier>
+               <head>Vertrag zwischen Landammann und Rat von Glarus und Ulrich Philipp von Sax-Hohensax wegen der Rechte am Fährbetrieb bei Bendern</head>
+               <msContents>
+                  <summary><p>Landammann und Rat von Glarus und Freiherr Ulrich Philipp von Sax-Hohensax, Herr von Forstegg und Bürglen, klären ihre Ansprüche auf Frevel und Bussen an der Fähre bei Bendern. Glarus, als Lehensherr, verzichtet solange auf die Gerichtsrechte über die Fähre, wie der umliegende Grund und Boden nicht zur Herrschaft Werdenberg gehört. Der Freiherr, als Gerichtsherr, verzichtet auf alle Lehenrechte an der Fähre und verspricht, den Fährbetrieb zu schützen.</p>
+<p>Die Aussteller siegeln.</p></summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <filiation type="current">Original</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Pergament</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="26.0"/>
+                              <width unit="cm" quantity="57.5"/>
+                           </dimensions>
+                           <dimensions type="plica">
+                              <width unit="cm" quantity="5.0"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <sealDesc>
+                     <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI"
+                           n="1"
+                           nontei:condition="well-preserved"
+                           nontei:material="wax"
+                           nontei:shape="round"
+                           nontei:attachment="sealed on a parchment tag"
+                           facs="StASG_AA_3_U_13_s">
+                        <orgName role="sigillant" ref="org003239">Landammann und Rat von Glarus</orgName>
+                     </seal>
+                     <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI"
+                           n="2"
+                           nontei:condition="absent"
+                           nontei:attachment="sealed on a parchment tag">
+                        <persName role="sigillant" ref="per004426a">Freiherr Ulrich Philipp von
+           Sax-Hohensax</persName>
+                     </seal>
+                  </sealDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate from="1546-01-01" to="1546-12-31">Ohne Monat und Tag.</origDate>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head>URLs</head>
+                     <bibl type="url">https://login.gmg.biz/earchivmanagement/projektdaten/earchiv/Media/GAS_U142_1546.pdf</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key003933">Frevel und Bussen</term>
+               <term ref="key000590">Delikt</term>
+               <term ref="key000704">Schiffahrt</term>
+               <term ref="key000703">Fähre</term>
+               <term ref="key000494">Gerichtskompetenz</term>
+               <term ref="key000022">Lehen</term>
+               <term ref="key000280">Lehenherr</term>
+               <term ref="key000817">Vertrag</term>
+               <term ref="key000889">Kompetenzkonflikt</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <div>
+                  <pb facs="StASG_AA_3_U_13_r"/>
+                  <p><seg>
+                     <lb/>Wir, der <orgName ref="org003239">landtamman und gantzer gsessner rath des lands zuͦ
+                        <placeName ref="loc000326">Glarus</placeName></orgName>, an einem, und ich, <persName
+                           ref="per004426a">Uͦlrych Philips, fryher von der Hochen Sax, herr zuͦ <placeName
+                              ref="loc000278">Vorsteg</placeName> und <placeName ref="loc006070.05"
+                                 >Burglon</placeName></persName>, am anderen, bekennend all gmeinlich und jedertheil
+                     besunders <lb/>fur uns und unser ewig nachkommen und thuͦnd kund mencklichem mitt disem
+                     brieff, nach dem sich under uns beidersyt irrung und mißverstand gehalten als von wegen der
+                     <term ref="lem008562">fräfflen und buͦssen</term>, ouch <lb/>den <term ref="lem002102.06"
+                        >feeren</term> des <term ref="lem002098.04">fars</term> zuͦ und bi <placeName
+                           ref="loc000689.02">Benderen</placeName> am <placeName ref="loc000644"
+                              >Rhyn</placeName>.</seg>
+                     <seg>Also das wir, gemelt von <orgName ref="org003239">Glarus</orgName>, bißhar vermeint und
+                        vorhabens gwesen, wyl und gemelt <term ref="lem002098.02">faar</term> unser <term
+                           ref="lem000038">lechen</term> vor, nachher und von alt herhar am <placeName
+                              ref="loc007880.02">Tenschen Gra<lb break="no"/>ben</placeName> uff unser herschafft
+                        <placeName ref="loc000440">Werdenberg</placeName>
+                        <term ref="lem008920">gruͦnd und boden</term> glegen. Demnach aber von komlicheyt wegen den
+                        hin und wider wandlenden in der selbigen gegne und <term ref="lem009717.02">zirck</term> zuͦ
+                        gemach und guͦtten, ouch mitt guͦnst, <lb/>wussen und willen der selbigen unser graffschafft
+                        domalen rechten <term ref="lem002624">besitzeren</term> und herren an gemelt end und flecken
+                        zuͦ und bi <placeName ref="loc000689.02">Benderen</placeName> angsechen und gleyt worden.
+                        Das uß sölchen fug und ursachen <lb/>die <term ref="key003933">fräffel und buͦssen</term>,
+                        so zuͦ jeder zyt an disem <term ref="lem002098.02">faar</term> durch den <term
+                           ref="lem002102.03">feren</term> und ander in und ussert dem <term ref="lem002104"
+                              >schiff</term>
+                        <term ref="lem006037">verwurckt</term> und <term ref="lem010917">verfallen</term>, uns als
+                        des fars rechten <term ref="lem000960">lechenherren</term> nachvolgen, zuͦgehören und
+                        innemlich <lb/>wären und sin sölten, nütt minder dan vor am <placeName ref="loc007880.02"
+                           >Tenschen Graben</placeName> beschechen, welcher unser vermuͦttung aber wolgemelter fryher,
+                        unser guͦtter lieber her und fründ, uns nitt zuͦlassen noch gestenndig <lb/>sin wellen,
+                        sunder er des vorhabens so vil und gedacht far jetz uff und in sinen <term ref="lem000975"
+                           >hoch</term> und <term ref="lem000976">nideren gerichten</term> der herschafft <placeName
+                              ref="loc000278">Vorsteg</placeName>
+                        <term ref="lem008920">grund und boden</term> gelegen, das ime davon all und jede fräffel und
+                        buͦssen, <lb/>hoch und nider, an disem faar, es sy vom veren oder anderen, in und ussert dem
+                        schiff, verfallen, volgen, zuͦgehören und innemlich sin söllen.<note>Bei der online Edition
+                           des Vertrags im e-archiv.li handelt es sich um eine Abschrift aus dem <ref
+                              target="https://login.gmg.biz/earchivmanagement/projektdaten/earchiv/Media/GAS_U142_1546.pdf"
+                              >GA&#160;Schaan U142</ref>, die hier abbricht.</note></seg>
+                     <seg>Dargegent ich, obbemelter <persName ref="per004426a">Uͦlrych Philips</persName>, <choice>
+                        <abbr>fry</abbr>
+                        <expan>fryherr</expan>
+                     </choice>, bißhar ouch <lb/>vermeint und vorhabens gsin, das ich uß krafft derselbigen miner
+                        gerichten und herlicheyt, darin jetz sölichs far glegen, ich ein jeden feren alda umb all
+                        <term ref="lem015093">fäl</term> und <term ref="lem009471">mißhandlung</term> mines
+                        gefallens in und ussert <lb/>sinen <term ref="lem014808.02">farpflicht</term> zestraaffen,
+                        zerechtfertigen, zesetzen und entsetzen hab und haben sölte. Das aber wolgedachte min lieb
+                        herren und guͦtt fründ von <orgName ref="org003239">Glarus</orgName> nütt gestendig noch
+                        zuͦlassen wellen, sun<lb break="no"/>ders vermeynen und sind des entlichen vorhabens, das sy
+                        uß krafft irs <term ref="lem000038">lechens</term> den selbigen und ein jeden heren diß
+                        <term ref="lem002098.04">fars</term> zu jeder zyt irs gfallens umb fäl und mißhandlung die
+                        far pflicht berürend zestraffen, <lb/>zerechtfertigen, zesetzen und entsetzen habind und
+                        haben söllen.</seg>
+                     <seg>Und domitt aber und uns zuͦ beider syt sölch unser irrung und mißverstand durch
+                        erzeigung früntlich und nachpürlichs gmütz <lb/>fürohin wie ouch bißhar on einigen gezanck,
+                        rechtens hingnommen, einen jeden das göttlich und billich blibe und erfolgt werd, hierumb so
+                        haben wir, von <orgName ref="org003239">Glarus</orgName>, uns der zyt gruntlich erwegen,
+                        nach<lb break="no"/>dem wir uß unseren brieffen und gwarsamen, so wir umb diß <term
+                           ref="lem002098.04">far</term> und <term ref="lem000038">lechen</term> haben, nütt befinden
+                        mögen, wyl das weder uff unserem grund noch boden, gricht noch gebietten mer glegen (wie
+                        vormals), <lb/>das uns noch unseren nachkommen alda thein <term ref="key003933">fräfel noch
+                           buͦssen</term>, hoch noch nider, in noch ussert dem <term ref="lem002104">schiff</term>,
+                        vom <term ref="lem002102.03">feren</term> oder anderen verfallen weder sträfflich zugehörig
+                        noch innenlich sind noch sin söllen, sun<lb break="no"/>ders wir das alles hiemitt und in
+                        krafft diß brieffs den selbigen obberkeyten, in dero gricht und herlicheyten sölch <term
+                           ref="lem002098.02">faar</term> jetz glegen, damitt nach iren willen zeschaffen,
+                        unverhindert unser, heim <lb/>und zuͦ geben wellen und söllen. Doch alles mitt der
+                        bescheidenheyt und heyter vorbehalt, wan diß, unser lechen und faar zuͦ mittler zyt, wan das
+                        wär, durch uns oder unser nachkommen wider<lb break="no"/>umb uff unser herschafft
+                        <placeName ref="loc000440">Werdenberg</placeName>
+                        <term ref="lem008920">grund und boden</term> angsechen und glegt wurd, das uns als dan diß
+                        <term ref="lem014809.02">ubersagung</term> gegent wolgemelten fryherren und sinen
+                        nachkommen, ouch gegent wen das wär, <lb/>nütt mer binden, sunder uns solch fräfel und
+                        buͦssen widerumb und wie von altherhar nachfolgen zuͦ gehören söllen.</seg>
+                     <seg>Desglych ich, <persName ref="per004426a">Uͦlrich Philips,</persName>
+                        <choice>
+                           <abbr>fry</abbr>
+                           <expan>fryherr</expan>
+                        </choice>, glicher erwegung nach befunden hab, das <lb/>ich noch min nachkommen gegent disem
+                        und einem jeden <term ref="lem002102.03">feren</term> indert der rechtsame der <term
+                           ref="lem014808.03">faar pflicht</term> und umb <term ref="lem015093">fäl</term> und <term
+                              ref="lem009471">mißhandlung</term> siner <term ref="lem005093.07">lechenpflicht</term>
+                        nützit zesprechen, zerechtfertigen weder zesetzenn <lb/>noch entsetzen hab noch haben
+                        söllen. Derhalb wir das alles denen, so diß fars <term ref="lem000960">lechen herren</term>
+                        sind und sin wurden, unverhindert unßer hein und zuͦgeben wellen und söllen ouch in krafft
+                        diß gegen<lb break="no"/>wurtigen brieffs. Wyl und von gedachter miner gerichten und
+                        herlicheitt wegen mir sölch <term ref="key003933">fräffel und buͦssen</term> (wie vor
+                        anzeigt) sträfflich zuͦgehörig und innenlich sind und sin söllen, darumb so sol <lb/>und wil
+                        ich, mine nachkommen, furbaß so lang und vil sölch far in minen gerichten und gebietten
+                        gelegen, ein jeden feren des selbigen fars zuͦ jeder zyt vor gwalt und unbill mencklichs
+                        helffen <lb/><term ref="lem000207">schirmen</term>.</seg>
+                     <seg>Uff das gereden wir, dick gemelt beid parthyen, by unseren eeren und zuͦ guͦtten trüwen
+                        disen fruntlichen und güttlichen unseren <term ref="lem002880">vertrag</term> und was an
+                        disem brieff stadt, war <lb/>und stät ze halten, darwider nütt zesin noch zethuͦn oder durch
+                        niemant verschaffen gethon werden, theinerley wyß noch weg, alles erbarlich und on all
+                        gfärd.</seg>
+                     <seg>Und zuͦ warem, offen <lb/>urkund haben wir, von <orgName ref="org003239"
+                        >Glarus</orgName>, fur uns und unser nachkommen unsers lands insigel, und ich, <persName
+                           ref="per004426a">Uͦlrich Philips</persName>, <choice>
+                              <abbr>fry</abbr>
+                              <expan>fryherr</expan>
+                           </choice>, für mich, mine erben und nachkommen min angeboren insigel an disen <lb/>brieff,
+                        dero zwen glich lutend gmacht<note>Duplikat: <bibl><ref>StAZH C I, Nr.&#160;3203</ref></bibl>.</note> und
+                        jedentheill einer geben worden, angehenckt, bschechen uff <space quantity="7" unit="cm"/> im
+                        jar nach <choice>
+                           <abbr>Chri</abbr>
+                           <expan>Christi</expan>
+                        </choice>, unsers heilands, geburt zelt <origDate when="1546">tusent <lb/>funffhundert
+                           viertzig und sechs jare</origDate>.</seg>
+                  </p>
+               </div>
+               <pb facs="StASG_AA_3_U_13_v"/>
+               <div>
+                  <ab type="dorsal" place="verso" hand="hand16c"><lb/>Güttlich bekommnüß zwüschent <lb/>denen
+                     von <orgName ref="org003239">Glarus</orgName> und dem <persName ref="per004426a">fry<lb break="no"/>herren von Sax</persName>
+                     belangend buͦß<lb break="no"/>sen und <damage agent="ink blot"><unclear>die</unclear></damage> feren am far zuͦ
+                     <lb/><placeName ref="loc000689.02">Benderen</placeName></ab>
+               </div>
+               <div>
+                  <ab type="archiving reference" place="verso"><lb/>Werd N<hi rend="sup">o</hi> 13; N
+                     <del>188</del>; <del>N 96</del>; 1546</ab>
+               </div>
+            </body>
+         </text>
+      </group>
+      <back><div n="1"><p><orgName ref="org003239">Landammann und Rat von Glarus</orgName> und <persName ref="per004426a"
+         >Ulrich Philipp von Sax-Hohensax</persName> schliessen hinsichtlich der von ihnen beiden
+         beanspruchten Rechte am <term ref="key000703">Fährbetrieb</term> bei <placeName ref="loc000689"
+            >Bendern</placeName> einen <term ref="key000817">Vertrag</term>. Das <term ref="key000571"
+               >Lehensrecht</term> an der <term ref="key000703">Fähre</term> zwischen <placeName
+                  ref="loc000389">Haag</placeName> und Bendern gehört Glarus als Herr der Landvogtei <placeName
+                     ref="loc000440">Werdenberg</placeName>, während die territoriale und gerichtliche Hoheit bei
+         dem Herrn von <placeName ref="loc000278">Sax-Forstegg</placeName> liegt. Diese Rechtslage führt
+         später vereinzelt zu <term ref="key000889">Kompetenzstreitigkeiten</term> zwischen den
+         Obrigkeiten beider Herrschaften (<bibl><ref>StAZH A&#160;346.4, Nr.&#160;159</ref></bibl>; <bibl><ref>StAZH
+            A&#160;346.4, Nr. 208</ref></bibl>; <bibl><ref>StASG AA&#160;2&#160;A&#160;11-1-3</ref></bibl>). </p>
+      </div>
+         <div n="2"><p>Zu den <term ref="key000535">Fischereirechten</term> von Glarus als Herr von Werdenberg im
+            <placeName ref="loc000644">Rhein</placeName> von <placeName ref="loc000689">Bendern</placeName> bis <placeName ref="loc000155">Balzers</placeName> vgl.
+            <ref>SSRQ_SG_III_4_075</ref>; <ref>SSRQ_SG_III_4_134</ref>;
+            <ref>SSRQ_SG_III_4_143</ref>, Art. 4. </p></div>
+         <div n="3"><p>Zum <term ref="key000208">Fährlehen</term> der
+            <term ref="key000703">Fähre</term> bei <placeName ref="loc000689">Bendern</placeName> vgl. <ref>SSRQ_SG_III_4_143</ref>,
+            Art. 9; <ref>SSRQ_SG_III_4_229</ref>, S.&#160;94; <ref>SSRQ_SG_III_4_152</ref>.</p></div>
+      </back>
+   </text>
+</TEI>
+

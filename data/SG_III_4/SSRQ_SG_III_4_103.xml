@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-08-19"/>
+            <date type="print"/>
+            <availability><p xml:id="facs">Sibylle Malamud</p></availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_103</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno source="https://archivverzeichnis.gl.ch/home/#/content/82ada3b1418f482db677075099b3678e">LAGL AG III.2415:001</idno>
+                  <altIdentifier>
+                     <idno>LAGL 103N</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <head>Vidimus eines Beschlusses über frei weidende Ziegen</head>
+               <msContents>
+                  <summary>
+                     <p>Thomas Schmid, Landvogt von Werdenberg-Wartau, stellt am 4. März 1607 auf Ansuchen von Vertretern aller Gemeinden einen Vidimus einer mittlerweile unleserlichen Urkunde des einstigen Ammanns Mathis Pfiffner vom 4. Juli 1516 aus. Darin klagen Gallus Rhiner und Hans Metzger über die grossen Schäden frei weidender Ziegen. Es wird das Urteil gefällt, dass ein Herr der Landschaft acht Männer berufen soll, welche die Sache beurteilen sollen.</p>
+                     <p>Die acht berufenen Männer urteilen einstimmig, dass Ziegen ausserhalb des
+                        Stalls gehütet werden müssen. Bei Zuwiderhandeln erfolgt eine Busse von
+                        einem Pfund, wovon 10 Schilling an den Landesherrn und 10 Schilling an die
+                        jeweilige Kirchgenossenschaft gehen. Entdeckt jemand fremde Ziegen auf
+                        seinem Land, soll der Besitzer für jede einen Kreuzer entrichten. Über einen
+                        allfälligen Schadenersatz entscheidet in diesem Fall ein Schiedsgericht.</p>
+                     <p>Die erste Fassung war von Mathis Pfiffner besiegelt. Der Aussteller siegelt.</p>
+                  </summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <filiation type="current">Original</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Pergament</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="20.5"/>
+                              <width unit="cm" quantity="42.0"/>
+                           </dimensions>
+                        </extent>
+                        <condition>(Brand?)fleck in der unteren rechten Ecke</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <sealDesc>
+                     <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI"
+                           n="1"
+                           nontei:material="wax in a box"
+                           nontei:condition="in a box"
+                           nontei:attachment="sealed on a parchment tag"
+                           nontei:shape="round">
+                        <persName role="sigillant" ref="per008736">Landvogt Thomas Schmid</persName>
+                     </seal>
+                  </sealDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1516-07-04">an sant Urichs tag</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000791">Tier</term>
+               <term ref="key000071">Ziege</term>
+               <term ref="key000596">Hirt</term>
+               <term ref="key004966">Gemeinde</term>
+               <term ref="key000057">Gericht</term>
+               <term ref="key000184">Busse</term>
+               <term ref="key003203">Vidimus</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <div org="uniform" sample="complete">
+                  <pb facs="LAGL_AG_III.2415_001"/>
+                  <p>
+                     <seg>
+                        <lb/>Ich, <persName ref="per008736">Thoma Schmid</persName>, lanndtman unnd
+                        des raths zu <placeName ref="loc000326">Glarus</placeName> unnd der zitt
+                        miner gnedigen <orgName ref="org001197">herren von Glarus</orgName>
+                        landtvogt <lb/>der graffschafft <placeName ref="loc000440"
+                           >Werdenberg</placeName> unnd herschafft <placeName ref="loc000827"
+                           >Warthouw</placeName>, bekhen unnd thun khundt aller menckhlichem
+                        offenbar mitt disem brieff, das für mich khommen <lb/>unnd erschinen sind
+                        die ersammen unnd wolbescheidnen verornetten unnd anwältt uß einer jeden
+                           <term ref="lem006896">gmeind</term> diser graffschafft unnd mir fürbracht
+                        unnd an zeigt, <lb/>das es lang jar verloffen als <persName ref="per001646a"
+                           >Mathis Pfüffner</persName>
+                        <term ref="lem000006">amman</term> zu <placeName ref="loc000440"
+                           >Werdenberg</placeName> gsin, mitt vergünstigung hern <persName
+                           ref="per001679">Wolffgang</persName> unnd <persName ref="per001638a"
+                           >Jörg, gebrüder, fryhern von Hewen</persName>, <lb/>hern zu <placeName
+                           ref="loc000440">Werdenberg</placeName> unnd <placeName ref="loc007684.03"
+                           >Hochen Thrinns</placeName>, ein bermennttinen brieff uffgricht, welchem
+                        brieff aber in dem langen zitt ettwas mangels unnd <term ref="lem005608"
+                           >geprestens</term> an <lb/>der <term ref="lem001178">gschrifft</term>
+                        überkhommen, das er kümerlich zu lessen mer gsin ist. Der halben ir
+                        underthänig unnd geflisen pitt unnd begären, inen den abzefidimieren.
+                        <lb/>Welichen brieff ich von inen empfangen unnd verlesen lies, der von
+                        wortt zu wortt allso lutt undt wie her noch volgentt:</seg>
+                     <seg><quote><seg><lb/>Ich, <persName ref="per001646a">Mathys Pfüffner</persName>, zu
+                              der zitt <term ref="lem015445">ama</term> zu <placeName
+                                 ref="loc000440">Werdenberg</placeName>, vergich unnd thun kundt
+                              aller mencklichem, das ich offenttlich <term ref="lem007829">zu gricht
+                                 gesesen</term>
+                              <lb/>bin uff den tag, alls datto uß wyst, von empfelchens wegen miner
+                              gnädigen hern <persName ref="per001679">Wolffgang</persName> unnd
+                                 <persName ref="per001638a">Jörgen, gebrüder, fryhern von
+                                 Hewen</persName>, hernn <lb/>zu <placeName ref="loc000440"
+                                 >Werdenberg</placeName> unnd <placeName ref="loc007684.04">Hochen
+                                 Thrins</placeName>. Do für mich unnd ein verbanett gricht khommen
+                              sind <persName ref="per008737a">Gallus Riner</persName> unnd <persName
+                                 ref="per008738a">Hans Metzger</persName>, <term ref="lem000560"
+                                 >schriber</term>, liesend reden durch <lb/>iren fürsprechen, wie
+                              mir unnd ein gantzen <term ref="lem005841">gricht</term> wol wüssendt
+                              wäre, wie sy vormallen vor gricht bricht habend, wie mir unnd ein
+                              gantzen gricht <lb/>wol wüsendt sye, wie inen die <term
+                                 ref="lem001394.01">geis</term> zu irem <term ref="lem000299.15"
+                                 >khilspil</term> grossen schaden thüend unnd hand begertt, ob sy
+                              die geis, so sy in irem fundend, was doch die <lb/>
+                              <term ref="lem000345">straff</term> unnd einig sye, liessend das zu
+                              recht setzten.</seg>
+                           <seg>Ward mitt recht erkhendt, das sy wettend der <term ref="lem001289"
+                                 >urttel</term> ratt han, dan sy der yetz nit <term ref="lem005732"
+                                 >bricht</term> wärend. <lb/>Dem nach sind sy für mich khomen als
+                              für ein <term ref="lem000342">richter</term> unnd liesend durch iren
+                              fürsprechen reden, das sy der urttel begerttend. Uff das fragt ich,
+                              richter, <lb/>der urttel um uff den eidt, ward mitt einheliger urttel
+                              erdeiltt,</seg>
+                           <seg>das ein herr des <term ref="lem005579">lantz</term> von der <term
+                                 ref="lem000756">landtschafft</term> söltte berüöffen <num value="8"
+                                 >acht</num>
+                              <term ref="lem000220">man</term> unnd was sy dan <lb/>für ein urttel
+                              gäbend, darby söl es bliben. Söllend ouch ir besten flys darinen
+                              bruchen, als sy gutt wyst.</seg>
+                           <seg>Uff das hatt ein herr die <num value="8">acht</num>
+                              <term ref="lem000220">man</term> beschickt <lb/>unnd inen bevollen,
+                              iren besten flis darinen zu bruchen und <damage agent="faded ink"><supplied><unclear>sämliche</unclear></supplied></damage> urttel zu
+                              gen. Uff das sind die <num value="8">acht</num>
+                              <term ref="lem000220">man</term> über die sach gessesen und ir best
+                              darinen <lb/>thon und ist das ir urttel einhellig:</seg>
+                           <seg>Al die in der <term ref="lem000756">landtschafft</term>
+                              <term ref="lem001394.01">geis</term> haben wellend, sollend sy <term
+                                 ref="lem004748">behirtten</term> uß dem <term ref="lem001611"
+                                 >stall</term> und wider dryn. Wer das nitt thätte, <lb/>der sol
+                                 <measure type="currency" quantity="1" unit="lb">ein pfund
+                                 pfenig</measure> zu <term ref="lem000036">bus</term> verfallen sin,
+                              mim herr <measure type="currency" quantity="10" unit="ß">zechen
+                                 schillig</measure> und dem <term ref="lem000299.16"
+                                 >khilchspil</term>
+                              <measure type="currency" quantity="10" unit="ß">zechen</measure>,
+                              darinen er sitzt. Und ob einer <term ref="lem001394.01">geis</term> in
+                              dem sinen fund oder <lb/>ander lütt sechen, denen zu glouben ware, da
+                              sol ein jettlichs <term ref="lem000684">houpt</term> zu bus gen
+                                 <measure unit="xr" quantity="1" type="currency">ein
+                                 krüzer</measure>. Unnd öb der, dem die geis in dem sinen gesen,
+                              vermeintte, die geis <lb/>hettend im wietren <term ref="lem011701"
+                                 >schaden</term> thon, dan ein <term ref="lem000684">houpt</term>
+                              <measure unit="xr" quantity="1" type="currency">ein krützer</measure>,
+                              der sol es frommen lütt lon besechen, die sol ein <term
+                                 ref="lem008250">gwaltt</term> darzu <term ref="lem008019"
+                                 >schiben</term>, die sond den schaden besechen und sönd <lb/>die,
+                              des geis sind, den schaden abthragen nach iren erkhandtnus.</seg>
+                           <seg>Uff das begertend <persName ref="per008737a">Gallus Riner</persName>
+                              und <persName ref="per008738a">Schriber</persName> der urttel brieff,
+                              die inen erkhendt und besiglett <lb/>mitt minem insigel, doch minen
+                              hern vorgenammpt, ouch mir on schaden, geben an <origDate
+                                 when="1516-07-04">santt <persName ref="per000356">Urichs</persName>
+                                 tag nach <persName ref="per000353">Cristi</persName> geburtt
+                                 funfzechen hundertt und im sechs zechenden
+                           jar</origDate>.</seg></quote>
+                     </seg>
+                     <seg>
+                        <lb/>Und die wil ich, obgenampter landtvogt <persName ref="per008736"
+                           >Schmid</persName>, disen brieff in allen punckten grecht und gutt <choice>
+                           <sic>bevüden</sic>
+                           <corr>bevünden</corr>
+                        </choice>, so gib <add place="above">ich</add> disem brieff ein
+                        gloubwirdiges <term ref="lem002888">vidimus</term>, das also dem nach<lb
+                           break="no"/>khomen werde. Und des alles zu warn urkhundt, so hab ich,
+                        vorgenammpter landtvogt, durch ir pitt lassen haran hencken min eigen
+                        insigel, do minen hern <lb/>an iren fryheitten und grechtigkheitten, ouch
+                        mir und minen erben onne schaden, der geben ist den <origDate
+                           when="1607-03-04">fiertten tag monaths mertz im jar nach der heilsamen
+                           geburt <lb/>unnsers hern Jesu Cristi sechszechen hundertt und im sibenden
+                           jar</origDate>.
+                     </seg>
+                  </p>
+               </div>
+               <pb facs="LAGL_AG_III.2415_001_v1"/>
+               <div org="uniform" sample="complete">
+                  <ab type="dorsal" place="verso" hand="hand17c">
+                     <lb/>Geißbrief, den lassen <date from="1695-09" to="1695-11">im herbst anno 1695</date>
+                     <lb/>ablessen, weillen die selbige gmeind derentwegen
+      <lb/>etwaß stritig <unclear>wurdint</unclear>.</ab>
+               </div>
+               <pb facs="LAGL_AG_III.2415_001_v2"/>
+               <div org="uniform" sample="complete">
+                  <ab type="dorsal" place="verso" hand="hand18c">
+                     <lb/>Geißbrief urtheil</ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab place="verso" type="archiving reference">N 10<subst>
+                        <del>2</del>
+                        <add place="overwritten">3</add>
+                     </subst>; 103</ab>
+               </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div org="uniform" sample="complete">
+            <p>Die Urkunde ist in mehrfacher Hinsicht interessant: Das <term ref="key000057"
+                  >Gericht</term> unter <term ref="key000029">Ammann</term> und <term
+                  ref="key000103">Richter</term> urteilt einstimmig, dass acht Männer von der
+               Herrschaft als Urteiler berufen werden sollen, die ihrerseits in der Streitsache
+               zwischen den Gemeinden um den Auftrieb der <term ref="key000071">Ziegen</term>
+               urteilen. Trotz des Urteils entstehen wiederholt <term ref="key003343"
+                  >Streitigkeiten</term> wegen frei weidender Ziegen (vgl. auch die Dorsualnotiz).
+               Zu Schäden durch Ziegen oder zu <term ref="key000341">Ordnungen</term> zu Ziegen vgl.
+               auch <ref>SSRQ_SG_III_4_103</ref>; <ref>SSRQ_SG_III_4_173</ref>;
+                  <ref>SSRQ_SG_III_4_184</ref>, Art. 7; <ref>SSRQ_SG_III_4_215</ref>;
+                     <bibl><ref>OGA Gams Nr. 152</ref>; <ref>Nr. 173</ref></bibl>;
+                     <bibl><ref>OGA Grabs O 1790-2</ref></bibl>; <bibl><ref>StASG CK
+                     10/3.01.020</ref>; <ref>CK 10/3.01.028</ref></bibl>; <ref
+                  target="https://archivverzeichnis.gl.ch/home/#/content/da304b06978545ed80b83df6d196a0b6"
+                  >LAGL AG III.2430:055</ref>, S. 18 sowie die Alpordnungen z. B.
+                     <bibl><ref>OGA Gams Nr. 40</ref></bibl> (<placeName ref="loc000055"
+                  >Sardona</placeName>) oder <bibl><ref>OGA Sevelen U 1541</ref></bibl> (<placeName
+                  ref="loc000808">Valtüsch</placeName>).</p>
+         </div>
+      </back>
+   </text>
+</TEI>

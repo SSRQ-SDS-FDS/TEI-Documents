@@ -1,0 +1,945 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-08-15"/>
+            <date type="print"/>
+            <availability><p xml:id="facs">Staatsarchiv St. Gallen (StASG)</p></availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_146_1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>StASG AA 2 U 38</idno>
+               </msIdentifier>
+               <head>Vertrag zwischen Johann Philipp von Sax-Hohensax und dem Pfarrer von Bendern über die katholische Religionsausübung der Kirchgenossen von Haag</head>
+               <msContents>
+                  <summary>
+                     <p>Bürgermeister und Rat von Zürich beauftragen Bürgermeister Hans Keller und
+                        Ratsherr Jost von Bonstetten, einen Schiedsspruch zwischen Hieronimus
+                        Huttler, Pfarrer von Bendern, und Johann Philipp von Sax-Hohensax betreffend
+                        die Pfarreien Sennwald und Salez sowie die Untertanen in Haag, die nach
+                        Bendern kirchgenössig sind, zu fällen. Es wird ein Tag in Salez vereinbart,
+                        an dem beide Parteien, Pfarrer Huttler mit seinem Beistand Johann Jakob
+                        Beck, erscheinen.</p>
+                     <p>Die Haager dürfen, obwohl sie zur evangelischen Freiherrschaft Sax-Forstegg
+                        gehören, weiterhin den katholischen Gottesdienst in Bendern besuchen. Eine
+                        Person pro Haushalt muss aber einmal pro Woche die evangelische Predigt in
+                        Salez hören. </p>
+                     <p>Das Spenden der heiligen Sakramente wird dem Pfarrer von Bendern auf dem
+                        Boden der Freiherrschaft Sax-Forstegg verboten.</p>
+                     <p>Das Präsentationsrecht in den Pfarreien Salez und Sennwald, das ehemals dem
+                        Kloster St. Luzi zustand, darf der Inhaber der Freiherrschaft Sax-Forstegg
+                        ausüben.</p>
+                     <p>Wegen des Kleinzehnts in Haag, der dem Pfarrer von Bendern gehört, werden
+                        die Grenzen des Zehntbezirks besichtigt.</p>
+                     <p>Der Pfarrer von Bendern muss Johann Philipp von Sax-Hohensax einen Vidimus
+                        einer Stiftung an die Pfründe in Sennwald zustellen, damit danach die
+                        Nutzung der Stiftung geregelt werden kann.</p>
+                     <p>Kläger, Beklagter und Aussteller siegeln.</p>
+                  </summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <author role="scribe"><persName ref="per002328">Hans Jörg Grebel</persName>, Stadtschreiber von Zürich</author>
+                     <filiation type="current">Original, Heft (4 Doppelblätter) mit Umschlag</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Pergament</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="33.5"/>
+                              <width unit="cm" quantity="23.0"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <sealDesc>
+                     <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI"
+                           n="1"
+                           nontei:condition="well-preserved"
+                           nontei:material="wax in a box"
+                           nontei:shape="round"
+                           nontei:attachment="sealed on a cord"
+                           facs="StASG_AA_2_U_38_s_01">
+                        <persName role="sigillant" ref="per008981a">Pfarrer Hieronimus Huttler</persName>
+                     </seal>
+                     <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="2"
+                        nontei:condition="absent">
+                        <persName role="sigillant" ref="per004582a">Freiherr Johann Philipp von
+                           Sax-Hohensax</persName>
+                     </seal>
+                     <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI"
+                           n="3"
+                           nontei:condition="well-preserved"
+                           nontei:material="wax in a box"
+                           nontei:shape="round"
+                           nontei:attachment="sealed on a cord"
+                           facs="StASG_AA_2_U_38_s_02">
+                        <persName role="sigillant" ref="per002174a">Jost von Bonstetten</persName>
+                     </seal>
+                     <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI"
+                        n="4"
+                        nontei:condition="well-preserved"
+                        nontei:material="wax in a box"
+                        nontei:shape="round"
+                        nontei:attachment="sealed on a cord"
+                        facs="StASG_AA_2_U_38_s_03">
+                        <persName role="sigillant" ref="per001949a">Bürgermeister Johannes Keller</persName>
+                     </seal>
+                  </sealDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1595-07-26"/><!-- PS: a.S. Julianischer Kalender -->
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head>Literatur</head>
+                     <bibl><ref target="http://permalink.snl.ch/bib/chbsg000141190">Büchel 1923</ref>, S. 48–49</bibl>
+                  </listBibl>
+                  <listBibl>
+                     <head>URL</head>
+                     <bibl type="url"><ref target="http://www.eliechtensteinensia.li/viewer/image/000000453_23/51/">http://www.eliechtensteinensia.li/viewer/image/000000453_23/51/</ref></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000184">Busse</term>
+               <term ref="key000637">Pfarrei</term>
+               <term ref="key000306">Kirchgenossenschaft</term>
+               <term ref="key004413">Sonntag</term>
+               <term ref="key004262">evangelische Gemeinde</term>
+               <term ref="key004288">katholische Gemeinde</term>
+               <term ref="key000811">Kollatur</term>
+               <term ref="key000666">Religion</term>
+               <term ref="key004390">reformierte Gemeinde</term>
+               <term ref="key000670">Konfession</term>
+               <term ref="key000049">Zehnt</term>
+               <term ref="key000192">Stiftung</term>
+               <term ref="key000193">Pfründ</term>
+               <term ref="key000901">Sakrament</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <div org="uniform" sample="complete">
+                  <pb n="1r" facs="StASG_AA_2_U_38_01r"/>
+                  <div><ab place="cover" hand="hand17c?" type="dorsal"><lb/>Vertrag zwuschen <abbr>hrn</abbr>
+                     <persName ref="per004582a">Johann Philipp, freiheren <lb/>zu Hohensax</persName>
+                     <abbr>etc</abbr>, und dem pfarrer zue <lb/><placeName ref="loc007247">Bendern</placeName>, der
+                     pfarery im <placeName ref="loc006114">Sennwald</placeName>
+                     <lb/>und <placeName  ref="loc008035">Salez</placeName>, wie auch deren im
+                     <placeName ref="loc006120">Sax</placeName>
+                     <lb/>wegen de <date calendar="Julian" when="1595-07-26">26 juli
+                     1595</date>.</ab></div>
+                  <div><ab place="cover" hand="hand18c?" type="archiving reference"><lb/><del>N<hi rend="sup">o</hi> 25</del>
+                  <lb/>1.</ab></div>
+                  <pb n="1v" facs="StASG_AA_2_U_38_01v"/>
+                  <pb n="2r" facs="StASG_AA_2_U_38_02r"/><p>
+                     <seg><lb/>Wir, nachbenennten <persName ref="per001949a">Johanns
+                           Keller</persName>, <lb/>burgermeister, und <persName ref="per002174a"
+                           >Joßt von Bonstetten</persName>, deß raths der statt <placeName
+                           ref="loc000065">Zürich</placeName>, <lb/>bekhennend offentlich und thuͦnd
+                        khundt mengklichem hiemit, als <lb/>sich dann zwüschent dem ehrwürdigen
+                        geistlichen herrn <persName ref="per008981a">Hieronimo
+                           <lb/>Utlern</persName>, dißer zyt pfarrer zuͦ <placeName ref="loc007247"
+                           >Bennderen</placeName>
+                        <abbr>etc</abbr>, kleger an einem, unnd <lb/>dem wolgebornnen herren, herrn
+                           <persName ref="per004582a">Johann Philipßen, fryherrn zuͦ Hohen
+                           <lb/>Sax</persName>, herrn zuͦ <placeName ref="loc000278">Sax und
+                           Vorstegk</placeName>
+                        <abbr>etc</abbr>, unserm gnedigen, lieben herrn, innamm<lb break="no"/>en
+                        syn selbs und ir gnaden mitterben antwortern am anndern theil, <lb/>etwas
+                           <term ref="lem006298">irrung</term>, spann und mißverstandt von
+                        nachvolgender sachen wegen <lb/>zuͦgetragen unnd deßhalb vorgemelter herr
+                           <term ref="lem000672">pfarrer</term> by den edlen, <lb/>vesten, frommen,
+                        fürsichtigen und wyßen herren <orgName ref="org002406">burgermeister unnd
+                           <lb/>rath der statt Zürich</orgName>, unseren günstigen, ehrenden, lieben
+                        herren, als <lb/>wellichen wolgesagter <persName ref="per004582a">fryherr
+                           zuͦ Hohen Sax</persName>
+                        <abbr>etc</abbr> mit <term ref="lem012837">burgkrecht</term> verwandt,
+                        <lb/>umb guͤtlichen ald rechtlichen entscheidt der spennigen puncten ange<lb
+                           break="no"/>halten. Wellicher handlung nun vorwolgemelter herr <persName
+                           ref="per004582a">Johann <lb/>Philipß, fryherr zuͦ Hohen Sax</persName>
+                        <abbr>etc</abbr>, sich guͦtwillig auch begeben. Das <lb/>demnach wir von den
+                        vorgenannten, unnseren herren <orgName ref="org002406">burgermeister
+                           <lb/>und rath der statt Zürich</orgName>, verordnet worden, inn dißeren
+                        sachen <lb/>unns zuͦbearbeiten und hierumbe zwüschent den parthygen
+                        guͤtliche <lb/>handlung zepflegen und, wo müglich, <term ref="lem002659.03"
+                           >verglychung</term> zetreffen.</seg>
+                     <seg>Daruf <lb/>nun wir hierzuͦ tag der <term ref="lem002939.15"
+                           >zesammenkhunfft</term> gen <placeName ref="loc000691">Saletz</placeName>
+                        bestimpt, alda <lb/>dann vorgemelte beide parthyen inn eigner personn und
+                        mitt nammen <lb/>gedachter herr <term ref="lem000672">pfarrer</term> zuͦ
+                           <placeName ref="loc007247">Benderen</placeName> inn bystandt deß
+                        ehrenhafften, <lb/>fürnemmen <persName ref="per008974">Johann Jacob
+                           Beckhen</persName>, keyßerlichen notarii und dißer <lb/>zyt gräflicher
+                           <orgName ref="org000489">Sultzischer</orgName> landtschryber zuͦ
+                           <placeName ref="loc006197">Vadutz</placeName>, vor unns erschin<lb
+                           break="no"/>nen.</seg>
+                     <seg>Unnd nachdem sy unns gütlicher, wüßenthaffter <lb/>handlung (doch
+                        vorbehalten den weg gebürenden rechtens im <lb/>fal man der guͤtigkeit
+                        zerschluͤge) verthruwt und wir volgents sy <lb/>zuͦ beiden theilen gegen
+                        einanderen schrifftlich und mundtlich inn <lb/>klagen, antworten, reden und
+                        widerreden aller lenge und not<lb break="no"/>thurfft nach sampt iren
+                        ingelegten briefen, siglen und schrifft<lb break="no"/>lichen <term
+                           ref="lem008229.08">gwahrsamminen</term> verhört, habent wir nach
+                           angewendt<lb break="no"/>em flyß, muͤyg und arbeit inn erwegung
+                        gstaltsamme der sachen <lb/>umb die schwäbenden spänn guͦtliche mitel beredt
+                        und gestelt <lb/>und die parthygen gegen und miteinanderen inn der
+                           fründtlig<lb break="no"/>keit zuͦ ersparung rechtens verglichen und
+                        vertragen, wie <pb n="2v" facs="StASG_AA_2_U_38_02v"/>
+                        <lb/>hienach von einem an das ander geschriben stadt.</seg>
+                     <seg>Fürs erst, alls <lb/>sich dann vorgesagter <term ref="lem005080"
+                           >pfarrherr</term> zuͦ <placeName ref="loc007247">Benderen</placeName>
+                        deßen erklagt und be<lb break="no"/>schwert, ob wohl der <term
+                           ref="lem008243">flecken</term> zuͦ oder im <placeName
+                           ref="loc000389.02">Hag</placeName> genannt, inn der <lb/>herrschafft
+                           <placeName ref="loc000278">Vorstegk</placeName> gelegen, von vilen und
+                        mehr jaren her, als <term ref="lem003213.12">mentsch<lb break="no"/>liche
+                           gedechtnuß</term> reicht, gen <placeName ref="loc007247"
+                           >Benderen</placeName>
+                        <term ref="lem014931.02">pfarrgnößig</term> geweßen, auch von dannen
+                        <lb/>uß, im fal der not, mitt den <term ref="lem005137.10"
+                           >sacramenten</term> versehen worden, unnd die <lb/>inwohner deß fleckens im
+                           <placeName ref="loc000389.02">Hag</placeName> unangesehen deß
+                        zwyspalts, so inn glaub<lb break="no"/>ens sachen vor vilen jaren ingerißen,
+                        nütdestweniger ein jeder nach <lb/>synem gefallen die <term ref="lem000673"
+                           >pfarrkirchen</term> zuͦ <placeName ref="loc008031">Bennderen</placeName>
+                        besuͦcht und ein herr<lb break="no"/>schafft sy an söllicher fryen
+                        besuͦchung unverhindert gelaßen. So <lb/>understande doch vorwolgenannter
+                        herr <persName ref="per004582a">Johann Phillipß, fryherr zuͦ Hohen
+                           <lb/>Sax</persName>, als jetziger innhaber der herrschafft <placeName
+                           ref="loc000278">Vorstegk</placeName>
+                        <abbr>etc</abbr>, die <orgName ref="org001787">underthonnen <lb/>Im
+                           Hag</orgName> wider iren willen von der <term ref="lem002192.04"
+                           >pfarr</term>
+                        <placeName ref="loc007247">Benderen</placeName> ab- und gen <placeName
+                           ref="loc008035.02">Saletz</placeName>
+                        <lb/>zuͦ zwingen unnd habe by einer ufgesetzten <term ref="lem000345"
+                           >straff</term> verbotten, das keiner <lb/>inn der letsten not die <term
+                              ref="lem005137.08">sacrament</term> von ime, als deß <placeName
+                           ref="loc000389.02">Hags</placeName> ordenlichem <lb/>pfarrern, sölle
+                        begeren nach empfachen. Wellichs jedoch vornaher, auch <lb/>nach dem die
+                           <term ref="lem014939.02">glaubens ennderung</term> inn der herrschafft
+                           <placeName ref="loc000278">Vorstegk</placeName> fürge<lb break="no"
+                        />nommen, niemaln beschechen, sonders <orgName ref="org001787">die inn dem
+                              <placeName ref="loc000389">Hag</placeName></orgName> by irem fryen
+                           <lb/><term ref="lem008313.04">gewüßen</term> syen gelaßen worden.</seg>
+                     <seg>Unnd dann fürs <lb/>annder habe wolgedachter <persName ref="per004582a"
+                           >herr von Hohen Sax</persName>
+                        <abbr>etc</abbr> den bemelten ir <lb/>gnaden <orgName ref="org001787"
+                           >underthonnen Im Hag</orgName> wider jetzt angezogne ire fryheit by einer
+                           <lb/><term ref="lem010448.03">geltbuͦß</term> gebotten, es sölle ein
+                        jeder uß synem <term ref="lem000248">huß</term> zuͦ dem wenigisten <lb/>ein
+                        person gen <placeName ref="loc000691">Saletz</placeName> inn die <term
+                           ref="lem004885.01">predig</term> uff den <term ref="lem001881"
+                           >sontag</term> schigken,<note anchored="true">Vgl. die Bestimmungen von
+                           Johann Philipp von Sax-Hohensax von 1590 (<bibl><ref>StAZH
+                                 A&#160;346.1.5, Nr.&#160;58</ref></bibl>).</note> wellichs
+                        <lb/>auch ein zuͦvor nie gebruchte nüwerung unnd ime, pfarrern, als
+                        <lb/>irem <term ref="lem005040">seelsorger</term>, söllichem allem also
+                        zuͦzesehen syner gwüßne halb <lb/>gantz beschwerlich unnd an syner
+                        pfarrlichen rechtsamme abbrüchlich <lb/>syge.</seg>
+                     <seg>Dargegen wolgemelter herr <persName ref="per004582a">Johann Philipß,
+                           <lb/>fryherr zuͦ Hohen Sax</persName>
+                        <abbr>etc</abbr>, fürgewendt, ob glych wol ir gnaden <lb/><term
+                           ref="lem000329.24">underthonnen</term>, die im <placeName ref="loc000389.02"
+                           >Hag</placeName>, hievor zur zyt, da man nach einerley <lb/><term
+                           ref="lem008440">religion</term> gweßen, gen <placeName ref="loc007247"
+                           >Bennderen</placeName>
+                        <term ref="lem014931.02">pfarrgnößig</term> gweßen, so volge <lb/>doch uß
+                        demselben nit, das darumb die <orgName ref="org001787">Hager</orgName> den
+                           <term ref="lem002740">kirchgang</term>
+                        <lb/>zuͦ <placeName ref="loc007247">Bennderen</placeName> besuͦchen muͤßint,
+                        sidtmaln sy der herrschafft <lb/><placeName ref="loc000278"
+                           >Vorstegk</placeName> mit hohen und nideren grichten glych wie andere
+                           under<lb break="no"/>thonnen unnd <term ref="lem001593.06">herrschafft
+                           lüth</term> underworffen. Da dann ire gnad<lb break="no"/>en als ein
+                           <term ref="lem011364">christenliche oberkeit</term> schuldig, ernennten
+                        iren angehörig<lb break="no"/>en glych wie anderen derselben lieben
+                        underthonnen nach dem bevelch <pb n="3r" facs="StASG_AA_2_U_38_03r"/>
+                        <lb/>gottes die evangelische wahrheit <term ref="lem009592">götlichs
+                           worts</term> luter verkhünden zelaß<lb break="no"/>en, inmaßen solches
+                        andere herren und oberen inn iren stetten und land<lb break="no"/>en
+                        glychergstalt pflegen zethuͦnd, unangesehen etwan hiebevor an solchen ort<lb
+                           break="no"/>en und enden die underthonnen mitt <term ref="lem014929.02"
+                           >pfarrgnößigkeit</term> anderschwo hin gehört. <lb/>Was nun einer jeden
+                        andern oberkeit, so von keyßer und künigen mitt <lb/>derglychen hohen <term
+                           ref="lem002748.01">regalien</term>, fryheiten und grechtigkeiten als die
+                        herrschafft <lb/><placeName ref="loc000278">Vorstegk</placeName> begnadiget,
+                        inn iren landen und gebieten zuͦgelaßen, solches achten, <lb/>ire gnaden
+                        khönne derselbigen ebenmeßiger gstalt von niemmandts billicher <lb/>wyß
+                        disputierlich gemacht noch inn zwyfel gezogen werden.</seg>
+                     <seg>So <lb/>haben ire gnaden diß fals khein nüwerung, sonders eben das jhenig,
+                        <lb/>so wol deß <term ref="lem002740">kirchgangs</term> gen <placeName
+                           ref="loc000691">Saletz</placeName> als auch abschaffung der <term
+                           ref="lem014928.02">papistischen <lb/>sacramenten</term> halber uff irer
+                        gnaden grund und boden fürgenommen und <lb/>gebrucht, wie solches, wyland
+                        der wolgebornne herr <persName ref="per004426a">Ulrich Philips, fry<lb
+                              break="no"/>herr zuͦ Hohen Sax</persName>
+                        <abbr>etc</abbr>, irer gnaden herr vatter seliger gedechtnuß, offent<lb
+                           break="no"/>lich auch <term ref="lem014949.01">gebieten und
+                           verbieten</term> laßen. Sontsten habint ire <lb/>gnaden bißher derselben
+                        underthonnen weder inn dem <placeName ref="loc000389">Hag</placeName> nach
+                        anderschwo <lb/>zum <term ref="lem002602">glauben</term> niemaln gezwungen,
+                        sonders jedem syn <term ref="lem008313.05">gwüßen</term> fry ge<lb
+                           break="no"/>laßen, ja vil mehr sy selbsten gewarnet, sich der
+                        hochwürdigen <term ref="lem005137.10">sacra<lb break="no"/>menten</term> so
+                        lang zuͦenthalten, biß sy durch anhörung <term ref="lem009592">götlichs
+                           worts</term>
+                        <lb/>inn waarer erkhandtnuß wohl underrichtet sygen. Wellichs alles sy,
+                        <lb/>die <orgName ref="org001787">Hager</orgName>, mit wahrheit werdint
+                        bekhennen muͦßen.</seg>
+                     <seg>Fürs ander <lb/>syen ir gnaden bekandtlich, den <orgName ref="org001787"
+                           >Hageren</orgName> gebotten haben, am <term ref="lem001881">sontag</term>
+                        <lb/>die <term ref="lem004885.01">predig</term> götlichs worts zuͦ
+                           <placeName ref="loc000691">Saletz</placeName> zehören, mehrernteils uß
+                        der <lb/>ursach, diewyl sich die <orgName ref="org001787">Hager</orgName>
+                        beschwert, am <term ref="lem005235">frytag</term>, uff welchen tag
+                        <lb/>vormaln die predig gehalten, gen <placeName ref="loc000691"
+                           >Saletz</placeName> zekhommen, als da sy offtermaln <lb/>ir <term
+                           ref="lem005104">arbeit</term>
+                        <term ref="lem012767.03">versumen</term> und darnebent nüt dest weniger
+                           <term ref="lem000237">zinß</term> und <term ref="lem000073"
+                           >zehenden</term>
+                        <lb/>geben muͤßint. Deßhalb dann ire gnaden sy der <term ref="lem014941.02"
+                           >frytag predig</term> er<lb break="no"/>laßen und dagegen inen uferlegt,
+                        das deß sontags uß jedem <term ref="lem000248">huß</term>
+                        <lb/>ein <term ref="lem000917">gewachßen</term> oder <term
+                           ref="lem014940.02">halb gewachßen mentsch</term>, <term
+                           ref="lem005623.23">man oder wybsperson</term>, <lb/>zur anhörung <term
+                           ref="lem009592">götlichs worts</term> erschynen sölle. Wie dann ir gnaden
+                        <lb/>herr <term ref="lem000129">vatter</term> seliger glycher gstalt by
+                        einer <term ref="lem005773.01">geltstraff</term> inen, den <orgName
+                           ref="org001787">Hageren</orgName>, <lb/>die predig zuͦ <placeName
+                           ref="loc000691">Saletz</placeName> wuchenlichen einmal zuͦbesuͦchen
+                        gebotten unnd <lb/>sy jederzyt zuͦ leistung söllicher ghorsamme gehalten
+                        haben <abbr>etc</abbr>.</seg>
+                     <seg>Umb <lb/>welliche beide zesammen gezogne puncten ist diß unnser spruch und
+                           er<lb break="no"/>lütherung, namblich, ob glych wolgemelter herr
+                           <persName ref="per004582a">Johann <lb/>Philipß, fryherr zuͦ Hohen
+                           Sax</persName>
+                        <abbr>etc</abbr>, als regierender herr und hohe ober<pb n="3v"
+                           facs="StASG_AA_2_U_38_03v"/>
+                        <lb break="no"/>keit, so von Römischen <term ref="lem000021.01"
+                           >keyßeren</term> und dem <placeName ref="loc000672.09">heiligen
+                           Rych</placeName> mit <term ref="lem002748.01">regalien</term>
+                        <lb/>und fryheiten begnadiget, befuͤgt were, so wol als by anderen
+                        oberkeiten <lb/>im <placeName ref="loc000672">Rych</placeName> inn einer
+                           <placeName ref="loc000153.25">Eydtgnoschafft</placeName> und anderschwo
+                        brüchig, <orgName ref="org001787">die im Hag</orgName>
+                        <lb/>als welliche der herrschafft <placeName ref="loc000278"
+                           >Vorstegk</placeName> ohne mitel mitt hoher und niderer <lb/>oberkeit
+                        eigenthumblich glych wie andere <term ref="lem001593.06">herrschafft
+                           lüth</term> underworffen <lb/>sind, zuͦ der <term ref="lem010482.02"
+                           >evangelischen religion</term>, zuͦ wellicher ire gnaden glych <lb/>wie
+                        dero herr <term ref="lem000129">vater</term> selig sich bekhennen, auch
+                        zehalten. Nüt desto<lb break="no"/>weniger, diewyl ire gnaden als die dißere
+                        ire <term ref="lem000329.24">underthonnen</term>
+                        <lb/>inn dem fal wider ir gwüßne anderer gstalt zenötigen nit bedacht ist,
+                        <lb/>uff ir, <orgName ref="org001787">dero im Hag</orgName>, underthenig
+                        trungenlich bitlich anhalten, sich be<lb break="no"/>geben und bewilliget,
+                        inen, den vermelten <orgName ref="org001787">im Hag</orgName>, nit darwider
+                        ze sind, <lb/>dann das sy iren <term ref="lem002740">kirchgang</term> inn
+                        die <term ref="lem000673">pfarrkirchen</term> zuͦ <placeName ref="loc008031"
+                           >Bennderen</placeName> haben <lb/>und derselben <term ref="lem008440"
+                           >religion</term>
+                        <term ref="lem010852.03">ceremonien</term> daselbs, wie untzhar beschechen,
+                        uͤben <lb/>und bruchen mögint, doch mit vorbehalt, das uß jeder <term
+                           ref="lem002439.10">hußhaltung</term> ein <lb/>
+                        <term ref="lem001575">person</term>
+                        <term ref="lem005247">wuchenlich</term> die <term ref="lem014944.02"
+                           >evangelische predig</term> zuͦ <placeName ref="loc000691"
+                           >Saletz</placeName> auch anhören <abbr>etc</abbr>, <lb/>so sölle es
+                        jetziger zyt darby belyben. Ob aber über kurtz oder lang <lb/>die <orgName
+                           ref="org001787">im Hag</orgName> eine ald mehr <term ref="lem002439"
+                           >hußhaltungen</term> oder die <term ref="lem007184.06">inseßen</term>
+                        daselbst über<lb break="no"/>al so vil underrichtet, das sy gesinnet
+                        wurdint, die <term ref="lem002192.04">pfarr</term>
+                        <placeName ref="loc007247">Bennderen</placeName>
+                        <lb/>zuͦverlaßen und sich dem <term ref="lem006446.03">evangelio</term> und
+                        evangelischen kirchen brüchen <lb/>auch wie andere ire mitt <term
+                           ref="lem014093">gmeindtsgnoßen</term> ze underwerffen, da <lb/>sölle inen
+                        gmeinlich und sonderlich desselbig fry zuͦgelaßen, sy deßen <lb/>auch zuͦ
+                        jeder zyt befuͤgt syn, also, das ein <term ref="lem000672">pfarrer</term>
+                        zuͦ <placeName ref="loc007247">Bennderen</placeName>
+                        <lb/>ungsumpt zur evangelischen predig gen <placeName ref="loc000691"
+                           >Saletz</placeName> gaan unnd daselbst sich <lb/>aller <term
+                           ref="lem014927.02">evangelischen, cristenlichen kirchen ordnungen</term>
+                           gebruch<lb break="no"/>en laßen.</seg>
+                     <seg>Zum dritten hatt sich er<lb break="no"/>melter herr pfarrer zuͦ <placeName
+                           ref="loc007247">Benderen</placeName> erklagt, das ime von wolge<lb
+                           break="no"/>nanntem herrn <persName ref="per004582a">Johann
+                           Philipßen</persName>
+                        <abbr>etc</abbr> betröwlich verbotten worden, deß <lb/><placeName
+                           ref="loc000389.02">Hags</placeName> mitt hinüber tragung der <term
+                              ref="lem005136.01">sacramenten</term> und versehung der <term
+                           ref="lem002432">krancken</term>
+                        <lb/>personnen muͤßig zegaand, wellichs ime als <term ref="lem000672"
+                           >pfarrern</term> unnd synen <lb/><term ref="lem000674">kilchgnoßen</term>
+                        <orgName ref="org003305">im Hag</orgName>, als die inn glaubens sachen mitt
+                        fryger gwüßne <lb/>begaabet, gantz beschwerlich, mit begär, diewyl er unnd
+                        syne <lb/>vorfarenden pfarrer zuͦ <placeName ref="loc007247"
+                           >Benderen</placeName> sidt der <term ref="lem014939.02">glaubens
+                           ennderung</term>
+                        <lb/><term ref="lem005136.01">sacramenta</term> hinüber getragen und <term
+                           ref="lem002432">krancke</term> lüt mitt denselben ver<lb break="no"
+                        />sehen, welliches auch, wyland der alte <persName ref="per004426a">herr von
+                           Hohen Sax</persName> nie <pb n="4r" facs="StASG_AA_2_U_38_04r"/>
+                        <lb/>verwehrt, man welte inne darmit wyter ohn inred fürfaren unnd <lb/>also
+                        diß fals pfarrliche <term ref="lem007594">rechtsamme</term> bruchen
+                        laßen.</seg>
+                     <seg>Deßen <lb/>sich aber vor wolbemelter herr <persName ref="per004582a"
+                           >Johann Philipß, fryherr zuͦ Hohen <lb/>Sax</persName>
+                        <abbr>etc</abbr>, beschwert, anzeigende, demnach die <term
+                           ref="lem014932.02">ußspendung</term> der <lb/>heiligen <term
+                              ref="lem005137.10">sacramenten</term> nach der <term ref="lem014937.02"
+                           >insatzung</term> unsers herrn <persName ref="per000353">Jesu
+                           Christi</persName>
+                        <lb/>durch die gnad gotes inn irer gnaden herrschafft jerlichen zuͦ
+                        <lb/>allen <term ref="lem005028.04">hohen festen</term>, menigklichem so
+                        deren begert, widerfahren möge, <lb/>so khönne ir gnaden nit gestattnen, das
+                        uß <term ref="lem000866">frömbden</term> herrschafft<lb break="no"/>en
+                        andere und irer gnaden <term ref="lem014934.02">confeßion</term>
+                        widerwertige sacramenten <lb/>und ceremonien uff ir gnaden grund und boden,
+                        hohe und nidere <lb/>gericht, hin und wider inn die <term ref="lem000248"
+                           >hüßer</term> getragen und <term ref="lem001578">privatpersonnen</term>
+                        <lb/>dargereicht werdint. Deßhalb dann ire gnaden dero under<lb break="no"
+                        />thonnen <orgName ref="org001787">im Hag</orgName> by einer <term
+                           ref="lem005773.01">geltstraff</term> verbotten, inne, <term
+                           ref="lem000672">pfarrern</term> von <lb/><placeName ref="loc007247"
+                           >Benderen</placeName>, angeregter gstalt mitt synen <term
+                           ref="lem010852.03">ceremonien</term> feerner nit hin<lb break="no"/>über
+                        zeforderen und kommen zelaßen. Hierinnen ire gnaden <lb/>nützit nüws
+                        angefangen, sonders eben das continuiert, wie <lb/>solches vor jaren von ir
+                        gnaden herrn vater seligen mitt guͦtem <lb/>vorbedacht inns werckh gerichtet
+                        worden und sy wol be<lb break="no"/>fuͤgt syge <abbr>etc</abbr>.</seg>
+                     <seg>Harumbe habent wir also gesprochen <lb/>und sprechend hiemit, namblich
+                        diewyl den fal gsetzt, <lb/>das gmeinden ennert <placeName ref="loc000644"
+                           >Rhyns</placeName> und ußerthalb der herrschafft <lb/><placeName
+                           ref="loc000278">Vorstegk</placeName> von alter her inn die herrschafft
+                           <placeName ref="loc000278">Vorstegk</placeName> kilch und pfarr<lb
+                           break="no"/>gnößig gweßen weren, denselben von irer oberkeit, so der
+                           <term ref="lem010910.04">catholischen <lb/>römischen religion</term> ohne
+                        allen zwyfel nit zuͦgelaßen wurde, das <lb/>sy den <term ref="lem002923"
+                           >predicanten</term> irer <term ref="lem000673">pfarrkirchen</term>
+                        hinüber beschicken oder ein <lb/>predicant uß der herrschafft <placeName
+                           ref="loc000278">Vorstegk</placeName> inn derselben gstalt zuͦ inen
+                        <lb/>wandlen und inen nach der <term ref="lem010482.02">evangelischen
+                           religion</term> zuͦsprechen, sy <lb/>lehren und underrichten möchte
+                           <abbr>etc</abbr>. Damit und dann von <lb/>wegen uͤbung dißer, der <term
+                           ref="lem006614">römischen kirchen</term>
+                        <term ref="lem010852.03">ceremonien</term> uff der <lb/>herrschafft
+                           <placeName ref="loc000278">Vorstegk</placeName> grund und boden zwüschent
+                        iren gnaden und <lb/>einem pfarrer zuͦ <placeName ref="loc007247"
+                           >Benderen</placeName> wyter dhein spann und widerwertigkeit
+                        <lb/>entstande, so sölle nun hinfüro er, pfarrer zuͦ <placeName
+                           ref="loc007247">Benderen</placeName>, <lb/>und syne nachkommen pfarrere
+                        daselbst weder <term ref="lem000698.06">crütz</term>, <term ref="lem005136"
+                           >sacrament</term> noch <lb/>anders zur uͤbung der römischen religion
+                        brüchig inn <placeName ref="loc000389">Hag</placeName>
+                        <lb/>unnd inn die herrschafft <placeName ref="loc000278"
+                           >Vorstegk</placeName> wyters nit hinüber tragen, <lb/>sonders sich
+                        desselben alles gentzlich enthalten und mitt söllichen dingen <pb n="4v"
+                           facs="StASG_AA_2_U_38_04v"/>
+                        <lb/>unnd ceremonien inn die herrschafft <placeName ref="loc000278"
+                           >Vorstegk</placeName> nit wandlen noch komm<lb break="no"/>en by
+                        gebürender <term ref="lem000345">straff</term>, so die jhennigen, welliche
+                        inne dergstalt <lb/>hinüber beruͦfften unnd bruchten, darüber zuͦerwarten
+                           hab<lb break="no"/>en.</seg>
+                     <seg>Zum vierten erklagt sich auch gedachter <lb/>herr pfarrer zuͦ <placeName
+                           ref="loc007247">Benderen</placeName>, obwol mit alten briefen und noch
+                        <lb/>laͤbender khundschafft erwißen werden khönne, das der <term
+                           ref="lem002192.12">pfarren</term>
+                        <lb/><placeName ref="loc006114">Sennwald</placeName> und <placeName
+                           ref="loc008035.02">Saletz</placeName>
+                        <term ref="lem000456.05">lehenschafft</term>, so offt dieselben <term
+                           ref="lem013715.03">vacierend</term> unnd <lb/>ledig worden, einem <term
+                           ref="lem002624">besitzer</term> der pfarr <placeName ref="loc007247"
+                           >Benderen</placeName> als <term ref="lem000001">abt</term> deß gots<lb
+                           break="no"/>huß <placeName ref="loc007992">Sanct Lucy</placeName>,
+                        oberthalb <placeName ref="loc000007">Chur</placeName> gelegen, jederzyt
+                        gebürt habe, <lb/>wellliches auch wyland der wolgebornne herr <persName
+                           ref="per004426a">Uͦlrich, fryherr zuͦ <lb/>Hohen Sax</persName>, sambt ir
+                        gnaden <term ref="lem000267">gemahel</term> seliger gedechtnuß inn einer
+                           <lb/><term ref="lem000398">jarzyt</term> und <term ref="lem014935.02"
+                           >caplany stifftung</term>,<note anchored="true">Am 21. März 1513 stiften
+                              <persName ref="per001640">Ulrich VIII. von Sax-Hohensax</persName> und
+                           seine Ehefrau eine ewige Priesterpfründe und <term ref="key000150"
+                              >Jahrzeit</term> in der Pfarrkirche in <placeName ref="loc007990"
+                              >Sennwald</placeName> (Original: <bibl><ref>PfABe
+                              U&#160;18</ref></bibl>). Die Stifter behalten sich darin das <term
+                              ref="key000195">Präsentationsrecht</term> vor, das jedoch nach ihrem
+                           Tod an das Kloster <orgName ref="org003291">St. Luzi</orgName> fallen
+                           soll. Am <date when="1528-10-09">9. Oktober 1528</date> stiftet das
+                           Ehepaar eine zweite Kaplaneipfründe in <placeName ref="loc007990"
+                              >Sennwald</placeName> und überträgt das <term ref="key000032"
+                              >Patronatsrecht</term> dem Kloster <orgName ref="org003291">St.
+                              Luzi</orgName> (vgl. <bibl><ref
+                                 target="http://permalink.snl.ch/bib/chbsg000141190">Büchel
+                                 1923</ref>, S.&#160;30–33</bibl>).</note> darmit sy die <term
+                           ref="lem000673">pfarrkirch</term> inn dem <placeName ref="loc007990"
+                              >Senn<lb break="no"/>waldt</placeName> begaabet, gnuͦgsamm bekhennind,
+                        nach ußwyßung deß unns <lb/>fürgelegten <term ref="lem000364.09"
+                           >stifftungbriefs</term>, auch wolgenannts herrn <persName
+                           ref="per004582a">Johann <lb/>Philipßen</persName> herr vater seliger inn
+                        underschidlichen uns auch fürgezeigten <lb/><term ref="lem006216.08"
+                           >mißiven</term>, auch zuͦ der zyt als ire gnaden schon albereit uff die
+                           <term ref="lem014939.02">glau<lb break="no"/>bens ennderung</term>
+                        entschloßen gweßen und beide <term ref="lem002192.12">pfarren</term>
+                        <placeName ref="loc008035.02">Saletz</placeName> und <lb/>im <placeName
+                           ref="loc006114">Sennwald</placeName> mitt <term ref="lem014945.02"
+                           >evangelischen predigeren</term> haben <term ref="lem001780"
+                           >besetzen</term> wellen, <lb/>dißer <term ref="lem010195.03">lehens
+                           grechtigkeit</term> zügknuß gebe, inn dem das ire gnaden nach
+                        <lb/>gethanner schrifftlichen erklerung ires hinfürigen glaubens an
+                        <lb/>syn, herr pfarrers, vorfaren als <term ref="lem000001">abbten</term>
+                        zuͦ <placeName ref="loc007992.02">Sanct Lucy</placeName> und pfarrer
+                        <lb/>zuͦ <placeName ref="loc007247">Benderen</placeName> begären, inn krafft
+                        obgemelter <term ref="lem000456.05">lehenschafft</term> den beid<lb break="no"
+                        />en evangelischen predigeren, so ir gnaden domaln nammbhafft ge<lb
+                           break="no"/>macht, die pfarren <placeName ref="loc008035.02"
+                           >Saletz</placeName> und im <placeName ref="loc006114"
+                           >Sennwaldt</placeName> zuͦverlychen <abbr>etc</abbr>. Nützit <lb/>desto
+                        weniger aber so werdint beruͤrte beide pfarren durch obwol<lb break="no"
+                        />gemelten synen herrn gegentheil, so offt sy ledig sind, unersuͦcht
+                        <lb/>synen mitt anderen <term ref="lem007087.04">predigeren</term> versehen
+                        und also ime, pfarrern, <lb/>die schuldige præsentation entzogen
+                           <abbr>etc</abbr>.</seg>
+                     <seg>Über wellichen <lb/>clag articel vor wolgenannter herr <persName
+                           ref="per004582a">Johann Philipß</persName>
+                        <add place="below">
+                           <abbr>etc</abbr>
+                        </add> den bscheid <lb/>geben, ire gnaden mögen glauben, das die <term
+                           ref="lem002192.04">pfarr</term> im <placeName ref="loc006114">Senn<lb
+                              break="no"/>waldt</placeName> etwan vor dißer zyt von der <term
+                           ref="lem001135">abty</term>
+                        <orgName ref="org003291">Sanct Lutzi</orgName>, als dieselbige <lb/>nach inn
+                        irem stand gweßen, mitt einem <term ref="lem000672">pfarrer</term> und <term
+                           ref="lem000283">caplan</term>
+                        <lb/>sye versehen worden. Diewyl aber die abty <orgName ref="org003291"
+                           >Sanct Lucy</orgName>
+                        <lb/>sidhero inn <term ref="lem014936.01">abgang</term> kommen und die
+                           <orgName ref="org001160">herren von Chur</orgName> als <term
+                           ref="lem002753">inhaber</term>
+                        <lb/>söllicher abty keinen abt von <placeName ref="loc007992.03">Sanct
+                           Luci</placeName> mehr erkhennen und <lb/>nit khönne dargethan werden, das
+                        ein pfarrer von <placeName ref="loc007247">Benderen</placeName>
+                        <pb n="5r" facs="StASG_AA_2_U_38_05r"/>
+                        <lb/>angeregter <term ref="lem000367.08">pfruͦnd</term>
+                        <term ref="lem006619">lehenherr</term> syge, so khönne er, herr <persName
+                           ref="per004582a">Johann <lb/>Philipß</persName>
+                        <abbr>etc</abbr>, inne, pfarrern, so lang für keinen <term ref="lem000001"
+                           >abt</term> von <placeName ref="loc007992">Sanct Lucy</placeName> noch
+                           <lb/><term ref="lem006619">lehenherren</term> der <term
+                           ref="lem000367.08">pfruͦnd</term>
+                        <placeName ref="loc006114">Sennwald</placeName> erkhennen, biß er, pfarrer,
+                        mit <lb/>der statt <placeName ref="loc000007">Chur</placeName> solche sachen
+                        ußgetragen und für ein abt desselbigen <lb/><term ref="lem000534"
+                           >closters</term> erkhendt wirt, als dann iro gnaden sich der gebür wol
+                        <lb/>werde zuͦverhalten wüßen. Sontsten die <term ref="lem000367.08"
+                           >pfruͦnd</term>
+                        <placeName ref="loc008035.02">Saletz</placeName> betreffend, <lb/>halten ire
+                        gnaden nit darfür, das da glych ein abt von <placeName ref="loc007992.03"
+                           >Sanct Luci</placeName>
+                        <lb/>nach verhanden were, derselbig sich der <term ref="lem004050"
+                           >collatur</term> angeregter <term ref="lem002192.04">pfarr</term>
+                        <lb/>wurde mit recht anmaßen noch sölliche gerechtigkeit darthuͦn khönnen,
+                        <lb/>sidtmaln ire gnaden under deren alten briefen und documenten
+                        <lb/>darvon nützit finden khönnen. Unnd wiewol ir gnaden <lb/>geliebter herr
+                           <term ref="lem000129">vater</term> selig nach beschechner <term
+                           ref="lem009506">reformation</term> den vorigen <lb/>pfarrer zuͦ
+                           <placeName ref="loc007247">Benderen</placeName> als angemaßten abt von
+                           <placeName ref="loc007992.02">Sanct Lucy</placeName> umb be<lb break="no"
+                        />lehnung wegen der beiden <term ref="lem002923">predicanten</term> im
+                           <placeName ref="loc006114">Sennwald</placeName> und <placeName
+                           ref="loc008035.02">Saletz</placeName>
+                        <lb/>angesuͦcht, so habe doch derselbig <term ref="lem000672">pfarrer</term>
+                        das <term ref="lem014693">abgeschlagen</term> und <lb/>sich erclert, das er
+                        synes <term ref="lem001521">ordens</term> und <term ref="lem008313.08"
+                           >gewüßne</term> halber den pre<lb break="no"/>dicanten nit lyhen khönne
+                        noch wölle. Derwegen wol<lb break="no"/>ermelter ir gnaden herr vater selig
+                        nach genommnem bedacht, <lb/>so vil inn rath funden, wyl er, pfarrer, sich
+                        als ein abt von <placeName ref="loc007992.03">Sanct <lb/>Luci</placeName>
+                        dargstelt und einmal der <term ref="lem004723.03">belechnung</term> sye
+                        angsuͦcht worden, <lb/>dieselbig aber verweigeret und sidher sich befunden,
+                        das die <lb/>statt <orgName ref="org001160">Chur</orgName> das <term
+                           ref="lem000534">closter</term>
+                        <placeName ref="loc007992.03">Sanct Luci</placeName> innhat, das derhalben
+                           wed<lb break="no"/>er wolermelter alter herr selig nach syner gnaden
+                        erben nit <lb/>mehr schuldig, vorangeregter <term ref="lem000456.05"
+                           >lehenschafft</term> halber by inn, pfarr<lb break="no"/>ern, wyter
+                        anzuͦhalten, der achtung, ein pfarrer zuͦ <placeName ref="loc007247">Bend<lb
+                              break="no"/>eren</placeName> dißer <term ref="lem004050"
+                           >collatur</term> nit befuͤgt syge <abbr>etc</abbr>.</seg>
+                     <seg>Also nach ver<lb break="no"/>hörung klag und antwort habent wir umb
+                        sölichen punct<lb break="no"/>en also gesprochen: Sidtmaln zur zyt der
+                        ennderung <lb/>und <term ref="lem009506">reformation</term> der <term
+                           ref="lem008440">religion</term> inn der herrschafft <placeName
+                           ref="loc000278">Vorstegk</placeName>, <lb/>wyland vorwolgesagter herr
+                           <persName ref="per004426a">Ulrich Philips</persName> seliger gedechtnuß
+                        <lb/>von wegen der erwelten beiden <term ref="lem002923">predicanten</term>
+                        gen <placeName ref="loc006114">Sennwald</placeName> und <lb/><placeName
+                           ref="loc008035.02">Saletz</placeName>, den domaln geweßnen pfarrer zuͦ
+                           <placeName ref="loc007247">Benderen</placeName>, als der sich <lb/>der
+                        abty <placeName ref="loc007992.03">Sanct Luci</placeName> angemaßt, umb
+                           <term ref="lem004723.01">belehnung</term> beider <term ref="lem000367.12"
+                              >pfruͤnd<lb break="no"/>en</term> angesuͦcht und die predicanten ze
+                           <term ref="lem004104.04">præsentieren</term> begärt, der<lb break="no"
+                        />selbig pfarrer zuͦ <placeName ref="loc007247">Benderen</placeName> aber
+                        domaln sich der lyhung geweig<lb break="no"/>eret, uß ursach, das er es
+                        gwüßne und ampts halber nit <pb n="5v" facs="StASG_AA_2_U_38_05v"/>
+                        <lb/>thuͦn khönne noch wölle unnd nun wolgemelter herr <persName
+                           ref="per004426a">Ulrich Philips</persName>
+                        <abbr>etc</abbr>
+                        <lb/>seliger als fryer landt- und oberherr der herrschafft <placeName
+                           ref="loc000278">Vorstegk</placeName>
+                        <lb/>noch geheptem rath dieselben beide <term ref="lem002923"
+                           >predicanten</term> nütdestweniger <lb/>ufgestelt und also siderhar
+                        predicanten der orten ohn præsentiert ge<lb break="no"/>brucht worden, so
+                        sölle es fürbaß wyter daby belyben <lb/>und also gehalten werden so lang,
+                        biß das ein <term ref="lem000672">pfarrer</term> zuͦ <lb/>Benderen den <term
+                           ref="lem012964">titel</term> eines <term ref="lem000001">abts</term> zuͦ
+                           <placeName ref="loc007992.03">Sanct Luci</placeName> von gmeinen <orgName
+                           ref="org002906">Dryg<lb break="no"/>en Pündten</orgName> oder einer statt
+                           <orgName ref="org001160">Chur</orgName> (inn deren <term ref="lem002892"
+                           >verwaltung</term> das <lb/>closter <placeName ref="loc007992.03">Sanct
+                           Luci</placeName> ist) rechtmeßiger wyß erlangt und ußbringt. <lb/>Alsdann
+                        allwegen nach vermög brief und siglen gehandlet werden <lb/>und beschechen,
+                        was diß fals gebürlich und doch hienebent dewed<lb break="no"/>erm theil an
+                        synen recht und grechtigkeiten nützit benommen syn. <lb/>Unnd wann es
+                        dartzuͦ keme, das ein oder der ander predicant <lb/>dem <term
+                           ref="lem006619">lehenherrn</term>
+                        <term ref="lem004104.04">præsentiert</term> wurde, als dann man denselben
+                        <lb/>die lyhung nit weigeren, sonders jederzyt by der hand zelyhen
+                        <lb/>schuldig syn.</seg>
+                     <seg>Fürs fünffte hatt <lb/>herr pfarrer zuͦ <placeName ref="loc007247"
+                           >Benderen</placeName> fürgebracht, als dann der <term ref="lem001217"
+                           >große <lb/>zehenden</term> im
+                        <placeName ref="loc000389.02">Hag</placeName> by <date dur="P34Y">vier
+                           und dryßig jaren</date> hievor, wyland <lb/>wolgedachtem herrn <persName
+                           ref="per004426a">Uͦlrich Philipßen</persName>
+                        <abbr>etc</abbr> ze kauffen gegeben, dar<lb break="no"/>nebent aber der
+                           <term ref="lem006415">kleine zehenden</term> deß orts einem abt zuͦ
+                           <placeName ref="loc007992.03">Sanct <lb/>Luci</placeName> und pfarrer zuͦ
+                           <placeName ref="loc007247">Benderen</placeName> inn dem <term
+                           ref="lem000798">verkauff</term> vorbehalten word<lb break="no"/>en, habe
+                        er, pfarrer, vor wenig jaren etliche <term ref="lem002940">hirß</term> unnd
+                           <term ref="lem010617">fench<lb break="no"/>zechenden</term>, wellicher
+                        dem <term ref="lem006415">kleinen zehenden</term> anhengig, ingenommen,
+                        <lb/>darüber vorwolgedachter syn herr gegentheil inne umb <measure
+                           quantity="40" type="currency" unit="lb">viertzig pfund
+                           <lb/>pfenning</measure> straffwyß angelegt. Und als er dieselbe <term
+                           ref="lem000345">straff</term> nit erlegen <lb/>wöllen, habe er, herr
+                           <persName ref="per004582a">Johann Philips</persName>
+                        <abbr>etc</abbr>, ime einen <term ref="lem002384.04">zinßbrieff</term>
+                        <lb/>umb <measure quantity="45" type="currency" unit="lb">viertzig und fünff
+                           pfund pfenning</measure>
+                        <term ref="lem000588">haubtguͦts</term> arrestieren <lb/>und deßhalb wider
+                        inne im rechten procedieren laßen. Deßen <lb/>er beschwert, inn hoffnung,
+                        hierumb einiche <term ref="lem000036">buͦß</term> verwürckt haben <lb/>und
+                        der uff gemelten brief unnd nach ein andere <term ref="lem000037"
+                           >schuld</term> angelegte <lb/><term ref="lem007461">arrest</term> nun
+                        mehr ufgelößt werden und syn.</seg>
+                     <seg>Dargeg<lb break="no"/>en offt wolgedachter herr <persName ref="per004582a"
+                           >Johann Philips</persName>
+                        <abbr>etc</abbr> fürgewendt, das <lb/>er dem pfarrer zuͦ <placeName
+                           ref="loc007247">Benderen</placeName> von deß <term ref="lem006415"
+                           >kleinen zehendes</term> wegen <lb/>dheinen sondern <term ref="lem002204"
+                           >intrag</term> gethaan, aber denselben von deßwegen <lb/>umb <measure
+                           quantity="40" type="currency" unit="lb">viertzig pfund pfenning</measure>
+                        gestrafft, das er den kleinen zeh<lb break="no"/>enden über die <term
+                           ref="lem010622">marckung</term> ußhin biß inn <placeName
+                           ref="loc008035.02">Saletzer</placeName> kilchspel erstreckt, <pb n="6r"
+                           facs="StASG_AA_2_U_38_06r"/>
+                        <lb/>und über verbott und warnnen fortgefaren und den kleinen zehenden
+                        <lb/>wyter als sich gebürt inn <placeName ref="loc008035.02"
+                           >Saletzer</placeName> marckung genommen. Unnd wyl <lb/>er sich von
+                        deßwegen rechtlich nit verantworten noch solche buͦß er<lb break="no"/>legen
+                        wöllen, ime einen <term ref="lem002384.12">zinßbrief</term> im 
+                        <placeName ref="loc000389.02">Hag</placeName>
+                        <term ref="lem007965">hefften</term> laßen, welches <lb/>darnach iren gnaden
+                        mitt recht zuͦerkhendt worden <abbr>etc</abbr>.</seg>
+                     <seg>Wie <lb/>nun wir sy beidersyts hierumbe gegen einanderen verhört und uß
+                        <lb/>herr pfarrers nachred verstanden, das die vor jaren beschechne <lb/>und
+                        ernüwerte <term ref="lem010418.03">marckung</term> zwüschent den <orgName
+                           ref="org001785">Saletzeren</orgName> und <orgName ref="org001787"
+                           >Hageren</orgName>
+                        <lb/>(die er glych wol nit widerspreche) ime unwüßend zuͦgangen und <lb/>nit
+                        er, sonders syn <term ref="lem000283">caplan</term> inn synem abwäßen domals
+                        den <lb/><term ref="lem000073">zehenden</term> ingezogen, vermeinnende,
+                        denselben anderst nit, dann <lb/>wie von alter har genommen haben. Da aber
+                        hier innen etwas <lb/>verfelt were, dasselbig uß unwüßenheit beschechen sye
+                           <abbr>etc</abbr>. Habent <lb/>wir uff söllichen bericht an wolgedachtem
+                        herrn <persName ref="per004582a">Johann Philipßen</persName>
+                        <abbr>etc</abbr>
+                        <lb/>durch bitt so vil vermögen, das ir gnaden sich begeben, an<lb
+                           break="no"/>statt der <measure quantity="40" type="currency" unit="lb"
+                           >viertzig pfunden</measure>
+                        <term ref="lem000036">buͦß</term>
+                        <measure quantity="5" type="currency" unit="lb">fünf pfund
+                           pfenning</measure> zenemmen, doch <lb/>inn anderweg iren gnaden an dero
+                        grechtigkeiten unnachteilig. <lb/>Und söllint hiemit die dißer sach und buͦß
+                        halber angelegten <term ref="lem008422">häfft</term>
+                        <lb/><term ref="lem012063">relaxiert</term> syn. Unnd im übrigen wolgesagter
+                        herr <lb/><persName ref="per004582a">Johann Philips</persName>
+                        <abbr>etc</abbr> ordnung thuͦn, das dißere <term ref="lem000693.04"
+                           >marck</term> innbysin <lb/>deß pfarrers zuͦ <placeName ref="loc007247"
+                           >Benderen</placeName> als von deß <term ref="lem006415">kleinen
+                           zechendens</term> wegen <lb/>eigentlich besichtiget werde und so dann er,
+                        herr <term ref="lem000672">pfarrer</term>, inn sölliche <lb/>marck khein
+                        inred und das syn zehendens grechtigkeit über die <lb/>marck ußhin sich
+                        erstrecke, nit darthuͦn khan, sölle es als billich dar<lb break="no"/>by
+                        bestaan unnd ein pfarrer zuͦ <placeName ref="loc007247">Benderen</placeName>
+                        mit inzüchen deß <lb/>kleinen zehendens innert der march fürbaß
+                        belyben.</seg>
+                     <seg>Unnd <lb/>dann fürs sechßt unnd letst: Alsdann herr <term ref="lem000672"
+                           >pfarrer</term> zuͦ <lb/><placeName ref="loc007247">Benderen</placeName>
+                        dargelegt, einen <term ref="lem000364.09">stifftungbrief</term> als zwey
+                           <term ref="lem001020">eementschen</term>
+                        <lb/>von <placeName ref="loc006605.03">Veldkirch</placeName> zuͦ der <term
+                           ref="lem000367.08">pfruͦnd</term> im <placeName ref="loc006114"
+                           >Sennwald</placeName> etliche stuck und guͤtere <lb/><term
+                           ref="lem014938.02">verwiduwt</term> unnd er, herr pfarrer, uß krafft
+                        desselben vermeint, <lb/>das sölliche <term ref="lem003845">stifftung</term>
+                        lut stifftung briefs ime zeniessen gehören <lb/>und umb das, so ein <term
+                           ref="lem000672">pfarrer</term> ald <term ref="lem002923">predicant</term>
+                        im <placeName ref="loc006114">Sennwald</placeName> die zyt har <lb/>darvon
+                        ingenommen, ime ein <term ref="lem004719">abtrag</term> beschechen sölte
+                           <abbr>etc</abbr>, deßen <lb/>sich aber vor wolgenannter herr <persName
+                           ref="per004582a">Johann Philips</persName>
+                        <abbr>etc</abbr> beschwert, von <lb/>söllichem brief einer <term
+                           ref="lem000677.04">abgschrifft</term> sich darinnen eigentlichen zuͦ<lb
+                           break="no"/>ersehen begert und darnebent verhofft, das was ein pfarrer
+                           <pb n="6v" facs="StASG_AA_2_U_38_06v"/>
+                        <lb/>zuͦ <placeName ref="loc007247">Benderen</placeName> von söllicher <term
+                           ref="lem003845">stifftung</term> an sich gezogen und innemme,
+                        <lb/>dasselbig nit ime, sonders billicher wyß dem <term ref="lem002923"
+                           >predicanten</term> im <placeName ref="loc006114">Sen<lb break="no"
+                           />wald</placeName>, zuͦ wellicher <term ref="lem000367.08">pfruͦnd</term>
+                        es dann gestifftet, nun hinfüro ge<lb break="no"/>volgen und umb das untzhar
+                        ingenommen, gebürender abtrag be<lb break="no"/>schechen sölle
+                           <abbr>etc</abbr>.</seg>
+                     <seg>Ist harüber, wyl dißere sach etwas <lb/>beßere erkhundigung erforderet,
+                        unser meinung, das <lb/>offt wolgemeltem herr <persName ref="per004582a"
+                           >Johann Philipßen</persName>
+                        <abbr>etc</abbr> nach ir gnaden be<lb break="no"/>gären von söllichem <term
+                           ref="lem000364.10">stifftungbrieff</term> ein glaubwürdige <term
+                           ref="lem003335">vidimierte</term>
+                        <lb/>abgschrifft zuͦgestelt werden unnd dann ire gnaden unnd der <lb/>herr
+                        pfarrer zuͦ <placeName ref="loc007247">Benderen</placeName> sich harumbe
+                        eintweders für sich selbs <lb/>mitt einanderen <term ref="lem008336"
+                           >verglychen</term> oder durch <term ref="lem014933.02"
+                           >underhandlung</term> beidersyts <lb/>dartzuͦ erbätner entscheiden laßen.
+                        <seg/>Unnd also hie<lb break="no"/>mit vor- und wolgemelte beide parthygen
+                        umb ire mit einand<lb break="no"/>eren gehepte spänn gericht und vertragen,
+                        alle under dißeren <lb/>handlungen verloffne reden und unwillen hin, tod und
+                        ab syn, <lb/>also das dewederer theil dem andern deßen zuͦ argem gedencken,
+                        <lb/>sonders sy sich allersyts gegen einanderen inn guͦter <term
+                           ref="lem008296">nachbarschafft</term>
+                        <lb/>jederzyt fründtlich erzeigen.</seg>
+                     <seg>Unnd wann <lb/>nun vorgemelter herr pfarrer zuͦ <placeName ref="loc007247"
+                           >Benderen</placeName> uß habendem vol<lb break="no"/>mechtigen gwalt für
+                        sich und syne nachkommen unnd dann wol<lb break="no"/>gedachter herr
+                           <persName ref="per004582a">Johann Philips, fryherr zuͦ Hohen
+                           Sax</persName>
+                        <abbr>etc</abbr>, <lb/>für sich, ir gnaden mitterben unnd erben, vorerzelte,
+                        unsere <lb/>guͤtliche underhandlung und sprüch guͦtwillig uf- und
+                        angenommen, <lb/>denselben statt zethuͦnd, zuͦgeläben, daby zuͦbelyben unnd
+                        <lb/>sich denen jederzyt gemeß zehalten, zuͦgesagt und versprochen,
+                        <lb/>alle geverd hindan gesetzt. So habent daruf der <lb/>dingen
+                        zuͦgezügknuß jetzt und wolermelte beide parthygen, <lb/>namblich herr
+                           <persName ref="per008981a">Hieronimus Utler</persName>, dißer zyt
+                        pfarrherr zuͦ <placeName ref="loc007247">Bend<lb break="no"
+                           />eren</placeName>
+                        <abbr>etc</abbr>, unnd herr <persName ref="per004582a">Johann Philips,
+                           fryherr zuͦ Hohen Sax</persName>, <lb/>herr zuͦ <placeName
+                           ref="loc000278">Sax und Vorstegk</placeName>
+                        <abbr>etc</abbr>, jeder syn insigel (sich, ire <lb/>nachkommen und erben deß
+                        alles darmit zuͦbesagende) zum <lb/>vordristen offentlich hieran thuͦn
+                        hengken.</seg>
+                     <seg>Unnd <lb/>dann habent auch wir, genannte beide verordnete <persName
+                           ref="per001949a">Johans <lb/>Keller</persName>, burgermeister, unnd
+                           <persName ref="per002174a">Joßt von Bonstetten</persName>, <lb/>deß ze
+                        wahrem urkhundt auch unnsere eignen insigel (doch <lb/>unns unnd unnseren
+                        erben ohne schaden) hieran hengken <pb n="7r" facs="StASG_AA_2_U_38_07r"/>
+                        <lb/>laßen, geben und beschechen uff <origDate when="1595-07-26"
+                           calendar="Julian">sambßtag, den <lb/>sechs und zwentzigisten tag deß
+                           monats july, nach <lb/>der geburt <persName ref="per000353"
+                              >Christi</persName>, unnsers lieben herrn, gezalt fünf<lb break="no"
+                           />zehenhundert nüntzig und fünff jare.</origDate>
+                     </seg></p>
+                     <p><seg>
+                        <lb/><persName ref="per002328a">Hanns Geörg Grebel</persName>,
+                        <lb/>stattschryber zuͦ <placeName ref="loc000065">Zürich</placeName>,
+                           <foreign xml:lang="la"><choice>
+                              <abbr>ß</abbr>
+                              <expan>scripsit</expan>
+                           </choice></foreign></seg>
+                  </p>
+                  <pb n="7v" facs="StASG_AA_2_U_38_07v"/> <pb n="8r" facs="StASG_AA_2_U_38_08v"/>
+               </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div n="1" org="uniform" sample="complete">
+            <p>Im Mittelalter gehören <placeName ref="loc000950">Sennwald</placeName>, <placeName
+                  ref="loc000691">Salez</placeName> und <placeName ref="loc000389">Haag</placeName>
+               zur Pfarrei <placeName ref="loc007247">Bendern</placeName>, die ursprünglich aus
+               einer <term ref="key000794">Kirche</term> in <placeName ref="loc008031"
+                  >Bendern</placeName> und einer <term ref="key004453">Filialkapelle</term> auf der
+               linken Rheinseite besteht. Die Pfarrei <placeName ref="loc007247">Bendern</placeName>
+               wird durch den Kaiser <date when="1194">1194</date> an das Benediktinerkloster
+                  <orgName ref="org003291">St. Luzi</orgName> in <placeName ref="loc000007"
+                  >Chur</placeName> geschenkt (Literatur: <bibl><ref
+                     target="http://permalink.snl.ch/bib/chbsg000141190">Büchel 1923</ref>,
+                  S.&#160;7–13</bibl>; vgl. auch <bibl><ref>PfABe U&#160;16</ref>,
+                     <ref>A&#160;27/7</ref></bibl>). Während Haag Teil der Pfarrei Bendern bleibt,
+               trennen sich Sennwald um <date when="1422">1422</date> und Salez <date when="1512"
+                  >1512</date> (nach <bibl><ref target="http://permalink.snl.ch/bib/chbsg000141190"
+                     >Büchel 1923</ref>, S.&#160;29</bibl>, wird 1512 anstelle der früheren Kapelle
+               eine neue Kirche erbaut, die 1514 zur Pfarrkirche erhoben wird [ohne Beleg]) von der
+                  <term ref="key000477">Mutterkirche</term>; die <term ref="key000811"
+                  >Kollatur</term> und der <term ref="key000049">Zehnt</term> bleiben jedoch
+               weiterhin beim Kloster St. Luzi.</p>
+            <p>Im Zuge der sogenannten zweiten <term ref="key000658">Reformation</term> in der
+               Freiherrschaft <placeName ref="loc000278">Sax-Forstegg</placeName> durch den Herrn
+               von Sax-Hohensax treten <date when="1565">1565</date> nur <orgName ref="org001785"
+                  >Salez</orgName> und <orgName ref="org003296">Sennwald</orgName> zum neuen Glauben
+               über, während <orgName ref="org001787">Haag</orgName> katholisch und weiterhin nach
+                  <placeName ref="loc007247">Bendern</placeName> kirchgenössig bleibt
+                  (<ref>SSRQ_SG_III_4_136</ref>; <bibl><ref>PfABe A&#160;27/7</ref></bibl>;
+                     <bibl><ref target="http://permalink.snl.ch/bib/chbsg000141190">Büchel 1923</ref>,
+                  S.&#160;11, 40–45</bibl>). Von jedem Haushalt in Haag muss jedoch einmal unter der
+               Woche eine Person in Salez die Kirche besuchen. Nach dem Tod von <persName
+                  ref="per004426a">Ulrich Philipp von Sax-Hohensax</persName>
+               <date when="1585">1585</date> versucht sein Sohn <persName ref="per004582">Johann
+                  Philipp</persName>, die Haager zur Reformation zu bewegen und bestimmt <date
+                  when="1590">1590</date>, dass an jedem <term ref="key004413">Sonntag</term> aus
+               jedem Haus mindestens eine Person nach <placeName ref="loc000691">Salez</placeName>
+               zur evangelischen <term ref="key004088">Predigt</term> gehen muss. Als sich die
+                  <orgName ref="org001787">Haager</orgName> dagegen wehren, lässt er sie beim alten
+               Brauch, nur unter der Woche die Kirche in <placeName ref="loc007991"
+                  >Salez</placeName> besuchen zu müssen. Bei Ungehorsam droht ihnen jedoch eine
+               Busse von 3 Batzen. Wer zudem für die Spendung der <term ref="key000901"
+                  >Sakramente</term> und zur Übung katholischer Zeremonien den Pfarrer von Bendern
+               nach Haag bestellt, dem droht eine <term ref="key000184">Busse</term> von 10 Pfund
+                     (<bibl><ref>StAZH A&#160;346.1.5, Nr.&#160;37</ref></bibl>). Gegen diese
+               Bestimmungen wehrt sich der <term ref="key000301">Pfarrer</term> von Bendern, der
+               sich <date when="1595">1595</date> (siehe vorliegendes Stück) mit <persName
+                  ref="per004582">Johann Philipp von Sax-Hohensax</persName> über die katholische
+               Religionsausübung der Haager Kirchgenossen, das Präsentationsrecht von Bendern in den
+               Pfarreien Salez und Sennwald sowie den Kleinen Zehnt in Haag einigt.</p>
+            <p>Zu den verbliebenen Katholiken (Ende 16. Jh.) in der Gemeinde Sax vgl. Einleitung,
+               Kap. 2.1.</p>
+         </div>
+         <div n="2" org="uniform" sample="complete">
+            <p>Als <orgName ref="org001196">Zürich</orgName> nach dem Tod von <persName
+                  ref="per004582">Johann Philipp von Sax-Hohensax</persName> († 1596) die <term
+                  ref="key000997">Vormundschaft</term> über den hinterlassenen Sohn erhält, nimmt
+               der Druck auf die <orgName ref="org001787">Haager</orgName> zu. <date when="1601"
+                  >1601</date> erlassen die beiden Zürcher Vögte ein <term ref="key000491"
+                  >Mandat</term>, dass besonders die Haager bei Androhung einer Geldbusse fleissiger
+               die Sonntagspredigt besuchen müssen und an diesem Tag die Herrschaft nicht verlassen
+               dürfen, worauf einige Bewohner von Haag den Besuch der evangelischen Predigt in
+                  <placeName ref="loc000691">Salez</placeName> vollends verweigern und trotz Verbot
+               am Ostersonntag in <placeName ref="loc000689">Bendern</placeName> die Messe besuchen.
+               Sie kommen in <term ref="key003389">Gefangenschaft</term>, werden gebüsst und müssen
+               eine <term ref="key000480">Urfehde</term> schwören. <orgName ref="org001196"
+                  >Zürich</orgName> bewilligt ihnen jedoch, bis zur Volljährigkeit von <persName
+                  ref="per004774">Friedrich Ludwig</persName> bei der katholischen Religion zu
+               bleiben. Sie müssen sich aber an den Vertrag mit <persName ref="per004582">Johann
+                  Philipp von Sax-Hohensax</persName> vom <date when="1595-07">Juli 1595</date>
+               halten und einmal die Woche oder am Freitag nach Salez in die Predigt gehen
+                     (<bibl><ref>StASG AA&#160;2 U&#160;42</ref>;
+                  <ref>AA&#160;2 U&#160;43</ref></bibl>; siehe auch <bibl><ref>StAZH A&#160;346.3,
+                     Nr.&#160;49</ref></bibl>). </p>
+         </div>
+         <div n="3" org="uniform" sample="complete">
+            <p>Nach dem Kauf der Freiherrschaft <placeName ref="loc000278">Sax-Forstegg</placeName>
+               durch <orgName ref="org001196">Zürich</orgName> im Jahr 1615 versucht Zürich, die
+                  <term ref="key000658">Reformation</term> in der ganzen Freiherrschaft Sax-Forstegg
+               durchzusetzen. Trotzdem dauert es noch mehrere Jahrzehnte, bis die <term
+                  ref="key001029">Katholiken</term> in <placeName ref="loc000389">Haag</placeName>
+               zum evangelischen Glauben übertreten (vgl. <bibl><ref>StASG
+                     AA&#160;2 A&#160;3-9-1</ref>, Art.&#160;14;
+                     <ref>AA&#160;2 A&#160;12-2-11</ref></bibl>; <bibl><ref>StAZH
+                  A&#160;346.4</ref>, <ref>Nr.&#160;25</ref>; <ref>Nr.&#160;95</ref>;
+                     <ref>Nr.&#160;96</ref>; <ref>Nr.&#160;107</ref></bibl>; <bibl><ref>BAC
+                     211.03.37-016</ref></bibl>): Erst 1641 werden die Haager <orig>mit dem licht
+                  des heiligen evangeliums erleuchtet</orig> (Original: <ref>OGA Haag</ref>
+               16.10.1641, nur noch als Fotokopie vorhanden, besucht 16. Juni 2014) und als
+               Belohnung erlässt Zürich den Haagern den kleinen <term ref="key003444">Zehnt</term>
+               und die Beteiligung an den Unkosten an <term ref="key000794">Kirche</term> und <term
+                  ref="key000216">Pfründhaus</term> in <placeName ref="loc000691">Salez</placeName>,
+               wohin sie kirchgenössig sind.</p>
+         </div>
+         <!-- 
+   <div><p>Ansprüche Kloster St. Luzi wegen Präsentationsrecht Pfarreien Salez und Sennwald 1615, als der Pfarrer von Bendern als rechtmässiger Abt des Klosters St. Luzi von
+    dem Gotteshausbund und der Stadt Chur eingesetzt. Urkunde von 1543 zeigt, dass Haag nach Bendern kirchgenössig ist und von den Brüdern des Klosters 
+    St. Luzi versehen werden soll. <ref>StAZH A&#160;346.2.3, Nr.&#160;44</ref>. </p></div> 
+    <p> 1543 kommt
+     es zum Streit zwischen dem Kloster St. Luzi bzw. der Stadt Chur als Klostervogt und der Pfarrei Bendern um die Zugehörigkeit
+     des Zehnts von Haag (vgl. ausführlich <bibl><ref>Büchel 1923</ref>, S.
+      39–40</bibl>; Original: <ref>PfABe, U&#160;24</ref>; Kopie: <ref>StASG AA&#160;2&#160;A&#160;12-7-2</ref>). 
+     1551 kauft der Herr von Sax-Forstegg den Grossen Zehnt von Haag, während der kleine Zehnt und die übrigen
+     Rechte beim Kloster bleiben ßStAZH A&#160;346.2.3, Nr.&#160;44</ref>). 
+     
+     </p>-->
+      </back>
+   </text>
+</TEI>

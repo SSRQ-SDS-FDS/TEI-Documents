@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-08-15"/>
+            <date type="print"/>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_200_2</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno
+                     source="https://archivverzeichnis.gl.ch/home/#/content/6622937e7fbe402392ebe0ab06a06ed8"
+                     >LAGL AG III.2467:004</idno>
+                  <altIdentifier>
+                     <idno>LAGL X. 254</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <head>Erläuterung von Glarus zum Mandat, dass Getreide und Hülsenfrüchte im Kornhaus
+                  zu lagern und zu verzollen sind</head>
+               <msContents>
+                  <summary>
+                     <p>Vor Landammann und Rat von Glarus erscheint Hans Tischhauser als
+                        Abgeordneter der Landvogtei Werdenberg und berichtet, dass in allen Kirchen
+                        kürzlich ein Mandat verlesen wurde, dass die von Werdenberg Getreide und
+                        Hülsenfrüchte zum Verkauf in das neu erbaute Kornhaus bringen und verzollen
+                        müssen. Glarus erläutert das Mandat: Jeder Müller, Bäcker und andere
+                        Haushalte müssen Getreide und Hülsenfrüchte für den eigenen Haushalt bzw.
+                        für ihr Gewerbe weder ins Kornhaus liefern noch Zoll bezahlen. Was aber mit
+                        Gewinn verkauft wird, muss ins Kornhaus geliefert werden.</p>
+                     <p>Der Aussteller siegelt mit dem Landessekretsiegel.</p>
+                  </summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <filiation type="original">
+                        <origDate when="1683-05-06"/>
+                        <idno>OGA Grabs O 1683-1</idno>
+                     </filiation>
+                     <filiation type="current">Vidimus (Doppelblatt)</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="34.0"/>
+                              <width unit="cm" quantity="24.0"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <sealDesc>
+                     <seal n="1" ssrq:attachment="applied" ssrq:condition="well-preserved" ssrq:shape="round"><persName ref="per007571">Johann Heinrich Zwicky</persName>, Landvogt von Werdenberg-Wartau</seal>
+                  </sealDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1786-03-19"/>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key001054">Kornhaus</term>
+               <term ref="key000687">Gewerbe</term>
+               <term ref="key000211">Korn</term>
+               <term ref="key000369">Kauf</term>
+               <term ref="key000231">Verkauf</term>
+               <term ref="key000491">Mandat</term>
+               <term ref="key000199"/>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body/>
+         </text>
+      </group>
+      <back>
+         <div/>
+      </back>
+   </text>
+</TEI>

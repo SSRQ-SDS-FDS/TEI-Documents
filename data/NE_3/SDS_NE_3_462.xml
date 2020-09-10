@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     n="1234"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="headerinfo"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2020-08-17"/>    <date type="print"/>
+    <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Collection des sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des
+      sources
+      du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS_NE_3_462</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>AVN B 101.14.002, fol. 85v</idno>
+               </msIdentifier>
+               <head>Acquêts et conquêts&#160;: affirmation de la coutume et rejet du droit écrit</head>
+               <msContents>
+                  <summary>Tout ce qu’un mari et une femme acquièrent ensemble durant la conjonction
+                     de leur mariage leur est commun. On suit à Neuchâtel une coutume particulière
+                     et non le droit écrit. </summary>
+                  <msItem>
+                     <textLang>français</textLang>
+                     <filiation type="current"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="34.5"/>
+                              <width unit="cm" quantity="22"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1794-07-17"/>
+                     <origPlace ref="loc007786">Neuchâtel</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head/>
+                     <bibl/>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000468"/>
+               <term ref="key005119"/>
+               <term ref="key005001"/>
+               <term ref="key000138"/>
+               <term ref="key000558"/>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="85v" facs="AVN_B_101.14.002_0085v"/>
+               <div>
+                  <p>
+                     <lb/>Du <origDate when="1794-07-17">17<hi rend="sup">e</hi> juillet
+                        1794</origDate>. </p>
+                  <p>
+                     <lb/>En <orgName ref="org003085">Conseil Étroit</orgName> assemblé sous la
+                     présidence de monsieur <lb/><persName ref="per008754">Samuel
+                        Bonvèpre</persName> maître bourgeois en chef, <lb/>s’est présenté <choice>
+                        <abbr>M<hi rend="sup">r</hi>
+                        </abbr>
+                        <expan>monsieur</expan>
+                     </choice>
+                     <persName ref="per008755">Jean Jaques Meuron</persName>, bourgeois de
+                     <lb/>cette ville, lequel, agissant par commission d’une personne
+                     <lb/>étrangère, a demandé d’avoir déclaration de la coutume <lb/>sur les deux
+                     points suivants, assavoir. </p>
+                  <p>
+                     <lb/>1<hi rend="sup">o</hi>. Si ce pays n’est pas un pays régi par une
+                     <lb/>coutume particulière et non par le droit.</p> <p><lb/>2<hi rend="sup">o</hi>. Si
+                     dans ce pays il n’y a pas pour les <term ref="lem014965">acquêts</term> &amp; <lb/>
+                     <term ref="lem015003">conquêts</term><note>Le demandeur différencie les
+                        acquêts, biens non propres acquis avant la communauté du mariage des
+                        conquêts, biens acquis en commun ou par l’un des conjoints pour les deux
+                        durant la communauté du mariage. Cette distinction n’existe pas à Neuchâtel
+                        où les acquêts sont les biens acquis durant la communauté du mariage et les
+                        conquêts n’existent pas.</note>, communauté entre le mari &amp; la femme. </p>
+                  <p>
+                     <lb/>Surquoi, mesdits sieurs du <orgName ref="org003085">Conseil
+                        Étroit</orgName> ayant eu <lb/>mûre délibération ensemble, ont dit &amp;
+                     déclaré unanimement <lb/>que la coutume usitée dans ce pays de père à fils
+                     &amp; <lb/>tems immémorial, est&#160;: </p>
+                  <p>
+                     <lb/>1<hi rend="sup">o</hi>. Que l’on y suit une coutume particulière &amp; <choice>
+                        <sic>non <lb/>non</sic>
+                        <corr>non</corr>
+                     </choice> le droit écrit. </p>
+                  <p>
+                     <lb/>2<hi rend="sup">o</hi>. Que tout ce qu’un mari &amp; une femme acquièrent
+                     <lb/>ensemble durant la conjonction de leur mariage, <lb/>leur est commun,
+                     chacun d’eux ayant droit à <lb/>la moitié, sans distinction d’acquêts &amp; de
+                     conquêts. </p>
+                  <p>
+                     <lb/>Laquelle déclaration ainsi rendue, il a été ordonné <lb/>au soussigné
+                     secrétaire du Conseil de Ville de l’expédier <lb/>en cette forme, sous le sceau
+                     de nos armes. </p>
+                  <p>
+                     <lb/><origPlace ref="loc007786.07">Neuchâtel</origPlace> en <placeName
+                        ref="loc001012.09">Suisse</placeName>, le <origDate when="1794-07-17">dix
+                        sept juillet mil sept <lb/>cent quatre vingt quatorze</origDate>. </p>
+               </div>
+               <div>
+                  <lb/>
+                  <signed>
+                     <persName ref="per008723">
+                        <choice>
+                           <abbr>A</abbr>
+                           <expan>Abram</expan>
+                        </choice> Pettavel</persName>
+                     <figure type="notarial sign"/></signed>
+               </div>
+            </body>
+         </text>
+      </group>
+   </text>
+</TEI>

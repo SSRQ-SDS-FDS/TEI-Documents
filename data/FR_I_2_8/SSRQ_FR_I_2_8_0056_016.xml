@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+
+			</titleStmt>
+
+			<publicationStmt>
+				<date type="electronic" when="2019-05-29"/>
+				<date type="print"/>
+			</publicationStmt>
+
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ_FR_I_2_8_0056_016</idno>
+			</seriesStmt>
+
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<idno>StAFR, Thurnrodel 11, S. 269</idno>
+					</msIdentifier>
+					<head>Pierre Thoma – Verhör / Interrogatoire</head>
+					<msContents>
+						<summary></summary> 
+						<msItem>
+							<textLang>fr</textLang> 
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support>
+									<material></material>
+								</support>
+								<extent>
+									<dimensions type="leaves">
+										<height unit="cm" quantity="0.0"/>
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+									<dimensions type="plica">
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+								</extent>
+							</supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1623-03-20"></origDate>
+							<origPlace></origPlace>
+						</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+							
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+			<particDesc default="false"/>
+			<settingDesc default="false"/>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<p><lb/>Im <placeName ref="loc007683.02">bösen turn</placeName>
+							<seg><lb/><origDate when="1623-03-20">20 <foreign xml:lang="la">martii</foreign> <hi rend="underline">1623</hi></origDate>, <foreign xml:lang="la"><choice><abbr>j</abbr><expan>judex</expan></choice></foreign> <abbr>h</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per009249">Daniel von Montenach</persName>.</note></seg>
+							<seg><lb/><add place="left margin">Bis</add> <abbr>H</abbr> <persName ref="per006751">Erhart</persName>, <abbr>h</abbr> <persName ref="per009449">Vögeli</persName></seg>
+							<seg><lb/><persName ref="per009451a.01"><choice><abbr>C</abbr> <expan>Christoph</expan></choice> von Ligertz</persName>, <persName ref="per009271">Wildt</persName>, <persName ref="per009462">Gribolet</persName><!-- LX Hans --></seg>
+							<seg><lb/><persName ref="per009253">Bocard</persName>, <persName ref="per006518">Lanther</persName></seg>
+							<seg><lb/><choice><abbr>W</abbr><expan>Weibel</expan></choice></seg></p>
+						
+						<p><seg><lb/><add place="left margin"><foreign xml:lang="la">Nihil solvit</foreign>.</add></seg> 
+							<seg>Le souvent nommé <persName ref="per009511">Pierre Tomaz</persName> a soustenu en 
+						<lb/>la torture que les derniers <term ref="lem015356.08">acculpez</term> sont 
+						<lb/>ses complices, comme aussy la femme du <term ref="lem015988.02">patey</term> 
+						<lb/>de <placeName ref="loc007937.07">Crisié</placeName>, mais <subst><del>luy est</del> <add place="inline">ledit <term ref="lem015988.02">patey</term></add></subst> est homme 
+						<lb/>de bien. Concernant la jument et <term ref="lem017507.02">vaches</term>, 
+						<lb/>lesquelles confessoit avoir desrobé, que veri<lb break="no"/>tablement se fait tort, que l’aspre torture 
+						<lb/>l’induit a le proferer.</seg></p>
+						
+						<p><lb/>A portant soustenu en la face d’<persName ref="per009533">Anteyno Feu<lb break="no"/>di</persName> estre <persName ref="per009511">Roy d’Aglants</persName>, avoir desrobé 
+						<lb/>avec luy, et seul en plusieurs lieux, de 
+						<lb/>la viande, et que <persName>Muri Chennin</persName> luy a dit, 
+						<lb/>ledit <persName ref="per009533">Feudi</persName> avoir tué la femme en la forest 
+						<lb/>de <placeName ref="loc000157.07">Berne</placeName>. Item que ledit <persName ref="per009533">Anteyno Feudi</persName> a 
+						<lb/>fait le primier coup a l’homme <del>qu</del> d’en<lb break="no"/>tre <placeName ref="loc000738.09">Saleure</placeName> et <placeName ref="loc000740.06">Bienne</placeName>, avec l’ayde dudit 
+						<lb/><persName>Chennin</persName>, comme ledit <persName>Chennin</persName> le luy a dit, 
+						<lb/>et les aultres faisoent la garde. Souste<lb break="no"/>nant de plus ledit <persName ref="per009533">Feudi</persName> estre sorcier, 
+							<lb/>pource que l’a veu en la <term ref="lem017043.01">secte</term>, vers 
+						<lb/><placeName ref="loc007868.06">S<hi rend="sup">t</hi> Aulbin</placeName> et <placeName ref="loc007597.02">Dirlaret</placeName>. Disant 
+						<lb/>tousjours ne savoir rien de sa femme, 
+						<lb/>prie bien <choice><abbr>humb</abbr><expan>humblement</expan></choice> luy faire grace pource 
+						<lb/>qu’il est si volontaire a confesser.</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+
+
+
+<?oxy_options track_changes="on"?>

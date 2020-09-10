@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     n="1234"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="headerinfo"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2020-08-17"/>    <date type="print"/>
+    <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Collection des sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des
+      sources
+      du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS_NE_3_405</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>AVN B 101.14.002, fol. 46r</idno>
+               </msIdentifier>
+               <head>Nombre de juges non récusables pour une cause importante</head>
+               <msContents>
+                  <summary>Cinq juges non récusables suffisent pour juger une cause grave et
+                     importante.</summary>
+                  <msItem>
+                     <textLang>français</textLang>
+                     <filiation type="current"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="34.5"/>
+                              <width unit="cm" quantity="22"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1730-03-03"/>
+                     <origPlace ref="loc007786">Neuchâtel</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head/>
+                     <bibl/>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000103"/>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="46r" facs="AVN_B_101.14.002_0046r"/>
+               <div>
+                  <head>
+                     <lb/>Combien de juges non récusables il faut <lb/>pour juger une cause grave et
+                     importante. </head>
+                  <p>
+                     <lb/>Sur la très humble requeste présentée de la <lb/>part du sieur <persName
+                        ref="per008650">Abraham Boive</persName> ministre &amp; <lb/>pasteur
+                        <placeName ref="loc007799">aux Verrieres</placeName>, par le sieur <persName
+                        ref="per008824">Meuron</persName>
+                     <lb/>receveur des parties casuelles et avocat, son cousin, <lb/>aux fins
+                     d’obtenir de messieurs le maistre <lb/>bourgeois en chef et <orgName
+                        ref="org003085">Conseil Étroit</orgName> leur <lb/>déclaration de la
+                     coustume de cette souveraineté <lb/>de <placeName ref="loc007785"
+                        >Neufchastel</placeName>, sur le cas suivant. </p>
+                  <p>
+                     <lb/>Sçavoir, de combien de juges, non récusables, <lb/>un tribunal, doit estre
+                     composé, <hi rend="underline">dans ce païs</hi>, <lb/>pour pouvoir juger une
+                     cause grave &amp; importante <lb/>sans appeler des juges en renfort. </p>
+                  <p>
+                     <lb/>Messieurs le maistre bourgeois en chef &amp; <lb/><orgName ref="org003085"
+                        >Conseil Étroit</orgName>, après avoir consulté et <lb/>délibéré entr’eux,
+                     donnent par déclaration, <lb/>que de tout temps la coustume de <placeName
+                        ref="loc007785">Neuf<lb break="no"/>chastel</placeName> est telle.<seg> Que
+                        cinq juges non récusables <lb/>suffisent pour juger une cause grave et
+                        importante <lb/>sans appeller des juges en renfort, et cela pour <lb/>la
+                        justice inférieure.</seg>
+                  </p>
+                  <p>
+                     <lb/>Laqu’elle déclaration a été ainsi faite, et ordonné <lb/>à moi secrétaire
+                     de <choice>
+                        <abbr>lade</abbr>
+                        <expan>ladite</expan>
+                     </choice> Ville, de la rédiger par <lb/>écrit en cette forme, sous le sçeau de
+                     la justice <lb/>et mairie <choice>
+                        <abbr>dud</abbr>
+                        <expan>dudit</expan>
+                     </choice>
+                     <origPlace ref="loc007786">Neufchastel</origPlace> le <origDate
+                        when="1730-03-03">troizième jour <lb/>du mois de mars, l’an mille sept cent
+                        et trente</origDate>. </p>
+                  <p>
+                     <lb/>Signé à l’original. </p>
+               </div>
+               <div>
+                  <signed>
+                     <persName ref="per008651">
+                        <choice>
+                           <abbr>J&#160;F</abbr>
+                           <expan>Jean Frédéric</expan>
+                        </choice> Brun</persName>
+                     <figure type="notarial sign"/>
+                  </signed>
+               </div>
+            </body>
+         </text>
+      </group>
+   </text>
+</TEI>

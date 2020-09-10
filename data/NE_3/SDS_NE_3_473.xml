@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     n="1234"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="headerinfo"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2020-08-17"/>    <date type="print"/>
+    <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Collection des sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des
+      sources
+      du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS_NE_3_473</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>AVN B 101.14.002, fol. 93r</idno>
+               </msIdentifier>
+               <head>Recevabilité en justice des livres de commerce</head>
+               <msContents>
+                  <summary>Les livres comptables font foi et preuve en justice lorsqu’ils sont tenus régulièrement, que leurs auteurs sont connus pour gens de bien et de probité et que la sincérité et la vérité des écritures qui y sont couchées sont attestées par serment.
+      </summary>
+                  <msItem>
+                     <textLang>français</textLang>
+                     <filiation type="current"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="34.5"/>
+                              <width unit="cm" quantity="22"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1822-12-16"/>
+                     <origPlace ref="loc007786">Neuchâtel</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head/>
+                     <bibl/>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key004320"/>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="93r" facs="AVN_B_101.14.002_0093r"/>
+               <div>
+                  <p>
+                     <lb/>L’an <origDate when="1822-12-16"
+                        >mil huit cent vingt deux, <lb/>le seizième jour du mois de décembre</origDate>, le <orgName
+                        ref="org003085">Petit Conseil de la Ville de <lb/><placeName
+                           ref="loc007786.07">Neuchâtel</placeName> en <placeName ref="loc001012.09"
+                           >Suisse</placeName></orgName>, étant assemblé dans l’<origPlace
+                        ref="loc007793"
+                        >hôtel de la dite ville</origPlace>, <lb/>sous la présidence de monsieur <persName
+                        ref="per008774"
+                        >Charles de Perrot</persName>, maître bourgeois <lb/>en chef, lecture a été faite d’une requête des sieurs <orgName
+                        ref="org003285"
+                        >Jeanjaquet</orgName> frères, <lb/>négocians et bourgeois de cette ville, par laquelle ils supplient le <lb/><orgName
+                        ref="org003085"
+                     >Conseil</orgName> de bien vouloir leur donner une déclaration de la coutume <lb/>usitée en cette Principauté sur la question suivante, savoir&#160;: </p>
+                  <p><lb/>Si, selon la loi et la coutume de cet État, des livres de négocians
+                     <lb/>régulièrement tenus ne font pas semi preuve en justice&#160;; &amp; si le
+        <lb/>négociant qui a produit des livres en règle, n’est pas reçu à
+        <lb/>compléter la preuve qu’ils fournissent, au moyen de sa déclaration
+        <lb/>sermentale, que ses écritures sont sincères et ne contiennent rien
+                     <lb/>que de conforme à la vérité&#160;?
+       </p>
+                  <p><lb/>Surquoi, après mur examen et délibération, <orgName ref="org003085"
+                        >messieurs du Petit <lb/>Conseil</orgName>, conformément à la coutume usitée
+                     de père en fils dans <lb/>cette Principauté et à la déclaration déjà par eux
+                     donné à la <lb/>date du <date when="1714-01-12">12<hi rend="sup">e</hi> janvier
+                        1714</date><note>Il s'agit du point de coutume rendu le 3 janvier 1714 et
+                           prétendument demandé le 12 janvier de la même année <ref>SDS_NE_3_375</ref>.</note>, ont dit et
+                     déclaré&#160;: </p>
+                  <p><lb/>Que les livres de commerce des marchands &amp; négocians, lorsque
+       <lb/>ceux-ci sont connus pour gens de bien et de probité et que les
+       <lb/>dits livres sont régulièrement tenus, font foi &amp; preuve en justice,
+       <lb/>moyennant que la sincérité et la vérité des écritures qui y sont
+       <lb/>couchées soient attestées par serment.
+      </p>
+                  <p><lb/>Laquelle déclaration étant ainsi rendue, il a été ordonné au <lb/>secrétaire du Conseil
+       soussigné de l’expédier en cette forme sous <lb/>le sceau de la mairie &amp; justice de cette
+                     ville&#160;; à <origPlace ref="loc007786">Neuchâtel</origPlace>
+                     <lb/>les an, mois &amp; jour que dessus, <origDate when="1822-12-16">16<hi rend="sup">e</hi>
+        décembre 1822</origDate>. </p>
+                  <p><lb/>Par ordonnance.
+       <lb/>Le secrétaire du Conseil.
+       </p>
+               </div>
+               <div>
+                  <lb/>
+                  <signed>
+                     <persName ref="per008600">
+                        <choice>
+                           <abbr>G<hi rend="sup">ge</hi>.</abbr>
+                           <expan>George</expan>
+                        </choice>
+                        <choice>
+                           <abbr>F<hi rend="sup">c</hi>.</abbr>
+                           <expan>Frédéric</expan>
+                        </choice> Gallot</persName>
+                     <figure type="notarial sign"/>
+                  </signed>
+               </div>
+            </body>
+         </text>
+      </group>
+   </text>
+</TEI>

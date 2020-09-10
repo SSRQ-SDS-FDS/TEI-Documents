@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="headerinfo"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <date type="electronic" when="2020-08-17"/>    <date type="print"/>
+    <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Collection des sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS_NE_3_266</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier>
+      <idno>AVN B 101.14.001, fol. 514r–515r </idno>
+     </msIdentifier>
+     <head>Modération et vente&#160;: délais et procédures</head>
+     <msContents>
+      <summary>Nombreuses questions concernant les modérations et les ventes, notamment les ventes
+       de gages. Plusieurs points sont renvoyés à une connaissance de justice.</summary>
+      <msItem>
+       <textLang>français</textLang>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="33"/>
+          <width unit="cm" quantity="23.5"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <origDate when="1676-06-07" calendar="Julian"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>
+      </origin>
+     </history>
+     <additional>
+      <listBibl>
+       <head/>
+       <bibl/>
+      </listBibl>
+     </additional>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key000886"></term>
+     <term ref="key000231"></term>
+     <term ref="key005117"></term>
+     <term ref="key005189"></term>
+    </keywords>
+   </textClass>
+   <particDesc default="false"/>
+   <settingDesc default="false"/>
+  </profileDesc>
+ </teiHeader>
+
+ <text>
+  <group>
+   <text>
+    <body>
+        
+     
+     <pb n="514r" facs="AVN_B_101.14.001_0514r"/> 
+        
+     <div>
+      <head><p>
+       <lb/>Quand on fait faire notifier la revision <lb/>d’une <term ref="lem015968.02"
+        >admoderation</term>, &amp; le temps.</p> <p><lb/>Plus si on peut rentrer en nouveau droit <lb/>que
+       l’on n’aye payé les premiers frais.</p> <p><lb/>Item, quand on fait une <term ref="lem015546"
+        >vendition</term> de gage, <lb/>si on ne doit pas faire à faire la <term ref="lem015546"
+        >vendition</term>
+       <lb/>avant que de demander l’investiture. <lb/>Plus encores, si ayant fait une submission
+       <lb/>en justice, on peut y rentrer sans le mutuel <lb/>consentement des parties.</p></head>
+      <p>
+       <lb/>Sur la requeste presentée <lb/>par <choice>
+        <abbr>Mons<hi rend="sup">r</hi></abbr>
+        <expan>monsieur</expan>
+       </choice>
+       <persName ref="per010102">d’Erlach</persName> de <placeName ref="loc000157"
+       >Berne</placeName>, <choice>
+        <abbr>Seig<hi rend="sup">r</hi></abbr>
+        <expan>seigneur</expan>
+       </choice> de <choice>
+        <sic><placeName ref="loc000743.03">Kise</placeName></sic>
+        <corr><placeName ref="loc000743.02">Spiez</placeName></corr>
+       </choice>, par <lb/>devant <choice>
+        <abbr>Mons<hi rend="sup">r</hi></abbr>
+        <expan>monsieur</expan>
+       </choice> le maistre bourgeois &amp; <orgName ref="org003085">Conseil Estroit <lb/>de la
+        Ville de <placeName ref="loc007786">Neufchatel</placeName></orgName>, le <origDate
+         when="1676-06-07" calendar="Julian">7<hi rend="sup">e</hi> juin 1676</origDate>, tendante <lb/>aux fins
+       d’avoir les poincts de coustume suivans. </p>
+      <p>
+       <lb/>Premierement, lors que deux parties sont <lb/>entrées en justice, &amp; il est adjugé
+       une traite à <lb/>l’acteur après plusieurs instances, &amp; productions <lb/>faites pour
+       satisfaire à sa traite, &amp; la justice luy <lb/>accorde <date dur="P8D">huict jours</date>,
+        <date dur="P14D">14 jours</date> après sur le jour ordonné <lb/>par cognoissance, s’il n’est
+       pas obligé de <term ref="lem015635">bailler</term> par <lb/>escript tous les tesmoins papiers
+       &amp; documens qu’il <lb/>pretend se servir, &amp; ayant promis de le faire pour <lb/>tout le
+       jour ordonné, &amp; ne le faisant, s’il n’est pas <lb/>exclus par après des pretendus
+       tesmoins et documens, <lb/>et s’il ne doit pas conclurre sa cause avec ce qu’il <lb/>a
+       auparavant verifié. </p>
+      <p>
+       <lb/>Secondement, quand une <term ref="lem015968.02">admoderation</term> a <lb/>esté
+       signifiée à sa partie, si dans <date dur="P8D">huictaine</date> après <lb/>telle notification
+       faite il pretend en avoir revision, <lb/>s’il ne la doit obtenir &amp; signifier à sa partie,
+       &amp; de <lb/>mesme la faire tenir dedans la <date dur="P8D">huictaine</date>, ou <choice>
+        <abbr>autrem<hi rend="sup">t</hi></abbr>
+        <expan>autrement</expan>
+       </choice>
+       <lb/>s’il n’en est pas exclus. </p>
+      <p>
+       <lb/>Tiercement, si toutes notifications se doivent <lb/>pas faire dès la levée du soleil
+       jusques à sa couchée <lb/>et à gens capables de les recevoir. </p>
+      <p>
+       <lb/>Quartement, si une personne <add place="above">qui a esté</add> condamnée par
+       <lb/>cognoissance de justice, s’il peut rentrer en justice <lb/>sans nouveau droit, &amp;
+       avant avoir payé tous les frais <lb/>et depends incourus. </p>
+      <pb n="514v" facs="AVN_B_101.14.001_0514v"/>
+      <p>
+       <lb/><choice>
+        <abbr>Cinquiemem<hi rend="sup">t</hi></abbr>
+        <expan>Cinquièmement</expan>
+       </choice>, si dedans une vendition de <lb/>gage, la <date dur="P8D">huictaine</date> estant
+       ecoulée, s’il ne faut pas <lb/>faire à faire la <term ref="lem015546">vendition</term> avant
+       que d’en demander <lb/>l’investiture &amp; le notifier aux parties interessées. </p>
+      <p>
+       <lb/>Sixiemement, si des personnes qui ont fait <lb/>une submission en justice, s’ils se
+       peuvent servir de <lb/>leurs pretentions submises sans que la submission aye <lb/>sorti son
+       effet, soit contre l’un ou l’autre, sans le <lb/>consentement des parties. </p>
+      <p>
+       <lb/><orgName ref="org003085">Mesdits <choice>
+         <abbr>S<hi rend="sup">rs</hi></abbr>
+         <expan>sieurs</expan>
+        </choice> du Conseil</orgName> ayans eu advis &amp; <lb/>meure premeditation par ensemble,
+        <term ref="lem015635.04">baillent</term> par <lb/>declaration suivant la coustume usitée en
+       la souveraineté <lb/>de <placeName ref="loc007785">Neufchatel</placeName> de pere à fils et
+       de tout temps <lb/>immemorial jusqu’à present, la coustume estre telle. </p>
+      <p>
+       <lb/>Assavoir, sur le premier poinct declarent <lb/>que ne s’estant trouvé des poincts de
+       coustume <lb/>conformes à <choice>
+        <abbr>lad.</abbr>
+        <expan>ladite</expan>
+       </choice> demande, on le renvoye à une <lb/><term ref="lem014980">cognaissance de
+        justice</term>. </p>
+      <p>
+       <lb/>Sur le second poinct <term ref="lem015635.04">baillent</term> par declaration, <lb/>que
+       quand une <term ref="lem015967.02">moderation</term> a esté faite &amp; signifiée <lb/>à la
+       partie interessée dans la <date dur="P8D">huictaine</date>, il est obligé <lb/>s’il en veut
+       demander revision de le faire notifier <lb/>à sa partie dans la <date dur="P8D"
+        >huictaine</date>, depuis que <choice>
+        <abbr>lad.</abbr>
+        <expan>ladite</expan>
+       </choice>
+   <choice>
+         <abbr>moderaon</abbr>
+        <expan><term ref="lem015967">modération</term></expan>
+        </choice>
+       <lb/>luy a esté notifiée, &amp; mesme en pourchasser <choice>
+        <abbr>lad.</abbr>
+        <expan>ladite</expan>
+       </choice>
+       <lb/>revision dans <choice>
+        <abbr>led.</abbr>
+        <expan>ledit</expan>
+       </choice> temps, à peine d’en estre forclos. </p>
+      <p>
+       <lb/>Pour le troisème poinct il est renvoyé à une <lb/><term ref="lem014980">cognoissance de
+        justice</term>. </p>
+      <p>
+       <lb/>Sur le quatrième, <term ref="lem015635.04">baillent</term> par declaration <lb/>que
+       quand une personne a esté condamnée en justice <lb/>il ne peut rentrer en nouveau droit, que <choice>
+        <abbr>premierem<hi rend="sup">t</hi></abbr>
+        <expan>premièrement</expan>
+       </choice>
+       <lb/>il ne paye tous les premiers frais incourus touchant <lb/><choice>
+        <abbr>lad.</abbr>
+        <expan>ladite</expan>
+       </choice> condamnation. </p>
+      <p>
+       <lb/>Sur le cinquieme, <term ref="lem015635.04">baillent</term> aussi par declaration
+       <lb/>que quand une personne a fait faire une <term ref="lem015546">vendition</term>
+       <lb/>de gage, après que la <date dur="P8D">huictaine</date> est écoulée, il est obligé
+       <lb/>d’en faire à faire la <term ref="lem015546">vendition</term> avant que d’en demander <pb
+        n="515r" facs="AVN_B_101.14.001_0515r"/>
+       <lb/>l’investiture, &amp; faire deuëment notifier le tout aux <lb/>parties interessées. </p>
+      <p>
+       <lb/>Sur le sixième poinct, <term ref="lem015635.04">baillent</term> encor par
+       <lb/>declaration, que quand des personnes ont fait une <lb/>submission en justice, pour faire
+       juger la chose <lb/>submise ils ne peuvent <choice>
+        <abbr>aucunem<hi rend="sup">t</hi></abbr>
+        <expan>aucunement</expan>
+       </choice> rentrer endite justice, <lb/>si ce n’est du mutuel consentement des parties. </p>
+      <p>
+       <lb/>Ce qu’a esté ainsi passé, conclud &amp; arresté <lb/>les an &amp; jour que devant, et
+       ordonné à moy <lb/>secretaire de Ville l’expedier en cette forme, sous le <lb/><term ref="lem016327">seel</term> de la
+       mayrie &amp; justice <choice>
+        <abbr>dud.</abbr>
+        <expan>dudit</expan>
+       </choice>
+       <origPlace ref="loc007786">Neufchâtel</origPlace>, &amp; <lb/>signature de ma main. </p>
+      <p>
+       <lb/>Levée la presente pour copie sur celle qu’en avoit faite <lb/>sur l’original deffunt
+       monsieur <persName ref="per009020"><choice>
+         <abbr>M</abbr>
+         <expan>Maurice</expan>
+        </choice> Tribolet</persName>. </p>
+     </div>
+      
+      <div>
+       <signed><persName ref="per008992"><choice><abbr>N</abbr><expan>Nicolas</expan></choice> Huguenaud</persName> <figure type="notarial sign"/></signed>
+      </div>
+     
+       
+    </body>
+   </text>
+  </group>
+ </text>
+</TEI>

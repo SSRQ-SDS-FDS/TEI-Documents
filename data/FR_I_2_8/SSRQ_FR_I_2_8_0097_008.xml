@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+
+
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+
+			</titleStmt>
+
+			<publicationStmt>
+				<date type="electronic" when="2019-10-14"/>
+				<date type="print"/>
+			</publicationStmt>
+
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ_FR_I_2_8_0097_008</idno>
+			</seriesStmt>
+
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<idno>StAFR, Ratsmanual 188 (1636+1637), S. 300</idno>
+					</msIdentifier>
+					<head>Bernardina Chablais, Jacques Chablais – Anweisung / Instruction</head><!--est-ce bien une Anweisung?-->
+					<msContents>
+						<summary></summary> 
+						<msItem>
+							<textLang>fr, de</textLang> 
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support>
+									<material></material>
+								</support>
+								<extent>
+									<dimensions type="leaves">
+										<height unit="cm" quantity="0.0"/>
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+									<dimensions type="plica">
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+								</extent>
+							</supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate when="1637-04-20">20<hi rend="sup">ten</hi> <foreign xml:lang="la">aprilis</foreign> 1637</origDate>
+							<origPlace></origPlace>
+						</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc> 
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+			<particDesc default="false"/>
+			<settingDesc default="false"/>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<p><seg><lb/><persName ref="per011934a.02"><hi rend="outdent">Bernardine</hi></persName>, femme de <persName ref="per011930a.05">Jaques Chablaix</persName> de <placeName ref="loc008445">Romanens</placeName> dernierement 
+							<lb/>exilé jusques au bon vouloir de Leurs <choice><abbr>Excell</abbr><expan>Excellences</expan></choice>, 
+							<lb/>ayant obtenu un’attestation de quelques preud’hommes 
+							<lb/>dudit lieu, qui seroient contents qu’il puisse obtenir 
+							<lb/>grace d’estre reintroduict a son lieu de naissance.</seg> 
+							<seg><lb/>Myn gnädige herren habend die <term ref="lem004879">attestation</term> gar verdächtig 
+							<lb/>gefunden, sonderlich wegen gwüssem brieffs, so 
+							<lb/>durch <abbr>h</abbr> <term ref="lem000266.42">landtvogt</term> uberschickht worden, belangend 
+							<lb/>der <term ref="lem003352.01">commun</term> opposition wider gerürten <term ref="lem002485.02">schyn</term>. Ist 
+							<lb/>die frouw <unclear>ires</unclear> begeren abgewisen unnd wyll 
+							<lb/>schon <origDate when="1637-03-05">5</origDate> unnd <origDate when="1637-03-13">13<hi rend="sup">a</hi> <foreign xml:lang="la">martii</foreign></origDate><note>Voir <ref>SSRQ_FR_I_2_8_0097_006</ref> et <ref>SSRQ_FR_I_2_8_0097_007</ref></note> sie abgewisen worden, 
+							<lb/>allso blybt es nochmalen darby.</seg></p>
+							
+					</div>
+				</body>
+				
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+
+<?oxy_options track_changes="on"?>

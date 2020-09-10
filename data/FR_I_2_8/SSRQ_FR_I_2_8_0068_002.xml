@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+
+			</titleStmt>
+
+			<publicationStmt>
+				<date type="electronic" when="2019-05-29"/>
+				<date type="print"/>
+			</publicationStmt>
+
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ_FR_I_2_8_0068_002</idno>
+			</seriesStmt>
+
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<idno>StAFR, Thurnrodel 11, S. 433</idno>
+					</msIdentifier>
+					<head>François Gaudard – Verhör / Interrogatoire</head>
+					<msContents>
+						<summary></summary> 
+						<msItem>
+							<textLang>fr</textLang> 
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support>
+									<material></material>
+								</support>
+								<extent>
+									<dimensions type="leaves">
+										<height unit="cm" quantity="0.0"/>
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+									<dimensions type="plica">
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+								</extent>
+							</supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1624-11-05"></origDate>
+							<origPlace></origPlace>
+						</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+							
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		
+		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+			<particDesc default="false"/>
+			<settingDesc default="false"/>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<p><lb/>Im <placeName ref="loc008105">Keller</placeName>, <foreign xml:lang="la"><choice><abbr>jud</abbr> <expan>judex</expan></choice></foreign> <abbr>h</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per009450">Peter de Gady</persName>.</note>, <origDate when="1624-11-05">5 <foreign xml:lang="la">novembris</foreign> 1624</origDate>
+							<seg><lb/><choice><abbr>J</abbr><expan>Junker</expan></choice> <persName ref="per006751">Erhardt</persName>, herr <persName ref="per009261">Techterman</persName></seg>
+							<seg><lb/><abbr>H</abbr> <persName ref="per009386a.03">Frantz von der Weydt</persName></seg>
+						<seg><lb/><choice><abbr>W</abbr><expan>Weibel</expan></choice></seg></p>
+						
+						<p><seg><lb/><add place="left margin"><foreign xml:lang="la">Solvit</foreign> <measure type="currency" unit="lb" quantity="3">3</measure>.</add></seg> 
+							<seg><persName ref="per009586a.01">Françoys Gaudar</persName> de <placeName ref="loc008007.02">Tertinnier</placeName> sur <placeName ref="loc008006.02">Rol</placeName>, ressort de <placeName ref="loc005821">Morges</placeName>, 
+						<lb/>interrogé pour quoy il tenoit prison, a dict estre pour tel 
+						<lb/>subject que, ces jours passez soy trouvant en la compagnie 
+						<lb/>de <persName>Pierre de <placeName>Praz</placeName><note>L’identification du lieu est incertaine. Il pourrait s’agir de <placeName ref="loc008595">Pra des Bois</placeName> ou de <placeName ref="loc008596">Pra Laurent</placeName>.</note></persName> riere <placeName ref="loc007655.07">Montaigne</placeName>, ledit <persName>Pierre</persName> le 
+						<lb/>convia et somma d’aller boire avec luy, et a son reffus ledit 
+						<lb/><persName>Pierre</persName> le pressa et sollicita tant qu’il s’y accorda&#160;; et 
+						<lb/>ainsy s’en allerent de compagnie boire sur la base  
+						<lb/>du grenier d’<persName>Umbert Bignon</persName>, y estant aussy present
+						<lb/><persName>Jacques de <placeName ref="loc008008.02">Couset</placeName></persName>. Et ayant beu par ensemble, 
+						<lb/>ledit de <placeName>Praz</placeName> fut saisy de maladie, estant tombé en pasmoi<lb break="no"/>son, avec estranges contenances et façons, disant que le 
+						<lb/>prisonnier luy avoit jetté le sort et donné le mal, du<lb break="no"/>quel acte ledit prisonnier soy dict innocent.</seg> <seg>Il confesse 
+						<lb/>d’avoir une foys, allant depuis <placeName ref="loc007934.11">Miniere</placeName> a <placeName ref="loc008010.02">Sassy</placeName>, porté 
+						<lb/>son espee a demy deffourree, touttesfoys non pas en 
+						<lb/>intention d’offenser personne, ains seullement pour 
+						<lb/>soy deffendre au cas qu’il fut attaqué. Crie a Dieu 
+						<lb/>mercy et a messieurs.</seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+
+
+
+<?oxy_options track_changes="on"?>

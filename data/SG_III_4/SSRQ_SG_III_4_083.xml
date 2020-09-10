@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+    <persName>Sibylle Malamud</persName>
+    <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+    <persName>Sibylle Malamud</persName>
+    <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2018-07-19"/>
+            <date type="print"/>
+            <availability><p xml:id="facs">Staatsarchiv St. Gallen (StASG)</p></availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+    <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+    <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_083</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+    <msIdentifier>
+       <idno>StASG AA 2 U 10</idno>
+    </msIdentifier>
+    <head>Ulrich Berger von Salez bestätigt, dass er Leibeigener von Ulrich VIII. von Sax-Hohensax sei</head>
+    <msContents>
+       <summary>
+          <p>Ulrich Berger von Salez urkundet, dass er meinte, er sei kein Leibeigener von Ulrich VIII. von Sax-Hohensax, doch es stellt sich das Gegenteil heraus. Als Leibeigener von Ulrich VIII. von Sax-Hohensax schwört er einen Eid, dass er seinem Herrn ewig gehorsam sein werde, dass er weder ein Bürgerrecht kaufe noch sich in die Herrschaft eines anderen Herrn begeben werde. </p>Erbetener Siegler Ulrich Feiss, Landvogt von Werdenberg.</summary>
+       <msItem>
+          <textLang>Deutsch</textLang>
+          <filiation type="current">Original</filiation>
+       </msItem>
+    </msContents>
+    <physDesc>
+       <objectDesc>
+          <supportDesc>
+             <support>
+                <material>Pergament</material>
+             </support>
+             <extent>
+                <dimensions type="leaves">
+        <height unit="cm" quantity="19.0"/>
+        <width unit="cm" quantity="30.5"/>
+                </dimensions>
+                <dimensions type="plica">
+        <width unit="cm" quantity="6.0"/>
+                </dimensions>
+             </extent>
+          </supportDesc>
+       </objectDesc>
+       <sealDesc>
+          <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI"
+                n="1"
+                nontei:material="wax"
+                nontei:condition="fragmentary"
+                nontei:shape="round"
+                nontei:attachment="sealed on a parchment tag" facs="StASG_AA_2_U_10_s01">
+             <persName role="sigillant" ref="per001103a">Ulrich Feiss, Landvogt von Werdenberg</persName>
+          </seal>
+       </sealDesc>
+    </physDesc>
+    <history>
+       <origin>
+          <origDate when="1488-03-01">zuo ingentum mertzen</origDate>
+       </origin>
+    </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+    <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+    <term ref="key000084">Leibeigenschaft</term>
+    <term ref="key003301">Konflikt zwischen Obrigkeit und Untertanen</term>
+    <term ref="key000179">Eid</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <div org="uniform" sample="complete">
+                  <pb facs="StASG_AA_2_U_10_r"/>
+                  <p>
+                     <seg>
+                        <lb/>Ich, <persName ref="per000890a">Uͤli Berger</persName> ze <placeName
+                           ref="loc000691">Saletz</placeName>, bekenn und vergich offenlich und tuͦn
+                        kund aller maͤnklichem mit disem brief, als dann der edel und
+                        <lb/>wolgeboren her, her <persName ref="per001640a">Uͦlrich von Sax, fryher,
+                           geboren von der Hochensax</persName>, min gnaͤdiger her, mich umb <term
+                           ref="lem008350.03">aigenschaft</term> mins libs <lb/>und guͦtz
+                        angestrengt und erfordret haut, sinen gnǎden ze tuͦnd als ander siner
+                        gnǎden <term ref="lem000341.41">aigen lût</term>. Und ich aber min<lb
+                           break="no"/>enthalb onwissend mich gegen sinen gnǎden bis her gewidert
+                        hab und aber in demselben sofil geho̍rt und erfunden <lb/>hab, das ich sinen
+                        gnauden mit aigenschaft mins <term ref="lem000985">libs und guͦt</term>z
+                        zuͦgehoͤren sol und wil als ander siner gnǎden aigen<lb break="no"
+                        />lút.</seg>
+                     <seg>Uff das bekenn ich mit disem brief, das ich mit guͦtem, fryem willen,
+                        umbezwungenlich ainen <term ref="lem000070">ayd</term> liplich zuͦ <lb/>gott
+                        und den haylgen <term ref="lem001476">mit ufgehebten finger</term> mit
+                        gelerten worten geschworen hab, sinen gnaden und allen sinen <lb/>erben und
+                        nǎchkomen mit minem lib und guͦt nǔn hinfûr ewenklich gewaͤrtig,
+                        pottmaͤssig und gehorsam sin sol <lb/>und wil als ander siner gnǎden
+                        libaigen lut. Und das ouch ich in nit <term ref="lem008052">flûchtig</term>
+                        noch <term ref="lem014541.02">abschwaif</term> werden noch kain <lb/>ander
+                        schirm noch herschaft noch <term ref="lem000235.11">burkrecht</term> niemer
+                        mer an mich suͦchen noch nemen sol in kain wys noch <lb/>weg. Wǎ aber ich,
+                        obgenanter <persName ref="per000890a">Uͤli Berger</persName>, es taͤte, so
+                        sol es doch weder kraft noch macht haben. Und habend der <lb/>obgenant min
+                        gnaͤdiger her, alle sin erben und nachkomen vollen gewalt und gût recht,
+                        wenn sy wend, mich zuͦ <lb/>minem lib und guͦt, ligendem und vaͤrendem,
+                        anzegriffend mit recht oder onͤ recht, wie und wǒ sy das ankommen mûg<lb
+                           break="no"/>end und damit gefaren, schaffen, laussen und tuͦn als mit dem
+                        iren, wie inen das fuͦklich und eben ist, one min und <lb/>maͤncklich von
+                        minen wegen <term ref="lem006740">sumen</term>, ieren und widersprechen,
+                        darvor noch dǎwider, mich ouch dann dehain <lb/>gericht, fryhait, <term
+                           ref="lem002671.01">fryung</term>, frid noch <term ref="lem009676.04"
+                           >glait</term> noch kain ander sach nit schirmmen noch behelffen sol in
+                        kain wis noch <lb/>weg.</seg>
+                     <seg>Und diser obgenanter ding und sach zuͦ guͦtem, warum und vestum urkund, so
+                        hab ich, obgenanter <persName ref="per000890a">Uͤli Berger</persName>,
+                        <lb/>mit fliss und ernst gebetten und erbetten den fúrsichtig, ersammen und
+                        wisen <persName ref="per001103a">Uͦlrichen Fäiss</persName>en, burger und
+                        des rautz <lb/>ze <placeName ref="loc000972">Lucern</placeName>, der zit
+                        landvogt in der grauffschaft <placeName ref="loc000440"
+                           >Werdenberg</placeName>, das er sin aigen insigel, im selb und sinen
+                        erben <lb/>one schaden, zuͦ gezûknuss diser ding offenlich gehenkt haut fûr
+                        mich an disen brief, der geben ist zuͦ <origDate when="1488-03-01">ingen<lb
+                              break="no"/>tum mertzen in dem jaur, do man zalt von der gebúrt
+                              <persName ref="per000353">Crist</persName>e thusendvierhundert achtzig
+                           und in dem achtenden jaure</origDate>.</seg>
+                  </p>
+               </div>
+               <pb facs="StASG_AA_2_U_10_v"/>
+               <div org="uniform" sample="complete"><ab place="verso" type="dorsal" hand="hand15c"><lb/>Ain brieff des <persName ref="per000890a">Uli Berger</persName> zu
+                     <placeName ref="loc000691">Salez</placeName>
+                     <lb/><unclear>mit lib und gut aigen ist</unclear></ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab place="verso" type="dorsal" hand="hand18c"><lb/><persName ref="per000890a">Uli Berger</persName> bekennt seine
+                     <lb/>leibeigenschaft</ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab place="verso" type="archiving reference"><del>N<hi rend="sup">o</hi></del> 10;
+                     Cist Sax <del>N<hi rend="sup">o</hi> 2</del>; 1488<note anchored="true">Diverse
+                        Schreibübungen auf der Rückseite.</note>
+                  </ab>
+               </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div org="uniform" sample="complete">
+            <p>Unklarheiten über die Zugehörigkeit eines <term ref="key000085">Leibeigenen</term> zu einer
+               Herrschaft kommen immer wieder vor, vgl. z. B. <ref>SSRQ_SG_III_4_056</ref>; <bibl><ref target="https://archivverzeichnis.gl.ch/home/#/content/f6f233f10a2b4f18bf3ff0fbd99a70aa">LAGL AG III.2432:056</ref></bibl> 
+                  sowie diverse Dokumente in der Schachtel <bibl><ref target="https://archivverzeichnis.gl.ch/home/#/content/c20e7502ed124b70abb604206253961e">LAGL AG
+                     III.2417</ref></bibl> im Landesarchiv Glarus.</p>
+         </div>
+         <div org="uniform" sample="complete">
+            <p>Zur Entlassung aus der Leibeigenschaft vgl. <ref>SSRQ_SG_III_4_041</ref>.</p>
+         </div>
+      </back>
+   </text>
+</TEI>

@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-10-04"/>
+            <date type="print"/>
+            <availability default="false">
+               <p xml:id="facs">Staatsarchiv St. Gallen (StASG)</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_188_1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>StASG AA 3 U 21</idno>
+                  <altIdentifier>
+                     <idno>StASG AA 3 U 21</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <head>Zolltarife, Fährlohn und Brückengeld der Fähre am Schollberg (Trübbach)</head>
+               <msContents>
+                  <summary><p>Landammann und Rat von Glarus urkunden, dass gemäss dem Werdenberger Landvogt Kaspar
+			Schmid bei Niederwasser Brücken über den Rhein geschlagen werden sowie Fremde und
+			Einheimische die Brücke oder die Furten nutzen, ohne Zoll zu bezahlen. Dies schadet den
+			Fährleuten, weshalb Glarus bestimmt, dass der Schifflohn bezahlt werden muss, ob man nun
+			mit dem Schiff, durch die Furt oder über die Brücke fährt, bei Verlust der Waren oder
+			des Fuhrwerks. Es werden drei Tariflisten festgesetzt: 1. der Schifflohn, 2. das
+			Brückengeld und 3. die Bezahlung bei Benützung einer Furt.</p> <p>Der Aussteller
+			siegelt.</p></summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <filiation type="current">Original</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Pergament</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="35.5"/>
+                              <width unit="cm" quantity="61.0"/>
+                           </dimensions>
+                           <dimensions type="plica">
+                              <width unit="cm" quantity="4.0"/>
+                           </dimensions>
+                        </extent>
+                        <condition>Schrift stark verblasst, fleckig, verfärbt im mittleren Falz</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <sealDesc>
+                     <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI"
+                           n="1"
+                           nontei:condition="well-preserved"
+                           nontei:material="wax in a box"
+                           nontei:shape="round"
+                           nontei:attachment="sealed on a parchment tag">
+                        <orgName role="sigillant" ref="org001197">Glarus</orgName>
+                     </seal>
+                  </sealDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1654-02-23" calendar="Julian"/>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000703">Fähre</term>
+               <term ref="key000055">Brücke</term>
+               <term ref="key000080">Schiff</term>
+               <term ref="key000704">Schifffahrt</term>
+               <term ref="key003899">Schifflohn</term>
+               <term ref="key001114">Waren</term>
+               <term ref="key000814">Tarif</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   
+         <text>
+            <group>
+               <text>
+                  <body>
+                     <div>
+                        <pb facs="StASG_AA_3_U_21_r"/>
+                        <p><seg>
+                        <lb/>Wir, landtaman und rath zu <orgName ref="org003239">Glaruß</orgName>,
+                        thund khundt offentlich hiemit dißem brief, nach deme unßer gethreüwer und
+                        vorgeliebter, <lb/>jetzmahlen zue <placeName ref="loc000440"
+                           >Werdenberg</placeName> habender landtvogt <persName ref="per010095"
+                           >Caspar Schmid</persName> unß bricht einfließen laßen, waß gestalten
+                           <damage agent="faded ink"><supplied source="LAGL AG III.2433:046, S. 5"
+                              >an</supplied></damage> unßerem angehörigen <term ref="lem002098"
+                           >fahr</term> am <placeName ref="loc008386.01">Schollberg</placeName>
+                        villerhandt mißordnungen mit underlauffind, inn deme die <term
+                           ref="lem002102.08">feren</term> sich klagendts <lb/>angemeldt, daß wann
+                        bei <term ref="lem015938.02">abschwemung</term> deß <term ref="lem007675"
+                           >reinstrome</term> mit <damage agent="faded ink"><supplied
+                              source="LAGL AG III.2433:046, S. 5">grosen</supplied></damage> cösten
+                        zu alersits beßerer <damage agent="faded ink"><supplied
+                              source="LAGL AG III.2433:046, S. 5">kommlichkeit ein <term
+                                 ref="lem000200">brukh</term> über</supplied></damage> den
+                           <placeName ref="loc000644">Rein</placeName> schlachind, alß dann etwelche
+                           <term ref="lem010468">frömbde und heimbsche</term> sich under<app>
+                           <lem>windind</lem>
+                           <rdg wit="LAGL AG III.2433:046, S. 5">fangen</rdg>
+                        </app>, mit leib und gut <lb/>eintweders durch die <term ref="lem005262.06"
+                           >fuhrten</term> zue setzen oder obleich sie über die brugkhen wandlen und
+                        fahren <damage agent="faded ink"><supplied
+                              source="LAGL AG III.2433:046, S. 5">thüend, doch dabei die
+                              meinung</supplied></damage> haben wellind, dem altgewohnten <term
+                           ref="lem012456">schifflohn</term>
+                        <term ref="lem008992">abbruch</term> zue thun, welche inryßende, üble
+                        begegnus ihnen, <lb/>den <term ref="lem002102.08">feren</term>, die höchste
+                        ohn gelegenheit erbere, sidtemahlen dieselben inn crafft von unß entpfangnen
+                           <term ref="lem000038">lehens</term> zue jeden und alen ziten mit
+                        kostbarlicher erhaltung <term ref="lem010758.03">schiff</term>- und <term
+                           ref="lem005161">gschyrs</term>, auch großer versumnus solchem fahr-wessen
+                        verbindtlich <lb/>obligen müeßen. Damit und aber sollche mißordnungen
+                           abge<damage agent="faded ink"><supplied
+                              source="LAGL AG III.2433:046, S. 5">schafet und
+                           die</supplied></damage> alte recht deß schifflohns, <damage
+                           agent="faded ink"><supplied source="LAGL AG III.2433:046, S. 5">es seie
+                              im schiff durch die</supplied></damage> fuhrten und über die bruckh
+                        erhalten und die ferren ihrer pflicht gemeß mit schleüniger <lb/>befürderung
+                        leib und gut abwarten könen, so hat ermeldter, unßer landtvogt mit zu
+                        züchung <damage agent="faded ink"><supplied
+                              source="LAGL AG III.2433:046, S. 5">seiner nachgesezten <term
+                                 ref="lem003599.06">beamteten</term> die alte</supplied></damage>
+                        <term ref="lem002755">schiffordnung</term> für augen genommen, sollche nach
+                        befundner billichkeit uff daß <term ref="lem002338">papyr</term>
+                        <lb/>gesezt und zue vernerer, unßerer beliebender disposition anhero
+                        gsandt.</seg>
+                     <seg>Nach deme nun wir <damage agent="faded ink"><supplied
+                              source="LAGL AG III.2433:046, S. 5">die bewandtnus der sache und
+                              unserer</supplied></damage> habenden befuegsamme in betrachtung
+                        gezogen, haben wir befunden, daß daßjenige, waß unßer kopie neue seite
+                           <lb/><term ref="lem000266">landtvogt</term> und <term ref="lem003598.05"
+                           >beambten</term> in schrifft gebracht, nicht ußert den schranckhen der
+                        billichkeit lauffe, angsechen, <damage agent="faded ink"><supplied
+                              source="LAGL AG III.2433:046, S. 6">die</supplied></damage>
+                        <term ref="lem002102.07">ferren</term>
+                        <damage agent="faded ink"><supplied source="LAGL AG III.2433:046, S. 6"
+                              >obvermeldter massen mit</supplied></damage> allerhandt
+                        ohngelegenheiten dem <placeName ref="loc000644">Rein</placeName> in ihrem
+                        lehens-begriff abzuewarten zue pflichtig. <lb/>Derowegen wir hiemit erkent,
+                        bekrefftiget und geordnet haben wellind, daß inn crafft <term
+                           ref="lem000262">leh</term><damage agent="faded ink"><supplied
+                              source="LAGL AG III.2433:046, S. 6">enbriefs von leib und gut
+                              ohne</supplied></damage> einichen abschwanckh der <term
+                           ref="lem012456">schifflohn</term> bezalt solle werden, man fahre glich im
+                           <term ref="lem002104">schiff</term> durch die <lb/><term
+                           ref="lem005262.06">fuhrten</term> oder über die <term ref="lem000200"
+                           >bruckh</term>, bei verlurst der <term ref="lem001407">waren</term>, auch
+                           <term ref="lem003811.09">menenen</term> und vernern unßerer ohngnaden.
+                           <damage agent="faded ink"><supplied source="LAGL AG III.2433:046, S. 6"
+                              >Weiln aber zu einem</supplied></damage> styffen verhalt und damit die
+                        ferren sich deßen zue behelffen habind, eß die nottdurfft <lb/>erforderet,
+                        daß der schifflohn verdüter gstalten gegenwertig specificierlich
+                        angschreiben werde, mit <damage agent="faded ink"><supplied
+                              source="LAGL AG III.2433:046, S. 6">nochmahliger widerhohlung, daß
+                              zu</supplied></damage> vermeidung obangeregter ohngelegenheiten sich
+                        menigklicher <term ref="lem010468">frömbde und heimbsche</term>
+                        <del>sich</del> sollchem <lb/>under werffen sollen, benebents auch den <term
+                           ref="lem002102.08">feren</term> inngscherpft sein soll, sich <damage
+                           agent="faded ink"><supplied source="LAGL AG III.2433:046, S. 6">jeder
+                              zeit ihrer</supplied></damage> obtragenden <damage agent="faded ink"
+                              ><supplied source="LAGL AG III.2433:046, S. 6"><term ref="lem005093"
+                                 >lechenspflicht</term> nach in allweg zu
+                           verhalten</supplied></damage>, darob wir ein gnädiges vergnüegen tragen
+                        mögen.</seg>
+                     <seg>Es <damage agent="faded ink"><supplied source="LAGL AG III.2433:046, S. 6"
+                              >bestehet</supplied></damage> hiemit der <term ref="lem012456"
+                           >schifflohn</term>
+                        <lb/>uff nach volgenden puncten, darbei wir es beruhen laßind, doch sollen
+                        unßere jeweilige ländtvogt zu <placeName ref="loc000440"
+                           >Werdenberg</placeName> und die <term ref="lem003598.05">beambten</term>
+                        daselbsten, auch die im <term ref="lem000629">ätter</term> krafft <term
+                           ref="lem000262">lehenbriefs</term> und alten harkomes <damage
+                           agent="faded ink"><supplied source="LAGL AG III.2433:046, S. 6"
+                              >hierinn</supplied></damage> vorbehalten
+                           sein:<?oxy_insert_start author="sibyllemalamud" timestamp="20190123T144018+0100"?><note>Im
+                           Original sind die drei Tarifgruppen Schiff–Brücke–Furt nebeneinander
+                           dargestellt. Zur besseren Übersicht werden die drei Gruppen hier
+                           untereinander aufgeführt.</note><?oxy_insert_end?></seg><seg><lb/><head
+                           n="1"><term ref="lem012456">Schifflohn</term></head></seg>
+                     <seg>
+                        <lb/>von <measure type="volume" unit="Ledi" quantity="1">einer
+                           ledi</measure>
+                        <measure quantity="5" type="currency" unit="bz">5 bazen</measure>, sagen
+                        fünff batzen</seg>
+                     <seg>
+                        <lb/>von einer <measure type="volume" unit="Ledi" quantity="0.5">halbi
+                           ledi</measure>
+                        <measure quantity="10" type="currency" unit="xr">10 crüzer</measure>, sagen
+                        zechen crüzer</seg>
+                     <seg>
+                        <lb/>vom lären <term ref="lem001591">wagen</term> mit <damage
+                           agent="faded ink"><supplied source="LAGL AG III.2433:046, S. 7">4 <term
+                                 ref="lem001069">rossen</term></supplied></damage>
+                        <measure quantity="10" type="currency" unit="xr">10 crüzer</measure>, sagen
+                        zechen crüzer</seg>
+                     <seg>
+                        <lb/>vom <damage agent="faded ink"><supplied
+                              source="LAGL AG III.2433:046, S. 7"><term ref="lem000204">fuder</term>
+                              <term ref="lem000142">heüw</term> und <term ref="lem002450"
+                                 >streüwe</term>, lär</supplied></damage>
+                        <lb/>und gladen, <measure quantity="4" type="currency" unit="bz">4
+                           batzen</measure>, sagen vier bazen</seg>
+                     <seg>
+                        <lb/>oder andere <term ref="lem001407">wahr</term> mit zwo <term
+                           ref="lem001389.04">axen</term>
+                        <lb/>geführt <measure quantity="4" type="currency" unit="bz">4
+                           bazen</measure>, sagen vier bazen</seg>
+                     <seg>
+                        <lb/>von einem <term ref="lem001102">müllin stein</term>
+                        <measure quantity="5" type="currency" unit="bz">5 bazen</measure>, sagen
+                        fünf bazen<lb/> vom <term ref="lem015951.02">läüffer</term></seg>
+                     <seg>
+                        <lb/>vonn einem <term ref="lem015948.02">boden stein</term>
+                        <measure quantity="6" type="currency" unit="bz">6 bz</measure>, sag sechs
+                        bazen</seg>
+                     <seg>
+                        <lb/>von einem gladnen <term ref="lem001069">roß</term>
+                        <measure quantity="3" type="currency" unit="xr">3 crüzer</measure>, sagen
+                        dry crüzer</seg>
+                     <seg>
+                        <lb/>von einem lären roß <measure quantity="2" type="currency" unit="xr">2
+                           crüzer</measure>, sagen zwen crüzer </seg>
+                     <seg>
+                        <lb/>von einem <term ref="lem000776">haubtvech</term> oder roß <measure
+                           quantity="2" type="currency" unit="xr">2 crüzer</measure>, sagen zwen
+                        crüzer</seg>
+                     <seg>
+                        <lb/>von einem <term ref="lem001019">mensch</term>
+                        <measure quantity="2" type="currency" unit="xr">2 crüzer</measure>, sagen
+                        zwen crüzer</seg>
+                     <seg>
+                        <lb/>von einem mensch uß unßerer <lb/>graffschafft <placeName
+                           ref="loc000440">Werdenberg</placeName>
+                        <measure quantity="1" type="currency" unit="xr">1 crüzer</measure>, sagen
+                        ein crüzer</seg>
+                     <seg>
+                        <lb/>von einem <term ref="lem000055">schaff</term>
+                        <measure quantity="2" type="currency" unit="d">2 pfenig</measure>, sagen
+                        zwen pfenig</seg>
+                     <seg>
+                        <lb/>von einer <term ref="lem001394">geiß</term>
+                        <measure quantity="2" type="currency" unit="d">2 pfenig</measure>, sagen
+                        zwen pfenig</seg>
+                     <seg>
+                        <lb/>von einem <term ref="lem000057">schweyn</term>
+                        <measure quantity="2" type="currency" unit="xr">2 kreüzer</measure>, sagen
+                        zwen crüzer</seg>
+                     <seg>
+                        <lb/>von einem jungen schwein <measure quantity="1" type="currency"
+                           unit="xr">1 kz</measure></seg>
+                     <seg>
+                        <lb/>von einer <term ref="lem016365.02">segeßen läglen</term><!-- was könnte das sein? nichts gefunden in Idiotikon, das passt PS: es muss sich um ein Fass (legel) in Form einer Sense handeln-->
+                        <measure quantity="1" type="currency" unit="bz">1 bazen</measure>, sagen ein
+                        bazen</seg>
+                     <seg>
+                        <lb/>von einem <term ref="lem015947.02">kauffman stuckh</term> 5 bz, sagen
+                           <measure quantity="5" type="currency" unit="bz">fünff
+                        bazen</measure>.</seg>
+                     <seg><lb/><head n="2">Über die <term ref="lem000200">bruckh</term> deß
+                              <placeName ref="loc000644">Reins</placeName></head>
+                     </seg>
+                     <seg>
+                        <lb/>von <measure type="volume" unit="Ledi" quantity="1">einer
+                           ledi</measure> zwen bazen, sagen <measure quantity="2" type="currency"
+                           unit="bz">2 bz</measure></seg>
+                     <seg>
+                        <lb/>von einem lären <term ref="lem001591">wagen</term> ein bazen, sagen
+                           <measure quantity="1" type="currency" unit="bz">1 bz</measure></seg>
+                     <seg>
+                        <lb/>vom fuder hüw und strüwe, lär und gladen, zwen bazen, sagen <measure
+                           quantity="2" type="currency" unit="bz">2 bz</measure></seg>
+                     <seg>
+                        <lb/><damage agent="faded ink"><supplied source="LAGL AG III.2433:046, S. 7"
+                              >von anderer <term ref="lem001407">waarr</term> auf zwo <term
+                                 ref="lem001389.02">äxen</term>
+                              <measure quantity="2" type="currency" unit="bz">2
+                              bazen</measure></supplied></damage></seg>
+                     <seg>
+                        <lb/>von einem <term ref="lem015949.02">boden müllin stein</term> dry bazen,
+                        sagen <measure quantity="3" type="currency" unit="bz">3 bz</measure></seg>
+                     <seg>
+                        <lb/>von einem <term ref="lem015950.02">läüffer stein</term> zwen bazen,
+                        sagen <measure quantity="2" type="currency" unit="bz">2 bz</measure></seg>
+                     <seg>
+                        <lb/>von einem <term ref="lem000776">hauptvich</term> oder <term
+                           ref="lem001069">roß</term> ein crüzer, sagen <measure quantity="1"
+                           type="currency" unit="xr">1 cr</measure></seg>
+                     <seg>
+                        <lb/>von einem <term ref="lem013922">salzfaß</term>
+                        <measure quantity="3" type="currency" unit="xr">dry crüzer</measure>, 3
+                        cr</seg>
+                     <seg>
+                        <lb/>von einem <term ref="lem000055">schaff</term>
+                        <measure quantity="1" type="currency" unit="d">ein pfenig</measure>, 1
+                        pf</seg>
+                     <seg>
+                        <lb/>von einer <term ref="lem001394">geiß</term>
+                        <measure quantity="1" type="currency" unit="d">ein pfenig</measure> 1
+                        pf</seg>
+                     <seg>
+                        <lb/>ein einem <term ref="lem000057">schwyn</term> (<choice>
+                           <abbr>s v</abbr>
+                           <expan>salva venia</expan>
+                        </choice>) <measure quantity="0.5" type="currency" unit="xr">ein halbi
+                           crüzer</measure>, ½ cr</seg>
+                     <seg>
+                        <lb/>von einem jungen schwyn <measure quantity="2" type="currency" unit="d"
+                           >zwen pfenig</measure>, 2 pf</seg>
+                     <seg>
+                        <lb/>von einer <term ref="lem016365.03">segesen lägelen</term>
+                        <measure quantity="2" type="currency" unit="xr">zwen krüzer</measure>, 2
+                        cr</seg>
+                     <seg>
+                        <lb/>von <measure type="volume" unit="Ledi" quantity="1">einer
+                           ledi</measure>
+                        <term ref="lem002887.03">kauffmans wahr</term> vom stuckhweys <measure
+                           quantity="3" type="currency" unit="bz">3 bz</measure>.</seg>
+                     <seg><lb/><head n="3">Durch die <term ref="lem005262">fuhrten</term> des
+                              <placeName ref="loc000644">Reins</placeName></head>
+                     </seg>
+                     <seg>
+                        <lb/>von <measure type="volume" unit="Ledi" quantity="1">einer
+                           ledi</measure>, so von <placeName ref="loc000155.03">Baltsers</placeName>
+                        har kombt, zwen bazen, <measure quantity="2" type="currency" unit="bz">2
+                           bz</measure></seg>
+                     <seg>
+                        <lb/>von einem <term ref="lem013922">salzfaß</term>
+                        <measure quantity="3" type="currency" unit="xr">dry crüzer</measure>, 3
+                        cr</seg>
+                     <seg>
+                        <lb/>von <measure unit="Ledi" quantity="1">einer ledi</measure>, so von
+                        unßerer graffschafft <placeName ref="loc000440">Werdenberg</placeName>
+                        <lb/>uß und der enden über und durch <damage agent="faded ink"><supplied
+                              source="LAGL AG III.2433:046, S. 8">die fuhrten
+                           geführt</supplied></damage>
+                        <lb/>werden <abbr>etc</abbr>, <measure quantity="6" type="currency"
+                           unit="xr">sechs crüzer</measure> sagen, 6 cr.</seg>
+                     <seg>
+                        <lb/>Und deßen alles zue wahrem urkhundt, so haben wir dißen brief mit
+                        unßers landts gewohnlichem secret insigel becrefftiget übergeben <damage
+                           agent="faded ink"><supplied source="LAGL AG III.2433:046, S. 8"
+                              >lassen</supplied></damage>, doch unß an unßern althergebrachten recht
+                        und grechtigkeiten, harkommen, auch hierumb <lb/>ußgfertigen lehen briefen
+                        und all andern hochheiten inn all weg, ohne schaden und nachtheil, geben,
+                        nach der gnadenwirchkenden gebuhrt <persName ref="per000353">Jeßu
+                           Christi</persName> gezelt, <origDate when="1654-02-23" calendar="Julian"
+                           >sechszechen hundert fünffzig und vier jahre, donstag, den 23. tag
+                           hornung</origDate>
+                        <abbr>etc</abbr>. </seg>
+                  </p>
+                     </div>
+                     <pb facs="StASG_AA_3_U_21_v"/><div><ab type="dorsal" place="verso" hand="hand19c"><lb/><term ref="lem001333">Zoll-Tarif</term>
+                        <lb/>in
+                        <lb/><placeName ref="loc000440">Werdenberg</placeName></ab></div>
+                     <div><ab type="archiving reference" place="verso" hand="hand19c"><lb/>N<hi rend="sup">o</hi> 21 <abbr>Werd</abbr> 1654</ab></div>
+                     
+                  </body>
+               </text>
+            </group>
+            <back>
+               <div n="1" org="uniform" sample="complete"><p>Die <term ref="key000703">Fähre</term> am <placeName ref="loc008386.01">Schollberg</placeName>
+               wird erstmals <date when="1415">1415</date> erwähnt (<bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/d9170513c18f45979c2d153af9afe671"
+                     >LAGL&#160;AG&#160;III.2405:016</ref></bibl>). Aus dem Jahre <date when="1472"
+                  >1472</date> stammt die erste <term ref="key000321">Lehenurkunde</term>, in der
+               die Fähre auf 50 Jahre verliehen wird (Druck: <bibl><ref
+                     target="https://www.ssrq-sds-fds.ch/online/SG_III_2/index.html#p_273"
+                     >SSRQ&#160;SG III/2, &#160;Nr.&#160;80</ref></bibl> mit weiteren Angaben zum
+               Fährbetrieb am Schollberg in den Vor- und Nachbemerkungen; Literatur: <bibl><ref
+                     target="http://permalink.snl.ch/bib/chbsg000038423">Graber 2003</ref>,
+                  S.&#160;110–111</bibl>; <bibl><ref
+                     target="http://permalink.snl.ch/bib/chbsg000142793">Winteler 1923</ref>, S.
+                  156–160</bibl>). Zur Fähre am Schollberg vgl. auch das Dossier zur Rheinfahrt in
+                     <bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/44aa25e2ae054f6b9cd03f82d87f80b2"
+                     >LAGL&#160;AG&#160;III.2433</ref></bibl>. 1771 beklagen sich die Fährleute der
+               Fähre am Schollberg, dass die Fuhrleute den <placeName ref="loc000644"
+                  >Rhein</placeName> durchfahren, ohne <term ref="key000199">Zoll</term> zu
+               bezahlen. Der Landvogt von <placeName ref="loc000440">Werdenberg-Wartau</placeName>
+               bestimmt darauf, dass jeder fremde Fuhrmann von jeder Wagenladung 2 Batzen, ein
+                  <orgName ref="org003242">Werdenberger</orgName> ein Batzen bezahlen muss. Weitere
+               Tarife werden nach dem Inhalt der Ladung erhoben
+                     (<bibl><ref>LAGL&#160;AG&#160;III.20, Kiste 3, Bündel Zollsachen,
+                     27.01.1771</ref></bibl>).</p></div>
+               <div n="2" org="uniform" sample="complete"><p>Zum Streit zwischen den Fähren am <placeName ref="loc008386">Schollberg</placeName>, in
+                  <placeName ref="loc008249">Bendern</placeName> und in der <placeName ref="loc008391.01"
+                     >Burgerau</placeName>
+                  <date from="1790" to="1793">1790–1793</date> vgl. <ref>SSRQ_SG_III_4_256</ref>. Zur
+                  Fähre in Bendern vgl. <ref>SSRQ_SG_III_4_152</ref>.</p></div>
+               <div n="3" org="uniform" sample="complete"><p>Zur <placeName ref="loc008386">Schollberger</placeName> Schifffahrt vgl. <bibl><ref>SSRQ&#160;SG
+                     III/3</ref>,&#160;Nr.&#160;175; Nr. 175a; Nr. 175b; Nr. 213; Nr. 219; Nr. 245;
+                  Nr. 252.</bibl></p></div>
+               <div n="1" org="uniform" sample="complete"><p>In der Urkunde sind die drei Zolltarife als dreispaltige Tabelle nebeneinander dargestellt, hier werden sie nacheinander wiedergegeben.</p></div>
+            </back>
+         </text>
+</TEI>
+
+

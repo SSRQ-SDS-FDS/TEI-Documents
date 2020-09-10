@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-08-15"/>
+            <date type="print"/>
+            <availability><p xml:id="facs">Sibylle Malamud</p></availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_122</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno source="https://archivverzeichnis.gl.ch/home/#/content/4d1e2f0c17fc457cabb32b49b5f0b75c">LAGL AG III.2410:035</idno>
+                  <altIdentifier>
+                     <idno>LAGL 89N</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <head>Hans Lorenz, Bader von Werdenberg, verkauft Klaus Tischhauser und seiner Ehefrau Anna Beusch eine Wiederkaufsrente für 20 Gulden</head>
+               <msContents>
+                  <summary>
+                     <p>Hans Lorenz, Bader von Werdenberg, verkauft Klaus Tischhauser und seiner Ehefrau Anna Beusch für 20 Gulden eine Wiederkaufsrente von einem Gulden. Als Sicherheit dient das Badhaus mit Hofstatt und Garten vor der Stadt Werdenberg.</p>
+                     <p>Für den Aussteller siegelt Marx Pfiffner, Landweibel von Werdenberg.</p>
+                  </summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <filiation type="current">Original</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Pergament</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="15.0"/>
+                              <width unit="cm" quantity="38.0"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <sealDesc>
+                     <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1"
+                        nontei:condition="damaged" nontei:material="wax" nontei:shape="round"
+                        nontei:attachment="sealed on a parchment tag">
+                        <persName role="sigillant" ref="per008971">Landweibel Marx
+                           Pfiffner</persName>
+                     </seal>
+                  </sealDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1544-06-28">samstag nach sant Johanns tag</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000894">Bader</term>
+               <term ref="key000896">Badhaus</term>
+               <term ref="key003336">Gült</term>
+               <term ref="key000430">Unterpfand</term>
+               <term ref="key000154">Zins</term>
+               <term ref="key000109">Stadt</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <div org="uniform" sample="complete">
+                  <pb facs="LAGL_AG_III.2410_035_r"/>
+                  <p>
+                     <seg>
+                        <lb/>Ich, <persName ref="per002379">Hanns Lorentz</persName>, der zitt <term
+                           ref="lem014805.01">bader</term> zuͦ <placeName ref="loc000440"
+                           >Waͤrdennberg</placeName>, bekenen unnd tuͦnn kuͦnnd allermenklich fuͦr
+                        mich, alle min erben und nach komen, das ich guͦtz <lb/>wylens, <choice>
+                           <abbr>wollbdach</abbr>
+                           <expan>wollbedacht</expan>
+                        </choice>, recht und redlich verkaufft han und zuͦ kaufen geben und gyb ouch
+                        jetzen wuͤsentlich in krafft dis brieffs den ersamen und wysenn
+                           <lb/><persName ref="per001673a">Clausen Tyschhuser</persName> und
+                           <persName ref="per008823b">Anna Buͦschmen</persName>, sinen elichen wyb,
+                        ouch allen iren erben und nachkomen ains staͤtten, jemerwaͤrenden <term
+                           ref="lem000179">koufs</term>
+                        <measure quantity="1" type="currency" unit="fl" origin="Konstanz">ain guldin
+                           guͦter <lb/>und genamer Costentzer muͤntz und <placeName ref="loc000061"
+                              >Veldkylcher</placeName> wäryg</measure>, rachtz jarlichs <term
+                           ref="lem000237">zins</term> und <term ref="lem012420.04">pfänyg
+                           geltz</term> von, user und ab minem aignen <term ref="lem003779">bad
+                           hus</term> und <term ref="lem000170.10">hoffstatt</term>
+                        <lb/>und <term ref="lem000246">garten</term> zuͦ <placeName
+                           ref="loc007871.01">Waͤrdenberg</placeName> vor der <term ref="lem000184"
+                           >statt</term> gelegen, stost zuͦ allen siten an die <term ref="lem000596"
+                           >lanntstraß</term> und an die <term ref="lem015073">waͤly</term> an den
+                           <term ref="lem000320">bach</term>, namlich ab grund, gratt, ab gezim<lb
+                           break="no"/>ber, gemür, tach und gemach, ouch ab alenn nutzen, genysen,
+                        fryheyten, gerechtykeyten, ouch ab alenn dem, das von alter har darzuͦ
+                        gehört, gehören sol und <lb/>mag, darvon nuͤtz ußgenomen noch hindan
+                        gesetzt, das ouch vormals ledig und loß und sunst gegen maͤnklichem
+                        unverkumberet ist, ußgelasen <lb/>das <measure quantity="2" type="currency"
+                           unit="fl">zwaͤn guͦldin</measure> ouch darab gannd dem vorgenanten
+                        koͤufer <persName ref="per001673a">Clausen Tyschhuser</persName>, hinfur als
+                        bys har nach lut sin versigleten <term ref="lem002384">zins brieff</term>. </seg>
+                     <seg>Unnd ist <lb/>der redlich <term ref="lem000179">kouf</term> volfüert und
+                        getonn worden umb <measure quantity="20" type="currency" unit="fl"
+                           origin="Konstanz">zwaͤntzig guͦldin</measure> ales guͦter und genamer
+                        obgeschrybner waͤryg, deren ich, verkouffer, also <lb/>von dem vorgemelten
+                        kouffer also bar, gantz und gar uß gricht und bezalt worden bin nach allem
+                        minen wylen und benuͤgen. Daruͦmb so soll ich, ver<lb break="no"/>koufer,
+                        alle min erben und nachkomen der genanten koufer aler iren erben und
+                        nachkomen disen guͦldin <term ref="lem000237">zins</term> nun hinenthin
+                           <date dur="R/P1Y">järlich</date> und jedes <lb/>jars besunders alwaͤgen
+                        uff <date type="deadline" when="--11-11">sant <persName ref="per000141"
+                              >Martys</persName> tag</date>
+                        <date dur="P/14D">vierzehen tag</date> vor oder nach, tugentlich richten,
+                        zinsen und zuͦ der kauferen sicheren handen und gewaltt <lb/>antwuͤrten und
+                        geben unverzogennlich vuͤr ales hefften, verbitten und entweren, gantz und
+                        gar, one alen der kaufer costen und schaden. Wan wyr oder <lb/>wölches jars
+                        das also nüt beschach, über kurtz oder lang zitt, als bald ist inen das
+                        obgenant guͦt, ir <term ref="lem000580">under pfand</term>, in den genanten
+                           <term ref="lem000693">marken</term>
+                        <term ref="lem012845">zinsfelig</term>
+                        <lb/>worden, tanenthin zuͦ rechtem aignen jemerme gfalen und verfalen, one
+                        min, des verkoufers, und miner erben und nachkomen sumen, iren und menklich
+                        <lb/>von minentwagen sums, iren und wydersprechen.</seg>
+                     <seg>Und wie woll diser bryeff ain ewigen kouff ußwyst und stadt, so hand mir
+                        doch die vyllgenanten <lb/>koufer volen gewalt geben, das ich,
+                           <sic>ale</sic> min erben und nachkomen disen zins woll wider <term
+                           ref="lem000587">ablösen</term> muͦgen mit dem <term ref="lem000588">houpt
+                           guͦt</term>, wie er kaufft ist mit <lb/><sic>gefalmem</sic> zins und
+                        vorzins falls, ouch mit guͦter muntz und werig. Daran sy mit verlurst habend
+                        alwaͤgen uff <date type="deadline" when="--11-11"><persName ref="per000141"
+                              >Martiny</persName></date>
+                        <date dur="P/14D">vierzehen tag</date> vor oder nach, <lb/>ales
+                        ungfarlich.</seg>
+                     <seg>Und des ales zuͦ warem urkuͦnd, so hab ich, obgenanter <persName
+                           ref="per002379">Hans Lorentz</persName>, mit flis und ernst gebeten und
+                        erbeten den ersamen <lb/><persName ref="per008971">Marxen
+                        Pfüfner</persName>, der zit miner gnaͤdigen <orgName ref="org001197">heren
+                           von Glarus</orgName>
+                        <term ref="lem000642">lantwaybell</term> zuͦ <placeName ref="loc000440"
+                           >Wardenberg</placeName>, das er sin aigen insigell, doch minen <orgName
+                           ref="org001197">heren von Glarus</orgName>, <lb/>ouch im und sinen erben
+                        one schaden, für mich gehenkt hat an disen brieff, der geben ist <origDate
+                           when="1544-06-28">am samstag nach sant <persName ref="per000049"
+                              >Johans</persName> tag im jar als man zalt nach <lb/>der gebuͤrtt
+                           Cristy tusend fünfhundert und im vier und fierzigesten
+                        jar</origDate>.</seg>
+                  </p>
+               </div>
+               <pb facs="LAGL_AG_III.2410_035_v"/>
+               <div org="uniform" sample="complete">
+                  <ab type="dorsal" place="verso" hand="hand16c">
+                     <lb/><persName ref="per002379">Hans Lorentz</persName>, bader zuͦ <placeName
+                        ref="loc000440">Wardenberg</placeName>, sol <persName ref="per001673a"
+                        >Clausen Tyschhuser</persName>
+                     <lb/>j  zins</ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab type="dorsal" place="verso" hand="hand17c">
+                     <lb/><persName ref="per009054a">Christen Herdner</persName> hat pfand</ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab type="dorsal" place="verso" hand="hand18c">
+                     <lb/>Zinset <persName ref="per009055a">Bältz Fry</persName>
+                  </ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab type="dorsal" place="verso" hand="hand17c">
+                     <lb/>Zinßet wachter <persName ref="per009056a">Adam Zopffi</persName>. Zinset
+                     jetz leüthnampt <lb/><persName ref="per009057a">Ullrich Farburger</persName>, <choice>
+                        <abbr>prio</abbr>
+                        <expan>manu propria</expan>
+                     </choice></ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab type="archiving reference" place="verso">
+                     <lb/>N<hi rend="sup">o</hi> 1 </ab>
+               </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div org="uniform" sample="complete">
+            <p>Über das <term ref="key000896">Badhaus</term> bei der Stadt <placeName
+                  ref="loc000016">Werdenberg</placeName> an der <term ref="key004250"
+                  >Landstrasse</term> ist kaum etwas bekannt. <persName ref="per002379">Hans
+                  Lorenz</persName> wird <date when="1531">1531</date> als <term ref="key000894"
+                  >Bader</term> und <placeName ref="loc000010">Sarganser</placeName> Bürger in der
+                  <placeName ref="loc000927">Splee</placeName> in der Stadt <placeName
+                  ref="loc000010">Sargans</placeName> erwähnt (<ref
+                  target="https://www.ssrq-sds-fds.ch/online/SG_III_2/index.html#p_829">SSRQ SG
+                  II/2, Nr. 219, Vorbemerkung</ref>). Weitere Erwähnungen eines Badhauses oder
+               Baders in <placeName ref="loc007867">Werdenberg-Wartau</placeName> siehe <bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/6a62d010e4f24cdeb11f744a9583f76a"
+                     >LAGL AG III.2442:017</ref>; <ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/a937d9b31bc143b8b3dd4cf975a7ca48"
+                     >AG III.2427:050</ref>; <ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/f12552e9e77e4255a4c5935fb0107b2f"
+                     >AG III.2419:029</ref></bibl>; <bibl><ref>PGA Sevelen Nr. 7</ref></bibl>, zum
+               Badwasser in <placeName ref="loc008556">Rans</placeName> vgl. auch <bibl><ref
+                     target="http://permalink.snl.ch/bib/chbsg000081988">Hagmann 1984</ref>, Bd. 2, S.
+                  192–193</bibl>, zur strittigen Grenze beim Badhaus am <placeName ref="loc006025"
+                  >Grabser Berg</placeName> vgl. <ref
+                  target="https://archivverzeichnis.gl.ch/home/#/content/213fd09af6b948129ffd18c3f622b832"
+                  >LAGL AG III.2419:030</ref>; <ref
+                  target="https://archivverzeichnis.gl.ch/home/#/content/7bab1406bba34861bb18de06eeb65f56"
+                  >AG III.2419:031</ref>; <ref
+                  target="https://archivverzeichnis.gl.ch/home/#/content/627c6078385848a29008c669d674076e"
+                  >AG III.2419:032</ref>. </p>
+         </div>
+         <div org="uniform" sample="complete">
+            <p>In der Herrschaft <placeName ref="loc006040">Hohensax-Gams</placeName> wird im
+               Kaufbrief um die <term ref="key000047">Mühle</term> in <placeName ref="loc000211"
+                  >Gams</placeName> erwähnt, dass der <term ref="key003498">Müller</term> dem <term
+                  ref="key000894">Bader</term> für seine Badstube <term ref="key000715"
+                  >Wasser</term> geben muss (<bibl><ref>KKGA Gams Schrank 4, Tablar 4, Schachtel «19
+                     Dokumente zur Geschichte der Mühle Gams»</ref></bibl> [25.01.1518]).</p>
+         </div>
+      </back>
+   </text>
+</TEI>

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-08-15"/>
+            <date type="print"/>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_221</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>StASG AA 3 B 01, S. 21</idno>
+                  <altIdentifier>
+                     <idno>StASG AA 3 B 1</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <head>Nachtrag im Landbuch von Werdenberg wegen der Haftung beim Verkauf von kranken Pferden</head>
+               <msContents>
+                  <summary>
+                     <p>Wegen eines langwierigen Rechtsstreits um ein Pferd, das nach einem Verkauf in Werdenberg
+                        krank wurde, bittet Landvogt Johann Christoph Streiff Glarus, eine Frist für Mängel bei
+                        verkauften Pferden festzusetzen. Ein entsprechender Eintrag im Landbuch fehle. Deshalb wird
+                      beschlossen, den Artikel im Glarner Landbuch vom 4. Juli 1675 in das Landbuch der Werdenberger
+                       eintragen zu lassen. Darin ist bestimmt, dass der Käufer vier Wochen nach dem Kauf eines Pferdes
+                       bei einem Mangel Anspruch auf Entschädigung hat.</p>
+                  </summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <filiation type="current">Original (22 Seiten) mit kartoniertem Einband mit Stoffüberzug</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Pergament</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="35.5"/>
+                              <width unit="cm" quantity="31.0"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate from="1736-06-21" to="1736-11-25"/>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head>Editionen</head>
+                     <bibl><ref target="http://permalink.snl.ch/bib/chbsg000142777">Senn, Chronik</ref>, S. 242–243 (unter Nr. 87 Landbuch von 1778)</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000264">Pferd</term>
+               <term ref="key004323">Viehkrankheit</term>
+               <term ref="key003496">Krankheit</term>
+               <term ref="key003298">Landesrecht</term>
+               <term ref="key000231">Verkauf</term>
+               <term ref="key000341">Ordnung</term>
+               <term ref="key003007">Frist</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <div org="uniform" sample="complete">
+                  <pb n="21"/>
+                  <p>
+                     <lb/>Weilen meinen gnädigen heren und oberen von unßerem regierenden <lb/>heren
+                     landtvogt <persName ref="per001962a">Johann Cristopff Streiff</persName> zu
+                     vernehmmen geben worden, daß sich ein gewüßen <lb/><term ref="lem015489.02"
+                        >pferdt streit</term> in unßerer graffschafft eines von den <term
+                        ref="lem002489.03">haubtmänglen</term> zugetragen, deßen <lb/>aber in ihrem
+                        <term ref="lem007043">landtsbuech</term> nicht versehen.<note
+                        anchored="true">1666 wird eine Frist beim Verkauf von Vieh von einem Jahr
+                        und einem Tag festgelegt, vgl. <ref>SSRQ_SG_III_4_193</ref>.</note>
+                     Derowegen meine gnädige heren und oberen <lb/>gebeten, das man geruehen möchte,
+                     diß fahls eine <term ref="lem003309">verordnung</term> zu machen. Ist hierüber
+                     <lb/>reflectiert und erkenth, daß ein gleiches <term ref="lem000361"
+                        >recht</term> dem unßrigen solle aus dem landts<lb break="no"/>buech gezogen
+                     und den angehörigen übersendt und anbefohlen werden, das solches <lb/>in ihr
+                     landtsbuech geschriben werden, den <origDate when="1736-06-21">9./21. juny
+                        1736</origDate>, <lb/>
+                     <term ref="lem002854">landtschreiber</term>
+                     <persName ref="per009325a">Zweifel</persName>.</p>
+               </div>
+               <div org="uniform" sample="complete">
+                  <head>
+                     <lb/>Wie lang das mann ein anderen in und <term ref="lem011868">ausert <lb/>dem
+                        landt</term> bey <term ref="lem012831">erkaufung</term> der <term
+                        ref="lem000579">pferdten</term> für die <lb/>vier <term ref="lem015490.02"
+                        >haubtlaster</term>, als <term ref="lem002490.01">krämpffig</term>, <term
+                        ref="lem002491">dämpfig</term>, <lb/><term ref="lem002492">stettig</term>
+                     und <term ref="lem002497">spettig</term>, abtragen thuen und <term
+                        ref="lem015488.03">nach<lb break="no"/>wärth</term> sein solle</head>
+                  <p>
+                     <lb/>Auf heüt dato, den <origDate when="1675-07-04">4<hi rend="sup">ten</hi>
+                        tag haüwmonath <abbr>a<hi rend="sup">o</hi>
+                        </abbr> 1675</origDate>, habend meine gnädige heren <lb/>und ein ehrsamme
+                     dreyfacher landtrath auß befehl gmeiner landtleüthen zu einem <lb/>beharlichen
+                        <term ref="lem000597">landtrechten</term> auf und angenohmmen und mit ein
+                     anderem einhellig <lb/><term ref="lem002564">ermehret</term>, daß, wann einer
+                     fürohin ein <term ref="lem000579">pferdt</term> nach landtrechten für gesund
+                     und gerecht <lb/>erkaufft, der <term ref="lem002447">verkaüffer</term> als
+                     danne ihmme umb die vier <term ref="lem015490.02">haubtlasterß</term>, also
+                        <lb/><term ref="lem002490.01">krämpffig</term>, <term ref="lem002491"
+                        >dämpfig</term>, <term ref="lem002492">stettig</term> und <term
+                        ref="lem002497">spettig</term>, <date dur="P4W">vier wochen</date> und nicht
+                     lenger darfür <lb/><term ref="lem004719">abtrag</term> thuen und nachwerth sein
+                     solle. Für daß nun aber <date dur="P4W">vier wochen</date> ver<lb break="no"
+                     />floßen, alß solle dannethin ganz kein <term ref="lem015488.04"
+                        >nachwerth</term> deßentwegen angesuecht werden, <lb/>sonder der verkaüffer
+                     demm <term ref="lem002446">kaüffer</term> besten maaßen geanthwortet haben. Was
+                     aber <lb/>außert den vier <term ref="lem015490.02">haubtlasteren</term> an
+                     einem <term ref="lem000579">pferdt</term> möchte erfunden werden, <lb/>solle
+                     ganz kein <term ref="lem015488.05">nachwert</term> darbey angesuecht werden,
+                     sonderen darumben <lb/>geanthwortet haben.</p>
+                  <p>
+                     <lb/>
+                     <foreign xml:lang="la">Actum</foreign>
+                     <origPlace ref="loc000015">Werdenberg</origPlace>, <lb/>denn <origDate
+                        when="1736-11-25">25. 9bris 1736</origDate>. <lb/>Canzley <placeName
+                        ref="loc000326">Glaruß</placeName>. <lb/><persName ref="per009326a">Johann
+                        Caspar Bluemer</persName>, der zeit <term ref="lem002854"
+                        >landtschreiber</term>
+                     <lb/>der graffschafft <placeName ref="loc007867">Werdenberg und herr<lb
+                           break="no"/>schafft Wartauw</placeName>.</p>
+               </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div n="1" org="uniform" sample="complete">
+            <p>Bei diesem Artikel handelt es sich um einen Nachtrag zum <term ref="key003298">Landesrecht</term> von 1639 im Landbuch (<ref>SSRQ_SG_III_4_174</ref>), der nach den
+     früheren Ergänzungen von 1653 und 1666 eingetragen wurde (<ref>SSRQ_SG_III_4_185</ref>;
+      <ref>SSRQ_SG_III_4_193</ref>). Wie sich 1736 in einem Streit um ein gekauftes, krankes
+     Pferd herausstellt, fehlt im Landbuch eine <term ref="key000341">Ordnung</term> über <term ref="key003007">Fristen</term> beim <term ref="key000231">Verkauf</term> von <term ref="key000264">Pferden</term> mit Mängeln. Deshalb bewilligen Landammann und Rat von <orgName ref="org003239">Glarus</orgName> 1736 den Werdenbergern auf Bitten ihres Landvogts, den
+     Artikel in ihrem eigenen Glarner Landrecht aus dem Jahr 1675 in das Landbuch der <orgName ref="org003242">Werdenberger</orgName> eintragen zu lassen.</p>
+         </div><div n="2" org="uniform" sample="complete"><p>In den meisten Abschriften des Landbuchs fehlt dieser Nachtrag. Nur in der Abschrift
+                  <ref>StASG AA 3 A 4-4b</ref>, S. 27–28, ist er vollständig nach dem Landesrecht
+               mit den früheren Nachträgen abgebildet; im Vidimus und einer weiteren Abschrift
+               erscheint er in paraphrasierter Form als Art. 61
+                  (<bibl><ref>StASG AA 3 B 5</ref></bibl>, S. 33, gedruckt in: <bibl><ref
+                     target="http://permalink.snl.ch/bib/chbsg000142777">Senn, Chronik</ref>,
+                     S. 242</bibl>; <bibl><ref>KA Werdenberg im OA Grabs Nr. 4</ref></bibl>,
+               S. 22–23). </p>
+         </div>
+      </back>
+   </text>
+</TEI>

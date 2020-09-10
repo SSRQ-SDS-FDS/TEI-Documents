@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-08-15"/>
+            <date type="print"/>
+            <availability><p xml:id="facs">Staatsarchiv St. Gallen (StASG)</p></availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_193_1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>StASG AA 3 B 01, S. 12</idno>
+                  <altIdentifier>
+                     <idno>StASG AA 3 B 1</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <head>Nachtrag im Landbuch von Werdenberg betreffend den Erbrechtartikel Nr. 11, Verkauf von Vieh und Fristen vor den drei Hochfesten</head>
+               <msContents>
+                  <summary>
+                     <p>Die Abgeordneten von Werdenberg, Landvogt Paul Fluri und Landeshauptmann Niklaus
+                     			Engeler, beschweren sich über Artikel 11 im Landbuch. Landammann und Rat von Glarus
+                     			heben den Erbrechtsartikel auf und bestimmen, dass beim Tod eines kinderlosen
+                     			Geschwisters die Kinder eines Bruders oder einer Schwester erben können, auch wenn diese
+                    			bereits verstorben sind. Diese Erbfolge erstreckt sich jedoch nur auf Geschwister und
+                     			deren Kinder. Die Gewährleistung bei Mängel beim Verkauf von Vieh soll im Inland 1 Jahr
+                   			und 1 Tag gelten. Bei Verkäufen ins Ausland soll das Gegenrecht gelten. 14 Tage vor und
+                    			nach den drei Hochfesten dürfen keine Ganten, Pfändungen und Schätzungen durchgeführt
+                    			werden.</p>
+                  </summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <filiation type="current">Original, Buch (22 Seiten) mit kartoniertem Einband mit Stoffüberzug</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Pergament</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="35.5"/>
+                              <width unit="cm" quantity="31.0"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <sealDesc>
+                     <seal  xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI"
+                        n="1"
+                        nontei:condition="absent"/> 
+                  </sealDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1666-06-12"/>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head>Editionen</head>
+                     <bibl><ref target="http://permalink.snl.ch/bib/chbsg000142777">Senn, Chronik</ref>, S. 229, 241–242 (unter Nr. 87 Landbuch von 1778)</bibl>
+                  </listBibl>
+                  <listBibl>
+                     <head>Regesten</head>
+                     <bibl><ref target="http://permalink.snl.ch/bib/chbsg000142777">Senn, Chronik</ref>, S. 156–157</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key003298">Landesrecht</term>
+               <term ref="key000597">Erbrecht</term>
+               <term ref="key000920">Erbschaft</term>
+               <term ref="key000412">Gant</term>
+               <term ref="key000027">Pfändung</term>
+               <term ref="key004546">Schätzung</term>
+               <term ref="key003021">Termin</term>
+               <term ref="key003007">Frist</term>
+               <term ref="key000298">Vieh</term>
+               <term ref="key000231">Verkauf</term>
+               <term ref="key000847">Ausland</term>
+               <term ref="key000841">Feiertag</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="12" facs="StASG_AA_3_B_001_12_13"/>
+               <div org="uniform" sample="complete">
+                  <p>
+                     <seg>
+                        <lb/>Nach demme uff hüth dato meinen <choice>
+                           <abbr>gn</abbr>
+                           <expan>gnädigen</expan>
+                        </choice> herren und oberen, herren <orgName ref="org003239">landtamman
+                           <lb/>und ratth zue Glaruß</orgName> ir dißmallen regierender lieber und
+                        getrüwer <lb/>landtvogt, herr <persName ref="per009317a">Paulluß
+                           Flury</persName> mit und nebet herren <term ref="lem000775"
+                           >landtßhauptman</term>
+                        <persName ref="per009130a">Clauß <lb/>Engeller</persName> in nammen unßerren
+                        lieben und getreüwen der graffschafft <orgName ref="org003242"
+                           >Werdenberg</orgName>
+                        <lb/>demüetigist eröffnet, waß in irrem <term ref="lem007043.07"
+                           >landtßbuech</term>, so in numero 11 begriffen,<note anchored="true">Vgl.
+                              <ref>SSRQ_SG_III_4_174</ref>, Art. 11.</note>
+                        <lb/>deß <term ref="lem001447">erbrechtß</term> ein articul einverleibt,
+                        welcher der graffschafft biß anherro nit <lb/>wenig nachtheillig geweßen,
+                        indemme, wenn ein <term ref="lem001446">erb</term> gefallen, zue ziten die
+                           <term ref="lem001768">uß<lb break="no"/>lendischen</term> bey innen erben
+                        khönnen nach anleitung gesagten articulß. Hingegen <lb/>aber sie uff
+                        andterstwertig gefalne erb nit alß erben zuehin sthon mögen, <lb/>also daß
+                        sei sich auch dißerren articul zue irer hochster entgeltnuß geschlagen
+                        <lb/>befunden und noch fernerß præjudicierlich zue entgelten besorgendt.
+                           Dero<lb break="no"/>wegen zue beferderung der billigkheit mein <choice>
+                           <abbr>gn</abbr>
+                           <expan>gnädigen</expan>
+                        </choice> undt <choice>
+                           <abbr>obr</abbr>
+                           <expan>oberen</expan>
+                        </choice> in nammen <lb/>gesagten irren angehörrigen demüetigist und in
+                        aller underthänigkheit ansuchend, <lb/>innen in dißerrem passu mit
+                        väterlichem ratth zuebegegnen.</seg>
+                     <seg>Wan dan mein <choice>
+                           <abbr>gn</abbr>
+                           <expan>gnädigen</expan>
+                        </choice>
+                        <lb/>herren solche ervorderrnde rathßerhellung vernommen, dieselige ratsam
+                           er<lb break="no"/>dauret und in reiffliche consideration gezogen, alß
+                        habendt sich mein <choice>
+                           <abbr>gn</abbr>
+                           <expan>gnädigen</expan>
+                        </choice> herren <lb/>erkhenth:</seg>
+                     <seg n="1">Allermaßen alherro einverleibt, daß, wan fürohin sich ein <term
+                           ref="lem002051">erbfall</term> begebe <lb/>und <term ref="lem000529"
+                           >geschwüsterte</term> vom <term ref="lem000129">vater</term>
+                        <add place="left margin">oder <term ref="lem000292">muoter</term></add> einß
+                        oder mer verhanden und solche ohne <term ref="lem000260">leibß<lb break="no"
+                           />erben</term>
+                        <term ref="lem001465">absturbenndt</term> und anderre geschwüsterte vor
+                        denselben <term ref="lem014801">mit tot abgangen</term>, <lb/>die elliche
+                           <term ref="lem000130">kinder</term> hinderlaßen hetent, so sollendt die
+                        kinder an irrer <term ref="lem002282">elterren</term>
+                        <lb/>sellegen stath für ir antheil zue erben gewalt haben undt deß erbß
+                        crafft unß<lb break="no"/>errem alhier habendem articul, so folio 67
+                        begriffen, theilhafftig, <app>
+                           <lem><unclear>vechenth</unclear></lem>
+                           <rdg wit="StASG AA 3 B 5, S. 8">fähig</rdg>
+                        </app> und hingegen <lb/>der vorgeschribne articul so <abbr>no</abbr> 11
+                        uffgehebt sein, doch mit dem lauterren anhang, daß <lb/>diß sich nit witer
+                        alß uff geschwüsterte und dero kindt sich extendieren und er<lb break="no"
+                        />streckhen solle. Den übrigen soll eß den bei den <term ref="lem001447"
+                           >erbrechten</term> crafft eineß <term ref="lem007043.08"
+                           >landtßbuoch</term>
+                        <lb/>genzlichen und allerdingen bewenden.</seg>
+                  </p>
+                  <p>
+                     <seg>
+                        <lb/>Eben bei dißerer gelegenheit ist ratßweiß in gleichem angebracht
+                        worden, wie eß wegen <lb/>deß <term ref="lem000310">vichß</term>, so inn
+                        oder <term ref="lem011868">ußerret daß landt</term>
+                        <term ref="lem000852">verkaufft</term> und etwan <term ref="lem015485.02"
+                           >ohnsauber</term>
+                        <foreign xml:lang="la">salve <lb/>honore</foreign> fallen möchte old wurde,
+                        solte und khönte gehalten werden. Alß ist erkhent:</seg>
+                     <seg n="2">Daß, <lb/>waß in dem landt verkhaufft, die <term ref="lem015488.02"
+                           >nachwer</term>
+                        <app>
+                           <lem/>
+                           <rdg wit="StASG AA 3 B 5, S. 32">ein</rdg>
+                        </app>
+                        <date dur="P1Y1D">jahr und ein tag</date> sein solle. Waß aber ußerret
+                        <lb/>daß landt verkhaufft, solle uff die <term ref="lem002392"
+                           >gegenrecht</term> deßen gesechen und dem <damage agent="faded ink">
+                           <supplied source="StASG AA 3 B 5, S. 32">nachge</supplied></damage><lb break="no"/>lebt werden.</seg>
+                  </p>
+                  <p>
+                     <seg n="3">
+                        <lb/>Weiterß sol uff beschechne ratß<add place="above">er</add>hellung mit
+                           <term ref="lem000604">gant</term>, <term ref="lem011584">pfenden</term>
+                        und <term ref="lem011741">schäzen</term> uß erheb<lb break="no"/>lichen
+                        ursachen vor den <date type="floating holiday">
+                           <term ref="lem015486.02">drey heilligen <damage agent="ink blot">
+                                 <supplied source="StASG AA 3 B 5, S. 32"
+                              >fäst</supplied></damage>zeiten</term></date>
+                        <date dur="P14D">14 <choice>
+                              <abbr>t</abbr>
+                              <expan>tagen</expan>
+                           </choice></date> darvor und <date dur="P14D">14 <choice><abbr>t</abbr>
+                              <expan>tagen</expan>
+                           </choice></date> darnach <lb/>vermög unßerrem alhier übenden <term
+                           ref="lem001670">brüch</term> in unßerer graffschafft eingehalten
+                        <lb/>werden.</seg>
+                     <seg>Beschechen, den <origDate when="1666-06-12"><app>
+                              <lem>12ten</lem>
+                              <rdg wit="KA Werdenberg im OA Grabs Nr. 6, S. 15">14</rdg>
+                           </app> juny 1666</origDate> under angehencktem secret.</seg>
+                  </p>
+                  <p>
+                     <lb/><choice>
+                        <abbr>Landtschr</abbr>
+                        <expan>Landschreiber</expan>
+                     </choice>
+                     <persName ref="per009324a">Marti</persName>
+                  </p>
+               </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div n="1" org="uniform" sample="complete">
+            <p>Es handelt sich hier um einen Beschluss von <orgName ref="org003239">Glarus</orgName> aus dem
+          Jahr 1666 über einige Änderungen und Ergänzungen zum <term ref="key003298">Landesrecht</term> von 1639. In erster Linie geht es um eine Anpassung von Artikel 11
+          des Landesrechts zum Erbrecht. Gleichzeitig regelt Glarus die Fristen der Gewährleistung
+          bei Mängeln beim <term ref="key000231">Verkauf</term> von <term ref="key000298">Vieh</term> im In- und <term ref="key000847">Ausland</term> sowie die Einhaltung von
+          einer <term ref="key003007">Frist</term> von 14 Tagen vor und nach den drei Hochfesten bei
+            <term ref="key000412">Ganten</term>, <term ref="key000027">Pfändungen</term> und <term ref="key004546">Schätzungen</term>.</p>
+         </div>
+         <div n="2" org="uniform" sample="complete">
+            <p>Der Beschluss wurde im <term ref="key004882">Landbuch</term> im Anschluss an das
+               Landesrecht von 1639 eingetragen (<ref>SSRQ_SG_III_4_174</ref>); ebenso
+               verhält es sich in den Abschriften im <bibl><ref>KA Werdenberg im OA Grabs
+                     Nr. 6</ref></bibl> (1775), im <bibl><ref>StASG AA 3 A 4-4b</ref></bibl> (19.
+               Jh.) sowie in der Abschrift des Landesrechts im Urbar von 1754 (<bibl><ref>StASG AA 3
+                     B 2, S. 283–284</ref></bibl>; <bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/85e11623d05e4ed088f788722b004138"
+                     >LAGL AG III.2401:044, S. 283–284</ref></bibl>). Vom Landesrecht und seinen
+               Nachträgen existieren weitere Abschriften, welche die Ergänzungen in ganz
+               unterschiedlicher Form übernommen haben. Aufgrund der Komplexität der Einträge werden
+               diese nur teilweise in der Stückbeschreibung aufgelistet und stattdessen hier kurz
+               beschrieben: In einer weiteren Abschrift von 1663 ist der gesamte Beschluss vor dem
+               Landesrecht eingetragen (<bibl><ref>StASG AA 3 B 9, fol. 11r–v</ref></bibl>). Bei
+               <bibl><ref target="http://permalink.snl.ch/bib/chbsg000142777">Senn, Chronik</ref>,
+                     S. 241</bibl> wird der Beschluss zum Erbrecht nach dessen vidimierter
+               Vorlage (<bibl><ref>StASG AA 3 B 5, S. 8</ref></bibl>) in paraphrasierter Form direkt
+               bei Artikel 11 des Landesrechts eingetragen und die beiden anderen Artikel als
+               Artikel 59 und 61 im Anschluss an das Landesrecht aufgeführt. In der Abschrift von
+               Landschreiber <persName ref="per002684a">Fridolin Luchsinger</persName> von 1793 (KA
+               Werdenberg im OA Grabs Nr. 4) folgt die Ergänzung von 1666 (zusammen mit den
+               Ergänzungen von 1770 und 1739) ebenfalls in paraphrasierter Form nach Artikel 14 bzw.
+               als Artikel 59 und 60. Im Kopialbuch von Buchs (<bibl><ref>PA  Buchs B 11.21-01,
+                     S. 21</ref></bibl>) sind alle drei Artikel in verkürzter Form ohne Jahresangabe
+               nach dem Landesrecht aufgeführt. </p>
+            <div n="3" org="uniform" sample="complete">
+               <p>Zur Gant in der Herrschaft Werdenberg vgl. auch
+                  <ref>SSRQ_SG_III_4_049</ref>; <ref>SSRQ_SG_III_4_035</ref>; <bibl><ref
+                        target="https://archivverzeichnis.gl.ch/home/#/content/918ba7e71d8145fb87af8f484276dd1f"
+                        >LAGL AG III.2402:029</ref></bibl>; <bibl><ref>OGA Gams Nr.
+                  124</ref></bibl>.</p>
+            </div>
+         </div>
+      </back>
+   </text>
+</TEI>

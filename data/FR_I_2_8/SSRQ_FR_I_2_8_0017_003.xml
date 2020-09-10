@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+
+			</titleStmt>
+
+			<publicationStmt>
+				<date type="electronic" when="2019-03-20"/>
+				<date type="print"/>
+			</publicationStmt>
+
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ_FR_I_2_8_0017_003</idno>
+			</seriesStmt>
+
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<idno>StAFR, Thurnrodel 9.I, S. 161–164</idno>
+					</msIdentifier>
+					<head>Jenon Davet-Carra – Verhör / Interrogatoire</head>
+					<msContents>
+						<summary></summary> 
+						<msItem>
+							<textLang>fr</textLang> 
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support>
+									<material></material>
+								</support>
+								<extent>
+									<dimensions type="leaves">
+										<height unit="cm" quantity="0.0"/>
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+									<dimensions type="plica">
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+								</extent>
+							</supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate when="1593-05-06"/>
+							<origPlace></origPlace>
+						</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+							
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+			<particDesc default="false"/>
+			<settingDesc default="false"/>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+					
+						
+						<pb n="161"/><p><lb/>Donstag, <origDate when="1593-05-06">6 <foreign xml:lang="la">maii</foreign></origDate>,
+								<foreign xml:lang="la">judex</foreign>
+							<abbr>h</abbr>
+							<choice>
+								<abbr>groß</abbr>
+								<expan>großweibel</expan>
+							</choice>
+							<persName ref="per009927"><choice>
+									<abbr>C</abbr>
+									<expan>Caspar</expan>
+								</choice> Wicht</persName>
+							<seg><lb/>Im <placeName ref="loc007683.04">bößen thurn</placeName></seg>
+							<seg><lb/><abbr>H</abbr>
+								<persName ref="per009114a.01">Christoffel Reyff</persName>,
+									<abbr>h</abbr>
+								<persName ref="per009928a.01">Jacob Buwman</persName></seg>
+							<seg><lb/><persName ref="per009924">Garmißwyll</persName>, <persName
+									ref="per009943a">Farisa</persName>, <persName ref="per009930"
+									>Ziegler</persName></seg>
+							<seg><lb/><persName>Meyer</persName><note>Il s’agit soit de <persName
+										ref="per009929">Daniel Meyer</persName>, soit de <persName
+										ref="per009948">Niklaus Meyer</persName>.</note></seg>
+							<seg><lb/></seg><persName ref="per009945">Schmidt</persName></p>
+						
+						<p><gap reason="irrelevant"/><note>Ce passage concerne d’autres individus.</note></p>
+						
+						<pb n="163"/><p><lb/>Ibidem</p>
+						<!-- PS: mit seg strukturiert -->
+						<p><seg><lb/><persName ref="per009744a">Jenon Davet</persName> particulierement examinee de confesser ce qu’avoit promis 
+							<lb/>de confesser en secret de ses compagnes, elle dit qu’elles estoient de vers 
+							<lb/><placeName ref="loc007610">Payerne</placeName>, l’une nommee <persName>Franceysa</persName>, <add place="left margin" type="sign"><sic>feme</sic> de <persName>Jaque 
+							<lb/>Vachera</persName> qu’estoit 
+							<lb/>absent es vignes</add>, l’aultre <persName>Loysa</persName>, 
+							<add place="left margin" type="sign"><sic>feme</sic> de <persName>Franceois 
+							<lb/>Rilzi</persName> qu’estoit 
+							<lb/>aussy <choice><abbr>pnt</abbr><expan>present</expan></choice> a danser 
+							<lb/>avec la <sic>feme</sic> 
+							<lb/>habitant, le mari 
+							<lb/>est <persName>Curtti</persName></add>, dela des <term ref="lem015059.02">mareste</term> 
+							<lb/>quand l’on va a <placeName ref="loc007868.04"><abbr>S</abbr> Albin</placeName>, <add place="above">ou</add> leurs marys avoient loyé, et alloient ouvrer 
+							<lb/>aux vignes&#160;; <subst><del>l</del><add place="inline">lieu</add></subst> ou elles soy tiennent, icy a que quatre maisons, lequel 
+							<lb/>elle ne sçait nommer, elle confesse bien avoir dansé avec ce maistre <persName>Perroquet</persName>, 
+							<lb/>quand l’on va a <placeName ref="loc007616">Chandon</placeName>, en un beau plan, elle receut l’argent <subst><del>et dansa</del>
+							<lb/><add place="inline">dudit maistre et dansa</add></subst> avant l’hyver, quand l’on alloit encour a pied, elle 
+							<lb/>ne leur vouloit pas obeir, mais les <sic>femes</sic> et le maistre la travalloient 
+							<lb/>et tourmentoient si fort qu’elle leur consentit et dansa, mais une fois 
+							<lb/>seulement, lors appellant le nom de <persName ref="per000353">Jesus</persName>, il s’esvanouit. Touchant les 
+							<lb/><term ref="lem018382.04">graisses</term> ou aultres artifices, pour domager les bestes et aultres personages, 
+							<lb/>dit qu’elle n’en a rien usé, mais bien la <persName>Franceisa</persName>. Estant la premiere 
+							<lb/>fois vers <placeName>A la Pierre</placeName><!-- Ort -->, elle confesse qu’en recevant l’argent du maistre, il 
+							<lb/>leur dit&#160;: <q>&#160;Il fault que vous suiviés mon chemin. Je seray <choice><abbr>vre</abbr><expan>votre</expan></choice> maistre 
+							<lb/>et vous monstreray beaucop d’affaires.&#160;</q> Et leur monstra quelques 
+							<lb/>boites&#160;; de quoy <persName>Franceysa</persName> en ehust livré et elle <subst><del>luy</del><add place="inline">detenue</add></subst> en ehust 
+							<lb/>aussy une. Lors la <persName>Franceysa</persName> luy dit&#160;: <q>&#160;Nous voullons aller par pais.&#160;</q> Elle 
+							<lb/>detenue dit qu’elle n’estoit rusee&#160;; la <persName>Franceysa</persName> dit qu’il iroient 
+							<lb/>avec leur maistre, qui les vouloit mener en un bon pais. Et ainsy 
+							<lb/>qu’elle tomboit, la <persName>Franceysa</persName> luy retira sa <term ref="lem015060">grolle</term>, mais un aultre fois 
+							<lb/>elle l’a luy rendit, dans laquelle estoit une <term ref="lem018382">graisse</term> bien noire, et di<lb break="no"/>rent qu’ilz en vouloient mettre au feu, lors elle <term>epuffane</term><note>Le sens de ce mot demeure incertain&#160;; un rapprochement avec <term ref="lem016128">épouffer</term> peut être envisagé.</note>, et le maistre 
+							<lb/>vouloit qu’ilz en fissent mourir des bestes, en les frottant, mais elle 
+							<lb/>n’en a rien frotté, ains a lavé la boite.</seg> <seg>Touttefois confesse qu’elle en a frotté
+							<lb/>un chevaux a <placeName ref="loc007599.03">Pontoux</placeName>, appartenant a <persName>Colleta Motta</persName>, qu’il avoit chastré 
+							<lb/>pource que celluy chevaux mangeoit le prez de <persName>Michel le Portier</persName>. 
+							<lb/>Confesse aussy avoir frotté une <term ref="lem017507">vache</term> au bois de <placeName ref="loc007616">Chandon</placeName>, qu’elle y trouvat 
+							<lb/>sans sçavoir a qui elle appartenoit, elle a aussy fait mourrir trois 
+							<lb/>poullales qu’alloient en la <term ref="lem015740.02">cheneviere</term>, en leur getant partie de la 
+								<lb/><term ref="lem018382">graisse</term> qu’estoit dure. Plus, confesse avoir fait meurir deux <term ref="lem017507.02">vaches</term> a un de 
+							<lb/><placeName ref="loc007892.08">Tornie le Grand</placeName> en allant boire <add place="above" type="sign">vers la fontaine</add> avant <term ref="lem016455.02">chalande</term>, ne sçait a qui elles 
+							<lb/>sont. Plus, a tué <subst><del>quatre</del><add place="above">cinq</add></subst> porcs de la <placeName ref="loc008470">Gruyere</placeName>, lesquelz l’a engraissé, mais les 
+								<lb/>enfans les grattoient, estant elle <choice><abbr>pnte</abbr><expan>presente</expan></choice>, et les toucha de la <term ref="lem018382">graisse</term>, qu’elle 
+							<lb/>pense qu’ilz en soyent morts, touttefois ne le sçait certainement, 
+								<lb/>comme aussy ne sçait si les <term ref="lem017507.02">vaches</term> sont mortes de tel engraissement. 
+							
+						<pb n="164"/><lb/>Cecy est advenuz avant <term ref="lem016455.02">chalande</term>. Concernant la cheute de la dame 
+							<lb/>de <placeName ref="loc007931.02">Cugie</placeName>, vray qu’elle leur fait beaucop de bien et ainsy qu’elle vouloit 
+							<lb/>chevaucher a l’egliese, elle dit au chevaux&#160;: <q>&#160;Dieu toy gard&#160;! Tu toy assouperas 
+							<lb/>pruz.&#160;</q> Et le maulvais son maistre la poussare et contraignit qu’elle 
+								<lb/>dit que&#160;: <q>&#160;Le <term ref="lem017521">diable</term> toy ayt.&#160;</q> <subst><del>lors</del><add place="inline">Et</add></subst> qu’elle luy prit le parler <add place="left margin" type="sign">aultrement <lb/>qu’il la batroit <lb/>et depuceroit</add>. Lors elle 
+							<lb/>le dit, et le cheval tombast et la dame perdit le parler. Lors l’on la 
+							<lb/>vint querré mais le curé de vint a dire a elle detenue <subst><del>pour</del><add place="inline">a quoy</add></subst> elle fit le semblant de non sçavoir rien, et allant pour 
+							<lb/>la reguerir, le maistre luy dit qu’en entrant elle deut dire trois 
+							<lb/>fois <q><persName ref="per000353">&#160;Jesus</persName> sanctus&#160;</q>, et par ainsy elle remit le parler, mais des 
+							<lb/>chevaux et juments perdues a <placeName ref="loc008103.02">Seydor</placeName> n’en sçait nouvelles 
+							<lb/>et en est innocente.</seg> <seg>Elle confesse qu’il y a prez d’un an que le <term ref="lem015433">malin 
+							<lb/>esprit</term> l’a tousjours assaillie de mauvaises tentations, luy disant 
+							<lb/>qu’il failloit qu’elle fut sienne, mais ne l’a jamais peu vaincre, 
+							<lb/>qu’elle renunceast <choice><abbr>nre</abbr><expan>notre</expan></choice> <choice><abbr>seig<hi rend="sup">r</hi></abbr><expan>Seigneur</expan></choice> en recevant l’argent au paravant, 
+							<lb/>l’ayant l’<term ref="lem017091.05">ennemy</term> long temps travaillé et luy <term ref="lem015635.10">baillé</term> maltemps, elle 
+							<lb/>consenyt et soy rendit a luy. Et combien qu’il voulut qu’il reniast 
+							<lb/><choice><abbr>nre</abbr><expan>notre</expan></choice> <choice><abbr>seig<hi rend="sup">r</hi></abbr><expan>Seigneur</expan></choice>, veu qu’elle estoit sienne et qu’elle s’estoit rendue a luy, 
+							<lb/>elle confessa bien qu’elle s’estoit rendue a luy, mais ne vouloit renier 
+							<lb/>Dieu, il la menaçoit de la suivre tant de chasser si prez qu’elle saroit 
+							<lb/>toutte sienne, et en fin, elle <subst><del>seß</del><add place="inline">s’est</add></subst> laissé vaincre, qu’elle a renié 
+							<lb/>Dieu, dont le crie mercy a <choice><abbr>mess<hi rend="sup">rs</hi></abbr><expan>messeigneurs</expan></choice>.</seg></p>
+						
+						<p><lb/>Estant  <choice><abbr>mess<hi rend="sup">rs</hi></abbr><expan>messeigneurs</expan></choice> retirés, elle a confessé d’avoir ehu la compagnie de son 
+							<lb/>maistre <persName>Perroquet</persName> au bois <subst><del>de</del><add place="inline">entre</add></subst> <placeName ref="loc007655.06">Montagnie</placeName> et <placeName ref="loc007599.03">Pontoux</placeName>, 
+							<lb/>mesmes que le maistre l’a mainte fois baisee et elle reciproque<lb break="no"/>ment luy.</p>
+						
+						
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>

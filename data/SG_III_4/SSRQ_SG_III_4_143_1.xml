@@ -1,0 +1,1098 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-08-15"/>
+            <date type="print"/>
+            <availability><p xml:id="facs">Sibylle Malamud</p></availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_143_1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+          <msIdentifier>
+            <idno
+              source="https://archivverzeichnis.gl.ch/home/#/content/6630cc949c6f4a73a70608b54beb0dde"
+              >LAGL AG III.2401:037</idno>
+            <altIdentifier>
+              <idno>LAGL I.3</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <head>Auszug aus dem Urbar der Rechte und Einkünfte von Glarus in der Landvogtei
+            Werdenberg</head>
+          <msContents>
+            <summary>
+              <p>Inhaltsverzeichnis:</p>
+              <p>S. 1f.: Besitzungen der Grafschaft</p>
+              <p>S. 2f.: Gerichtsordnung</p>
+              <p>S. 3: Pfründen, Wildbann</p>
+              <p>S. 4: Fischereirechte, Weihnachtsholz</p>
+              <p>S. 5: Fälle, Fasnachtshennen</p>
+              <p>S. 6: Weiher</p>
+              <p>S. 6f.: Fahr am Rhein</p>
+              <p>S. 8: Güter des Schlosses Werdenberg</p>
+              <p>S. 9: Heuwachs</p>
+              <p>S. 10: Güter im Ried</p>
+              <p>S. 11f.: Güter, die dem Weibel gegen einen jährlichen Zins überlassen wurden</p>
+              <p>S. 13: Weingärten des Schlosses</p>
+              <p>S. 14–17: Zehnten</p>
+              <p>S. 17f.: Zölle</p>
+              <p>S. 18: Steuern</p>
+              <p>S. 19f.: Mühlen</p>
+              <p>S. 20–22: Gülten an Schmalz, Käse und Ziger</p>
+            </summary>
+            <msItem>
+              <textLang>Deutsch</textLang>
+              <filiation type="current">Original, Buch (136 Seiten beschrieben)</filiation>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <support>
+                  <material>Pergament</material>
+                </support>
+                <extent>
+                  <dimensions type="leaves">
+                    <height unit="cm" quantity="35.0"/>
+                    <width unit="cm" quantity="30.0"/>
+                  </dimensions>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate from="1581-05-01" to="1584-04-30">Undatiert, verzeichnet
+                höchstwahrscheinlich unter Johann Christoph Elmer, Werdenberger Landvogt 1581–1584
+                [siehe Notiz auf der Innenseite des Buchdeckels].</origDate>
+            </origin>
+          </history>
+        </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key003737">Herrschaftsrecht</term>
+               <term ref="key000588">Gerichtsordnung</term>
+               <term ref="key000122">Urbar</term>
+               <term ref="key000561">Gemeindeversammlung</term>
+               <term ref="key000555">Wahl</term>
+               <term ref="key000617">Kaufgericht</term>
+               <term ref="key000703">Fähre</term>
+               <term ref="key000258">Fischenz</term>
+               <term ref="key000084">Leibeigenschaft</term>
+               <term ref="key000617">Zeitgericht</term>
+               <term ref="key000230">Wildbann</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+  <group>
+   <text>
+    <body>
+          <div>
+            <pb n="1" facs="LAGL_AG_III.2401_037_1"/>
+            <head n="1"><lb/>So volgent die herrligkeitten, gerëcht<lb break="no"/>igkeitten unnd
+              rëchtsamungen sampt <lb/>den gütteren, höfen, aller güllt, nutzung <lb/>unnd inkommen,
+              so myn <orgName ref="org001197">herren vonn <lb/>Glarus</orgName> inn der grafschafft
+                <placeName ref="loc000440">Wërden<lb break="no"/>bërg</placeName> habenn</head>
+          </div>
+          <div>
+            <p><seg n="1.1"><add place="below" hand="later hand">Erstens</add><lb/>Erstlich das schloß <placeName ref="loc000015"
+                  >Wërdenbërg</placeName> mit synem <term ref="lem006002">infang</term>. <add
+                  place="inline" hand="other hand">Unnd <placeName ref="loc007914.03">Burg
+                    Haldenli</placeName>.</add></seg></p>
+              <p><seg n="1.2"><lb/>Ithem die <term ref="lem000249.01">schür</term> mit sampt der <term
+                  ref="lem015706.03">kaiseren</term> hinder dem grossen <term ref="lem000164"
+                  >wyngartten</term>.</seg></p>
+              <p><seg n="1.3"><lb/>Ithem lannd unnd lüth, zwing unnd bënn, fhäl unnd gläß, herrligkeit
+                unnd gwonnheitt, <pb n="2" facs="LAGL_AG_III.2401_037_2"/><lb/>fräfel unnd buͦssen, <term ref="lem008360"
+                  >hoch</term> unnd <term ref="lem010924">nidere gricht</term>, die mögent min
+                  <orgName ref="org001197">herren von Glarus</orgName> als herrenn <lb/>zuͦ
+                  <placeName ref="loc000440">Wërdenbërg</placeName> besetzen unnd entsetzen, wënn sy
+                wellen, nach irem willen, wie das von alltter har<lb break="no"/>kommen
+                ist.</seg><term ref="key003737"/></p>
+          </div>
+          <div>
+            <head n="2"><lb/><term ref="lem002029.03">Grichts ordnung</term></head>
+            <p><seg n="2.1"><lb/>Es söllennt myn herren <date dur="R/P1Y">jedes jars</date> inn irem
+                costen <date dur="P6D">sëchs tag</date> dem ganntzen lannd <term ref="lem005841"
+                  >gricht</term> haltten, <lb/><date dur="P3D">dryg tag</date> zuͦ <date when="--05"
+                  >meygen</date> unnd <date dur="P3D">dryg tag</date> zu <date period="fall"
+                  >herpst</date>. Sind <num value="7">siben</num>
+                <term ref="lem001365">rëchtsprëcher</term>, eß trëffe an eer <lb/>ald guͦt. Unnd
+                gënnd min herren den <term ref="lem000089">amptslüthen</term> unnd rëchtsprëchern
+                jedem eins <lb/>tags für <term ref="lem000938">mal</term> unnd <term ref="lem000612"
+                  >belonung</term> (wann der altt mißbruch abgestelt) <measure unit="bz"
+                  quantity="3" type="currency">dryg guͦt batzen</measure>.</seg><term
+                ref="key000588"/><term ref="key000617"/><term ref="key000617"/></p>
+              <p><seg n="2.2"><lb/>Eß söllennt ouch die rëchtsprëcher der urtheilen (wie etliche zythar
+                gebrucht) dthein <term ref="lem012081">verdannck</term> nëmmen, <lb/>sonnder die uff
+                clag unnd anntwurt uff der statt ußsprëchen, eß wëre dann, das sy harinn min<lb
+                  break="no"/>er herren <term ref="lem000346">raths</term> bëgeren möchten, so sy
+                inn einer sach <term ref="lem014810.01">bestrickt</term> wërend. Das söllennt unnd
+                  mög<lb break="no"/>ent sy thun inn <date dur="P14D">vierzëchen tagen</date> unnd
+                ouch nit wytter unnd lënger ufziechen. <add place="below" hand="other hand" ><abbr>NB</abbr>: Rechte <term ref="lem000639.17">appellaz</term></add>
+                <app>
+                  <lem/><rdg wit="LAGL AG III.2401:039, S. 3">Da aber ein urteil gfellt wird vom
+                    gricht, mag derselben bschwerliche teill da <lb/>danen vorr einen
+                      <abbr>hrn</abbr> landvogt <term ref="lem001043">appellieren</term>. Da auch
+                    volgendts daselbsten denen widerumb <lb/>der beschwerte zum appellaz ußspruch
+                    mit seiner gegenwartt für mein gned<lb break="no"/>ig herren unnd weiter nicht
+                    kommen.</rdg>
+                </app></seg></p>
+              <p><seg n="2.3"><lb/>Ithem so söllennt sy mit den <term ref="lem007474.05">koufften
+                  grichten</term> den alltten bruch haltten unnd glychen costen nëmmen, <lb/>eß
+                trëffe an eer ald guͦt. <add place="below" hand="other hand"><abbr>NB</abbr>: Wan in
+                  3 oder mehr gricht solend sy bloß j <term ref="lem003133">grichtscosten</term>
+                  nemmen <choice>
+                    <abbr>a</abbr>
+                    <expan>anno</expan>
+                  </choice>
+                  <origDate when="1635">1635</origDate> gemacht.</add>
+                <app>
+                  <lem/>
+                  <rdg wit="LAGL AG III.2401:039, S. 3">Unnd da der <term ref="lem005841"
+                      >grichten</term>
+                    <lb/>zwey old drüw uf ein tag vor fiellend, sollend die <term ref="lem000342"
+                      >richter</term> nach inhallt jüngster <lb/><term ref="lem015537.01"
+                      >taxierung</term> im <term ref="lem002550.04">ordnung büechly</term><note>Das
+                      Büchlein konnte nicht gefunden werden, es existiert jedoch noch ein Auszug des
+                      Ordnungsbüchleins (<bibl><ref>LAGL AG III.2401:011</ref></bibl>; dieser Auszug
+                      ist Teil zweier identischer Abschriften in zwei Kopialbüchern im PGA Buchs und
+                      im Privatarchiv PA Hilty über <orig>wie ein herr landt vogt wegen in nemeß
+                        oder uß gebenß oder sunst der früchten halben von unsseren <abbr>g h</abbr>
+                        und oberen gehalten wirt</orig> (<bibl><ref>PGA Buchs B 11.21-02</ref>, S.
+                        22–25</bibl>; <bibl><ref>[PA Hilty] Privatarchiv Kopial- und Formularbuch
+                          von Christian Litscher</ref>, S. 17–20</bibl>). Laut einer Notiz im
+                      Kopialbuch Buchs zu diesem Eintrag, der 1654 erfolgte, handelt es sich jedoch
+                      um einen Auszug aus einer Jahrrechnung. Möglicherweise handelt es sich jedoch
+                      um das Amts- und Eidverzeichnis, oder auch Urbarbüchlein genannt, aus der
+                      zweiten Hälfte des 16. Jh. (<ref>SSRQ_SG_III_4_127</ref>;
+                        <ref>SSRQ_SG_III_4_128</ref>; <ref>SSRQ_SG_III_4_129</ref>. Allerdings sind
+                      dort keine Gerichtstaxen festgehalten). Zu den Tarifen der Gerichte vgl. auch
+                        <ref>SSRQ_SG_III_4_185</ref>.</note> (so bscheid enlich ist) har
+                      fahren.<term ref="key000814"/></rdg>
+                </app></seg></p>
+            <p><pb n="3" facs="LAGL_AG_III.2401_037_3"/>
+              <seg n="2.4"><lb/>Es mögent ouch weder inn <term ref="lem000184">statt</term> noch
+                  <term ref="lem000298">lannd</term> noch inn der ganntzen herrschafft <placeName
+                  ref="loc000440">Wërdenbërg</placeName> on <lb/>miner herren wüssen unnd willen
+                dthein <term ref="lem001054">gmeind</term>, <term ref="lem008384">rath</term> noch
+                ützith zu <term ref="lem005115">setzen</term> unnd <term ref="lem001788"
+                  >entsetzenn</term>
+                <lb/>habenn.</seg><term ref="key000561"/>
+              <term ref="key000555"/><term ref="key000364"/></p>
+          </div>
+          <div>
+            <head n="3"><lb/><term ref="lem000367">Pfruͦnden</term> zuverlychen</head>
+            <p>
+              <seg><lb/>Ithem mit der herrlicheit die pfruͦnden zuverlychen mit nammen die <term
+                  ref="lem002192.04">pfarr</term> zu <placeName ref="loc006027">Grapß</placeName> unnd
+                <lb/>die <term ref="lem007600.04">fruͤmäßpfruͦnd</term> dasëlbst. Die pfruͦnd der
+                  <term ref="lem000366.05">cappell</term> zu <placeName ref="loc007822.02"
+                  >Hugenbuͤl</placeName>, die pfarr zu <placeName ref="loc006100">Buuchß</placeName>
+                <lb/>unnd die pfarr zu <placeName ref="loc006039">Sefalen</placeName>.</seg><term
+                ref="key000193"/></p>
+          </div>
+          <div>
+            <head n="4"><lb/><term ref="lem000461.18">Willdtbann</term></head>
+            <p><term ref="key000230"/>
+              <seg n="4.1"><lb/>Ithem all <term ref="lem000461.19">wildtbenn</term>, seiegs clein
+                unnd grosses, nützith ußgenommen.</seg></p>
+              <p><seg n="4.2"><lb/>All <term ref="lem001551.07">fäderspil</term> unnd <term
+                  ref="lem014811">voglen</term>, wie min herren die frygen mögen an den <term
+                  ref="lem000036">buͦssen</term>, das mögenn <lb/>unnd hannd sy zethuͦn.</seg></p>
+          </div>
+      <pb n="4" facs="LAGL_AG_III.2401_037_4"/>
+          <div>
+            <head n="5"><lb/><term ref="lem000030.12">Vischentzen</term></head>
+            <p><term ref="key000258"/><seg><lb/>Die <term ref="lem000030.12">vischentzen</term> inn
+                der ganntzen grafschafft sind miner <orgName ref="org001197">herren von
+                  Glarus</orgName> als der herrenn <lb/>zu <placeName ref="loc000440"
+                  >Wërdenbërg</placeName>. Inn allen <term ref="lem000320">bächen</term> unnd im
+                ganntzen <placeName ref="loc000644">Ryn</placeName>, so wytt die grafschafft gadt,
+                gedarff <lb/>niemand weder ënnet noch hie disenthalb one miner herren erloubung
+                vischen ouch inn <lb/>allen wassern. Unnd so min herren ald ire lanndtvögt anstatt
+                iren das <lb/><term ref="lem002234">vach</term> am <term ref="lem000479"
+                  >herpst</term> im <placeName ref="loc000644">Ryn</placeName> schlachen wellen, so
+                sol die ganntz lanndtschafft die <term ref="lem005843">pfäl</term>, <lb/><term
+                  ref="lem007759.08">beert</term> unnd das <term ref="lem000759">holtz</term>, so
+                darzu gehört, houwen, spitzen, beschnyden unnd schlachen unnd alle <lb/>wërck daran
+                thuͦn, so darzu gehörent. Unnd git inen ein herr zu <term ref="lem001999"
+                  >mittag</term> zu <term ref="lem001801">ässen</term> unnd <lb/>zu <term
+                  ref="lem002631">nacht</term>, wann sy heim gond, einem ein <term
+                  ref="lem014823.02">hoffbrott</term><term ref="key000258"/>.</seg>
+            </p>
+          </div>
+          <div>
+            <head n="6"><lb/><term ref="lem014652.03">Wienacht holtz</term></head>
+            <p><term ref="key000524"/>
+              <seg><lb/>Es söllennt alle die, so inn der grafschafft <placeName ref="loc000440"
+                  >Wërdenbërg</placeName> sitzent, <term ref="lem000745">hindersëssen</term> oder
+                  <term ref="lem000341">eigenlüth</term> (uß<lb break="no"/>genommen die inn der
+                  <term ref="lem000184">statt</term>) je <num value="2">zwen</num>
+                <measure type="volume" quantity="1" unit="Fuder" commodity="wood">ein fuͦder
+                  holtz</measure> uff <date when="--12-25" type="deadline">wienacht</date> inn den
+                  <term ref="lem014824.02">schloßhof</term> bringen <lb/>unnd einer allein ein <term
+                  ref="lem015455">redig</term> holtz, genëmpt wienachtholtz, unnd git man eim ein
+                  <term ref="lem014823.03">hofbrott</term>. <add place="left margin"
+                  hand="other hand"><choice>
+                    <abbr>P S</abbr>
+                    <expan>Post scriptum</expan>
+                  </choice>: <lb/>Doch ob landtlüth <lb/>oder hindersessen <lb/>dabey werend, die
+                  <lb/>selben nit begriffen, <lb/>dan si es ouch zfüren <lb/>schuldig.</add>
+                <app>
+                  <lem/>
+                  <rdg wit="LAGL AG III.2401:039, S. 7">Zu wüßen ist hiemit, dz diser articul ist
+                      erleüt<lb break="no"/>eret worden krafft der ußburgeren sigel und brieffen, so
+                    sy deßwegen bey handen habend <abbr>etc</abbr>, das sy kein <term
+                      ref="lem014652.06">wyenacht holtz</term> zu<lb break="no"/>führen schuldig
+                    sind.</rdg>
+                </app><note>Vgl. dazu <ref>SSRQ_SG_III_4_151</ref>, insbesondere Vorbemerkung 1;
+                    <ref>SSRQ_SG_III_4_145</ref>, Art. 3.</note></seg>
+              <pb n="5" facs="LAGL_AG_III.2401_037_5"/>
+            </p>
+          </div>
+          <div>
+            <head n="7"><lb/><term ref="lem000337.24">Faͤl</term></head>
+            <p><term ref="key000183"/><term ref="key000314"/><term ref="key000086"/>
+              <seg n="7.1"><lb/>Ithem so fallent die <term ref="lem000337.24">faͤl</term>, so bald
+                einer stirbt inn der grafschafft, der eigen <app>
+                  <lem/>
+                  <rdg wit="LAGL AG III.2401:039, S. 6">oder haußheblicher <term ref="lem007652"
+                      >byseß</term> unnd nit ein <term ref="lem000227">burger</term> zu <placeName
+                      ref="loc000016">Werden<lb break="no"/>berg</placeName></rdg>
+                </app>ist, der ist das <term ref="lem001565.05">best <lb/>houpt</term> schuldig zu
+                gëben, das er hinder im verlaßt. Unnd wo einer nit <term ref="lem000310">vych</term>
+                hatt, <lb/>so sol er nüdtesterminder ein fhal gëben, als gwonnlich unnd von altter
+                kommen ist.</seg></p>
+              <p><seg n="7.2"><lb/>Die <orgName ref="org001185"><term ref="lem000227"
+                  >burger</term></orgName> gëbent dthein fhal, wie von alltter har kommen ist. <add
+                  place="inline" hand="other hand">Nota <term ref="lem000235">burgerrecht</term>
+                  verzeichnen.</add>
+                <app>
+                  <lem/>
+                  <rdg wit="LAGL AG III.2401:039, S. 6">Wann auch fürohin ein burger sich
+                    verhüratete unnd in der <term ref="lem000184">statt</term>
+                    <term ref="lem003726">hoch<lb break="no"/>zeit</term>, auch bloß ein <term
+                      ref="lem002631">nacht</term>
+                    <term ref="lem015538.02">elicher byschlaf</term> in der <term ref="lem015539.02"
+                      >statt muhren</term> an dem <lb/>hochzeit hielte unnd volgendts uß der statt
+                    zuge, so hat selbiger sein <lb/>gehabt <term ref="lem000235">burgerrecht</term>
+                    verzogen unnd ist <term ref="lem008488">landtman</term>. Darumb er unnd
+                    <lb/>seine nachkommen fürbaßhin landtliche pflicht, fähl und gläß zgeben
+                    <lb/>schuldig, laut eineß <term ref="lem007221.03">steürbriefß</term><note>Vgl.
+                        <ref>SSRQ_SG_III_4_115</ref>.</note>, so burger unnd landtleüth
+                    <lb/>ußgebracht unnd die landtleüth by handen habend. </rdg>
+                </app></seg></p>
+              <p><seg n="7.3"><lb/>Eß sol ouch dthein <term ref="lem000745">hindersäß</term> sich inn
+                der grafschafft <term ref="lem000742.08">hußheblich</term> setzen ald das zethun
+                zuglassenn <lb/>wërden, der ein <term ref="lem002101">nachjagenden</term> herren
+                habe, sonnder sölle sich ein jeder gëgen synem <term ref="lem000736">frömbden
+                  <lb/>herren</term> zuvor <term ref="lem014500">abkouffen</term> unnd ledig machen,
+                wann sy minen herren den fhal ouch söllenn <lb/>schuldig syn. <add place="below"
+                  hand="other hand">Und da einer mit obrigkeitlichem gohnst alß ein hinderses
+                  wohnte, ist er den fahl zgeben <lb/>schuldig.</add></seg>
+            </p>
+          </div>
+          <div>
+            <head n="8"><lb/><term ref="lem000380.21">Faßnacht hüner</term></head>
+            <p><term ref="key000279"/>
+              <seg><lb/>Item eß sol ouch ein jetlicher <term ref="lem000220">man</term> oder <term
+                  ref="lem000745">hindersëß</term> (ußgenommen die burger) <date dur="R/P1Y">alle
+                  jar</date>
+                <lb/>von einer jeden <term ref="lem003132.12">hußröüchi</term> ein <term
+                  ref="lem000607.08">faßnacht hennen</term> gëben zu gwonnlicher zyth.</seg></p>
+          </div>
+      <pb n="6" facs="LAGL_AG_III.2401_037_6"/>
+          <div>
+            <head n="9"><lb/><term ref="lem002275.03">Wyger</term></head>
+            <p><term ref="key000108"/>
+              <seg><lb/>Item der <term ref="lem002275.03">wyger</term> bi der <term ref="lem000184"
+                  >statt</term> gehört ouch mynen herren unnd muß die ganntz lanndtschafft <lb/>inn
+                statt unnd lannd das <app>
+                  <lem><term ref="lem000769">wuͦr</term> an demsëlben wyger beheben</lem>
+                  <rdg wit="SSRQ_SG_III_4_229, S. 87">damm darbey bheben und erhalten und
+                    aufhan</rdg>
+                </app>, wann min herren inen das <lb/>gebüttent one allen iren costen unnd schaden.
+                  <add place="below" hand="other hand"><placeName ref="loc007823.02">Erlen
+                    Tschachen</placeName></add>
+                <app>
+                  <lem/>
+                  <rdg wit="LAGL AG III.2401:039, S. 10">
+                    <lb/>Es gehordt meinen gnedigen herren auch zue der <placeName
+                      ref="loc007823.02">Erlen Tschachen</placeName> hinder <lb/>dem <term
+                      ref="lem002275">wyger</term> für ein <term ref="lem001224">ban</term> zu ihrem
+                      <term ref="lem015535.02">schloßbrunen</term> notwendigen <term
+                      ref="lem003924.07">tüchlen</term>, <lb/>dan die gmein <orgName ref="org000198"
+                      >Buchß</orgName> solcheß <term ref="lem000775">landtshaubtman</term>
+                    <persName ref="per002425a">Felltmann</persName> zue der zeit, <lb/>alß er
+                    landvogt gwesen, in meiner hern nammen befryget unnd <lb/>gschenkt habend.
+                    <lb/>Zue wüßen, daß ein ersame gmein zu <orgName ref="org000198">Buchß</orgName>
+                    obstender articul <lb/>in alweg in seinen crefften bestehn lasendt, allein wan
+                      <term ref="lem000028">holtz</term>
+                    <lb/>ufwachsen thete, so nit tugentlich were, zue <term ref="lem003924.08"
+                      >düehlen</term>
+                    <lb/>und ein gmein selbiges hauwen welte, sole solches nit <lb/>anderst alß mit
+                    erlaubnuß eines <abbr>h</abbr> landvogts <lb/>thuen. Die <term
+                      ref="lem002450.07">streüwi</term> mögendt sy <term ref="lem002241"
+                      >mäyen</term> wie von <lb/>altem haro.</rdg>
+                </app></seg>
+            </p>
+          </div>
+          <div>
+            <head n="10"><lb/><term ref="lem002098">Faar</term> am <placeName ref="loc000644"
+                >Rhyn</placeName></head>
+            <p><term ref="key000703"/>
+              <seg n="10.1"><lb/>Ithem die frygen <term ref="lem002673">mannleehen</term>, das <term
+                  ref="lem002098">faar</term> am <placeName ref="loc000644">Rhyn</placeName>, das
+                faar zu <placeName ref="loc000689">Bënndern</placeName> mit syner gerëchtig<lb
+                  break="no"/>keit, die gehörend ouch minen herren zu als herren der grafschafft,
+                welche einem <app>
+                  <lem>herren</lem>
+                  <rdg wit="SSRQ_SG_III_4_229, S.&#160;94">landtvogt</rdg>
+                </app> zu <placeName ref="loc000440">Wërd<lb break="no"/>enbërg</placeName> müssen
+                  <term ref="lem014825.01">gespannen</term> syn unnd sonnst niemandts annderem. Unnd
+                sol <lb/>ein herr (wann eß die notturfft ervordert) allen züg zu einem <term
+                  ref="lem002104">schiff</term> an die <term ref="lem011223.02">schifflenndi</term>
+                <term ref="lem008779">ferck<lb break="no"/>en</term> unnd darthun lassen. Das hatt
+                die gestalt:</seg><term ref="key000524"/><term ref="key000489"/><term
+                ref="key000080"/>
+              <seg n="10.2">Erstlich müssen min herren <lb/>das <term ref="lem000759">holtz</term>
+                darzu lassen fellen im <term ref="lem000251">wald</term> inn irem costen. Deßglychen
+                das <term ref="lem014826.02">grausen holtz</term> ouch darthuͦn. <lb/>Dann söllent
+                unnd müssent <orgName ref="org001828">die <term ref="lem000507">lanndtlüth</term> zu
+                    <placeName ref="loc000335">Grapß</placeName></orgName> unnd am <orgName
+                  ref="org001935"><placeName ref="loc006025.06">Grapßerberg</placeName></orgName>
+                das holtz zum <lb/><term ref="lem014829.01">boden</term> zuher thuͦn mit nammen an
+                die <term ref="lem000356.04">sagen</term> fercken unnd anntwurtten unnd, so es
+                gesaget, an <lb/>den <placeName ref="loc000644">Rhyn</placeName>. Doch söllennt die
+                  <term ref="lem002102.07">ferren</term>, so das <term ref="lem002098">faar</term>
+                inn hannden haben, das inn irem costen lassen <lb/>sagen. Unnd <orgName
+                  ref="org001912">die von Buuchß</orgName> unnd <orgName ref="org001834">von
+                  Sevalen</orgName> söllenn und müssen die <lb/><term ref="lem014828.02"
+                  >sythen</term> unnd <term ref="lem014827.01">riemen</term> zuherthuͦn unnd fercken
+                ouch also wie die oberen den <term ref="lem014829.01">boden</term>. Unnd <orgName
+                  ref="org001912">die <lb/>von Buuchß</orgName> sind aber sonnderbar schuldig, die
+                  <term ref="lem015707.01">pangen</term> zuher zethun. Unnd söllennt <orgName
+                    ref="org003257.01">die an <lb/><placeName ref="loc006026.05"
+                  >Paloolß</placeName></orgName> das holtz im wald ufmachen unnd beschnyden.
+                  <orgName ref="org003256.01">Die inn <placeName ref="loc000755.04"
+                    >Stuuden</placeName></orgName> sind schuldig, <lb/>ein <term ref="lem014831.02"
+                  >eichli</term> zu den <term ref="lem000443.05">naglen</term> ze fellen. Unnd sind
+                die <term ref="lem000227">burger</term> zu dem <term ref="lem002104">schiff</term>
+                nützith zethun schuldig. <lb/>Unnd wann man ein nüw schiff machet, so söllennt
+                  <orgName ref="org001878">die von <placeName ref="loc001079.02"
+                  >Schan</placeName></orgName> das alt schiff nemmen und <lb/>minen herren dafür
+                gëben <measure type="currency" quantity="30" unit="ß">dryßig schilling
+                  pfenning</measure>, wie dann von altter harkommen <lb/>ist.<note>Zu den
+                  Holzlieferungen für die Fähre in <placeName ref="loc000689">Bendern</placeName>
+                  vgl. auch <ref
+                    target="https://archivverzeichnis.gl.ch/home/#/content/f8e332fc20ed4161b38a102cd35448ff"
+                    >LAGL AG&#160;III.2433:044</ref>, wo den <orgName ref="org001185">Bürgern von
+                    Werdenberg</orgName> in einem Streit mit den <orgName ref="org001816"
+                    >Landleuten</orgName> von <placeName ref="loc000440">Werdenberg</placeName> von
+                    <orgName ref="org001197">Glarus</orgName> bestätigt wird, dass sie kein Holz
+                  liefern müssen.</note></seg></p>
+              <p><pb n="7" facs="LAGL_AG_III.2401_037_7"/><term ref="key000208"/>
+              <seg n="10.3"><lb/>Diß fry <term ref="lem002673">mannleehen</term> sol sich <date
+                  dur="P20Y">zwenntzig jaren</date> umb widerumb empfachen unnd vereerschatzen,
+                <lb/>wie dann die <term ref="lem000968.37">leehen</term> unnd <term
+                  ref="lem003026.03">schifflüth</term>, brieff unnd sigel darumb habent ir pflicht
+                wysennde. Und <lb/>ist uff <origDate when="1567-08-25">mëntag, den 25.<hi rend="sup"
+                    >ten</hi> augusti, deß 1567gisten jars</origDate> widerumb verleechnet unnd
+                <lb/>vereerschatzet unnd <measure unit="fl" type="currency" quantity="40">viertzig
+                  gut guldi</measure> zu <term ref="lem000601">eerschatz</term> gëben worden.</seg></p>
+              <p><seg n="10.4"><lb/>Ithem eß söllennt die heeren einem <term ref="lem000642"
+                  >lanndtweibel</term> zu <placeName ref="loc000440">Wërdenbërg</placeName> alwëgen
+                  <measure unit="fl" type="currency" quantity="1">ein guldi</measure> gëben, so er
+                <lb/>inen das ze machen verkündt unnd ußrüfft.</seg></p>
+              <p><seg n="10.5"><lb/>Ithem das <term ref="lem002098">faar</term> gipt <date dur="R/P1Y"
+                  >jërlich</date> minen herren <date type="deadline" when="--11-11">uff <persName
+                    ref="per000141">Martin</persName>i</date>
+                <measure unit="ß" type="currency" quantity="10">zëchen schilling pfenning</measure>
+                vermög irs <lb/>leehenbrieffe.<app>
+                  <lem/>
+                  <rdg wit="SSRQ_SG_III_4_229, S. 94">jetziger währung <measureGrp><measure
+                        type="currency" quantity="8" unit="bz">8 bz</measure>
+                      <measure type="currency" quantity="3" unit="xr">xr
+                    3</measure></measureGrp></rdg>
+                </app><term ref="key004924"/></seg></p>
+          </div>
+      <pb n="8" facs="LAGL_AG_III.2401_037_8"/>
+          <div>
+            <head n="11"><lb/>Die <term ref="lem000076">gütter</term> zu dem <term ref="lem000376"
+                >schloß</term>
+              <placeName ref="loc000015">Wërdenbërg</placeName>
+              <lb/>gehörig sampt den <term ref="lem000391">tagwa</term>,<note>Am <date when="1532-12-26">26. Dezember
+                1532</date> haben sich die <term ref="key000085">Leibeigenen</term> der Landvogtei <placeName ref="loc000440">Werdenberg</placeName> von den
+                <term ref="key000479">Frondiensten</term> im <term ref="key000003">Weinberg</term> beim Schloss
+                <placeName ref="loc000015">Werdenberg</placeName>
+                <term ref="key000685">losgekauft</term> (<bibl><ref>StASG AA 3 A 1b-5</ref></bibl>).</note> die
+              man darzu zethuͦn schuldig, so <lb/>min herren irem lanndtvogt umb ein zinß zebruchen
+              unnd <lb/>zenutzen lassenn</head>
+            <p><seg n="11.1"><lb/>Erstlich ein guͦt, zwüschennt <placeName ref="loc000198"
+                  >Buuchß</placeName> unnd <placeName ref="loc000335">Grapß</placeName> gelëgen,
+                heißt der <placeName ref="loc007533.01">Ober Graben</placeName>, darinn <lb/>die
+                  <term ref="lem000249.01">schür</term> stadt, unnd sind das die <term
+                  ref="lem000391">tagwa</term>, so man darzu thuͦn muß:<term ref="key000147"/><term
+                  ref="key000186"/><term ref="key000186"/></seg></p>
+              <p><seg n="11.2"><lb/>Ithem <orgName ref="org001834">die von Sevalen</orgName>, <orgName
+                  ref="org003225">die von Sannt Uͦlrich</orgName> unnd <orgName ref="org001913">die
+                  von Rëfiß</orgName>, die söllennt das <term ref="lem014833.02">vorhöw</term>
+                <term ref="lem002241">mäygen</term>, <lb/>unnd <orgName ref="org001912">die von
+                  Buuchß</orgName> das <term ref="lem000647">hoüwen</term>. Unnd das <term
+                  ref="lem007340.04">aͤmpt</term> söllennt <orgName ref="org001912">die von
+                  Buuchß</orgName> maͤyen unnd <orgName ref="org001834">die <lb/>von
+                  Sevalen</orgName>, <orgName ref="org003225">die von Sannt Uͦlrich</orgName> unnd
+                  <orgName ref="org001913">die von Räfiß</orgName>, die söllennt das hoüwen, doch
+                sol man <lb/>inen zu <term ref="lem001801">ëssen</term> gëben, zu <term
+                  ref="lem001999">mittag</term> unnd zu <term ref="lem001491">abent</term>. Unnd
+                wann sy heim gend, eim ein <term ref="lem014823.03">hoffbrot</term>.</seg></p>
+              <p><seg n="11.3"><lb/>Aber ein guͦt ligt unnden am <term ref="lem005032.01">stettli</term>
+                <placeName ref="loc000016">Wërdenbërg</placeName>, heißt der <placeName
+                  ref="loc007013.02">Under Graben</placeName>, stoßt ein syth an <lb/>die <term
+                  ref="lem000596.06">lanndtstraß</term> gëgen dem <placeName ref="loc000644"
+                  >Rhyn</placeName>, annder syth an <persName ref="per008809">Pali
+                  Schwartz</persName>en gut, dritt syth an <persName ref="per008810">Uli For<lb
+                    break="no"/>er</persName>s guͦt, vierdt syth an myner herren <placeName
+                  ref="loc007014.03">Ströwimad</placeName>. Unnd sind diß die tag<lb break="no"/>wa,
+                so darzu gehörent:</seg></p>
+              <p><seg>Ithem <orgName ref="org003258">die von <placeName ref="loc007826.02"
+                    >Oberdorff</placeName></orgName> zu <placeName ref="loc000335">Grapß</placeName>
+                söllennt das <term ref="lem014833.02">vorhöw</term>
+                <term ref="lem008903.04">abmaͤyen</term> unnd <orgName ref="org003259.01">die von
+                  dem <placeName ref="loc007827.02">Underm <lb/>dorff</placeName></orgName> zu
+                  <placeName ref="loc000335">Grapß</placeName> das annder jar, eß sygent <term
+                  ref="lem000341">eigenlüth</term> oder <term ref="lem000745">hindersäßen</term>,
+                unnd das <term ref="lem007340.04">aͤmpt</term> söllent <lb/>die <orgName
+                  ref="org001348">Spitz</orgName>en unnd <orgName ref="org003256">die inn <placeName
+                    ref="loc000755">Stuuden</placeName></orgName>, <orgName ref="org003260">die inn
+                  der <placeName ref="loc007828.02">Rüthi</placeName></orgName> unnd <orgName
+                  ref="org003257">die an <placeName ref="loc006026.05">Paloolß</placeName></orgName>
+                abmaͤyen, sy syg<lb break="no"/>ennt hindersëßen oder eigenlüth. Ob aber inn dem
+                  <term ref="lem000103">dorff</term> wërend, die nit maͤyen könndten, <lb/>als <term
+                  ref="lem000216">wittwen</term> unnd <term ref="lem000723.02">weisen</term>,
+                söllich <term ref="lem009797">volch</term> söllennt das <term ref="lem014833.02"
+                  >vorhöw</term> hoüwen unnd das <term ref="lem007340.05">ämpt</term>, wann <lb/>man
+                inen das gepüt unnd sol man inen zu <term ref="lem001801">ässen</term> gëben, wie
+                vor stat.</seg></p>
+          </div>
+      <pb n="9" facs="LAGL_AG_III.2401_037_9"/>
+          <div>
+            <head n="12"><lb/><term ref="lem003935.15">Höwwachs</term></head>
+            <p><seg n="12.1"><lb/>Ithem der <term ref="lem014574.03">krießgardten</term> mit sampt
+                dem <term ref="lem001744.12">kruttgartten</term>, hinder dem schloß glëgen, stoßt zu
+                  dryg<lb break="no"/>en sythen an die <term ref="lem003094">gassen</term> unnd an
+                  <placeName ref="loc000335">Graps</placeName>er <term ref="lem000512"
+                  >allmënd</term> unnd zum vierten an <persName ref="per008811a">Adam Munttaschyn<lb
+                    break="no"/>er</persName>s guͦt. Den söllent <orgName ref="org003257">die an
+                    <placeName ref="loc006026.05">Paloolß</placeName></orgName> maͤyen unnd sol man
+                inen zu ässen gen unnd, wann <lb/>sy heim gond, eim ein <term ref="lem014823.02"
+                  >hoffbrott</term>.<term ref="key000842"/></seg></p>
+              <p><seg n="12.2"><lb/>Ithem das <term ref="lem012693.04">ußglënnd</term> das <term
+                  ref="lem003935.14">höwgewächß</term> im grossen <term ref="lem000164"
+                  >wyngartten</term>. <add place="inline" hand="other hand">Nota <placeName
+                    ref="loc006062">Buchserberg</placeName>er</add></seg></p>
+              <p><seg n="12.3"><lb/>Ithem der höwwachs im wyngartten <placeName ref="loc007829.01"
+                  >Plattner</placeName>. <add place="inline" hand="other hand">Ist
+                verkaufft.</add></seg></p>
+              <p><seg n="12.4"><lb/>Ithem <measure quantity="7" type="area" unit="Mannmad"
+                  commodity="field">siben mittmal acker</measure> im <placeName ref="loc006085.01"
+                  >Quader</placeName> gelëgen, stoßent ein syth an <placeName ref="loc000335"
+                  >Graps</placeName>er allmënd, an die <lb/>gaß unnd an <persName ref="per008812a"
+                  >Michel Hilttis</persName> gut, annder syth an <persName ref="per008813a">Hanns
+                  Lippuner</persName>s gut, drittsyth an die ufgënden <lb/>acker an die <term
+                  ref="lem005414">fürhoͤüpter</term> unnd zum vierdten an <persName ref="per008814a"
+                  >Rudolff Lippuner</persName>s guͦt.</seg></p>
+              <p><seg n="12.5"><lb/>Aber ein <term ref="lem007869.04">ägerdten</term> im <placeName
+                  ref="loc006085.01">Quader</placeName> gelëgen, stoßt ufwërt an <persName
+                  ref="per008813">Hanns Lippuner</persName>s guͦt, niderwërt an <lb/><persName
+                  ref="per008815">Hanns Tischhuser</persName> guͦt unnd an die <term ref="lem005414"
+                  >fürhoüpter</term> unnd ußwërt an <persName ref="per008816a">Fridli
+                  Pfifiner</persName>s guͦt unnd an <lb/>die ufgënnden <term ref="lem000100"
+                  >acker</term> unnd inwërt an <persName ref="per008813">Hanns Lippuner</persName>s
+                unnd der <term ref="lem000367">pfruͦnd</term> zu <placeName ref="loc000335"
+                  >Grapß</placeName> guͦt.</seg></p>
+            <p><pb n="10" facs="LAGL_AG_III.2401_037_10"/>
+              <seg n="12.6"><lb/>Ithem ein guͦt <placeName ref="loc007830.02"
+                  >Schilenschwënndi</placeName>, genant der <placeName ref="loc007830.03">Groß
+                  Roßhag</placeName>, ligt am <placeName ref="loc006025">Grapser Berg</placeName>,
+                stoßt <lb/>an <placeName ref="loc007831.02">Kleinen Roßhag</placeName>, der dem
+                  <term ref="lem000043">weibel</term> gelassen wirt, unnd an zweygen sythen an
+                  <placeName ref="loc000335">Graps</placeName>er <lb/>almënd.</seg></p>
+          </div>
+          <div>
+            <head n="13"><lb/>Uff dem <term ref="lem000548">rieth</term></head>
+            <p><seg n="13.1"><lb/>Ithem ein wisen uff <placeName ref="loc006072">Buuchser
+                  Wisen</placeName> gelëgen, die <placeName ref="loc007017.03">Groß Wiß</placeName>
+                genant, sind <measure commodity="grassland" unit="Mannmad" quantity="12" type="area"
+                  >zwölf mannmad</measure>, <lb/>stoßt an <placeName ref="loc000644"
+                  >Reyn</placeName>, annder syth mitten inn ein <term ref="lem014005.03"
+                  >tholen</term>, dritt syth aber mitten inn ein tholenn. <lb/>Die sollennt <orgName
+                  ref="org001828">die von <placeName ref="loc006016">Grapß</placeName></orgName> im
+                  <term ref="lem000103">dorff</term>
+                <term ref="lem002241">maͤyen</term> unnd haruf füren ye zwen, die <term
+                  ref="lem000110">ochßen</term> hand, ein <lb/><term ref="lem000204">fuder</term>
+                fhuͤren, so man inen das gebüt. Unnd denen, so maͤyen, git man zu ässen zu morgenn
+                <lb/>unnd zu <term ref="lem007329.04">imbiß</term> unnd eim ein <term
+                  ref="lem000847.05">brott</term>. Welche <term ref="lem003983.03">mäder</term>, die
+                minen herren mägiend die wisen <lb/>unnd das beschicht unnd abgemaͤygt hannd, die
+                mögent dann inen sëlbs ouch maͤygen unnd sonnst <lb/>niemand uff den tag. Unnd
+                welcher das übersicht, der ist minen herren verfallen von jeder <lb/>maden <measure
+                  quantity="0.5" type="volume" unit="Viertel" commodity="salt">ein halb viertel
+                  saltz</measure> unnd den gemëldten mädern das <term ref="lem014832.02"
+                  >madgeschir</term>.<term ref="key004518"/></seg></p>
+              <p><seg n="13.2"><lb/>Von disen stucken allen gipt ein <term ref="lem000266"
+                  >lanndtvogt</term> minen herren <date dur="R/P1Y">jërlich</date>
+                <measure unit="fl" type="currency" quantity="24">vier unnd zwënntzig guͦt
+                  <lb/>guldin</measure>. <add place="below" hand="other hand">Nota wingert und
+                    <placeName ref="loc007914.02">Burghalden</placeName></add></seg></p>
+          </div>
+      <pb n="11" facs="LAGL_AG_III.2401_037_11"/>
+          <div>
+            <head n="14"><lb/>Dise nachvolgende <term ref="lem000076">gütter</term> wërdent dem
+                <lb/><term ref="lem000043">weybel</term> glassen umb ein <date dur="R/P1Y"
+                >jërlichen</date> zinß, gehörend sonnst ouch zum <lb/><term ref="lem000376"
+                >schloß</term> unnd mögents min herren wider darzu züchen, wann sy
+              <lb/>wellennt</head>
+            <p><seg n="14.1"><term ref="key000547"/><term ref="key000147"/><term ref="key000212"
+                /><lb/>Ithem ein guͦt bi dem <placeName ref="loc007013">Unnderen Graben</placeName>,
+                so zum <term ref="lem000376">schloß</term> gehört, genampt das <placeName
+                  ref="loc007014">Ströwimad</placeName>, <lb/>stoßt ufwërt an <persName
+                  ref="per008817a">Geörg Mader</persName>s guͦt unnd an <persName ref="per008818a"
+                  >Joß Besserer</persName>s khinden guͦt, gëgen dem <placeName ref="loc000644"
+                  >Ryn</placeName>
+                <lb/>an die <term ref="lem000596.06">lanndtstraß</term>, an einer sythen aber an
+                miner herren guͦt. Söllent die <orgName ref="org001348">Spitz</orgName><lb
+                  break="no"/>en unnd <orgName ref="org003256">die inn <placeName ref="loc000755"
+                    >Stuuden</placeName></orgName> unnd die <orgName ref="org003260">inn der
+                    <placeName ref="loc007828.02">Rüthi</placeName></orgName> gsëßen unnd <orgName
+                  ref="org003257">die an <placeName ref="loc006026.05"
+                >Paloolß</placeName></orgName>, sy sygent <term ref="lem000341">eigen<lb break="no"
+                  />lüth</term> oder <term ref="lem000745">hinderseßen</term>, das <term
+                  ref="lem014833.02">vorhöw</term> abmaͤyen unnd das <placeName ref="loc007014"
+                  >Ströwimad</placeName> ouch <term ref="lem002241">mägen</term> unnd sol <lb/>man
+                inen zu <term ref="lem001801">ässen</term> gëben, wie obstat.</seg></p>
+            <p><seg n="14.2"><lb/>Aber ein stuck riett unnden am <placeName ref="loc007014"
+                  >Ströwimad</placeName> gelëgen, daran stossende unnd gëgen dem <placeName
+                  ref="loc000644">Ryn</placeName>
+              <lb/>an die <term ref="lem000596">lanndtstraß</term> unnd an zweigen sythen an <persName ref="per012587">Marx
+                  Pfifiners</persName> guͦt.</seg></p>
+                <p><seg n="14.3"><lb/>Aber ein gut genampt <placeName ref="loc006076.04">Uff dem
+                  Riett</placeName> sind <measure commodity="land" unit="Mannmad" quantity="4"
+                  type="area">vier manmad</measure>, so man nëmpt das <placeName ref="loc006076.05"
+                  >Wytt Riett</placeName>, das <lb/>söllennt die am <placeName ref="loc006025"
+                  >Grapserberg</placeName>, sy sygent lanndtlüth, hindersëßen oder eigenlüth, mäyen
+                unnd <lb/>höuwen, doch sol man inen zu ässen gëben.</seg></p>
+              <p><seg n="14.4"><lb/>Ithem <measure commodity="grassland" unit="Mannmad" quantity="1"
+                  type="area">ein mannmad wisen</measure> uff <placeName ref="loc006072.07">Buuchßer
+                  Wisen</placeName>, genant das <placeName ref="loc007018.03">Ochßner
+                  Wißli</placeName>, stoßt syth an <lb/>die <placeName ref="loc006153.01"
+                  >Arg</placeName>, annder syth an weibel <persName ref="per008819a"
+                  >Mader</persName>s gut, dritt syth an <persName ref="per008820a">Thomma
+                  Schmidt</persName>s guͦt. Das <lb/>söllennt <orgName ref="org001828">die von
+                    <placeName ref="loc000335.06">Grapß</placeName></orgName> ouch maͤyen, hoüwen
+                unnd fhuͤren wie von altterhar wie die <placeName ref="loc007017">Groß
+                  <lb/>Wisen</placeName>.</seg></p>
+            <p><pb n="12" facs="LAGL_AG_III.2401_037_12"/>
+             <seg n="14.5"><lb/>Ithem ein güttli, der <placeName ref="loc007831">Klein
+                  Roßhag</placeName> genant, ligt am <placeName ref="loc006025"
+                  >Grapßerberg</placeName>, stoßt an <placeName ref="loc007830"
+                  >Schilenschwënndi</placeName>, <lb/>den <placeName ref="loc007830.03">Grossen
+                  Roßhag</placeName>, der zum schloß gehört, annder syth an <placeName
+                  ref="loc000335">Graps</placeName>er allmënd unnd zum dritt<lb break="no"/>en an
+                  <persName ref="per008821a">Hanns Thüri</persName>ß <term ref="lem000655"
+                  >wybs</term> guͦt.</seg></p>
+            <p><seg n="14.6"><lb/>Von disen stucken allen gibt der <term ref="lem000043"
+                  >weibel</term>
+                <date dur="R/P1Y">jërlich</date>
+                <measure unit="fl" type="currency" quantity="5">fünff gut
+              guldin</measure>.</seg></p>
+          </div>
+      <pb n="13" facs="LAGL_AG_III.2401_037_13"/>
+          <div>
+            <head n="15"><lb/><term ref="lem000164">Wyngärtten</term>, so zu dem <term
+                ref="lem000376">schloß</term> gehörennt</head>
+            <p><seg n="15.1"><term ref="key000003"/><term ref="key000186"/><lb/>Ithem ein <term
+                  ref="lem000164">wyngartten</term>, heißt der <placeName ref="loc007834.02">Groß
+                  Wyngartten</placeName>, zu nëchst bi dem schloß gelëgen, stoßt ein <lb/>syth an
+                die <term ref="lem001778.07">rinckmur</term>, sonnst an <placeName ref="loc000335"
+                  >Graps</placeName>er <term ref="lem000512">allmënd</term>. Da söllennt <orgName
+                  ref="org003262">die ab dem <placeName ref="loc006062.03">Buuchß<lb break="no"/>er
+                    Berg</placeName></orgName>
+                <term ref="lem014834.01">bogen</term> inn den benëmpten wyngartten bringen wie von
+                alltterhar unnd sol man <lb/>jedem ein <term ref="lem000847.05">brott</term> gen.
+                Ouch söllennt <orgName ref="org003262">die ab dem <placeName ref="loc006062.04"
+                    >Buuchser Berg</placeName></orgName> den wyngartten, namlich <lb/>das <term
+                  ref="lem012693.03">ußiglënnd</term>, im jar zwürent das <term ref="lem000142.12"
+                  >höw</term> unnd das <term ref="lem007340.04">aͤmpt</term> maͤyen, wann ein herr
+                inen das <lb/>gepüt, unnd gipt man denen, so maͤyent, zwei mal unnd znacht jedem ein
+                  <term ref="lem000847.05">brott</term>.</seg></p>
+            <p><seg n="15.2"><lb/><orgName ref="org003257">Die an <placeName ref="loc006026.05"
+                    >Paloolß</placeName></orgName> inn <placeName ref="loc006027"
+                >Graps</placeName>er kilchspil sitzennt söllennt jeder ein tag <term
+                  ref="lem004869.05">stickelhöltzer</term> houwenn <lb/>unnd sol man inen alsdann
+                ein <term ref="lem000232">knecht</term> schicken, der inen <term ref="lem000054"
+                  >käß</term> unnd <term ref="lem000847.05">brott</term> bringe. Unnd wann <lb/>dann
+                die gehouwen wërden, söllennt die, so inn <placeName ref="loc006027"
+                  >Graps</placeName>er kilchspil sitzent, die stickelhöltzer fhuͤren <lb/>unnd
+                anntwurtten gen <placeName ref="loc000016">Wërdenbërg</placeName> inn <term
+                  ref="lem003107">torckel</term> an <date type="deadline" when="--11-11">sannt
+                    <persName ref="per000141">Marttin</persName>s tag</date>, ußgenommenn <lb/>die
+                  <term ref="lem000227">burger</term>. Unnd so sy die bringen, sol man jedem ein
+                  <term ref="lem000847.05">brott</term> gen, wie von altterhar kommenn
+                <lb/>ist.</seg></p>
+              <p><seg n="15.3"><lb/>Aber ein kleins <term ref="lem000164">wyngärtli</term>, im <term
+                  ref="lem005032.01">stettli</term> bi dem <term ref="lem000376">schloß</term>, da
+                sind die <term ref="lem000391">tagwa</term>, wie obstat, ouch dar<lb break="no"/>zu
+                schuldig.</seg></p>
+              <p><seg n="15.4"><lb/>Ithem ein <term ref="lem000164">wyngartten</term>, zum <placeName
+                  ref="loc006060">Alttendorff</placeName> gelëgen, den nëmpt man <placeName
+                  ref="loc007829.01">Plattner</placeName>, den söllent min <lb/>herren sëlbs lassen
+                verwëßen inn ir costung, wie sy vermeinent, deß am besten zu geniessen. <add
+                  place="below" hand="other hand">Ist verkaufft</add>.</seg></p>
+          </div>
+      <pb n="14" facs="LAGL_AG_III.2401_037_14"/>
+          <div>
+            <head n="16" type="title"><lb/><term ref="lem000073">Zeehenden</term> inn der grafschafft <placeName
+                ref="loc000440">Wërdenberg</placeName><term ref="key000049"/></head>
+          </div>
+          <div>
+            <head n="16.1" type="subtitle"><lb/><term ref="lem001215.11">Wynzëëhenden</term></head>
+            <p><seg><term ref="key001018"/><lb/><term ref="lem001215.10">Wynzeehennden</term> inn
+                der ganntzen grafschafft <placeName ref="loc000440">Wërdenbërg</placeName> ist ouch
+                miner herren, doch <lb/>der <term ref="lem000164">wyngart</term> zu <placeName
+                  ref="loc007822.02">Hugenbuͤl</placeName>, so der <term ref="lem000367"
+                  >pfruͦnd</term> ist, unnd das wyngärtli, so der <term ref="lem002923.09"
+                  >predicannt</term> zu <placeName ref="loc000198">Buuchß</placeName>
+                <lb/>hatt, unnd ouch das wyngärtli, so der predicant zu <placeName
+                  ref="loc000708.11">Sevalen</placeName> hatt, die gënd dthein <term ref="lem000073"
+                  >zeehenndenn</term>
+                <lb/>unnd der <orgName ref="org000140">Zwicki</orgName> wyngartt gibt ouch dthein
+                zeehenden. <add place="below" hand="other hand"><abbr>NB</abbr></add></seg></p>
+          </div>
+          <div>
+            <head n="16.2" type="subtitle"><lb/><term ref="lem000073">Zeehenden</term>
+              <term ref="lem006415">klein</term> unnd <term ref="lem001217">groß</term></head>
+            <p><term ref="key004072"/><term ref="key003444"/><seg><lb/>Ithem so ist man ouch minen
+                herren schuldig inn der ganntzen grafschafft klein unnd groß <lb/><term
+                  ref="lem000073">zeehennden</term> als weissen, korn, haber, gërsten, bona, fënnch,
+                rëben, hanff, flachß, opß, <lb/>nuß <abbr>etc</abbr>. <add place="below"
+                  hand="other hand">Nota <measure type="currency" quantity="18" unit="d">18
+                    ₰</measure></add></seg></p>
+              <p><seg><lb/>Der zeehennden zu <placeName ref="loc000335">Grapß</placeName> inn der
+                äbni.</seg></p>
+            <p><pb n="15" facs="LAGL_AG_III.2401_037_15"/>
+              <seg><lb/>Der zeehenden am <placeName ref="loc006025">Grapser Berg</placeName>.</seg></p>
+              <p><seg><lb/>Eß ist ouch aller zeehenden, so der <term ref="lem000367">pfrund</term> zu
+                  <placeName ref="loc000335">Grapß</placeName> zugehört, minen herren zugehörig,
+                  uß<lb break="no"/>genommen der <term ref="lem014550.03">kalber zeehennden</term>
+                ist noch der pfruͦnd. Unnd hatt man der pfruͦnd anstatt <lb/>dises zeehenndens gëben
+                unnd zugestelt <measure type="currency" quantity="9" unit="fl">nün guldin</measure>
+                <date dur="R/P1Y">jërlich</date>ß zinses an vier gültbriefenn.</seg></p>
+              <p><seg><lb/>Der zeehennden an <placeName ref="loc006026.05">Paloolß</placeName>.</seg></p>
+              <p><seg><lb/>Der zeehennden inn der <placeName ref="loc007828.02">Rüthi</placeName> unnd
+                zu <placeName ref="loc007009.03">Munttaschyn</placeName>.</seg></p>              
+            <p><seg><lb/>Der <placeName ref="loc000198">Buuchs</placeName>er zeehennden inn der <term
+                  ref="lem000202.05">aͤbni</term>, deß gehörent zwen theil minen herren und der
+                <lb/>dritteil dem <term ref="lem002923">predicanndten</term>. Unnd uß miner herren
+                theil gehörend <measure unit="Scheffel" quantity="3" commodity="wheat" type="volume"
+                  >dry schöffel weissen</measure>
+                <lb/>ouch dem predicandten zu <placeName ref="loc000198">Buuchß</placeName>. <app>
+                  <lem/>
+                  <rdg wit="LAGL AG III.2401:039, S. 20">Die dri schöffel gibt man nit mehr, dan
+                    der predicant von 6 <term ref="lem007839.05">mitmel</term> zechenden darfür
+                    hat.</rdg>
+                </app>
+                <add place="below" hand="other hand"><abbr>NB</abbr></add></seg></p>
+              <p><seg><lb/>Der zeehennden am <placeName ref="loc006062.05">Buuchserberg</placeName>
+                sind ouch zwen theil miner herren und der drittel deß <lb/>predicandten zu
+                  <placeName ref="loc000198">Buuchß</placeName>. <add place="below"
+                  hand="other hand"><abbr>NB</abbr></add></seg></p>
+            
+            <p><pb n="16" facs="LAGL_AG_III.2401_037_16"/><seg><lb/>Den <placeName ref="loc000708.11">Sevaler</placeName> zeehennden
+                gibt man inn <term ref="lem009864">bërg unnd thal</term> überal, ouch wie hie
+                  obgeschrib<lb break="no"/>en. Unnd was für zeehenden von altterhar dem <term
+                  ref="lem000672">pfarer</term> gehört, das diennet <lb/>nit hieher, sonnder dem
+                pfarrer.</seg></p>
+              <p><seg><lb/>Der <placeName ref="loc000428">Rëfiß</placeName>er zeehennden.</seg></p>
+          </div>
+          <div>
+            <head n="16.3" type="subtitle"><lb/><term ref="lem014550.04">Kalber zeehenden</term></head>
+            <p><seg><lb/>Ithem ein jeder inn der grafschafft überal ist schuldig den <term
+                  ref="lem014550.03">kalber zeehennden</term>, ußgenomm<lb break="no"/>en die <term
+                  ref="lem000227">burger</term> unnd die inn <placeName ref="loc006100"
+                  >Buuchs</placeName>er kilchspil sitzent, gehört dem <term ref="lem000157"
+                  >priester</term>. Doch von den <lb/><term ref="lem000058">gottshußlüthen</term>,
+                so inn <placeName ref="loc006100">Buuchs</placeName>er kilchspil sitzent, da gehört
+                minen herren der dritteil vom <lb/>kalberzeehenden, dafür gipt der predicant minen
+                herren <date dur="R/P1Y">jërlich</date>
+                <measure unit="Mass" quantity="12" commodity="lard" type="volume">zwölf maß
+                  schmaltz</measure>
+                <lb/>unnd nimpt er den zeehenden gar. Unnd git man von jetlichem kalb, so <lb/>sy
+                ziechen, <measure unit="Mass" quantity="1" commodity="lard" type="volume">ein maß
+                  schmaltz</measure>. Von disem zeehenden gëbent min herren <date dur="R/P1Y"
+                  >jërlich</date>enn <lb/>dem predicandten zu <placeName ref="loc000708.11"
+                  >Sevalen</placeName>
+                <measure unit="Mass" quantity="36" commodity="lard" type="volume">sëchs unnd dryßig
+                  maß schmaltz</measure> und dem predicanten <lb/>zu <placeName ref="loc000335"
+                  >Grapß</placeName>
+                <measure unit="Mass" quantity="32" commodity="lard" type="volume">zwo unnd dryßig
+                  maß</measure> unnd dem <term ref="lem000560">schryber</term>
+                <measure unit="Mass" quantity="6" commodity="lard" type="volume">sechß
+                maß</measure>.</seg></p>
+          </div>
+      <pb n="17" facs="LAGL_AG_III.2401_037_17"/>
+          <div>
+            <head n="16.4"><lb/><term ref="lem000610.03">Junger zeehenden</term></head>
+            <p><term ref="key003435"/><lb/>So gibt ouch die ganntz grafschafft <term
+                ref="lem000610.03">junger zeehenden</term>. Da gipt man von eim jeden jungen
+                <lb/><term ref="lem002191.02">füli</term>
+              <measure type="currency" quantity="6" unit="d">sëchß pfënning</measure>, von eim <term
+                ref="lem004429">lamm</term>
+              <measure type="currency" quantity="2" unit="d">zwen pfënning</measure> unnd von eim
+                <term ref="lem003441">gitzi</term>
+              <measure type="currency" quantity="1" unit="d">ein pfënning</measure> und <lb/>gehört
+              der junger zeehenden zu <placeName ref="loc000198">Buuchß</placeName> der <term
+                ref="lem000367">pfruͦnd</term> unnd nit minen herren.</p>
+          </div>
+          <div>
+            <head n="17"><lb/><term ref="lem000349">Zöll</term> inn der grafschafft<note>Die Höhe der Zollabgaben sind im Urbar von 1543 (<bibl><ref>LAGL AG
+              III.2401:035</ref>, S. 11–12</bibl>) beim jeweiligen Markt notiert. So heisst es
+              z. B., dass der Zoll am Sankt Georgs Markt mehr oder weniger <orig>zu gmeinen jaren
+                zechen schilling pfenning</orig> beträgt.</note></head>
+            <p><term ref="key000199"/><term ref="key000793"/>
+              <app>
+                <lem>
+                  <seg n="17.1"><lb/>Der zoll <date when="--04-25">an sannt <persName
+                        ref="per000270">Geörg</persName>en</date> märckt.</seg>
+                 <seg n="17.2"><lb/>Der zoll <date when="--07-04">zu sannt <persName
+                        ref="per000356">Uͦlrich</persName></date>.</seg>
+                  <seg n="17.3"><lb/>Der zoll <date when="--09-22">an sannt <persName
+                        ref="per001846">Meritz</persName>en</date>
+                    <term ref="lem000822">märckt</term>.</seg>
+                  <seg n="17.4"><lb/>Der zoll zu <date when="--10-28">sannt <orgName ref="org001531"
+                        >Simon unnd Judæ</orgName></date>.</seg>
+                  <pb n="18" facs="LAGL_AG_III.2401_037_18"/>
+                  <seg n="17.5"><lb/>Der zoll <date when="--11-11">zu sannt <persName
+                        ref="per000141">Marttin</persName>s tag</date>.</seg>
+                  <seg n="17.6"><lb/>Der zoll<date when="--02-14"> sannt <persName ref="per000323"
+                        >Vallentin</persName>s</date>
+                    <term ref="lem000822">mërckt</term>.</seg>
+                  <seg n="17.7"><lb/>Der zoll <date when="--03-06">sannt <persName ref="per000142"
+                        >Fridli</persName>ns</date> mërckt. <add place="below" hand="other hand">Wie
+                      auch alle zöhl ansonst gwonlichen <term ref="lem000666">jar-</term> und <term
+                        ref="lem000663">wochenmerckten</term>.</add></seg></lem>
+                <rdg wit="LAGL AG III.2401:039, S. 23">Ittem so gehörend meinen <abbr>g</abbr>
+                  herren von allen jarmerckten <lb/>in der graffschaft alda all vierzechen tag <term
+                    ref="lem000666">jarmerckt</term> gehalten <lb/>wirt, die zöl unnd ziecht solche
+                  ein <term ref="lem002319.04">leüffer</term> in.<seg> So dann gehört meinen
+                      <abbr>g</abbr> hern auch ir theyl deß <term ref="lem001110">weggeltß</term>
+                    zue <lb/><placeName ref="loc000198">Buchß</placeName> laut <term
+                      ref="lem015495.03">zohl</term>- unnd meiner hern <term ref="lem002550.04"
+                      >ordnung büechliß</term><note>Ein Zoll- oder Ordnungsbüchlein aus dem 16. Jh.
+                      konnte nicht gefunden werden (siehe Fussnote oben). Möglicherweise handelt es
+                      sich jedoch um das Amts- und Eidverzeichnis, oder auch Urbarbüchlein genannt,
+                      aus der zweiten Hälfte des 16. Jh.
+                        (<ref>SSRQ_SG_III_4_127</ref>;
+                        <ref>SSRQ_SG_III_4_128</ref>;
+                        <ref>SSRQ_SG_III_4_129</ref>, zum Zoll siehe den Eintrag in
+                        <ref>SSRQ_SG_III_4_127</ref>, Art. 6.8). Zu den Zoll- oder
+                      Gerichtstarifen vgl. <ref>SSRQ_SG_III_4_185</ref>.</note>
+                    <abbr>etc</abbr></seg>.<term ref="key000814"/></rdg>
+              </app></p>
+          </div>
+          <div>
+            <head n="18"><lb/>Die <term ref="lem000209.40">stüür</term></head>
+            <p><term ref="key000273"/><term ref="key000157"/><seg n="18.1"><lb/>Ithem die <term
+                  ref="lem012836">burgerstüür</term> bringt <measure type="currency" quantity="38"
+                  unit="lb">acht unnd dryßig pfund pfënning</measure>
+                <date dur="R/P1Y">jërlich</date> uff eines <date type="deadline" when="--11-11">sant
+                    <lb/><persName ref="per000141">Marttin</persName>s tag</date> fallennde, daran
+                gat ab <measure type="currency" quantity="8" unit="ß">acht schilling
+                  pfënning</measure> von der stüür, die zücht ein <lb/><term ref="lem008776.04"
+                  >stattknecht</term> in. <app>
+                  <lem/>
+                  <rdg wit="LAGL AG III.2401:039, S. 24">Hingegen gebend mein <abbr>g</abbr> hern
+                    inen auch <lb/>von der steür jerlich acht schilling pfenig.</rdg>
+                </app></seg></p>
+              <p><seg n="18.2"><lb/>Ithem die <term ref="lem002710">lanndtstür</term> ist <date
+                  dur="R/P1Y">jërlich</date>
+                <measure type="currency" quantity="171" unit="lb">einhundert sibenzig unnd ein pfund
+                  pfënning</measure> uff <date type="deadline" when="--11-11">sant <lb/><persName
+                    ref="per000141">Marttin</persName>s tag</date> fallende, zücht ein <term
+                  ref="lem000043">weybel</term> in. <add place="below" hand="other hand"
+                    ><abbr>NB</abbr> ist gewachsen unnd gibt die stür zu <placeName ref="loc000335"
+                    >Grabß</placeName>
+                  <measure type="currency" quantity="102" unit="fl">102 </measure>, <placeName
+                    ref="loc000708.11">Sevalen</placeName>
+                  <measureGrp><measure type="currency" quantity="51" unit="fl">51 </measure>
+                    <measure type="currency" quantity="3.5" unit="bz">3½ bz</measure></measureGrp>,
+                    <lb/><placeName ref="loc000198.06">Buchß</placeName>
+                  <measureGrp><measure type="currency" quantity="51" unit="fl">51 </measure>
+                    <measure type="currency" quantity="3.5" unit="bz">3½ bz</measure></measureGrp>,
+                  so die <term ref="lem014835.02">stürvögt</term> fürohin inziechend, und ghört diß
+                  meinen <lb/>herren über der stürvögten <term ref="lem000612"
+                  >belonung</term>.</add></seg></p>
+          </div>
+      <pb n="19" facs="LAGL_AG_III.2401_037_19"/>
+          <div>
+            <head n="19"><lb/><term ref="lem000072">Müllinen</term> inn der grafschafft <lb/>unnd
+              was sy <term ref="lem000237">zinß</term> gëben uff <date type="deadline"
+                when="--11-11"><persName ref="per000141">Martini</persName></date></head>
+            <p><term ref="key000047"/>
+              <seg n="19.1"><lb/>Ithem die <term ref="lem000072">müli</term> bi der statt, so
+                  <persName ref="per008822a">Hanns Forer</persName> innhatt unnd besitzt, gipt minen
+                herren <date dur="R/P1Y">järlichß</date>
+                <lb/>zinses <measureGrp><measure type="currency" unit="lb" quantity="2">zwei pfund
+                    pfënning</measure> unnd <measure type="currency" unit="ß" quantity="3.5"
+                    >dritthalben schilling pfënning</measure></measureGrp>. Unnd was vornacher mer
+                <lb/>druf gestannden, das ist abglößt.</seg></p>
+              <p><seg n="19.2"><lb/>Ithem die <placeName ref="loc007039.02">ober müli</placeName> zu
+                  <placeName ref="loc000335">Grapß</placeName> gipt minen herren <date dur="R/P1Y"
+                  >jërlich</date>
+                <measure unit="Scheffel" quantity="13" commodity="wheat" type="volume">dryzëchen
+                  schöffel weissenn</measure>
+                <lb/>unnd wo die besitzer der <term ref="lem000072">müli</term> disen zinß uff <date
+                  type="deadline" when="--11-11"><persName ref="per000141">Martini</persName></date>
+                nit ußrichtint, so mögent min <lb/>herren die zinßfellig zu iren eigen züchen, wie
+                das von altter harkommen ist, darumb ist <lb/>ein brieff.</seg></p>
+              <p><seg n="19.3"><lb/>Ithem die <placeName ref="loc007764.03">Unnder Müli</placeName> zu
+                  <placeName ref="loc007037">Grapß</placeName> gipt minen herren <date dur="R/P1Y"
+                  >jërlich</date>
+                <measure unit="Scheffel" quantity="8" commodity="wheat" type="volume">acht schöffel
+                  weißen</measure> uff <date type="deadline" when="--11-11">
+                  <lb/><persName ref="per000141">Martini</persName></date>. Unnd wo die innhaber
+                hieran uff zyth unnd inn der wyß, wie gesagt, sümig wurd<lb break="no"/>en, so
+                habennt min herren ir gerëchtigkeit darzu, wie obstat, umb die <placeName
+                  ref="loc007912.01">Vorder Müli</placeName>. Und <lb/>wedere müli hievor nit
+                zinsete, so habennt min herren gwalt luth deß <term ref="lem000262"
+                  >leehenbrieffs</term>, <lb/>beid mülinen zu ziechen.</seg></p>
+              <p><seg n="19.4"><lb/>Ithem die <term ref="lem000072">müli</term> zum <placeName
+                  ref="loc006061">Alttendorff</placeName> git <date dur="R/P1Y">jërlich</date>
+                <measure unit="Scheffel" quantity="10.5" commodity="wheat" type="volume"
+                  >zëchenthalben schöffel weissen</measure> luth eines <lb/>brieffs.</seg></p>
+              <p><seg n="19.5"><term ref="key000166"/><lb/>Mer <measure type="currency" unit="lb"
+                  quantity="1">ein pfund pfënning</measure> von der <term ref="lem000356"
+                  >sagen</term>, <term ref="lem000355.09">blüwi</term> unnd <term ref="lem000321.02"
+                  >stampff</term>, vermög deß leehen<lb break="no"/>brieffs. <add place="below"
+                  hand="other hand"><abbr>NB</abbr></add></seg></p>
+            <p><pb n="20" facs="LAGL_AG_III.2401_037_20"/>
+              <seg n="19.6"><lb/>Ithem die <term ref="lem000072">müli</term> am <placeName
+                  ref="loc007911.01">Sevaler Bërg</placeName> git <date dur="R/P1Y">jërlich</date>ß
+                zinses <measure unit="Viertel" quantity="3" commodity="wheat" type="volume">drü
+                  viertel weißen</measure> uff <date type="deadline" when="--11-11">sannt
+                    <lb/><persName ref="per000141">Marttin</persName>s tag</date>. Wo sy aber den
+                zinß nit richtint, wie geseit, so habent min herren ir gerecht<lb break="no"/>igkeit
+                darzu wie von altter har.</seg></p>
+          </div>
+          <div>
+            <head n="20"><lb/><date dur="R/P1Y">Jërlich</date>e <term ref="lem000340.13"
+                >gülltt</term> an <term ref="lem000208">schmaltz</term>, <term ref="lem000054"
+                >käß</term> unnd <term ref="lem000139">ziger</term></head>
+            <p><term ref="key003336"/><term ref="key000006"/><seg><lb/><term ref="lem000306"
+                  >Alppen</term> gelëgen inn der ganntzen grafschafft <placeName ref="loc000440"
+                  >Wërdenbërg</placeName>, die gënd <date dur="R/P1Y">jërlich</date> uß jetlichem
+                  <lb/><term ref="lem002037.08">sënndten</term> ein <term ref="lem012483.05"
+                  >loubmal</term>, das ist <measure type="undefined" quantity="1" commodity="milk"
+                  unit="Mal">ein mal <term ref="lem002272">milch</term></measure>, was man druß
+                machet. Unnd sind <lb/>das alppen:<note>Im Urbar von 1543 sind die Einträge zu den
+                  Alpen viel ausführlicher und enthalten auch die Höhe der Alpabgaben. Neben dem
+                  Vogelmahl geben die meisten Alpen mehrere Masse Schmalz und Käse ab (<ref
+                    target="https://archivverzeichnis.gl.ch/home/#/content/b18dba4188404a3aa185dd7c2abe745e"
+                    >LAGL AG III.2401:035</ref>, S.&#160;31–34).</note><add place="below"
+                  hand="other hand">
+                  <abbr>NB</abbr> Meyen auch</add></seg></p>
+          </div>
+          <div>
+            <head n="21"><lb/><placeName ref="loc006027">Grapß</placeName>er kilchspil</head>
+            <p><term ref="key000006"/><term ref="key000637"/><seg n="21.1"><lb/>Ithem die alpp
+                  <placeName ref="loc006499.05">Gamß</placeName>.</seg><seg n="21.2"><lb/>Die
+                  <placeName ref="loc007835.02">alpp Nüwen</placeName>.</seg></p>
+            <p><pb n="21" facs="LAGL_AG_III.2401_037_21"/>
+             <seg n="21.3"><lb/>Die alpp <placeName ref="loc007836.02">Schlewitz</placeName>.</seg></p>
+              <p><seg n="21.4"><lb/>Die alpp inn der <placeName ref="loc007837.02"
+                >Lanncken</placeName>.</seg><seg n="21.5"><lb/>Die allpp <placeName
+                  ref="loc007838.02">Sisytz</placeName>.</seg></p>
+              <p><seg n="21.6"><lb/>Die alpp <placeName ref="loc006064.03">Gampperny</placeName> unnd
+                der <placeName ref="loc008274.02">Keer</placeName>.</seg></p>
+            <p><seg n="21.7"><lb/>Die alpp <placeName ref="loc007839.02"
+                  >Villspuuß</placeName><note>Zur Alp Ivelspus vgl. auch den Konflikt um die
+                    <term ref="key000336">Nutzung</term> der Alp zwischen den Gemeinden <orgName ref="org001828">Grabs</orgName> und
+                    <orgName ref="org001912">Buchs</orgName>
+                  <date when="1477">1477</date>
+                  (<bibl><ref>OGA Grabs O 1477-1</ref>–<ref>O 1477-5</ref></bibl>).</note> unnd
+                  <placeName ref="loc007840.02">Nawas</placeName>.</seg></p>
+          </div>
+          <div>
+            <head n="22"><lb/>Im <placeName ref="loc006100">Buuchs</placeName>er unnd <placeName
+                ref="loc006039">Sevaler</placeName> kilchspil</head>
+            <p><seg n="22.1"><lb/>Die allpp <placeName ref="loc007363.02">Malbuun</placeName>.</seg></p>
+            <p><pb n="22" facs="LAGL_AG_III.2401_037_22"/>
+              <seg n="22.2"><lb/>Die allpp <placeName ref="loc006101.10">Martschuͤl zun
+                  Bächen</placeName> gibt über das <term ref="lem012483.05">loubmal</term> minen
+                herren <date dur="R/P1Y">järlich</date>s zinses <lb/>zu gwonnlicher zyth
+                    <measureGrp><measure unit="Viertel" quantity="4" commodity="lard" type="volume"
+                    >vier große viertel schmaltz</measure> und <measure type="undefined"
+                    commodity="cheese" quantity="36" unit="Laib">sëchß unnd dryßig wërd
+                    käß</measure></measureGrp>. Das <lb/>söllennt <orgName ref="org001912">die von
+                    <placeName ref="loc000198">Buuchß</placeName></orgName> uff das <term
+                  ref="lem000376">schloß</term> anntwurtten on miner herren costen und
+                schaden.</seg></p>
+            <p><seg n="22.3"><lb/>Die alpp <placeName ref="loc006102.04">Farenboden</placeName> gibt
+                über das loubmal <measure unit="Viertel" quantity="3" commodity="lard" type="volume"
+                  >drü große viertel schmaltz</measure>
+                <date dur="R/P1Y">jërlichß</date> zinses.</seg></p>
+              <p><seg n="22.4"><lb/>Die allpp <placeName ref="loc007913.05">Martschuͤl am Altten
+                  Säß</placeName> sonnd die sënndten darinn <date dur="R/P1Y">jërlich</date>
+                <measure type="undefined" unit="Mal" commodity="milk" quantity="7">siben mal <term
+                    ref="lem002272">milch</term></measure> für <lb/>loubmal unnd zinß. Unnd ist man
+                inen schuldig dargegen von einem jeden käß <measure unit="Mass" quantity="0.5"
+                  commodity="salt" type="volume">ein halb maß <lb/>saltz</measure> unnd jedem <term
+                  ref="lem000232">knëcht</term>
+                <num value="9">nün</num>
+                <term ref="lem014823.02">hoffbrott</term>.</seg></p>
+                <p><seg n="22.5"><lb/>Die alpp <placeName ref="loc006033.01">Arin</placeName> gibt über
+                das <term ref="lem012483.05">loubmal</term>
+                <measure unit="Mass" quantity="38" commodity="lard" type="volume">acht unnd dryßig
+                  maß schmaltz</measure> unnd <num value="10">zëchen</num>
+                <term ref="lem000054">käß</term>
+                <date dur="R/P1Y">jërlichß</date>
+                <lb/>zinses.</seg></p>
+            <p><seg n="22.6"><lb/>Ithem die ganntz grafschafft <placeName ref="loc000440"
+                  >Wërdenbërg</placeName> überal gibt das <term ref="lem012483.05">loubmal</term>
+                <date dur="R/P1Y">jërlich</date> im <term ref="lem001329">meygen</term>, eß
+                <lb/>syge inn <term ref="lem001059">bërg oder inn thal</term>, <term ref="lem000208"
+                  >schmaltz</term> unnd <term ref="lem000054">käß</term>, als vil einer eins mals uß
+                  <term ref="lem002272">milch</term> machet.</seg></p>
+            <p><seg n="22.7"><lb/><placeName ref="loc007009.03">Monntaschyn</placeName>, der hof inn <choice>
+                  <sic>Graßer</sic>
+                  <corr><placeName ref="loc006027">Grabß</placeName>er</corr>
+                </choice> kilchspil gelëgen, git <date dur="R/P1Y">jërlich</date>
+                <measure unit="Mass" quantity="16" commodity="lard" type="volume">sëchßzëchen maß
+                  schmaltz</measure>. <gap reason="irrelevant"/>
+                <note>Ab Seite 25 folgen die Abgaben an Weizenzins auf <date when="--11-11"
+                    >Martini</date> nach den einzelnen Kirchspielen: S.&#160;25–49: Seveler
+                  Kirchspiel; S.&#160;53–80: Buchser Kirchspiel; S.&#160;85–95: Grabser Kirchspiel;
+                  S.&#160;97–109: Jährliche Gülten, die nicht verbrieft sind; S.&#160;111–141: Urbar
+                  mit allen Rechten und Einkünften der Herren von Glarus in der Herrschaft Wartau. –
+                  Zu den Rechten von Glarus in der Herrschaft Wartau vgl. <bibl><ref
+                      target="https://www.ssrq-sds-fds.ch/online/SG_III_2/index.html#p_636"
+                     >SSRQ SG III/2.1, Nr.&#160;178</ref></bibl>.</note></seg>
+              <pb facs="LAGL_AG_III.2401_037_add"/>
+              <lb/><add place="cover above" hand="hand19c"><foreign xml:lang="la">Ex libris
+                    <persName ref="per001960a">Johannis Christophori Ællmeri</persName>
+                  <placeName ref="loc000326">Glaronensis</placeName></foreign></add>
+            </p>
+          </div>
+        </body>
+   </text>
+  </group>
+   <back>
+     <div n="1"><p>Zu den ältesten <term ref="key000122">Urbaren</term> der Grafschaft <placeName ref="loc000440"
+              >Werdenberg</placeName> vgl. <ref>SSRQ_SG_III_4_075</ref>. Das erste Urbar aus
+            der Zeit der Glarner Herrschaft stammt von <date when="1543">1543</date>; es ist die erste
+            detaillierte, systematische Aufzeichnung der Besitzansprüche und der Rechte von <orgName
+              ref="org001197">Glarus</orgName> in Werdenberg und Wartau. Das ältere Urbar um 1510/17
+            diente dabei als Vorlage; so wurden die Herrschaftsrechte und das Verzeichnis der
+            Schlossgüter zum Teil wörtlich übernommen. Die späteren Urbare orientieren sich in
+            Aufbau und Inhalt stark am Urbar von 1543 (<bibl><ref target="http://permalink.snl.ch/bib/chbsg000150458">Schwendener 2000</ref>,
+              S.&#160;19</bibl>). Das Urbar von 1543 wurde von Schwendener in seiner
+            Lizentiatsarbeit ediert und kommentiert.</p>
+     <div n="2"><p>Das hier edierte Urbar ist nicht datiert. Aufgrund des Eintrags auf der Innenseite des
+            Buchdeckels ist es wohl unter Landvogt <persName ref="per001960a">Johann Christoph Elmer</persName> entstanden, der von Mai 1581 bis Mai 1584 Landvogt in Werdenberg war (zur
+            Datierung und zum Inhalt des Urbars vgl. auch <bibl><ref
+                target="http://permalink.snl.ch/bib/chbsg000150458">Schwendener 2000</ref>,
+              S.&#160;19</bibl> sowie die Vorbemerkungen in <bibl><ref
+                target="https://www.ssrq-sds-fds.ch/online/SG_III_2/index.html#p_637">SSRQ&#160;SG
+                III/2.1, Nr.&#160;178a</ref></bibl>). Das Urbar verzeichnet die Rechte und
+            Besitzansprüche von <orgName ref="org001197">Glarus</orgName> in <placeName
+              ref="loc007867">Werdenberg und Wartau</placeName>. Im ersten Teil sind die <term
+              ref="key003737">Herrschaftsrechte</term> und <term ref="key000205">Einkommen</term>
+            von <placeName ref="loc000440">Werdenberg</placeName> verzeichnet und in einem zweiten
+            Teil diejenigen der Herrschaft <placeName ref="loc000827">Wartau</placeName>. Das
+            vorliegende Urbar lehnt sich stark an seinen Vorgänger aus dem Jahr 1543 an. Es enthält
+            jedoch wichtige Neuerungen wie z.&#160;B. die <term ref="key000588"
+              >Gerichtsordnung</term> oder die <term ref="key000147">Güter</term> des <term
+              ref="key000547">Weibels</term>. Die Rechts- und Besitzansprüche sind zudem
+            ausführlicher dokumentiert als 1543. Ebenfalls neu ist die klare Gliederung der
+            einzelnen Kapitel mit Titeln sowie des Verzeichnisses der <term ref="key000469"
+              >Lehenhöfe</term> nach den Kirchspielen <placeName ref="loc006039"
+            >Sevelen</placeName>, <placeName ref="loc006100">Buchs</placeName> und <placeName
+              ref="loc006027">Grabs</placeName>. Die Angaben wurden gegenüber 1543 aktualisiert. Im
+            Unterschied zu 1543 fehlt jedoch bei den <term ref="key000006">Alpen</term>, <term
+              ref="key000049">Zehnten</term> und <term ref="key000199">Zöllen</term> die Höhe der
+              <term ref="key000273">Abgaben</term> (vgl. dazu ausführlich <bibl><ref
+                target="http://permalink.snl.ch/bib/chbsg000150458">Schwendener 2000</ref>,
+              S.&#160;19–21</bibl>).</p></div></div>
+     
+     <div n="3"><p>Der erste Teil des Urbars von <date when="1639">1639</date> (<ref
+            target="https://archivverzeichnis.gl.ch/home/#/content/58765cd7de484cb0b09c41c41e26d8b3"
+            >LAGL AG&#160;III.2401:039</ref>) über die Herrschaftsrechte, Schlossgüter, Zehnten,
+          Zölle, Steuern und Gülten ist fast identisch mit dem Urbar von <date when="1581">1581</date>. Es
+          wurden jedoch einige Anpassungen und Ergänzungen vorgenommen. Das Urbar von 1639 ist
+          bereits viel umfangreicher als 1581 und enthält zahlreiche Ergänzungen und Nachträge. Das
+          Urbar von ca. <date when="1735">1735</date> (<ref
+            target="https://archivverzeichnis.gl.ch/home/#/content/45dabfeb993a4fa1a2d3053344d0304c"
+            >LAGL AG&#160;III.2401:042</ref>) ist praktisch eine Abschrift des Urbars von 1639,
+          enthält jedoch ein paar wichtige Nachträge und Ergänzungen, die im vorliegenden Stück
+          betreffend die Herrschaftsrechte wiedergegeben werden. Zu den Nachfolgern des Urbars um
+          1581 vgl. auch <ref>SSRQ_SG_III_4_229</ref>; <ref>SSRQ_SG_III_4_230</ref>;
+       <bibl><ref target="http://permalink.snl.ch/bib/chbsg000150458">Schwendener 2000</ref>, S.&#160;21–23</bibl> sowie die Vorbemerkungen zu
+              <bibl><ref target="https://www.ssrq-sds-fds.ch/online/SG_III_2/index.html#p_640"
+              >SSRQ&#160;SG III/2.1, Nr.&#160;178b</ref></bibl>.</p></div>
+     <div n="4"><p>Über die Rechte von Glarus in der Herrschaft <placeName ref="loc000827">Wartau</placeName> im
+          Urbar von <date when="1581">1581</date> vgl. <bibl><ref
+              target="https://www.ssrq-sds-fds.ch/online/SG_III_2/index.html#p_637">SSRQ&#160;SG
+              III/2.1, Nr.&#160;178a</ref></bibl>.</p></div>
+     <div n="5"><p>Über die <term ref="key000065">Amtleute</term> von <placeName ref="loc000440"
+            >Werdenberg</placeName> im Urbar von <date when="1754">1754</date> vgl.
+            <ref>SSRQ_SG_III_4_230</ref> und in der Herrschaft <placeName ref="loc000827"
+            >Wartau</placeName>
+          <bibl><ref target="https://www.ssrq-sds-fds.ch/online/SG_III_2/index.html#p_1105"
+              >SSRQ&#160;SG III/2.2, Nr.&#160;329</ref></bibl>.</p></div>
+   </back>
+ </text>
+</TEI>

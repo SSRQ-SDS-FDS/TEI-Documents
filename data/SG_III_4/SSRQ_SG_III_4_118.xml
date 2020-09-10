@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-08-15"/>
+            <date type="print"/>
+            <availability><p xml:id="facs">Staatsarchiv St. Gallen (StASG)</p></availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_118</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>StASG AA 2 U 28b</idno>
+               </msIdentifier>
+               <head>Urfehde der Agnes Stähli von Sax wegen Betrugs, Verleumdung und Diebstahls</head>
+               <msContents>
+                  <summary>
+                     <p>Agnes Stähli ab der Halden im Saxer Kirchspiel hat einer Magd den Rock gestohlen und diesen wieder zurückgegeben. Zudem erhob sich ein Gerücht, dass sie von einem nahen Verwandten schwanger sei. Ausserdem diente sie im Sarganserland in Vilters bei Hans Grünenfelder und behauptete, sie sei von ihm schwanger und verlangte Geld für das Kindbett, damit niemand die Schwangerschaft bemerke und dies, obwohl sie wusste, dass sie nicht schwanger war. Zudem hat sie Unwahrheiten über getrennt lebende Eheleute verbreitet, damit diese nicht mehr zusammen kämen. Ausserdem behauptet sie, eine arme Frau hätte ihr Kind abgetrieben. Sie schwört eine Urfehde und wird verbannt.</p>
+                     <p>Hans Egli siegelt.</p>
+                  </summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <filiation type="current">Original</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Pergament</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="24.5"/>
+                              <width unit="cm" quantity="28.0"/>
+                           </dimensions>
+                        </extent>
+                        <condition>fleckig, Loch im linken Falz</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <sealDesc>
+                     <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI"
+                           n="1"
+                           nontei:condition="well-preserved"
+                           nontei:material="wax"
+                           nontei:shape="round"
+                           nontei:attachment="sealed on a parchment tag"
+                           facs="StASG_AA_2_U_28b_s">
+                        <persName role="sigillant" ref="per006902">Hans Egli</persName>
+                     </seal>
+                  </sealDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1540-05-12"/>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000480">Urfehde</term>
+               <term ref="key000590">Delikt</term>
+               <term ref="key000292">Verleumdung</term>
+               <term ref="key000291">Diebstahl</term>
+               <term ref="key000989">Betrug</term>
+               <term ref="key004965">Frau</term>
+               <term ref="key000598">Verbannung</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb facs="StASG_AA_2_U_28b_r"/>
+               <div org="uniform" sample="complete">
+                  <p>
+                     <seg>
+                        <lb/>Ich, <persName ref="per008789a">Agnes Staͤchlin</persName>, bekenn und vergych mitt
+        disem offnem brieff, das ich in des wolgepornnen <lb/>herren <persName ref="per004426">Uͦlrich Philips, fryherr von der Hohen Sax, herr zuͦ <placeName ref="loc000278">Vorstegg</placeName> und <placeName ref="loc006070">Burglen</placeName>
+                        </persName>
+                        <abbr>etc</abbr>, in syner gnadenn <lb/>
+                        <term ref="lem001256.13">vencknus</term> komen mitt
+        und des nitt on verdienty ursach, das ich ubel gehandlet hab.</seg>
+                     <seg>Des ersten hab ich <lb/>ainer <term ref="lem000525">junckfrowen</term> ain <term ref="lem000190">rock</term>
+                        <term ref="lem014789.01">abgetragen</term> und <term ref="lem009855">gstolen</term> und den
+        selben wider geben.</seg>
+                     <seg>Zum andren bin ich <lb/>in ainem <term ref="lem002094.05">lunden</term> komen, ich sey
+         <term ref="lem003963">schwanger</term> aines <term ref="lem000130">kinds</term> und das
+        selb by minem <term ref="lem009386">nechsten frund</term> tragen und <lb/>das selbig selbs
+        bekent, aber offennlich kaines kinds geneßen und ouch kain verkundy nitt bracht, wies
+        <lb/>mitt gangen sy.</seg>
+                     <seg>Zum drytten hab ich gedienet in <placeName ref="loc000120">Sanganßerrland</placeName>
+        zuͦ <placeName ref="loc000078">Fillters</placeName> genantt <persName ref="per008790a">Hans
+          Gruͦenenn<lb break="no"/>velder</persName>, hab inn uber rett, ich traͤg by im, er soͤll
+        mir <term ref="lem000308">geltt</term> geben, ich well gon <term ref="lem006336.04">kindpetten</term>, das mas nitt <term ref="lem006240">in<lb break="no"/>nen werd</term>.
+        Darinn ich ain <term ref="lem014790.02">veltsch</term> gebrucht und selbs wol gwust, das ich
+        kain kindli getragen hab, <lb/>dar mitt ich imm das sin <term ref="lem014789.01">abtrogen</term>.</seg>
+                     <seg>Zum fierden, so sind zway <term ref="lem001020">eemenschen</term> uß ettlicher ursach
+        von ain <lb/>andren komen und sy biderblut widerumb wellen zemen <term ref="lem000981">thedigen</term>. Bin ich on gnoͤtt und on petten <lb/>zuͦ siner <term ref="lem000292">muͦter</term> und zuͦ dem selben <term ref="lem010794">gsellen</term> gangen und zuͦ der
+        muͦter gsprochen, sy soͤll sy nummen <lb/>in lon und zuͦ <damage agent="crack" quantity="3" unit="chars">
+                           <unclear>ime</unclear>
+                        </damage> er soͤll sy an siner syten numen thulden, dar
+        mitt die <term ref="lem000080">ee</term> allso zerrtrentt ward.</seg>
+                     <seg>Zum <lb/>funfften hab ich einer <term ref="lem008829">armen frowen</term> zuͦ grett, sy
+        hab hinderrucks ierem herren zum <term ref="lem003782">doctor</term> gschickt <lb/>und das
+        kindli <term ref="lem002344.01">verderbt</term> und von ir triben, das sich nitt erfunden
+        hat.</seg>
+                     <seg>Und das alles bekentt on <lb/>zwungen und on trungen und on gnoͤt, das thon mitt guͦttem
+        willen. Und angesehen das groß pitt, <lb/>das min gnediger her sin gnad und barmhertzikait
+        mitt mir gethailt und mich der strengen <lb/>recht und urtail <term ref="lem009534.01">uberhebt</term>, doch das ich, <persName ref="per008789a">Angnesa Staͤchlin</persName> ab
+        der <placeName ref="loc006545.01">Halden</placeName> uss <placeName ref="loc006120">Saxer
+         kilspel</placeName> geboren, <lb/>ain <term ref="lem000070">aid</term> zuͦ gott und den
+        heligen geschworen, wie ain <term ref="lem000655">wib</term> schweren soll, die <term ref="lem001256.13">vencknus</term> nummerr<lb break="no"/>mer ze <term ref="lem001260.06">effren</term> noch yemand schaffen noch gethon werden. Und sol by disem gethonen aid <term ref="lem014791.02">cirkils<lb break="no"/>wyß</term> von in <measure type="length" quantity="5" unit="Meile">funff milen</measure> wit und praͤit nummerrmerr min leben lang
+        zuͦ der herschafftt <placeName ref="loc000278">Vorstegg</placeName>
+                        <lb/>nachen. Wo aber ich, obgenanti <persName ref="per008789a">Angnes Stechlin</persName>,
+        deren ains oder mer ubertraͤt oder yemands von <lb/>minenthwegen (dar vor gott sy), so sol
+        min wolgedachterr gnedigerr herr oder wer von synen gnaden <lb/>wegen zuͦ mir guͦt fuͦg und
+        recht hat, mitt mir ze handlen, es sy mitt oder on recht, wie zuͦ <lb/>ainer <term ref="lem002353.07">verluntten</term> frowen, wie ob stat, darinn mich nut soll schutzen
+        noch schirmen, kaini recht <lb/>weder kaiserlich, gaistlich noch weltlich.</seg>
+                     <seg>Und des zuͦ warem urkund, so hab ich, <persName ref="per008789a">Angnes
+         Stechlin</persName>, <lb/>mitt fliß, ernst erbetten den ersamen, wysen <persName ref="per006902">Hans Eglin</persName>, das er sin aigen insigel <term ref="lem005935">ampts</term> halben <lb/>fur mich offennlich gehenckt hat an disen brieff, doch minem
+        gnedigen herren und siner gnaden <lb/>erben und mir ouch minen erben one schaden. Der geben
+        ist am <origDate when="1540-05-12">zwoͤlfften tag mayes im <lb/>jar gezelt nach Christi
+         gebürtt funffzehenhundert und im viertzygisten jare</origDate>. </seg>
+                  </p>
+               </div>
+               <pb facs="StASG_AA_2_U_28b_v"/>
+               <div org="uniform" sample="complete">
+                  <ab type="dorsal" place="verso" hand="hand18c">
+                     <lb/><persName ref="per008789a">Angnes Stächly</persName>
+                     <lb/>bekanttnus <lb/>und <term ref="lem001262">urphed</term>, <abbr>da</abbr> den <lb/>12. may anno
+        <abbr>etc</abbr> 40</ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab type="archiving reference" place="verso" hand="hand18c">N<hi rend="sup">o</hi> 28<hi rend="sup">a</hi>; 1540</ab>
+               </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div org="uniform" sample="complete">
+            <p>Weitere <term ref="key000480">Urfehden</term> betreffend Personen aus oder in der
+               Freiherrschaft <placeName ref="loc000278">Sax-Forstegg</placeName>: <bibl><ref>LAAI
+                     A.IX:020</ref></bibl> (15.08.1423, Entführung); <bibl><ref>LAAI
+                  A.IX:096</ref></bibl> (28.01.1482, <term ref="key004865">Hexerei</term>);
+                     <bibl><ref>StASG AA 2 U 09</ref></bibl> (05.01.1487, <term ref="key000285"
+                  >Ehrverletzung</term>); <bibl><ref>StASG AA 2 U 20</ref></bibl> (14.03.1527, <term
+                  ref="key003396">Trunkenheit</term>, <term ref="key003394">Gewalttätigkeit</term>);
+                     <bibl><ref>StASG AA 2 U 22</ref></bibl> (28.09.1527, <term ref="key001076"
+                  >Falschmünzerei</term>); <bibl><ref>StASG AA 2 U 26</ref></bibl> (19.04.1533,
+                  <term ref="key001001">Ungehorsam</term> gegenüber der Obrigkeit); <bibl><ref>StASG
+                     AA 2 U 30e</ref></bibl> (13.01.1551, Falschspiel); <bibl><ref>StASG
+                     AA 2 U 30d</ref></bibl>; <bibl><ref>FA Berger 82.00.35, Einzelpersonen von
+                     Sennwald/Gerichtssachen</ref></bibl> (25.01.1551, Falschspiel);
+                     <bibl><ref>StASG AA 2 U 33c</ref></bibl> (08.08.1569, Pferdediebstahl);
+                     <bibl><ref>StASG AA 2 U 33d</ref></bibl> (12.06.1571, Pferdediebstahl);
+                     <bibl><ref>StASG AA 2 U 33e</ref></bibl> (08.04.1573, <term ref="key000989"
+                  >Betrug</term>); <bibl><ref>StASG AA 2 U 34b</ref></bibl> (19.03.1580, Betrug);
+               <bibl><ref>StAZH A 346.3, Nr. 74</ref></bibl>; <bibl><ref>StAZH A 346.4,
+                     Nr. 203</ref></bibl> (14.05.1664, Liederlichkeit, <term ref="key000599"
+                  >Reislauf</term>, Fahnenflucht); <bibl><ref>StASG AA 2 U 28a</ref></bibl>
+               (25.01.1535, Spiel); <bibl><ref>StASG AA 2 U 30b</ref></bibl> (25.07.1545,
+               Entführung); <bibl><ref>StASG AA 2 U 30c</ref></bibl> (25.04.1550, <term
+                  ref="key000292">Verleumdung</term>); Urfehden aus Werdenberg: <bibl><ref>StALU URK
+                     210/3040</ref></bibl> (28.09.1492, <term ref="key000959">Vergewaltigung</term>
+               [Notzucht]); <bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/fd5a4525da96413b8cfc326b625bc79c"
+                     >LAGL AG III.2413:002</ref></bibl> (04.09.1506); <bibl><ref>StASG
+                     AA 3 U 07</ref></bibl> (30.10.1510); <bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/d56a7e7fe16d481289524e70958c5402"
+                     >LAGL AG III.2413:001</ref></bibl> (26.10.1514); <bibl><ref>StASG AA 2 U
+                     19</ref></bibl> (25.06.1526); <bibl><ref>StASG AA 3 A 05-09-4</ref></bibl>
+               (19.02.1725, Ehrverletzung gegenüber der Obrigkeit).</p>
+         </div>
+      </back>
+   </text>
+</TEI>

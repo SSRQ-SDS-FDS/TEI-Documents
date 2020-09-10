@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+
+			</titleStmt>
+
+			<publicationStmt>
+				<date type="electronic" when="2019-05-29"/>
+				<date type="print"/>
+			</publicationStmt>
+
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ_FR_I_2_8_0057_010</idno>
+			</seriesStmt>
+
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<idno>StAFR, Thurnrodel 11, S. 301–302</idno>
+					</msIdentifier>
+					<head>Jean Sermoud – Verhör / Interrogatoire</head>
+					<msContents>
+						<summary></summary> 
+						<msItem>
+							<textLang>fr</textLang> 
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support>
+									<material></material>
+								</support>
+								<extent>
+									<dimensions type="leaves">
+										<height unit="cm" quantity="0.0"/>
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+									<dimensions type="plica">
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+								</extent>
+							</supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1623-05-05"></origDate>
+							<origPlace></origPlace>
+						</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+							
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+			<particDesc default="false"/>
+			<settingDesc default="false"/>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="301"/><p><lb/>Im <placeName ref="loc007683.03">bosen turn</placeName>, <foreign xml:lang="la"><choice><abbr>j</abbr><expan>judex</expan></choice></foreign> <persName ref="per009446a.01"><choice><abbr>Nußb</abbr><expan>Nußbaum</expan></choice></persName><note>Gemeint ist ein Stadtweibel.</note>
+							<seg><origDate when="1623-05-05">5 <foreign xml:lang="la">maii</foreign> <hi rend="underline">1623</hi></origDate></seg>
+							<seg><lb/><abbr>H</abbr> <persName ref="per006751">Erhart</persName>, <abbr>h</abbr> <persName ref="per009449">Vögeli</persName></seg>
+							<seg><lb/><persName ref="per009271">Wildt</persName>, <persName ref="per009462">Gribolet</persName><!-- LX Hans --></seg>
+							<seg><lb/> <persName ref="per009591a.02">Hanß Schuler</persName>, <persName ref="per006838a.01">Zur Tannen</persName>, <persName ref="per009780a.01"><choice><abbr>Ja</abbr> <expan>Jacob</expan></choice> Picand</persName><!-- CC Neustadt ab 1622 --></seg></p>
+						
+						<p><seg><lb/><add place="left margin"><foreign xml:lang="la">Nihil solvit</foreign>.</add></seg> 
+							<seg><persName ref="per009577a.06">Jehan Sermou</persName> estant serieusement examiné et 
+						<lb/>torturé, il a confessé que cette quaresme 
+						<lb/>il a mangé en la maison d’<persName>Antoine Francey</persName> 
+						<lb/>un bullion a la chair, pensant estre me<lb break="no"/>lieur le manger que le gaster.</seg></p>
+						
+						<p><lb/>Item qu’il a desrobé riere <placeName ref="loc007655.06">Montagnie</placeName> une 
+						<lb/>oye, et sa femme deux, desquelles ilz en ont 
+						<lb/>mangé l’une.</p>
+						
+						<p><lb/>Il a dit dadvantage que luy et <persName>David Sau<lb break="no"/>vey</persName>, executé dernierement a <placeName ref="loc007610">Payerne</placeName>, prirent 
+						<lb/>en deliberation de tuer <persName>Jean Jaumini</persName>, a cause 
+						<lb/>qu’il disoit qu’<subst><del>e</del><add place="overwritten">il</add></subst> <del>luy</del> avoit fait mourrir son 
+						<lb/>enfant.</p>
+						
+						<p><lb/>En aprés il a confessé d’estre sorcier. Et <persName>Sa<lb break="no"/>than</persName> luy estre apparu la primiere fois 
+						<lb/>a <placeName ref="loc007984.02">Domppierre</placeName> sur <placeName ref="loc007657">Lucens</placeName>, s’appellant 
+						<lb/><persName>Grabié</persName>, il ast environ <date dur="P12Y">12 ans</date>, lequel 
+						<lb/>estoit tout habillé de verd. A l’instance 
+						<lb/>duquel il rennia Dieu et baisa sondit 
+							<lb/>maistre en la cuise, <hi rend="underline">lequel l’a <term ref="lem018895.02">marqué</term> 
+							<lb/>au bras</hi>, luy <term ref="lem015635.13">baillant</term> <measure type="currency" unit="k" quantity="7">7</measure> ou <measure type="currency" unit="k" quantity="8">8 </measure> que furent 
+							<lb/>en aprés que <term ref="lem018302.04">feuilles</term> de <term ref="lem016908.05">chasno</term> <add place="above">et du plomb</add>, luy en 
+						<lb/>promettant dadvantage, porveu qu’il fasse 
+						<lb/>mourrir gens et bestes avec du <term ref="lem014886.01">pousset</term>, 
+						<lb/>que luy donna.</p>
+						
+						<pb n="302"/><p><lb/>En aprés il a confessé d’avoir soufflé du 
+						<lb/><term ref="lem014886.02">pusset</term> <add place="left margin" type="sign">a <persName>Pierre Verdon</persName></add>, que ledit <persName>Souvey</persName> luy avoit <term ref="lem015635.10">baillé</term> 
+							<lb/>en la <term ref="lem017043.01">secte</term>, au <placeName ref="loc008570.02">Croux Pellison</placeName>, dont 
+						<lb/>son visage est enflé. Mais estant re<lb break="no"/>cherché dudit <persName>Verdon</persName> de le guerir, 
+						<lb/><subst><del>ce qu’il a fait</del><add place="left margin">le guerit</add></subst>, disant&#160;: <quote>&#160;Dieu et notre 
+						<lb/><sic>Damme</sic> te guerissentt&#160;</quote>. Aultre n’a confessé 
+						<lb/>pour le present.</p>	
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+
+
+
+<?oxy_options track_changes="on"?>

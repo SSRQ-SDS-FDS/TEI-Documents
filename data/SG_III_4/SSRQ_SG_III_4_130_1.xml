@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-08-15"/>
+            <date type="print"/>
+            <availability><p xml:id="facs">Sibylle Malamud</p></availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_130_1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>StAZH C I, Nr. 3205</idno>
+               </msIdentifier>
+               <head>Teilungsurkunde der Alpila (Frümsner Alp) zwischen Ulrich Philipp von Sax-Hohensax und der Nachbarschaft Frümsen</head>
+               <msContents>
+                  <summary>
+                     <p>Hans Schwarz, Ammann der Landvogtei Werdenberg, und Adam Wittenwiler,
+                        Geschworener des Gerichts Werdenberg, als Verordnete von Freiherr Ulrich
+                        Philipp von Sax-Hohensax, treffen mit Michael Beusch, Ammann von Gams, und
+                        Heinrich Scherrer, alt Ammann von Gams, Verordnete der Gemeinde Frümsen, ein
+                        Abkommen betreffend die Teilung der gemeinsamen Alpila, wobei die Grenzen
+                        sowie die Nutzung festgelegt werden. </p>
+                     <p>Die Aussteller siegeln.</p>
+                  </summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <filiation type="current">Original</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Pergament</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="28.0"/>
+                              <width unit="cm" quantity="45.0"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <sealDesc>
+                     <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI"
+                           n="1"
+                           nontei:material="wax with margin"
+                           nontei:condition="well-preserved"
+                           nontei:shape="round"
+                           nontei:attachment="sealed on a parchment tag">
+                        <persName role="sigillant" ref="per007514a">Ammann Hans Schwarz von Werdenberg</persName>
+                     </seal>
+                     <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI"
+                           n="2"
+                           nontei:material="wax with margin"
+                           nontei:condition="well-preserved"
+                           nontei:shape="round"
+                           nontei:attachment="sealed on a parchment tag">
+                        <persName role="sigillant" ref="per007516a">Ammann Michael Beusch von Gams</persName>
+                     </seal>
+                  </sealDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1552-02-24">uff sant Mathys tag, des hailgen zwölfpotten</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000006">Alp</term>
+               <term ref="key000759">Teilung</term>
+               <term ref="key000305">Grenze</term>
+               <term ref="key000519">Zaun</term>
+               <term ref="key000374">Holz</term>
+               <term ref="key000748"/>
+               <term ref="key000606"/>
+               <term ref="key000048"/>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <div org="uniform" sample="complete">
+                  <pb facs="StAZH_C_I_Nr._3205_r"/>
+                  <p>
+                     <seg>
+                        <lb/>Wir, diß nachbenempten <persName ref="per007514a">Hans
+                           Schwartz</persName>, aman der herschafft <placeName ref="loc000440"
+                           >Werdennberg</placeName>, <persName ref="per007515a">Adam
+                           Wittennwilerr</persName>, <term ref="lem014680.02"
+                           >grichtsgschwornerr</term> daselbs, als zuͦgeben <lb/>und verordnet von
+                        dem edlen, wolgebornen herren, herr <persName ref="per004426a">Uͦlrich
+                           Philips, fryher von der Hohen Sax, herr zuͦ Sax und Vorstegk</persName>
+                        <abbr>etc</abbr>, ains <lb/>tails, und wir, nachbenempten <persName
+                           ref="per007516a">Michel Pûsch</persName>, aman zuͦ <placeName
+                           ref="loc006040">Gamps</placeName>, und <persName ref="per007518">Hainrich
+                           Schererr</persName>, alt aman daselbs, von wegen der <orgName
+                           ref="org002807">nachpüren <lb/>und gmaind zuͦ <placeName
+                              ref="loc006121.04">Frûmßen</placeName></orgName> anders tails. Als
+                        sich zuͦ tragen und verloffen hat, das min wolgedachter <persName
+                           ref="per004426a">herr von Sax</persName>
+                        <abbr>etc</abbr> und die <orgName ref="org002807">nach<lb break="no"/>puren
+                           zuͦ <placeName ref="loc006121.04">Frûmßen</placeName></orgName> ain alpp
+                        mittainandren gehept mitt nammen <placeName ref="loc006126.01"
+                           >Alpilen</placeName>. Des hat min wolgedachterr <persName
+                           ref="per004426a">herr von Sax</persName> die gemeltt alpp <lb/>mitt sinen
+                           <term ref="lem000600">nachpuren</term> begert zuͦ tailen und wir,
+                        obgemelte vier von baiden siten, darzuͦ geben und verordnet, ûns petten, das
+                        wir <lb/>uff die stoͤß gangind und besehind und gemelte <term
+                           ref="lem000306">alpp</term> mitt den nachpuren <term ref="lem014142"
+                           >tailend</term>. Des sind wir, obgemelte vier, uff die stoͤß gangen
+                        <lb/>und alle ding besehen und erkündet, und nach unßerm besten verstand
+                        hond wir gemelte alpp von ainandren tailt und gemarch<lb break="no"/>ett wie
+                        hiernach volgtt:</seg>
+                     <seg n="1">Vor sey zuͦ wissen mengklichem, das die <term ref="lem008442"
+                           >marchen</term> nitt der gredi nach gangen sind, ursach halb, das die
+                        <lb/>nachpüren mer <term ref="lem002096">stoͤß</term> gehept hond dan min
+                        gnedigerr her und yetz min wolgedachter, gnediger herr sydhar erkofft, das
+                        sin gnad sy<lb break="no"/>ben stoͤß in der nachpuren tail gehept hat. Ist
+                        min gnediger her ains gnaigten willens, mitt den nachpuren zuͦ hußen und hat
+                        <lb/>vergüntt mit den marchen der gredi nach faren, wos mu̍glich ist,
+                        darmitt fil muoͤg und arbait erspart werd mitt dem <term ref="lem001827"
+                           >frîdhag</term>. <lb/>Und die syben stoͤß bracht und gemachet, das yetz
+                        min wolgedachter, gnediger her die alpp <placeName ref="loc006126.01"
+                           >Alpilen</placeName> halb hat gegen <placeName ref="loc006564.02"
+                           >Kelen</placeName> wert <lb/>und die nachpuren das ander halbtail uffwert
+                        gegem <placeName ref="loc007702.02">Falchen Stain</placeName>.</seg>
+                     <seg n="2">Und die erst march sol anfahen zwûschend des wolgedachten,
+                        <lb/>gnedigen herren alpp und <term ref="lem001078">kuoͤwaid</term> und
+                        zwûschend den gemelten nachpuren tail, sol gon uff die <term
+                           ref="lem001101.04">stainwand</term> und der stain<lb break="no"/>wand
+                        nach hier ab in ain <term ref="lem000700">buͦchen</term>, die verzaichnet
+                        ist mitt ainem <term ref="lem006147.05">crûitz</term>, und von der selben
+                        buͦchen, so uff der stainwand stat, <lb/>gredy nach uffs <placeName
+                           ref="loc007703.02">Knoͤrly</placeName> und dem <placeName
+                           ref="loc007703.02">Knoͤrly</placeName> nach umhy und ussem <placeName
+                           ref="loc007703.02">Knoͤrly</placeName> in ain buͦchen, verzaichnet mitt
+                        ainem crûitz. Uß derselben <lb/>buͦchen der gredy nach aber in ain buͦchen,
+                        ist oûch verzaichnet mitt ainem crûitz. Und uß derselben buͦchen inß <term
+                           ref="lem000288.09">thobil</term>, dem tho<lb break="no"/>bil nach als
+                        wytt die alpp gat <abbr>etc</abbr>.</seg>
+                     <seg n="3">Oûch wo <term ref="lem000759">holtz</term> by den <term
+                           ref="lem001827">fridhegen</term> stat, sond baid tail nitt darvon howen,
+                        dann zuͦ den <lb/>fridhegen.</seg>
+                     <seg n="4">Oûch in soͤlicher <term ref="lem008672">tailüng</term> und <term
+                           ref="lem008442">marchen</term> ist abgrett: Welcher tail holtz manglet,
+                        es sy min gnediger herr oder die nach<lb break="no"/>püren, mugend wol <term
+                           ref="lem001639.11">zymmerr holtz</term> howen, uff welchem tail mans
+                        findt und stat zuͦ der alpp, wie dan baid tail noturfftig sind <lb/>zuͦ
+                        aller nottürfft <abbr>etc</abbr>.</seg>
+                     <seg n="5">Welcherr tail <term ref="lem001145">steg und weg</term> bedoͤrffte
+                        und noturfftig wurde uff die <term ref="lem000027">waiden</term> oder wo sys
+                        bedoͤrffend, sond steg <lb/>und weg haben nach aller notürfft.</seg>
+                     <seg n="6">Oûch ist soͤliche tailüng geschehen und sol dienen, was man mitt dem
+                           <term ref="lem000310">vech</term> kan waiden und <lb/>
+                        <term ref="lem001166">etzen</term>. Und was man mitt <term
+                           ref="lem000055.01">schaffen</term> und <term ref="lem001394"
+                           >gaißen</term> etzen und waiden kan, sol yewederen tail bruchen und
+                        etzen, wie von alterr har <lb/>baid tail brucht und geetzt hond.</seg>
+                     <seg>Und des zuͦ warem urkünd, so han ich, obgenanterr <persName
+                           ref="per007514a">Hans Schwartz</persName>, zuͦ zûignus der gemelten
+                        <lb/>tailüng und zuͦ zûignus der warhait min aigen insigel offennlich
+                        gehengkt an disen brieff, doch minenn gnedigen <orgName ref="org001197"
+                           >herren von Gla<lb break="no"/>ris</orgName>, oûch mir und minen erben,
+                        one schaden. Jetz han ich, obgemelterr <persName ref="per007516a">Michel
+                           Pûsch</persName>, zuͦ zûignus der warhait und von der tailüng <lb/>wegen
+                        min aigen insigell offennlich gehengkt an disen brieff, doch minen gnedigen
+                        herren <orgName ref="org001191">Schwytz</orgName> und <orgName
+                           ref="org001197">Glaris</orgName>, oûch mir und mi<lb break="no"/>nen
+                        erben, one schaden. Der geben ward uff <origDate when="1552-02-24">sanct
+                              <persName ref="per000375">Mathys</persName><note anchored="true">Die
+                              originale Schreibweise <orig>Mathys</orig> kann sich auf <persName
+                                 ref="per000340">Matthäus</persName> (21. September) oder auf
+                                 <persName ref="per000375">Matthias</persName> (24. Februar)
+                              beziehen.</note> tag, des hailgen zwoͤlffpotten, im jar, so man zelt
+                           nach <persName ref="per000353">Cristi</persName> geburt <lb/>thusig
+                           fǔffhundertt und im zway und fuňffzigisten jar</origDate>.<lb/>
+                     </seg>
+                  </p>
+               </div>
+               <pb facs="StAZH_C_I_Nr._3205_v"/>
+               <div org="uniform" sample="complete">
+                  <ab type="dorsal" place="verso">Wie <placeName ref="loc006126.01">Alpyla</placeName> alp mitt
+       den <orgName ref="org002807">nachpuren vonn Frümsen</orgName> thailtt <lb/>wordenn ist</ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab type="dorsal" place="verso" hand="later hand">Ingroßiert</ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab type="archiving reference" place="verso">N<hi rend="sup">o</hi>12; 1559; 19</ab>
+               </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div n="1" org="uniform" sample="complete">
+            <p>Vor dieser <term ref="key000759">Teilung</term>surkunde besitzt <orgName
+                  ref="org001786">Frümsen</orgName> die <placeName ref="loc006126"
+                  >Alpila</placeName> (heute gebräuchlicher Frümsner Alp) gemeinsam mit dem <orgName
+                  ref="org000384">Herren von Sax-Hohensax</orgName>. Durch diese Teilung erhält der
+               Herr von Sax-Hohensax den in späteren Quellen als <placeName ref="loc008598.01"
+                  >Schlossalp</placeName> bezeichnete nördliche Teil der Alp, während Frümsen den
+               südlichen Teil gegen <placeName ref="loc007702.01">Falchestei</placeName> behält
+                  (<ref>SSRQ_SG_III_4_249</ref>; <bibl><ref
+                     target="http://permalink.snl.ch/bib/chbsg000141314">Kreis 1923</ref>, S.
+                  10).</bibl> Die Teilungsurkunde ist sehr gut erhalten und liegt im Staatsarchiv
+                  <placeName ref="loc000065">Zürich</placeName>. Zürich ist nach dem Kauf der
+               Freiherrschaft Sax-Hohensax <date when="1615">1615</date> Eigentümerin der Herrschaft
+               und spätere Besitzerin des einen Teils der <term ref="key000006">Alp</term>. Um ihre
+               Besitzansprüche zu sichern, lässt Zürich die Urkunde in verschiedene Kopialbücher
+               eintragen (<bibl><ref>StAZH B I 256, fol. 586r–587v</ref>; <ref>F II a 383 b,
+                     fol. 88r–89r</ref></bibl>; <bibl><ref>StASG AA 2 B 001a,
+                  fol. 77r–78r</ref></bibl>).</p>
+         </div>
+         <div n="2" org="uniform" sample="complete">
+            <p>Im Jahr <date when="1618">1618</date> wird auf diese Teilungsurkunde von <date
+                  when="1552">1552</date> Bezug genommen: <persName ref="per007520a">Jakob
+                  Walser</persName> will alleine und nicht mehr zusammen mit der Gemeinde <orgName
+                  ref="org001786">Frümsen</orgName> alpen. Einige Jahre zuvor ist ihm dies durch ein
+               gerichtliches Urteil bewilligt worden. Die beiden Ratsherren aus <placeName
+                  ref="loc000065">Zürich</placeName> stellen jedoch 1618 fest, dass dieses Urteil
+               dem Teilbrief von 1552 widerspricht, weshalb diese urteilen, dass 1552 nur die Alp in
+               zwei Teile geteilt wurde und es unüblich sei, dass in gemeinen Alpen einer allein
+               alpe, weshalb niemand auf der Alpila allein sennen dürfe (<bibl><ref>StASG AA 2 B
+                     001a, fol. 78v</ref></bibl>). Zur Alpila vgl. auch
+               <ref>SSRQ_SG_III_4_158</ref>; <bibl><ref>StASG AA 2 A 2-4-23</ref></bibl>.</p>
+         </div>
+         <div n="3" org="uniform" sample="complete">
+            <p>Dies ist die einzige überlieferte Alpteilung in <placeName ref="loc000278"
+                  >Sax-Forstegg</placeName>. Zu einer Alpteilung im <placeName ref="loc000120"
+                  >Sarganserland</placeName> vgl. <bibl><ref
+                     target="https://www.ssrq-sds-fds.ch/online/SG_III_2/index.html#p_808">SSRQ SG
+                     III/2.2</ref>, Nr. 217</bibl>.</p>
+         </div>
+      </back>
+   </text>
+</TEI>

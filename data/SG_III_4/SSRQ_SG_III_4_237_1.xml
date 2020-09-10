@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-08-15"/>
+            <date type="print"/>
+            <availability><p xml:id="facs">Sibylle Malamud</p></availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_237_1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>PGA Sevelen C15</idno>
+               </msIdentifier>
+               <head>Weisung für die Landvogtei Werdenberg, wie sich die Wächter gegenüber Bettlern und Fahrenden verhalten sollen</head>
+               <msContents>
+                  <summary><p>Den Gemeindevorstehern wird befohlen, fremde Fahrende auszuschaffen. Nur noch alte, kranke,
+                        arbeitsuntaugliche Personen, Handwerksgesellen sowie Frauen mit
+                        Kleinkindern, die über obrigkeitliche Pässe verfügen, dürfen auf den
+                        Landstrassen betteln. Sie können jedoch nicht länger als eine Nacht in der
+                        Landvogtei Werdenberg bleiben. Arme aus benachbarten Orten (Wartau,
+                        Wildhaus, Gams etc.) dürfen einmal pro Woche auf den Landstrassen um Almosen
+                        betteln. Starken Bettlern, Männern oder Frauen, gestattet man keinen
+                        Aufenthalt. Alle Vorgesetzten sollen Acht geben, dass diese Ordnung beachtet
+                        wird. Die Wächter sollen täglich dem Landvogt Bericht erstatten. Ist ein
+                        Wächter in Not, soll man ihm zu Hilfe eilen. Die Vorgesetzten sollen
+                        schauen, dass nur taugliche Leute Wache halten.</p></summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <author role="scribe"><persName ref="per008878a">Joachim Legler</persName>, Landschreiber</author>
+                     <filiation type="current">Aufzeichnung (Doppelblatt)</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="36.0"/>
+                              <width unit="cm" quantity="21.5"/>
+                           </dimensions>
+                        </extent>
+                        <condition>fleckig</condition>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1758-09-02"/>
+                     <origPlace>Schloss Werdenberg</origPlace>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000800">Vorgesetzter</term>
+               <term ref="key000341">Ordnung</term>
+               <term ref="key004250">Landstrasse</term>
+               <term ref="key000090">Wächter</term>
+               <term ref="key004079">Spende</term>
+               <term ref="key004631">Arme</term>
+               <term ref="key000361">Arme Leute</term>
+               <term ref="key000220">Fürsorge</term>
+               <term ref="key000186">Schloss</term>
+               <term ref="key004404">Strolch</term>
+               <term ref="key003534">Gemeinde</term>
+               <term ref="key000491">Mandat</term>
+               <term ref="key000581">Bettler</term>
+               <term ref="key004401">Bettelwesen</term>
+               <term ref="key004249">Armut</term>
+               <term ref="key001004">Ausweis</term>
+               <term ref="key003494">Landstreicher</term>
+               <term ref="key003741">Landstreicherin</term>
+               <term ref="key000990">Fahrende</term>
+               <term ref="key000803">Kind</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <div>
+                  <p><pb n="1r" facs="PGA_Sevelen_C15_1r"/>
+                     <lb/>Hiermit wirdt den <term ref="lem002891">vorgesezten</term> jeder <term ref="lem006896"
+                        >gmeindt</term>
+                     <lb/>oberkeitlich gebotten, befohlen und <term ref="lem004362">intimiert</term>, <lb/>wie
+                     sich gegenwärtige <term ref="lem001838">wächter</term> zu verhalten haben, <lb/>daß alles
+                     <term ref="lem004182">strolchen</term> und <term ref="lem016318.02">lumpen gesindt</term>,
+                     so in <lb/>allhiessige graffschafft von zeit zu zeit ein zu <lb/>schleichen sich erfrächen
+                     möchte, die abhelffliche <lb/>maaß könte geschaffet werden und zum landt hin<lb break="no"
+                     />auß und zwaren meistens über den <placeName ref="loc000644">Rhein</placeName> sollendt
+                     <lb/><term ref="lem000837">geferket</term>, auch kein anderen alß hernach specifi<lb
+                        break="no"/>cierten, daß <term ref="lem014134">bethlen</term> ald <term ref="lem009297"
+                           >husieren</term> gestattet werden <lb/>solle:</p>
+                  <p><lb/>1mo, nemblich alten <term ref="lem000849">armmen</term>, zur <term ref="lem005104"
+                     >arbeit</term> untauglichen, <lb/><term ref="lem004314.05">presthafften</term> persohnen,
+                     insofehren selbe mit <lb/>autenischen hoch oberkeitlichen genugsammen <term
+                        ref="lem016320.02">pässen</term>
+                     <lb/>versehen. </p>
+                  <p>
+                     <lb/>2do, <term ref="lem012908">handtwercksgesellen</term>, die abermahls mit glaub<lb
+                        break="no"/>würdigen <term ref="lem000582">kundtschafft</term> und <term ref="lem016320.02"
+                           >pässen</term> versorget. </p>
+                  <p>
+                     <lb/>3tio, armen, ellenden <term ref="lem000655">weiberen</term> mit kleinen <term
+                        ref="lem000130">kinderen</term>, <lb/>auch etwann kleinen kinderen, die abermahls ein
+                     <lb/><sic>werders</sic> kantlich in der <term ref="lem005260">nachbahrschafft</term> ald
+                     aber <lb/>widermahls mit genugsamen <term ref="lem016320.02">pässen</term> versehen.</p>
+                  <p>
+                     <lb/>4to, dißeren solle gestattet werden, daß <term ref="lem002264">allmossen</term> zu
+                     <lb/>forderen, jedoch daß solche einig und allein der <lb/><term ref="lem000596"
+                        >landtstrassen</term> sich bedienen und sich der <term ref="lem000171">felderen</term>
+                     <lb/>und <term ref="lem016319.02">nebendt wegen</term> gänzlich entmüessigen sollen. <lb/>Zu
+                     dem endt ein jeder auff die felder und nebendt <lb/>weg genauwe und fleissige achtung geben
+                     solle.</p>
+                  <p>
+                     <lb/>5to, mit dem klaren verstandt, daß selbe nit mehr alß <lb/>ein <term ref="lem002631"
+                        >nacht</term> in der graffschafft geduldet und <term ref="lem003476">beherberg<lb
+                           break="no"/>et</term> werden sollen, wie dann solches letsten <term ref="lem001881"
+                              >sontag</term> per <lb/><term ref="lem005370">mandatum</term> publiciert worden.</p>
+                  <p>
+                     <lb/>6mo, waß danethin veritable, arme persohnen auss <lb/>der <term ref="lem005260"
+                        >nachbahrschafft</term> alß <placeName ref="loc000828">Warthauw</placeName>, <placeName
+                           ref="loc000845">Wildthauß</placeName>, <placeName ref="loc000211">Gambß</placeName>
+                     <lb/>und underen herrschafften betrifft, denen solle zu <lb/>gelaßen werden, <term
+                        ref="lem005247">wochentlich</term> ein mahl daß <term ref="lem002264">allmoßen</term>
+                     <lb/>zu forderen, mehrers aber nit, abermahls in dem <lb/>verstandt, daß sie der <term
+                        ref="lem000596">landtstraßen</term> sich bedienen <lb/>und der <term ref="lem000171"
+                           >felderen</term> und <term ref="lem016319.02">nebendt wegen</term> sich gänzlich
+                     <lb/>entäußeren sollen.</p>
+                  <p>
+                     <lb/>7mo, <term ref="lem016321.02">starcken</term>, zur <term ref="lem005104"
+                        >arbeit</term> tüchtigen, sowohlen <term ref="lem005623">mans alß <lb/>weibs
+                        persohnen</term>, sie möchten sein von wanen sie <lb/>wolten, wirdt mann
+                     kein auffenhalt gar nit gestatten, <lb/>sonderen von allhiessiger graffschafft
+                     gänzlich <lb/>abhalten. <pb n="1v" facs="PGA_Sevelen_C15_1v"/>
+                     <lb/>Durchpassierende <term ref="lem004997.03">deßerdeürs</term> solle mann biß
+                     auff <lb/>die <term ref="lem004308">gränzen</term> begleiten.</p>
+                  <p>
+                     <lb/>Letstlich danne sollendt alle <term ref="lem002891">vorgesezten</term> ein fleissige
+                     <lb/>und genauwe aufsicht tragen, ob demme fleissig <lb/>nachgelebt werde. Auch sollen die
+                     <term ref="lem001838">wächter</term>
+                     <date dur="R/P1D">alle <lb/>tag</date> in daß <term ref="lem000376">schloss</term> kommen
+                     und dem hochgeachten <lb/>und gnädigen herr landtvogt anzeigen, waß sich <lb/>selben tag
+                     zugetragen, damit danne die weitere <lb/>befehle könen auffgetragen werden. Und so <lb/>sich
+                     etwaß verdächtiges befunde und ein <term ref="lem001838">wächter</term>
+                     <lb/>hilff von nöthen, solle ein jeder, der um und <lb/>an ist, selbige leisten, nach
+                     auffhabender eydts<lb break="no"/>pflicht, demme zu gehorsammen bey hoch erwartender
+                     <lb/>straff und ungnadt. </p>
+                  <p>
+                     <lb/>Auch sollen die <term ref="lem002891">vorgesezten</term> die <term ref="lem003309"
+                        >verordnung</term> machen, <lb/>daß niemandt alß taugliche <term ref="lem000075"
+                           >leüth</term> auff die <lb/><term ref="lem011359.04">wachten</term> gethan werden. Welchen
+                     dißer befehl <lb/>alle zeit soll übergeben und, so einer nit selber <lb/><term
+                        ref="lem003473">lessen</term> könte, vorgeleßen werden.</p>
+                  <p>
+                     <lb/>Überigens behalten sich unßer hochgeachte und <lb/>gnädige herr landtvogdt vor, fahls
+                     dißer <term ref="lem004541.04">ordinanz</term>
+                     <lb/>nicht exact nachgelebt wurde, nach befindender <lb/>dingen weitere und mehrere
+                     verfüegungen <lb/>zu thun, welches zum verhalt dienen soll.</p>
+                  <p>
+                     <lb/>Actum schloss <origPlace ref="loc000015">Werdenberg</origPlace>, <lb/>den <origDate
+                        when="1758-09-02">2. 7ber anno 1758</origDate>. <lb/><persName ref="per008878a">Joachim
+                           Leglern</persName>, <lb/>landtschreiber 
+                  </p>
+               </div>
+               <pb facs="PGA_Sevelen_C15_2v"/>
+               <div>
+                  <ab type="dorsal" place="verso" hand="hand18c"><lb/><term ref="lem004541.04"
+                     >Ordinanz</term></ab>
+               </div>
+               <div>
+                  <ab type="archiving reference" place="verso"><lb/><del>N <unclear>9</unclear>; N 14</del></ab>
+               </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div>
+            <p>Dieselbe Weisung an die <term ref="key000090">Wächter</term> über Bettler und Landstreicher
+               wird ein Jahr später am <date when="1759-08-17">17. August 1759</date> nochmals ausgegeben
+               (<bibl><ref>PA&#160;Litscher Mappe</ref></bibl>). Sonst sind für <placeName
+                  ref="loc000440">Werdenberg</placeName> kaum <term ref="key000491">Mandate</term> zum
+               Bettelwesen erhalten. Einige Einträge befinden sich im sogenannten Verkündbuch
+               (<bibl><ref>StASG AA&#160;3&#160;B&#160;6</ref></bibl>, 11. Mai 1735). </p>
+            <p>Häufiger sind sogenannte Bettelmandate in <placeName ref="loc000278"
+                  >Sax-Forstegg</placeName> überliefert, die von Zürich für alle seine
+               Untertanengebiete ausgestellt werden. So erlässt <orgName ref="org001196"
+                  >Zürich</orgName> z.&#160;B. <date when="1715">1715</date> ein gedrucktes <term
+                  ref="key000491">Mandat</term> an alle Untertanengebiete über die <term
+                  ref="key004400">Jagd auf Bettler</term>: Darin heisst es, dass wegen der
+               herrschenden <term ref="key003956">Seuchen</term> und <term ref="key003496"
+                  >Krankheiten</term> das Land von fremdem Volk und <term ref="key000581"
+                  >Bettlern</term> zunehmend überschwemmt werde, weshalb eine <term ref="key004400"
+                  >Betteljagd</term> nötig sei: Am 7., 8. und 9. August sollen in jedem <term
+                  ref="key000712">Dorf</term> die fremden Bettler mit Frauen und Kindern
+               (ausgenommen ehrliche Personen mit Pässen) zusammengetrieben werden. Die <term
+                  ref="key000800">Vorgesetzten</term> sollen die einheimischen Bettler in ihre
+               Gemeinde zurückführen lassen und ihnen nahelegen, sich bei wirklicher Not beim <term
+                  ref="key000301">Pfarrer</term> zu melden. Wer dies missachtet, wird mit <term
+                  ref="key005425">Zwangsarbeit</term> (Schellenwerk) bestraft. Die übrigen fremden
+               Bettler sollen durch bewaffnete Personen an den <placeName ref="loc000644"
+                  >Rhein</placeName> oder andere <term ref="key000305">Grenzen</term> geführt
+               werden. Starke, verdächtige <term ref="key000581">Bettler</term> sollen gefangen
+               genommen und zur Abschreckung entweder in entfernte <term ref="key003386"
+                  >Kriegsdienste</term> oder auf Galeeren verschafft werden
+                     (<bibl><ref>EKGA&#160;Salez 32.01.42, Sicherheit und Ordnung,
+                  20.07.1715</ref></bibl>; weitere Mandate über fremdes Bettelvolk siehe
+                  <bibl>EKGA&#160;Salez 32.01.42, Sicherheit und Ordnung, <ref>02.06.1676</ref>;
+                     <ref>01.09.1762</ref>; <ref>14.07.1779</ref>; <ref>32.01.45, Wohlfahrt,
+                  29.04.1713</ref>; <ref>32.01.52, Handelswirtschaft, 07.08.1715</ref></bibl>;
+                     <bibl><ref>StAZH&#160;A&#160;346.6,&#160;Nr.&#160;231</ref></bibl> sowie die
+               Artikel in den <term ref="key000492">Grossen Mandaten</term>
+               <ref>SSRQ_SG_III_4_153</ref>, Art.&#160;23–24; <ref>SSRQ_SG_III_4_176</ref>,
+               S.&#160;12–13). <term ref="key004400">Betteljagden</term> werden auch nach dem Ende
+               des Ancien Régime durchgeführt (<bibl>PA&#160;&#160;Hilty&#160;S&#160;006/128</bibl>
+               [1804]). </p>
+         </div>
+         
+      </back>
+   </text>
+</TEI>

@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-08-15"/>
+            <date type="print"/>
+            <availability><p xml:id="facs">Sibylle Malamud</p></availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_151_1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>Burgerarchiv Grabs U 1605-1</idno>
+               </msIdentifier>
+               <head>Spruch von Glarus betreffend die Entrichtung des Weihnachtsholzes durch die Ausbürger</head>
+               <msContents>
+                  <summary>
+                     <p>Landammann und Rat von Glarus beschliessen auf die Anfrage von Ulrich
+                        Montaschiner und Leonhard Gantenbein als Vertreter der Ausbürger des
+                        Städtchens Werdenberg wegen des Weihnachtsholzes, das die Ausbürger wie die
+                        Bürger bisher nicht entrichtet haben und das nun aber von Landvogt Rudolf
+                        Zay eingefordert wird, folgendes: Ausbürger, die vor 1536 das Bürgerrecht
+                        angenommen haben, müssen weiterhin kein Weihnachtsholz liefern. Wer aber
+                        nach diesem Jahr aus der Stadt gezogen ist, hat die Abgabe wie andere
+                        Landleute zu entrichten.</p>
+                     <p>Der Aussteller siegelt.</p>
+                  </summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <author role="scribe"><persName ref="per002336">Adam Böniger</persName>,
+                        Landschreiber von Glarus</author>
+                     <filiation type="current">Original</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Pergament</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="21.5"/>
+                              <width unit="cm" quantity="49.5"/>
+                           </dimensions>
+                           <dimensions type="plica">
+                              <width unit="cm" quantity="5.0"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <sealDesc>
+                     <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI"
+                           n="1"
+                           nontei:condition="absent"
+                           nontei:attachment="sealed on a parchment tag">
+                        <orgName role="sigillant" ref="org001197">Glarus</orgName>
+                     </seal>
+                  </sealDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1605-09-12"/>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key005168">Weihnachtsholz</term>
+               <term ref="key000134">Bürgerrecht</term>
+               <term ref="key000109">Stadt</term>
+               <term ref="key003544">Land</term>
+               <term ref="key000086">Bürger</term>
+               <term ref="key000445">Landmann</term>
+               <term ref="key004192">Wohnsitzwechsel</term>
+               <term ref="key000087">Ausbürger</term>
+               <term ref="key000471">Schriftlichkeit</term>
+               <term ref="key000524">Holz</term>
+               <term ref="key000273">Abgabe</term>
+               <term ref="key003217">Freiheit</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <div org="uniform" sample="complete">
+                  <pb facs="Burgerarchiv_Grabs_U_1605-1r"/>
+                  <p>
+                     <seg>
+                        <lb/>Wir, <orgName ref="org003239">landtaman unnd rhate zuo
+                        Glarus</orgName>, bekhennend offenbar <lb/>und thund kundt aller
+                        menigklichen mit dißem brieff, daß uff hüt dato, alls wir mit vollkomnem
+                        gwalt und gseßnem rhate byeinandern versamt <lb/>gweßen, alda vor uns
+                        erschinen sind die ehrenhafften und achtbaren <persName ref="per009095"
+                           >Ulrych Muntenschyner</persName> und <persName ref="per009096a">Leonhardt
+                           Gantenbein</persName>, innamen und als befelchshabere <lb/>unßrer
+                        getrüwen, lieben underthonen von <orgName ref="org003343.01">
+                           <term ref="lem000724">ußburgeren</term>
+                        </orgName> der graffschafft <placeName ref="loc000440"
+                           >Werdenberg</placeName>, und uns fürtragen und eroffnen laßen,</seg>
+                     <seg>welchergstalt gemelte <lb/>ußburger, so uf der <term ref="lem014484"
+                           >landtschafft</term> seßhafft, bißhar das <term ref="lem014652.04"
+                           >wyenachtholtz</term> zegeben unersucht, sondern deßen so woll als die
+                           <term ref="lem000227.10">burger</term> in der <term ref="lem000184"
+                           >stat</term> ohne anforderung <lb/><term ref="lem015347.02">fry und
+                           ledig</term> gelaßen, biß vor etwas zits habe unßer domalen
+                           <sic>reigierender</sic> landtvogt <persName ref="per009097a">Rudolff
+                           Zäch</persName> inen daßelbig auch anerfordert, welcher nüwerung <lb/>sy
+                        sich zum höchsten beschwert, dann sy solches irem verhoffen nach vermög ir
+                        by habenden brief und siglen zeerlegen nit pflichtig noch schuldig. Dero<lb
+                           break="no"/>wegen syen sy beide, gemelter <persName ref="per009095"
+                           >Ulrych Muntenschiner</persName> und <persName ref="per009096a">Leonhart
+                           Gantenbein</persName>, von gedachten <term ref="lem000724"
+                           >ußburgern</term> abgeordnet, uns in irem namen gantz underthenig
+                        <lb/>und zum flyßigsten zebiten, sy by iren alten rechtsaminen, brief und
+                        siglen zehandthaben und zeschirmen und gedachten landtvogt <persName
+                           ref="per009097a">Zächen</persName> von synem nüw <lb/>angefangnen
+                        fürnemen abzewyßen <abbr>etc</abbr>.</seg>
+                     <seg>Unnd als wir gesagter ußburgern pit und anhalten angehört und vernomen,
+                        uns auch in ange<lb break="no"/>düten brief und siglen ersechen, hieruf
+                        haben wir uns deßen erkhent, erlütert und gesprochen:</seg>
+                     <seg>Namlich, das die <term ref="lem000724">ußburger</term> nach vermög alten
+                        <lb/>brief und siglen söllen gehalten werden. Wellicher artickhel in
+                        selbigen brief und siglen von wort zewort, was das <term ref="lem014652.02"
+                           >wienachtholtz</term> belangt, also wie volgt lutet:</seg>
+                     <seg>
+                        <lb/>(Welliches aber alt ererbt <term ref="lem000227.10">burger</term> sind,
+                        sy <term ref="lem015346.02">sitzend in der stat</term> ald <term
+                           ref="lem015345.02">uf dem landt</term>, und die so brief und sigel
+                        habend, das sy von einem oberherren zu <placeName ref="loc000440">Werden<lb
+                              break="no"/>berg</placeName>
+                        <term ref="lem000025">gefryet</term>, dieselbigen all söllen burger blyben,
+                        so lang sy in der herrschafft <placeName ref="loc000440"
+                           >Werdenberg</placeName> geseßen und <term ref="lem000742"
+                           >hußhäblich</term> sind, deßen datum ist im <origDate when="1536"
+                           >fünffzechenhundert <lb/>dryßig und sechsten jarre</origDate> durch
+                        herren amman <persName ref="per006247a">Äbbly</persName> seligen besiglet
+                           worden).<note anchored="true">Vgl. <ref>SSRQ_SG_III_4_115</ref>.</note>
+                     </seg>
+                     <seg> Deßwegen laßend wir es, wie obgemelt, by jetz ingeschrybnem artickh<lb
+                           break="no"/>ell allerdingen verblyben, mit der ußtruckhenlichen
+                        erlüterung, das alle die <term ref="lem000724">ußburger</term>, so ir
+                        bewyßung durch lüt oder brief darbringen und thun können, das <lb/>sy vor
+                        obgemelts briefs datum alte <term ref="lem000227.10">burger</term> gsin,
+                        diselbigen söllen deß <term ref="lem014652.02">wienachtholtzes</term> wie
+                        von alter har gentzlich unersucht, fry und ledig syn und blyben. <lb/>Welche
+                        ußburger aber nach und sit ufrichtung vorgehörts briefs datum ußert die
+                           <term ref="lem000184">stat</term> gezogen und <term ref="lem015345.02">uf
+                           dem land sitzend</term>, dieselben söllen glych so woll als die
+                           <lb/><term ref="lem000507">landtlüt</term> ohne underscheid das
+                        wyenachtholtz zeerlegen pflichtig und schuldig syn.</seg>
+                     <seg>Dißer, unßer rhatserkantnuß begärtend vilerzelte <persName ref="per009095"
+                           >Ulrych Munten<lb break="no"/>schiner</persName> und <persName
+                           ref="per009096a">Leonhart Gantenbein</persName> innamen der ußburgern
+                        brief und sigel, die wir inen under unßers landts secret verwart zustellen
+                        laßen, der geben ist <lb/>uf <origDate when="1605-09-12">donstag, den
+                           zwölfften tag septembris, von <persName ref="per000353"
+                              >Christi</persName>, unßers einigen erlößers und selligmachers,
+                           gepurt, als man zalt sechszechenhundert und fünff jarre</origDate>.</seg>
+                  </p>
+               </div>
+               <pb facs="Burgerarchiv_Grabs_U_1605-1v"/>
+               <div org="uniform" sample="complete">
+                  <ab type="chancery notation" place="sub plica">
+                     <lb/><persName ref="per002336">Adam Böniger</persName>,
+       landtschriber <lb/>zu <placeName ref="loc000326">Glarus</placeName>
+                     <abbr>etc</abbr>
+                  </ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab type="dorsal" place="verso" hand="hand18c">
+                     <lb/>Wegen des wienachtholtz der
+       ußbürgeren</ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab place="verso" type="archiving reference" hand="hand18c">
+                     <lb/>N<hi rend="sup">o</hi> 3</ab>
+               </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div n="1" org="uniform" sample="complete">
+            <p>Laut <term ref="key000122">Urbar</term> von 1581 müssen alle <orgName ref="org003242"
+                  >Bewohner von <placeName ref="loc000440">Werdenberg</placeName></orgName> mit
+               Ausnahme der <term ref="key000086">Bürger</term> in der <term ref="key000109"
+                  >Stadt</term> an <date when="--12-24">Weihnachten</date> ein <term ref="key000128"
+                  >Fuder</term>
+               <term ref="key000524">Holz</term> abliefern (<ref>SSRQ_SG_III_4_143</ref>, Art. 5).
+               Kurz darauf wird in einer Ratserkenntnis von 1582 vermerkt, dass alle Bürger
+               ausserhalb der Stadt (<term ref="key000087">Ausbürger</term>) diese <term
+                  ref="key000273">Abgabe</term> entrichten müssen (<ref>SSRQ_SG_III_4_145</ref>).
+               Trotzdem versuchen die Ausbürger, dieser Abgabe von einer Wagenladung Holz zu
+               entgehen. Obwohl <orgName ref="org001197">Glarus</orgName> bestimmt, dass die
+               Ausbürger Weihnachtsholz entrichten müssen, mit Ausnahme der Personen, die vor 1536
+               Ausbürger geworden sind, wird im Urbar von 1639 in einem Nachtrag zum Weihnachtsholz
+               vermerkt, dass die Ausbürger kein Holz geben müssen (<bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/58765cd7de484cb0b09c41c41e26d8b3"
+                     >LAGL AG III.2401:039</ref>, S. 7</bibl>). Die Ausbürger bleiben wohl von der
+               Entrichtung dieser Abgabe befreit bis in der sogenannten Remedur von 1725 an die
+               Urkunde von 1605 erinnert wird (<ref>SSRQ_SG_III_4_216</ref>, Art. 11). Daraus
+               entsteht eine neue Rechtsunsicherheit, die 1729 zu Streitigkeiten zwischen der
+               Obrigkeit Glarus und den Ausbürgern über das Weihnachtsholz führt (vgl. <bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/ef3c0d5912604c3b940d56d432de136e"
+                     >LAGL AG III.2425:019</ref>; <ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/5cf355f642ee4269992e42cc0ed3d679"
+                     >AG III.2425:020</ref>; <ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/c02cf686afda4ec1b2046e656c450a6b"
+                     >AG III.2425:021</ref>; <ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/00a70e70143c46fc988b7a62f1f6a48c"
+                     >AG III.2425:022</ref>; <ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/7dec259ea3b14e9c9ed0f3f617d2ec58"
+                     >AG III.2425:023</ref></bibl>; <bibl><ref>Burgerarchiv Grabs U 1731-1</ref>;
+                     <ref>U 1731-2</ref>; <ref>U 1731-3</ref></bibl>). Trotzdem sind im Urbar von
+               1754 die Ausbürger vom Weihnachtsholz befreit, doch mit einem Vermerk über die
+               darüber bestehende Rechtsunsicherheit und einer Abschrift der Urkunde von 1605
+                  (<ref>SSRQ_SG_III_4_229</ref>, S. 88–89).</p>
+         </div>
+         <div n="2" org="uniform" sample="complete">
+            <p>Zum <term ref="key005168">Weihnachtsholz</term> vgl. auch die <term ref="key000677"
+                  >Verzeichnisse</term> der Personen, die das Holz abliefern müssen im
+                     <bibl><ref>Burgerarchiv Grabs U 0001</ref>, <ref>U 0002</ref>, <ref>U 
+                     0004</ref>, <ref>U 0010</ref>, <ref>U 0011</ref></bibl>.</p>
+         </div>
+         <div n="3" org="uniform" sample="complete">
+            <p>Zu den <term ref="key000134">Rechten</term> der Bürger der Stadt <placeName
+                  ref="loc000016">Werdenberg</placeName> siehe <ref>SSRQ_SG_III_4_048</ref>;
+                  <ref>SSRQ_SG_III_4_049</ref>; <ref>SSRQ_SG_III_4_116</ref>. Am <date
+                  when="1640-09-13">13. September 1640</date> müssen sich alle <term ref="key000086"
+                  >Bürger</term> der Stadt bei Landvogt <persName ref="per002425">Jakob
+                  Feldmann</persName> anmelden bei Androhung des Verlusts des Bürgerrechts, um ihr
+                  <term ref="key000134">Bürgerrecht</term> zu erneuern. Der Landvogt erstellt eine
+               Liste mit den Namen aller Bürger (z. T. mit Kindern) aus dem Städtli <placeName
+                  ref="loc000016">Werdenberg</placeName> (23 Personen), aus <placeName
+                  ref="loc000198">Buchs</placeName> (5 Personen), <placeName ref="loc000428"
+                  >Räfis</placeName> (6 Personen), <placeName ref="loc000708">Sevelen</placeName>
+               und <placeName ref="loc000709.01">Sevelerberg</placeName> (8 Personen), <placeName
+                  ref="loc000755">Studen</placeName> (19 Personen), <placeName ref="loc000335"
+                  >Grabs</placeName> (25 Personen) und <placeName ref="loc006025">Grabser
+                  Berg</placeName> (25 Personen). Am Ende der Liste folgen die Namen von abwesenden
+               Personen sowie im <term ref="key000847">Ausland</term> wohnende Personen, die kein
+               Bürgerrecht mehr besitzen. Aus der Stadt sind 23 Personen aufgelistet, 9 davon mit
+               dem Vermerk ausgestorben, so z. B. einige Personen aus dem Geschlecht <orgName
+                  ref="org001806">Montaschiner</orgName> oder <orgName ref="org000541"
+                  >Hofmann</orgName> (<bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/2a91450d8707498aac54cae3daa69288"
+                     >LAGL AG III.2460:016</ref></bibl>).</p>
+         </div>
+      </back>
+   </text>
+</TEI>

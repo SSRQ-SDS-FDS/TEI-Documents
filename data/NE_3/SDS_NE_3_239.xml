@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome
+     3&#160;: Les points de coutume neuchâtelois</title>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="headerinfo"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <date type="electronic" when="2020-08-17"/>    <date type="print"/>
+    <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Collection des sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS_NE_3_239</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier>
+      <idno>AVN B 101.14.001, fol. 489v–490v</idno>
+     </msIdentifier>
+     <head>Barre contre un étranger</head>
+     <msContents>
+      <summary>Les bourgeois de Neuchâtel peuvent sur la base de leurs franchises faire saisir les
+       biens ou faire arrêter des étrangers à Neuchâtel. Pour rendre confessant un allié suisse, il
+       faut le citer devant le juge où il est domicilié.</summary>
+      <msItem>
+       <textLang>français</textLang>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="33"/>
+          <width unit="cm" quantity="23.5"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <origDate when="1671-12-21" calendar="Julian"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>
+      </origin>
+     </history>
+     <additional>
+      <listBibl>
+       <head/>
+       <bibl/>
+      </listBibl>
+     </additional>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key005021"/>
+     <term ref="key000366"/>
+     <term ref="key000027"/>
+     <term ref="key003521"/>
+     <term ref="key000494"/>
+     <term ref="key000103"/>
+     <term ref="key000920"/>
+     <term ref="key000815"></term>
+     <term ref="key001045"/>
+    </keywords>
+   </textClass>
+   <particDesc default="false"/>
+   <settingDesc default="false"/>
+  </profileDesc>
+ </teiHeader>
+ 
+ <text>
+  <group>
+   <text>
+    <body>
+        
+     
+     <pb n="489v" facs="AVN_B_101.14.001_0489v"/> 
+        
+     <div>
+      <head>
+       <lb/>Touchant la <term ref="lem014996">barre</term> qu’un bourgeois <lb/>de <placeName ref="loc007786"
+        >Neufchâtel</placeName> peut faire à un estranger. <lb/>Plus touchant la recherche &amp;
+       demande <lb/>que les alliés de la <placeName ref="loc001012.09">Suisse</placeName> se peuvent faire <lb/>les uns
+       aux autres pour les rendre confessants. </head>
+      <p>
+       <lb/>Sur la requeste presentée par <lb/>le <choice>
+        <abbr>s<hi rend="sup">r</hi></abbr>
+        <expan>sieur</expan>
+       </choice>
+       <persName ref="per010107">Vernede</persName>, <term ref="lem014972">procureur</term> de la <persName ref="per010109">dame vefve</persName> de feu <lb/>le <choice>
+        <abbr>s<hi rend="sup">r</hi></abbr>
+        <expan>sieur</expan>
+       </choice>
+       <persName ref="per010108">Antoine Monteil</persName>, par devant <choice>
+        <abbr>Mons<hi rend="sup">r</hi></abbr>
+        <expan>monsieur</expan>
+       </choice> le maistre <lb/>bourgeois &amp; <orgName ref="org003085">Conseil Estroit de la
+        Ville de <placeName ref="loc007786">Neufchâtel</placeName></orgName> le <lb/><origDate
+         when="1671-12-21" calendar="Julian">21<hi rend="sup">e</hi> decembre <hi rend="underline"
+       >1671</hi></origDate>, tendante aux fins d’avoir les <lb/>poincts de coustume suivans. </p>
+      <p>
+       <lb/>Premierement, si un bourgeois de <placeName ref="loc007786">Neufchatel</placeName>
+       <lb/>peut faire <term ref="lem014996.02">barrer</term> et arrester les biens &amp; effects d’un <lb/>estranger
+        <add place="above">sans</add> avoir <choice>
+        <abbr>oblig.</abbr>
+        <expan>obligation</expan>
+        </choice>, <term ref="lem014985.02">cedule</term>, confession ou debt liquide <lb/>contre iceluy. </p>
+      <pb n="490r" facs="AVN_B_101.14.001_0490r"/>
+      <p>
+       <lb/>Secondement, si celuy qui veut former demande <lb/>à un autre pour le rendre confessant,
+       le doit pas <lb/>rechercher par devant son juge ordinaire, <term ref="lem017830.02">riere</term> lequel <lb/>il est
+       domicilié. </p>
+      <p>
+       <lb/>En troisieme lieu, si un homme estant mort <lb/>sans enfans, laisse sa vefve
+       usufructuaire de ses <lb/>biens, si les heritiers d’iceluy doivent pas procurer <lb/>de faire
+       inventaire par voye de justice des biens par <lb/>luy delaissés, afin de les pouvoir relever
+       après la <lb/>mort de l’usufructuaire, &amp; si à deffaut d’un inventaire <lb/>formel on peut
+       faire un relief de cette nature. </p>
+      <p>
+       <lb/><orgName ref="org003085"><choice>
+         <abbr>Mesd. s<hi rend="sup">rs</hi></abbr>
+         <expan>Mesdits sieurs</expan>
+        </choice> du Conseil</orgName> ayans eu advis &amp; meure <lb/>premeditation par ensemble,
+       <term ref="lem015635.04">baillent</term> par declaration <lb/>suivant la coustume usitée en la souveraineté de
+        <lb/><placeName ref="loc007785">Neufchatel</placeName> de pere à fils et de tout temps
+       immemorial <lb/>jusqu’à present, voire suivant une declaration desja <lb/>rendue le <date
+        when="1623-02-21" calendar="Julian">21<hi rend="sup">e</hi> de febvrier <hi rend="underline">1623</hi></date><note>Voir <ref>SDS_NE_3_075</ref>.</note>
+       la coustume estre <lb/>telle. </p>
+      <p>
+       <lb/>Assavoir sur le premier poinct, que les bourgeois <lb/>de <placeName ref="loc007786"
+        >Neufchâtel</placeName> par privilege special contenu en leurs <lb/>franchises p<del
+         rend="blackened">a</del><add place="above">e</add>uvent faire <term ref="lem014996">barre</term>, gager &amp; arrester
+       <lb/>les biens meubles de leurs debteurs &amp; de leurs fiances <lb/>qui ne sont pas de la
+       ville, ains estrangers&#160;: et ce au <lb/>chateau et en la ville, hors lieux saincts, voire en
+       <lb/>tout temps, de jour ou de nuict, hormis aux jours <lb/>de dimanches &amp; foires
+       franches, lesquelles foires franches <lb/>durent <date dur="P3D">trois jours</date> en cette ville. Assavoir le jour
+       de <lb/>la foire, le jour devant &amp; le jour après, content <lb/>chacun jour depuis la
+       minuict precedente jusqu’à <lb/>la minuict suivante. </p>
+      <p>
+       <lb/>Sur le second poinct, <term ref="lem015635.04">baillent</term> aussi par <lb/>declaration, que entre les
+       alliés de la <placeName ref="loc001012.09">Suisse</placeName> un homme <lb/>qui veut former
+       une demande à un autre pour le <lb/>rendre confessant, il est obligé de le rechercher
+       <lb/><term ref="lem017830.02">riere</term> son juge où il est domicilié. Mais un estranger <lb/>ne peut jouir du benefice des
+       alliés <choice>
+        <abbr>dud.</abbr>
+        <expan>dudit</expan>
+       </choice>
+       <placeName ref="loc007786">Neufchâtel</placeName>. </p>
+      <p>
+       <lb/>Pour le troisième poinct, il est renvoyé au <pb n="490v" facs="AVN_B_101.14.001_0490v"/>
+       <lb/><term ref="lem014980.09">jugement de messieurs du Conseil &amp; justice</term>
+       <choice>
+        <abbr>dud.</abbr>
+        <expan>dudit</expan>
+       </choice>
+       <lb/><placeName ref="loc007786">Neufchâtel</placeName>. </p>
+      <p>
+       <lb/>Ce qu’a esté ainsi passé, conclud &amp; arresté les <lb/>an &amp; jour que devant, &amp;
+       ordonné à moy secretaire <lb/>de Ville l’expedier en cette forme sous le <term ref="lem016327">seel</term> de
+       la <lb/>mayorie &amp; justice <choice>
+        <abbr>dud.</abbr>
+        <expan>dudit</expan>
+       </choice>
+       <origPlace ref="loc007786">Neufchâtel</origPlace>, &amp; signature de <lb/>ma main. </p>
+     </div>
+      
+      <div>
+       <p>
+        <lb/>Extrait comme devant.
+       </p>
+       <signed><persName ref="per008992"><choice><abbr>N</abbr><expan>Nicolas</expan></choice> Huguenaud</persName> <figure type="notarial sign"/></signed>
+      </div>
+     
+       
+    </body>
+   </text>
+  </group>
+ </text>
+</TEI>

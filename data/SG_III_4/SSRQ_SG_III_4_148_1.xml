@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften
+     und Landstädte, Band 4: Die Rechtsquellen der Grafschaft Werdenberg, Freiherrschaft
+     Sax-Forstegg und Herrschaft Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-08-15"/>
+            <date type="print"/>
+            <availability><p xml:id="facs">Staatsarchiv St. Gallen (StASG)</p></availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_148_1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>StASG AA 2 U 41</idno>
+               </msIdentifier>
+               <head>Vereinbarung zwischen dem Kloster St. Gallen, den Freiherren von Sax-Hohensax
+                  und Altstätten über die Huldigung und die Hochgerichtsbarkeit in Lienz</head>
+               <msContents>
+                  <summary>
+                     <p>Abt Bernhard von St. Gallen, Heinrich Bräm, Bannerherr, Jost von Bonstetten,
+                        beide Ratsherren von Zürich und Vormünder von Friedrich Ludwig von
+                        Sax-Hohensax, sowie der Stadtammann und Rat der Stadt Altstätten vergleichen
+                        sich in Altstätten über die hohe Gerichtsbarkeit in der Lienz, die einem
+                        Freiherrn von Sax-Hohensax gehört:</p>
+                     <p>1. Die Bauernschaft in der Lienz soll dem Freiherrn von Sax-Hohensax als
+                        Inhaber der hohen Obrigkeit huldigen, wie sie zuvor dem Rheintaler Landvogt
+                        der acht Orte geschworen hat, die niedergerichtlichen Rechte des Klosters
+                        St. Gallen werden nicht angetastet.</p>
+                     <p>2. Wenn in der Lienz Frevel oder Bussen anfallen, soll dem Freiherrn von
+                        Sax-Hohensax der dritte Teil zukommen, wie vorher den acht Orten. Der Einzug
+                        der Bussen erfolgt wie früher.</p>
+                     <p>3. Wenn sich Vergehen, die vor das Hochgericht gehören, innerhalb der
+                        Grenzen von Lienz ereignen, sollen die Freiherren von Sax-Hohensax die Täter
+                        in der Lienz verhaften und gefangen halten, bis geklärt ist, ob es sich um
+                        eine Kriminalsache handelt. Bei niederen Vergehen oder unsicheren Delikten
+                        ist das Gericht in Altstätten zuständig. Sollte sich bei einer Verhandlung
+                        vor dem niederen Gericht jedoch herausstellen, dass es doch ein schweres
+                        Vergehen ist, soll der Gerichtsstab nieder gelegt werden. Der Freiherr von
+                        Sax-Hohensax soll den Stab mit 9 Schilling lösen, den Frevler entweder in
+                        Altstätten verurteilen lassen oder ihn vor das Hochgericht in die
+                        Freiherrschaft Sax-Forstegg bringen.</p>
+                     <p>Die Aussteller siegeln.</p>
+                  </summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <filiation type="current">Original</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Pergament</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="30.0"/>
+                              <width unit="cm" quantity="64.0"/>
+                           </dimensions>
+                           <dimensions type="plica">
+                              <width unit="cm" quantity="8.0"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <sealDesc>
+                     <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1"
+                        nontei:material="wax in a box" nontei:condition="in a box"
+                        nontei:attachment="sealed on a parchment tag" nontei:shape="round"
+                        facs="StASG_AA_2_U_41_s_01">
+                        <persName role="sigillant" ref="per007073b">Abt Bernhard Müller von
+                           St. Gallen</persName>
+                     </seal>
+                     <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="2"
+                        nontei:material="wax" nontei:shape="round" nontei:condition="in a box"
+                        nontei:attachment="sealed on a parchment tag" facs="StASG_AA_2_U_41_s_02">
+                        <persName role="sigillant" ref="per002173">Bannerherr Heinrich Bräm von
+                           Zürich</persName>
+                     </seal>
+                     <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="3"
+                        nontei:material="wax in a box" nontei:shape="round"
+                        nontei:condition="well-preserved"
+                        nontei:attachment="sealed on a parchment tag" facs="StASG_AA_2_U_41_s_03">
+                        <persName role="sigillant" ref="per002174">Jost von Bonstetten</persName>
+                     </seal>
+                     <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="4"
+                        nontei:material="wax" nontei:shape="round" nontei:condition="in a box"
+                        nontei:attachment="sealed on a parchment tag" facs="StASG_AA_2_U_41_s_04">
+                        <persName role="sigillant" ref="per004678a">Freiherr Johann Christoph von
+                           Sax-Hohensax</persName>
+                     </seal>
+                     <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="5"
+                        nontei:material="wax" nontei:shape="round" nontei:condition="in a box"
+                        nontei:attachment="sealed on a parchment tag" facs="StASG_AA_2_U_41_s_05">
+                        <orgName role="sigillant" ref="org002027">Altstätten</orgName>
+                     </seal>
+                  </sealDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1599-08-12"/>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000044">Hochgericht</term>
+               <term ref="key000151">Niedergericht</term>
+               <term ref="key000891">Gerichtsbezirk</term>
+               <term ref="key000494">Gerichtskompetenz</term>
+               <term ref="key004237">Malefizgericht</term>
+               <term ref="key004236">Malefiz</term>
+               <term ref="key003825">Landvogt im Rheintal</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+
+   <text>
+      <group>
+         <text>
+            <body>
+               <div org="uniform" sample="complete">
+                  <pb facs="StASG_AA_2_U_41_r"/>
+                  <p>
+                     <lb/>Wir, nachbenanndte <persName ref="per007073b">Bernhardt, von gottes gnaden
+                        abbte deß gottshauß <placeName ref="loc000083">Sanct
+                        Gallen</placeName></persName>
+                     <abbr>etc</abbr>, <lb/>unnd wir, <persName ref="per002173">Hainrich
+                        Brem</persName>, pannerherr, <persName ref="per002174">Jost von
+                        Bonstetten</persName>, baid deß raths <placeName ref="loc000065"
+                        >Zürich</placeName>, als geordnete <term ref="lem010971.04">vormunder</term>
+                     deß wollgebornen herren, herrn <persName ref="per004774a">Fryderich Ludwig,
+                        freyherren zu Hochensax unnd Vorstegg</persName>, so dann <persName
+                        ref="per004678a">Hannß <lb/>Christoph, freyherr zu Hochennsax und
+                        Vorsteg</persName>, unnd wir, <orgName ref="org003075">stattamman unnd rath
+                        der statt <placeName ref="loc000439">Altstetten</placeName></orgName>, für
+                     unns unnd unnßere mitburger, die <orgName ref="org002818"><term
+                           ref="lem004143.01">paursamme</term> inn der <placeName ref="loc000951"
+                           >Lientz</placeName></orgName>, bekhennendt unnd thund khundt menigclichem
+                     für unns, unsere <lb/>nachkommen unnd erben, <seg>alß sich dann ettwas
+                        nachbeürlicher irrunng unnd missverstendt zwüschen unns, den dreyen
+                        partheyen, erregt unnd gehalten haben von wegen der <term ref="lem008868.40"
+                           >hohenn oberkeitt</term> inn der <placeName ref="loc000951"
+                           >Lientz</placeName>, welliche unns, <orgName ref="org000384">herren von
+                           Hohennsax</orgName>, <lb/>vermög beyhannden habennder brieff unnd siglen
+                        unnd namblich auf was form, gestalt unnd inn was costen die <term
+                           ref="lem001471.05">malefitzischen sachen</term>, die inn der berüerten
+                           <placeName ref="loc000951">Lientz</placeName> beganngen werdent, sollen
+                        nach lauth vor darumben aufgerichten verträgen gerecht<lb break="no"
+                        />vertiget unnd executiert werden. Unnd wiewoll dise handlung vor unns abbt
+                           <persName ref="per007073b">Bernhardt</persName>s geliebten herren
+                        vorfarenn hoch cristseliger gedechtnuß herren abbt <persName ref="per005286a"
+                           >Joachim</persName>en unnd dem wollgebornen herren <persName
+                           ref="per004582a">Johann Philips, freyherren zu der <lb/>Hohennsax unnd
+                           Vorstegg</persName>, auch christseliger gedechtnus inn werckh unnd üebung
+                        geweßen, aber nach irem tödtlichenn <term ref="lem004842">ableiben</term>
+                        nit verbriefft noch allerdings gevertiget werden mögen. Das demnach zu
+                        enntlicher außtrag diser sach wir, <persName ref="per007073b">Bernn<lb
+                              break="no"/>hardt</persName>, abbte <abbr>etc</abbr>, durch unnßere
+                        dartzuo deputierte räth <persName ref="per006891a">Georgen Jonaß</persName>,
+                        der rechten doctorn, unnsern cantzlern, unnd <persName ref="per007074a"
+                           >Hannß Beath Frey</persName>en, unnsern <term ref="lem010102"
+                           >lehenvogt</term>, unnd wir, obsteende <persName ref="per002173">Hainrich
+                           Brem</persName>, pannerherr, <persName ref="per002174">Jost von
+                           Bonstetten</persName>, baid deß raths <placeName ref="loc000065"
+                           >Zürich</placeName>, <lb/>alß geordnete vormünder, wie oben gemelt,
+                        sodann wir, <persName ref="per004678a">Hannß Christoph, freyherr zu
+                           Hochennsax und Vorsteg</persName>, aigner persohn, unnd wir, stattamman
+                        unnd rath durch unnsere verordnete <persName ref="per006955a">Cunradten
+                           Murer</persName> unnd <space quantity="4" unit="cm"/>, beid nüw unnd
+                        <lb/>alt stattamman, unns habennd auff dato ditz brieffs inn der statt
+                           <placeName ref="loc000439">Altstetten</placeName> zusammen verfüegt,
+                        ainannderen freünndt- unnd nachbarlich angehördt unnd unns inn den vorigen
+                        aufgerichten brieffen, sprüchen und verträgen nottürfftigclich <lb/>ersehen
+                        unnd darauff vollgennder arttickhelln unnd mitlen verainbart unnd
+                        verglichenn:</seg>
+                     <seg n="1">Erstlichen sollen die <orgName ref="org002818">unnderthonen unnd
+                           paursame inn der <placeName ref="loc000951">Lientz</placeName>
+                        </orgName> marchen, wie sy dann vermög brieff unnd sigel außgemarckht
+                        <lb/>ist, den <orgName ref="org000384">freyherrenn zu Hohennsax, herrenn zu
+                           Sax unnd Vorstegckh</orgName>, vonn hoher oberkeitt wegenn <term
+                           ref="lem000374">huldigen</term>, lobenn unnd schweren, inn aller weiß
+                        unnd maß, wie sy zuvor ainem <term ref="lem008289">lanndtvogt</term> zu
+                           <placeName ref="loc007128">Rhinegg</placeName> von wegen der <orgName
+                           ref="org001189">acht regierennden ortten <lb/>deß <placeName
+                              ref="loc001075">Rhinnthal</placeName>s</orgName> gehuldiget habenn,
+                        jedoch dem gottshauß <placeName ref="loc000083">Sanct Gallen</placeName>n an
+                        desselben <term ref="lem000976">nideren grichten</term>, gerechtigkeitten,
+                        sprüchen unnd verträgen inn allweg one schadenn unnd eintrag.</seg>
+                     <seg n="2">Zu dem anderen ist beredt unnd erlütert, <lb/>wann fürohin inn der
+                           <placeName ref="loc000951">Lientz</placeName>
+                        <term ref="lem008562.25">fräfel unnd buossen</term> fallenndt, das darvon
+                        wollermelten <orgName ref="org000384">freyherrenn von Hohennsax</orgName>
+                        oder irenn <term ref="lem000089.88">amptleütten</term> der <term
+                           ref="lem008752">drittheil</term> gevolgen soll inmassen dennselbigen
+                        zuvor, alß die hoch oberkeitt inn der <placeName ref="loc000951"
+                           >Lientz</placeName> noch inn <lb/>der <orgName ref="org001189">acht
+                           orttenn</orgName> hannden wer, die <term ref="lem008289"
+                           >lanndtvögt</term> eingenommen haben.</seg>
+                     <seg>Es soll auch mit berechtigung unnd <term ref="lem000382">einzug</term> der
+                           <placeName ref="loc000951">Lientz</placeName>ischen fräfel unnd buessen
+                        zwüschen den <orgName ref="org000384">freyherrenn von Hohennsax</orgName>
+                        <abbr>etc</abbr> unnd deß gottshauß <placeName ref="loc000083">Sanct
+                           <lb/>Gallen</placeName>n amptleüthenn allerdinngs gebraucht unnd
+                        gehaltenn werdenn, wie es sonnst gegenn der <orgName ref="org001189">acht
+                           orttenn</orgName>
+                        <term ref="lem008289">lanndtvögten</term> im <placeName ref="loc006256"
+                           >Oberenn Rhinthal</placeName> gebreüchlich unnd herkommen ist, darann
+                        sich auch die <orgName ref="org000384">freyherrenn von Hochennsax</orgName>
+                        nach lauth <lb/>gegebnen <term ref="lem002654">reverß</term> benüegen
+                        sollenndt.</seg>
+                     <seg n="3">Zum dritten, so inn künnfftige zeitt sich inner den <placeName
+                           ref="loc000951">Lientz</placeName>ischen marchen sachenn zutrüegenndt,
+                        die von <term ref="lem000271">leib</term>, <term ref="lem002291"
+                           >leben</term>, mit ewiger <term ref="lem014777.02"
+                           >lanndtsverweisung</term>, <term ref="lem015543.01">benemmung</term>
+                           <term ref="lem007325">ehr und gwehr</term>
+                        <lb/>vermög der rechten unnd gmainenn <term ref="lem010804"
+                           >lanndtsbrauch</term> der scherpfe nach zu <term ref="lem000630"
+                           >straffen</term> sein möchtendt, so sollenn wollermelte <orgName
+                           ref="org000384">freyherrenn von der Hohennsax</orgName> macht unnd recht
+                        habenn, dergleichenn verlümbte unnd misstätige personen auff recht an<lb
+                           break="no"/>zugreiffenn unnd dieselbigenn inn der <placeName
+                           ref="loc000951">Lientz</placeName> so lanng inn <term ref="lem003195"
+                           >gefanngenschafft</term> verwahrenn zu lassenn, biß sich erfindt, ob der
+                           <foreign xml:lang="la">casus</foreign> oder die <term ref="lem004421.01"
+                           >that</term> ain <term ref="lem014778">criminalsach</term> unnd
+                        obgehörtermassen zu straffen sey. Da nun, wann hierunder <lb/>zweyfel oder
+                        stryt fürfiele, erstlichen vor dem <term ref="lem012168">nideren
+                           staab</term> zu <placeName ref="loc000439.11">Altstettenn</placeName>,
+                        nemblich <orgName ref="org003075">stattamman unnd rath</orgName> daselbsten.
+                        Darüber soll rechtlich erkenndt werden inmassenn es bißhero gegenn der
+                           <orgName ref="org001189">acht orttenn</orgName> lanndtvögten im
+                           <placeName ref="loc001075">Rhinthal</placeName>
+                        <lb/>auch gehaltenn wordenn.</seg>
+                     <seg>Unnd im fahl ain sach daselbst wurd obgehörter massen für criminal
+                        erkenndt unnd stattamman unnd rath hettendt iren <term ref="lem012168"
+                           >nideren staab</term> nidergelegt, söllenndt alßdann mee wollgemelte
+                           <orgName ref="org000384">freyherren von Hohen<lb break="no"
+                           />sax</orgName> den staab mit <measure type="currency" quantity="9"
+                           unit="ß">nün schiling pfennigen</measure> lößen (wie dann ain lanndtvogt
+                        auch zethun pfligt) unnd vollgenndts zu irer <term ref="lem011793.03"
+                           >willchur</term> stohn, die missthätigen person aintweders alß bald zu
+                           <placeName ref="loc000439.10">Altstetten</placeName>, auf weiß unnd maaß
+                        alß <lb/>es inn dergleichenn fählen ain lanndtvogt auch <term
+                           ref="lem001670">braucht</term> unnd herkommen ist, rechtvertigenn zu
+                        lassenn oder aber die <term ref="lem014779.02">missthäter</term> inn ir
+                        herrschafft <placeName ref="loc000278">Vorstegg unnd Sax</placeName>
+                        zefüeren, daselbst das <term ref="lem001474.05">malefitzgricht</term>
+                        zubesetzenn unnd gegen dem <lb/><term ref="lem005122.01">übelthäter</term>
+                        oder <term ref="lem002614.06">tätterin</term> rechtlich <term
+                           ref="lem001278.01">procedieren</term>. Unnd was <term ref="lem001289"
+                           >urtheil</term> unnd recht gibt, daselbst ann gewonnlicher <term
+                           ref="lem000796">richtstatt</term> durch den <term ref="lem004390.04"
+                           >scharpfrichter</term> executieren lassenn. Wer aber ainnes <term
+                           ref="lem014782.02">verstrickhtenn</term> mennschen that und
+                        <lb/>verhanndlenn so lauter klar unnd undisputierlich ain <term
+                           ref="lem001470">malefitz</term> unnd <term ref="lem014778"
+                           >criminalsach</term>, die von dem nideren für den <term
+                           ref="lem014780.02">hohen staab</term> ohn allen streit gehörig unnd kains
+                           <term ref="lem007803">peinlichen</term>
+                        <term ref="lem003709">examminierens</term> bedürfftig, so söllen auf
+                        sollichen <lb/>fahl die <orgName ref="org000384">freyherrenn vonn
+                           Hohennsax</orgName> solliche that <orgName ref="org003075">stattamman
+                           unnd rath zu <placeName ref="loc000439">Altstettenn</placeName>
+                        </orgName> zuschreibenn unnd kunndtbar machen unnd sy demnach die <term
+                           ref="lem004431.01">execution</term> inn das werckh richten unnd bringen
+                        lassen, alles ge<lb break="no"/>treüwlich unnd ungevarlich.</seg>
+                     <seg>Dess zu wahrem urkhundt haben wir, <persName ref="per007073b"
+                           >Bernnhardt</persName>, abbt, wir, die <term ref="lem010971"
+                           >vormünder</term> für unnseren <term ref="lem014781.01"
+                           >vormundsohn</term>, wir, <persName ref="per004678a">Hannß Christoph,
+                           freyherr zu Hohennsax</persName>, unnd wir, <lb/><orgName ref="org003075"
+                           >stattamman unnd rath zu <placeName ref="loc000439"
+                              >Altstettenn</placeName></orgName>, jeder sein secret innsigell an
+                        dise vergleichnußbrieff hennckhen lassen, doch unnseren erbenn unnd
+                        nachkommen zu allenn theilen an jedes ober- unnd herrlicheit, fryheit,
+                        <lb/>recht unnd gerechtigkeitt, sprüchen unnd verträgenn unnd sonnst inn all
+                        annderweg genntzlich one schadenn unnd unvergriffennlich. Geben <origDate
+                           when="1599-08-12">auͦf den zwölfften monatstag augusti im
+                           fünfzehenhundert nün und nün<lb break="no"/>sigistenn
+                        jar</origDate>.</seg>
+                  </p>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab type="sigillant" place="sub plica">
+                     <lb/>Obwol herr <persName ref="per004678a">Johann Christoff von der Hochen
+                        Sax</persName>
+                     <abbr>etc</abbr>, freyherr, eigner person uß gwüssen ursachen diser tracta<lb
+                        break="no"/>tion nit beigewont, wie aber oben vermeldt, so hatt er doch uff
+                     begeren hin sin insigel auch hieran <lb/>gehenckt. <signed>
+                        <abbr>A K</abbr>
+                        <foreign xml:lang="la">
+                           <choice>
+                              <abbr>not publ</abbr>
+                              <expan>notarius publicus</expan>
+                           </choice></foreign></signed>
+                     <figure type="notarial sign"/></ab>
+               </div>
+               <pb facs="StASG_AA_2_U_41_v"/>
+               <div org="uniform" sample="complete">
+                  <ab type="dorsal" place="verso" hand="hand18c">Ingroßiert</ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab place="verso" type="archiving reference">
+                     <del>No</del> 41; 39; No. 23; 1599; 9</ab>
+               </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div org="uniform" sample="complete">
+            <div n="1" org="uniform" sample="complete">
+               <p>Zur <term ref="key000023">Schenkung</term> und Übergabe der Burg <placeName
+                     ref="loc006155">Frischenberg</placeName> mit dem Dorf <placeName
+                     ref="loc006068">Sax</placeName> sowie der <term ref="key000044"
+                     >Hochgerichtsbarkeit</term> über die (obere) <placeName ref="loc000951"
+                     >Lienz</placeName> von den <orgName ref="org000531">Eidgenossen</orgName> an
+                     <persName ref="per001640">Ulrich VIII. von Sax-Hohensax</persName> vgl.
+                     <ref>SSRQ_SG_III_4_106</ref>. Die niederen Gerichte in der Lienz sind davon
+                  jedoch ausgeschlossen und gehören dem Abt von <placeName ref="loc000083"
+                     >St. Gallen</placeName>. Über die Gerichtskompetenzen beider Herrschaften in
+                  der Lienz wird deshalb wiederholt gestritten (vgl. <bibl><ref
+                        target="http://permalink.snl.ch/bib/chbsg000101708">Kuster 1995</ref>, S.
+                     30–31</bibl>; <bibl><ref>SSRQ SG III/3</ref>, Einleitung, Kapitel 2.5</bibl>;
+                  zu den Rechtsverhältnissen in der Lienz vgl. auch <bibl><ref target="http://permalink.snl.ch/bib/chbsg000141314">Kreis 1923</ref>, S.
+                     34–36</bibl>.).</p>
+            </div>
+            <div n="2" org="uniform" sample="complete">
+               <p>Vgl. hierzu auch die im gleichen Zeitraum angefertigte Rechtfertigung von
+                     <placeName ref="loc000951">Lienz</placeName> und <orgName ref="org002027"
+                     >Altstätten</orgName> auf die Beschwerden seitens der <orgName ref="org000384"
+                     >Freiherren von Sax-Hohensax</orgName> über ihr Vorgehen nach der <term
+                     ref="key001011">Verhaftung</term> eines <term ref="key000603">Diebes</term> in
+                     <placeName ref="loc000951">Lienz</placeName>. Dort werden die <term
+                     ref="key003037">Gerichtsverfahren</term> von der Verhaftung bis zur
+                  Verurteilung detailliert dargestellt (<bibl><ref>StASG
+                  AA 2 A 04-1-9</ref></bibl>). </p>
+            </div>
+         </div>
+      </back>
+   </text>
+</TEI>

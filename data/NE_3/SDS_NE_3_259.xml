@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="headerinfo"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <date type="electronic" when="2020-08-17"/>    <date type="print"/>
+    <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Collection des sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS_NE_3_259</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier>
+      <idno>AVN B 101.14.001, fol. 505r</idno>
+     </msIdentifier>
+     <head>Dédommagement du créancier pour une pièce de terrain colloquée de valeur inférieure aux
+      estimations</head>
+     <msContents>
+      <summary>Quand un créancier a été colloqué sur une pièce de terre lors d’un décret, et
+       qu’après l’avoir mise aux enchères de manière répétée sa valeur se révèle inférieure à celle
+       estimée, il peut se dédommager sur le bien du décrétable par levation, vendition et autres
+       usages prévus par la coutume.</summary>
+      <msItem>
+       <textLang>français</textLang>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="33"/>
+          <width unit="cm" quantity="23.5"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <origDate when="1674-03-05" calendar="Julian"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>
+      </origin>
+     </history>
+     <additional>
+      <listBibl>
+       <head/>
+       <bibl/>
+      </listBibl>
+     </additional>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key004001"></term>
+     <term ref="key000376"></term>
+     <term ref="key004367"></term>
+     <term ref="key004428"></term>
+    </keywords>
+   </textClass>
+   <particDesc default="false"/>
+   <settingDesc default="false"/>
+  </profileDesc>
+ </teiHeader>
+ 
+ <text>
+  <group>
+   <text>
+    <body>
+        
+     
+     <pb n="505r" facs="AVN_B_101.14.001_0505r"/> 
+        
+     <div>
+      <head>
+       <lb/>La formalité que l’on doit user pour <lb/>mettre en <term ref="lem015541.02">montes</term> une piece sur
+       laquelle on aura <lb/>esté <term ref="lem015879.02">colloqué</term>, afin de se pouvoir
+       dedommager <lb/>sur le bien restant du <term ref="lem014976.02">decretable</term>. </head>
+      <p>
+       <lb/>Sur la requeste du <choice>
+        <abbr>S<hi rend="sup">r</hi></abbr>
+        <expan>sieur</expan>
+       </choice>
+       <persName ref="per008903">Jean <lb/>Petit Pierre</persName>, en qualité de tuteur des enfans d’<choice>
+        <abbr>honn.</abbr>
+        <expan>honnorable</expan>
+       </choice>
+       <lb/><persName ref="per009989">Claudy Purry</persName>, adressée à <choice>
+        <abbr>Mons<hi rend="sup">r</hi></abbr>
+        <expan>monsieur</expan>
+       </choice> le maistre bourgeois <lb/>et <orgName ref="org003085">Conseil Estroit de la Ville
+        de <placeName ref="loc007786">Neufchatel</placeName></orgName> le <origDate
+         when="1674-03-05" calendar="Julian">V<hi rend="sup">e</hi> de <lb/>mars <hi rend="underline"
+        >1674</hi></origDate> aux fins d’avoir le poinct de coustume <lb/>suivant. </p>
+      <p>
+       <lb/>Assavoir, si lors que dans un <term ref="lem014975.02">decret</term> on a esté
+        <lb/><term ref="lem015879.02">colloqué</term> sur <del rend="strikethrough">sur</del> une
+       piece de terre, laquelle selon <lb/>le benefice que l’on a on a mis en <term
+        ref="lem015541.02">montes</term> <sic>publicques</sic> <lb/>et qu’icelle piece ne se <term
+        ref="lem015541">monte</term> en donnant le terme de <lb/><date dur="P6W">six années</date>,
+       à loin près de ce qu’elle a esté évaluée <lb/><choice>
+        <abbr>aud.</abbr>
+        <expan>audit</expan>
+       </choice>
+       <term ref="lem014975.02">decret</term>, si l’on n’a pas droit de se dedommager sur <lb/>le
+       bien restant s’il y en a, &amp; si lors que l’on le veut <lb/>faire, on doit agir par <term
+        ref="lem015545.02">levation</term>, <term ref="lem015546">vendition</term> &amp; ou si
+       <lb/>l’on doit former demande au <term ref="lem014976.02">decretable</term> pour pourchasser
+       <lb/>son dédommagement. </p>
+      <p>
+       <lb/><orgName ref="org003085"><choice>
+         <abbr>Mesd.</abbr>
+         <expan>Mesdits</expan>
+        </choice> sieurs du Conseil</orgName> ayans eu advis &amp; meure <lb/>premeditation par
+       ensemble, <term ref="lem015635.04">baillent</term> par declaration <lb/>suivant la coustume
+       usitée en la souveraineté de <lb/><placeName ref="loc007785">Neufchatel</placeName> la
+       coustume estre telle. </p>
+      <p>
+       <lb/>Assavoir, que quand une personne a esté <term ref="lem015879.02">colloquée</term>
+       <lb/>sur une piece de terre à un <term ref="lem014975.02">decret</term>, &amp; voulant la <lb/>mettre en <term
+        ref="lem015541.02">montes</term> il la peut faire publier par trois <lb/>divers dimanches de
+        <date dur="R/P8D">huictaine en huictaine</date>, &amp; après <lb/>la <term ref="lem015541"
+        >monte</term> faite il peut agir pour la manque qui se <lb/>rencontre de son juste deu sur
+       le bien restant du <lb/>decretable par <term ref="lem015545.02">levation</term>, <term
+        ref="lem015546">vendition</term> &amp; autres usages <lb/>accoustumés.<note>Sans
+        signature.</note></p>
+      
+     </div>
+
+     
+       
+    </body>
+   </text>
+  </group>
+ </text>
+</TEI>

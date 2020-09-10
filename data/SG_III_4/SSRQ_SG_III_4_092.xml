@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+    <persName>Sibylle Malamud</persName>
+    <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+    <persName>Sibylle Malamud</persName>
+    <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2018-07-19"/>
+            <date type="print"/>
+            <availability><p xml:id="facs">Sibylle Malamud</p></availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+    <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+    <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_092</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+    <msIdentifier>
+       <idno source="https://archivverzeichnis.gl.ch/home/#/content/c858cc2d53a14d2a8e027ad40c2f9668">LAGL AG III.2417:001</idno>
+       <altIdentifier>
+          <idno>LAGL 262</idno>
+       </altIdentifier>
+    </msIdentifier>
+    <head>Vereinbarung zwischen Mathis von Castelwart, Herr von Werdenberg, und Beat von Bonstetten, Herr von Hohensax-Gams, über die Teilung der Eigenleute</head>
+    <msContents>
+       <summary>
+          <p>Freiherr Mathis von Castelwart, Herr von Werdenberg, und Beat von Bonstetten, Herr von Hohensax-Gams, treffen mit Einwilligung der Kirchgenossenschaft Gams eine Vereinbarung betreffend Werdenberger Eigenleute, die in der Herrschaft Hohensax-Gams wohnen. Wann immer Mathis von Castelwart eine Teilung der Eigenleute fordert, soll sie gestattet werden. Sollte dabei jemand seine Zugehörigkeit nicht bekannt geben, soll ein Gericht, von Beat von Bonstetten einberufen, dies klären. </p>Die Aussteller siegeln. Erbetener Siegler für die Kirchgenossenschaft Gams: Lazarus Göldli.</summary>
+       <msItem>
+          <textLang>Deutsch</textLang>
+          <filiation type="current">Original</filiation>
+       </msItem>
+    </msContents>
+    <physDesc>
+       <objectDesc>
+          <supportDesc>
+             <support>
+                <material>Pergament</material>
+             </support>
+             <extent>
+                <dimensions type="leaves">
+        <height unit="cm" quantity="22.0"/>
+        <width unit="cm" quantity="43.0"/>
+                </dimensions>
+             </extent>
+          </supportDesc>
+       </objectDesc>
+       <sealDesc>
+          <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI"
+                n="1"
+                nontei:condition="damaged"
+                nontei:shape="round"
+                nontei:material="wax with margin"
+                nontei:attachment="sealed on a parchment tag">
+             <persName role="sigillant" ref="per004694a">Mathis von Castelwart</persName>
+          </seal>
+          <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI"
+                n="2"
+                nontei:condition="well-preserved"
+                nontei:shape="round"
+                nontei:material="wax with margin"
+                nontei:attachment="sealed on a parchment tag">
+             <persName role="sigillant" ref="per004692a">Beat von Bonstetten</persName>
+          </seal>
+          <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI"
+                n="3"
+                nontei:condition="well-preserved"
+                nontei:shape="round"
+                nontei:material="wax with margin"
+                nontei:attachment="sealed on a parchment tag">
+             <persName role="sigillant" ref="per004695a">Lazarus Göldli</persName>
+          </seal>
+       </sealDesc>
+    </physDesc>
+    <history>
+       <origin>
+          <origDate when="1496-11-22">zinstag vor sant Kathrinen tag</origDate>
+       </origin>
+    </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+    <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+    <term ref="key000085">Leibeigene</term>
+    <term ref="key000084">Leibeigenschaft</term>
+    <term ref="key000759">Teilung</term>
+    <term ref="key000633">Kinderteilung</term>
+    <term ref="key000817">Vertrag</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <div org="uniform" sample="complete">
+                  <pb facs="LAGL_AG_III.2417-001_r"/>
+                  <p>
+                     <lb/>
+                     <seg>Wir, <persName ref="per004694a">Mathis von Castelwarckh, fryherr und herr
+                           zu Werdemberg</persName>, und ich, <persName ref="per004692a">Batt von
+                           Bonstett, her zu der Hochensax</persName>, bekennen und veryehen offelich
+                        <lb/>fu̍r uns, all unser erben und nachkomen mit urkund ditz briefs, das wir
+                        baid fru̍ntlich und lieplich, och in sonderhait mit wissen und och guͦtem
+                        <lb/>willen des gemainen <term ref="lem000299">kilchspels</term> zu
+                           <placeName ref="loc006122">Gamps</placeName>, so dann mir, gemelten
+                           <persName ref="per004692a">Batt von Bonstett</persName>, zugehören, in
+                        ain und u̍ber ainkomen syen der <term ref="lem000780">tailung</term>
+                        <lb/>der <term ref="lem000341">aignen lu̍ten</term> halben, so dann wir,
+                        obgemelter <persName ref="per004694a">Mathis von Castelwarckh</persName>, in
+                        der herrschafft <placeName ref="loc006040">Hochen Sax</placeName> sitzen
+                        haben.</seg>
+                     <seg>Also wie hernach ge<lb break="no"/>melt ist, das wir, gemelter <persName
+                           ref="per004694a">Mathis von Castelwarckh</persName>, unser erben und
+                        nachkomen, jetz und hirnach, fu̍r und fu̍r zu ewigen ziten, unser <lb/>aigen
+                        lu̍t an mich, gemelt <persName ref="per004692a">Batt von
+                           Bonstetten</persName>, an min erben und nachkomen, wer dann yr herr zu
+                           <placeName ref="loc006040">Hochen Sax</placeName> ist, och zu ewigen
+                        ziten umb <lb/>tailen erfordren sollen. Und so wenn und zu welhen ziten
+                        soͤlich erfordrung umb die tailung erfordert wirt, sol die gestattnet und
+                        nit <lb/><term ref="lem005727">verzigen</term> werden. Und wele wir,
+                        bemelter <persName ref="per004694a">Mathis von Castelwarckh</persName>,
+                        unser erben und nachkomen also erfordrent und uns die selben <lb/>personen,
+                        aine oder mer, der <term ref="lem008350">aigenschafft</term> nit gestendig
+                        sin welt und wir umb recht gegen denselben an ruͤffen, so söllen ich,
+                        obgedachter <lb/><persName ref="per004692a">Batt von Bonstett</persName>,
+                        min erben und nachkomen, weͣr dann ye herr zu der <placeName ref="loc006040"
+                           >Hochen Sax</placeName> ist, on verziehen ain gemainen, unparthyschen
+                           <term ref="lem000342">richter</term>
+                        <lb/>und unparthysch <term ref="lem000926">urtailsprecher</term> in die
+                        herrschafft zu <placeName ref="loc006040">Hochen Sax</placeName> setzen,
+                        doch nit mit denen, so in der herrschafft <placeName ref="loc006040">Hochen
+                           Sax</placeName> sitzen. Und ob <lb/>ald wie wir, obgedachter <persName
+                           ref="per004694a">Mathis von Castelwarckh</persName>, dieselben
+                        ansprachigen <term ref="lem014567.02">mit recht erobren</term>, so sond si
+                        uns unsern costen und schaden, <lb/>uns deshalben darûber gieng, usrichten
+                        und ablegen. Ob ald wie aber dieselben uns, gemelten <persName
+                           ref="per004694a">von Castelwarckh</persName>, unsern erben ald nach<lb
+                           break="no"/>komen, mit recht usgiengen, so söllen wir inen iren costen
+                        und schaden ablegen und usrichten. Und was also erkent wird, daby sol es
+                        <lb/>beliben on alles verwagern und <term ref="lem009436"
+                        >appeliern</term>.</seg>
+                     <seg>Und des alles ze waͤren, offem, vestem urkund und bestentlicher
+                        sicherhait, so sin dirre <lb/>brief zwen in gelicher lut geschriben<note
+                           anchored="true">Es existiert nur noch ein Original im Landesarchiv
+                           Glarus.</note> und mit unser, obgemelten <persName ref="per004694a"
+                           >Mathis von Castelwarckh</persName>, fryher, und <persName
+                           ref="per004692a">Batt von Bonstett</persName>, herr zu der <placeName
+                           ref="loc006040">Hochen<lb break="no"/>sax</placeName>, insigeln
+                        versigelt, die wir baid fu̍r uns, all unser erben und nachkomen offelich
+                        hieran gehenckt haben. Wir, die <term ref="lem000971">nachpurschafft</term>
+                           ge<lb break="no"/>mainlich des kilchspels zu <orgName ref="org001865"
+                           >Gamps</orgName>, veryehen och offelich an disem brief, das die
+                        obgedachten unser herren soͤlich <term ref="lem006278">u̍berkomen</term> und
+                           <term ref="lem002880">vertrags</term>
+                        <lb/>mit unserm güten willen und wissen gethaͤn haben. Und das zu urkund, so
+                        haben wir mit fliß ernstlich erbetten den fromen und <lb/>vesten <persName
+                           ref="per004695a">Laszarus Goͤldli</persName>n, burger und des rats zu
+                           <placeName ref="loc000066">Zûrich</placeName>, das er sin insigel, im
+                        selb und sinen erben one schaden, fur uns und unser nachkomen <lb/>och
+                        hieran gehenckt hat. Der geben ist uff <origDate when="1496-11-22">zinstag
+                           vor sant <persName ref="per000793">Kathrin</persName>en tag nach
+                              <persName ref="per000353">Cristi</persName> geburt vierzehenhundert
+                           nûntzig und <lb/>sechs jar</origDate>.</seg>
+                  </p>
+               </div>
+               <pb facs="LAGL_AG_III.2417-001_v"/>
+               <div org="uniform" sample="complete">
+                  <ab type="dorsal" place="verso" hand="hand16c?"><lb/>Gamser und <lb/>ander brieff</ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab type="dorsal" place="verso" hand="hand18c"><lb/>Verglich <lb/>zwüschend dem
+                     freyherren <persName ref="per004694a">von Castellwarth</persName> und dem
+                     herren <lb/><persName ref="per004692a">zuo Bonstetten</persName>, her zuo
+                     Hochen Sax, der eigenlüthen <lb/>halber zuo Gams 1496</ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab type="archiving reference" place="verso">N 262 <add place="above">24<hi
+                           rend="sup">t</hi> C</add>
+                  </ab>
+               </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div n="1" org="uniform" sample="complete">
+            <p>Diese Quelle ist das einzige Zeugnis über eine <term ref="key000759">Teilung</term> von <term ref="key000085">Leibeigenen</term> zwischen <placeName ref="loc000440">Werdenberg</placeName>
+     und <placeName ref="loc006040">Hohensax-Gams</placeName>. Es fehlen Quellen zu möglichen
+     Teilungen von Leibeigenen in den Herrschaften Hohensax-Gams, aber auch <placeName ref="loc000278">Sax-Forstegg</placeName>. Häufig hingegen sind Quellen über Teilungen von
+               Leibeigenen zwischen Werdenberg und <placeName ref="loc000925">Sargans</placeName> (vgl. <bibl><ref target="https://www.ssrq-sds-fds.ch/online/SG_III_2/index.html#p_858">SSRQ SG III/2.2,
+                  Nr. 231</ref></bibl>).</p>
+         </div>
+         <div n="2" org="uniform" sample="complete">
+            <p>Die Teilung der Leibeigenen, auch <term ref="key000633">Kinderteilung</term> genannt, bedeutet,
+     dass bei verschiedener Herrschaftszugehörigkeit eines <term ref="key000775">Ehepaar</term>s die
+      <term ref="key000803">Kinder</term> zwischen den beiden Herren «geteilt» werden: Das erste
+     Kind bekommt z. B. die Herrschaftszugehörigkeit des <term ref="key000244">Vater</term>s,
+     das zweite diejenige der <term ref="key000476">Mutter</term> usw. Bei mehreren Kindern wird
+               abwechslungsweise die Herrschaftszugehörigkeit zugewiesen (siehe z. B. <bibl><ref target="https://www.ssrq-sds-fds.ch/online/SG_III_2/index.html#p_858">SSRQ SG III/2.2,
+                  Nr. 231</ref></bibl>).</p>
+         </div>
+      </back>
+   </text>
+</TEI>

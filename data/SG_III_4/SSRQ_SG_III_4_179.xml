@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-08-15"/>
+            <date type="print"/>
+            <availability><p xml:id="facs">Sibylle Malamud</p></availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_179</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>(PA Hilty) Privatarchiv Mappe Sevelen</idno>
+               </msIdentifier>
+               <head>Urteil über das Wegrecht zu einem Brunnen in Muntjol</head>
+               <msContents>
+                  <summary><p>Hans Ulrich Müller, Christian Metzger und Thomas Sifert, alle drei als Verordnete
+			der Gemeinde Wartau, schlichten den Streit zwischen Landesfähnrich Hans Tischhauser von
+			Sevelen als Vogt von Hans Engler einerseits und Jakob Geer andererseits wegen einer
+			Tränke in Muntjol auf dem Gut von Jakob Geer. Hans Engler erhält das Recht, zu Fuss
+			Wasser zu holen. Das Vieh darf er nur während der drei Wintermonate dort tränken. Als
+			Gegenleistung muss er Jakob Geer helfen, den Brunnen zu unterhalten. Auch Gallus Allian
+			soll Geer helfen, den Brunnen zu unterhalten.</p> <p>Kaspar Elmer, Landvogt von Sargans,
+			siegelt für die Aussteller.</p></summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <author role="scribe"><persName ref="per005429a">David Heinrich Hilty</persName></author>
+                     <filiation type="original">
+                        <origDate when="1644-12-13"/>
+                        <idno/>
+                     </filiation>
+                     <filiation type="current">Abschrift (Einzelblatt)</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="36.0"/>
+                              <width unit="cm" quantity="22.5"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate from="1851-01-01" to="1915-12-31"></origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000728">Weg</term>
+               <term ref="key000606">Wegrecht</term>
+               <term ref="key000936">Tränke</term>
+               <term ref="key000713">Brunnen</term>
+               <term ref="key003343">Konflikt</term>
+               <term ref="key001117">Schiedsspruch</term>
+               <term ref="key004466">Fussweg</term>
+               <term ref="key000298">Vieh</term>
+               <term ref="key000187">Unterhalt</term>
+               <term ref="key000715">Wasser</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <div>
+                  <p><pb n="1r" facs="PA_Hilty_Privatarchiv_Mappe_Sevelen_1r"/><lb/><origDate when="1644-12-13">1644, 13. christmonat</origDate></p>
+                     <p><lb/>Wir, nachgenandten <persName ref="per009787a">Hanß Ulrich Müller</persName>, <persName
+                        ref="per009788a">Christen Metzger</persName> undt <persName ref="per009789a">Thoman
+                           Sifert</persName>, alle <num value="3">drey</num>
+                     <lb/>verordnete mann inn der gmeind <placeName ref="loc000828">Warthouw</placeName>,
+                     bekennen undt thund kundt hiemit dißem <lb/>brieff, alß sich dann span und stöß erhaben und
+                     zugetragen endtzwüschend herr <term ref="lem002708">landts fendrich</term>
+                     <lb/><persName ref="per009649a">Hanß Tyschuser</persName> von <placeName ref="loc000708"
+                        >Sefellen</placeName> alß <term ref="lem000180">vogt</term> und innammenn <persName
+                           ref="per009790">Hanß Englers</persName>, clegers, eins, so danne <lb/><persName
+                              ref="per009793a">Jacob Geer</persName>, andtworter, anders theils, betreffend ein <term
+                                 ref="lem002227.06">threnckhi</term> zu <placeName ref="loc000533.03"
+                                    >Müntteniol</placeName>, so in <lb/><persName ref="per009793a">Jacob Geeren</persName> guth
+                     ist.
+                     <seg>Da dann <persName ref="per009790">Hanß Engler</persName> vermeindt, zum <term
+                        ref="lem000699">brunnen</term> gwalt han <lb/>zu <term ref="lem003760.04">threnckhen</term>
+                        und <term ref="lem000511">wasser</term> zu holen nach siner noturfft, wie von altem
+                        har.</seg>
+                     <seg>Her<lb break="no"/>gegen <persName ref="per009793a">Jacob Geer</persName> vermeindt, er
+                        habe nit gwalt, über sin guth zu fahren, <lb/>wan er ihme schaden thue, sonder diewil ussen
+                        an sinem guth ein anderer <lb/><term ref="lem000699">brunnen</term> seye, solle ehr
+                        denselben bruchen, sonsten, wan ehr ihme kein <lb/>schaden zu füege, ehr ihm daß <term
+                           ref="lem000511">wasser</term> woll gunnen welle <abbr>etc</abbr>.</seg>
+                     <seg>Unnd nachdem wir <lb/>clag und andtwort gnugsamlich verhört und verstanden, den <term
+                        ref="lem003214">augenschin</term> inge<lb break="no"/>nommen, auch die gestalten <term
+                           ref="lem010441">kuntschaffter</term> verhört, die dan usthruckhenlich <lb/>gereth, daß die
+                        inhaber <persName ref="per009790">Hanß Englers</persName> guth gwalt haben, zu deß <persName
+                           ref="per009793a">Jacob Geeren</persName>
+                        <lb/>brunnen zu threnckhen und wasser zu holen, so haben wir unß des <lb/>volgenden
+                        einheilig erckhendt und gesprochen,</seg>
+                     <seg>daß <persName ref="per009790">Hanß Engler</persName> oder <lb/>inhaber desselben guths
+                        sollen gwalt han, das gantze jahr dem <term ref="lem001109">fußweg</term>
+                        <lb/>nach <term ref="lem000511">wasser</term> zu holen. Anlangend daß <term ref="lem000310"
+                           >vich</term>, soll ehr die drey <term ref="lem001324">windter <lb/>monath</term> den
+                        nechsten zum <term ref="lem000699">brunnen</term> zu <term ref="lem003760.04"
+                           >trenckhen</term> befüegt sin, och endt<lb break="no"/>wert deß <persName ref="per009793a"
+                              >Jacob Geeren</persName> oder inhabern desselben guths. Jedoch soll ehr <lb/>ihme den
+                        brunnen nach gebür helfen erhalten, sonsten soll ehr vor und <lb/>nach mit der hab zum
+                        vorderen brunnen zu treckhen fahren.</seg>
+                     <seg>Welches <lb/><persName ref="per009794a">Galliß Allian</persName> betrifft, war ihm
+                        hierzu auch verkhundt, aber anzeigt, ehr <lb/>wehre ihm, <persName ref="per009790">Hanß
+                           Engler</persName>, den <term ref="lem000699">brunnen</term> bym wenigsten nit, doch selle
+                        <del>er</del> ehr <lb/>ihm den brunnen auch nach gebür helfen erhalten. Welliches wir
+                        hiemit <lb/>auch erkhendt hand.</seg>
+                     <seg>Dessen begert <persName ref="per009790">Hanß Engler</persName> eines briefs, der ihme zu
+                        <lb/>geben erkhendt. Auch alß wir ihnnen, den partyen, solliches, unseren spruch
+                        <lb/>eröffnet, haben sy denselben zu halten uf und angenommen.</seg>
+                     <seg>Unndt <lb/>dessen zu wahrem urkhundt, so haben wir, obgenandte verordnete <lb/><num
+                        value="3">drey</num> man, (dieweilen wir unß eigenß sigelß nit gebruchen) <lb/>mit flyß und
+                        ernst erbetten den ernvesten, fürsichtigen und <pb n="1v"  facs="PA_Hilty_Privatarchiv_Mappe_Sevelen_1v"/>
+                        <lb/>wysen herr <persName ref="per009791a">Caspar Elmer</persName>, deß rahts zu <placeName
+                           ref="loc000326">Glaruß</placeName>, diser zyt landtvogt in <placeName ref="loc000925"
+                              >Sarganser <lb/>landt</placeName>, daß ehr sin eigen insigell in unserem nammen offentlich
+                        gehenckht <lb/>hat an disen brief (doch ime und sinen erben, wie auch unß und un<lb
+                           break="no"/>sern erben gantz ohnschädlich), geben, den <origDate when="1644-12-13">13<hi
+                              rend="sup">t</hi>. christmonat im <lb/>thusent sechs hundert und vier und vierzigisten
+                              jahr</origDate>.</seg></p>
+                  <p><lb/>Pergament, <lb/><choice>
+                     <abbr>sig</abbr>
+                     <expan>signiert</expan>
+                  </choice>
+                     <lb/><persName ref="per009792a">Bernhard Litschers</persName>
+                     <choice>
+                        <abbr>sel</abbr>
+                        <expan>seligen</expan>
+                     </choice> erben im <placeName ref="loc000533.04">Montiol</placeName>, <placeName
+                        ref="loc000828">Wartau</placeName>, <lb/>besizen das <term ref="lem000884"
+                           >original</term>.
+                  </p>
+               </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div n="1"><p>Die meisten Abschriften im Privatarchiv Hilty stammen aus der Hand von <persName ref="per005429a"
+            >David Heinrich Hilty</persName> (1851–1915). Die Originale in Staats-, Gemeinde- oder
+            Kirchenarchiven sowie in Privatbesitz, die heute nicht mehr vorhanden oder nur schwer zu finden
+            sind,  gibt Hilty jeweils in seinen Abschriften an. Der Schiedsspruch über den Tränkeweg in
+            Muntjol dient als ein Beispiel eines verschriftlichten Konflikts, der heute wahrscheinlich im
+            Original nicht mehr vorhanden ist.</p></div>
+         <div n="2"><p><term ref="key003343">Konflikte</term> um <term ref="key001005">Fahrwege</term> und <term
+                  ref="key000606">Wegrechte</term> sind häufig, siehe z. B. 16.–17.Jh.:
+                     <bibl><ref>OGA&#160;Gams Nr. 39</ref>; <ref>KA&#160;Werdenberg im OA
+                     Grabs,&#160;Nr.&#160;11-04</ref></bibl>; <bibl><ref>(PA&#160;Hilty)
+                     Privatarchiv Mappe Sevelen, 13.07.1634</ref></bibl>; <bibl><ref>PGA&#160;Buchs
+                     U 08-1</ref></bibl>; <bibl><ref>StASG&#160;AA 2a U&#160;37</ref>;
+                     <ref>AA&#160;2&#160;U 53</ref></bibl>; <bibl><ref>OGA&#160;Grabs
+                     O&#160;1657-1</ref></bibl>; <bibl><ref>(PA&#160;Hilty) Privatarchiv Mappe
+                     Sevelen, 09.11.1605</ref></bibl>; <bibl><ref>PGA&#160;Buchs U&#160;05
+                  A-1</ref></bibl>; <bibl><ref>OGA&#160;Gams&#160;Nr.&#160;94</ref></bibl>;
+                     <bibl><ref>OGA&#160;Sevelen U 1628</ref></bibl>;
+                     <bibl><ref>OGA&#160;Gams&#160;Nr.&#160;103</ref></bibl>;
+                     <bibl><ref>Privatarchiv Beatrice Kobler-Schaad von Salez,
+                  10.04.1684</ref></bibl>; <ref>SSRQ_SG_III_4_201</ref>; <bibl><ref>FA Berger
+                     86.00.43, Wege, 30.06.1699</ref></bibl>. Auch im sogenannten Verkündbuch (<term
+                  ref="key000491">Mandate</term>) sind u. a. viele obrigkeitliche Beschlüsse
+               enthalten, die Weg- und Fahrrechte betreffen, so z. B. wird am <date
+                  when="1734-06-30">30. Juni 1734</date> bei einer Krone Busse verboten, durch das
+                  <term ref="key000951">Hanfland</term> von Zimmermannmeister <persName
+                  ref="per009796a">Heinrich Senn</persName> zu gehen oder zu fahren
+                     (<bibl><ref>StASG&#160;AA&#160;3&#160;B 6</ref> [unpaginiert]</bibl>).</p>
+            <p>Zum Weg- und Fahrrecht sowie zu Tränkewegen siehe auch die beiden Artikel im Landrecht (<ref>SSRQ_SG_III_4_174</ref>, Art.&#160;49–50).</p></div>
+         <div n="3"><p>Zu Konflikten um <term ref="key000715">Wasser</term>rechte (häufig im Zusammenhang mit <term
+                  ref="key000687">Gewerbe</term>) siehe z. B. <bibl><ref>KKGA&#160;Gams Schrank 4,
+                     Tablar 4, Schachtel «19 Dokumente zur Geschichte der Mühle Gams»,
+                     18.03.1504</ref></bibl> oder <ref>SSRQ_SG_III_4_137</ref>.</p></div>
+         
+      </back>
+   </text>
+</TEI>
+
+
+

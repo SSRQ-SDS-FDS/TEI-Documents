@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     n="1234"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="headerinfo"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2020-08-17"/>    <date type="print"/>
+    <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Collection des sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS_NE_3_377</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>AVN B 101.14.001, fol. 639r–639v</idno>
+               </msIdentifier>
+               <head>Réduction de la prescription des dettes</head>
+               <msContents>
+                  <summary>La prescription de trente ans des dettes est réduite à dix ans dès le 21
+                     octobre 1655 par sentence des Trois-États. </summary>
+                  <msItem>
+                     <textLang>français</textLang>
+                     <filiation type="current"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="33"/>
+                              <width unit="cm" quantity="23.5"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1714-09-03"/>
+                     <origPlace ref="loc007786">Neuchâtel</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head/>
+                     <bibl/>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key003040"/>
+               <term ref="key000058"/>
+               <term ref="key004980"/>
+               <term ref="key004969"/>
+               <term ref="key005038"/>
+               <term ref="key003331"></term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="639r" facs="AVN_B_101.14.001_0639r"/>
+               <div>
+                  <p>
+                     <lb/>Sur la requeste presentée par le sieur <lb/><persName ref="per008849a.01"
+                        >Abraham Purry</persName>, maitre des clefs, au nom de la dame <lb/>
+                     <choice>
+                        <abbr>veue</abbr>
+                        <expan>veuve</expan>
+                     </choice> de feu monsieur le maire <persName ref="per008781">Fredrich
+                        Rougemond</persName>, <lb/>sa tante, par devant monsieur le maitre bourgeois
+                     <lb/>et <orgName ref="org003085">messieurs du Conseil Étroit de la Ville de
+                           <placeName ref="loc007786">Neûchâtel</placeName></orgName>, <lb/>le
+                        <origDate when="1714-09-03">3<hi rend="sup">e</hi> jour du mois de septembre
+                           <hi rend="underline">1714</hi></origDate>, tendante <lb/>et aux fins
+                     d’avoir le point de coutume suivant. </p>
+                  <p>
+                     <lb/>Assavoir si la coutume n’est pas dans ce pays <lb/>que toute obligation et
+                     cedule, pour laquelle on n’a <lb/>exigé de payement par voye de justice pendant
+                        <lb/><date dur="P10Y">dix ans</date> revolus, le debiteur principal qui a
+                     <lb/>contracté étant mort, soit prescripte et éteinte. </p>
+                  <p>
+                     <lb/><orgName ref="org003085">Mesdits sieurs du Conseil</orgName>, ayans eu
+                     avis et meure <lb/>premeditation par ensembles, baillent par <choice>
+                        <abbr>declaraon</abbr>
+                        <expan>declaration</expan>
+                     </choice>
+                     <lb/>que suivant la coutume usitée en la souveraineté <lb/>de <placeName
+                        ref="loc007785">Neûchâtel</placeName>, depuis le <date when="1655-08-14"
+                           >14<hi rend="sup">e</hi> jour d’aoust <hi rend="underline"
+                        >1655</hi></date>, <lb/>par sentence de <orgName ref="org003167">messieurs
+                        des Trois États</orgName> et publié <lb/>au prône de l’Église le <date
+                        when="1655-10-21">21 octobre audit an</date><note>Voir <bibl><ref
+                              target="https://www.ssrq-sds-fds.ch/online/NE_1/index.html#p_320">SDS
+                              NE I, N<hi rend="sup">o</hi>&#160;138</ref></bibl>.</note>,
+                     <lb/>assavoir <seg>que la prescription de <date dur="P30Y">trente ans</date>
+                        <lb/>n’aura desormais plus de lieu dans les États de <lb/><persName
+                           ref="per008666">Son Altesse</persName>, a esté reduitte et reformée
+                        <lb/>à celle de <date dur="P10Y">dix ans</date>, à prendre dès le jour <lb/>
+                        <add place="below" type="catchword">de laditte</add>
+                        <pb n="639v" facs="AVN_B_101.14.001_0639v"/>
+                        <lb/>de la ditte publication : que toutes debtes contenues <lb/>en
+                        obligations, ou hors d’obligations portant cense ou <lb/>non, desquelles on
+                        n’a perçeu aucun payement <lb/>en principal ny censes dans l’espace de <date
+                           dur="P10Y">dix ans</date>, <lb/>et desquelles on n’a fait deue repetition
+                        ny <lb/>poursuitte par voye et exploits de justice durant <lb/>les dittes
+                           <date dur="P10Y">dix années</date>, sont entierement prescriptes
+                        <lb/>sans que d’icelles on puisse par après poursuivre <lb/>ny exiger aucun
+                        payement. </seg>
+                  </p>
+                  <p>
+                     <lb/>Ce qui a esté ainsi passé, conclu et arresté les ans <lb/>et jour que
+                     devant et ordonné à moy, secretaire <lb/>de Ville soussigné, de l’expedier en
+                     cette forme <lb/>sous le séel de la mayorie et justice dudit <lb/><origPlace
+                        ref="loc007786">Neûchâtel</origPlace>.</p>
+               </div>
+               <div>
+                  <p>
+                     <lb/>L’original est signé par moy. </p>
+                  <signed>
+                     <persName ref="per008874">Bourgeois dit Francey</persName>
+                     <figure type="notarial sign"/></signed>
+               </div>
+            </body>
+         </text>
+      </group>
+   </text>
+</TEI>

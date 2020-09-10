@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="headerinfo"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <date type="electronic" when="2020-08-17"/>
+    <date type="print"/>
+    <availability><p xml:id="facs">Adrien Wyssbrod</p></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Collection des sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS_NE_3_047</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier>
+      <idno>AEN 14JL–451, fol. 236r–236v</idno>
+     </msIdentifier>
+     <head>Délai de prescription en matière d’intérêts perçus sur des créances</head>
+     <msContents>
+      <summary>Une dette non réclamée se prescrit après trente ans. Si les intérêts ont été réclamés
+       dans le délai imparti, ils sont toutefois dus perpétuellement. Ici le cas concerne un
+       créancier qui veut se rembourser dans le cadre d’une faillite personelle, près de quarante
+       ans avant la cessation de paiement.</summary>
+      <msItem>
+       <textLang>français</textLang>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="34"/>
+          <width unit="cm" quantity="22.5"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <origDate when="1604-03-21" calendar="Julian"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>
+      </origin>
+     </history>
+     <additional>
+      <listBibl>
+       <head/>
+       <bibl/>
+      </listBibl>
+     </additional>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key004980"></term>
+     <term ref="key000058"></term>
+     <term ref="key003331"></term>
+     <term ref="key004001"></term>
+     <term ref="key003867"></term>
+     <term ref="key003040"></term>
+     <term ref="key005117"></term>
+     <term ref="key004367"></term>
+     <term ref="key005189"></term>
+    </keywords>
+   </textClass>
+   <particDesc default="false"/>
+   <settingDesc default="false"/>
+  </profileDesc>
+ </teiHeader>
+ 
+ <text>
+  <group>
+   <text>
+    <body>
+
+     <pb n="236r" facs="AEN_14JL_451_0236r"/>
+
+     <div>
+      <add place="left margin" hand="later hand"><foreign xml:lang="la">Levata est</foreign></add>
+      <p>
+       <lb/>Je <persName ref="per010476a.02">Balthazar Bailliod</persName> bourgeois et du <orgName
+        ref="org003085">Conseil de la ville de <placeName ref="loc007786"
+        >Neufchastel</placeName></orgName>, et lieutenant <lb/>d’<choice>
+        <abbr>honnor</abbr>
+        <expan>honorable</expan>
+       </choice> et prudent homme <persName ref="per010508">Daniel Huguenauld</persName> mayer <choice>
+        <abbr>dud</abbr>
+        <expan>dudit</expan>
+       </choice> lieu, pour et au nom de l’excellence <lb/>et grandeur de ma <persName
+        ref="per010509">dame</persName> et de <orgName ref="org003598">messeigneurs nos souverains
+        princes</orgName>. Sçavoir fait a qu’il <choice>
+        <abbr>apptiendra</abbr>
+        <expan>appartiendra</expan>
+       </choice>
+       <lb/>que le <date when="1604-03-21" calendar="Julian">mardy vingtiesme jour du mois de mars,
+        l’an de salut mille six centz et quatre</date>, administrant <lb/>justice, par devant moy et
+        <term ref="lem017673.02">aucuns</term> des sieurs conseillers de <choice>
+        <abbr>lad</abbr>
+        <expan>ladite</expan>
+       </choice> ville, est comparu discret <persName ref="per011776">Pierre <lb/>Gendre</persName>
+       notaire et bourgeois de <placeName ref="loc007786">Neufchastel</placeName>, <term
+        ref="lem018027.03">commis</term> et chargé de la part de genereux, vertueux et <lb/>puissant
+       seigneur <persName ref="per010517a.01">Jacob Wallier</persName> escuyer gouverneur et
+       lieutenant <choice>
+        <abbr>gnal</abbr>
+        <expan>général</expan>
+       </choice> de <orgName ref="org003598">leurs excellences <lb/>et comtes</orgName> de
+        <placeName ref="loc007786">Neufchastel</placeName> et de <placeName ref="loc005950"
+        >Vallangin</placeName>, proposant a forme de droict, comme ainsi soit <choice>
+        <abbr>q</abbr>
+        <expan>que</expan>
+       </choice>
+       <lb/>feu monsieur le collonnel <persName ref="per013414">
+        <gap reason="illegible" unit="word" quantity="1"/>
+        Balthazar de <placeName ref="loc008483">Cressier</placeName></persName> fust tenu et obligé
+       a feu de bonne <lb/>memoyre <choice>
+        <abbr>monsr</abbr>
+        <expan>monsieur</expan>
+       </choice> le gouverneur <persName ref="per011775a.01">Pierre Wallier</persName> pere de <choice>
+        <abbr>mond</abbr>
+        <expan>mondit</expan>
+       </choice>
+       <choice>
+        <abbr>s<hi rend="sup">r</hi></abbr>
+        <expan>sieur</expan>
+       </choice> le gouverneur <term ref="lem014997">moderne</term> de la <lb/>somme de <measure
+        type="currency" origin="NE" unit="écu d’or" quantity="100">cent escus d’or sol</measure> de
+       principal portant cense par le contenu d’une bonne et vallab<lb break="no"/>les obligations
+       surce dressés, avec laquelle somme <choice>
+        <abbr>priale</abbr>
+        <expan>principale</expan>
+       </choice> sont dehues les <term ref="lem015877.02">censes</term>
+       <term ref="lem016349.02">escheutes</term>
+       <lb/>depuis l’année <date when="1565" calendar="Julian">mille cinq centz soixante
+       cinq</date>, pour n’avoir esté payées nonobstant que <lb/>tousjours elles ayent esté repetées
+       et demandées, voir avant les <date dur="P30Y">trente ans</date> expirez, comme <lb/>en temps
+       et lieu se verifiera. Or comme l’<term ref="lem016396.04">esgalation</term> et discution
+       des biens <choice>
+        <abbr>dud</abbr>
+        <expan>dudit</expan>
+       </choice> feu <choice>
+        <abbr>s<hi rend="sup">r</hi></abbr>
+        <expan>sieur</expan>
+       </choice>
+       <persName ref="per013414">Balthazar</persName>
+       <lb/>de <placeName ref="loc008483">Cressier</placeName> a esté permie et publiée par
+       authorité de la seigneurie, <choice>
+        <abbr>luyd</abbr>
+        <expan>luydit</expan>
+       </choice> proposant <choice>
+        <abbr>aud</abbr>
+        <expan>audit</expan>
+       </choice> nom <lb/>se seroit <choice>
+        <abbr>pnté</abbr>
+        <expan>présenté</expan>
+       </choice> en icelle pour estre <term ref="lem015879.08">collocqué</term> sur <choice>
+        <abbr>lesd</abbr>
+        <expan>lesdits</expan>
+       </choice> biens tant pour <choice>
+        <abbr>led</abbr>
+        <expan>ledit</expan>
+       </choice> sort principal que <lb/>pour les retenues de <term ref="lem015877.02"
+       >censes</term>. Mais d’autant que on vient faire difficulté de luy passer et <lb/>entrer en <choice>
+        <abbr>lad<hi rend="sup">e</hi></abbr>
+        <expan>ladite</expan>
+       </choice> discution sinon trois <choice>
+        <abbr>desd<hi rend="sup">es</hi></abbr>
+        <expan>desdites</expan>
+       </choice> retenues de <term ref="lem015877">cense</term>, et que pour pouvoir exiger <lb/>le
+       payement de toutes icelles retenues, il luy est requis de <choice>
+        <abbr>fe</abbr>
+        <expan>faire</expan>
+       </choice> paroistre de la coustume. <lb/>A ceste cause et d’autant que ceste ville est le
+       chef et lieu capital du comté ou on a <lb/>accoustumé de venir prendre les declairations des
+       points de coustume usitez en <choice>
+        <abbr>lad</abbr>
+        <expan>ladite</expan>
+       </choice> ville <lb/>et comté, <choice>
+        <abbr>led</abbr>
+        <expan>ledit</expan>
+       </choice>
+       <persName ref="per011776">Pierre Gendre</persName>
+       <choice>
+        <abbr>aud</abbr>
+        <expan>audit</expan>
+       </choice> nom a demandé droict et judiciale cognoissance pour avoir <lb/>declaration de ce
+       points de coustume, assavoir <term ref="lem016286">mon</term> quand un créditeur est fondé en
+       bon <lb/>tiltre et les obligations portant <term ref="lem015877">cense</term>, sy le debteur
+       ou ses heritiers sont pas tenus de <lb/>luy payer toutes les <term ref="lem015877.02"
+        >censes</term>
+       <term ref="lem016349.08">eschutes</term> et retenues de son debt qui n’ont pas encor esté
+       payées.</p>
+      <p>
+       <lb/>Parquoy je <choice>
+        <abbr>led</abbr>
+        <expan>ledit</expan>
+       </choice> lieutenant demanday icelle <choice>
+        <abbr>declairaon</abbr>
+        <expan>déclaration</expan>
+       </choice> aux sieurs conseillers <lb/>assemblez en petit nombre, lesquels desirent de referer
+       ce faict en <orgName ref="org003085">conseil</orgName> et participer <lb/>de l’avis de leurs
+       autres freres conseillers absent. A l’effect dequoy ayant le <orgName ref="org003085"
+        >Conseil</orgName>
+       <lb/>esté convocqué et appelé au lendemain. A comparut <choice>
+        <abbr>led</abbr>
+        <expan>ledit</expan>
+       </choice>
+       <persName ref="per011776">Pierre Gendre</persName> en justice par <lb/>devant moy et une
+       partie <choice>
+        <abbr>desd</abbr>
+        <expan>desdits</expan>
+       </choice>
+       <choice>
+        <abbr>s<hi rend="sup">rs</hi></abbr>
+        <expan>sieurs</expan>
+       </choice> conseillers apres nommez. Lesquels ayant derechef <lb/>consulté par ensemble, ont
+       dict et declairé unanimement par le bouche de l’un d’eux <lb/>que suyvant l’advis prins ce
+       jourd’huy avec le reste des <orgName ref="org003085">vingt quatre conseillers</orgName> leurs
+       <lb/>confreres, et suivant ce qui s’est pratiqué et usité par le passé et jusqu’a present
+       <lb/>de temps immemorial <term ref="lem017830.02">riere</term> ceste ville et comté de
+        <placeName ref="loc007786">Neufchastel</placeName>, en suyte mesme des <pb n="236v"
+        facs="AEN_14JL_451_0236v"/>
+       <lb/>sentences qui pour ce regard ont esté rendues en basse et haulte justice, la coustume
+       est <lb/>toute notoire, que touchant les <term ref="lem015877.02">censes</term> et rentes
+       foncieres et directes qui ne sont point<lb/><add place="left margin" hand="later hand"
+        rend="pencil"><choice>
+         <abbr>P de C</abbr>
+         <expan>Point de coutume</expan>
+        </choice> du <date when="1604-03-21">21 mars 1604</date></add>
+       <lb/>subjectes a <sic>perscription</sic> le debteur et possesseur des pieces qui sont <term
+        ref="lem018508.02">censables</term> de la <term ref="lem015877">cense</term>
+       <lb/>et rente n’est tenu et ne peut estre contraint d’en payer sinon trois retenues des
+       auparavant <lb/>que la repetition en a esté faicte juridiquement et par forme de justice,
+       mais que <lb/>quant aux autres <term ref="lem015877.02">censes</term> voyageres et debte
+       constituez a <term ref="lem015877">cense</term> perpetuelle ou terminé <lb/>qui sont subjectz
+       a <sic>perscription</sic> par faulte d’en faire repetition et reserve deans <date dur="P30Y"
+        >trente ans</date>. <lb/>C’est la coustume que comme le principal n’est point
+        <sic>perscript</sic> pour cela qu’il soit repeté <lb/>dans <choice>
+        <abbr>led</abbr>
+        <expan>ledit</expan>
+       </choice> espace de <date dur="P30Y">trente ans</date>, par consequent les <term
+        ref="lem015877.02">censes</term> qu’en proviennent ne doibvent <lb/>estre perdues ny
+       prescriptes, <term ref="lem015643">ains</term> est on tenu de payer toutes les retenues qui
+       n’auront <lb/>esté payées, au cas qu’elles ayent esté dehuement repetées et demandées.
+       Laquelle <lb/>declairation <choice>
+        <abbr>led</abbr>
+        <expan>ledit</expan>
+       </choice>
+       <persName ref="per011776">Pierre Gendre</persName>
+       <choice>
+        <abbr>aud</abbr>
+        <expan>audit</expan>
+       </choice> nom a requis avoir par escript en acte pour s’en servir <lb/>au besoing sera, et
+       que judicialement luy a esté octroyé soubz le <term ref="lem016327">seel</term> de la mayorie <lb/><choice>
+        <abbr>dud</abbr>
+        <expan>dudit</expan>
+       </choice>
+       <placeName ref="loc007786">Neufchastel</placeName>, et le seing notarial du secretaire de <choice>
+        <abbr>lad<hi rend="sup">e</hi></abbr>
+        <expan>ladite</expan>
+       </choice> justice pour verification des <lb/>choses <choice>
+        <abbr>susdes</abbr>
+        <expan>susdites</expan>
+       </choice> par l’adjudication des honnorables, prudens et sages <persName ref="per010511a.02"
+        >Jehan Clerc dict Guy</persName>, <lb/><term ref="lem016271">banderet</term>, <persName
+        ref="per010427a.03">Jehan Rougemont</persName>, <persName ref="per011777a.01">Samuel
+        Purry</persName>, <persName ref="per010515">Pierre Quelin</persName>, <persName
+        ref="per010465a.01">Henry Bonvespre</persName>, <persName ref="per010516a.01">Jehan
+        <lb/>Chambrier</persName>, <persName ref="per010433a.03">David Bailliods</persName>
+       soubsigné et <persName ref="per011778a.01">Jehan Brun</persName> conseillers <choice>
+        <abbr>dud</abbr>
+        <expan>dudit</expan>
+       </choice>
+       <placeName ref="loc007786">Neufchastel</placeName>, et par <lb/><choice>
+        <abbr>moyd</abbr>
+        <expan>moydit</expan>
+       </choice> lieutenant ordonné <choice>
+        <abbr>aud</abbr>
+        <expan>audit</expan>
+       </choice>
+       <choice>
+        <abbr>soubs<hi rend="sup">né</hi></abbr>
+        <expan>soubsigné</expan>
+       </choice> de l’expedier, faict le <origDate when="1604-03-21" calendar="Julian">mardy vingt
+        et uniesme jour <lb/>du mois de mars, l’an de salut mille six cents et quatre</origDate>. </p>
+      <p>
+       <lb/>Par l’ordonnance et <choice>
+        <abbr>adjudicaon</abbr>
+        <expan>adjudication</expan>
+       </choice>
+       <lb/>de <choice>
+        <abbr>mesd</abbr>
+        <expan>mesdits</expan>
+       </choice> sieurs. Signé par moy. </p>
+     </div>
+     
+     <div>
+      <signed><persName ref="per010433a.03"><choice>
+       <abbr>D</abbr>
+       <expan>David</expan>
+      </choice> Bailliods</persName>
+       <figure type="notarial sign"/> not</signed>
+     </div>
+
+
+    </body>
+   </text>
+  </group>
+ </text>
+</TEI>

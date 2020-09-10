@@ -1,0 +1,790 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-10-29"/>
+            <date type="print"/>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_135_1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>StAZH C I, Nr. 3208</idno>
+               </msIdentifier>
+               <head>Schiedsspruch von Zürich zwischen Freiherr Ulrich Philipp von Sax-Hohensax und der Gemeinde Sax über Löhne, Zugrecht, Abzug, Steuern, Fastnachtshennen, die Freizügigkeit von Personen etc.</head>
+               <msContents>
+                  <summary>
+                     <p>Bürgermeister Bernhard von Cham und Säckelmeister Hans Heinrich Spross von
+                        Zürich vergleichen mit neun namentlich genannten Abgeordneten der Gemeinde
+                        Sax Freiherr Ulrich Philipp von Sax-Hohensax und die Gemeinde Sax. </p>
+                     <p>1. Die Eigenleute und Hintersassen der Gemeinde Sax dürfen gemeinsam abstimmen, da sie auch gemeinsam Kriegsdienst leisten.</p>
+                     <p>2. Die Nutzungsrechte werden geschützt. Die Gemeinde darf Güter bannen. Wer den Bann bricht, wird gebüsst, wobei die Busse zu zwei Dritteln der Herrschaft und zu einem Drittel der Gemeinde zusteht.</p>
+                     <p>3. Das Alprecht wird geschützt und der Inhaber der Herrschaft darf sein Vieh ebenfalls sömmern lassen.</p>
+                     <p>4. Die Gemeinde hat sich von der Landessteuer und den Fasnachtshühnern
+                        freigekauft.</p>
+                     <p>5.–6. Das Zugrecht der Herrschaft und der Gemeinde wird für verkaufte und verliehene Güter geregelt.</p>
+                     <p>7. Die Aufnahme bzw. der Einkauf von Gemeindemitgliedern werden
+                        geregelt.</p>
+                     <p>8. Der Abzug für Hintersassen und Leibeigene wird geregelt.</p>
+                     <p>9. Jede Haushaltung der Gemeinde Sax muss der Herrschaft jährlich zwei Tage Frondienst und, wer ein Gespann besitzt, einen Tag Fuhrdienst leisten.</p>
+                     <p>10. Kinder, die bei ihren Eltern arbeiten, erhalten keinen Lohn, aber einen Erbvorteil.</p>
+                     <p>11. Bei Konflikten zwischen der Gemeinde Sax und der Herrschaft soll ein unparteiisches Gericht aus Vertretern der anderen Gemeinden bestellt werden. Ein Urteil kann nicht appelliert werden.</p>
+                     <p>12. Die Urkunde vom 1. März 1528 wird kassiert.</p>
+                     <p>13. Die Kosten des Verfahrens in der Höhe von 120 Gulden hat die Gemeinde zu bezahlen, da der Inhaber der Herrschaft auf eine Strafverfolgung der Verbalinjurien verzichtet.</p>
+                     <p>14. Beide Parteien beschwören die Abmachungen.</p>
+                     <p>Die Aussteller siegeln.</p>
+                  </summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <filiation type="current">Original</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Pergament</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="62.0"/>
+                              <width unit="cm" quantity="79.0"/>
+                           </dimensions>
+                           <dimensions type="plica">
+                              <width unit="cm" quantity="9.0"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <sealDesc>
+                     <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI"
+                           n="1"
+                           nontei:condition="well-preserved"
+                           nontei:material="wax"
+                           nontei:shape="round"
+                           nontei:attachment="sealed on a parchment tag">
+                        <persName role="sigillant" ref="per001921a">Bernhard von Cham</persName>
+                     </seal>
+                     <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI"
+                           n="2"
+                           nontei:condition="well-preserved"
+                           nontei:material="wax"
+                           nontei:shape="round"
+                           nontei:attachment="sealed on a parchment tag">
+                        <persName role="sigillant" ref="per001965a">Hans Heinrich Spross</persName>
+                     </seal>
+                  </sealDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1562-11-25"/>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key001117"/>
+               <term ref="key000340">Zugrecht</term>
+               <term ref="key000803">Kind</term>
+               <term ref="key000925">Eltern</term>
+               <term ref="key000212">Lohn</term>
+               <term ref="key000331">Grundstück</term>
+               <term ref="key000022"/>
+               <term ref="key000231">Verkauf</term>
+               <term ref="key000537">Verleihung</term>
+               <term ref="key000446">Abzug</term>
+               <term ref="key003290">Freizügigkeit</term>
+               <term ref="key000314"/>
+               <term ref="key000085"/>
+               <term ref="key000184"/>
+               <term ref="key004067"/>
+               <term ref="key000626"/>
+               <term ref="key003489"/>
+               <term ref="key000279"/>
+               <term ref="key000479"/>
+               <term ref="key000057"/>
+               <term ref="key000287"/>
+               <term ref="key000270"/>
+               <term ref="key000179"/>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <div org="uniform" sample="complete">
+                  <p>
+                     <lb/>
+                     <seg>Wir, nachbenempten <persName ref="per001921a">Bernhart von
+                           Chaam</persName>, bürgermeister, unnd <persName ref="per001965a">Hanns
+                           Heinrich Sproß</persName>, seckelmeister unnd des raths der statt
+                           <placeName ref="loc000065">Zürich</placeName>, bekhennend unnd thuͦnd
+                        khund mengklich<lb break="no"/>em mit disem brief: Nachdem sich spann und
+                        mißverstand zuͦgetragen zwüschent dem wolgepornen herren, hern <persName
+                           ref="per004426a">Uͦlrichen Philipps, frygherr von der
+                           Hochensax</persName>, herr zuͦ <placeName ref="loc000278.06">Sax, ouch
+                           Vorstegk</placeName> unnd <placeName ref="loc006069"
+                           >Frischennberg</placeName>
+                        <abbr>etc</abbr>, unnserm gnedigen herren, eins, sodenne der ganntzen
+                        gemeind zuͦ <orgName ref="org001175">Sax</orgName> als syner gnaden under<lb
+                           break="no"/>thonen und zuͦgehorigen anders theyls. Unnd söllichs die
+                        edlen, eerenvesten, frommen, fürsichtigen unnd wysen herren <orgName
+                           ref="org001217">burgermeyster unnd rath der statt Zürich</orgName>,
+                        unnser gnedig lieb herren, angelangt, habent sy inn betrachtung des eewigen
+                           <term ref="lem002844">burgkrechtens</term>, damit wolgemelter unser
+                        gnediger <persName ref="per004426a">herr von Sax</persName> sampt der her<lb
+                           break="no"/>schafft <placeName ref="loc000278.07">Vorstegk</placeName>
+                        unnd allen derselben <term ref="lem000329">underthonen</term> und
+                        angehörigen gemeiner irer statt verwandt und zuͦgethon, darab ein groß
+                        beduren und beschwerd empfangen und deßhalben unns beyden bevolchen, das wir
+                        hinuf gen <placeName ref="loc000278.07">Vorstegk</placeName> keren unnd
+                        daselbs beyd obangetzeygt parthygen mit allem ernst ansuͦchen und piten, uns
+                        ire <choice>
+                           <sic>spenn<lb break="no"/>nigen</sic>
+                           <corr>spen<lb break="no"/>nigen</corr>
+                        </choice> artigkel von einem an den andern zeeroffnen und demnach, wo
+                        jendert muglich, darumbe inn der fründtschafft und gütigkeyt betragen und
+                        vereinigen ze lassen. Wellichem unserer herren bevelch wir nachkommen und
+                        statt gethon. Und als wir zum anfang an beyden theylen vermögen, das sy uns
+                        ire clagen und beschwerden antzezeygen bewil<lb break="no"/>liget, hat
+                        eegenannter unser gnediger <persName ref="per004426a">herr von
+                           Sax</persName> erstlich fürgewendt:</seg>
+                     <seg><head resp="SM">Klage von Ulrich Philipp von Hohensax</head></seg>
+                     <seg>Als er kurtz verschiner zyt alle <num value="5">fünf</num>
+                        <term ref="lem000133">gemeinden</term> inn syner herrschafft <placeName
+                           ref="loc000278.07">Vorstegk</placeName> zusamen berüffen unnd inen
+                        gemeingklich nachvolgende dryg artigkel fürhalten lassen. Fürs erst wie inn
+                        fürkommen, das unnder inen der <term ref="lem001670">bruch</term> worden,
+                        <lb/>das ire <term ref="lem000130">kinder</term> von <term ref="lem000129"
+                           >vatter</term> unnd <term ref="lem000292">muͦter</term>
+                        <term ref="lem000282">lon</term> haben wellen unnd aber söllichs syns
+                        vermeinens uß vilen ursachen, wie ein jeder verstendiger zu gedencken unnd
+                        nach der lenge wol zuͦ erzellen, wider alle billigkeyt were, habe er
+                        geachtet von oberkeyts wegen, schuldig ze syn sölliches abzeschaffen und
+                        deßhalben alle syne underthonen an<lb break="no"/>gesuͦcht und vermandt, von
+                        disem unbill abzeston und iren kinden söllichs lons dheins wegs mer zuͦ
+                        gestatnen. Doch wo ein kind vater und muͦter sonderbare kindtliche thrüw
+                        erzeigte und inen wol <term ref="lem003006">hußhalten</term> hulffe, welte
+                        er nit abgeschlagen haben, das dieselben von vater und muͦter mit rath der
+                        oberkeyt oder des grichts mit einem zimlichen <term ref="lem015418">vor<lb
+                              break="no"/>theyl</term> wolbedacht werden möchten.</seg>
+                     <seg>Fürs annder, das inn nit billich bedüchte, das man under inen den <term
+                           ref="lem001007">zug</term> zuͦ denen gütern, die man inn jeder gemeind
+                        und nit ußerthalb nun von jar zuͦ jar oder ein zal jaren verliche, haben
+                        söllte (wie dann bißhar by inen brüchig gwesen), sonnder das er by den <term
+                           ref="lem010162">verlychungen</term>, wie die obgerürter ge<lb break="no"
+                        />stallt beschechen, belyben. Es were dann sach, das ein vater und <term
+                           ref="lem000210">son</term> ald <term ref="lem000529"
+                           >geschwüstergit</term> des zugs gegen einandern begärten, das dann
+                        dieselben dartzuͦ kommen unnd das ouch ein jeder, so etwas verlychen wellte,
+                        schuldig syn, dasselbig den synen am ersten anzebieten. Wellicher aber syne
+                        güter ußerthalb inn andere gemeinden verlychen, <lb/>das dann die, so inn
+                        der gmeind geseßen, darinn die güter gelegen, dartzuͦ ouch den zug haben.
+                        Aber des zugs halb umb die verkoufften güter, ließe ers by dem alten bruch
+                        belyben.</seg>
+                     <seg>Unnd fürs drit, demnach er durch etlich alt brief befunden, das er,
+                        wolgeporen herr, herr <persName ref="per001640a">Uͦlrich, frygherr von der
+                           Hochensax</persName>
+                        <abbr>etc</abbr>, <lb/>syn lieber herr unnd vater seliger gedächtnus, inen
+                        als synen underthonen der <term ref="lem000209">stüren</term>, <term
+                           ref="lem000607">vaßnachthennen</term> und anderer dingen<note
+                           anchored="true">Vgl. dazu <ref>SSRQ_SG_III_4_111</ref>; <ref>StASG
+                              AA 2 U 23</ref>.</note> halb etwas nachlaßes unnd besonders ouch
+                        hienebent die gnad gethon, das er inen den <term ref="lem014692.02"
+                           >intzug</term> halb ze lassen bewilliget, were er darüber bedacht worden,
+                        ouch by eeren verstendigen lüthen inn <lb/>rath funden, diewyl der mertheyl
+                        alle oberkeyten nebent dem intzug von denen, so von inen <term
+                           ref="lem001293">zugind</term> oder <term ref="key003521">güter</term> by
+                        inen ußhin <term ref="lem005056">erarptind</term>, den <term ref="lem001009"
+                           >abtzug</term> ouch hettind und nämind, das dann er inn syner herrschafft
+                           <placeName ref="loc000278.07">Vorstegk</placeName> als einer frygen
+                        herschafft, die mit <term ref="lem000975">hochen</term> unnd <term
+                           ref="lem000976">nidern grichten</term> allein im zuͦgehörig unnd sonst
+                        gar <lb/>dheinen andern <term ref="lem014698.02">oberrherren</term> hete,
+                        einen zimlichen <term ref="lem001009">abzug</term> ze machen und ufzesetzen
+                        nit minder dann andere oberkeyten fuͦg unnd macht haben söllte. Unnd wiewol
+                        ouch derselbig im (wie dann bey allen oberkeyten brüchig) billich allein
+                        zugehörig, hete er nicht desterminder bewilliget, einer jeden <term
+                           ref="lem000133">gmeind</term>, sovil by iro <lb/>gefiele, denselben halb
+                        ze laßen unnd also vermeint, im selbs ein gedächtnus ze machen unnd iro, der
+                        gmeinden, nutz und wolstand, zuͦ betrachten. Doch wo sy söllichs von ime nit
+                        zuͦ einem gnedigen willen ufnemmen, het er im selbs syn wyter bedengken
+                        vorbehalten.</seg>
+                     <seg>Wie nun er inen, den <num value="5">fünf</num> gemeinden söllichs
+                        eroffnet, <lb/>weren von den <num value="4">vier</num> gemeinden
+                        obangetzeygte <num value="3">dryg</num> artigkel gemeinklich zu hochem danck
+                        unnd aber von der gmeind zu <orgName ref="org001175">Sax</orgName> allein
+                        der erst (sovil die <term ref="lem000612">belonung</term> der <term
+                           ref="lem000130">kinden</term> antreffe) angennommen unnd die anndern <num
+                           value="2">zwen</num> antzenemmen von inen fryg <term ref="lem014693.01"
+                           >abgeschlagen</term>, des er sich gegen inen (wie dann syns erachtens nit
+                        unbillich) zum höchsten <lb/>beschwärt unnd darüber ire ursachen, warumb
+                        inen die andern zwen artigkel nit annemlich, ze wüßen begärt. Da sy ime zum
+                        andern mal angetzeygt, das sy von wolermeltem synem lieben herren und vatter
+                        seligen im <origDate when="1528">fünfftzechenhundert unnd acht unnd
+                           zwentzigisten jar nechst hievor</origDate><note anchored="true"
+                              ><ref>StASG AA 2 U 23</ref>, vgl. dazu das Regest in Kommentar 2 von
+                              <ref>SSRQ_SG_III_4_108</ref>.</note> des abzugs, ouch des <term
+                           ref="lem001007">zugs</term>
+                        <lb/>zu den <term ref="lem000852">verkoufften</term> unnd <term
+                           ref="lem000211">verlechneten</term> gütern und anderer artigklen halb ein
+                        brief erlangt und by iren handen, darby begärten sy zu belyben. Wo aber
+                        söllichs by ime nit statt haben, müßten sy des rechten darob erwarten
+                           <abbr>etc</abbr>.</seg>
+                     <seg>Welliche ir gegebne antwurt inne zum höchsten beduret, dann er vermeint,
+                        diewyl er inen <lb/>nützit unbillichs angemuͦtet, sonnder darinne ir nutz
+                        und <term ref="lem002609">wolfart</term> betrachtet, wie dann die andern
+                        vier gemeinden wol erkennen und sollichs danckbarlich annemmen können, sy
+                        heten sich harinne nit gesöndert, sonder sich ouch als die gehorsamen
+                        erzteigt. Das aber sy sich ires brieffs, so inen syn herr vatter selig
+                        gegeben, <lb/>harinne gemeinklich zuͦ getrösten vermeinen, gebe er darüber
+                        disen bescheyd, das derselbig allein die <term ref="lem000745.08"
+                           >hinderseßen</term> unnd die <term ref="lem000341">eignen lüth</term>, so
+                        zu <placeName ref="loc006042">Sax</placeName> geseßen, dheins wegs beruͦrte,
+                        sonnder sy heyter ußschluße, darumb sy die eignen lüth harinne nit by den
+                        hinderseßen ston, sonnder billich rüwig syn söllten. Deßglychen, das sy ouch
+                        <lb/>gemeinklich unnd sonderlich demselben brief nie nachkommen, sonnder inn
+                        etlichen artigklen gestrax darwider gehandlet, dann derselbig under anderm
+                        heyter vermöchte, wellicher zu inen in die gmeind <placeName ref="loc006042"
+                           >Sax</placeName> züchen welte, er were zuͦvor inn oder ußerthalb der
+                        herschafft geseßen, der söllte für den intzug <measure unit="lb"
+                           quantity="14" type="currency">viertzechen pfundt <lb/>pfenning</measure>
+                        geben, darvon dann der <term ref="lem000273">halbtheyl</term> einem herren
+                        unnd der ander halbtheyl der gmeind gehören. Unnd das namlich söllicher
+                        intzug nit beschechen one der herrschafft und gmeind <orgName
+                           ref="org001175">Sax</orgName> willen <abbr>etc</abbr>.</seg>
+                     <seg>Söllichen artigkel sy aber nit der meinung wie er heyter wyßte verston,
+                        sonnder inen den gewalt, ob sy einen annem<lb break="no"/>en wellen oder nit
+                        selbs zugeeignet, dann sy kurtzer zyt zwen für sich selbs angenommen unnd
+                        als er sy darnach für zwen, so inn der herschafft erboren und von guten
+                        alten <term ref="lem002237.08">geschlächten</term> wären, gepätten, ime
+                        dasselbig abgeschlagen und angetzeygt, das under inen das <term
+                           ref="lem000857">meer</term> worden, das sy dheinen mer annemmen. Mit
+                           wel<lb break="no"/>lichem sy zu vil gethon unnd ouch ime dartzu synen
+                        theyl <term ref="lem001009">abzug</term>, so im von denen beyden, für die er
+                        gepeten, volgen mögen, wider billichs abgemeret unnd dartzu ouch ime synen
+                        gwalt, den er harinne glych als wol als sy gehept, zunemmen
+                        understanden.</seg>
+                     <seg>Zudem heten sy von etlichen <measure type="currency" quantity="30"
+                           unit="fl">dryssig</measure> und etlichen <measure type="currency"
+                           quantity="60" unit="fl">sechtzig guldin</measure>
+                        <lb/>zuͦ intzug genommen, deßglychen etlich von wegen der <term
+                           ref="lem000391.01">tagwan</term>, so sy im ze thuͦn schuldig, vil
+                        ungepürlicher und <term ref="lem014696.02">ungeschickter worten</term>
+                        ußgestoßen. Umb welliche jetz ertzellte, begangne sachen sy ime syns
+                        verhoffens billich straffwürdig syn und ouch damit sovil verwürckt haben,
+                        das ir brief craftloß und nichtig syn <lb/>unnd die <term ref="lem000745.08"
+                           >hinderseßen</term> sich desselben hinfüro glych als wenig als die eignen
+                        zuͦ getrösten haben söllten, dann derselbig uff sy, die hinderseßen des
+                        abtzugs halb ouch nit anders lutete, dann das sy allein uß der gmeind
+                           <placeName ref="loc006042">Sax</placeName> fryg one abtzug hinweg züchen
+                        möchen, aber nit wyter unnd die herschafft <placeName ref="loc000278"
+                           >Vorstegk</placeName> darinn nien<lb break="no"/>dert meldete.</seg>
+                     <seg><head resp="SM">Antwort der Gemeinde Sax</head></seg>
+                     <seg>Dargegen die ganntz versampt gmeind zuͦ <orgName ref="org001175"
+                           >Sax</orgName> anntwurten lassen, wie sy genanten iren gnedigen herren
+                        mermalen ganntz underthenig gepeten, sy by iren brief und siglen belyben ze
+                        lassen und mit inen dhein nüwerung anzefachen. Das wellten sy hiemit
+                        abermalen gantz flyssig und <lb/>dienstlich gethon unnd besonders hie nebent
+                        underthenigklich gepeten haben, das fürgeschlagen <term ref="lem007059"
+                           >rechtpot</term> von inen nit für übel ufzenemen, dann sy das irs
+                        erachtens uß erhöüschender nothurfft und dheiner argen als bösen meynung
+                        gethon. Dann als er, ir gnediger herr, vermeynen wellen, das ir brief allein
+                        uff die <term ref="lem000745.08">hinderseßen</term>
+                        <lb/>und nit uff die <term ref="lem000341">eignenlüth</term> wysen, das
+                        könndten sy nit also sonder heyter verston, das er uff die gantz gemeind zu
+                           <orgName ref="org001175">Sax</orgName> lutete und ouch dieselben allso
+                        von <placeName ref="loc006042">Sax</placeName> zugind, des abtzungs halb
+                        fryg und ledig seyte, darumb ouch unnder inen das <term ref="lem000857"
+                           >meer</term> worden, das sy die eignen und hinderseßen inn diser handlung
+                        byeinandern ston und der <lb/>brief sy irs vermeinens inn gmein begryffen
+                        söllte.</seg>
+                     <seg>Das dann syn gnad fürwandte unnd achtete, das sy vermelten brief mit dem,
+                        das sy die zwen, für die sy gepeten, nit annemen, deßglychen, das sy von
+                        etlichen zu vil zu <term ref="lem001009">abtzug</term> genommen, gebrochen
+                        und der darumb nützit mer gelten, das gethruwtind sy gar nit, dann sy mit
+                        <lb/>vile der lüthen inn irer gmeind dermaßen <term ref="lem008670"
+                           >übersetzt</term>, das sy kümerlich byeinandern <term ref="lem009428"
+                           >wonen</term> unnd belyben möchten unnd deßhalb unnder inen das meer
+                        worden, das sy allein jetzmal dheinen mer annemmen und aber darby nit
+                        beschloßen, das sy stäts daruff verharren und belyben. Das sy aber von
+                        etlichen mer zu intzug <lb/>genommen, dann ir brief vermöchte, das liessen
+                        sy war syn unnd weren des bekantlich, ja der gestalt, als sy denselben nit
+                        nur ir <term ref="lem000103">dorff</term>, sonnder ouch damit ir <term
+                           ref="lem001088">alpprecht</term> zu kouffen geben heten, sy von inen dest
+                        mer genommen. Und wiewol ime, dem herren, von dem, so vom alpprechten
+                        harlangte, nützit gehört, habind sy doch irn gnaden nicht<lb break="no"
+                        />desterminder den halben theyl alwegen darvon gevolgen lassen, darumb sy
+                        sich irs erachtens im selbigen nützit zu beklagen. Unnd ouch sy umb alles
+                        das, so sy (als obstat) verhandlet, dheins wegs ze <term ref="lem000630"
+                           >straffen</term> habe. Wo aber etlich der <term ref="lem000391.01"
+                           >tagwan</term> halb ungepürlichen bescheyd geben, des belüden sy sich nüt
+                        unnd liesind dieselben das selbs <lb/>verantwurten oder ir gepürende <term
+                           ref="lem000345.01">straf</term> darüber empfachen mit gantz
+                        unndertheniger pit, wolermelter ir gnediger herr wellte sy als syne <term
+                           ref="lem000329">underthonen</term> inn gnaden bedenken und sy umb den
+                           <term ref="lem001007">zug</term> der verkoufften und verlechneten <term
+                           ref="key000147">gütern</term> by altem <term ref="lem001670"
+                        >bruch</term>, deßglychen des <term ref="lem001009">abtzugs</term> halb by
+                        iren brief und siglen gütigklich belyben lassenn. <lb/>Aber den artigkel,
+                        die <term ref="lem000612">belonung</term> der <term ref="lem000130"
+                           >kinden</term> berürende, weren sy antzenemmen nit widerig, sonnder
+                        desselben gantz geneigt unnd guͦtwillig.</seg>
+                     <seg><head resp="SM">Schiedsspruch</head></seg>
+                     <seg>Wann nun wir sy, die parthygen, inn obgeschribner irer clag und antwurt,
+                        so sy mit den und vil mer lengern worten (alle zu melden unnot) eroffnet,
+                        sampt der gmeind zuͦ <orgName ref="org001175">Sax</orgName> brieff
+                        <lb/>gnugsamklich unnd noch aller nothurfft verhört unnd unns bedücht, das
+                        die handlung nit so groß oder dermaßen geschaffen, dann das die wol inn der
+                        gütigkeyt hin zelegen, habennt wir sy daruf ganntz flyssig und früntlich
+                        angesuͦcht und gepeten, das sy uns zu hinlegung dis irs spans gütlich
+                        zwüschent inen handlen laßen, <lb/>guͦter hoffnung mitel und weg ze finden,
+                        die inen beyder syts annemlich syn und dardurch das recht, ouch großer cost,
+                        müyg und arbeyt, so daruß volgen, erspart werden möge. Daran ouch sy
+                        obgenanten unsern gnedigen herren von <orgName ref="org001217"
+                           >Zürich</orgName> ein sonnder groß gefallen bewysen werden unnd sy also
+                        mit den und derglychen worten umb so<lb break="no"/>vil bewegt, das sy unns
+                        gütliche mittel zwüschent inen ze stellen bewilliget, doch so inen die nit
+                        annemlich, das dann inen die an irem rechten inn allweg unschädlich unnd
+                        unnachteylig syn.</seg>
+                     <seg>Unnd sind namlich daruf volgende personen von der gemeind zu <orgName
+                           ref="org001175">Sax</orgName> hiertzu mit bevelch und gwallt <term
+                           ref="lem004361">ußgeschoßen</term> und verordnet <lb/>mit nammen
+                           <persName ref="per004427">Jörg Bernegger</persName> unnd <persName
+                           ref="per004428a">Gilg Mock</persName>, beyd altamman, <persName
+                           ref="per004429">Urban Groß</persName>, <persName ref="per004430a">Bläsi
+                           Ryner</persName>, <persName ref="per004431a">Symon Fürer</persName>,
+                           <persName ref="per004435a.01">Hanns Hewer</persName>, <persName
+                           ref="per004432a.01">Mangnus Hagman</persName>, <persName ref="per004433a"
+                           >Hans Keßler</persName> und <persName ref="per004434a">Zacharyas
+                           Bernegger</persName>. Unnd als wir volgentz beyd parthygen alwegen eine
+                        inn der andern abwesen erkundigt und eigentlich erduret, was jeder harinne
+                        annemlich <lb/>unnd erlydenlich syn möchte, sind von unns daruf dise hienach
+                        gemelten mitel zwüschent inen gestelt als namlich:</seg>
+                     <seg n="1">Zuͦ dem ersten, diewyl die eignen unnd <term ref="lem000745.08"
+                           >hinderseßen</term>, so inn dem <term ref="lem000103">dorff</term> zuͦ
+                           <placeName ref="loc006068">Sax</placeName> gsessen, bißhar inn irer
+                        gmeind mit einandern <term ref="lem006858">meeren und mindern</term>, ouch
+                        pott und verpott <lb/>thuͦn unnd anlegen mögen, deßglychen miteinandern
+                           <term ref="lem002664">reysen</term> und im <term ref="lem004262.08"
+                           >reyßcosten</term> syn müßen, so söllen sy das fürer also bruchen wie von
+                        allter har, doch der herrschafft inn alweg one schaden.</seg>
+                     <seg n="2">Zum anndern, das ouch sy, die gmeind zu <orgName ref="org001175"
+                           >Sax</orgName>, by wunn, weyden, höltzern, väldern, gstüden, rütinen,
+                        <lb/>reynen, bergen, ebninen, <term ref="lem015419">frügen</term> und <term
+                           ref="lem015420">spaten</term> rieteren, wie sy bißhar genützet unnd
+                        genossen haben, wyter belyben unnd ouch dieselben by der <term
+                           ref="lem000036">buͦß</term> wie von alter har zu <term ref="lem001642"
+                           >verbannen</term> unnd ze verbieten, fuͦg unnd gwalt haben, doch das von
+                        den darumb verfallnen buͦßen alwegen zwen theyl der herrschafft unnd der
+                        dritteyl <lb/>der gmeind zu gehören. Ob aber jemand denselben iren verpotten
+                        ungehorsam erschine, alß dann sölle ein herschafft ire gepott anleggen und
+                        die ungehorsamen wyter unnd ferer noch gestalltsame der sachen und irem
+                        verdienen straffen unnd sy die ungehorsamen hienebent ouch dartzu halten,
+                        das sy denen, so sy den schadenn <lb/>gethon, iren schaden noch der
+                        geschwornen erkantnus abtragind und sy darumb fernügind.</seg>
+                     <seg n="3">Zuͦm drittenn sölle die gmeind zuͦ <orgName ref="org001175"
+                           >Sax</orgName> by irer <term ref="lem000306">allpp</term> und aller
+                        gerechtigkeyt, so sy untzhar dartzu und daran gehept, fürer als bißhar
+                        belyben, von der herschafft und menklichem daran unverhindert, doch mit dem
+                        <lb/>anhang, sidmal sich unnser gnediger herr und sy, die gmeind zuͦ
+                           <orgName ref="org001175">Sax</orgName>, verschiner <term ref="lem000270"
+                           >jaren</term> miteinandern dergestallt verglycht, was <term
+                           ref="lem000310.12">veechs</term> er, unnser gnediger herr, von denen
+                        gütern, so syn gnad zu <placeName ref="loc006042">Sax</placeName> habe oder
+                        künfftigklich daselbs überkommen werde, <term ref="lem000313"
+                           >gewintern</term>, das sy ouch dasselbig uff der gmeind alpp <term
+                           ref="lem002756.11">gesümern</term> und daruf <lb/>zu <term
+                           ref="lem000027">weyd</term> schlachen möge. Unnd aber das er, der herr,
+                        dargegen von jedem houpt veechs syn antzal und alles das von der allpp wegen
+                        ze thuͦn schuldig syn, wie einer, der inn der gemeind geseßen, pflichtig
+                        ist, das es dann by demselben ouch gentzlich beston und belyben.</seg>
+                     <seg n="4">Zum vierten, sidmal sich durch der gmeind <lb/>zuͦ <orgName
+                           ref="org001175">Sax</orgName> brief gnuͦgsam befunden, das sich die
+                        gmeind zuͦ <orgName ref="org001175">Sax</orgName> vor vilen jaren umb die
+                           <term ref="lem002710">landtstür</term> und <term ref="lem000607">vaßnacht
+                           hennen</term> von der herschafft <placeName ref="loc000278.07"
+                           >Vorsteck</placeName> aberkoufft unnd gelediget, ouch darumb brief und
+                        sigel ufgericht, ist daruf unnser beschluß, das es hierby beston und sy, die
+                        gmeind, harumbe wyter nit angesuͦcht <lb/>werden sölle.<note anchored="true"
+                           >Vgl. <ref>SSRQ_SG_III_4_111</ref>.</note></seg>
+                     <seg n="5">Zum fünften, von wegen des <term ref="lem001007">zugs</term> zu den
+                        verkoufften gütern geben wir die erlüterung: Was gütern ein herrschafft inn
+                        der gmeind <orgName ref="org001175">Sax</orgName> erkouffte, das zuͦ
+                        denselben (wie dann bißhar ouch brüchig gewesen) niemant dheinen zug haben,
+                        sonder sy, die herrschafft, mit allen <lb/>gütern, so sy jetz alda habe oder
+                        fürer daselbs erkouffen wurde, damit, es syge mit <term ref="lem008924"
+                           >verkouffen</term> oder <term ref="lem000211">verlychen</term>, handlen
+                        möge noch irem nutz, willen und gefallen, von der gmeind und mengklichem
+                        daran unverhindert. Glychergestallt wann ein <term ref="lem000529"
+                           >geschwüstergit</term> dem andern inn der gmeind zu <orgName
+                           ref="org001175">Sax</orgName> güter zuͦ kouffen gebe, das zuͦ
+                        <lb/>denselben ouch niemandt dheinen zug haben. So aber sonnst andere
+                        personen inn der gmeind güter gegen einandern verkouffen wurden, zu
+                        denselben solle erstlich die herrschafft den zug. Und so sy aber nit züchen
+                        welte, alß dann die inn der gemeind den vor den <term ref="lem000867"
+                           >frömbden</term> und allen denen, so ußerthalb irer gmeind geseßen,
+                        dartzuͦ <lb/>haben, wie dann bißhar by inen gebrucht worden ist.</seg>
+                     <seg n="6">Zum sechsten, sovil die <term ref="lem000211">verlechneten</term>
+                        güter antrifft, da sölle zu denselben, so inn der gmeind <orgName
+                           ref="org001175">Sax</orgName> gegen einandern ein ald mer jaren verlichen
+                        werden, gar niemand dheinen zug haben, sonder by den <term
+                           ref="lem010162.03">verlychungen</term> belyben, es were dann <lb/>sach,
+                        das einer inn der gmeind einem ußerthalb güter verliche, die söll unnd möge
+                        dann ein <term ref="lem000129">vatter</term>, <term ref="lem000210"
+                           >son</term> ald <term ref="lem000529">geschwüstergit</term> oder sonnst
+                           <term ref="lem006899">gefründten</term> inn der gmeind wol züchen. Wann
+                        aber dhein gefründter (als obstat) züchen wellte, alß dann söllen andere in
+                        der gmeind den zug dartzu haben.</seg>
+                     <seg n="7">Zum sibenden <lb/>ist umb den <term ref="lem007169">intzug</term>,
+                        wie sich die herschafft unnd gmeind hinfüro damit hallten, von unns
+                        beschloßen:</seg>
+                     <seg n="7.1">Wellicher hinfüro uß der herschafft <placeName ref="loc000278.08"
+                           >Vorstek</placeName> oder dem <term ref="lem009717">zirk</term> der
+                           <placeName ref="loc000153">Eydtgnosschafft</placeName> inn das <term
+                           ref="lem000103">dorff</term> und gmeind zuͦ <orgName ref="org001175"
+                           >Sax</orgName> zu tzüchen begere und derselbig der herschafft gefellig
+                        und annemlich syge, so sölle ein ge<lb break="no"/>meind denselben one
+                        widerred anzenemmen schuldig syn, doch das ein jeder derselbigen <measure
+                           type="currency" quantity="20" unit="lb">zwentzig pfund pfening</measure>
+                        diser landtswerung für den intzug ußrichten unnd geben.</seg>
+                     <seg n="7.2">Unnd wann ouch derselbig, so also hinyn zücht, dentzemal <term
+                           ref="lem012437">manbar</term> und erwachsen sön hete und dieselben ouch
+                        mit im dahin nemmen und züchen <lb/>wellte, der sölle für ein jeden
+                        derselben den intzug, die <measure type="currency" quantity="20" unit="lb"
+                           >zwentzig pfund pfening</measure> (als obstat) zu geben pflichtig syn
+                        unnd namlich von söllichem intzug gelt allein der <term ref="lem000273"
+                           >halbtheyl</term> der herschafft unnd der ander halbtheyl der gmeind
+                        zugehören, wie dann bißhar ouch gebrucht worden. Wellicher aber, als
+                        vorstat, inn die gmeind <placeName ref="loc006042">Sax</placeName>
+                        <lb/>züchen unnd dheine manbare ald erwachßne, sonder allein sön, die noch
+                        under iren jaren weren, hete, der sölle für die selben gar nützit, sonnder
+                        allein die <measure type="currency" quantity="20" unit="lb">zwentzig pfund
+                           pfening</measure> für sich selbs (wie vorgemeldet) ze geben verbunden
+                        syn.</seg>
+                     <seg n="7.3">Doch soll ein herschafft sy, die gmeind, mit lüthen, so inen
+                        beschwärlich unnd überle<lb break="no"/>gen syn möchten, nit übersetzen,
+                        sonnder sy als underthonen im selbigen unnd sonst allwegen inn gnaden
+                        bedencken, damit sy deß bas by huß und heim, ouch by wyb und kinden belyben
+                        mögind. Alles mit dem wytern vorbehalt, wann ein herschafft und gmeind
+                        einhellig wurde von der obgenanten personen einer, meer <lb/>dann <measure
+                           type="currency" quantity="20" unit="lb">zwentzig pfund pfening</measure>
+                        zu intzug ze nemmen, das sy dann dasselbig ungeirrt mengklich wol thuͦn
+                        mögen. Wa sy sich aber umb dasselbig nit verglychen möchten, so sölle es by
+                        den bestimpten <measure type="currency" quantity="20" unit="lb">zwentzig
+                           pfunden</measure> belyben.</seg>
+                     <seg n="7.4">Ob aber sach, das ein <term ref="lem001577">wypsperson</term> inn
+                        der gmeind <placeName ref="loc006042">Sax</placeName> were, die ußerthalb
+                        der gmeind <placeName ref="loc006042">Sax</placeName>
+                        <term ref="lem001569">mannete</term>, <lb/>oder einer der vormals inn der
+                        gmeind were gsyn unnd wider inn die gmeind <placeName ref="loc006042"
+                           >Sax</placeName> züchen wellten, dero personen jede soll für den intzug
+                        geben <measure type="currency" quantity="8" unit="lb">acht pfund
+                           pfening</measure>, darvon ouch <measure type="currency" quantity="4"
+                           unit="lb">vier pfund</measure> der herrschafft und <measure
+                           type="currency" quantity="4" unit="lb">vier pfund</measure> der gmeind
+                        gevolgen. Wann aber ein <term ref="lem002817.09">inseß</term> inn der gmeind
+                           <placeName ref="loc006042">Sax</placeName> ein wyb näm inn oder ußerthalb
+                        der <lb/>herschafft haryn inn die gmeind <placeName ref="loc006042"
+                           >Sax</placeName>, der soll nit syn inn den buͦßen, wie obstat. </seg>
+                     <seg n="7.5">Deßglychen der herrschafft <term ref="lem008271">buwlüth</term>
+                        oder <term ref="lem002337.05">wynzürnli</term> söllen ouch <term
+                           ref="lem014460">fryg</term> syn unnd in unnd uß züchen, als offt es sich
+                        begipt.</seg>
+                     <seg n="7.6">Wann ouch sach, das ein <term ref="lem000745.14">hinderseß</term>
+                        ein <term ref="lem000655">wyb</term> nem, die eigen, oder ein <term
+                           ref="lem001448">eigenman</term> ein wyb nem, die fryg were unnd <term
+                           ref="lem000130">kinnd</term>
+                        <lb/>by einandern gwunnind, so sonnd dieselben kinnd belyben bim theyl wie
+                        von allter har und on alle straff by der gmeind syn nach der herrschafft
+                           <placeName ref="loc000278.07">Vorstegk</placeName> altem bruch unnd
+                        gewonheyt. </seg>
+                     <seg n="7.7"> So und wann aber etliche ußerthalb der herschafft <placeName
+                           ref="loc000278.07">Vorstek</placeName> oder dem <term ref="lem009717"
+                           >zirk</term> der <placeName ref="loc000153">Eydtgnosschafft</placeName>
+                        über <placeName ref="loc000644">Rhyn</placeName> har inn die gmeind zuͦ
+                           <placeName ref="loc006042">Sax</placeName>
+                        <lb/>zuͦ züchen begärten, die söllen die herrschafft und gmeind antzenemmen
+                        nit schuldig syn, sy thügen es dann beydersyts mit gutem willen und gern. Wo
+                        sy sich aber im selbigen miteinandern nit verglychen möchten, also das ein
+                        theyl denselben annemmen wellte und der ander nit, so söllen sy umb
+                        dasselbig alwegen für einenn <lb/>
+                        <term ref="lem000266">lanndtvogt</term> zu <placeName ref="loc000440"
+                           >Werdenberg</placeName>, wer der jeder zyt syn wirt, zu enntscheyd
+                        kommen. Unnd was dan derselbig darumb spricht, darby soll es belyben unnd
+                        dann ein herschafft unnd die gmeind demselben, so zu inen züchen wurde, ein
+                        intzug ufleggen und machen nach irem gefallen unnd guten bedunken, davon
+                        dann der her<lb break="no"/>schafft ouch der halb unnd der ander halb theyl
+                        der gmeind gehören.</seg>
+                     <seg n="8">Zum achtenden, als die herrschafft <placeName ref="loc000278.08"
+                           >Vorstek</placeName> unntzhar von denen, so daruß getzogen oder güter
+                        darinn ußhin ererpt, dheinen <term ref="lem001009">abtzug</term> gehept,
+                        darumb dann vilgemelter unser gnediger <persName ref="per004426a">herr von
+                           Sax</persName> inn der gmeind zu <placeName ref="loc006042"
+                           >Sax</placeName> glycher <lb/>gestallt wie inn andern gemeinden derselben
+                        herschafft ein abtzug ze machen unnd ufzesetzen fürgenommen unnd ouch darby
+                        uß gnaden bewilliget, das derselbig halb der gmeind gefolgen unnd aber die
+                        gmeind zu <orgName ref="org001175">Sax</orgName> sich desselben treffenlich
+                        beschwärt unnd vermeint, das sy des inn obangetzeigtem irem brief gelediget,
+                        <lb/>unnd des abtzugs halb fryg gelaßen, wie dann oben inn iren fürträgen
+                        gnugsam verstanden. Diewyl nun (wie mengklichem wüßent) der mertheyl <term
+                           ref="lem000720">oberkeyten</term> den abtzug haben und nemmen, ouch
+                        derselbig allein inen und nit den underthanen zugehörig unnd dann <placeName
+                           ref="loc000278.08">Vorsteck</placeName> ein fryge, eigne herschafft und
+                        sonst <lb/>dheinen andern <term ref="lem014698.01">oberherren</term> dann
+                        unsern gnedigen <persName ref="per004426a">herren von Sax</persName> hat,
+                        bedunckt unns, das er synes vorhabens inn disem fal ganntz wol befügt unnd
+                        der gmeind zu <orgName ref="org001175">Sax</orgName> inn dem, das er iro den
+                        halben theyl vom abtzug ze laßen sich erpotten, ein große gnad unnd gutat
+                        erzeygt, darumb ouch die gmeind synen gna<lb break="no"/>den billichen
+                        großen danck sagen.</seg>
+                     <seg n="8.1">Deßhalben wir uns daruf des erlüthert unnd entschloßen haben,
+                        namlich, das hinfür alle die, so inn der gmeind zu <placeName
+                           ref="loc006042">Sax</placeName> gseßen und daselbs dannen uß der
+                        herschafft <placeName ref="loc000278.07">Vorstegk</placeName> inn andere
+                        gericht und oberkeyten züchen wellen, dieselben sygen eigen oder <term
+                           ref="lem000745.08">hinderseßen</term>, <term ref="lem005623">wyb oder
+                           <lb/>man</term>, die söllen von allem irem guͦt, so sy mit inen hinweg
+                        züchen, allweg von <measure type="currency" quantity="20" unit="d">zwentzig
+                           pfeningen</measure>
+                        <measure type="currency" quantity="1" unit="d">einen</measure> zu abtzug
+                        geben.</seg>
+                     <seg n="8.2">Zudem ouch der herrschafft zu den <term ref="lem000624"
+                           >lybeignen</term>, welliche sich dentzemal umb die selbig ansprach nit
+                        besonders ouch <term ref="lem014500">abkouffen</term> umb den <term
+                           ref="lem000337">fal</term> und umb alle andere gerechtigkeyt der <term
+                           ref="lem001189">lybeigenschafft</term> zugehörig, <lb/>nicht dester
+                        minder vorbehallten unnd iro umb dasselbig hiemit nützit benommen syn. Aber
+                        die hinderseßen söllen wyter nit dann den abtzug, als obstat, geben, es were
+                        dann sach, das derselben einer inn der gmeind mit <term ref="lem000233"
+                           >tod</term> abgienge unnd gut hinder im verließe, derselbig syge jung
+                        oder alt, der sölle der herschafft für <lb/>den <term ref="lem000337"
+                           >fal</term>
+                        <measure type="currency" quantity="1" unit="lb">ein pfund pfening</measure>
+                        verfallen syn und von synem gut ußgericht werden.</seg>
+                     <seg n="8.3">Welliche personen ouch, es syge wyb oder man, so uß der gmeind
+                           <placeName ref="loc006042">Sax</placeName> getzogen oder sonnst ußerthalb
+                        geseßen sind, inn der gmeind <placeName ref="loc006042">Sax</placeName>
+                        hinfüro gut <term ref="lem005056">ererben</term> werden, dieselben sollen
+                        von allem irem ererpten guͦt ouch allwegen von <measure type="currency"
+                           unit="d" quantity="20">zwen<lb break="no"/>tzig pfeningen</measure>
+                        <measure quantity="1" unit="d" type="currency">einen</measure> zuͦ abtzug
+                        erleggen unnd mit namen alles das, so obgerürter gestallt zu abtzug gefallen
+                        wirt, halb der herrschafft und halb der gmeind verlangen, wie dann unnser
+                        gnediger herr, als vorstat, uß sondern gnaden vergünstiget hat. Welliche
+                        aber uß der gmeind zuͦ <placeName ref="loc006042">Sax</placeName> allein inn
+                        andere <term ref="lem000103">dörffer</term>
+                        <lb/>oder gmeinden inn der herrschafft unnd nit uß der herschafft züchint,
+                        die söllent des abtzugs fryg und ledig und gar dheinen ze geben schuldig
+                        syn.</seg>
+                     <seg n="9">Zum nündten von wegen der <term ref="lem003811.07">männ</term> unnd
+                           <term ref="lem014694.03">lybtagwan</term> habent wir abgeredt, das ein
+                        jedes <term ref="lem001828.06">gehüset</term> inn der gmeind zuͦ <placeName
+                           ref="loc006042">Sax</placeName>, die sygen lybeigen <lb/>oder fryg, der
+                        herschafft <term ref="lem008110">alle jar</term> zwen <term
+                           ref="lem014694.03">lybtagwan</term> thuͦn unnd namlich der ein tagwan syn
+                        inn den <term ref="lem004267">reben</term> ze howen unnd der ander wartzu
+                        ein herschafft inn ervorderet. Welliche aber lybeigen ouch manspersonen sind
+                        und <term ref="lem003811.03">männinen</term> haben, die sonnd der
+                        herrschafft jerlich mit derselben männe ein <term ref="lem000391.01"
+                           >tagwan</term> zusampt den <lb/>
+                        <term ref="lem014694.02">lyptagwan</term> (als obstat) ze thuͦn pflichtig
+                        syn. Die aber, so nit ein ganntze männe haben, dieselben söllen zusamen
+                        spannen und setzen unnd die <term ref="lem014695.02">männethagwan</term>
+                        thuͦn, wie von alter har unnd bißhar gebrucht worden unnd sy als gehorsame
+                        underthonen schuldig sind.</seg>
+                     <seg n="10">Zum zechenden, nach<lb break="no"/>dem (wie oben gnugsam unnd nach
+                        der lennge gemeldet) bißhar inn der herschafft <placeName ref="loc000278.08"
+                           >Vorstek</placeName> der <term ref="lem001670">bruch</term> gewesen, das
+                        die <term ref="lem000129">vätter</term> iren eignen <term ref="lem000130"
+                           >kinden</term> als <term ref="lem010958">frömbden</term>
+                        <term ref="lem005075">diensten</term>
+                        <term ref="lem000612">belonungen</term> geben unnd aber die gmeind zu
+                           <orgName ref="org001175">Sax</orgName> uff unnsers gnedigen herren
+                        begären vom selbigen unbillichen bruch glycher gestallt wie die <lb/>andern
+                        gemeinden abgestanden, also das sy iren kinnden dheine belonungen mer geben
+                        wellen noch söllen. So lassen wir es by demselben genntzlich belyben, doch
+                        mit dem anhang, so ein kind vater unnd <term ref="lem000292">muͦter</term>
+                        wol dienete unnd <term ref="lem003006">hußhalten</term> hulffe, das dann
+                        dieselben von iren vater unnd muͦter zu ergetzligkeit <lb/>irer diensten und
+                        guͦthathen inn <term ref="lem000530">gemächts</term> ald <term
+                           ref="lem009621">vereerungs</term> wyß von irem guͦt nach der herschafft
+                        unnd eines grichts erkantnus wolbedacht werden mögen, unverhindert
+                        mengklichs.</seg>
+                     <seg n="11">Zum einliften, diewyl die herschafft unnd gmeind zuͦ <orgName
+                           ref="org001175">Sax</orgName> bißhar dhein eigentlichen verstand oder
+                           wüß<lb break="no"/>en gehept, wann sy gegen einandern inn spann kommen,
+                        wo oder vor wem sy einandern darumb berechtigen und suͦchen söllen, haben
+                        wir inen uff ir begären darüber die erlüterung geben:</seg>
+                     <seg> Namlich wann hinfüro die herschafft zu der gantzen gemeind oder die
+                        gmeind ald sonderbar personen daselbs an die herr<lb break="no"/>schafft
+                        vorderung und <term ref="lem005694">ansprach</term> gewunen ald überkommen,
+                        warumb joch das wär oder syn wurde, das dann allwegen die herschafft umb
+                        dieselbigen sachen von und uß den andern gemeinden inn der herrschafft ein
+                        unparthygischen <term ref="lem000342">richter</term> und <term
+                           ref="lem000034">gricht</term> setzen unnd was sich dann dieselben noch
+                        gnuͦgsamer verhörung <lb/>umb ir handlungen unnd sachen by iren eyden
+                        erkennen und sprechen, darby sölle es one alles wägern unnd <term
+                           ref="lem009436">appellieren</term> belyben. So und wann aber etlich
+                        richter gesetzt oder fürgeschlagen, die von eintwäderm theyl für
+                        partheygisch geachtet, ouch mit recht darfür unnd <term ref="lem014699.02"
+                           >aberkent</term> wurden, so söllen allwegen an derselben <lb/>statt von
+                        der herschafft andere, so unparthygisch gesetzt unnd genommen werden, so vil
+                        und dick biß darumb dhein clag mer ist.</seg>
+                     <seg n="12">Zum zwölften sölle der gemeind zu <orgName ref="org001175"
+                           >Sax</orgName> obangetzogner brief, der an synem anfang: <quote>Ich,
+                              <persName ref="per001640a">Uͦlrich, frygherr von der
+                              Hochensax</persName>, herr zuͦ <placeName ref="loc006070"
+                              >Bürglen</placeName> und <placeName ref="loc000278.09"
+                              >Vorsteck</placeName>
+                           <abbr>etc</abbr>,</quote>
+                        <lb/>und an synem datum wyßt, der geben ist <origDate when="1528-03-01">zuͦ
+                           ingendem mertzen, getzallt nach <persName ref="per000353"
+                              >Christi</persName> gepurt fünfftzechenhundert zwentzig und acht
+                           jare</origDate>,<note anchored="true"><ref>StASG AA 2 U 23</ref>, vgl.
+                           dazu das Regest in Kommentar 2 von <ref>SSRQ_SG_III_4_109</ref>.</note>
+                        sidmal der mertheyl artigklen darinn umb etwas verbeßert und erlütert sind,
+                        hiemit <term ref="lem003545">cassiert</term> unnd nichtig syn.</seg>
+                     <seg n="13">Zum dryzechenden, wiewol die ge<lb break="no"/>meind zu <orgName
+                           ref="org001175">Sax</orgName> umb das sy sich zum theyl unbillicher wyß
+                        wider ir nathürliche und rechte oberkeyt gesetzt, ouch etlich unnder inen
+                        inn diser sach <term ref="lem014696.03">ungebürliche wort</term> geredt und
+                        ußgestoßen, wol straffwirdig gewesen und dartzuͦ billich allen daruf
+                        ergangnen <term ref="lem000279">costen</term> abtragen söllen, so habent wir
+                        doch an vilge<lb break="no"/>melltem unserm gnedigen <persName
+                           ref="per004426a">herren von Sax</persName> mit unser ernstlichen pit
+                        sovil angehalten und vermögen, das er sich für alle ansprachen der <term
+                           ref="lem000630">straffen</term> und den ufgelouffnen costen von diser
+                        sach wegen harlangende <measure type="currency" quantity="120" unit="fl"
+                           >einhundert und zwentzig guldin</measure> ze nemmen begeben, welliche
+                        suma ouch sy, die gmeind, ime halb <date type="deadline" when="1563-04-25"
+                           >uff sanct <lb/><persName ref="per000270"
+                           >Jörgen</persName></date><note>Zur Datierung des Georgtages im Bistum
+                              <placeName ref="loc000021">Chur</placeName> vgl. die Fussnote in
+                              <ref>SSRQ_SG_III_4_250</ref>.</note> unnd halb uff <date
+                           type="deadline" when="1563-06-24">sanct <persName ref="per000049"
+                              >Johann</persName>stag zu sunnwende</date>, beyde zil nechst noch dato
+                        dis brieffs komende, one allen costen erleggen und betzalen. Und das ouch
+                        er, der herr, umb sölliche <term ref="lem002195.05">betzalung</term> von und
+                        uß der gmeind zwen zu betzalern nemmen möge, so im darzu gefellig
+                        sygen.</seg>
+                     <seg n="14">Unnd zum letsten sollen <lb/>ouch hiemit alle <term ref="lem005129"
+                           >reden</term>, hanndlungen und sachen, was sich von anfang biß jetz von
+                        obgemelter spennen wegen verlouffen und zugetragen, allenklich ufgehept syn
+                        unnd dewederer theyl an den andern darumb dhein wytere vorderung noch
+                        ansprach haben, sonnder unser gnediger <persName ref="per004426a">herr von
+                           Sax</persName> der gmeind alles das, <lb/>so sy harinne gehandlet unnd
+                        fürgenommen, verzychen, sy zu gnaden ufnemmen und sy by allem dem, so hievor
+                        stat, schützen, schirmen und handthaben unnd inen das best und weg ist
+                        thuͦn, wie einer oberkeyt gepürt. Dargegen sy sich gegen synen gnaden ouch
+                        halten unnd ertzeygen als unnderthonen getzimpt und wol an<lb break="no"
+                        />stat unnd damit allerdings gericht, geschlicht unnd versünt syn und
+                        einandern des zu argem ald ungutem niemer mer gedencken inn dhein wyß.</seg>
+                     <seg>Wann nun wir inen, jetzvermelte, unnsere gutliche und gestellte mittel
+                        vorgeoffnet, habennt sy die beydersyts zu gutem gefallen uf und ange<lb
+                           break="no"/>nommen unnd unns daruf namlich vorgenanter unser gnediger
+                        herr für sich selbs, ouch ir gnaden erben unnd nachkommen, by iren eeren, so
+                        denne die obgemelten der gmeind verordnete nün man für sich selbs, ouch die
+                        ganntz gemeind unnd ir aller erben und nachkommen by iren guten thrüwen an
+                        <lb/>unnser handt an rechter geschworner eydtsstatt gelopt unnd versprochen,
+                        allem dem, so hievor geschriben stat unnd diser brief ußwyßt unnd vermag,
+                        gethrüwlich zu geleben und nachzekommen unnd darwider niemer nichts ze
+                        reden, ze thuͦn noch schaffen, gethon werden inn dheinen weg, all böß
+                        geverdt unnd <lb/>arglist harinne vermiten unnd gantz ußgeschlossen.</seg>
+                     <seg>Unnd des alles zu getzügknus unnd warem urkhund, so habennt wir,
+                        obgenannter <persName ref="per001921a">Bernhart von Chaam</persName>,
+                        burgermeyster, unnd <persName ref="per001965a">Hans Heinrich
+                           Sproß</persName>, seckelmeyster, von beydertheylen sonderer pit wegen,
+                        unnsere eignen insigel (doch unns <lb/>unnd unsern erben one schaden)
+                        offenlich an diser briefen zwen glych lutend gehenckt unnd jedem theyl uff
+                        syn begär einen geben lassen uff <origDate when="1562-11-25">mittwuch, den
+                           fünff und zwentzigisten tag wintermonatz nach der gepurt <persName
+                              ref="per000353">Christi</persName> getzallt fünnfftzechenhundert
+                           sechtzig unnd zwey jare</origDate>.</seg>
+                  </p>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab type="dorsal" place="verso" hand="hand17c">
+                     <lb/>Ingroßiert</ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab type="archiving reference" place="verso">
+                     <lb/>39; <lb/><del>N<hi rend="sup">o</hi> 13</del>
+                     <lb/>1562 Nov. 25; <lb/>22</ab>
+               </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div org="uniform" sample="complete">
+            <p>Am <date when="1562-03-08">8. März 1562</date> vereinbart <persName ref="per004426a"
+                  >Ulrich Philipp von Sax-Hohensax</persName> mit den Gemeinden <orgName
+                  ref="org001784">Sennwald</orgName>, <orgName ref="org001785">Salez</orgName>,
+                  <orgName ref="org001787">Haag</orgName> und <orgName ref="org001786"
+                  >Frümsen</orgName> zwei Artikel über den <term ref="key000446">Abzug</term>
+               (Steuer) auf <term ref="key003521">Güter</term>: 1. Wenn jemand wegen einer <term
+                  ref="key000920">Erbschaft</term> oder <term ref="key000729">Wegzug</term>s Güter
+               aus der Herrschaft zieht, muss er den 22. Teil der Güter, die aus der Herrschaft
+               gezogen werden, abgeben. Die Hälfte davon gehört der Herrschaft, die andere Hälfte
+               der Gemeinde, aus der das Gut stammt. 2. Personen, die vom Abzug befreit sind und
+               dies beweisen können, müssen nichts bezahlen (<bibl><ref>StASG
+               AA 2 U 32</ref></bibl>). Die Gemeinde <orgName ref="org001175">Sax</orgName> ist
+               jedoch mit dieser Vereinbarung nicht einverstanden und es kommt wenige Monate später
+               zu diesem Schiedsspruch von Zürich. Der Vertrag von <date when="1528">1528</date>
+               wird hier verbessert, erläutert und ergänzt, weshalb dieser in Artikel 12 für
+               ungültig erklärt wird (vgl. dazu das Regest in Kommentar 2 von
+                  <ref>SSRQ_SG_III_4_109</ref>).</p>
+         </div>
+         <div org="uniform" sample="complete">
+            <p>Zur <term ref="key000433">Aufnahme</term> von Personen in den Gemeinden von <placeName ref="loc000278">Sax-Forstegg</placeName> vgl. auch
+                  <ref>SSRQ_SG_III_4_109</ref> und <ref>SSRQ_SG_III_4_111</ref>;
+                     <bibl><ref>StAZH A 346.4, Nr. 58</ref>; <ref>Nr. 79</ref></bibl> (1630, 1636);
+                     <bibl><ref>FA Berger 81.00.20, Einzelpersonen von Salez/Bürgerrecht,
+                     10.01.1680</ref></bibl>.</p>
+         </div>
+      </back>
+   </text>
+</TEI>

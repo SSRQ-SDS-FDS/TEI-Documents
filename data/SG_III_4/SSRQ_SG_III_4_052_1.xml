@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+    <persName>Sibylle Malamud</persName>
+    <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+    <persName>Sibylle Malamud</persName>
+    <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-06-06"/>
+            <date type="print"/>
+            <availability><p xml:id="facs">Sibylle Malamud</p></availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+    <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+    <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_052_1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+    <msIdentifier>
+       <idno>PGA Sevelen A1</idno>
+    </msIdentifier>
+    <head>Teilung der Pfarrei Sevelen in Drittel zur Aufteilung der Nuss- und Birnbäume und der Alpen Imalschüel, Farnboden und Valtüsch</head>
+    <msContents>
+       <summary>
+          <p>Die Pfarrei Sevelen teilt am 24. August 1457 die Nuss- und Birnbäume für 10 Jahre in drei Teile: Das erste und unterste Drittel nutzt Räfis, das mittlere Drittel die Leute vom Sevelerberg und das oberste Drittel das Dorf Sevelen. Die Grenzen der einzelnen Drittel werden beschrieben.</p>Zudem teilt das Kirchspiel Sevelen im Mai 1456 die drei Alpen Imalschüel, Farnboden und Valtüsch für 31 Jahre. Farnboden gehört dem Bergdrittel, Imalschüel dem Seveler Dorf und Räfis. Die 38 Stösse auf der Alp Valtüsch werden auch gedrittelt und alle drei Jahre wird die Verteilung je nach Grösse der Drittel neu beurteilt.</summary>
+       <msItem>
+          <textLang>Deutsch</textLang>
+          <filiation type="original">
+             <origDate from="1456-05-01" to="1457-08-24">Die Teilung der Alpen geschieht im Mai 1456 (im mayen im lvj jar); die Aufteilung der Pfarrei in Drittel am 24.08.1457 (an sant Bartlimeß tag im lvij jar).</origDate>
+             <idno/>
+          </filiation>
+          <filiation type="current">Aufzeichnung (Doppelblatt)</filiation>
+       </msItem>
+    </msContents>
+    <physDesc>
+       <objectDesc>
+          <supportDesc>
+             <support>
+                <material>Papier</material>
+             </support>
+             <extent>
+                <dimensions type="leaves">
+        <height unit="cm" quantity="31.0"/>
+        <width unit="cm" quantity="21.0"/><!-- In der restaurierten, aufgeklebten Form wären es 22 cm. -->
+                </dimensions>
+             </extent>
+             <condition>restauriert</condition>
+          </supportDesc>
+       </objectDesc>
+    </physDesc>
+    <history>
+       <origin>
+          <origDate from="1456-05-01" to="1457-08-24"/>
+       </origin>
+    </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+    <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+    <term ref="key000919">Baum</term>
+    <term ref="key000637">Pfarrei</term>
+    <term ref="key000305">Grenze</term>
+    <term ref="key000006">Alp</term>
+    <term ref="key000648">Genossenschaft</term>
+    <term ref="key000759">Teilung</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+    <div org="uniform" sample="complete">
+       <pb n="1v" facs="PGA_Sevelen_A1_1v"/>
+       <p>
+                     <seg n="1">
+                        <lb/>Item es si zuͦ wüsen aler menclichen, das im <term ref="lem000299"
+                           >kilchspil</term>
+                        <lb/>von <placeName ref="loc006039">Seffeland</placeName> habend tayld die
+                           <term ref="lem001023.22">nuz böm</term> und die holtz <choice>
+                           <sic><term ref="lem000508">brypböm</term></sic>
+                           <corr>birnböm</corr>
+                        </choice>
+                        <lb/>und waß von zwyeden bömend ist, das habenz si <term ref="lem000088"
+                           >tayld</term>
+                        <date dur="P10Y">zehend <lb/>jar</date> und haͤnz tayld in try tail und
+                           <orgName ref="org001869"><placeName ref="loc000428">Räfes</placeName>el
+                              <term ref="lem013406.02">tritayl</term></orgName> der ist
+                        <lb/>underest unnd der <orgName ref="org001868">bärger trytel</orgName> der
+                        mitlest unnd<note anchored="true">Im Text wird das <orig>nn</orig> häufig
+                           als <orig>m</orig> geschrieben. Die undeutliche Schreibweise wird im
+                           Folgenden nicht mehr speziell vermerkt.</note> der <del>bärger</del>
+                        <lb/><orgName ref="org001870"><placeName ref="loc006171.01"
+                              >Sefeler</placeName> trytayl</orgName> der oberest.</seg>
+                     <seg>Unnd sol <orgName ref="org001869"><placeName ref="loc000428"
+                              >Räfeser</placeName> trytayl</orgName> den <placeName
+                           ref="loc006173.01">Graben</placeName>
+                        <lb/>uf gen, so wit der hier den <term ref="lem000073">zehenen</term>
+                        <unclear>list</unclear>, unnd hinen ufhy unz <lb/>an die aignen guͤter an
+                           <placeName ref="loc006174.02">Felnaͤtschen</placeName>, ob <placeName
+                           ref="loc006174.03">Velnätschen</placeName> umb und <lb/>umb unz in <term
+                           ref="lem013407.02">schayt wäg</term> unnd den aber den aygnen guͤteren
+                        <lb/>nach unz an des <term ref="lem000654">pfaf</term>en <term
+                           ref="lem014744.01">fäsch</term><note anchored="true">Es könnte sich auch
+                           um eine Ortsbezeichnung handeln. <placeName ref="loc006176.02"
+                              >Fäsch</placeName> als Flurname in <bibl><ref
+                                 target="https://search.ortsnamen.ch/record/4052318"
+                                 >ortsnamen.ch</ref></bibl> liegt jedoch weiter nördlich am
+                           Sevelerberg oberhalb Rans.</note> unnd ob <placeName ref="loc006177.02"
+                           >Fleg</placeName> us untz in <lb/><placeName ref="loc006178.02"
+                           >Flegbach</placeName> unnd dem bach nach unnz in <placeName
+                           ref="loc006175.01">Falferor</placeName>, da aͤr <lb/>ersprind, und den
+                           <term ref="lem010689.04">griety</term> us <choice>
+                           <sic>dem dem</sic>
+                           <corr>dem</corr>
+                        </choice>
+                        <term ref="lem000699">brunden</term> in <term ref="lem014073">schopf</term>
+                        <lb/>und den dem <term ref="lem001878">bant</term> und den aignen guͦteren
+                        nach in und <lb/>in. Unnd was hinder denen <term ref="lem009114"
+                           >zaychen</term> ist unz an <placeName ref="loc006100">Buchs</placeName>er
+                        kilspil, <lb/>das ist <orgName ref="org001869"><placeName ref="loc000428"
+                              >Raͤfeser</placeName> tritayl</orgName>.</seg>
+                     <seg>Unnd den sol <orgName ref="org001868">barger trytayl</orgName> anfachen
+                        <lb/>an <orgName ref="org001869"><placeName ref="loc000428"
+                              >Raͤfeser</placeName> trytayl</orgName> im <placeName
+                           ref="loc006180.02">Graben Hag</placeName>, sol so wit <placeName
+                           ref="loc000708">Seveler</placeName> zehenen <lb/>abhy gat unnd sol gon
+                        ufwaͤrt unndgfarlych uf <placeName ref="loc006181.02"
+                        >Galtur</placeName>.</seg>
+                     <seg>
+                        <lb/>Und den <orgName ref="org001868">baͤrger tayl</orgName> gon unz uff den
+                        stain zuͦm <placeName ref="loc006187.03">Haͤlgen <lb/>Hüsli</placeName> und
+                        die zwen nuß<damage agent="hole"><supplied source="(PA Hilty) Privatarchiv Mappe Sevelen"
+                              >böm</supplied></damage>, die <del>st</del> nächsten bim <placeName
+                           ref="loc006187.02">Haͤlgen<lb break="no"/>hüsli</placeName>, hoͤren ouch
+                        zuͦ bärger tritayl und den sol es gen <lb/>us dem <placeName
+                           ref="loc006187.02">Haͤlgenhüsli</placeName> dem <placeName
+                           ref="loc006188.02">Ansen Stain</placeName> nach untz uf <placeName
+                           ref="loc006182.02">Krinen</placeName>
+                        <lb/>unnd den us der <placeName ref="loc006182.02">Krinen</placeName>
+                        <term ref="lem010689.05">grietty</term> hinus in <placeName
+                           ref="loc006183.02">Ermattin Boten</placeName>
+                        <lb/>in sälben nüß bom und ist der sälb nuß zuͦ <orgName ref="org001870"
+                              ><placeName ref="loc006171">Seveler</placeName> tritayl</orgName>
+                        <lb/>taild.</seg>
+                     <seg>Unnd den us dem selben nuß bom der tüfy nach <lb/>in <placeName
+                           ref="loc006184.02">Trit Waͤg</placeName> unnd in <placeName
+                           ref="loc006185.02">Sindwelen Buͤl</placeName> und <placeName
+                           ref="loc006186.02">Bach</placeName>. Und den <lb/>waß zuͤ <placeName
+                           ref="loc007757.02">Valfermuss</placeName> hört, das <add place="above"
+                           >ist</add> zuͦ <orgName ref="org001870"><placeName ref="loc006171"
+                              >Sefeler</placeName> tayl</orgName> tayld und <lb/>waß zuͤ <placeName
+                           ref="loc000516">Matinys</placeName> hoͤrt, ist zuͦ <orgName
+                           ref="org001868">baͤrger tayl</orgName> tayld. Unnd was <lb/>hinder denen
+                        zil unnd zaychen ist, sel kain trytayl dem andren <lb/>in sim trytayl weder
+                        schüten nach läsen onerlobt.</seg>
+                     <seg>Unnd ist <lb/>söleche taylig beschähen <origDate when="1457-08-24">an sant
+                              <persName ref="per000861">Bartlimeß</persName> tag im <lb/>lvij
+                           jar</origDate>.</seg>
+                     <pb n="2r" facs="PGA_Sevelen_A1_2r"/>
+                     <seg n="2">
+                        <lb/>Item es si zuͦ wüsen aler menlichen, das ain kilspyl von <lb/>
+                        <placeName ref="loc006039.01">Sevelen</placeName> hand tayld iren
+                           <unclear>die</unclear> gemainen <placeName ref="loc006101.03"
+                           >Martschül</placeName> unnd den <placeName ref="loc006102.02">Varen<lb
+                              break="no"/>boden</placeName> unnd <placeName ref="loc000808.05"
+                           >Veltüsch</placeName> und sel die taylen blipen <date dur="PY31">xxxj
+                           jar</date>. <lb/>Und der <placeName ref="loc006102.03"
+                           >Varmboden</placeName> den <orgName ref="org001868">bergeren</orgName>
+                        worten und <placeName ref="loc006101.04">Martschül</placeName> den
+                           <lb/><placeName ref="loc006171.01"><orgName ref="org001870"
+                              >Seveleren</orgName></placeName>
+                        <del>id</del> und der <orgName ref="org001869"><placeName ref="loc000428"
+                              >Räfeser</placeName></orgName>en und hat ain jetlicher tritayl uf
+                           <lb/><placeName ref="loc000808.05">Veltüsch</placeName>
+                        <num value="38">xxxviij</num> stösen und j fuͦß; und ob ain tritayl gröser
+                        <lb/>wet wärten den der ander, es mans zuͦ alen <date dur="R/PY3">try
+                           jaren</date>
+                        <term ref="lem008945.04">ain <lb/>vart</term> abzellen unnd glichenen. Und
+                        ist die <term ref="lem008672">taylig</term> beschächen <lb/>
+                        <origDate when="1456-05">im mayen im lvj jar</origDate>. <lb/>
+                        <lb/>
+                     </seg>
+                  </p>
+    </div>
+               <pb facs="PGA_Sevelen_A1_v"/>
+    <div org="uniform" sample="complete">
+       <ab type="dorsal" place="verso" hand="hand17c"><lb/>Abtheilung der nußboümen 
+       <lb/>ihn dem holz.</ab>
+    </div>
+    <div org="uniform" sample="complete">
+       <ab type="archiving reference" place="verso" hand="hand18c">15tes jahr; 1457 u. 1456; No. 24; No. 64</ab>
+    </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div org="uniform" sample="complete">
+            <p>Die Pfarrei <placeName ref="loc006039">Sevelen</placeName> wird für die Nutzung der
+        	Nuss- und Birnbäume sowie der Alpen in Drittel aufgeteilt. Die einzelnen Drittel mit ihren <term ref="key000305">Grenzen</term>
+    <orgName ref="org001869">Räfis</orgName>, <orgName ref="org001868">Sevelerberg</orgName> und <orgName ref="org001870">Sevelen</orgName>
+					werden hier erstmals
+					fassbar.
+				</p>
+         </div>
+      </back>
+   </text>
+</TEI>

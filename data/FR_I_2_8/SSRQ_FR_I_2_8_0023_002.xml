@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+
+			</titleStmt>
+
+			<publicationStmt>
+				<date type="electronic" when="2019-03-20"/>
+				<date type="print"/>
+			</publicationStmt>
+
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ_FR_I_2_8_0023_002</idno>
+			</seriesStmt>
+
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<idno>StAFR, Thurnrodel 10, S. 15</idno>
+					</msIdentifier>
+					<head>Madeleine Curty – Verhör / Interrogatoire</head>
+					<msContents>
+						<summary/>
+						<msItem>
+							<textLang>fr, de</textLang>
+							<filiation type="current"/>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support>
+									<material/>
+								</support>
+								<extent>
+									<dimensions type="leaves">
+										<height unit="cm" quantity="0.0"/>
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+									<dimensions type="plica">
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+								</extent>
+							</supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate when="1607-05-10">10 <foreign xml:lang="la">maii</foreign>
+								1607</origDate>
+							<origPlace/>
+						</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc> 
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+			<particDesc default="false"/>
+			<settingDesc default="false"/>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+					
+						<p><lb/>Im <placeName ref="loc007594">Rosey</placeName> 
+							<seg><lb/><origDate when="1607-05-10">10 <foreign xml:lang="la">maii</foreign> 1607</origDate>, <foreign xml:lang="la">judex</foreign> <abbr>h</abbr> <choice><abbr>groß</abbr> <expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per009113">Franz Schrötter</persName></note></seg>
+							<seg><lb/><foreign xml:lang="la">Presentes</foreign> <abbr>h</abbr> <persName ref="per009167">Falck</persName></seg>  
+							<seg><lb/><persName ref="per009117">Pithung</persName></seg>
+							<seg><lb/><persName ref="per009122">Mäß</persName></seg>
+							<seg><lb/><persName ref="per006841">Farisey</persName><note>Gemeint ist ein Stadtweibel.</note></seg></p>
+							
+						<p><lb/><persName ref="per009192a.02">Magdelaine</persName>, <sic>feme</sic> de <persName ref="per009191a.01">Jaques Curty</persName>, native de <placeName ref="loc008029.03">Curtion</placeName>, nie tous  
+						<lb/>les articles a elle sçelon l’examen <unclear>proposés</unclear>. Et combien 
+						<lb/>qu’elle s’absente de <placeName ref="loc007747.04">Roussiex</placeName> pour une fois, elle dit pour ce 
+						<lb/>que son marry l’avoit battue. Dit aussy avoir donné a 
+							<lb/>boire du <term ref="lem015011">lait</term> battuz a la femme du <choice><abbr>mral</abbr><expan><term ref="lem017410.05">metral</term></expan></choice> <persName> Blanc</persName>, sans 
+						<lb/>avoir toutesfois aucune mauvaise intention.</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+

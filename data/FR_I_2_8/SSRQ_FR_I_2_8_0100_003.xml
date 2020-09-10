@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+
+
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+
+			</titleStmt>
+
+			<publicationStmt>
+				<date type="electronic" when="2019-10-14"/>
+				<date type="print"/>
+			</publicationStmt>
+
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ_FR_I_2_8_0100_003</idno>
+			</seriesStmt>
+
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<idno>StAFR, Thurnrodel 13, S. 416–417</idno>
+					</msIdentifier>
+					<head>Barbli Bodmer – Verhör / Interrogatoire</head>
+					<msContents>
+						<summary></summary> 
+						<msItem>
+							<textLang>de</textLang>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support>
+									<material></material>
+								</support>
+								<extent>
+									<dimensions type="leaves">
+										<height unit="cm" quantity="0.0"/>
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+									<dimensions type="plica">
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+								</extent>
+							</supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate when="1637-07-24">24 <foreign xml:lang="la">julii</foreign> <sic>1634</sic><note>L'année donnée est une erreur, il convient de lire 1637.</note></origDate>
+							<origPlace></origPlace>
+						</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc> 
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+			<particDesc default="false"/>
+			<settingDesc default="false"/>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						
+						<pb n="414"/><p><lb/>Im <placeName ref="loc007683.02">bösen thurn</placeName>
+							
+							<seg><lb/><origDate when="1637-07-24">24 <foreign xml:lang="la">julii</foreign> <choice><sic>1634</sic><corr>1637</corr></choice></origDate><foreign xml:lang="la">, <choice><abbr>jud</abbr> <expan>judex</expan></choice></foreign> <abbr>h</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per011527">Beat Jakob von Montenach</persName>.</note></seg>
+							<seg><lb/><abbr>H</abbr> <persName ref="per006714a.02">Fryo</persName></seg>
+							<seg><lb/><persName ref="per011519">Techterman</persName>, <persName ref="per009462a.01">Gribollet</persName>, <persName ref="per011521a.01">Heylman</persName></seg>
+							<seg><lb/><persName ref="per011540a.02">Gartner</persName>, <persName ref="per011523a.01">Wildt</persName></seg>
+							<seg><lb/><choice><abbr>W</abbr><expan>Weibel</expan></choice></seg></p>
+						
+						<p><gap reason="irrelevant"/><note>Ce passage concerne le procès mené contre <persName ref="per011980a">Christine Bovigny</persName>. Voir <ref>SSRQ_FR_I_2_8_0099_009</ref>.</note></p>
+						
+						<pb n="416"/><p><lb/><foreign xml:lang="la">Ibidem</foreign></p>
+							
+						<p><seg><lb/><persName ref="per011982a">Barbli</persName> vor<term ref="lem016749">gedacht</term> beherttet, sy habe niemand 
+							<lb/><term ref="lem012678">beleidiget</term>. Erfragt, ob sy nit den <persName>Stephan Gaudron</persName> 
+							<lb/>angesprochen habe, ihren ein roß <term ref="lem008277.04">fürzusezen</term>, darmit 
+							<lb/>gen <placeName ref="loc007888.05">Mesieres</placeName> korn zu hollen. Hat geandtworttet, 
+							<lb/>sy nitt, sonders ihr <term ref="lem007885.03">haußwürt</term>. Erfragt, ob sy nit 
+						<pb n="417"/><lb/>vor <date dur="P3Y">3 jahren</date> am <term ref="lem002216.03">palmsontag</term> in der 
+							<lb/>kirchen neben <term ref="lem016749">gedachts</term> <persName>Gaudrons haußfrouwen</persName> 
+							<lb/>gsyn sye. Hatt zum bscheidt gäben nein, dann  
+							<lb/>sy <subst><del>uß furcht</del><add place="above">von</add></subst> <term ref="lem016749">gedachter</term> <persName>Gaudronna</persName> <add place="above">wegen</add> der kirchen 
+							<lb/>nitt damallen besucht habe. <term ref="lem016749">Gedachter</term>  
+							<lb/><persName>Stephan</persName> habe ihren die <term ref="lem000668">unzucht</term> <term ref="lem009591">angemut<lb break="no"/>tet</term> unndt allß sy synes willens nitt <term ref="lem008789">pflegen</term> 
+							<lb/>wöllen, zu ihren gesagt, es werde sy gerru<lb break="no"/>wen, sy schlöuffe wol mitt <term ref="lem001697.02">keßlern</term> 
+							<lb/>in den hölzern umb. Sy habe ihn diser ursach  
+							<lb/>wegen <term ref="lem003585">gescholtten</term>, er aber an kein <term ref="lem000582.02">khundt<lb break="no"/>schafft</term> gezogen.</seg> <seg>Erforschet, ob sy nitt dem <persName>Pe<lb break="no"/>tern Veillard</persName> schaden zugefügt habe. 
+							Hatt ge<lb break="no"/>andtworttet nein. Man sage, man gspirre 
+							<lb/><term ref="lem016433.02">ungeheurre</term> in synem hauß, er habe kein fyr<lb break="no"/>tag noch heillige zytt vor ougen. Erforschet,  
+							<lb/>ob sy hievor nitt in <term ref="lem004405">banden</term> gstanden sye. Hatt 
+							<lb/>zum bescheidt gäben nein.</seg> <seg>Warumb man so vil 
+							<lb/>böses von ihren rede. Hatt geandtworttet, ein 
+							<lb/>sollicheß unglück berüre sy, ihr volck <term ref="lem017925.01">verfluche</term>
+							<lb/>sy, daß sy von andern glouben abgetretten ist. 
+							<lb/>Ist der artikeln des <term ref="lem003708">examens</term> <term ref="lem005649">abred</term>. Bittet 
+							<lb/>umb gnad.</seg> <seg>Man hatt sy ler <term ref="lem016150">uffzogen</term>.</seg></p>	
+					</div>
+				</body>
+				
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+
+<?oxy_options track_changes="on"?>

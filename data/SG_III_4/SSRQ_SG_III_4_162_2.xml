@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-08-15"/>
+            <date type="print"/>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_162_2</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>GA Gamprin U 4</idno>
+               </msIdentifier>
+               <head>Schiedsspruch über die Wuhrlinien (Möni) zwischen den Gemeinden Eschen und Bendern aus der Herrschaft Schellenberg einerseits und Haag und Salez aus der Landvogtei Sax-Forstegg andererseits</head>
+               <msContents>
+                  <summary>
+                     <p>Hieronymus Zürcher, Landvogt in Vaduz, im Namen des Grafen Kaspar von Hohenems und</p>
+                     <p>			Rudolf Scheuchzer, Landvogt der Freiherrschaft Sax-Forstegg, urkunden, dass zur</p>
+                     <p>			Beilegung des Rheinwuhrstreits zwischen Haag und Salez einerseits und Eschen und Bendern</p>
+                     <p>			andererseits von beiden Obrigkeiten die Wahl von sechs Spruchleuten erlaubt wurde, um</p>
+                     <p>			einen Schiedsspruch durch genaue Bestimmung der Wuhrlinie («Möni») auszugeben. Von</p>
+                     <p>			Seiten Schellenbergs werden Ammann Georg Hasler von Gamprin, Uli Oehri und Uli Büchel</p>
+                     <p>			von Ruggel, von Seiten Sax-Forstegg Landeshauptmann Salomon Bösch von Salez, Rudolf</p>
+                     <p>			Roduner und Hans Wohlwend von Sennwald gewählt. Trotz ihrer Bemühungen können die sechs</p>
+                     <p>			Spruchleute die Parteien nicht einigen und gelangen an die beiden Landvögte. Nach einer</p>
+                     <p>			Besichtigung der Wuhrgrenzen und nach Anhörung aller Klagen und Antworten, Urkunden und</p>
+                     <p>			Zeugen durch die beiden Landvögte bestimmen diese zusammen mit den sechs Spruchleuten</p>
+                     <p>			die Wuhrlinien, setzen Wuhrmarchsteine und geben das Längenmass zwischen den einzelnen</p>
+                     <p>			Grenzen an. Die Aussteller siegeln.</p>
+                  </summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <filiation type="current">Original</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Pergament</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="29.5"/>
+                              <width unit="cm" quantity="48.0"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <sealDesc>
+                     <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1"
+                        nontei:condition="absent" nontei:attachment="sealed on a parchment tag">
+                        <persName role="sigillant" ref="per009420a">Hieronymus Zürcher,
+                           Landvogt</persName>
+                     </seal>
+                     <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI"
+                           n="1"
+                           nontei:condition="in a box"
+                           nontei:material="wax"
+                           nontei:shape="round"
+                           nontei:attachment="sealed on a parchment tag"
+                           facs="StASG_AA_2_U_49a_s">
+                        <persName role="sigillant" ref="per009067a">Rudolf Scheuchzer, Landvogt</persName>
+                     </seal>
+                  </sealDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1619-03-14"/>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000305">Grenze</term>
+               <term ref="key000520">Wuhr</term>
+               <term ref="key004785">Fährstelle</term>
+               <term ref="key000748"/>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body/>
+         </text>
+      </group>
+      <back>
+         <div/>
+      </back>
+   </text>
+</TEI>

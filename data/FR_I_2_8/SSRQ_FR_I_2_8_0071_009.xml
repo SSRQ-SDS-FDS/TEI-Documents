@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+
+			</titleStmt>
+
+			<publicationStmt>
+				<date type="electronic" when="2019-07-23"/>
+				<date type="print"/>
+			</publicationStmt>
+
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ_FR_I_2_8_0071_009</idno>
+			</seriesStmt>
+
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<idno>StAFR, Thurnrodel 12, S. 47–49</idno>
+					</msIdentifier>
+					<head>Claude Meino – Verhör / Interrogatoire</head>
+					<msContents>
+						<summary></summary> 
+						<msItem>
+							<textLang>de, fr</textLang> 
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support>
+									<material></material>
+								</support>
+								<extent>
+									<dimensions type="leaves">
+										<height unit="cm" quantity="0.0"/>
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+									<dimensions type="plica">
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+								</extent>
+							</supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1626-07-09"/>
+							<origPlace></origPlace>
+						</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc> 
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+			<particDesc default="false"/>
+			<settingDesc default="false"/>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="47"/><p><lb/><foreign xml:lang="la">Ibidem</foreign><note>Im <placeName ref="loc007683">Bösen Turm</placeName>.</note>   
+							<seg><lb/><origDate when="1626-07-09">9 <foreign xml:lang="la">julii</foreign> 1626</origDate>, <foreign xml:lang="la"><choice><abbr>jud</abbr><expan>judex</expan></choice></foreign> <abbr>h</abbr> <choice><abbr>groß</abbr> <expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per006580">Niklaus Meyer</persName>.</note></seg>
+							<seg><lb/><abbr>H</abbr> <persName ref="per006501">Heinricher</persName>, <choice><abbr>j</abbr><expan>junker</expan></choice> <persName ref="per006751">Erhard</persName></seg>
+							<seg><lb/><abbr>H</abbr> <term ref="lem006250">venner</term> <persName ref="per006816a.01"><choice><abbr>F</abbr><expan>Franz</expan></choice> Gottrow</persName>, <abbr>h</abbr> <persName ref="per006817a.01">Jacob Schaller</persName></seg>
+							<seg><lb/>Weibel</seg></p>
+					
+						<p><seg><lb/><add place="left margin"><foreign xml:lang="la">Non solvit</foreign>.</add></seg> <seg><persName ref="per005916a.04">Claude Maynod</persName> obgemelt hat volgende sachen bekhend:
+							<lb/>Wie namblichen vor ohngfar <date dur="P2Y">2 jahren</date> ine so große 
+							<lb/>hungersnots und mangel an der zytlichen nahrung
+							<lb/>angangen, daß er aller betrüebt und khummerhafft
+							<lb/>sich nach <placeName ref="loc007616">Chandon</placeName> zu synen bruder begeben, ine
+							<lb/>umb ein leib brod zu syner uffendhalt (wylen er
+							<lb/>damalen weder wyb noch khind by hauß gefunden)
+							<lb/>anzulangen. Da sye ime zu nächst by <placeName ref="loc007616">Chandon</placeName> <add place="left margin" type="sign">zwischen tag und nacht</add> 
+							<lb/>ein schwarzer man begegnet, welcher ine gefragt,
+							<lb/>warumb er sich so übel bekhümmere. Und da er ime
+							<lb/>syn noth geklagt, gabe ime dißer schwartz man
+							<lb/>zur andtwordt, <del><add place="above">gebe</add></del> er wölle ime gelts gnug geben,
+							<lb/>brot zukhouffen. Sagend, er sye der <term ref="lem011429.08">böße geist</term>. 
+							<lb/>Alß aber er sich mit dem zeichen des heiligen <term ref="lem016600.03">kryzes</term> 
+							<lb/><term ref="lem017527.02">besägnet</term>, sye er verschwunden. Zum andermall
+							<lb/>sye er zu ime khommen <placeName ref="loc009106.02">a la Fulaterye</placeName>, ine aber 
+							<lb/>wie ob vertriben. Drittens <date dur="P8D">8</date> oder <date dur="P14D">14 tag</date> darnach,
+							<lb/>alß er <add place="above">sich</add> uff <placeName ref="loc007603.03">Wifflispurg</placeName> brod zukhouffen begeben,
+							<lb/>habe <persName ref="per011219">Satan</persName> sich aber an dem ord, <choice><abbr>gnt</abbr> <expan>genannt</expan></choice> <placeName>la Croix de 
+							<lb/>Mur</placeName><note>L’identification du lieu est incertaine. Il pourrait s’agir d’un endroit précis où se serait trouvée une croix, peut-être sur le mur d’enceinte d’<placeName ref="loc007603">Avenches</placeName>.</note>, finden laßen, welcher ine mit einem schwarzen
+							<lb/>stekhen über den kopff hart <term ref="lem000632">geschlagen</term>, er aber sich
+							<lb/>mit dem zeichen des <choice><abbr>h</abbr><expan>heiligen</expan></choice> <term ref="lem016600.04">cryzes</term> <term ref="lem001012">ledig</term> gemacht. 
+							<lb/>Habe ime ouch <term ref="lem011432">salben</term> geben, von welcher syn
+							<lb/><term ref="lem004325.03">katz</term> genossen und darvon sterben müessen. 
+							<lb/>Solche <term ref="lem011432">salben</term> habe er fürweg geworffen.</seg></p>
+						
+						<p><lb/>Wyteres wolte er nit bekhennen, biß daß man
+						<pb n="48"/><lb/>mit starckhen zusprechen und <term ref="lem013000">tortur</term> fürgefahren.
+						<lb/>Alß dan er bekhend, wie daß der böße geist
+						<lb/>mit namen <persName>Grabié</persName> ine <placeName>sus la roche de Champgisan</placeName><!-- Ort unklar --> 
+						<lb/>angetroffen, ine mit <term ref="lem000516.03">treüwen</term> und <term ref="lem003737.04">streichen</term> so wyt
+						<lb/>gebracht, das er gott verlaugnet, sich dem bößen
+						<lb/>geist, deme er syn hand geküßt, <term ref="lem017528.01">ergeben</term>.			
+							<seg><lb/>Daruff er ime <term ref="lem011432.02">salb</term> und <term ref="lem017889">staub</term> gegeben, lüth und <term ref="lem000310.11">vech</term> dar<lb break="no"/>mit zu schädigen. Wie ouch in einem papyr gelt,
+						<lb/>so doch anders nüt ware, alß eychin bletter, 
+						<lb/>vorbehalten ein unbekhanter pfenning, so weder
+						<lb/>zeichen noch krytz hatte.</seg> <seg>Wyters hat er
+						<lb/>bekhend, wie er der <persName>Margret Solivey</persName>, syner <term ref="lem016542.04">nach<lb break="no"/>burin</term>, zwey oder 3 klein gut mit dem staub, so 
+						<lb/>er in ihrem trog gestrüwt, <del>machen</del> <term ref="lem016356.03">vergifft</term>. Us der
+						<lb/>ursach, das sy solle gered haben, sy wölle lieber
+						<lb/>den <term ref="lem011429">bösen geist</term> sechen alß syne khinder. Von
+							<lb/><term ref="lem016749">gedachtem</term> <term ref="lem017889">staub</term> habe er uff dem feld lieu dict
+						<lb/><placeName>a la Bruyere</placeName><!-- Ort unklar -->, da die gmein ihre schaff weideten,
+						<lb/>gestreüwt. Wisse woll, das darvo<subst><del>l</del><add place="overwritten">n</add></subst> vil schaff
+						<lb/><term ref="lem005334">verdorben</term>.</seg> <seg>Wyters sye er <add place="left margin" type="sign">3 mall</add> in der <term ref="lem017042.02">secten</term> gsyn 
+						<lb/>a <placeName>Rinoly</placeName><!-- Ort unklar --> by einen brunnen. Alda waren mit ime
+						<lb/><persName ref="per006818">Hanso Michaud</persName> von <placeName ref="loc007600.03">Rupertzwyll</placeName>, <persName>Simoneta</persName> von 
+						<lb/><placeName ref="loc007601">Plan</placeName> <add place="above"><choice><abbr>noe</abbr><expan>nommé</expan></choice> Tryni</add>, <persName>Moritz de <placeName>Vuillers</placeName><note>Beim Ort Wyler handelt es sich entweder um <placeName ref="loc007682.01">Grandvillard</placeName> oder um eine abgekürzte Version von <placeName ref="loc001305.01">Münchenwiler</placeName>. Letztgenannte Version erscheint durch die geografische Nähe zu <placeName ref="loc007600">Villarepos</placeName> wahrscheinlicher.</note></persName> frauw von <placeName ref="loc007613.03">Cormerod</placeName>,
+						<lb/><persName>Benney Michauds</persName> frauw, <subst><del>Michera Michiere</del><add place="above">Ageta Missy</add></subst>, ein
+						<lb/>wittfrauw von <placeName ref="loc007600.04">Rupertzwyl</placeName>, und obgemelte 
+						<lb/><persName>Margret Solivey</persName>, deren er das klein <term ref="lem005796">gut</term> sterben 
+						<lb/>machen. Mit obgemelten 6 personen sye
+						<lb/>er abermalen in der sect gsyn under zweyen
+						<lb/>malen im ord <choice><abbr>gnt</abbr><expan>genannt</expan></choice> <placeName>a la Rapeta</placeName><!-- Ort --> by einem brunnen, 
+						<lb/>alda sy <term ref="lem001041.04">gedanzet</term> und <term ref="lem017529.01">gesprungen</term>.</seg></p>
+						
+					<pb n="49"/><p><lb/>Einem mit namen <persName>Sonnalion</persName> habe er syn roß
+						<lb/>mit der <term ref="lem011432">salben</term> angestrichen, möge aber nit wissen,
+						<lb/>ob solches darvon <term ref="lem005334">verdorben</term> oder nit.</p>
+						<p><lb/>Hat wyters bekhend, nachdem er <persName>Georges Sonna<lb break="no"/>lion</persName> etliche fuder <term ref="lem002330.02">buws</term> verkhoufft, jedes zu <measure type="currency" unit="bz" quantity="4">4 bz</measure>,
+						<lb/>er, <persName>Sonnalion</persName>, aber mit dem uffladen zu vortheillig
+						<lb/>ware, habe er uß sonderem verdruß die
+						<lb/>ziechstangen am wagen angesalbet. Dardurch die
+						<lb/>roß, also <term ref="lem017052.03">verzauberet</term>, nit ziechen wöllen, biß und
+						<lb/>so lang er dißer thad halben rüwig worden und gott
+						<lb/>umb verzüchung gebetten.</p> 
+					
+						<p><lb/>Ferneres hat er bekhend, wylen ime der <term ref="lem001743">müller</term> 
+						<lb/><persName>Claude Folly</persName> syn khorn nit malen wöllen, sonders
+						<lb/>verachtlich zugered, er möchte wol lyden, daß
+						<lb/>solche bettler anderen mülleren zu malen gebend.
+						<lb/>Habe er uß einem verdruß ein kleinen <term ref="lem014677.02">küßlinstein</term> 
+							<lb/>mit syner <term ref="lem011432">salben</term> angeschmürt zwischen der <term ref="lem017205.04">röllen</term>
+						<lb/>fallen laßen. Daruff der stein in 3 stucken
+						<lb/>zersprungen, so des müllers tochter, welche zu
+						<lb/>allem unglick darzu khommen, erreicht und ertödet.</p>
+						
+						<p><lb/>An obgemeltem ord <placeName>Rinoly</placeName><!-- Ort --> sye er obermalen vor 
+						<lb/>ohngfar <date dur="P1M">einem monat</date> mit gesagten 6 personen in 
+						<lb/>der <subst><del>seckt</del><add place="inline">sect</add></subst> gsyn, da inen ihr meister bevolhen,
+						<lb/>das sy den <term ref="lem007347">hagel</term> machen solten. Also name <persName ref="per006818">Hanso
+						<lb/>Michaud</persName> ein wyße lange ruthen, schluge <add place="above">darmit</add> uß geheiß 
+						<lb/>ihres meisters starck in den brunnen, uff das sich die
+						<lb/>wolkhen wyt herumb spreiten möchten, inen aber
+						<lb/>sye mißlungen, in dem sich der <term ref="lem007347">hagel</term> in ein starcken
+						<lb/>regen verwandlet. Haben sich mit solchem <term ref="lem007347">hagel</term>
+						<lb/>wider die von <placeName ref="loc007600.04">Rupertzwyl</placeName>, so den armen wenig mitteilen,
+						<lb/>rechen wöllen. Will wyteres nit begangen
+						<lb/>haben. Bittet umb <term ref="lem004684.11">verzüching</term>.</p>
+				</div>
+				</body>
+				
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+
+<?oxy_options track_changes="on"?>

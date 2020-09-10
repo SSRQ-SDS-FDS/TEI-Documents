@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="headerinfo"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <date type="electronic" when="2020-08-17"/>    <date type="print"/>
+    <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Collection des sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS_NE_3_247</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier>
+      <idno>AVN B 101.14.001, fol. 506v</idno>
+     </msIdentifier>
+     <head>Délai pour demander les raisons d’une clame</head>
+     <msContents>
+      <summary>Détails sur les délais dont dispose le  créditeur pour demander les raisons d’une
+       clame (opposition) d’un débiteur mis en taxe.</summary>
+      <msItem>
+       <textLang>français</textLang>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="33"/>
+          <width unit="cm" quantity="23.5"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <origDate when="1672-10-25" calendar="Julian"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>
+      </origin>
+     </history>
+     <additional>
+      <listBibl>
+       <head/>
+       <bibl/>
+      </listBibl>
+     </additional>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key005130"></term>
+     <term ref="key005117"></term>
+     <term ref="key005189"></term>
+     <term ref="key003867"></term>
+     <term ref="key004001"></term>
+     <term ref="key005095"></term>
+     <term></term>
+    </keywords>
+   </textClass>
+   <particDesc default="false"/>
+   <settingDesc default="false"/>
+  </profileDesc>
+ </teiHeader>
+ 
+ <text>
+  <group>
+   <text>
+    <body>
+        
+     
+     <pb n="506v" facs="AVN_B_101.14.001_0506v"/>
+        
+     <div>
+      <head>
+       <lb/>Tout le temps que l’on a pour former une <lb/>demande à quelqu’un à dire les raisons
+       d’une <lb/><term ref="lem015005">clame</term>. </head>
+      <p>
+       <lb/>Sur la requeste du <choice>
+        <abbr>s<hi rend="sup">r</hi></abbr>
+        <expan>sieur</expan>
+       </choice>
+       <persName ref="per009995">Henry Favargier</persName> du <orgName ref="org003092">Grand <lb/>Conseil de la Ville de <placeName
+         ref="loc007786">Neufchastel</placeName></orgName>, adressée à monsieur le <lb/>maistre
+       bourgeois et <orgName ref="org003085">Conseil Estroit de la Ville de <placeName
+         ref="loc007786">Neufchastel</placeName></orgName>
+       <lb/>le <origDate when="1672-10-25" calendar="Julian">25<hi rend="sup">e</hi> d’octobre 1672</origDate>, aux
+       fins d’avoir le point de coustume <lb/>suivant. </p>
+      <p>
+       <lb/>Assavoir, quand un crediteur a fait faire les usages, ou <lb/>une taxe à un debteur,
+       lequel vient à se <term ref="lem015647">clamer</term>, &amp; ledit <lb/>crediteur ayant fait notifier ou
+       citer ledit debteur pour <lb/>luy former demande à dire les raisons <choice>
+        <abbr>ded</abbr>
+        <expan>deladite</expan>
+       </choice>
+       <term ref="lem015005">clame</term>, s’il <lb/>n’a pas le <date dur="P1D">jour tout entier</date> pour former telle demande. </p>
+      <p>
+       <lb/><orgName ref="org003085">Mesdits <choice>
+         <abbr>S<hi rend="sup">rs</hi></abbr>
+         <expan>sieurs</expan>
+        </choice> du Conseil</orgName> ayants eu advis &amp; meure <choice>
+        <abbr>deliberaon</abbr>
+        <expan>délibération</expan>
+       </choice>
+       <lb/>par ensemble, <term ref="lem015635.04">baillent</term> par declaration suivant la <lb/>coustume usitée en la
+       souveraineté de <placeName ref="loc007785">Neufchastel</placeName> de <lb/>pere à fils &amp; de tout temps
+       immemorial jusqu’à present <lb/>la coustume estre telle. </p>
+      <p>
+       <lb/>Assavoir que quand une personne a fait faire les usages <lb/>ou une <term
+        ref="lem014995.02">taxe</term> à un autre, lequel s’estant <term ref="lem015647.02"
+        >clamé</term>, &amp; l’ayant <lb/>fait citer sur un jour nommé pour luy former demande
+       <lb/>à dire les raisons <choice>
+        <abbr>ded</abbr>
+        <expan>deladite</expan>
+       </choice>
+       <term ref="lem015005">clame</term>, le crediteur a ledit <date dur="P1D">jour tout <lb/>entier</date> pour former telle demande,
+       pourveu que ce soit <lb/>dans la <date dur="P8W">huictaine</date>. </p>
+      <p>
+       <lb/>Ce qu’a esté ainsi passé conclud &amp; arresté les an &amp; jour <lb/>que dessus, &amp;
+       ordonné à moy secretaire de Ville l’expedier <lb/>en ceste forme sous le <term ref="lem016327">seel</term> de
+       la mayorie &amp; justice <choice>
+        <abbr>dud</abbr>
+        <expan>dudit</expan>
+       </choice>
+       <lb/><origPlace ref="loc007786">Neufchastel</origPlace> &amp; signature de ma main. </p>
+      <p>
+       <lb/>Pour copie extraite sur l’original signé par moy <persName ref="per009020"><choice><abbr>M</abbr><expan>Maurice</expan></choice> Tribolet</persName>
+       <lb/>&amp; sur <choice>
+        <abbr>lad</abbr>
+        <expan>ladite</expan>
+       </choice> copie levé &amp; colationné la presente par moy <choice>
+        <abbr>not</abbr>
+        <expan>notaire</expan>
+       </choice>. </p>
+     </div>
+      
+      <div>
+       <signed><persName ref="per008992"><choice><abbr>N</abbr><expan>Nicolas</expan></choice> Huguenaud</persName> <figure type="notarial sign"/></signed>
+      </div>
+     
+       
+    </body>
+   </text>
+  </group>
+ </text>
+</TEI>

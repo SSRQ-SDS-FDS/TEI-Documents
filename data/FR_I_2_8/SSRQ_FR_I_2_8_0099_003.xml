@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+
+
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+
+			</titleStmt>
+
+			<publicationStmt>
+				<date type="electronic" when="2019-10-14"/>
+				<date type="print"/>
+			</publicationStmt>
+
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ_FR_I_2_8_0099_003</idno>
+			</seriesStmt>
+
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<idno>StAFR, Thurnrodel 13, S. 409–410</idno>
+					</msIdentifier>
+					<head>Christine Bovigny-Corby – Verhör / Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang>fr</textLang>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support>
+									<material></material>
+								</support>
+								<extent>
+									<dimensions type="leaves">
+										<height unit="cm" quantity="0.0"/>
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+									<dimensions type="plica">
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+								</extent>
+							</supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate when="1637-07-18"/>
+							<origPlace></origPlace>
+						</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc> 
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+			<particDesc default="false"/>
+			<settingDesc default="false"/>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="409"/><p><lb/><placeName ref="loc007594">Rosey</placeName>
+							
+							<seg><lb/><origDate when="1637-07-18">18 <foreign xml:lang="la">julii</foreign></origDate>, <foreign xml:lang="la"><choice><abbr>jud</abbr> <expan>judex</expan></choice></foreign> <abbr>h</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per011527">Beat Jakob von Montenach</persName>.</note></seg>
+							<seg><lb/><abbr>H</abbr> <persName ref="per006714a.02">Fryo</persName>, <abbr>h</abbr> <persName ref="per009267">Brodard</persName></seg>
+							<seg><lb/><persName ref="per011519">Techterman</persName>, <persName ref="per009462a.01">Gribollet</persName></seg>
+							<seg><lb/><persName ref="per011540">Curty</persName><!-- Hans Curty -->, <persName ref="per011523a.01">Wildt</persName></seg>
+							<seg><lb/><choice><abbr>W</abbr><expan>Weibel</expan></choice></seg></p>
+							
+						<p><seg><lb/><persName ref="per011980a">Christine Bovigny</persName> enquise pourquoy 
+							<lb/>elle tenoit prison, a dict ne le sçavoir, estre 
+							<lb/>innocente. Nie d’avoir eheue querelle avec <persName>Henry 
+							<lb/>Favre</persName> et d’avoir voullu guerrir ses enfantz.</seg> 
+						<pb n="410"/><seg><lb/>A premierement dict qu’elle ne sçavoit si la servan<lb break="no"/>te de <persName>Savario</persName> estoit mallade, puis confesse que ladite 
+							<lb/>servante est boiteuse. Nie d’avoir <subst><del>batt</del><add place="inline"><term ref="lem015635.06">baillié</term></add></subst> 
+							<lb/>un coup a <choice><abbr>s<hi rend="sup">r</hi></abbr><expan>seigneur</expan></choice> <persName>Landerset</persName> quand il alloit avec 
+							<lb/>monsieur le <term ref="lem016294.02">banderet</term> pour l’enquerir des 
+							<lb/>estrangers, qu’allors elle estoit a <placeName ref="loc007901.03">Auterive</placeName>, 
+							<lb/>puis advoue d’estre ce jour passer par 
+							<lb/>derriere dudit <persName>Landerset</persName>. Nie d’avoir dict 
+							<lb/>que la <persName>Farçonna</persName> s’en repentiroit de ce qu’elle 
+							<lb/>ne la voulloit heberger. Confesse d’avoir 
+							<lb/>dict a <persName>Hanß Brassa</persName> que <persName>Rumy</persName> le <term ref="lem014994">sautier</term>, s’il 
+							<lb/>ne se taisoit, s’en repentiroit, parce qu’estant 
+							<lb/>a Nostre Dame<!-- Datum oder Kirche? vlg. auch file 24b-->, elle avoit ouy que ledit <persName>Rumy</persName> 
+							<lb/>disoit a <persName>Brassa</persName> qu’on l’emprisonneroit.</seg> 
+							<seg><lb/>Interrogee quel remede elle employoit pour 
+							<lb/>guerir du <term ref="lem015301.02">decroist</term>, a respondu qu’il failloit 
+							<lb/>lever au matin avant l’aube et dire&#160;: <q>&#160;Je vois 
+							<lb/>ce que croist et je taste ce que decroist, Monsieur 
+							<lb/><choice><abbr>s</abbr><expan>saint</expan></choice> <persName ref="per000438">Pierre</persName>, <choice><abbr>S</abbr><expan>Saint</expan></choice> <persName ref="per000049">Jean</persName> et <choice><abbr>s</abbr><expan>saint</expan></choice> <persName>Alé</persName>. Au nom du Pere, 
+							<lb/>du Filz et du <choice><abbr>S</abbr><expan>Saint</expan></choice> Esprit. Amen.&#160;</q></seg></p>
+							<!--c’est quoi saint Alé??? Keine Ahnung!!!-->
+						
+						
+					</div>
+				</body>
+				
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+
+<?oxy_options track_changes="on"?>

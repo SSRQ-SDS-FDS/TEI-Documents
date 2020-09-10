@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-08-15"/>
+            <date type="print"/>
+            <availability><p xml:id="facs">Sibylle Malamud</p></availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_106_1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>StAZH C I, Nr. 3199</idno>
+               </msIdentifier>
+               <head>Schenkung der Herrschaft Frischenberg mit dem Dorf Sax und der
+                  Hochgerichtsbarkeit über die (obere) Lienz durch die acht eidgenössischen Orte an
+                  Ulrich VIII. von Sax-Hohensax für geleistete Dienste im vergangenen Krieg</head>
+               <msContents>
+                  <summary>
+                     <p>Die in Zürich versammelten Gesandten der acht Orte, von Zürich alt
+                        Bürgermeister Felix Schmid, Felix Wingarter, Hans Berger und Felix
+                        Brennwald, von Luzern Ritter Werner von Meggen und Hans Hug, von Uri
+                        Säckelmeister Heinrich Scherer, von Schwyz Vogt Lilli, von Obwalden Ammann
+                        von Flüe, von Nidwalden Hans Stolz, von Zug Heinrich Ölegger, von Glarus
+                        Hans Stucki sowie Hans Meggeli und Hans Moser von Appenzell, übergeben dem
+                        Freiherrn Ulrich VIII. von Sax-Hohensax für geleistete Dienste im
+                        vergangenen Schwabenkrieg und als Entschädigung für die im letzten Krieg
+                        erlittenen Kosten alle ihre Rechte an dem Burgstall Frischenberg, dem Dorf
+                        Sax und in der Lienz, jedoch unter Vorbehalt der Rechte des Klosters St.
+                        Gallen an den niedern Gerichten in der Lienz. Alle Leute sollen ihrem Herrn
+                        huldigen.</p>
+                     <p>Für die Aussteller siegelt Zürich.</p>
+                     <p/>
+                  </summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <filiation type="current">Original</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Pergament</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="27.5"/>
+                              <width unit="cm" quantity="35.0"/>
+                           </dimensions>
+                           <dimensions type="plica">
+                              <width unit="cm" quantity="4.0"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <sealDesc>
+                     <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1"
+                        nontei:material="wax" nontei:shape="round" nontei:condition="well-preserved"
+                        nontei:attachment="sealed on a parchment tag">
+                        <orgName role="sigillant" ref="org001196">Zürich</orgName>
+                     </seal>
+                  </sealDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1517-12-16">uf den sechzechenden tag des
+                        wollffmonats</origDate>
+                     <origPlace ref="loc000065">Zürich</origPlace>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000023">Schenkung</term>
+               <term ref="key000140">Herrschaft</term>
+               <term ref="key000566">Kriegsdienst</term>
+               <term ref="key000179"/>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text><!-- SM: Appenzell dt. Kopie fehlt -->
+            <body>
+               <div org="uniform" sample="complete">
+                  <pb facs="StAZH_C_I_Nr._3199_r"/>
+                  <p>
+                     <seg>
+                        <lb/>Wir, von stetten unnd lennder der acht orten unnser <orgName
+                           ref="org000531">Eidtgnoschafft</orgName> ret und sanndtbotten,
+                        <lb/>namlich von <placeName ref="loc000066">Zurich </placeName>
+                        <persName ref="per005042">Felix Schmid</persName>, alt burgermeister,
+                           <persName ref="per005065">Felix Wingarter</persName>, <persName
+                           ref="per005064a">Hans Berger</persName> und <lb/><persName
+                           ref="per001728a">Felix Brenwald</persName>, von <placeName
+                           ref="loc000972">Lucern</placeName>
+                        <persName ref="per004904a">Wernher von Meggen</persName>, ritter, <persName
+                           ref="per003881a">Hans Hug</persName>, von <placeName ref="loc000796"
+                           >Ury</placeName>
+                        <persName ref="per005066">Heinrich Scherer</persName>, <lb/>seckelmeister,
+                        von <placeName ref="loc000730">Schwitz</placeName> Vogt <persName
+                           ref="per005067">Lilli</persName>, von <placeName ref="loc000568"
+                           >Underwalden</placeName>
+                        <placeName ref="loc000567">Ob dem Wald</placeName> aman <persName
+                           ref="per005068a">zur <lb/>Fluͦ</persName>, <placeName ref="loc000566"
+                           >Nidt dem Wald</placeName>
+                        <persName ref="per005069a">Hanns Stoltz</persName>, von <placeName
+                           ref="loc000215">Zug</placeName>
+                        <persName ref="per005080a">Heinrich Oͤlegger</persName>, von <placeName
+                           ref="loc000326">Glaruͦs</placeName>
+                        <persName ref="per005070a">Hanns <lb/>Stucki</persName>, pannerher, und von
+                           <placeName ref="loc005996">Appennzell</placeName>
+                        <persName ref="per005072">Hanns Meggeli</persName> und <persName
+                           ref="per005071a">Hanns Moßer</persName>, mit <lb/>vollem gewalt unsrer
+                        herren und obern inn der stat <placeName ref="loc000065">Zuͦrich</placeName>
+                        versampt, bekennen und <lb/>thund kund offennlich mit dißem brieff, </seg>
+                     <seg>das wir inn ansehen der getruwen, guͦten <lb/><term ref="lem007441"
+                           >diensten</term>, so der wolgeborn her <persName ref="per001640">Ulrich
+                           von der Hochensax</persName>, fryher, unnsern herren <lb/>und obern und
+                        gemeiner unser <orgName ref="org000531">Eidtgnoschafft</orgName> bewißt und
+                        erzeigt, ouch zuͦ <term ref="lem010157.03">ergetz<lb break="no"/>ung</term>
+                        dess <term ref="lem000969">schadens</term>, so er an dem sinen dess
+                        nechstvergangnen <term ref="lem000599">kriegs</term> empfangen <lb/>hat, im
+                        und allen sinen erben einer frigen, uffrechten und onwiderruͤfflichen <term
+                           ref="lem008545">gab</term>
+                        <lb/>fur unser herren und obern, die obgemelten <orgName ref="org001189"
+                           >acht ort</orgName>, und all ir nachkomen ubergeben <lb/>und zugefugt
+                        haben, alle rechtung, teil und gerechtigkeit an dem <term ref="lem001612"
+                           >burgstall</term>
+                        <lb/><placeName ref="loc006155">Frischemberg</placeName> und dem <term
+                           ref="lem000103">dorff</term>
+                        <placeName ref="loc006068">Sax</placeName> und inn der <placeName
+                           ref="loc000951.03">Lienntz</placeName> mit <term ref="lem000975"
+                           >hochen</term> und <term ref="lem000976">nidern ge<lb break="no"
+                           />richten</term>, mit sturen, diensten, zwinggen, bennen, aller oberkeit,
+                        herlicheit, <term ref="lem000362.03">ehaffti</term>
+                        <lb/>und zugehoͤrd an lüt und guͦt, so die gemelten unser herren und obern
+                        daran ge<lb break="no"/>hept oder deheins wegs haben moͤchten, nichts
+                        ußgenomen noch vorbehalten, <lb/>wie dann sollichs mit der herschafft
+                           <placeName ref="loc007128">Rinegk</placeName> und dem <placeName
+                           ref="loc001075">Rintal</placeName> vergangner zit an <lb/>sy komen und
+                        bißhar ingehept ist.</seg>
+                     <seg>Soͤllichs alles nun hinfur innzuͦhaben, zubeherschen, <lb/>zenutzen und
+                        zeniessen, wie sich gebürt und von altem harkomen ist, alles getruwlich
+                        <lb/>und ungevarlich, doch dem wurdigen gotzhus <placeName ref="loc000083"
+                           >Sant Gallen</placeName> an den <term ref="lem000976">nidern
+                           gerichten</term>
+                        <lb/>der <placeName ref="loc000951.02">Lientz</placeName> und was durch
+                           <term ref="lem001683">undergeng</term> darzuͦ gehoͤrig erfunden und <term
+                           ref="lem001877">undermarchet</term> ist <lb/>oder wurt, ouch an allen
+                        andern iren recht und gerechtigkeiten, an luͦten, guͦter, ge<lb break="no"
+                        />bott und verbotten, zinsen, sturen, diensten und rechtungen in all weg
+                        unvergriffen <lb/>und onschedlich, dann wir dem gemeltem gotzhus <placeName
+                           ref="loc000083">Sant Gallen</placeName> siner gerechtig<lb break="no"
+                        />keit an der <placeName ref="loc000951.02">Lientz</placeName> der nidern
+                        gerichten und denselben anhangent, hiemit nichts wel<lb break="no"/>lent
+                        hingegeben haben.</seg>
+                     <seg>Und soͤllent hieruff die lut in obgemelten gerichten begriffen, <lb/>sampt
+                        der <placeName ref="loc000951.02">Lientz</placeName>, dem bestimpten
+                           <persName ref="per001640">herrn von Sax</persName>
+                        <term ref="lem000374.06">huͦlden</term> und <term ref="lem000335"
+                           >schweren</term> und alles das <lb/>thuͦn, so sy hievor unsern herren und
+                        obern zethuͦnd schuͦldig geweßen sind, ane <lb/>mengklichs intrag und
+                        widerred, dann wir sy hiemit aller <term ref="lem003201">eidspflicht</term>
+                        uns ge<lb break="no"/>than erlassen habent.</seg>
+                     <seg>Alles in crafft diss brieffs, der dess zuͦ urkund mit der stat <orgName
+                           ref="org001196">Zurich</orgName>
+                        <lb/>angehengktem secret, innamen und von wegen unser aller besigelt und
+                        geben <lb/>ist, uff den <origDate when="1517-12-16">sechzechenden tag dess
+                           wollffmonats nach Crists geburt gezellt <lb/>funffzechenhundert und im
+                           sibenzechenden jar</origDate>.</seg>
+                  </p>
+               </div>
+               <pb facs="StAZH_C_I_Nr._3199_v"/>
+               <div org="uniform" sample="complete">
+                  <ab type="dorsal" place="verso" hand="hand16c">Ubergab von stett und lennder der acht
+       <lb/>orten, wie sy herrn <persName ref="per001640">Ulrichen von Hochen <lb/>Sax</persName>,
+       fryherr, unwiderruefflich über<lb break="no"/>geben haben das dorff <placeName ref="loc006068">Sax</placeName> und burg<lb break="no"/>stal <placeName ref="loc006155">Frischenberg</placeName> in der <placeName ref="loc000951.02">Lientz</placeName>, doch dem
+       <lb/>gotzhus an den nider gerichten der Lientz <lb/>on schaden. </ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab place="verso" type="archiving reference" hand="hand16c">nunderi 24</ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab place="verso" type="archiving reference" hand="hand17c?">
+                     <del rend="strikethrough">No
+        14</del>1517; 13</ab>
+               </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div n="1" org="uniform" sample="complete">
+            <p>Die <term ref="key000023">Schenkung</term> und Übergabe der Burg <placeName
+                  ref="loc006155">Frischenberg</placeName> mit dem Dorf <placeName ref="loc006068"
+                  >Sax</placeName> sowie der <term ref="key000044">Hochgerichtsbarkeit</term> über
+               die (obere) <placeName ref="loc000951">Lienz</placeName> von den <orgName
+                  ref="org000531">Eidgenossen</orgName> an <persName ref="per001640">Ulrich VIII.
+                  von Sax-Hohensax</persName> war bereits am <date when="1500-09-02">2. September
+                  1500</date> erfolgt als Dank für dessen <term ref="key000439">Hilfe</term> im
+                  <term ref="key003972">Schwabenkrieg</term> von <date when="1499">1499</date>
+                     (<bibl><ref target="http://permalink.snl.ch/bib/chbsg000143826">EA, Bd.
+                     3/2</ref>, Art. 29p</bibl> [Mittwoch nach Verena]; vgl. dazu auch die
+               zeitgenössische Abschrift in <bibl><ref>StiASG Rubr. 13, Fasz. 10</ref>,
+                  05.09.1500</bibl>, allerdings unter dem Datum <orig>sampstâg nâch santt
+                     <unclear>Verena</unclear> tag</orig>: Die Urkunde wurde wohl am Samstag nach
+               dem Abschied erstellt; allerdings ist die Lesung des Tags in der Abschrift unsicher).
+               Eine Originalurkunde dieser Übergabe existiert nicht mehr. Am <date when="1517-08-11"
+                  >11. August 1517</date> beklagt sich der Freiherr an der Tagsatzung, dass ihm die
+               Landvögte im <placeName ref="loc001075">Rheintal</placeName> seine Rechte streitig
+               machen, weshalb er um eine Erneuerung und Bestätigung der Schenkung nachsucht, was
+               ihm gewährt wird (<bibl><ref target="http://permalink.snl.ch/bib/chbsg000143826">EA,
+                     Bd. 3/2</ref>, Art. 718q</bibl>, vgl. dazu auch <bibl><ref
+                     target="http://permalink.snl.ch/bib/chbsg000080285">Bänziger 1977</ref>,
+                  S. 44</bibl>; <bibl><ref target="http://permalink.snl.ch/bib/chbsg000070326"
+                     >Inhelder 1992</ref>, S. 122</bibl>; <bibl><ref
+                     target="http://permalink.snl.ch/bib/chbsg000101708">Kuster 1995</ref>,
+                  S. 24–25</bibl>; <bibl><ref target="http://permalink.snl.ch/bib/chbsg000110853"
+                     >Kuster 1991</ref>, S. 46</bibl>).</p>
+         </div>
+         <div n="2" org="uniform" sample="complete">
+            <p>Die Schenkung wurde <date when="1590">1590</date> von <orgName ref="org001196"
+                  >Zürich</orgName> auf Ansuchen von <persName ref="per004582">Johann Philipp von
+                  Sax-Hohensax</persName> vidimiert (<bibl><ref
+                     target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=251249">StAZH C I,
+                     Nr. 3213</ref>; <ref>B I 256, fol. 616r–617v</ref>; <ref>A 346.1.5,
+                     Nr. 41</ref></bibl>).</p>
+         </div>
+         <div n="3" org="uniform" sample="complete">
+            <p>Der <term ref="key000305">Grenzverlauf</term> der hohen Gerichte zwischen der
+               Freiherrschaft <placeName ref="loc000278">Sax-Forstegg</placeName> mit <placeName
+                  ref="loc000951">Lienz</placeName> und dem <placeName ref="loc001075"
+                  >Rheintal</placeName> wird hier erstmals beschrieben. Die Grenze verläuft durch
+               das Dorf <placeName ref="loc007558.01">Lienz</placeName>, wobei der obere Teil
+               (häufig Ober Lienz oder obere Lienz genannt) zu <placeName ref="loc000278"
+                  >Sax-Forstegg</placeName>, der untere Teil zum <placeName ref="loc001075"
+                  >Rheintal</placeName> gehört (<bibl><ref
+                     target="http://permalink.snl.ch/bib/chbsg000101708">Kuster 1995</ref>,
+                  S. 25–26</bibl>). 1494 (vgl. <ref>SSRQ_SG_III_4_089</ref>) hingegen ist der
+               Grenzverlauf ungefähr gleich wie die heutige Grenze zwischen der Ortsgemeinde
+                  <placeName ref="loc000950">Sennwald</placeName> im Norden und der Rhode <placeName
+                  ref="loc000951.01">Lienz</placeName> als Exklave der Ortsbürgergemeinde <placeName
+                  ref="loc000439">Altstätten</placeName> im Süden. </p>
+         </div>
+      </back>
+   </text>
+</TEI>

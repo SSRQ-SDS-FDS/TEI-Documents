@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+
+			</titleStmt>
+
+			<publicationStmt>
+				<date type="electronic" when="2019-03-20"/>
+				<date type="print"/>
+			</publicationStmt>
+
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ_FR_I_2_8_0031_004</idno>
+			</seriesStmt>
+
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<idno>StAFR, Thurnrodel 10, S. 259–260</idno>
+					</msIdentifier>
+					<head>Elsy Rod-Cochat – Verhör / Interrogatoire</head>
+					<msContents>
+						<summary/>
+						<msItem>
+							<textLang>fr, de</textLang>
+							<filiation type="current"/>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support>
+									<material/>
+								</support>
+								<extent>
+									<dimensions type="leaves">
+										<height unit="cm" quantity="0.0"/>
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+									<dimensions type="plica">
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+								</extent>
+							</supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate when="1611-01-26"/>
+							<origPlace/>
+						</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc> 
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+			<particDesc default="false"/>
+			<settingDesc default="false"/>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+					
+						<pb n="259"/><p><lb/>Im <placeName ref="loc007683.02">bösen thurn</placeName>, <origDate when="1611-01-26">26 <foreign xml:lang="la">januarii</foreign> 1611</origDate>
+							<seg><lb/><foreign xml:lang="la">Judice</foreign> <abbr>h</abbr> <choice><abbr>groß</abbr> <expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per009136">Umbert Brassa</persName>.</note></seg>
+							<seg> <lb/><foreign xml:lang="la">Presentibus</foreign> <abbr>h</abbr> <persName ref="per009101">Keller</persName>, <persName ref="per009102">Amman</persName></seg>
+							<seg><lb/><persName ref="per009128">Gurnel</persName>, <persName ref="per009133">Pithung</persName>, <persName ref="per009103">Zum Holtz</persName></seg>
+							<seg><lb/><persName ref="per009134">Dießbach</persName></seg>
+						<seg><lb/>Weybel</seg></p>	
+						
+						<p><seg><lb/><add place="left margin">Hat nüt zalt.</add></seg>
+							<seg>Ladite <persName ref="per009222">Elsy Cochat</persName> a confessé que des <date dur="P11Y">11 ans</date> en ça, les 
+						<lb/><term ref="lem015433.02">malings esprits</term> l’ayent tourmentee. Mais d’avoir maul<lb break="no"/>dit la fillie de la <persName>Paccotta</persName>, elle l’a denegué, ne sachant 
+								<lb/>qu’elle luy aye prins son <term ref="lem018315">chat</term>, qui fust perduz <date dur="P3W">trois 
+						<lb/>sepmaines</date> durant. Denegue aussy d’avoir donné 
+					<pb n="260"/><lb/>le mal a ladite <persName>Clauda</persName>, ny savoir aucunes nouvelles 
+						<lb/> de la lievre, ny des mouches, qu’on a deu cracher.</seg> 
+						<seg><lb/>A dit n’avoir aucun maistre que Dieu. Denegue qu’on 
+						<lb/>l’aye appellee sorciere, disant n’avoir fait domma<lb break="no"/>ge a persone ne bestes que ce soyent. Et par ce moyen 
+						<lb/>a dit estre de tout celle pure, nette et innocente.</seg> 
+						<seg><lb/>A enduré la torture par 3 fois, et n’a confessé 
+						<lb/>aultre chose.</seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>

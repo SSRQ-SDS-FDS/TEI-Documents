@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234" xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+
+			</titleStmt>
+
+			<publicationStmt>
+				<date type="electronic" when="2019-05-29"/>
+				<date type="print"/>
+			</publicationStmt>
+
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ_FR_I_2_8_0060_017</idno>
+			</seriesStmt>
+
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<idno>StAFR, Ratsmanual 174 (1623), S. 421, 422, 423</idno>
+					</msIdentifier>
+					<head>Jean Dufour, Louise Cordey-Jaquet, Jean Cordey – Anweisung und Urteil / Instruction et jugement</head>
+					<msContents>
+						<summary></summary> 
+						<msItem>
+							<textLang>de</textLang> 
+							<filiation type="current"/>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support>
+									<material/>
+								</support>
+								<extent>
+									<dimensions type="leaves">
+										<height unit="cm" quantity="0.0"/>
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+									<dimensions type="plica">
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+								</extent>
+							</supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1623-07-01"><num value="1">i</num> <foreign xml:lang="la">julii</foreign> 1623</origDate>
+							<origPlace/>
+						</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+			<particDesc default="false"/>
+			<settingDesc default="false"/>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="421"/><p><lb/>Einer von <placeName ref="loc007934.04">Mignieres</placeName>, den diser, so man für 
+						<lb/>gricht stellen soll<note>Gemeint ist <persName ref="per009489">Jean Cordey</persName>.</note>, angeben, begert mit 
+							<lb/>ime zu reden und <term ref="lem018944.01">confrontiert</term> zu werden. Das 
+						<lb/>sol geschächen und widerbringen.</p>
+						
+						<p><gap reason="irrelevant"/><note>Ce passage concerne d’autres individus.</note></p>
+						
+						<pb n="422"/><p><lb/>Der von <placeName ref="loc007934.03">Menieres</placeName> <add place="above" type="sign"><persName ref="per009514a.01">Jehan du Four</persName></add>, den der <persName ref="per009489">Cordey</persName> angeben 
+						<lb/>in der <term ref="lem017042.03">sect</term> gesehen zu haben, noch nit dütlich 
+						<lb/>sondern allein: <quote>&#160;Il me semble l’avoir veu&#160;</quote>.
+						<lb/>Ist <term ref="lem007301.03">ledig erkhent</term>, das man in nit solle inthun. 
+						<lb/>Uff die frauw<note>Gemeint ist wohl <persName ref="per009490a">Louise Jaquet</persName>.</note> aber soll man gryffen.</p>
+						
+						<p><gap reason="irrelevant"/><note>Ce passage concerne d’autres individus.</note></p>
+						
+						<pb n="423"/><p><lb/><term ref="lem004395.06">Blutgricht</term></p>
+						<p><lb/><persName ref="per009489">Jean Cordey</persName> von <placeName ref="loc007934.03">Menieres</placeName> hinder <placeName ref="loc007605.04">Uberstein</placeName> 
+						<lb/>ein <term ref="lem007357.03">unholder</term> zum <term ref="lem012936.03">füwr</term> lebendig verurteilt, 
+						<lb/>hat den <term ref="lem015327">kalten streich</term> uß gnaden erlangt.</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+
+<?oxy_options track_changes="on"?>

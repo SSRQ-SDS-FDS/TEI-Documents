@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-08-15"/>
+            <date type="print"/>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_174_2</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>PGA Buchs B 11.21, S. 1–21</idno>
+               </msIdentifier>
+               <head>Werdenberger Landbuch mit einem paraphrasierten Nachtrag von 1666</head>
+               <msContents>
+                  <summary>
+                     <p>Die Bewohnerschaft von Werdenberg ersucht Glarus, ihnen das neue Landbuch, das</p>
+                     <p>			Landvogt Jakob Feldmann zusammen mit den Amtleuten und Herrschaftsleuten erneuert hat,</p>
+                     <p>			zu verbessern, zu erläutern und zu bestätigen. Das alte Landbuch war unverständlich und</p>
+                     <p>			unleserlich geworden, weshalb viele Streitigkeiten entstanden sind. Glarus bestätigt das</p>
+                     <p>			neue Landbuch, das 58 Artikel zum Erbrecht, Schuldrecht, Eigentumsrecht, Zugrecht,</p>
+                     <p>			Nachbarrecht, Wegrecht, zur Aufnahme von Hintersassen, zum Stellen von Kundschaften</p>
+                     <p>			(Zeugen) etc. enthält.</p>
+                  </summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <author role="scribe">Balthasar Streiff von Diesbach (Glarus)</author>
+                     <filiation type="original">
+                        <origDate when="1639-06-06"/>
+                        <idno>StASG AA 3 B 01</idno>
+                     </filiation>
+                     <filiation type="current">Abschrift (S. 1–14 beschriftet, von hinten: S. 1–103 beschriftet), mit kartoniertem Einband</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="30.0"/>
+                              <width unit="cm" quantity="20.0"/>
+                           </dimensions>
+                        </extent>
+                        <condition>restauriert</condition>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate from="1648-12-23" to="1649-02-03"/>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000597">Erbrecht</term>
+               <term ref="key004882">Landbuch</term>
+               <term ref="key003298">Landesrecht</term>
+               <term ref="key000818">Leibding</term>
+               <term ref="key000635">Testament</term>
+               <term ref="key000803">Kind</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body/>
+         </text>
+      </group>
+      <back>
+         <div/>
+      </back>
+   </text>
+</TEI>

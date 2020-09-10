@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="headerinfo"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <date type="electronic" when="2020-08-17"/>    <date type="print"/>
+    <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Collection des sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS_NE_3_212</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier>
+      <idno>AVN B 101.14.001, fol. 471r</idno>
+     </msIdentifier>
+     <head>Suivi d’une demande</head>
+     <msContents>
+      <summary>Lorsque l’on forme demande à une autre partie, il faut la suivre dans l’an et jour et
+       amener l’autre partie à répondre. Passé ce délai, la demande est nulle et l’accusé ne peut
+       être poursuivi pour fait d’injure. Il est possible de former une nouvelle demande pour fait
+       de fond.</summary>
+      <msItem>
+       <textLang>français</textLang>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="33"/>
+          <width unit="cm" quantity="23.5"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <origDate when="1668-11-03" calendar="Julian"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>
+      </origin>
+     </history>
+     <additional>
+      <listBibl>
+       <head/>
+       <bibl/>
+      </listBibl>
+     </additional>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key005189"></term>
+     <term ref="key005021"></term>
+     <term ref="key003026"></term>
+     <term ref="key003040"></term>
+
+    </keywords>
+   </textClass>
+   <particDesc default="false"/>
+   <settingDesc default="false"/>
+  </profileDesc>
+ </teiHeader>
+ 
+ <text>
+  <group>
+   <text>
+    <body>
+     
+     
+     <pb n="471r" facs="AVN_B_101.14.001_0471r"/> 
+        
+     <div>
+      <head>
+       <lb/>Poinct de coustume concernant si l’on <lb/>ne doit pas suivre une demande formée dans
+       <date dur="P1Y6W"><choice><sic>an</sic><corr><term ref="lem014776">an &amp; jour</term></corr></choice></date>
+       <lb/>et obliger sa partie à repondre dans ledit temps. </head>
+      <p>
+       <lb/>Sur la requeste du <choice>
+        <abbr>s<hi rend="sup">r</hi></abbr>
+        <expan>sieur</expan>
+       </choice> maistre <lb/>bourgeois <persName ref="per010132">Abraham Bullot</persName> adressée
+       à <choice>
+        <abbr>Mons<hi rend="sup">r</hi></abbr>
+        <expan>monsieur</expan>
+       </choice> le maistre <lb/>bourgeois &amp; <orgName ref="org003085">Conseil Estroit de la
+        Ville de <placeName ref="loc007786">Neuchâtel</placeName></orgName>, le <lb/><origDate
+         when="1668-11-03" calendar="Julian">3 de novembre 1668</origDate>, tendante aux fins d’avoir le <lb/>point de
+       coustume suivant. </p>
+      <p>
+       <lb/>Assavoir si une personne qui a formé une demande <lb/>à un autre n’est pas obligé de
+       suivre à icelle dans l’<date dur="P1Y6W"><choice><sic>an</sic><corr><term ref="lem014776">an &amp; jour</term></corr></choice></date>
+       <lb/>et obliger sa partie à respondre dans <choice>
+        <abbr>led.</abbr>
+        <expan>ledit</expan>
+       </choice> temps, &amp; si telle <lb/>demande ne doit pas estre nulle, quand on a negligé
+       d’amener <lb/>sa partie à reponce de telle demande. </p>
+      <p>
+       <lb/><orgName ref="org003085">Mesdits <choice>
+         <abbr>s<hi rend="sup">rs</hi></abbr>
+         <expan>sieurs</expan>
+        </choice> du Conseil</orgName>, ayans eu advis &amp; meure <lb/>premeditation par ensemble,
+        <term ref="lem015635.04">baillent</term> par déclaration <lb/>suivant la coustume usitée en
+       la souveraineté de <placeName ref="loc007785">Neufchâtel</placeName>
+       <lb/>de pere à fils &amp; de tout temps immemorial jusqu’à present <lb/>la coustume estre
+       telle, suivant mesme une declaration <lb/>desja rendue le <date when="1654-11-24">24<hi
+         rend="sup">e</hi>
+        <choice>
+         <abbr>9bre</abbr>
+         <expan>novembre</expan>
+        </choice>
+        <hi rend="underline">1654</hi></date><note>Voir <ref>SDS_NE_3_142</ref>.</note> &amp; une
+       autre du <date when="1668-09-19">19<hi rend="sup">e</hi>
+        <choice>
+         <abbr>7bre</abbr>
+         <expan>septembre</expan>
+        </choice>
+        <hi rend="underline">1668</hi></date><note>Ce point de coutume est introuvable.</note>. </p>
+      <p>
+       <lb/>Assavoir que tout homme qui forme demande à un <lb/>autre est obligé de la suivre dans
+        l’<date dur="P1Y6W"><term ref="lem014776">an &amp; jour</term></date> jusques à ce
+       <lb/>qu’il amene sa partie à reponse dans ledit temps, &amp; laissant <lb/>ecouler <choice>
+        <abbr>led</abbr>
+        <expan>ledit</expan>
+       </choice> temps sans l’avoir amené à reponce, telle <lb/>demande demeure nulle, &amp; partant <choice>
+        <abbr>led</abbr>
+        <expan>ledit</expan>
+       </choice>
+       <term ref="lem015651">réé</term> est irrecerchable <lb/>pour fait d’injure, mais pour fait de fond l’acteur
+       peut <lb/>former nouvelle demande. </p>
+      <p>
+       <lb/>Ce qu’a esté ainsi passé, conclud &amp; arresté les an &amp; <lb/>jour que devant, &amp;
+       ordonné à moy secretaire de ville <lb/>l’expedier en cette forme sous le <term
+        ref="lem016327">seel</term> de mayorie &amp; justice <lb/><choice>
+        <abbr>dud.</abbr>
+        <expan>dudit</expan>
+       </choice>
+       <origPlace ref="loc007786">Neufchatel</origPlace>, &amp; signature de ma main. </p>
+     </div>
+      
+      <div>
+       <p>
+        <lb/>Idem extrait comme devant.
+       </p>
+       <signed><persName ref="per008992"><choice><abbr>N</abbr><expan>Nicolas</expan></choice> Huguenaud</persName> <figure type="notarial sign"/></signed>
+      </div>
+     
+       
+    </body>
+   </text>
+  </group>
+ </text>
+</TEI>

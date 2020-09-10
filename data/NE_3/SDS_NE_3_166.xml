@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="headerinfo"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <date type="electronic" when="2020-08-17"/>    <date type="print"/>
+    <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Collection des sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS_NE_3_166</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier>
+      <idno>AVN B 101.14.001, fol. 440v–441r</idno>
+     </msIdentifier>
+     <head>Lieu d’investiture de la succession</head>
+     <msContents>
+      <summary>Lorsque les héritiers d’un défunt entrent en possession de la succession sur le jour
+       des six semaines de son ensevelissement devant la justice du lieu où le défunt était
+       domicilié, cela concerne tous les biens meubles et immeubles du défunt quelle que soit la
+       juridiction où ils se trouvent dans la seigneurie.</summary>
+      <msItem>
+       <textLang>français</textLang>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="33"/>
+          <width unit="cm" quantity="23.5"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <origDate when="1659-08-07" calendar="Julian"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>
+      </origin>
+     </history>
+     <additional>
+      <listBibl>
+       <head/>
+       <bibl/>
+      </listBibl>
+     </additional>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key005179"></term>
+     <term ref="key000920"></term>
+     <term ref="key000815"></term>
+     <term ref="key005018"></term>
+     <term ref="key004770"></term>
+     <term ref="key000494"></term>
+     <term ref="key005117"></term>
+
+    </keywords>
+   </textClass>
+   <particDesc default="false"/>
+   <settingDesc default="false"/>
+  </profileDesc>
+ </teiHeader>
+ 
+ <text>
+  <group>
+   <text>
+    <body>
+        
+     
+     <pb n="440v" facs="AVN_B_101.14.001_0440v"/> 
+        
+     <div>
+      <head>
+       <lb/>Declaration touchant le lieu où la<lb/> mise en possession et investiture à la
+       <lb/>succession des biens d’un deffunt se doit <lb/>prendre.</head>
+      <p>
+       <lb/>Sur la requeste presentée par <lb/><choice>
+        <abbr>Mons<hi rend="sup">r</hi></abbr>
+        <expan>monsieur</expan>
+       </choice>
+       <persName ref="per010228">Baillod</persName>, mayre pour son altesse en la <lb/>justice de
+        <placeName ref="loc005950.05">Vallangin</placeName>, par devant monsieur le maistre
+       <lb/>bourgeois &amp; <orgName ref="org003085">Conseil Estroit de la Ville de <placeName
+         ref="loc007786">Neufchastel</placeName></orgName>
+       <lb/>le <origDate when="1659-08-07" calendar="Julian">7 aoust 1659</origDate>, tendante aux fins d’avoir le
+       point <lb/>de coustume suivant. </p>
+      <p>
+       <lb/>Sçavoir si apres le decéz &amp; trepas d’un deffunt les <lb/>héritiers &amp; ayants
+       droit en la succession &amp; hoirie <lb/>sont tenus de demander la mise en possession et
+       <lb/>investiture de telle succession en toutes les justices <lb/>des lieux où le deffunt peut
+       avoir delaissé du bien <lb/>fond adgesant. Et s’il ne doit pas suffire que sur le <lb/>jour
+       des <date dur="P6W">six sepmaines</date> de l’ensevelissemnt les <lb/>heritiers du deffunt
+       aprehendent la mise en possession <lb/>et investiture de tous les biens delaisséz par luy
+       <lb/>est ce en la justice du lieu de son domicile &amp; de son <lb/>juge ordinaire, afin
+       d’estre fait jouissant de tous <choice>
+        <abbr>lesd</abbr>
+        <expan>lesdits</expan>
+       </choice>
+       <lb/>biens generallement quelconques sans exception, apres <lb/>que partie d’iceux soyent
+       adgisants <term ref="lem017830.02">riere</term> d’autres <lb/>jurisdictions, et nonobstant quelque mise en <lb/>possession et
+       investiture particuliere qu’autres <lb/>pretendans pourroyent avoir pourchassées de
+       <lb/>quelques pieces dependantes de <choice>
+        <abbr>lad</abbr>
+        <expan>ladite</expan>
+       </choice> succession <term ref="lem017830.02">riere</term> <lb/>d’autres mayories &amp; chastelanies <choice>
+        <abbr>dud</abbr>
+        <expan>dudit</expan>
+       </choice> comté où elles <lb/>sont adgisantes. </p>
+      <p>
+       <lb/><orgName ref="org003085">Mesdits <choice>
+         <abbr>S<hi rend="sup">rs</hi></abbr>
+         <expan>sieurs</expan>
+        </choice> du Conseil</orgName> ayants eu advis &amp; meure <lb/>premeditation par ensemble
+       donnent par <choice>
+        <abbr>declaraon</abbr>
+        <expan>déclaration</expan>
+       </choice>
+       <lb/>que suivant la coustume usitée en la souveraineté <pb n="441r"
+        facs="AVN_B_101.14.001_0441r"/>
+       <lb/>de <placeName ref="loc007785">Neufchastel</placeName> de pere à fils &amp; de tout temps
+       immemorial <lb/>jusques à present voire en suite d’une <choice>
+        <abbr>preced<hi rend="sup">te</hi></abbr>
+        <expan>précédente</expan>
+       </choice>
+       <choice>
+        <abbr>declaraon</abbr>
+        <expan>déclaration</expan>
+       </choice>
+       <lb/>deja rendue le <date when="1617-07-25" calendar="Julian">25 de juillet
+        1617</date><note>Voir <ref>SDS_NE_3_061</ref>.</note> en faveur d’<choice>
+        <abbr>hono</abbr>
+        <expan>honorable</expan>
+       </choice>
+       <lb/><persName ref="per010232">Pierre le Mayre</persName> bourgeois <choice>
+        <abbr>dud.</abbr>
+        <expan>dudit</expan>
+       </choice>
+       <placeName ref="loc007786"><choice>
+         <abbr>Neufch<hi rend="sup">el</hi></abbr>
+         <expan>Neufchâtel</expan>
+        </choice></placeName> &amp; d’<choice>
+        <abbr>hon</abbr>
+        <expan>honnorable</expan>
+       </choice>
+       <persName ref="per010231a.01">Freny <lb/>Lardy</persName> sa femme, la coustume estre telle. </p>
+      <p>
+       <lb/>Assavoir, que quand une ou plusieurs personnes <lb/>ont aprehendé la possession &amp;
+       investiture de toute <lb/>la succession de l’hoirie d’un deffunt bourgeois ou de <lb/>franche
+       condition sur le jour des <date dur="P6W">six sepmaines</date> de son <lb/>ensevelissement en
+       la justice du lieu où <choice>
+        <abbr>led</abbr>
+        <expan>ledit</expan>
+       </choice> deffunt <lb/>estoit domicilié &amp; justiciable, elles peuvent et doivent
+       <lb/>estre saisies &amp; faites jouissantes de tous &amp; un chacun les <lb/>biens meubles
+       &amp; immeubles delaisséz par ledit deffunt <lb/>&amp; à luy appartenans à l’heure de son
+       decéz en quels <lb/>lieux &amp; <term ref="lem017830.02">riere</term> quelles seigneuries &amp; juridictions qu’ils
+       <lb/>soyent adgesants &amp; puissent trouver sans aucune <lb/>exception, &amp; sans estre
+       tenue de pourchasser s’il ne <lb/>luy plait autre mise en possession &amp; investiture
+       <lb/>en justices des autres lieux <term ref="lem017830.02">riere</term> lesquelles ledit <lb/>deffunt pouvoit avoir du bien
+       sur tout quand c’est <lb/><term ref="lem017830.02">riere</term> ce mesme estat &amp; souveraineté.</p>
+      <p>Ce qu’a <lb/>esté ainsi passé, conclud &amp; arresté l’an &amp; jour que <lb/>devant, &amp;
+       ordonné à moy secretaire de Ville l’expedier <lb/>en ceste forme, sous le <term ref="lem016327">seel</term>
+       de la mayorie &amp; <lb/>justice <choice>
+        <abbr>dud</abbr>
+        <expan>dudit</expan>
+       </choice>
+       <origPlace ref="loc007786">Neufchastel</origPlace> &amp; signature de ma main. </p>
+      <p>
+       <lb/>Pour copie extraite de sur le vray original signé par <lb/>moy <persName ref="per009020"><choice>
+         <abbr>M</abbr>
+         <expan>Maurice</expan>
+        </choice> Tribolet</persName>, &amp; sur icelle la presente par moy <choice>
+        <abbr>Not</abbr>
+        <expan>notaire</expan>
+       </choice>. </p>
+     </div>
+      
+      <div>
+       <signed><persName ref="per008992"><choice><abbr>N</abbr><expan>Nicolas</expan></choice> Huguenaud</persName> <figure type="notarial sign"/></signed>
+      </div>
+     
+       
+    </body>
+   </text>
+  </group>
+ </text>
+</TEI>

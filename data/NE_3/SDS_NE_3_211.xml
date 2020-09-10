@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="headerinfo"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <date type="electronic" when="2020-08-17"/>    <date type="print"/>
+    <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Collection des sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS_NE_3_211</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier>
+      <idno>AVN B 101.14.001, fol. 470r</idno>
+     </msIdentifier>
+     <head>For de la poursuite d’un débiteur</head>
+     <msContents>
+      <summary>On doit poursuivre un débiteur devant le juge de son domicile.</summary>
+      <msItem>
+       <textLang>français</textLang>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="33"/>
+          <width unit="cm" quantity="23.5"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <origDate when="1667-12-04" calendar="Julian"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>
+      </origin>
+     </history>
+     <additional>
+      <listBibl>
+       <head/>
+       <bibl/>
+      </listBibl>
+     </additional>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key004980"></term>
+     <term ref="key003331"></term>
+     <term ref="key003867"></term>
+     <term ref="key000494"></term>
+     
+    </keywords>
+   </textClass>
+   <particDesc default="false"/>
+   <settingDesc default="false"/>
+  </profileDesc>
+ </teiHeader>
+ 
+ <text>
+  <group>
+   <text>
+    <body>
+        
+     
+     <pb n="470r" facs="AVN_B_101.14.001_0470r"/> 
+        
+     <div>
+      <head>
+       <lb/>Pour sçavoir en quel lieu on doit <sic>recercher</sic>
+       <lb/>un debteur. </head>
+      <p>
+       <lb/>Sur la requeste presentée par <lb/>devant monsieur le maistre boureois &amp; <orgName
+        ref="org003085">Conseil Estroit <lb/>de la Ville de <placeName ref="loc007786"
+         >Neufchâtel</placeName></orgName> le <origDate when="1667-12-04" calendar="Julian">4 de decembre <hi
+         rend="underline">1667</hi></origDate> par <lb/><persName ref="per010133">Abraham</persName>
+       &amp; <persName ref="per010134">Jonas Tirion</persName>, freres de <placeName
+        ref="loc005950.05">Vallangin</placeName>, tendante <lb/>aux fins d’avoir le point de
+       coustume suivant. </p>
+      <p>
+       <lb/>Assavoir, si un homme voulant poursuivre un <lb/>autre pour fait de debte s’il n’est pas
+       obligé de la <lb/>rechercher <term ref="lem017830.02">riere</term> son juge où il est domicilié. </p>
+      <p>
+       <lb/><orgName ref="org003085"><choice>
+         <abbr>Mesd. s<hi rend="sup">rs</hi></abbr>
+         <expan>Mesdits sieurs</expan>
+        </choice> du Conseil</orgName> ayans eu advis &amp; meure <lb/>premeditation par ensemble,
+        <term ref="lem015635.04">baillent</term> par declaration <lb/>que suivant la coustume usitée
+       en la souveraineté <lb/>de <placeName ref="loc007785">Neufchâtel</placeName> de pere à fils
+       &amp; de tout temps immemorial <lb/>jusqu’à present la coustume estre telle. </p>
+      <p>
+       <lb/>Assavoir que quand une personne veut poursuivre <lb/>un autre pour le payement d’un debt
+       non confessé, il le <lb/>doit rechercher <term ref="lem017830.02">riere</term> son juge où il est domicilié. </p>
+      <p>
+       <lb/>Ce qu’a esté ainsi passé, conclud &amp; arresté les an <lb/>&amp; jour que dessus, &amp;
+       ordonné à moy secretaire de Ville <lb/>l’expedier en cette forme, sous le <term ref="lem016327">seel</term>
+       de la mayorie &amp; <lb/>justice <choice>
+        <abbr>dud.</abbr>
+        <expan>dudit</expan>
+       </choice>
+       <origPlace ref="loc007786">Neufchâtel</origPlace>, &amp; signature de ma main. </p>
+     </div>
+      
+      <div>
+       <p>
+        <lb/>Idem extrait <choice><abbr>coe</abbr><expan>comme</expan></choice> devant.
+       </p>
+       <signed><persName ref="per008992"><choice><abbr>N</abbr><expan>Nicolas</expan></choice> Huguenaud</persName> <figure type="notarial sign"/></signed>
+      </div>
+     
+       
+    </body>
+   </text>
+  </group>
+ </text>
+</TEI>

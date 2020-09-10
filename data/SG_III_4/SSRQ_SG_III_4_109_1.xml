@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-08-15"/>
+            <date type="print"/>
+            <availability><p xml:id="facs">Staatsarchiv St. Gallen (StASG)</p></availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_109_1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>StASG AA 2a U 09</idno>
+                  <altIdentifier>
+                     <idno>StASG AA 2a U 9</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <head>Vertrag zwischen Ulrich VIII. von Sax-Hohensax und den Hintersassen der Freiherrschaft Sax-Forstegg, ausgenommen sind diejenigen der Gemeinde Sax, über deren Rechte und Pflichten</head>
+               <msContents>
+                  <summary>
+                     <p>Ulrich VIII. von Sax-Hohensax einigt sich mit den Hintersassen in der Freiherrschaft Sax-Forstegg über deren Pflichten und Rechte, um künftige Streitigkeiten zu vermeiden. Ausgenommen davon sind die Hintersassen der Gemeinde Sax:  </p>
+                     <p>1. Jeder Hintersasse soll Gebote und Verbote halten, in den Krieg ziehen und wie die Einwohner an den Gemeindeversammlungen abstimmen. </p>
+                     <p>2. Jeder muss jährlich eine Fasnachtshenne abgeben.</p>
+                     <p>3. Jeder Haushalt muss jährlich drei Tage Frondienst leisten.</p>
+                     <p>4. Jeder Haushalt muss den Todfall geben und zwar ein Pfund.</p>
+                     <p>5. Die Hintersassen haben den freien Zug, doch mit Wissen der Herrschaft.</p>
+                     <p>6. Sie dürfen Holz, Feld, Steg, Weg, Wunn und Weide mit den Einwohnern nutzen.</p>
+                     <p>7. Bei Heiraten zwischen Eigenleuten und Freien oder Hintersassen und
+                        Eigenleuten werden die Kinder gemäss Gewohnheitsrecht unter den Leibherren
+                        geteilt.</p>
+                     <p>8. An die Steuer von 100 Pfund müssen sie 2 Schilling geben.</p>
+                     <p>9. Die Hintersassen sollen bei diesen vertraglich vereinbarten Rechten geschützt werden.</p>
+                  </summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <filiation type="current">Original</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Pergament</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="29.0"/>
+                              <width unit="cm" quantity="35.0"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <sealDesc>
+                     <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI"
+                           n="1"
+                           nontei:condition="well-preserved"
+                           nontei:material="wax"
+                           nontei:shape="round"
+                           nontei:attachment="sealed on a parchment tag" facs="StASG_AA_2a_U_9_s">
+                        <persName role="sigillant" ref="per001640a">Freiherr Ulrich VIII. von Sax-Hohensax</persName>
+                     </seal>
+                  </sealDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1521-08-01">zu ingendem augsten</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000314">Hintersasse</term>
+               <term ref="key003290">Freizügigkeit</term>
+               <term ref="key003786">Zug und Wechel (Formel)</term>
+               <term ref="key000273">Abgabe</term>
+               <term ref="key000336">Nutzung</term>
+               <term ref="key003834">Gemeindegut</term>
+               <term ref="key000817">Vertrag</term>
+               <term ref="key000679">Einwohner</term>
+               <term ref="key003468">Einzugsgeld</term>
+               <term ref="key000110">Heirat</term>
+               <term ref="key000561">Gemeindeversammlung</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <div org="uniform" sample="complete">
+                  <pb facs="StASG_AA_2a_U_9_r"/>
+                  <p>
+                     <seg>
+                        <lb/>Ich, <persName ref="per001640a">Uͦlrich, fry her von der Hohenn Sagx,
+                           her zuͦ <placeName ref="loc006070.04">Bürglenn</placeName> und
+                           Vorstegg</persName>
+                        <abbr>etc</abbr>, vergich offenlich <lb/>und thuͦn kundt aller mencklichenn
+                        mit disem brieffe, für mich, all min erbenn und nachko<lb break="no"/>men,
+                        das ich mit guͦtter, zittlicher vorbetrachtung, guͦts, onbezwunges willens,
+                        ouch durch merer ayni<lb break="no"/>kait willen, gantz und gar mich hab
+                        veraynt und überkommen, als mit allen den <term ref="lem000745"
+                           >hindersaͤsen</term> und herzog<lb break="no"/>nen lüten, die in der
+                        gantzen obgeschribnenn herschafft <placeName ref="loc000278"
+                           >Vorstegg</placeName> seßhafft sind, ußgenommen, was zuͦ der gma<lb
+                           break="no"/>ind <placeName ref="loc006042">Sax</placeName> gehoͤrt.
+                        Darumb und damit ich und all min erben und nachkommen und waͤr das <term
+                           ref="lem001152">hus</term>
+                        <placeName ref="loc006124">Vorstegg</placeName>
+                        <lb/>immerme inhatt, mug wissen, was die bemelten hindersaͤsen zuͦ thuͦnd
+                        schuldig syend, damit mir noch <lb/>minen erbenn und ewigen nachkommen und
+                        waͤr dise herschafft inhatt, kain spaͤnn, stoͤs und unaynikait dardurch
+                        <lb/>fürohin mug ufferstan. Darumb etlich artickell gesetzt, als hie nach
+                        volget:</seg>
+                     <seg n="1">Des erstenn sol ain jeder <lb/>hindersaͤß halten pott, verbott,
+                        gerichts gehoͤrig, desglichen mit <term ref="lem002664">raysen</term>, ouch
+                        an <term ref="lem001054">gemaynden</term>
+                        <term ref="lem006858">mindren <lb/>und meren</term> als die <term
+                           ref="lem002817.24">insaͤsen</term>.</seg>
+                     <seg n="2">Witer, so sol ain jedes <term ref="lem001828.10">gehüsig</term>
+                        <date dur="R/P1Y">alle jar</date> gen ain <term ref="lem000607">faßnacht
+                           henna</term> zuͦ der zitt, <lb/>so man die <term ref="lem009403.04"
+                           >saͤmlatt</term>.</seg>
+                     <seg n="3">Zum dritten, so sol ain jedes gehüsig <date dur="R/P1Y">alle
+                           jar</date> thuͦn <num value="3">dry</num>
+                        <term ref="lem000391">tagwan</term> mit dem <term ref="lem000271">lib</term>
+                        und <lb/>nit mit dem <term ref="lem000310">faͤch</term>, doch wo zuͦ die ain
+                        herschafft verordnett.</seg>
+                     <seg n="4">Zum vierden ain jetlicher hindersaͤß, der <term ref="lem010782"
+                              >er<lb break="no"/>erbt guͦt</term> hatt, so er <term ref="lem001445"
+                           >stirbt</term>, so sol er gen für den <term ref="lem000337">fal</term>
+                        <measure quantity="1" unit="lb" type="currency">ain pfund
+                        pfennig</measure>.</seg>
+                     <seg n="5">Item wenn ain hindersaͤß oder <lb/>me zuchend in die genant
+                        herschafft oder hinuß, so sond sy allwegen han iren <term ref="lem014275"
+                           >fryen zug</term>, doch sol er <lb/>herin züchen mit der herschafft
+                        willen und sond dann ouch bliben by dem <term ref="lem002880"
+                        >vertrag</term>, als obgeschriben <lb/>statt.</seg>
+                     <seg n="6">Ouch sond die hindersaͤsen bruchen holtz, veld, steg, weg und ander
+                        ding, als vil ain jeder recht hat, <lb/>ouch mit <term ref="lem000468"
+                           >wunn</term>, weid, wie obstatt.</seg>
+                     <term ref="key003834"/>
+                     <seg n="7">Item, ob sach waͤr, das ain aygner ain fryin oder ain hindersäs ain
+                        aygne naͤm, <lb/>und <term ref="lem000130">kind</term> by ainandren
+                        gewunnend, sond die selben kind bliben bim <term ref="lem015045">tail</term>
+                        wie von alter her. Ob aber zway hin<lb break="no"/>dersaͤsen ainandren nend,
+                        sond bliben by dem vertraͤg, wie obstat, das beschaͤch dann in oder ussert
+                        der her<lb break="no"/>schafft.</seg>
+                     <seg n="8">Die <term ref="lem000209">stür</term> sol bliben, wie sy uf glait
+                        ist, von <measure quantity="100" unit="lb" type="currency">huͦndert
+                           pfunden</measure>
+                        <measure quantity="2" unit="ß" type="currency">zwen schillig
+                           pfennig</measure>.</seg>
+                     <seg n="9">Hierumb soͤllend <lb/>ich, all min erben und nachkommen und waͤr die
+                        genant herschafft zuͦ ewigen ziten in hatt, die bemelten <lb/>hindersaͤsen
+                        by disem vertrag also lassen bliben und sy darby schützen und schirmen und
+                        sy nit witter <lb/>triben, anspraͤchen noch noͤtten in kain wiß noch maß,
+                        weder mit noch one recht, alles zuͦ guͦtter trüwen, <lb/>ongefarlich.</seg>
+                     <seg>Und zuͦ warem, vestem urkundt aller obgeschribnen ding, so hab ich, <choice>
+                           <abbr>gnter</abbr>
+                           <expan>genannter</expan>
+                        </choice>
+                        <persName ref="per001640a">Uͦlrich, fryher <lb/>von der Hohen Sax, herr zuͦ
+                              <placeName ref="loc006070">Bürglen</placeName> und <placeName
+                              ref="loc000278">Vorstegg</placeName></persName>
+                        <abbr>etc</abbr>, für mich, all min erben und nachkomenn, <lb/>min aygen
+                        insigel offenlich lassen hencken an disen brieff, der geben ward zuͦ
+                           <origDate when="1521-08-01">ingendem ougsten, <lb/>gezalt nach Christi,
+                           unsers herrenn, geburt fünfzechen hundert zweyntzig und ain
+                           jar</origDate>.</seg>
+                  </p>
+                  <pb facs="StASG_AA_2a_U_9_v"/>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab place="verso" type="dorsal" hand="hand16c">Vetrag brieff der hindersaͤsen</ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab place="verso" type="archiving reference">F N<hi rend="sup">o</hi>
+                     <del>17</del> 8; No <del>17</del> 1521</ab>
+               </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div n="1" org="uniform" sample="complete">
+            <p><term ref="key000314">Hintersassen</term>, d. h. nicht einheimische <term
+                  ref="key000679">Einwohner</term> einer Gemeinde, besitzen in der Regel geringere
+               Rechte als die Einwohner. Besonders bezüglich der Nutzung von <term ref="key003834"
+                  >Gemeindegut</term> oder bei <term ref="key000667">Gemeindeabstimmung</term>en
+               sind sie benachteiligt (vgl. dazu z. B. <bibl>
+                  <ref target="http://permalink.snl.ch/bib/chbsg000124619">Gabathuler 2012a</ref>,
+                  S. 125–131</bibl>). Erst wenn sich ein <term ref="key000366">Fremder</term> oder
+               Hintersasse bei der Gemeinde für einen bestimmten Betrag (häufig 20 Gulden) <term
+                  ref="key000483">einkauft</term>, kommt er in den Genuss der gleichen Rechte.
+               Interessant ist dieses Stück insofern, als dass den Hintersassen in der
+               Freiherrschaft <placeName ref="loc000278">Sax-Forstegg</placeName> die gleichen
+               Rechte und Pflichten zugesprochen werden wie den Einwohnern. </p>
+         </div>
+         <div n="2" org="uniform" sample="complete">
+            <p>Die Hintersassen in der Gemeinde <placeName ref="loc006042">Sax</placeName> werden in diesem
+      <term ref="key000817">Vertrag</term> ausgenommen. Am <date when="1528-03-01">1. März
+      1528</date> einigen sich auch die Hintersassen von Sax mit <persName ref="per001640a">Ulrich VIII. von Sax-Hohensax</persName>. Die Bestimmungen lauten zum Teil ähnlich wie
+      <date when="1521">1521</date>, unterscheiden sich jedoch wesentlich in einigen Punkten und werden zudem
+     mit allgemeinen Artikeln zu den Rechten der Gemeinde <orgName ref="org001175">Sax</orgName>
+     ergänzt. Im Gegensatz zu den übrigen Hintersassen der Freiherrschaft Sax-Forstegg müssen sich die
+     Saxer Hintersassen «einkaufen», d. h. 14 Pfund bezahlen, um die Gemeindegüter nutzen zu
+     können. Auch wenn sie jemanden von ausserhalb der Gemeinde <term ref="key000110">heiraten</term> oder eine Weile ausserhalb der Gemeinde gewohnt haben und zurückkehren
+     wollen, müssen sie bezahlen.</p>
+            <p>1. Jeder Hintersasse soll wie die Einwohner Gebote und Verbote halten, in
+     <term ref="key000561">Gemeindeversammlungen</term> abstimmen und in den <term ref="key000266">Krieg</term> ziehen. </p>
+            <p>2. Jeder Haushalt muss zwei <term ref="key000479">Frondienste</term> leisten, wobei sie einen
+     Tag im <term ref="key000003">Weinberg</term> heuen müssen.</p>
+            <p>3. Jedes Haus muss den <term ref="key000183">Fall</term> geben und zwar ein Pfund.</p>
+            <p>4. Die Hintersassen haben den <term ref="key003290">freien Zug</term>, wenn sie aus der Herrschaft ziehen
+     wollen und nicht <term ref="key000085">Leibeigene</term> sind.</p>
+            <p>5. Will jemand in die Gemeinde <placeName ref="loc006042">Sax</placeName> ziehen und
+               die <term ref="key003834">Gemeindegüter</term> mit den Gemeindegenossen nutzen, muss
+               er dafür <measure quantity="14" type="currency" unit="lb">14 Pfund</measure> zahlen,
+               die Hälfte davon gehört dem Herrn, die andere Hälfte der Gemeinde. Dies muss mit
+               Wissen des Herrn und der Gemeinde geschehen und darf für die <term ref="key000006"
+                  >Alp</term> keine Nachteile bringen. </p>
+            <p>6. Wenn ein Hintersasse jemanden von ausserhalb der Gemeinde Sax <term ref="key000110">heiratet</term> oder eine Weile ausserhalb der Gemeinde gewohnt hat und wieder in die
+     Gemeinde ziehen will, muss er <measure quantity="8" type="currency" unit="lb">8 Pfund</measure>
+     bezahlen, die Hälfte gehört dem Herrn, die andere Hälfte der Gemeinde. Wenn jedoch ein
+     Einwohner jemanden von ausserhalb heiratet, muss er nichts bezahlen.</p>
+            <p>7. Heiratet ein Hintersasse eine Leibeigene oder ein Leibeigener eine Freie, und haben sie
+      <term ref="key000803">Kinder</term>,  werden die Kinder gemäss Gewohnheitsrecht unter den
+     Leibherren geteilt.</p>
+            <p>8. <term ref="key000273">Abgaben</term> und <term ref="key000279">Fasnachtshühner</term> sind mit den Einwohnern der
+     Freiherrschaft Sax-Forstegg laut einer Urkunde <term ref="key000685">abgelöst</term> worden (vgl. dazu <ref>SSRQ_SG_III_4_111</ref>).</p>
+            <p>9. Was die Gemeinde von <orgName ref="org001175">Sax</orgName> bisher mit Wunn und Weide, Holz und Feld usw.
+     genutzt hat, kann sie weiter nutzen und darüber verfügen, wie sie will.</p>
+            <p>10. Die Gemeinde Sax besitzt auch das <term ref="key000340">Zugrecht</term> auf Güter, die gekauft oder
+     empfangen werden.</p>
+            <p>11. Werden ältere Urkunden dazu gefunden, besitzen diese keine Gültigkeit mehr.</p>
+            <p>12. Die Gemeinde Sax darf <term ref="key000561">Gemeindeversammlungen</term> abhalten
+               und abstimmen (<bibl><ref>StASG AA 2 U 23</ref></bibl>). </p>
+            <p>Als 1562 ein Streit zwischen Freiherr <persName ref="per004426">Ulrich Philipp von
+      Sax-Hohensax</persName> und der Gemeinde Sax über einige hier aufgeführte Artikel entsteht,
+     werden diese in einem Schiedsspruch erläutert und verbessert, weshalb der Vertrag von
+      <date when="1528">1528</date> für ungültig erklärt wird (<ref>SSRQ_SG_III_4_135</ref>, Art. 12).</p>
+         </div>
+         <div n="3" org="uniform" sample="complete">
+            <p>Zu den Hintersassen in Werdenberg vgl. den Artikel von <bibl>
+                  <ref target="http://permalink.snl.ch/bib/chbsg000124619">Gabathuler 2012a</ref>,
+                  S. 125–131</bibl>; <ref>SSRQ_SG_III_4_121</ref>;
+                  <ref>SSRQ_SG_III_4_143</ref>, Art. 6; <ref>SSRQ_SG_III_4_174</ref>, Art.
+               20–22; <ref>SSRQ_SG_III_4_184</ref>, Art. 18–20 (Sevelen); <bibl><ref>LAGL AG
+                     III.2463:015</ref></bibl>; <ref>SSRQ_SG_III_4_229</ref>, S. 92; zu den
+               Hintersassen in Gams vgl. <ref>SSRQ_SG_III_4_133</ref>.</p>
+         </div>
+      </back>
+   </text>
+</TEI>

@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+
+			</titleStmt>
+
+			<publicationStmt>
+				<date type="electronic" when="2019-05-29"/>
+				<date type="print"/>
+			</publicationStmt>
+
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ_FR_I_2_8_0056_031</idno>
+			</seriesStmt>
+
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<idno>StAFR, Thurnrodel 11, S. 285</idno>
+					</msIdentifier>
+					<head>François Feudy – Verhör / Interrogatoire</head>
+					<msContents>
+						<summary></summary> 
+						<msItem>
+							<textLang>fr</textLang> 
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support>
+									<material></material>
+								</support>
+								<extent>
+									<dimensions type="leaves">
+										<height unit="cm" quantity="0.0"/>
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+									<dimensions type="plica">
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+								</extent>
+							</supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1623-03-27"></origDate>
+							<origPlace></origPlace>
+						</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+							
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+			<particDesc default="false"/>
+			<settingDesc default="false"/>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<p><lb/>Ibidem<note>Das Verhör fand im <placeName ref="loc007683">Bösen Turm</placeName> statt.</note></p>
+						
+						<p><seg><lb/><add place="left margin"><foreign xml:lang="la">Nihil <choice><abbr>ßt</abbr> <expan>solvit</expan></choice></foreign>.</add></seg> 
+							<seg><persName ref="per009535a.05">Francey Feudi</persName> ayant librement confirmé sa 
+						<lb/>precedente confession avec bonne repentance, 
+						<lb/>a dit dadvantage d’avoir frequenté certain appellé 
+						<lb/><persName>Francili <subst><del>Sayor</del><add place="inline">Savoyard</add></subst></persName>, avec lequel a prins 
+						<lb/>aussy quelque fois de la viande.</seg></p>
+						
+						<p><lb/>Et avec <persName ref="per009574">Pierre Ansinna</persName> vers <placeName>Berthod</placeName><note>L’identification du lieu est incertaine. Il pourrait s’agir de <placeName ref="loc001146.02">Berthoud</placeName>.</note> 3 sausisses, 
+						<lb/>et riere <placeName ref="loc000738.09">Saleure</placeName> 3 pains.</p>
+						
+						<p><lb/>Item estant encoures jeusne d’avoir desrobé, toutte<lb break="no"/>fois par commandement de son pere, quelques 
+						<lb/>oyes, deux <term ref="lem015404.02">cayons</term> et une chievre appar<lb break="no"/>tenante a l’abbaye de <placeName ref="loc007662.01">Marsens</placeName>.</p>
+						
+						<p><lb/>Item a confessé et soustenu en la torture d’avoir 
+							<lb/>veu en la <term ref="lem017043.01">secte</term> <persName ref="per009533">Anteyno</persName> son frere, lequel 
+						<lb/>dansoit avec la <persName>Matysera</persName>. Item <persName ref="per009569">Pierre 
+							<lb/>Bosson</persName> et <persName>Jean Chastelard</persName>. Item en la <term ref="lem017043.01">secte</term> 
+						<lb/>vers l’<placeName>Oye</placeName><note>L’identification du lieu est incertaine. Il pourrait s’agir de <placeName ref="loc006003">Château-d’Oex</placeName> ou simplement d’un lieu-dit, voire d’une auberge, dans la région de <placeName ref="loc007630.02">Tavel</placeName>, ce qui correspondrait davantage aux autres lieux mentionnés dans le procès.</note>, y a veu <persName ref="per009575">Lois le Crotu</persName>, nep<lb break="no"/>veur de <persName ref="per009572">German</persName>, vendeur de <term ref="lem015448.02">curbiles</term>, 
+							<lb/>avec la barbe noire poignante. <del>Item le <unclear>jeu<lb break="no"/>ne</unclear> German.</del> Item en la <term ref="lem017043.01">secte</term> vers <placeName ref="loc007597.02">Dir<lb break="no"/>laret</placeName>, y a veu <persName>Pierre de Tarantaise</persName><note>Il s’agit probablement de <persName ref="per009574">Pierre Ansinna</persName></note>, 
+						<lb/>n’a point de barbe, a des <term ref="lem015400.03">chauses</term> de toile 
+						<lb/>blanche et bas blancs de drap. <add place="inline">Ne y a por</add><lb break="no"/><add place="interlinear">tant pas veu ses aultres freres.</add></p>
+						
+						<p><lb/>Aultre n’a dit, prie bien humblement luy vou<lb break="no"/>loir faire grace, desirant effaser ses 
+						<lb/>peché par quelque chastiment, prie qu’il 
+						<lb/>ne soit <subst><del>reg</del><add place="inline">rigoreux</add></subst>.</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+
+
+
+<?oxy_options track_changes="on"?>

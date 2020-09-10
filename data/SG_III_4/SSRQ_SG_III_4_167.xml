@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-08-15"/>
+            <date type="print"/>
+            <availability default="false">
+               <p xml:id="facs">Staatsarchiv St. Gallen (StASG)</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_167</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>StASG AA 2 A 4-1-5</idno>
+                  <altIdentifier>
+                     <idno>StASG AA 2 A 4-1</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <head>Auskunft des Gerichtsammanns von Altstätten, Jos Ritter, über die
+                  Gerechtigkeiten eines Landvogts von Sax-Forstegg in der Lienz</head>
+               <msContents>
+                  <summary>
+                     <p>1. Todfall und Abzüge gehören dem Abt von St. Gallen.</p>
+                     <p>2. Falls aber der Landvogt des Rheintals solche Fälle und Abzüge in den
+                        Gebieten, in denen der Abt die niederen Gerichte innehat, einzieht, wie in
+                        der Lienz, gehören diese auch einem Landvogt von Sax-Forstegg.</p>
+                     <p>3. Die Untertanen in Lienz, Loo und im Büchel sind alles Bürger von
+                        Altstätten.</p>
+                     <p>4. Wenn jährlich die Bussen in der oberen Lienz eingezogen werden, sollen
+                        der Vogt von Sax-Forstegg, der Stadtammann von Altstätten und der
+                        Gerichtsammann des Abtes anwesend sein. Die Bussen werden in drei Teile
+                        geteilt.</p>
+                     <p>5. Das dreimalige Aufbieten eines säumigen Schuldners geschieht durch den
+                        Weibel von Altstätten, ebenso wird das Schuldgericht in Altstätten
+                        durchgeführt.</p>
+                  </summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <filiation type="original">
+                        <origDate from="1628-01-01" to="1640-12-31">Undatiert, datiert nach dem
+                           Gerichtsammann Jos Ritter von Altstätten</origDate>
+                        <idno></idno>
+                     </filiation>
+                     <filiation type="current">Abschrift (Doppelblatt)</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="33.5"/>
+                              <width unit="cm" quantity="20.5"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+<origDate from="1601-01-01" to="1700-12-31"/>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key004002">Gebot und Verbot</term>
+               <term ref="key000204">Verwaltung</term>
+               <term ref="key003261">Kundschaft</term>
+               <term ref="key000184">Busse</term>
+               <term ref="key000759">Teilung</term>
+               <term ref="key003261">Kundschaft</term>
+               <term ref="key000134"/>
+               <term ref="key003378"/>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <div org="uniform" sample="complete">
+                  <pb facs="StASG_AA_2_A_04-1-5_01"/>
+                  <head>
+                     <lb/>Allß ich, <persName ref="per005295a">Joß Ritter</persName>, <term ref="lem000899.21">grichtz amen</term>
+                     <lb/>zu <placeName ref="loc000439">Alltstetten</placeName>, gefraget, was ein <lb/>
+                     <term ref="lem005172">vogt</term> zu <placeName ref="loc000278">Sax</placeName> für
+         grechtigkeitten inn <lb/>der <placeName ref="loc000951.03">Lienntz</placeName>
+         hab mit
+          <term ref="lem001738">gepotten unnd <lb/>verpotten</term> nebenndt der <term ref="lem011362.05">hochheitt</term>
+                  </head>
+                  <p>
+                     <seg n="1">
+                        <lb/>Sovil die <term ref="lem000337.30">fhell</term> unnd <term
+                           ref="lem001009">abzüg</term> belanngende, hörennd <lb/>dieselben synnem
+                           <abbr>g f</abbr> unnd <abbr>h</abbr> von <orgName ref="org000581"><choice>
+                              <abbr>S</abbr>
+                              <expan>Sant</expan>
+                           </choice> Gallen</orgName>.</seg>
+                  </p>
+                  <p>
+                     <seg n="2">
+                        <lb/>Wover aber der <term ref="lem000266">lanndtvogt</term> von <placeName
+                           ref="loc007128">Rynegg</placeName><note anchored="true">Hier ist wohl der
+                           Landvogt des <placeName ref="loc001075">Rheintals</placeName> gemeint,
+                           der in Rheineck residierte, vgl. <bibl><ref
+                                 target="https://www.ssrq-sds-fds.ch/online/SG_III_3/index.html#p_III"
+                                 >SSRQ SG III/3, S. 92</ref></bibl>.</note> sölliche <lb/>fhell unnd
+                        abzüg zu synnen hannden nemen dethe, <lb/>da ouch ir gnaden die <term
+                           ref="lem000976">nideren gricht</term> hette,<note anchored="true">Vgl.
+                              <ref>SSRQ_SG_III_4_148</ref>, Art. 1. Zur niederen Gerichtsbarkeit im
+                           Rheintal vgl. <bibl><ref
+                                 target="https://www.ssrq-sds-fds.ch/online/SG_III_3/index.html#p_III"
+                                 >SSRQ SG III/3, S. 123–128</ref></bibl>.</note> wie <lb/>inn der
+                           <placeName ref="loc000951.03">Lienntz</placeName>, allßdan gehört
+                        sölliches ouch ein<lb break="no"/>em <term ref="lem005172">vogt</term> zu
+                           <placeName ref="loc000278">Sax</placeName> inn syn <term ref="lem002892"
+                           >verwalltung</term>.</seg>
+                  </p>
+                  <p>
+                     <seg n="3">
+                        <lb/>Die <term ref="lem000329">unnderthaannen</term> inn der <placeName
+                           ref="loc000951.03">Lienntz</placeName>, <placeName ref="loc006944"
+                           >Loo</placeName> und zum <lb/>
+                        <placeName ref="loc006476.01">Büchel</placeName> sinnd all <term
+                           ref="lem000227">burger</term> zu <placeName ref="loc000439"
+                           >Alltstetten</placeName>, sy münd <lb/>ouch <date dur="R/P1Y"
+                           >jerlichen</date> ein <term ref="lem002843.25">statt amen</term> schweren
+                        und dem <lb/><term ref="lem000899.21">grichtz amen</term>
+                        <term ref="lem009795">anlaben</term>.</seg>
+                  </p>
+                  <p>
+                     <seg n="4">
+                        <lb/>Wan <date dur="R/P1Y">jerlichen</date> die <term ref="lem000036">bußen</term> inn der
+        oberen <placeName ref="loc000951.03">Lienntz</placeName>
+                        <lb/>ynzogen werden, darby soll sitzen für vogt <lb/>zu <placeName ref="loc000278">Sax unnd
+         Vorstegkh</placeName>, der <term ref="lem002843.24">statt amme</term> von <placeName ref="loc000439">Allt<lb break="no"/>stetten</placeName> unnd des <term ref="lem007851">aptz</term>
+                        <term ref="lem000899.22">grichtzamen</term>. Was dan <lb/>für gmeine bußen gefallennde,
+        hörend dieselben <lb/>inn obstannde <term ref="lem008752">drig theill</term>
+         zutheillen.<note anchored="true">Vgl. <ref>SSRQ_SG_III_4_148</ref>, Art. 2.</note>
+                     </seg>
+                  </p>
+                  <p>
+                     <seg n="5">
+                        <lb/>Sovil die <term ref="lem011642.03">pott</term> unnd <term ref="lem001756.07">verpott</term> andreffennde, soll ein <lb/>
+                        <term ref="lem005172">vogt</term> zu <placeName ref="loc000278">Sax</placeName> von derselben person darumb gefragt <lb/>werden, dan soll
+        er inne gan <placeName ref="loc000439">Alltstetten</placeName> zu einem <lb/>
+                        <term ref="lem000899.21">grichtz amen</term> wyßen, der erloupt im das erst <term ref="lem006754.07">pott</term>, <lb/>welliches verricht wirt, durch syn <term ref="lem000043">weibel</term>. Demnach <lb/>gadt das annder pott unnd wirtt erloupt vom
+         <term ref="lem002843.25">statt <lb/>amen</term> unnd wan sölliches ouch beschechen ist, so
+        <lb/>bschicht das dritt pott bim eyd. Allßdan hörtt es alles <lb/>einem <term ref="lem005172">vogt</term> zu <placeName ref="loc000278">Sax</placeName> inn syn gewallt,
+        doch muß <lb/>das recht zu <placeName ref="loc000439">Alltstetten</placeName> volfhürtt
+        werden, wover es <lb/>sich ermannglet unnd einer das recht begertt.</seg>
+                  </p>
+               </div>
+               <pb facs="StASG_AA_2_A_04-1-5_02"/>
+               <div org="uniform" sample="complete">
+                  <ab type="dorsal" place="verso" hand="hand17c">
+                     <lb/>Belanngende
+     <lb/>ettwas rechtsaminne inn
+      <lb/>der <placeName ref="loc000951.03">Lienntz</placeName>, <placeName ref="loc006944.02">Loo</placeName> unnd <placeName ref="loc006476.02">Büchel</placeName>
+                     <lb/>
+                     <date when="1500">15<hi rend="underline">00</hi>
+                     </date>
+                  </ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab type="archiving reference" place="verso">Cist. Sax N. 37</ab>
+               </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div org="uniform" sample="complete">
+            <p>Die Rechtsauskunft von <term ref="key000387">Gerichtsammann</term>
+               <persName ref="per005295a">Jos Ritter</persName> von <placeName ref="loc000439">Altstätten</placeName> ist nicht datiert. Wahrscheinlich handelt es sich hier um den Jos
+     Ritter, der um <date when="1628">1628</date> und <date when="1634">1634</date> Gerichtsammann
+     von Altstätten war. Auch die Formulierung <orig>vogt zu Sax</orig> deutet darauf hin, dass
+     nicht mehr die Freiherren von <orgName ref="org000384">Sax-Hohensax</orgName> die
+     Freiherrschaft besitzen und verwalten, sondern <orgName ref="org001196">Zürich</orgName> bzw.
+     der <placeName ref="loc000066">Zürcher</placeName> Landvogt und das Dokument somit nach dem
+     Kauf <date when="1615">1615</date> durch Zürich entstanden ist.</p>
+         </div>
+         <div org="uniform" sample="complete">
+            <p>Das Stück gibt einen Einblick in die <term ref="key000005">Rechtsverhältnisse</term> in
+      <placeName ref="loc000951">Lienz</placeName>, das <term ref="key003994">hochgerichtlich</term>
+     einem Herren von <placeName ref="loc000278">Sax-Forstegg</placeName> gehört, niedergerichtlich
+     dem Abt von <orgName ref="org000581">St. Gallen</orgName>, vgl. dazu auch
+      <ref>SSRQ_SG_III_4_106</ref>; <ref>SSRQ_SG_III_4_148</ref> und <bibl>
+                  <ref target="http://permalink.snl.ch/bib/chbsg000101708">Kuster 1995</ref>, S. 30–33</bibl>. Zum Verhältnis
+     zu <placeName ref="loc000439">Altstätten</placeName> vgl.
+     <ref>SSRQ_SG_III_4_195</ref>.</p>
+         </div>
+      </back>
+   </text>
+</TEI>

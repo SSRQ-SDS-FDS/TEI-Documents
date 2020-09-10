@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="headerinfo"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <date type="electronic" when="2020-08-17"/>    <date type="print"/>
+    <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Collection des sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS_NE_3_276</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier>
+      <idno>AVN B 101.14.001, fol. 541r–541v</idno>
+     </msIdentifier>
+     <head>Frais de justices</head>
+     <msContents>
+      <summary>Il n’y a pas d’autres frais que les frais de justice ordinaire qui soient facturés
+       lors d’un procès. Les juges en renfort ne peuvent pas exiger d’émoluments supplémentaires. Il
+       revient à la partie qui doit les droits de justice de les payer.</summary>
+      <msItem>
+       <textLang>français</textLang>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="33"/>
+          <width unit="cm" quantity="23.5"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <origDate when="1678-06-08" calendar="Julian"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>
+      </origin>
+     </history>
+     <additional>
+      <listBibl>
+       <head/>
+       <bibl/>
+      </listBibl>
+     </additional>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key003037"></term>
+     <term ref="key000270"></term>
+     
+    </keywords>
+   </textClass>
+   <particDesc default="false"/>
+   <settingDesc default="false"/>
+  </profileDesc>
+ </teiHeader>
+
+ <text>
+  <group>
+   <text>
+    <body>
+        
+     
+     <pb n="541r" facs="AVN_B_101.14.001_0541r"/> 
+        
+     <div>
+      
+      <head>
+       <lb/>Touchant les droits que les bourgeois doivent
+       <lb/>à la justice es plaids ordinaires.
+       <lb/>Item quelle partie les doit payer.
+      </head>
+     
+      <p>
+       <lb/>Sur la requeste adressée à <lb/>monsieur le maistre bourgeois et à messieurs du
+       <lb/><orgName ref="org003085">Conseil Estroit de la Ville de <placeName ref="loc007786">Neufchatel</placeName></orgName>,
+       par <term ref="lem015613">spectable</term>
+       <lb/><persName ref="per009646">David Gaudot</persName>, bourgeois <choice>
+        <abbr>dud</abbr>
+        <expan>dudit</expan>
+       </choice> lieu et pasteur en <lb/>l’Église de <placeName ref="loc008282">Fenin</placeName>, tendante aux fins
+       d’avoir les poincts <lb/>de coustume suivans. </p>
+      
+      <p>
+       <lb/>Sçavoir si dans la justice de cette ville les <lb/>bourgeois qui y ont des procès sont
+       tenus de payer <pb n="541v" facs="AVN_B_101.14.001_0541v"/>
+       <lb/>les droits extraordinaires, soit les journées de ceux qui <lb/>sont ordonnés d’entre <orgName ref="org003092"><choice>
+         <abbr>mess<hi rend="sup">rs</hi></abbr>
+         <expan>messieurs</expan>
+        </choice> du grand Conseil</orgName> pour <lb/>juger en renfort ès jours de plaids
+       ordinaires, aussi <lb/>bien qu’à ceux d’entre <orgName ref="org003085">messieurs du Conseil
+       Estroit</orgName>, qui <lb/>pour estre neutres et non parents jugent avec eux. </p>
+      
+      <p>
+       <lb/>Item, si lors que l’acteur est tenu regulierement de
+       <lb/>payer certains droits de justice, ou bien les journées
+       <lb/>des juges, on peut les exiger durée, en sorte que ledit
+       <lb/>rée venant à les payer, il aye par là fondement de
+       <lb/>faire faire moderation contre ledit acteur pour en
+       <lb/>estre rembourcé.
+      </p>
+      
+      <p>
+       <lb/><orgName ref="org003085">Mesdits sieurs du Conseil</orgName>, ayans eu advis <lb/>et meure premeditation
+       par ensemble, <term ref="lem015635.04">baillent</term> par <lb/>declaration, suivant la coustume usitée en la
+       <lb/>souveraineté de <placeName ref="loc007785">Neufchatel</placeName> de pere à fils et de tout <lb/>temps
+       immemorial jusqu’à present. </p>
+      
+      <p>
+       <lb/>Assavoir, à l’esgard du premier poinct, qu’ès <term ref="lem015614">plaids</term>
+       <lb/>ordinaires on n’a pas accoustumé de payer autres <lb/>droits à la justice que les
+       ordinaires, sans que ceux <lb/>qui sont commis pour juger en renfort en puissent <lb/>exiger
+       d’avantage ny autres esmoluments. </p>
+      
+      <p>
+       <lb/>Et à l’esgard du second poinct, que c’est à la partie
+       <lb/>qui doit des droits de justice de les payer, sans que
+       <lb/>la contrepartie les doive payer, pour par la pretendre
+       <lb/>avoir droit de faire moderation pour en estre restituée
+       <lb/>et que telle moderation se faisant, elle devient irreguliere.
+      </p>
+      
+      <p>
+       <lb/>Ce qu’a esté passé, conclud &amp; arresté audit <lb/><orgName ref="org003085">Conseil</orgName> le
+       samedy <origDate when="1678-06-08" calendar="Julian">huictieme jour du mois de juin 1678</origDate>
+       <lb/>et ordonné au soussigné secretaire de Ville d’en faire <lb/>l’expedition en cette forme,
+       sous le seau de la mayorie <lb/>et justice dudit lieu.<note>Sans signature.</note> </p>
+     
+      
+     </div>
+     
+  
+
+       
+    </body>
+   </text>
+  </group>
+ </text>
+</TEI>

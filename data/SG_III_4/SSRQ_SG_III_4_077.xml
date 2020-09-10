@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+    <persName>Sibylle Malamud</persName>
+    <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+    <persName>Sibylle Malamud</persName>
+    <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2018-07-19"/>
+            <date type="print"/>
+            <availability><p xml:id="facs">Sibylle Malamud</p></availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+    <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+    <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_077</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+    <msIdentifier>
+       <idno>OGA Grabs O 1486-1</idno>
+    </msIdentifier>
+    <head>Schiedsspruch in einem Streit zwischen den Alpgenossen um die Grenzen und die Nutzung der beiden Alpen Iltios und Gams</head>
+    <msContents>
+       <summary>
+          <p>Johann, Abt des Benediktinerklosters St. Johann, und Ulrich Feiss von Luzern, Landvogt von Werdenberg, vergleichen die Alpgenossen der beiden Alpen Iltios und Gams, die sowohl dem Abt von St. Johann als auch Luzern als Obrigkeit von Werdenberg gehören. Sie beschreiben nach einem Augenschein die Grenzen zwischen den beiden Alpen und erlauben das Sömmern von Schafen und denjenigen von Astrakäseren das Tränken des Viehs in der Tierwis. Es werden zwei Exemplare der Urkunde ausgestellt.</p> <p>Die Aussteller siegeln.</p>
+          <p/>	
+       </summary>
+       <msItem>
+          <textLang>Deutsch</textLang>
+          <filiation type="current">Original</filiation>
+       </msItem>
+    </msContents>
+    <physDesc>
+       <objectDesc>
+          <supportDesc>
+             <support>
+                <material>Pergament</material>
+             </support>
+             <extent>
+                <dimensions type="leaves">
+        <height unit="cm" quantity="29.0"/>
+        <width unit="cm" quantity="47.0"/>
+                </dimensions>
+             </extent>
+          </supportDesc>
+       </objectDesc>
+       <sealDesc>
+          <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI"
+                n="1"
+                nontei:material="wax with margin"
+                nontei:condition="fragmentary"
+                nontei:shape="oval"
+                nontei:attachment="sealed on a parchment tag">
+             <persName role="sigillant" ref="per004773a">Abt Johann von St. Johann</persName>
+          </seal>
+          <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI"
+                n="2"
+                nontei:material="wax with margin"
+                nontei:condition="well-preserved"
+                nontei:shape="round"
+                nontei:attachment="sealed on a parchment tag">
+             <persName role="sigillant" ref="per001103a">Ulrich Feiss, Landvogt von Werdenberg</persName>
+          </seal>
+       </sealDesc>
+    </physDesc>
+    <history>
+       <origin>
+          <origDate when="1486-06-21"/>
+       </origin>
+    </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+    <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+    <term ref="key000006">Alp</term>
+    <term ref="key000305">Grenze</term>
+    <term ref="key001079">Grenzbereinigung</term>
+    <term ref="key000373">Alpgenossen</term>
+    <term ref="key000660">Berg</term>
+    <term ref="key000004">Weide</term>
+    <term ref="key000936">Tränke</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <div org="uniform" sample="complete">
+                  <pb facs="OGA_Grabs_O_1486-1_10_r"/>
+                  <p>
+                     <seg>
+                        <lb/>Wir, <persName ref="per004773a">Johanns</persName>, von gottes gnaden
+                        abbte des erwirdigen <placeName ref="loc006111.01">gotzhus zu Sant
+                           Johann</placeName>, <term ref="lem005932.01">sant Benedicten
+                        orden</term>s, <orgName ref="org000056">Costentzer bystumbs</orgName>, und
+                        ich, <persName ref="per001103a">Ulrich Vaiß</persName>
+                        <lb/>von <placeName ref="loc000972">Lucern</placeName>, jetz miner herren
+                        von <orgName ref="org001195">Lucern</orgName> lanndtvogt in der graufschafft
+                           <placeName ref="loc000440">Werdemberg</placeName>, bekennent offennlich
+                        mit disem brief und tuͦnd kund allermeng<lb break="no"/>cklichem, als von
+                        solicher spenn und stoß wegen, so dann die <term ref="lem001095"
+                           >alpgnossen</term> uß baiden <term ref="lem000306">alp</term>en
+                           <placeName ref="loc006498.02">Thyols</placeName> und ab <placeName
+                           ref="loc006499.02">Gamps</placeName>, namlich von dero wegen die unns,
+                           vorge<lb break="no"/>nanten <persName ref="per004773a"
+                        >Johann</persName>s, <term ref="lem000001">abbt</term>e, und unnserm
+                           <orgName ref="org001817">gotzhuse zu Sant Johann</orgName>, zuͦ geho̍ren,
+                        ains tails und von dero wegen, die den <choice>
+                           <abbr>vorgenten</abbr>
+                           <expan>vorgenannten</expan>
+                        </choice> von <orgName ref="org001195">Lucern</orgName> zugehoren und
+                        <lb/>mir, obgenanten vogt <persName ref="per001103a">Uͦlrich
+                           Vaiss</persName>en, von <term ref="lem005935.02">ampt</term>s wegen
+                        derselben miner herren von <orgName ref="org001195">Lucern</orgName> zu
+                        versprechen stand, des andern tails mitainander gehebt hand. <lb/>Derselben
+                        spen und stoͤß si zu baider sitt mit unnser, vorgemelten abbt <persName
+                           ref="per004773a">Johann</persName>sen und <persName ref="per001103a"
+                           >Uͦlrich Vaiß</persName>, als iro herren gunst, wissen und willen
+                        fruntlich <lb/>und guͤtlich mitainander in ain und uber ainkomen sind und
+                        mitainander ain <term ref="lem001683">undergang</term> gethǎn und offenn
+                           <term ref="lem000693">marcken</term> gemacht haben zwischen <lb/>den
+                        vorberuͦrten alpen <placeName ref="loc006498.02">Thyols</placeName> und
+                           <placeName ref="loc006499.02">Gamps</placeName> ob der wise <placeName
+                           ref="loc006501.02">Obnen</placeName> und <placeName ref="loc006502.02"
+                           >Under Pliß</placeName>, wie hernach volget:</seg>
+                     <seg>Und ist dem also, das ain <term ref="lem006147.02">cru̍tz</term> gemacht
+                        ist an <lb/>dem <placeName ref="loc006527.02">Berg Gamps</placeName> halb ob
+                        der <placeName ref="loc006506.02">Kuͤtolen</placeName> by dem <term
+                           ref="lem010702">loch</term> an dem <term ref="lem000573">berg</term>. Und
+                        sol gaͤn von demselben cru̍tz grad hinûber uff die <placeName
+                           ref="loc006525.02">Scherra</placeName> aber in das cru̍tz. <lb/>Und von
+                        demselben hinuff in das cru̍tz, das in dem berg gemachet ist ob der
+                           <placeName ref="loc006526.02">Schnuͦr</placeName> och by dem loch und
+                        unnan in die <term ref="lem001101">stainwand</term>. Und u̍ber soͤlich
+                        <lb/>offenn marcken, als dan das also guͤtenklich undergangen ist, sol
+                        jetwedra tail dem andern frid geben.</seg>
+                     <seg>Es ist ouch daby gar lutter beredt, wenn die <lb/>alpgnossen ir <term
+                           ref="lem000055">schauf</term> welten <term ref="lem002756.14"
+                           >summren</term> in der alp <placeName ref="loc006498.02"
+                           >Thyols</placeName> oder die alpgenossen ob <placeName ref="loc006499"
+                           >Gamps</placeName> och ire schauf da welten haben, da mag jetwedra tail
+                        <lb/>wol faren mit ir schaufen in die <placeName ref="loc006526.02"
+                           >Schnuͦr</placeName>, wa die <term ref="lem001076.12">kuͤe</term>n nit
+                        mugen gan.</seg>
+                     <seg>Es ist och fūro mer gar lutter beredt und bedingt, wen die von <placeName
+                           ref="loc006528.02">Astakaͤ<lb break="no"/>seren</placeName>
+                        <term ref="lem000511">wasser</term>s <term ref="lem014531.01">irren</term>d
+                        und <term ref="lem003760.02">trencken</term>s notdurfftig sind, so mugen si
+                        faren mit irem <term ref="lem000310.26">feͣch</term> zu dem <term
+                           ref="lem000699">brunnen</term> in der <placeName ref="loc006529.02"
+                           >Tierwiß</placeName> und daselbs trencken. <lb/>Doch sond si
+                        beschaidenlich faren und kainen muͦtwillen nit triben in kain wyß noch
+                        weg.</seg>
+                     <seg>Und by soͤlichem obgeru̍rten gu̍tlichen u̍berkomen des <lb/>undergangs
+                        sollen si zuͦ baider sit, ir erben und nachkomen unverbrochen nun und
+                        hienach ewigklich staͤt halten, daby belyben, dem alleklich <lb/>nachkomen,
+                        dawider nutzit ze handlen noch zetuͦn weder mit recht noch one recht,
+                        gaistlichem noch weltlichem, noch in kain ander wyß noch <lb/>weg.</seg>
+                     <seg>Und des alles zu warem, vestem urkund und staͤtter bestenttlicher
+                        sicherhait aller obgeschribner dingen, so haben wir, obgemelter <lb/>abbt
+                           <persName ref="per004773a">Johann</persName>s, und ich, <persName
+                           ref="per001103a">Uͦlrich Vaiß</persName>, unnsre insigel fu̍r unns
+                        offennlich lassen hencken an diß brief, zwen glich mit ainer <term
+                           ref="lem001181.06">handgeschrifft</term>
+                        <lb/>lutende und jetwederm tail ainen geben, doch unns, abbt <persName
+                           ref="per004773a">Johann</persName>s, unserm <placeName ref="loc006111"
+                           >gotzhuß</placeName> und unsern nachkomen, an unnsern herlichhaiten und
+                        <lb/>rechtungen unschadlich. Und mir, <persName ref="per001103a">Uͦlrich
+                           Vaiss</persName>en, und minen erben, ouch minen herren von <orgName
+                           ref="org001195">Lucern</orgName> und irn nachkomen, och an ir herlich<lb
+                           break="no"/>haiten und rechtungen unschaͤdlich, <origDate
+                           when="1486-06-21">uff mittwochen vor sant <persName ref="per000049"
+                              >Johann</persName>s, des hailigen toͤuffers, tag zu su̍nwenden nach
+                              <persName ref="per000353">Cristi</persName>, unsers <lb/>lieben
+                           herren, geburt vierzehenhundert und im sechs und achtzigisten
+                           jare</origDate>.</seg>
+                  </p>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab place="verso" type="dorsal" hand="hand16c">
+                     <lb facs="OGA_Grabs_O_1486-1_10_v1"/>Von den alpen gegen <placeName ref="loc000211">Gampß</placeName> und <placeName
+                        ref="loc000782">Togenburg</placeName>
+                  </ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab place="verso" type="archiving reference"><del>No 3; 1486</del>
+                  </ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab place="verso" type="dorsal" hand="hand19c">
+                     <lb facs="OGA_Grabs_O_1486-1_10_v2"/>Spruch über die grenzen zwischen <lb/>den alpen <placeName
+                        ref="loc006498.04">Hiols</placeName> und <placeName ref="loc006499"
+                        >Gams</placeName>
+                     <lb/>von 1486</ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab place="verso" type="archiving reference"><del>No 7</del>
+                  </ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab place="verso" type="archiving reference">N<hi rend="sup">o</hi> 10; 1486</ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab place="verso" type="dorsal" hand="hand15c">
+                     <lb facs="OGA_Grabs_O_1486-1_10_v3"/>Ittem das ist der brieff der in <placeName ref="loc006498.03"
+                        >Thiols</placeName> und <placeName ref="loc006499">Gamps</placeName>
+                     <lb/>von einandere scheint</ab>
+               </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div org="uniform" sample="complete">
+            <p>Die <term ref="key000305">Grenzen</term> im oberen Bereich der beiden Alpen <placeName ref="loc006498">Iltios</placeName> und
+    <placeName ref="loc006499">Gamsalp</placeName> zwischen <placeName ref="loc006530.01">Chäserrugg</placeName> und
+    <placeName ref="loc006527">Gamserrugg</placeName> (Gamsberg) bilden auch die Herrschaftsgrenze zwischen dem
+    <placeName ref="loc000782">Toggenburg</placeName> und <placeName ref="loc000440">Werdenberg</placeName> und werden als
+    <term ref="key000980">Herrschaftsgrenze</term>
+    <date when="1728">1728</date> genannt (vgl. den Kommentar in <ref>SSRQ_SG_III_4_083</ref>).</p>
+         </div>
+         <div org="uniform" sample="complete">
+            <p>Spätere Konflikte zwischen den beiden Alpen sind nicht überliefert. Zur Gamsalp vgl. auch <bibl><ref target="https://archivverzeichnis.gl.ch/home/#/content/b18dba4188404a3aa185dd7c2abe745e">LAGL AG III.2401:035</ref> (Urbar), S. 31</bibl>; <bibl><ref>OGA Grabs O 1684-1a</ref></bibl>.
+               Zur Alp <placeName ref="loc006532.01">Plisa</placeName> vgl. <bibl><ref target="http://permalink.snl.ch/bib/chbsg000056393">ChSG</ref>, <ref target="http://monasterium.net/mom/CSGVI/1341_VI_01/charter">Bd. 6, Nr. 3776</ref></bibl> (<date when="1341-06-01">01.06.1341</date>).</p>
+         </div>
+      </back>
+   </text>
+</TEI>

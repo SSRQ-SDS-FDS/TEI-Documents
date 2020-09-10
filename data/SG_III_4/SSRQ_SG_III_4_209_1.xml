@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-08-15"/>
+            <date type="print"/>
+            <availability><p xml:id="facs">Sibylle Malamud</p></availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_209_1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>OGA Grabs O 1713-1</idno>
+               </msIdentifier>
+               <head>Appellationsurteil von Landammann und Rat von Glarus im Streit zwischen den
+                  armen und reichen Gemeindegenossen bzw. den Gemeindegenossen, die kein Vieh
+                  besitzen und den Viehbesitzern, von Grabs um die gemeinsame Nutzung von Allmende
+                  und Alpen</head>
+               <msContents>
+                  <summary>
+                     <p>Landammann und Rat von Glarus holen im Streit zwischen den armen und reichen
+                        Gemeindegenossen von Grabs Erkundigungen ein:</p>
+                     <p>1. Die Armen (Gemeindegenossen, die kein Vieh besitzen) wünschen eine
+                        Veränderung des Legibriefes.</p>
+                     <p>2. Die Armen teilen sich in zwei Gruppen. Die grössere geht auf das Angebot
+                        der Reichen (Viehbesitzer) ein, die kleinere will die Klage
+                        weiterziehen.</p>
+                     <p>3. Die Kosten belaufen sich auf beiden Seiten auf über 400 Gulden.</p>
+                     <p>Darauf wird folgendes Urteil gefällt:</p>
+                     <p>1. Die bereits gefällten Urteile in dieser Sache sind ungültig.</p>
+                     <p>2. Der Legibrief bleibt für die festgesetzte Zeit in Kraft. Nachher können
+                        in Absprache mit der Obrigkeit Veränderungen vorgenommen werden.</p>
+                     <p>3. Jede Partei trägt ihre Kosten selbst.</p>
+                     <p>4. Die Armen dürfen in dieser strengen Zeit Obst und Heu auf den Allmenden
+                        sowie die Streue auf der Allmend Püls einsammeln.</p>
+                     <p>Der Aussteller siegelt.</p>
+                  </summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <author role="scribe"><persName ref="per010664">Cosmas Tinner</persName>,
+                        Landschreiber</author>
+                     <filiation type="current">Original (Doppelblatt)</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="34.0"/>
+                              <width unit="cm" quantity="21.0"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <sealDesc>
+                     <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1"
+                        nontei:condition="well-preserved" nontei:material="papered seal"
+                        nontei:place="end" nontei:shape="round" nontei:attachment="applied">
+                        <orgName role="sigillant" ref="org001197">Glarus</orgName>
+                     </seal>
+                  </sealDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1713-05-11">Neuer Kalender</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key004797">Legibrief</term>
+               <term ref="key003505">Gerichtskosten</term>
+               <term ref="key000270">Kosten</term>
+               <term ref="key004966">Gemeinde</term>
+               <term ref="key004059">Gemeindegenosse</term>
+               <term ref="key003343">Konflikt</term>
+               <term ref="key004347">Streue</term>
+               <term ref="key004467">Reichtum</term>
+               <term ref="key004631">Arme</term>
+               <term ref="key000361">Arme Leute</term>
+               <term ref="key000307">Allmend</term>
+               <term ref="key000772">Alpnutzung</term>
+               <term ref="key000006">Alp</term>
+               <term ref="key000683">Urteil</term>
+               <term ref="key000719">Tratt</term>
+               <term ref="key003439">Obst</term>
+               <term ref="key000842">Heu</term>
+               <term ref="key000336">Nutzniessung</term>
+               <term ref="key000335">Nutzungsrecht</term>
+               <term ref="key005269">Reicher</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <div org="uniform" sample="complete">
+                  <p>
+                     <pb n="1r" facs="OGA_Grabs_O_1713-1_1r"/>
+                     <lb/>Wir, <orgName ref="org003239">landamman und ein gantz geseßner <lb/>rath
+                        zue <placeName ref="loc000326">Glaruß</placeName></orgName>, urkhunden
+                     offendtlichen <lb/>hiermit dieserem brieff, nach deme unß <lb/>zue sonderem
+                     mißfalhen zue vernemmen kommen, <lb/>welcher gestallten unßer liebe, getreüwe
+                     an<lb break="no"/>gehörige, die <term ref="lem002448">gmeindts
+                        genoßen</term> in <placeName ref="loc000335">Grapß</placeName> in <lb/>unser
+                     grafschafft <placeName ref="loc000440">Werdenberg</placeName>, under sich
+                     selbst in <lb/><term ref="lem010991">streith</term> und mißverstendtnus
+                     gerathen umb die <lb/>gemeinsamme <term ref="lem016361.02">genießung</term> der
+                        <term ref="lem008239">trath</term>, <term ref="lem000512">allmeinden</term>
+                     <lb/>und <term ref="lem000306">allpen</term> daselbst gelegen. Wodurch sie in
+                     <lb/>ohnnötige und kostbare rechtshandlung verwicklet <lb/>worden, welche
+                     endtlich auch bis an uns gelangen <lb/>sollen. Haben wir zue <choice>
+                        <sic>vorkomnumg</sic>
+                        <corr>vorkomnung</corr>
+                     </choice> deße und <lb/>anderer schädlicher nachvolge auß landtsvätterlicher
+                     <lb/>sorgfahllt eine ohnumbgängliche notturfft zue sein <lb/>erachtet, eine
+                     wahrhaft gründtliche erkundigung <lb/>einzuehohllen:</p>
+                  <p>
+                     <lb/>1. Worumb die beiden partheyen, genoßen besagter <lb/>gemeind <orgName
+                        ref="org001828">Graps</orgName>, under dem scheinbaren nammen <lb/>der <term
+                        ref="lem000849">armen</term> eines, und der <term ref="lem007589"
+                        >reichen</term> anders <lb/>theils, eigendtlichen im <term ref="lem010991"
+                        >streith</term> seyend.</p>
+                  <p>
+                     <lb/>2. Wie viel auf der eint und anderen seithen <lb/>sich befinden.</p>
+                  <p>
+                     <lb/>3. Wie vil <term ref="lem000279">kosten</term> jede parthey von dieser
+                        miß<lb break="no"/>verstendtnus wegen schon gehabt habe. <seg>Deme
+                        <lb/>haben wir den ohnverenderlichen befelch beyge<lb break="no"/>füegt, im
+                        fahl wir nach hierumb empfangenen <lb/>bericht befinden wurden, daß dieser
+                        sach rechts<lb break="no"/>fertigung weiters und bis an unß zuegestatten
+                        <lb/>seye, daß solches nit auf der <term ref="lem006896">gemeindt</term>
+                        <term ref="lem000279">kösten</term>, <lb/>sonder auß jeden theils eignem
+                           <term ref="lem001665.07">sekel</term> beschechen <lb/>solle, mit dem
+                        anhang, daß uns eine <lb/>ordenliche verzeichnuß überschickt werde, wer
+                        <lb/>sich auf die andere seithen schlage.</seg>
+                  </p>
+                  <p>
+                     <lb/>Allß unß nun der hierüber verlangte <lb/>bericht gebührend einkommen,
+                     haben wir so <lb/>viel ersehen können, </p>
+                  <p>
+                     <lb/>1., daß der dißfahls <term ref="lem006408">arm</term> genendten begehren
+                     <lb/>außert und über den <term ref="lem016231.03">lege-brieff</term> schreite,
+                     <lb/>welchen die gemeind <orgName ref="org001828">Graps</orgName> under sich
+                     selbsten <pb n="1v" facs="OGA_Grabs_O_1713-1_1v"/>
+                     <lb/>auf gewüße <term ref="lem000270">jahr</term> (<note anchored="true"
+                        >Schliessung der Klammer fehlt.</note>die noch nit außgeloffen <lb/>seind,
+                     aufgerichtet, angenommen und von dem <lb/>damahligen landtvogt bestettigen
+                     laßen hat.</p>
+                  <p>
+                     <lb/>2., daß die <term ref="lem006408">arm</term> genenten sich in iren gar
+                     <lb/>ohngleiche theil getheilt und der weith größere <lb/>mit dem anerbietten,
+                     welches diejenigen <lb/>ihnen gethan haben, so die <term ref="lem007589"
+                        >reichern</term> geheißen <lb/>worden, sich zue vernüegen erkläret, die
+                     übrigen <lb/>aber an der zahl <num value="16">16</num><note anchored="true">Im
+                        Kostenverzeichnis ist ein Verzeichnis mit 16 Namen der Armen, die in diesen
+                        Rechtshandel eingewilligt haben (<bibl><ref
+                              target="https://archivverzeichnis.gl.ch/home/#/content/c957bf1ee2414e348ca3706ec6f95072"
+                              >LAGL AG III.2409:067</ref></bibl>).</note> den schluß gefaßet, den
+                        <lb/><term ref="lem001044">appellanten</term> im rechten red und antwurth
+                     <lb/>zuegeben.</p>
+                  <p>
+                     <lb/>3., daß beiderseiths gemachte <term ref="lem000279">kösten</term>
+                     <measure type="currency" unit="fl" quantity="400">vierhundert
+                        <lb/>guldin</measure> übersteigen, welches halb die <term ref="lem000849"
+                        >armen</term>
+                     <lb/>genendten eine tadelhaffte ohnmaß gebraucht haben, <lb/>wie es die
+                     eingegebene specification gezeiget <lb/>hat.</p>
+                  <p>
+                     <lb/>Dahero unß von oberkeitlichem ambts wegen <lb/>obliget, diesen und der
+                     gantzen sach den höchstge<lb break="no"/>fährlichen und zue zerrüttung aller
+                     gueter <lb/>ordnungen ziehlenden lauf abzueschneiden, <lb/>weßwegen wir mit
+                     einer landtsvätterlichen ge<lb break="no"/>meinten einhelligkeit erkendt haben
+                     und erkennen <lb/>in krafft diß:</p>
+                  <p>
+                     <lb/>1., daß dieser sach halber die ausgefehllte <term ref="lem001289"
+                        >urtlen</term>
+                     <lb/>niemanden binden, sondern <term ref="lem005885">krafftloß</term> sein
+                     sollen.</p>
+                  <p>
+                     <lb/>2., daß es bey dem aufgerichten und von <lb/>oberkeits wegen bekrefftigten
+                        <term ref="lem016231.04">lege-brief</term> die <lb/>bestimbte jahr auß
+                     ohngeenderet verbleiben solle. <lb/>Welchem nach und wann er außgeloffen sein
+                     <lb/>wirt, es mit vorbehalt unßer oberhand, an <lb/>der gantzen gemeind
+                        <orgName ref="org001828">Graps</orgName> oder dem mehrern <lb/>theil
+                     derselben stehen sol, von dem denzemahl <lb/>regierenden landtvogt deßen <term
+                        ref="lem002561">bestettigung</term> von <lb/>neüwem zue begehren oder aber
+                     nach ihrer <lb/><term ref="lem009425">gemeindt recht</term> und altem <term
+                        ref="lem005067">gebrauch</term> die nötig <lb/>erachtende ender- und
+                     verbeßerung vorzue<lb break="no"/>nemmen und darüber die oberkeitliche <term
+                        ref="lem002434">ratifica<lb break="no"/>tion</term> begehren zue laßen.
+                     Welches niemahlen <lb/>underbleiben sol, es bleibe gleich bey dem alten
+                     <lb/>oder es werde ettwas neüwes gemachet.</p>
+                  <p>
+                     <lb/>3. Die <term ref="lem000279">kösten</term>, so über diese minder
+                     wohlbedachte <pb n="2r" facs="OGA_Grabs_O_1713-1_2r"/>
+                     <lb/>rechtshandlung ergangen seind, sol jede parthey <lb/>die ihrigen auß
+                     eignem <term ref="lem001665.01">seckel</term> bezahllen <lb/>und dernhalb weder
+                     die gemeind noch dem <lb/>gegentheil anzuefechten haben.</p>
+                  <p>
+                     <lb/>4. Laßen wir unß wohlgefahllen, daß die<lb break="no"/>jenigen, so
+                     dißfahls die <term ref="lem007589">reicheren</term> geheißen <lb/>worden, umb
+                     dieser gegenwertigen, strengen <lb/>zeith willen den <term ref="lem006408"
+                        >arm</term> genendten theil <lb/>daß <term ref="lem003604">ops</term> und
+                     daß <term ref="lem000142">heüw</term> auf den <term ref="lem000512"
+                        >allmeinden</term>
+                     <lb/>wie auch die <placeName ref="loc006167">Püls</placeName>
+                     <term ref="lem002450.16">streüwe</term> allein zugenießen <lb/>freywillig
+                     anerbotten und überlaßen haben. <lb/>Welches anerbietten diese zum größern
+                     theil <lb/>danckhbarlich angehohmen, dahero unser will, <lb/>meinung und
+                     befelch ist, daß die überigen <lb/><num value="16">sechszechen</num> sich daran
+                     auch settigen und weitere <lb/>rechtsfertigung zuesuechen aufhören und ab<lb
+                        break="no"/>stehen sollen, so lieb ihnen ist, unser große <lb/>ungnad zue
+                     vermeiden.</p>
+                  <p>
+                     <lb/>Wir sind im überigen und zum beschluß, daß <lb/>gnädigen versehens zue
+                     einer ehrsammen gemeind <lb/><orgName ref="org001828">Graps</orgName>, sie
+                     werde diesere an die <term ref="lem006408">arm</term> genenten <lb/>umb dieser
+                     strengen zeith willen überlaßen: <lb/>Genießung des <term ref="lem003604"
+                        >ops</term> und <term ref="lem000142">heüws</term> auf den <term
+                        ref="lem000512">all<lb break="no"/>meinden</term> und des <placeName
+                        ref="loc006167">Püls</placeName>
+                     <term ref="lem002450.16">streüwe</term>. Bey einer sich <lb/>ergebenden
+                     geringen beßerung nit grad widerum <lb/>zue gemeinen handen ziechen wollen, wie
+                     <lb/>sie deßen befüegt were, sondern ihre armen <lb/>alle zeith in eine gott
+                     und uns wohlgefehllige <lb/>betrachtung ziechen.</p>
+                  <p>
+                     <lb/>Deßen zue einem wahren urkundt und <lb/>bekrefftigung haben wir diesere,
+                     unsere er<lb break="no"/>kandtnuß mit unserem gewohnten landts sigill,
+                     <lb/>jedoch uns an allen unseren rechten in allwäg <lb/>ohne schaden, verwahret
+                     übergeben laßen, <lb/>den <origDate when="1713-05-11" calendar="Gregorian">30.
+                        aprilis, 11. may anno 1713</origDate>, </p>
+                  <p>
+                     <lb/><persName ref="per010664"><choice>
+                           <abbr>Cosm</abbr>
+                           <expan>Cosmas</expan>
+                        </choice> Tinner</persName>, <choice>
+                        <abbr>ldtschrbr</abbr>
+                        <expan>landschreiber</expan>
+                     </choice>. </p>
+               </div>
+               <pb facs="OGA_Grabs_O_1713-1_2v"/>
+               <div org="uniform" sample="complete">
+                  <ab type="dorsal" place="verso" hand="hand19c">
+                     <lb/>
+                     <term ref="lem007589">Reiche</term> und <term ref="lem000849">arme</term></ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab type="archiving reference" place="verso">
+                     <lb/>
+                     <del>29</del> 28; 1713; 5</ab>
+               </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div n="1" org="uniform" sample="complete">
+            <p>Am <date when="1680-05-21">21. Mai 1680</date>
+               <term ref="key005229">klagen</term> die armen <term ref="key004059"
+                  >Gemeindegenossen</term> (Genossen, die kein Vieh besitzen) gegen die
+                  <orig>habenden gemeindtsgenoßen</orig> (Viehbesitzer) von <placeName
+                  ref="loc000335">Grabs</placeName> betreffend die <term ref="key000759"
+                  >Teilung</term> und <term ref="key000656">Bestossung</term> der <term
+                  ref="key000006">Alpen</term> und <term ref="key000307">Allmenden</term> in
+                  <placeName ref="loc000335">Grabs</placeName>. Auf Seiten der <term ref="key004631"
+                  >Armen</term> klagen als Verordnete <persName ref="per010698a">Hans
+                  Montaschiner</persName>, <term ref="key000933">Meister</term>
+               <persName ref="per010699">Dietrich Vetsch</persName> und Meister <persName
+                  ref="per010700">Andreas Zogg</persName>. Auf Seiten der Reichen stehen <term
+                  ref="key004374">Hauptmann</term>
+               <persName ref="per009919a">Zogg</persName>, <term ref="key000696"
+                  >Landesfähnrich</term>
+               <persName ref="per009920a">Tischhauser</persName> und <term ref="key000636"
+                  >Säckelmeister</term>
+               <persName ref="per010701">Grässli</persName>. Die beiden <term ref="key000209"
+                  >Gesandten</term> von <placeName ref="loc000326">Glarus</placeName> urteilen
+               zusammen mit dem neuen und alten <term ref="key000180">Landvogt</term> (<term
+                  ref="key005174">Syndikat</term>), dass der <term ref="key000817">Vertrag</term>
+                     (<orig><term ref="lem016362.02">gemächtßbrieff</term></orig>, hier wohl <term
+                  ref="key004797">Legibrief</term>) bis zum <term ref="key000730">Herbst</term>
+               gültig sein solle. Danach sollen die Reichen den <term ref="key004631">Armen</term>,
+                  <orig>die nur ein <term ref="lem016368.02">köüly</term> haben oder gar
+                  keineß</orig>, <orig>auß der <term ref="lem000209">steür</term> gäben undt
+                  bezahlen namlichen <measure type="currency" quantity="18" unit="bz">18
+                     batzen</measure>. Welcher aber <term ref="lem000227">burger</term> (<term ref="key000087">Ausbürger</term>) sindt undt
+                  an der steür nichtß haben, sollent die burger für ihre bürger zahlen</orig>. Nach
+               Ablauf des Vertrags sollen die Ausschüsse der Armen und Reichen einen Vergleich
+               suchen; können sie sich nicht einigen, sollen sie die Streitsache mit Erlaubnis des
+               Landvogts an <orgName ref="org001197">Glarus</orgName>
+               <term ref="key000287">appellieren</term> (<bibl><ref>OGA Grabs O 1680-1</ref></bibl>;
+               vgl. dazu <bibl><ref
+                     target="
+                  http://permalink.snl.ch/bib/chbsg991001170748803977"
+                     >Lippuner 2018</ref>, S. 120–123</bibl> mit Transkription).</p>
+         </div>
+         <div n="2" org="uniform" sample="complete">
+            <p>Der Konflikt zwischen <term ref="key004631">Armen</term> und <term ref="key005269"
+                  >Reichen</term> in <placeName ref="loc000335">Grabs</placeName> um die <term
+                  ref="key000772">Alp</term>- und <term ref="key003869">Allmendnutzung</term> flammt
+               um <date when="1712">1712</date> wieder auf. Am <date when="1712-11-14">14. November
+                  1712</date> klagen die Verordneten der Besitzlosen gegen die Verordneten der
+               Reichen, dass sie von ihrem <term ref="key003869">Allmendrecht</term> nicht
+               profitieren, da sie wegen ihrer <term ref="key004249">Armut</term> kein <term
+                  ref="key000298">Vieh</term> auf die Gemeindealpen und Allmenden zu treiben haben.
+               Darauf machen die Verordneten der Reichen drei Vorschläge, bei dem die Armen den
+               Dritten annehmen. Doch die Viehbesitzer <term ref="key000287">appellieren</term> den
+               Entscheid an den <term ref="key000180">Landvogt</term>, denn <orig>der <term
+                     ref="lem000688">tratt</term> halber gehör den <term ref="lem000849"
+                     >armmen</term> nichts, es seye den <term ref="lem007589">richen</term> ihr
+                  eigne sach</orig>. Der Landvogt bestätigt jedoch den von den Armen angenommenen
+               dritten Vorschlag: Die <term ref="key000006">Alpen</term> und <term ref="key000307"
+                  >Allmenden</term> sollen in <term ref="key000342">Stösse</term> gelegt und von der
+                  <term ref="key000719">Tratt</term> im <term ref="key000726">Frühling</term> und im
+                  <term ref="key000730">Herbst</term> in Berg und Tal soll jeder <term
+                  ref="key004059">Gemeindegenosse</term> jährlich für jedes <term ref="key000791"
+                  >Tier</term> einen bestimmten Betrag entrichten, der unter den <term
+                  ref="key004059">Gemeindegenossen</term> verteilt wird. <term ref="key000065"
+                  >Amtleute</term> und der <term ref="key000301">Pfarrer</term> von <placeName
+                  ref="loc000335">Grabs</placeName> müssen für das <term ref="key000048"
+                  >Weiderecht</term> nichts bezahlen (<bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/53e9e0cc5ef44450a4e34c8d000ff230"
+                     >LAGL AG III.2418:018</ref></bibl>; zu diesem Konflikt siehe auch <bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/7612572491934a94acb7776010f50fa7"
+                     >LAGL AG III.2409:064</ref>–<ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/aa8a711a3fa1481492abe8493393864c"
+                     >AG III.2409:068</ref>; <ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/61b1a5a5156a4dc693ebe405d9558403"
+                     >AG III.2409:086</ref>; <ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/34d579bc1841413191bae281dce469cf"
+                     >AG III.2409:087</ref>; <ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/3328712ea743427e852b8f900edaa2eb"
+                     >AG III.2418:016</ref></bibl>). Schliesslich fällt Glarus am <date
+                  when="1713-05-11">11. Mai 1713</date> den hier edierten Entscheid, der alle
+               früheren Urteile für ungültig erklärt.</p>
+         </div>
+         <div n="3" org="uniform" sample="complete">
+            <p>In den <date from="1790" to="1799">90er Jahren des 18. Jh.</date> kommt es zu
+               erneuten Konflikten zwischen Armen und Reichen in <placeName ref="loc000335"
+                  >Grabs</placeName> um die <term ref="key000759">Teilung</term> des <term
+                  ref="key000307">Allmendguts</term> sowie um weitere Artikel im Legibrief. Verlauf
+               und Hintergründe des Konflikt sind eingehend von <bibl>
+                  <ref target="http://permalink.snl.ch/bib/chbsg000113548">Schindler 1986</ref>,
+                  S. 277–305</bibl> dargestellt worden (vgl. auch die Dokumente in den beiden
+               Dossiers <bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/fd48d8dc265e414d8671ed4d35b302a1"
+                     >LAGL AG III.2436</ref></bibl> sowie <bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/bbbfa077027745a1af2b2a1eae2d288e"
+                     >LAGL AG III.2449:006</ref></bibl>; <bibl><ref>OGA Grabs O 1794-3</ref></bibl>
+               sowie den Streit um den neuen <term ref="key004797">Legibrief</term> in <placeName
+                  ref="loc000198">Buchs</placeName>, der zur gleichen Zeit ausbricht [<bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/fd48d8dc265e414d8671ed4d35b302a1"
+                     >LAGL AG III.2436</ref></bibl>]).</p>
+         </div>
+      </back>
+   </text>
+</TEI>

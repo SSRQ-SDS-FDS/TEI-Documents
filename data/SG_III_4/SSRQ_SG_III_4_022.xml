@@ -1,0 +1,598 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die
+					Rechtsquellen der Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+         	<date type="electronic" when="2019-07-09"/>
+            <date type="print"/>
+            <availability><p xml:id="facs">Sibylle Malamud</p></availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_022</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+					<msIdentifier>
+						<idno>Fürstlich Fürstenbergisches Archiv Donaueschingen OB 5 Fasz. 1</idno>
+					</msIdentifier>
+					<head>Graf Rudolf II. von Werdenberg-Heiligenberg versichert seiner Ehefrau
+						Beatrix, Gräfin von Fürstenberg, die 4000 Pfund Heimsteuer und 4000 Pfund
+						Widerlegung (Gegengabe) unter anderem mit Burg und Stadt Werdenberg</head>
+					<msContents>
+						<summary>
+							<p>Graf Rudolf II. von Werdenberg-Heiligenberg, Sohn des verstorbenen
+								Heinrich II. von Werdenberg-Heiligenberg, versichert seiner Ehefrau
+								Beatrix von Fürstenberg, Tochter des verstorbenen Grafen Heinrich
+								von Fürstenberg, die 4000 Pfund Heimsteuer und 4000 Pfund
+								Widerlegung (Gegengabe) mit Burg und Stadt Werdenberg, mit dem See,
+								sowie diversen Weinbergen, Höfen, Gütern, Mühlen, grossen und
+								kleinen Zehnten, Abgaben und Steuern, die einen jährlichen Ertrag
+								von 269.5 Pfund abwerfen. – Es bürgen Graf Albrecht III.
+								von Werdenberg-Heiligenberg(-Bludenz), der Ältere, sowie seine
+								Brüder Hugo V. und Heinrich III. von Werdenberg-Heiligenberg.</p>
+							<p>Falls der jährliche Ertrag geschuldet wird, müssen der Ehemann und
+								die Bürgen nach der Mahnung innerhalb der nächsten acht Tage in der
+								Stadt Konstanz oder Schaffhausen zwei Mal am Tag Geiselschaft
+								leisten. Ein Bürge kann sich durch zwei Adlige mit vier Pferden
+								vertreten lassen. Stirbt einer der vier, muss innerhalb von vierzehn
+								Tagen für Ersatz gesorgt werden. Geschieht dies nicht, leisten die
+								übrig gebliebenen Bürgen für vier Bürgen. – Stirbt der Ehemann vor
+								seiner Frau ohne leibliche Erben, erhält die Ehefrau den Ertrag bis
+								zu ihrem Tod. Dieselbe Regelung gilt auch für den Ehemann.</p>Der
+							Aussteller und die Bürgen siegeln.</summary>
+						<msItem>
+							<textLang>Deutsch</textLang>
+							<filiation type="current">Original</filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support>
+									<material>Pergament</material>
+								</support>
+								<extent>
+									<dimensions type="leaves">
+										<height unit="cm" quantity="58.0"/>
+										<width unit="cm" quantity="50.0"/>
+									</dimensions>
+									<dimensions type="plica">
+										<width unit="cm" quantity="4.0"/>
+									</dimensions>
+								</extent>
+								<condition>4 grosse Flecken, 2 auf senkrechtem Falt in der Mitte, 2
+									auf senkrechtem Falt rechts</condition>
+							</supportDesc>
+						</objectDesc>
+						<sealDesc>
+							<seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1"
+								nontei:condition="absent"
+								nontei:attachment="sealed on a parchment tag">
+								<persName ref="per000429a">Rudolf II. von
+									Werdenberg-Heiligenberg</persName>
+							</seal>
+							<seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="2"
+								nontei:condition="absent">
+								<persName ref="per000416b">Albrecht von
+									Werdenberg-Heiligenberg(-Bludenz)</persName>
+							</seal>
+							<seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="3"
+								nontei:condition="absent">
+								<persName ref="per000386a">Hugo V. von
+									Werdenberg-Heiligenberg</persName>
+							</seal>
+							<seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="4"
+								nontei:condition="absent">
+								<persName ref="per000430a">Heinrich III. von
+									Werdenberg-Heiligenberg</persName>
+							</seal>
+						</sealDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate when="1399-05-03"/>
+							<origPlace>Konstanz</origPlace>
+						</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head>Editionen</head>
+							<bibl><ref
+									target="
+                  		http://permalink.snl.ch/bib/chbsg000150484"
+									>FUB, Bd. 2, Nr. 574, S. 377–381 (Fürstenbergisches
+									Urkundenbuch)</ref></bibl>
+						</listBibl>
+						<listBibl>
+							<head>Regest</head>
+							<bibl><ref target="http://permalink.snl.ch/bib/chbsg000141369">Krüger,
+									Regesten</ref>, Nr. 612</bibl>
+						</listBibl>
+						<listBibl>
+							<head>URL</head>
+							<bibl type="url"><ref
+									target="http://digital.ub.uni-duesseldorf.de/ihd/content/pageview/5827847"
+									>http://digital.ub.uni-duesseldorf.de/ihd/content/pageview/5827847</ref></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000111">Heimsteuer</term>
+               <term ref="key004532">Widerlegung</term>
+               <term ref="key000027">Verpfändung</term>
+               <term ref="key003214">Geiselschaft</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <div org="uniform" sample="complete">
+               	<pb facs="FFA_Donaueschingen_OB_5_Fasz._1_r"/>
+               	<p>
+							<lb/>Wir, graff <persName ref="per000429a">Ru̍dolff von
+								Werdenberg</persName>, graff <persName ref="per000417a">Hainrichs
+								sǎlgen sun von Werdenberg</persName>, tügint kunt und vergehent des
+							offenlich mit disem brieff allen, die in ansehent oder hörent lesen, als
+							der <lb/>almaͤchtig gott gefuͤgett hatt, das du̍ edell frow, fro
+								<persName ref="per000505b">Beatrix, gra̍ffin geborn von
+								Fuͤrstenberg</persName>, graffe <persName ref="per004340a">Hainrichs
+								von Fu̍rstenberg</persName> elich tochter, und och wir elich
+							zesammen komen sigent, da <lb/>hât uns du̍ selb unßer elich frow
+							zuͤbracht ze rechter <term ref="lem003752">hainstu̍r</term>
+							<measure origin="Konstanz" quantity="4000" unit="lb" type="currency"
+								>vier tusent pfunt</measure> alles güter und gäber haller, die ze
+								<placeName ref="loc000008">Costentz</placeName> geng und gäb sint.
+							So habend wir der selben unßer elichen <lb/>frowen <term ref="lem012480"
+								>widerleit</term> och <measure origin="Konstanz" quantity="4000"
+								unit="lb" type="currency">vier tusent pfunt gǔter haller</measure>
+							und darumb, dz du̍ selb unßer elichu̍ frow, fro <persName
+								ref="per000505b">Beatrix</persName>, und ir erben des vorgenantten
+							güts der <measure quantity="8000" unit="lb" type="currency">acht tusent
+								pfund güter haller</measure>
+							<lb/>dester sicher sigennt, so habent wir si des selben guͦtes, so da
+							vor ist beschaiden, gewisett uff disu̍ nachgeschribenen guͦter und gelt
+							und ir die in <term ref="lem010753">pfandes wis</term> in gesetzett, das
+							si und ir erben <lb/>nun hinanhin da von ja̍rlichs haben und niesen sont
+							und mugennt <measure type="currency" quantity="268.5" unit="lb"
+								origin="Konstanz">zwai hundert pfunnt und nu̍ndhalbs und sechtzig
+								pfunt</measure> alles gu̍ter und ga̍ber pfening Costentzer mu̍ns,
+							doch je <lb/>zwen güt haller fu̍r ainen Costentzer pfening ze nemment.
+								<term ref="key004531"/>
+							<seg>Und sint diss die güter und gelt, daruff wir si gewisett haben und
+								wir die ir in redlichs pfandes wis ingesetzett habend:</seg>
+							<seg>
+								<lb/>Des ersten unßer vesti, burg und statt ze <placeName
+									ref="loc000440">Werdenberg</placeName> mit dem sew, gelten <date
+									dur="R/P1Y">järlich</date>s ze zins von den sturen <measure
+									quantity="33" unit="lb" type="currency">dru̍ und drissig pfunt
+									pfening</measure>; unßern <term ref="lem000164"
+									>wingartten</term> mit aller zügehord, gelegen bi
+									<lb/><placeName ref="loc000015">Werdenberg</placeName>, der an
+								der obgenantten sum des <date dur="R/P1Y">järlich</date>en geltes
+								gewerdett ist fu̍r <measure quantity="40" unit="lb" type="currency"
+									>viertzig pfunt pfening</measure> geltes: unßern wingartten ze
+									<placeName ref="loc006016">Grapps</placeName>, der gewerdett ist
+								fu̍r <measure quantity="10" unit="lb" type="currency">zechen pfunt
+									pfening</measure>
+								<lb/>geltes; unßer <term ref="lem000072">mu̍li</term> bi der statt,
+								giltett jaͤrlichs <measure quantity="6" unit="lb" type="currency"
+									>sechs pfunt pfening</measure>, die jetz inne hett <persName
+									ref="per004342">Hainrich Mu̍ller</persName>; den <placeName
+									ref="loc006018">Kornhoff</placeName> ze <placeName
+									ref="loc006017">Limps</placeName>, giltett <date dur="R/P1Y"
+									>järlich</date>s <measure quantity="2.5" unit="lb"
+									type="currency">dritthalb pfunt pfenning</measure>, den inne
+								hett <lb/><persName ref="per004343">Rüdi Bitz</persName>; der
+									<placeName ref="loc006019">Kelnhoff</placeName> da selbes,
+								giltett <measure quantity="2" unit="lb" type="currency">zwai pfunt
+									pfenning</measure>, den inne hett <persName ref="per004345"
+									>U̇lrich Maiger</persName>; des <placeName ref="loc006020"
+									>Ku̍rtze höffli</placeName>, gilt ja̍rlichs <measure
+									quantity="2" unit="lb" type="currency">zwai pfunt
+									pfening</measure>, den inne hett <persName ref="per004346"
+									>Eberli Katter</persName> und <persName ref="per004344">U̍li
+									Bitz</persName>; dez <lb/><placeName ref="loc006029">Schinhuͦtz
+									Güt</placeName>, gilt <measureGrp><measure quantity="1"
+										unit="lb" type="currency">ain pfunt</measure>
+									<measure quantity="5" unit="ß" type="currency"/>fu̍nff schiling
+									pfening</measureGrp>, hett inne <persName ref="per004347">Üli
+									Krutmuͦs</persName>; des mittmels akker gelegen in <placeName
+									ref="loc006021">Schikken</placeName> und der <placeName
+									ref="loc006022">Bruͦl</placeName>, geltent <measure
+									quantity="30" unit="ß" type="currency">drissig schiling
+									pfening</measure>, hett <persName ref="per004348">Hainrich
+									Schoͤni</persName>; <lb/><placeName ref="loc006023">Berwertz
+									hoff</placeName>, giltett ja̍rlichs <measure quantity="2"
+									unit="lb" type="currency">zwai pfunt pfening</measure>, hett der
+								alt <persName ref="per004341">Boksflaisch</persName>; <placeName
+									ref="loc006028">Ûdelhilten Guͦt</placeName>, gilt ja̍rlichs
+									<measure quantity="30" unit="ß" type="currency">drissig schiling
+									pfening</measure>, hett <persName ref="per004350">Büde
+									Hag</persName>; des <placeName ref="loc006030"><orgName
+										ref="org000309">Hüber</orgName>s</placeName> und des
+									<placeName ref="loc006031"><orgName ref="org001070"
+										>Ru̍tiner</orgName>s <lb/>a̍kker</placeName>, gelten
+									<measure quantity="10" unit="ß" type="currency">zechen schiling
+									pfening</measure>, hett <persName ref="per004349">Haini
+									Lippiner</persName>; die mu̍li ze <placeName ref="loc000335"
+									>Grapps</placeName>, giltett <date dur="R/P1Y">jarlich</date>s
+									<measure quantity="10" unit="lb" type="currency">zechen pfunt
+									pfening</measure>, die hett <persName ref="per004342a">Hainrich
+									Mu̍ller</persName>; des <placeName ref="loc006024">Wakkers
+									hoff</placeName>, giltett <measureGrp><measure quantity="4"
+										unit="lb" type="currency">vier pfunt</measure>
+									<measure quantity="5" type="currency" unit="ß">fu̍nff
+										<lb/>schiling pfening</measure></measureGrp>, hett <persName
+									ref="per004351">Üli Rupsch</persName> und der <orgName
+									ref="org000699">Lippuner</orgName>.</seg>
+							<seg>Der <term ref="lem000073">zechend</term> ze <placeName
+									ref="loc000335">Grapps</placeName> an der ebni mit aller
+								zügehord, giltett <date dur="R/P1Y">järlich</date>s <measure
+									quantity="55" commodity="grain" type="weight" unit="Pfund"
+									>fu̍nff und funfftzig pfunt pfening an korn</measure>; der
+								zechend an <lb/>
+								<placeName ref="loc006025">Grappserberg</placeName>, giltett
+									<measure quantity="16" commodity="grain" type="weight"
+									unit="Pfund">sechtzenn pfunt pfening an korn</measure>; der
+								zechend an <placeName ref="loc006026">Pilops</placeName>, giltett
+									<measure quantity="5.5" commodity="grain" type="weight"
+									unit="Pfund">sechsthalb pfunt pfening an korn</measure>.</seg>
+							<seg>Von dem <term ref="lem006415">clainen <lb/>zechenden</term>, der da
+								gehört zü den obgenannten dru̍en <lb/>zechenden, vallett <date
+									dur="R/P1Y">järlich</date>s <measure quantity="11.5"
+									commodity="lard" type="weight" unit="Pfund">zwelffthalb pfunt
+									pfening an smaltz</measure>, <measure quantity="1"
+									type="currency" unit="lb">ain pfunt pfening</measure> von
+								lemmern und von fu̍lin zechenden, der och geho̍rt in die drie
+								zechenden.</seg>
+							<seg>Von <term ref="lem012483">lo̍bmalen</term>, das usser <lb/>den
+								alpen gat, <measureGrp><measure quantity="7" commodity="cheese"
+										type="weight" unit="Pfund">siben pfunt pfening an
+										ka̍ss</measure>
+									<measure quantity="7" commodity="lard" type="weight"
+										unit="Pfund">und an schmaltz</measure></measureGrp>,
+									<measure type="currency" unit="lb" quantity="7">siben pfunt
+									pfening</measure> von <term ref="lem012487">lenpfeningen</term>
+								ze <placeName ref="loc000335">Grapps</placeName>. Die wisen, die zü
+								der <term ref="lem000183">vesti</term> gehoͤrent geltent ja̍rlichs
+									<measure type="currency" unit="lb" quantity="9">nu̍n pfunt
+									pfening</measure>; <lb/>von den <term ref="lem000209"
+									>stu̍r</term> ze <placeName ref="loc000335">Grapps</placeName>
+								ze dem maigen vallett <date dur="R/P1Y">järlich</date>s <measure
+									type="currency" unit="lb" quantity="40">viertzig pfunt
+									pfening</measure>. Dis vorgenantten güter, zins, zechenden und
+								gelt sind a̍llu̍ gelegen in <placeName ref="loc006027">Grappser
+									kilsper</placeName>.</seg>
+							<seg>Die vorgenantten <lb/>vesti, burg und statt ze <placeName
+									ref="loc000440">Werdenberg</placeName> und die vorgenantten
+								güter, zins, zechenden und gelt mit allen rechten und zügehorden,
+								alz da vorgeschriben statt, habend wir der vorgenantten <lb/>frow
+									<persName ref="per000505b">Beatrix</persName>en, unßer elichen
+								husfrowen, und iren erben fu̍r uns und unßer erben ze ainem rechten
+								und redlichen und gewertem pfand in geben und versetzett und setzent
+								und geben ir das <lb/>in mit krafft dis brieffes, also mit söllichem
+								geding, dz si und ir erben die vorgenanten vesti, burg und statt und
+								die güter, zins, zechenden, gu̍lt und gelt und stu̍ren mit allen
+								iren <lb/>rechten, nu̍tzen und zügehörden und mit allen gewonhaiten
+								nunhin anhin haben, nu̍tzen, niessen, besetzen und entsetzen sont
+								und mu̍gent in ains rechten und redlichen gewerten pfandes <lb/>wis
+								ane alles abslachen und abniessen der nu̍tz, alz lang und alle die
+								wil du̍ selb unßer elich frow, frow <persName ref="per000505b"
+									>Beatrix</persName>, in lip ist. Und was aber ander güter, zins
+								zechenden, gult und gelt zü <lb/>der obgenantten vesti und burg und
+								statt ze <placeName ref="loc000440">Werdenberg</placeName> gehörett
+								und die da vor nit benemmet sint, mit denselben gütern sol si noch
+								ir erben nu̍t ze schaffenn haben und uns und <lb/>unßer erben daran
+								ungesu̍mpt und ungeiertt lasen.</seg>
+							<seg>Darzü ze merer sicherhaitt habent wir, vorgenantter graff <persName
+									ref="per000429a">Ru̍dolf von Werdenberg</persName>, gelopt mit
+								unßer tru̍w an ains geswornen aides <lb/>statt fu̍r uns und unßer
+								erben der vorgenantten unßer elichen frowen, fro <persName
+									ref="per000505b">Beatrix</persName>en, und ir erben der selben
+								vesti, bu̍rg und statt ze <placeName ref="loc000440"
+									>Werdenberg</placeName> und der vorgenantten güter, stu̍ren,
+								zins, <lb/>zechenden und gelt mit allen rechten und zügehörden, alz
+								da vor geschriben statt, recht <term ref="lem000475">wer</term> ze
+								sind fu̍r recht aigen und in ains rechten, redlichen, gewerten,
+								werdenden pfandes wis <lb/>fu̍r recht ledig unverku̍mbert nach dem
+								rechten ane alle gevärd. Und ze merer sicherhait so habend wir
+								derselben frow <persName ref="per000505b">Beatrixen von
+									Fu̍rstenberg</persName>, unßer elichen frowen, und iren erben
+								<lb/>mit uns unverschaidenlich ze rechtem wern und tröster geben und
+								gesetzt unßern lieben <term ref="lem000399">vetter</term>n, graff
+									<persName ref="per000416b">Albrêchten von Werdenberg</persName>,
+								den eltern, heren ze <placeName ref="loc000933"
+								>Bludentz</placeName>, und unßer lieben brüder, graff <lb/><persName
+									ref="per000386a">Hug</persName>en und graff <persName
+									ref="per000430a">Hainrichen von Werdenberg</persName>. Die
+								selben wern hand alle drie von unßer bett wegen der selben unßer
+								elichen frowen, fro <persName ref="per000505b"
+								>Beatrix</persName>inen, und iren erben fu̍r sich und ir erben dis
+								<lb/>vorgeschriben alles mit uns unverschaidenlich gelopt und
+								verhaisen mit ir tru̍w an ains <damage agent="fold"><supplied source="FUB 2, Nr. 547">geswornen aides statt
+										wer</supplied></damage> ze sind nach dem rechten und alz wir
+								uns des verbunden hand <lb/>und als davor und hienach geschriben
+								statt.</seg>
+							<seg>Also wär, ob dz jemer ze schulden käm, nun oder hienach, dz die
+								obgenant unßer elich frow, fro <persName ref="per000505b">Beatrix
+									von Fürstenberg</persName>, oder ir erben von der obgenanten
+								<lb/>güter wegen vesti, bu̍rg und statt ze <placeName
+									ref="loc000440">Werdenberg</placeName>, stu̍ren, zinsen,
+								zechenden und gelt jemand <term ref="lem008044">ansprach</term> oder
+								si daren su̍mpti oder ierti mit dem rechten gar oder an dehainen
+								tail sin wär, wenig <lb/>oder vil, so mag du̍ selb unßer elichu
+								husfrow und ir erben uns und die selben wern des wol erinren und
+								fu̍r uns bringen. So sollent wir und die wern und unßer erben inen
+								dz ansprächig, <lb/>was inen angesprochen wirdett oder ingenommen
+								oder daran si gesu̍mpt waren, ledig und los und unansprächig machen,
+								ane iren schaden nach ir vorderung inrend des nachsten manotz<lb
+									break="no"/>frist. Täten wir des nit, so söllent wir und die
+								wern uns all vier nach der <term ref="lem000978">manung</term>, so
+								wir von inen oder von ir botten ermant werdent ze hus, ze hoff, mit
+								brieffen oder under ogen, mit <lb/>unß selbes liben <date dur="P8D"
+									>inwendig den nächsten acht tagen</date> in varen ze laisten gen
+									<placeName ref="loc000008">Costentz</placeName> in die statt
+								oder gen <placeName ref="loc000701">Schaffhusen</placeName> in die
+								statt, wederthalb uns das aller füglichest ist, und da laisten recht
+								<lb/>ungevarlich <term ref="lem000230">gisellschafft</term> je zwai
+								mall an dem tag. Weler aber under uns vieren also mit sin selbes lip
+								nit laisten wil oder mag, den sol doch des enkain änderu̍
+								gisellschafft nit ieren und <lb/>sol och da wider nit sprechen noch
+								ze wort haben, won dz er zwen erber, die <term ref="lem012491"
+									>wapens genos</term> sigent, mit vier pfäriden an sin statt, in
+								wedre statt er wil, ze gisell legen sol, die ane gevard je <lb/>zwai
+								mall an dem tag laisten und ungevarlich alz thu̍r komen je zwai mal
+								an dem tag, alz ob er selb mit vier pfäriden ze gisell lag. Und
+								sollent och wir und die wern oder die gisell an <lb/>unßer statt
+								also ungevarlich laisten an offnen wirtten mit der selben frowen und
+								ir erben oder ir botten wissen bi der gelu̍pt, so wir getan hand und
+								davon nit lasen, e derselben unser <lb/>elichen frowen und ir erben
+								dz ane iren schaden entrihen wirdett, darumb wir danne gemant
+								sigent.</seg>
+							<seg>Gieng och under uns vieren dehainer ab von todes wegen, da vor gott
+								lang sie, <lb/>ald vom land fu̍r oder von ander redlicher sach wegen
+								unu̍tz wurd, so sollent wir der selben frowen oder iren erben je ain
+								andern gulten und wern alz gewissen ane gevard an des abgangen
+								<lb/>statt setzen und geben nach ir manung <date dur="P14D">inwenig
+									den nachsten viertzechen tagen</date>. Täten wir des nit, so
+								sollent wir, die dannocht in lip sint, all laisten, alz da vor ist
+								beschaiden, untz daz wir inen <lb/>den abgangen je berichten.</seg>
+							<seg>Wär och, daz gott lang wend, das dehainer under uns vieren sich
+								selben also uber säch und nit laisti in der mass, so er gemant wird,
+								alz davor ist beschaiden, den<lb break="no"/>selben mugent dann du̍
+								obgenant frow und ir erben und helffen, in und sin erben, wol
+								angriffen, hefften, pfenden und umb triben an lu̍t, an güt, in
+								stetten und uff dem land, mit gericht <lb/>oder ane gericht,
+								gaistlichem oder weltlichem, alz ver und inen gäntzlich erfallett
+								wirdett, waran si gebresten hand. Und sol uns davor nit schirmen
+								gaistlich noch weltlich gericht, enkain <lb/>friehaitt, burgrecht,
+								ainung noch bu̍ntnuss, die wir jetz habend oder hienach erwerben
+								mochten von ku̍ngen, von kaißern, von bäpsten oder von andern heren
+								noch kainer schlacht ander sach und <lb/>sont doch dester minder nit
+								laisten ungevarlich.</seg>
+							<seg>Besunder so ist och mit namen berett und bedingott, wa̍r, dz gott
+								u̍ber uns gebu̍tt, das wir von todes wegen abgiengen vor der <choice>
+									<abbr>obgen</abbr>
+									<expan>obgenanten</expan>
+								</choice>
+								<lb/>unßer elichen frowen, frow <persName ref="per000505b"
+									>Beatrix</persName>en, und nit elich liberben hinder uns liesen,
+								die von uns zwain komen und geborn wären, so sol du̍selb unßer elich
+								frow die obgenantten vesti, burg und stat <lb/>ze <placeName
+									ref="loc000440">Werdenberg</placeName>, die stu̍ren, güter,
+								zins, zechenden und gelt mit allen zügehôrden, alz davor geschriben
+								statt, inne haben und niessen ane unßer erben und mänglichs su̍mnuss
+								und ierung <lb/>ze end ir wil und lebtag, alz davor geschriben
+								statt. Und wenn gott u̍ber si gebu̍tett, dz si von todes wegen
+								abgat, so sont ir erben die obgenantten vesti, burg und statt und
+								die güter, alz da <lb/>von ist beschaiden, haben und niesen in aller
+								der wis und mas alz der selben frowen davor verschriben ist, alz
+								lang und alle die wil untz dz unßer erben das von inen ledgend und
+								lo̍send <lb/>mit <measure quantity="4000" unit="lb" type="currency"
+									origin="Konstanz">vier tusent pfunt güten hallern</measure> oder
+								mit der mu̍ntz und werschafft, die dann ze <placeName
+									ref="loc000008">Costentz</placeName> fu̍r haller geng und gäb
+								ist, des doch unßer erben alweg vollen gewalt hand, wenn si wend
+								<lb/>nach derselben unßer elichen frowen abgang. Und wenn dz also
+								beschicht, so sont si dann anhin an die selben vesti, bu̍rg und
+								statt und güter dehain vorderung noch ansprach mehr haben. <lb/>Und
+								wär, ob du̍selb unßer elichu̍ frow vor uns von todes wegen abgieng,
+								das gott lang wend, und nit elich liperben hinder ir liess, die von
+								uns zwain komen und geborn wa̍ren, so sollen <lb/>wir die <choice>
+									<abbr>obgen</abbr>
+									<expan>obgenanten</expan>
+								</choice> vesti, burg und statt und güter haben und niessen ze end
+								unßer wil und lebtag. Und wenn wir och ensind und ersterbend, so
+								sont derselben unßer elichen frowen <persName ref="per000505b"
+									>Beatrix von Furstenberg</persName>
+								<lb/>erben die selben vesti, burg und statt und die güter zü iren
+								handen nemen und die haben und niesen alz lang und alle die wil
+								unßer erben dz och von inen ledgent und losend mit <measure
+									quantity="4000" unit="lb" type="currency" origin="Konstanz">vier
+									<lb/>tu̍sent pfunt güten hallern</measure>, des si alwegg gewalt
+								hand zë tünd. Und wa̍r, ob derselben unßer elichen frowen erben
+								daran kain invall beschäch oder si daran jemand sumpti oder ierti,
+								so sont <lb/>inen die obgenantten wern und tröster alweg hafft sin
+								und gebunden ze laisten in der mass, alz davor geschriben statt, untz
+								inen dz entrichett wirdett.</seg>
+							<seg>Darzü haben wir, <choice>
+									<abbr>obgenat</abbr>
+									<expan>obgenanter</expan>
+								</choice> graff <lb/><persName ref="per000429a">Rüdolff</persName>,
+								diss versatzung getan und vollefürt mit der <choice>
+									<abbr>obgenat</abbr>
+									<expan>obgenanter</expan>
+								</choice> unßer bruͦder willen und gunst. Des vergehent och wir, die <choice>
+									<abbr>obgenat</abbr>
+									<expan>obgenanten</expan>
+								</choice> graff <persName ref="per000386a">Hug</persName> und graff
+									<persName ref="per000430a">Hainrich von Werdenberg</persName>,
+								gebruder, <lb/>das der obgenant unßer lieber brüder graff <persName
+									ref="per000429a">Rüdolff</persName> die selben sin elich frowen,
+								frow <persName ref="per000505b">Beatrixen von
+								Fürstenberg</persName>, uff die obgenanten vesti, burg und statt ze
+									<placeName ref="loc000440">Werdenberg</placeName> und uff die
+								güter, stu̍ren, <lb/>zins, zechenden und gelt, alz da vor ist
+								beschaiden, gewisett ha̍t. Dz ist unser will. Güter und gebend och
+								darzü unßern willen und gunst mit disem brieff und sollent och wir
+								noch unßer erben noch <lb/>nieman anders von unßern wegen dieselben
+								frowen noch ir erben daran niemer gesumen noch geieren und si da bi
+								halten und lasen beliben in der mass, alz davor geschriben statt, bi
+								der <lb/>gelu̍pt, so wir getan hand mit unßer truw an ains aides
+								statt.</seg>
+							<seg>Und des alles ze warem und offen urkunt aller du̍re vorgeschribner
+								ding, gebend wir, obgenantter graff <persName ref="per000429a"
+									>Rudolff von Wer<lb break="no"/>denberg</persName>, unßer
+								insigell an disen brieff. Darnach vergehen wir, die obgenantten
+								graff <persName ref="per000416b">Albrecht von Werdenberg</persName>,
+								graff <persName ref="per000386a">Hug</persName> und graff <persName
+									ref="per000430a">Hainrich von Werdenberg</persName>, ainer
+								gantzen warhait, so da<lb break="no"/>vor von uns verschriben statt,
+								und habend och gelopt mit unßer tru̍w an ains rechten aides statt ze
+								laisten und die werschafft ze vollefüren, alz dz alles davor von uns
+								drin und von jeglichem <lb/>besunder verschriben ist. Und des ze
+								urkunt gebend wir och alle drie unßeru̍ insigell an disen brieff,
+								der ist geben ze <origPlace ref="loc000008">Costentz</origPlace>, do
+								man von <persName ref="per000353">Cristi</persName> gebu̍rt zalt
+									<origDate when="1399-05-03">dru̍tzechen hundert jar nu̍n und
+									<lb/>nu̍ntzig jar an des hailgen cru̍ces tag in dem
+									maigen</origDate>.</seg>
+						</p>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab type="sigillant" place="plica">Graf Ruͦdolf</ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab type="sigillant" place="plica">Graf Albrecht</ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab type="sigillant" place="plica">Graf Hug</ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab type="sigillant" place="plica">Graf Hainrich</ab>
+               </div>
+            	<pb facs="FFA_Donaueschingen_OB_5_Fasz._1_v"/>
+               <div org="uniform" sample="complete">
+                  <ab type="dorsal" place="verso"><lb/>Item dis brief hort zu dem von <lb/>Werdenberg ir <unclear>swost domen</unclear>
+                     <lb/>von Fürstenberg.</ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab type="dorsal" place="verso" hand="later hand"><lb/>Beatrix, geporne graffin zǔ <lb/>Fǔrstennberg, <add place="above">ir</add>
+							verweißbrieff <lb/>auͦf die vesti, bǔrg und stat <lb/>Werdennberg <abbr>etc</abbr>, anno <lb/>1399 mit verzaichnung.</ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab type="archiving reference" place="verso">No 2</ab>
+               </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div org="uniform" sample="complete">
+            <p>Die Verpfändung gibt sowohl die verpfändeten Güter und Höfe samt Inhabern als auch
+					die <date dur="R/P1Y">jährlich</date>en Zinsen, Zehnten und Steuern detailliert
+					wieder. Weiter werden auch die Sicherheiten sowie das Vorgehen beim Todesfall
+					eines Ehepartners ohne gemeinsame Nachkommen geregelt. Solch detaillierte
+					Angaben sind für die Grafschaft <placeName ref="loc000440"
+						>Werdenberg</placeName> im <date from="1301" to="1400">14. Jh.</date>
+					selten, weshalb dieses Stück ausgewählt wurde. Ebenfalls sehr detailliert und
+					aufschlussreich betreffend den Burgstall <placeName ref="loc006048"
+						>Herrenberg</placeName>, den <placeName ref="loc006049">Hof
+						Sevelen</placeName>, die <term ref="key000006">Alp</term>en, die <term
+						ref="key000047">Mühle</term>n, die <term ref="key000139">Höfe</term> und
+					einige <term ref="key000147">Güter</term> ist die Pfandverschreibung des Grafen
+						<persName ref="per000884">Wilhelm VIII. von Montfort-Tettnang</persName>,
+            	Herr von Werdenberg, an die Witwe <persName ref="per012918a">Adelheid von
+						Sax-Hohensax</persName> (<orig>ffrow Adelhaiten, geporn von <lb/>Sagx,
+						wittwe, u̍nser lieben muͦmen</orig>) um 500 Gulden am <date
+						when="1465-10-03">3. Oktober 1465</date> (<bibl><ref
+							target="https://query-staatsarchiv.lu.ch/detail.aspx?ID=1109185">StALU
+							URK 206/2979</ref></bibl>). Zur Ruine Herrenberg vgl. Krumm (erscheint
+					2020), Die Kunstdenkmäler der Region Werdenberg, Kap. Sevelen, Bauten, Ruine
+					Herrenberg (Manuskript).</p>
+         </div>
+         <div org="uniform" sample="complete">
+            <p>Trotz der Heirat mit <persName ref="per000505b">Beatrix von Fürstenberg</persName>
+					muss <persName ref="per000429a">Graf Rudolf ll. von
+						Werdenberg-Heiligenberg</persName> wenige Jahre später die Grafschaft
+						<placeName ref="loc000440">Werdenberg</placeName> verpfänden. Sie gelangt an
+					die Grafen von Montfort-Tettnang. Laut Krüger ist Graf <persName ref="per000436"
+						>Heinrich IV. von Montfort-Tettnang</persName> bereits am <date
+						when="1401-07-29">29. Juli 1401</date> Pfandinhaber (<bibl><ref
+							target="http://permalink.snl.ch/bib/chbsg000141369">Krüger
+						1887</ref></bibl>, S. 252–253; <bibl><ref
+							target="http://permalink.snl.ch/bib/chbsg000141369">Krüger,
+							Regesten</ref>, Nr. 628 und Nr. 649</bibl>). Der genaue Zeitpunkt des
+					Verlusts ist nicht bekannt, da eine Verpfändungsurkunde fehlt. Laut Senn wurde
+					Graf Rudolf erst mit der Eroberung der Stadt und Burg Werdenberg durch
+					österreichische Truppen und den Grafen von Montfort am <date when="1404-08-10"
+						>10. August 1404</date> von Werdenberg vertrieben (<bibl><ref
+							target="http://permalink.snl.ch/bib/chbsg000142777">Senn, Chronik</ref>,
+						S. 71</bibl>). Senn stützt sich dabei wahrscheinlich auf Tschudi (<bibl><ref
+							target="
+							http://permalink.snl.ch/bib/chbsg000071960">Tschudi,
+							Chronicon</ref>, Bd. 7, S. 55–56</bibl>). Zum Zeitpunkt der Eroberung
+					ist die Burg jedoch bereits im Besitz von Heinrich IV. von Montfort-Tettnang
+					(vgl. dazu <bibl><ref target="http://permalink.snl.ch/bib/chbsg000141029"
+							>Burmeister 1991</ref>, S. 18</bibl>). In einer Urkunde vom <date
+						when="1404-08-22">22. August 1404</date> von Herzog Friedrich will dieser
+					die Burg Werdenberg, welche die Brüder Graf Rudolf II. und Graf Hugo V. von
+					Werdenberg dem Montforter pfandweise gegeben hatten, um 10’400 Pfund wieder
+					auslösen lassen (<bibl><ref target="http://permalink.snl.ch/bib/chbsg000141369"
+							>Krüger, Regesten</ref>, Nr. 649</bibl>). Sowohl Vanotti (<bibl><ref
+								target="
+								http://permalink.snl.ch/bib/chbsg000143829">Vanotti 1845</ref>,
+						S. 256, besonders Anm.  1</bibl>) als auch Krüger stützen sich dabei auf ein
+					Regest einer Urkunde bei Lichnowsky (<bibl><ref
+							target="http://permalink.snl.ch/bib/chbsg000142709">Lichnowsky,
+							Regesten</ref>, Bd. 6, Nr.  639b, [S.  XIX]</bibl>). Lichnowsky selbst
+					bezieht sich auf die Regesta Friderici des Archivars Chmel (<bibl><ref
+							target="http://permalink.snl.ch/bib/chbsg000150448">Chmel,
+						Regesta</ref></bibl>) sowie auf andere Quellen, die er nicht näher
+					beschreibt. Die Regesta Friderici betreffen jedoch einen späteren Zeitraum. Wo
+					die Urkunde liegt oder ob sie überhaupt (noch) existiert, konnte nicht eruriert
+					werden. </p>
+         </div>
+      </back>
+   </text>
+</TEI>

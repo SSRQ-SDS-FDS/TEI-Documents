@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+
+
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+
+			</titleStmt>
+
+			<publicationStmt>
+				<date type="electronic" when="2019-07-23"/>
+				<date type="print"/>
+			</publicationStmt>
+
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ_FR_I_2_8_0078_010</idno>
+			</seriesStmt>
+
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<idno>StAFR, Thurnrodel 12, S. 236–237</idno>
+					</msIdentifier>
+					<head>Colletta Rod-de Ballavaux – Verhör / Interrogatoire</head>
+					<msContents>
+						<summary></summary> 
+						<msItem>
+							<textLang>fr, de</textLang> 
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support>
+									<material></material>
+								</support>
+								<extent>
+									<dimensions type="leaves">
+										<height unit="cm" quantity="0.0"/>
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+									<dimensions type="plica">
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+								</extent>
+							</supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1626-08-09"/>
+							<origPlace></origPlace>
+						</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc> 
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+			<particDesc default="false"/>
+			<settingDesc default="false"/>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="236"/><p><lb/>Im <placeName ref="loc007683.02">bösen thurn</placeName>
+							<seg><lb/><origDate when="1626-08-09">9 <foreign xml:lang="la">augusti</foreign> 1628</origDate>, <foreign xml:lang="la"><choice><abbr>jud</abbr><expan>judex</expan></choice></foreign> <persName ref="per006840">Fleischman</persName><note>Gemeint ist ein Stadtweibel.</note></seg>
+							<seg><lb/><abbr>H</abbr> <persName ref="per006501">Heinricher</persName></seg>
+							<seg><lb/><persName ref="per009264">Amman</persName>, <persName ref="per006839">Lari</persName></seg>
+							<seg><lb/><persName ref="per006528">Boßhart</persName></seg>
+						<seg><lb/><choice><abbr>W</abbr><expan>Weibel</expan></choice></seg></p>
+					
+						<p><seg><lb/><add place="left margin"><foreign xml:lang="la"><choice><abbr>ß</abbr><expan>Solvit</expan></choice></foreign> <measure type="currency" unit="lb" quantity="12">12 </measure>.</add></seg> 
+						<seg><persName ref="per009376">Colletta de Ballavaux</persName>, enquise pourquoy elle se 
+						<lb/>laissoit ainsy librement appellé sorciere, a respondu 
+						<lb/>que <persName>Belfrare</persName> l’avoit ainsy appellee, mais qu’elle 
+						<lb/>en avoit ehu ressentiment et qu’elle l’appella larron 
+						<lb/>d’honneur, pour quel regard elle fust grandement battue 
+						<lb/>de luy. Enquise si elle ne s’estoit entremyse de <term ref="lem015302.02">medeciner</term> 
+						<lb/>des gens mallades, a dict qu’ouy, en quoy elle n’usoit 
+						<lb/>d’autres choses, sinon des rameaux benistz, du sel benist 
+					<pb n="237"/><lb/> et du <term ref="lem017911.04">pain de <choice><abbr>s</abbr><expan>sainte</expan></choice> <persName ref="per000324">Aguette</persName></term>, ce qu’elle auroit appris de 
+						<lb/>l’anciain <persName>Tenguilli</persName>, qui en a usé a l’endroict d’elle mesme, 
+						<lb/>luy commandant en outre de prier cinq <foreign xml:lang="la"><term ref="lem016771">Pater</term></foreign> et cinq <foreign xml:lang="la"><term ref="lem016772">Ave Maria</term></foreign> 
+						<lb/>en l’honneur des cinq playes de <persName ref="per000353">Jesus Christ</persName>, duquel 
+							<lb/>remede elle a usé a l’endroict de sa <term ref="lem015619.02">commere</term> de <placeName>Beauried</placeName><note>Die Zuordnung dieses Orts ist unklar. Vielleicht ist <placeName ref="loc009264">Schönried</placeName> gemeint.</note>.  
+						<lb/>L’anciaine <persName>Belfrarina</persName> seroit aussy venue a elle, la reque<lb break="no"/>ster de luy guarir une fille mallade, a laquelle 
+						<lb/>elle respondit que ladite fille seroit bientost guarie, mais 
+							<lb/> qu’elle n’appliqua aucun remede.</seg> <seg>Sy ist dry mal mitt dem klein<lb break="no"/>nen <term ref="lem018287">stein</term> <term ref="lem016150">uffgezogen</term> worden, <term ref="lem014671.02">beherttet</term> unndt <term ref="lem015184">ersetzt</term>, man 
+						<lb/>thüe ihren unrecht. Bittet umb gnad.</seg></p>
+					</div>
+				</body>
+				
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+
+<?oxy_options track_changes="on"?>

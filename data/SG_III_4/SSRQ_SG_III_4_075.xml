@@ -1,0 +1,861 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die
+          Landschaften und Landstädte, Band 4: Die Rechtsquellen der Grafschaft Werdenberg,
+          Freiherrschaft Sax-Forstegg und Herrschaft Gams</title>
+            <respStmt>
+    <persName>Sibylle Malamud</persName>
+    <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+    <persName>Sibylle Malamud</persName>
+    <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-08-19"/>
+            <date type="print"/>
+            <availability><p xml:id="facs">Sibylle Malamud</p></availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+    <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+    <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_075</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+    <msIdentifier>
+       <idno source="https://query-staatsarchiv.lu.ch/detail.aspx?ID=1191841">StALU URK 207/2988</idno>
+    </msIdentifier>
+    <head>Rodel über die Einkünfte der zum Schloss Werdenberg gehörenden Güter und Rechte</head>
+    <msContents>
+       <summary>
+          <p>Es werden 1. die Abgaben, Renten und Zinsen der Grafschaft Werdenberg, 2. die Höfe, die zu Buchs gehören, 3. die Zehnten in Buchs, 4. die Höfe, die zu Grabs gehören, 5. die Zehnten in Grabs und 6. weitere Herrschaftsrechte, wie Fischenz, Kollaturen, Holzlieferungen, Frondienste etc., aufgezählt.</p>
+       </summary>
+       <msItem>
+          <textLang>Deutsch</textLang>
+          <filiation type="original">
+             <origDate from="1485-01-01" to="1485-12-31">samstag vor allerheiligen?</origDate>
+             <idno>StALU URK 207/2988</idno>
+          </filiation>
+          <filiation type="current">Aufzeichnung, Heft (18 Seiten)<origDate from="1485-01-01" to="1485-12-31"/>
+          </filiation>
+       </msItem>
+    </msContents>
+    <physDesc>
+       <objectDesc>
+          <supportDesc>
+             <support>
+                <material>Papier</material>
+             </support>
+             <extent>
+                <dimensions type="leaves">
+        <height unit="cm" quantity="20.0"/>
+        <width unit="cm" quantity="14.5"/>
+                </dimensions>
+             </extent>
+          </supportDesc>
+       </objectDesc>
+    </physDesc>
+    <history>
+       <origin>
+          <origDate from="1485-01-01" to="1485-12-31">samstag vor allerheiligen?</origDate>
+       </origin>
+    </history><additional>
+       <listBibl>
+          <head>Editionen</head>
+          <bibl><ref target="http://permalink.snl.ch/bib/chbsg000052680">Gabathuler 2007b</ref>, S. 217–218</bibl>
+       </listBibl>
+    </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+    <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+    <term ref="key000122">Urbar</term>
+    <term ref="key000231">Verkauf</term>
+    <term ref="key000205">Einkommen</term>
+    <term ref="key000154">Zins</term>
+    <term ref="key000049">Zehnt</term>
+    <term ref="key000479">Frondienst</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="1" facs="StALU_URK_207-2988_S1"/>
+    <div n="1" org="uniform" sample="complete">
+                  <head>
+                     <lb/>Item hienach volgend alle <term ref="lem000339">nu̍tz</term>, <lb/><term
+                        ref="lem002834">rennt</term> und <term ref="lem000340">gu̇lt</term>, so zu
+                     der graf<lb break="no"/>schafft, dem <term ref="lem000376">sloß</term>
+                     <placeName ref="loc000015">Werdenberg</placeName>
+                     <del rend="strikethrough"><unclear>und</unclear></del>
+                     <lb/>gehört</head>
+                  <p>
+                     <seg>
+                        <lb/><add place="left margin">Iͦ</add> Item von der <term ref="lem002710.03"
+                           >lanndtstūr</term> zu <placeName ref="loc000440">Werdenberg</placeName>
+                        <lb/>gefalt ainer herschafft <date dur="R/P1Y">jarlich</date>
+                        <measure type="currency" quantity="165" unit="lb">c <lb/>und lxv lib
+                           ₰</measure>.</seg>
+                     <seg>
+                        <lb/><add place="left margin">Iͦ</add> Item von der <term ref="lem012836.03"
+                           >burgerstūr</term>
+                        <measure type="currency" quantity="38" unit="lb">xxxviij lib
+                        ₰</measure>.</seg>
+                     <pb n="2" facs="StALU_URK_207-2988_S2_3"/>
+                     <seg>
+                        <lb/>Item <term ref="lem010197">lehengelt</term> und <term
+                           ref="lem000375.05">huͦbgelt</term>
+                        <measureGrp><measure type="currency" quantity="20" unit="lb">xx lib
+                              ₰</measure>
+                           <measure type="currency" unit="ß" quantity="5">v 
+                           ₰</measure></measureGrp>.</seg>
+                     <seg>
+                        <lb/><add place="left margin">Iͦ</add> Item <term ref="lem014729.02"
+                           >pfandstūr</term>
+                        <measure type="currency" quantity="6" unit="lb">vj lib ₰</measure>.</seg>
+                     <seg>
+                        <lb/><add place="left margin">Iͦ</add> Item der <orgName ref="org000157"
+                           >Riser</orgName>
+                        <term ref="lem000209.28">stūr</term> und <persName ref="per004821a">Hans
+                           Schmid</persName>s <lb/>erben stūr by <measure type="currency"
+                           quantity="16" unit="ß">xvj  ₰</measure>.</seg>
+                     <seg>
+                        <lb/><add place="left margin">Iͦ</add> Item <term ref="lem000610.01">junger
+                           zehend</term>en an gelt <measureGrp><measure type="currency"
+                              quantity="2.5" unit="lb">iiɉ lib</measure>
+                           <measure type="currency" unit="ß" quantity="3">iij 
+                           ₰</measure></measureGrp>.</seg>
+                     <seg>
+                        <lb/>Item vom <term ref="lem014550.02">kalwer zechend</term>en <measure
+                           type="volume" quantity="359" unit="Mass" commodity="lard">ccclviiij
+                           maß</measure>.</seg>
+                     <seg>
+                        <lb/>Item von der <term ref="lem000306">alpp</term>
+                        <placeName ref="loc006033">Arin</placeName>
+                        <measure type="volume" quantity="38" unit="Mass" commodity="lard">xxxviij
+                           maß <lb/><term ref="lem000208.02">schmaltz</term></measure> und <num
+                           value="10">x</num>
+                        <term ref="lem000054.04">kaͤß</term>.</seg>
+                     <pb n="3" facs="StALU_URK_207-2988_S2_3"/>
+                     <seg>
+                        <lb/><del rend="strikethrough">Item von <placeName ref="loc007103.01"
+                              >Färlinshof</placeName> iiij kaͤß.</del>
+                     </seg>
+                     <seg>
+                        <lb/>Item von <persName ref="per004822a">Caspar Schnider</persName>s knaben
+                        ab <persName ref="per004820a">Guͦlli</persName>s <term ref="lem000102.01"
+                           >huͦb</term>
+                        <lb/><num value="2">ij</num> käß.</seg>
+                     <seg>
+                        <lb/>Item <measure type="undefined" quantity="3" commodity="wine"
+                           unit="Fuder">iij fuͦder win</measure> vom zechenden.</seg>
+                     <seg>
+                        <lb/>Item <num value="200">zwayhundert</num>
+                        <term ref="lem000380">vaßnachthennen</term> un<lb break="no"
+                        />gevarlich.</seg>
+                     <seg>
+                        <lb/>Item uß der alpp <placeName ref="loc006101.02">Martschuͤl</placeName>
+                        <measure type="volume" quantity="18" unit="Viertel" commodity="lard">xviij
+                           fiertal <lb/>schmaltz</measure> und <num value="80">lxxx</num> kaͤß und
+                           <term ref="lem000139">ziger</term>
+                        <num value="10">x</num>.</seg>
+                     <seg>
+                        <lb/>Item das <term ref="lem012483.06">lōpmal</term> in der herschafft
+                        ūberal <lb/>trifft ungevarlich <measure type="volume" quantity="8"
+                           unit="Viertel" commodity="lard">viij fiertal smaltz </measure> und <num
+                           value="16">xvj</num> kaͤß.</seg>
+                     <pb n="4" facs="StALU_URK_207-2988_S4_5"/>
+                     <seg>
+                        <lb/>Item <measure type="volume" quantity="16" unit="Mass" commodity="lard"
+                           >xvj maß smaltz</measure> von <placeName ref="loc007009.02"
+                           >Montenschin</placeName>.</seg>
+                     <seg>
+                        <lb/>Item <measure type="volume" quantity="0.5" unit="Viertel"
+                           commodity="lard">ain halb viertal smaltz</measure> von <placeName
+                           ref="loc007104.02"><orgName ref="org000718">Swendiner</orgName>
+                           <lb/><term ref="lem014730.02">weglȯsi</term></placeName>.</seg>
+                     <seg>
+                        <lb/>Item <measure type="volume" quantity="4" unit="Mass" commodity="lard"
+                           >iiij maß</measure> von <placeName ref="loc007105.02"
+                           >Zuͦliswendi</placeName>.</seg>
+                     <seg>
+                        <lb/>Item den <placeName ref="loc007010.01">Grossen Graben</placeName>, da
+                        der <term ref="lem000500">stadel</term>
+                        <lb/>inn stāt.</seg>
+                     <pb n="5" facs="StALU_URK_207-2988_S4_5"/>
+                     <seg>
+                        <lb/>Item die <term ref="lem001121">bomgarten</term> und <term
+                           ref="lem001744">kruttgarten</term>
+                        <orgName ref="org000158">von <lb/>Griffensee</orgName> erkofft.</seg>
+                     <seg>
+                        <lb/>Item der <placeName ref="loc007011.02">Wingart</placeName> zum
+                           <placeName ref="loc006060">Altendorff</placeName> uff <lb/>dem <placeName
+                           ref="loc007012.02">Buͤl</placeName>.</seg>
+                     <seg>
+                        <lb/>Item der <placeName ref="loc007013.02">Under Grab</placeName> und das
+                           <placeName ref="loc007014.02">Stroͤwimad</placeName>
+                        <lb/>daran gelegen.</seg>
+                     <seg>
+                        <lb/>Item <orgName ref="org001926.01">die von <placeName ref="loc000228"
+                              >Sant Johann</placeName></orgName>
+                        <measure unit="lb" type="currency" quantity="3">iij lib</measure> von dem
+                        <lb/>gehow uß dem <placeName ref="loc007015.02">Grapser Wald</placeName>.
+                        Item me <lb/><measure unit="ß" type="currency" quantity="10"
+                           origin="Konstanz">x </measure> von <placeName ref="loc007016.02">Fryen
+                           Alpp</placeName> Costentz werung. <lb/>Item <measure unit="ß"
+                           type="currency" quantity="10" origin="Konstanz">x  Costentzer
+                           ₰</measure> von der <placeName ref="loc007113.02"
+                        >Gluͦtlösin</placeName>.</seg>
+                     <pb n="6" facs="StALU_URK_207-29881_S6_7"/>
+                     <seg>
+                        <lb/>Item die <placeName ref="loc007017.01">Grossen Wisen</placeName> uff
+                           <placeName ref="loc006072">Buchsser Wisen</placeName>.</seg>
+                     <seg>
+                        <lb/>Item des <placeName ref="loc007018.02">Ochsner
+                        Wislin</placeName>.</seg>
+                     <seg>
+                        <lb/>Item des <placeName ref="loc007019.02">Zipffels Wis</placeName>.</seg>
+                     <seg>
+                        <lb/>Item die <measure quantity="5" type="area" unit="Mannmad"
+                           commodity="marsh">fu̍nff mannmad riets</measure> uff dem <lb/><placeName
+                           ref="loc006076.03">Wyten Ried</placeName>.</seg>
+                     <seg>
+                        <lb/>Item <orgName ref="org000158">Griffensee</orgName>s lu̍t sind von im
+                        erkofft <lb/>umb <measure unit="fl" type="currency" quantity="300"
+                           origin="Rh">iij<hi rend="sup">c</hi> Rinisch gulden</measure>.</seg>
+                     <seg>
+                        <lb/>Item das <term ref="lem002234">fach</term> am <placeName
+                           ref="loc000644">Rin</placeName> giltet <date dur="R/P1Y">alle jar</date>
+                        <lb/><measure unit="fl" type="currency" quantity="10">x
+                        gulden</measure>.</seg>
+                  </p>
+               </div>
+               <pb n="7" facs="StALU_URK_207-2988_S6_7"/>
+    <div n="2" org="uniform" sample="complete">
+       <head>Nota dis sind die <term ref="lem000169.12">hoͤf</term>, die gen <placeName ref="loc000198">Bux</placeName>
+          <lb/>wert hinuß gehoͤrendt</head>
+       <p>
+                     <seg>
+                        <lb/>Item <persName ref="per004823a">Herman Senn</persName>en sūn, die
+                           <orgName ref="org000841">Hartman</orgName>
+                        <lb/>und <persName ref="per004824a">Jos Now</persName> gend von <placeName
+                           ref="loc006052.03">Appenzellers Hof</placeName>
+                        <lb/><measure type="volume" quantity="19.5" unit="Scheffel"
+                           commodity="wheat">xviiiɉ schoͤffil waisen</measure>, <num value="9"
+                           >viiij</num> huͤnr und <lb/><del rend="strikethrough">v</del>
+                        <num value="90">lxxxx</num> ayr.</seg>
+                     <seg>
+                        <lb/>Item <persName ref="per004823a">Herman Senn</persName>en su̍n,
+                           <persName ref="per004825a">Claus Rorer</persName>
+                        <lb/>vom <placeName ref="loc006060.02">Altendorff</placeName>, <persName
+                           ref="per004826a">Walti von Rotenberg</persName>
+                        <lb/>und <orgName ref="org000165">Gorff</orgName> gend von <placeName
+                           ref="loc006050.03">Montanen Hof</placeName>
+                        <lb/><measure type="volume" quantity="11" unit="Scheffel" commodity="wheat"
+                           >xj schoffil waisen</measure>, <num value="11">xj</num>
+                        <term ref="lem000116.07">huͤner</term> und hundert <lb/><term
+                           ref="lem000118.07">air</term>.</seg>
+                     <seg>
+                        <lb/>Item <persName ref="per004827">Haintz</persName>, kurtz Uͦli, git von
+                        dem hoͤflin <lb/>genant des von <placeName ref="loc006055.02">Ort
+                           Guͦt</placeName>
+                        <measure type="volume" quantity="4" unit="Scheffel" commodity="wheat">iiij
+                           schoffil</measure>
+                        <lb/>minder <measure type="volume" quantity="1" unit="Viertel"
+                           commodity="wheat">j <choice>
+                              <abbr>fl</abbr>
+                              <expan>fiertel</expan>
+                           </choice> waisen</measure> und ij huͤnr.</seg>
+                     <pb n="8" facs="StALU_URK_207-29881_S8_9"/>
+                     <seg>
+                        <lb/>Item <term ref="lem014548.02">techsel</term>
+                        <persName ref="per004768a">Claus Meli</persName>n und <persName
+                           ref="per004829a">Hans Mont<lb break="no"/>lorentscher</persName> gend von
+                        aim vierdentail <lb/>des grossen hofs genannt <placeName ref="loc006057.01"
+                           >Oͤwlers Hof</placeName> oder <lb/><placeName ref="loc006058.03"
+                           >Mayerhof</placeName>
+                        <measure type="volume" quantity="10" unit="Scheffel" commodity="wheat">x
+                           schoffil waisen</measure>, x huͤnr <lb/>und <num value="50">l</num>
+                        ayer.</seg>
+                     <seg>
+                        <lb/>Item <persName ref="per004748">Sigmund Swendiner</persName>, <persName
+                           ref="per004830a">Steffan Waibil</persName>
+                        <lb/>und <persName ref="per004831a">Marti Pfiffer</persName> gend von aim
+                           vier<lb break="no"/>dentail des <choice>
+                           <abbr>obgnten</abbr>
+                           <expan>obgenannten</expan>
+                        </choice> hofs <measure type="volume" quantity="10" unit="Scheffel"
+                           commodity="wheat">x schoͤffil <lb/>waisen</measure>, x huͤnr und l
+                        air.</seg>
+                     <seg>
+                        <lb/>Item <persName ref="per004832a">Ludwig Gussentzer</persName>, <persName
+                           ref="per004833a">Sigmund Tanner</persName>, <lb/><persName
+                           ref="per004834a">Walti Schwitzer</persName>, <persName ref="per004767a"
+                           >Hans von Rotenberg</persName>
+                        <lb/>und <persName ref="per004835a">Uͦlrich Windegger</persName> gend von
+                        dem <lb/>hof genant des <placeName ref="loc006051.02">Kurtzen
+                           Hof</placeName>
+                        <measureGrp><measure type="volume" quantity="10" unit="Scheffel"
+                              commodity="wheat">x schoͤffil <lb/>waisen</measure> minder <measure
+                              type="volume" quantity="1" unit="Viertel" commodity="wheat">j <choice>
+                                 <abbr>fl</abbr>
+                                 <expan>fiertel</expan>
+                              </choice></measure></measureGrp>, x huͤnr und <lb/>lxxxx <term
+                           ref="lem000118.05">ayer</term>.</seg>
+                     <pb n="9" facs="StALU_URK_207-2988_S8_9"/>
+                     <seg>
+                        <lb/>Item <persName ref="per004833a">Sigmund Tanner</persName> git von dem
+                        guͤtlin, <lb/>das der <persName ref="per004836a">Kobler</persName> vor zyten
+                        gebuwen hat, <measure type="volume" quantity="10" unit="Viertel"
+                           commodity="wheat">x <lb/>fiertal waisen</measure>.</seg>
+                     <seg>
+                        <lb/>Item klain <persName ref="per004837a">Hennis</persName> erben und
+                           <persName ref="per004765a">Burckart Ger</persName>
+                        <lb/>gend von dem guͦt und hof genannt <placeName ref="loc006054.03">Oswaltz
+                           <lb/>Hof</placeName>
+                        <measure type="volume" quantity="10" unit="Scheffel" commodity="wheat">x
+                           schoͤffil waisen</measure> minder <measure type="volume" quantity="1"
+                           unit="Viertel" commodity="wheat">j fiertal</measure>, <lb/>och mer x
+                        huͤnr und l ayr.</seg>
+                     <seg>
+                        <lb/>Item von <placeName ref="loc006053.03">Lugmans Hof</placeName>, den
+                           <persName ref="per004838a">Sigmund Graͤsli</persName>
+                        <lb/>und <persName ref="per004839a">Haintz Ger</persName> hānd, davon gend
+                        si <measure type="volume" quantity="6" unit="Scheffel" commodity="wheat">vj
+                           <lb/>schoͤffil waisen</measure>, vj huͤnr und xl ayer.</seg>
+                     <seg>
+                        <lb/>Item <persName ref="per004840a">Gili</persName> von <placeName
+                           ref="loc007020.01">Glat</placeName> git von <placeName ref="loc006056.03"
+                           >Wigands Hof</placeName>
+                        <lb/><measure type="volume" quantity="5" unit="Scheffel" commodity="wheat">v
+                           schoͤffil waisen</measure>, v huͤnr und xxv ayer.</seg>
+                     <seg>
+                        <lb/>Item <persName ref="per004841a">Ruͤdi Walthier</persName> git von
+                           <placeName ref="loc006056">Wigands Hof</placeName>
+                        <lb/><measure type="volume" quantity="5" unit="Scheffel" commodity="wheat">v
+                           schoffil waisen</measure>, v huͤnr und xxv ayer.</seg>
+                     <seg>
+                        <lb/>Item <persName ref="per004758">Fluri Now</persName> und sin <term
+                           ref="lem000083.04">swester</term>
+                        <persName ref="per004842a">Nesa Ger</persName>in <lb/>gend von aim tail
+                           <placeName ref="loc006057.03">Oͤwelers Hof</placeName>
+                        <measure type="volume" quantity="5" unit="Scheffel" commodity="wheat">v
+                           schoͤffil <lb/>waisen</measure>, v hūnr und xxv ayr.</seg>
+                     <pb n="10" facs="StALU_URK_207-2988_S10_11S"/>
+                     <seg>
+                        <lb/>Item das hoͤflin ze <placeName ref="loc000199.03">Flāt</placeName>, ist
+                        vormalz <persName ref="per004852a">Zyen <lb/>Clas</persName>en, glich halbs
+                        und des <persName ref="per004843a">Rainer</persName>s kind <lb/>och halb
+                        gelihen und gend davon <lb/><measure type="volume" quantity="5"
+                           unit="Scheffel" commodity="wheat">v schoͤffil waisen</measure>, v huͤnr
+                        und l ayer.</seg>
+                     <seg>
+                        <lb/>Item <persName ref="per004844a">Burckart Scherer</persName> git von der
+                           <term ref="lem000072.08">mu̍li</term>n <lb/>zum <placeName
+                           ref="loc006061">Altendorff</placeName>
+                        <measure type="volume" quantity="9.5" unit="Scheffel" commodity="wheat">
+                           schoͤffil waisen</measure>.</seg>
+                     <seg>
+                        <lb/>Item <persName ref="per004845a">Caspar Senn</persName>en erben gend
+                           <measure type="volume" quantity="5" unit="Scheffel" commodity="wheat">v
+                           schoffil <lb/>waisen</measure> von <placeName ref="loc006057">Oͤwelers
+                           Hof</placeName> aim tail, v <lb/>huͤnr und xxv ayer.</seg>
+                     <seg>
+                        <lb/>Item von der mūlin am <placeName ref="loc000709.03"
+                           >Sevellerberg</placeName>
+                        <measure type="volume" quantity="3" unit="Viertel" commodity="wheat">iij <choice>
+                              <abbr>fl</abbr>
+                              <expan>fiertel</expan>
+                           </choice>
+                           <lb/>waisen</measure>.</seg>
+                     <seg>
+                        <lb/>Item das <placeName ref="loc007021.02">Schu̍ssel lehen</placeName> gilt
+                           <measure type="volume" quantity="7" unit="Scheffel" commodity="wheat">vij
+                           schoͤffil waisen</measure>.</seg>
+                     <seg>
+                        <lb/>Item <placeName ref="loc007022.02">Zollers hoͤfli</placeName>n gilt
+                           <measure type="volume" quantity="2" unit="Scheffel" commodity="wheat">ij
+                           schoͤffil waisen</measure>.</seg>
+                     <pb n="11" facs="StALU_URK_207-2988_S10_11"/>
+                     <seg>
+                        <lb/>Item <measure type="area" unit="Mitmal" quantity="3" commodity="field"
+                           >iij mittmal acker</measure>, die die <orgName ref="org000841"
+                           >Hartman</orgName>
+                        <lb/>und die <orgName ref="org000157">Riser</orgName> inne hand, gend
+                           <measure type="volume" quantity="3" unit="Viertel" commodity="wheat">iij <choice>
+                              <abbr>fl</abbr>
+                              <expan>fiertel</expan>
+                           </choice> waisen</measure>, <lb/>hat jetz junckher <choice>
+                           <abbr>Hain</abbr>
+                           <expan>Hainrich</expan>
+                        </choice>.</seg>
+                  </p>
+    </div>
+    <div n="3" org="uniform" sample="complete">
+       <head>Nota die zehenden gen <placeName ref="loc000198">Bux</placeName> hinuß</head>
+       <p>
+                     <seg>
+                        <lb/>Item der zechend ze <placeName ref="loc000198">Bux</placeName> git
+                           <measure type="volume" quantity="15" unit="Scheffel" commodity="wheat">xv
+                           schoffil waisen</measure>
+                        <lb/>und <measure type="volume" quantity="18" unit="Scheffel"
+                           commodity="grain">xviij schoffil korn</measure> und <measure
+                           type="volume" quantity="1" unit="Scheffel"  commodity="millet">j schoffil
+                              <lb/><term ref="lem004771.03">vench</term> und <term
+                              ref="lem002940.02">hirß</term></measure>.</seg>
+                     <seg>
+                        <lb/>Item der <term ref="lem000073">zechend</term> ze <placeName
+                           ref="loc000428.07">Raͤfis</placeName> gilt <measure type="volume"
+                           quantity="31" unit="Scheffel" commodity="wheat">xxxj schoͤffil
+                           <lb/>waisen</measure> und <measure type="volume" quantity="43"
+                           unit="Scheffel" commodity="grain">xxxxiij schoͤffil korn</measure> und
+                           <lb/><measure type="volume" quantity="6" unit="Viertel"
+                              commodity="millet">vj fiertal vench und hirsch</measure>.</seg>
+                     <seg>
+                        <lb/>Item der zehenden zu <placeName ref="loc000708">Sevellen</placeName>
+                        gilt <measure type="volume" quantity="21" unit="Scheffel" commodity="wheat"
+                           >xxj <lb/>schoffil waisen</measure>, <measure type="volume"
+                           quantity="45.5" unit="Scheffel" commodity="grain">xlvɉ schoffil
+                           korn</measure> und <lb/><measure type="volume" quantity="2.5"
+                              unit="Scheffel" commodity="millet">iiɉ schoͤffil vench und
+                           hirsch</measure>.</seg>
+          <pb n="12" facs="StALU_URK_207-2988_S12_13"/>
+                     <seg>
+                        <lb/>Item der zechend am <placeName ref="loc006062.02">Buxerberg</placeName>
+                        git <measure type="volume" quantity="3" unit="Scheffel" commodity="wheat"
+                           >iij <lb/>schoͤffil waisen</measure> und <measure type="volume"
+                           quantity="9" unit="Scheffel" commodity="grain">viiij schoffil
+                           <lb/>korn</measure> und <measure type="volume" quantity="1"
+                           unit="Scheffel" commodity="barley">j schoffil gersten</measure>, davon
+                           ge<lb break="no"/>hoͤrt aim <term ref="lem000678.09">lutpriester</term>
+                        zu <placeName ref="loc000198">Bux</placeName> sin tail.</seg>
+                     <seg>
+                        <lb/>Item der zechend ze <placeName ref="loc006096.01">Quartell</placeName>
+                        gilt <lb/><measure type="volume" quantity="5" unit="Scheffel"
+                           commodity="wheat">v schoffil waisen</measure> und <measure type="volume"
+                           quantity="16" unit="Scheffel" commodity="grain">xvj schoͤffil <lb/>korn
+                           und haber</measure>, <measure type="volume" quantity="1" unit="Scheffel"
+                           commodity="barley">j schoffil gersten</measure> und <lb/><measure
+                           type="volume" quantity="1" unit="Viertel" commodity="bean">j <choice>
+                              <abbr>fl</abbr>
+                              <expan>fiertel</expan>
+                           </choice> bona</measure>.</seg>
+                     <seg>
+                        <lb/>Item die hanf zechenden ze <placeName ref="loc000198">Bux</placeName>,
+                        <lb/>ze <placeName ref="loc000428.08">Rafis</placeName> und ze <placeName
+                           ref="loc000708">Sevellen</placeName> geltend <lb/><measure type="weight"
+                           quantity="12.5" unit="Pfund" commodity="hemp">xiiɉ lib
+                        hanf</measure>.</seg>
+                  </p>
+    </div>
+               <pb n="13" facs="StALU_URK_207-2988_S12_13"/>
+    <div n="4" org="uniform" sample="complete">
+       <head>Nota die <term ref="lem000169">hof</term> gen <placeName ref="loc000335">Graps</placeName> hinuß</head>
+       <p>
+                     <seg>
+                        <lb/>Item von dem hof, den die <orgName ref="org001895">Schäper</orgName>
+                        gehebt <lb/>hand, gilt <measure type="volume" quantity="9" unit="Scheffel"
+                           commodity="wheat">viiij schoͤffil waisen</measure>.</seg>
+                     <seg>
+                        <lb/>Item <persName ref="per004739a">Uͤli Vārer</persName> und sin
+                        gemainder gend von <lb/>dem <placeName ref="loc006019.03"
+                           >Kelnhof</placeName>, den <persName ref="per004846a">Waͤlti
+                           Berger</persName> vormalz <lb/>gehebt hat, <measure type="volume"
+                           quantity="4" unit="Scheffel" commodity="wheat">iiij schoffil
+                           waisen</measure>.</seg>
+                     <seg>
+                        <lb/>Item <persName ref="per004847a">Haini Lipuner</persName> und <persName
+                           ref="per004848">Caspar Buschell</persName>
+                        <lb/>gend von des <placeName ref="loc006029.03">Schinhuͦts Hof</placeName>
+                        <measure type="volume" quantity="2.5" unit="Scheffel" commodity="wheat">iiɉ
+                           schoffil <choice>
+                              <abbr>w</abbr>
+                              <expan>waisen</expan>
+                           </choice></measure>.</seg>
+                     <seg>
+                        <lb/>Item <persName ref="per004733a">Michel Hilti</persName>, waibel, git
+                        von <placeName ref="loc006023.03">Berwarts <lb/>Hof</placeName>
+                        <measure type="volume" quantity="3" unit="Scheffel" commodity="wheat"><del
+                              rend="strikethrough">j</del> iij schoffil waisen</measure>.</seg>
+                     <seg>
+                        <lb/>Item <persName ref="per004849a">Hans Windegger</persName> enot dem bach
+                        git <lb/>von <placeName ref="loc006028.03">Uͤdelhilten Hof</placeName>, so
+                        jetz <persName ref="per004718a">Uͦlrichen Schaͤper</persName>,
+                           <lb/><persName ref="per004850a">Joͤrg</persName>en sun, gelyhen ist,
+                           <measure type="volume" quantity="7" unit="Viertel" commodity="wheat">vij
+                           fiertel waisen</measure>.</seg>
+                     <seg>
+                        <lb/><del rend="strikethrough">Item <persName ref="per004851a">Hans
+                              Raͤß</persName> git von ainer hofstatt ze <lb/><placeName
+                              ref="loc006017.02">Limps</placeName>
+                           <measure type="volume" quantity="1" unit="Viertel" commodity="wheat">j <choice>
+                                 <abbr>fl</abbr>
+                                 <expan>fiertel</expan>
+                              </choice> waisen</measure>.</del></seg>
+                     <seg>
+                        <lb/>Item der <term ref="lem010698">alt</term>
+                        <term ref="lem000043.13">waibil</term> git von <measure type="area"
+                           unit="Mitmal" quantity="10" commodity="field">x mittmal
+                           <lb/>aker</measure> ze <placeName ref="loc006017.02">Limps</placeName> ob
+                        dem <term ref="lem000699">brunnen</term>
+                        <del rend="strikethrough">iij sch w</del>
+                        <lb/><measure type="volume" quantity="2.5" unit="Scheffel" commodity="wheat"
+                           >iiɉ <choice>
+                              <abbr>sch</abbr>
+                              <expan>schöffel</expan>
+                           </choice>
+                           <choice>
+                              <abbr>w</abbr>
+                              <expan>waisen</expan>
+                           </choice></measure>.</seg>
+                     <pb n="14" facs="StALU_URK_207-2988_S14_15"/>
+                     <seg>
+                        <lb/>Item <persName ref="per004853a">Claus Spitz</persName> und <persName
+                           ref="per004854a">Ruͤdi Gussentzer</persName>
+                        <lb/>gend von des <placeName ref="loc007036.02">Wencken Guͦt</placeName>
+                        <measure type="volume" quantity="5" unit="Viertel" commodity="wheat">v <choice>
+                              <abbr>fl</abbr>
+                              <expan>fiertel</expan>
+                           </choice>
+                           <choice>
+                              <abbr>w</abbr>
+                              <expan>waisen</expan>
+                           </choice></measure>.</seg>
+                     <seg>
+                        <lb/>Item <persName ref="per004855a">Uͤli Jaͤger</persName> git von des
+                           <placeName ref="loc006051.03">Kurtzen Höfli</placeName>, <lb/>das
+                           <persName ref="per004856">Jos Hager</persName> vormalz inngehept hat,
+                           <lb/><measure type="volume" quantity="4" unit="Scheffel"
+                           commodity="wheat">iiij schoͤffil</measure> minder <measure type="volume"
+                           quantity="1" unit="Viertel" commodity="wheat">j fiertal
+                        waisen</measure>.</seg>
+                     <seg>
+                        <lb/>Item <persName ref="per004857">Hainrich Berger</persName>, der <term
+                           ref="lem002547.08">schuͦchmacher</term>, git <lb/>von ainer <term
+                           ref="lem000170">hofstatt</term> ze <placeName ref="loc000335"
+                           >Graps</placeName>
+                        <measure type="volume" quantity="1" unit="Viertel" commodity="wheat">j <choice>
+                              <abbr>fl</abbr>
+                              <expan>fiertel</expan>
+                           </choice> waisen</measure>.</seg>
+                     <seg>
+                        <lb/>Item <persName ref="per004858a">Jacob Schūch</persName> git von der
+                           <placeName ref="loc007039.02">Obren Mūli</placeName>n <lb/>ze <placeName
+                           ref="loc007037.01">Graps</placeName>
+                        <measure type="volume" quantity="13" unit="Scheffel" commodity="wheat"
+                                 ><subst><del rend="strikethrough">xv</del>
+                              <add place="above">xiij</add></subst> schoffil waisen</measure>.</seg>
+                     <seg>
+                        <lb/>Item die <placeName ref="loc007764.02">Under <term ref="lem000072"
+                              >Mu̍li</term></placeName>, die <persName ref="per008545a"
+                           >Thoͤni</persName>, <term ref="lem001743">mu̇ller</term>, <lb/>inhends
+                        hat, by <measure type="currency" quantity="8" unit="lb">viij</measure> oder
+                           <measure type="currency" quantity="9" unit="lb">viiij lib ₰</measure>,
+                        <lb/>hat junckher <choice>
+                           <abbr>Hain</abbr>
+                           <expan>Hainrich</expan>
+                        </choice><note anchored="true">Hier ist <persName ref="per004861">Heinrich
+                              Montforter</persName> gemeint. Er besitzt zahlreiche Güter in der
+                           Grafschaft Werdenberg, darunter auch die <placeName ref="loc007764">Under
+                              Müli</placeName> von Grabs, sowie ein Haus mit Hofstatt, Stall und
+                           Garten in Buchs. Er ist ein unehelicher Halbbruder von Graf <persName
+                              ref="per000884">Wilhelm VIII. von Montfort-Tettnang</persName>, Herr
+                           von Werdenberg. Dieser hat ihm <date when="1472">1472</date> zahlreiche
+                           Güter in der Grafschaft zu <term ref="key000818">Leibding</term>
+                           übertragen (<ref
+                              target="https://archivverzeichnis.gl.ch/home/#/content/b7b1c7b4b5bd4f8ca0a9391c17614c52"
+                              >LAGL AG III.2411:002</ref>). Allerdings muss er <date when=" 1492"
+                              >1492</date> zugunsten von Luzern auf all seine Güter in Werdenberg
+                           verzichten, nachdem er vom Luzerner Landvogt in Werdenberg wegen <term
+                              ref="key000959">Notzucht</term> gefangengesetzt und  auf <term
+                              ref="key000480">Urfehde</term> freigelassen worden ist (<ref
+                              target="https://query-staatsarchiv.lu.ch/detail.aspx?id=1109272">StALU
+                              URK 210/3040</ref>; vgl. dazu auch <bibl><ref
+                                 target="http://permalink.snl.ch/bib/chbsg000141029">Burmeister
+                                 1991</ref>, S. 25</bibl>; <bibl><ref
+                                 target="http://permalink.snl.ch/bib/chbsg000083181">Burmeister
+                                 1996</ref>, S. 112</bibl>).</note>.</seg>
+                     <seg>
+                        <lb/>Item das hoͤflin, den <persName ref="per004859a">Uͦlrich
+                           Wintzer</persName> ge<lb break="no"/>hebt hat und jetz <persName
+                           ref="per004860a">Uͦlrich Hȧrtz</persName> hāt, <measure type="volume"
+                           quantity="3" unit="Scheffel" commodity="wheat">
+                           <del rend="strikethrough">j</del> iij <lb/>schoffil
+                        waisen</measure>.</seg>
+                  </p>
+    </div>
+               <pb n="15" facs="StALU_URK_207-2988_S14_15"/>
+    <div n="5" org="uniform" sample="complete">
+       <head>Nota dis sind die <term ref="lem000073">zechend</term>en gen <lb/>
+          <placeName ref="loc000335">Graps</placeName> hinuß</head>
+       <p>
+                     <seg>
+                        <lb/>Item der zechend in der <term ref="lem000202.04">ebny</term> ze
+                           <placeName ref="loc000335">Graps</placeName> gilt <lb/><measure
+                           type="volume" quantity="39" unit="Scheffel" commodity="wheat">xxxviiij
+                           schoͤffil waisen</measure> und <measure type="volume" quantity="95.5"
+                           unit="Scheffel" commodity="grain">lxxxxvɉ <choice>
+                              <abbr>sch</abbr>
+                              <expan>schöffel</expan>
+                           </choice>
+                           <lb/>korn</measure> und <measure type="volume" quantity="2"
+                           unit="Viertel" commodity="millet">ij fiertal vench</measure>.</seg>
+                     <seg>
+                        <lb/>Item der zechend <placeName ref="loc006026.03">Anpilols</placeName>
+                        gilt <measure type="volume" quantity="5" unit="Scheffel" commodity="wheat">v <choice>
+                              <abbr>sch</abbr>
+                              <expan>schöffel</expan>
+                           </choice> waisen</measure>
+                        <lb/>und <measure type="volume" quantity="14" unit="Scheffel"
+                           commodity="grain">xiiij <choice>
+                              <abbr>sch</abbr>
+                              <expan>schöffel</expan>
+                           </choice> bergkorn</measure> und <measure type="volume" quantity="5"
+                           unit="Scheffel" commodity="barley">v <choice>
+                              <abbr>sch</abbr>
+                              <expan>schöffel</expan>
+                           </choice> gersten</measure>
+                        <lb/>und <measure type="volume" quantity="1" unit="Viertel" commodity="bean"
+                           >j <choice>
+                              <abbr>fl</abbr>
+                              <expan>fiertel</expan>
+                           </choice> bona</measure>.</seg>
+                     <seg>
+                        <lb/>Item der zechend ze <placeName ref="loc007009.02"
+                           >Montenschin</placeName> und ze <lb/><placeName ref="loc007040.02"
+                           >Rungkaglat</placeName> gilt <measure type="volume" quantity="3"
+                           unit="Viertel">iij <choice>
+                              <abbr>fl</abbr>
+                              <expan>fiertel</expan>
+                           </choice>
+                        </measure>.</seg>
+                     <seg>
+                        <lb/>Item der <term ref="lem001214">hanf zehend</term> ze <placeName
+                           ref="loc000335">Graps</placeName> gilt <measure type="weight"
+                           quantity="8.5" unit="Pfund" commodity="hemp">viiiɉ <lb/>lib
+                           hanff</measure>.</seg>
+                     <seg>
+                        <lb/>Item <orgName ref="org001935"><placeName ref="loc006025.03"
+                              >Grapsserberg</placeName>er</orgName> zechend gilt <measure
+                           type="volume" quantity="10" unit="Scheffel" commodity="wheat">x schoffil
+                           <lb/>waissen</measure> und <measureGrp>
+                           <measure type="volume" quantity="22" unit="Scheffel" commodity="grain"
+                              >xxij <choice>
+                                 <abbr>sch</abbr>
+                                 <expan>schöffel</expan>
+                              </choice>
+                           </measure> und <measure type="volume" quantity="3" unit="Viertel"
+                              commodity="grain">iij <choice>
+                                 <abbr>fl</abbr>
+                                 <expan>fiertel</expan>
+                              </choice> bergkorn</measure></measureGrp>
+                        <lb/>und <measure type="volume" quantity="7.5" unit="Scheffel"
+                           commodity="barley">viiɉ schoͤffil gersten</measure>.</seg>
+                     <pb n="16" facs="StALU_URK_207-2988_S16_17"/>
+                     <seg>
+                        <lb/>Item vom <term ref="lem014551.02">bon zechend</term>en in der ebny und
+                        <lb/>in den <placeName ref="loc000755.02">Studen</placeName> ist worden
+                           <measure type="volume" quantity="5" unit="Scheffel" commodity="bean">v
+                           schoͤffil bona</measure>
+                        <lb/>und an demselben end gesamlet <measure type="volume" quantity="5"
+                           unit="Viertel" commodity="nuts">v <choice>
+                              <abbr>fl</abbr>
+                              <expan>fiertel</expan>
+                           </choice>
+                           <lb/>nuß</measure>.</seg>
+                     <seg>
+                        <lb/>Item von <term ref="lem009336">ops zechend</term>en zu <placeName
+                           ref="loc000335">Graps</placeName> in der <lb/>ebny <measure type="volume"
+                           quantity="4" unit="Scheffel" commodity="grain">iiij <choice>
+                              <abbr>sch</abbr>
+                              <expan>schöffel</expan>
+                           </choice> korn</measure> vom ops zechenden.</seg>
+                     <seg>
+                        <lb/>Item das <choice>
+                           <abbr>obgent</abbr>
+                           <expan>ogenannt</expan>
+                        </choice>
+                        <term ref="lem000049.07">kūrn</term>, das ist ye <measure type="volume"
+                           quantity="1" unit="Scheffel" commodity="wheat">ain schoͤffil
+                           <lb/>waiß</measure> fu̇r <measure type="currency" quantity="1" unit="fl"
+                           >ain gulden</measure>
+                        <abbr>etc</abbr> angeslagen und <lb/>je <measure type="volume" quantity="1"
+                           unit="Scheffel" commodity="grain">j schoffil korn</measure> fu̇r <measure
+                           type="currency" quantity="10" unit="ß">x  ₰</measure>.<note
+                           anchored="true">Dies ist einer der wenigen Hinweise auf <term
+                              ref="key004660">Kornpreise</term> in der Region Werdenberg.</note>
+                     </seg>
+                  </p>
+    </div>
+    <div n="6" org="uniform" sample="complete">
+       <p>
+                     <lb/>
+                     <seg>Item darzu die <term ref="lem000030.11">vischentz</term>en im <placeName
+                           ref="loc000644">Ryn</placeName> und <lb/><term ref="lem000320"
+                           >bäch</term>en <abbr>etc</abbr> und die vischentz im <placeName
+                           ref="loc000644">Rin</placeName>, <lb/>die gāt von <placeName
+                           ref="loc000689">Bendern</placeName> uß der <placeName ref="loc007042.02"
+                           >Blatten</placeName>
+                        <lb/>untz gen <placeName ref="loc000155.01">Baltzers</placeName> in den
+                           <term ref="lem000699">brunnen</term>, <lb/>und darzuͦ alle die baͤch, die
+                        in der her<lb break="no"/>schafft sind.</seg>
+                     <seg>
+                        <lb/>Item me die <term ref="lem000458.08">kilchensaͤtz</term> und <term
+                           ref="lem000365.07">caplanie</term>n <lb/>zu <placeName ref="loc000335"
+                           >Graps</placeName>, <placeName ref="loc000198">Bux</placeName>,
+                           <placeName ref="loc000708">Sevellen</placeName> und <placeName
+                           ref="loc000425.02">Trisen</placeName>.</seg>
+                     <pb n="17" facs="StALU_URK_207-2988_S16_17"/>
+                     <seg>
+                        <lb/>Item darzu das <term ref="lem000598">brennholtz</term> je zway <term
+                           ref="lem001828.11">gehūst</term>
+                        <lb/><measure type="undefined" quantity="1" commodity="wood" unit="Fuder">j
+                           fuͦder holtz</measure>, so denn die alle, die in der her<lb break="no"
+                        />schafft sitzent und von alter her schuldig <lb/>sind.</seg>
+                     <seg>
+                        <lb/>Item me, so soͤllent die <placeName ref="loc006026.04"
+                           >Apilols</placeName> die <term ref="lem000198.03">walliser</term>
+                        <lb/>die <term ref="lem004869.04">stickelhoͤltzer</term> howen und sollent
+                        si <lb/>die von <orgName ref="org001828">Graps</orgName> und <orgName
+                           ref="org001935"><placeName ref="loc006025"
+                           >Grapserberg</placeName>er</orgName> fūren <lb/>minen herren in ald zu
+                        dem <term ref="lem003107.07">torckel</term>.</seg>
+                     <seg>
+                        <lb/><add place="left margin">Iͦ</add> Item ain jeglich <term
+                           ref="lem001828.12">gehūset</term> in der herrschafft <lb/>ist minem
+                        gnedigen herren vier <term ref="lem000391.01">tagwan</term> zuͦ <lb/>thund
+                        schuldig <add place="left margin">*</add>. Den ersten <term ref="lem004919"
+                           >gruͦben</term>, den andern <lb/><term ref="lem001634.03">howen</term>,
+                        den dritten <term ref="lem014553.02">valgen</term>, den vierden <lb/><term
+                           ref="lem002651.03">jetten</term> und den fu̇nfften helffen <term
+                           ref="lem008309.10">wūmnen</term>. <lb/>Ist sach, das man ir ze wu̇nnen
+                        bedarff <lb/>und wie das alles von alter herkomen ist. <lb/>Und <orgName
+                           ref="org001935"><placeName ref="loc006025"
+                           >Grapsserberg</placeName>er</orgName> sond minem herren den <lb/><term
+                           ref="lem002650">mist</term> inn <term ref="lem000164">wingarten</term>
+                        fuͤren.</seg>
+                     <seg>
+                        <lb/>Item me sind ettlich arm lit schuldig, minem <lb/>herren den wingarten
+                        ze <term ref="lem002241.02">maͤyen</term> und <lb/>wie das von alter
+                        herkomen ist ungevarlich.</seg>
+                     <seg>
+                        <lb/>Item me sind ettlich schuldig, minem herren <lb/>den wingarten ze <term
+                           ref="lem001036.11">zūnen</term>, och wie von alter <lb/>herkomen
+                        ist.</seg>
+                  </p></div>              
+            </body>
+         </text>
+      </group>
+      <back>
+         <div org="uniform" sample="complete">
+            <p>Es handelt sich hier um das älteste Verzeichnis über die Rechte und Einkünfte der
+               Grafschaft <placeName ref="loc000440">Werdenberg</placeName>. Das <term
+                  ref="key000122">Urbar</term> ist undatiert und liegt im Staatsarchiv Luzern. Es
+               wurde wohl im Zusammenhang mit dem <term ref="key000231">Verkauf</term> durch Graf
+                  <persName ref="per000643">Johann Peter von Sax-Misox</persName> an Luzern um <date
+                  when="1485">1485</date> erstellt. Es ist deshalb weniger ein <term ref="key000122"
+                  >Urbar</term> im klassischen Sinn, das eine Übersicht über die Besitzrechte
+               bietet, als vielmehr ein detailliertes Verzeichnis über die zu erwartenden <term
+                  ref="key000205">Einnahmen</term> aus der Grafschaft. So sind z. B. die Einnahmen
+               der einzelnen <term ref="key000049">Zehnt</term>en aufgelistet, während im Urbar von
+                  <date when="1581">1581</date> nur das Recht der Zehnten ohne den entsprechenden
+               Betrag erscheint. Neben den zum <term ref="key000186">Schloss</term> gehörigen <term
+                  ref="key000147">Güter</term>n werden insbesondere die Einnahmen aus <term
+                  ref="key000273">Abgabe</term>n, <term ref="key000154">Zins</term>en und Zehnten
+               verzeichnet. Am Schluss werden einige Herrschaftsrechte wie die <term ref="key000258"
+                  >Fischenz</term>, die <term ref="key000811">Kollatur</term> oder die <term
+                  ref="key000479">Tagwerke</term> erwähnt (das Urbar ist ausführlich kommentiert
+               sowie ediert bei <bibl><ref target="http://permalink.snl.ch/bib/chbsg000052680"
+                     >Gabathuler 2007b</ref>, S. 214–218</bibl>; zum Urbar von <date when="1485"
+                        >1485</date> vgl. auch <bibl><ref target="http://permalink.snl.ch/bib/chbsg000150458">Schwendener 2000</ref>, S. 17–18</bibl>).</p>
+            <p>Ein Verzeichnis der Hubzinsen der Herrschaft <placeName ref="loc000827"
+                  >Wartau</placeName> ist in einem separaten Rodel unter der gleichen Signatur
+               aufgeführt: <orig>Nota, diß sind die huͦben zu dem sloß Warto gehorende an
+                  korn</orig>. Es ist eine Abschrift dreier Wartauer Urbare aus <date dur="PXY">den
+                  Jahren</date>
+               <date when="1438">1438</date>, nach <date when="1453">1453</date> und <date
+                  when="1476">1476</date> mit den Hubbesitzern und ihrer <term ref="key000098"
+                  >Hube</term> und den Hubzinsen. Die Abschrift entsteht wohl ebenfalls im
+               Zusammenhang mit dem Verkauf an Luzern. Enthalten ist auch ein Verzeichnis der zur
+               Burg <placeName ref="loc000829">Wartau</placeName> gehörenden Personen sowie ein
+                  <term ref="key000633">Kinderteilung</term>sprotokoll zwischen der Grafschaft
+                  <placeName ref="loc000925">Sargans</placeName> und der Herrschaft <placeName
+                  ref="loc000827">Wartau</placeName> vom <date when="1429-06-29">29. Juni
+                  1469</date> mit den zur Burg Wartau gehörenden Personen. Dieses Verzeichnis wird
+               nicht in die Rechtsquellensammlung aufgenommen, da diese drei Wartauer Urbare, die
+               wahrscheinlich als Vorarbeiten für das Verkaufsurbar (<ref
+                  target="https://archivverzeichnis.gl.ch/home/#/content/c0a3b2ab3bcd41d6a0aeaf2ffd97ae5f"
+                  >LAGL AG III.2401:026</ref>) dienten, bereits von Heinz Gabathuler im Werdenberger
+               Jahrbuch abgedruckt und besprochen wurden (<bibl><ref
+                     target="http://permalink.snl.ch/bib/chbsg000047765">Gabathuler 2006</ref>, S.
+                  191–192</bibl>). Zudem ist ein Verzeichnis der Rechte und Einkünfte der Burg
+               Wartau (Verkaufsurbar), das um <date when="1485">1485</date> entstanden ist,
+               abgedruckt bei <bibl><ref target="http://permalink.snl.ch/bib/chbsg000038423">Graber
+                     2003</ref>, S. 165–172</bibl>. Es ist ausführlicher als das Hubzinsverzeichnis
+               in Luzern, da nicht nur die Hubzinsen verzeichnet sind, sondern auch die <term
+                  ref="key003737">Herrschaftsrechte</term>, die zur Burg gehörigen <term
+                  ref="key000147">Güter</term>, Zehnten u. ä. </p>
+         </div>
+         <div org="uniform" sample="complete">
+            <p>Zwei weitere Verkaufsrodel oder <term ref="key000122">Urbare</term> von Werdenberg
+               und Wartau über die Einkünfte der Güter und die Rechte sind zwischen <date
+                  when="1510">1510</date> und <date when="1517">1517</date> entstanden und sind im
+               Landesarchiv Glarus aufbewahrt (<ref
+                  target="https://archivverzeichnis.gl.ch/home/#/content/19b6ea86d5f940bf88f5b0ccad9e2076"
+                  >LAGL AG III.2401:033</ref>; <ref
+                  target="https://archivverzeichnis.gl.ch/home/#/content/0745a66c1b8e4f708bd3419fdb1e2d1f"
+                  >LAGL AG III.2401:034</ref>). Bei Nr. 034 handelt es sich um eine Abschrift von
+               Nr. 033 aus dem <date from="1401" to="1600">16. Jh.</date> Die beiden Rodel sind
+               inhaltlich ähnlich wie das Urbar von <date when="1485">1485</date> und wurden
+               ebenfalls zu Verkaufszwecken erstellt. So ist auf S. 57 notiert: <orig>Item das ist
+                  das ubrig, das min her am <term ref="lem006669">kouff</term> an schlecht, wer es
+                  kouffen wil</orig>. Die beiden Exemplare sind bereits strukturierter und
+               detaillierter als das Urbar von <date when="1485">1485</date>, besonders was die
+               einzelnen <term ref="key000154">Zinsen</term>, <term ref="key000273">Abgaben</term>
+               sowie die <term ref="key003737">Herrschaftsrechte</term> betrifft. Die Eintragungen
+               wurden zum Teil in die späteren Urbare übernommen und erneuert (vgl. dazu
+                  <ref>SSRQ_SG_III_4_143</ref>; <bibl><ref
+                     target="http://permalink.snl.ch/bib/chbsg000150458">Schwendener 2000</ref>,
+                  S. 18–19</bibl>). Die <term ref="key003798">Naturalabgaben</term> werden zudem in
+                  <term ref="key004489">Geld</term> umgerechnet und die <term ref="key000205"
+                  >Einnahmen</term> aufsummiert, was eine bessere Übersicht über die Einnahmen
+               bietet. In einem zweiten Teil sind die Einkünfte und Rechte der Herrschaft <placeName
+                  ref="loc000827">Wartau</placeName> verzeichnet.</p>
+         </div>
+         <div org="uniform" sample="complete"><p>Zu den späteren Urbaren vgl. auch
+            <ref>SSRQ_SG_III_4_143</ref>, <ref>SSRQ_SG_III_4_229</ref>, <ref>SSRQ_SG_III_4_230</ref>, <ref>SSRQ_SG_III_4_231</ref> und
+            <bibl><ref target="http://permalink.snl.ch/bib/chbsg000150458">Schwendener 2000</ref>, S. 19–25</bibl>.</p>
+         </div>
+      </back>
+   </text>
+</TEI>

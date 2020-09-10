@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+
+			</titleStmt>
+
+			<publicationStmt>
+				<date type="electronic" when="2019-05-29"/>
+				<date type="print"/>
+			</publicationStmt>
+
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ_FR_I_2_8_0066_004</idno>
+			</seriesStmt>
+
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<idno>StAFR, Thurnrodel 11, S. 345</idno>
+					</msIdentifier>
+					<head>François Girard – Verhör / Interrogatoire</head>
+					<msContents>
+						<summary></summary> 
+						<msItem>
+							<textLang>fr</textLang> 
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support>
+									<material></material>
+								</support>
+								<extent>
+									<dimensions type="leaves">
+										<height unit="cm" quantity="0.0"/>
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+									<dimensions type="plica">
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+								</extent>
+							</supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1623-10-05"></origDate>
+							<origPlace></origPlace>
+						</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+							
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		
+		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+			<particDesc default="false"/>
+			<settingDesc default="false"/>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<p><lb/>A l’<placeName ref="loc007690">hospital</placeName>, le <origDate when="1623-10-05">5 d’octobre</origDate>
+							<seg><lb/>Le <term ref="lem014993.06">grandsaulthier</term><note>Gemeint ist <persName ref="per009450">Peter de Gady</persName>.</note></seg>
+							<seg><lb/><abbr>H</abbr> <persName ref="per006751">Erhart</persName></seg>
+							<seg><lb/><abbr>H</abbr> <persName ref="per009107">Thorman</persName>, <abbr>h</abbr> <persName>Lary</persName><note>Gemeint ist entweder <persName ref="per009378">Bartholomäus</persName> oder <persName ref="per006839">Hans Jakob</persName>.</note>, <abbr>h</abbr> <persName ref="per006817">Schaller</persName>, <abbr>h</abbr> <persName ref="per009591a.01">Schuler</persName></seg>
+							<seg><lb/><persName ref="per006841a.02"><choice><abbr>N</abbr><expan>Nicolas</expan></choice> Farisey</persName> officier<note>Gemeint ist ein Stadtweibel.</note></seg></p>
+						
+						<p><seg><lb/><add place="left margin"><foreign xml:lang="la">Nihil solvit</foreign>.</add></seg> 
+						<seg><persName ref="per009590">François Girard</persName> de <placeName ref="loc007970">Montet</placeName>, par ordonnance 
+						<lb/>conduit a <placeName ref="loc001060.04">Frybourg</placeName>, son proces luy a esté  
+						<lb/>tout entier leu devant, et a nié tous les articles 
+						<lb/>y contenu, ormis l’article du remuement de la 
+						<lb/>borne.</seg> <seg>Et qu’il avoit faict tort au chastellain
+						<lb/><persName ref="per009556">Cormenboeuf</persName>&#160;; vray estre qu’il l’avoit veu 
+						<lb/>conduire la fille qui avoit servi le prebstre 
+						<lb/>savoyard, <time when="01:00:00">une heure dans la nuict</time>, par la 
+						<lb/>main, luisant un peu la lune, mais qu’il tenoit 
+						<lb/>que c’estoit pour faire ses plaisirs. Et 
+						<lb/>interrogé pourquoy il avoit confessé tant 
+						<lb/>d’affaires, il a dict qu’on l’avoit ainsin <term ref="lem015382.02">reve<lb break="no"/>rudé</term> ce que le chastellain <persName ref="per009556">Cormenboeuf</persName> luy 
+						<lb/>avoit dict <choice><abbr>pnt</abbr><expan>present</expan></choice> le curial, l’officier de <placeName ref="loc007934.04">Mignieres</placeName> 
+						<lb/>et celuy de <placeName ref="loc007931.02">Cugie</placeName>, qui toutesfois estoit allé querré 
+						<lb/><unclear><persName>du Try</persName></unclear>, n’y ayant aulcun justicier&#160;; qu’il y en 
+						<lb/>avoit a <placeName ref="loc007970">Montet</placeName> douze <term ref="lem015380.03">accoulpés</term>, les luy 
+						<lb/>ayant nommés, sçavoir <persName>Jean Marcin</persName>, 
+						<lb/><persName>François Rollier</persName><note>François Rollier, de Cugy, sera banni puis gracié en <date when="1624-11">novembre 1624</date> sur les prières de sa femme Pernon. Voir StAFR, Ratsmanual 174 (1623), S. 551, 557, 565, 577 et Ratsmanual 175 (1624), S. 485, 496, 660.</note> et sa femme<note>Il s’agit de <persName>Pernon Rollier</persName>.</note>, <persName>Jean de Glanna</persName>, 
+						<lb/><persName>François Pillet</persName> et ses deux filz, <persName>Françoisa 
+						<lb/>Mauron</persName>, <persName>Claude Chaney</persName> et sa femme, <persName>la 
+						<lb/>Mansonna</persName> et <persName>Jean Grandgirard</persName><note>Jean Grandgirard, d’Estavayer, sera libéré. Voir StAFR, Ratsmanual 174 (1623), S. 534, 561.</note>.</seg> <seg>Et 
+						<lb/>examiné de la <term ref="lem018894.01">marque</term>, il a pour un cop 
+						<lb/>confessé de n’avoir <sic>sentu</sic> quand ou le visitoit, 
+						<lb/>puis <term ref="lem015622">incontinent</term> aprés dict le contraire 
+						<lb/>et prioit d’estre revisité <foreign xml:lang="la">ut supra</foreign>.</seg></p>	
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+
+
+
+<?oxy_options track_changes="on"?>

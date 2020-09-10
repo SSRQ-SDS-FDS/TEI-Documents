@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+
+
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+
+			</titleStmt>
+
+			<publicationStmt>
+				<date type="electronic" when="2019-10-14"/>
+				<date type="print"/>
+			</publicationStmt>
+
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ_FR_I_2_8_0107_002</idno>
+			</seriesStmt>
+
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<idno>StAFR, Thurnrodel 13, S. 602–608</idno>
+					</msIdentifier>
+					<head>Georges, Pierre, Antoine, Louis, François Rimy – Verhör / Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang>fr</textLang>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support>
+									<material></material>
+								</support>
+								<extent>
+									<dimensions type="leaves">
+										<height unit="cm" quantity="0.0"/>
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+									<dimensions type="plica">
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+								</extent>
+							</supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate when="1638-10-29"/>
+							<origPlace></origPlace>
+						</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc> 
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+			<particDesc default="false"/>
+			<settingDesc default="false"/>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="602"/><p><lb/><placeName ref="loc007890.02">Jaquemard</placeName>
+							
+							<seg><lb/><origDate when="1638-10-29">29 <foreign xml:lang="la">octobris</foreign> 1638</origDate>, <foreign xml:lang="la"><choice><abbr>jud</abbr><expan>judex</expan></choice></foreign> <abbr>h</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per011527">Beat Jakob von Montenach</persName>.</note></seg>
+							<seg><lb/><abbr>H</abbr> <persName ref="per009267a.01">Brodardt</persName>, <abbr>h</abbr> <choice><abbr>burgerm</abbr><expan><term ref="lem018597.02">burgermeister</term></expan></choice><note>Gemeint ist <persName ref="per011533">Tobias Gottrau</persName>.</note><!-- Bürgermeister ab 1637 --></seg>
+							<seg><lb/><persName ref="per011531a.01">Schrötter</persName></seg>
+							<seg><lb/><persName ref="per006518a.03">Landter</persName><!-- Franz --></seg>
+							<seg><lb/><choice><abbr>W</abbr><expan>Weibel</expan></choice></seg></p>
+							
+						<p><seg><lb/><add place="left margin"><measure type="currency" quantity="3" unit="lb">3 </measure>.</add></seg> 
+							<seg><persName ref="per012333a.01">George Rimy</persName>, filz de <persName ref="per012332a.01">Lois Rimy</persName> de <add place="above" type="sign">riere</add> <placeName ref="loc008048.06">Corbieres</placeName>, 
+							<lb/>interrogé pourquoy il tenoit prison, a respondu que le 
+							<lb/>baillif de <placeName ref="loc008049.02">Corbieres</placeName> l’a faict a venir, qu’on 
+							<lb/>ne luy a pas dict le subject. Luy estant proposé 
+							<lb/>que tout le monde disoit qu’il sçavoit un secret 
+							<lb/>pour amasser et faire a venir a sa chaudiere beau<lb break="no"/>coup de <term ref="lem015011.04">laict</term>, a dict que pour avoir du <term ref="lem015011.04">laict</term> 
+							<lb/>de ses <term ref="lem017507.02">vaches</term>, il n’employoit que du bon foin et 
+							<lb/><term ref="lem017817.02">record</term> d’yver et qu’il les gouverne bien d’esté&#160;; 
+							<pb n="603"/><lb/>qu’ilz acheptent des bonnes <term ref="lem017507.02">vaches</term>, assavoir 
+							<lb/>des <term ref="lem017749">schwyzeres</term>&#160;; que les bonnes <term ref="lem017507.02">vaches</term> 
+							<lb/>bien hyvernees rendent bien.</seg> <seg>Interrogé quelz 
+							<lb/>voisins il avoit, a respondu <persName>Claude Verna</persName> 
+							<lb/>de <placeName ref="loc007862.06">La Tour</placeName>, <persName>Petit Jean Sudan</persName> qui est locatai<lb break="no"/>re de Monsieur <persName>Landter</persName><note>Il pourrait s’agir de <persName ref="per006518a">Franz Lanther</persName>, qui siège au tribunal, étant ainsi également accusateur, ce que les parents des Rimy relèvent dans leur supplique du <date when="1638-11-05">5 novembre 1638</date>. Voir <ref>SSRQ_FR_I_2_8_0107_006</ref>.</note>&#160;; dict qu’il ne cognoist 
+							<lb/>ledit seigneur et ne l’a veu dans son challet. 
+							<lb/>Vray estre qu’il passa par sur leur montagne&#160;; 
+							<lb/>que <add place="left margin" type="sign">le prisonnier a</add> visité les <term ref="lem017507.02">vaches</term> de <persName>Claude Verna</persName> de 
+							<lb/><placeName ref="loc007862.06">La Tour</placeName>&#160;; que <persName>Peterman Dumont</persName> est aussy 
+							<lb/>leur voisin, le <term ref="lem017410.02">mestral</term> de <placeName ref="loc008461.02">La Vaux Saincte</placeName>, 
+							<lb/><persName>François Bourquinod</persName>, Monsieur <persName ref="per009134a.02">George de 
+							<lb/>Dießbach</persName>, la montagne des hoirs de feu <choice><abbr>monsr</abbr><expan>Monsieur</expan></choice> 
+							<lb/><persName ref="per009213a.04">Ottmar Gottrow</persName>&#160;; que d’aucuns, assavoir 
+							<lb/>les locataires, soy plaignent qu’ilz n’ont 
+							<lb/>assez d’herbe&#160;; que quand on leur demande comme 
+							<lb/>ilz affourrent leur bestail, ilz disent ce qu’en 
+							<lb/>est, assavoir qu’ilz acheptent tous les ans 
+							<lb/>du foin. Luy estant proposé s’il n’avoit meiné 
+							<lb/>un curé pour benir ceste contree la, a respon<lb break="no"/>d<subst><del>ist</del><add place="overwritten">u</add></subst> n’estre souvenant d’avoir veu aucun prestre 
+							<lb/>en celle contree.</seg> <seg>Enquis de quelle malladie son pere 
+							<lb/>avoit esté attainct, a respondu qu’il y a <date dur="P18Y">18 ans</date> 
+							<lb/>qu’on n’a veu son pere mallade. Si son frere <persName ref="per012334a.01">Peter</persName> 
+						<pb n="604"/><lb/>n’yvernoit des gens, moutons et boeufz, a dict 
+							<lb/>qu’il y a <date dur="P2Y">deux ans</date> ledit <persName ref="per012334a.01">Peter</persName> yvernoit un mouton 
+							<lb/>mais qu’il n’a veu qu’il soyt yverné aucun boeuf. 
+							<lb/>Il advoue d’avoir battu les <term ref="lem017507.02">vaches</term> et tous 
+							<lb/>ceux qu’estoient presentz <add place="left margin" type="sign">avec des <term ref="lem016285.02">recreues</term></add>&#160;; que des voisins 
+							<lb/>disoient qu’il failloit prendre cinq <term ref="lem016285.02">recreues</term> <choice><sic>de 
+							<lb/>de</sic><corr>de</corr></choice> <term ref="lem015341">coudre</term>, mais que personne le luy a conseillé, 
+							<lb/>qu’il l’a ainsy entendu d’un <persName>Bouquet</persName> de <placeName ref="loc007660">La 
+							<lb/>Roche</placeName> et d’un <persName>Moser</persName> de <placeName ref="loc007859.02">Bellegarde</placeName>.</seg> <seg>Interrogé 
+							<lb/>s’il n’avoit faict a faire des tours a l’entour 
+							<lb/>de la cremaillere a une femme, a dict que 
+							<lb/>s’il s’est gaussé avec une femme, vers la 
+							<lb/>cremailliere, ce n’a esté a aucune mauvaise inten<lb break="no"/>tion. Il nie tous les autres articles de l’examen, 
+							<lb/>disant qu’eux mesmes l’espace de <date dur="P18Y">18 ans</date> 
+							<lb/>n’ont peu avoir aucune mesure d’acier, ne 
+							<lb/>sçachantz d’ou cela provenoit et qu’eux mesmes 
+							<lb/>ont ehu un boeuf d’un an qui ne pouvoit chasser 
+							<lb/>aucune <term ref="lem017507">vache</term>&#160;; ainsy que leur <term ref="lem015141.03">armailler</term> attestera qu’on 
+							<lb/>leur rompist leur grenier et on y print 
+							<lb/>des frommages a <persName>Periard</persName> de <placeName ref="loc007862.06">La Tour</placeName>, qu’ilz 
+							<lb/>ne peurent trouver. Il dict que <placeName ref="loc010223.02">L’Espara</placeName> est a ses 
+							<lb/>freres. Crie mercy.</seg></p>
+							
+						<p><seg><lb/><add place="left margin"><measure type="currency" quantity="3" unit="lb">3 </measure>.</add></seg> 
+							<seg><persName ref="per012334">Pierre Rimy</persName>, de <placeName ref="loc007849">Charmey</placeName>, enquis pourquoy 
+							<lb/>il estoit emprisonné, a dict pour quelques 
+							<lb/>mauvaises accusations. Interrogé s’il n’avoit 
+						<pb n="605"/><lb/>veu certain fil<damage agent="water spot" quantity="9" unit="cm"/> 
+							<lb/>a dict que non, que de<damage agent="water spot" quantity="7" unit="cm"/> 
+							<lb/>Il nie avec grandz jurons de sçavoir oster le <term ref="lem015011.04">laict</term> 
+							<lb/>aux <term ref="lem017507.02">vaches</term>. Il advoue d’avoir demandé aux 
+							<lb/>gens si leurs abeilles augmentoient, et que voyant 
+							<lb/>une bande d’abeilles, il en demanda un <term ref="lem016338.02">bochallet</term> 
+							<lb/>et en promist une livre de cire, et que si l’examen 
+							<lb/>prennoit bien, il en feroit ulterieure recompense. 
+							<lb/>Il advoue aussy d’avoir meslé des cendres de 
+							<lb/>la <term ref="lem017818.02">tronche</term> de <date when="--12-25">Noel</date> parmy des miettes, desquelles 
+							<lb/>il <term ref="lem015635.11">bailla</term> a ses gens a bonne intention, que Dieu 
+							<lb/>les gardast de meschef, ce qu’il faict aussy 
+							<lb/>aux <date when="--01-06">Roys</date>. Il advoue aussy d’avoir <term ref="lem015635.10">baillé</term> du 
+							<lb/><term ref="lem017911.02">pain de <choice><abbr>s</abbr><expan>sainte</expan></choice> <persName ref="per000324">Agathe</persName></term> a un porc affin qu’il ne quittast 
+							<lb/>la maison. Il nie tous les autres articles 
+							<lb/>de l’examen. Crie mercy.</seg></p>
+						
+						<p><seg><lb/><add place="left margin"><measure type="currency" quantity="3" unit="lb">3 </measure></add>.</seg> 
+							<seg><persName ref="per012336a.01">Anthoine Rimy</persName>, demeurant a <placeName ref="loc005708.03">Gruyere</placeName>, 
+							<lb/>enquis pourquoy il tenoit prison, a res<lb break="no"/>pondu ne le sçavoir&#160;; qu’il a <date dur="P7Y">7 ans</date> qu’il est hors 
+							<lb/>de son pere&#160;; qu’il demeure en <placeName ref="loc010224.02">Chastallet</placeName> 
+							<lb/>avec son frere <persName ref="per012334">Pierre</persName>&#160;; qu’ilz ont achepté <placeName ref="loc010224.02">Chastallet</placeName>. 
+						<pb n="606"/><lb/>Il dict d’estre souvenant que Monsieur <persName>Landter</persName> 
+							<lb/>fust au challet de <placeName ref="loc010225">Tissiniva</placeName>, mais qu’il ne 
+							<lb/>sçait d’aucun sçachet pendu a la cremailliere&#160;; 
+							<lb/>qu’il n’est souvenant d’avoir ehu aucun debat 
+							<lb/>avec ses voisins&#160;; qu’il a esté au grenier au 
+							<lb/>nom de ses freres&#160;; que ses freres s’estoient com<lb break="no"/>battuz pour certain dommage que les bestes 
+							<lb/>faisoient. Nie de sçavoir oster le <term ref="lem015011.04">laict</term> 
+							<lb/>aux <term ref="lem017507.02">vaches</term>. Dict n’avoir apperceu aucun 
+							<lb/>mauvais acte de ses pere et freres&#160;; qu’il 
+							<lb/>a <date dur="P2Y">2 ans</date> qu’il n’a demeuré a <placeName ref="loc010223.02">L’Espara</placeName>, au<lb break="no"/>quel lieu ses freres sement deux poses. Enquis 
+							<lb/>s’il n’avoit veu certain curé en celle contree, 
+							<lb/>a dict ne sçavoir veu un autre que celuy de 
+							<lb/><placeName ref="loc000082.05"><abbr>S</abbr> Gallen</placeName> au tempz de la contagion des 
+							<lb/>bestes. Il dict qu’îl y a difference entre 
+							<lb/>les <term ref="lem017507.02">vaches</term>&#160;; qu’ilz ont aussy des voisins 
+							<lb/>qui tairent plus qu’eux. Il advoue d’avoir 
+							<lb/>veu plusieurs renards a l’entour des 
+							<lb/><term ref="lem017507.02">vaches</term>, que les <term ref="lem017507.02">vaches</term> ne font compte 
+							<lb/>des renards. Nie les autres articles 
+							<lb/>de l’examen. Crie mercy.</seg></p>
+							
+						<pb n="607"/><p><seg><lb/><add place="left margin"><measure type="currency" quantity="3" unit="lb">3 </measure>.</add></seg> 
+							<lb/><persName ref="per012332a.01">Lois Rimy</persName>, le pere, dict qu’il s’est bien com<lb break="no"/>porté&#160;; que ses <term ref="lem017507.02">vaches</term> ont du <term ref="lem015011.04">laict</term> pour ce 
+							<lb/>qu’on les gouverne bien&#160;; que jamais il n’a 
+							<lb/>porté perte aux <term ref="lem017507.02">vaches</term>, ny ses filz a son sça<lb break="no"/>chant&#160;; qu’il a long tempz qu’il n’a esté 
+							<lb/>a <placeName ref="loc010223.02">L’Espara</placeName>. Nie tous les articles 
+							<lb/>de l’examen. Crie mercy.</p>
+						
+						<p><seg><lb/><add place="left margin"><measure type="currency" quantity="3" unit="lb">3 </measure>.</add></seg>
+							<seg><persName ref="per012337a.01">Françoys Rimy</persName> nie de sçavoir oster 
+							<lb/>le <term ref="lem015011.04">laict</term> aux <term ref="lem017507.02">vaches</term> d’autruy. Dict que 
+							<lb/>leurs montagnes sont les meilleures 
+							<lb/>au pais de <placeName ref="loc007849">Charmey</placeName>, voire riere <placeName ref="loc000284.06">Frybourg</placeName>&#160;; 
+							<lb/>que quand ilz ont des <term ref="lem017507.02">vaches</term> qui ne sont bon<lb break="no"/>nes, ilz les vendent et en acheptent des bon<lb break="no"/>nes&#160;; qu’ilz en ont achepté a <placeName ref="loc000731.07">Schwytz</placeName>&#160;; qu’ilz 
+							<lb/>avoient une <term ref="lem017507">vache</term> qui n’avoit que 3 testines, 
+							<lb/>laquelle rendoit beaucoup&#160;; que feu <choice><abbr>monsr</abbr><expan>Monsieur</expan></choice> 
+							<lb/><persName ref="per009213a.04">Ottmar Gottrow</persName>, avant que d’achepter une 
+							<lb/>autre montagne, n’avoit que 26 <term ref="lem017507.02">vaches</term> qui ren<lb break="no"/>doient autant come 40 d’autres. Dict ne 
+							<lb/>sçavoir si ceux de <placeName ref="loc007660.01">La Roche</placeName> ont meiné un pre<lb break="no"/>stre en celle contree&#160;; qu’il ne l’a veu, mais 
+							<lb/>qu’on <subst><del>l</del><add place="inline">disoit</add></subst> qu’il estoit passé auprez 
+						<pb n="608"/><lb/>de leur <unclear>challet</unclear>, qu’allors ilz avoient <damage agent="water spot" quantity="3" unit="cm"/> 
+							<lb/><unclear>mag<damage agent="water spot" quantity="1" unit="cm"/></unclear> un honeste homme pour <damage agent="water spot" quantity="3" unit="cm"/>&#160;; 
+							<lb/>qu’il y a <date dur="P15Y">15 ans</date> qu’un loup vint, qui leur 
+							<lb/>voullust prendre un bouc qu’estoit au <term ref="lem016342.02">mytin</term> 
+							<lb/>des <term ref="lem017507.02">vaches</term>, au beau <time when="12:00:00">midy</time>, lequel ilz de<lb break="no"/>chasserent, et alla estrangler une 
+							<lb/>chievre aux <persName>Fragnieres</persName>. Nie tous les 
+							<lb/>articles de l’examen. Crie mercy.</seg></p>
+					</div>
+				</body>
+				
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+
+<?oxy_options track_changes="on"?>

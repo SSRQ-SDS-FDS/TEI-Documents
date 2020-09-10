@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="headerinfo"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <date type="electronic" when="2020-08-17"/>
+    <date type="print"/>
+    <availability><p xml:id="facs">Adrien Wyssbrod</p></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Collection des sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS_NE_3_040</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier>
+      <idno>AEN 14JL–451, fol. 214r–214v</idno>
+     </msIdentifier>
+     <head>Saisie des biens d’un débiteur absent du pays</head>
+     <msContents>
+      <summary>Les saisies des biens d’un débiteur en vue du remboursement de créance (vente aux
+       enchères etc.) doivent être notifiées par le biais du sautier. Si le débiteur est absent du
+       pays, la notification doit être faite à ses avocats ou aux représentants qui gèrent ses affaires.
+       Cette notification conditionne la validité de toutes les mesures prises sur les biens du
+       débiteur.</summary>
+      <msItem>
+       <textLang>français</textLang>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="34"/>
+          <width unit="cm" quantity="22.5"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <origDate when="1602-01-12" calendar="Julian"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>
+      </origin>
+     </history>
+     <additional>
+      <listBibl>
+       <head/>
+       <bibl/>
+      </listBibl>
+     </additional>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key003331"></term>
+     <term ref="key004001"></term>
+     <term ref="key003867"></term>
+     <term ref="key005052"></term>
+     <term ref="key005189"></term>
+     <term ref="key005076"></term>
+    </keywords>
+   </textClass>
+   <particDesc default="false"/>
+   <settingDesc default="false"/>
+  </profileDesc>
+ </teiHeader>
+ 
+ <text>
+  <group>
+   <text>
+    <body>
+
+     <pb n="214r" facs="AEN_14JL_451_0214r"/>
+
+     <div>
+      <add place="left margin" hand="later hand"><foreign xml:lang="la">Levata est</foreign></add>
+      <p>
+       <lb/>Sur le <origDate when="1602-01-12" calendar="Julian">douzieme jour du mois de janvier
+        l’an de salut mille six centz et deux</origDate>, par <lb/>devant moy <persName
+        ref="per010508">Daniel Huguenaud</persName> mayre et du <orgName ref="org003085">Conseil de
+        la Ville de <placeName ref="loc007786">Neufchastel</placeName></orgName> pour et<lb/> au nom
+       de l’excellence et grandeur de messeigneurs nos souverains princes. Et par devant <lb/>une
+       partie des <orgName ref="org003085">sieurs conseillers de <choice>
+         <abbr>lad<hi rend="sup">e</hi></abbr>
+         <expan>ladite</expan>
+        </choice> ville</orgName>, est comparu en justice <choice>
+        <abbr>honn</abbr>
+        <expan>honorable</expan>
+       </choice>
+       <persName ref="per011738">Abraham <lb/>Quinche</persName> bourgeois <choice>
+        <abbr>dud</abbr>
+        <expan>dudit</expan>
+       </choice>
+       <placeName ref="loc007786">Neufchastel</placeName>, proposant comme a certain jour passé
+       estant le <orgName ref="org003085">Conseil<lb/> de Ville</orgName> assemblé. Il se seroit
+       presenté par devant messieurs les <orgName ref="org003085">vingt quatre</orgName>, et les
+       auroit <lb/>requis luy faire declairation d’un poinct de coustume, pour savoir quand un homme
+       est <lb/>dehors du pays soit en guerre ou ailleurs, et il est redebvable a certains
+       créditeurs de <lb/>quelques sommes de <term ref="lem016291.02">deniers</term>. Assavoir <term
+        ref="lem016286">mon</term> sy les crediteurs ou autres ayant action d’iceux <lb/>prennent
+       pour leur payement saysit le bien d’iceluy homme absent, et faire a usage, <term
+        ref="lem014995.06">taxer</term>
+       <lb/>et <term ref="lem015001.05">sebaster</term>
+       <choice>
+        <abbr>led</abbr>
+        <expan>ledit</expan>
+       </choice> bien, et se l’approprier, sans faire dehuement notifier a la partie tous
+       <lb/>usages et exploits de justice par le <term ref="lem014994">sautier</term> ou officier,
+       et ne le faisant assavoir <lb/><term ref="lem016286">mon</term> sy telles <term
+        ref="lem015001.04"><choice>
+         <abbr>sebastaon</abbr>
+         <expan>sebastation</expan>
+        </choice>
+       </term> et autres exploits sont vallables pour deposseder <choice>
+        <abbr>led</abbr>
+        <expan>ledit</expan>
+       </choice> absent <lb/>de son bien. Et pour ce que resolution a esté prinse pour luy faire <choice>
+        <abbr>lad<hi rend="sup">e</hi></abbr>
+        <expan>ladite</expan>
+       </choice>
+       <choice>
+        <abbr>declairaon</abbr>
+        <expan>déclaration</expan>
+       </choice>. <lb/>A ceste effect requeroit par cognoissance de justice icelle luy estre faicte,
+       pour s’en <lb/>servir a son besoing.</p>
+      <pb n="214v" facs="AEN_14JL_451_0214v"/>
+      <lb/>
+      <add place="left margin" hand="later hand" rend="pencil"><choice>
+        <abbr>P de C</abbr>
+        <expan>Point de coutume</expan>
+       </choice> du <origDate when="1602-01-12" calendar="Julian">12 <choice>
+         <abbr>jan<hi rend="sup">r</hi></abbr>
+         <expan>janvier</expan>
+        </choice>
+        <lb/>1602</origDate></add>
+      <p>
+       <lb/>Et je <choice>
+        <abbr>led</abbr>
+        <expan>ledit</expan>
+       </choice> mayre en ay demandé aux sieurs conseillers apres nommez, lesquels apres <lb/>avoir
+       participé d’advis par ensemble, ont dict et declairé unanimement que suyvant <lb/>l’advis
+       prins du reste <choice>
+        <abbr>desd</abbr>
+        <expan>desdits</expan>
+       </choice> sieurs du <orgName ref="org003085">Conseil</orgName>, la coustume au faict <choice>
+        <abbr>q</abbr>
+        <expan>que</expan>
+       </choice> dessus pratiquée <lb/>de pere a fils jusqu’a <choice>
+        <abbr>pnt</abbr>
+        <expan>présent</expan>
+       </choice> riere c’est ville et comté de <placeName ref="loc007786">Neufchastel</placeName> a
+       esté et est encore telle, <lb/>que tous exploits de justice, et toutes <term
+        ref="lem015545.03">levations</term> et <term ref="lem015546.02">venditions</term> de gage,
+        <term ref="lem014995.08">taxes</term>, mises en <lb/>possessions et <term ref="lem015001.04"
+        >sebastations</term> que les crediteurs fait <choice>
+        <abbr>fe</abbr>
+        <expan>faire</expan>
+       </choice> pour apprehender et saysir des biens de <lb/>leurs debteurs pour concepvoir
+       payement de quelques sommes de <term ref="lem016291.02">deniers</term>, doibvent estre
+       <lb/>dehuement notifiés par l’officier et <term ref="lem014994">sautier</term> de la <choice>
+        <abbr>srie</abbr>
+        <expan>seigneurie</expan>
+       </choice>
+       <choice>
+        <abbr>auxd</abbr>
+        <expan>auxdits</expan>
+       </choice> debteurs, soit a leurs <lb/>personnes, ou en leur domicilles. Et sy les debteurs
+       sont hors du pays telles <choice>
+        <abbr>notificaons</abbr>
+        <expan>notifications</expan>
+       </choice>
+       <lb/>se doibvent faire aulx personnes de leurs <term ref="lem014768.01">advoyer</term>, ou
+       d’autres ayant charge <term ref="lem018435">maniance</term> et <lb/>conduicte de leur biens
+       et affaires, ou autrement et a faute de <choice>
+        <abbr>fe</abbr>
+        <expan>faire</expan>
+       </choice> telles notifications <lb/><choice>
+        <abbr>lesd</abbr>
+        <expan>lesdits</expan>
+       </choice> usages, <choice>
+         <abbr>sebastaon</abbr>
+        <expan><term ref="lem017866.03">sebastation</term></expan>
+        </choice> et exploits de justice sont et doibvent estre de nulle valeur. </p>
+      <p>
+       <lb/>Laquelle <choice>
+        <abbr>declairaon</abbr>
+        <expan>déclaration</expan>
+       </choice>
+       <choice>
+        <abbr>led</abbr>
+        <expan>ledit</expan>
+       </choice>
+       <persName ref="per011738">Abraham Quinche</persName> a demandé avoir par escript en acte pour
+       luy <lb/>servir et valoir ce que de raison. Et que judicialement luy a esté cognue et adjugé
+       <lb/>par les <choice>
+        <abbr>honnor</abbr>
+        <expan>honorables</expan>
+       </choice>, prudens et sages <persName ref="per011729a.03">Nicollet Heinzely</persName>,
+        <persName ref="per010427a.03">Jehan Rougemont</persName>, <persName ref="per011781a.01"
+        >Pierre Fabvre dict de <lb/>Thielle</persName>, <persName ref="per010515">Pierre
+        Quelin</persName>, <persName ref="per010465a.01">Henry Bonvespre</persName>, <persName
+        ref="per010476a.02">Balthazar Bailliod</persName> et autres conseillers <lb/>de <placeName
+        ref="loc007786">Neufchastel</placeName>, et par <choice>
+        <abbr>moyd</abbr>
+        <expan>moydit</expan>
+       </choice> mayre ordonné au <choice>
+        <abbr>secret<hi rend="sup">e</hi></abbr>
+        <expan>secrétaire</expan>
+       </choice> de la justice soubsigné de <lb/>l’expedier, faict les an et jour que dessus. </p>
+      <p>
+       <lb/>Par l’ordonnance <choice>
+        <abbr>dud</abbr>
+        <expan>dudit</expan>
+       </choice>
+       <choice>
+        <abbr>s<hi rend="sup">r</hi></abbr>
+        <expan>sieur</expan>
+       </choice> mayre <lb/>et <choice>
+        <abbr>adjudicaon</abbr>
+        <expan>adjudication</expan>
+       </choice>
+       <choice>
+        <abbr>dusd</abbr>
+        <expan>desdits</expan>
+       </choice>
+       <choice>
+        <abbr>S<hi rend="sup">rs</hi></abbr>
+        <expan>sieurs</expan>
+       </choice> conseillers. </p>
+     </div>
+     
+     <div>
+      <signed><persName ref="per010433a.03"><choice><abbr>D</abbr><expan>David</expan></choice> Bailliods</persName> <figure type="notarial sign"/> not</signed>
+     </div>
+
+
+    </body>
+   </text>
+  </group>
+ </text>
+</TEI>

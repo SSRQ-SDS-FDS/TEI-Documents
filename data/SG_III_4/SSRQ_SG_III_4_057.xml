@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+    <persName>Sibylle Malamud</persName>
+    <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+    <persName>Sibylle Malamud</persName>
+    <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-07-03"/>
+            <date type="print"/>
+            <availability><p xml:id="facs">Staatsarchiv St. Gallen (StASG)</p></availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+    <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+    <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_057</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>StASG AA 2 U 04</idno>
+                  <altIdentifier>
+                     <idno>StASG AA 2 U 4</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <head>Kaiser Friedrich III. von Habsburg-Österreich verleiht den Blutbann von
+                  Forstegg an Lütfrid Mötteli, Pfandinhaber von Forstegg und Frischenberg</head>
+               <msContents>
+                  <summary>
+                     <p>Lütfrid Mötteli bringt vor, dass ihm wegen des unmündigen Ulrich VIII. von
+                        Sax-Hohensax Schloss und Gericht Forstegg und Frischenberg mit allen Rechten
+                        verpfändet worden sei. Da aber die Hochgerichte und der Blutbann zum Schloss
+                        Forstegg gehören und vom Kaiser verliehen werden müssen, bittet er den
+                        Kaiser um die Verleihung des Blutbanns, der ihm verliehen wird.</p>Der
+                     Aussteller siegelt.</summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <filiation type="current">Original</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Pergament</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="20.5"/>
+                              <width unit="cm" quantity="41.5"/>
+                           </dimensions>
+                           <dimensions type="plica">
+                              <width unit="cm" quantity="8.0"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <sealDesc>
+                     <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1"
+                        nontei:material="wax with margin" nontei:condition="chamfered"
+                        nontei:shape="round" nontei:attachment="sealed on a parchment tag"
+                        facs="StASG_AA_2_U_04_s">
+                        <persName role="sigillant" ref="per000794">Kaiser Friedrich III. von
+                           Habsburg-Österreich</persName>
+                     </seal>
+                  </sealDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1466-07-09"/>
+                     <origPlace>Wiener Neustadt</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head>Regest</head>
+                     <bibl><ref
+                           target="http://www.regesta-imperii.de/id/1466-07-09_1_0_13_6_0_11073_95"
+                           >[RI XIII] H. 6 n. 95</ref></bibl>
+                  </listBibl>
+                  <listBibl>
+                     <head>URL</head>
+                     <bibl type="url"><ref target="http://www.regesta-imperii.de/id/1466-07-09_1_0_13_0_0_4555_4556"/> http://www.regesta-imperii.de/id/1466-07-09_1_0_13_0_0_4555_4556 (Abgerufen am 10.07.2019)</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+    <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+    <term ref="key000044">Hochgericht</term>
+    <term ref="key000022">Lehen</term>
+    <term ref="key000422">Kaiser</term>
+    <term ref="key000441">Pfand</term>
+    <term ref="key000140">Herrschaft</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <div org="uniform" sample="complete">
+                  <pb facs="StASG_AA_2_U_04_r"/>
+                  <p>
+                     <seg>
+                        <lb/>Wir, <persName ref="per000794">Friderich</persName>, von gottes gnaden
+                        Römischer keyser, zu allenntzeitten merer des reichs, zu <placeName
+                           ref="loc000798">Hungern</placeName>, <placeName ref="loc000226"
+                           >Dalmatien</placeName>, <placeName ref="loc000223">Croatien</placeName>
+                        <abbr>etc</abbr> künig, hertzog zu <lb/><placeName ref="loc000589"
+                           >Osterreich</placeName>, zu <placeName ref="loc000759.03"
+                           >Steyr</placeName>, zu <placeName ref="loc000454">Kernndten</placeName>
+                        und zu <placeName ref="loc000220">Crain</placeName>, grave zu <placeName
+                           ref="loc000780">Tyrol</placeName>
+                        <abbr>etc</abbr>, bekennen, das uns unser und des reichs lieben getrewen
+                           <persName ref="per004642a.01">Leupfrid Möttelin</persName> furbringen
+                        <lb/>lassen hatt, wie im von wegen des edeln <persName ref="per001640a.11"
+                           >Ulrichs von Sax</persName>, freyen, der noch nit zu seinen volkomen
+                        jaren komen sey, die <term ref="lem000376">sloß</term> und <term
+                           ref="lem000431">gerichte</term>
+                        <placeName ref="loc000278">Forstegk</placeName>
+                        <placeName ref="loc006155">Frischemberg</placeName><placeName ref="loc006069"/> mit <lb/>iren zugehörungen umb ettlich sum
+                        gellts <term ref="lem002570">verpfannt</term> und versetzt sey nach innhalt
+                        der briefe darüber außgeganngen. Wann aber die <term ref="lem000975.24"
+                           >hohen gericht</term>e und <term ref="lem000146.04">ban</term>
+                        <lb/>über das <term ref="lem000046.06">blütt</term> zu dem sloß <placeName
+                           ref="loc006124">Vorstegk</placeName> gehörend, von uns und dem heiligen
+                        reich zu lehen rüret und gee, hatt er uns demüticlich angerüffen und
+                        gebetten, daz wir <lb/>ime den vorgemelten ban über das blutt daselbs, als
+                        von alter herkomen wëre zu richten, zu lehen zu verleihen, gnediclich
+                        gerüchten.</seg>
+                     <seg>Des haben wir angesehen sein <lb/>demutig und zimlich bëtte und darumb mit
+                        wolbedachttem mütte, guttem ratte und rechter wissen dem egenanten <persName
+                           ref="per004642a.01">Leupfriden Möttelin</persName> den ban, daselbs über
+                        <lb/>das blutt zu richten, zu lehen gnediclich verlihen. Leyhen ime den auch
+                        von Romischer keyserlicher macht wissenlich in crafft diß briefs also, das
+                        er mit demselben bane, <lb/>als offt des hinfur in dem gemelten gerichte
+                        notdurft sein wirdet und zuschulden kumbt, durch die <term ref="lem000089"
+                           >ambtleütt</term>, so dartzu tüglich und gutt sein, den er das empfelhen
+                        sol und <lb/>mag, bey dem <term ref="lem000070">eyd</term>e, den er uns
+                        darumb als hernach stett, tun.</seg>
+                     <seg>Auch von den gemelten amptlütten, darumb als sich gebüret, nemen sol zu
+                        hanndeln, zu richten <lb/>und zu volfaren gegen dem reichen als dem armen
+                        und dem armen als dem reichen und darinne nicht anzusehen weder <term
+                           ref="lem000608.07">früntschaft</term> noch <term ref="lem000454"
+                           >veintschaft</term>, <term ref="lem002015.04">myet</term> noch <term
+                           ref="lem008545.03">gab</term>e <lb/>noch ganntz dhein annder sache, dann
+                        allein gerechts gerichte und recht, getrewlich und ungeverlich.</seg>
+                     <seg>Darauf sol auch der obgenant <persName ref="per004642a"
+                           >Möttelin</persName> hie zwischen datum <lb/>diß brieffs und <date
+                           type="deadline" when="1467-02-02">unser lieben frawen liechtmeßtag</date>
+                        <sic>schiristkunftig</sic> unsern und des reichs lieben getrewen <orgName
+                           ref="org001876">burgermeister und ratte der statt Sannt Gallen</orgName>,
+                        uns und dem <lb/>heiligen reiche von solicher lehen wegen getrew gehorsam
+                        und gewerttig zu sein, zu diennen und zu tunde als solicher <term
+                           ref="lem000961">lehenrecht</term>, auch es mit dem egemelten ban über daz
+                        <lb/>blutt zu richten, zu halten und zu volfaren, als obgeschriben ist,
+                        gewöndlich <term ref="lem000412">glüpde</term> und eyde tun
+                        ungeverlich.</seg>
+                     <seg>Mit urkunt diß brieffs mit unserm keyserlichen an<lb break="no"
+                        />hanngendem innsigel besigelt, geben zu der <origPlace ref="loc001003.02"
+                           >Newenstatt</origPlace> am <origDate when="1466-07-09">mittichen vor
+                           sannt <persName ref="per000365">Margareth</persName>en tag nach <persName
+                              ref="per000353">Cristi</persName> geburde viertzehenhunndert und im
+                              sechs<lb break="no"/>undsechtzigissten, unser reiche</origDate>
+                        <origDate when="1427-07-09">des Römischen im
+                           sybenundzweintzigissten</origDate>, <origDate when="1415-07-09">des
+                           keyserthumbs im funfftzehenden</origDate> und des <origDate
+                           when="1408-07-09">
+                           <placeName ref="loc000798">Hunger</placeName>ischen im
+                           achttenn</origDate> jarenn.</seg>
+                  </p>
+                  <pb facs="StASG_AA_2_U_04_v"/>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab place="verso" type="dorsal" hand="hand15c">
+                     <lb/>Ban uber das blütt <persName ref="per004642a">Mottelin</persName></ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab place="verso" type="dorsal" hand="hand15c">
+                     <lb/><persName ref="per000948a">Rudolfus <choice>
+                           <abbr>Kayntzmy</abbr>
+                           <expan>Kayntzmayer</expan>
+                        </choice></persName>
+                  </ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab place="verso" type="dorsal" hand="later hand">
+                     <lb/>Die fryheitt Forsteck <lb/>und Frischenberg brief</ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab place="verso" type="dorsal" hand="hand17c?">Ingrossiert<lb/>
+                     <lb/>
+                  </ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab place="verso" type="archiving reference">1466; 7</ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab place="verso" type="archiving reference" hand="hand18c?">Sakristey
+                        <abbr>truk</abbr> 39 L 2; <del>N<hi rend="sup">o</hi> 7</del> N<hi
+                        rend="sup">o</hi> 4; 1486</ab>
+               </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div n="1" org="uniform" sample="complete">
+            <p>Der Blutbann ist ein <term ref="key000615">Hoheitsrecht</term> des Kaisers oder Königs,
+          das durch diesen einem <term ref="key000541">Landesherr</term>n verliehen wird. Es ist
+          die erste erhaltene <term ref="key000537">Verleihung</term> des zur Burg <placeName ref="loc006124">Forstegg</placeName> gehörigen Blutbanns (Blutgerichtsbarkeit oder <term ref="key003994">Hochgerichtsbarkeit</term>).</p>
+            <p>Zur Zeit dieser Verleihung ist die ehemalige Herrschaft <placeName ref="loc007762"
+                  >Sax</placeName> in drei Teilherrschaften aufgeteilt: 1. Die Herrschaft <placeName
+                  ref="loc006040">Hohensax-Gams</placeName> mit der Burg <placeName ref="loc000185"
+                  >Hohensax</placeName> und dem Dorf <placeName ref="loc006103">Gams</placeName>
+               gehört seit <date when="1411">1411</date> den Herren <orgName ref="org000928">von
+                  Bonstetten</orgName>. 2. Die Freiherrschaft <placeName ref="loc000278"
+                  >Sax-Forstegg</placeName> mit der Burg <placeName ref="loc006124"
+                  >Forstegg</placeName> und den Dörfern <placeName ref="loc007751"
+                  >Sennwald</placeName>, <placeName ref="loc000389">Haag</placeName> und <placeName
+                  ref="loc000691">Salez</placeName> kommen nach dem Tod von <persName
+                  ref="per000749aa">Albrecht I. von Sax-Hohensax</persName>
+               <date when="1463">1463</date> als <term ref="key000441">Pfand</term> an <persName
+                  ref="per004642a">Lütfried Mötteli</persName>. 3. Die Freiherrschaft <placeName
+                  ref="loc006069">Frischenberg</placeName> mit der Burg <placeName ref="loc006155"
+                  >Frischenberg</placeName> und dem Dorf <placeName ref="loc006068">Sax</placeName>
+               erwirbt <persName ref="per000749aa">Albrecht I.</persName>
+               <date when="1454">1454</date> von seinem Vetter <persName ref="per004526a"
+                  >Ulrich VII. von Sax-Hohensax</persName>, weshalb die Herrschaft ebenfalls als
+               Pfand an Lütfried Mötteli übergeht. Doch de facto ist <orgName ref="org002174"
+                  >Appenzell</orgName> von der Eroberung der Burg <placeName ref="loc006155"
+                  >Frischenberg</placeName>
+               <date when="1446">1446</date> bis <date when="1490">1490</date> der eigentliche
+               Machtinhaber der Herrschaft Frischenberg (vgl. den Kommentar in
+                  <ref>SSRQ_SG_III_4_050</ref>; zur Teilung der Freiherrschaft in der zweiten Hälfte
+               des <date from="1351" to="1400">14. Jh.</date> und zu den Machtverhältnissen im <date
+                  from="1401" to="1500">15. Jh.</date> vgl. die Einleitung sowie <bibl><ref
+                     target="http://permalink.snl.ch/bib/chbsg000080293">Deplazes-Haefliger
+                     1976</ref>, S. 78, 85–87, 100–101, 107–108, 124–125</bibl>). Nach der <term
+                  ref="key000023">Schenkung</term> der Freiherrschaft <placeName ref="loc006069"
+                  >Frischenberg</placeName> durch die <orgName ref="org000531">Eidgenossen</orgName>
+               an <persName ref="per001640">Ulrich VIII. von Sax-Hohensax</persName> um <date
+                  when="1500">1500</date> wird die Freiherrschaft Frischenberg Teil der
+               Freiherrschaft <placeName ref="loc000278">Sax-Forstegg</placeName>.</p>
+            <p>
+               <persName ref="per004642a">Lütfried Mötteli</persName> bittet als neuer Besitzer und
+               Pfandinhaber der beiden Freiherrschaften <placeName ref="loc000278"
+                  >Sax-Forstegg</placeName> und <placeName ref="loc006069">Frischenberg</placeName>
+               den Kaiser um die <term ref="key000537">Verleihung</term> des <term ref="key000044"
+                  >Hochgerichts</term>. In der Regel wird dieses bei einem Besitzerwechsel vom
+               Kaiser neu verliehen. Die späteren Verleihungen sind inhaltlich sehr ähnlich: Kaiser
+                  <persName ref="per004674">Karl V. von Habsburg-Österreich</persName> verleiht den
+               Blutbann von Forstegg an <persName ref="per001640">Ulrich VIII. von
+                  Sax-Hohensax</persName> am <date when="1530-07-15">15. Juli 1530</date>
+                  (<ref>StASG AA 2 U 25</ref>); Kaiser <persName ref="per004675a">Maximilian II. von
+                  Habsburg-Österreich</persName> verleiht den Blutbann von Forstegg an <persName
+                  ref="per004426a">Ulrich Philipp von Sax-Hohensax</persName> am <date
+                  when="1575-10-22">22. Oktober 1575</date> (<ref>StASG AA 2 U 34a</ref>); Kaiser
+                  <persName ref="per004676a">Rudolf II. von Habsburg-Österreich</persName> verleiht
+               den Blutbann von Forstegg an die Gebrüder <persName ref="per004677a">Johann
+                  Albrecht</persName>, <persName ref="per004582">Johann Philipp</persName>,
+                  <persName ref="per004678a">Johann Christoph</persName> und <persName
+                  ref="per004679a">Johann Ulrich von Sax-Hohensax</persName> am <date
+                  when="1590-09-10">10. September 1590</date> (<ref>StASG AA 2 U 36</ref>).</p>
+         </div>
+         <div n="2" org="uniform" sample="complete">
+            <p>Nach dem Kauf der Freiherrschaft <placeName ref="loc000278">Sax-Forstegg</placeName>
+               durch <placeName ref="loc000066">Zürich</placeName>
+               <date when="1615">1615</date> kommen zwei Drittel des Hochgerichts an Zürich. Der
+               dritte Teil des Hochgerichts verbleibt bei <persName ref="per004678a">Johann
+                  Christoph von Sax-Hohensax</persName>. Sein Sohn <persName ref="per004680"
+                  >Christoph Friedrich</persName> verkauft am <date when="1625-07-17">17. Juli
+                  1625</date> den von seinem verstorbenen Vater geerbten Teil um 5000 Gulden an
+               Zürich (<ref>StASG AA 2 U 52</ref>). Nach dessen Tod <date when="1633">1633</date>
+               wird am <date when="1635-04-15">15. April 1635</date> im <orgName ref="org001217"
+                  >Zürcher Rat</orgName> die Frage aufgeworfen, ob man das Lehen des Blutbanns
+               erneuern lassen wolle (<ref
+                  target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=254391">StAZH B III
+                  65</ref>, fol. 395a [Zettel zwischen fol. 394v und 395r]): Der jüngste Lehenbrief
+               über den Blutbann sei <orig>im nüwen urbar der herrschafft Sax, <add place="above">fol. 40,</add></orig> verzeichnet, das im Rathaus im Kasten beim Sitz des
+               Unterschreibers bei den anderen Urbaren liege (vgl. dazu die Verleihung von <date
+                  when="1590">1590</date>, <ref
+                  target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=292506">StAZH F II a
+                  383 b</ref>, fol. 40r–41v). Auch ältere Lehenbriefe seien noch in der Sakristei.
+               Der Rat findet eine Erneuerung nicht für nötig (<bibl><ref>StAZH B II 411</ref>, S.
+                  38</bibl> [15. April 1635]).</p>
+         </div>
+      </back>
+   </text>
+</TEI>

@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+
+			</titleStmt>
+
+			<publicationStmt>
+				<date type="electronic" when="2019-05-29"/>
+				<date type="print"/>
+			</publicationStmt>
+
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ_FR_I_2_8_0061_002</idno>
+			</seriesStmt>
+
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<idno>StAFR, Thurnrodel 11, S. 308–309</idno>
+					</msIdentifier>
+					<head>Marguerite Bosson-Daveret – Verhör / Interrogatoire</head>
+					<msContents>
+						<summary></summary> 
+						<msItem>
+							<textLang>fr</textLang> 
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support>
+									<material></material>
+								</support>
+								<extent>
+									<dimensions type="leaves">
+										<height unit="cm" quantity="0.0"/>
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+									<dimensions type="plica">
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+								</extent>
+							</supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1623-06-07"></origDate>
+							<origPlace></origPlace>
+						</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+							
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		
+		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+			<particDesc default="false"/>
+			<settingDesc default="false"/>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+					<pb n="308"/><p><lb/><origDate when="1623-06-07">7 <foreign xml:lang="la">junii</foreign> <hi rend="underline">1623</hi></origDate><note>Der Verhörort wird nicht genannt.</note>, <foreign xml:lang="la"><choice><abbr>j</abbr><expan>judex</expan></choice></foreign> <persName ref="per006840">Fleischman</persName><note>Gemeint ist ein Stadtweibel.</note>
+							<seg><lb/><abbr>H</abbr> <persName ref="per006751">Erhart</persName>, <abbr>h</abbr> <persName ref="per009261">Techterman</persName></seg>
+							<seg><lb/><persName ref="per009251">Känel</persName>, <persName ref="per009451a.01"><choice><abbr>C</abbr> <expan>Christoph</expan></choice> von Ligertz</persName>, <persName ref="per009221a.01">Raze</persName></seg>
+							<seg><lb/><persName ref="per009460">Gottrow</persName></seg></p>
+					
+						<p><gap reason="irrelevant"/><note>Ce passage concerne le procès mené contre <persName ref="per009489">Jean Cordey</persName>. 
+							Voir <ref>SSRQ_FR_I_2_8_0060_004</ref>.</note></p>
+					
+					<pb n="309"/><p><seg><lb/><add place="left margin"><foreign xml:lang="la">Nihil solvit. <lb/>Nota</foreign>.</add></seg> 
+							<seg><persName ref="per009293">Marguerite</persName><note>Der Verhörort wird nicht genannt.</note>, fille de <persName ref="per009294">Pierre Daveret</persName> de 
+						<lb/><placeName ref="loc005865.07">Sauvoy</placeName>, femme de <persName ref="per009292">Claude Bosson</persName> a 
+						<lb/>dit ne savoir bonnement la cause 
+						<lb/>de son emprisonnement. Pourroit toutte 
+								<lb/>fois estre, <del>que</del> <persName ref="per011335a.01">Jacob Chollet</persName> en estre la 
+						<lb/>cause, lequel ayant vendu certaine 
+						<lb/>mayson au <subst><del>mr</del> <add place="inline"><persName>Messerschmidt</persName></add></subst> et ne 
+						<lb/>l’ayant a gré, a cause comme voisin n’en<lb break="no"/>trassent en dispute, commencea a dire audit 
+								<lb/>vendeur <persName ref="per011335a">Chollet</persName>, d’avoir mal asseuré le 
+						<lb/>sien, <subst><del>et</del><add place="inline">le</add></subst> touchant la dessus au bras. 
+								<lb/>Quelques jours aprés ledit <persName ref="per011335a">Chollet</persName> l’avoir 
+						<lb/>injurié, disant luy avoir donné le 
+								<lb/>mal, l’appellant sorciere. Pour les<lb break="no"/>quelles paroles injurieuses ledit <persName ref="per011335a">Chollet</persName> 
+						<lb/>en a fait accord avec elle en presence 
+						<lb/>de <persName><abbr>N</abbr> Schuler</persName> et <persName>Hans Künig</persName>, et en a 
+						<lb/>fallu payer les vins. Au reste disant 
+						<lb/>estre femme de bien.</seg></p>	
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+
+
+
+<?oxy_options track_changes="on"?>

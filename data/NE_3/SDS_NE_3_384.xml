@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     n="1234"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="headerinfo"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2020-08-17"/>    <date type="print"/>
+    <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Collection des sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS_NE_3_384</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>AVN B 101.14.002, fol. 6v–11v</idno>
+               </msIdentifier>
+               <head>Dettes, hypothèques et obligations</head>
+               <msContents>
+                  <summary>Vingt-et-un points concernant les dettes, les hypothèques, les
+                     obligations et leurs intérêts, mais également la prérogative du Petit Conseil
+                     de donner les points de coutume. </summary>
+                  <msItem>
+                     <textLang>français</textLang>
+                     <filiation type="current"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="34.5"/>
+                              <width unit="cm" quantity="22"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1719-01-04"/>
+                     <origPlace ref="loc007786">Neuchâtel</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head/>
+                     <bibl/>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key004001"/>
+               <term ref="key003025"/>
+               <term ref="key004969"/>
+               <term ref="key005096"/>
+               <term ref="key000275"/>
+               <term ref="key005038"/>
+               <term ref="key005138"/>
+               <term ref="key004367"/>
+               <term ref="key005049"/>
+               <term ref="key000724"/>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="6v" facs="AVN_B_101.14.002_0006v"/>
+               <div>
+                  <p>
+                     <lb/>Sur la requeste présentée par dame <lb/><persName ref="per008782a">Rose
+                        Bullot</persName>, veuve de feu monsieur <persName ref="per008781">Fréderic
+                        <lb/>Rougemont</persName>, mayre de <placeName ref="loc007790">La Chaux de
+                        Fond</placeName>, par <lb/>devant Monsieur le maistre bourgeois et
+                        <lb/><orgName ref="org003085">messieurs du Conseil Estroict de la Ville
+                        <lb/>de <placeName ref="loc007786">Neüfchatel</placeName>
+                     </orgName> le <origDate when="1719-01-04">4<hi rend="sup">e</hi> janvier <hi
+                           rend="underline">1719</hi></origDate>, <lb/>tendante et aux fins d’avoir
+                     les vingt un <lb/>points de coustume suivants. </p>
+                  <p>
+                     <lb/>1. N’est-il pas libre à un créancier de faire écrire <lb/>les soluits sur
+                     son acte obligatoire, par telle <lb/>personne qu’il juge à propos, sans qu’il
+                     soit <lb/>nécessaire que le créancier les écrive luy même. </p>
+                  <p>
+                     <lb/>2. Les <term ref="lem015052">soluits</term>, pour estre vallables, doivent
+                     ils estre <lb/>signés par le créancier qui les écrit, ou fait <lb/>écrire sur
+                     son obligation&#160;? L’usage n’est-il pas au <lb/>contraire qu’on ne signe point
+                     les soluits sur <lb/>l’acte obligatoire. </p>
+                  <p>
+                     <lb/>3. Quand un créancier a receu sur ses livres, <lb/>renthiers, carnets, ou
+                     de quelque autre manière <lb/>divers payements, soit en argent contant ou
+                     <lb/>en denrées, à tant moins et en déduction des <lb/>intérêts, ne suffit il
+                     pas et n’est il pas assés <lb/>tost que le conte s’en fasse et que les soluits
+                     <lb/>en soient mis et imputez fidèlement sur les <lb/>obligations et cédules,
+                     avant la production <lb/>d’icelles, dans le décret du débiteur principal. </p>
+                  <pb n="7r" facs="AVN_B_101.14.002_0007r"/>
+                  <p>
+                     <lb/>4. Les hypothèques peuvent-elles s’acquérir dans <lb/>ce pays, autrement
+                     que par la convention et <lb/><term ref="lem017005">stipulation</term> expresse des contractans, passée par
+                     <lb/>devant un notaire public. </p>
+                  <p>
+                     <lb/>5. Un jugement souverain emport-il hypothèque <lb/>sur les biens de celuy
+                     contre qui il a esté rendu. </p>
+                  <p>
+                     <lb/>6. Ces mots, <hi rend="underline">sous l’obligation générale de ses
+                        biens</hi>
+                     <lb/>mis dans obligations ou autres contracts, ne sont <lb/>ils pas une pure
+                     clause de stile qui ne produit <lb/>aucun action hypothécaire. </p>
+                  <p>
+                     <lb/>7. Les hypothèques spéciales ne se contractent-elles <lb/>pas uniquement
+                     dans ce pays par la nomination <lb/>et désignation particulière de certains
+                     fonds et <lb/>héritages que l’on veut affecter spécialement à la <lb/>sûreté de
+                     quelque obligation que ce puisse estre&#160;? <lb/>N’est-ce pas la seule et unique
+                     manière, receue et <lb/>pratiquée dans ce pays, de constituer un hypothè<lb
+                        break="no"/>que spéciale. </p>
+                  <p>
+                     <lb/>8. La coutume n’est-elle pas, que les hypothèques <lb/>spéciales, soit
+                     quelles dérivent pour prix non payé <lb/>du fond vendu, ou pour prêt des
+                     deniers qui ont <lb/>servi à l’achapt du fond, soit quelles viennent <lb/>de
+                     quelque autre cause que ce soit, elles n’ont <lb/>entr’elles d’autre préférence
+                     que celle qui vient <lb/>de l’antériorité de la datte. </p>
+                  <pb n="7v" facs="AVN_B_101.14.002_0007v"/>
+                  <p>
+                     <lb/>9. Quant un homme a passé un contract <hi rend="underline">sous l’obli<lb
+                           break="no"/>gation générale de ses biens</hi> ne peut-il pas <lb/>puis
+                     après hypothéquer spécialement chacun des <lb/>fonds et héritages par luy
+                     auparavant obligé<del rend="strikethrough">s</del>
+                     <lb/>dans la généralité. Et en ce cas, une telle hypothè<lb break="no"/>que
+                     spéciale, quoy que postérieure en datte, ne <lb/>prévaut-elle pas sur
+                     l’hypothèque générale et <lb/>antérieure. </p>
+                  <p>
+                     <lb/>10. Une obligation acquise par un cessionaire <lb/>à moindre prix que le
+                     sort principal, n’est elle <lb/>pas exigible en entier en capital et intérêts
+                     <lb/>attendu que dans ce pays, les obligations et <lb/>créances sont dans le
+                     commerce comme les autres <lb/>biens. </p>
+                  <p>
+                     <lb/>11. Les obligations et cédules dans lesqu’elles l’intérêt <lb/>au denier
+                     vingt, soit au cinq pour cent, est <lb/><term ref="lem017005.04">stipulé</term>, sont-elles usuraires bien que
+                     le sort <lb/>principal soit exigible à terme ou à volonté. <lb/>De telles
+                     obligations, au contraire, ne sont-elles <lb/>pas légitimes et autorisée par la
+                     coutume. </p>
+                  <p>
+                     <lb/>12. Bien qu’une obligation soit colloquée en entier <lb/>dans un décret et
+                     que les créanciers postérieurs <lb/>en datte ait été colloqué à la suite du
+                     bien, n’est <lb/>il pas vray pourtant que par la coutume une telle
+                     <lb/>obligation n’est pas éteinte par le payement, dès le <lb/>moment qu’elle a
+                     esté colloquée&#160;? Et cela d’autant qu’on <lb/>a dans l’<date dur="P1Y1D">ann et
+                        jour</date> le bénéfice de la remonte, qui <lb/>fixe et détermine le
+                     véritable jour de la collocation, <lb/>et au moyen dequoy l’obligation reste et
+                     demeure <pb n="8r" facs="AVN_B_101.14.002_0008r"/>
+                     <lb/>vallable à sa datte pour la <subst><del>collocation</del>
+                        <add place="above">somme</add></subst> que la <lb/>collocations s’est moins
+                     montée que l’évaluation <lb/>des égaleurs. </p>
+                  <p>
+                     <lb/>13. Lors que les fonds, maisons et héritages sont adjugéz <lb/>au prince
+                     par figure de justice pour cences fonciers <lb/>ou régaliennes, le jadis
+                     tenancier de tels fonds, <lb/>maisons et héritages, n’est-il pas vallablement
+                     et <lb/>entièrement acquité des cences foncières et régaliè<lb break="no"/>nes,
+                     dont lesdits fonds, maisons et héritages étoient <lb/>chargés. </p>
+                  <p>
+                     <lb/>14. N’est-il pas loissible et indifférens de faire porter par <lb/>le
+                     greffier la remonte d’une collocation&#160;; soit au pied des <lb/>lettres de
+                     collocation, soit au pied et à la suite de l’obliga<lb break="no"/>tion
+                     colloquée, afin de pouvoir agir en recours pour <lb/>la moins value de la
+                     remonte contre le décrétable ou <lb/>ses héritiers&#160;? </p>
+                  <p>
+                     <lb/>15. Lors qu’une obligation a esté renvoyée dans un <lb/>décret, faute de
+                     biens, ou qui ayant esté colloquée, il y <lb/>a eu perte sur la collocation par
+                     la remonte, ne peut <lb/>on pas la laisser en dépoz au greffe, pour en estre
+                     <lb/>tirée par le créancier, ou les ayants droits, quand on <lb/>veut agir en
+                     recours contre le décrétable, ou ses <lb/>héritiers. </p>
+                  <p>
+                     <lb/>16. Lors qu’une obligation perdue, ou lacérée par caduité <lb/>du papier a
+                     esté <choice>
+                           <sic>gros, soyée</sic>
+                        <corr><term ref="lem015076">grossoyée</term></corr>
+                        </choice> de nouveau en justice, la <lb/>nouvelle regrosse ne
+                     devient-elle pas un second original <lb/>authentique et exécutoire, sans qu’on
+                     soit obligé pour <lb/>l’exécution d’iceluy de produire le premier original
+                     <lb/>de l’obligation. </p>
+                  <pb n="8v" facs="AVN_B_101.14.002_0008v"/>
+                  <p>
+                     <lb/>17. La coutume n’est-elle pas que, quand le prince <lb/>ou ses receveurs,
+                     pour dixmes admodiations <lb/>de domaine, baux à ferme, et autres telles
+                     <lb/>redevances, recoivent des cautions pour leur sureté <lb/>ou suivant la foy
+                     de la personne, ils ne jouissent <lb/>d’aucun privilège ny préférence dans les
+                     décrets, et <lb/>qu’ils n’y sont colloqués qu’à leur rang et à leur date,
+                     <lb/>comme les autres créanciers. </p>
+                  <p>
+                     <lb/>18. Le bénéfice de la remonte, n’est-il pas acquis <lb/>par la coutume à
+                     chaque créancier colloqué sans <lb/>que pour cela, il faille ni nouvelle <choice>
+                        <abbr>ordonn<hi rend="sup">ce</hi>
+                        </abbr>
+                        <expan>ordonnance</expan>
+                     </choice> de <lb/>la seigneurie, ny sentence de juge, ni nouvelle
+                     <lb/>estimation ou taxe des experts ou égaleurs. </p>
+                  <p>
+                     <lb/>19. Par la coutume du pays, n’est-il pas prohibé et <lb/>deffendu de tirer
+                     l’intérêt de l’intérêt, tandis que les <lb/>intérêts ne sont pas convertis en
+                     fort principal d’accord <lb/>de parties. </p>
+                  <p>
+                     <lb/>20. Quand deux ou plusieurs associéz font en compte <lb/>ouvert pour
+                     avances et fournitures respectives, <lb/>faites les uns pour les autres, celuy
+                     qui seroit et <lb/>prétend créancier, est-il admis à agir par usages <lb/>et
+                     par saisie de biens contre les autres, tandis que <lb/>le compte n’est pas
+                     réglé&#160;? Et au cas qu’il soit réglé, soit <lb/>d’accord de parties, soit par
+                     sentence de juge, celuy qui <lb/>demeure créancier par le compte, peut il
+                     prendre d’autre <lb/>date dans le décret de ses anciens associéz que celle du
+                     <lb/>jour du règlement du compte. </p>
+                  <pb n="9r" facs="AVN_B_101.14.002_0009r"/>
+                  <p>
+                     <lb/>21. Messieurs du <orgName ref="org003085">Conseil Étroit</orgName> de
+                     cette Ville ne sont <lb/>ils pas en pouvoir et en possession
+                           immémoria<subst><del rend="strikethrough">lle</del>
+                        <add place="above">le</add></subst>
+                     <lb/>de donner des déclarations attestatoires de la coutume <lb/>et de telles
+                     déclarations, signées du secrétaire du <lb/>Conseil et munies du sceau de la
+                     mairie et justice <lb/>de <placeName ref="loc007786">Neüfchatel</placeName>, ne
+                     sont elles pas d’une foy authentique. </p>
+                  <p>
+                     <lb/>Mesdits sieurs du <orgName ref="org003085">Conseil</orgName>, ayant eu et
+                     meure <lb/>méditation par ensemble, donnent par déclaration <lb/>la coutume
+                     usitée en la souveraineté de <placeName ref="loc007785">Neüfchatel</placeName>
+                     <lb/>estre telle, comme suit. </p>
+                  <p>
+                     <lb/>1. Sur le premier. Il est libre à un créancier de faire écrire <lb/>les
+                     solvits sur son acte obligatoire, par telle personne <lb/>qu’il juge à propos,
+                     n’étant pas nécessaire que le <lb/>créancier les écrive luy même. </p>
+                  <p>
+                     <lb/>2. Comme les solvits sont en faveur &amp; à la décharge du <lb/>débiteur,
+                     il n’est pas requis par la coutume que, pour être <lb/>vallables, ils soyent
+                     signés par le créancier, soit celuy qui <lb/>les écrit en son nom sur l’acte
+                     obligatoire&#160;; au contraire <lb/>l’usage &amp; la pratique est qu’on ne signe
+                     point les solvit. </p>
+                  <p>
+                     <lb/>3. La coutume est que lors qu’un créancier a reçu sur ses <lb/>livres,
+                     rentiers, ou de quelqu’autre manière que ce soit <lb/>divers payemens, soit en
+                     argent comptant ou en denrées, <lb/>à tant moins &amp; en déduction des
+                     intérêts, il suffit &amp; il <lb/>est assés tôt que le compte s’en fasse &amp;
+                     que les solvits <lb/>en soyent mis &amp; imputez fidèlement sur les <choice>
+                        <abbr>obligaõns</abbr>
+                        <expan>obligations</expan>
+                     </choice>
+                     <lb/>&amp; cédules, avant la production d’icelles, dans le décret <lb/>du
+                     débiteur principal. </p>
+                  <pb n="9v" facs="AVN_B_101.14.002_0009v"/>
+                  <p>
+                     <lb/>4. Les hypothèques ne s’acquièrent &amp; ne se constituent <lb/>dans ce
+                     pays que par une convention &amp; <choice>
+                        <abbr>stipulaõn</abbr>
+                        <expan><term ref="lem017005">stipulation</term></expan>
+                     </choice>
+                     <lb/>expresse des parties contractantes, passées par devant <lb/>un notaire
+                     public. </p>
+                  <p>
+                     <lb/>5. Un jugement souverain n’opère et ne produit <lb/>aucun hypothèque dans
+                     ce pays, sur les biens de <lb/>celuy contre qui il a été rendu. </p>
+                  <p>
+                     <lb/>6. Ces mots (<hi rend="underline">sous l’obligation <choice>
+                           <abbr>gnale</abbr>
+                           <expan>générale</expan>
+                        </choice> de ses biens</hi>), mis <lb/>dans une obligation ou autre
+                     contract, sont une pure <lb/>close de style, qui ne produit aucune action
+                        hypothé<lb break="no"/>caire. </p>
+                  <p>
+                     <lb/>7. Les hypothèques spéciales s’acquièrent &amp; se contractent
+                     <lb/>uniquement dans ce pays, par la nomination &amp; dési<lb break="no"
+                     />gnation particulière de certains fonds &amp; héritages <lb/>que l’on veut
+                     affecter spécialement, pour la sûreté <lb/>de quelqu’obligation que ce puisse
+                     être, la coutume <lb/>ne connoissant d’autres manière<del rend="rubbing"
+                        >s</del> que celle là, de consti<lb break="no"/>tuer des hypothèques
+                     spéciales. </p>
+                  <p>
+                     <lb/>8. La coutume est que les hypothèques spéciales, de quelque <lb/>cause
+                     qu’elles dérivent &amp; sans distinction de la nature <lb/>&amp; de l’espèce
+                     des obligations pour la sûreté desquelles <lb/>elles sont affectées, n’ont
+                     entr’elles d’autre préférence <lb/>que celle qui vient de l’antériorité de la
+                     date. </p>
+                  <p>
+                     <lb/>9. Comme une simple obligation <choice>
+                        <abbr>gnale</abbr>
+                        <expan>générale</expan>
+                     </choice> de biens ne <lb/>produit pas l’action hypotécaire, il est loisible
+                     &amp; <lb/>permis à un débiteur d’hypotéquer spécialement <lb/><add
+                        place="below" type="catchword">chacun</add>
+                     <pb n="10r" facs="AVN_B_101.14.002_0010r"/>
+                     <lb/>chacun des fonds &amp; héritages par luy auparavant <lb/>obligéz dans la <choice>
+                        <abbr>gnalité</abbr>
+                        <expan>généralité</expan>
+                     </choice>&#160;; et, en ce cas, une telle hypothèque <lb/>spéciale, quoy que
+                     postérieure en date, prévaut sur <lb/>l’hypotèque <choice>
+                        <abbr>gnãle</abbr>
+                        <expan>générale</expan>
+                     </choice> &amp; antérieure. </p>
+                  <p>
+                     <lb/>10. Une <choice>
+                        <abbr>obligaõn</abbr>
+                        <expan>obligation</expan>
+                     </choice> acquise par un cessionnaire, à moindre <lb/>prix que le <subst><del
+                           rend="overwritten">fort</del>
+                        <add place="above">sort</add></subst> principal, est exigible en entier en
+                     capital <lb/>et intérêts, vu que dans ce pays les <choice>
+                        <abbr>obligaõns</abbr>
+                        <expan>obligations</expan>
+                     </choice> &amp; créances <lb/>sont dans le commerce comme les autres biens. </p>
+                  <p>
+                     <lb/>11. Les <choice>
+                        <abbr>obligaõns</abbr>
+                        <expan>obligations</expan>
+                     </choice> &amp; cédules dans lesquelles l’intérêt au <lb/>cinq pour cent est
+                     <term ref="lem017005.04">stipulé</term> ne sont point usuraires, <choice>
+                        <abbr>nonbst<hi rend="sup">t</hi>
+                        </abbr>
+                        <expan>nonobstant</expan>
+                     </choice>
+                     <lb/>que le sort principal soit exigible à terme ou à volonté&#160;; <lb/>la coutume
+                     étant qu’on peut légitimement <term ref="lem017005.03">stipuler</term> <lb/>les intérêts au denier vingt, quoy
+                     que le sort principal <lb/>ne soit pas alliéné. </p>
+                  <p>
+                     <lb/>12. Quand une obligation a été colloquée en entier, &amp; <lb/>que même
+                     les créanciers postérieurs ont été colloquéz <lb/>à la suitte du bien&#160;; une
+                     telle <choice>
+                        <abbr>obligaon</abbr>
+                        <expan>obligation</expan>
+                     </choice> n’est pas éteinte par <lb/>le payement dès le moment qu’elle a été
+                     colloquée, à moins <lb/>que le créancier ne renonce sur le champ au bénéfice
+                     <lb/>de la remonte, parce que, suivant la coutume, le prix <lb/>de la
+                     collocation n’est fixé &amp; déterminé que par la remonte, <lb/>(au cas que le
+                     créancier colloqué vueille se servir de ce <lb/>bénéfice dans l’an &amp; jour.)
+                     au moyen dequoy l’<choice>
+                        <abbr>oblig</abbr>
+                        <expan>obligation</expan>
+                     </choice>
+                     <lb/>reste &amp; demeure vallable à sa date, pour la somme qu’elle <lb/>s’est
+                     montée de moins que l’estimation des égaleurs. </p>
+                  <p>
+                     <lb/>13. Par l’adjudication faite au prince judiciellement des <lb/>fonds,
+                     maisons &amp; héritages, pour censes foncière <pb n="10v" facs="AVN_B_101.14.002_0010v"/>
+                     <lb/>ou régaliennes, celuy qui étoit tenancier de tels fonds <lb/>est
+                     vallablement et entièrement déchargé des censes <lb/>foncières ou régaliennes,
+                     dont lesdits fonds, maison <lb/>&amp; héritage étoyent chargéz. </p>
+                  <p>
+                     <lb/>14. Il est indifférent et en la liberté du créancier &amp; du
+                     <lb/>greffier de porter l’acte ou certificat de la remonte, fait <lb/>au pié
+                     des lettres de collocation, ou au pié de l’<choice>
+                        <abbr>obligaõn</abbr>
+                        <expan>obligation</expan>
+                     </choice>
+                     <lb/>colloquée, afin de pouvoir agir en recours pour la <lb/>moins value de la
+                     remonte, contre le décrétable <lb/>ou ses héritiers. </p>
+                  <p>
+                     <lb/>15. Lorsqu’une <choice>
+                        <abbr>oblig</abbr>
+                        <expan>obligation</expan>
+                     </choice> a été renvoyée dans un décret, <lb/>faute de biens, ou qu’y ayant été
+                     colloquée, il y a eu <lb/>perte sur la collocation par la remonte, il est
+                     <lb/>loisible de la laisser en dépôt au greffe, pour en être <lb/>retirée par
+                     le créancier ou ses ayans droit, lors <lb/>qu’on veut agir en recours contre le
+                     décrétable <lb/>ou ses héritiers. </p>
+                  <p>
+                     <lb/>16. Lorsqu’une obligation <add place="above">perdue</add> ou déchirée par
+                     caducité du <lb/>papier, a été <term ref="lem015076">grossoyée</term> de
+                     nouveau en justice par <lb/>une copie duement levée &amp; signée par le
+                     greffier, <lb/>une telle copie devient un second original, aussy
+                     <lb/>authentique et exécutoire que le premier&#160;; et l’on n’est <lb/>pas obligé
+                     pour l’exécution du second original de <lb/>reproduire le premier. </p>
+                  <p>
+                     <lb/>17. La coutume est que quand le prince ou ses receuveurs <lb/>pour dîme,
+                     amodiations de domaines, baux à ferme <lb/>&amp; autres telles redevances,
+                     reçoivent des cautions pour <lb/><add place="below" type="catchword">leur</add>
+                     <pb n="11r" facs="AVN_B_101.14.002_0011r"/>
+                     <lb/>leur sûreté, ou suivent la foy de la personne, ils ne <lb/>jouissent
+                     d’aucun privilège ni préférence dans les décret <lb/>et qu’ils n’y sont
+                     colloqués qu’à leur rang, comme les autres <lb/>créanciers. </p>
+                  <p>
+                     <lb/>18. Le bénéfice de la remonte est acquis par la coutume à <choice>
+                        <abbr>chaq</abbr>
+                        <expan>chaque</expan>
+                     </choice>
+                     <lb/>créancier dans un décret, sans que pour cela il faille <lb/>ni nouvelle
+                     ordonnance de la seigneurie, ni sentence de <lb/>juge, ni nouvelle estimation
+                     &amp; taxe des experts ou <lb/>égaleurs. </p>
+                  <p>
+                     <lb/>19. Par la coutume du pays, il est prohibé et deffendu <lb/>de tirer
+                     l’intérêt de l’intérêt, tandis que les intérêts <lb/>ne sont pas convertis en
+                     sort principal, d’accord de <lb/>parties. </p>
+                  <p>
+                     <lb/>20. Quand deux ou plusieurs associéz sont en compte <lb/>ouvert, pour
+                     avances &amp; fournitures respectives, faites les <lb/>uns pour les autres,
+                     celuy qui se croit et prétend créancier <lb/>n’est pas admis à agir par usages
+                     &amp; par saisie de bien, <lb/>contre les autres, tandis que le compte n’est
+                     pas réglé&#160;; <lb/>et au cas qu’il soit réglé d’accord de parties, ou par
+                     <lb/>sentence de juge, celuy qui demeure créancier par le <lb/>compte, ne peut
+                     prendre d’autre date dans le décret <lb/>de ses anciens associéz, que celle du
+                     jour du <lb/>règlement du compte. </p>
+                  <p>
+                     <lb/>21. <orgName ref="org003085">Messieurs du Conseil Étroit</orgName> de
+                     cette Ville sont en <lb/>pouvoir et en possession immémoriale, de donner des
+                     <lb/>déclarations attestatoires de la coutume&#160;; et de telles <lb/><choice>
+                        <abbr>declaraõns</abbr>
+                        <expan>déclarations</expan>
+                     </choice>, signées du secrétaire du Conseil &amp; munies <lb/>du seau de la
+                     mayrie &amp; justice de <placeName ref="loc007786">Neufchatel</placeName> sont
+                     <lb/>de foy authentique. <lb/><add place="below" type="catchword">ce qu’a</add>
+                  </p>
+                  <pb n="11v" facs="AVN_B_101.14.002_0011v"/>
+                  <p>
+                     <lb/>Ce qu’a été ainsy fait conclut &amp; arrêté le <lb/><origDate
+                        when="1719-01-04">quatrième janvier mille sept cens dixneuf</origDate> &amp; <choice>
+                        <abbr>ord<hi rend="sup">né</hi>
+                        </abbr>
+                        <expan>ordonné</expan>
+                     </choice>
+                     <lb/>à moy, secrétaire du Conseil de la ville, de l’expédier <lb/>en cette
+                     forme, sous le <term ref="lem016327">seel</term> de la justice &amp; mayrie <lb/>de la Ville de <origPlace
+                        ref="loc007786">Neufchatel</origPlace> &amp; signature de ma main. </p>
+                  <p>
+                     <lb/>L’original est signé par moy. </p>
+               </div>
+               <div>
+                  <signed>
+                     <persName ref="per008827">
+                        <choice>
+                           <abbr>J&#160;J</abbr>
+                           <expan>Jean Jacques</expan>
+                        </choice> Purry</persName>
+                     <figure type="notarial sign"/></signed>
+               </div>
+            </body>
+         </text>
+      </group>
+   </text>
+</TEI>

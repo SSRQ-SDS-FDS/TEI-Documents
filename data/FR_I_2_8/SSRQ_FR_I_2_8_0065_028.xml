@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+
+			</titleStmt>
+
+			<publicationStmt>
+				<date type="electronic" when="2019-05-29"/>
+				<date type="print"/>
+			</publicationStmt>
+
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ_FR_I_2_8_0065_028</idno>
+			</seriesStmt>
+
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<idno>StAFR, Thurnrodel 11, S. 342–344</idno>
+					</msIdentifier>
+					<head>Claude Corminboeuf – Verhör / Interrogatoire</head>
+					<msContents>
+						<summary></summary> 
+						<msItem>
+							<textLang>fr</textLang> 
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support>
+									<material></material>
+								</support>
+								<extent>
+									<dimensions type="leaves">
+										<height unit="cm" quantity="0.0"/>
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+									<dimensions type="plica">
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+								</extent>
+							</supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1623-09-20"></origDate>
+							<origPlace></origPlace>
+						</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+							
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		
+		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+			<particDesc default="false"/>
+			<settingDesc default="false"/>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="342"/><p><lb/>Uff dem <placeName ref="loc007890.03">Jaquemar</placeName>
+							<seg><lb/><foreign xml:lang="la">Die quo supra</foreign>, <foreign
+									xml:lang="la"><choice>
+										<abbr>jud</abbr>
+										<expan>judex</expan>
+									</choice></foreign>
+								<abbr>h</abbr>
+								<choice>
+									<abbr>groß</abbr>
+									<expan>großweibel</expan>
+								</choice><note>Gemeint ist <persName ref="per009450">Peter de Gady</persName>.</note></seg>
+							<seg><lb/><abbr>H</abbr>
+								<persName ref="per006751">Erhard</persName>, <abbr>h</abbr>
+								<persName ref="per009261">Techterman</persName></seg>
+							<seg><lb/><persName ref="per009506">Boccard</persName>, <persName
+									ref="per009106">Tumbe</persName></seg>
+							<seg><lb/><persName ref="per009455">Meister</persName>, <persName
+									ref="per009386">Vonderweid</persName></seg>
+							<seg><lb/><choice>
+									<abbr>W</abbr>
+									<expan>Weibel</expan>
+								</choice></seg></p>
+						
+						<p><seg><lb/><add place="left margin"><foreign xml:lang="la">Solvit</foreign> <measure type="currency" unit="lb" quantity="3">3</measure>.</add></seg> 
+						<seg><persName ref="per009556a.03">Claude Cormembeuf</persName> chastellain de <placeName ref="loc007931.02">Cugie</placeName> 
+						<lb/>sus les poincts et interrogats contenus dans 
+						<lb/>l’examen, a dit la dessus d’estre accusé par 
+						<lb/>malveillance des gens qu’il pretend pouvoir 
+						<lb/>regetter. Sur ce entre aultres a nommé 
+						<lb/>premierement <persName>Jehan Jaquoz</persName> de <placeName ref="loc007970">Montet</placeName> pour ce 
+						<lb/>qu’il a esté <term ref="lem015356.05">acculpé</term>. Item les parens de <persName>Jehan 
+						<lb/>Grand Gerard</persName><note>Jean Grandgirard, d’<placeName ref="loc007693">Estavayer</placeName>, sera libéré. Voir StAFR, Ratsmanual 174 (1623), S. 534, 561.</note> pour avoir fait pleintifs encontre 
+						<lb/>luy icy au conseil, comme sont <persName>Jaque Marquet</persName> l’hoste, 
+						<lb/><persName>Jaque Grand Gerard</persName> de <placeName ref="loc007970">Montet</placeName>, et <persName>Clodo Grand 
+						<lb/>Gerard</persName>. Item les gens de <persName>Jaque Bergy</persName>. 
+						<lb/>Item <persName>Pierre Borgonion le Vieux</persName> qui a esté 
+						<lb/><term ref="lem015356.05">acculpé</term>. Item <persName>Clodo Promma</persName> qui est 
+						<lb/>de parens des fugitifs. Item les parens 
+						<lb/>de <persName ref="per009558">Frané</persName>, nommé <persName>Clodo Bergy</persName>.</seg></p>
+						
+						<p><lb/>En aprés il nye sus l’interrogat qu’il avoit de 
+						<lb/>coustume de dire aux prisonniers&#160;: <quote>&#160;N’as tu pas 
+						<lb/>veu cestuy cy en la <term ref="lem017043.02">sette</term>&#160;</quote>, les nommant par nom 
+						<lb/>et sournom.</p>
+						
+						<p><lb/>Nye aussi avoir dit aux prisoniers&#160;: <quote>&#160;Pourquoi 
+						<lb/>ne veulx tu pas <term ref="lem015356.05">acculpé</term> un tel et un tel, 
+						<lb/>que eux mesmes t’ont bien <term ref="lem015356.05">acculpé</term>.&#160;</quote></p>
+						
+						<p><lb/>Nye davantage d’avoir changé les justiciers 
+						<lb/>si non quelque foy quant il estoyent parens 
+						<lb/>aux prisoniers.</p>
+						
+						<pb n="343"/><p><lb/>Et pour le regard de la variabilité  et inconstance 
+						<lb/>de <persName>Joanna Chavra</persName> en ses <term ref="lem015358.02">acculpes</term>, 
+						<lb/>respond que <persName>Monsieur de <placeName ref="loc007931.02">Cugie</placeName></persName> estoit present 
+						<lb/>a l’examen, et q’elle n’a beu (qu’il sache et 
+						<lb/>comme <subst><del>d</del><add place="overwritten">l</add></subst>es deux <term ref="lem017410.03">mestrals</term> ont attesté) que quartela 
+						<lb/>de vin.</p>
+						
+						<p><lb/>Concernant la grande tormente et rigoreuse 
+						<lb/>torture <subst><del>de</del><add place="inline">encontre</add></subst> <persName ref="per009558a.02">Françoys Frané</persName>, 
+						<lb/>respond que luy mesme commandoit de le lacher 
+						<lb/>et nye qu’on l’aye laissé si long temps 
+						<lb/>comme <time dur="PT30M">demy heure</time>. Et ce qu’il a fait, l’avoir 
+						<lb/>fait par commandement et voloir de la justice.</p>
+						
+						<p><lb/>Item sus l’interrogat a cause de <persName ref="per009416a.02">Joanna Joly</persName>, 
+						<lb/>laquelle craignant d’estre torturé plus aultre 
+						<lb/>l’auroit fait present de <measure type="currency" quantity="20" unit="k">vingt escus</measure>, 
+						<lb/>respond et nye totalement les avoir <subst><del>recepus</del> 
+						<lb/><add place="left margin">receups</add></subst> pour un present, confesse bien d’avoir receups 
+						<lb/><measure type="currency" quantity="18" unit="k">dix et huit escus</measure>, mais en avoir rendu compte.</p>
+						
+						<p><lb/>Sus le poinct du combat entre luy et l’hotesse 
+						<lb/>de <placeName ref="loc007610">Payerne</placeName>, laquelle luy a dict <quote>&#160;Vaudey&#160;</quote> sans 
+						<lb/>en avoir <term ref="lem015381.03">insté</term> pour reparation, respond 
+						<lb/>n’avoir heu suffisans <sic>tesmoigns</sic> pour la sesir 
+						<lb/>par droit, et qu’il n’osoit pas entrer le 
+						<lb/><term ref="lem015742.02">poile</term>, ou ce qu’il y avoit des gens, les ungs 
+						<lb/>desquels l’avoyent menacé a la mort.</p>
+						
+						<p><lb/>Plus sus l’interrogat qu’il s’estoit donné au 
+							<lb/><term ref="lem017521">diable</term>, que jamais <persName>Sabé Thoma</persName> ne gaigneroit 
+						<lb/>la cause qu’elle avoit contre <persName>Anthoine Barrat</persName>, 
+							
+						<lb/>– <add place="bottom"><foreign xml:lang="la">Verte</foreign></add> –
+						
+					<pb n="344"/><lb/>respond l’avoir dit a cause que ledit <persName>Thoma</persName>
+						<lb/>a attaqué son nepveur, duquel il estoit desja 
+						<lb/>poyé.</p>
+						
+						<p><lb/>Et pour le regard de deux cullier d’argent 
+						<lb/>receu de certain d’<placeName ref="loc007918.01">Orbe</placeName> pour porter a l’hotesse 
+						<lb/>de l’Ours de <placeName ref="loc007610">Payerne</placeName>, dit estre pour ce 
+						<lb/>fait innocent, et la quittance d’un notaire, auquel 
+						<lb/>la plume estoit defendu, estre la cause.</p>
+						
+						<p><lb/>Item nye d’avoir ouy d’un certain qui luy 
+							<lb/>a dit qu’il n’estoit rien <term ref="lem018895.02">marqué</term> au petit 
+						<lb/>doigt comme luy, car aultrement il auroit 
+						<lb/>prins a proces et demandé reparation.</p>
+						
+						<p><lb/>Et quant a ce qu’il a esté accusé par 
+						<lb/>une fillie d’avoir heu un miroer, auquel 
+						<lb/>il faisoit voir ceux qu’il y avoit fait 
+						<lb/>des larcins,  confesse avoir 
+						<lb/>une fois achepté un miroer d’un certain 
+						<lb/><persName>Kömifeger</persName>, qui representoit <add place="left margin" type="sign">par artifice</add> l’effigie de deux 
+						<lb/>persones seulement, et non aulcun aultre 
+						<lb/>figure, soustenant que ceste fillie a esté 
+						<lb/>instigé de l’accuser de cela.</p>		
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+
+
+
+<?oxy_options track_changes="on"?>

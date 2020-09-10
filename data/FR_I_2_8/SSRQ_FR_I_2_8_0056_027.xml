@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+
+			</titleStmt>
+
+			<publicationStmt>
+				<date type="electronic" when="2019-05-29"/>
+				<date type="print"/>
+			</publicationStmt>
+
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ_FR_I_2_8_0056_027</idno>
+			</seriesStmt>
+
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<idno>StAFR, Thurnrodel 11, S. 281–282</idno>
+					</msIdentifier>
+					<head>Pierre Feudy – Verhör / Interrogatoire</head>
+					<msContents>
+						<summary></summary> 
+						<msItem>
+							<textLang>fr</textLang> 
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support>
+									<material></material>
+								</support>
+								<extent>
+									<dimensions type="leaves">
+										<height unit="cm" quantity="0.0"/>
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+									<dimensions type="plica">
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+								</extent>
+							</supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1623-03-24"></origDate>
+							<origPlace></origPlace>
+						</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+							
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+			<particDesc default="false"/>
+			<settingDesc default="false"/>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="281"/><p><lb/><foreign xml:lang="la">Ibidem</foreign><note>Das Verhör fand im <placeName ref="loc007683">Bösen Turm</placeName> statt.</note></p>
+						
+						<p><seg><lb/><add place="left margin"><foreign xml:lang="la">Nihil solvit</foreign>.</add></seg> 
+						<seg><persName ref="per009534">Pierre Feudi</persName> confirmant les petits lareçains 
+						<lb/>cy devant confessés, a joinct avoir prins a 
+							<lb/><placeName>Schwendi</placeName><note>L’identification du lieu est incertaine. Il pourrait s’agir de <placeName ref="loc008657">Schwendi</placeName> (Jaun) ou peut-être de <placeName ref="loc008052">Umbertsschweni</placeName> (Alterswil).</note> un petit <term ref="lem018643.02">formage</term>, a  <unclear><placeName>Wydenwyl</placeName></unclear> un 
+						<lb/><term ref="lem014950.04">seré</term>, a <placeName ref="loc008321.03">Crisieu</placeName> chez les <persName>Gobets</persName> un <term ref="lem015429.02">lincieux</term>, 
+							<lb/>a <placeName ref="loc008320.07">Ägretzwyl</placeName> un <term ref="lem017451.04">auzi</term>, a <placeName ref="loc008080.02">Wolperwyl</placeName> un <subst><del>fet</del> <add place="above">fer</add></subst> 
+						<lb/>de cheval, de mesme a <placeName ref="loc008041.03">S<hi rend="sup">t</hi> Urs</placeName> et a <unclear><placeName>Wyden<lb break="no"/>wyl</placeName></unclear><!-- Ort --> aussy, a <placeName ref="loc007921.05">Bosing</placeName> a prins une paire 
+						<lb/>de <term ref="lem015444.02">colombs</term>, lesquels a vendu a <placeName ref="loc008041.03">S<hi rend="sup">t</hi> Urs</placeName> pour <measure type="currency" unit="bz" quantity="2">2 bz</measure>.</seg></p>
+						
+						<p><seg><lb/><add place="left margin">Nota.</add></seg> 
+						<seg>Item il a confessé que <persName>Sathan</persName> s’apparut 
+						<lb/>a luy la primiere fois vers <placeName ref="loc007649.06">Dompdidié</placeName> en une 
+						<lb/>fin, sus le seoir, y a l’environ d’un an, luy 
+						<lb/>remonstrant sa misere, <subst><del>donnant</del><add place="above">luy disant</add></subst> semblables 
+						<lb/>propos que a son frere, s’appellant <persName>Grabié</persName>, 
+						<lb/>a l’instance duquel a rennié Dieu et se donna 
+						<lb/>a luy.</seg></p> 
+						
+						<p><lb/>L’a baisé aussy comme les aultres.</p> 
+						
+						<p><lb/>Luy a donné <measure type="currency" unit="bz" quantity="16">16 bz</measure> que furent aussy <term ref="lem018302.04">feuilles</term> de 
+						<lb/><term ref="lem016908.05">chasno</term>.</p>
+						
+						<p><lb/>Jusques a <choice><abbr>pnt</abbr><expan>present</expan></choice> n’a encoures confessé d’estre 
+							<lb/><term ref="lem018895.02">marqué</term>, mais n’avoir receu de luy de la 
+						<lb/><term ref="lem018382.02">graise</term> et <term ref="lem014886.02">pusset</term>.</p>
+						
+						<p><lb/>Avec laquelle a fait mourrir a <persName>Hanß</persName> de 
+						<lb/><placeName ref="loc008320.07">Ägretzwyl</placeName> son ronsin.</p>
+						
+						<p><lb/>A <persName>Rapo</persName> de <placeName ref="loc007921.05">Bosing</placeName> un <term ref="lem018314.02">chain</term>.</p>
+						
+						<p><lb/><del><add place="above">D’autum passé</add>, y a un an qu’il fait le ronsin de <placeName ref="loc008041.03">S<hi rend="sup">t</hi> 
+						<lb/>Urs</placeName>.</del> 
+					<pb n="282"/><lb/><subst><del>D’autum dernierement</del><add place="above">L’an</add></subst> passé, il a fait mourrir 
+						<lb/>le ronsin de <placeName ref="loc008041.03">S<hi rend="sup">t</hi> Urs</placeName>.</p>
+						
+						<p><lb/><del>Item</del></p> 
+							
+						<p><lb/><subst><del>D’aultr</del>
+						<lb/><add place="below">D’autum</add></subst> passé a fait mourrir l’anciaine 
+						<lb/>femme de <persName>Gasser</persName> de <placeName>Ried</placeName><note>L’identification du lieu est incertaine. Il existe de nombreux toponymes de ce type dans le canton de Fribourg, mais selon les autres mentions de lieux faites dans le procès, il pourrait s’agir de <placeName ref="loc008640">Ried</placeName> ou de <placeName ref="loc008318">Ried bei Kerzers</placeName>.</note>, luy donnant 
+							<lb/>de la <term ref="lem018382.02">graise</term> es pommes.</p>
+						
+						<p><lb/>Dempuis <term ref="lem015435.02">Noé</term> a aussy fait mourrir l’an<lb break="no"/>ciaine d’un qu’on appelle <persName>le Mauvaix 
+							<lb/>Riche de <placeName ref="loc008597.02">Gugisperg</placeName></persName>.</p>
+							 
+						<p><lb/>Item aussy depuis <term ref="lem015435.02">Noé</term> a fait mourrir 
+							<lb/>a <persName>Schmuz</persName> de <placeName ref="loc008083">Fendringen</placeName> <subst><del>vu</del><add place="inline">un</add></subst> <term ref="lem018314.02">chain</term>, 
+						<lb/>ce que son maistre luy avoit commandé, 
+						<lb/>a cause qu’il empescheoit de mal faire.</p>
+						
+						<p><lb/>Y a quelque temps qu’il a fait mourrir 
+						<lb/>un ronsin rouge au <persName>Mertraux</persName> de 
+						<lb/><placeName>Oberdorff</placeName><note>L’identification du lieu est incertaine. Il pourrait s’agir de <placeName ref="loc008656">Oberdorf</placeName> (Giffers) ou de <placeName ref="loc008655">Oberdorf</placeName> (Soleure).</note>.</p>
+						
+						<p><lb/>A <persName>Schaller</persName> de <placeName ref="loc007925.04">Bösing dessoubs</placeName> un che<lb break="no"/>val grisotta.</p> 
+						
+						<p><lb/>Y a <date dur="P3W">3 sepmaines</date> au moulin de la <persName>Möw<lb break="no"/>lina</persName> un veaux rouge.</p>
+						
+						<p><lb/>A <placeName ref="loc008041.03">S<hi rend="sup">t</hi> Urs</placeName> en mesme temps aussy un 
+						<lb/>veaulx.</p> 
+							
+						<p><lb/>Avant <date dur="P14D">14 jours</date> a <placeName ref="loc008080.02">Wolperwyl</placeName> une pe<lb break="no"/>tite fille avec de la <term ref="lem018382.02">graise</term> dans des 
+						<lb/>pommes.</p>
+						
+						<p><lb/>Item au maistre de <placeName>Jettenwyl</placeName><note>L’identification du lieu est incertaine. Il pourrait s’agir de <placeName ref="loc008390">Etiwil</placeName>.</note> une petite 
+						<lb/>fille y a <date dur="P3W">3 sepmaines</date>. Aultre n’a dit.</p>	
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+
+
+
+<?oxy_options track_changes="on"?>

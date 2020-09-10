@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        
+     <?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+     <?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+     <?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+     <?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+     <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+      xml:lang="fr">
+      <teiHeader>
+       <fileDesc>
+        <titleStmt>
+         <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+         <respStmt>
+          <persName>Adrien Wyssbrod</persName>
+          <resp key="transcript"/>
+         </respStmt>
+         <respStmt>
+          <persName>Arnaud Besson</persName>
+          <resp key="headerinfo"/>
+         </respStmt>
+         <respStmt>
+          <persName>Adrien Wyssbrod</persName>
+          <resp key="tagging"/>
+         </respStmt>
+         <respStmt>
+          <persName>Arnaud Besson</persName>
+          <resp key="qualitycheck"/>
+         </respStmt>
+        </titleStmt>
+        <publicationStmt>
+         <date type="electronic" when="2020-08-17"/>    <date type="print"/>
+         <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p></availability>
+        </publicationStmt>
+        <seriesStmt xml:id="ssrq-sds-fds">
+         <title>Collection des sources du droit suisse</title>
+         <respStmt>
+          <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+          <resp/>
+         </respStmt>
+         <idno>SDS_NE_3_237</idno>
+        </seriesStmt>
+        <sourceDesc>
+         <msDesc>
+     <msIdentifier>
+      <idno>AVN B 101.14.001, fol. 489r–489v</idno>
+     </msIdentifier>
+     <head>Révision de compte et intérêts</head>
+     <msContents>
+      <summary>Des comptes dans lesquels on découvre une erreur ou une fraude peuvent être révisés,
+       particulièrement si les parties sont en vie, et cela sans délai de prescription. Aucun
+       intérêt n’est dû pour le prêt d’une somme si cela n’est pas spécifié dans un accord
+       signé.</summary>
+      <msItem>
+       <textLang>français</textLang>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="33"/>
+          <width unit="cm" quantity="23.5"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <origDate when="1671-12-12" calendar="Julian"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>
+      </origin>
+     </history>
+     <additional>
+      <listBibl>
+       <head/>
+       <bibl/>
+      </listBibl>
+     </additional>
+    </msDesc>
+        </sourceDesc>
+       </fileDesc>
+       <encodingDesc>
+        <editorialDecl>
+         <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+        </editorialDecl>
+       </encodingDesc>
+       <profileDesc>
+        <textClass default="false">
+         <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+          <term ref="key005049"></term>
+          <term ref="key003331"></term>
+          <term ref="key004001"></term>
+          <term ref="key005038"></term>
+          <term ref="key003867"></term>
+          <term ref="key005117"></term>
+          <term ref="key003040"></term>
+          <term ref="key005036"></term>
+          <term ref="key004969"></term>
+         </keywords>
+        </textClass>
+        <particDesc default="false"/>
+        <settingDesc default="false"/>
+       </profileDesc>
+      </teiHeader>
+      
+      <text>
+       <group>
+        <text>
+         <body>
+          
+          
+          <pb n="489r" facs="AVN_B_101.14.001_0489r"/> 
+          
+          <div>
+     
+     <head>
+      <lb/>Touchant quand un compte fait entre
+      <lb/>deux personnes, &amp; il s’y rencontre de l’erreur
+      <lb/>obmission ou fraud, ne peut pas estre reveu.
+     </head>
+           
+           <head>
+            <lb/>Et aussi si une personne n’a promis de
+            <lb/>payer l’interest d’une somme deuë, soit par
+            <lb/><term ref="lem014985.02">cedule</term>, obligation ou compte signé s’il est tenu
+            <lb/>le payer.
+           </head>
+      
+      <p>
+       <lb/>Sur la requeste presentée à <lb/>monsieur le maistre bourgeois &amp; <orgName
+        ref="org003085">Conseil estroit</orgName> de la <lb/>Ville de <placeName ref="loc007786"
+        >Neufchâtel</placeName> par <choice>
+        <abbr>honn</abbr>
+        <expan>honnorable</expan>
+       </choice>
+       <persName ref="per011239"><choice>
+         <abbr>Ab</abbr>
+         <expan>Abram</expan>
+        </choice> Faton</persName> de <placeName ref="loc007797.02">Collombier</placeName>
+       <lb/>le <origDate when="1671-12-12" calendar="Julian">12<hi rend="sup">e</hi> decembre <hi
+         rend="underline">1671</hi></origDate> tendante aux fins d’avoir <lb/>les poincts de
+       coustume suivants. </p>
+           
+           <p>
+            <lb/>Premierement si quand deux personnes ont
+            <lb/>fait un compte par ensemble qui est articulé de
+            <lb/>poinct en poinct, et il s’y trouve de l’erreur, obmission
+            <lb/>et mesme du fraud &amp; <term ref="lem015189.02">barrat</term>, au prejudice de l’un ou
+            <lb/>de l’autre, si tel compte ne doit pas estre reveu
+            <lb/>notamment si les deux parties sont vivantes, &amp; si
+            <lb/>ledit fraud &amp; <term ref="lem015189.02">barrat</term> estant cognu doit avoir lieu, en
+            <lb/>quel temps que ce soit.
+           </p>
+           
+           <p>
+            <lb/>Secondement si l’on est obligé de payer l’interet
+            <lb/>la ou il ny a <term ref="lem014985.02">cedule</term> ny obligation ou compte signé.
+           </p>
+           
+           <p>
+            <lb/><orgName ref="org003085"><choice><abbr>Mesd</abbr><expan>Mesdits</expan></choice> <choice><abbr>s<hi rend="sup">rs</hi></abbr><expan>sieurs</expan></choice> du Conseil</orgName> ayans eu advis &amp; meure
+            <lb/>premeditation par ensemble, <term ref="lem015635.04">baillent</term> par declaration
+            <lb/>suivant la coustume usitée en la souveraineté de
+            <lb/><placeName ref="loc007785">Neufchâtel</placeName> de pere à fils et de tout temps
+            <lb/>immemorial jusqu’a present la coustume estre telle.
+           </p>
+           
+           <p>
+       <lb/>Assavoir sur le premier point, que quand un <lb/>compte est fait entre deux personnes
+       qui est bien <lb/>articulé &amp; specifié de poinct en poinct, &amp; il s’y rencontre <lb/>de
+       l’erreur, obmission ou du fraud pour l’une ou l’autre <lb/>des parties, tel compte peut estre
+       reveu, <choice>
+        <abbr>principalem<hi rend="sup">t</hi></abbr>
+        <expan>principalement</expan>
+       </choice>
+       <lb/>quand les parties sont encores en vie &amp; tel erreur, <lb/>obmission &amp; fraud ne
+       doit avoir lieu en quel temps <lb/>que ce soit. </p>
+           
+           <pb n="489v" facs="AVN_B_101.14.001_0489v"/> 
+           
+           <p>
+       <lb/>Sur le second poinct, <term ref="lem015635.04">baillent</term> aussi par
+       <lb/>declaration, que si une personne n’a promis de <lb/>payer l’interest d’une somme deue,
+       soit par <term ref="lem014985.02">cedule</term>, <lb/>obligation ou compte deuëment signé, il
+       n’est tenu d’en <lb/>rien payer. </p>
+           
+           <p>
+       <lb/>Ce qu’a esté ainsi passé, conclud &amp; arresté les <lb/>an &amp; jour que devant, &amp;
+       ordonné à moy secretaire <lb/>de Ville l’expedier en cette forme, sous le <term
+        ref="lem016327">seel</term> de la <lb/>mayorie &amp; justice <choice>
+        <abbr>dud.</abbr>
+        <expan>dudit</expan>
+       </choice>
+       <origPlace ref="loc007786">Neufchâtel</origPlace> &amp; signature de <lb/>ma main. </p>
+           
+           <p>
+            <lb/>Cette presente copie à esté extraite de sur celle qu’en
+            <lb/>avoit fait feu <choice><abbr>mons<hi rend="sup">r</hi></abbr><expan>monsieur</expan></choice> <persName ref="per009020"><choice><abbr>M</abbr><expan>Maurice</expan></choice> Tribolet</persName>, de sur l’original.
+           </p>
+      
+     </div>
+      
+      <div>
+       <signed><persName ref="per008992"><choice><abbr>N</abbr><expan>Nicolas</expan></choice> Huguenaud</persName> <figure type="notarial sign"/></signed>
+      </div>
+     
+       
+    </body>
+   </text>
+  </group>
+ </text>
+</TEI>

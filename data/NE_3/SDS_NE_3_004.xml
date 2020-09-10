@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="headerinfo"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <date type="electronic" when="2020-08-17"/>
+    <date type="print"/>
+    <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Collection des sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS_NE_3_004</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier>
+      <idno>AVN B 101.14.001, fol. 348v–349r</idno>
+     </msIdentifier>
+     <head>Réintégration d’enfants émancipés dans leurs droits successoraux</head>
+     <msContents>
+      <summary>Même si certains enfants (en l’occurrence des filles) ont été émancipés dans le cadre
+       d’un mariage et ont fait séparation de biens, le père a la capacité de les réintégrer dans
+       leurs droits successoraux au même titre que les enfants faisant encore ménage commun. </summary>
+      <msItem>
+       <textLang>français</textLang>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="33"/>
+          <width unit="cm" quantity="23.5"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <origDate when="1559-05-26"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>
+      </origin>
+     </history>
+     <additional>
+      <listBibl>
+       <head/>
+       <bibl/>
+      </listBibl>
+     </additional>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key000803"></term>
+     <term ref="key005153"></term>
+     <term ref="key004411"></term>
+     <term ref="key000863"></term>
+     <term ref="key000920"></term>
+     <term ref="key000815"></term>
+     <term ref="key000050"></term>
+     <term ref="key005006"></term>
+     <term ref="key005155"></term>
+     </keywords>
+   </textClass>
+   <particDesc default="false"/>
+   <settingDesc default="false"/>
+  </profileDesc>
+ </teiHeader>
+ 
+ <text>
+  <group>
+   <text>
+    <body>
+        
+     
+     <pb n="348v" facs="AVN_B_101.14.001_0348v"/> 
+        
+     <div>
+      
+      <head>
+       <lb/>Declaration sy un pere ayant
+       <lb/>filles les unes mariées par mariage divis
+       <lb/>et les autres encores à marier peut rappeller
+       <lb/>celles qui sont mariées pour les faire autant
+       <lb/>esgalle en son bien que les autres.
+      </head>
+      
+      <p>
+       <lb/>Par devant moy, <persName ref="per010669">Guillaume Bourgeois</persName>, <lb/>mayre de
+        <placeName ref="loc007786">Neufchastel</placeName>, <choice>
+        <abbr>etc</abbr>
+        <expan>etcétéra</expan>
+       </choice> judiciallement est comparu <lb/><persName ref="per010670">Guillaume
+        Taillard</persName>, bourgeois dudict lieu, exposant &amp; <lb/>faisant entendre, comme
+       ainsi soit qu’il ait pleu au seigneur <lb/>Dieu luy donner des enffans avec <persName
+        ref="per010671">Catherine</persName> sa femme <lb/>desquels il y en a des vivants, assavoir
+        <persName ref="per010691">Isabel</persName> femme de <lb/><persName ref="per010690a.01"
+        >Jehan <del rend="strikethrough">le</del> Marquis</persName> le drappier, <persName
+        ref="per010693">Rose</persName> femme de <persName ref="per010692">Jehannod
+        <lb/>Menoud</persName> et <persName ref="per011079">Barba</persName>, icelles dictes
+        <persName ref="per010691a.01">Ysabel</persName> &amp; <persName ref="per010693"
+        >Rose</persName> estans <lb/>maryées par mariage divis avec lesdicts marys luy <lb/>ayant
+       faict quictance generalle. Or est il que pour <lb/>autant que ledictes <persName
+        ref="per010691">Isabel</persName> &amp; <persName ref="per010693">Rose</persName> ont
+       tousjours marché <lb/>soubs son voulloir et obeissance, aussi considéré qu’elles n’ont
+       <lb/>heu ny emporté leur bien et droict de la maison ainsi que <lb/>juridiquement leur
+       appartiendroit, mesme n’ayant que trois <lb/>filles les voullant faire egales en tout son
+       bien, dont <lb/>pour ces raisons et autres iceluy dict <persName ref="per010670"
+        >Taillard</persName> a demandé <lb/>droict &amp; judicialle cognoissance que declaration luy
+       fusse <lb/>faicte par sentence de justice&#160;; assavoir mon s’il y pouvoit <lb/>suivant us
+       &amp; coustume rappeller &amp; remettre lesdictes <lb/><persName ref="per010691a.01"
+        >Ysabel</persName> et <persName ref="per010693">Rose</persName> susdicte en leur droict
+       &amp; legitime portion <lb/>tout ainsi et comme elles estoient &amp; que par droict et raison
+       <lb/>leur pouvoir competer et appartenir en tous &amp; singuliers <lb/>ses biens presenter et
+       advenir auparavant lesdicts <lb/>mariages et quictances dessus dicts estre contracts <pb
+        n="349r" facs="AVN_B_101.14.001_0349r"/>
+       <lb/>faicts et arrestés en se demestant et renonceant pour ce <lb/>ausdicts traictes de
+       mariage et quictantes prementionnées <lb/>les tenans pour estre enfraincts, corrompus, abolis
+       &amp; de <lb/>nulle <del rend="strikethrough">valleu</del> force et vigeur et sans ce que au
+       temps <lb/>advenir <choice>
+        <abbr>icelled<hi rend="sup">tes</hi></abbr>
+        <expan>icellesdites</expan>
+       </choice> quictances &amp; traictes de mariage <lb/>puissent aucunement prejudicier à
+       sesdictes deux filles susdites. </p>
+      
+      <p>
+       <lb/>Surquoy je ledict mayre, ayant entendu les propositions dudict <lb/><persName
+        ref="per010670">Taillard</persName> en ay demandé le droict à <orgName ref="org003085"
+        >mesdicts seigneurs les <lb/>conseillers</orgName> lesquels ayans bien ouy et entendu le
+       dire <lb/>d’icelluy dict <persName ref="per010670">Taillard</persName>, ont sur ce cogneu
+       jugé &amp; sentencé <lb/>suivant ce que le passé pour tel &amp; semblable cas a esté
+       <lb/>usité et qu’ils en sont en memoire et bonne souvenance que <lb/>le dessus dict <persName
+        ref="per010670">Guillaume Taillard</persName>, peut faire &amp; user selon <lb/>son dire
+       &amp; proposition susdicts, icelledictes <persName ref="per010691">Isabel</persName> et
+        <lb/><persName ref="per010693">Rose</persName> ses filles rappeller et remettre en esgalle
+       portion en <lb/>leur droict et legitime de tous &amp; singuliere ses biens <lb/>presents et
+       advenir quelconques le tout ainsi comme elles <lb/>estoyent et que leur pouvoyent competer et
+       appartenir <lb/>avant les avoir mariées par mariage divis, et luy <lb/>avoir faict quictance
+       comme dessus est dit, et est ce par <lb/>l’adjudication des <choice>
+        <abbr>honnor</abbr>
+        <expan>honnorables</expan>
+       </choice> <choice><abbr>etc</abbr><expan>etcétéra</expan></choice>
+       <persName ref="per010675a.02">Jehan Charpilliods</persName>
+       <term ref="lem016294">banderet</term>, <lb/><persName ref="per010676a.03">Andrey
+        George</persName>, <persName ref="per010677a.01">Jehan Chevallier</persName>, <persName
+        ref="per010685a.01">Louys Rossel</persName>, <persName ref="per010637a.02">Guilliaume
+        <lb/>Rossellet</persName>, <persName ref="per010647a.01">Pierre Amyot</persName>, <persName
+        ref="per010683">Pierre Wa<add place="above">v</add>re</persName>, <persName
+        ref="per010680a.01">Claude Steyner</persName>, <lb/><persName ref="per010684a.01">Estienne
+        Duplan</persName>, <persName ref="per010601a.02">Jehan Pourry</persName>, <persName
+        ref="per010686">Jacques Clerc</persName> et <lb/><persName ref="per010687a.01">Blaise
+        Warnod</persName>, tous conseillers que les choses susdictes <lb/>ont ainsi cogneues le
+       <origDate when="1559-05-26" calendar="Julian">XXVI<hi rend="sup">e</hi> jour de may <hi rend="underline"
+         >1559</hi></origDate>. </p>
+      
+      </div>
+     
+       
+    </body>
+   </text>
+  </group>
+ </text>
+</TEI>

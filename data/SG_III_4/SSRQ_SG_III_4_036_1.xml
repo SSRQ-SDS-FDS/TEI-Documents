@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+    <persName>Sibylle Malamud</persName>
+    <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+    <persName>Sibylle Malamud</persName>
+    <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-08-19"/>
+            <date type="print"/>
+            <availability><p xml:id="facs">Staatsarchiv St. Gallen (StASG)</p></availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+    <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+    <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_036_1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+    <msIdentifier>
+       <idno>StASG AA 3 U 01</idno>
+       <altIdentifier>
+          <idno>StASG AA 3 U 1</idno>
+       </altIdentifier>
+    </msIdentifier>
+    <head>Graf Hugo V. von Werdenberg-Heiligenberg verleiht den Zoll in St. Ulrich und die Taverne in Sevelen an die Brüder Hans, Heinz, Ulrich und Lienhart Grafer</head>
+    <msContents>
+       <summary>
+          <p>Graf Hugo V. von Werdenberg-Heiligenberg verleiht den Zoll in St. Ulrich und die Taverne in der Seveler Pfarrei zusammen mit 2.5 Juchart Acker bei Rotenberg in Räfis und 1.5 Juchart Acker bei Krauerzell an die Brüder Hans, Heinz, Ulrich und Lienhart Grafer (die Grauffer). Das Lehen ist schon lange im Besitz der Familie.</p>Der Aussteller siegelt.</summary>
+       <msItem>
+          <textLang>Deutsch</textLang>
+          <filiation type="current">Original</filiation>
+       </msItem>
+    </msContents>
+    <physDesc>
+       <objectDesc>
+          <supportDesc>
+             <support>
+                <material>Pergament</material>
+             </support>
+             <extent>
+                <dimensions type="leaves">
+        <height unit="cm" quantity="16.5"/>
+        <width unit="cm" quantity="26.5"/>
+                </dimensions>
+                <dimensions type="plica">
+        <width unit="cm" quantity="1.5"/>
+                </dimensions>
+             </extent>
+          </supportDesc>
+       </objectDesc>
+       <sealDesc>
+          <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI"
+             facs="StASG_AA_3_U_01_s"
+                n="1"
+                nontei:condition="absent"
+                nontei:attachment="sealed on a parchment tag">
+             <persName role="sigillant" ref="per000386a">Hugo V. von Werdenberg-Heiligenberg</persName>
+          </seal>
+       </sealDesc>
+    </physDesc>
+    <history>
+       <origin>
+          <origDate when="1420-07-26"/>
+       </origin>
+    </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+    <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+    <term ref="key000199">Zoll</term>
+    <term ref="key000758">Wirtschaft</term>
+    <term ref="key000022">Lehen</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <div org="uniform" sample="complete">
+                  <pb facs="StASG_AA_3_U_01_r"/>
+                  <seg>
+                     <lb/>Wir, grauff <persName ref="per000386a">Hug von Werdenberg und herr zu dem
+                        Hayligenberg</persName>, bekennen und vergehent offenlich <lb/>mit disem
+                     brief, daz zu uns komen ist uff den tag, als diser brief geben ist, <persName
+                        ref="per004364a">Hans</persName> und <persName ref="per004363a">Hainz, die
+                        Grauffer</persName>
+                     <lb/> gebruͦder, und <choice>
+                        <abbr>htnd</abbr>
+                        <expan>hettend</expan>
+                     </choice> uns die furbraucht und gar ernschlich gebetten, söllichy guͦter, so
+                     sye nach an disem <lb/>brief geschriben staut, in und iren bruͦderen ze lehen
+                     lychen, als sy und ir vorderen jetz lang zyt von unseren <lb/>vorderen der
+                     herrschaft zu <placeName ref="loc000440">Werdenberg</placeName> in lehens wyse
+                     inne gehept hand.</seg>
+                  <seg> Und sind daz die guͦter: Detz ersten der <lb/><term ref="lem010548"
+                        >zoll</term> zu <placeName ref="loc000696.02">Sant Uͦlrich</placeName> und
+                     die <term ref="lem012311">schenken</term> und <term ref="lem000068.16"
+                        >dafern</term> ze <placeName ref="loc006039">Sevellen</placeName> in dem
+                        <term ref="lem000299.14">kirchspell</term> und <measure type="area"
+                        quantity="2.5" unit="Juchart" commodity="field">drithalb joͤchart</measure>
+                     <lb/><term ref="lem000100">akker</term>s ze <placeName ref="loc000428.04"
+                        >Revis</placeName>, hinder <persName ref="per004502">Waltin</persName>s
+                     hofstatt gelegen ze <placeName ref="loc006037.02">Rottenberg</placeName>, und
+                        <measure type="area" quantity="1.5" unit="Juchart" commodity="field"
+                        >anderhalb joͤchart</measure> akkers gelegen <lb/>ze <placeName
+                        ref="loc006038.02">Kauerzell</placeName>.</seg>
+                  <seg>Und also haben wir angesehen soͤllich ernschlich bett, so <persName
+                        ref="per004364a">Hans</persName> und <persName ref="per004363a">Haintz, die
+                        Grauffer</persName> gebruͦder, <lb/>uns getaͤn hand und habent in und iren
+                     bruͦderen <persName ref="per004365">Uͦlrich</persName>en und <persName
+                        ref="per004366">Lyenhart</persName>en die obgeschrybnen lehen mit ir aller
+                     <lb/> zuͦgehoͤrd, als sy und ir vorderen redlich herbraucht <choice>
+                        <abbr>htnd</abbr>
+                        <expan>hettend</expan>
+                     </choice>, ze lechen verlichen mit unserer hand in lehens wyse <lb/>und waz wir
+                     in daran von billich und recht lychen sölnt oder mugent, doch uns und unserer
+                     herrschaft ze <placeName ref="loc000708">Werdenberg</placeName>
+                     <lb/> an der lehenschaft unschaͤdlich und och maͤnglich an sinen rechten
+                     unschaͤdlich.</seg>
+                  <seg>Ouch hand uns die <choice>
+                        <abbr>obgen</abbr>
+                        <expan>obgenannten </expan>
+                     </choice>
+                     <persName ref="per004364a">Hans</persName>
+                     <lb/>und <persName ref="per004363a">Haintz, die Grauffer</persName>, fur sich
+                     und der <choice>
+                        <abbr>obgen</abbr>
+                        <expan>obgenannten</expan>
+                     </choice> ir zwen bruͦder truilich verhayssen und och dez ainen gelerten
+                     <lb/>ayd gesworn uns ze tuͦnd, als denn ain jeglich <term ref="lem000968"
+                        >lehenman</term> sinen <term ref="lem000960">lehenherr</term>en von billich
+                     und raht tuͦn <lb/>sol, aͤn gevaͤrd.</seg>
+                  <seg>Dez ze urkund haben wir in disen brief geben, besigelten mit unserem
+                     anhangenden <lb/>insigel, der geben ist an <origDate when="1420-07-26">frytag
+                        nach san <persName ref="per000208">Jacob</persName>s tag nach <persName
+                           ref="per000353">Crist</persName>s geburt, vierzehenhundert jar und in dem
+                        <lb/>zwantzigesten jar.</origDate></seg>
+                  <pb facs="StASG_AA_3_U_01_v"/>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab type="dorsal" place="verso" hand="hand15c">
+                     <lb/>Der brieff wist <lb/>umb den zoll <lb/>und tafern zu <lb/><placeName
+                        ref="loc000696">Sant Uͤlrich</placeName></ab></div>
+               <div><ab type="dorsal" place="verso" hand="hand17c?"><lb/><abbr>etc</abbr> anno <subst><del><gap quantity="1" unit="word"/></del><add
+                  place="overwritten">1420</add></subst></ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab place="verso" type="archiving reference">
+                     <lb/><del>No. 179</del>
+                     <lb/>N. 127, <lb/>W. No. 1</ab>
+               </div>
+            </body>
+            <back>
+               <div n="1" org="uniform" sample="complete">
+                  <p>Obwohl die Grafen von <orgName ref="org000019"
+                        >Werdenberg-Heiligenberg</orgName> bereits Anfang des <date from="1401"
+                        to="1425">15. Jh.</date> ihre Grafschaft Werdenberg an die Grafen von
+                        <orgName ref="org000202">Montfort-Tettnang</orgName> verlieren, zeigt die
+                     Urkunde, dass sich die Hoheitsrechte über den Zoll, die Taverne in <placeName
+                        ref="loc006039">Sevelen</placeName> sowie über gewisse Güter noch <date
+                        when="1420">1420</date> in ihrem Besitz befinden.</p>
+                  <p>Siehe dazu auch die Verleihung des Zolls und des Tavernenrechts in Sevelen
+                     durch Graf <persName ref="per000417">Heinrich II. von
+                        Werdenberg-Heiligenberg(-Rheineck)</persName> vom <date when="1390-02-25">25. Februar
+                        1390</date> (<ref>SSRQ_SG_III_4_014</ref>) sowie die Regelung des
+                     Tavernenrechts in <placeName ref="loc000708">Sevelen</placeName> von <date
+                        when="1653">1653</date> (<ref>SSRQ_SG_III_4_186</ref>).</p>
+               </div>
+               <div n="2" org="uniform" sample="complete">
+                  <p>Der Urkunde liegt ein Couvert bei mit folgendem Registraturvermerk auf der
+                     Rückseite: <orig><lb/><del>No. 47. 127;</del><choice>
+                           <abbr>Werd.</abbr>
+                           <expan>Werdenberg</expan>
+                        </choice> No 1; <abbr>Gew.</abbr> B <del>K H4</del>
+                        <lb/>Zoll und tafern zu St. Ulrich (nebst Kopie) <lb/>1420. <lb/>NB: Von
+                        diesem brief ist mit bewilligung des departe<lb break="no"/>mentes im
+                           <abbr>octob.</abbr> 1836 dem <abbr>h. </abbr>
+                        <choice>
+                           <abbr>g.ammann</abbr>
+                           <expan>gerichtsammann</expan>
+                        </choice>
+                        <persName ref="per001596a">Vetsch</persName> in <lb/>
+                        <placeName ref="loc000335">Grabs</placeName> eine abschrift gemacht
+                        worden.</orig> Dabei handelt es sich wohl um die Abschrift in <bibl><ref>KA Werdenberg im OA Grabs Nr. 10-15</ref></bibl>.</p>
+               </div>
+            </back>
+         </text>
+      </group>
+   </text>
+</TEI>

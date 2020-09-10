@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften
+     und Landstädte, Band 4: Die Rechtsquellen der Grafschaft Werdenberg, Freiherrschaft
+     Sax-Forstegg und Herrschaft Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-08-15"/>
+            <date type="print"/>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_144_2</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>StASG AA 3 A 3-4</idno>
+                  
+               </msIdentifier>
+               <head>Vereinbarung im Streit um Rheinwuhren zwischen Triesen, Vaduz und Schaan einerseits und Buchs, Sevelen und Wartau andererseits</head>
+               <msContents>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <filiation type="current">Original, Heft (3 Doppelblätter)</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        
+                        <condition>Rückseite zerfleddert</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <sealDesc>
+                     <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI"
+                           n="1"
+                           nontei:condition="well-preserved"
+                           nontei:material="wax in a box"
+                           nontei:shape="round"
+                           nontei:attachment="sealed on a parchment tag">
+                        <persName role="sigillant" ref="per009042a">Schweikhard von Helfenstein</persName>
+                     </seal>
+                     <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI"
+                           n="2"
+                           nontei:condition="well-preserved"
+                           nontei:material="wax in a box"
+                           nontei:shape="round"
+                           nontei:attachment="sealed on a parchment tag">
+                        <orgName role="sigillant" ref="org001197">Glarus</orgName>
+                     </seal>
+                  </sealDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1582-02-20"/>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000520">Wuhr</term>
+               <term ref="key004405">Wuhrmeister</term>
+               <term ref="key000817">Vertrag</term>
+               <term ref="key004049">Schupfwuhr</term>
+               <term ref="key001117"/>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <!-- SSRQ_SG_III_4_144_3: Hier kann etwas nicht stimmen; es handelt sich gemäss FM um ein Original, im Kommentar schreibst Du aber, es sei eine Kopie,  Die Abschrift ist in einem Urbar, das ein Original ist, im Einzelnen ist es eine Abschrift, als Ganzes ein Original, Bei der Stückbeschreibung mit Seitenzahl und allem sieht es komisch aus, dass es Abschrift heisst, da es eigentlich in einem Original ist, ebenso bei _5 und _6. Habe es trotzdem geändert. 
+Datierung vor der Ausfertigung ist es ein Entwurf??? ich nehme an, Du meinst _5. Da sind einige Verträge gemeinsam in einem Datensatz (auch im Archivverzeichnis, auf das Verwiesen wird), u.a. ein früherer Vertrag, deshalb frühere Datierung in FM, ist aber Abschrift von 1754, kein Entwurf.
+ SSRQ_SG_III_4_144_5 und 6: Überlieferung anpassen, Abschrift! 
+
+PS: im Portal testen-->
+   <text>
+      <group>
+         <text>
+            <body/>
+         </text>
+      </group>
+      <back>
+         <div/>
+      </back>
+   </text>
+</TEI>

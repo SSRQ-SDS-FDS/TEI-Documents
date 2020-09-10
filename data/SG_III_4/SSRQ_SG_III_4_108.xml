@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-08-15"/>
+            <date type="print"/>
+            <availability><p xml:id="facs">Staatsarchiv St. Gallen (StASG)</p></availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_108</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>StASG AA 2 U 18</idno>
+               </msIdentifier>
+               <head>Urteil betreffend den Heimfall des Lehens des Brendlishof in Haag an Ulrich VIII. von Sax-Hohensax</head>
+               <msContents>
+                  <summary>
+                     <p>Jakob Grafenbühler, Ammann von Sax-Forstegg, sitzt im Namen seines Herren
+                        Ulrich VIII. von Sax-Hohensax in Konrad Bäbis Haus in Salez zu Gericht. Hans
+                        Egli, Weibel von Sax-Forstegg, lässt durch seinen Fürsprecher vortragen,
+                        dass er vor einigen Tagen einen Rechtstag im Namen seines Herrn abhielt und
+                        darin verkündete, dass sich alle melden sollten, die Anspruch auf den
+                        Brendlishof in Haag erheben. An diesem Rechtstag wird auch ein Urteilsbrief
+                        ausgegeben. Diesen möchte er verlesen lassen, was ihm gestattet wird. </p>
+                     <p>Im Urteil steht, dass der Hof stark vernachlässigt wird, so dass Ulrich VIII. den Hof zu seinen Handen ziehen darf. Die Nutzniessung hat laut Stiftsbrief die Frühmesspfrund Gams.</p>
+                     <p>Darauf reden einige Leute hinter seinem Rücken, dass Teile des Hofs von verschiedenen Leuten gekauft worden seien und man sie von ihrem Eigengut vertreiben wolle. Deshalb setzt Ulrich diesen neuen Rechtstag fest, an dem die Leute ihre Ansprüche durch den Fürsprecher Thomas Auer vorbringen können.</p>
+                     <p>Laut Urteil bleibt der erlangte Urteilsbrief in Kraft.</p>
+                     <p>Der Aussteller siegelt.</p>
+                  </summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <filiation type="current">Original</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Pergament</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="25.0"/>
+                              <width unit="cm" quantity="33.5"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <sealDesc>
+                     <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI"
+                           n="1"
+                           nontei:condition="fragmentary"
+                           nontei:material="wax"
+                           nontei:shape="round"
+                           nontei:attachment="sealed on a parchment tag"
+                           facs="StASG_AA_2_U_18_s">
+                        <persName role="sigillant" ref="per006900a">Jakob Grafenbühler</persName>
+                     </seal>
+                  </sealDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1521-02-07">am sibenden tag rebmonats</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000022">Lehen</term>
+               <term ref="key000417">Heimfall</term>
+               <term ref="key000683">Urteil</term>
+               <term ref="key000746">Gerichtsort</term>
+               <term ref="key000139">Hof</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb facs="StASG_AA_2_U_18_r"/>
+               <div org="uniform" sample="complete">
+                  <p>
+                     <seg>
+                        <lb/>Ich, <persName ref="per006900a">Jacob Grafenbuͤler</persName>, der zit
+                        des edlenn, wolbornenn <persName ref="per001640">Uͦlrichen, fryher von der
+                           Hohenn Sagx, herr zuͦ <placeName ref="loc006070">Bürglenn</placeName> und
+                           Vorstegg</persName>
+                        <lb/><abbr>etc</abbr>, mines gnaͤdigen herren amman in obgedachtenn
+                        herschaft <placeName ref="loc000278">Vorstegg</placeName>, vergich offenlich
+                        und thuͦn kuͦndt allermencklich mit disem, <lb/>das ich uf den hüttigen tag
+                        siner date uf gnaden, haissen und bevelhen des genanten mines gnädigen
+                        herren und von des rechten wegenn <lb/>zuͦ <placeName ref="loc000691"
+                           >Saletz</placeName> in <persName ref="per006901a">Cunratt
+                           Bäbis</persName>
+                        <term ref="lem000248">huß</term> offenlich zuͦ gericht gesesen bin.</seg>
+                     <seg>Do kame für offen, verbannen <term ref="lem005841">gericht</term> der
+                        erber und beschaiden <persName ref="per006902a">Hans Egli</persName>, <lb/>
+                        <term ref="lem000043">weybel</term> in offtgedachter herschafft <placeName
+                           ref="loc000278">Vorstegg</placeName>, und ließ reden durch sin erlopten
+                           <term ref="lem000518">fürsprechen</term>
+                        <persName ref="per006903a">Hansen Hewer in der Huͦb</persName>, wie er hab
+                        vor etlich<lb break="no"/>en vor verschinen tagen ain <term ref="lem000948"
+                           >rechttag</term> gehept, anstatt und im nammen des bemelten herren
+                           <persName ref="per001640">Uͦlrichen, fryher von der Hohen Sax</persName>
+                        <abbr>etc</abbr>, <lb/>und darzuͦ hab er lassen verkünden allen den, so
+                        vermayntend, recht und ansprach zuͦ haben an dem guͦt und <term
+                           ref="lem000169">hof</term> im <placeName ref="loc000389">Hag</placeName>
+                           ge<lb break="no"/>legen, genant des <placeName ref="loc006148.02"
+                           >Brendlis Hof</placeName>. Am selben rechttag, do wär ain ainhellige
+                           <term ref="lem001289">urtal</term> gangen und gefelt worden, darǔmb er
+                        guͦt brief <lb/>und insigel hett von dem gericht. Also begerti er, das im
+                        derselb urtal brief vor offem gericht gelesen werden und satzt also hin zuͦ
+                        <lb/>recht, ob es <term ref="lem007875">icht</term> billich wär.</seg>
+                     <seg>Des fragt ich ain urtal umb uf di ayd, do ward mit ainhelliger urtal nach
+                        miner <term ref="lem000802">umfrag</term> zuͦ recht erkent, <lb/>der selb
+                        brief sött gelesen werden. Und darnach beschäch aber, was recht wär. Also
+                        stuͦnd in dem brief nach allem <term ref="lem001502">gerichtshandell</term>
+                        <lb/>das entlich urtal, die wil dem <term ref="lem014644.02"
+                           >hoptlehen</term> brief nit gelept sy nach inhalt siner <term
+                           ref="lem003874">buͦchstaben</term>, den der bemelt hof witter verkümbert
+                        sy, <lb/>dan er söll und aber der <choice>
+                           <abbr>obgnt</abbr>
+                           <expan>obgenannt</expan>
+                        </choice>
+                        <persName ref="per001640">Uͦlrich, fryher von der Hohen Sax, herr zuͦ
+                           Bürglen und Vorstegg</persName>
+                        <abbr>etc</abbr>, gǔnst, willen und verhencknuß <lb/>von dem jetzigen <term
+                           ref="lem000420">verweser</term>, ouch von dem <term ref="lem006828"
+                           >vogt</term> und <term ref="lem000782">gewalthabern</term> der <term
+                           ref="lem007600.03">fruͤmeßpfruͦnd</term> zuͦ <placeName ref="loc000211"
+                           >Gamps</placeName>, die des hofs vor aller mencklichem <lb/><term
+                           ref="lem010754">vaͤchig</term> und <term ref="lem007579">genoß</term>
+                        warend gsin nach inhalt der <term ref="lem000364.08"
+                           >stifftbrieffen</term>,<note anchored="true">Vgl. den Stiftsbrief von
+                           1473 (<ref>SSRQ_SG_III_4_063</ref>).</note> den hof zuͦ sinen handen und
+                        gewalt zuͦ züchen, nachgelassen <lb/>wär, das den der bemelt herr den
+                        genanten hof mit aller siner bessrung und gerechtikait wol möcht <term
+                           ref="lem000806">zuͦ sinen handen züchen</term>, damit <lb/>schaffen,
+                        thuͦn und lassen, als mit andrem sinem aygnen guͦt.</seg>
+                     <seg>Und uf soͤlichs der bemelt herr von etlichen lüten wer hinderredt worden,
+                        <lb/>wie etlich hettind in dem genanten hoff etlich tail kofft, darumb sy
+                        guͦt brief und sigel hettind. Nüt dester minder möcht sy nie hof<lb
+                           break="no"/>fen und wurdend darvon getriben. Welcher hinderred der offt
+                        genant herr gantz beschwärt, wie den er des willens nie sy gsin, das er
+                        <lb/>jemand das sin wöll nen wider recht. Und durch sölcher <term
+                           ref="lem014645.02">hinderred</term> willen der offt gedacht herr ain
+                        andren rechttag hat lassen se<lb break="no"/>tzen uf den hüttigen tag date
+                        diß briefs und darzuͦ by guͦtter zitt lassen verkünden allen den, die
+                        etliche gerechtikaitten <choice>
+                           <sic>vermay</sic>
+                           <corr>vermaynen</corr>
+                        </choice>
+                        <lb/>zuͦ haben zuͦ bemelten hoff, das sy dar brechtind mit iren lüt, brief
+                        oder <term ref="lem006013">warschafft</term>, das ain jeclicher vermeinti
+                        zuͦ geniessen am <lb/>rechten.</seg>
+                     <seg>Uff selich klag liessend die, die der hoff anlanget, antwurten, wie sy
+                        etlich brief hettind, die begertind sy vor dem gericht verlesen <lb/>werden.
+                        Do liessend sy witter iren fürsprechen <persName ref="per006904a">Thoman
+                           Ower</persName> reden, man hett ir brief wol verstanden, vermaynttend,
+                        nach irer lut by dem <lb/>hoff zuͦ bliben und nit darvon vertriben werden
+                        und setzt es hin zuͦ recht, ob es <term ref="lem007875">icht</term> recht
+                        wär oder was recht darumb wär.</seg>
+                     <seg>Uf sölichs <lb/>ließ der <term ref="lem000043">waybel</term> witter reden,
+                        er laß sin <term ref="lem009439">klag</term> bliben wie vor, den so vil me,
+                        min herr hab den alten stifft und hoptlechenbrief, dem<lb break="no"/>selben
+                        sy nit gelept nach lut siner buͦchstaben, sonder nach lut etlicher ann vil
+                        orten verkümbret, dem nach het er erlangt <lb/>ain urtalbrief, vermaynt, den
+                        selben vom gericht in sinen krefften lassen bliben und die brief, die sy
+                        hettind, die settind im kain schad <lb/>sin an sinem urtalbrief und satzt
+                        ǒch hin zuͦ recht, was recht wär.</seg>
+                     <seg>Des fragt ich, <term ref="key000103">richter</term>, ain urtal umb uf die
+                        ayd und ward nach miner umfrag <lb/>mit ainhelliger urtal zu recht
+                        erkent:</seg>
+                     <seg>Nach vergangnen rechten und ußtruckten urtalen, so sött der <choice>
+                           <abbr>gnt</abbr>
+                           <expan>genannte</expan>
+                        </choice> herr by sinem <term ref="lem000774">hoptbrief</term> und erlangten
+                           <lb/><term ref="lem001228">urtalbrief</term> blibend und söttind im die
+                        brief, die sy hettind lassen lesen, an sinen briefen und rechten kain schad
+                        sin.</seg>
+                     <seg>Der urtal begert der <lb/><choice>
+                           <abbr>gnt</abbr>
+                           <expan>genannte</expan>
+                        </choice> waybel brief und insigel von dem gericht, das im nach miner umfrag
+                        mit urtal zuͦ geben erkent ward. Und des zuͦ warend ur<lb break="no"/>kundt,
+                        so hab ich, richter, von des rechten wegen genanten minen gnädigen herren,
+                        sinen herschaften, dem gericht, mir und unser all<lb break="no"/>er erben
+                        one schaden, min aygen insigel gehenckt an disen brief, der geben ward am
+                           <origDate when="1521-02-07">sibenden tag rebmonats, gezalt nach Chr<lb
+                              break="no"/>isti geburt fünfzechen hundert zwayntzig und ain
+                           jar</origDate>.</seg>
+                  </p>
+               </div>
+               <pb facs="StASG_AA_2_U_18_v"/>
+               <div org="uniform" sample="complete">
+                  <ab place="verso" type="dorsal" hand="hand15c">
+                     <lb/>Urteil brieff umb <placeName ref="loc006148.02">Brendlishoff</placeName>
+                     im <placeName ref="loc000389">Hag</placeName></ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab place="verso" type="dorsal" hand="hand15c">
+                     <lb/>Urtal brief umb Brendlishof</ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab type="dorsal" place="verso" hand="hand18c">
+                     <lb/>Urtheilbrief <lb/>wegen dem Brendlishof <lb/>im Hag gelegen,
+                     <lb/>1521</ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab place="verso" type="archiving reference">N<hi rend="sup">o</hi> 18</ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab place="verso" type="archiving reference">Cist. Sax <del>N 7</del></ab>
+               </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div org="uniform" sample="complete">
+            <p>Laut Stiftsbrief von <date when="1473">1473</date> (<ref>SSRQ_SG_III_4_063</ref>)
+               gehören der <term ref="key000193">Frühmesspfrund</term> von Gams jährlich 30
+               Schilling sowie drei Viertel Weizen Zins vom Brendlishof. Da der Lehenhof stark
+               vernachlässigt wird, zieht <persName ref="per001640">Ulrich VIII. von
+                  Sax-Hohensax</persName> das Lehen an sich. In den meisten Lehenbriefen behält sich
+               der Lehensherr vor, bei Ungehorsam, ausstehenden Zinsen oder bei schlechter
+               Bewirtschaftung, das Lehen an sich zu ziehen. Zum Verfall eines Pfandes oder eines
+               Lehen siehe auch: <bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/a0afa47e8fed4ad88982e1c129b66951"
+                     >LAGL AG III.2403:008</ref> (18.01.1501), <ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/e048da6f197947ff902619f9116fed7f"
+                     >AG III.2414:002</ref></bibl> (07.05.1505); <bibl><ref>Burgerarchiv Grabs
+                     U 1538-1</ref></bibl>; <bibl><ref>StASG AA 2 A 14-15</ref></bibl>;
+                     <bibl><ref>OGA Grabs Gruppe VI./A/16</ref></bibl> (27.06.1725); <bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/a34656a3785c414cb7474cc802c3151a"
+                     >LAGL AG III.2410:064</ref> (11.11.1768), <ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/fbf7a4fd9e3e484394ef19a1b220e147"
+                     >AG III.2407:009</ref> (02.04.1771), <ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/587327d5fe34498bbb35b25724f3f187"
+                     >AG III.2433:046</ref></bibl> (15.05.1773–23.06.1778).</p>
+         </div>
+      </back>
+   </text>
+</TEI>

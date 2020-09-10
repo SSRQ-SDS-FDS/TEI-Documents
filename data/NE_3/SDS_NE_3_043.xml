@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="headerinfo"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <date type="electronic" when="2020-08-17"/>
+    <date type="print"/>
+    <availability><p xml:id="facs">Adrien Wyssbrod</p></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Collection des sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS_NE_3_043</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier>
+      <idno>AEN 14JL–451, fol. 227v–228r</idno>
+     </msIdentifier>
+     <head>Procédure de dépossession</head>
+     <msContents>
+      <summary>Dans le cas où la propriété d’un bien immeuble ou d’un héritage possédé pour une
+       période plus longue que l’an et jour est contestée, il faut poursuivre en justice et non
+       faire usage d’interdits possessoires.</summary>
+      <msItem>
+       <textLang>français</textLang>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="34"/>
+          <width unit="cm" quantity="22.5"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <origDate when="1603-05-17" calendar="Julian"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>
+      </origin>
+     </history>
+     <additional>
+      <listBibl>
+       <head/>
+       <bibl/>
+      </listBibl>
+     </additional>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key005101"></term>
+     <term ref="key005072"></term>
+     <term ref="key005189"></term>
+     <term ref="key000376"></term>
+     <term ref="key004428"></term>
+     <term ref="key003037"></term>
+    </keywords>
+   </textClass>
+   <particDesc default="false"/>
+   <settingDesc default="false"/>
+  </profileDesc>
+ </teiHeader>
+ 
+ <text>
+  <group>
+   <text>
+    <body>
+     <pb n="227v" facs="AEN_14JL_451_0227v"/>
+     <div>
+      <add place="left margin" hand="later hand"><term ref="lem018725.03"><choice>
+       <abbr>Levat</abbr>
+       <expan>Levata</expan>
+      </choice> est</term></add>
+      <p>
+       <lb/>Je <persName ref="per010508">Daniel Huguenaud</persName> mayre et du <orgName
+        ref="org003085">Conseil de la Ville <lb/>de <placeName ref="loc007786"
+         >Neufchastel</placeName></orgName> pour et au nom de l’excellence et grandeur de <persName
+        ref="per010509">madame</persName>
+       <lb/>et de <orgName ref="org003598">messeigneures nos souverains princes</orgName> scavoir
+       fais et <lb/>manifeste par cestes que le <date when="1603-04-05" calendar="Julian">cinquiesme
+        jour du mois d’apvril <lb/>l’an de salut mille six cents et trois</date> administrant
+       justice par <lb/>devant moy et une partie des sieurs conseillers de <choice>
+        <abbr>lad<hi rend="sup">e</hi></abbr>
+        <expan>ladite</expan>
+       </choice> ville <lb/>est comparu <choice>
+        <abbr>honn</abbr>
+        <expan>honorable</expan>
+       </choice>
+       <persName ref="per011757a.01">Jaques Marchand</persName> bourgeois de <placeName
+        ref="loc007904">Boudry</placeName> proposant <lb/>comme il est entré en cause en la justice <choice>
+        <abbr>dud</abbr>
+        <expan>dudit</expan>
+       </choice>
+       <placeName ref="loc007904">Boudry</placeName> a l’occasion de <lb/>ce qu’un certain
+       particulier luy a fait a deffendre de ne se <gap quantity="1" unit="word" reason="illegible"
+       /> <lb/>sur certaines pieces de terre que luy et desja <persName ref="per013423">feu son
+        pere</persName> ont <lb/>jouys possedées comme proprietayres par l’espace de <date
+        dur="P10Y">dix</date> ou <date dur="P12Y">douze <lb/>ans</date>, en laquelle cause il a
+       allegué que estant ainsy en <lb/>possession d’icelles pieces de passé <date dur="P1Y6W"><term
+         ref="lem014776">an et jour</term></date> ce n’est pas la <lb/>coustume d’user de deffence,
+        <term ref="lem015643">ains</term> qu’il convient de l’actionner par <lb/>cognoissance
+       judicialle, sy on pretend l’en deposseder de maniere <lb/>que <term ref="lem016409.02"
+        >traicte</term> luy a esté adjugée a debvoir verifier soy mis en <lb/>avant pour aquoy
+       satisfaire d’autant que ceste ville de <placeName ref="loc007786"><choice>
+         <abbr>Neufch<hi rend="sup">el</hi></abbr>
+         <expan>Neufchastel</expan>
+        </choice></placeName>
+       <lb/>c’est le chef et lieu capital du comte, là où les declairations <lb/>des poincts de
+       coustume usitez <term ref="lem015651">réé</term>
+       <choice>
+        <abbr>ced</abbr>
+        <expan>cedit</expan>
+       </choice> comté, de temps immemorial <lb/>jusqu’a <choice>
+        <abbr>pnt</abbr>
+        <expan>présent</expan>
+       </choice> ont estés faictes. A ceste cause demandoit droict et <lb/>judicialle cognoissance
+       que declairation luy fust faicte du <lb/>poinct susmentionné. </p>
+      <p>
+       <lb/>Et je <choice>
+        <abbr>led</abbr>
+        <expan>ledit</expan>
+       </choice> mayre en desmanday <choice>
+        <abbr>ausd</abbr>
+        <expan>auxdicts</expan>
+       </choice> sieurs conseillers, lesquels <choice>
+        <abbr>po<hi rend="sup">r</hi></abbr>
+        <expan>pour</expan>
+       </choice>
+       <lb/>estre assemblez en petit nombre prindrent jour pour participent <lb/>de l’advis de leurs
+       autres sieurs conseillers. Et au bout de <lb/>quelques jours, apres en avoir prins resolution
+       par ensemble, s’est <lb/>representé <choice>
+        <abbr>led</abbr>
+        <expan>ledit</expan>
+       </choice>
+       <persName ref="per011757a.01">Jaques Marchand</persName> en ouverte justice par devant
+       <lb/>moy et <term ref="lem017673.02">aucuns</term>
+       <choice>
+        <abbr>desd</abbr>
+        <expan>desdits</expan>
+       </choice>
+       <subst><del rend="strikethrough">freres</del><add place="above"><choice>
+          <abbr>srs</abbr>
+          <expan>sieurs</expan>
+         </choice></add></subst> conseillers apres nommez persistant <lb/>pour avoir <choice>
+        <abbr>lad<hi rend="sup">e</hi></abbr>
+        <expan>ladite</expan>
+       </choice> declairation parquoy l’ayant demandée <choice>
+        <abbr>ausd</abbr>
+        <expan>ausdits</expan>
+       </choice> apres <lb/>nommez, iceux ayans surce consulté a part, et se rememorant <choice>
+        <abbr>dud</abbr>
+        <expan>dudit</expan>
+       </choice>
+       <lb/>advis prins en <orgName ref="org003085">conseil</orgName> avec le reste des <orgName
+        ref="org003085">vingtquatre conseillers</orgName>
+       <lb/>leurs confreres, ont dict et declaire unanimement que selon ce <lb/>qu’ils font
+       souvenans en avoir veu usiter par le passé et jusqu’a <pb n="228r" facs="AEN_14JL_451_0228r"/>
+       <add place="left margin" hand="later hand" rend="pencil"><choice>
+         <abbr>P de C</abbr>
+         <expan>Point de coutume</expan>
+        </choice> du <origDate when="1603-05-17">17 mai 1603</origDate></add>
+       <lb/>present la coustume a esté et est encor<del rend="strikethrough">r</del>es telle<del
+        rend="strikethrough">s</del> rie<del rend="strikethrough">r</del>re ceste <lb/>ville et
+       comté de <placeName ref="loc007786">Neufchastel</placeName> que des lors que quelqu’un est
+       <lb/>proprietayre et en possession reelle et actuelle d’une piece de terre, <lb/>heritage et
+       bien immeuble, des passé <date dur="P1Y6W"><term ref="lem014776">an et jour</term></date>, sy
+       un autre pretend <lb/>l’en priver et deposseder il ne luy convient pas user de deffence
+       <lb/>pour ce faire, ains faut qu’il actionne le possesseur par cognoissance <lb/>de justice,
+       desquelles choses <choice>
+        <abbr>led</abbr>
+        <expan>ledit</expan>
+       </choice>
+       <persName ref="per011757">Marchand</persName> a desiré avoir acte <lb/>en forme dehue pour
+       luy servir et valloir a son besoing, lequel <lb/>judiciallement luy a esté ottroyé soubs le
+        <term ref="lem016327">seel</term> de la mayorie <choice>
+        <abbr>dud</abbr>
+        <expan>dudit</expan>
+       </choice>
+       <lb/><placeName ref="loc007786">Neufchastel</placeName> et le seing notarial du secretayre de <choice>
+        <abbr>lad<hi rend="sup">e</hi></abbr>
+        <expan>ladite</expan>
+       </choice> justice en <lb/>tesmognage de verité par l’<term ref="lem016370"
+        >adjudication</term> des <choice>
+        <abbr>honnor</abbr>
+        <expan>honorables</expan>
+       </choice> prudens et sages <lb/><persName ref="per010666">Abraham Ramuz</persName>, <persName
+        ref="per011729a.01">Nicollet Heinzely</persName>, <persName ref="per010515">Pierre
+        Quelin</persName>, <persName ref="per010516a.01">Jehan Chambrier</persName>, <lb/><persName
+        ref="per010451">David Boyve</persName> et <persName ref="per010433a.01">David
+        Bailliod</persName> soussigne conseillers <choice>
+        <abbr>dud</abbr>
+        <expan>dudit</expan>
+       </choice>
+       <placeName ref="loc007786"><choice>
+         <abbr>Neucfchal</abbr>
+         <expan>Neufchastel</expan>
+        </choice></placeName>
+       <lb/>et par <choice>
+        <abbr>moyd</abbr>
+        <expan>moydit</expan>
+       </choice> mayre ordonne <choice>
+        <abbr>audi</abbr>
+        <expan>audit</expan>
+       </choice> soubsigne de l’exepedier, faict le <lb/><origDate when="1603-05-17"
+        calendar="Julian">dix et septiesme jour du mois de may l’an de salut mille six cents et
+        <lb/>trois</origDate>. </p>
+      <p>
+       <lb/>Par l’ordonnace et <choice>
+        <abbr>adjudication</abbr>
+        <expan>adjudication</expan>
+       </choice>
+       <lb/>de <choice>
+        <abbr>meds</abbr>
+        <expan>mesdits</expan>
+       </choice> sieurs signé en moy. </p>
+     </div>
+     <div>
+      <signed><persName ref="per010433a.03"><choice>
+         <abbr>D</abbr>
+         <expan>David</expan>
+        </choice> Bailliods</persName>
+       <figure type="notarial sign"/> not</signed>
+     </div>
+    </body>
+   </text>
+  </group>
+ </text>
+</TEI>

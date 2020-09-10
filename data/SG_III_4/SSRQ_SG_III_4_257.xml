@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-08-15"/>
+            <date type="print"/>
+            <availability><p xml:id="facs">Sibylle Malamud</p></availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_257</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno source="https://archivverzeichnis.gl.ch/home/#/content/6648fd77c7204875b3fa4f8f8c260d47">LAGL AG III.2467:012</idno>
+                  <altIdentifier>
+                     <idno>LAGL X. 254</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <head>Ordnung zum Handel mit Getreide (Fruchtverordnung)</head>
+               <msContents>
+                  <summary>
+                     <p>Getreideordnung, die in allen Kirchen Werdenbergs verlesen worden ist:
+                        Obwohl im Reich eine Handelssperre für Getreide verhängt wurde, verkaufen
+                        Werdenberger Getreidehändler trotz Knappheit ihr Getreide nicht der eigenen
+                        Bewohnerschaft. Die Händler Kirchenmeier Niklaus Eggenberger, Andreas
+                        Grässli, Leonhard Hilty, alle drei aus dem Dorf Grabs, Christian Eggenberger
+                        aus Studen, Feuerwehrhauptmann Peter Gantenbein, Säckelmeister Andreas
+                        Tischhauser am Hugenbühl, Steuervogt Hans Zogg aus Buchs und von Sevelen
+                        Niklaus Tischhauser, Müller aus Glat, müssen Getreide zuerst den Müllern,
+                        Bäckern und übrigen Einwohnern zum Hausgebrauch verkaufen. Den Rest dürfen
+                        sie erst, wenn das Quantum von der kommenden Woche gedeckt ist, auf
+                        obrigkeitliche Bewilligung hin ausser Landes verkaufen.</p> 
+                  </summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <author role="scribe"><persName ref="per002684a">Fridolin Luchsinger</persName>, Landschreiber</author>
+                     <filiation type="original">
+                        <origDate when="1795-01-28"/>
+                     </filiation>
+                     <filiation type="current">Abschrift (Doppelblatt, 2 Seiten beschrieben)</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="39.5"/>
+                              <width unit="cm" quantity="24.0"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate from="1801-01-01" to="1825-12-31"/>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000350">Getreide</term>
+               <term ref="key000882">Lebensmittel</term>
+               <term ref="key003254">Dinkel</term>
+               <term ref="key000341">Ordnung</term>
+               <term ref="key005275">Getreidehändler</term>
+               <term ref="key004663">Kornsperre</term>
+               <term ref="key004667">Getreideversorgung</term>
+               <term ref="key000102">Weizen</term>
+               <term ref="key004353">Import</term>
+               <term ref="key000983">Handel</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <div org="uniform" sample="complete">
+                  <pb n="1r" facs="LAGL_AG_III.2467_012_1r"/>
+                  <head>
+                     <lb/>Copia der <term ref="lem016397.02">frucht verordnung</term>, die sontags,
+                     den <origDate when="1795-01-28">28. jenner 1795</origDate><note anchored="true"
+                        >Nach dem neuen Kalender wäre der 28. Januar 1795 kein Sonntag.</note> in
+                     allen <lb/><term ref="lem000240">kirchen</term> der grafschaft <placeName
+                        ref="loc000440">Werdenberg</placeName> publizirt worden</head>
+                  <p>
+                     <lb/>Wan seit etwas weniger zeit an hoher <term ref="lem004967">behörde</term>
+                     klagend angebracht <lb/>worden, als wann während der in dem <placeName
+                        ref="loc000672">Römischen reich</placeName> verordneten <lb/><term
+                        ref="lem016398.01">fruchtsperrzeit</term> die hier ländischen <term
+                        ref="lem013303">frucht</term> und <term ref="lem016400.02">kernen
+                        händlern</term> die <lb/>für hiesliges <term ref="lem005579">land</term> auf
+                     oberkeitliche <term ref="lem009289">attestat</term> hin erkaufende <term
+                        ref="lem016401.02">kernen<lb break="no"/>früchte</term> denen hiesligen
+                        <term ref="lem002681.01">landteseinwohneren</term> zu ihrer nothurft
+                     <lb/>nicht anwerden laßen, sondern widrum an andere <term ref="lem000852"
+                        >verkauffen</term>, <lb/>als hat unser hochgeachte und gnädige herr
+                     landtvogt auf solche klagen <lb/>hin sich pflichtig gehalten, die samtlichen
+                     landes <term ref="lem002891">vorgesezten</term> zusammen <lb/>zu berufen und
+                     gemeinschaftlich mit ihnen alle <term ref="lem016400.02">kernen</term> und
+                        <term ref="lem013303">frucht<lb break="no"/>händlern</term> vorzuforderen,
+                     die eingegangene klagen ihnen vor <lb/>zu halten und ihre verantwortung darüber
+                     anzuhören, um <lb/>danne nach befindender dingen für die zukonft solche <term
+                        ref="lem003309">verordnung</term>
+                     <lb/>der <term ref="lem016401.02">kernenfrüchten</term> halber zu treffen, die
+                     am besten für hiesliges <lb/>land zu sein erachtet werden könen. Welches so
+                     danne letstern <lb/><term ref="lem005235">freitag</term> beschehen und hernach
+                     folgendes abgeschloßen und für gut <lb/>erkent worden:</p>
+                  <p>
+                     <seg n="1">
+                        <lb/>Daß nemlich ferners hin die <term ref="lem013303">fruchthändler</term>,
+                        die <date dur="R/P1W">wochentlich</date>
+                        <lb/>zu <placeName ref="loc000061">Feldkirch</placeName> und anderen ohrten
+                        aus dem <placeName ref="loc000672">Römischen reich</placeName> erhaltende
+                           <lb/><term ref="lem009958">früchte</term> ankaufen sollen und mögen und
+                        zwarn in der gemeind <lb/><placeName ref="loc000335">Grabs</placeName>
+                        <term ref="lem001587.08">kilchmeier</term>
+                        <persName ref="per010729">Niklaus Eggenberger</persName>, <persName
+                           ref="per010731a">Andreas Gräsli</persName> und <lb/><persName
+                           ref="per010732">Leonhardt Hilte</persName>, alle im dorf <placeName
+                           ref="loc006016">Grabs</placeName>, <persName ref="per010730a">Christen
+                           Eggenberger</persName> in <placeName ref="loc000755.02"
+                           >Studen</placeName>, <lb/><term ref="lem002724.04">feürhauptmann</term>
+                        <persName ref="per010733">Peter Ganthenbein</persName> und <term
+                           ref="lem001645">sekelmeister</term>
+                        <persName ref="per010734">Andres <lb/>Tischhauser</persName> am <placeName
+                           ref="loc007822.03">Hugenbühl</placeName>, in der gemeindt <placeName
+                           ref="loc000198">Buchs</placeName>
+                        <term ref="lem014835">steürvogt</term>
+                        <lb/><persName ref="per010736">Hanß Zokh</persName> und in der gemeind
+                           <placeName ref="loc000708">Sevelen</placeName> der <persName
+                           ref="per010735">Niklaus Tischhauser</persName>, <lb/><term
+                           ref="lem001743">müller</term> zu <placeName ref="loc007020.03"
+                           >Gladt</placeName>. Diesere <term ref="lem009958">früchte</term> sollen
+                        sie <date dur="R/P1W">wochentlich</date> in das <lb/><term ref="lem005579"
+                           >land</term> lieferen und jedem <term ref="lem001743">müller</term>,
+                           <term ref="lem003398.07">bekh</term> und allen hiesligen <term
+                           ref="lem002681">
+                           <add place="above">landts</add>ein<lb break="no"/>wohneren</term>, was
+                        sie zu ihrem eigenen <term ref="lem005118">hausgebrauch</term> wochentlich
+                        <lb/>bedörfen, das nöthige gegen <term ref="lem002251.37">baargelt</term>
+                        oder wie sie über eins<lb break="no"/>kommen, verabfolgen laßen. Und wann
+                        von dieser fruchte denen <lb/><term ref="lem016400.03">kernhändleren</term>
+                        etwas über bleiben solte, sollen sie solche nicht <lb/>befügt sein, anderst
+                        wohin zu verkaufen, bis das quantumm von der <lb/>folgenden <term
+                           ref="lem000665">wochen</term> hier im land sein wird und erst als danne
+                        sollen <lb/>sie jedes mahlen für die überbleibende <term ref="lem009958"
+                           >frucht</term> die oberkeitliche <lb/>begünstigung zum anderwerts <term
+                           ref="lem000852">verkaufen</term> ausbitten.</seg>
+                  </p>
+                  <p>
+                     <seg n="2">
+                        <lb/>Denen <term ref="lem001743">mülleren</term>, <term ref="lem003398.07"
+                           >bekhen</term> und allen anderen <term ref="lem002681.01"
+                           >landteseinwohneren</term>
+                        <lb/>wirdt bei höchster <term ref="lem000345">straf</term> und ungnad
+                        verbotten, keine <term ref="lem003155">kernen</term>
+                        <lb/>und <term ref="lem000051.08">wäitzen</term>, <term ref="lem009958"
+                           >früchte</term> und dergleichen <term ref="lem000937">mehl</term>
+                        <term ref="lem001011">außert landts zu ver<lb break="no"/>kauffen</term>, zu
+                        vertauschen oder auf andere weise an aus wärtige <pb n="1v"
+                           facs="LAGL_AG_III.2467_012_1v"/>
+                        <lb/>landteseinwohnere, es mag sein, wohin es will, zu veraußeren,
+                        <lb/>sondern einig und alleine zum eigenen <term ref="lem001416"
+                           >inländischen</term> gebrauche <lb/>zu widmen. In welcher absicht jeder
+                           <term ref="lem001743">müller</term>, <term ref="lem003398.07">bekh</term>
+                        und andere <lb/><term ref="lem002681.05">landteseinwohner</term> sich bei
+                        dem einten oder andern von denen bemeldten <lb/>verordneten <term
+                           ref="lem016399.01">fruchtlieferanten</term>, um sein benöthigtes <term
+                           ref="lem000665">wochen</term> für wochen <lb/>anzukaufen, zu melden hat,
+                        welche danne pflichtig sein sollen, nach maaßgaab <lb/>jedem die frucht
+                        kraft dem <term ref="lem002510.14">großen landtsmandat</term><note
+                           anchored="true">Vgl. <ref>SSRQ_SG_III_4_217</ref>.</note> über den
+                           <term ref="lem013868">ankauf</term>
+                        <lb/>und aller habenden billichen kösten abzugeben. Welches also denen
+                           <lb/><term ref="lem013303">fruchthändleren</term> als jedem <term
+                           ref="lem002681.05">landteseinwohner</term> zum verhalt bekant
+                        <lb/>gemacht und die <term ref="lem001755.15">übertrettere</term> deßelben
+                        mit höchster <term ref="lem000345">strafe</term> belegt <lb/>werden, so zu
+                        gehorsammem verhalt dienet.</seg>
+                  </p>
+                  <p>
+                     <lb/><persName ref="per002684a">Fridolin Luchsinger</persName>, <lb/><term
+                        ref="lem002854">landtschreiber</term>. </p>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab type="archiving reference" place="verso">
+                     <lb/><abbr>La</abbr> A</ab>
+               </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div org="uniform" sample="complete">
+            <p>Nach der <term ref="key004038">Handelssperre</term> im <placeName ref="loc000672"
+                  >Römischen Reich deutscher Nation</placeName> verkaufen die <term ref="key005275"
+                  >Getreidehändler</term> in <placeName ref="loc000440">Werdenberg</placeName> das
+                  <term ref="key000350">Getreide</term> trotz Knappheit nicht an die eigenen
+               Bewohnerinnen und Bewohner, weshalb der Landvogt die <term ref="key000800"
+                  >Vorgesetzten</term> des Landes sowie die Getreidehändler versammelt, die
+               gemeinsam im <date when="1795-01">Januar 1795</date> die vorliegende <term
+                  ref="key000341">Ordnung</term> erstellen, um die <term ref="key004667"
+                  >Getreideversorgung</term> zu gewährleisten. Darauf erlassen die Vorgesetzten von
+                  <orgName ref="org001828">Grabs</orgName> im März ein Gutachten über eine
+               Neuorganisation des Handels nach den einzelnen Dorfdritteln. Da jedoch nur die
+               bisherigen <term ref="key000907">Händler</term> «als alte Kunden» aus <placeName
+                  ref="loc000486">Lindau</placeName> Getreide beziehen können, wird entschieden, den
+               Getreidehandel weiterhin den bestehenden Getreidehändlern unter gewissen
+               Einschränkungen zu überlassen (<bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/bb4c39ca27ad4ff0b7c7969fe0fcf7a6"
+                     >LAGL AG III.2467:013</ref></bibl>). Darauf erheben einige Kornhändler
+               Einspruch und fordern, dass jedes Dorfdrittel jemanden zum Einkauf von Getreide
+               verordnen solle. Während das Dorfdrittel <orgName ref="org004010">Grabs</orgName> bei
+               den bisherigen Kornhändlern bleibt, verordnen das <orgName ref="org004011"
+                  >Bergdrittel</orgName> und das Drittel <orgName ref="org004012">Studen</orgName>
+               je einen neuen Kornhändler. Alle Drittel bekommen ein Empfehlungsschreiben für
+                  <placeName ref="loc000486">Lindau</placeName> und <placeName ref="loc000061"
+                  >Feldkirch</placeName>. In Feldkirch werden den Händlern des Dorfdrittels vier,
+               denjenigen der beiden anderen Dritteln fünf Säcke zugesprochen, während sie in Lindau
+               leer ausgehen (<bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/557e187132894275a89a87854bf870cf"
+                     >LAGL AG III.2467:011</ref></bibl>). Da weiterhin nur ehemalige Kornhändler in
+               Lindau Getreide einkaufen und dieses allgemein zu günstigeren Preisen beziehen
+               können, will man gemäss Gutachten der Gemeinde <orgName ref="org001828"
+                  >Grabs</orgName> vom März die alten Händler behalten (<bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/ad76d31893b34a2e8926ca5a91b093d3"
+                     >LAGL AG III.2467:014</ref>; <ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/c9174071f8d444c8a2290af9d55c1843"
+                     >AG III.2467:015</ref></bibl>), worauf die alten Kornhändler im <date
+                  when="1795-07">Juli 1795</date> wieder eingesetzt werden (<bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/c44b2df412a34a1d950ac0946db3a4fc"
+                     >LAGL AG III.2467:016</ref></bibl>).</p>
+            <p>Zum <term ref="key000983">Handel</term> mit <term ref="key000350">Getreide</term> und
+               zum <term ref="key001054">Kornhaus</term> in der Landvogtei <placeName
+                  ref="loc000440">Werdenberg</placeName> vgl. auch
+                  <ref>SSRQ_SG_III_4_200</ref>; <ref>SSRQ_SG_III_4_228</ref>; das
+               Dossier <bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/74e1ec248f5840f0a5f70c34d85bda19"
+                     >LAGL AG III.2467</ref></bibl>; <bibl><ref>OGA Gams Nr. 126</ref></bibl>;
+               Literatur: <bibl><ref target="http://permalink.snl.ch/bib/chbsg000113548">Schindler
+                     1986</ref>, S. 198–203</bibl>; <bibl><ref
+                     target="http://permalink.snl.ch/bib/chbsg000142793">Winteler 1923</ref>, S.
+                  148–150</bibl>.</p>
+         </div>
+      </back>
+   </text>
+</TEI>

@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="headerinfo"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <date type="electronic" when="2020-08-17"/>
+    <date type="print"/>
+    <availability><p xml:id="facs">Adrien Wyssbrod</p></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Collection des sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS_NE_3_036</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier>
+      <idno>AEN 14JL–451, fol. 208r–208v</idno>
+     </msIdentifier>
+     <head>Paiement des vins d’un bienfonds acquis aux enchères</head>
+     <msContents>
+      <summary>Dans le cadre d’une vigne achetée aux enchères, l’acquéreur est tenu de régler le
+       prix des vins produits par cette terre aux propriétaires précédents, prix qui se monte à un
+       sol par livre.</summary>
+      <msItem>
+       <textLang>français</textLang>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="34"/>
+          <width unit="cm" quantity="22.5"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <origDate when="1599-02-09" calendar="Julian"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>
+      </origin>
+     </history>
+     <additional>
+      <listBibl>
+       <head/>
+       <bibl/>
+      </listBibl>
+     </additional>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key004056"></term>
+     <term ref="key000231"></term>
+     <term ref="key005661"></term>
+     <term ref="key000803"></term>
+     <term ref="key000311"></term>
+     <term ref="key000468"></term>
+    </keywords>
+   </textClass>
+   <particDesc default="false"/>
+   <settingDesc default="false"/>
+  </profileDesc>
+ </teiHeader>
+ 
+ <text>
+  <group>
+   <text>
+    <body>
+
+     <pb n="208r" facs="AEN_14JL_451_0208r"/>
+
+     <div>
+      <add place="left margin" hand="later hand"><foreign xml:lang="la"><choice>
+       <abbr>levat</abbr>
+       <expan>levata</expan>
+      </choice> est</foreign></add>
+      <p/>
+      <p>
+       <lb/>Je <persName ref="per010508">Daniel Huguenaud</persName> mayre etc. sçavoir fait a tous
+       que par devant moy <lb/>et une partie des sieurs du <orgName ref="org003085"
+        >Conseil</orgName> de <choice>
+        <abbr>lad<hi rend="sup">e</hi></abbr>
+        <expan>ladite</expan>
+       </choice> ville sont comparus judicialement <lb/><choice>
+        <abbr>honn</abbr>
+        <expan>honnorable</expan>
+       </choice>
+       <persName ref="per011732">Jaques Guyot</persName> bourgeois <choice>
+        <abbr>dud</abbr>
+        <expan>dudit</expan>
+       </choice>
+       <placeName ref="loc007786"><choice>
+         <abbr>Neufche<hi rend="sup">l</hi></abbr>
+         <expan>Neufchastel</expan>
+        </choice></placeName> agissant au nom et en qualité d’<term ref="lem014768.01"
+        >advoyer</term>
+       <lb/>establi par figure de justice des enfans delaissez par feu <persName ref="per011733"
+        >Claude Hudry</persName>, accompagné <lb/>du <choice>
+        <abbr>s<hi rend="sup">r</hi></abbr>
+        <expan>sieur</expan>
+       </choice>
+       <persName ref="per010577">Blaise Hudry</persName> du <orgName ref="org003085"
+        >Conseil</orgName>
+       <choice>
+        <abbr>dud</abbr>
+        <expan>dudit</expan>
+       </choice> lieu, <choice>
+        <abbr>desd</abbr>
+        <expan>desdits</expan>
+       </choice> enfans, lesquels ont proposé <lb/>que pour voir la fin du proces par eux <choice>
+        <abbr>aud</abbr>
+        <expan>audit</expan>
+       </choice> nom intenté a l’encontre <choice>
+        <abbr>honnor</abbr>
+        <expan>honnorable</expan>
+       </choice>
+       <persName ref="per011734a.01">Isaac <lb/>Pourry</persName>, pour luy faire a payer les vins
+       d’un <term ref="lem017664.02">morcel</term> de vigne a <placeName ref="loc009826.02"
+        >Closbrochet</placeName> qui <lb/>luy est <term ref="lem016349.09">eschu</term> par <term
+        ref="lem015541.02">montes</term> du bien <choice>
+        <abbr>desd</abbr>
+        <expan>desdits</expan>
+       </choice> enfans, comme plus offrant et dernier <choice>
+        <abbr>encherissat</abbr>
+        <expan>enchérissant</expan>
+       </choice>
+       <lb/>Il leur est requis de monstrer et verifier que en faict de <term ref="lem015541.02"
+        >montes</term> quand on reserve <lb/>de payer les vins selon coustume, la coustume porte de
+       payer <measure origin="NE" type="currency" unit="S" quantity="1">un solz</measure> par
+        <measure origin="NE" type="currency" unit="lb" quantity="1">livre</measure>, <lb/>parquoy me
+       requeroyent humblement de leur <choice>
+        <abbr>fe</abbr>
+        <expan>faire</expan>
+       </choice> faire declairaton <choice>
+        <abbr>dud</abbr>
+        <expan>dudit</expan>
+       </choice> poinct <lb/>de coustume, afin de s’en servir contre <choice>
+        <abbr>led</abbr>
+        <expan>ledit</expan>
+       </choice>
+       <persName ref="per011734a.01">Pourry</persName> sur la negative qu’il leur a <lb/>faite et
+       suivant la <term ref="lem016409.02">traicte</term> a eux adjugé pour <choice>
+        <abbr>fe</abbr>
+        <expan>faire</expan>
+       </choice> apparoistre ce <choice>
+        <abbr>q</abbr>
+        <expan>que</expan>
+       </choice> dessus. </p>
+      <p>
+       <lb/>Laquelle <choice>
+        <abbr>declairaon</abbr>
+        <expan>déclaration</expan>
+       </choice> je <choice>
+        <abbr>led</abbr>
+        <expan>ledit</expan>
+       </choice> mayre ay demandé <choice>
+        <abbr>auxd</abbr>
+        <expan>auxdits</expan>
+       </choice>
+       <choice>
+        <abbr>srs</abbr>
+        <expan>sieurs</expan>
+       </choice>
+       <choice>
+        <abbr>cseilliers</abbr>
+        <expan>conseillers</expan>
+       </choice> lesquels pour <pb n="208v" facs="AEN_14JL_451_0208v"/>
+       <lb/>estre en petit nombre ont prins jour a referer ce faict en plein <orgName
+        ref="org003085">Conseil</orgName> par <lb/>devant <orgName ref="org003085">messieurs les
+        Vingt quatre</orgName> pour adviser et resouldre de <choice>
+        <abbr>lad<hi rend="sup">e</hi></abbr>
+        <expan>ladite</expan>
+       </choice> declairation <lb/>selon l’ordre en tel cas usité. </p>
+      <p>
+       <lb/>Et au bout de quelques jours apres le <orgName ref="org003085">Conseil de
+        Ville</orgName> tenu et assemblé et resolution <lb/>prinse de ce que dessus par la pluralité
+       des <orgName ref="org003085"><choice>
+         <abbr>srs</abbr>
+         <expan>sieurs</expan>
+        </choice> du <choice>
+         <abbr>cseil</abbr>
+         <expan>conseil</expan>
+        </choice></orgName>, <choice>
+        <abbr>lesd</abbr>
+        <expan>lesdits</expan>
+       </choice>
+       <term ref="lem014768.01">advoyer</term> et riere <term ref="lem015536">ambe</term>
+       <lb/><choice>
+        <abbr>desd</abbr>
+        <expan>desdits</expan>
+       </choice> enfans se sont derechef <choice>
+        <abbr>pntes</abbr>
+        <expan>présentés</expan>
+       </choice>
+       <choice>
+        <abbr>end<hi rend="sup">e</hi></abbr>
+        <expan>endite</expan>
+       </choice> justice ce jourd’huy, date, instant a ce <choice>
+        <abbr>q</abbr>
+        <expan>que</expan>
+       </choice>
+       <lb/><choice>
+        <abbr>lesd</abbr>
+        <expan>lesdits</expan>
+       </choice> poinct de coustume leur fust declairés. </p>
+      <p>
+       <lb/>Sur ce je <choice>
+        <abbr>led</abbr>
+        <expan>ledit</expan>
+       </choice> mayre ay ordonné aux apres nomméz de rapporter <choice>
+        <abbr>lad<hi rend="sup">e</hi></abbr>
+        <expan>ladite</expan>
+       </choice> declairation <lb/>suivant la resolution du <orgName ref="org003085"
+        >Conseil</orgName> lesquels ayant prins advis à part pour s’en <lb/>rememorer, ont declairé
+       que suyvant <choice>
+        <abbr>lad<hi rend="sup">e</hi></abbr>
+        <expan>ladite</expan>
+       </choice> resolution et advis de la pluspart <lb/>des <choice>
+        <abbr>srs</abbr>
+        <expan>sieurs</expan>
+       </choice> conseillers, et <del rend="strikethrough"><gap reason="illegible" unit="word"
+         quantity="1"/></del> selon ce qu’ils sont souvenans en avoir veu usiter <lb/>par le passé
+       et jusqu’a <choice>
+        <abbr>pnt</abbr>
+        <expan>présent</expan>
+       </choice>, la coustume au faict des vins des pieces de terre, <lb/>maisons et biens immeubles
+       qui se mettent en <term ref="lem015541.02">montes</term> au plus offrant et dernier
+       <lb/>encherissant, est telle, que quand on reserve de payer les vins selon coustume, <lb/>les
+       acquisiteurs sy on les y contraint sont tenus de payer un <measure origin="NE"
+        type="currency" unit="S" quantity="1">un solz</measure> par <measure origin="NE"
+         type="currency" unit="livre faible" quantity="1">livre</measure><note>Sous-entendu livre faible.</note>
+       <lb/>de ce a quoy le prix des pieces <term ref="lem016349.07">escheutes</term> se monte.
+       Toutefois qu’il est loisible <lb/>et permis de amoindrir limiter et designer <choice>
+        <abbr>lesd</abbr>
+        <expan>lesdits</expan>
+       </choice> vins avant que les <term ref="lem015541.02">montes</term> se <lb/>fassent, et lors
+       on n’en paye sinon ce qui est convenu et designé, mais quand on <lb/>ne parle <choice>
+        <abbr>q</abbr>
+        <expan>que</expan>
+       </choice> de la coustume sans autre condition ny exception, les vendeurs et <lb/>metteurs en
+        <term ref="lem015541.02">montes</term> peuvent faire a payer aux acquisiteurs pour les vins
+       <lb/>de chacune <measure origin="NE" type="currency" unit="livre faible" quantity="1">livre</measure>,
+        <measure origin="NE" type="currency" unit="S" quantity="1">un solz</measure>, en ayant esté
+       ainsi usé tant a l’endroit de <orgName ref="org003119">messieurs <lb/>les Quatre
+        ministraux</orgName> que autres particuliers qui par en devant ont mis des <lb/>biens
+       immeubles en <term ref="lem015541.02">montes</term>. Laquelle <choice>
+        <abbr>declairaon</abbr>
+        <expan>déclaration</expan>
+       </choice> a esté rapporté en <lb/>ouverte justice par les <choice>
+        <abbr>honnor</abbr>
+        <expan>honnorables</expan>
+       </choice>, prudens et sages <persName ref="per011729a.01">Nicollet Heinzely</persName>,
+        <persName ref="per010427a.04"><choice>
+         <abbr>Jeh</abbr>
+         <expan>Jehan</expan>
+        </choice> Rougemont</persName>, <lb/><persName ref="per011731a.01">Pierre
+        Bourgeois</persName>, <persName ref="per010602a.01"><choice>
+         <abbr>Guill</abbr>
+         <expan>Guillaume</expan>
+        </choice> Henry dict d’Allemagne</persName> et <persName ref="per010451a.01">David
+        Boyve</persName>
+       <choice>
+        <abbr>Con<hi rend="sup">ers</hi></abbr>
+        <expan>conseillers</expan>
+       </choice>
+       <choice>
+        <abbr>dud</abbr>
+        <expan>dudit</expan>
+       </choice>
+       <placeName ref="loc007786"><choice>
+         <abbr>Neufch</abbr>
+         <expan>Neufchastel</expan>
+        </choice></placeName>. <lb/>Et <choice>
+        <abbr>lesd</abbr>
+        <expan>lesdits</expan>
+       </choice>
+       <term ref="lem014768.01">advoyer</term> et <term ref="lem017830">rière</term>
+       <term ref="lem015536">ambe</term> en ont demandé acte pour s’en servir <choice>
+        <abbr>aud</abbr>
+        <expan>audit</expan>
+       </choice> nom, ce <choice>
+        <abbr>q</abbr>
+        <expan>que</expan>
+       </choice>
+       <lb/>par <choice>
+        <abbr>lesd</abbr>
+        <expan>lesdits</expan>
+       </choice>
+       <choice>
+        <abbr>srs</abbr>
+        <expan>sieurs</expan>
+       </choice>
+       <choice>
+        <abbr>cseilliers</abbr>
+        <expan>conseillers</expan>
+       </choice> leur a esté adjugé et par <choice>
+        <abbr>moyd</abbr>
+        <expan>moydit</expan>
+       </choice> mayre ordonné au <choice>
+        <abbr>secert<hi rend="sup">e</hi></abbr>
+        <expan>secrétaire</expan>
+       </choice>
+       <lb/>et greffier de <choice>
+        <abbr>lad<hi rend="sup">e</hi></abbr>
+        <expan>ladite</expan>
+       </choice> justice <choice>
+        <abbr>soubs<hi rend="sup">né</hi></abbr>
+        <expan>soubsigné</expan>
+       </choice> de l’expédier, soubs le <term ref="lem016327">seel</term> de la mayorie <choice>
+        <abbr>dud</abbr>
+        <expan>dudit</expan>
+       </choice>
+       <lb/>lieu, en tesmoygnage de verité, faict le <origDate when="1599-02-09" calendar="Julian"
+        >neufviesme jour du mois de febvrier <lb/>l’an de salut nonante et neuf</origDate>. </p>
+      <p>
+       <lb/>Passée et recoureue </p>
+     </div>
+     <div>
+      <signed><persName ref="per010433a.03"><choice><abbr>D</abbr><expan>David</expan></choice> Bailliods</persName> <figure type="notarial sign"/> not</signed>
+     </div>
+     
+
+    </body>
+   </text>
+  </group>
+ </text>
+</TEI>

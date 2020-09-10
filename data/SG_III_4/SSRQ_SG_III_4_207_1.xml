@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-08-15"/>
+            <date type="print"/>
+            <availability default="false">
+               <p xml:id="facs">Staatsarchiv St. Gallen (StASG)</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_207_1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>StASG AA 2 B 004, S. 1–16</idno>
+                  <altIdentifier>
+                     <idno>StASG AA 2 B 4</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <head>Eid und Ordnung eines Landvogts von Sax-Forstegg</head>
+               <msContents>
+                  <summary><p>Der Landvogt soll schwören, das Schloss zu unterhalten, die Rechte und Freiheiten der
+   Herrschaft zu erhalten, Zinsen, Neugrützehnten, Abzug, Fall und Geläss einzuziehen und jährlich
+   Rechnung abzulegen. Auch die Bussen soll er einziehen und abrechnen. Was er in den fünf ersten
+   Jahren nicht selbst einbringt, soll er in einen Bussenrestanzen-Rodel schreiben, den Rechenherren
+   vorlegen und seinem Nachfolger übergeben, der soll diese dann einziehen. Er soll ein guter,
+   gerechter Richter sein und sich nicht bestechen lassen. Er darf ohne Erlaubnis des Zürcher
+   Bürgermeisters nicht mehr als drei Nächte vom Schloss abwesend sein. Die Schlossgüter soll er gut
+   unterhalten. Die Wälder darf er nur für den Eigenbedarf an Brennholz sowie zum Unterhalt der
+   herrschaftlichen Gebäude nutzen. Die Bannwarte soll er anhalten, dass sie gut zu den Wäldern
+   sehen und ihm Frevler anzeigen. Nach dem Eid wird dem Landvogt von Sax-Forstegg die Ordnung über
+   seine Pflichten vorgelesen. Die Ordnung betrifft den Unterhalt der Wege und Strassen, den
+   Höchstbetrag einer Mahlzeit bei der Rechnungsablegung, der Einzug von Schulden, die Meldung der
+   Restanzen, der Unterhalt der Gebäude und Güter, die Stellung von Bürgen vor dem Aufritt, der
+   Umgang beim Einzug von Abgaben in wirtschaftlicher Not, die Rechnungsführung, die Meldung von
+   Konflikten wegen güterrechtlichen Angelegenheiten an die Rechenherren, das Hochgericht in der
+   Lienz und am Büchel, den Einzug der Todfälle, die Fischenz, die Zwingmühlen, die Zehnten, die
+   Frondienste, das Weggeld sowie die Verleihung von Gütern.</p></summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <filiation type="current">Aufzeichnung, Heft (6 Doppelblätter) mit farbigem Einband</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="32.5"/>
+                              <width unit="cm" quantity="20.0"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate from="1701-01-01" to="1717-12-31">Undatiert, datiert nach der Angabe im Verzeichnis.</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000180">Landvogt</term>
+               <term ref="key000179">Eid</term>
+               <term ref="key000574">Rechnung</term>
+               <term ref="key000341">Ordnung</term>
+               <term ref="key000204">Verwaltung</term>
+               <term ref="key000273"/>
+               <term ref="key004799"/>
+               <term ref="key000103"/>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+  <group>
+   <text>
+    <body>
+     <pb facs="StASG_AA_2_B_004"/>
+     <pb n="I" facs="StASG_AA_2_B_004_1"/>
+     <div><pb n="II" facs="StASG_AA_2_B_004_2"/>
+      <head><lb/><term ref="lem000070">Eydt</term> <lb/>und <term ref="lem000809">ordnung</term> <lb/>der frey
+       herrschaft <lb/><placeName ref="loc000278">Sax</placeName></head></div>
+     <div><pb n="1" facs="StASG_AA_2_B_004_3"/>
+      <head><lb/><term ref="lem000070">Eydt</term>
+       <lb/>eines <term ref="lem000266">landvogts</term> zu <lb/><placeName ref="loc000278"
+        >Sax</placeName></head>
+      <p><seg>
+        <lb/>Es soll ein <term ref="lem000266">landtvogt</term> zu <placeName ref="loc000278"
+         >Sax</placeName> schweeren, <lb/>das <term ref="lem000376">schloß</term> daselbsten
+        getreülich zu der statt <orgName ref="org001196">Zürich</orgName>
+        <lb/>handen innzuhaben, zubesorgen und zuversehen und <lb/>sonderlich in <term
+         ref="lem010067">tach und gemach</term> in guten ehren zu<lb break="no"/>halten, der
+        herrschafft ihr rechtung und freyheit <lb/>zubehalten, alß fehr er mag, seiner <term
+         ref="lem003711">vogtey</term> und <lb/><term ref="lem002892">verwaltung</term>
+        <term ref="lem000237">zinß</term>, <term ref="lem003578.06">neügrüth</term>, <term
+         ref="lem001009">abzug</term>, <term ref="lem000337.04">fahl</term> und <lb/><term
+         ref="lem000338.20">glaß</term> samt allen anderen nutzungen und ge<lb break="no"/>fällen
+        ohnverzogenlich einzuziehen, und er habe <lb/>sie eingenohmmen oder nicht, <date dur="R/P1Y"
+         >jährlichen</date> in die rech<lb break="no"/>nung zubringen, deßgleichen die <term
+          ref="lem000036">bußen</term> (deren <pb n="2" facs="StASG_AA_2_B_004_4"/>
+        <lb/>fürderlichen <term ref="lem000382">einzug</term> er ihm ernstlichen angelegen <lb/>seyn
+        laßen söll) <date dur="R/P1Y">jährlichen</date> getreülich zuverrechnen. <lb/>Was er von
+        seinen <date dur="P5Y">fünf ersten jahren</date> nicht <lb/>einbringen mag, selbsten
+        zubezahlen und gar <lb/>keine <term ref="lem003014">restantzen</term> zuübergeben, auch die
+        in dem <lb/>letsten jahr machende bußen nit wenniger <lb/>alles fleißes einzuziehen. Und was
+        er nit ein<lb break="no"/>bringen mag, darum einen specificierten <term ref="lem015264.02"
+          >bußen<lb break="no"/>restanzen-rodel</term> mit benamsung des <term ref="lem002925"
+         >fehlers</term> und <lb/>des tags der buß-anlegung den herren <term ref="lem015256.02"
+          >rechen<lb break="no"/>herren</term> vorzulegen und seinem nachfahren einen
+        <lb/>gleichmäßigen zu übergeben, auch keine bußen <lb/>weder an <term ref="lem000514"
+         >zehrung</term> nach sonst in ander weg zu<lb break="no"/>verstoßen oder zuverwenden,
+        sondern obgemeld<lb break="no"/>ten mäßen getreülich einzuschreiben und zuver<lb break="no"
+        />rechnen.</seg>
+     <seg>Über das alles ein gleicher, gemeiner <lb/><term ref="lem000342">richter</term> zu
+        seyn, dem <term ref="lem001978">armen wie dem reichen</term>
+        <lb/>und dem reichen wie dem armen, auch dem <lb/><term ref="lem001425">frömbden wie dem
+         heimschen</term>, niemand zu lieb nach <lb/>zu leid und darum kein <term ref="lem002015"
+         >mieth</term> zunehmmen.</seg>
+       <seg>Vom <pb n="3" facs="StASG_AA_2_B_004_4"/>
+        <lb/><term ref="lem000376">schloß</term> über <date dur="P3D">drey nächt</date> nit
+        außzuseyn, ohne son<lb break="no"/>derbahre erlaubnuß eines herren <term ref="lem006508"
+         >burgermeisters</term>, <lb/>und also in allweg seiner vogtey und gemeiner <lb/>statt nutz
+        zuförderen und den schaden zu wenden <lb/>nach bestem seinem vermögen.</seg></p>
+       <p><seg><lb/>Nicht wenniger soll er samtliche <term ref="lem015258.02"
+         >schloßgüeter</term><note>Zu den Schlossgütern und Hoheitsrechten vgl.
+          <ref>SSRQ_SG_III_4_157</ref>; <ref>SSRQ_SG_III_4_158</ref>; <ref>SSRQ_SG_III_4_161</ref>;
+           <bibl><ref>StASG&#160;AA&#160;2&#160;B 006</ref>, S.&#160;1–68</bibl>.</note>
+        <lb/>in guten, wesentlichen <term ref="lem000274">baüwen</term> und ehren halten <lb/>und
+        haben, in <term ref="lem000028">höltzeren</term> und <term ref="lem000251.05"
+         >wälderen</term>, so in seiner <lb/><term ref="lem002892">verwaltung</term> und <choice>
+         <abbr>mn gn hrn</abbr>
+         <expan>minen gnädigen herren</expan>
+        </choice> zu dienen, kein <lb/>ander <term ref="lem000759">holtz</term> dann zu seiner
+        zimmlichen nothdurfft <lb/><term ref="lem008667">brennen</term>. Und was zu <term
+         ref="lem003794.01">erbauw</term>- und erhaltung <lb/>seiner vogtey, schloßes und güeteren
+        haben muß, <lb/>zum nutz- und ohnschädlichsten <term ref="lem001634">hauwen</term>, ohne
+        <lb/>vorwüßen, verwilligen und zulaßen der ver<lb break="no"/>ordneten <term
+         ref="lem015256.02">rechenherren</term>. Darauß niemandem, <lb/>von wem er joch darum
+        angesprochen wurde, <lb/>gar nützid verschenken, verkauffen ald ihme <lb/>selbs zu eignen
+        und an seinen nutzen verwenden <lb/>und brauchen, sondern sich allein des holtzes, <pb n="4"
+         facs="StASG_AA_2_B_004_5"/>
+        <lb/>wie obsteht, vernügen laßen, zumahlen <choice>
+         <abbr>mn gn hrn</abbr>
+         <expan>minen gnädigen herren</expan>
+        </choice>
+        <lb/>alles schädlich und ohngebührlich <term ref="lem010158">holtzhauwen</term> fehr<lb
+         break="no"/>ner nit gedulden noch <term ref="lem005891">leiden</term>, sondern die
+        schuldigen <lb/>nach verdienen straffen wollen.</seg>
+       <seg>Und damit <lb/>von anderen leüthen auch desto wenniger schaden <lb/>widerfahre, so sölle
+        er bey seinen <term ref="lem000111">bannwarten</term>
+        <lb/>verschaffen und ihnen mit allem ernst <term ref="lem015266.01">einbin<lb break="no"
+         />den</term>, daß sie zu der vogtey <term ref="lem000028">höltzeren</term> sehen <lb/>und
+        die, so schaden thun, ihme bey ihren eyden <lb/>angeben und <term ref="lem000829.07"
+         >läiden</term>, damit er die nach gebühr <lb/>straffen, die bußen einziehen und <choice>
+         <abbr>mn gn hrn</abbr>
+         <expan>minen gnädigen herren</expan>
+        </choice>
+        <lb/>verrechnen könne.<term ref="key000066"/><term ref="key000249"/><term ref="key000524"
+        /></seg>
+       <seg>Und also in solchem allem ein <lb/>jeder landtvogt nach seinem geschwornen eydt <lb/>mit
+        allen treüen handlen, alß sie unßern <lb/>herren sich deßen zu einem jeden versehen,
+        <lb/>alles getreülich und ohngefahrlich.</seg>
+       <pb n="5" facs="StASG_AA_2_B_004_5"/><pb n="6" facs="StASG_AA_2_B_004_6"/>
+       <note>Die Seiten 5–6 sind unbeschriftet.</note></p><pb n="7" facs="StASG_AA_2_B_004_6"/> <head><lb/><term ref="lem000809">Ordnung</term>
+         <lb/>eines <term ref="lem000266">landvogts</term> zu <lb/><placeName ref="loc000278"
+          >Sax</placeName></head>
+      <p><lb/>Ihmme nach dem <term ref="lem000070">eydt</term>
+        <term ref="lem012102">vorzulesen</term>.</p>
+       <p><seg n="1">
+        <lb/>Ein jeweiliger <term ref="lem000266">landtvogt</term> soll bey vermei<lb break="no"
+        />dung <choice>
+         <abbr>m gn hhrn</abbr>
+         <expan>meinen gnädigen herren</expan>
+        </choice> ohngnad verschaffen, daß in <lb/>einer gantzen vogtey die <term
+         ref="lem000173">wäg</term> und <term ref="lem000114">straßen</term> für<lb break="no"
+        />derlichest durch die <term ref="lem001537">anstößer</term>, <term ref="lem006896"
+         >gemeinden</term> oder <lb/>durch die, welche die sonsten von altem har <lb/>zu machen
+        pflichtig gewesen, in ehr gelegt, <lb/>verbeßeret, auch die <term ref="lem002529">äst</term>
+        darauß gehauwen und <lb/>dan also fürter in gutem stand erhalten <lb/>werden.<term
+         ref="key000532"/><term ref="key000187"/></seg></p>
+       <p><seg n="2">
+        <lb/>Ein landtvogt zu Sax hat vor die <term ref="lem000514.01">zehrung</term>
+        <pb n="8" facs="StASG_AA_2_B_004_7"/>
+        <lb/>sein und seiner <term ref="lem013065">bedienten</term>, wan er die <term
+         ref="lem007398">rechnung</term>
+        <lb/>gibt, <measure quantity="40" type="currency" unit="lb">40 </measure>, alß bestimt, und
+        ein mehrers nit <lb/>zu verrechnen.<term ref="key000574"/><term ref="key003027"/><term
+         ref="key000270"/><term ref="key000188"/></seg></p>
+       <p><seg n="3">
+        <lb/>Zufolg der alten <term ref="lem000809">ordnungen</term> und auch der <lb/>hierüber
+        erneüwerten räth und burger erkantnuß, <lb/>soll ein landtvogt daßjennig, was er bey seiner
+        <lb/>gegebnen <term ref="lem007398">rechnung</term> schuldig verbleibt, dem herren
+         <lb/><term ref="lem015260.02">amts-sekelmeister</term> ohnverweilt einliefferen <lb/>und
+        auch dann derselbe <date dur="R/P1Y">jedes jahrs</date> bey ablegung <lb/>der <term
+         ref="lem005172">vögten</term>
+        <term ref="lem007398">rechnung</term> auf anziehen eines herren <lb/><term ref="lem006508"
+         >burgermeisters</term> anzeigen, ob er den belauff <lb/>zu recht empfangen oder nit.</seg></p>
+       <p><seg n="4">
+        <lb/>Der <term ref="lem014849">neüe landtvogt</term> soll dennen herren <term
+         ref="lem015256.02">rechenherren</term>
+        <lb/>oder dem ihne aufführenden herren <term ref="lem001645">sekelmeister</term>
+        <lb/>bey seinem eydt anzeigen, ob der <term ref="lem000371">alte landtvogt</term>
+        <lb/>ihme die <term ref="lem003014">restantz</term> und alles, was er zübergeben pflich<lb
+         break="no"/>tig, zu seinem vernügen und zufridenheit eingeant<lb break="no"/>wortet und
+        hierinnen nützid verschweigen oder <pb n="9" facs="StASG_AA_2_B_004_7"/>
+        <lb/>einige gefahr brauchen.</seg></p>
+       <p><seg n="5">
+        <lb/>Ein landtvogt zu <placeName ref="loc000278">Sax</placeName> soll weder an dem <term
+         ref="lem000376">schloß</term>
+        <lb/>nach anderen zugehörigen <term ref="lem002512.19">gebaüwen</term> keinen ehrhafften,
+        <lb/>neüwen <term ref="lem000274">bauw</term>, er seye klein oder groß, vor sich selbs
+        <lb/>nit vornehmmen nach machen, sondern, wan etwas <lb/>dergleichen vorfallt, daßselbig
+        schrifftlich- oder mundt<lb break="no"/>lich an die herren <term ref="lem015256.02"
+         >rechenherren</term> langen laßen, die <lb/>dann, was hierinnen zuthun oder zulaßen, ihme
+         er<lb break="no"/>forderlichen befehl ertheilen werden. Handleten <lb/>aber einer
+        hierwider, so wird ihm das bey sei<lb break="no"/>ner <term ref="lem007398">rechnung</term>
+        nit gut geheißen, sonder durchge<lb break="no"/>strichen und heimgegeben werden. Und hat
+         hierin<lb break="no"/>nen niemand unter dennen herren räthen nach <lb/>ein herr <term
+         ref="lem001645">sekelmeister</term> für sich selbs gewalt, <lb/>einem landtvogt etwas
+        zuerlauben oder zu<lb break="no"/>bewilligen.</seg></p>
+       <p><seg n="6">
+        <lb/>Was ein jeder landtvogt in <term ref="lem000246">gärten</term> und sonsten <lb/>um
+        lusts willen, deßgleichen in <term ref="lem000100">ächeren</term>, <term ref="lem000101"
+         >wiesen</term>
+        <pb n="10" facs="StASG_AA_2_B_004_8"/>
+        <lb/>und anderen nutzenden <term ref="lem000076">güeteren</term> mit <term ref="lem010550"
+         >verbeßerung</term>
+        <lb/>vornimmt, das solle er in seinem kosten thun und <lb/>gegen <choice>
+         <abbr>mn gn hrn</abbr>
+         <expan>minen gnädigen herren</expan>
+        </choice> deßnahen nützid zu ver<lb break="no"/>rechnen haben.</seg></p>
+       <p><seg n="7">
+        <lb/>Ein <term ref="lem000371">alter landtvogt</term> soll fürsehen, das alle <term
+         ref="lem000274">baüw</term>
+        <lb/>des <term ref="lem000376">schloßes</term> dem <term ref="lem014849">neüwen
+         landtvogt</term> in gutem <lb/>wesen und ehren übergeben werden.</seg></p>
+       <p><seg n="8">
+        <lb/>Es soll kein <term ref="lem000266">landtvogt</term> angehen nach <term ref="lem010240"
+         >aufziehen</term>, <lb/>er habe dann zuvor einem ehrsammen rath seine <lb/><term
+         ref="lem002062">tröster</term> dargestelt und gegeben. Und so ein <lb/>tröster abgehet oder
+         <term ref="lem001445">stirbt</term>, soll der landtvogt <lb/><date dur="P14D">innert 14
+         tagen</date> den nächsten darnach einen <lb/>anderen tröster an statt des abgehenden vor
+        <lb/>rath stellen.</seg></p>
+       <p><seg n="9">
+        <lb/>Es soll einem landtvogt zu <placeName ref="loc000278">Sax</placeName> keine, zeit
+        seiner <lb/><term ref="lem002892">verwaltung</term> aufgelauffene <term ref="lem003014"
+         >restantzen</term>, es seye <lb/>von zinßen, gülten oder anderen gefällen, <pb n="11" facs="StASG_AA_2_B_004_8"/>
+        <lb/>nicht abgenohmmen nach gut geheißen werden, son<lb break="no"/>dern der pflichtig seyn,
+        die mit allem eyfer <choice>
+         <sic>und <lb/>und</sic>
+         <corr>und</corr>
+        </choice> ernst einzuziehen und <choice>
+         <abbr>mn gn hrn</abbr>
+         <expan>minen gnädigen herren</expan>
+        </choice> zu<lb break="no"/>verrechnen.</seg></p>
+       <p><lb/>Wann aber <term ref="lem007347">hagel</term>, <term ref="lem008268.04"
+        >lands-brästen</term> oder andere <lb/><term ref="lem000345">straffen</term> (darvor uns
+       gott genädig behüte) <lb/>entstuhnden ald dermäßen <term ref="lem002442">armuth</term>
+       verhanden, <lb/>daß nit möglich wäre zuzahlen, alß dann soll ein <lb/>landtvogt die herren
+        <term ref="lem015256.03">rechen herren</term> berichten <lb/>und von ihnen rath und befehl
+       einhollen, worby <lb/>es gleichwohlen die außgetrukte meinung hat, <lb/>daß, wann ein
+       landtvogt den <term ref="lem003552">zinßleüthen</term> biß <lb/>auf das nächst folgende jahr
+       mit dem <term ref="lem000382">einzug</term>
+       <lb/>verschohnen müßte, daß er hernacher ihme solchen <lb/><term ref="lem015271.02"
+        >außstand</term> mit dem neüverfallenden einzuziehen <lb/>bestmöglichst angelegen seyn laßen
+       oder zuerwar<lb break="no"/>ten haben solle, daß ihme oder seinen <term ref="lem000225"
+        >bürgen</term>
+       <lb/>solche <term ref="lem003014">restantzen</term> bey der letsten <term ref="lem007398"
+        >rechnung</term> heim<lb break="no"/>erkennt und die bahre bezahlung darvor <pb n="12" facs="StASG_AA_2_B_004_9"/> <lb/>auferlegt werde.</p> <p><seg n="10">
+        <lb/>Ein landtvogt soll zwey <term ref="lem007398">rechnungen</term> machen, dar<lb
+         break="no"/>von die einte, darinnen die jährlichen <term ref="lem000237">zinß</term>
+         specifi<lb break="no"/>ciert seyn sollen, der <term ref="lem015257.02">rechen
+         cantzley</term> nach dero <lb/>ablegung zuüberlaßen. Worbey auch ein landt<lb break="no"
+        />vogt achtung zugeben hat, daß er die nit nur <lb/>auf die ihme jederweilen außsetzende
+        zeit ohne <lb/>fehl ablege, sondern auch die allwegen <date dur="P4W">4 wochen</date>
+        <lb/>bevor in die <term ref="lem015257.02">rechen cantzley</term> zu nothwendiger
+        <lb/>umhinsendung und durchsehung übersende.</seg></p>
+       <p><seg n="11">
+        <lb/>Zu verhütung aller ohnlauterkeit sind in den <lb/><term ref="lem007398"
+         >rechnungen</term>, die bey den <date dur="R/P1Y">jährlichen</date>
+        <term ref="lem000237">zinßen</term> vor<lb break="no"/>fallende verminder- und vermehrungen
+        fleißig <lb/>zubemerken, anbey genauwe achtung, daß die <lb/>vor etwas jahren bereinigte
+         <term ref="lem009056">grundzinß</term> in gutem <lb/>stand erhalten und nicht weiter
+        verstuket wer<lb break="no"/>den, zugeben.</seg>
+        <pb n="13" facs="StASG_AA_2_B_004_9"/></p><p>
+       <seg n="12"><lb/>Wann in der vogtey <placeName ref="loc000278">Sax</placeName>
+        <term ref="lem000340">gülten</term>, <term ref="lem000237">zinßen</term>, <lb/><term
+         ref="lem000076">güteren</term>, <term ref="lem000028">höltzeren</term>, <term
+         ref="lem000693">marchen</term>, ingleichem auch <lb/>der <term ref="lem000268"
+         >herrschaft</term> marchen einiche <term ref="lem001130">spann</term>, irrung, <lb/>mangel
+        oder anstoß sich <sic>eraügen</sic> wurde, soll <lb/>er solches ohngesaumt dennen herren
+         <term ref="lem015256.02">rechenherren</term>
+        <lb/>überschreiben und darüber ihres befelchs er<lb break="no"/>warten.</seg></p>
+       <p><seg n="13">
+        <lb/>Ein jeweiliger herr landtvogt hat auf seine in <lb/>der <placeName ref="loc000951"
+         >Lientz</placeName> und am <placeName ref="loc006476.06">Bül</placeName> habende <term
+         ref="lem015268.02">hoche gericht<lb break="no"/>barkeit</term> und deßnahen ihme zustehende
+        fähl ge<lb break="no"/>nauw zu <term ref="lem014753.01">invigilieren</term>, damit nit
+        etwann durch <lb/>unterlaßende übung habender rechten seiner <lb/>zeit das recht selbsten
+        streitig werden möge.<term ref="key000183"/></seg></p>
+       <p><seg n="14">
+        <lb/>Auf die <term ref="lem000624">leib eignen</term> soll ein herr landtvogt ge<lb
+         break="no"/>naue achtung geben und die deßwegen <choice>
+         <abbr>mn gn <lb/>hrn</abbr>
+         <expan>meinen gnädigen herren</expan>
+        </choice> zufallende gebührliche <term ref="lem015269.01">emolumenta</term> getreü<lb
+         break="no"/>lichen verrechnen, könfftig dero <term ref="lem015270.02">außkauffung</term>
+        nit <lb/>mehr gestatten und dem anderwerts hinkommenden <pb n="14" facs="StASG_AA_2_B_004_10"/>
+        <lb/>mit eyfer nachsetzen, wie nicht wenniger die <lb/><term ref="lem000337">fähl</term> und
+         <term ref="lem015212.03">bastartfähl</term>, so in der gantzen herr<lb break="no"/>schafft
+        der vogtey, wohlbeobachten.<note>Zu den Fällen <term ref="key000602">Unehelicher</term> vgl.
+           <bibl><ref>StASG&#160;AA&#160;2&#160;B 006</ref>, S.&#160;130</bibl>.</note></seg></p>
+       <p><seg n="15">
+        <lb/>Daß in der <term ref="lem000030">fischentzen</term> in dem <placeName ref="loc000644"
+         >Rhein</placeName> und darauf <lb/>habenden <term ref="lem015272.02"
+         >malefiz-gerechtigkeit</term> an den fünf <lb/><term ref="lem001642">verbanneten</term>
+        <term ref="lem000320">bächen</term> und anderen der herrschafft <lb/>zudienenden
+        herrlichkeiten, von niemandem einig <lb/>ohnbefügter <term ref="lem002995">eingriff</term>
+        geschehe, das hat ein <lb/>herr landtvogt sorgfältig zuvergaumen.<note>Zur <term
+          ref="key000258">Fischenz</term> und zu den herrschaftlichen <term ref="key000259"
+          >Bächen</term> und anderen Hoheitsrechten vgl. <bibl><ref>StASG&#160;AA&#160;2&#160;B
+           006</ref>, S. 43–47</bibl>.</note><term ref="key000258"/></seg></p>
+       <p><seg n="16">
+        <lb/>Die der vogtey zuständige <term ref="lem006000.07">zwing-müllenen</term> sind, <lb/>so
+        vil immer möglich, in mehrere <term ref="lem012391">ertragenheit</term> zu<lb break="no"
+        />setzen und alle ohnnöthige umkösten sorgsam <lb/>außzuweichen. Fiele aber was nothwendiges
+        und <lb/>zumachen ohnentbährliches vor, wird ein herr <lb/>landvogt deßwegen schrifftlich
+        einzukommen und <lb/>dem erhaltenden befehl gehorsamlich nachzukom<lb break="no"/>men wohl
+         wüßen.<note>Zu den <term ref="key005222">Zwingmühlen</term> in <placeName ref="loc006042"
+          >Sax</placeName> und <placeName ref="loc000950">Sennwald</placeName> und zum <term
+          ref="key000100">Torkel</term> vgl. <bibl><ref>StASG AA&#160;2&#160;B 006</ref>,
+          S.&#160;24–42</bibl>.</note></seg></p>
+      <p><pb n="15" facs="StASG_AA_2_B_004_10"/><seg n="17">
+        <lb/>Auf den <term ref="lem000073">zehenden</term> in dem <placeName ref="loc000389"
+         >Hag</placeName> zu <placeName ref="loc000278">Sax</placeName>, wie auch <lb/>den <term
+         ref="lem014550">kalber</term>, <term ref="lem015218">nuß</term> und <term
+         ref="lem012841.04">reben-zehenden</term>, auf die <term ref="lem014694">leib-</term>
+        <lb/>und <term ref="lem015214">zugtagwen</term>, deßgleichen das <term ref="lem001110"
+         >wäggelt</term> von <lb/>allen durch die herrschafft fahrenden <term ref="lem002451"
+         >wahren</term>, die <lb/>habenden <term ref="lem010563.03">stüklen</term> und <term
+         ref="lem016829">most-gerechtigkeiten</term> ist <lb/>genauw achtung zugeben und allen
+        schädlich ein<lb break="no"/>reißenden mißbraüchen nach vermögen ohnver<lb break="no"/>weilt
+         zusteüren.<note>Zum <term ref="key000049">Zehnt</term> in <placeName ref="loc000389"
+          >Haag</placeName> vgl. <bibl><ref>StASG AA&#160;2&#160;B 006</ref>,
+         S.&#160;12–15</bibl>.</note><term ref="key000493"/><term ref="key000699"/><term
+         ref="key000479"/><term ref="key000049"/></seg></p>
+       <p><seg n="18">
+        <lb/>Es mögen <choice>
+         <abbr>mn gn hrn</abbr>
+         <expan>minen gnädigen herren</expan>
+        </choice> zwahren wohl <term ref="lem005891">leiden</term>, <lb/>daß ein jeweiliger herr
+         <term ref="lem000266">landtvogt</term> zu <placeName ref="loc000278">Sax</placeName>, nach
+        <lb/>bißhariger übung, einiche entlegne güter ehr<lb break="no"/>lichen leüthen außliehe, in
+        der außgetrukten <lb/>meinung jedoch, daß das auf denselben erwach<lb break="no"/>sende
+         <term ref="lem000142">heü</term> und <term ref="lem007340.06">embd</term>
+        <foreign xml:lang="la">in loco</foreign> veretzt und von <lb/>dem machenden <term
+         ref="lem002330">bau</term> (<abbr>s v</abbr>) nichts hinwegge<lb break="no"/>nohmmen
+        werde.</seg></p>
+      <p><seg n="19">
+        <lb/>Es haben <choice>
+         <abbr>mn gn hrn</abbr>
+         <expan>minen gnädigen herren</expan>
+        </choice> auß erheblichen <lb/>ursachen sich erkent, daß fürohin ein herr landt<lb
+         break="no"/><pb n="16" facs="StASG_AA_2_B_004_11"/>vogt zu <placeName ref="loc000278">Sax</placeName>, wan an dem
+         <term ref="lem000376">schloß</term> und darzu ge<lb break="no"/>hörigen <term
+         ref="lem002512.19">gebaüwen</term> etwas zumachen vorfallt, dar<lb break="no"/>zu nit mehr
+         <term ref="lem015262.02">tagwen leüthe</term>,<note>Zu den <term ref="key000479"
+          >Frondiensten</term> vgl. <bibl><ref>StASG&#160;AA&#160;2&#160;B 006</ref>,
+          S.&#160;62–65</bibl>.</note> sondern andere der <lb/>zumachen habenden sachen kundige
+         <term ref="lem001250.05">arbeitsleüthe</term>
+       <lb/>gebrauchen solle.</seg></p> <pb n="17" facs="StASG_AA_2_B_004_11"/>
+     </div>
+    </body>
+   </text>
+  </group>
+  <back>
+   <div n="1" org="uniform" sample="complete">
+    <p><term ref="key000179">Eid</term> und <term ref="key000341">Ordnung</term> des <term
+      ref="key000180">Landvogts</term> von <placeName ref="loc000278">Sax-Forstegg</placeName> sind
+     nicht datiert. Die Niederschrift stammt aus dem frühen 18. Jh. und muss vor <date when="1717"
+      >1717</date> entstanden sein, denn laut Eid beträgt die Amtszeit eines Landvogts noch sechs
+     Jahre. Die Dauer einer Amtszeit wurde jedoch 1717 auf neun Jahre erhöht
+      (<ref>SSRQ_SG_III_4_212</ref>).</p>
+    <p>Aufschluss über die <term ref="key000204">Verwaltungstätigkeit</term> eines <term
+      ref="key000180">Landvogt</term> gibt besonders auch das umfangreiche Handbuch von Landvogt
+      <persName ref="per010271a">Johannes Ulrich</persName> von <date when="1755">1755</date>
+     (Auszüge: <ref>SSRQ_SG_III_4_232</ref>; <ref>SSRQ_SG_III_4_234</ref>). Zu einem Landvogt von
+      <placeName ref="loc000278">Sax-Forstegg</placeName> vgl. auch <ref>SSRQ_SG_III_4_160</ref>;
+      <ref>SSRQ_SG_III_4_161</ref>; <ref>SSRQ_SG_III_4_212</ref>. </p></div>
+   <div n="2" org="uniform" sample="complete"><p>Zu den <term ref="key000179">Eiden</term> der <orgName ref="org001228">Bewohnerschaft von
+      Sax-Forstegg</orgName> und der <orgName ref="org002818">Lienz</orgName> sowie der <term
+      ref="key000065">Amtleute</term> vgl. <ref>SSRQ_SG_III_4_147</ref>.</p>
+   </div>
+  </back>
+ </text>
+</TEI>

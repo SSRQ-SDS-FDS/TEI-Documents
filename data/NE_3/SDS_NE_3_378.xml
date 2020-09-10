@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     n="1234"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="headerinfo"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2020-08-17"/>    <date type="print"/>
+    <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Collection des sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS_NE_3_378</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>AVN B 101.14.001, fol. 640r–641r</idno>
+               </msIdentifier>
+               <head>Succession du conjoint dans une union sans enfant</head>
+               <msContents>
+                  <summary>Règles concernant les biens d’un défunt et les droits de succession du
+                     conjoint survivant dans un couple marié et sans enfant. Ce point de coutume ne
+                     contient pas la demande, mais uniquement la déclaration du Petit
+                     Conseil.</summary>
+                  <msItem>
+                     <textLang>français</textLang>
+                     <filiation type="current"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="33"/>
+                              <width unit="cm" quantity="23.5"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1716-07-25"/>
+                     <origPlace ref="loc007786">Neuchâtel</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head/>
+                     <bibl/>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key003521"/>
+               <term ref="key005001"/>
+               <term ref="key000138"/>
+               <term ref="key001112"/>
+               <term ref="key000920"/>
+               <term ref="key000815"/>
+               <term ref="key000558"/>
+               <term ref="key000298"/>
+               <term ref="key005128"/>
+               <term ref="key005113"/>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="640r" facs="AVN_B_101.14.001_0640r"/>
+               <div>
+                  <p>
+                     <lb/>Sur la requeste <del rend="strikethrough">dem</del> présentée par <choice>
+                        <abbr>honn<hi rend="sup">ble</hi>
+                        </abbr>
+                        <expan>honnorable</expan>
+                     </choice>
+                     <lb/><persName ref="per008848">Daniel Favargier</persName>, marchand et
+                     bourgeois de <placeName ref="loc007786">Neüfchatel</placeName>, <lb/>par devant
+                     monsieur le maistre bourgeois et <orgName ref="org003085">messieurs <lb/>du
+                        Conseil Estroit</orgName> de la ditte Ville de <placeName ref="loc007786"
+                        >Neüfchatel</placeName>, <lb/>le <origDate when="1716-07-25">vingt cinquième
+                        jour du mois de juillet <hi rend="sup">1716</hi></origDate>, <lb/>tendante
+                     et aux fins d’avoir les six points de <lb/>coustume suivants. </p>
+                  <p>
+                     <lb/>1. Sur le premier, ont déclaré la coutume de tous <lb/>tems estre telle
+                     qui est usitée en ce pays, assavoir <lb/>que le survivant qui passe <date
+                        dur="P1Y6W">ann et jours</date> avec son <lb/>conjoints, duquel il n’y a
+                     enfans, a et doit avoir <lb/>l’usufruit pendant sa vie sur tous les biens du
+                     <lb/>premier décédé. </p>
+                  <p>
+                     <lb/>2. Sur le second, les acquêts qui se font durant le <lb/>mariage se
+                     partagent et doivent se partager par <lb/>moité. </p>
+                  <p>
+                     <lb/>3. Sur le troisième, que les acquêts fait au vivant <lb/>du mary et de la
+                     femme, <add place="above">iceux</add> se prennent par moitié&#160;; <lb/>toutesfois
+                     le survyvant en use comme dit est à réser<lb break="no"/>ver que la femme ne se
+                     méface d’honneur. </p>
+                  <p>
+                     <lb/>4. Sur le quatrième, nostre coutume <subst><del rend="strikethrough"
+                           >peut</del>
+                        <add place="above">est</add></subst> que le <lb/>survivant peut jouir tout
+                     le bien du premier décédé <lb/>pendant sa vie durant, sans estre obligé a
+                     donner <lb/>aucune caution. </p>
+                  <pb n="640v" facs="AVN_B_101.14.001_0640v"/>
+                  <p>
+                     <lb/>5. Sur le cinquième, ledit article est renvoyé à une <lb/><term
+                        ref="lem014980">connoissance de justice</term>. </p>
+                  <p>
+                     <lb/>6. Sur le sixième, que le survivant a et doit avoir, a <lb/>usé et encor
+                     de présent use les biens meubles délay<lb break="no"/>sés par le déffunt, que
+                     seulement seront acquis par <lb/>ensemble iceux meubles se inventoriseront. </p>
+                  <p>
+                     <lb/>Les meubles se doivent inventoriser, desquels la mort <lb/>est au
+                     survivant, et l’autre moitié les usera sa vie <lb/>durant, sans les vendre ny
+                     engager sinon en nécessi<lb break="no"/>té par connoissance de justice, et si
+                     elle fait le <lb/>contraire, adonc elle mesuse d’icelle moitié. Ce
+                     <lb/>néantmoins n’entendons que les lettres voyagères, <lb/>bestail a commande
+                     et autres biens dressés en <lb/>lettres authentiques soyent meubles. </p>
+                  <p>
+                     <lb/>Les survivant du passé s’est remarié, et de présent <lb/>et a jouy et
+                     encore au present jouit par us, les <lb/>fruits de tous les biens du deffunt,
+                     toutesfois sans <lb/>charger iceux dits biens, le tout sans fraud, aguet
+                     <lb/>ny <term ref="lem015189">barat</term>. </p>
+                  <p>
+                     <lb/>En tant que touche le bestail qui y est à présent, on <lb/>doit regarder
+                     le nombre et la vallue d’iceluy et de la <lb/>moitié dudit bestail&#160;; après le
+                     trespas de laditte usery <lb/>reviendra aux héritiers et bien tenants dudit
+                     déffun. </p>
+                  <pb n="641r" facs="AVN_B_101.14.001_0641r"/>
+                  <p>
+                     <lb/>En tant que touche des main et possessions y estants <lb/>icelle les
+                     pourra avencer, admodier, mettre à moiteresse <lb/>bien et dheuement, redondant
+                     et venant à son profit <lb/>sa vie durant. Et qu’iceux dits biens soyent
+                     maintenus <lb/>et entretenus, comme dessus est dit, autrement sy faute <lb/>il
+                     se trouveroit sur un <term ref="lem015192">maix</term> ou plusieurs, les maix
+                     <lb/>n’estant trouvé deheuement, elle en seroit toujours <lb/>mésusée. </p>
+                  <p>
+                     <lb/>Ce qui a ainsi esté conclu, passé et arresté, les <lb/>ann et jour que
+                     devant, et ordonné à moy, secrétaire <lb/>de Ville soussigné, de l’expédier en
+                     cette forme <lb/>sous le <term ref="lem016327">seel</term> de la mayorie et justice de <origPlace
+                        ref="loc007786">Neüfchatel</origPlace>. </p>
+               </div>
+               <div>
+                  <signed>
+                     <persName ref="per008827">
+                        <choice>
+                           <abbr>J&#160;J</abbr>
+                           <expan>Jean Jacques</expan>
+                        </choice> Purry</persName>
+                     <figure type="notarial sign"/></signed>
+               </div>
+            </body>
+            <back>
+               <div>
+                  <p>Ce point de coutume ne contient pas la demande, mais uniquement la déclaration du Petit Conseil.</p>
+               </div>
+            </back>
+         </text>
+      </group>
+   </text>
+</TEI>

@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-08-15"/>
+            <date type="print"/>
+            <availability><p xml:id="facs">Sibylle Malamud</p></availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_168</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>StASG AA 2 A 13-2-6, S. 4–7</idno>
+                  <altIdentifier>
+                     <idno>StASG AA 2 A 13-2</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <head>Entwurf des Reverbriefs von Adrian Ziegler wegen der Schulden aus dem Kauf des Hauses Sax</head>
+               <msContents>
+                  <summary><p>Adrian Ziegler, Bürger von Zürich und Landvogt von Sax-Forstegg, verspricht für seinen Sohn
+                        Adrian die geschuldeten 2000 Gulden Zürcher Währung für den Kauf des Hauses
+                        Sax in Raten zu bezahlen. Die erste Rate von 200 Gulden samt Zins ist am 1.
+                        Mai 1631 fällig, die darauf folgenden neun Jahre ist die gleiche Summe mit
+                        Zins auszurichten. Als Sicherheit wird das gekaufte Haus Sax mit allen
+                        Gütern sowie das Jagdrecht fürs niedere Wild eingesetzt.</p> <p>Der Aussteller siegelt.</p></summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <filiation type="current">Entwurf (2 Doppelblätter)</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="32.5"/>
+                              <width unit="cm" quantity="21.0"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1630-05-01"/>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000369">Kauf</term>
+               <term ref="key000075">Haus</term>
+               <term ref="key000058">Schulden</term>
+               <term ref="key000147">Gut</term>
+               <term ref="key001028">Kapital</term>
+               <term ref="key000249">Wald</term>
+               <term ref="key000351">Jagd</term>
+               <term ref="key004699">Jagdrecht</term>
+               <term ref="key000897">Pest</term>
+               <term ref="key000430">Unterpfand</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <div>
+                  <p><gap reason="irrelevant"/><note>Seite 1 bis 3 enthält den Entwurf des Verkaufs
+                        des <placeName ref="loc007946.01">Hauses Sax</placeName> durch <orgName
+                           ref="org002406">Zürich</orgName> an <persName ref="per002482a">Adrian
+                           Ziegler</persName>. Als Vorlage wurde der Reversbrief des Käufers
+                        gewählt, da dieser weniger Streichungen und Einfügungen enthält.</note><pb
+                        n="4" facs="StASG_AA_2_A_13_02_06_04"/>
+                     <seg><lb/>Ich, <persName ref="per002482a">Adrian Ziegler</persName>, burger der
+                        statt <placeName ref="loc000065">Zürich</placeName> und <lb/>der zyt vogt
+                        der herrschafft <placeName ref="loc000278">Sax und Vorsteckh</placeName>,
+                           be<lb break="no"/>khenn offentlich und thun khundt mengklichem mit diserm
+                        <lb/>brieff, daß ich von wegen mynes lieben sohns <lb/><persName
+                           ref="per009916a.01">Adrian Zieglers</persName>, deß jüngern, den edlen,
+                        gestrengen, <lb/>frommen, vesten, fürsichtigen, wysen herren, herrn
+                           <lb/><orgName ref="org002406">burgermeister und rath vorbemelter statt
+                           Zürich</orgName>, <lb/>mynen gnedigen herren, by aberkhouffung für
+                           denselb<lb break="no"/>en mynen <term ref="lem000210">sohn</term> hienach
+                        geschribnen <term ref="lem001152">huses</term> und <term ref="lem000076"
+                           >güteren</term>
+                        <lb/>schuldig worden bin und gelten soll <measure type="currency"
+                           quantity="2000" unit="fl" origin="ZH">zweytusent guldin <lb/>guter, der
+                           statt Zürich müntz und wehrung</measure>. Dieselbige <lb/>summe gelts
+                        geloben und versprichen ich von wegen gedachts <lb/>mynes sohns und
+                        desselben erben, wolgenanten, mynen <lb/>gnedigen herren zu handen ihres
+                           <term ref="lem001667">seckelambts</term>
+                        <del>hienach</del>
+                        <lb/>volgender gstalt zuerlegen und zubezahlen:</seg>
+                     <seg>Namblich <lb/>uff den <origDate when="1631-05-01" calendar="Julian">ersten
+                           tag meyen deß nechstkhünfftigen sechß<lb break="no"/>zehenhundert
+                              <del>und</del> ein und dryssigisten jars</origDate>
+                        <measure type="currency" quantity="200" unit="fl" origin="ZH">zwey<lb
+                              break="no"/>hundert guldin</measure>
+                        <term ref="lem000588">houbtguts</term> sambt <measure type="currency"
+                           quantity="100" unit="fl" origin="ZH">einhundert guldin</measure>
+                        <lb/><term ref="lem000237">zinß</term>. Und dann <date dur="P9Y">nün
+                           jar</date> die nechst einandern nach <lb/>daruf volgend, jedes
+                        insonderheit uff gemelten <date when="--05-01" type="deadline">ersten
+                           <lb/>tag meyen</date>, <measure type="currency" quantity="200" unit="fl"
+                           origin="ZH">zweyhundert guldin</measure> houbtguts mit dem <lb/>zinß von
+                        jederzyt ußstehender houbtsumm, alles an <lb/>barem gelt und vorgemelter
+                        wehrung, ohne alles <pb n="5" facs="StASG_AA_2_A_13_02_06_05"/>
+                        <lb/>fürwenden und zewert haben, auch gentzlich ohne gmeiner <lb/>statt
+                           <orgName ref="org001187">Zürich</orgName> und derselben seckelambts
+                        kosten und <lb/>schaden.</seg>
+                     <seg>Doch habend wolgemelt myn gnedig herren <lb/>hieby gnedigklich zugesagt
+                        und versprochen, wovehr uß <lb/>fürfallender sonderbaren hinderungen etwan
+                        eine <lb/>zahlung <term ref="lem000588">houbtguts</term>
+                        <add place="left margin">über obbestimbt zyt und <lb/>zil</add> ufgeschlagen
+                        werden müßte, sy <lb/>damit mich ald mynen sohn nit überylen, sonder fer<lb
+                           break="no"/>ners warten wöllind, und aber wir die verfallnen <lb/>zinß zu
+                        erlegen und zebezalen schuldig syn söllind.</seg>
+                     <seg n="1">
+                        <lb/>By ynsatz und <term ref="lem002220">verpfendung</term> der von
+                           wolgenant<lb break="no"/>en, mynen gnedigen herren erkhoufften <term
+                           ref="lem001152">huses</term> und <lb/><term ref="lem000076"
+                           >güteren</term>
+                        <del>benantlich</del> inn obgedachter, ihrer herr<lb break="no"/>schafft
+                           <placeName ref="loc000278">Sax</placeName> gelegen, benantlich ihres
+                        huses unnd <lb/>hoffstatt zu <placeName ref="loc007946">Sax</placeName> im
+                           <term ref="lem000103">dorf</term>, so hievor in <term ref="lem000179"
+                           >khouff</term> der <lb/>herrschafft an sy khommen, sambt darby gelegnen
+                           <term ref="lem000246">gart<lb break="no"/>ens</term> und <term
+                           ref="lem012693.05">ußglendtlis</term>, auch der gerechtigkeit inn
+                        <lb/>der <term ref="lem005069">alpung</term> und <placeName ref="loc006155"
+                           >Frischenberger</placeName>
+                        <term ref="lem000699">brunnens</term>.</seg>
+                     <seg n="2"><subst><del>Mehr
+                              <!--Zeilenumbruch wird im Portal nicht wiedergegeben--><lb/>deß</del><add
+                              place="left margin">So denne eines</add></subst> stückli guts genant
+                        der <placeName ref="loc008956.02">Rübacher</placeName>, stoßt gegen <lb/>der
+                           <placeName ref="loc000211">Gambser</placeName> syten an wyland <persName
+                           ref="per011120">Hanßen Berneggers</persName>
+                        <lb/><choice>
+                           <abbr>sel</abbr>
+                           <expan>seligen</expan>
+                        </choice>
+                        <term ref="lem004267">reben</term>, allwo etliche <term ref="lem000151"
+                           >marchstein</term> stahnd, demnach an <lb/>das huß daselbst und darunder
+                        ligend <term ref="lem012693.06">usglendt</term>, zum <lb/>dritten an den
+                           <placeName ref="loc008955.02">Brül</placeName> und zum vierten an
+                           <persName ref="per011134a.01">Fridli <lb/>Keßlers</persName>
+                        <placeName ref="loc008956.02">Rübacher</placeName>.</seg>
+                     <seg n="3">Item eines stucks <term ref="lem000027">weid</term>, <placeName
+                           ref="loc006046.04">Schu<lb break="no"/>machers Veld</placeName> genant,
+                        sambt einem stückli, so hinder <lb/>das <placeName ref="loc006044.06">Bigis
+                           Holtz</placeName> genennt ward, dißmalen aber <term ref="lem002133"
+                              >ußge<lb break="no"/>rütet</term> ist und ein <term ref="lem000500"
+                           >stadel</term> daselbst gebuwen worden, <lb/>stoßt gegen <placeName
+                           ref="loc000211">Gambß</placeName> zu zweyen syten an <persName
+                           ref="per011126a.01">Geörg</persName> und <lb/><persName
+                           ref="per011131a.01">Baschi</persName>, der <orgName ref="org001783"
+                           >Berneggeren</orgName>
+                        <choice>
+                           <abbr>s</abbr>
+                           <expan>seligen</expan>
+                        </choice> erben güter, sodenne <lb/>zu der <placeName ref="loc006042"
+                           >Saxer</placeName> syten an <persName ref="per011122a.01">Hanßen
+                           Kamerer</persName> und <persName ref="per011121a.01">Hanßen
+                           <lb/>Bernegger</persName> und unden an die <term ref="lem000596"
+                           >landtstraß</term>.</seg>
+                     <seg n="4">Mehr <lb/>deß halben theils an dem undern <term ref="lem009952"
+                           >wynberg</term> und <term ref="lem003780">wiß<lb break="no"/>wachs</term>
+                        daby, wie es die <term ref="lem001743">mülleren</term> zu <placeName
+                           ref="loc006042">Sax</placeName> besessen, <lb/>stoßt einersyts an die
+                        müllistraß, unden an die landt<lb break="no"/>straß, ussen an der <orgName
+                           ref="org002220.07">Mattlinen</orgName>
+                        <placeName ref="loc008953.02">Rüffi</placeName> und dann <lb/>an <persName
+                           ref="per011132a.01">Niclauß Bernegger</persName>s erkhoufften andern
+                        halben theil.</seg></p>
+                  <pb n="6" facs="StASG_AA_2_A_13_02_06_06"/>
+                  <p><seg n="5"><lb/>Item ein <term ref="lem000028">holtz</term>, das <placeName
+                           ref="loc008207.02">Herren Holtz</placeName> genannt, stoßt eins theils
+                        <lb/>an <persName ref="per011123a.01">Hansen Schyners</persName>
+                        <choice>
+                           <abbr>s</abbr>
+                           <expan>seligen</expan>
+                        </choice>
+                        <placeName ref="loc008953.02">Rüffi</placeName> und von dannen an den
+                           <placeName ref="loc008958.02">Ebnen <lb/>Acher</placeName> uff der undern
+                           <placeName ref="loc008959.01">Burg</placeName> gelegen, stoßt es an der
+                           ge<lb break="no"/>meind <term ref="lem000028">holtz</term>, sind drey
+                        steinene <term ref="lem000693">marchen</term>, unders theils <lb/>an
+                           <persName ref="per011124a.01">Galli Bernegger</persName>s <choice>
+                           <abbr>s</abbr>
+                           <expan>seligen</expan>
+                        </choice> erben gut uff der <placeName ref="loc008959.01">Burg</placeName>,
+                        <lb/>zum dritten an <persName ref="per011123a.02">Hannß Schyner</persName>s
+                        erben <del>veld, zum
+                           <!--Zeilenumbruch wird im Portal nicht wiedergegeben--><lb/>
+                           vierten</del>, item an <persName ref="per011133a.01">Bläsi
+                           Ryner</persName>s <term ref="lem000251.16">wälde</term>, zum vierten
+                        <lb/>von <placeName ref="loc000185">Hochen Sax</placeName> über den <term
+                           ref="lem002389">graat</term> oder <term ref="lem017349.02">halß</term>
+                        genant <lb/>biß gen <placeName ref="loc006155">Frischenberg</placeName> und
+                        letstlich wider an <persName ref="per011120a.01">Hannßen
+                           <lb/>Bernegger</persName>s erben gut.</seg>
+                     <seg n="6">Mehr den dritten theil <lb/>an den <measure quantity="9" type="area"
+                           unit="Mannmad" commodity="grassland">nün mansmader <term
+                              ref="lem002450.08">stroüwi</term></measure> zu <placeName
+                           ref="loc006042">Sax</placeName>, genant <lb/>der <placeName
+                           ref="loc008954.01">Fürlinger</placeName> uff <placeName
+                           ref="loc006117.06">Saxer Riedt</placeName>, die sich <date dur="R/P1Y"
+                           >jerlichen</date>
+                        <lb/>zewechslen gebürend, alles wie es inn synen zil <lb/>und marchen ligt,
+                        mit stäg, wäg, grundt, gradt und <lb/>aller anderer gerechtigkeit, für
+                        gentzlich ledig, eigen, <lb/>auch zehendfrey, zusambt der befrey- und be<lb
+                           break="no"/>willigung zu dem <term ref="lem017217.02">nideren
+                           gwild</term> inn der herr<lb break="no"/>schafft <placeName
+                           ref="loc000278">Sax</placeName>
+                        <del>vor</del> zu <term ref="lem000135">jagen</term>, wie ein anderer der<lb/>
+                        <del><add place="left margin">selben ynseß</add></del>
+                        <lb/><hi rend="underline">statt <placeName ref="loc000065"
+                              >Zürich</placeName> burger inn derselben</hi><add place="above"
+                           >übriger</add>
+                        <hi rend="underline">landtschafft</hi><note>Streichung wohl durch
+                           gestrichelte Unterstreichung aufgehoben.</note>
+                        <lb/>untzharo thun mögen.</seg>
+                     <seg>Also und der<lb break="no"/>gestalt, ob ich, gedachter myn sohn ald
+                        desselben <lb/>erben die vorbestimbten <date dur="R/P1Y">jerlichen</date>
+                        <term ref="lem004127">zahlungen</term> sambt <lb/>dem <term ref="lem000237"
+                           >zinß</term> uff zill und tag nit richtig erleitind, <lb/>daß dann ein
+                        herr seckelmeister vorwolbemelter <lb/>statt <orgName ref="org001187"
+                           >Zürich</orgName>, oder deme es zethund inn bevelch <lb/>gegeben werden
+                        wirt, vollen gwalt, fug und <lb/>recht haben, vorgeschribene <term
+                           ref="lem000580">underpfandt</term> und, so <lb/>do man nit gnug were,
+                        alles unser, der <term ref="lem002446">khoüffer<lb break="no"/>en</term>,
+                        und unserer eerben haab und gut, ligents und <lb/>vahrends, darvon nützit
+                        usgenommen, mit der <lb/>herrschafft <placeName ref="loc000278">Sax und
+                           Vorsteck</placeName> gricht und rechten <lb/>anzulangen und zutryben, so
+                        lang und vil biß <lb/>das verfallen <term ref="lem000588">houbtgut</term>
+                        sambt dem <term ref="lem000237">zinß</term> und allenn <lb/>uferloffnen
+                        kosten erlegt und bezalt ist. Vor <pb n="7" facs="StASG_AA_2_A_13_02_06_07"/>
+                        <lb/>dem allem mich, mynen sohn und unsere erben nützit schützen <lb/>noch
+                        schirmen soll, dann wir unnß alles behelffs hier<lb break="no"/>wider syn
+                        mögende, gentzlich entzigen und begeben habend, <lb/>alles gethrüwlich und
+                        ungefahrlich. </seg>
+                     <seg>Und deß zu <lb/>wahrem urkhund, so hab ich, anfangs benannter <persName
+                           ref="per002482a">Adrian <lb/>Ziegler</persName>, für mich und auch
+                        bemelten mynen sohn und <lb/>unsere erben, myn eigen insigel getruckt inn
+                        <lb/>disern brieff, der geben ist uff den <origDate when="1630-05-01"
+                           calendar="Julian">ersten tag <lb/>deß monats meyens, vor der geburt
+                           Christi, <lb/>unsers lieben <abbr>h</abbr> und heilands gezalt,
+                              sechßzehen<lb break="no"/>hundert und dryssig jare</origDate>. </seg>
+                  </p> 
+                  <p><note>Die folgenden Texte befinden sich auf dem
+                     Umschlag des Hefts.</note>
+                     <lb/>N<hi rend="sup">o</hi> 5. Concept <term ref="key000822">khouffbrieffs</term>, <date
+                        when="1630-05-31" calendar="Julian"><add place="above">den 31.<hi rend="sup">ten</hi> may
+                           1630</add></date><note>Hier und weiter unten wird das Geschäft, wohl das Datum der
+                              Originalurkunde, auf den <date when="1630-05-31" calendar="Julian">31. Mai 1630</date>
+                              datiert.</note>,</p>
+                  <p><lb/>umb das huß zu <placeName ref="loc007946">Sax</placeName>, den <placeName
+                     ref="loc008956.02">Rübacher</placeName>, <lb/><placeName ref="loc006046.05">Schumachers
+                        Veldt</placeName> und <placeName ref="loc006044.05">Bigisholtz</placeName>, das halbtheil
+                     <lb/>an dem undern wyngarten und wißwachs da<lb break="no"/>by. Item umb das <placeName
+                        ref="loc008207">Herrenholtz</placeName> und <measure quantity="3" type="area" unit="Mannmad"
+                           >drü <lb/>manmad</measure> uff <placeName ref="loc006117.06">Saxer Riedt</placeName> und
+                     dann umb dz <lb/><term ref="lem017219.02">jagdrechte</term> oder befrygung zu dem <term
+                        ref="lem017217.03">nidern gewild</term>, <lb/>wie dieselbig andere myner gnediger <choice>
+                           <abbr>h</abbr>
+                           <expan>herren</expan>
+                        </choice> burg<lb break="no"/>ere uff übriger ihrer landtschafft habend,
+                     <lb/><subst><del>hieby ist auch das concept</del><add place="above" hand="later hand">samt
+                        dem concept</add></subst>
+                     <lb/>deß darüber gemachten <term ref="lem000317">schuldtbrieffs</term>, <lb/><date
+                        when="1630">1630</date>.</p> 
+                  <p><lb/>Wellich <term ref="lem001152">huß</term>, güter und befrygung <choice>
+                     <abbr>h</abbr>
+                     <expan>herren</expan>
+                  </choice> vogt <lb/><persName ref="per002482a">Zieglern</persName> zu <placeName
+                     ref="loc006042">Sax</placeName> von synes sohns <persName ref="per009916">Adrian Zieg<lb
+                        break="no"/>lers</persName> wegen zu khouffen geben worden, wylen <lb/>ermelt huß sidt
+                     erkhouffter herrschafft lehr <lb/>und öd gestanden und nit allein daruß khein <lb/>nutz,
+                     sonder zu dessen inn ehrehaltung <date dur="R/P1Y">jer<lb break="no"/>lichen</date> zimlicher
+                     kosten umgangen, die güter <lb/>aber by letsten <term ref="lem017220.02"
+                        >sterbentsloüffen</term> der herr<lb break="no"/>schafft umb noch daruff ohnbezalt gstandnen
+                     <lb/><term ref="lem003187">khouffschilling</term> heimbgfallen und das söllichs <lb/>inn
+                     mynen <choice>
+                        <abbr>g h</abbr>
+                        <expan>gnädigen herren</expan>
+                     </choice> kosten gebuwen werd<lb break="no"/>en solten, nit nutzlich syn befunden worden.
+                     <lb/>Und hat man ihme die <term ref="lem017218.02">nidere jagdbefryg<lb break="no"
+                     />ung</term> uß anfangs mundtlich, nachgentz schrifftlich vermeldeten ursachen, wie inn
+                     by<lb break="no"/>ligendem schryben de dato <date when="1630-05-31" calendar="Julian">31.
+                        may anno 1630</date> zu sehen, auch bewilliget.</p> 
+                  <p><lb/>Actum durch beid <choice>
+                     <abbr>h</abbr>
+                     <expan>herren</expan>
+                  </choice> burgermeistere, <choice>
+                     <abbr>h</abbr>
+                     <expan>herr</expan>
+                  </choice> statthalter <persName ref="per011112a.01">Escher</persName> und <persName
+                     ref="per011113a.01">Heidegker</persName>, <lb/>juncker seckelmeister <persName
+                        ref="per011114a.01">Wirtz</persName>, <choice>
+                           <abbr>h</abbr>
+                           <expan>herr</expan>
+                        </choice> obman <persName ref="per011116a.01">Rahn</persName>, <choice>
+                           <abbr>h</abbr>
+                           <expan>herr</expan>
+                        </choice> landtvogt <persName ref="per002063a.01">Bürckli</persName>
+                     <lb/>und <choice>
+                        <abbr>h</abbr>
+                        <expan>herr</expan>
+                     </choice> zunfftmeister <persName ref="per011119a.01">Spöndli</persName>, als von unseren
+                     gnedigen herren einem <lb/><choice>
+                        <abbr>e</abbr>
+                        <expan>ehrbaren</expan>
+                     </choice> rath mit vollkhomnem bevelch und gewalt deßwegen verordnete.</p>
+                  <div>
+                     <ab type="archiving reference" place="verso"><lb/>Trk 320 L 9</ab>
+                  </div>
+               </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div><p><persName ref="per004426">Ulrich Philipp von Sax-Hohensax</persName> stellt <date when="1553"
+                  >1553</date> einen Erbvertrag auf, um künftige <term ref="key003343"
+                  >Konflikte</term> zwischen seinen Kindern aus beiden Ehen um seine <term
+                  ref="key000920">Hinterlassenschaft</term> zu vermeiden
+                  (<ref>SSRQ_SG_III_4_131</ref>). Seiner zweiten Ehefrau übergibt er das Haus
+                  <placeName ref="loc007946">Sax</placeName>, das er kurz zuvor von <persName
+                  ref="per008916">Hans Bäbi</persName> gekauft hat, zu <term ref="key000818"
+                  >Leibding</term> (vgl. <ref>SSRQ_SG_III_4_131</ref>, Art. 2). Nach seinem Tod
+                  <date when="1585">1585</date> erhält gemäss <term ref="key004440"
+                  >Erbteilungsvertrag</term> von <date when="1590">1590</date>
+               <persName ref="per004677">Johann Albrecht I.</persName>, der erstgeborene Sohn aus
+               erster, katholischer Ehe, das ihm bereits <date when="1570">1570</date> zugeteilte
+               Haus Sax mit Rechten und Gütern im Wert von 7550 Gulden (<bibl><ref>EKGA Salez
+                     32.01.23, Besitzungen</ref></bibl>). Die Erbteilung von 1590 wird jedoch vom
+               katholischen Teil der Familie nur widerwillig akzeptiert, was einige Jahre später
+               erneut zu Streitigkeiten führt, die in der Ermordung von <persName ref="per004582"
+                  >Johann Philipp</persName> durch den Sohn seines Halbbruders <persName
+                  ref="per004677">Johann Albrecht I.</persName> gipfeln. <date when="1596"
+                  >1596</date> verkauft Johann Albrecht seinen Teil der Freiherrschaft Sax-Forstegg
+               mit dem Haus <placeName ref="loc007946">Sax</placeName> an Johann Philipps Witwe
+                  <persName ref="per004549a">Adriana Franziska von Sax-Hohensax</persName>
+                     (<bibl><ref>StASG AA 2 U 39</ref></bibl>; vgl. auch <bibl><ref
+                     target="http://permalink.snl.ch/bib/chbsg000141199">Zeller-Werdmüller
+                     1878</ref>, S. 68–76</bibl>).</p>
+               <p><date>1615</date> kommt das Haus Sax an <orgName ref="org001196">Zürich</orgName>. Einige zum Haus
+               gehörigen Güter werden verkauft (<bibl><ref>EKGA Salez 32.01.21, Besitzungen: Kaufbriefe und
+                  Kaufverträge, 02.02.1619–02.02.1620</ref></bibl>) oder verpachtet, doch das Haus selbst steht
+               seit dem Kauf leer, bis <date when="1630">1630</date> der Zürcher <persName ref="per002482a"
+                  >Adrian Ziegler</persName>, der von <date from="1626" to="1633">1626 bis 1633</date> Landvogt
+               von <placeName ref="loc000278">Sax-Forstegg</placeName> ist, den Sitz für seinen Sohn erwirbt.
+               Sowohl Kauf- als Reversbrief sind nur als Entwürfe überliefert.</p>
+            <p>Das Haus Sax bleibt in Besitz der Familie Ziegler, bis es <date when="1760"
+                  >1760</date> an <persName ref="per011174">Leonhard von Buol</persName> von
+                  <placeName ref="loc009002.01">Parpan</placeName> verkauft wird (zur Geschichte des
+               Hauses oder Schlösslis Sax vgl. ausführlich <bibl><ref
+                     target="http://permalink.snl.ch/bib/chbsg000049532">Berger 2003</ref></bibl>;
+               weitere Quellen zum Haus Sax siehe <ref>SSRQ_SG_III_4_131</ref>;
+                  <ref>SSRQ_SG_III_4_157</ref>; <ref>SSRQ_SG_III_4_223</ref>; <bibl><ref>StAZH A
+                     346.1.4, Nr. 52</ref>; <ref>A 346.1.4, Nr. 56</ref>; <ref>A 346.6, Nr.
+                  27</ref>; <ref>A 346.6, Nr. 40</ref></bibl>; <bibl><ref>StASG AA 2 A 3-13-9</ref>;
+                     <ref>AA 2 A 13-2-5</ref></bibl>; <bibl><ref>FA Berger</ref>
+               09.08.1759</bibl>).</p></div>
+      </back>
+   </text>
+</TEI>

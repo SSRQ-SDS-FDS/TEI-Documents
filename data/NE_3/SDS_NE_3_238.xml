@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="headerinfo"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <date type="electronic" when="2020-08-17"/>    <date type="print"/>
+    <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Collection des sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS_NE_3_238</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier>
+      <idno>AVN B 101.14.001, fol. 490v–491v</idno>
+     </msIdentifier>
+     <head>Délai et procédure de notification de modération et de clame sur une taxe</head>
+     <msContents>
+      <summary>La notification de modération se fait dans la huitaine, de même pour la clame sur une
+       taxe. Celui qui agit par procuration n’est pas tenu de payer pour celui qu’il représente,
+       mais c’est à lui que sont faites les notifications.</summary>
+      <msItem>
+       <textLang>français</textLang>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="33"/>
+          <width unit="cm" quantity="23.5"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <origDate when="1671-12-15" calendar="Julian"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>
+      </origin>
+     </history>
+     <additional>
+      <listBibl>
+       <head/>
+       <bibl/>
+      </listBibl>
+     </additional>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key000886"></term>
+     <term ref="key005189"></term>
+     <term ref="key005130"></term>  
+        </keywords>
+
+   </textClass>
+   <particDesc default="false"/>
+   <settingDesc default="false"/>
+  </profileDesc>
+ </teiHeader>
+ 
+ <text>
+  <group>
+   <text>
+    <body>
+        
+     
+     <pb n="490v" facs="AVN_B_101.14.001_0490v"/> 
+        
+     <div>
+      <head>
+       <lb/>Touchant le temps de la notification <lb/>d’une <term ref="lem015967.02">moderation</term> et aussi de la reveue
+       d’icelle. <lb/>Plus du temps que l’on doit former une <term ref="lem015005">clame</term>. <lb/>Item du
+       payement qui se doit faire, soit par <lb/>le constituant ou charge ayant. <lb/>Plus encores
+       des notifications, soit au charge <lb/>ayant ou au constituant. </head>
+      <p>
+       <lb/>Sur la requeste du <choice>
+        <abbr>s<hi rend="sup">r</hi></abbr>
+        <expan>sieur</expan>
+       </choice>
+       <persName ref="per010110">Samuel <lb/>Herman</persName>, agissant au nom de noble &amp;
+       vertueux <choice>
+        <abbr>s<hi rend="sup">r</hi></abbr>
+        <expan>sieur</expan>
+       </choice>
+       <lb/><persName ref="per010111">Burkard d’Erlach</persName>, bourgeois &amp; du <orgName ref="org002094">Grand Conseil de
+        la <lb/>Ville &amp; Canton de <placeName ref="loc000464.08">Berne</placeName></orgName>,
+       adressée à <choice>
+        <abbr>Mons<hi rend="sup">r</hi></abbr>
+        <expan>monsieur</expan>
+       </choice> le maistre <lb/>bourgeois &amp; <orgName ref="org003085">Conseil Estroit de la
+        Ville de <placeName ref="loc007786">Neufchâtel</placeName></orgName>, le <lb/><origDate
+         when="1671-12-15" calendar="Julian">15<hi rend="sup">e</hi> decembre <hi rend="underline">1671</hi></origDate>
+       tendante aux fins d’avoir les <lb/>poincts de coustume suivans. </p>
+      <pb n="491r" facs="AVN_B_101.14.001_0491r"/>
+      <p>
+       <lb/>Premierement, si une personne qui fait faire <lb/>une <term ref="lem015967.02">moderation</term> n’est pas obligé de la
+       notifier à sa <lb/>partie dedans <date dur="P8D">huictaine</date>, &amp; de mesme après une reveue <lb/>si l’instant
+       ou en faveur de qui elle a esté faite, s’il <lb/>ne la doit pas notifier à partie contre qui
+       elle a esté <lb/>faite aussi dedans <date dur="P8D">huictaine</date>. </p>
+      <p>
+       <lb/>Secondement, si une personne qui se veut <lb/><term ref="lem015647">clamer</term> sur une <term ref="lem014995.02">taxe</term>, s’il
+       n’est pas obligé de faire la <lb/><term ref="lem015005">clame</term> dans <date dur="P8D">huictaine</date>
+       après que <choice>
+        <abbr>lad.</abbr>
+        <expan>ladite</expan>
+       </choice> <term ref="lem014995.02">taxe</term> a esté faite, <lb/>et s’il peut estre après <choice>
+        <abbr>lad.</abbr>
+        <expan>ladite</expan>
+       </choice>
+       <date dur="P8D">huictaine</date> expirée entendu <lb/>à <term ref="lem015005">clame</term>. </p>
+      <p>
+       <lb/>Tiercement, si lors qu’une personne agit en <lb/>qualité de charge &amp; procure ayant
+       de quelqu’un, s’il <lb/>est obligé de payer pour son constituant. </p>
+      <p>
+       <lb/>Quartement, si lors qu’une personne à une <lb/>pleine et entiere procure pour agir pour
+       un constituant, <lb/>si l’on ne se doit pas adresser au constitué pour luy <lb/>faire les
+       intimations requises, sans recouvrir par <lb/>subtilité <choice>
+        <abbr>aud.</abbr>
+        <expan>audit</expan>
+       </choice> constituant pour y mettre tant plus de frais. </p>
+      <p>
+       <lb/><orgName ref="org003085"><choice>
+         <abbr>Mesd. s<hi rend="sup">rs</hi></abbr>
+         <expan>Mesdits sieurs</expan>
+        </choice> du Conseil</orgName> ayans eu advis &amp; meure <lb/>premeditation par ensemble,
+       <term ref="lem015635.04">baillent</term> par declaration, <lb/>suivant la coustume usitée en la souveraineté de
+        <lb/><placeName ref="loc007785">Neufchatel</placeName> de pere à fils &amp; de tout temps
+       immemorial <lb/>jusqu’à present la coustume estre telle. </p>
+      <p>
+       <lb/>Assavoir sur le premier poinct, que quand une <lb/>personne fait faire une <term ref="lem015967.02">moderation</term> de
+       missions contre <lb/>un autre, il est obligé de la faire notifier à la partie <lb/>dans la
+       <date dur="P8D">huictaine</date>&#160;; et de mesme après une reveue faite, <lb/>elle doit estre notifiée à la partie
+       succombante dans <lb/>la <date dur="P8D">huictaine</date>. </p>
+      <p>
+       <lb/>Sur le second poinct, <term ref="lem015635.04">baillent</term> aussi par
+       <lb/>declaration, que quand une personne se veut <term>clamer</term>
+       <lb/>sur une <term ref="lem014995.02">taxe</term> à luy faite, il doit faire <choice>
+        <abbr>lad.</abbr>
+        <expan>ladite</expan>
+       </choice>
+       <term ref="lem015005">clame</term>
+       <pb n="491v" facs="AVN_B_101.14.001_0491v"/>
+       <lb/>dans la <date dur="P8D">huictaine</date> après que <choice>
+        <abbr>lad.</abbr>
+        <expan>ladite</expan>
+       </choice> taxe a esté faite &amp; <lb/>deuement notifiée, sans pouvoir estre entendu à aucune
+        <lb/><term ref="lem015005">clame</term> après <choice>
+        <abbr>lad.</abbr>
+        <expan>ladite</expan>
+       </choice>
+       <date dur="P8D">huictaine</date> expirée. </p>
+      <p>
+       <lb/>Sur le troisieme, declaré qu’une personne <lb/>qui agit en qualité de procure &amp;
+       charge ayant de <lb/>quelqu’un, il n’est aucunement obligé de payer en cas <lb/>de
+       succombance pour son constituant. </p>
+      <p>
+       <lb/>Sur le quatrième, declaré aussi que quand <lb/>une personne est muni de deue charge
+       &amp; procure pour <lb/>agir au nom de son constituant, l’on se doit adresser <lb/><choice>
+        <abbr>aud.</abbr>
+        <expan>audit</expan>
+       </choice> constitué pour luy faire les notifications &amp; <lb/>intimations requises, sans
+       agir contre le constituant. </p>
+      <p>
+       <lb/>Ce qu’a esté ainsi passé, conclud &amp; arresté les <lb/>an &amp; jour que devant, &amp;
+       ordonné à moy secretaire <lb/>de Ville l’expedier en cette forme sous le <term ref="lem016327">seel</term> de
+       la <lb/>mayorie &amp; justice <choice>
+        <abbr>dud.</abbr>
+        <expan>dudit</expan>
+       </choice>
+       <origPlace ref="loc007786">Neufchâtel</origPlace>, &amp; signature de <lb/>ma main. </p>
+      <p>
+       <lb/>Copie extraite sur la copie <choice>
+        <abbr>dud.</abbr>
+        <expan>dudit</expan>
+       </choice>
+       <choice>
+        <abbr>s<hi rend="sup">r</hi></abbr>
+        <expan>sieur</expan>
+       </choice>
+       <persName ref="per009020"><choice><abbr>M</abbr><expan>Maurice</expan></choice> Tribolet</persName>. </p>
+     </div>
+      
+      <div>
+       <signed><persName ref="per008992"><choice><abbr>N</abbr><expan>Nicolas</expan></choice> Huguenaud</persName> <figure type="notarial sign"/></signed>
+      </div>
+     
+       
+    </body>
+   </text>
+  </group>
+ </text>
+</TEI>

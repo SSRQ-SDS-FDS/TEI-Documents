@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome
+     3&#160;: Les points de coutume neuchâtelois</title>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="headerinfo"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <date type="electronic" when="2020-08-17"/>
+    <date type="print"/>
+    <availability>
+     <p xml:id="facs">Adrien Wyssbrod</p>
+    </availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Collection des sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS_NE_3_124</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier>
+      <idno>AVN B 101.01.01.007, fol. 99r</idno>
+     </msIdentifier>
+     <head>Droit d’usufruit du père sur les biens hérités par ses enfants</head>
+     <msContents>
+      <summary>Dans le cadre d’une succession réglée par un «&#160;traité&#160;» le père demande
+       l’usufruit des biens dont ses enfants héritent par leur mère prédécédée.</summary>
+      <msItem>
+       <textLang>français</textLang>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="34"/>
+          <width unit="cm" quantity="23.5"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <origDate when="1644-04-24" calendar="Julian"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>
+      </origin>
+     </history>
+     <additional>
+      <listBibl>
+       <head>Bibliographie</head>
+       <bibl><ref target="http://permalink.snl.ch/bib/chbsg000142327">Boyve 1854–1861</ref>, t. 4, p.
+        53. Il s'agit probablement d'une erreur et Boyve fait en réalité référence à <ref>SDS_NE_3_123</ref>.</bibl>
+      </listBibl>
+     </additional>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key004770"/>
+     <term ref="key000920"/>
+     <term ref="key000815"/>
+     <term ref="key000476"/>
+     <term ref="key000803"/>
+     <term ref="key000336"/>
+     <term ref="key005299"/>
+     <term ref="key000558"/>
+     <term ref="key005098"/>
+     <term ref="key003024"/>
+     <term ref="key003025"/>
+     <term ref="key000635"/>
+    </keywords>
+   </textClass>
+   <particDesc default="false"/>
+   <settingDesc default="false"/>
+  </profileDesc>
+ </teiHeader>
+ 
+ <text>
+  <group>
+   <text>
+    <body>
+     
+     
+     <pb n="99r" facs="AVN_B_101.01.01.007_0099r"/> 
+
+     
+     <div>
+      <head>
+       <lb/>Du <origDate when="1644-04-24" calendar="Julian">xxiiii d’apvril <hi rend="underline"
+         >1644</hi></origDate>. En Conseil <lb/>estroict presidant <choice>
+        <abbr>mons<hi rend="sup">r</hi></abbr>
+        <expan>monsieur</expan>
+       </choice>
+       <persName ref="per014730a.01">Berthodt</persName>. </head>
+      <add place="left margin" rend="pencil" hand="later hand"><choice>
+        <abbr>Délib</abbr>
+        <expan>Délibérations</expan>
+       </choice></add>
+      <lb/>
+      <add place="left margin">Point de <lb/>coustume</add>
+      <p>
+       <lb/>Le <choice>
+        <abbr>s<hi rend="sup">r</hi></abbr>
+        <expan>sieur</expan>
+       </choice>
+       <persName ref="per011304a.01">Isaac Merveilleux</persName> a demandé esclaircissement d’un
+       <lb/>point de coustume au faict suivant. Scavoir <term ref="lem016286">mon</term> si un
+       <lb/>pere peut pretendre quelque usufruict sur les biens <lb/>devolus a ses enfans par la
+       mort de leur grand pere <lb/>ou grand mere, la mere precedemment decedée, soubs <lb/>pretexte
+       que dans le traicté faict pour <choice>
+        <abbr>lesd</abbr>
+        <expan>lesdits</expan>
+       </choice> biens <lb/>avec les coheritiers de <choice>
+        <abbr>sesd</abbr>
+        <expan>sesdits</expan>
+       </choice> enfans, il seroit faict <lb/>mention de la mere, et non de son enfant. Que luy
+       <lb/>a esté accordé suivant sa petition.<add place="below" rend="pencil" hand="later hand">Boyve IV/page 53<note><bibl><ref
+          target="http://permalink.snl.ch/bib/chbsg000142327">Boyve 1854–1861</ref>, t. 4, p.
+         53</bibl>. Il s'agit probablement d'une erreur et Boyve fait en réalité référence à
+       <ref>SDS_NE_3_123</ref>.</note></add></p>
+     </div>
+     
+       
+    </body>
+   </text>
+  </group>
+ </text>
+</TEI>

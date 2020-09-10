@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-08-15"/>
+            <date type="print"/>
+            <availability><p xml:id="facs">Sibylle Malamud</p></availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_112</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>OGA Gams Nr. 42</idno>
+               </msIdentifier>
+               <head>Beat Kaiser verschreibt ein Grundstück auf der Hueb seinen unmündigen Kindern zu Leibding</head>
+               <msContents>
+                  <summary>
+                     <p>Beat Kaiser, wohnhaft in Gasenzen im Gamser Kirchspiel, verschreibt sein Gut auf der Hueb, Schweinersacker genannt, das nicht belastet ist, ausgenommen einer Jahrzeit an den Kirchherrn von Gams, seinen unmündigen Kindern zu Leibding. Dieses Unterpfand soll weder versetzt noch verkauft werden, ausser die Kinder leiden Hunger und Not. Sie sollen aus dem Nutzen dieses Guts erzogen werden, bis sie sich selbst ernähren können. Wenn aber der Vater seine Kinder selbst erziehen will, bleibt ihm der Nutzen aus dem Gut. Kann er das nicht, weil er schlecht haushaltet, sollen die Kinder trotzdem die Nutzniessung daraus haben. Falls die Kinder sterben, fällt das Gut an Beat Kaiser zurück.</p>
+                     <p>Erbetener Siegler Hans Beusch, alt Ammann von Gams.</p>
+                  </summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <filiation type="current">Original</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Pergament</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="22.0"/>
+                              <width unit="cm" quantity="32.5"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <sealDesc>
+                     <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI"
+                           n="1"
+                           nontei:condition="absent"
+                           nontei:attachment="sealed on a parchment tag">
+                        <persName ref="per007714a" role="sigillant">Hans Beusch</persName>
+                     </seal>
+                  </sealDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1528-06-08">meͣntag in der applaswuchen</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000818">Leibding</term>
+               <term ref="key000803">Kind</term>
+               <term ref="key000244">Vater</term>
+               <term ref="key000331">Grundstück</term>
+               <term ref="key000914">Erziehung</term>
+               <term ref="key000187">Unterhalt</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <div org="uniform" sample="complete">
+                  <pb facs="OGA_Gams_Nr._42_r"/>
+                  <p>
+                     <seg>
+                        <lb/>Ich, <persName ref="per007709">Batt Kaysser</persName>, seͣsshafft zuͦ <placeName ref="loc007714.02">Gassentzen</placeName> in <placeName ref="loc006122">Gampsser
+         kilspel</placeName>, vergich offenlich mit urkund diss brieffs, das ich guͦtz, wol<lb break="no"/>bedachts sins und nuͤtz zuͦ den zitten, tagen und an den stetten, do ich es mit
+        recht wol gethuͦn mocht, fur mich seͣlbs <lb/>und alle mini erben und nachkomen, und setz
+        also minen on erzognen <term ref="lem000130">kinden</term>, die noch nit <term ref="lem002445">erzogen</term> sind, neͤmlich min <lb/>aigen stuck und guͤt uff der
+         <placeName ref="loc007715.02">Huͤb</placeName> geleͣgen, genant des <placeName ref="loc007716.02">Schwainers Acker</placeName>, stost niderwert an des
+       <orgName ref="org000883">Tuoͤren</orgName>
+                        <term ref="lem000100">acker</term>, aber zuͦ <lb/>ainer siten an <persName ref="per007710a">Uͦli Schoͤben</persName>
+                        <term ref="lem000076">gut</term>, zur dritten siten an <persName ref="per007711a">Burkart
+         Stucki</persName> an sin der elttren kinden guͤt, zur fierden sitten <lb/>an <persName ref="per007713a">Michil Bruͤder</persName> und an <persName ref="per007712a">Uͦli
+         Kaysers</persName> guͦtt. Und setz inen das also mit aller siner gereͣchttikait und
+        zuͤgehoͤrd, och fur fryg, <lb/>ledig und loss, ussgelassen, was aim <term ref="lem000459">kilchheren</term> zuͦ <placeName ref="loc000211">Gamps</placeName> zuͤ <term ref="lem000398">jarzit</term> darab gat, och ussgelassen die
+        satzig
+        und suss in all <lb/>weͣg on verkumbrot. </seg>
+                     <seg>Und neͣmlich, so sol das bestimpt guͤt und <term ref="lem000580">underpfand</term> nun
+        hin nit witter versetzt, verkofft noch <term ref="lem014689.02">ver<lb break="no"/>aber
+         handlot</term> weͣrden in kain wis noch weͣg, es weͣr denn sach, das die kind, wie ob stat,
+         <term ref="lem000790">mangil</term> hettind und sin notturffttig <lb/>wurdind. Wie das wer,
+        so sol und mag das <term ref="lem000588">hopt guͤt</term> wol <term ref="lem000984">angriffen</term> und inen damit <term ref="lem003451">hunger</term> und <term ref="lem012268">frost</term> und was inen nott<lb break="no"/>urfftig wery damit <term ref="lem014690.02">buoͤtzen</term>, ob der <term ref="lem000881.10">bluͦm</term> nit langen
+        moͤcht. Und sond neͣmlich die onerzognen kind uss disem guͤt erzogen <lb/>werden, bis das sy
+        wol moͤgend <term ref="lem009814">muͤs und brot</term> umb und an gewunnen. </seg>
+                     <seg>Und ob aber <persName ref="per007709">Batt</persName> sini kind selbs erzuchen wil und
+        mit si<lb break="no"/>nen kinden <term ref="lem008892">hussotti</term>, wie denn der gmain
+        man im <term ref="lem000299">kilspel</term> husset, sol im das guͤt in sinen handen beliben,
+        das <add place="above">er</add> damit sol und <lb/>mag sini kind erzuchen. Ob aber sach weͣr
+        oder wurd, das <persName ref="per007709">Batt</persName> nit wetti husen, das <term ref="lem010775.01">biderb</term>
+                        <term ref="lem000075">lut</term> beduncktti, das er nit zimlich <lb/>und on nutzlich
+        hussotti, so sond doch all weͣg die onerzognen kind uss dissem guͤt und mit disem guͤt
+        erzogen werden, wie <lb/>ob stat. </seg>
+                     <seg>Ob es sich aber begaͤb uber kurtz oder langi zit, das die kind <term ref="lem001445">sturbind</term> oder erzogen wurdind, wie ob stat, so sol das be<lb break="no"/>stimpt
+        guͦt und underpfand dem bestimptten <persName ref="per007709">Batten Kayser</persName> wider
+         <term ref="lem008102">entschlagen</term> sin, das er das wider sol und mag <term ref="lem000686">zuͦ <lb/>sinen handen neͣmen</term> und das besetzen und entsetzen als
+        ander sin <term ref="lem000807">aigen guͦt</term> on aller meͣngklichs sumen, <term ref="lem006535">jeren</term>
+                        <lb/>und widerspreͣchen. </seg>
+                     <seg>Und hierumb umb alles, wie ob <unclear>sait</unclear>, zuͦ ainer vesten sicherhait, jetz
+        und hienach, so han <lb/>ich, genantter <persName ref="per007709">Batt Kayser</persName>,
+        mit vlis und ernst gebeͣtten und erbeͣtten den furnamen und wysen <persName ref="per007714a">Hansen Buschen</persName>, <lb/>alt amman zuͤ <placeName ref="loc000211">Gamps</placeName>, das er sin aigen insigel fur mich und alle mini erben und nachkomen,
+        doch der herli<lb break="no"/>kait, och im seͣlbs und allen sinen erben in all wis und weͣg
+        on schaͤdlich und on vergriffenlich, offenlich ge<lb break="no"/>henckt hat an disen briff,
+        der geͣben ist uff <origDate when="1528-06-08">meͣntag in der <term ref="lem012484">applaswuchen</term>, als man zalt nach der geburt Cri<lb break="no"/>sti funff zeͣchen
+         hundert und acht und zwaintzig jar</origDate>. </seg>
+                  </p>
+               </div>
+               <pb facs="OGA_Gams_Nr._42_v"/>
+               <div org="uniform" sample="complete">
+                  <ab place="verso" type="archiving reference">A 1528; Nro 42</ab>
+               </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div n="1" org="uniform" sample="complete">
+            <p>Ein <term ref="key000818">Leibding</term> ist ein zeitlich beschränktes <term ref="key000336">Nutzungsrecht</term> (üblicherweise bis zum <term ref="key003024">Tod</term>) einer
+     berechtigten Person. Vielfach sichern Leibdingverträge die Versorgung eines überlebenden
+     Ehepartners (vgl. dazu z. B. <ref target="https://www.ssrq-sds-fds.ch/online/SG_III_2/index.html#p_658">SSRQ SG III/2.2,
+      Nr. 183</ref>; <ref target="https://www.ssrq-sds-fds.ch/online/SG_I_2_4.2/index.html#p_552">SSRQ SG I/2/4.2,
+      Nr. 11</ref>). Seltener sind Leibdingverträge, in denen wie im vorliegenden Fall der <term ref="key000244">Vater</term> seinen noch unmündigen <term ref="key000803">Kindern</term> die
+     Nutzniessung aus einem <term ref="key000331">Grundstück</term> zur Versorgung bis zu ihrem
+     Erwachsenenalter sichert.</p>
+         </div>
+         <div n="2" org="uniform" sample="complete">
+            <p>Zum <term ref="key000818">Leibding</term> vgl. auch: <bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/b7b1c7b4b5bd4f8ca0a9391c17614c52"
+                     >LAGL AG III.2411:002</ref> (28.05.1472); <ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/a5b79f7903f449fcb3266bc36d6e8b1b"
+                     >AG III.2411:003</ref> (12.06.1472)</bibl>; <bibl><ref
+                     target="https://query-staatsarchiv.lu.ch/detail.aspx?id=1191839">StALU URK
+                     207/2985</ref> (09.05.1483); <ref
+                     target="https://query-staatsarchiv.lu.ch/detail.aspx?id=1191856">URK
+                     208/3007</ref> (28.11.1486)</bibl>; <bibl><ref>EKGA Salez Abteilung 21:
+                     Grundstücksachen</ref></bibl>, 11.01.1559 (Erbrente); <bibl><ref>StAZH C IV
+                     7.3, Nr. 7</ref>  (09.12.1560); <ref>A 346.2.1, Nr. 28</ref> (1591);
+                     <ref>A 346.3, Nr. 43</ref> (30.08.1599); <ref>A 346.3, Nr. 39</ref>
+                  (15.11.1599)</bibl>; <bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/98b9894bd767436abc80afc08a14b83c"
+                     >LAGL AG III.2431:014</ref></bibl> (05.11.1749).</p>
+         </div>
+      </back>
+   </text>
+</TEI>

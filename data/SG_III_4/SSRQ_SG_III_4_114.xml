@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+ xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften
+     und Landstädte, Band 4: Die Rechtsquellen der Region Werdenberg: Grafschaft Werdenberg und
+     Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+    <respStmt>
+     <persName>Sibylle Malamud</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Sibylle Malamud</persName>
+     <resp key="tagging"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <date type="electronic" when="2019-08-15"/>
+    <date type="print"/>
+    <availability><p xml:id="facs">Staatsarchiv St. Gallen (StASG)</p></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Sammlung Schweizerischer Rechtsquellen</title>
+    <respStmt>
+     <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+     <resp>Herausgeberschaft</resp>
+    </respStmt>
+    <idno>SSRQ_SG_III_4_114</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier>
+      <idno>StASG AA 2a U 12</idno>
+     </msIdentifier>
+     <head>Grenzbeschrieb zwischen Sax und Frümsen</head>
+     <msContents>
+      <summary>
+       <p>Hans Egli, Statthalter des Freiherrn Ulrich VIII. von Sax-Hohensax, und Jakob Grafenbühler, alt
+        Ammann von Sax-Forstegg, bestätigen, dass vor einigen Jahren die Gemeinden Sax und Frümsen
+        wegen der Weidegrenzen verglichen wurden. Da der Schiedsspruch nicht verschriftlicht wurde
+        und bereits einige Schiedsrichter verstarben, bittet Frümsen zur Vorbeugung künftiger
+        Konflikte um eine Erläuterung des Spruchs. Deshalb wird der Grenzumgang wiederholt und
+        hiermit festgehalten. </p>
+       <p>Jakob Grafenbühler, alt Ammann, siegelt.</p>
+      </summary>
+      <msItem>
+       <textLang>Deutsch</textLang>
+       <filiation type="current">Original</filiation>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Pergament</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="35.0"/>
+          <width unit="cm" quantity="23.0"/>
+         </dimensions>
+         <dimensions type="plica">
+          <width unit="cm" quantity="4.0"/>
+         </dimensions>
+        </extent>
+        <condition>fleckig, verfärbt, 2 kleine Löcher (0.5 x 1.0 cm), Schrift am rechten Rand
+         abgerieben</condition>
+       </supportDesc>
+      </objectDesc>
+      <sealDesc>
+       <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1" nontei:condition="absent"
+        nontei:attachment="sealed on a parchment tag">
+        <persName role="sigillant" ref="per006900a">Jakob Grafenbühler, alt Ammann</persName>
+       </seal>
+      </sealDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <origDate when="1534-08-31"/>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl default="false">
+    <p>
+     <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+    </p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass>
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key000305">Grenze</term>
+     <term ref="key004966">Gemeinde</term>
+     <term ref="key000471">Schriftlichkeit</term>
+     <term ref="key000745">Wunn und Weide</term>
+     <term ref="key001117">Schiedsspruch</term>
+     <term ref="key000751">Vergleich</term>
+     <term ref="key001079"/>
+    </keywords>
+   </textClass>
+   <particDesc/>
+   <settingDesc/>
+  </profileDesc>
+ </teiHeader>
+
+ <text>
+  <group>
+   <text>
+    <body>
+     <div>
+      <pb facs="StASG_AA_2a_U_12r"/>
+      <p><seg>
+        <lb/>Ich, <persName ref="per006902a">Hans Eglyn</persName>, der zyt <term ref="lem002846"
+         >stathalter</term> des wolgebornen herren, heren <persName ref="per001640">Uͦlrichen,
+         fryher von der Hochen Sax, her zuͦ Vorstegg <lb/>unnd Bu̍rglen</persName>
+        <abbr>etc</abbr>, unnd ich, <persName ref="per006900a">Jacob Gravenbuͤler</persName>, <term
+         ref="lem002851">alt aman</term> obgemelter herschafft <placeName ref="loc000278"
+         >Vorstegg</placeName>, bekennen unnd <lb/>thuͦnd khunt mengklichem mit dißem offen brieff,
+        das sy zuͦ tragen haben vor etlichen jaren spen und stoͤß betreff<lb break="no"/>ende bayd
+        gmaynden <orgName ref="org001175">Sax</orgName> unnd <orgName ref="org001786"
+         >Fruimßen</orgName>, etlich yrung zwuischen <term ref="lem000252">wun und wayd</term>, so
+        sy gegen ain anderen habend, unnd <lb/>aber soͤlich yrthumb, spen unnd stoͤß sych under ynen
+        nit haben verainygen mu̍gen, so habend bayd partien und gmayn<lb break="no"/>den
+        ainhaͤeliklich <term ref="lem000874.41">byderbluit</term> darumb gebethen, das sy soͤllend
+        uff die <term ref="lem002858">stoͤß</term> und <term ref="lem000693">marchen</term> gon und
+        sy aller byllikhait <lb/>ain jetlicher erinneren unnd darnach zuͦ samen gon und ynen ain
+        spru̍ch darumb geben, dar mit soͤlich span <lb/>unnd stoͤß abweg werdend thon. Weliches bayd
+        gmaynden gelopt und vertruwt, was sy spraͤchen und entschayden, das staͤt <lb/>vest alßo
+        blyb vo<damage agent="hole"><supplied>n b</supplied></damage>ayden partien und gmaynden
+        unverspraͤchenlich und wideredt, darmit bayd gmaynden zuͦ ruͦwen <lb/>gstelt werdend.</seg>
+       <seg><damage agent="hole"><supplied>Uf</supplied></damage> soͤlichs ist ain ainheliger spruch
+        geschaͤhen, aber uff die selbigen zyt <sic><term ref="lem001176">gschrifflich</term></sic>
+        nit verfast. <lb/>Wyl und sy aber jetz ain zytlanng hat verlouffen, etlich von den <term
+         ref="lem000509">spruchluit</term>
+        <term ref="lem014801">mit tod abgangen</term>, got troͤst ir selen, <lb/>unnd wir all
+        toͤdlich synd, ainer huit, der ander morn <abbr>etc</abbr>, unnd fuirhyn moͤcht vergessen
+        werden unnd wytter <lb/>spen und stoͤß und yrtumb entspringen, so ist zuͦ uns khumen die
+        gmaynd von <orgName ref="org001786">Fruimßen</orgName>, anhaͤliklich <lb/>uns angeruͤfft und
+        gebethen, nachmals ain erluiterung des geschaͤchnen spruͦchs und entschaidens von uns,
+        <lb/>die nach yn leben synd, als lang der wil gotz ist. Dwil und sy uns alßo intruilichen
+        gebethen, so habend <lb/>wir ir fruintlich byth angesaͤhen unnd nachmals uff das ort gangen,
+        da wir <choice>
+         <sic>den den</sic>
+         <corr>den</corr>
+        </choice> spruch am ersten <damage agent="faded ink"><supplied>ge</supplied></damage><lb
+         break="no"/>geben hand, uns da erynnert, ouch des on zwyffel guͦt wyssen tragen, das der
+        spruch geschaͤhen ist, wie hernach <lb/>volgt:</seg>
+       <seg>Am ersten <damage agent="hole"><supplied>uf</supplied></damage> Haldner
+         wyßen<note>Haldner- oder Haldenwiesen findet sich weder bei <bibl><ref
+           target="http://permalink.snl.ch/bib/chbsg000146201">Stricker 2017</ref>, Bd. 6</bibl>
+         noch in ortsnamen.ch. Möglicherweise sind hier die Wiesen bei den <placeName
+          ref="loc009039.01">Haldehüser</placeName> oberhalb des Huebbachs gemeint.</note> in <term
+         ref="lem000699">brunen</term> und uß dem brunen hyn uffwertz in die <term
+         ref="lem000701.01">blatten</term>, die man nempt <damage agent="faded ink"
+          ><supplied>den</supplied></damage>
+        <lb/><placeName ref="loc008601.03">Schyngil</placeName> en mitten an den <placeName
+         ref="loc009037.02">Wißen Schilt</placeName>, da der <term ref="lem017341.02">yb</term> uber
+        aben haltet, und uß <hi rend="underline">dem <placeName ref="loc008601.03"
+          >Schyngil</placeName> hynuff in den hochen <damage agent="faded ink"
+           ><supplied>spitz</supplied></damage>
+         <lb/>gegen <placeName ref="loc006123.05">Alppel</placeName></hi> wertz, den man nempt das
+         <placeName ref="loc009038.02">Hochhuß</placeName>, und uß dem <term ref="lem000699"
+         >brunen</term> herniderwertz in den <placeName ref="loc006128.03">Huͦbach</placeName> an
+        des <placeName ref="loc006225.03">Scherlis Guͦt</placeName>, da der <damage
+         agent="faded ink"><term ref="lem000467.01">esch</term></damage> stat, und <lb/>den
+         <placeName ref="loc006128">Huͦbach</placeName> nach uff <placeName ref="loc009040"
+         >Greblingen</placeName>, daman gstanden ist am <placeName ref="loc009042">Naßen
+         Graben</placeName>, da <persName ref="per011197a.01">Hans Ferßers</persName> uß dem
+         <placeName ref="loc009041.02">Lǒw Meder</placeName> und <persName ref="per011196a.01"
+         >Hainrich Tüssel</persName>s <lb/>und <persName ref="per011195">Lutz Haldners</persName>,
+        den man nempt koch, an ain anderen stoßen, ungevarlich wies dan yetwedem tayl woll <damage
+         agent="faded ink"><supplied>zewußen</supplied></damage>
+        <lb/>ist.</seg>
+       <seg> Soͤliche <term ref="lem007947">offnung</term> des entschaidens geschaͤhen spruchs haben
+        wir in guͦtter, fruintlicher truiw, darmit yr <lb/>all spen, yrtumb und stoͤß ab gestelt und
+        fu̍rhyn als lieb, tru̍w <term ref="lem006532">nachburen</term> mit ainanderen blyben und
+        kainen <lb/>dem anderen argen nit gedenck. Welicher <term ref="lem007947">offnung</term> und
+        geschaͤhen spruch und entschaidens habend die gmaind <lb/>von <orgName ref="org001786"
+         >Fru̍mßen</orgName> von unß begert brieff und sygel. <seg/>Dwil nun der handel alßo
+        uffrecht und redlich offenlich ist <lb/>geschaͤhen, habend wir inen vergunt des zuͦ warem
+        urkhunt, staͤten und vesten sycherhayt, so hab ich, obgemelter <lb/><persName
+         ref="per006900a">Jacob Gravenbuͤler</persName>, <term ref="lem002851">alt aman</term>, myn
+        aigen ynsygel von unßer bayder wegen offenlich an dißen brieff gehenckt, <lb/>doch bemelter
+        herschafft, uns und unßer erben in all anderweg on schaden, der geben ist uff <origDate
+         when="1534-08-31"><sic>mendagck</sic>
+         <lb/>nach sant <persName ref="per000861">Bartholomeus</persName> tag, do man zalt dußend
+         fuinffhundert und ym vierunddrissgisten
+        jare</origDate><!-- Welches Datum nehmen? Bartholomeus ist der 24.8. und in diesem Jahr ein Montag, 24. oder 31. nehmen? 31. ok-->.
+       </seg>
+      </p>
+     </div>
+     <pb facs="StASG_AA_2a_U_12v"/>
+     <div>
+      <ab type="dorsal" place="verso" hand="hand15c"><lb/>Spruch zwuischend <orgName ref="org001175">Sax</orgName>
+       und <orgName ref="org001786">Fruimsen</orgName></ab>
+     </div>
+     <div>
+      <ab type="dorsal" place="verso" hand="hand19c"><lb/><del><unclear>Tränke</unclear></del></ab>
+     </div>
+     <div>
+      <ab type="archiving reference" place="verso"><lb/>N. 3; 1539</ab>
+     </div>
+    </body>
+   </text>
+  </group>
+  <back>
+   <div n="1">
+    <p>Die <term ref="key000305">Grenzen</term> zwischen <placeName ref="loc006042">Sax</placeName>
+     und <placeName ref="loc006121">Frümsen</placeName> werden hier erstmals beschrieben. Es ist die
+     einzige Urkunde zu den Grenzen zwischen den beiden Gemeinden. Die hier erwähnten Grenzpunkte
+     entsprechen in etwa dem oberen Teil der Grenze zwischen den Herrschaften <placeName
+      ref="loc006069">Frischenberg</placeName> und <placeName ref="loc000278"
+      >Sax-Forstegg</placeName> von <date when="1494">1494</date> (vgl.
+      <ref>SSRQ_SG_III_4_089</ref>, Art. 2). </p>
+    <p>Als Grenze zwischen <placeName ref="loc006121">Frümsen</placeName> und <placeName
+      ref="loc000950">Sennwald</placeName> wird <date when="1707">1707</date> in einem Streit um
+     einen Wald am Berg <placeName ref="loc006564">Chele</placeName> der <placeName ref="loc006536"
+      >Chelenbach</placeName> genannt (<bibl><ref>OGA&#160;Sennwald Mappe Nachbarn</ref>,
+      04.02.1707)</bibl>.</p></div>
+   <div n="2">
+    <p>Zu den <term ref="key000305">Grenzen</term> zwischen <term ref="key004966">Gemeinden</term>
+     siehe auch <ref>SSRQ_SG_III_4_039</ref> (<placeName ref="loc000708">Sevelen</placeName> und
+      <placeName ref="loc000921">Wartau-Gretschins</placeName>); <ref>SSRQ_SG_III_4_069</ref>
+      (<placeName ref="loc000211">Gams</placeName> und <placeName ref="loc006042">Sax</placeName>);
+      <ref>SSRQ_SG_III_4_085</ref> (<placeName ref="loc000211">Gams</placeName> und <placeName
+      ref="loc000845">Wildhaus</placeName>); <ref>SSRQ_SG_III_4_053</ref> und
+      <ref>SSRQ_SG_III_4_091</ref> (<placeName ref="loc000335">Grabs</placeName> und <placeName
+      ref="loc000211">Gams</placeName>); <ref>SSRQ_SG_III_4_089</ref> (<placeName ref="loc000950"
+      >Sennwald</placeName> und <placeName ref="loc000439">Altstätten</placeName>). Zu den Grenzen
+     zwischen <placeName ref="loc000198">Buchs</placeName> und <placeName ref="loc000335"
+      >Grabs</placeName> siehe u. a. <bibl><ref>StASG AA&#160;3a U&#160;18</ref>; <ref>AA&#160;3a
+       U&#160;39</ref></bibl>; <bibl><ref>OGA&#160;Buchs U&#160;04</ref>; <ref>B&#160;00.52</ref>,
+      </bibl><bibl>S.&#160;43–48</bibl>; <bibl><ref>OGA&#160;Grabs O&#160;1701-1</ref></bibl>;
+     zwischen <placeName ref="loc000198">Buchs</placeName> und <placeName ref="loc000708"
+      >Sevelen</placeName>: <bibl><ref>OGA&#160;Sevelen U&#160;1533</ref>;
+      <ref>U&#160;1666</ref></bibl> (<term ref="key000006">Alpgrenzen</term>);
+       <bibl><ref>OGA&#160;Buchs U&#160;08</ref></bibl>; zwischen <placeName ref="loc000211"
+      >Gams</placeName> und <placeName ref="loc000389">Haag</placeName><?oxy_insert_start author="sibyllemalamud" timestamp="20200114T175028+0100"?>:<?oxy_insert_end?>
+     <bibl><ref>PA&#160;Hilty S&#160;006/002</ref></bibl>; zwischen <placeName ref="loc000950"
+      >Sennwald</placeName> und <placeName ref="loc007190">Ruggell</placeName> oder <placeName
+      ref="loc008354">Bangs</placeName> siehe u. a. <bibl><ref>StASG AA&#160;2a U&#160;23</ref>;
+       <ref>AA&#160;2a U&#160;32</ref></bibl>; <bibl><ref>LLA U&#160;072</ref>;
+       <ref>RA&#160;41/01/25</ref>; <ref>RA&#160;41/01/57</ref>; <ref>RA&#160;41/01/66</ref></bibl>;
+       <bibl><ref>OGA Sennwald Mappe Nachbarn, Mappe Bangs</ref></bibl>.</p></div>
+  </back>
+ </text>
+</TEI>
+
+
+<?oxy_options track_changes="on"?>

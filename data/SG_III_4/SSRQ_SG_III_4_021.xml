@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-07-01"/>
+            <date type="print"/>
+            <availability><p xml:id="facs">Sibylle Malamud</p></availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_021</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>Fürstlich Fürstenbergisches Archiv Donaueschingen OA 22 III 11</idno>
+               </msIdentifier>
+               <head>Johann Stöckli, Ammann von Feldkirch, räumt den Brüdern Graf Rudolf II. und Heinrich III. von Werdenberg-Heiligenberg ein Wiederkaufsrecht für verschiedene Besitzungen in Sevelen ein</head>
+               <msContents>
+                  <summary>
+                     <p>Johann Stöckli, Ammann von Feldkirch, stellt den Brüdern Graf Rudolf II. und Heinrich III. von Werdenberg-Heiligenberg ein Wiederkaufsrecht für in der Urkunde genannte Leute, Höfe, Güter, Alpen, Zinsen etc. in Sevelen aus, die sie ihm um 900 Pfund verkauft haben. Die 900 Pfund müssen im Fall eines Wiederkaufs in Feldkirch ausbezahlt werden. Geschieht der Wiederkauf vor dem Gallustag (16.10.) stehen die Erträge den Wiederkäufern zu.</p>Der Aussteller und sein Bruder Heinrich Stöckli siegeln.</summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <filiation type="current">Original</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Pergament</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="41.0"/>
+                              <width unit="cm" quantity="32.5"/>
+                           </dimensions>
+                           <dimensions type="plica">
+                              <width unit="cm" quantity="3.0"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <sealDesc>
+                     <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI"
+                           n="1"
+                           nontei:material="wax"
+                           nontei:attachment="sealed on a parchment tag"
+                           nontei:condition="well-preserved"
+                           nontei:shape="round">
+                        <persName role="sigillant" ref="per000431a">Johann Stöckli</persName>
+                     </seal>
+                     <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI"
+                           n="2"
+                           nontei:condition="chamfered"
+                           nontei:material="wax"
+                           nontei:shape="round"
+                           nontei:attachment="sealed on a parchment tag">
+                        <persName role="sigillant" ref="per004386a">Heinrich Stöckli</persName>
+                     </seal>
+                  </sealDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1397-12-07">frytag nach sant Niclaus tag des hailgen bischoffs</origDate>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head>Regesten</head>
+                     <bibl><ref target="http://permalink.snl.ch/bib/chbsg000091563">LUB</ref> I/5.11, Nr. 600</bibl>
+                     <bibl><ref target="http://permalink.snl.ch/bib/chbsg000141369">Krüger, Regesten</ref>, Nr. 599</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key004516">Wiederkauf</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <div org="uniform" sample="complete">
+                  <pb facs="FFA_Donaueschingen_OA_22_III_11_r"/>
+                  <p>
+                     <lb/>Ich, <persName ref="per000431a.01">Johans Stoͤkkli</persName>, ze disen
+                     zyten der hôchgebornen, durlu̍chten fu̍rsten miner gnaͤdigen herrschafft von
+                        <placeName ref="loc000589">Oͤsterrich</placeName> amptman ze <placeName
+                        ref="loc000061">Veltkilch</placeName>, tuͦn kund allermaͤnglichem mit disem
+                     <lb/>offenn brief fu̍r mich und all min erben und nǎchkomen von der sach und
+                     des koffs wegen, als ich von den edlen, wolerbornen herren grâf <persName
+                        ref="per000429a">Ruͦdolff</persName>en und <choice><abbr>gf</abbr><expan>graf</expan></choice>
+                     <persName ref="per000430a">Hainrichen von <lb/>Werdenberg</persName>,
+                     gebruͦdern, minen gnaͤdigen herren, all dis nâchgeschribnen ir lu̍t, hoͤf,
+                     stukk, zins und guͤter, <term ref="lem012418">waissengelt</term> und <term
+                        ref="lem012420">pfenninggelt</term> ains staͤten ewigen kǒffs recht und
+                     redlich <lb/>gekǒfft han umb <measure origin="Konstanz" quantity="900"
+                        type="currency" unit="lb">nu̍nhundert phund guͦter phenning Costentzer
+                        mu̍nss</measure>, dero ich su̍ gar und gantzlich nâch irem willen gewert und
+                     bezalt hab und ôch all an iren guͦten, <lb/>gemainen, schynberen nutzz komen
+                     und bewendet sind. Won su̍ das <term ref="lem001612">burgstal</term>
+                     <placeName ref="loc006048">Herrenberg</placeName> und ǒch den hof ze
+                        <placeName ref="loc006049">Sevelen</placeName> mit aller siner zuͦgehoͤrung
+                     und rechtung gantzlich und <lb/>gar <term ref="lem008001.04">ze urtaͤt</term>
+                     jemer von dem hǒchwirdigen minem gnaͤdigen herren bischoff <persName
+                        ref="per000377b">Hartmann von Chur</persName> und ǒch von sinem gotzhus
+                     daselbs mit den selben <measure origin="Konstanz" quantity="900"
+                        type="currency" unit="lb">nu̍nhundert phund pfenninge</measure>
+                     <lb/>ledeklich und lôs fu̍r recht aigen guͦt an sich gekǒfft hǎnd nǎch
+                     wysung und sag mins <term ref="lem000008">kǒffbrief</term>s, den ich von inen
+                     darumb versigelt inn hab, der minen kǒff und ǒch die jetzgedǎchten
+                     <lb/>bezalung volleklichen wyset und sait. <seg>Sol maͤnglichem ze wissent sin
+                        und vergich ôch ich, vorgenanter <persName ref="per000431a.03">Hans
+                           Stoͤkkli</persName>, des wissentlich an disem brief, das ich den selben
+                        minen <orgName ref="org000025">herren <lb/>von Werdenberg</orgName> soͤlich
+                        tugent guͤtlichen und beschaidenhait in dem selben ewigen kôff getǎn und
+                        inen den vollen gewalt von frygem willen unbetwungenlich geben hǎn und
+                        <lb/>gib mit disem offenn brief, das su̍ und all ir erben und nǎchkomen die
+                        selben lu̍t, hoͤf, zins, stukk und guͤter, als su̍ hienâch mit namen ǒch
+                        begriffen und verschriben sind, mit allen irn <lb/>zuͦgehoͤrden und rechten
+                        von mir ald minen erben oder nǎchkommen, wer denn je minu̍ recht daran inn
+                        hǎt, wol gantzlich widerkǒffen sond und mugent, wenn su̍ no hinnenhin went
+                        <lb/>oder mugent, es syg u̍ber kurtz ald u̍ber lang zyt und ǒch umb
+                           <measure quantity="900" type="currency" unit="lb" origin="Konstanz"
+                           >nu̍nhundert phund alles guͦt genaͤmer phenning Costentzer
+                           mu̍nss</measure> ald umb so vil der mu̍nss, die denn ze <lb/>mǎl, so su̍
+                        widerkǒffen went, ze <placeName ref="loc000061">Veltkilch</placeName> in
+                        der statt fu̍r <placeName ref="loc000008">Costentz</placeName>er phenning in
+                        gemainem <term ref="lem011917">lǒff</term> umb win und umb brôt
+                        ungevǎrlich geng und genaͤm ist. Mit soͤlicher gedingt <lb/>und
+                        beschaidenhait, wenn su̍ den <term ref="lem009430">widerkǒff</term> also
+                        tuͦn went, das su̍ denn mich ald min erben oder nǎchkomen, in wes hand und
+                        gewalt minu̍ vorgedǎchtu̍ recht denn stǎnd, des<lb break="no"/>selben
+                        geltz der <measure quantity="900" type="currency" unit="lb">nu̍nhundert
+                           phund phenning</measure> gar sament und mitenander fu̍r all krieg, ǎcht
+                        und baͤnn und schlechteklich fu̍r maͤnglichs entwerren, verhefften und
+                        verbieten <lb/>aller gaistlichen und weltlichen lu̍t und gericht ze
+                           <placeName ref="loc000061">Veltkilch</placeName> in der statt
+                        volleklichen ǎn allen u̍nsern abgang und schaden ussrichten, weren und
+                        bezaln sond. Und welches <lb/>jâres ôch der widerkôff und die bezalung des
+                        geltz also geschicht vor <date when="--10-16" type="deadline">sant <persName
+                              ref="per000455">Gallen</persName> tag</date>, ze weler zyt das in dem
+                        jǎr ist, so sind inen die vorgedǎchten lu̍t, hoͤf, <lb/>stukk und guͤter
+                        aͤllu̍sament mit allen iren zinsen, nu̍tzzen und fru̍chten des selben jǎres
+                        und dannenhin eweklich quitt, ledig und lôs von mir und allen minen erben
+                        <lb/>und nǎchkomenn fu̍rbas ǎn all u̍nser ansprâch, sumung und irrung. Wir
+                        soͤllint inen ǒch denn mit rechtem geding den vorgedǎchten minen
+                        kôffbrief, wenn wir gantzlich <lb/>bezalt werdent, als hie vor ist
+                        beschaiden, ǎn alles verziehen, ledeklich und lôs wider zuͦ iren handen und
+                        in iren gewalt geben und antwu̍rten ǎn all gevaͤrd.</seg>
+                     <seg>Und sind dis <lb/>die selben lu̍t, hoͤf, zins, stukk, guͦt und guͤter: Des
+                        ersten <persName ref="per004387a.01">Haͤnni Kurtz</persName> und <persName
+                           ref="per004388">sin wyb</persName>, <persName ref="per004389">Uͤli
+                           Gussentzer</persName>, <persName ref="per004390">Hans</persName>, sin
+                        bruͦder, <persName ref="per004392">sin wyb</persName>, <persName
+                           ref="per004391">Haintz</persName>, sin bruͦder und des <persName
+                           ref="per004393">wyb</persName>, <persName ref="per004395a"
+                           >Cuͤntzi</persName>, iro bruͦder, <lb/>iro muͦter und ôch iro swoͤster
+                           <persName ref="per004396a.01">Els</persName>, <persName
+                           ref="per004397a.01">Uͤli Ger</persName>, <persName ref="per004398">sin
+                           wyb</persName>, <persName ref="per004399a.01">Haͤnni</persName>, sin
+                        bruͦder und des <persName ref="per004400">wyb</persName>, <persName
+                           ref="per004401">Claus</persName>, iro bruͦder und iro muͦter, <persName
+                           ref="per004402a.01">Cuͦn <choice>
+                              <sic>Een</sic>
+                              <corr><unclear>Senn</unclear></corr>
+                           </choice></persName><note anchored="true">Siehe dazu die Anmerkung in
+                                 <bibl><ref
+                                    target="http://permalink.snl.ch/bib/chbsg000091563"
+                                 >LUB</ref><ref target="https://www.eliechtensteinensia.li/viewer/object/000072629/799/">I/5.11, Nr. 600</ref></bibl>, mit Verweis auf das Brandisische
+                           Urbar, S. 306. Der Bezug zwischen dem im Urbar erwähnten Bernhard Senn
+                           von Schaan und dem hier genannten Senn ist nicht ersichtlich. Es ist
+                           deshalb unsicher, ob es sich hier um einen Senn handelt oder
+                           nicht.</note> und <persName ref="per004403">sin wyb</persName>, <persName
+                           ref="per004404">Cuͤntzi Hǎrtman</persName>, <persName ref="per004405"
+                           >sin wib</persName> und <persName ref="per004406">sin
+                           <lb/>muͦter</persName>, <persName ref="per004421a.02">Hans
+                           Clǎter</persName>, <persName ref="per004407a.01">Cuͦnradin von
+                           Glǎt</persName> und <persName ref="per004408">sin wyb</persName>,
+                           <persName ref="per004409a.01">Hans von Taflǎt</persName> und <persName
+                           ref="per004410">sin wyb</persName>, iro sun und des wyb, <persName
+                           ref="per004411">Claus Kobler</persName> von <placeName ref="loc000198"
+                           >Bux</placeName> und <persName ref="per004412">sin muͦter</persName>,
+                           <persName ref="per004419">Haini Hârlos</persName> und <persName
+                           ref="per004420">sin <lb/>wyb</persName>, <persName ref="per004413a.01"
+                           >Haͤnni Frech</persName> und <persName ref="per004414">sin
+                        wyb</persName>, <persName ref="per004415a.01">Cuͤntzi Kurtz</persName> und
+                           <persName ref="per004416">sin wyb</persName> und darzuͦ <persName
+                           ref="per004417a.01">Waͤlti Bûxer</persName> und des <persName
+                           ref="per004418">sun</persName> und ôch ir aller kind, knaben und
+                        tochtran, die su̍ jetz hǎnd und noch fu̍rbas <lb/>jemer me gewinnent.</seg>
+                     <seg>Item ain hof, den man nempt <placeName ref="loc006050.02"
+                           >Montǎnenhof</placeName>, der jaͤrklichs giltet <measureGrp><measure
+                              commodity="wheat" unit="Scheffel" quantity="10" type="volume">zehen
+                              schoͤffel</measure> und <measure unit="Viertel" commodity="wheat"
+                              type="volume" quantity="1">ain viertail waissen</measure></measureGrp>
+                        und <num value="100">hundert</num> ayger.</seg>
+                     <seg>Item ain hof, den man nempt <lb/>des <placeName ref="loc006051.02">Kurtzen
+                           Hof</placeName>, giltet jaͤrklichs <measureGrp><measure type="volume"
+                              commodity="wheat" unit="Scheffel" quantity="8">acht
+                              schoͤffel</measure> und <measure unit="Viertel" commodity="wheat"
+                              type="volume" quantity="3">dru̍ viertail
+                           waissen</measure></measureGrp> und ǒch <num value="100">hundert</num>
+                        ayger.</seg>
+                     <seg>Item ain hof, den man nempt der <placeName ref="loc006052.02">Appenzeller
+                           Hof</placeName>, giltet jaͤrklichs <measure type="volume"
+                           commodity="wheat" unit="Scheffel" quantity="7">siben schoͤffel
+                           <lb/>waissen</measure> und <num value="100">hundert</num> ayger.</seg>
+                     <seg>Item ain hof den man nempt <placeName ref="loc006053.02">Lu̍gmans
+                           hof</placeName>, der jaͤrklichs giltet <measureGrp><measure type="volume"
+                              commodity="wheat" unit="Scheffel" quantity="5">fu̍nf schoͤffel
+                              waissen</measure> und <measure unit="Viertel" commodity="wheat"
+                              type="volume" quantity="1">ain viertal</measure></measureGrp>.</seg>
+                     <seg>Item ain guͦt das man nempt <placeName ref="loc006054.02">Oswaltz
+                           Guͦt</placeName> und <lb/>des <placeName ref="loc006092.02">Ammans
+                           Akker</placeName> geltent <measure type="volume" commodity="wheat"
+                           unit="Scheffel" quantity="9">nu̍n schoͤffel waissen</measure>.</seg>
+                     <seg>Item aber ein guͦt, das man gewohnlich nempt des <placeName
+                           ref="loc006055.02">von Ort Guͦt</placeName>, gilt <measure type="volume"
+                           commodity="wheat" unit="Scheffel" quantity="4.5">fu̍nffthalben schoͤffel
+                           waissen</measure>.</seg>
+                     <seg>Item ain hof, den man nempt <lb/><placeName ref="loc006056.02">Wygantz
+                           Hof</placeName>, der jaͤrklichs gilt <measure type="volume"
+                           commodity="wheat" unit="Scheffel" quantity="6">sechs schoͤffel
+                           waissen</measure> und <measure type="currency" quantity="1" unit="lb"
+                           origin="Konstanz">ain pfund phenning Costentzer mu̍nss</measure>.</seg>
+                     <seg>Item ain hof, den man nempt des <placeName ref="loc006057.01"
+                           >Oͤwlers</placeName> und den <placeName ref="loc006058.02"
+                           >Maygerhof</placeName>, giltet <measure type="volume" commodity="wheat"
+                           unit="Scheffel" quantity="28">aͤcht und <lb/>zwaintzig schoͤffel
+                           waissen</measure>.</seg>
+                     <seg>Item von <placeName ref="loc000199">Flǎt</placeName> hǎnd gehoͤrt in des
+                           <placeName ref="loc006055.02">von Ort Guͦt</placeName>
+                        <measure type="volume" commodity="wheat" unit="Viertel" quantity="9">nu̍n
+                           viertail waissen</measure>, gyt jetz <persName ref="per004421a.01">Hans
+                           Glǎter</persName>.</seg>
+                     <seg>Item ain hof ze <placeName ref="loc001079">Schan</placeName> giltet
+                           <measure type="volume" commodity="wheat" unit="Scheffel" quantity="4"
+                           >vier schoͤffel waissen</measure>.</seg>
+                     <seg>Item der <lb/><orgName ref="org001777">Kobler</orgName> buwet
+                              <measureGrp><measure type="area" unit="Juchart" quantity="3"
+                              commodity="field">dryg juchart akkers</measure>
+                           <measure type="area" unit="Mitmal" quantity="0.5" commodity="field">ains
+                              halben mitmels </measure>minder</measureGrp>, davon gyt er <measureGrp>
+                           <measure type="volume" commodity="wheat" unit="Scheffel" quantity="2"
+                              >zwen schoͤffel</measure> und <measure unit="Viertel"
+                              commodity="wheat" type="volume" quantity="1">ain viertail
+                              waissen</measure></measureGrp>.</seg>
+                     <seg>Item <persName ref="per004419a.02">Hainrich Hârlǒs</persName> gyt von
+                           <measure type="area" unit="Juchart" quantity="2" commodity="field">zwain
+                           jucharten akkers</measure> und <lb/>von <measure type="area"
+                           unit="Mannmad" quantity="8" commodity="grassland">aht mansmaden <term
+                              ref="lem012423">rietwachs</term></measure>, genant des <placeName
+                           ref="loc006059.02">Waybels Guͦt</placeName>, ze <placeName
+                           ref="loc000708">Sevelen</placeName> gelegen, <measureGrp><measure
+                              type="volume" commodity="wheat" unit="Scheffel" quantity="3">dryg
+                              schoͤffel</measure> und <measure type="volume" commodity="wheat"
+                              unit="Viertel" quantity="1">ain viertail
+                           waissen</measure></measureGrp>. Darzuͦ sol er ǒch jaͤrklichs ain <term
+                           ref="lem012424">huͦbschǎff</term> geben ald fu̍r dz schǎff
+                           <lb/><measure unit="ß" quantity="3" type="currency">dryg schilling
+                           phenning</measure>.</seg>
+                     <seg>Item die <term ref="lem000072">muͤli</term> zem <placeName ref="loc006061"
+                           >Altendorff</placeName> gilt <measure type="volume" commodity="wheat"
+                           unit="Scheffel" quantity="10">zehen schoͤffel waissen</measure> und ǒch
+                           <measure unit="lb" quantity="1" type="currency">ain pfund
+                           phenning</measure>.</seg>
+                     <seg>Item die <term ref="lem000306">alpp</term>
+                        <placeName ref="loc006033">Arin</placeName> ist ze <term ref="lem000501"
+                           >erblehen</term> verlu̍hen und gilt jaͤrklichs <lb/>
+                        <measureGrp><measure type="volume" commodity="lard" quantity="5"
+                              unit="Viertel" origin="Feldkirch">fu̍nf viertail</measure> und
+                              <measure origin="Feldkirch" unit="Trinken" commodity="lard"
+                              type="volume" quantity="3"/>dru̍ trinken schmaltzes Veltkilcher
+                           messes</measureGrp> und <num value="10">zehen</num> wertkaͤs.</seg>
+                     <seg>Item ab <placeName ref="loc006063">Guggenberg</placeName>
+                        <measureGrp><measure type="currency" quantity="1" unit="lb">ain
+                              phund</measure> und <measure type="currency" quantity="8" unit="ß"
+                              >acht schilling</measure> zinsphenning.</measureGrp>
+                     </seg>
+                     <seg>Item von der <placeName ref="loc006064.02">alpp genant
+                           <lb/>Gampernig</placeName>
+                        <measureGrp><measure type="currency" quantity="4" unit="lb">vier phund</measure> und
+                              <measure type="currency" quantity="5" unit="ß">fu̍nf schilling
+                              phenning</measure></measureGrp>.</seg>
+                     <seg>Item <persName ref="per004422">Peter Hugenbuͤler</persName> gyt jaͤrklichs
+                        von des <placeName ref="loc000962">Bewers Hof </placeName><measure
+                           type="currency" quantity="2.5" unit="lb">dritthalb phund
+                           phenning</measure>.</seg>
+                     <seg>Item ab <placeName ref="loc006065.02">Leferspuͤl</placeName>
+                        <measureGrp><measure type="currency" quantity="1" unit="lb">ain
+                              pfund</measure> und <lb/><measure type="currency" quantity="4"
+                              unit="ß">vier schilling phenning</measure></measureGrp>.</seg>
+                     <seg>Item <persName ref="per004387a.01">Haͤnni Kurtz</persName> gyt ab ainem
+                        berg haisset <placeName ref="loc006066.02">Muntlafryg</placeName>
+                        <measure type="currency" quantity="20" unit="d">zwaintzig phenning</measure>
+                        sind genant lehenpfenning.</seg>
+                     <seg>Item <persName ref="per004389a.01">Uͤli Gussentzer</persName> gyt <measure
+                           type="currency" quantity="8" unit="d">acht pfenning</measure> von
+                        <lb/>ainem akker, der lit unnen an <placeName ref="loc006086.02"
+                           >Loͤsen</placeName> und <measure type="currency" quantity="6" unit="d"
+                           >sechs pfenning</measure> ab ainem guͦt lit <placeName ref="loc006067.02"
+                           >im Loch</placeName>.</seg>
+                     <seg>Item und darzuͦ gyt <persName ref="per004397a.01">Uͤli Ger</persName> ab
+                        ainem akker an <placeName ref="loc006086.02">Loͤsen</placeName> und ab
+                           <placeName ref="loc006067.03">dem Loch</placeName>
+                        <measure type="currency" quantity="22" unit="d" origin="Konstanz">zwen und
+                           zwaintzig <lb/>phenning alles guͦter genaͤmer phenning gewonlicher und
+                           ungevǎrlicher Costentzer mu̍nss</measure>.</seg>
+                     <seg>Als das min obgenanter kǒffbrief allessament wol aigenlicher urku̍ndet,
+                        wyset und sait, <lb/>des und aller hievor geschribnen ding ze wǎrem, offem
+                        urku̍nde und staͤter, fester sicherhait <unclear>ino</unclear>, und hienǎch
+                        hab ich, vorgenanter <persName ref="per000431a.03">Hans Stoͤkkli</persName>,
+                        den obgenanten minen <orgName ref="org000025">herren von
+                           Werdenberg</orgName>
+                        <lb/>und allen iren erben und nǎchkommen disen <term ref="lem000565"
+                           >widerbrief</term> hieru̍ber fu̍r mich und all min erben und nǎchkomen
+                        gefestnet und besigelt geben mit minem aigenn anhangenden insigel <lb/>und
+                        hab ôch daru̍ber ernstlich erbetten minen lieben bruͦder <persName
+                           ref="per004386a.01">Hainrichen Stoͤkkli</persName>n, burger ze <placeName
+                           ref="loc000061">Veltkilch</placeName>, das der sin insigel zuͦ minem
+                        insigel ze ainer gezu̍ggnu̍ss dirr vorgeschribnen <lb/>sach gehenkt hǎt an
+                        disen brief. Des vergich ich, der selb <persName ref="per004386a.01"
+                           >Hainrich Stoͤkkli</persName>, das ich min insigel durch des vorbenempten
+                        mins bruͦders <persName ref="per000431a.03">Hansen Stoͤkkli</persName>s
+                        ernstlicher bett willen ze ainer <lb/>gezu̍ggnu̍ss, als hie vor ist
+                        beschaiden, gehenkt hab an disen brief, der alsuss ze <origPlace
+                           ref="loc000061">Veltkilch</origPlace> geben ward des jâres, do man zalt
+                        von <persName ref="per000353">Crist</persName>s geburte <origDate
+                           when="1397-12-07">dru̍zehenhundert und im sibenden <lb/>und nu̍ntzgosten
+                           jâr an dem naͤchsten frytag nâch sant <persName ref="per001536"
+                              >Niclaus</persName> tag des hailgen bischoffs</origDate>.</seg>
+                  </p>
+               </div>
+               <pb facs="FFA_Donaueschingen_OA_22_III_11_v"/>
+               <div org="uniform" sample="complete">
+                  <ab type="sigillant" place="plica"><lb/>
+                     <persName ref="per000431a.03">Hans Stoͤkkli</persName>; <persName
+                        ref="per004386a.01">Hainrich Stoͤkkli</persName></ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab type="dorsal" place="verso" hand="hand15c"><lb/>Ein losungbrief von
+                     <persName ref="per000431a">Hannsen Stökli</persName> von <lb/>
+                     <placeName ref="loc000061">Veltkirch</placeName> umb ettlich lut und güter,
+                     <lb/>geben freytag nach <persName ref="per001536">Niclaus</persName> anno im
+                     <lb/>dreyzehenhundert sibundneunzigisten.</ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab type="archiving reference" place="verso" hand="later hand">N<hi rend="sup"
+                        >o</hi>2.</ab>
+               </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div n="1" org="uniform" sample="complete">
+            <p>Die Grafen <persName ref="per000429a">Rudolf&#160;II.</persName> und <persName ref="per000430a">Heinrich&#160;III. von Werdenberg-Heiligenberg</persName> sollen laut
+					Schiedsspruch vom <date when="1397-11-02">2. November 1397</date> dem <persName ref="per000377b">Bischof Hartmann II. von Chur</persName> 900 Pfund für den
+      	Hof in Sevelen bezahlen (<ref>SSRQ_SG_III_4_020</ref>). Die 900 Pfund sind jedoch nicht dem
+					Bischof direkt, sondern dessen Gläubigern <persName ref="per000431a">Johann
+						Stöckli</persName> und seinem Sohn Hans zu entrichten. Für diese 900
+					Pfund verkaufen die Grafen dem Johann Stöckli und seinem Sohn  diverse
+					Besitzungen, weshalb ihnen Stöckli am <date when="1397-12-07">7. Dezember
+						1397</date> ein Wiederkaufsrecht ausstellt. </p>
+         </div>
+         <div n="2" org="uniform" sample="complete">
+            <p>Diese Urkunde ist vor allem deshalb von Interesse, weil sie erstmals detailliert und
+               mit Namen zahlreiche <term ref="key004534">Personen</term>, <term ref="key000139"
+                  >Höfe</term>, <term ref="key000147">Güter</term> und <term ref="key000006"
+                  >Alpen</term> mit <term ref="key000154">Zinsen</term> aus <placeName
+                  ref="loc000708">Sevelen</placeName> und <placeName ref="loc000198"
+                  >Buchs</placeName> aufzählt. Solch detaillierte Angaben über Besitzungen und Leute
+               sind erst im Laufe des <date from="1401" to="1500">15.&#160;Jh.</date> oder in
+               (späteren) <term ref="key000122">Urbaren</term> zu finden. </p>
+         </div>
+         <div n="3" org="uniform" sample="complete">
+            <p>Zur <term ref="key000047">Mühle</term> (später mit <term ref="key000166"
+                  >Sägerei</term>) in <placeName ref="loc006061">Altendorf</placeName> vgl.
+                     <bibl><ref>PGA Buchs U&#160;03</ref> (17.01.1519)</bibl>; <bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/904c6cbbb3bb406fad2e7509123c480c"
+                     >LAGL AG III.2401:044, S.&#160;337–341</ref> (17.01.1519/15.07.1573)</bibl>;
+                  <ref>SSRQ_SG_III_4_143</ref>, Art.&#160;19.4; <bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/fcc2aaedf3c942da97aca347c4276610"
+                     >LAGL AG III.2409:106</ref> (26.01.1695)</bibl>; <bibl><ref>PGA Buchs U&#160;11
+                     A-1</ref>; <ref>U&#160;12 A-1</ref>(10.02.1695, 13.04.1696)</bibl>;
+                  <ref>SSRQ_SG_III_4_204</ref>, Kommentar 2; <ref>SSRQ_SG_III_4_229</ref>, S.
+               &#160;14; <bibl><ref>PGA Buchs U&#160;21</ref> (07.03.1755); <ref>U&#160;22</ref>
+               (01.04.1757); <ref>U&#160;23 A-1</ref> (27.07.1769); <ref>U&#160;25 A-1</ref></bibl>
+               (23.11.1772); <bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/2477018565a04d208d8508d819967df4"
+                     >LAGL AG&#160;III.2425:004</ref> (04.06.1789)</bibl>.</p>
+            <p>Zur Mühle am <placeName ref="loc007911">Sevelerberg</placeName> vgl. den <term
+                  ref="key000119">Erblehenbrief</term> von Graf <persName ref="per000884">Wilhelm
+                  VIII. von Montfort-Tettnang</persName> über <term ref="key000047">Mühle</term>,
+                  <term ref="key000164">Stampfe</term>, <term ref="key000172">Walke</term> und <term
+                  ref="key000166">Sägerei</term> vom <date when="1467-09-23">23. September
+                  1467</date> (<bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/e5e5b1fcb81046db997ccef5dbde64fe"
+                     >LAGL AG&#160;III.2412:002</ref></bibl>; zu dieser Mühle siehe auch <bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/b859453dd0364246854bcd5cef38b168"
+                     >LAGL AG&#160;III.2405:021</ref>; <ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/2becbfcd6ffe49d79dcf1fd945d43766"
+                     >AG&#160;III.2412:022</ref></bibl>; <ref>SSRQ_SG_III_4_143</ref>,
+               Art.&#160;19.6; <ref>SSRQ_SG_III_4_229</ref>, S.&#160;114).</p>
+            <p>Zur <placeName ref="loc007039">Ober</placeName> (mit Sägerei) und <placeName
+                  ref="loc007764">Under Müli</placeName> in <placeName ref="loc007037"
+                     >Grabs</placeName> vgl. unter anderem <ref>SSRQ_SG_III_4_143</ref>, Art.&#160;19.2–19.3; <ref>SSRQ_SG_III_4_229</ref>, S.&#160;113; <bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/c01a721b9cbf415ba33e1a107b28bbc8"
+                  >LAGL AG&#160;III.2402:119</ref>; <ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/19e66d0105dc4d3f8bbf5d4b13c2d296"
+                     >AG&#160;III.2409:009a</ref>; <ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/b7b1c7b4b5bd4f8ca0a9391c17614c52"
+                        >AG&#160;III.2411:002</ref> (25.08.1472); <ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/259d3f5e6d984f9db2476c44474686db"
+                           >AG&#160;III.2412:004</ref>; <ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/5f1ca44223d242cc95af99ab6cb2476a"
+                              >AG&#160;III.2412:005</ref>; <ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/46dcb201dd9a4982a91142a79c7b5a6f"
+                                 >AG&#160;III.2412:032</ref>; <ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/2477018565a04d208d8508d819967df4"
+                                    >AG&#160;III.2425:004</ref></bibl>; <bibl><ref>OGA Grabs O&#160;1674-1</ref></bibl>;
+               <bibl><ref>PA Hilty S 006/054</ref></bibl>; <bibl><ref>StASG AA&#160;3 B&#160;02 </ref>,
+                  S.&#160;115, 323–333 </bibl>; <bibl><ref>StASG AA 3 A 12a-1</ref></bibl> sowie das
+               Dossier <bibl><ref>StASG AA&#160;3 A&#160;8</ref></bibl>.</p>
+            <p>Zur <term ref="key000047">Mühle</term> unterhalb der Stadt <placeName ref="loc000016"
+                  >Werdenberg</placeName> vgl. <ref>SSRQ_SG_III_4_022</ref>;
+                  <ref>SSRQ_SG_III_4_136</ref>.</p>
+            <p>Zu den Mühlen in der Grafschaft Werdenberg vgl. auch <bibl><ref
+                     target="http://permalink.snl.ch/bib/chbsg000143946">Beusch 1918</ref>,
+                  S. 84–85</bibl>; <bibl><ref target="http://permalink.snl.ch/bib/chbsg000007881"
+                     >Gabathuler 1999a</ref>, S. 142–163</bibl>; <bibl><ref
+                     target="http://permalink.snl.ch/bib/chbsg000040685">Lippuner 2004</ref>, S.
+                  168–178</bibl>; <bibl><ref target="http://permalink.snl.ch/bib/chbsg000142793"
+                     >Winteler 1923</ref>, S. 144–146</bibl>. </p>
+         </div><div n="4"><p>Mühlen im <date from="1401" to="1500">15.&#160;Jh.</date>  werden auch erwähnt in
+						<ref>SSRQ_SG_III_4_030</ref>; <ref>SSRQ_SG_III_4_050</ref>;
+  		<ref>SSRQ_SG_III_4_059</ref>; <ref>SSRQ_SG_III_4_064</ref>; <ref>SSRQ_SG_III_4_076</ref>; <ref>SSRQ_SG_III_4_094</ref>;
+  		<ref>SSRQ_SG_III_4_095</ref>.</p>
+         </div>
+      </back>
+   </text>
+</TEI>

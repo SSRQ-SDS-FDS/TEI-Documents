@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-08-15"/>
+            <date type="print"/>
+            <availability><p xml:id="facs">Sibylle Malamud</p></availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_186_1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>PGA Sevelen Nr. 12</idno>
+               </msIdentifier>
+               <head>Bestätigung von Glarus über die Ablösung des Tavernenschillings durch Sevelen von 1631</head>
+               <msContents>
+                  <summary>
+                     <p>Landammann und Rat von Glarus erklären, dass sie im Mai 1631 den Einwohnern von
+                     			Sevelen mit einer Urkunde erlaubt haben, zu wirten oder bei Hochzeiten im eigenen Haus
+                     			Wein auszuschenken. Da diese Urkunde jedoch nicht enthält, was Sevelen dafür bezahlt hat
+                     			und ebensowenig ausdrücklich vermerkt ist, dass Sevelen vom Tavernenschilling (Ungeld)
+                     			befreit ist, wird die Urkunde von 1631 bestätigt und ergänzt, dass den Sevelern der
+                     			Tavernenschilling erlassen ist und sie für die Ablösung Glarus das Grundstück Plattner
+                     			gegeben haben, das für 300 Gulden verkauft worden ist.</p> <p>Der Aussteller siegelt.</p> 
+                  </summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <author role="scribe"><persName ref="per009960">Balthasar Gallati</persName>, Landschreiber von Glarus</author>
+                     <filiation type="current">Original</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Pergament</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="27.0"/>
+                              <width unit="cm" quantity="52.0"/>
+                           </dimensions>
+                           <dimensions type="plica">
+                              <width unit="cm" quantity="8.0"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <sealDesc>
+                     <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI"
+                           n="1"
+                           nontei:condition="well-preserved"
+                           nontei:material="wax in a box"
+                           nontei:shape="round"
+                           nontei:attachment="sealed on a parchment tag">
+                        <orgName role="sigillant" ref="org001197">Glarus</orgName>
+                     </seal>
+                  </sealDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1653-09-22" calendar="Julian"/>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head>Editionen</head>
+                     <bibl><ref target="http://permalink.snl.ch/bib/chbsg000143946">Beusch 1918</ref>, S. 85–86 (Auszug)</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key001012">wirten</term>
+               <term ref="key000758">Wirtschaft</term>
+               <term ref="key004915">Tavernenwirt</term>
+               <term ref="key000685">Ablösung</term>
+               <term ref="key000296">Bestätigung</term>
+               <term ref="key000510">Ungeld</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb facs="PGA_Sevelen_Nr._12r"/>
+               <div org="uniform" sample="complete">
+                  <p>
+                     <seg>
+                        <lb/>Wir, landtammann unnd gantz geseßner rath zu <orgName ref="org003239"
+                           >Glaruß</orgName>, bekhennendt und thundt <lb/>khundt menigklichem
+                        offenbar hiemit, alß dan uns anstadt und in namen unseren lieben und
+                        gethreüwen einer gmeindt <orgName ref="org001834">Sevallen</orgName> in
+                        unßer graffschafft <placeName ref="loc000440">Werdenberg</placeName> für und
+                        angebracht worden, <lb/>dass vor etlichen jaren bey unß sey erworben und
+                        erhalten, daß welcher in der gmeindt <placeName ref="loc000708"
+                           >Sevellen</placeName> ze <term ref="lem003467">wirten</term> begert oder
+                        sich <term ref="lem003308">verehelichet</term>, die <term ref="lem003726"
+                           >hochzeiten</term> und <term ref="lem001387">winschenkhenen</term> in
+                        seinem eignen <term ref="lem000248">hauß</term> geben, daß ein <lb/>jeder
+                        daß wol thun möge, ohngeiret menigklichen. Umb welche gnedige wilfahr durch
+                        ein gwüsen accord, der zwüschet unß und inen von <orgName ref="org001834"
+                           >Seffallen</orgName> uffgericht, unß alß ihrer natürlichen oberkeit
+                        <lb/>gnugsame satifsfaction beschächen und von inen gethan worden sey. Wie
+                        dan umb solches von unß im anno <origDate when="1631-05">1631 im
+                           mayo</origDate> durch ein urkhundt sye versicheret worden.<note
+                           anchored="true">Diese Urkunde ist nicht mehr erhalten, sie wurde wohl
+                           nach der Bestätigung von 1653 kassiert.</note>
+                     </seg>
+                     <seg>Weillen aber aller erst angezognes <lb/>urkhundt umb etwaß unluther, in
+                        deme nit vermäldet, waß ein gmeind <orgName ref="org001834"
+                           >Seffallen</orgName> für die inen erwisne gnadt erstatett und geben, auch
+                        daß diejenigen, welche mit <term ref="lem000053">win</term>
+                        <term ref="lem014838">gwirbendt</term> und hand<lb break="no"/>let, deß
+                           <term ref="lem015769.03">tavernen schilligß</term> gantz <term
+                           ref="lem001012">ledig</term>, alß sei mehr ermälter der unßrigen gantz
+                        demütig und undertenig pitten, wir unß gnedig gefallen laßen, nit allein,
+                        daß jetzt ernente schrifft <lb/>und besiglete urkhundt bestermasen ze
+                        confirmieren, sunder waß unß an und für solche gnad geben worden, auch alle
+                        inwohner der gmeind <orgName ref="org001834">Seffallen</orgName> deß <term
+                           ref="lem015498">tavernengälts</term>
+                        <lb/>ouch <term ref="lem001014">ledig und loß</term> siend inzusetzen und an
+                        neüwem mit schrifftlichem <term ref="lem002485">schein</term> versächen
+                           <del>versächen</del> wollen, deß begeren und wollen sey näbst ihrer
+                        schuldigkeit umb unß in aller demüt<lb break="no"/>igen gehorsamme und
+                        underthenigkeit allerwilligest verdienen <abbr>etc</abbr>.</seg>
+                     <seg>Wann nun wir daß für und anbringen, so in gedacht der unßerigen von
+                           <orgName ref="org001834">Seffallen</orgName> namen beschächen,
+                        <lb/>gnugsam und der lenge nach angehörtt und vernommen, auch uß solchem
+                        befunden, daß sey nichts neuwes suchen, sondern begeren, daß alte widerumb
+                        bekrefftiget und <lb/>sye versicheret mögen werden, gestaten dann, daß ihr
+                        an unß gethone begehren in aller billichkeit bestehen tuet und unß desto
+                        ehrender deß volgenden einhellig erkent unnd <lb/>erkenendt unß,</seg>
+                     <seg n="1">daß fürß erste der angezogne <term ref="lem003354">accord</term> und
+                        daß den unsrigen von <orgName ref="org001834">Seffallen</orgName> in anno
+                           <origDate when="1631">1631</origDate> gegebene urkundt und versicherung
+                        sollen zuo gültigen crefften, <lb/>bestermassen confirmiert und bestätiget
+                        sein, sälbiges auch solle threüwlich globt und nachgangen werden
+                           <abbr>etc</abbr>.</seg>
+                     <seg n="2">Weillen dan fürß andere in offternentem unsrem <lb/>urkhundt nit
+                        versächen, waß für solich gnad oder <term ref="lem004808">ußkouff</term> unß
+                        von den unserigen geben und ze guotem <term ref="lem005821"
+                        >erschoßen</term>, so gereden und bekenend wir, daß ein stukh <term
+                           ref="lem000076">guot</term>, genambt <lb/>der <placeName
+                           ref="loc007829.03">Blathner</placeName>, unß gegeben, und unßerer beßerer
+                        komligkeit nach anderwerth verenderet (und ingelangeten bericht) <add
+                           place="left margin">umb</add>
+                        <measure quantity="300" type="currency" unit="fl">drey hundert
+                           guldin</measure> verkouft worden, deßen <lb/>wir die unßerigen der gmeind
+                           <orgName ref="org001834">Seffallen</orgName> deß ortts wollen quit und
+                        ledig gesprochen haben, mit dem verneren anhang und zu thun, daß sye sich
+                        hiemit des <term ref="lem015769.03">tavernen <lb/>schilligß</term> sollen
+                        gentzlich entlediget und wir desen fry und ihre nachkommen gefryet und
+                        entlaßen haben wollend. <seg/>Mit dem klaren anhang, daß von den jewilligen
+                        regierenden <lb/>landvögten oder jemandt understan, daß wenigeste, so diser
+                        unser erkantnuß zewider lauffen wurde, nit vornemmen noch die unserigen
+                        hierin mit dem geringsten <lb/>nit <unclear>gereinigen</unclear> noch
+                        hiervon triben sollen, dan wir sey bey solchem und vorgehendem crefftigklich
+                        handt haben, schützen und schirmen wollen, jedoch unß in al ander wegen,
+                        <lb/>unseren habenden rechten, gerechtigkeiten, fäl und gläßen, zinß und
+                        zechenden gantz ohn prejudicierlich und ohn nachtheilig
+                        <abbr>etc</abbr>.</seg>
+                     <seg>Zu urkhundt desen ist disere <lb/>unsere erkantnuß zu mehrerer sicherheit
+                        mit unßern gmeinen landtß secret insigel verwahrt und übergeben worden,
+                        donstagß, den <origDate when="1653-09-22" calendar="Julian">zwen und
+                           zwentzigesten <lb/>tag herpstmonat, inn dem jarr, do man zalt von der
+                           geburth <persName ref="per000353">Cristy</persName> sächßzächen hundert
+                           fünffzig und im driten</origDate>
+                        <abbr>etc</abbr>.</seg>
+                  </p>
+               </div>
+               <pb facs="PGA_Sevelen_Nr._12v"/>
+               <div org="uniform" sample="complete">
+                  <ab type="chancery notation" place="sub plica" hand="hand17c">
+                     <lb/><persName ref="per009960"><abbr>Joh</abbr> Baltassar Gallati</persName>,
+                        landt<lb break="no"/>schriber zu <placeName ref="loc000326"
+                        >Glaruß</placeName>.</ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab type="dorsal" place="verso" hand="hand17c">
+                     <lb/>Dises briefs inhalt ist wegen deß <term ref="lem014839">wirt<lb break="no"
+                        />ens</term> in der gmeind, was man unseren <lb/><choice>
+                        <abbr>gnäd hrn</abbr>
+                        <expan>gnädigen herren</expan>
+                     </choice> für den <term ref="lem015769.02">dafern schilling</term> geben,
+                     <lb/>namlich den <placeName ref="loc007829.02">Blatner</placeName> zue
+                        <placeName ref="loc006060">Altendorf</placeName>, <lb/>lut inhalts</ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab type="dorsal" place="verso" hand="hand17c">
+                     <lb/>Urkundt <handShift/>, dafern <lb/>brieff</ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab type="dorsal" place="verso" hand="hand19c">
+                     <lb/>abgeschrieben folio 69</ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab type="archiving reference" place="verso">
+                     <lb/>12; N<hi rend="sup">o</hi> 18<del>N<hi rend="sup">o</hi> 67</del>; 1653;
+                     N 24</ab>
+               </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div n="1" org="uniform" sample="complete">
+            <p>Das Recht zur Betreibung einer Gastwirtschaft ist ein hoheitliches Recht, das unter
+               Glarus gemäss dem Urbar von <date when="1754">1754</date> durch den Landvogt vergeben
+               wird. Ihm fallen auch die Gebühren, das Ungeld, zu (<ref>SSRQ_SG_III_4_229</ref>,
+               S. 111). Im <date when="1631-05">Mai 1631</date> löst <orgName ref="org001834"
+                  >Sevelen</orgName> den sogenannten Tavernenschilling (<term ref="key000510"
+                  >Ungeld</term> oder Weinumsatzsteuer) aus und erwirbt damit das Recht, ohne
+               Konzession zu wirten (siehe vorliegendes Stück). Kurze Zeit später, <date when="1635"
+                  >1635</date>, erlässt evangelisch <orgName ref="org003593">Glarus</orgName> auf
+               Bitten der Bewohnerschaft von <orgName ref="org003242">Werdenberg</orgName> wegen der
+                  <term ref="key004249">Armut</term> der Bevölkerung ein Wirteverbot für alle <term
+                  ref="key000180">Landvögte</term> in <placeName ref="loc000440"
+                  >Werdenberg</placeName>. Ausserdem zieme es sich für einen Landvogt als Obrigkeit
+               nicht, die Untertanen zu bewirten (<bibl><ref>PGA Sevelen B11</ref></bibl>).</p>
+            <p>Zu den <term ref="key000758">Wirtschaften</term> in Werdenberg siehe auch
+                  <ref>SSRQ_SG_III_4_036</ref>; <ref>SSRQ_SG_III_4_049</ref>;
+                  <ref>SSRQ_SG_III_4_229</ref>, S. 111; <bibl><ref>PGA Sevelen B04</ref></bibl>;
+               Literatur: <bibl><ref target="http://permalink.snl.ch/bib/chbsg000143946">Beusch
+                     1918</ref></bibl>, S. 85–86; <bibl><ref
+                     target="http://permalink.snl.ch/bib/chbsg000081988">Hagmann 1984</ref>, Bd. 2,
+                  S. 191–192</bibl>; <bibl><ref target="http://permalink.snl.ch/bib/chbsg000142793"
+                     >Winteler 1923</ref>, S. 146</bibl>.</p>
+         </div>
+         <div n="2" org="uniform" sample="complete">
+            <p>Zum Tavernenrecht in <placeName ref="loc006040">Hohensax-Gams</placeName> vgl.
+                  <ref>SSRQ_SG_III_4_059</ref>, Art. 26;  <ref>SSRQ_SG_III_4_094</ref>, Art. 2.2;
+                  <ref>SSRQ_SG_III_4_133</ref>, Art. 6.</p>
+         </div>
+      </back>
+   </text>
+</TEI>

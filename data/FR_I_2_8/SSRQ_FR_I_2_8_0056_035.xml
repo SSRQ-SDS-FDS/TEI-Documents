@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+
+			</titleStmt>
+
+			<publicationStmt>
+				<date type="electronic" when="2019-05-29"/>
+				<date type="print"/>
+			</publicationStmt>
+
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ_FR_I_2_8_0056_035</idno>
+			</seriesStmt>
+
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<idno>StAFR, Thurnrodel 11, S. 287–289</idno>
+					</msIdentifier>
+					<head>Pierre Bosson – Verhör / Interrogatoire</head>
+					<msContents>
+						<summary></summary> 
+						<msItem>
+							<textLang>fr, de</textLang> 
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support>
+									<material></material>
+								</support>
+								<extent>
+									<dimensions type="leaves">
+										<height unit="cm" quantity="0.0"/>
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+									<dimensions type="plica">
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+								</extent>
+							</supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1623-03-28"></origDate>
+							<origPlace></origPlace>
+						</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+							
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+			<particDesc default="false"/>
+			<settingDesc default="false"/>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="287"/><p><lb/><origDate when="1623-03-28">28 <foreign xml:lang="la">martii</foreign> <hi rend="underline">1623</hi></origDate><note>Die Ortsangabe fehlt; das Verhör fand vermutlich im <placeName ref="loc007683">Bösen Turm</placeName> statt.</note>, <foreign xml:lang="la"><choice><abbr>j</abbr><expan>judex</expan></choice></foreign> <abbr>h</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per009249">Daniel von Montenach</persName>.</note>
+							<seg><lb/><abbr>H</abbr> <persName ref="per006751">Erhart</persName>, <abbr>h</abbr> <persName ref="per009261">Techterman</persName></seg>
+							<seg><lb/><persName ref="per009271">Wildt</persName>, <persName ref="per009134">Dießbach</persName>, <persName ref="per009455">Meister</persName>, <persName ref="per009451a.01"><choice><abbr>C</abbr> <expan>Christoph</expan></choice> von Ligertz</persName></seg>
+							<seg><lb/><persName ref="per009253">Bocard</persName>, <persName ref="per009460">Gottrow</persName></seg>
+							<seg><lb/><choice><abbr>W</abbr> <expan>Weibel</expan></choice></seg></p>
+						
+						<p><seg><lb/><add place="left margin"><foreign xml:lang="la">Nihil <choice><abbr>ßt</abbr><expan>solvit</expan></choice></foreign>.</add></seg> 
+						<seg><persName ref="per009569">Pierre Bosson</persName> estant serieusement interrogé de 
+						<lb/>ses mesfaits, a confirmé les actes perpetrés avec 
+						<lb/>les bestes, de mesme les lareçains.</seg></p>
+						
+						<p><lb/>Item d’avoir dadvantage desrobé a <placeName ref="loc008085">Botterens</placeName> 
+						<lb/>un’achete.</p>
+						
+						<p><lb/>Au <term ref="lem015025.02">monnier</term> du <placeName ref="loc007682.04">Grand Willard</placeName> <measure type="currency" unit="bz" quantity="10"><num value="10">x</num> bz</measure>, 
+						<lb/>3 <term ref="lem015351.02">cornets</term> de <term>jaux</term>, desquels il en a rendu deux 
+						<lb/>et vendu l’aultre pour <measure type="currency" unit="bz" quantity="12">12 bz</measure>.</p>
+						
+						<p><lb/>En un grenier en <placeName ref="loc008089.02">Rogimond</placeName> une paire de <subst><del>ch</del> 
+						<lb/><add place="inline"><term ref="lem015400.03">chauses</term></add></subst>.</p>
+							
+						<p><lb/>Vers <placeName ref="loc007859.02">Bellegarde</placeName> une robe et quelquefois des 
+						<lb/>mauvais <term ref="lem014866.03">solars</term>.</p>
+						
+						<p><lb/>A <placeName>Villarsel</placeName><note>L’identification du lieu est incertaine. Il pourrait s’agir de <placeName ref="loc008331">Villarzel</placeName> (Broye), de <placeName ref="loc008659">Villarsel-sur-Marly</placeName> ou encore de <placeName ref="loc008660">Villarsel-le-Gibloux</placeName>.</note> une chemise et vers <placeName ref="loc008086">Lanthen</placeName> une 
+						<lb/>aultre.</p>
+							
+						<p><lb/>A <placeName ref="loc008088.02">Tscherlun</placeName> des sausisses.</p>
+							
+						<p><lb/>A <placeName ref="loc007629.05">Pierraforcia</placeName> un pain.</p>
+							
+						<p><lb/>A <persName>Corbo</persName> de <placeName ref="loc007857.03">Gin</placeName> <measure type="currency" unit="bz" quantity="4">4</measure> ou <measure type="currency" unit="bz" quantity="5">5 bz</measure>. 
+							<lb/><add place="left margin">–&#160;O&#160;–</add><note>Die Bedeutung dieses Zeichens ist unklar.</note></p>
+							
+						<p><lb/>A <placeName>Utschenwyl</placeName><note>L’identification du lieu est incertaine. Il pourrait s’agir de <placeName ref="loc008662">Uttewil</placeName>.</note> 2 <term ref="lem014874.06">geniles</term> pour aller en un banquet a 
+							<lb/><placeName>Balmertzwyll</placeName><note>L’identification du lieu est incertaine. Il pourrait s’agir de <placeName ref="loc008663">Balbertswil</placeName>.</note>.</p>  
+						
+						<p><lb/>A <placeName ref="loc008046.02">Ottisperg</placeName> du pain et du <term ref="lem014943.05">beure</term>, et plusieurs fois 
+						<lb/>des oeufs.</p>
+					
+						<p><lb/>Au moulin de <placeName ref="loc008037.03">Wunnenwyl</placeName> un jambon et a 
+						<lb/><placeName>Schwendi</placeName><note>L’identification du lieu est incertaine. Il pourrait s’agir de <placeName ref="loc008657">Schwendi</placeName> (Jaun) ou peut-être de <placeName ref="loc008052">Umbertsschweni</placeName> (Alterswil).</note> un aultre.</p>
+							
+						<p><lb/>A <placeName ref="loc008092.02">Nüwhuß</placeName> un pain, de mesme a <placeName ref="loc008090.02">Lustorff</placeName>.</p>
+							
+						<p><lb/>A <placeName ref="loc007647.01">Romont</placeName> en une grange <measure type="currency" unit="bz" quantity="12">12 bz</measure>. 
+							<lb/><add place="left margin">–&#160;O&#160;–</add><note>Die Bedeutung dieses Zeichens ist unklar.</note></p>
+						
+						<pb n="288"/><p><lb/>Il a aussy confirmé avec la grande <term ref="lem018285">pierre</term> 
+						<lb/>qu’il y a <date dur="P4Y">4 ans</date> qu’il devint sorcier entre 
+						<lb/>le bois d’<placeName ref="loc008074">Oron</placeName> et <placeName>Palu</placeName><note>L’identification du lieu est incertaine. Il pourrait s’agir de <placeName ref="loc008664">Palézieux</placeName>.</note>, <persName>Sathan</persName> luy estant 
+						<lb/>apparu, se nommant <persName>Grabié</persName>, en forme <term ref="lem015364.03">per<lb break="no"/>se</term>, a l’instance duquel, luy promettant 
+						<lb/>or et argent, il a rennié Dieu, sa <choice><abbr>s<hi rend="sup">te</hi></abbr><expan>sainte</expan></choice> 
+						<lb/>mere et tous les <choice><abbr>s<hi rend="sup">ts</hi></abbr><expan>saints</expan></choice> de paradis.</p>
+						
+						<p><lb/>Confessant l’avoir baisé et avoir receu de 
+						<lb/>l’argent de luy, que ne furent aultre 
+							<lb/>que <term ref="lem018302.04">feuilles</term>. Item l’avoir <term ref="lem018895.02">marqué</term> au bras.</p>
+						
+						<p><lb/>Qu’il fut en la <term ref="lem017043.01">secte</term> vers <placeName ref="loc007597.02">Dirlaret</placeName>&#160;; <persName ref="per009533">Antey<lb break="no"/>no</persName> et <persName ref="per009535"><choice><abbr>Fran</abbr><expan>François</expan></choice> Feudi <choice><abbr>als</abbr><expan>alias</expan></choice> Rimbo</persName>, <persName><subst><del>Jehan</del><add place="inline">Estieven</add></subst></persName>, 
+							<lb/>certain <subst><del>sayo</del><add place="inline">Savoyard</add></subst><note>Il s’agit probablement de <persName>Francili Savoyard</persName>. Voir <ref>SSRQ_FR_I_2_8_056_031</ref>.</note>, <persName>Marmet Gaudar</persName> de 
+						<lb/><placeName ref="loc005865.05">Savoy</placeName>, qu’a une barbe brunne, <term ref="lem015400.03">chauses</term> blanches 
+						<lb/>et porpoint noir, y furent aussy.</p>
+						
+						<p><lb/>Item a soustenu en la face de <persName ref="per009571">Jaques Tissot</persName> 
+						<lb/>et <persName ref="per009572">German Figuet</persName>, qu’ils y sont aussy esté.</p>
+						
+						<p><lb/>A dit aussy que la <persName>Belle Merciere</persName> et <persName ref="per009539">Imo Toma</persName> 
+						<lb/>y sont esté.</p>
+						
+						<p><lb/>Il a dit dadvantage d’avoir receu de la grai<lb break="no"/>se <add place="left margin" type="sign">et du <hi rend="underline"><term ref="lem014886.02">pusset</term></hi></add> de son maistre, avec laquelle a fait 
+						<lb/>mourrir&#160;; si portant ne sont morts, que 
+						<lb/>son intention estoit faire mourrir les 
+						<lb/>gens et bestes suivantes.</p>
+						 
+						<p><lb/>Primierement chez <persName>Marro</persName> un <term ref="lem015049.03">pudrin</term>.</p>
+						
+						<pb n="289"/><p><lb/>Item qu’il a soufflé contre la femme de <persName>Biren<lb break="no"/>boum</persName> de <placeName ref="loc008192.03">Wolkerswyl</placeName>, dont en <subst><del>dev</del> <add place="inline">est</add></subst> devenue 
+						<lb/>malade. 
+						<lb/><add place="left margin">–&#160;O&#160;–</add><note>Die Bedeutung dieses Zeichens ist unklar.</note></p>
+							
+						<p><lb/>A <persName>Gasser</persName> uff der <unclear>farren</unclear> en a donné a un veaulx.</p> 
+						
+						<p><lb/>Chez <persName>Pyeller</persName> du <placeName ref="loc008597.02">Gugisperg</placeName> a une <term ref="lem017507">vache</term> blan<lb break="no"/>che.</p>
+						
+						<p><lb/>Sus le commun de <placeName ref="loc001395">Schwarzenburg</placeName> a une <term ref="lem017507">vache</term>, 
+						<lb/>pense appartenir a l’hoste dudit lieu.</p>
+							
+						<p><lb/>A <persName>Jean Schorro</persName> de <placeName ref="loc007628">Praroman</placeName> a fait secher 
+						<lb/>une <term ref="lem017507">vache</term>, de mesme a <placeName ref="loc008088.02">Tscherlun</placeName>. 
+							<lb/><add place="left margin">–&#160;O&#160;–</add><note>Die Bedeutung dieses Zeichens ist unklar.</note></p>
+							
+						<p><lb/>A <persName>Henzo Heimo</persName> a fait mourrir un porc, deux 
+						<lb/>a <placeName ref="loc008065.02">La Sonna</placeName>, deux a <persName>Agnes</persName> d’<placeName ref="loc008046.02">Ottisperg</placeName>, trois 
+						<lb/>a <persName>Hanß Steiner</persName> de <placeName>Frisyney</placeName><note>L’identification du lieu est incertaine. Il pourrait s’agir de <placeName ref="loc008665">Friseneit</placeName>.</note> et deux a la  
+							<lb/><placeName ref="loc008667.02">Formangeyre</placeName>.</p>
+							
+						<p><lb/>En a donné aussy a un cheval du <term ref="lem015025.02">monnier</term> de 
+							<lb/><placeName ref="loc007660">La Roche</placeName>.</p>
+							
+						<p><lb/>Item a une <term ref="lem017507">vache</term> du grangier de <persName>Heimo</persName> d’<placeName ref="loc006232.05">Ar<lb break="no"/>concié</placeName>.</p>
+							
+						<p><lb/>A <placeName ref="loc008030.02">Schönenbiel</placeName> a une <term ref="lem015324">bagne</term>.</p>
+							
+						<p><lb/>Au <term ref="lem015166">favre</term> de <placeName ref="loc008666.02">Cotting</placeName> a une <term ref="lem017507">vache</term> brunne.</p>
+						
+						<p><lb/>A <placeName ref="loc008074">Oron</placeName> a un cheval, a un <term ref="lem015049.03">pudrin</term> et deux 
+						<lb/>chievres.</p>
+						
+						<p><lb/>A <choice><abbr>mons</abbr><expan>monsieur</expan></choice> le <term ref="lem016294.02">banderet</term> <persName>Malliard</persName> y a l’environ 
+						<lb/><date dur="P3Y">3 ans</date>, a <placeName ref="loc008094">Drognens</placeName>, a une <term ref="lem017507">vache</term> et 2 
+						<lb/>brebis.</p>
+						
+						<p><lb/>A <persName>Bussar</persName> de <placeName>Belin</placeName><note>L’identification du lieu est incertaine. Il pourrait s’agir de <placeName ref="loc008668">Chez les Belin</placeName>.</note> a un <term ref="lem015049.03">pudrin</term>. Aultre dit 
+						<lb/>n’avoir commis. Et crie mercy aprés qu’on 
+						<lb/>demonstre la grace accostumé de cette 
+						<lb/>ville.</p> 
+						
+						<p><lb/><add place="left margin">Hingericht mit dem 
+							<lb/><term ref="lem007052.09">schwerd</term>, <date when="1623-04-01">1<hi rend="sup"><unclear>ter</unclear></hi> <foreign xml:lang="la">aprilis</foreign></date></add>.<note>Diese nachträgliche Marginalie steht im Original am Anfang des Verhörs.</note></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+
+
+
+<?oxy_options track_changes="on"?>

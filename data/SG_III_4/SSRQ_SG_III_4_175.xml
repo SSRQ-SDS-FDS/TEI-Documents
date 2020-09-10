@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-08-15"/>
+            <date type="print"/>
+            <availability><p xml:id="facs">Sibylle Malamud</p></availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_175</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno source="https://archivverzeichnis.gl.ch/home/#/content/a7662714bc894ac8a2d4b64eafa2082d">LAGL AG III.2462:002</idno>
+                  <altIdentifier>
+                     <idno>LAGL VIII. 218</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <head>Erklärung von evangelisch Glarus über die Besetzung der Ämter eines Landschreibers und Landweibels in Werdenberg</head>
+               <msContents>
+                  <summary>
+                     <p>Vor Landammann, Räte und Landleute des evangelischen Standes Glarus beklagen sich
+                     			Landeshauptmann Ulrich Tischhauser, Landesfähnrich Johann Tischhauser und Andreas
+                    			Tischhauser aus Werdenberg, dass die Ämter eines Landschreibers und Landweibels bisher
+                    			von Werdenbergern, nun aber von Glarner Landsleuten besetzt werden und bitten, dass die
+                     			Nachfolge des verstorbenen Landschreibers Hans Bühler ein Werdenberger antreten könne.
+                    			Da der Landweibel Melchior Tschudi noch bei guter Gesundheit ist, wollen die
+                    			Werdenberger Gesandten das Landweibelamt nicht neu besetzen. Der Bitte wird unter der
+                    			Voraussetzung, dass der Landschreiber der Landsgemeinde alljährlich vorgestellt werden
+                   			müsse, entsprochen. Unter dieser Voraussetzung kann Andreas Tischhauser das
+                    			Landschreiberamt übernehmen</p> 
+                  </summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <filiation type="current">Original (Doppelblatt, 3 Seiten beschrieben)</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="32.0"/>
+                              <width unit="cm" quantity="20.5"/>
+                           </dimensions>
+                        </extent>
+                        <condition>an den Faltstellen z. T. gebrochen, Wasserflecken</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <sealDesc>
+                     <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI"
+                           n="1"
+                           nontei:condition="well-preserved"
+                           nontei:material="papered seal"
+                           nontei:place="end"
+                           nontei:shape="round"
+                           nontei:attachment="applied">
+                        <orgName role="sigillant" ref="org001197">Glarus</orgName>
+                     </seal>
+                  </sealDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1642-04-25"/>
+                     <origPlace>Schwanden</origPlace>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000324">Landweibel</term>
+               <term ref="key000310">Landschreiber</term>
+               <term ref="key000555">Wahl</term>
+               <term ref="key000207">Amt</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <div org="uniform" sample="complete">
+                  <p>
+                     <pb n="1r" facs="LAGL_AG_III.2462_002_1r"/>
+                     <seg>
+                        <lb/>Wir, <orgName ref="org003239">landtaman, räth</orgName> unnd <orgName
+                           ref="org003593">ge<lb break="no"/>meine landtleüth deß landts
+                           Glaruß</orgName>, <term ref="lem010482">evangelischer religion</term>,
+                        <lb/>thund khundt und bekennend offenbar hiemit, daß auff heütigen <lb/>tag
+                        seines datums, alls wir zu <placeName ref="loc007593.01"
+                           >Schwanden</placeName> bey einandern <lb/>versampt geweßen, vor unß
+                        kommen und erschinen sind die <lb/>fromen, ersamen <term ref="lem000775"
+                           >landtshauptman</term>
+                        <persName ref="per009648a">Ullrich Tischhußer</persName>, <term
+                           ref="lem002708">landts<lb break="no"/>fendrich</term>
+                        <persName ref="per009649a">Johann Tischhußer</persName> unnd <persName
+                           ref="per009650a">Anderes Tischhußer</persName>, von unßer <lb/>lieben und
+                        gethreüwen von <placeName ref="loc000440">Werdenberg</placeName>, unnd
+                        habend <lb/>unß inn namen gmeiner, unßerer underthonnen daselbst <lb/>inn
+                        underthenigkeit mit bezimender bescheidenheit fürbringen <lb/>und zu
+                        erkennen geben laßen, wie daß die beiden <term ref="lem005935"
+                        >empter</term>, <lb/><term ref="lem002854">landtschriber</term> und <term
+                           ref="lem000642">landtweibel</term>, noch bey mans gedenckhen <lb/>von
+                        personnen zu <placeName ref="loc000440">Werdenberg</placeName> versechen
+                        worden. Do <lb/>aber da habend wir von hier, uß unßerm landt, leüth zu
+                        <lb/>sollchen diensten verordnet. Mehr seigend sollches bekandter<lb
+                           break="no"/>maßen <term ref="lem005935">empter</term>, die nit großen
+                           <term ref="lem002802">inn komens</term> und daß wellcher <lb/>nit andere
+                        mitel habe, keiner sich darbey mit seiner hauß<lb break="no"/>haltung uß
+                        bringen möge. Unnd wil <unclear>myn</unclear> sy auch <lb/>mit hin leüth
+                        hettend, die lust hettend, sollche <term ref="lem000238">dienst</term> zu
+                           <term ref="lem012207">ver<lb break="no"/>weßen</term>, die dann von den
+                        gnaden gottes mit hüpschem <lb/>zeitlichen vermögen verfasst seigend, ja,
+                        wann sy die <lb/>gnad und vätterlichen gunst erhalten möchten, daß sollche
+                        <lb/>bevelch wir durch personnen zu <placeName ref="loc000440"
+                           >Werdenberg</placeName> verrichten <lb/>ließind, sey die <term
+                           ref="lem003419">juget</term> desto besser und mehr <term
+                           ref="lem012475.02">schuollen</term>
+                        <lb/>wurden.</seg>
+                     <seg>Die wil und aber eintzig und allein uff <lb/>dißmahlen durch göttliches
+                        hinscheiden landtschriber <persName ref="per009118a">Hannß
+                           <lb/>Büöllers</persName> daß <term ref="lem015615.02">landtschriber
+                           ampt</term> ledig worden, alls <lb/>were inn nammen gmeiner underthonnen
+                        da selbsten ihr in<lb break="no"/>stendig, gantz underthenig, fleißig und
+                        fründtliches ersuechen <lb/>und pitten an unß, wir woltend sollches <term
+                           ref="lem015615.02">landt<lb break="no"/>schriber ampt</term> durch ein
+                        person uß ihnnen verwalten <pb n="1v" facs="LAGL_AG_III.2462_002_1v"/>
+                        <lb/>laßen, jedoch mit sollcher bscheidenheit, daß allwegen <lb/>alle und
+                        eines jeden jars besonders, wellcher sollchen <lb/>dienst begert, vor unß an
+                        offner <term ref="lem014616">landtsgmeind</term>
+                        <lb/>darumb bitten, und wir alls dann einer darzu <term ref="lem000406"
+                              >er<lb break="no"/>wellen</term> sollen und mögen nach unßerm beliben.
+                        Und <lb/>wann sich der ein oder ander, wellchem dißer dienst <lb/>gegeben
+                        wurde, ohnnthreüw, ohnngflißen, ohnnghorsam <lb/>und ohnn bescheidenlich
+                        halten tett, wir jederzeit nach <lb/>unßerm wilen einen sollchen <term
+                           ref="lem001788">entsetzen</term> und einen andern er<lb break="no"
+                        />nennen mögen, der unß dafür tugenlicher und besser be<lb break="no"
+                        />dunkhte.</seg>
+                     <seg>Dann daß <term ref="lem015616.02">landtweibel ampt</term> be<lb break="no"
+                        />langende, begehrend sey selbiges auff diß mahlen nit, <lb/>sittenmahlen
+                        der <term ref="lem000642">landtweibel</term>
+                        <persName ref="per009651a">Melchior Tschudi</persName> noch <lb/>inn leben
+                        bey gueter gsundheit seige und selbigen wohl <lb/>abwarte.</seg>
+                     <seg>Whorauff wir unnß <lb/>erkent, die wil bricht inn gelangt, daß nach ihrem
+                        <lb/>fürgeben sollche bevelch durch <damage agent="crack" cert="high"
+                           >personnen</damage> uß ihnnen, den <lb/>underthonnen, vor vil jahren
+                           <damage agent="crack" cert="high">ver</damage>waltet worden, <lb/>daß daß
+                           <term ref="lem015615">landtschriber ampt</term> widerumb durch einen
+                        <lb/>ehrlichen man zu <placeName ref="loc000440">Werdenberg</placeName>
+                        <term ref="lem007828">für baß</term> mit beschribner <lb/>bescheidenheit
+                        unnd nach volgendem vorbhalt solle ver<lb break="no"/>sechen werden.
+                        Namlichen, daß wellcher solches <term ref="lem000238">diensts</term>
+                        <lb/>begere, der solle, wie in gfüert, <date dur="R/P1Y">alle jarr </date>
+                        <date dur="R/P1Y">jerlich</date>
+                        <lb/>vor unnß darumb bitten und anhalten und fahls deß ein <lb/>ald andern
+                        jars mehr alls einer von ihnnen betten dette, <lb/>soll unß befry stohn,
+                        einer darauß nach unßerm beliben <lb/>zu <term ref="lem000406"
+                           >erwellen</term>. Und fahls einer inn solchem <term ref="lem005935"
+                           >ampt</term> ohnn<lb break="no"/>treüw, ohnngflißen und ohnn ghorsam
+                        were, unß fry <lb/>stohn soll, einen sollchen <term ref="lem003005"
+                           >abzusetzen</term> und einem andern dißen <lb/>bevelch zu geben.</seg>
+                     <seg>Hierauff mehrgemelter <persName ref="per009650a">Anders <pb n="2r"
+                              facs="LAGL_AG_III.2462_002_2r"/>
+                           <lb/>Tischhußer</persName>, alls der seit absterben <term ref="lem002854"
+                           >landtschreiber</term>
+                        <persName ref="per009118a">Büöllers</persName>
+                        <choice>
+                           <abbr>see</abbr>
+                           <expan>seelig</expan>
+                        </choice>
+                        <lb/>dißern dienst verwesen, mit deme unßer landtvogt <lb/>daselbsten zu
+                        friden und nit allein vermögens tregt, sondern <lb/>ihnne rüempt und unß
+                           <term ref="lem013057.04">recomendiert</term> hatt, umb dißern <lb/>dienst
+                        unß ersuecht und gebetten, mit an hangendem erbietten, <lb/>sich <term
+                           ref="lem007828">für baß</term> gflißen, erbar, threüw, ghorsam und
+                        redlich inn<lb break="no"/>zu stellen, alls habend wir ihnnen inn ansechen
+                        seines <lb/>wohl verhaltens, uff beschribne vorbhelt, zu einem künfftigen
+                        <lb/>landtschriber für die graffschafft <placeName ref="loc000440"
+                           >Werdenberg</placeName>
+                        <lb/><term ref="lem000406">erwelt</term> unnd angenommen, inn hoffnnung, er
+                        seinem aner<lb break="no"/>bietten nach sich betragen werde, whorzu dann
+                        <lb/>wir ihme gottes gnad und segen wünschend.</seg>
+                     <seg>Und deß <lb/>alles zu wahrem unnd vestem urkhundt, habend wir <lb/>unßers
+                        landts seccret innsigel truckhen laßen inn dißen <lb/>brieff, der geben,
+                        sontags, den <origDate when="1642-04-25">25.ten apprilis, im jarr, <lb/>alls
+                           man zalt sechszechen hundert und zwey unnd viertzige</origDate>.</seg>
+                  </p>
+               </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div org="uniform" sample="complete">
+            <p>Nach dem Tod von Landschreiber <persName ref="per009118a">Hans Büeler</persName> wird
+                  <persName ref="per009650a">Andreas Tischhauser</persName> laut einer Erkenntnis
+               des evangelischen Rats von <orgName ref="org003594">Glarus</orgName>
+               <date when="1641">1641</date> ad interim bis zur nächsten <term ref="key004360"
+                  >Landsgemeinde</term> als <term ref="key000310">Landschreiber</term> von
+                  <placeName ref="loc000440">Werdenberg</placeName> bestimmt (<bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/63a6c53de6b3421e8d1e993cb2bf4c36"
+                     >LAGL AG III.2442:056</ref></bibl>) und <date when="1642">1642</date> von der
+               evangelischen <orgName ref="org003593">Landsgemeinde</orgName> als Landschreiber
+               bestätigt.</p>
+         </div>
+         <div org="uniform" sample="complete">
+            <p>Nach dem vierten Landesvertrag von <date when="1638">1638</date> (<ref>SSRQ_SG_III_4_171</ref>) werden
+     nicht nur der Landvogt, sondern auch die Ämter von evangelisch Glarus gewählt.</p>
+         </div>
+      </back>
+   </text>
+</TEI>

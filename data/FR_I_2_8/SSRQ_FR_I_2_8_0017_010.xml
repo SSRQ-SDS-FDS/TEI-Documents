@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+
+			</titleStmt>
+
+			<publicationStmt>
+				<date type="electronic" when="2019-03-20"/>
+				<date type="print"/>
+			</publicationStmt>
+
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ_FR_I_2_8_0017_010</idno>
+			</seriesStmt>
+
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<idno>StAFR, Thurnrodel 9.I, S. 178–179</idno>
+					</msIdentifier>
+					<head>Jenon Davet-Carra, Jenon Besson, Françoise Marset, Clauda Péclat – Verhör / Interrogatoire</head>
+					<msContents>
+						<summary></summary> 
+						<msItem>
+							<textLang>fr, de</textLang> 
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support>
+									<material></material>
+								</support>
+								<extent>
+									<dimensions type="leaves">
+										<height unit="cm" quantity="0.0"/>
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+									<dimensions type="plica">
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+								</extent>
+							</supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate from="1593-05-18" to="1593-05-20"></origDate>
+							<origPlace></origPlace>
+						</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+							
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+			<particDesc default="false"/>
+			<settingDesc default="false"/>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="178"/><p><lb/>Im <placeName ref="loc007683.09">schelm thurn</placeName><note>Sans date. L’interrogatoire le plus proche, qui précède celui-ci, est daté du 18 mai 1593, et celui qui le suit directement l’est du 20 mai 1593.</note>
+							<seg><lb/>Herr <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per009927">Kaspar Wicht</persName>.</note></seg>
+							<seg><lb/>Von rhethen</seg>
+							<seg><lb/><abbr>H</abbr> <persName ref="per009942a.01">Wylhelm Krumenstoll</persName>, herr <persName ref="per009928">Jacob Bauwman</persName>, herr <persName ref="per009148">Peter Zimmerman</persName></seg>
+							<seg><lb/>Dem sechziger</seg>
+							<seg><lb/><persName ref="per009924a.02"><choice><abbr>E</abbr><expan>Erhard</expan></choice> Garmiswyll</persName>, <persName ref="per009212">Peter Spreng</persName>, <persName ref="per009930">Balthasard Ziegler</persName>, <persName ref="per009943a.02">Peter Farisaz</persName></seg>
+							<seg><lb/><persName ref="per009944a.01">Peter Kämerling</persName>, <persName ref="per009925">Hanns Julliard</persName>, <persName ref="per009929">Daniell Meyer</persName></seg>
+							<seg><lb/>Wybeln</seg>
+							<seg><lb/><persName ref="per009941">Hanns Perriard</persName>, <persName ref="per009945">Peter Schmidt</persName></seg></p>
+					
+						<p><lb/><persName ref="per009754a">Jenon Besson</persName> de <placeName ref="loc007655.06">Montagnie</placeName> n’a voulluz du tout rien librement 
+							<lb/>confesser, neantmoings ait esté <term ref="lem015356.04">acculpee</term> par la <persName>Daugettaz</persName>, 
+							<lb/><subst><del>et</del><add place="inline">estant</add></subst> mise a la <term ref="lem018231">corde</term> sans <term ref="lem018285">pierre</term>, n’a encore moings rien 
+							<lb/>voulluz confesser, ains entierement dit la <persName>Daugetaz</persName> luy faire 
+							<lb/>tord, touttesfois derechef mise a la <term ref="lem018231">corde</term>, a tousjours dit 
+							<lb/>luy estre fait tord, <subst><del>c</del><add place="overwritten">d</add></subst>ont pour la tierce fois eslevee en haut, 
+							<lb/>constantement a dit estre innocente <subst><del><gap reason="illegible" quantity="0.5" unit="cm"/></del><add place="overwritten">d</add></subst>’acte de <term ref="lem018521">sorcellerie</term> et que 
+							<lb/>ladite <persName>Daugetaz</persName> luy fait entierement tord, car jamais elle n’a esté 
+							<lb/>avecque elle, ny aultres, et ne voudroit aucument estre telle, 
+							<lb/>car Dieu l’en garde, auquel elle soy recommande et a la bonne 
+							<lb/>grace de <choice><abbr>mess<hi rend="sup">rs</hi></abbr><expan>messeigneurs</expan></choice>, d’aultant touttallement assere estre innocente 
+							<lb/>de tel crime, et n’a jamais fait aulcung mal a personne ny a beste, 
+							<lb/><choice><abbr>coe</abbr><expan>comme</expan></choice> tousjours <subst><del>ne</del><add place="overwritten">a</add></subst>ssere, et soy <sic>recomadant</sic> <unclear>par tel</unclear> a la grace de 
+							<lb/><choice><abbr>mess<hi rend="sup">rs</hi></abbr><expan>messeigneurs</expan></choice>. Et plus n’a voullu confesser.</p> 
+							
+						<p><lb/><persName ref="per009751a.02">Franceysaz</persName> fille feuz <persName ref="per009752"
+								>Claude Bergier</persName>
+							<unclear>et</unclear>
+							<sic>feuz <persName>Claude</persName></sic>
+							<space quantity="1" unit="cm"/> de <lb/><placeName ref="loc008130.05"
+								>Leschielles</placeName>, ne voullant librement confesser
+									<subst><del>rien</del><add place="overwritten"
+								>ains</add></subst>
+							<subst><del><gap/>a</del>
+								<lb/><add place="inline">disant</add></subst> ladite executee luy
+							faire grandement tort et que par malvuellance <lb/>elle l’a accusee pour
+							ne luy avoir une fois voullu donner des <term ref="lem015764.03"
+								>griettes</term>, <lb/>mais elle, mise a la <term ref="lem018231">corde</term>, dit <add
+								place="below">a elle</add> luy faire tort, car jamais mal <lb/>elle
+							ne fist, et pour la seconde fois tiree <add place="left margin"
+								type="sign">sans <term ref="lem018285">pierre</term></add>, n’a encore moings <lb/>rien voullu
+							confesser, ains que l’on luy fait tousjours tort, car ne voudroit
+							<lb/>estre du nombre de celles, que Dieu l’en garde, car ne permettroit
+							ny <lb/>elle, ny a ses enfants de faire aulcung mal, et combien sa fille
+							trouvoit <lb/>une fois 1 couteau aux prez de <placeName ref="loc007648"
+								>Dompierre</placeName>, elle voullut sçavoir d’ou il <lb/>venoit.
+							Parquoy soy recommande a Dieu et a la bonne grace de <lb/><choice>
+								<abbr>mess<hi rend="sup">rs</hi></abbr>
+								<expan>messeigneurs</expan>
+							</choice>. Plus n’a voullu confesser.</p>
+						
+						<pb n="179"/><p><lb/><persName ref="per009749a.03">Claudaz Peclat</persName> de <placeName ref="loc007983.03">Noreaz</placeName>, estant interoguee si elle n’estoit pas 
+							<lb/>des complices a la <persName ref="per009744b">Carra<subst><del>rz</del><add place="overwritten">de</add></subst></persName> executee, a du tout denegué, n’en estre 
+							<lb/>pas, ny avoir jamais esté avecque elle, et estant mise a la <term ref="lem018231">corde</term> sans 
+							<lb/>pierre, n’a du tout rien voullu confesser, ains que plutost pour malle grace 
+							<lb/>dappart une niepce qu’elle avoit, ladite <persName ref="per009744b">Carrade</persName> l’auroit <term ref="lem015356.11">accoulpee</term> et que 
+							<lb/>jamais n’a esté a la compagnie de ladite executee, dont pour la 2 fois 
+							<lb/>tiree sans <term ref="lem018285">pierre</term>, az dit et confessé tousjours <choice><abbr>coe</abbr><expan>comme</expan></choice> dessus, mais pour  
+							<lb/>la tierce fois mise a la <term ref="lem018231">corde</term>, a tousjours confessé n’avoir jamais 
+							<lb/>esté avecque ladite <persName ref="per009744b">Carra<subst><del>rz</del><add place="overwritten">de</add></subst></persName> et n’avoir jamais fait mal a personne 
+							<lb/>ni a bestes, en si ne voudroit estre du nombre d’icelles, dont Dieu 
+							<lb/>la garde, auquel soy recommande et a la bonne grace de <choice><abbr>mess<hi rend="sup">rs</hi></abbr><expan>messeigneurs</expan></choice>. 
+							<lb/>Et plus n’a voullu confesser.</p>
+
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+

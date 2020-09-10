@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="headerinfo"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <date type="electronic" when="2020-08-17"/>    <date type="print"/>
+    <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Collection des sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS_NE_3_263</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier>
+      <idno>AVN B 101.14.001, fol. 511v</idno>
+     </msIdentifier>
+     <head>Demande pour fait d’injure</head>
+     <msContents>
+      <summary>Une personne qui forme demande pour fait d’injures est obligée de la suivre durant
+       un an et six semaines. Pour le fait de fond, il peut former une nouvelle demande.</summary>
+      <msItem>
+       <textLang>français</textLang>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="33"/>
+          <width unit="cm" quantity="23.5"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <origDate when="1675-02-12" calendar="Julian"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>
+      </origin>
+     </history>
+     <additional>
+      <listBibl>
+       <head/>
+       <bibl/>
+      </listBibl>
+     </additional>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key005176"></term>
+     <term ref="key003026"></term>
+     <term ref="key005117"></term>
+     <term ref="key001074"></term>
+    </keywords>
+   </textClass>
+   <particDesc default="false"/>
+   <settingDesc default="false"/>
+  </profileDesc>
+ </teiHeader>
+ 
+ <text>
+  <group>
+   <text>
+    <body>
+        
+     
+     <pb n="511v" facs="AVN_B_101.14.001_0511v"/> 
+        
+     <div>
+      <head>
+       <lb/>Si un homme qui forme une <lb/>demande d’injure à un autre, s’il n’est pas <lb/>obligé
+       de suivre à <choice>
+        <abbr>sad.</abbr>
+        <expan>sadite</expan>
+       </choice> demande dans l’<date dur="P1Y6W"><term ref="lem014776">an &amp; <lb/>jour</term></date>, jusques à ce qu’il aye amené sa
+       partie <lb/>à réponce, &amp; si une instance faite durant <lb/>les <term ref="lem015039.03">feries</term> peut
+       estre valable. </head>
+      <p>
+       <lb/>Sur la requeste adressée à <lb/><choice>
+        <abbr>Mons<hi rend="sup">r</hi></abbr>
+        <expan>monsieur</expan>
+       </choice> le maistre bourgeois &amp; <orgName ref="org003085">Conseil Estroit de la
+        <lb/>Ville de <placeName ref="loc007786">Neufchatel</placeName></orgName>, par <choice>
+        <abbr>hon.</abbr>
+        <expan>honnorable</expan>
+       </choice>
+       <persName ref="per009768a.01">Jaques Perrot</persName>, <lb/>bourgeois <choice>
+        <abbr>dud.</abbr>
+        <expan>dudit</expan>
+       </choice>
+       <placeName ref="loc007786">Neufchatel</placeName>, residant à
+       <placeName ref="loc007815">Auvernier</placeName>, <lb/>le <origDate when="1675-02-12" calendar="Julian">douzieme de fevrier
+         <hi rend="underline">1675</hi></origDate> tendante aux fins <lb/>d’avoir le poinct de
+       coustume suivant. </p>
+      <p>
+       <lb/>Assavoir, si une personne qui forme demande <lb/>à un autre pour fait d’injure, s’il
+       n’est pas obligé <lb/>par la coustume de cet Estat de suivre à <choice>
+        <abbr>sad.</abbr>
+        <expan>sadite</expan>
+       </choice>
+       <lb/>demande dans l’<date dur="P1Y6W"><term ref="lem014776">an &amp; jour</term></date>, jusques à ce qu’il aye <lb/>amené sa partie à
+       réponce, &amp; si pendant <choice>
+        <abbr>led.</abbr>
+        <expan>ledit</expan>
+       </choice> temps <lb/>d’<date dur="P1Y6W"><term ref="lem014776">an &amp; jour</term></date> la partie actrice peut suivre à <choice>
+        <abbr>sad.</abbr>
+        <expan>sadite</expan>
+       </choice>
+       <lb/>demande pour la seconde instance durant les <term ref="lem015039.03">feries</term> <lb/>et si telle suite est valable. </p>
+      <p>
+       <lb/><orgName ref="org003085">Mesdits sieurs du Conseil</orgName>, ayans eu advis &amp;
+       <lb/>meure premeditation par ensemble, <term ref="lem015635.04">baillent</term> par
+       <lb/>declaration, suivant la coustume usitée en la <lb/>souveraineté de <placeName
+        ref="loc007785">Neufchatel</placeName> de pere à fils &amp; de <lb/>tout temps immemorial
+       jusqu’à present, et mesme en <lb/>conformité d’une precedente declaration desja rendue
+       <lb/>le <date when="1654-11-24" calendar="Julian">24<hi rend="sup">e</hi> de novembre <hi
+         rend="underline">1654</hi></date><note>Voir <ref>SDS_NE_3_142</ref>.</note>, la coustume
+       estre telle. </p>
+      <p>
+       <lb/>Assavoir, que toute personne qui forme demande <lb/>à un autre est obligé de la suivre
+       dans l’<date dur="P1Y6W"><term ref="lem014776">an &amp; jour</term></date>, <lb/>jusques à ce qu’il amene sa partie à reponce dans <lb/><choice>
+        <abbr>led.</abbr>
+        <expan>ledit</expan>
+       </choice> temps, &amp; laissant ecouler <choice>
+        <abbr>led.</abbr>
+        <expan>ledit</expan>
+       </choice> temps sans l’avoir <lb/>amené à réponce, telle demande demeure nulle, &amp;
+       <lb/>sans qu’elle puisse estre relevée par une instance faite <lb/>durant les
+       <term ref="lem015039.03">feries</term>, &amp; partant le <term ref="lem015651.02">rée</term> est <sic>irrecerchable</sic> 
+       <lb/>pour fait d’injure, mais pour fait de fond, l’acteur <lb/>peut former nouvelle demande. </p>
+      <p>
+       <lb/>Ce qu’a esté ainsi passé, conclud &amp; arresté les <lb/>an &amp; jour que devant, &amp;
+       ordonné à moy secretaire <lb/>de Ville l’expedier en cette forme, sous le <term ref="lem016327">seel</term> de la
+       <lb/>mayrie &amp; justice <choice>
+        <abbr>dud.</abbr>
+        <expan>dudit</expan>
+       </choice>
+       <origPlace ref="loc007786">Neufchâtel</origPlace>, &amp; signature <lb/>de ma main. </p>
+     </div>
+      
+      <div>
+       <p>
+        <lb/>Copie extraite comme devant.
+       </p>
+       <signed><persName ref="per008992"><choice><abbr>N</abbr><expan>Nicolas</expan></choice> Huguenaud</persName> <figure type="notarial sign"/></signed>
+      </div>
+     
+       
+    </body>
+   </text>
+  </group>
+ </text>
+</TEI>

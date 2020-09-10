@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+
+
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+
+			</titleStmt>
+
+			<publicationStmt>
+				<date type="electronic" when="2019-10-14"/>
+				<date type="print"/>
+			</publicationStmt>
+
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ_FR_I_2_8_0093_012</idno>
+			</seriesStmt>
+
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<idno>StAFR, Thurnrodel 13, S. 121–122</idno>
+					</msIdentifier>
+					<head>Ulli Chollet – Verhör / Interrogatoire</head>
+					<msContents>
+						<summary></summary> 
+						<msItem>
+							<textLang>fr, de</textLang> 
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support>
+									<material></material>
+								</support>
+								<extent>
+									<dimensions type="leaves">
+										<height unit="cm" quantity="0.0"/>
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+									<dimensions type="plica">
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+								</extent>
+							</supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate when="1635-08-03"/>
+							<origPlace></origPlace>
+						</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc> 
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+			<particDesc default="false"/>
+			<settingDesc default="false"/>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="121"/><p><lb/>Im <placeName ref="loc007683.02">bösen thurn</placeName>
+						
+							<seg><lb/><origDate when="1635-08-03">3 <foreign xml:lang="la">augusti</foreign> 1635</origDate>, <foreign xml:lang="la"><choice><abbr>jud</abbr> <expan>judex</expan></choice></foreign> <abbr>h</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per011517">Peter Krummenstoll</persName>.</note></seg>
+							<seg><lb/><abbr>H</abbr> <persName ref="per006714a.02">Fryo</persName>, <abbr>h</abbr> <choice><abbr>burgerm</abbr><expan><term ref="lem018597.02">burgermeister</term></expan></choice><note>Gemeint ist <persName ref="per009390">Peter Reyff</persName>.</note></seg>
+							<seg><lb/><persName ref="per009506">Boccard</persName>, <persName ref="per009451">Ligerz</persName><!-- Jacob Christoph -->, <persName ref="per011519">Techterman</persName>, <persName ref="per009462a.01">Gribollet</persName>, <persName ref="per011521a.01">Heylman</persName></seg>
+							<seg><lb/><persName ref="per011520a.02">Strow</persName>, <persName ref="per011545">Kämmerling</persName></seg>
+							<seg><lb/><choice><abbr>W</abbr><expan>Weibel</expan></choice></seg></p>
+						
+						<p><seg><lb/><persName ref="per011867a">Ulli Chollet</persName> dict qu’il est tout allan<lb break="no"/>goury, qu’il soy sent mal partout, qu’il est 
+							<lb/>par foys tout innocent, qu’il n’a perpetré 
+							<lb/>autre chose que ce qu’il a confessé, priant de 
+							<lb/>ne le faire a mourir a tort.</seg> <seg>Que si des faux 
+							<lb/>tesmoingz et fausses langues <add place="above" type="sign">mesdisent de luy</add>, il n’en peut, mais 
+							<lb/>qu’il avoit deliberé de retourner la langue 
+							<lb/>de loup au challet de <persName>Werro</persName>, ou ce qu’il l’a<lb break="no"/>voit prinse&#160;; qu’il l’avoit monstré a plusieurs 
+							<lb/>gens de justice pour sçavoir a quoy elle estoit 
+							<lb/>bonne&#160;; qu’il n’a point ehu d’autres pierres 
+							<lb/>que de l’<term ref="lem015639.02">allon</term>, qu’il a achepté des apotiquai<lb break="no"/>res, ayant entendu qu’il est bon pour les 
+							<lb/>chevaux debilitez de veue&#160;; que a <placeName ref="loc008169">Grangettes</placeName> 
+							<pb n="122"/><lb/>luy et <persName>George Andrey</persName> frottoient les <term ref="lem017507.02">vaches</term> 
+							<lb/>mallades par dessoubz le ventre, qu’il avoit <term ref="lem016125.05">pour<lb break="no"/>flammé</term> des <term ref="lem017507.02">vaches</term> au dessoubz de <placeName ref="loc008169">Grangettes</placeName>, 
+							<lb/>appartenantes a son advis a <persName>Collet Auberson</persName>, que ledit 
+							<lb/><persName>Andrey</persName> y estoit aussy&#160;; que <persName>Auberson</persName> leur fournist 
+							<lb/>du bois benist et de l’eau beniste, que <persName>Andrey</persName> 
+							<lb/><term ref="lem015635.09">bailloit</term> du bon <term ref="lem015337.02">loyer</term>, qu’il a aussy conseillé 
+							<lb/>de <term ref="lem015635">bailler</term> du sel benist, de l’eau beniste aux <term ref="lem017507.02">vaches</term> 
+							<lb/>et du bon foin a manger, qu’il <term ref="lem015635.09">bailloit</term> aux <term ref="lem017507.02">vaches</term> 
+							<lb/>qui ne pouvoient manger de l’herbe appellee 
+							<lb/><term ref="lem015640">ciguette</term>, en ayant ainsy veu user de <persName>Michel 
+							<lb/>Kolli</persName>.</seg> <seg>Ist mitt dem <term ref="lem018237.09">zehndner</term> <term ref="lem016150">uffzogen</term> worden.</seg></p>
+					</div>
+				</body>
+				
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+
+<?oxy_options track_changes="on"?>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de"><?xml-model href="20131127_1.rnc" type="application/relax-ng-compact-syntax"?>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+    <persName>Sibylle Malamud</persName>
+    <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+    <persName>Sibylle Malamud</persName>
+    <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2018-07-19"/>
+            <date type="print"/>
+            <availability><p xml:id="facs">Staatsarchiv St. Gallen (StASG)</p></availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+    <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+    <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_042_1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+    <msIdentifier>
+       <idno>StASG AA 2 A 1-4a</idno>
+       
+    </msIdentifier>
+    <head>Auszug aus dem Jahrzeitbuch über die Stiftung des Zehnten von Frümsen an die Pfründe Sax durch Ulrich VII. von Sax-Hohensax</head>
+    <msContents>
+       <summary>Im Jahrzeitbuch der Pfründe Sax auf dem 35. Blatt steht, dass Ulrich VII. von Sax-Hohensax zu Lebzeiten für sich, seinen Vater, seine Mutter sowie all seine Vorfahren und Nachkommen seinen Teil am Zehnten von Frümsen dem Priester von Sax gestiftet hat. Die Jahrzeit soll jährlich mit acht Priestern und acht Messen gehalten werden, wofür jeder Priester einen Schilling und eine Mahlzeit bekommt.</summary>
+       <msItem>
+          <textLang>Deutsch</textLang>
+          <filiation type="original">
+             <origDate from="1439-01-01" to="1439-12-31">Ohne Monat und Tag.</origDate>
+             <idno></idno>
+          </filiation>
+          <filiation type="current">Abschrift (Doppelblatt)</filiation>
+       </msItem>
+    </msContents>
+    <physDesc>
+       <objectDesc>
+          <supportDesc>
+             <support>
+                <material>Papier</material>
+             </support>
+             <extent>
+                <dimensions type="leaves">
+        <height unit="cm" quantity="17.0"/>
+        <width unit="cm" quantity="21.0"/>
+                </dimensions>
+             </extent>
+          </supportDesc>
+       </objectDesc>
+    </physDesc>
+    <history>
+       <origin>
+          <origDate from="1601-01-01" to="1700-12-31"/>
+       </origin>
+    </history>
+    <additional>
+       <listBibl>
+          <head>Editionen</head>
+          <bibl><ref target="http://permalink.snl.ch/bib/chbsg000142660">Senn, Jahrzeitbuch</ref>, S. 26–27 (nach dem Saxer Urkundenbuch, Bd. 1, S. 1 im StASG)</bibl>
+       </listBibl>
+    </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+    <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+    <term ref="key000192">Stiftung</term>
+    <term ref="key000193">Pfründe</term>
+    <term ref="key000150">Jahrzeit</term>
+    <term ref="key000049">Zehnt</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+    <div org="uniform" sample="complete">
+       <pb facs="StASG_AA_2a_A_01-04a_r"/>
+       <head>
+          <lb/>Die pfruͦnd <placeName ref="loc006042">Sax</placeName> hat umb den <lb/>zehenden zuͦ
+        <placeName ref="loc006121">Frümsen</placeName> kein andere <lb/>versicherung, als was im
+        <term ref="lem001884">jahrzytbuͦch</term>
+          <lb/>am 35. blatt staht mit disen worten:</head>
+    </div>
+    <div org="uniform" sample="complete">
+       <p>
+                     <lb/>Item es sol zuͦ wissen sin, das her <persName ref="per004526">Uͦlrich von
+                        Sax</persName> hat <lb/>gelassen by lebendigem lyb für sich und sin <term
+                        ref="lem000129">vatter</term> und <lb/><term ref="lem000292">muͦter</term>
+                     und alle sine vordren und nachkomen sin thail an <lb/>dem <term ref="lem000073"
+                        >zehend</term>en zuͦ <placeName ref="loc006121">Frümsen</placeName> ainem
+                        <term ref="lem000157">priester</term> zuͦ <placeName ref="loc006042"
+                        >Sax</placeName> mit <lb/>sölchem ding, das er sol das <term
+                        ref="lem000398.06">jarzit</term> begon mit acht <lb/>priestern <date
+                        dur="R/P1Y">järlich</date>en und acht <term ref="lem000916">messen</term>
+                     lassen han und <lb/>ainem jettlichen priester gen <measure type="currency"
+                        unit="ß" quantity="1">ain schillig</measure> und das <term ref="lem000938"
+                        >mal</term>. <lb/>Und wo es ain priester nitt begieng, sol des selben jars
+                     <lb/>der vorgenant zehenden sanct
+                           <persName ref="per001846">Mauricio</persName> gefallen sin
+                     <lb/>und sond dann die <term ref="lem001587">kilchenmayer</term> das jarzit
+                     begon in <lb/>wyß und maß wie ain <term ref="lem000678">luitpriester</term>.
+                     Und ist gesetzt <lb/>im <date when="1439">1439 jar</date>. </p>
+    </div>
+    <pb facs="StASG_AA_2a_A_01-04a_v"/>
+    <div org="uniform" sample="complete">
+       <ab type="dorsal" place="verso" hand="later hand">
+          <lb/>Außzug <lb/>auß dem jahrziten buch
+       <lb/>um der pfrund <placeName ref="loc006042">Sax</placeName> habende rechtsamme <lb/>zu dem
+        <placeName ref="loc006121">Frümßen</placeName>er zehenden. </ab>
+    </div>
+    <div org="uniform" sample="complete">
+       <ab place="verso" type="archiving reference">No. 1; 1; 1439 No. 4a</ab>
+    </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div n="1" org="uniform" sample="complete">
+            <p>Es handelt sich hier um einen Auszug aus dem 17. Jh. aus dem Jahrzeitbuch der <term ref="key000193">Pfründe</term>
+    <placeName ref="loc006042">Sax</placeName>. Das Jahrzeitbuch oder die Originalurkunde sind nicht mehr
+    erhalten. Zum <term ref="key000049">Zehnt</term> von <placeName ref="loc006121">Frümsen</placeName> vgl. auch
+    <ref>SSRQ_SG_III_4_040</ref>; Streitigkeiten zwischen den Angehörigen von <orgName ref="org001175">Sax</orgName> und
+    <orgName ref="org001786">Frümsen</orgName> mit ihrem Pfarrer wegen des Brennholzes und des Nusszehnts,
+     29.04.1746 (<ref>StAZH A 346.5, Nr. 346</ref>); Vergleich zwischen den Angehörigen von Sax und
+    Frümsen mit ihrem <term ref="key000301">Pfarrer</term> um den Zehnt (<ref>OGA Sax 07.12.1764</ref>).</p>
+         </div>
+         <div n="2" org="uniform" sample="complete">
+            <p>Am <date when="1609-05-02">2. Mai 1609</date> verkauft <persName ref="per004549a">Adriana
+      Franziska von Sax-Hohensax</persName> den <term ref="key003444">Kleinzehnt</term> von Frümsen,
+     der zur Pfründe Sax gehört, um 280 Gulden (<ref>StASG AA 2a U 25</ref>). Einige Jahre zuvor, am
+      <date when="1606-11-11">11. November 1606</date>, hat sie bereits den kleinen Zehnt von Sax um
+     650 Gulden verkauft (<ref>StASG AA 2a U 24</ref>).</p>
+         </div>
+      </back>
+   </text>
+</TEI>

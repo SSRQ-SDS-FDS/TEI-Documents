@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+    <persName>Sibylle Malamud</persName>
+    <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+    <persName>Sibylle Malamud</persName>
+    <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-04-18"/>
+            <date type="print"/>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+    <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+    <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_055_1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+    <msIdentifier>
+       <idno>OGA Weisstannen gelber Ordner (im mittleren Kasten)</idno>
+    </msIdentifier>
+    <head>Vidimus von 1589 des Kaufbriefs der Gebrüder Gubser von Terzen an die Gemeinde Haag über die Alpen Vermol und Gafarra</head>
+    <msContents>
+       <summary>
+          <p>Vor Jost von Bonstetten, Landvogt im Sarganserland, erscheint Josef Hagmann von Haag als Verordneter der Gemeinde und Nachbarschaft Haag und bittet den Landvogt, ihnen ihren alten, von Mathias Metzger und Ruprecht Zuckschwert besiegelten Kaufbrief über die Alpen Vermol und Gafarra im Sarganserland zu vidimieren. Jost von Bonstetten vidimiert folgende Kaufurkunde: Die Brüder Gubser, Hans, der Ältere, und Hans, der Jüngere, von Terzen verkaufen mit Zustimmung ihrer Ehefrauen Elisabeth Suter und Anna Hug Josef Imhag, Jakob Imhag, Ulrich Hagmann, Rudolf Ger sowie der ganzen Gemeinde und Nachbarschaft Haag die Alpen Vermol und Gafarra im Kirchspiel Mels mit allen Rechten für 100 Rheinische Gulden. Auf den Alpen liegt ein Zins von einem halben Viertel Schmalz Sarganser Mass und Gewicht, der jährlich am Martinstag nach Nidberg geliefert werden muss.</p>Der Aussteller siegelt.</summary>
+       <msItem>
+          <textLang>Deutsch</textLang>
+          <filiation type="original">
+             <origDate when="1462-03-08">am achten tag ze ingendem mertzen im jar da man zalt von der gepurt Cristi unßers herren vierzechen hundert sechtzig und im ander jar. Der Vidimus ist von 1589, der Kauf von 1462.</origDate>
+             <idno>OGA Weisstannen gelber Ordner (im mittleren Kasten)</idno>
+          </filiation>
+          <filiation type="current">Vidimus<origDate when="1589-09-28"/></filiation>
+       </msItem>
+    </msContents>
+    <physDesc>
+       <objectDesc>
+          <supportDesc>
+             <support>
+                <material>Pergament</material>
+             </support>
+             <extent>
+                <dimensions type="leaves">
+        <height unit="cm" quantity="24.5"/>
+        <width unit="cm" quantity="53.0"/>
+                </dimensions>
+                <dimensions type="plica">
+        <width unit="cm" quantity="3.5"/>
+                </dimensions>
+             </extent>
+          </supportDesc>
+       </objectDesc>
+       <sealDesc>
+          <seal n="1" ssrq:attachment="sealed on a parchment tag" ssrq:condition="damaged" ssrq:material="wax"><persName ref="per002174">Jost von Bonstetten</persName></seal>
+       </sealDesc>
+    </physDesc>
+    <history>
+       <origin>
+          <origDate when="1462-03-08"/>
+       </origin>
+    </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+    <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+    <term ref="key000006">Alp</term>
+    <term ref="key000369">Kauf</term>
+    <term ref="key003534">Gemeinde</term>
+    <term ref="key003871">auswärtiger Güterbesitzer</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <div org="uniform" sample="complete">
+                  <p>
+                     <seg>
+                        <lb/>Ich, <persName ref="per002174">Jost von Bonstetten</persName>, des
+                           <orgName ref="org001217">raths der statt Zürich</orgName>, der zyt miner
+                        gnedigen herren der <orgName ref="org001188">siben orthe</orgName>n der
+                           <orgName ref="org000531">Eiydtgnosschafft</orgName> lanndtvogt in
+                           <placeName ref="loc000120.53">Sannganßerland</placeName>e, bekhenn unnd
+                        thun khundt aller menigklichem <lb/>offenbar mit disem brieffe, daß uf hütt
+                        sines datto vor mir zu <placeName ref="loc000010">Sanganß</placeName>
+                        erschinen ist der ersam <persName ref="per004661a">Joß Hagman</persName> uß
+                        dem <placeName ref="loc000389">Hag</placeName> unnd mir in nammen sin selbst
+                        unnd gantzer <term ref="lem000133">gmeind</term> und <term ref="lem000971"
+                           >nachpurschafft</term> daselbst <lb/>im <placeName ref="loc000389"
+                           >Hag</placeName> fürgebracht, wie daß ire vordern die alp <placeName
+                           ref="loc000269.01">Vermal</placeName> unnd <placeName ref="loc000297.03"
+                           >Gaffaren</placeName> in <placeName ref="loc000120"
+                           >Sanganßerland</placeName>, myner <term ref="lem001859.07"
+                           >amptsverwaltung</term> glegen, an sich zogen und die luth eines darumb
+                        ufgerichten <term ref="lem000008">koufbrief</term>s, den er mir
+                        <lb/>erscheindt, erkoufft hetten. Diewyl aber söllicher koufbrief durch
+                           <term ref="lem004343">verwarloßung</term> der <term ref="lem002109"
+                           >siglen</term>
+                        <sic>mangehafftig</sic> worden unnd innen ald iren nachkommen dardurch
+                        schaden und nachtheil erwachßen möchte, so pätte er <lb/>mich innammen
+                        gantzer gmeind und nachpurschafft im <placeName ref="loc000389"
+                           >Hag</placeName> gantz dienstlich, innen davon gloublich <term
+                           ref="lem002888">vidimuß</term> zu geben <abbr>etc</abbr>. Sömlich zimlich
+                        pit ich angesechen unnd den koufbrief eigentlich besichtiget unnd alß ich
+                        den <lb/>allein an siglen etwaß mangelhafft und sonst an <term
+                           ref="lem001180.03">bermentgeschrifft</term> unnd inhaltung gerecht unnd
+                        on argwönig befunden, so hab ich den hernach von worth zu worth schryben
+                        unnd gegen disem vidimuß eigentlich <lb/>verleßen laßen. Unnd dasselb
+                        vorgemelten uß dem <placeName ref="loc000389">Hag</placeName> (sich deß nit
+                        minder dann deß rechten koufbriefs zu gebruchen) geben. Wellicher brief von
+                        worth zu worth also luttet, wie nach volgt:</seg>
+                     <seg>Wir, nachbenempten <lb/><persName ref="per004663">Hannß</persName>, der
+                        elter, und ich, <persName ref="per004664a">Hanß, der jünger, die
+                           Gupßer</persName> eelich gebrüder, wonhafft uf <placeName ref="loc000235"
+                           >Därtzen</placeName> in <placeName ref="loc006193.01"
+                           >Wallenstatt</placeName>er kilchspel, und wir, <persName ref="per004665b"
+                           >Elß Sutter</persName>in und <persName ref="per004666b">Ana
+                           Hug</persName>in, ir eelich husfrowen, vergächent offentlich und thund
+                        khundt <lb/>allen den, so disen brief jemer sechen, läßend oder hörend
+                        läßen, daß wir alle einhelligklich, gemeinlich, unverscheidenlich ze den
+                        zyten, tagen und an den stetten, do wir daß nach rath unßer <term
+                           ref="lem000128">fründen</term> und ander erber lüthen, <lb/>durch unßer
+                        und unßer aller erben bessers nutzes willen, mit allem rechten für unß und
+                        unßer aller erben krefftenklich wol gethun mochten, den frommen, erbern
+                        lütten, namlich <persName ref="per004672a">Joßen im Hag</persName>, der zyt
+                        mins <orgName ref="org000384">herren von <lb/>Sax</orgName>
+                        <term ref="lem000006">amman</term>, <persName ref="per004673a">Jäcklin im
+                           Hag</persName>, <persName ref="per004662">Ulrichen Hagman</persName>,
+                           <persName ref="per004667a">Rudolfen Ger</persName>en, denen und allen
+                        andern Haglüten und namlichen der gantzen <orgName ref="org001787">gmeind
+                           und nachpurschafft im Hag</orgName>, mannen und frowen, und allen iren
+                        nachkommen, so je <placeName ref="loc000389">im Hag</placeName>
+                        <lb/>wonhafft und geseßen sind, eins vesten, stetten, eewigen, ungevarlichen
+                        jemer werenden koufs mit mund und mit hand verkoufft und ze koufen geben
+                        habend mit aller gewarsamy und allen den worten und werchen und wie ein
+                           jet<lb break="no"/>licher handvester, stätter, eewiger kouf von billich
+                        und recht aller bast krafft und macht haben, vest und stätt belyben sol und
+                        mag, unnßer eigengut und <term ref="lem000306">alp</term>pen genant
+                           <placeName ref="loc000269.01">Vermal</placeName> und <placeName
+                           ref="loc000297.03">Gaffaren</placeName>, in <placeName ref="loc006194.01"
+                           >Melß</placeName>er <term ref="lem000394.16">kilchöri</term> gelegen,
+                        alles mit <lb/>grund und gradt, wun und weid, holtz und veld, stöckh und
+                        stein, berg und thaal, <term ref="lem013752.01">gädmer</term>n und <term
+                           ref="lem006116">gadenstetten</term>, <term ref="lem001604">stäflen</term>
+                        und hütten, gezimer und gemür, tach und gemach, waßer und wasserflüßen, mit
+                        stägen und wägen und schlechtenklich <lb/>mit allen und jetlichen unßern
+                        gerechtigkeiten, nutzen und zugehörden, benempts oder unbenempts, gantz und
+                        gar nütz ußgenommen, wie daß alles an unß kommen ist und wir es bißhar
+                        inhentz gehept, genutzet und genossen und herbracht <lb/>habend, alles für
+                        ledig, loß und frey <term ref="lem000807">eigengut</term>, ußgenommen <date
+                           dur="R/P1Y">jerlichs</date>
+                        <date type="deadline" when="--11-11">uf sant <persName ref="per000141"
+                              >Marti</persName>s tag</date>
+                        <measure type="volume" commodity="lard" quantity="0.5" unit="Viertel"
+                           origin="Sargans">ein halb fiertel schmaltz zinßes <placeName
+                              ref="loc000010">Sanganß</placeName>er mäß und gewicht</measure> gen
+                           <placeName ref="loc000557">Nidperg</placeName>
+                        <abbr>etc</abbr>.</seg>
+                     <seg>Und ist diser kouf also volfürt und beschechen umb <measure
+                           type="currency" origin="Rh" unit="fl" quantity="100">hundert <lb/><damage
+                              agent="fold"><supplied source="OGA Haag">gutter
+                              genemmer</supplied></damage> Rinscher guldin</measure> an gold, der
+                        wir, obgenanter verkoüffer, von den gemelten erbaren <orgName
+                           ref="org001787">lütten im Hag</orgName> güttlich in unßern <damage
+                           agent="fold"><supplied source="OGA Haag">schinbaren</supplied></damage>
+                        nutz und frommen ußgericht und bezalt worden sind. Und sagend sy all und all
+                        ir <damage agent="fold"><supplied source="OGA Haag">erben
+                           und</supplied></damage>
+                        <lb/>nachkommen deß alles für unß, all unßer erben und nachkommen derselben
+                        sum geltz gentzlich und allerdingen quit, ledig und loß in krafft diß
+                        briefs. Hierumb söllend und mögend nun hinfür die gemelten erbern <orgName
+                           ref="org001787">lüth im Hag</orgName>, die gantz gmeind <lb/>und
+                        nachpurschafft und all ir nachkommen und alle die, so im <placeName
+                           ref="loc000389">Hag</placeName> geseßen und wonhafft sind, jemer und
+                        eewigklich die obgeschriben alpen <placeName ref="loc000269"
+                           >Vermal</placeName> und <placeName ref="loc000297">Gaffaren</placeName>
+                        mit allen und jecklichen unßern rechten und zugehörden, alß vorstath,
+                        inhaben, <lb/>daß bruchen, nutzen und niessen, besetzen und entsetzen,
+                        versetzen und verkoufen und in all weg damit schafen, werben thun und laßen
+                        nach ir willen und noturfft und alß mit anderm irem eignen gut, one unßer
+                        aller und unßer aller erben <lb/>und mengklichs von unßert wegen sumen oder
+                        iren.</seg>
+                     <seg>Wan wir unß deß alles begeben und verzigen habend, begebend und verzichend
+                        unß ouch jetz wüssentlich in crafft diß briefs aller der recht,
+                        eigenschafft, lechenschafft, gerechtigkeit, vorderung <lb/>und ansprach, so
+                        wir, obgenanten verkoüfferen, darzu und daran je gehebt hand oder
+                        khünfftigklich wir oder unßer erben darzu jemmer gewünen, gehaben oder
+                        ufgeziechen möchtend, mit briefen, <term ref="lem000032">rödlen</term> oder
+                        andern <term ref="lem000582">khunt<lb break="no"/>schafft</term>en, in
+                        dehein wyß oder weg, ungevarlich in crafft diß briefs. Sonder so söllend und
+                        wellend wir, obgenanten verkoüffer, die <orgName ref="org000529"
+                           >Gupßer</orgName> gebrüder, wie die genanten ir eelich husfrowen und
+                        unßer aller erben <lb/>der gemelten erbern <orgName ref="org001787">lüten im
+                           Hag</orgName>, der gantzen gmeind und nachpurschafft und aller ir
+                        nachkommen dises redlichen koufs der obgenanten alpen mit ir zugehörd, alß
+                        vorstadt, recht, gut und gethrüw krefftig weren und <lb/>versprecher sin
+                        gegen aller mengklichem, vor geistlichen und weltlichen gerichten oder ußer
+                        gerichten, wo, wie oder gegen wem, also vil und dickh sy deß hinfür jemer
+                        bedürfend oder nottürfftig werden, alles nach <term ref="lem000597"
+                           >lantzrecht</term> on <lb/>iren costen und schaden, getrüwlich und on all
+                        widerred und gevärde.</seg>
+                     <seg>Und deß alles zu warem urkhund und stätten, vesten, imerwerenden
+                        sicherheit, so hand wir, vilgemelten verkoüfer, man und wyb, alle gemeinlich
+                        mit ernst er<lb break="no"/>bätten die fürsichtigen, wyßen <persName ref="per000454a"
+                           >Mathißen Metzger</persName>, <term ref="lem000449">landtaman</term> der
+                        grafschafft <placeName ref="loc000925">Sanganß</placeName>, und <persName
+                           ref="per004668">Ruprechten Zuckschwert</persName>, <term ref="lem000005.07"
+                           >schultheß</term> zu <placeName ref="loc000026">Wallenstath</placeName>,
+                        daß ir jetlicher sin eigen insigel (im und sinen erben on schaden) für unß
+                        und unßer erben <lb/>offentlich an disen brief gehenckt habend, darunder wir
+                        unß und unßer aller erben vestenklich bindend und verbindend und vergechend
+                        der warheit aller obgeschribner dingen. Und ist diser brief geben am
+                           <origDate when="1462-03-08">achten tag ze ingendem mertzen, <lb/>im jar
+                           do man zalt von der gepurt <persName ref="per000353">Cristi</persName>
+                           unßers herren vierzechenhundert sechtzig und im andern jar</origDate>
+                        <abbr>etc</abbr>.</seg>
+                     <seg>Unnd deß zu warem, vesten urkhundt aller obgeschribner ding, so hab ich,
+                        obgenanter landtvogt <persName ref="per002174">Jost von
+                           Bonstetten</persName>, <lb/>min eigen insigel (doch mir und minen erben<choice>
+                           <sic>)</sic>
+                           <corr/>
+                        </choice>, ouch obgedachten minen gnedigen herren an ir herligkeit, recht
+                        und gerechtigkeit in allweg on schädlich) offentlich gehenckt an disen
+                        brief, der geben ist, <origDate when="1589-09-28">donstags vor sant
+                              <persName ref="per000390">Michel</persName>ß tag <lb/>nach der gepurt
+                              <persName ref="per000353">Cristi</persName> gezelt tusent fünfhundert
+                           achtzig und nün jar</origDate>.</seg>
+                  </p>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab place="verso" type="dorsal" hand="hand15c">Vidimuß, <date when="1589"
+                        >1589</date></ab>
+               </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div n="1" org="uniform" sample="complete">
+            <p>Ende des <date from="1375" to="1400">14.</date>. und im <date from="1401" to="1500">15. Jh</date>. verschieben sich die <term ref="key000152">Eigentum</term>sverhältnisse der <term ref="key000006">Alp</term>en von <term ref="key003976">Grundherr</term>en zu Privaten und Gemeinden. Durch <term ref="key000027">Verpfändung</term>, <term ref="key000119">Erblehen</term> oder <term ref="key000369">Kauf</term> erwerben diese eigene Alpen vom jeweiligen Grundherren. Viele Gemeinden aus der
+     Grafschaft <placeName ref="loc000440">Werdenberg</placeName> bzw. den Freiherrschaften <placeName ref="loc000278">Sax-Forstegg</placeName> und <placeName ref="loc006040">Hohensax-Gams</placeName> kaufen auch Alpen in auswärtigen Gebieten, vorwiegend im <placeName ref="loc000120">Sarganserland</placeName> und zwar im <placeName ref="loc000838">Weisstannen</placeName>- und <placeName ref="loc000054">Calfeisental</placeName>. Der Kauf
+     der Alpen <placeName ref="loc000269">Vermol</placeName> und <placeName ref="loc000297">Gafarra</placeName> im Weisstannental durch die Gemeinde <placeName ref="loc000389">Haag</placeName> ist ein frühes Zeugnis des Erwerbs von auswärtigen Alpen durch eine
+     Gemeinde. Die Alp Gafarra bleibt in Besitz von Haag bis <date when="1890">1890</date>. Beim Kauf der Alp durch
+     Weisstannen wurde der Kaufbrief von Haag an Weisstannen übergeben. Im OGA Haag liegt noch eine
+     Kopie des Vidimus, die jedoch nicht auffindbar und nur als Fotokopie vorhanden ist
+     (Archiv besucht im Juni 2014). </p>
+         </div>
+         <div n="2" org="uniform" sample="complete">
+            <p>Weitere Alpkäufe im Sarganserland: Bereits vor <date when="1456">1456</date> besitzt die Gemeinde
+    <placeName ref="loc000708">Sevelen</placeName> neben den Alpen <placeName ref="loc006101.01">Imalschüel</placeName> und
+    <placeName ref="loc006102.01">Farnboden</placeName> in der Grafschaft <placeName ref="loc000440">Werdenberg</placeName> Teile der
+    Alp <placeName ref="loc000808">Valtüsch</placeName> im Weisstannental (vgl. <ref>SSRQ_SG_III_4_052</ref>). Belegt ist der Besitz
+    von <placeName ref="loc000198">Buchs</placeName> zusammen mit Sevelen an der Alp
+    Valtüsch <date when="1500">1500</date> in einem Streit mit <placeName ref="loc000155">Balzers</placeName> als Besitzerin der Alp
+    <placeName ref="loc000474">Lavtina</placeName> (<ref>OGA Sevelen U 1500</ref>; <ref>OGA Buchs
+      U 02</ref>). Noch heute sind die Ortsgemeinden Sevelen, Buchs und
+    <placeName ref="loc006121">Frümsen</placeName> Besitzerinnen der Alp Valtüsch.</p>
+         </div>
+         <div n="3" org="uniform" sample="complete">
+            <p><date when="1504">1504</date> besitzt <placeName ref="loc000211">Gams</placeName>
+               bereits Anteile an der Alp <placeName ref="loc000055">Sardona</placeName> im
+               Calfeisental (<bibl>OGA Gams Nr. 33</bibl>) und <date when="1526">1526</date> kaufen
+               mehrere Gamser die Alp <placeName ref="loc006195">Calanda</placeName> im <placeName
+                  ref="loc000229">Taminatal</placeName> vom Kloster <placeName ref="loc000001"
+                  >Pfäfers</placeName> (<bibl><ref
+                  target="http://scope.stiftsarchiv.sg.ch/detail.aspx?id=678">StiAPf Urk.
+                  06.03.1526</ref></bibl>; zu den Alpen der Gamser im Calfeisental siehe die zahlreichen
+               Dokumente im OGA Gams so z. B. <bibl><ref>OGA Gams Nr. 40; 46; 47a; 50; 52; 60; 61</ref></bibl>).
+                  <date when="1511">1511</date> und <date when="1513">1513</date> kauft <persName
+                  ref="per004669a">Hans Metzger</persName> von Buchs Alpstösse im Calfeisental
+               (<bibl><ref>OGA Gams Nr. 34 und Nr. 36</ref></bibl>). <date when="1529">1529</date> erwerben
+                  <persName ref="per004670a">Hans Burli</persName> von <placeName ref="loc000691"
+                  >Salez</placeName> und <persName ref="per004671">Stefan Tinner</persName> von
+                  <placeName ref="loc000950">Sennwald</placeName> die Alp <placeName ref="loc006196"
+                  >Brunegg</placeName> im Weisstannental (<bibl><ref
+                     target="https://query-staatsarchiv.lu.ch/detail.aspx?ID=1296466">StALU PA Good
+                     1993/1/106/1, Dossier Alpen Lasa, Stich etc</ref></bibl>). Die Alpgenossen der
+               Alp <placeName ref="loc000247">Tüls</placeName> im Weisstannental stammen <date
+                  when="1599">1599</date> aus <placeName ref="loc000691">Salez</placeName>
+                     (<bibl><ref target="https://query-staatsarchiv.lu.ch/detail.aspx?id=1296477"
+                     >StALU PA Good 1993/1/106/12, Dossier Alp Siez I</ref></bibl>, gedruckt in
+                     <bibl><ref
+                     target="https://www.ssrq-sds-fds.ch/online/SG_III_2/index.html#p_671">SSRQ SG
+                        III/2.2, Nr. 189a</ref></bibl>). Nach Reich kaufen bereits <date when="1486">1486</date> einige Salezer
+               Alpstösse auf der Alp Tüls; 12 Stösse auf der Alp gehören den Freiherren von <orgName
+                  ref="org000384">Sax-Hohensax</orgName> bzw. später <orgName ref="org001196"
+                  >Zürich</orgName> (<bibl><ref target="http://permalink.snl.ch/bib/chbsg000150285"
+                     >Reich 2001</ref>, S. 23–30</bibl>; <ref>SSRQ_SG_III_4_158</ref>). Der
+               Erwerb der Alp Scheibs durch Alpgenossen von <placeName ref="loc006042"
+                  >Sax</placeName>, die <date when="1571">1571</date> zusammen mit Personen aus dem
+                  <placeName ref="loc000842">Gaster</placeName> ein Alpbuch
+                  (<bibl><ref>SSRQ_SG_III_4_140</ref></bibl>) erstellen, ist nicht bekannt. Zur Alp
+                  <placeName ref="loc000684">Scheibs</placeName> vgl. <bibl><ref
+                  target="https://query-staatsarchiv.lu.ch/detail.aspx?id=1296475">StALU PA Good
+                     1993/1/106/10, Dossier Alp Scheibs</ref></bibl>; <bibl><ref>SSRQ_SG_III_4_158</ref></bibl>;
+               Literatur: <bibl><ref target="http://permalink.snl.ch/bib/chbsg000150286">Reich 2000</ref>,
+                     S. 40–44</bibl>.</p>
+            <p>Zum Besitz auswärtiger Alpen vgl. <bibl><ref
+                     target="http://permalink.snl.ch/bib/chbsg000142773">Litscher 1919</ref>,
+                     S. 28–31</bibl>; <bibl><ref
+                     target="http://permalink.snl.ch/bib/chbsg000150285">Reich 2001</ref>, S.
+                  23–30</bibl>; <bibl><ref target="http://permalink.snl.ch/bib/chbsg000150286">Reich
+                     2000</ref>, S. 40–44</bibl>. Einen Einblick in den Besitz der Alpstösse
+               auswärtiger Personen im Sarganserland bietet ein Verzeichnis von <date when="1784"
+                  >1784</date> (<bibl><ref>OGA Mels Nr. 247c</ref></bibl>).</p>
+         </div>
+         <div n="4" org="uniform" sample="complete">
+            <p>Im 17. Jh. erweitert die Gemeinde Haag ihre Alpen Gafarra und Vermol um die dortige
+                  <placeName ref="loc000728">Schwarzplangg</placeName> (OGA Haag, 24.05.1602) und
+               den Oberen <placeName ref="loc000581.02"> Bungert</placeName> (OGA Haag, 23.06.1620;
+               OGA Weisstannen gelber Ordner). Zu Konflikten der Haager Alpgenossen mit Weisstannen
+               vgl. <bibl><ref target="https://www.ssrq-sds-fds.ch/online/SG_III_2/index.html#p_673"
+                     >SSRQ SG III/2.2, Nr. 189b</ref></bibl>. </p>
+         </div>
+         <div n="5" org="uniform" sample="complete">
+            <p>Zu Alpkäufen in der Region <placeName ref="loc000962">Werdenberg</placeName> vgl. <ref>SSRQ_SG_III_4_045</ref>. </p>
+         </div>
+      </back>
+   </text>
+</TEI>

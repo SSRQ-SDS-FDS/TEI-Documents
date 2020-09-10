@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+
+
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+
+			</titleStmt>
+
+			<publicationStmt>
+				<date type="electronic" when="2019-10-14"/>
+				<date type="print"/>
+			</publicationStmt>
+
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ_FR_I_2_8_0088_004</idno>
+			</seriesStmt>
+
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<idno>StAFR, Thurnrodel 13, S. 418–419</idno>
+					</msIdentifier>
+					<head>Marguerite Renevey-Huguenot – Verhör / Interrogatoire</head>
+					<msContents>
+						<summary></summary> 
+						<msItem>
+							<textLang>fr</textLang> 
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support>
+									<material></material>
+								</support>
+								<extent>
+									<dimensions type="leaves">
+										<height unit="cm" quantity="0.0"/>
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+									<dimensions type="plica">
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+								</extent>
+							</supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate when="1637-07-29"/>
+							<origPlace></origPlace>
+						</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc> 
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+			<particDesc default="false"/>
+			<settingDesc default="false"/>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="418"/><p><lb/><placeName ref="loc008105">Keller</placeName>
+							
+							<seg><lb/><origDate when="1637-07-29">29 <foreign xml:lang="la">julii</foreign> 1637</origDate>, <foreign xml:lang="la"><choice><abbr>jud</abbr> <expan>judex</expan></choice></foreign> <abbr>h</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per011527">Beat Jakob von Montenach</persName>.</note></seg>
+							<seg><lb/><abbr>H</abbr> <persName ref="per009267a.01">Brodardt</persName>, <abbr>h</abbr> <persName ref="per006816"><choice><abbr>F</abbr><expan>Franz</expan></choice> Gottrow</persName><!-- Franz II --></seg>
+							<seg><lb/><persName ref="per011519">Techterman</persName>, <persName ref="per009462">Gribolet</persName>, <persName ref="per011521a.01">Heylman</persName></seg>
+							<seg><lb/><persName ref="per011523a.01">Wildt</persName></seg>
+							<seg><lb/><choice><abbr>W</abbr><expan>Weibel</expan></choice></seg></p>
+							
+						<p><lb/><persName ref="per011815a.01">Marguerite Rinevey</persName>, femme de 
+							<lb/><persName ref="per011816a.01">Huguenaud</persName> d’<placeName ref="loc007598.05">Ottigny</placeName>, enquise pourquoy elle 
+							<lb/>tenoit prison, a respondu n’en sçavoir la raison, 
+							<lb/>qu’elle estoit venue pour achepter des <term>fri<lb break="no"/>tenges</term><note>Le sens de ce mot demeure incertain&#160;; un rapprochement avec <term ref="lem016204">fruitage</term> peut être envisagé.</note> pour quatre riches dames de <placeName ref="loc007657">Lucens</placeName>. 
+							<lb/>Interrogee si elle n’avoit cy devant tenu prison, 
+							<lb/>a dict qu’ouy, en ceste ville au <placeName ref="loc007594">Rosey</placeName>, mais <subst><del>qu’u</del>
+							<lb/><add place="inline">seullement</add></subst> une nuict. Item a <placeName ref="loc008048.06">Corbieres</placeName>, a 
+							<lb/>l’occasion de <persName>Charles Barrat</persName>, de <placeName ref="loc007928">Trey<lb break="no"/>vaux</placeName>, qui avoit semé un bruict qu’elle avoit 
+							<lb/>faict la <term ref="lem018102.02">gresle</term>. Enquise si elle n’avoit des 
+							<lb/>soeurs, a dict qu’ouy, assavoir une nommee 
+							<lb/><persName>Jeanne</persName>, qui estoit marriee a <persName>Steinman</persName>, 
+							<lb/>ne sçachant ou ce que l’autre est devenue. 
+						<pb n="419"/><lb/>Si elle n’avoit esté bannie, a respondu qu’ouy, 
+							<lb/>mais qu’on luy avoit <term ref="lem015635.10">baillé</term> ceste liberté d’aller 
+							<lb/>ça et la pour traffiquer et gaigner sa vie. 
+							<lb/>Elle dict qu’elle a son marry en vie, qu’elle 
+							<lb/>a demeuré <date dur="P3Y">3 ans</date> a <placeName ref="loc008116.04">Avry</placeName> chez <persName>Gros Jaques</persName>, 
+							<lb/>qu’elle gaignoit sa vie en portant du pain d’espi<lb break="no"/>ce a <placeName ref="loc005708.03">Gruyere</placeName> et au <placeName ref="loc006003.05">Chasteau d’Ay</placeName>.<note>Le passage qui suit concerne le procès mené contre <persName ref="per011982">Barbli Bodmer</persName>. Voir <ref>SSRQ_FR_I_2_8_0100_005</ref>.</note></p>
+						
+					</div>
+				</body>
+				
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+
+<?oxy_options track_changes="on"?>

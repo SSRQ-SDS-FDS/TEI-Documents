@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     n="1234"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="headerinfo"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2020-08-17"/>    <date type="print"/>
+    <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Collection des sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des
+      sources
+      du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS_NE_3_439</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>AVN B 101.14.002, fol. 71r–72r</idno>
+               </msIdentifier>
+               <head>Caractère définitif de l’arbitrage</head>
+               <msContents>
+                  <summary>Lorsque deux personnes décident par écrit et devant notaire de soumettre
+                     un différend à l’arbitrage, la décision de l’arbitre est définitive et absolue
+                     et il n’est plus possible d’aller en justice.</summary>
+                  <msItem>
+                     <textLang>français</textLang>
+                     <filiation type="current"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="34.5"/>
+                              <width unit="cm" quantity="22"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1764-11-10"/>
+                     <origPlace ref="loc007786">Neuchâtel</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head/>
+                     <bibl/>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000025"/>
+               <term ref="key000275"/>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="71r" facs="AVN_B_101.14.002_0071r"/>
+               <div>
+                  <p>
+                     <lb/>Du <origDate when="1764-11-10">10<hi rend="sup">e</hi> novembre <hi
+                           rend="underline">1764</hi></origDate>. </p>
+                  <p>
+                     <lb/>Sur la requête de <choice>
+                        <abbr>M<hi rend="sup">r</hi>
+                        </abbr>
+                        <expan>monsieur</expan>
+                     </choice>
+                     <persName ref="per008700">Charles Guy</persName>, maire <lb/>de <placeName
+                        ref="loc007789">la Sagne</placeName>, présentée à messieurs les <orgName
+                        ref="org003119">Quatre <lb/>Ministraux</orgName> aux fins d’avoir la
+                     déclaration <lb/>de la coutume du pays sur le cas suivant. </p>
+                  <p>
+                     <lb/>Assavoir, si les parties ayant soumis des <lb/>difficultés à la décision
+                     absolue et définitive <lb/>d’arbitres qu’elles se sont choisis elles mêmes
+                     <lb/>et si l’une de ces parties, se trouvant grévées <lb/>de la prononciation
+                     desdits arbitres, n’a pas <lb/>
+                     <add place="below" type="catchword">le</add>
+                     <pb n="71v" facs="AVN_B_101.14.002_0071v"/>
+                     <lb/>le bénéfice d’en demander révision avec d’autres <lb/>arbitres adjoints
+                     aux premiers. </p>
+                  <p>
+                     <lb/>Sur quoi messieurs du <orgName ref="org003085">Conseil</orgName>
+                     <hi rend="underline">et de la justice</hi>, ayant <lb/>meurement délibéré, il a
+                     été dit qu’on donneroit <lb/>au suppliant la copie de la déclaration du <date
+                        when="1684-04-02">2<hi rend="sup">e</hi>
+                        <lb/>avril 1684</date><note>Voir <ref>SDS_NE_3_297</ref>.</note> qui <add place="above">luy</add> servira de réponse,
+                     laquelle porte. </p>
+                  <p>
+                     <lb/>Sur la requête présentée par <persName ref="per008793">Henry
+                        Meuron</persName> bourgeois <lb/>de <placeName ref="loc007786"
+                        >Neufchatel</placeName>, par devant monsieurs le maître <choice>
+                        <abbr>bourgs</abbr>
+                        <expan>bourgeois</expan>
+                     </choice>
+                     <lb/>et <orgName ref="org003085">Conseil Étroit de <choice>
+                           <abbr>la<hi rend="sup">de</hi>
+                           </abbr>
+                           <expan>ladite</expan>
+                        </choice> Ville de <placeName ref="loc007786"
+                        >Neufchatel</placeName></orgName>, le <date when="1684-04-02">2<hi
+                           rend="sup">e</hi>
+                        <lb/>avril 1684</date>, tendante aux fins d’avoir le point <lb/>de coutume
+                     suivant. </p>
+                  <p>
+                     <lb/>Assavoir si lorsque deux personnes par un compromis <lb/>fait entr’elles,
+                     stipulé même par main de <lb/>notaire, et redigé par écrit, ont soumis un
+                     <lb/>différent à l’arbitrage et décision des personnes <lb/>que les parties
+                     nommeront, ou qu’un <choice>
+                        <abbr>Seig<hi rend="sup">r</hi>
+                        </abbr>
+                        <expan>seigneur</expan>
+                     </choice> officier <lb/>ordonnera d’office, s’il ne faut pas que <choice>
+                        <abbr>led<hi rend="sup">t</hi>
+                        </abbr>
+                        <expan>ledit</expan>
+                     </choice>
+                     <lb/><choice>
+                        <sic>compris</sic>
+                        <corr>compromis</corr>
+                     </choice> soit absolu et définitif <choice>
+                        <sic>pouvoire</sic>
+                        <corr>pour ne pouvoir</corr>
+                     </choice> pas <lb/>s’en déporter dans la suitte. </p>
+                  <p>
+                     <lb/><choice>
+                        <abbr>Mesd<hi rend="sup">ts</hi>
+                        </abbr>
+                        <expan>Mesdits</expan>
+                     </choice>
+                     <choice>
+                        <abbr>S</abbr>
+                        <expan>sieurs</expan>
+                     </choice> du <orgName ref="org003085">Conseil</orgName> ayant eu advis et meure
+                     <lb/>préméditation par ensemble, baillent par <lb/>déclaration, suivant la
+                     coutume usitée en la <lb/>souveraineté de <placeName ref="loc007785"
+                        >Neufchatel</placeName> de père à fils, et de <lb/>tous tems immémorial
+                     jusqu’à présent la coutume <lb/>estre telle, suivant même une déclaration déjà
+                     <lb/>rendue le <date when="1629-10-20">20<hi rend="sup">e</hi>
+                        <choice>
+                           <abbr>8<hi rend="sup">bre</hi>
+                           </abbr>
+                           <expan>octobre</expan>
+                        </choice> 1629</date><note>Voir <ref>SDS_NE_3_095</ref>.</note>, et encore
+                     un autre déjà <lb/>rendue le <date when="1629-09-03">3<hi rend="sup">e</hi>
+                        septembre 1662</date><note>Voir <ref>SDS_NE_3_183</ref>.</note>. Assavoir
+                     que <lb/>quand deux personnes ont fait un compromis <lb/>définitif ayant soumis
+                     leur différend sur des <lb/>personnes choisies par les parties, ou ordonnées
+                     <lb/>par le <choice>
+                        <abbr>Seig<hi rend="sup">r</hi>
+                        </abbr>
+                        <expan>seigneur</expan>
+                     </choice> officier, il ne s’en peuvent aucunement <lb/>dédire pour rentrer en
+                     justice, ni révoquer <lb/>ce qu’a été ordonné par les sieurs arbitres, si ce
+                     <lb/>n’est par le mutuel consentement d’ambes parties. <lb/>Par ainsy ont
+                     seulement le bénéfice de reveue <lb/><add place="below" type="catchword"><hi
+                           rend="underline">jusqu’à</hi></add>
+                     <pb n="72r" facs="AVN_B_101.14.002_0071r"/>
+                     <lb/>jusqu’à la tierce avec d’autres arbitres <lb/>adjoints aux premiers. </p>
+                  <p>
+                     <lb/>Ce qu’a été ordonné à moy secrétaire de Ville <lb/>d’expédier en cette
+                     forme, sous le sceau de la mairie <lb/><choice>
+                        <abbr>dud<hi rend="sup">t</hi>
+                        </abbr>
+                        <expan>dudit</expan>
+                     </choice>
+                     <placeName ref="loc007786">Neufchatel</placeName>, et signature de ma
+                     main&#160;; <choice>
+                        <abbr>aud<hi rend="sup">t</hi>
+                        </abbr>
+                        <expan>audit</expan>
+                     </choice>
+                     <lb/><origPlace ref="loc007785">Neufchatel</origPlace>, le <origDate
+                        when="1764-11-10">10<hi rend="sup">e</hi>
+                        <choice>
+                           <abbr>9<hi rend="underline">bre</hi>
+                           </abbr>
+                           <expan>novembre</expan>
+                        </choice> 1764</origDate>. </p>
+               </div>
+               <div>
+                  <signed>
+                     <persName ref="per008687"><choice>
+                           <abbr>A</abbr>
+                           <expan>Abraham</expan>
+                        </choice> Renaud</persName>
+                     <figure type="notarial sign"/></signed>
+               </div>
+            </body>
+         </text>
+      </group>
+   </text>
+</TEI>

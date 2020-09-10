@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     n="1234"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="headerinfo"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2020-08-17"/>    <date type="print"/>
+    <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Collection des sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS_NE_3_471</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>AVN B 101.14.002, fol. 92r</idno>
+               </msIdentifier>
+               <head>Barre contre un Fribourgeois</head>
+               <msContents>
+                  <summary>Aucune barre ou saisie de meubles ne peut être accordée, même contre un
+                     étranger et en particulier contre un citoyen du canton de Fribourg, à moins
+                     qu’elle ne soit demandée en vertu d’un titre reconnu et d’exécution parée. </summary>
+                  <msItem>
+                     <textLang>français</textLang>
+                     <filiation type="current"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="34.5"/>
+                              <width unit="cm" quantity="22"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1821-09-25"/>
+                     <origPlace ref="loc007786">Neuchâtel</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head/>
+                     <bibl/>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000027"/>
+               <term ref="key000366"/>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="92r" facs="AVN_B_101.14.002_0092r"/>
+               <div>
+                  <p>
+                     <add place="left margin" hand="later hand">Livré une <lb/>copie à <choice>
+                           <abbr>M<hi rend="sup">r</hi>
+                           </abbr>
+                           <expan>monsieur</expan>
+                        </choice>
+                        <lb/>
+                        <persName ref="per008779">Wavre</persName> du <orgName ref="org003085"
+                           >Petit <lb/>Conseil</orgName> et avocat <lb/>le <date when="1832-01-28">28 <choice>
+                              <abbr>jan</abbr>
+                              <expan>janvier</expan>
+                           </choice> 183<unclear>2</unclear>
+                           <lb/>1832</date>
+                     </add><lb/>L’an <origDate when="1821-09-05"
+                        >mil huit cent vingt-un, le <lb/>vingt-cinquième jour du mois de septembre</origDate>, le <orgName
+                        ref="org003085">Petit Conseil <lb/>de la Ville de <placeName
+                           ref="loc007786.07">Neuchâtel</placeName></orgName> en <placeName
+                        ref="loc001012.09">Suisse</placeName> étant assemblé dans l’<origPlace
+                        ref="loc007793"
+                        >hôtel <lb/>de cette ville</origPlace>, sous la présidence de monsieur <persName
+                        ref="per008775"
+                        >Samuel de <lb/>Chaillet</persName>, maître bourgeois en chef&#160;; lecture a été faite d’une <lb/>requête du sieur <persName
+                        ref="per008780"
+                        >Abram Verdan</persName>, bourgeois de cette ville, <lb/>par laquelle il supplie le <orgName
+                        ref="org003085"
+                     >Conseil</orgName> de bien vouloir lui donner <lb/>une déclaration de la coutume usitée en cette principauté <lb/>sur les deux points suivans, savoir&#160;: </p>
+                  <p><lb/>1<hi rend="sup">o</hi>. Si, d’après les lois ou coutumes du pays, une <term ref="lem014996">barre</term> peut <lb/>être accordée dans cet État pour une prétention non
+                     fondée en <lb/>titres contre un étranger, par exemple contre un Fribourgeois&#160;?</p> <p><lb/>2<hi rend="sup">o</hi>. Si la <term ref="lem014996">barre</term> s’accorderoit contre un Fribourgeois qui auroit
+                     <lb/>des propriétés immeubles dans ce pays&#160;? </p>
+                  <p><lb/>Surquoi, après mur examen &amp; délibération, <orgName ref="org003085">messieurs du <lb/>Petit
+                        Conseil</orgName> ont dit &amp; déclaré&#160;: </p>
+                  <p><seg><lb/>Que d’après la coutume suivie de toute ancienneté et de <lb/>père en fils dans cette
+                     principauté,</seg> <seg>aucune barre ou saisie <lb/>de meubles ne peut être accordée, même contre un
+       étranger &amp; <lb/>en particulier contre un citoyen du canton de
+       <placeName ref="loc001060">Fribourg</placeName>, qu’autant <lb/>qu’elle est demandée en vertu d’un titre
+        reconnu &amp; d’exécution <lb/>parée. Ce qui répond aux deux questions ci-dessus.</seg>
+                  </p>
+                  <p><lb/>Laquelle déclaration étant ainsi rendue, il a été ordonné au
+                     <lb/>soussigné secrétaire du Conseil de l’expédier en cette forme, <lb/>sous le
+                     sceau de la mairie &amp; justice de cette Ville, à <lb/>
+                     <origPlace ref="loc007786">Neuchâtel</origPlace> les an, mois &amp; jour que
+                     dessus, <origDate when="1821-09-25">25<hi rend="sup">e</hi>
+                        <choice>
+                           <abbr>7<hi rend="sup">bre</hi>
+                           </abbr>
+                           <expan>septembre</expan>
+                        </choice> 1821</origDate>. </p>
+                  <p><lb/>Par ordonnance.
+       <lb/>Le secrétaire du Conseil
+      </p>
+               </div>
+               <div>
+                  <lb/>
+                  <signed>
+                     <persName ref="per008600">
+                        <choice>
+                           <abbr>G<hi rend="sup">ge</hi>.</abbr>
+                           <expan>George</expan>
+                        </choice>
+                        <choice>
+                           <abbr>F<hi rend="sup">c</hi>.</abbr>
+                           <expan>Frédéric</expan>
+                        </choice> Gallot</persName>
+                     <figure type="notarial sign"/>
+                  </signed>
+               </div>
+            </body>
+         </text>
+      </group>
+   </text>
+</TEI>

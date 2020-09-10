@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+    <persName>Sibylle Malamud</persName>
+    <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+    <persName>Sibylle Malamud</persName>
+    <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2018-10-30"/>
+            <date type="print"/>
+            <availability><p xml:id="facs">Sibylle Malamud</p></availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+    <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+    <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_066</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+    <msIdentifier>
+       <idno source="https://query-staatsarchiv.lu.ch/detail.aspx?ID=1109198">StALU URK 206/2981</idno>
+    </msIdentifier>
+    <head>Burgrecht von Wilhelm VIII. von Montfort-Tettnang mit Zürich</head>
+    <msContents>
+       <summary>
+          <p>Wilhelm VIII. von Montfort-Tettnang urkundet, dass er vor einiger Zeit für zehn Jahre als Bürger der Stadt Zürich aufgenommen worden sei und jetzt mit seinem Schloss, der Stadt und der ganzen Grafschaft Werdenberg mit Leuten, Gütern und aller Zubehör zu ihrem ewigen Bürger aufgenommen werde. Wilhelm kann das ewige Burgrecht mit 600 Gulden auflösen. Bei der Vereidigung eines neu gewählten Burgvogts muss eine Gesandtschaft der Stadt Zürich anwesend sein.</p>Der Aussteller siegelt.</summary>
+       <msItem>
+          <textLang>Deutsch</textLang>
+          <filiation type="current">Original</filiation>
+       </msItem>
+    </msContents>
+    <physDesc>
+       <objectDesc>
+          <supportDesc>
+             <support>
+                <material>Pergament</material>
+             </support>
+             <extent>
+                <dimensions type="leaves">
+        <height unit="cm" quantity="37.0"/>
+        <width unit="cm" quantity="54.0"/>
+                </dimensions>
+                <dimensions type="plica">
+        <width unit="cm" quantity="7.0"/>
+                </dimensions>
+             </extent>
+          </supportDesc>
+       </objectDesc>
+       <sealDesc>
+          <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI"
+                n="1"
+                nontei:material="wax with margin"
+                nontei:shape="round"
+                nontei:condition="well-preserved"
+                nontei:attachment="sealed on a parchment tag">
+             <persName role="sigillant" ref="per000884a">Graf Wilhelm VIII. von Montfort-Tettnang</persName>
+          </seal>
+       </sealDesc>
+    </physDesc>
+    <history>
+       <origin>
+          <origDate when="1475-10-25"/>
+       </origin>
+    </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+    <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+    <term ref="key000263">Burgrecht</term>
+    <term ref="key003765">Offenhaltung</term>
+    <term ref="key000565">Schutz</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <div org="uniform" sample="complete">
+                  <pb facs="StALU_URK_206-2981_r"/>
+                  <p>
+                     <seg>
+                        <lb/>Wir, <persName ref="per000884a">Wilhelm, gräffe von Montfort und herre
+                           zuͦ Werdemberg</persName>
+                        <abbr>etc</abbr>, tuͦnd kunt allermengklichem und verjechent offenlich mit
+                        disem brieff, als u̍ns vor ettwas jären die <lb/>fu̍rsichtigen, fromen und
+                        wisen, der <orgName ref="org002406">burgermeister, die raͤtt und burgere,
+                           der statt Zu̍rich</orgName>, unser besundern, guten fru̍nd, mit u̍nserm
+                           <placeName ref="loc000015">schloß</placeName>, u̍nser <placeName
+                           ref="loc000016">statt</placeName> und u̍nser gantzen <placeName
+                           ref="loc000440">gräff<lb break="no"/>schafft Werdemberg</placeName> mit
+                        lu̍ten und mit guͦte und aller zuͦgehoͤrung <term ref="lem005304">zechen
+                           järe</term> zuͦ einem <term ref="lem000227">burger</term> uffgenomen und
+                        empfangen habent, wie das die brieff, darumb einandern <lb/>beidersite
+                        gegeben, zoͤigent. Das demnach wolbedächtenklich u̍ns, vorgenanten gräff
+                           <persName ref="per000884a">Wilhelmen von Montfort</persName>, und alle
+                        u̍nser erben und nachkomen die obgenanten unser ge<lb break="no"/>tru̍wen
+                        fru̍nde zuͦ <orgName ref="org002406">Zurich</orgName> mit u̍nserm <placeName
+                           ref="loc000015">schloß</placeName>, u̍nser <placeName ref="loc000016"
+                           >statt</placeName> und u̍nser gantzen gräfschafft <placeName
+                           ref="loc000440">Werdemberg</placeName> mit lu̍ten und mit guͦt und aller
+                        zuͦgehoͤrung zuͦ irem ewigen burger <lb/>uffgenomen und empfangen habent,
+                        wie das hienach von einem an das ander geschriben stāt:</seg>
+                     <seg n="1">Des ersten, das wir, derselb grāff <persName ref="per000884a"
+                           >Wilhelm</persName>, u̍nser erben und nachkomen mit <lb/>der obgenanten
+                        u̍nser herschafft <placeName ref="loc000440">Werdemberg</placeName>, <term
+                           ref="lem000376">schloß</term>, <term ref="lem000184">statt</term>, lu̍ten
+                        und guͦt und aller zuͦgehoͤrung der obgeseiten u̍nser fru̍nden von <orgName
+                           ref="org002406">Zu̍rich</orgName> ewiger burger nach ir <term
+                           ref="lem000584">statt recht</term>, <lb/>wie ir <term ref="lem001958"
+                           >stattbuͦch</term> das wiset, sin soͤllent und wellent. Und ouch wir,
+                        derselb grāff <persName ref="per000884a">Wilhelm</persName>, einen <term
+                           ref="lem000070">eid</term>e zuͦ gott und den heiligen gesworn habent,
+                        fu̍r u̍ns, u̍nser erben und <lb/>nachkomen den egenempten u̍nsern fru̍nden
+                        von <orgName ref="org002406">Zu̍rich</orgName> mit u̍nserm egenanten schloß,
+                        u̍nser statt und u̍nser gantzen grāfschafft <placeName ref="loc000440"
+                           >Werdemberg</placeName> mit lu̍ten und guͦt und <lb/>aller zuͦgehoͤrung
+                        gehorsam und gewertig ze sind und damit und in soͤlichem ewigen burgrecht
+                        deheinen andern <term ref="lem000286">schirm</term>, <term ref="lem002844"
+                           >burgrecht</term> noch <term ref="lem000955">landtrecht</term> gen
+                        niemant an <lb/>u̍ns zenement und ouch dehein endrung mit verpfenden,
+                        versetzen noch verkouffen mit dem fu̍rtzenement noch ze tuͦnde, denn mit
+                        derselben u̍nser fru̍nden zuͦ Zu̍rich <lb/>wissen, willen und <term
+                           ref="lem005936.09">verhengnu̍sse</term>.</seg>
+                     <seg>Und doch, so habent u̍nser fru̍nd von <orgName ref="org002406"
+                           >Zu̍rich</orgName> u̍ns, grāff <persName ref="per000884a"
+                           >Wilhelm</persName>en vorgenant, u̍nsern erben und nachkomen in soͤlichem
+                        zuͦ gelāssen und <lb/>verwilliget, ob wir fu̍rbaßhin deheinest nach gestalt
+                        und gelegenheit u̍nser und ir geschaͤfften, wie die je zuͦ ziten an inen
+                        selbs werint, ir burger nit sin und bliben <lb/>moͤchtent oder woͤltent, das
+                        wir, u̍nser erben und nachkomen inen das mit <measure type="currency"
+                           unit="fl" quantity="600">sechs hundert guldin</measure>, inen und iren
+                        nachkomen die also bar ze betzalent und zegebent, uffgeben <lb/>und sy das
+                        also von u̍ns uffnëmen soͤltent und das ewig burgrecht by crefften beliben
+                        und bestān, alle diewile und inen die <measure type="currency" unit="fl"
+                           quantity="600">sechs hundert guldin</measure> nit betzalt und ussgericht
+                        <lb/>werint.</seg>
+                     <seg n="2">Zuͦ dem andern, ob u̍nser obgenanten fru̍nd von <orgName
+                           ref="org002406">Zu̍rich</orgName> und ir nachkomen von ir oder der iren
+                        wegen fu̍rbaßhin deheinest ze schaffent, gewunnent oder <lb/>hettent, das sy
+                        des egenanten u̍nsers <term ref="lem000376">schloß</term> und der <term
+                           ref="lem000184">statt</term>
+                        <placeName ref="loc000440">Werdemberg</placeName> dartzuͦ notturfftig ze
+                        bruchent wërent, das inen die dartzuͦ <term ref="lem014547">offen sin</term>
+                        und sy die zuͦ iren und der <lb/>iren noͤten und geschaͤfften wol bruchen
+                        moͤgent in irem costen und ān u̍nsers, des vorgenanten gräff <persName
+                           ref="per000884a">Wilhelm</persName>s, und u̍nser erben und nachkomen
+                        mercklichen schaden. <lb/>Und doch sy in das schloß <placeName
+                           ref="loc000015">Werdemberg</placeName> nit mer legen, denn iren <term
+                           ref="lem008485.20">hōptman</term>
+                        <term ref="lem014723.02">selbtritt</term>, es wurde sich denn begeben, das
+                        die iren alle des schlosses darin zekoment not<lb break="no"/>turffig sin
+                        wurdent, das denn sy alle darin gelassen werden und darinne in irem costen
+                        und u̍ns unwuͦstlich und unschedlich sin soͤllent.</seg>
+                     <seg n="3">Zuͦ dem dritten, ob wir, vorge<lb break="no"/>nanter grāff
+                           <persName ref="per000884a">Wilhelm</persName>, u̍nser erben und nachkomen
+                        oder die u̍nsern obgemelt zuͦ u̍nsern anligenden geschaͤfften der obgeseiten
+                        u̍nser guͦten fru̍nden von <orgName ref="org002406">Zu̍rich</orgName>
+                        <term ref="lem000581">bott<lb break="no"/>schafft</term>, u̍ns die zuͦ
+                        zeschickent, deheinest begertent, das sy u̍ns die an end und stett, dahin sy
+                        die sorgenhalb bringen moͤgent, in unserm costen lihen und zuͦ geben
+                        soͤllent, <lb/>u̍ns das beste zuͦ rāten und zuͦ helffen und wie sy die
+                        andern iren burgern ouch zuͦgebent und lihent.</seg>
+                     <seg n="4">Zuͦ dem vierden, ob wir, obgenanter gräff <persName ref="per000884a"
+                           >Wilhelm</persName>, ald die <lb/>u̍nsern oder unser erben und nachkomen
+                        in werung dis ewigen burgrechtz, wie obstät, hinfu̍r zuͦ u̍nsern noͤten und
+                        geschaͤfften u̍nser dickgenanten fru̍nden von <orgName ref="org002406"
+                           >Zu̍rich</orgName>
+                        <lb/><term ref="lem000714">hilffe</term> notturfftig wurdent, das sy u̍ns
+                        die in u̍nserm oder der u̍nsern costen zuͦ schicken und tuͦn soͤllent, wie
+                        sy je zuͦ ziten bedunckt, das wir des notturfftig sigint und <lb/>an der
+                        hilffe, so u̍ns also zuͦschickent, wir ouch der zite ein benuͤgen haben. Und
+                        das sy u̍ns, obgenant, also als ir burger getru̍wlich schu̍tzen und schirmen
+                        soͤllent und <lb/>wellent, wie sy ander ir burger schirment und schu̍tzent,
+                        ye nach irem besten vermugen und ungevarlichen.</seg>
+                     <seg n="5">Zuͦ dem fu̍nfften, das wir, vorgenanter grāff <persName
+                           ref="per000884a">Wilhelm</persName>, <lb/>u̍nser erben und nachkomen den
+                        egenanten u̍nsern fru̍nden von <orgName ref="org002406">Zu̍rich</orgName>
+                        von disem ewigen burgrecht, wie obstāt, jerlich uff <date type="deadline"
+                           when="--11-11">sant Martis tag</date> zuͦ <term ref="lem000209"
+                           >stu̍re</term> geben soͤllent <measure type="currency" unit="fl"
+                           quantity="20" origin="Rh">zwentzig <lb/>guͦter Rinscher guldin</measure>
+                        ir statt secklern als zuͦ ir statt handen ān iren costen und schaden. Und
+                        das jetz uff sant <persName ref="per000141">Marti</persName>s tag nëchst
+                        koment beschechen und in die ewikeit <lb/>angefangen zuͦ geben werden. Und
+                        damit wir inen <term ref="lem008749">jerlich</term> gentzlich gestu̍ret
+                        haben und u̍ns von inen dehein ander oder merer stu̍re uffgelegt werden
+                        sol.</seg>
+                     <seg n="6">Zuͦ dem sechsten, <lb/>das wir, egenanter gräff <persName
+                           ref="per000884a">Wilhelm</persName>, einen <term ref="lem000041"
+                           >vogt</term>
+                        <term ref="lem003551">erkiesen</term> und setzen moͤgent, wenn und wen wir
+                        wellent, und doch mit dem underscheid, wenn wir einen vogt in <term
+                           ref="lem000070">eyd</term>e u̍ns ze<lb break="no"/>swerent nëment, das
+                        wir denn u̍nser vorgenanten guͦten fru̍nden von <orgName ref="org002406"
+                           >Zu̍rich</orgName> bottschafft daby zuͦ gegne haben und wir demselben
+                        vogt allwegen in den eyd gegeben werden <lb/>lāssen soͤllent, u̍nser
+                        obgenant schloß, statt und herschafft <placeName ref="loc000440"
+                           >Werdemberg</placeName> nach u̍nserm <term ref="lem005098">abgang</term>
+                        zuͦ der edeln, wolgebornen fröwen, frōw <persName ref="per004818b.01"
+                           >Menten von Montfort</persName>, geborn von <lb/>Hewen, <term
+                           ref="lem014724.02">frygin</term>, u̍nsers lieben elichen gemachels, nach
+                        ir verschribungen, ouch u̍nser beider <term ref="lem000130">kinden</term>
+                        zuͦ irem <term ref="lem004486.04">vaͤtterlich</term>en <term
+                           ref="lem001446.02">erb</term>e und u̍nserm verlāßnen guͦt und u̍nsern
+                        <lb/>vorgenanten fru̍nden von <orgName ref="org002406">Zu̍rich</orgName>,
+                        ouch zuͦ irem rechten, dis burgrechts halben handen und gewalt innzeheben
+                        und also zebehalten, getru̍wlich än alle arglist und unge<lb break="no"
+                           />varlich.<note anchored="true">Die Herrschaft inklusive Burgrecht bzw.
+                           Bestimmungen des Burgrechts gehen an die Erben über.</note></seg>
+                     <seg n="7">Zuͦ dem sibenden, ob wir, obgenanter grāff <persName
+                           ref="per000884a">Wilhelm</persName>, by u̍serm leben yemant die
+                        obgenanten herschafft in der gestalt und, wie obstāt, u̍ber <lb/>und in
+                        gebint, das denn die selben dis ewig burgrecht nach siner begriffung ze
+                        halten und zevolfuͤrent sweren soͤllent, wie das von u̍ns, grāff Wilhelmen,
+                        beschëchen ist <lb/>und das die denn demnach daby beliben soͤltent.</seg>
+                     <seg n="8">Zuͦ dem achttenden, ob wir, obgenanter gräff <persName
+                           ref="per000884a">Wilhelm</persName>, u̍nser erben und nachkomen mit den
+                        u̍nsern einer gemeind <lb/>ald ein <term ref="lem006896">gemeind</term> mit
+                        u̍ns oder ir nachkomen zweytraͤchtig und uneins wurdent, da gott vor sin
+                        welle, das wir darumb einandern vor unsern obgeseiten fru̍nden, <orgName
+                           ref="org002406">burgermeister <lb/>und rātt zuͦ Zu̍rich</orgName>, eins
+                        rechten und ußtrags sin und des sy sich nach u̍nser beider teilen verhoͤrung
+                        erkennent und sprechent, daby beliben und dem nachgän und das voll<lb
+                           break="no"/>fuͤren und halten soͤllent und wellent ān fuͤrer ziechen und
+                        wegern und än widerred.</seg>
+                     <seg n="9">Zuͦ dem nu̍nden, ob wir, obgenempter gräff <persName
+                           ref="per000884a">Wilhelm</persName>, u̍nser erben und <lb/>nachkomen zuͦ
+                        den u̍nsern in der obgenanten unser herschafft gesessen als zuͦ <term
+                           ref="lem001574.11">sundern personen</term>, einer oder mer, zuͦ sprechen
+                        hettent oder gewunnent, das wir die vor u̍nserm <lb/><term ref="lem000804"
+                           >stab</term> fu̍rnëmen und das da berechtigen lässen soͤllent und
+                        wellent. Und ob sunder und eintzig personen, eine oder mer, zuͦ u̍ns ze
+                        sprechen hettent oder gewunnent, das wir <lb/>mit inen des vor u̍nsern
+                        geswornen raͤten fu̍rkomen und inen da rechtz gestatten und sin wellent und
+                        soͤllent.</seg>
+                     <seg n="10">Zuͦ dem zechenden, das u̍ns, vorgenanten grāff <lb/><persName
+                           ref="per000884a">Wilhelm</persName>en, die egeseiten u̍nser fru̍nd von
+                           <orgName ref="org002406">Zurich</orgName> by dem obgeschribnen burgrecht
+                        und artikeln und by unser jetzigen gewaltigen regierung u̍nser <term
+                           ref="lem002426.03">leptag</term> und nach <lb/>u̍nserm <term
+                           ref="lem000233">tod</term>, ouch u̍nser erben und nachkomen hanthaben,
+                        schu̍tzen und beschirmen soͤllent und wellent, mit guͦten tru̍wen und ān
+                        all argliste und in allweg unge<lb break="no"/>varlich und als ander ir
+                        getru̍wen und lieben burger.</seg>
+                     <seg n="11">Und zuͦ dem einlifften, so habent wir, vorgenanter grāff <persName
+                           ref="per000884a">Wilhelm</persName>, in disem burgrecht u̍ns <lb/>selbs
+                        vorbehept und uns u̍nser fru̍nde von <orgName ref="org002406"
+                           >Zu̍rich</orgName> ussgelāssen den eyde, so wir dem <placeName
+                           ref="loc000672.08">heiligen Roͤmischen rich</placeName> als ein <term
+                           ref="lem000003.14">grāff</term> des <term ref="lem000127">richs</term>
+                        getān hand, was u̍ns der <lb/>von des richs wegen bindet, und doch in ander
+                        wege disem burgrecht, wie das da ob von einem an das ander geschriben stāt,
+                        gentzlich unschëdlich.</seg>
+                     <seg>Und <lb/>zuͦ wārem und vestem urku̍nd aller vorgeschribner dingen, so
+                        habent wir, obgenanter grāff <persName ref="per000884a">Wilhelm</persName>,
+                        u̍nser insigel fu̍r u̍ns und u̍nser erben und nachkomen, <lb/>die wir
+                        dartzuͦ vestenklich verbindent, offenlich lassen hencken an disen brieff,
+                        der geben ist uff <origDate when="1475-10-25">mittwuchen vor sant <orgName
+                              ref="org001531">Symon und Judas</orgName> tag, der <lb/>heiligen
+                           zwoͤlffbotten, als man zalt nach der gepurt <persName ref="per000353"
+                              >Cristy</persName>, u̍nsers herren, viertzechenhundert sibentzig und
+                           fu̍nff jāre</origDate>. </seg>
+                  </p>
+               </div>
+               <pb facs="StALU_URK_206-2981_v"/>
+               <div org="uniform" sample="complete">
+                  <ab place="verso" type="dorsal" hand="hand15c">
+                     <lb/>Herren grave <persName ref="per000884a">Wilhelmms von Mondtfort zuͦ
+                        Werdemmbeͣrg</persName>
+                     <lb/>burgrecht, so er mit uns von <orgName ref="org002406">Zu̍rich</orgName>
+                     hant</ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab place="verso" type="archiving reference">
+                     <lb/><date when="1475">1475</date>;
+                     <lb/>N. 1</ab>
+               </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div n="1" org="uniform" sample="complete">
+            <p>Das <term ref="key000263">Burgrecht</term>
+    <persName ref="per000884a">Wilhelms VIII. von Montfort-Tettnang</persName>, Herr von
+     Werdenberg, mit <orgName ref="org001196">Zürich</orgName> dient als Beispiel vieler
+     Burgrechtsbriefe, die von <term ref="key003793">Adeligen</term> in der Region <placeName ref="loc000962">Werdenberg</placeName> mit einem <term ref="key003063">eidgenössischen
+      Ort</term> eingegangen wurden. Die vorliegende Urkunde ist vor allem deshalb interessant, weil
+     sie ausführliche <term ref="key000341">Artikel</term> zu den gegenseitigen <term ref="key000200">Pflicht</term>en und <term ref="key000005">Recht</term>en des abgeschlossenen
+     Burgrechts enthält. Für Zürich bedeutet die Burgrechtsbeziehung eine erhöhte militärische,
+     politische und rechtliche Einflussnahme im Gebiet Werdenberg durch die <term ref="key003765">Offenhaltung</term> von <placeName ref="loc000015">Burg</placeName> und Stadt <placeName ref="loc000016">Werdenberg</placeName>, durch die Gegenwart bei der <term ref="key000245">Vogtwahl</term> sowie durch die Entscheidungsgewalt bei <term ref="key003343">Konflikten</term> zwischen dem Graf und seinen Gemeinden, nicht jedoch bei Konflikten
+     zwischen Graf und <term ref="key004731">Privat</term>personen. Im Gegenzug gewährt Zürich dem
+     Grafen bei Bedarf die Unterstützung durch ihre <term ref="key000209">Gesandten</term> sowie
+     militärischen und rechtlichen <term ref="key000565">Schutz</term> (zum Burgrecht allgemein vgl.
+      <ref target="http://www.hls-dhs-dss.ch/textes/d/D9829.php">HLS, Burgrecht</ref>).</p>
+         </div>
+         <div n="2" org="uniform" sample="complete">
+            <p>Nach dem Tod von Graf Wilhelm VIII. von Montfort-Tettnang tritt als sein Nachfolger
+                  <date when="1483-06-02">am 2. Juni 1483</date> sein «Schwiegersohn», Graf
+                  <persName ref="per000643">Johann Peter von Sax-Misox</persName>, nach der
+               Übernahme der Grafschaft <placeName ref="loc000440">Werdenberg</placeName> mit Zürich
+               in ein Burgrecht. Die Urkunde enthält den inserierten Burgrechtsbrief von Graf
+               Wilhelm VIII. von Montfort-Tettnang (<ref
+                  target="https://query-staatsarchiv.lu.ch/detail.aspx?id=1109206">StALU URK
+                  207/2986</ref>). Die späteren Burgrechtsurkunden sind viel knapper formuliert.</p>
+         </div>
+         <div n="3" org="uniform" sample="complete">
+            <p>Frühere Burg- oder <term ref="key003816">Landrecht</term>e: Am <date
+                  when="1405-07-06">6. Juli 1405</date> tritt <persName ref="per004650b">Elisabeth
+                  von Sax-Hohensax</persName>, geborene Gräfin von Werdenberg-Sargans, in das
+               Landrecht mit <orgName ref="org001889">Appenzell</orgName> und übergibt die Burg
+                  <placeName ref="loc006124">Hohensax</placeName> (<bibl><ref
+                     target="http://permalink.snl.ch/bib/chbsg000135621">UBSG, Bd. 4</ref>,
+                  Nr. 2345</bibl>; <bibl><ref target="http://permalink.snl.ch/bib/chbsg000135628"
+                     >Zellweger, Urkunden</ref>, Bd. 1/2, Nr. 176</bibl>). Am <date
+                  when="1434-11-24">24. November 1434</date> nimmt Zürich <persName ref="per004819a"
+                  >Kaspar von Bonstetten</persName>, dessen Vater bereits Zürcher Bürger war, mit
+               den Burgen <placeName ref="loc006924.01">Uster</placeName> und <placeName
+                  ref="loc006124">Hohensax</placeName> mit all seinen Leuten und Gütern in ein
+               ewiges Bürgerrecht auf (<bibl><ref
+                     target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=434285">StAZH C I,
+                     Nr. 265</ref></bibl>). Am <date when="1488-03-30">30. März 1488</date> tritt
+                  <persName ref="per001640">Ulrich VIII. von Sax-Hohensax</persName> in ein
+               Burgrecht mit Zürich (<bibl><ref>StASG AA 2 U 11</ref></bibl>). Weitere Burgrechte
+               der <orgName ref="org000384">Sax-Hohensaxer</orgName> sowie allgemein zum Burgrecht
+               mit Zürich vgl. <bibl><ref>StAZH A 346.1.1, Nr. 38</ref></bibl>; <bibl><ref>StASG AA
+                     2 U 30a</ref></bibl> (<persName ref="per004426">Ulrich Philipp von
+                  Sax-Hohensax</persName>); <bibl><ref>LAAI B.I:76</ref></bibl>; <bibl><ref
+                     target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=251247">StAZH C I,
+                     Nr. 3222</ref></bibl> (<persName ref="per004582">Johann Philipp</persName> mit
+               seinen Brüdern); <bibl><ref>A 346.2.1, Nr. 100</ref>; <ref>B III 65,
+                  fol. 397r</ref></bibl> (<persName ref="per004774">Friedrich Ludwig von
+                  Sax-Hohensax</persName>).</p>
+         </div>
+         <div n="4" org="uniform" sample="complete">
+            <p>Burgrechte der Herren der Grafschaft Werdenberg mit <orgName ref="org001195"
+                  >Luzern</orgName>: <bibl><ref target="http://permalink.snl.ch/bib/chbsg000142777"
+                     >Senn, Chronik</ref>, S. 99–102 (28.03.1493)</bibl>; <bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/4b003d2889d1443c971101aac0c7ae43"
+                     >LAGL AG III.2424:001a</ref> (06.10.1498)</bibl>. Nach dem Kauf der Grafschaft
+               Werdenberg durch Glarus bezahlt <orgName ref="org001197">Glarus</orgName> jährlich
+               der Stadt Luzern 15 Gulden Bürgerrechtsgeld. Ab Mitte des <date from="1640" to="1660"
+                  >17. Jh.</date> erhöht sich das Bürgerrechtsgeld auf 33 Gulden (vgl. dazu die
+               Quittungen von Luzern in der Schachtel <ref>LAGL AG III.2414:003–034</ref>). </p>
+         </div>
+         <div n="5" org="uniform" sample="complete">
+            <p>Nicht nur Adelige, sondern auch <term ref="key000445">Landleute</term> einer
+    Herrschaft schliessen Burg- und Landrechte ab: Vgl. z. B. das Burgrecht der
+    Landsgemeinde <placeName ref="loc000120">Sarganserland</placeName> mit Zürich vom
+       <date when="1436-12-21">21. Dezember 1436 </date> im <term ref="key000513">Alten
+       Zürichkrieg</term> (<ref
+       target="https://www.ssrq-sds-fds.ch/online/SG_III_2/index.html#p_111">SSRQ SG
+       III/2.1, Nr. 47</ref>). 1405 treten Leute der <orgName ref="org000384"
+       >Sax-Hohensaxer</orgName> zusammen mit dem unteren <placeName ref="loc000648"
+       >Rheintal</placeName> in den von <orgName ref="org002174">Appenzell</orgName>
+    geleiteten <orgName ref="org002978">
+       <term ref="key003788">Bund ob dem See</term>
+    </orgName> ein: In der Urkunde vom <date when="1405-10-16">16. Oktober 1405</date>
+    werden u. a. <orig>die enthalb <placeName ref="loc000644.14">Reihns</placeName>,
+          <placeName ref="loc006042">Sax</placeName> halb zu in gehören, zu <placeName
+          ref="loc000211">Gambs</placeName> und anderswo</orig> als dem Bund zugehörige
+               Leute genannt (<ref>VLA 1611</ref>; vgl. dazu <bibl><ref target="http://permalink.snl.ch/bib/chbsg000150354">Bilgeri 1968</ref>,
+                  S. 46</bibl>; <bibl><ref target="
+                     http://permalink.snl.ch/bib/chbsg000044942">Burmeister
+          2005</ref>, <ref target="http://doi.org/10.5169/seals-405402">S. 10–26</ref></bibl>; <bibl><ref
+          target="http://permalink.snl.ch/bib/chbsg000080293">Deplazes-Haefliger
+          1976</ref>, S. 111</bibl>).</p>
+         </div>
+      </back>
+   </text>
+</TEI>

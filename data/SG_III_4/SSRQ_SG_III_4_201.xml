@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-08-15"/>
+            <date type="print"/>
+            <availability><p xml:id="facs">Sibylle Malamud</p></availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_201</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno source=" https://archivverzeichnis.gl.ch/home/#/content/e47b109b603d4a9baf57ec77273aaada">LAGL AG III.2430:012</idno>
+                  <altIdentifier>
+                     <idno>LAGL VI. 297a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <head>Protokollauszug einer Gerichtssitzung im Etter (Etterzeitgericht) in Wartau betreffend den Streit zwischen Ammann Hans Ulrich Müller und Weibel Jakob Sulser wegen eines Wegrechts</head>
+               <msContents>
+                  <summary>
+                     <p>Protokoll einer Gerichtssitzung, gehalten vom Werdenberger Landvogt Bartholome von
+                    			Paravicini im Etter in Gretschins. Landammann Hans Ulrich Müller mit Beistand von Ammann
+                     			Zogg klagt gegen Weibel Jakob Sulser, dass er im Frühling und Sommer in die ehemaligen
+                    			Hanfgüter der Pfründe fahre, obwohl er kein Recht dazu habe. Der Beklagte antwortet, dass
+                    			bereits sein Vater durch diese Hanfgüter gefahren sei. Urteil: Da die Hanfländer nicht
+                    			immer der Pfründe gehört haben und man der Gemeinde den kleinen Zehnt wegen des neuen
+                     			Weingartens erlassen habe und anstelle desselbigen die Gemeinde diese Güter der Pfründe
+                     			übergab, würde man sie gerne heute gütlich einigen. Geht das nicht, sollen die Parteien
+                     			nach Brauch vor die drei Männer gewiesen werden, die dann einen Spruch ausgeben sollen.
+                    			Akzeptieren sie den nicht, soll man eine Besichtigung mit beiden Obrigkeiten vornehmen.
+                    			Auszug aus dem Ettergerichtsprotokoll in Wartau.</p>
+                  </summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <author role="scribe"><persName ref="per002684a">Fridolin Luchsinger</persName>, Landschreiber</author>
+                     <filiation type="original">
+                        <origDate when="1691-02-04"/>
+                        <origPlace>Schloss Werdenberg</origPlace>
+                        <idno></idno>
+                     </filiation>
+                     <filiation type="current">Auszug (Doppelblatt, 2 Seiten beschrieben)</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="33.5"/>
+                              <width unit="cm" quantity="21.5"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1790-01-05"/>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000283">Etter</term>
+               <term ref="key000151">Niedergericht</term>
+               <term ref="key000302">Spruchbrief (Urteil)</term>
+               <term ref="key000728">Weg</term>
+               <term ref="key000606">Wegrecht</term>
+               <term ref="key000951">Hanfländer</term>
+               <term ref="key000807">Pfründgut</term>
+               <term ref="key000193">Pfründe</term>
+               <term ref="key000025">Schiedsgericht</term>
+               <term ref="key001117">Schiedsspruch</term>
+               <term ref="key000057">Gericht</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <div org="uniform" sample="complete">
+                  <p>
+                     <pb n="1r–1v"/>
+                     <gap reason="irrelevant"/><note>Dem Protokollauszug voraus geht ein Auszug aus
+                        dem Urbar von Werdenberg über die Gerichtsordnung von Wartau (vgl. die
+                        beiden Artikel im Urbar von 1754, gedruckt in <bibl><ref
+                              target="https://www.ssrq-sds-fds.ch/online/SG_III_2/index.html#p_642"
+                              >SSRQ SG III/2, Nr. 178b, Art. IV–V</ref></bibl>).</note>
+                  </p>
+                  <pb n="2r" facs="LAGL_AG_III.2430_012_2r"/>
+                  <p>
+                     <seg>
+                        <head>
+                           <lb/>Extractus prottocolli</head>
+                     </seg>
+                     <lb/>Den <origDate when="1691-02-04">4.<hi rend="sup">ten</hi> hornung anno
+                        1691</origDate> hat unser <abbr>g</abbr> herr <lb/><choice>
+                        <abbr>ldtvogt</abbr>
+                        <expan>landtvogt</expan>
+                     </choice>, <abbr>h</abbr>
+                     <persName ref="per002279a">Bartholome Paravicin von Capell</persName>, <lb/>das
+                        <term ref="lem015756.02">etterzeit gricht</term> gehalten worden:</p>
+                  <p>
+                     <lb/>Herr ammann <persName ref="per009939a">Hanß Ulrich Müller</persName> mit bejstand
+        <lb/>herr <choice>
+                        <abbr>ldtamman</abbr>
+                        <expan>landamman</expan>
+                     </choice>
+                     <persName ref="per009547a">Zokhen</persName> klagend wegen der <term ref="lem015757.02">pfrund<lb break="no"/>hanpferen</term> über <term ref="lem000043">waibel</term>
+                     <persName ref="per009940a">Jacob Sulsern</persName>, daß er über <lb/>selbige <term ref="lem002766">frühling</term> oder <term ref="lem002757">somerszeit</term> farre, gros
+        schaden <lb/>tüge, also vermeinen sie nit, daß er gewalt haben, <lb/>solliche <term ref="lem002543">wegsamme</term> zugebrauchen, seiten weilen ab dem <lb/>guth, so ehr
+        dadurch fare, seige vor diesem ein <term ref="lem000500">stadel</term>
+                     <lb/>gestanden, solle dem nächsten den <term ref="lem014496">eheweg</term> ze farren und
+        <lb/>nit mehr durch ermelte <term ref="lem015758.02">hanpferen</term> oder solle brief
+        <lb/>und sigell ufweisen, daß er solliche wegsamme habe <lb/>oder aber rechtlich
+        abgewisen.</p>
+                  <p>
+                     <lb/><abbr>H</abbr>
+                     <term ref="lem000043">weibel</term>
+                     <persName ref="per009940a">Jacob Sulser</persName> gibt in antwurth, sein
+                     <lb/>herr <term ref="lem000129">vatter</term> seige allezeit durch ermelte
+                        <term ref="lem015758.02">hanpferen</term>
+                     <lb/>gefaren dem unschädlichsten nach, hofe, mann werde <lb/>inen weiters
+                     fahren laßen oder aber man solle <lb/>ime ein andern <term ref="lem000173"
+                        >weeg</term> zeigen.</p>
+                  <head>
+                     <lb/>
+                     <term ref="lem001289">Urthell</term>
+                  </head>
+                  <p>
+                     <seg>
+                        <lb/>entzwuschent herr <term ref="lem000373">schloßamman</term>
+                        <persName ref="per009939a">Hanß Ulrich Müllers</persName>
+                        <lb/>mit bejstand herr <choice>
+                           <abbr>ldtamman</abbr>
+                           <expan>landtamman</expan>
+                        </choice>
+                        <persName ref="per009547a">Johann Zoghen</persName>, clägeren, <lb/>eins,
+                        anders theils antwurthgeber herr <term ref="lem000043">weibell</term>
+                        <lb/><persName ref="per009940a">Jacob Sulser</persName>.</seg>
+                     <seg>Nach verhörter clag, antwurth, <lb/>red und widerredt hat sich der richter
+                        und ein ehrsamm <lb/>gricht uff den eidt zu recht erkänt, daß seinteweilen
+                        <lb/>die <term ref="lem015758.02">hanpferen</term> nit alle zeit der <term
+                           ref="lem000367">pfrund</term> gehört habe und <lb/><abbr>sek</abbr>, daß
+                        man der gemeindt der <term ref="lem006415">klein zehenden</term> wegen <pb
+                           n="2v" facs="LAGL_AG_III.2430_012_2v"/>
+                        <lb/>dem neüen <term ref="lem000164">weingerth</term> gelaßen worden<note
+                           anchored="true">Vgl. dazu den sogenannten Weingartenbrief von <date
+                              when="1625">1625</date> (Kopien: <bibl><ref
+                                 target="https://archivverzeichnis.gl.ch/home/#/content/b0ac11358c914a8ea68f007eab188666"
+                                 >LAGL AG III.2430:013</ref>, S. 23–24</bibl>;
+                                 <bibl><ref>OGA Wartau</ref>, Nr. 9</bibl>, gedruckt bei <bibl><ref
+                                 target="http://permalink.snl.ch/bib/chbsg000067077">Reich-Langhans,
+                                 Chronik</ref>, S. 138–140</bibl> und <bibl><ref>Graber,
+                                 Urkundensammlung</ref>, Nr. 45</bibl>).</note> und anstatt
+                        <lb/>desselbigen die gmeindt solche <term ref="lem015757.03">pfrund
+                           hanpferen</term>
+                        <lb/>der pfrundt zugestelt hat, sähe man gern, daß <lb/>mann heütiges tags
+                        wegen ires habenden streits <lb/>sich freünd- und gütlich verglichen. Wann
+                        aber die <lb/>güte nit fruchten wolte, sollend die parthejen danne <lb/>nach
+                        den bräuchen für die <num value="3">3</num> mann gewisen sejn und
+                        <lb/>deßentwegen ein <term ref="lem001131">spruch</term> thun. Wan dan der
+                        ußspruch den <lb/>parthjen nit anemlich wäre, sollen danne beiderseits
+                              <lb/>obri<subst><del>k</del>
+                           <add place="overwritten">g</add></subst>keiten uf den <term
+                           ref="lem003214">augenschein</term> keren und inen ein <lb/>ußspruch über
+                        diesere sach thun, was sie recht und <lb/>billich dunkh.</seg>
+                  </p>
+                  <p>
+                     <lb/>Extrahirt, schloss <origPlace ref="loc000015">Werdenberg</origPlace>, den
+                        <origDate when="1790-01-05">5. jenner 1790</origDate>, <lb/>aus dem <term
+                        ref="lem015759.02">etter grichtsprottocoll</term>
+                     <lb/>zu <placeName ref="loc000827">Warthauw</placeName>. <lb/><persName
+                        ref="per002684a">Fridolin Luchsinger</persName>, <lb/>landtschreiber </p>
+               </div>
+               <pb facs="LAGL_AG_III.2430_012_v"/>
+               <div org="uniform" sample="complete">
+                  <ab type="dorsal" place="verso" hand="hand18c">
+                     <lb/>Extractus <lb/>aus dem
+       <term ref="lem015759.03">ettergrichts
+       <lb/>prottocoll</term>
+                     <lb/>zu <placeName ref="loc000827">Warthauw</placeName>
+                  </ab>
+               </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div n="1" org="uniform" sample="complete">
+            <p>Der Auszug des sogenannten «Etterzeitgerichts» wurde deshalb ausgewählt, weil kaum
+               noch Protokolle dieses Gerichts erhalten und keine Gerichtsprotokollbücher vorhanden
+               sind. Die Bussen des «Etterzeitgerichts» sind in den Landvogtrechnungen enthalten
+               (vgl. z. B. <bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/10251c247ff0407b895f7a82038803ee"
+                     >LAGL AG III.2469:023</ref>, S. 13</bibl>). Der Auszug ist auch deshalb
+               interessant, da er das Verfahren eines <term ref="key000025">Schiedsgerichts</term>
+               ausserhalb eines <term ref="key003037">Gerichtsverfahren</term> zeigt: Scheitert eine
+               gütliche Einigung, sollen nach alter Sitte drei Männer (einer Flur- bzw.
+               Baukommission) darüber entscheiden. Akzeptieren die Parteien das <term
+                  ref="key000302">Urteil</term> nicht, sollen die beiden Obrigkeiten (<orgName
+                  ref="org001197">Glarus</orgName> und die das <placeName ref="loc000925"
+                  >Sarganserland</placeName> regierenden <orgName ref="org001188">sieben
+                  Orte</orgName>) urteilen. Zu diesem Rechtsstreit vgl. auch das Schreiben des
+               Landvogts von <date when="1689">1689</date> (<bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/3238cd061c984436aaa46186934f3720"
+                     >LAGL AG III.2465:034</ref></bibl>). – Zum Verfahrensablauf von
+               nachbarrechtlichen Streitigkeiten auf der Zürcher Landschaft vgl. <bibl><ref
+                     target="http://permalink.snl.ch/bib/chbsg000030951">Sutter 2002</ref>,
+                  S. 216–224</bibl>.</p>
+         </div>
+         <div n="2" org="uniform" sample="complete">
+            <p>Das «Etterzeitgericht» ist ein zur Herrschaft <placeName ref="loc000827"
+                  >Wartau</placeName> gehöriges <term ref="key000151">Niedergericht</term> innerhalb
+               des <term ref="key000283">Etters</term>
+               <placeName ref="loc000309">Gretschins</placeName>. <date when="1515">1515</date>
+               werden die <term ref="key000494">Kompetenzen</term> des Gerichts auf <term
+                  ref="key000940">Eigengüter</term>, <term ref="key000920">Erbschaften</term> sowie
+               auf einen <term ref="key000184">Bussenbetrag</term> bis zu <measure quantity="3"
+                  type="currency" unit="lb">drei Pfund</measure> festgelegt (<bibl><ref
+                     target="https://www.ssrq-sds-fds.ch/online/SG_III_2/index.html#p_423">SSRQ SG
+                     III/2, Nr. 128</ref></bibl>). Laut den späteren <term ref="key000122"
+                  >Urbaren</term> (<date when="1581">1581</date> und <date when="1754">1754</date>)
+               unter Glarner Herrschaft besteht das Gericht aus fünf Rechtsprechern, zu denen bei
+               Bedarf noch zwei weitere Richter aus <placeName ref="loc000440"
+                  >Werdenberg</placeName> hinzugezogen werden können. Diese halten jährlich zwei
+               Tage Gericht und richten über Güter, Lehen und Eigen sowie über Frevel und <term
+                  ref="key000184">Bussen</term> innerhalb des Etters bis drei Pfund (vgl. dazu
+               ausführlich <bibl><ref
+                     target="https://www.ssrq-sds-fds.ch/online/SG_III_2/index.html#p_636">SSRQ SG
+                     III/2, Nr. 178</ref></bibl>).</p>
+            <p>Bisher ging die Literatur davon aus, dass der Wartauer <term ref="key000202"
+                  >Schlossammann</term> den Vorsitz des <term ref="key001042">Zeitgerichts</term>
+               innehat (<bibl><ref target="http://permalink.snl.ch/bib/chbsg000038423">Graber
+                     2003</ref>, S. 108</bibl>; <bibl><ref
+                     target="http://permalink.snl.ch/bib/chbsg000142793">Winteler 1923</ref>, S.
+                  125</bibl>). Nach dem Wartauer Etterbuch lässt der Landvogt nicht nur das
+               Etterzeitgericht verkünden, sondern er hält auch wie im vorliegenden Auszug von <date
+                  when="1667">1667</date> selbst Gericht: <orig><gap/> hatt herr landtvogt <persName
+                     ref="per009317">Paulus</persName> im <term ref="lem000629.05">ätter</term>
+                  <term ref="lem015889">gricht gehalten</term></orig>). In manchen Fällen heisst es,
+               der Landvogt habe <orig>dz ätter gricht halten laßen</orig> (<bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/fe6832082d5d47f3be2cacf9c05a8c19"
+                     >LAGL AG III.2429:032</ref>, S. 7–8</bibl>). Das Etterbuch ist <orig>ein <term
+                     ref="lem017915.02">urtheil-buech</term> in rechtfertigung der spähnen, so sich
+                  innert dem ätter zu <placeName ref="loc000827">Wartauw</placeName> wie auch
+                  außerthalb umb unserer <choice>
+                     <abbr>gndhh</abbr>
+                     <expan>gnädigen herren</expan>
+                  </choice> von <orgName ref="org001197">Glaruß</orgName> zuständigen <term
+                     ref="lem000030">fischenzen</term>, <term ref="lem002369">eigenthummen</term>,
+                     <term ref="lem017916.02">huebgüteren</term>, es seyen <term ref="lem000038"
+                     >lechen</term>
+                  <abbr>etc</abbr> samt dem halben theil rechten des <term ref="lem000461"
+                     >wildtbahns</term>, widerhollet und angefangen, den <date when="1651-11-06">6.
+                     9bris 1651</date>, da <choice>
+                     <abbr>hr</abbr>
+                     <expan>herr</expan>
+                  </choice> landtvogt <persName ref="per002425">Jacob Feltmann</persName>
+                  <term ref="lem009066">zeitgricht</term> gehalten</orig> (<bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/fe6832082d5d47f3be2cacf9c05a8c19"
+                     >LAGL AG III.2429:032</ref>, S. 7</bibl>).</p>
+         </div>
+         <div n="3" org="uniform" sample="complete">
+            <p>Zu Streitigkeiten über <term ref="key000606">Wegrechte</term> vgl.
+      <ref>SSRQ_SG_III_4_179</ref>.</p>
+         </div>
+      </back>
+   </text>
+</TEI>
+

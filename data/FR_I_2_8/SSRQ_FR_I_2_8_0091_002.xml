@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+
+
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+
+			</titleStmt>
+
+			<publicationStmt>
+				<date type="electronic" when="2019-10-14"/>
+				<date type="print"/>
+			</publicationStmt>
+
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ_FR_I_2_8_0091_002</idno>
+			</seriesStmt>
+
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<idno>StAFR, Thurnrodel 13, S. 88–91</idno>
+					</msIdentifier>
+					<head>François Bondalla – Verhör / Instruction</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang>fr, de</textLang>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support>
+									<material></material>
+								</support>
+								<extent>
+									<dimensions type="leaves">
+										<height unit="cm" quantity="0.0"/>
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+									<dimensions type="plica">
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+								</extent>
+							</supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate when="1635-03-19"/>
+							<origPlace></origPlace>
+						</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc> 
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+			<particDesc default="false"/>
+			<settingDesc default="false"/>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="88"/><p><lb/><placeName ref="loc007890.02">Jaquemard</placeName>
+							
+							<seg><lb/><origDate when="1635-03-19">19 <foreign xml:lang="la">martii</foreign> 1635</origDate>, <foreign xml:lang="la"><choice><abbr>jud</abbr> <expan>judex</expan></choice></foreign> <abbr>h</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per011517">Peter Krummenstoll</persName>.</note></seg>
+							<seg><lb/><abbr>H</abbr> <persName ref="per009172">Gasser</persName><!-- Franz -->, <abbr>h</abbr> <choice><abbr>burg</abbr><expan><term ref="lem018597.02">burgermeister</term></expan></choice><note>Gemeint ist <persName ref="per009390">Peter Reyff</persName>.</note></seg>
+							<seg><lb/><persName ref="per009506">Boccardt</persName><!-- Martin -->, <persName ref="per011519">Techterman</persName>, <persName ref="per006511">Haberkorn</persName><!-- Claude --></seg>
+							<seg><lb/><persName ref="per011520a.02">Strow</persName></seg>
+							<seg><lb/><choice><abbr>W</abbr><expan>Weibel</expan></choice></seg></p>
+							
+						<p><seg><lb/><add place="left margin"><measure quantity="3" unit="lb" type="currency">3 </measure>.</add></seg> 
+							<seg><persName ref="per011819a.02">Françoys Bondalla</persName> de <placeName ref="loc007620">Cheiry</placeName>, jurisdiction de 
+							<lb/><placeName ref="loc007882">Surpierre</placeName>, enquis pourquoy il tenoit prison, a respon<lb break="no"/>du n’en sçavoir la cause, qu’une femme l’avoit 
+							<lb/>accusé a tort, qu’estant confronté avec elle 
+							<lb/>il luy dict qu’elle luy faisoit tort faussement.</seg> 
+						<pb n="89"/><seg><lb/>Interrogé s’il n’avoit offensé <persName>Françoys Garçon</persName>, a dict qu’il 
+							<lb/>a ehu une <term ref="lem015743.02">riotte</term> et querelle avec ledit <persName>Garçon</persName>, toutteffoys 
+							<lb/>sans venir aux coups&#160;; laquelle dispute estoit provenue 
+							<lb/>a cause de ce que ledit <persName>Garçon</persName> tenoit le party de <persName>Rosset</persName>, 
+							<lb/>avec lequel le prisonnier estoit en dissension&#160;; qu’il tient 
+							<lb/>le prenommé <persName>Garçon</persName> pour homme de bien&#160;; qu’apréz ladite 
+							<lb/>querelle, ledit <persName>Garçon</persName> vint dans <date dur="P8D">huict jours</date> au logis 
+							<lb/>du prisonnier sain et alaigre&#160;; que si quelque <term ref="lem015744.02">meschef</term> 
+							<lb/>est arrivé audit <persName>Garçon</persName>, telz <term ref="lem015627.02">encombriers</term> arrivent souvent. 
+							<lb/>Il prie Dieu que tous ceux qui <term ref="lem018556.02">maleficient</term> les gens 
+							<lb/>soient rigoureusement chastiez.</seg> <seg>Enquis combien de 
+							<lb/>tempz une servante appellee <persName>Baillif</persName> l’avoit servy 
+							<lb/>et s’il ne sçavoit d’ou certaine indisposition dont elle 
+							<lb/>est atteincte luy estoit arrivee, a respondu que ladite 
+							<lb/>servante l’avoit servy l’espace de <date dur="P6M">demy an</date>&#160;; qu’estant 
+							<lb/>mallade, elle s’en alla chez monsieur <persName>de Prevondavaux</persName>, qu’il 
+							<lb/>ne sçavoit de l’indisposition de ladite chambriere, hormys 
+							<lb/>d’un bras.</seg> <seg>Enquis si lors qu’on vit certaines 
+							<lb/>chandellettes dans sa maison, un <term ref="lem015442.05">poullin</term> ne luy devint 
+							<lb/>mallade, a dict qu’il ne sçait aucune chose desdites chandellettes&#160;; 
+							<lb/>quand au <term ref="lem015442.05">poullin</term>, qu’il avoit esté frappé d’un autre 
+							<lb/>cheval, qu’a present il est sain, qu’il ne le vendroit 
+						<pb n="90"/><lb/>pour <measure type="currency" quantity="50" unit="k">cinquante escus</measure>. Il regrette le tort qu’on 
+							<lb/>faict aux gens, que la susdite femme qui l’a accu<lb break="no"/>sé et laquelle a esté executé a mort, a ehu une haine 
+							<lb/>et rancune contre luy, pour ce que voullant elle achep<lb break="no"/>ter des grains de luy, et n’estant la commodité 
+							<lb/>du prisonnier de les vendre, elle le menaça et dict 
+							<lb/>qu’il s’en repentiroit.</seg> <seg>Interrogé pourquoy il 
+							<lb/>estoit coustumier de parler seul, a dict qu’il ne 
+							<lb/>sçait en soy s’il parle seul, hormys quand il prie.</seg> 
+							<seg><lb/>Enquis s’il n’avoit envoyé des <term ref="lem015349.03">breselz</term> au susmen<lb break="no"/>tionné <persName>Garçon</persName>, le nie entierement. Il nie aussy 
+							<lb/>avoir esté blasmé sans ressentiment&#160;; vray estre 
+							<lb/>que en la cause de <persName>Rosset</persName>, certaines parolles 
+							<lb/>furent laschees, mais que le magistrat y mist 
+							<lb/>le holas et <term ref="lem015745.02">assopist</term> les parolles.</seg> <seg>Sur les proposi<lb break="no"/>tions, pourquoy il avoit apprehendé son saisissement 
+							<lb/>a <placeName ref="loc007605">Surpierre</placeName> et de l’apprehension mys sa teste sur la 
+							<lb/>table <add place="above" type="sign">de la maison de ville</add>, pourquoy il juroit et pour quelle raison 
+							<lb/>certaine fille possedee le blasmoit, a respondu 
+							<lb/>qu’il n’avoit aucune peur estant saisy, qu’il mist 
+							<lb/>la teste sur la table dudit <term ref="lem015742.03">poille</term>, a cause qu’il 
+							<lb/>estoit las, y ayant esté toutte la nuict&#160;; qu’il 
+							<lb/>ne jure pas contre la verité ny vainement, 
+						<pb n="91"/><lb/>et qu’il ne sçait aucune chose de ladite possedee, 
+							<lb/>niant les articles de l’examen.</seg></p>
+					</div>
+				</body>
+				
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+
+<?oxy_options track_changes="on"?>

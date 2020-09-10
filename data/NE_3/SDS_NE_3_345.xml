@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="headerinfo"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <date type="electronic" when="2020-08-17"/>    <date type="print"/>
+    <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Collection des sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS_NE_3_345</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier>
+      <idno>AVN B 101.14.001, fol. 592v–593r</idno>
+     </msIdentifier>
+     <head>Succession d’une femme dont les enfants sont décédés</head>
+     <msContents>
+      <summary>Un mari dont la femme et tous ses enfants sont décédés hérite un quart des biens en
+       propre et un quart en usufruit. Le reste des biens de la femme va aux héritiers maternels.
+       Les héritiers maternels d’un enfant mort après sa mère peuvent faire relief de la dot et du
+       bien qu’elle a apporté en communion de mariage avec son mari.</summary>
+      <msItem>
+       <textLang>français</textLang>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="33"/>
+          <width unit="cm" quantity="23.5"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <origDate when="1702-10-07"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>
+      </origin>
+     </history>
+     <additional>
+      <listBibl>
+       <head/>
+       <bibl/>
+      </listBibl>
+     </additional>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     
+     <term ref="key000920"></term>
+     <term ref="key000815"></term>
+     <term ref="key000558"></term>
+     <term ref="key000138"></term>
+     <term ref="key000803"></term>
+     <term ref="key003521"></term>
+     <term ref="key000336"></term>
+     <term ref="key005011"></term>
+    </keywords>
+   </textClass>
+   <particDesc default="false"/>
+   <settingDesc default="false"/>
+  </profileDesc>
+ </teiHeader>
+
+ <text>
+  <group>
+   <text>
+    <body>
+        
+     
+     <pb n="592v" facs="AVN_B_101.14.001_0592v"/>
+        
+     <div>
+      <head>
+       <p><lb/>Touchant le <term ref="lem014956.02">lict refait </term><lb/>d’une femme.</p> <p><lb/>Et touchant le relief du
+       <lb/>bien d’une femme.</p></head>
+      <p>
+       <lb/>Sur la requeste presentée à <choice>
+        <abbr>Mess<hi rend="sup">rs</hi></abbr>
+        <expan>messieurs</expan>
+       </choice> le <lb/>maitre bourgeois et <orgName ref="org003085">Conseil Etroit de la
+        <lb/>Ville de <placeName ref="loc007786">Neufchastel</placeName></orgName> par le <choice>
+        <abbr>S<hi rend="sup">r</hi></abbr>
+        <expan>sieur</expan>
+       </choice>
+       <persName ref="per008897">Elie Petter</persName>
+       <lb/>greffier de <placeName ref="loc007800"><choice>
+         <abbr>St</abbr>
+         <expan>Saint</expan>
+        </choice> Blaise</placeName>, en qualité de tuteur <lb/>d’<persName ref="per008898"
+        >Abram-Pierre Depagnier</persName>, bourgeois de <lb/><placeName ref="loc007786"
+        >Neufchastel</placeName>, aux fins d’avoir declaration de <lb/>la coutume <choice>
+        <abbr>dud</abbr>
+        <expan>dudit</expan>
+       </choice> lieu sur les deux points sui<lb break="no"/>vans. </p>
+      <p>
+       <lb/>Assavoir, lors que mari et femme ont esté <lb/><date dur="P1Y6W"><term ref="lem014776"
+         >an et jours</term></date> par ensemble, et que la femme <lb/>vient a mourir delaissant un
+       enfant de leur <lb/>mariage, lequel par apres vient aussi à <lb/>mourir ; on demande quelle
+       part et portion <lb/><choice>
+        <abbr>led</abbr>
+        <expan>ledit</expan>
+       </choice> mari et pere survivant, <choice>
+        <abbr>sad</abbr>
+        <expan>sadite</expan>
+       </choice> femme et <lb/>sont enfant, doit avoir en propre sur le <term ref="lem014956.02"
+        >lict <lb/>refait</term> de sa deffunte femme, et quelle por<lb break="no"/>tion il en doit
+       avoir en jouissance&#160;: et en <lb/>quel temps les heritiers <choice>
+        <abbr>dud</abbr>
+        <expan>dudit</expan>
+       </choice> enfant doivent <lb/>retirer le reste <choice>
+        <abbr>dud</abbr>
+        <expan>dudit</expan>
+       </choice>
+       <term ref="lem014956.02">lict refait</term>. </p>
+      <p>
+       <lb/>En apres, si pour faire relief du bien que <choice>
+        <abbr>lad</abbr>
+        <expan>ladite</expan>
+       </choice>
+       <lb/>femme a apporté en communion de mariage <lb/>avec son mari survivant, l’heritier <choice>
+        <abbr>dud</abbr>
+        <expan>dudit</expan>
+       </choice> enfant <lb/>ne doit pas retirer le bien qui est encore en <lb/>estre et en nature,
+       et quant a celui qui a <lb/>esté vendu, s’il ne faut pas pour la valeur, <pb n="593r" facs="AVN_B_101.14.001_0593r"/>
+       <lb/>et le montant d’icelui en faire le relief sur les <lb/>biens <choice>
+        <abbr>dud</abbr>
+        <expan>dudit</expan>
+       </choice> mari, quand même les biens de la communion <lb/>du mariage seroient diminués, par
+       perte de betail <lb/>ou <choice>
+        <abbr>autrem<hi rend="sup">t</hi></abbr>
+        <expan>autrement</expan>
+       </choice>. </p>
+      <p>
+       <lb/><orgName ref="org003085"><choice>
+         <abbr>MesdS<hi rend="sup">rs</hi></abbr>
+         <expan>Mesdits sieurs</expan>
+        </choice> du Conseil</orgName>, ayant eu avis par ensemble, ont <lb/>declaré que, de tout
+       temps immemorial de pere à fils <lb/>jusqu’à present, la coutume est telle. </p>
+      <p>
+       <lb/>Assavoir, sur le premier point, que lors <lb/>qu’une femme, qui a vecu <date dur="P1Y6W"
+         ><term ref="lem014776">an et jours</term></date> avec son mari, <lb/>vient a mourir
+       delaissant un ou plusieurs enfans de <lb/>leur mariage, ou d’autres precedens mariages,
+       lesquels <lb/>par apres viennent aussi à mourir, alors le mari sur<lb break="no"/>vivant doit
+       avoir la moitié du <term ref="lem014956.02">lict refait</term>, du <term ref="lem014766.02">trossel</term>,
+       <lb/>des habits, linge, joyaux et bagues de sa deffunte femme, <lb/>assavoir un quart en
+       propre pour lui et les siens, et <lb/>l’autre quart en jouissance sa vie durant. Et pour
+       <lb/>ce qui concerne l’autre moitié, elle doit parvenir aux <lb/>heritiers maternels <choice>
+        <abbr>desd</abbr>
+        <expan>desdits</expan>
+       </choice> enfans, incontinant apres <lb/>le trépas d’iceux <choice>
+        <abbr>d</abbr>
+        <expan>dits</expan>
+       </choice> enfans. </p>
+      <p>
+       <lb/>Sur le second, les heritiers maternels d’un enfant <lb/>qui est mort apres sa mere
+       peuvent faire relief de la <lb/>dote et du bien qu’elle a apporté en communion de mariage
+       <lb/>avec son mari, et le doivent retirer sur les biens fonds <lb/>et obligations, ou de
+       quelle nature qu’ils soient, estant <lb/>en estre mouvans d’elle, ou sur fonds acquis de ses
+       <lb/>propres deniers au taux, et le surplus sur les plus <lb/>clairs biens du mari, sans
+       neantmoins prejudicier à <lb/>son droit d’usufruit. Et en retirant <choice>
+        <abbr>led</abbr>
+        <expan>ledit</expan>
+       </choice> bien, il ne se <lb/>doit prendre aucun <term ref="lem015540">tier denier</term>. </p>
+      <p>
+       <lb/>Laquelle declaration <orgName ref="org003085"><choice>
+         <abbr>MesdS<hi rend="sup">rs</hi></abbr>
+         <expan>mesdits sieurs</expan>
+        </choice></orgName> ont ordonné à moi, <choice>
+        <abbr>secret</abbr>
+        <expan>secrétaire</expan>
+        </choice> de Ville sous<lb break="no"/>signé, d’expedier en cette forme, sous le <term ref="lem016327">seel</term> de la
+       mairie et justice <choice>
+        <abbr>dud</abbr>
+        <expan>dudit</expan>
+       </choice>
+       <lb/><origPlace ref="loc007786">Neufchastel</origPlace>, le <origDate when="1702-10-07">7 <choice>
+         <abbr>8<hi rend="sup">bre</hi></abbr>
+         <expan>octobre</expan>
+        </choice> 1702</origDate>. </p>
+     </div>
+      
+      <div>
+       <p>
+        <lb/>L’original est signé par moi.
+       </p>
+       <signed><persName ref="per009011"><choice><abbr>J&#160;J</abbr><expan>Jean-Jacques</expan></choice> Favargier</persName> <figure type="notarial sign"/></signed>
+      </div>
+
+     
+       
+    </body>
+   </text>
+  </group>
+ </text>
+</TEI>

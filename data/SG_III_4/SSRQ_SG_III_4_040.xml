@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+    <persName>Sibylle Malamud</persName>
+    <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+    <persName>Sibylle Malamud</persName>
+    <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+            <publicationStmt>
+               <date type="electronic" when="2019-04-17"/>    <date type="print"/>
+               <availability><p xml:id="facs">Stadtarchiv Feldkirch</p></availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+    <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+    <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_040</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+    <msIdentifier>
+       <idno>StadtA Feldkirch Urk. 90</idno>
+    </msIdentifier>
+    <head>Georg Plattner verkauft seinem Bruder Ulrich um 44.5 Pfund seine ererbten Anteile am Zehnten von Frümsen im Saxer Kirchspiel, einen Weizenzins sowie seinen Anteil an einem Haus am Tor in der Stadt Werdenberg</head>
+    <msContents>
+       <summary>
+          <p>Georg Plattner verkauft seinem Bruder Ulrich um 44.5 Pfund einen Scheffel Weizenzins, Werdenberger Mass, den er von seiner Mutter Elisabeth Rot ab ihrem Halbteil und ihren Rechten am Zehnt von Frümsen im Saxer Kirchspiel gekauft hat. Zudem verkauft er seinen Teil an den drei Scheffeln Weizenzins, die sein verstorbener Vater Burkhard Plattner und seine Mutter Elisabeth von Kunz Riegel und dessen Ehefrau Margaretha Bäbler gekauft und die er und seine verstorbene Schwester Margaretha geerbt haben sowie seinen Teil an Haus und Hofstatt am Tor in der Stadt Werdenberg, den er von seiner Schwester geerbt hat.</p>Für den Aussteller siegelt Graf Wilhelm V. von Montfort-Tettnang.</summary>
+       <msItem>
+          <textLang>Deutsch</textLang>
+          <filiation type="current">Original</filiation>
+       </msItem>
+    </msContents>
+    <physDesc>
+       <objectDesc>
+          <supportDesc>
+             <support>
+                <material>Pergament</material>
+             </support>
+             <extent>
+                <dimensions type="leaves">
+                   <height unit="cm" quantity="23.5"/>
+                   <width unit="cm" quantity="39.0"/>
+                </dimensions>
+             </extent>
+          </supportDesc>
+       </objectDesc>
+       <sealDesc>
+          <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI"
+                n="1"
+                nontei:condition="absent"
+                nontei:attachment="slit">
+             <persName role="sigillant" ref="per000710a">Wilhelm V. von Montfort-Tettnang</persName>
+          </seal>
+       </sealDesc>
+    </physDesc>
+    <history>
+       <origin>
+          <origDate when="1437-09-10"/>
+       </origin>
+    </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+    <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+    <term ref="key000369">Kauf</term>
+    <term ref="key000049">Zehnt</term>
+    <term ref="key000102">Weizen</term>
+    <term ref="key000154">Zins</term>
+    <term ref="key004046">Haus und Hofstatt</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+    <div org="uniform" sample="complete">
+       <pb facs="StadtAFeldkirch_Urk90"/>
+       <p>
+                     <seg>
+                        <lb/>Ich, <persName ref="per004521a">Jörg Blatter</persName>, verjech
+                        offennlich mit urkunnd diss briefs, das ich guͦts, wolbedachts synns und
+                        muͦts ze den <choice>
+                           <sic>aten</sic>
+                           <corr>alten</corr>
+                        </choice> tagen und an den stetten, do ich es mit recht wol krefftenklich
+                        <lb/>getuͦn mocht, sunderlich mit hand, willenn und gunst des edeln,
+                        wolgeborn herren graven <persName ref="per000710a">Wilhelms von Monntfortt,
+                           herr ze Tettnang</persName>, mins gnädigen herren, recht, redlich und
+                           aigen<lb break="no"/>lich verkoufft und ze kouffent gegeben han ains
+                        staͤtten, ewigen, immerwerenden <term ref="lem000179">kouff</term>s für mich
+                        und für alle min erben und naͤchkomen dem firmmen <persName ref="per004523"
+                           >Uͤlrichenn Blattner</persName>, minem <lb/>lieben elichen bruͦder, und
+                        allen sinen erben und nächkomen und gib im also ze kouffent mit krafft diss
+                        briefs,</seg>
+                     <seg n="1">minen aigen <measure quantity="1" unit="Scheffel" commodity="wheat"
+                           type="volume" origin="Werdenberg">schoffel waissengelts Werdenberger
+                           mess</measure>, den <lb/>ich vormaͤls erkoufft han umb <persName
+                           ref="per004520b">Elzbethen Roͤtt</persName>in, min lieb elich <term
+                           ref="lem000292">muͦter</term>, von, uss und ab irem aigen halbtail und ab
+                        allen irn rechtenn des <term ref="lem000073">zehenden</term> ze <placeName
+                           ref="loc006121.02">Frûmssen</placeName> in <placeName ref="loc006120"
+                           >Sax</placeName>er <lb/><term ref="lem000299.11">kilchsper</term>
+                        gelegen.</seg>
+                     <seg n="2">Item und darzuͦ minnen tail und alle minne recht an den <measure
+                           unit="Scheffel" type="volume" quantity="3" origin="Werdenberg">dryg
+                           schoͤffeln guͦts, schöns, luters <term ref="lem012418"
+                              >waissengelts</term>
+                           <placeName ref="loc000211">Gamtz</placeName>er <term ref="lem012926.02"
+                              >gewaͤchß</term> und Werdenberger mess</measure>, die vor zitenn
+                           <lb/><persName ref="per004436">Burkartt Blattner</persName>, unser lieber
+                        vatter selig, und <persName ref="per004520a">Elzbetht</persName>, unser
+                        liebe muͦter, mitenander erkoufft hand umb <persName ref="per004524"
+                           >Cuͦntzen Rigel</persName> und <persName ref="per004525b">Margreten
+                           Bäbler</persName>in, sin elich wib, und die <lb/>darnäch die benant unser
+                        liebe muͦter naͤch <term ref="lem005098">abgang</term> unsers obgenanten
+                        vatters seͤligen von im <term ref="lem005056">ererbt</term> hät und die denn
+                        ich und <persName ref="per004522">Margrett</persName>, min lieb eliche
+                        swester seͤligen, <lb/>darnǎch von der jetzgenanten unser liebe muͦter
+                        mitenander ingemainen erkoufft habennt und dero ich dennen näch abgang der
+                        benanten <persName ref="per004522">Margrett</persName>en, miner swester
+                        seligen, an irem <lb/>halbtail der benanten <measure commodity="wheat"
+                           unit="Scheffel" quantity="3" type="volume">dryer schoffel
+                           waissengelts</measure> ain tail mit sampt andern minen geswistergiten
+                        ererbt han, alles näch lut und sag der brieff, aller die darüber gegeben
+                        <lb/>sind, und die ich dem obgenanten minem bruͦder darüber hie mit disem
+                        brieff ingeantwurrt und mit allen krefften und rechten gegeben und mich
+                        damit aller miner rechtung und an<lb break="no"/>sprǎch fur mich und min
+                        erben in sin und siner erben hand gewalt und gewer begeben und entzigen hän
+                        mit krafft diss briefs.</seg>
+                     <seg n="3">Item und darzuͦ han ich im öch ze kouffent geben ainns <lb/>statten,
+                        ewigen koufs minen tail und alle minne recht an dem <term ref="lem008955"
+                           >hus und hofstatt</term> ze <placeName ref="loc000016"
+                           >Werdenberg</placeName> in der statt am <term ref="lem000154">tor</term>
+                        gelegen, als ich das von miner swester <persName ref="per004522"
+                           >Grett</persName>en ererbt haͤn.</seg>
+                     <seg>
+                        <lb/>Die obgenanten stuk und guͦt alle mine recht mit grund und grǎt, mit
+                        aller gewaltsame, ehafftin, aigenschafft und mit allen rechten, nutzen,
+                        fruchten, guͦten gewonhaiten und <lb/>zuͦgehörden, benempten und
+                        unbenempten, wie ich das erkoufft oder ererbt, öch inngehept und genossen
+                        han und an mich komen ist ungevarlich. Und ist diser ewiger kouff <lb/>also
+                        beschechen und vollfurtt umb <measure quantity="44.5" unit="lb"
+                           origin="Konstanz" type="currency">vierdhalben und viertzig pfund pfenning
+                           Costentzer munss</measure>, der ich all <damage agent="ink blot">
+                           <gap unit="word" quantity="2"/>
+                           <unclear>menglich</unclear>
+                        </damage> und gar von im gewertt und bezalt bin. Und <lb/>also soͤllen und
+                        mügend der obgenant <persName ref="per004523">Uͦlrich Blattner</persName>,
+                        sin erben und nächkomen dz obgenant waissengelt <damage agent="ink blot">
+                           <gap unit="word" quantity="1"/>
+                           <unclear>mine</unclear>
+                        </damage> recht und darzuͦ minen tail des obgenanten hus nu <lb/>furohin
+                        ewenklich jaͤrlich und jeglichs jars besunder innemen, innhaben, nützen,
+                        niessen, besetzen und entsetzen, damit und daruss iren nutz und fromen
+                        gewaltcklichen <lb/>schaffen, tuͦn und lassen als mit anderm irem
+                        aigenlichenn guͦt ane min und miner erben und menglichs irrunng und
+                        widerred.</seg>
+                     <seg>Also das ich noch min erben noch niemand <lb/>von unsern wegen daran,
+                        darzuͦ noch darnäch kain anspräch, vordrunng, zuͦspruch noch recht nit me
+                        haben noch gewynnenn süllen, mugen noch wellent mit dehainen <lb/>gerichten,
+                        gaistlichen noch weltlichen, noch ane gericht gentzlich in dehainen weg. Und
+                        soͤllen also ich und min erben und nachkomenn des obgenanten <persName
+                           ref="per004523">Uͦlrich Blattner</persName>s, <lb/>mins bruͦders, und
+                        aller siner erben und naͤchkomenn umb diss alles guͦt weren und versprechent
+                        sin uff allen gaistlichen und weltlichen gerichten näch recht und naͤch
+                        <lb/>der alten brieff lut und sag, die sy uns öch allweg darzuͦ heruss lihen
+                        sollen, wennen wir umb ain gewerschafft erfordert wurden bi guͦten tru̍wen
+                        alles ungevarlich.</seg>
+                     <seg>
+                        <lb/>Und des alles ze warem, offem urkund und guͦter gezuknüss nu und
+                        hienaͤch, so han ich, obgenanter verkoͤffer, gar ernstlich erbetten den
+                        obgenanten minen gnaͤdigen <lb/>herren grave <persName ref="per000710"
+                           >Wilhelm</persName>, das er sin insigel fur mich gehenkt hat an den
+                        brieff, darunder ich mich und min erben und nachkomenn aller obgenanten ding
+                        verbunden han. Des <lb/>alles wir, obgenanter grave <persName
+                           ref="per000710a">Wilhelm von Montfort, herren ze Tettnang</persName>,
+                        also von siner pett wegen bekennenn, getän und besigelt haben, doch uns und
+                        unßern erben ane <lb/>schadenn, gebenn an <origDate when="1437-09-10"
+                           >zinstag vor des hailigenn crutztag ze herbst nach <persName
+                              ref="per000353">Cristus</persName> geburt viertzechenhundert drissig
+                           und im sibennden jar.</origDate></seg>
+                  </p>
+    </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div n="1" org="uniform" sample="complete">
+            <p>Eine Kirche in <placeName ref="loc006042">Sax</placeName> wird im <date from="1201"
+                  to="1300">13. Jh.</date> zum ersten Mal erwähnt. Zum Kirchspiel <placeName
+                  ref="loc006120">Sax</placeName> gehört auch das Dorf <placeName ref="loc006121"
+                  >Frümsen</placeName>. <date when="1430">1430</date> verkauft <persName
+                  ref="per004520a">Elisabeth Plattner</persName>, Witwe von <persName ref="per004436"
+                  >Burkhard Plattner</persName>, ihren beiden Kindern <persName ref="per004521a"
+                  >Georg</persName> und <persName ref="per004522">Margaretha</persName>, die in
+               diesem Kaufvertrag erwähnten drei Scheffel Weizengeld aus dem <placeName
+                  ref="loc006122">Gams</placeName>er Kirchspiel um 9 Pfund (<bibl><ref>StadtA
+                     Feldkirch Urk. 76</ref>; <ref>Urk. 77</ref></bibl>). Es siegelt <persName
+                  ref="per004535">Heinrich Gocham</persName>, Vogt von Werdenberg. Die Mutter
+               besitzt auch die Hälfte des Zehnten von Frümsen. Nach dem Tod der Mutter und ihrer
+               Tochter verkauft der Sohn diese drei Scheffel sowie seinen Anteil am Zehnten von
+               Frümsen zusammen mit seinem Erbanteil an dem Haus der verstorbenen Schwester in der
+               Stadt Werdenberg an seinen Bruder. Der Bruder <persName ref="per004523">Ulrich
+                  Plattner</persName> wird <date when="1440">1440</date> in einem weiteren Kaufbrief
+               zwischen den beiden Brüdern um einen halben Weinberg in <placeName ref="loc006060"
+                  >Altendorf</placeName> als Vogt von Werdenberg genannt (18.02.1440:
+                     <bibl><ref>StadtA Feldkirch Urk. 99</ref></bibl>). <date when="1439"
+                  >1439</date> wird <persName ref="per004523">Ulrich Plattner</persName> in mehreren
+               Quellen als Vogt von Werdenberg bezeichnet (<bibl><ref>PGA Sevelen
+               Nr. 2</ref></bibl>; <bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/76377dbae673443d8d44b998a7230fd3"
+                     >LAGL AG III.2405:017</ref></bibl>; siehe auch <bibl><ref
+                     target="http://permalink.snl.ch/bib/chbsg000142779">Hilty 1898</ref>,
+                  S. 38</bibl>). Die <orgName ref="org000468">Plattner</orgName> als Bürger von
+               Werdenberg werden bereits <date when="1419">1419</date> erwähnt
+                     (<bibl><ref>Burgerarchiv Grabs U 1419-1</ref></bibl>). Zu Plattner vgl. auch
+                     (<bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/35c825e446fd463f8a5f8a7ebee33cc6"
+                     >LAGL AG III.2409:014</ref>; <ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/2a501390d48e4934b508e0e898a245c5"
+                     >AG III.2417:004</ref></bibl>).</p>
+            <div n="2" org="uniform" sample="complete"><p><date when="1439">1439</date> stiftet <persName ref="per004526">Ulrich VII. von
+       Sax-Hohensax</persName> seinen Anteil am Zehnten von Frümsen der Kirche in Sax als
+    Jahrzeit (vgl. <ref>SSRQ_SG_III_4_042</ref>).</p></div>
+         </div>
+      </back>
+   </text>
+</TEI>

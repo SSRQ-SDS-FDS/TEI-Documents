@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+
+			</titleStmt>
+
+			<publicationStmt>
+				<date type="electronic" when="2018-12-12"/>
+				<date type="print"/>
+			</publicationStmt>
+
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ_FR_I_2_8_0006</idno>
+			</seriesStmt>
+
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<idno>StAFR, Thurnrodel 4, S. 39–42</idno>
+					</msIdentifier>
+					<head>Gredi Tollerey-du Riaulx – Verhör und Urteil / Interrogatoire et jugement</head>
+					<msContents>
+						<summary><p>Gredi Tollerey-du Riaulx wird des Diebstahls und der Hexerei angeklagt. Sie wird befragt, gefoltert und zum Scheiterhaufen verurteilt.</p> 
+							<p>Gredi Tollerey-du Riaulx est accusée de vols et de sorcellerie. Elle est interrogée, torturée et condamnée au bûcher.</p></summary>
+						<msItem>
+							<textLang>fr, de</textLang>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support>
+									<material></material>
+								</support>
+								<extent>
+									<dimensions type="leaves">
+										<height unit="cm" quantity="0.0"/>
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+									<dimensions type="plica">
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+								</extent>
+							</supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate from="1520-05-31" to="1520-06-02"></origDate>
+							
+							<origPlace></origPlace>
+						</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+			<particDesc default="false"/>
+			<settingDesc default="false"/>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+					
+						<!--la différence entre simplement del versus subst, del, add inline, n’est pas toujours très claire-->
+					
+						<pb n="39"/><p><lb/><origDate when="1520-05-31">Sur le jeudi aprés la feste Penthecouste, <foreign xml:lang="la">anno <abbr>etc</abbr> xx<hi rend="sup">o</hi></foreign></origDate>,
+							<lb/>en <choice><abbr>pnce</abbr><expan>presence</expan></choice> de <add place="above">noble</add>, <term ref="lem017499.02">pourveables</term>, saiges et discretz <persName ref="per010081">Jacob 
+							<lb/>de <sic>Wuippens</sic></persName>, <persName ref="per010064">Hanns Kromenstoln</persName>, <persName ref="per010082">Jacob Gruyeri</persName>, <add place="above">conseillieurs</add>, <persName ref="per010083">Niclaus 
+							<lb/>Söfftinger</persName>, <persName ref="per010084">Marti Ramuz</persName>, <persName ref="per010080">Niclaus Vöguilli</persName> et 
+							<lb/><persName ref="per010085">Jheronimus Mertz</persName>, <choice><abbr>b</abbr><expan>bourgeois</expan></choice> de la ville de <placeName ref="loc001060.04">Frybourg</placeName>, 
+							<lb/>et <persName ref="per010086">Hanns Praderwan</persName>, <term ref="lem014993.04">grossouttier</term> de la ville de 
+							<lb/><placeName ref="loc001060.04">Frybourg</placeName>, a <term ref="lem014868.04">regicqui</term> <foreign xml:lang="la">per tortura</foreign> <persName ref="per009721">Gredi du 
+							<lb/>Riaulx</persName>, femme de <persName ref="per009722">Glaudo Tollerey</persName> d’<placeName ref="loc007678.03">Avri</placeName><note>Il existe aussi un village nommé <placeName ref="loc008116">Avry-sur-Matran</placeName>, aux portes de Fribourg, mais selon les autres mentions de lieux faites dans le procès, il faut privilégier la provenance gruérienne.</note>&#160;: 
+							
+						<seg><lb/>Que sur certainnes annees passés l’on leur 
+							<lb/>avoit loyé ung <term ref="lem014893.02">tegnement</term> <date dur="P9Y"><num value="9">ix</num> ans</date> et ochi de 
+							<lb/><date dur="P6Y">six ans</date> <subst><del>celluy qui l’ont</del><add place="inline">ceulx qui leur avoent</add></subst>
+							<lb/><subst><del>p</del><add place="inline">loyé</add></subst> leur osterent, pourquoy elle leur
+							<lb/>prist deux <del><gap reason="illegible" quantity="1" unit="cm"/></del> hennes de boix, que l’on boit.</seg> <!--ou hemies-->
+							
+						<seg><lb/>Item mes une <term ref="lem014894.02">pele</term> <term ref="lem014895.02">fricteyri</term>.</seg>
+							
+								<seg>Item mes une <term ref="lem014904.02">potzi</term> 
+							<lb/><term ref="lem014905.02">persiaz</term>. Celluy peché ne l’a pas volluz confesser.</seg></p> 
+							
+						<p><lb/><origDate when="1520-06-01">Sur le vendredi aprés feste Penthecouste, <foreign xml:lang="la">anno 
+							<lb/><abbr>etc</abbr> xx<hi rend="sup">o</hi></foreign></origDate>, en <choice><abbr>pnce</abbr><expan>presence</expan></choice> de noble, saige et discretz 
+							<lb/><persName ref="per010081">Jacob de Wippens</persName>, <persName ref="per010087">Jacob Techterman</persName>, <persName ref="per010082">Jacob 
+							<lb/>Gruyere</persName>, conseillieurs, <persName ref="per010084">Marti Ramuz</persName> et <persName ref="per010085">Jhero<lb break="no"/>nimus Mertz</persName>, <choice><abbr>b</abbr><expan>bourgeois</expan></choice> de la ville de <placeName ref="loc001060.04">Frybourg</placeName> et 
+							<lb/><persName ref="per010086">Hanns Praderwan</persName>, <term ref="lem014993.04">grossouttier</term> dudit lieu, 
+							<lb/>a <term ref="lem014868.04">regicqui</term> sans torture ladite <persName ref="per009721">Gredi 
+							<lb/>du Riaulx</persName>&#160;:
+							
+						<seg><lb/>Que y ly az environ <date dur="P19Y"><num value="19">xix</num> ans</date> qu’elle alla trouver 
+							<lb/>sur le pont de <placeName ref="loc008136.02">Tussi</placeName> le <term ref="lem017521">diable</term> enguise de prestre,
+							<lb/>et ilz luy dist&#160;: <q>&#160;Tu es bien <term ref="lem014906.02">corrosia</term>, se tu moy 
+							<lb/>voulle croyre, je te faré riche.&#160;</q> Et elle luy dist 
+							<lb/>qu’elle estoit contente. Adoncques icelluy <term ref="lem017521">diable</term> 
+							<lb/>enguisa de prestre la mena en la <term ref="lem017043.04">secta</term>, en 
+							<lb/><placeName ref="loc007679.02">Oge</placeName>, dessoubz <placeName ref="loc007631.04">Pont la Villa</placeName>, et ly trouva tant 
+							<lb/>de gens que <unclear>rice et</unclear> veillie&#160;; <hi rend="framed">et ly trouva <persName>Loys Villar</persName>, 
+						<pb n="40"/><lb/>son filz <persName>Jehan Villard</persName>, <persName>Jehan Brodar</persName> de <placeName ref="loc008142.02">Brittignye</placeName>, 
+							<lb/>et <persName>Růffi Schwatz</persName>. Et <subst><del>Loys la</del><add place="inline">la</add></subst> <persName>Loys Villard</persName> ou 
+							<lb/>ung semblable que luy</hi> <subst><del><add place="above">dist</add></del><add place="left margin" type="sign"><lb/>et la ung de <lb/>ses complices <lb/>luy va disre</add></subst> que se elle renoyast Dieu, elle 
+							<lb/>n’aroit point plus de mallencolye. Et ly avoit 
+							<lb/>tant de gens qui fesoent beaucop de mal.</seg>
+							
+						<seg><lb/><hi rend="framed">Item elle ly cognehust <persName>Peter Cůntzo</persName>, qui az 
+							<lb/>desmouré a <placeName ref="loc007866.05">Espende</placeName>, et <persName>Henßli Farer</persName> de <placeName>Mombling</placeName>.</hi> 
+							<lb/>Sur ce va venir le <term ref="lem017521">diable</term> enguisa d’ung prestre 
+							<lb/>et luy fist a renoyer dieu, la beneyte Vierge 
+							<lb/><persName ref="per000169a.05">Marie</persName>, sa mere, et tout ce <choice><abbr>qst</abbr><expan>qu’est</expan></choice> de Dieu&#160;; et quant 
+							<lb/>elle ehust renoyé Dieu, <subst><del>il</del><add place="inline">le <term ref="lem017521">diable</term></add></subst> <subst><del>q</del><add place="inline">son</add></subst>							
+							<lb/>maistre, qui avoit nom <sic><persName>Nicodennus</persName></sic>, soy mist 
+							<lb/>enguisa d’ung <term ref="lem018315">chat</term> gris et soy fist a baiser 
+							<lb/>dessoubz la <term ref="lem014880.02">cuez</term> par hommaige&#160;; ilz soy fist a 
+							<lb/>promectre une <term ref="lem014874.03">galline</term> noyre par an<del>s</del>, laquelle 
+							<lb/>elle luy <term ref="lem015635.08">baillioit</term> tous les ans sur le <date when="--06-24">jour de la 
+							<lb/>Saintz <persName ref="per000049a.23">Jehan</persName></date>, sur lequelz jour elle venist 
+							<lb/><term ref="lem014908.02">voudeysa</term>&#160;; et ainsin tost qu’elle <term ref="lem015635.09">bailloit</term> ladite 
+							<lb/><term ref="lem014874.04">jinillie</term> audit son maistre le <term ref="lem017521">diable</term>, elle estoit 
+							<lb/><term ref="lem016297.02">perdia</term>.</seg>
+						
+								<seg>Item sondit maistre fesoit encroyre 
+							<lb/>a elle et ses complices que ceulx qui estoent 
+							<lb/>ehuz deffaitz par justice et bruslé, qu’ilz estoent 
+									<lb/><num value="6">vi</num>&#160;; et ledit <term ref="lem017521">diable</term> luy en monstra ung 
+							<lb/>qui avoit esté bruslé, maix elle le vist en 
+							<lb/>passant et cuydoit qu’ilz fusse celluy la.</seg>
+						
+						<seg><lb/>Item ledit son maistre luy <term ref="lem015635.07">baillia</term> ung groz 
+							<lb/>et elle le mist en sa borse, et quant elle 
+							<lb/>le cuyda trouver, elle ne le trouva point&#160;; 
+							<lb/>adoncques elle vist bien qu’elle estoit decehue 
+							<lb/>de luy.</seg>
+						
+								<seg>Item y ly az <date dur="P6M">demy an</date> qu’elle 
+							<lb/>alla sur ung jeudi <del>au soir</del> ver la 
+							<lb/>fontanne dez <placeName ref="loc011701.01">Assilliettes</placeName> et ly trouva 
+							<lb/><hi rend="framed"><persName>Glaudo Morelz</persName></hi>, son complice.</seg> 
+						
+								<seg>Item elle 
+							<lb/>c’est trouvé au lieu out ses complices ont 
+							<lb/>faitz la <term ref="lem018102.05">grele</term>&#160;; et elle ehusse voulentier faitz 
+							<lb/>tant que leur, maix elle ne pouvoit pas 
+							<lb/>tant <term ref="lem015866.02">corré</term>.</seg> 
+						
+								<seg><hi rend="framed">Item <persName>Jacquetta</persName>, femme d’<persName>Antheno 
+							<lb/>Grueri</persName>, ly <subst><del>ce</del><add place="inline">se</add></subst> trouva.</hi></seg>
+						
+								<seg><hi rend="framed">Item elle az esté 
+							<lb/>interrogué commant elle ehusse disre 
+							<lb/>que <persName>Brodar</persName> et <persName>Loys Villar</persName> sont esté en 
+						<pb n="41"/><lb/>la <term ref="lem017043.04">secta</term>&#160;; az responduz qu’ilz ly az <date dur="P15Y">quinze ans</date> 
+									<lb/>que <persName>Loys Villar</persName> dictz qu’ilz estoit au <term ref="lem017521">diable</term> 
+							<lb/>et que Dieu n’avoit point part en luy.</hi> <add place="left margin" type="sign"><lb/>Elle et ses <lb/>complices ont <lb/>faitz l’anneez <lb/>passé.</add></seg>
+							
+								<seg>Item 
+							<lb/><hi rend="framed">y ly az environ <date dur="P6Y"><add place="above"><num value="6">vi</num></add> ans</date> que elle <subst><del>alla ve</del><add place="above">a esté</add></subst> avecque
+							<lb/><persName>Glaudo Morelz</persName>, <persName>Noel de la Saugi</persName>, <persName>Jacquetta 
+							<lb/>Grueri</persName> et <persName>Pernetta</persName>, femme de <persName>Vuillieme 
+							<lb/>Rolz</persName> de <placeName ref="loc007663">Sorens</placeName>, et le jeusne dez <persName>Rospra</persName>, 
+							<lb/>qui est ung <term ref="lem014910.02">rossié</term> qui n’a pas guere de 
+							<lb/>barbe&#160;; et ly en avoit de <placeName ref="loc008139.02">Villarloz</placeName> <subst><del>maix</del>
+							<lb/><add place="inline">et</add></subst> de <placeName ref="loc008140.02">Villargiro</placeName>, maix elle ne les cognoissoit
+								<lb/>pas. Et fisrent</hi> la <term ref="lem018102.02">gresle</term> ez <placeName ref="loc011701.01">Assilliettes</placeName> <subst><del>en</del> 
+							<lb/><add place="inline">et</add></subst> en la fontanna dessoubz <placeName ref="loc007631.04">Pont la Villa</placeName>,
+									<lb/>et quant ilz la fesoent, ilz firoent en l’<term ref="lem015395.04">egue</term>, 
+									<lb/>et puis le <term ref="lem017521">diable</term> <persName>Nicodemus</persName>, qui estoit en<lb break="no"/>guisa d’ung homme, les portoit par l’air. 
+							<lb/>Et portasrent la <term ref="lem018102.02">gresle</term> par sus <placeName ref="loc008141.02">Vuistarnens</placeName> 
+							<lb/>et par sus <placeName ref="loc008143.02">Rossin</placeName>, laquelle <term ref="lem018102.02">gresle</term> ilz fisrent<note>Le passage «&#160;laquelle <term ref="lem018102.02">gresle</term> ilz fisrent&#160;» a été biffé (en même temps que la suite), puis le greffier s’est ravisé et a effacé, autant que faire se peut, le trait qui cancellait ledit passage.</note> 
+							<lb/><del>l’an passé</del> sur la <date when="--06-24">Saintz <persName ref="per000049a.23">Jehan</persName></date> et sur la <date when="--06-29">saintz 
+							<lb/><persName ref="per000438a.04">Pierre</persName></date>, maix elle ne ferist sçenon sur la 
+							<lb/><term ref="lem014909">fin</term> dessoz <placeName ref="loc008141.02">Vuistarnens</placeName>, et ne fist mal sçenon 
+							<lb/>en une petite <term ref="lem014909">fin</term>.</seg>
+						
+								<seg><hi rend="framed">Item az ditz qu’ilz ly avoit 
+							<lb/>ung groz <term ref="lem014911.02">richere</term>, qui estoit de della du 
+									<lb/><placeName ref="loc008144">Gibloux</placeName>, qui luy <term ref="lem015635.07">baillia</term> de <subst><del>la</del><add place="above">une</add></subst> <term ref="lem018382.03">gresse</term> pour 
+							<lb/>tuer les gens et bestes, maix elle n’en az point 
+							<lb/>husé, sçenon qu’elle n’a <term ref="lem015635.06">baillié</term> a aultres de ses 
+							<lb/>complices pour en huser.</hi></seg>
+							
+						<seg><lb/><add place="left margin">Item ung de ses 
+							<lb/>complices luy 
+							<lb/>az <term ref="lem015635.06">baillié</term> d’une 
+							<lb/><term ref="lem018382.03">gresse</term> pour fayre 
+							<lb/>a mourir dez 
+							<lb/> gens et bestes, 
+							<lb/>maix elle n’en 
+							<lb/>az point husé.</add><note>L’emplacement précis où devrait être intégré cet ajout marginal demeure incertain. Par commodité, il a été inséré entre le paragraphe précédent et 
+								le suivant.</note></seg>
+						
+							<seg><lb/>Item<note>Dans l’original, cet item suit directement, sans changement de ligne, le paragraphe débutant par «&#160;Item az ditz qu’ilz ly avoit&#160;»..</note> elle en az <term ref="lem015635.06">baillié</term> <add place="right margin">a ung de <lb/>ses compli<lb break="no"/>ces</add>, 		
+							<lb/><hi rend="framed">a <persName>Jennetta</persName>, fillie de <persName>Filliolet</persName>, femme de <persName>Glaudo 
+							<lb/>Moctie</persName>, qui est tieulz qu’elle qu’a esté en la <term ref="lem017043.04">secta</term>.</hi></seg>
+						
+						<seg><lb/>Item elle az ditz que elle a faitz a mourir ung
+							<lb/>enfant a noble <persName ref="per010081">Jacob de Wippens</persName>, qui estoit 
+							<lb/>a <term ref="lem014912.02">nourrissi</term> a <placeName ref="loc007663">Sorens</placeName>, enchi le <persName>Louff</persName>, et alla 
+							<lb/>de nuyt <add place="left margin" type="sign"><lb/>avecque aulcung <lb/>de ses complices</add> <hi rend="framed">et venist avecque elle <persName>Jacquetta Grueri</persName> 
+							<lb/>et la <persName>Gruerina</persName>, qui est a <placeName ref="loc000076.12">Roma</placeName>,</hi> et entrasrent 
+							<lb/>par les portes devant et allasrent trouver ledit 
+							<lb/>enfan sus la <term ref="lem014916.02">brisseyri</term> au <term ref="lem014915.02">bry</term>, et le <term ref="lem014913.02">oinsisrent</term>, 
+							<lb/>et puis elle <add place="left margin" type="sign"><lb/>et l’ung de ses <lb/>complices</add> <hi rend="framed">et Jennetta Grueri</hi> l’<term ref="lem014914.02">extreinsisrent</term>.</seg>
+						
+						<seg><lb/>Item elle et ses complices <term ref="lem014917.02">segnasrent</term> du 
+							<lb/><term ref="lem014886.02">pusset</term> en la montagnye du <placeName ref="loc009311.02">Veychallet</placeName> et 
+							<lb/>du <placeName ref="loc008146.03">Kessemberg</placeName>, et remist une <term ref="lem014918.02">pleue</term> qui en<lb break="no"/>menast le <term ref="lem014886.02">pusset</term> du <placeName ref="loc008146.04">Keßemberg</placeName> 
+							<add place="below" type="sign"><lb/>qui ne porta riens de <lb/>domaige az bestes.</add> maix 
+						<pb n="42"/><lb/><subst><del>p ilz segnasrent</del><add place="inline">le <term ref="lem014886.02">pusset</term> qu’ilz <term ref="lem014917.02">segnasrent</term></add></subst> sur 
+							<lb/>le <placeName ref="loc009311.02">Veychallet</placeName>, <subst><del>ne</del><add place="inline">la <term ref="lem014918.03">ploge</term> ne</add></subst> l’enmena pas, 
+							<lb/>car ilz le <term ref="lem014917.02">segnasrent</term> plus tard, et fist a morir 
+							<lb/>dez bestes.</seg>
+						
+						<seg><lb/><hi rend="framed">Item <persName>Glauda</persName>, femme de <persName>Jacques donzel de <placeName>Pont</placeName><!-- Ort --></persName>, 
+							<lb/>est de sa compagnye et est en cause qu’elle 
+							<lb/>est ainsin venue.</hi></seg>
+						
+						<seg><lb/><hi rend="framed">Item y ly en az ung qui est de <placeName ref="loc008145.02">Villarsiviriouz</placeName>,
+							<lb/>dez <persName>Berset</persName>, maix elle ne sçait pas comant 
+							<lb/>ilz s’appelle.</hi></seg>
+						
+						<seg><lb/>Item elle veoit aller une soixantanne de gens 
+							<lb/>en la <term ref="lem017043.04">secta</term>, maix elle ne veoit pas qu’ilz 
+							<lb/>fissent rien de mal.</seg>
+						
+						<seg><lb/><hi rend="framed">Item elle az ditz que <persName>Maria Bochet</persName>, femme de 
+							<lb/><persName>Pierro Bochet</persName> de <placeName ref="loc007928.03">Treyvaulx</placeName>, az esté en la <term ref="lem017043.04">secta</term> 
+							<lb/>avecque elle, maix y ly az <subst><del>gro</del><add place="inline">long</add></subst> temps 
+							<lb/>et cuydoit qu’elle fusse morte.</hi></seg>
+						
+						<seg><lb/><hi rend="framed">Item elle <subst><del>ly</del><add place="inline">az</add></subst> vehuz <persName>Jehan Henry</persName> en ladite 
+							<lb/><term ref="lem017043.04">secta</term>.</hi></seg></p>
+							
+						<p><lb/><origDate when="1520-06-02">Uff sampstag nach pfingsten <foreign xml:lang="la">anno <abbr>etc</abbr> xx<hi rend="sup">o</hi></foreign></origDate> 
+							<lb/>ist die obgemeldt <persName ref="per009721">Gredi</persName> von läben zum tod, <foreign xml:lang="la"><choice><abbr>stz</abbr><expan>scilicet</expan></choice></foreign> 
+							<lb/>zů ferbrennen verurteyllt und gericht worden. 
+							<lb/>Unnd alls man si uff die hoffstat gefragt 
+							<lb/>het, ob si <subst><del>d</del><add place="inline">by</add></subst> ir <term ref="lem001254">vergicht</term> belibe, so ist si 
+							<lb/>dero <term ref="lem005649.04">abred</term> unnd alle die, die si angeben 
+							<lb/><unclear>denen</unclear> sy nit allso sunder hat, die von forcht 
+							<lb/>der marter der <term ref="lem006591.04">seyl</term> angeben und sollich <term ref="lem001254">vergicht</term> 
+							<lb/>über ir lassen gan.</p>
+							
+						
+						   
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+
+
+
+<?oxy_options track_changes="on"?>

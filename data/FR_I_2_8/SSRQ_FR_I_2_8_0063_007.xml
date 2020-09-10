@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+
+			</titleStmt>
+
+			<publicationStmt>
+				<date type="electronic" when="2019-05-29"/>
+				<date type="print"/>
+			</publicationStmt>
+
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ_FR_I_2_8_0063_007</idno>
+			</seriesStmt>
+
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<idno>StAFR, Thurnrodel 11, S. 319</idno>
+					</msIdentifier>
+					<head>Jean Chevaley – Verhör / Interrogatoire</head>
+					<msContents>
+						<summary></summary> 
+						<msItem>
+							<textLang>fr</textLang> 
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support>
+									<material></material>
+								</support>
+								<extent>
+									<dimensions type="leaves">
+										<height unit="cm" quantity="0.0"/>
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+									<dimensions type="plica">
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+								</extent>
+							</supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1623-06-20"></origDate>
+							<origPlace></origPlace>
+						</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+							
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		
+		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+			<particDesc default="false"/>
+			<settingDesc default="false"/>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>	
+						<p><lb/>A la <placeName ref="loc007683.13"><term ref="lem016925.01">croye</term> tour</placeName>
+							<seg><lb/><origDate when="1623-06-20">Le 20 juin 1623</origDate>, <persName ref="per006840">Fleischman</persName><note>Gemeint ist ein Stadtweibel.</note></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <term ref="lem018597.02">burgermeister</term><note>Gemeint ist Kleinrat <persName ref="per006751">Ulrich Erhart</persName>.</note>, <abbr>h<hi rend="sup">r</hi></abbr> <persName ref="per009261">Techterman</persName></seg>
+							<seg><lb/><persName ref="per009251a.02">Känell</persName>, <persName ref="per009221a.02">Ratze</persName>, <persName ref="per009253a.03">Borkard</persName></seg>
+							<seg><lb/><persName ref="per009446a.01">Nußbaum</persName>, <persName ref="per009447a.01">Grybollet</persName>, <persName ref="per009448a.02">Zumwalt</persName><note>Gemeint sind drei Stadtweibel.</note></seg>
+							<seg><lb/><persName>Bralliard</persName> als schryber<note>Gemeint ist wohl Ratsherr <persName ref="per009463">Peter Braillard</persName>.</note></seg></p>
+						
+						<p><seg><lb/><add place="left margin"><foreign xml:lang="la">Nihil solvit</foreign>.</add></seg> 
+						<seg><persName ref="per009445">Jean Chevalley</persName> de <placeName ref="loc007869.01">Vallon</placeName> a reconfirmé ce que devant, 
+							<lb/>estant eslevé troys foys <subst><del> a la</del> <add place="inline">avec la</add></subst> petite <term ref="lem018285">pierre</term>.</seg></p>
+						
+						<p><lb/>Item a dit qu’il s’estoit donné a son <choice><abbr>mre</abbr><expan>maitre</expan></choice> affin qu’il luy 
+						<lb/>fit trouver ses bestes qu’il gardoit, qu’estoyent perdus, 
+						<lb/>il y a environ <date dur="P8Y">huict ans</date> vers le pont neuf vers les 
+						<lb/>pré d’<placeName ref="loc007603.04">Avenche</placeName>.</p> 
+						
+						<p><lb/>Item a <term ref="lem015356.05">acculpé</term> d’avoir esté a la <term ref="lem017043.01">secte</term> avec luy oultre 
+						<lb/>les precedens, <choice><abbr>ass<hi rend="sup">r</hi></abbr><expan>assavoir</expan></choice> <persName>Catin</persName>, femme de <persName>Pierre 
+						<lb/>Chevalley</persName>, <subst><del>la femme du prenommé <persName>Jean Pirolet</persName></del><add place="above">qu’a esté bruslee</add></subst>, et 
+						<lb/>la femme a <persName>Pierre de la Cour</persName>, de <placeName ref="loc007957.03">Myssy</placeName>.</p>
+						
+						<p><lb/>Item a fait <subst><del>mourir une <term ref="lem017507">vache</term> noyre au</del><add place="above">le mal ou maladie</add></subst> <subst><del>le</del><add place="above">au</add></subst> <term ref="lem015025.04">meusnier</term> 
+						<lb/><persName>Symeon <hi rend="underline">Mattey</hi> <add place="above">Dedeley</add></persName> de <placeName ref="loc007960.02">Resudin</placeName>, il y a <date dur="P7W">sept</date> ou <date dur="P8W">huict 
+						<lb/>sepmaines</date>. A <placeName ref="loc007608.01">Gletterens</placeName> a un nommé <persName>l’Abbé</persName> 
+						<lb/>a faict mourir cincq brebis avec du <term ref="lem014886.02">pusset</term>, estant 
+						<lb/>en champs, il y a <date dur="P8Y">huict ans</date>, et troys <term ref="lem015014.04">mogeons</term> 
+						<lb/>a son frere <persName><choice><abbr>Barthe</abbr><expan>Bartholomé</expan></choice> <subst><del>grynet gerbet</del><add place="inline">Guerbet</add></subst></persName>.</p>
+						
+						<p><lb/>Item a confessé avoir fait mourir les personnes suyvantes, 
+						<lb/>outre celles qu’il a confessé cy devant, assavoir 
+							<lb/>a <placeName ref="loc007976.02">Poraban</placeName> le <choice><abbr>mral</abbr><expan><term ref="lem017410.05">metral</term></expan></choice> qui se nommoit <persName><subst><del>Jacques</del><add place="above">Pierre</add></subst></persName>, qu’estoit 
+						<lb/><term ref="lem015239.02">navatier</term>, par ce qu’il ne le voulut passer le lac avant 
+						<lb/>l’hyvers passé. Item <persName>Michel Cagniard</persName> <del><add place="above">de <placeName ref="loc007869.01">Vallon</placeName></add></del> avec du 
+						<lb/>paint <add place="above">frotté</add>, il y a <date dur="P2Y">deux ans</date>, et <persName>George Cagniard</persName> dudit 
+						<lb/><placeName ref="loc007976.02">Poraban</placeName>, pour ce qu’il ne le vouloit pas alberger, 
+						<lb/>luy ayant mis du <term ref="lem014886.02">pusset</term> en <choice><abbr>s’</abbr><expan>son</expan></choice> ecuelle, un peu avant 
+						<lb/>qu’il bruslat a <placeName ref="loc007977.03">Belfoz</placeName>. <hi rend="underline">Item a <placeName ref="loc007804.01">Grandcour</placeName> a fait 
+						<lb/>mourir</hi> <del>la femme de</del> <hi rend="underline"><persName>Symeon Mattey</persName></hi> <subst><del>nommee <persName>Mathyaz</persName></del><add place="above"><foreign xml:lang="la">ut supra</foreign><note>Der Schreiber verweist auf den bereits oben genannten <persName>Symeon Mattey</persName>?</note></add></subst>, 
+						<lb/>luy ayant soufflé a l’encontre, il y a <date dur="P10W">dix sepmaines</date>. 
+						<lb/>A <placeName ref="loc007649.04">Dompdidy</placeName> a fait mourir <persName>Chardonet</persName>, environ leur 
+							<lb/><term ref="lem015241.02">benission</term>, luy ayant mis de la <term ref="lem018382">graisse</term> en son escuelle, es 
+						<lb/><persName>Pilliod</persName> d’<placeName ref="loc007958.01">Autavaux</placeName> a fait mourrir un filz et une fille, 
+						<lb/><hi rend="underline">et a <persName>Beney</persName> d’<placeName ref="loc007958.03">Autavox</placeName> a fait mourir sa femme <persName>Clauda</persName></hi>.</p>
+						
+						<p><lb/>Ledit prisonnier a esté inconstant en nommer les personnes 
+						<lb/>et sembleroit estre quelquement simple, ne donnant toutteffois 
+						<lb/>aulcung compte de la torture.</p>					
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+
+
+
+<?oxy_options track_changes="on"?>

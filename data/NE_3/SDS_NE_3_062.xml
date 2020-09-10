@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="headerinfo"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <date type="electronic" when="2020-08-17"/>
+    <date type="print"/>
+    <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Collection des sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS_NE_3_062</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier>
+      <idno>AVN B 101.14.001, fol. 376v–377v</idno>
+     </msIdentifier>
+     <head>Succession de la légitime</head>
+     <msContents>
+      <summary>Précisions sur la répartition d’une succession, en particulier à propos de
+       l’usufruit, lorsqu’il y a un ou des enfants communs qui viendraient aussi à
+       décéder.</summary>
+      <msItem>
+       <textLang>français</textLang>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="33"/>
+          <width unit="cm" quantity="23.5"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <origDate when="1618-01-16" calendar="Julian"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>
+      </origin>
+     </history>
+     <additional>
+      <listBibl>
+       <head/>
+       <bibl/>
+      </listBibl>
+     </additional>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     
+     <term ref="key004770"></term>
+     <term ref="key000920"></term>
+     <term ref="key000815"></term>
+     <term ref="key005111"></term>
+     <term ref="key005155"></term>
+     <term ref="key000336"></term>
+     
+    </keywords>
+   </textClass>
+   <particDesc default="false"/>
+   <settingDesc default="false"/>
+  </profileDesc>
+ </teiHeader>
+ 
+ <text>
+  <group>
+   <text>
+    <body>
+     <pb n="376v" facs="AVN_B_101.14.001_0376v"/>
+     <div>
+      <head>
+       <lb/>Declaration touchant <lb/>la <term ref="lem015074.02">legitime</term> d’un enfant apres le deces de pere
+       <lb/>ou de mere. </head>
+      <p>
+       <lb/>Je, <persName ref="per010476a.01">Balthazard Baillodz</persName>, mayre de <lb/>la Ville
+       de <placeName ref="loc007786">Neufchastel</placeName> &amp; conseiller d’Estat de
+       <lb/>l’altesse de <persName ref="per010445">monseigneur le duc de Longueville et de
+        <lb/>Toutteville</persName> nostre souverain prince sçavoir faire à <lb/>tous ceux qu’il
+       appartiendra que ce jourdhuy datte <lb/>soubscript pardevant moy et aucuns des sieurs
+       conseillers <lb/>de ceste dicte Ville apres nommez, est comparu honnorable <lb/>&amp; prudent
+        <persName ref="per010479">Abraham Perrot</persName> bourgeois dudict lieu au nom <lb/>et
+       comme charge ayant de <persName ref="per010483">Pierre <choice>
+         <sic>Pereno</sic>
+         <corr>Perrenoud</corr>
+        </choice></persName> de <placeName ref="loc007789">la Sagne</placeName>
+       <lb/>lequel par la bouche d’un parlier par moy à luy octroyé a <lb/>faict proposer audict nom
+       comme ayant pleu à Dieu de <lb/>retirer à sa part <persName ref="per010484a.01"
+        >Jehanne</persName> soeur dudict <persName ref="per010483">Pierre Perrenoud</persName> et
+       <lb/>une sienne fille qu’elle auroit delaissée en vie apres elle, <lb/>conçue en loyale
+       mariage d’<choice>
+        <abbr>honn</abbr>
+        <expan>honnorable</expan>
+       </choice>
+       <persName ref="per010486">Henry Vuille</persName> de ladicte <lb/><placeName ref="loc007789"
+        >Sagne</placeName> son mary, il seroit entré en difficulté avec ledict <lb/>son beau frere
+       pour les biens de ladicte deffuncte sa <lb/>soeur, de tous lesquels sondict beau frere
+       pretend avoir <lb/>la jouissance sa vie durant, sans luy voulloir laisser la <lb/>moitié
+       d’iceux pour la <term ref="lem015074.02">legitime</term> dudict enffant comme <pb n="377r" facs="AVN_B_101.14.001_0377r"/>
+       <lb/>heritier qu’il est d’icelluy. Et d’autant qu’il leur convient <lb/>se reigler pour ce
+       regard selon la coustume de <lb/><placeName ref="loc007785">Neufchastel</placeName> il
+       n’auroit seu recourir pour en avoir <lb/>declaration sinon aux <orgName ref="org003085"><choice>
+         <abbr>S<hi rend="sup">rs</hi></abbr>
+         <expan>sieurs</expan>
+        </choice> vingt quatre du Conseil</orgName> de <lb/>ladicte Ville suivant ce que par le
+       passé de toute <lb/>ancienneté &amp; jusques à present a esté praticqué et <lb/>usité. Et les
+       auroit requis en leur assemblée de luy faire <lb/>ladicte declaration, despuis ayant esté
+       adverty qu’iceux <lb/>en ont prins resolution cela l’occasionnoit audict nom se
+       <lb/>presenter pour demander droict et judiciale a <lb/>cognoissance que declaration luy en
+       fust faicte. </p>
+      <p><seg>
+       <lb/>Laquelle declaration ayant esté par moy ledict <lb/>mayre demandée à partie desdicts <choice>
+        <abbr>S<hi rend="sup">rs</hi></abbr>
+        <expan>sieurs</expan>
+       </choice> conseillers <choice>
+        <abbr>presentem<hi rend="sup">t</hi></abbr>
+        <expan>présentement</expan>
+       </choice>
+       <lb/>assistans en justice, iceux ensuicte de l’arrest et <lb/>resolution qu’en a esté prinse
+       en Conseil par meure <choice>
+        <abbr>premeditaon</abbr>
+        <expan>préméditation</expan>
+       </choice>
+       <lb/>prinse entr’eux &amp; leurs autres confreres absents, et en <lb/>conformité de ce qu’au
+       temps passé de pere à fils et <lb/>de temps immemorial jusqu’à present a esté usité. Ont
+       <lb/>dict et declaré la coustume de ceste Ville et Comté de <lb/><placeName ref="loc007785"
+        >Neufchastel</placeName> touchant ledict poinct estre telle,</seg> <seg>que quand <lb/>deux
+        personnes ont esté conjointes par mariage à <lb/>ladicte coustume, et l’une ou l’autre soit
+        mary ou femme <lb/>vient à decedder delaissant et restant des enffans de <lb/>leur mariage,
+        lesquels puis apres viennent aussi à <lb/>mourir, alors le pere ou la mere survivant
+        lesdicts <lb/>enffans se doibvent <add place="above">contenter</add> d’avoir et jouyr par
+        usufruict sa <lb/>vie durant la moitié de tous les biens du deffunct ou <lb/>de la deffuncte
+        sa conjointe partie, tels qu’ils luy <lb/>pouvoient appartenir lors de son deceds et laisser
+         <lb/>parvenir et retrouver tost apres le deceds desdicts <pb n="377v" facs="AVN_B_101.14.001_0377v"/>
+        <lb/>enffans, l’autre moitié desdicts biens de leur <lb/>pere ou mere premier decedé, qui
+        leur pouroit <choice><sic>apertenir</sic><corr>appartenir</corr></choice>
+        <lb/>pour leur <term ref="lem015074.02">legitime</term> aux plus proches parens desdicts
+        <lb/>enffans <add place="above">du costé</add> dont lesdicts biens meuvent, sans que ledict
+        <lb/>survivant des mariez pere ou mere desdicts enffans <lb/>puisse pretendre aucun
+        usufruict sur ladicte <term ref="lem015074.02">legitime</term>.</seg></p>
+      <p>
+       <lb/>Apres ladicte declaration ainsi ouvertement faicte <lb/><choice>
+        <abbr>led</abbr>
+        <expan>ledit</expan>
+       </choice>
+       <choice>
+        <abbr>S<hi rend="sup">r</hi></abbr>
+        <expan>sieur</expan>
+       </choice>
+       <persName ref="per010479">Abraham Perrot</persName> audict nom a requis et demandé <lb/>l’avoir par escript
+       en acte authentique pour s’en servir <lb/>à son besoin, ce que judiciallement luy a esté
+       octroyé <lb/>soubz le sceau de la mayorie &amp; justice dudict <placeName ref="loc007786"
+        >Neufchastel</placeName>
+       <lb/>et le seing notarial du secretaire substitué en ladicte justice <lb/>soubsigné, en
+       tesmoignage de verité des choses susdictes <lb/>par l’adjudication des honnorables &amp;
+       prudent <persName ref="per010427a.03">Jehan <lb/>Rougemont</persName>, <persName ref="per010431">Jonas Fecquenet</persName>,
+       <persName ref="per010492">David Grenot</persName>, <persName ref="per010602a.06">Guillaume <lb/>Dallemagne</persName>,
+       <persName ref="per010451a.01">David Boyve</persName>, <persName ref="per010458a.02">Jean Jacques Ustervald</persName>,
+       <lb/><persName ref="per010493a.01">Jonas Barriller</persName>, <persName ref="per010494">Daniel</persName> et <persName ref="per010495">Blaise
+        Rossellet</persName>, <lb/>conseillers dudict <placeName ref="loc007786">Neufchastel</placeName> et par moy
+        <hi rend="sup">l</hi>edict <lb/>mayre ordonné audict soubsigné de l’expedier le
+       <lb/><origDate when="1618-01-16" calendar="Julian">seiziesme jour du moys de janvier mille six cents et
+         <lb/>dix huict</origDate>, signé <persName ref="per010500">P. Thomasset</persName>. </p>
+      <p>
+       <lb/>Coppie prinse et collationnée à son original signé &amp; scellé <lb/>comme dessus et
+       cesdicte coppie signé par moy <lb/>greffier <persName ref="per010433"><choice><abbr>D</abbr><expan>David</expan></choice>
+        Baillod</persName>. </p>
+      <p>
+       <lb/>Et par moy notaire,extraict par <lb/>copie sur <choice>
+        <abbr>lad</abbr>
+        <expan>ladite</expan>
+       </choice> copie sans mutation. </p>
+     </div>
+     <div>
+      <signed><persName ref="per010440">Carrel</persName> <figure type="notarial sign"/></signed>
+     </div>
+    </body>
+    <back>
+     <div>
+      <p>Ce point de coutume est cité dans le point <ref>SDS_NE_3_285</ref>.</p>
+     </div>
+    </back>
+    
+    
+   </text>
+  </group>
+ </text>
+</TEI>

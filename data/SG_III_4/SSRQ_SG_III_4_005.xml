@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften
+     und Landstädte, Band 4: Die Rechtsquellen der Grafschaft Werdenberg, Freiherrschaft
+     Sax-Forstegg und Herrschaft Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-07-04"/>
+            <date type="print"/>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_005</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>BAC 022.02, fol. 60r</idno>
+               </msIdentifier>
+               <head>Graf Hugo II. von Werdenberg-Heiligenberg stellt dem Bischof von Chur, Siegfried von Gelnhausen, einen Pfandlösungsrevers aus für den Hof Sevelen und übernimmt die Währschaft gegenüber den Gläubigern, die er für den Bischof ausbezahlt hat</head>
+               <msContents>
+                  <summary>Graf Hugo II. von Werdenberg-Heiligenberg stellt dem Churer Bischof Siegfried von Gelnhausen einen Pfandlösungsrevers aus für den Hof Sevelen und übernimmt die Währschaft gegenüber den Gläubigern, die er für den Bischof ausbezahlt hat. Er verspricht, dem Bischof dafür 100 Mark zu bezahlen. Graf Hugo hatte schon vorher 100 Mark als Pfand auf dem Hof.</summary>
+                  <msItem>
+                     <textLang>Latein</textLang>
+                     <filiation type="original">
+                        <origDate when="1304-06-30"/>
+                        <origPlace>Feldkirch</origPlace>
+                        <idno/>
+                     </filiation>
+                     <filiation type="current">Abschrift, Heft (137 Seiten) mit Ledereinband</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="30.5"/>
+                              <width unit="cm" quantity="24.5"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate from="1378-01-01" to="1388-12-31"/>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head>Editionen</head>
+                     <bibl><ref target="http://permalink.snl.ch/bib/chbsg000070135">BUB</ref>, Bd. 4, Nr. 1793</bibl>
+                     <bibl><ref target="http://permalink.snl.ch/bib/chbsg000142708">Mohr CD</ref>, Bd. 2, Nr. 114</bibl>
+                     <bibl><ref target="http://permalink.snl.ch/bib/chbsg000110415">UBSSG</ref>, Bd. 2, Nr. 963</bibl>
+                  </listBibl>
+                  <listBibl>
+                     <head>URL</head>
+                     <bibl type="url"><ref target="http://www.bistumsarchiv-chur-urkunden.ch/index_htm_files/BAC,%20022.02%20Liber%20de%20feodis%201378%20pdfa.pdf">http://www.bistumsarchiv-chur-urkunden.ch/index_htm_files/BAC,%20022.02%20Liber%20de%20feodis%201378%20pdfa.pdf (fol. 60r)</ref></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000027">Verpfändung</term>
+               <term ref="key004478">Hof</term>
+               <term ref="key000058">Schulden</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text type="summary">
+            <body>
+               <div org="uniform" sample="complete">
+                  <p>Graf <persName ref="per004424">Hugo II. von Werdenberg-Heiligenberg</persName>
+                     stellt dem Bischof von Chur, <persName ref="per000006a">Siegfried von
+                        Gelnhausen</persName>, einen Pfandlösungsrevers aus für den Hof <placeName
+                        ref="loc006049">Sevelen</placeName> und übernimmt die <term ref="key003760"
+                        >Währschaft</term> gegenüber den <term ref="key004001">Gläubigern</term>,
+                     die er für den Bischof ausbezahlt. <orig>Quamquidem summam C. marcarum
+                        predictam nobis ad curiam in <placeName ref="loc006049">Sevelen</placeName>,
+                        que prius nobis pro C. marcis argenty cum suis pertinenciis et iuribus
+                        universis extitit obligata, modo supperaddidit et sic eadem curia in
+                           <placeName ref="loc006049">Sevelen</placeName> pro C. marcis argenti et
+                        pro C. marcis ponderis supradicti nobis cum suis pertinenciis rationabiliter
+                        titulo pignoris obligatur. Facta est hec obligacio predicte curie in
+                           <placeName ref="loc006049">Sevelen</placeName> cum suis pertinenciis
+                        favore et consensu tocius sui capituli unanimiter accedente.</orig><note
+                        anchored="true">Nach der Edition im <bibl><ref
+                           target="http://permalink.snl.ch/bib/chbsg000070135"
+                           >BUB</ref>, <ref target="https://www.gr.ch/DE/institutionen/verwaltung/ekud/afk/sag/projekte/bub/BUBonline/BUB-IV.pdf">Bd. 4, Nr. 1793</ref></bibl>.</note>
+                  </p>
+               </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div org="uniform" sample="complete" n="1">
+            <p><persName ref="per004424">Hugo II. von Werdenberg-Heiligenberg</persName> übernimmt
+               hier den <placeName ref="loc006049">Hof Sevelen</placeName> als Pfand vom Churer
+               Bischof <persName ref="per000006a">Siegfried</persName>. Dadurch kommt der Hof in
+               Besitz der <orgName ref="org000019">Werdenberg-Heiligenberg</orgName> und die <term
+                  ref="key000305">Grenze</term> der Grafschaft <placeName ref="loc000440"
+                  >Werdenberg</placeName> verlängert sich nach Süden (<bibl><ref
+                     target="http://permalink.snl.ch/bib/chbsg000150450">Gabathuler 2015</ref>,
+                  S. 91</bibl>). Zuvor zählen nur die Burg <placeName ref="loc000015"
+                  >Werdenberg</placeName> mit den Pfarreien <placeName ref="loc006100"
+                  >Buchs</placeName> und <placeName ref="loc006027">Grabs</placeName>, die Stadt
+                  <placeName ref="loc000933">Bludenz</placeName> und die <term ref="key000039"
+                  >Klostervogtei</term>
+               <placeName ref="loc006111">St. Johann</placeName> im Thurthal zum Besitz der
+               Werdenberg-Heiligenberg (<bibl><ref
+                     target="http://permalink.snl.ch/bib/chbsg000124559">Gabathuler 2010</ref>,
+                  S. 245</bibl>). Der Hof Sevelen ist jedoch bis zum Kauf <date when="1397"
+                  >1397</date> (<ref>SSRQ_SG_III_4_020</ref>) nur als Pfand in Besitz der
+               Werdenberg-Heiligenberg.</p>
+         </div>
+         <div org="uniform" sample="complete" n="2">
+            <p><date when="1208">1208</date> erscheint Sevelen in Besitz des Klosters <placeName
+                  ref="loc000064">Churwalden</placeName> (<bibl><ref
+                     target="http://permalink.snl.ch/bib/chbsg000070135">BUB</ref>, Bd. 2,
+                  Nr. 516 [519]</bibl>) und <date when="1228">1228</date> als <term ref="key000024"
+                  >Vizedominat</term> des Bistums <orgName ref="org000053">Chur</orgName>
+                     (<bibl><ref target="http://permalink.snl.ch/bib/chbsg000110415">UBSSG</ref>,
+                     Bd. 1, Nr. 339</bibl>). Bis zur <term ref="key000027">Verpfändung</term>
+               von <date when="1304">1304</date> an die Werdenberger verbleibt der <term
+                  ref="key004478">Hof</term> in Besitz des Churer Bistums.</p>
+         </div>
+         <div org="uniform" sample="complete" n="3">
+            <p>Ende des <date from="1375" to="1400">14. Jh.</date>  entsteht zwischen den Werdenbergern und dem Bischof von Chur ein Streit um
+     die Zugehörigkeit des Hofs Sevelen (<ref>SSRQ_SG_III_4_020</ref>).</p>
+         </div>
+         <div org="uniform" sample="complete" n="4">
+            <p>Die drei Höfe am Sevelerberg sind im Besitz der Sargenser Grafen. <date when="1361"
+                  >1361</date> verkauft Graf <persName ref="per000116">Rudolf IV. von
+                  Werdenberg-Sargans</persName> mit seinem Sohn dem Kloster <orgName ref="org000001"
+                  >Pfäfers</orgName> u. a. die beiden Höfe <placeName ref="loc000171"
+                  >Blankenhusen</placeName> und <placeName ref="loc000999.01">Blatten</placeName> in
+                  <placeName ref="loc000696.03">St. Ulrich</placeName> bei Sevelen (<bibl><ref
+                     target="https://www.ssrq-sds-fds.ch/online/SG_III_2/index.html#p_17">SSRQ SG
+                     III/2.1</ref>, Nr. 11c</bibl>). Diese Höfe bleiben als Lehenshöfe in Besitz des
+               Klosters bis zu dessen Auflösung im <date from="1801" to="1900">19. Jh.</date> Vgl.
+               dazu <bibl><ref target="http://scope.stiftsarchiv.sg.ch/detail.aspx?ID=289">StiAPf
+                     Urk. 02.09.1364</ref></bibl>; <bibl><ref
+                     target="http://scope.stiftsarchiv.sg.ch/detail.aspx?ID=290">Urk.
+                     20.09.1364</ref>; <ref>I. 16. p. Nr. 5</ref>; <ref>V. 17. a.</ref>, Nr. 1; Nr. 2; Nr. 8</bibl>;
+                     <bibl><ref>StASG AA 3 A 4-5a</ref></bibl>; <bibl><ref
+                     target="http://scope.stiftsarchiv.sg.ch/detail.aspx?ID=2886">StiAPf Cod. Fab.
+                     129</ref></bibl>; <bibl><ref>PGA Sevelen Nr. 17</ref></bibl>. Zu den Höfen am
+               Sevelerberg vgl. ausführlich <bibl><ref
+                     target="http://permalink.snl.ch/bib/chbsg000124577">Gabathuler 2011</ref>,
+                  S. 246–251</bibl>. </p>
+         </div>
+         <div org="uniform" sample="complete" n="5">
+            <p>Frühe Erwähnungen von Sevelen (<date from="1301" to="1400">14. Jh.</date>) vgl. auch
+                     <bibl><ref target="http://permalink.snl.ch/bib/chbsg000110415">UBSSG</ref>,
+                     Bd. 2, Nr. 968</bibl>; <bibl><ref target="http://permalink.snl.ch/bib/chbsg000091563">LUB</ref> I/2,
+                  Nr. 37</bibl>; <ref>SSRQ_SG_III_4_012</ref>;
+                  <ref>SSRQ_SG_III_4_014</ref>.</p>
+         </div>
+      </back>
+   </text>
+</TEI>

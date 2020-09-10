@@ -1,0 +1,761 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die
+          Landschaften und Landstädte, Band 4: Die Rechtsquellen der Region Werdenberg: Grafschaft
+          Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft
+          Hohensax-Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-10-04"/>
+            <date type="print"/>
+            <availability><p xml:id="facs">Staatsarchiv St. Gallen (StASG)</p></availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_184</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>StASG AA 3 A 12c-5</idno>
+               </msIdentifier>
+               <head>Legibrief: Die Gemeinde Sevelen erneuert ihre Satzungen vom 27. Januar 1637</head>
+               <msContents>
+                  <summary>
+                     <p>Mit dem Einverständnis von Melchior Heiz, Landvogt von Werdenberg-Wartau, wird von
+                     			namentlich genannten Abgeordneten der Gemeinde am 27. Januar 1637 eine
+                     			Gemeindeverordnung für die kommenden 10 Jahre aufgestellt. Diese Satzungen, die
+                     			Weiderechte, Tierhaltung, Alpauftrieb, Viehverstellungen, Gemeinwerke an Wehren,
+                     			Hintersassen, Waldnutzung, Strafen etc. regeln, werden 1653 für weitere zehn Jahre von
+                     			der Gemeinde erneuert.</p>
+                  </summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <filiation type="current">Original, Heft (5 Blätter)</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="32.5"/>
+                              <width unit="cm" quantity="20.0"/>
+                           </dimensions>
+                        </extent>
+                        <condition>zerfleddert, gebrochen, letzte Seite zur Hälfte abgerissen,
+                           restauriert (2019)</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <sealDesc>
+                     <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI"
+                           n="1"
+                           nontei:condition="absent"
+                           nontei:material="papered seal"
+                           nontei:place="end"
+                           nontei:shape="round"
+                           nontei:attachment="applied"/>
+                  </sealDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate from="1653-01-01" to="1653-12-31">Ohne Monat und Tag.</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000519">Zaun</term>
+               <term ref="key000013">Dorfrecht</term>
+               <term ref="key000341">Ordnung</term>
+               <term ref="key004797">Legibrief</term>
+               <term ref="key000719">Tratt</term>
+               <term ref="key000298">Vieh</term>
+               <term ref="key000307">Allmende</term>
+               <term ref="key000006">Alp</term>
+               <term ref="key000885">Alpfahrt</term>
+               <term ref="key000657">Gemeindeordnung</term>
+               <term ref="key004067">Gemeinderecht</term>
+               <term ref="key003803">Weidgang</term>
+               <term ref="key000184">Busse</term>
+               <term ref="key000791"/>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <div org="uniform" sample="complete"><!-- Im Portal wird teilweise die Art vom Textverlust nicht angezeigt und zwar wenn der Textverlust nicht sinngemäss ergänzt werden konnte, sondern als gap gekennzeichnet wurde. PS: Ja, dieses Problem habe ich bereits als Ticket in Auftrag geben.-->
+                  <p>
+                     <pb n="1r" facs="StASG_AA_3_A_12c-05_1r"/>
+                     <seg>
+                        <lb/>Wir, <orgName ref="org001834">die <term ref="lem000304.10"
+                              >gnosamme</term> unnd <term ref="lem000299.01">kilchspil</term> einer
+                           <lb/>gantzen gmeind zu Sevelen</orgName>, bekennen und ver<lb break="no"
+                        />jehen offentlich hiemit uhrkundt diß briefß, daß <lb/>wir uff anno
+                           <origDate when="1637-01-27">1637, den 27. tag jenner</origDate>, uß
+                        <lb/>gunst, wüssen und willen deß frommen, ehrvesten, <lb/>fürsichtigen, wol
+                        wyssen herren landtvogt <persName ref="per009605a">Melchior
+                           <lb/>Heitzen</persName>, diß mallen landtvogt der <placeName
+                           ref="loc007867">graffschafft <lb/>Werdenberg und herrschafft
+                           Wartauw</placeName>, ein <term ref="lem000809">ordnung</term>
+                        <lb/>und satzig brieff unssrer gmeind unnd kilch<damage
+                           agent="part of the folio lost" unit="cm" quantity="1">
+                           <supplied resp="sm">spiel</supplied></damage>
+                        <lb/>zu nutz und guttem <date dur="P10Y">zächen jar</date> lang dur<damage
+                           agent="part of the folio lost" unit="cm" quantity="1"><supplied resp="sm">ch die</supplied></damage>
+                        <lb/><term ref="lem003129">verohrneten</term> ansächen und stellen lassen,
+                        wie <damage agent="part of the folio lost">
+                           <gap unit="cm" quantity="1.5"/></damage>
+                        <lb/>unsere <term ref="lem008239">tratt</term> nutzen und <del>uss</del> die
+                        selbigen <damage agent="part of the folio lost" unit="cm" quantity="1.5">
+                           <supplied resp="sm">bruchen</supplied></damage>
+                        <lb/>und waß einer <term ref="lem007596">uff triben</term> söli und mögi,
+                           <damage agent="part of the folio lost">
+                           <gap unit="cm" quantity="1.5"/></damage>
+                        <lb/>vor unserer gantzen, vol kommen gmeind <damage
+                           agent="part of the folio lost">
+                           <gap unit="cm" quantity="3"/></damage>
+                        <lb/>worden, da dann, wie disere nach volgendt <damage
+                           agent="part of the folio lost" unit="cm" quantity="4">
+                           <supplied resp="sm"><unclear>articlen</unclear></supplied></damage>
+                        <lb/>ein helig mit ein anderen auf und an<damage
+                           agent="part of the folio lost" unit="cm" quantity="2">
+                           <supplied resp="sm">genommen, die</supplied></damage><lb break="no"
+                        />selbigen stif und stäht zehalten, wie <damage
+                           agent="part of the folio lost" unit="cm" quantity="2">
+                           <supplied resp="sm">einer</supplied></damage>
+                        <lb/>nach dem anderen zu gebend und <damage agent="part of the folio lost"
+                              ><gap unit="cm" quantity="2"/>
+                        </damage>.</seg>
+                     <seg>
+                        <lb/>Warend die verohrneten: <term ref="lem001645">Seckel mäi</term><damage
+                           agent="part of the folio lost" unit="cm" quantity="4">
+                           <supplied resp="sm">ster</supplied></damage>, <lb/><persName
+                           ref="per010016a">Hanß Burgätzi</persName>, <damage agent="crack"
+                           >gschworner</damage>, <persName ref="per010017">Hanß
+                           Vor</persName><damage agent="part of the folio lost" unit="cm"
+                           quantity="4"><supplied><unclear>burger</unclear></supplied></damage><note
+                           anchored="true">Es könnte sich hier um den Familiennamen Vorburger
+                           handeln.</note>, <lb/><persName ref="per010018a">Andereaß
+                           Pfüfner</persName>, <term ref="lem001740">gschworenner</term>, <damage
+                           agent="part of the folio lost"><gap unit="cm" quantity="4"/></damage>
+                        <lb/><persName ref="per010019">Hanß Münttener</persName>, <persName
+                           ref="per010021">Hanß Tischauser</persName>, Han<damage
+                           agent="part of the folio lost" unit="cm" quantity="4">
+                           <supplied resp="sm">s</supplied></damage>, <lb/><persName ref="per010023"
+                           >Lienhart Saxer</persName>, <persName ref="per010025">Hanß
+                           Gasper</persName>, <damage agent="part of the folio lost">
+                           <gap unit="cm" quantity="4"/></damage>
+                        <lb/><persName ref="per010022">Lienhart Tischauser</persName>, <persName
+                           ref="per010024a">Dyss Saxer</persName>, <damage
+                           agent="part of the folio lost">
+                           <gap unit="cm" quantity="4"/></damage>
+                        <lb/><persName ref="per010020">Christen Burgätze</persName>.</seg>
+                     <seg> Dyssere <damage agent="part of the folio lost" unit="cm" quantity="4">
+                           <supplied resp="sm"><unclear>articlen und</unclear></supplied></damage>
+                        <lb/><term ref="lem002884">satzig</term> ist nach ob vermelter uß
+                           geloff<damage agent="part of the folio lost" unit="cm" quantity="3">
+                           <supplied resp="sm"><unclear>en und</unclear></supplied></damage>
+                        <lb/>vor einer gantzen, volkommen gmeind in <damage
+                           agent="part of the folio lost" unit="cm" quantity="2">
+                           <supplied resp="sm"><unclear>der kirchen</unclear></supplied></damage>
+                        <lb/>anno <origDate when="1653">1653</origDate> einhellig widerumb
+                           bestäh<damage agent="part of the folio lost" unit="cm" quantity="2"
+                              ><supplied resp="sm">tiget und</supplied>
+                        </damage>
+                        <lb/>uff und angenommen, widerumb uff <date dur="P10Y">zehen <damage
+                              agent="part of the folio lost" unit="cm" quantity="2"><supplied
+                                 resp="sm">jahr</supplied></damage></date>
+                        <lb/>solcheß zehalten und stif und stäth nach<damage
+                           agent="part of the folio lost" unit="cm" quantity="3"><supplied resp="sm"
+                                 ><unclear>zu leben</unclear></supplied></damage>, <lb/>wie dan ein
+                        artickel nach dem and<damage agent="part of the folio lost" unit="cm"
+                           quantity="3"><supplied resp="sm">eren wiset</supplied></damage>,
+                        <lb/>gibt und säith und ordenlich von wolg<damage
+                           agent="part of the folio lost" unit="cm" quantity="3"><supplied resp="sm"
+                              >enantem</supplied></damage>
+                        <lb/>auß dem alten, zerbrochnen satzinen br<damage
+                           agent="part of the folio lost" unit="cm" quantity="4"><supplied resp="sm"
+                              >iefen de</supplied></damage>
+                        <lb/>anno <origDate when="1637">1637</origDate>, wie ob vermelt, uff gericht
+                           <damage agent="part of the folio lost" unit="cm" quantity="4"><supplied
+                              resp="sm"><unclear>und wider</unclear></supplied></damage><lb
+                           break="no"/>umb abgeschrieben worden:</seg>
+                     <pb n="1v" facs="StASG_AA_3_A_12c-05_1v_2r"/>
+                     <seg>
+                        <lb/>Zum ersten,<note anchored="true">Die einzelnen Artikel wurden von
+                           späterer Hand mit römischen Zahlen links vom jeweiligen Artikel neu
+                           nummeriert. Im Folgenden wird nur die alte Nummerierung notiert. Ab
+                           Artikel 17 stimmt die neue Nummerierung nicht mehr mit der alten überein,
+                           da in der neuen Nummerierung jeder einzelne Abschnitt gezählt
+                           wurde.</note> so sol man ein jeden lassen <term ref="lem007596">uff
+                           <lb/>triben</term>, welcher <term ref="lem000674">kilchgnoß</term> ist,
+                        waß er <term ref="lem000313">winteren</term> mag <lb/>vor und nach der <term
+                           ref="lem001089">alpfahrt</term>, eß seige welcherläi <lb/>eß wölle, aber
+                        eß sol keiner mehr <term ref="lem001069">roß</term> haben unnd <lb/>uff
+                        triben, dan drü roß. Jedoch sollen die jungen <term ref="lem002191"
+                           >fühli</term>
+                        <lb/>nüt gelten nach gezelt werden. Und waß järig und <lb/>zwey järig follen
+                        sind, die selbigen sol man einem <lb/>jeden frey lassen. Unnd welcher mehr
+                        roß han wurde, <lb/>und die selbigen uff die <term ref="lem000512.07"
+                           >allmeind</term> tribe, mehr dan die <lb/>ob verschribnen drü stuck, der
+                        sol der gmeind von <lb/>einem drü järigen und darob <measure quantity="12"
+                           type="currency" unit="bz">zwölff batzen</measure> zu <term
+                           ref="lem000036">buß</term>
+                        <lb/>geben, unnd von einem zwei järigen <measure quantity="6"
+                           type="currency" unit="bz">6 bz</measure>. Und welcher <lb/>aber <term
+                           ref="lem001069">roß</term> hat und nit fünf <term ref="lem002096"
+                           >stösen</term>, ein <term ref="lem000186.21">mamet</term>
+                        <term ref="lem000548">rieth</term>
+                        <lb/>uß lith, der sol alwegen nach anzal der fünf stösen <lb/><damage
+                           agent="part of the folio lost" unit="cm" quantity="4">
+                           <supplied resp="sm">d</supplied></damage>er gmeind <measure quantity="6"
+                           type="currency" unit="bz">6 bz</measure> zu buß geben oder er fünf stösen
+                           <lb/><damage agent="part of the folio lost" unit="cm" quantity="4">
+                           <supplied resp="sm">i</supplied></damage>m mannet rieth auß legen und
+                        söllend fürhein alle <lb/><damage agent="part of the folio lost" unit="cm"
+                           quantity="4">
+                           <supplied resp="sm">die</supplied></damage> rieter unnd <term
+                           ref="lem000101">wyssen</term> uß ligen, wie von alter harr, <lb/>wie dan
+                        der groß brief uß wist <damage agent="crack"><supplied resp="sm">und zu</supplied></damage> gibt.
+                           <lb/><damage agent="part of the folio lost" unit="cm" quantity="4">
+                           <supplied resp="sm"><unclear>Und</unclear></supplied></damage> sith man
+                           <damage agent="crack">
+                           <gap unit="cm" quantity="4"/></damage> und auß gelegen sin sölend,
+                        <lb/>nach mallen auß ligen und auß gläith werden, <lb/><damage
+                           agent="part of the folio lost" unit="cm" quantity="4">
+                           <supplied resp="sm">j</supplied></damage>edoch sol man mit ob vermelten
+                           <term ref="lem001069">rossen</term> zu gemeiner <lb/><term
+                           ref="lem001089"><damage agent="part of the folio lost" unit="cm"
+                              quantity="4">
+                              <supplied resp="sm">a</supplied></damage>lpfarth</term> zu <term
+                           ref="lem000306">alp</term> und von alp fahren. Und welcher <lb/><damage
+                           agent="part of the folio lost" unit="cm" quantity="4">
+                           <supplied resp="sm">d</supplied></damage>iß nit däti, der sol <date
+                           dur="R/P7D">alle wuchen</date> von einem roß <lb/><damage
+                           agent="part of the folio lost" unit="cm" quantity="4">
+                           <supplied resp="sm">e</supplied></damage>in <measure quantity="0.5"
+                           type="currency" unit="fl">halben guldi</measure> zu buß geben, eß träffe
+                        glich nur <lb/>ein tag oder mehr an. <term ref="key000885"/>
+                        <term ref="key000342"/>
+                        <term ref="key000814"/>
+                        <term ref="key000298"/>
+                        <term ref="key003803"/>
+                     </seg>
+                     <seg>
+                        <lb/>Zum anderen sol man einen jeden zwo <term ref="lem015795.02">soumer
+                           khö</term>
+                        <lb/><term ref="lem007596">uff triben</term> lassen und zwen <term
+                           ref="lem000110">ochsen</term> und die jungen <lb/><term ref="lem002088"
+                           >khelber</term> und den nach zwen <term ref="lem002096">stöß</term> und
+                        welcher mehr <lb/>dahäimat het, dan wie obstaht, der sol der gmeind <lb/>von
+                        einem stoß <measure type="currency" quantity="1" unit="fl">ein
+                           guldi</measure> buß geben.<term ref="key000790"/>
+                     </seg>
+                     <pb n="2r" facs="StASG_AA_3_A_12c-05_1v_2r"/>
+                     <seg>
+                        <lb/>Zum driten ist ehrkendt, daß keiner nit mehr dan <lb/>acht <term
+                           ref="lem002231">sauwen</term> han sole, eß seigend jung oder alt.
+                        <lb/>Und welcher mehr han wurde oder heti, der sol von <lb/>einer alten
+                           <measure quantity="1" type="currency" unit="fl">ein guldi</measure> gäben
+                        und von einer jungen <lb/><measure quantity="0.5" type="currency" unit="fl"
+                           >ein halben guldi</measure> der gmeind ze <term ref="lem000036"
+                           >buß</term>.<term ref="key000560"/>
+                     </seg>
+                     <seg>
+                        <lb/>Zum vierten ist verbotten, daß keiner kein <term ref="lem002403"
+                           >eber</term>
+                        <lb/>lauffen lase, bi <measure quantity="1" type="currency" unit="k">einer
+                           kronen</measure> zbuß und so einer <lb/>schaden thäte, der sol nüt desto
+                        minder dem anderen <lb/>den schaden ab zu tragen schuldig sein.<term
+                           ref="key000560"/>
+                     </seg>
+                     <seg>
+                        <lb/>Zum fünfften sol auch jeder <damage agent="crack" unit="cm"
+                           quantity="5">
+                           <supplied resp="sm">seine eigene <term ref="lem010613">haab</term>
+                              auf</supplied>
+                        </damage>
+                        <lb/>triben unnd keinne andere hab für die ander dar <lb/>stellen noch uf
+                        triben, weder <term ref="lem001069">roß</term> für <term ref="lem000110"
+                           >ochsen</term>
+                        <lb/>nach ochsen für roß, nach <term ref="lem000833">rinder</term> für <term
+                           ref="lem001076">khü</term> oder <lb/>khü für rinder, sonder ein jeder
+                        sein eigne hab, <lb/>so er hat, nach luth aller ob verschribnen articklen,
+                        <lb/>und kein gevor darinen nit gebrucht werden solle.</seg>
+                     <seg>
+                        <lb/>Zum sächsten, so mag ein jeder, waß er <term ref="lem002778.04"
+                           >megtzgen</term> und <term ref="lem000313">winteren</term>
+                        <lb/>wil, wol <term ref="lem000851">kouffen</term>, eß sol aber kein gfahr
+                        darinen <lb/>nit gebrucht werden. Und wo man innen wurde, daß <lb/>gfar
+                        gebrucht wurdi, söllen in die <term ref="lem001740">geschworenen</term>
+                        <lb/>strafen nach seinem verdienen. Und wo ver er <lb/>sich nit straffen
+                        welte lassen, den sol man einem <lb/>herren <term ref="lem000266.42"
+                           >landtvogt</term> an geben und nit verschwigen. <term ref="key000827"/>
+                        <term ref="key000369"/>
+                        <term ref="key000298"/>
+                        <pb n="2v" facs="StASG_AA_3_A_12c-05_2v_3r"/></seg>
+                     <seg>
+                        <lb/>Zum sibenten, so söllend auch alli <term ref="lem000057">schwin</term>,
+                           <term ref="lem000055">schaff</term> und <lb/><term ref="lem001394"
+                           >geiß</term>
+                        <term ref="lem004748">behirtet</term> werden und flisig für getriben
+                        <lb/>werden. Und welcher daß nit däte und einem der <lb/>selbigen einß uff
+                        dem seinen funde, der sol gewalth <lb/>han in zethon und <measure
+                           quantity="1" type="currency" unit="xr">ein krützer</measure> darvon einig
+                           <term ref="lem006459.03">höüschen</term>. <lb/>Und hat nach gewalt, den
+                        schaden witer zu schätzen lassen, <lb/>der einem jeden abtragen werden
+                           solle.<term ref="key000596"/>
+                        <term ref="key005215"/>
+                     </seg>
+                     <seg>
+                        <lb/>Zum achten, so sol auch keiner kein <term ref="lem016212.01"
+                           >halbig</term> usert <choice>
+                           <sic>dem <lb/>dem</sic>
+                           <corr>dem </corr>
+                        </choice>
+                        <term ref="lem000299">kilchspil</term> innen han und welcher ein halbig han
+                        <lb/>wil, der sol eß jar und tag han, einen jeden <term ref="lem002096"
+                           >stoß</term>
+                        <lb/>bi <measure quantity="20" type="currency" unit="bz">zwentzig
+                           batzen</measure>
+                        <term ref="lem000036">zbuß</term>.<term ref="key005258"/>
+                     </seg>
+                     <seg>
+                        <lb/>Zum nündten, welcher <term ref="lem003811.08">möine</term> hat, eß
+                        seige roß oder <lb/>ochsen, der sol schuldig sein, uff stäg und weg zu
+                        <lb/>fahren, einem jeden bi <measure quantity="6" type="currency" unit="bz"
+                           >6 bz</measure> zbuß.<term ref="key000923"/>
+                        <term ref="key000479"/>
+                     </seg>
+                     <seg>
+                        <lb/>Zum zähendten und welcher <measure type="age" quantity="14" unit="year"
+                           >vierzechen <term ref="lem000732">jar</term> alt</measure> ist, der
+                        <lb/>sol und ist schuldig, uff die <term ref="lem000769">wuhr</term> zegon,
+                        bi <measure quantity="4" type="currency" unit="bz">vier batzen</measure>
+                        <lb/>zebuß. Und welcher in der <term ref="lem000202">ebne</term> uff daß
+                        wuhr <lb/>muß und kein <term ref="lem003811.03">männe</term> ver mag, der
+                        sol alwegen <lb/>ein <term ref="lem015794.02">schlegel</term> mit imme
+                        nemmen, so dick erß übersicht, <lb/>bi <measure unit="bz" type="currency"
+                           quantity="1">einen batzen</measure> zbuß.<term ref="key000923"/>
+                        <term ref="key000520"/>
+                        <term ref="key003288"/>
+                        <term ref="key000733"/>
+                     </seg>
+                     <seg>
+                        <lb/>Zum älfften, so sol ein jeder bi gutter zith uff daß <lb/>
+                        <term ref="lem000769">wuhr</term> gohn und fahren, und wo daß nit beschäche,
+                        <lb/>söllend die <term ref="lem001740">geschwornnen</term> gewalt haben, die
+                        selbigen <lb/>ohn gehorsamen personnen nach dem einer ver<lb break="no"
+                        />schulten ab zestraffen.</seg>
+                     <pb n="3r" facs="StASG_AA_3_A_12c-05_2v_3r"/>
+                     <seg>
+                        <lb/>Zum zwölfften und welcher nuhr zwho <term ref="lem001076">küh</term>
+                        hat, der <lb/>mag wol eine empfahen, dahäimet ze han und nit <lb/>in die
+                           <term ref="lem000306">alp</term> zethon im land. Und wan er sy im
+                        <lb/>landt nit umb ein recht gelth findt, der mag dan <lb/>sy wol empfahen,
+                        wo er wil.<term ref="key000777"/>
+                        <term ref="key000006"/>
+                     </seg>
+                     <seg>
+                        <lb/>Zum drizehenden, so sol auch keiner kein <damage
+                           agent="part of the folio lost"><gap unit="cm" quantity="4"/></damage>,
+                        <lb/>eß seige glich, welcherläi <term ref="lem010613">hab</term> eß
+                           wä<damage agent="part of the folio lost" unit="cm" quantity="4">
+                           <supplied resp="sm">re,</supplied></damage>
+                        <lb/><unclear>mlach</unclear> uff triben, ein jeder, der daß <damage
+                           agent="part of the folio lost">
+                           <gap unit="cm" quantity="4"/>
+                        </damage>
+                        <lb/>sol <measure quantity="1" type="currency" unit="k">ein
+                           kronnen</measure> zu buß geben unnd <damage
+                           agent="part of the folio lost" unit="cm" quantity="4">
+                           <supplied resp="sm">den schaden</supplied></damage>
+                        <lb/>ab tragen.</seg>
+                     <seg>
+                        <lb/>Zum vierzehendten, so sol auch ein jeder sein <term ref="lem000522"
+                              >ab<lb break="no"/>gangne</term>
+                        <term ref="lem010613">hab</term>
+                        <term ref="lem004504">vergraben</term> und ab weg thon, auch <lb/>bi
+                           <measure quantity="1" type="currency" unit="k">einer kronnen</measure>
+                        zbuß. <term ref="key000298"/>
+                        <term ref="key003024"/>
+                        <term ref="key003038"/>
+                     </seg>
+                     <seg>
+                        <lb/>Zum fünfzehendten ist ehrkendt worden, daß man <lb/>den <term
+                           ref="lem015796.02">gmeind urben</term> durch schouwen sole an allen
+                        <lb/>enden und ortten und wo väller funden wurden, <lb/>daß einer <term
+                           ref="lem010728">über zünth</term> hete, der sol umb ein <lb/>jedeß <term
+                           ref="lem002176">klaffter</term> ohn nach löschlichen <measure
+                           quantity="1" type="currency" unit="k">ein kronnen</measure>
+                        <lb/>zebuß geben. Und so man imme ein <term ref="lem000151">march
+                           stein</term> setzen <lb/>wurde, der sol alwegen von einem marchstein
+                           <lb/><measure quantity="3" type="currency" unit="bz">dri batzen</measure>
+                        also bar schuldig sein zu geben.<term ref="key000519"/>
+                     </seg>
+                     <seg>
+                        <lb/>Zum sächszehenden, daß welcher nit <term ref="lem000110">ochsen</term>
+                        hat oder <lb/>vermag und ein eigen <term ref="lem001069">roß</term> hat, dem
+                        sol manß <lb/>den <term ref="lem002113">soumer</term> uff der <term
+                           ref="lem008239.10">drath</term> gohn lohn und sol <lb/>alwegen daß ross
+                        uff steg und weg nemmen. <lb/>Auch sol ein jeder alwegen vom roß <measure
+                           quantity="1.5" type="currency" unit="fl">anderhalben <lb/>guldi</measure>
+                        geben. Auch sol daß ross uff dem seinigen <lb/><term ref="lem000313"
+                           >gewinteret</term> werden. <term ref="key000719"/>
+                        <term ref="key000917"/>
+                        <term ref="key000702"/>
+                        <term ref="key000264"/>
+                        <term ref="key000518"/>
+                        <pb n="3v" facs="StASG_AA_3_A_12c-05_3v_4r"/></seg>
+                     <seg>
+                        <lb/>Zum sibenzehenden sol keiner kein <term ref="lem001069">ross</term>
+                        nach dem <lb/><date when="--01-01">nöüwen jar</date> in daß landt <term
+                           ref="lem000851">kauffen</term>, wer dan <lb/>die lege er liden mag. Und
+                        welcher den <term ref="lem002765">früling</term>
+                        <lb/>der glichen ross uff triben wurde, der sol von <lb/>einem ross <measure
+                           quantity="3" type="currency" unit="fl">dri guldi</measure> geben.<term
+                           ref="key000264"/>
+                        <term ref="key000726"/>
+                        <term ref="key000369"/>
+                     </seg>
+                     <seg>
+                        <lb/>Eß ist auch nach witerß erkendt, daß sich keine <term ref="lem000745"
+                              >hinder<lb break="no"/>sässen</term>, wanen har die sein möchten, in
+                        der gemeind <lb/>nit <term ref="lem000742">hauß häblich</term> setzen
+                        sollen, sy habend dan ein <lb/><term ref="lem000225">bürgen</term> oder umb
+                           <measure quantity="100" type="currency" unit="fl">hundert guldi</measure>
+                        zu <term ref="lem000734">vertrösten</term>. <lb/>Im fahl aber einer in der
+                        gmein ein hinder säs <lb/>in sein <term ref="lem000248">hauß</term> setzen
+                        wurde, wirth man die selbigen <lb/>oder der bürg und <term ref="lem002062"
+                           >tröster</term> worden, umb daß, waß <lb/>gemelti hindersässen einen im
+                        landt an setzen wurden, <lb/>an statt der hinder sässen suchen, luith
+                        unsseren <lb/><choice>
+                           <abbr>g h</abbr>
+                           <expan>gnädigen herren</expan>
+                        </choice>
+                        <term ref="lem003457">grossen mandath</term>.<note anchored="true">Vgl. dazu
+                           das Landbuch von <date when="1639">1639</date>
+                           <ref>SSRQ_SG_III_4_174</ref>, Art. 21.</note> Deß wüß sich menniglich
+                        <lb/>in unsserer gmeind ze verhalten.<term ref="key000314"/>
+                        <term ref="key000433"/>
+                        <term ref="key000135"/>
+                     </seg>
+                     <seg>
+                        <lb/>Eß ist auch ehrkendt, daß wan die gemeind ein <lb/><term
+                           ref="lem000745">hindersässen</term>
+                        <term ref="lem008671">an nemen</term> wurdi oder da sitzen liesse, <lb/>die
+                        selbigen sollend der gemeind <date dur="R/P1Y">alle jar</date> für ihr
+                           <lb/><term ref="lem015713">sitz gelth</term>
+                        <measure quantity="2" type="currency" unit="fl">2 </measure> geben. Eß
+                        behaltet auch die gmeind <lb/>bevor, mit gemelten hinder sässen witerß ab
+                        <lb/>zu komen nach ihrem belieben und gevallen. <term ref="key000314"/>
+                        <term ref="key004741"/>
+                        <term ref="key000433"/>
+                     </seg>
+                     <seg>
+                        <lb/>Eß ist auch erkendt, daß wan ein <term ref="lem000745">hinder
+                           säss</term> im <lb/><term ref="lem002765">früllig</term>
+                        <term ref="lem010613">hab</term>
+                        <term ref="lem007596">uff triben</term> wil, der sol der gmeind <lb/>von
+                        einem <term ref="lem002096">stoß</term>
+                        <measure quantity="3" type="currency" unit="bz">3 bz</measure> geben. Und
+                        wan ein <term ref="lem000745">hinder säss</term>
+                        <lb/>ein stoß <term ref="lem002756">sumeren</term> wil, der sol von jedem
+                        stoß <lb/>der gmeind <measure quantity="1" type="currency" unit="fl">ein
+                           guldi</measure> geben.<term ref="key000314"/>
+                     </seg>
+                     <pb n="4r" facs="StASG_AA_3_A_12c-05_3v_4r"/>
+                     <seg>
+                        <lb/>Eß ist auch erkendt, daß keiner mehr dan fünf gschorene <lb/><term
+                           ref="lem000055">schaff</term> sol haben. Und welcher mer hat, der sol von
+                        einem <lb/>jeden <measure quantity="1" type="currency" unit="bz">ein
+                           batzen</measure> zbuß geben. Auch sollen die schaff <lb/>weder in <term
+                           ref="lem001528">auwen</term> nach in <term ref="lem000251">wald</term>
+                        getriben werden den <lb/><term ref="lem002765">früling</term>.<term
+                           ref="key000070"/>
+                        <term ref="key000502"/>
+                        <term ref="key000249"/>
+                     </seg>
+                     <seg>
+                        <lb/>Eß ist witer erkendt, daß who zwo oder dri <term ref="lem001067">hauß
+                           habi</term>
+                        <lb/>in einem <term ref="lem000248">hauß</term> wärend und mit ein anderen
+                           <term ref="lem016213.02">röüchen</term>
+                        <lb/>däten, die selbigen söllend nur für ein <term ref="lem001067">hauß
+                           hab</term>
+                        <lb/>gelten und gezelt werden.<term ref="key003405"/>
+                     </seg>
+                     <seg>
+                        <lb/>Zum achtzehendten, welcher frömde <term ref="lem000055">schaff</term>
+                        über die <lb/><term ref="lem015797.01">ledi</term> aussert dem land innen
+                        kauffte, der sol <lb/>von einem jeden <measure quantity="6" type="currency"
+                           unit="bz">6 bz</measure> zu buß geben.<term ref="key000070"/>
+                        <term ref="key000369"/>
+                     </seg>
+                     <seg>
+                        <lb/>Zum nünzehenden sol <damage agent="crack">
+                           <gap unit="cm" quantity="8"/></damage>
+                        <lb/>die dri <term ref="lem010876">winter monet</term>
+                        <damage agent="hole">
+                           <gap unit="cm" quantity="3.0"/></damage>ohn, eß währe dan <lb/>sach, daß
+                        einer <term ref="lem000055">schaff</term> uß lohn welthe, so solß ein
+                        <lb/>jeder uff dem seinen han.<note anchored="true">Der Anfang des Artikels
+                           ist kaum verständlich. Es könnte sich inhaltlich um den Anfang von
+                           Artikel 23 im Legibrief von 1786 handeln (<bibl><ref
+                                 target="https://archivverzeichnis.gl.ch/home/#/content/1e896ea0ddc54525a048c334de1c92d7"
+                                 >LAGL AG III.2436:038</ref></bibl>), worin es heisst, dass
+                              <orig>ein jeder sin haab die drey wintermonate, als namlich
+                              christmonath, jenner und hornung, einhalten solle.</orig>
+                        </note>
+                        <term ref="key000070"/>
+                     </seg>
+                     <seg>
+                        <lb/>Zum zwäntzigisten ist verbotten, daß keiner nütt <lb/>in dem einig
+                           <term ref="lem000251">wald</term>
+                        <term ref="lem001634">hauwen</term> sölle. Und welcher <lb/>über daß verboth
+                        etwaß hauwen dätti, kleinß <lb/>oder grosses, der sol von jedem <term
+                           ref="lem011493">stumpen</term>
+                        <measure quantity="2" type="currency" unit="fl">2 </measure>
+                        <lb/>zu bus geben.<term ref="key000249"/>
+                        <term ref="key000640"/>
+                     </seg>
+                     <seg>
+                        <lb/>Zum ein und zwäntzigesten sol auch ein jeder, welcher <lb/>uff daß
+                           <term ref="lem000769">wuhr</term>
+                        <term ref="lem002179.05">stuiden</term> haouwen thut, der sol sich <lb/>bi
+                        dem lesten uff dem wuhr erzäigen bi <lb/><measure quantity="4"
+                           type="currency" unit="bz">4 bz</measure> zebus. <term ref="key000640"/>
+                        <term ref="key000520"/>
+                        <term ref="key003337"/>
+                     </seg>
+                     <pb n="4v" facs="StASG_AA_3_A_12c-05_4v_5r"/>
+                     <seg>
+                        <lb/>Zum zwei und zwäntzigisten ist auch verbotten, daß <lb/>keiner keine
+                           <term ref="lem000055">schaff</term> den <term ref="lem002765"
+                           >frühling</term> in <term ref="lem000251">wald</term> thon
+                           <lb/>solle.<term ref="key000070"/>
+                        <term ref="key000249"/>
+                        <term ref="key000726"/>
+                        <term ref="key000517"/>
+                     </seg>
+                     <seg>
+                        <lb/>Eß ist auch erkendt, daß man mit den <term ref="lem000055"
+                           >schaffen</term> ze <lb/>fahren in den <term ref="lem000028"
+                           >höltzeren</term> lasse umb gohn auß <lb/>eim daß ander und ein anderen
+                        nit <term ref="lem007262.02">drützlich</term>
+                        <lb/>über fahren und hierinen kein gfahr bruchen.</seg>
+                     <seg>
+                        <lb/>Eß ist auch erkendt, daß in allen dreien <term ref="lem013406"
+                           >dritlen</term>
+                        <lb/>in jedem dritel zwen <term ref="lem014600.04">baffert</term> sein
+                        sollen. Unnd <lb/>wan sy die <term ref="lem001740">gschwornnen</term>
+                        häissen ab triben, sollend <lb/>sy gehorsam sein bi <measure quantity="0.5"
+                           type="currency" unit="fl">einem halben guldi</measure> zbuß. <lb/>Und wan
+                        einer gehorsam ist, der sol für sein <lb/>person <term ref="lem001622">wuhr
+                           frei</term> sein.<term ref="key000827"/>
+                        <term ref="key000066"/>
+                     </seg>
+                     <seg>
+                        <lb/><damage agent="crack" unit="cm" quantity="5">
+                           <supplied resp="sm">Und zum</supplied></damage> lesten ist der gemeinen
+                           <term ref="lem000345">straffen</term>
+                        <lb/>halben <damage agent="hole" unit="cm" quantity="2">
+                           <supplied>erkenn</supplied></damage>dt, daß die söllend ein guth uff
+                        <lb/>sähen haben und so einer straffbärlich ist oder <lb/>wurdi, den
+                        selbigen söllen die <term ref="lem001740">geschworennen</term>, so <lb/>er
+                        nit mit innen abkompt, ein <term ref="lem000218">pfand</term>
+                        <term ref="lem006732">auß tragen</term>
+                        <lb/>und dan wan ihr jar auß ist, söllend sy einen <lb/><term
+                           ref="lem006748">ruff</term> in der <term ref="lem000240">kilchen</term>
+                        gohn lassen. Und so einer <lb/>daß selbig nit dan <term ref="lem000219"
+                           >lösen</term> wurdi, so söllend dan die <lb/><term ref="lem001740"
+                           >geschwornnen</term> gewalt han, daß selbig zu <term ref="lem000852"
+                           >verkouffen</term>. <lb/>Im fal aber die geschwornnen demme nit nach gohn
+                        <lb/>wurden, wirt man die geschwornnen umb die aus<lb break="no"/>ständten
+                        bussen suchen.<term ref="key000827"/>
+                        <term ref="key000905"/>
+                        <term ref="key000591"/>
+                        <term ref="key000027"/>
+                     </seg>
+                  </p>
+                  <pb n="5r" facs="StASG_AA_3_A_12c-05_4v_5r"/>
+                  <pb n="5v" facs="StASG_AA_3_A_12c-05_5v_6r"/>
+                  <pb n="6r" facs="StASG_AA_3_A_12c-05_5v_6r"/>
+                  <pb n="6v" facs="StASG_AA_3_A_12c-05_6v_7r"/>
+                  <pb n="7r" facs="StASG_AA_3_A_12c-05_6v_7r"/>
+               </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div n="1" org="uniform" sample="complete">
+            <p><date when="1653">1653</date> erneuert die <term ref="key000637">Pfarrei</term> der
+               ganzen Gemeinde <orgName ref="org001834">Sevelen</orgName> den <term ref="key004797"
+                  >Legibrief</term> vom <date when="1637-01-27">27. Januar 1637</date>, der damals
+               mit Bewilligung des Landvogts auf <date dur="P10Y">10 Jahre</date> erstellt wurde und
+               lässt diesen von der ganzen Gemeinde bestätigen. Der Legibrief von 1637 ist nur noch
+               in Form der Erneuerung von 1653 erhalten. Er ist der älteste überlieferte Legibrief
+               aus der Landvogtei <placeName ref="loc000440">Werdenberg</placeName> und der einzige
+               aus dem <date from="1601-01-01" to="1700-12-31">17. Jh</date>. Deshalb wurde er trotz
+               des schlechten Zustands in die Rechtsquellensammlung aufgenommen. Beim ersten Blatt
+               fehlen bis zu 5 cm vom ganzen rechten Rand und auch beim dritten Blatt fehlt ein
+               grosses Stück. Es ist anzunehmen, dass das Heft über Jahre zerknittert und gefaltet
+               in einer Kiste lag, weshalb nicht nur das ganze Heft in der Mitte
+               auseinandergebrochen ist, sondern die einzelnen Seiten an den vielen Faltstellen zu
+               zerbrechen drohen. Die entstandenen Lücken lassen sich nur teilweise durch den
+               späteren Legibrief von Sevelen füllen, da zwar einige Artikel auf dem älteren
+               Legibrief basieren, doch inhaltlich erheblich geändert und ergänzt wurden. </p>
+            <p>Das Dokument stammt aus dem PA Litscher, das vor einigen Jahren nach einer
+               Hausräumung in Sevelen in Privatbesitz von Werner Hagmann gelangt ist. Es wurde im
+               Herbst 2018 dem Staatsarchiv St. Gallen als Geschenk übergeben und 2019 restauriert.
+               Es trägt neu die Signatur <bibl><ref>StASG AA 3 A 12c-5</ref></bibl>.</p>
+            <p>Die weiteren <term ref="key004797">Legibriefe</term> aus der Landvogtei Werdenberg
+               stammen alle aus dem <date from="1701-01-01" to="1800-12-31">18. Jh</date>. Diese
+               sind ausführlicher und enthalten bis zu über 40 Artikel (siehe z. B. den Legibrief
+               von <orgName ref="org001828">Grabs</orgName> von 1790 im <bibl><ref>OGA Grabs
+                     O 1790-1</ref></bibl>, gedruckt bei <bibl><ref
+                     target="http://permalink.snl.ch/bib/chbsg000143946">Beusch 1918</ref>,
+                  S. 112–121</bibl>; zu <orgName ref="org001828">Grabs</orgName> vgl. auch das
+               Teildossier <bibl><ref>StASG AA 3 A 12a-4</ref> [Legibriefe aus den Jahren 1735,
+                  1746, 1766, 1778, 1790]</bibl>; <bibl><ref>OGA Grabs O 1755-1</ref></bibl>; zu
+                  <orgName ref="org001912">Buchs</orgName> vgl. das Teildossier
+                     <bibl><ref>StASG AA 3 A 12b</ref></bibl> [1775, 1795]; <bibl><ref>OGA Buchs
+                     U 09</ref></bibl> [1775]; <bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/c0d836d2473d4f88b47873c036491f02"
+                     >LAGL AG III.2436:025</ref></bibl> [Auszug 1783]; Literatur: <bibl><ref
+                     target="http://permalink.snl.ch/bib/chbsg000143946">Beusch 1918</ref>,
+                  S. 41</bibl>; <bibl><ref target="http://permalink.snl.ch/bib/chbsg000142793"
+                     >Winteler 1923</ref>, S. 51–52</bibl>).</p>
+            <p>Älter als der Seveler Legibrief von 1653 ist nur das <term ref="key000013"
+                  >Dorfrecht</term> der Gemeinde <orgName ref="org001175">Sax</orgName>, das im
+                  <term ref="key003298">Landesrecht</term> der Landvogtei <placeName ref="loc000278"
+                  >Sax-Forstegg</placeName> aus dem Jahr <date when="1627">1627</date> überliefert
+               ist. Die fünf Artikel betreffen das <term ref="key004284">Bannen</term> von
+               Gemeindegut sowie die Aufteilung der <term ref="key000184">Bussen</term>, von denen
+               der Landvogt zwei Drittel bekommt, das <term ref="key000340">Zugrecht</term>, die
+               Nutzung der fruchttragenden <term ref="key000919">Bäume</term>, die <term
+                  ref="key004250">Landstrassen</term> und <term ref="key000259">Bäche</term> sowie
+               die <term ref="key000519">Zäunung</term> (<ref>SSRQ_SG_III_4_166</ref>, fol.
+               45r–47r; Druck: <bibl><ref target="http://permalink.snl.ch/bib/chbsg000143948">Aebi
+                     1974</ref>, S. 160</bibl>). Von den Gemeinden in <placeName ref="loc000278"
+                  >Sax-Forstegg</placeName> sind neben dem <term ref="key000013">Dorfrecht</term>
+               von <placeName ref="loc006042">Sax</placeName> keine Legibriefe überliefert, sondern
+               nur kleinere <term ref="key000341">Ordnungen</term> oder einzelne <term
+                  ref="key000931">Beschlüsse</term> (<ref>SSRQ_SG_III_4_249</ref>;
+                  <ref>SSRQ_SG_III_4_202</ref>; <bibl><ref>OGA Sax 30.05.1789</ref></bibl>;
+                     <bibl><ref>EKGA Sennwald 600</ref></bibl>). Von <orgName ref="org001881"
+                  >Gams</orgName> sind nur einige wenige Gemeindebeschlüsse erhalten, jedoch keine
+               Gemeindeordnung (<bibl><ref>StASZ HA.IV.405, o. Nr.
+                  [02.07.1783]</ref></bibl>; <bibl><ref>LAGL AG III.25, Bündel 102
+                     [Schriften über das berichtigte Trattgeschäft in Gams]</ref>, 02.12.1793,
+                  03.08.1794</bibl>).</p>
+         </div>
+         <div n="2" org="uniform" sample="complete">
+            <p>Von der Gemeinde <orgName ref="org001834">Sevelen</orgName> ist ein späterer
+               Legibrief aus dem Jahr <date when="1786">1786</date> überliefert, der zwar auf dem
+               älteren Legibrief von 1653 aufbaut, doch verändert und mit zahlreichen neuen Artikeln
+               versehen wurde. Neben diesen beiden Legibriefen haben weitere, nicht mehr erhaltene
+               Legibriefe aus den Jahren 1592, 1637, 1735 und 1756 existiert, wie Hinweise aus
+               anderen Quellen schliessen lassen (vgl. <bibl><ref>PGA Litscher I</ref>,
+                  01.01.1735</bibl>; <bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/baefa1157efb4c6089eb93cbd872ea9d"
+                     >LAGL AG III.2402:015</ref></bibl>; <bibl><ref>OGA Sevelen U 1636</ref>;
+                     <ref>U 1638</ref></bibl>; weitere Erwähnungen in: <bibl><ref>[PA Hilty]
+                     Privatarchiv Mappe Sevelen</ref></bibl> [17.05.1592; 10.06.1630]. Zu Sevelen
+               vgl. auch die Gemeindebeschlüsse im Kopialbuch Litscher, <bibl><ref>[PA Hilty]
+                     Privatarchiv Kopialbuch Litscher</ref></bibl>).</p>
+         </div>
+         <div n="3" org="uniform" sample="complete">
+            <p>Am <date when="1786-04-11">11. April 1786</date> schreibt der Landvogt von <placeName
+                  ref="loc007867">Werdenberg-Wartau</placeName> an <orgName ref="org001197"
+                  >Glarus</orgName>, dass <orgName ref="org001834">Sevelen</orgName> seinen neuen
+                  <term ref="key004797">Legibrief</term> überarbeitet habe. Einige neue <term
+                  ref="key003405">Haushalte</term> hätten sich beschwert, dass sie laut altem
+               Legibrief warten müssten, bis sogenannte Neugüter frei würden. Aufgrund ihrer <term
+                  ref="key004249">Armut</term> und da sie auch alle Pflichten und Aufgaben der
+               Gemeinde mittragen müssen, möchten sie sofort in den Genuss von Neugüter kommen
+                     (<bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/c361258b290a4fd7bbb6457f1424bd9f"
+                     >LAGL AG III.2436:021</ref></bibl>). Wenige Tage später, am <date
+                  when="1786-04-25">25. April</date>, fällt Glarus ein Urteil im Streit zwischen der
+               Gemeinde Sevelen um die Ansprüche der 21 neuen Haushaltungen, die eine Zuteilung auf
+               Neugüter beanspruchen: Wegen des Bevölkerungswachstums sollen 25 Neugüter ausgeteilt
+               werden (<bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/abb8f4c2c5bf43cd98472c3365e31dc9"
+                     >LAGL AG III.2418:007</ref></bibl>). Laut des Schreibens des Landvogts hat
+               jedoch die Gemeinde bereits vor dem Urteil beschlossen, 70 Klafter <term
+                  ref="key003834">Gemeindegut</term> an alle <term ref="key004059"
+                  >Gemeindegenossen</term> zu verteilen (<bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/c361258b290a4fd7bbb6457f1424bd9f"
+                     >LAGL AG III.2436:021</ref></bibl>).<term/>
+            </p>
+            <p>Am <date when="1786-08-10">10. August 1786</date> versammelt sich die Gemeinde im
+               Dorf <placeName ref="loc000708">Sevelen</placeName>, wo der neue <term
+                  ref="key004797">Legibrief</term> in der <term ref="key000794">Kirche</term> durch
+               den <term ref="key000310">Landschreiber</term> verlesen und durch einen <term
+                  ref="key004600">Mehrheitsbeschluss</term> angenommen wird. Dieser soll alljährlich
+               am ersten <term ref="key004413">Sonntag</term> im März verlesen werden und <date
+                  dur="P30Y">30 Jahre</date> gelten. Am <date when="1786-10-27">27. Oktober</date>
+               ratifiziert <orgName ref="org001197">Glarus</orgName> den Legibrief (<bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/1e896ea0ddc54525a048c334de1c92d7"
+                     >LAGL AG III.2436:038</ref></bibl>). Artikel 26 im neuen Legibrief spricht
+               jedem Gemeindegenossen 70 Klafter <term ref="key003834">Gemeindegut</term> zum
+               Bepflanzen mit Gemüse, Hülsenfrüchten und <term ref="key003407">Kartoffeln</term> zu.
+               Wer armutshalber kein <term ref="key000298">Vieh</term> auf der Tratt hat, bekommt
+               weitere 40 Klafter, wer nur eine <term ref="key000777">Kuh</term> hat, 30 weitere
+               Klafter, wer 2 Kühe und ein <term ref="key000790">Kalb</term> hat, 20 weitere Klafter
+                     (<bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/1e896ea0ddc54525a048c334de1c92d7"
+                     >LAGL AG III.2436:038</ref>, Art. 26</bibl>). Die Verteilung von Gemeindegut an
+               Arme bzw. Besitzlose ist v. a. im 18 Jh. zu beobachten und ist teilweise mit grossen
+                  <term ref="key003343">Konflikten</term> verbunden, vgl. ausführlich
+                  <ref>SSRQ_SG_III_4_209</ref> (<placeName ref="loc000335">Grabs</placeName>);
+                     <bibl><ref>StASZ HA.IV.405</ref>, o. Nr.</bibl> (<placeName ref="loc000211"
+                  >Gams</placeName>).</p>
+         </div>
+      </back>
+   </text>
+</TEI>

@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     n="1234"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="headerinfo"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2020-08-17"/>    <date type="print"/>
+    <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Collection des sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des
+      sources
+      du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS_NE_3_474</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>AVN B 101.14.002, fol. 93v–94v</idno>
+               </msIdentifier>
+               <head>Dette de Marie Ursule Dubois, née Sixt, en faveur d’Aimé Frédéric Dubois</head>
+               <msContents>
+                  <summary>Affaire casuelle concernant une dette.</summary>
+                  <msItem>
+                     <textLang>français</textLang>
+                     <filiation type="current"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="34.5"/>
+                              <width unit="cm" quantity="22"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1823-07-16"/>
+                     <origPlace ref="loc007786">Neuchâtel</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head/>
+                     <bibl/>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000058"/>
+               <term ref="key004001"/>
+               <term ref="key004996"/>
+               <term ref="key000270"/>
+               <term ref="key003331"></term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="93v" facs="AVN_B_101.14.002_0093v"/>
+               <div>
+                  <p>
+                     <lb/>L’an <origDate when="1823-07-16"
+                        >mil huit cent vingt trois, le <lb/>seizième jour du mois de juillet</origDate>, le <orgName
+                        ref="org003085">Petit Conseil de la Ville de <lb/><placeName
+                           ref="loc007786.07">Neuchâtel</placeName>∂</orgName> en <placeName
+                        ref="loc001012.09">Suisse</placeName> étant assemblé dans l’<origPlace
+                        ref="loc007793">hôtel de la dite Ville</origPlace>
+                     <lb/>sous la présidence de monsieur <persName ref="per008632"
+                        >Jean Fréderic Steiner</persName>, maître <lb/>bourgeois en chef&#160;; lecture a été faite d’une requête du sieur <lb/><persName
+                        ref="per008770">Aimé Fréderic Dubois</persName>, de <placeName
+                        ref="loc007794">Travers</placeName>, négociant domicilié à <placeName
+                        ref="loc007787">Couvet</placeName>, <lb/>par laquelle il supplie le <orgName
+                        ref="org003085"
+                     >Conseil</orgName> de bien vouloir lui donner <lb/>une déclaration de la coutume usitée en cette Principauté sur <lb/>les diverses questions contenues dans la pièce suivante&#160;: </p>
+                  <p><lb/><persName ref="per008770">Aimé Fréderic Dubois</persName>, de <placeName
+                        ref="loc007794">Travers</placeName>, négociant domicilié à <lb/>
+                     <placeName ref="loc007787"
+                        >Couvet</placeName>, a l’honneur de vous exposer, qu’ayant obtenu à la date <lb/>du <date
+                        when="1823-06-06">6<hi rend="sup"
+                        >e</hi> juin 1823</date> passement définitif sur la demande qu’il forma <lb/>le <date
+                        when="1822-11-15">15<hi rend="sup">e</hi>
+                        <choice>
+                           <abbr>9<hi rend="sup">bre</hi>
+                           </abbr>
+                           <expan>novembre</expan>
+                        </choice> 1822</date> par devant la noble <orgName ref="org003308"
+                           >cour de justice de <placeName ref="loc007786"
+                        >Neuchâtel</placeName></orgName>
+                     <lb/>à <persName ref="per008771a"
+                        >Marie Usrule Sixt</persName>, femme d’<persName ref="per008772"
+                        >Auguste Dubois</persName>, aux fins de la <lb/>contraindre à se reconnoître formellement sa débitrice de la somme <lb/>de <measure
+                        type="currency" origin="NE" unit="franc" quantity="828"
+                        >huit cent vingt huit francs</measure> &amp; <measure type="currency"
+                        origin="NE" unit="S" quantity="13"
+                        >treize sols</measure> d’ici en capital, <lb/>portée à la transaction qui est à page&#160;19 de la procédure, ainsi <lb/>que la liste des frais qu’il annexa à la dite demande page&#160;25 <lb/>&amp; suivantes de la même procédure, montant à <measure
+                        type="currency" origin="NE" unit="franc" quantity="168"
+                        >cent soixante huit <lb/>francs</measure>
+                     <measure type="currency" origin="NE" unit="S" quantity="1"
+                        >un sol</measure>, il lui importeroit maintenant de faire conster <lb/>devant les autorités du canton de <placeName
+                        ref="loc000161"
+                        >Bâle</placeName>, ou telles autres, qu’il <lb/>a suivi toutes les formalités à lui prescrites par la loi, afin <lb/>de pouvoir contraindre la femme <persName
+                        ref="per008771b"
+                        >Dubois</persName> au payement de <lb/>ce qu’elle lui doit &amp; cela par les voyes légales&#160;; c’est pourquoi <lb/>le dit sieur <persName
+                        ref="per008770">Aimé Fréderic Dubois</persName> prie messieurs du <orgName
+                        ref="org003085">Petit <lb/>Conseil de la Ville</orgName> &amp; <orgName
+                        ref="org003090"
+                     >bourgeoisie de Neuchâtel</orgName> de bien vouloir <lb/>lui accorder acte de notoriété, ou lui donner les points de <lb/>coutume sur les questions suivantes, comme étant le seul <lb/>tribunal en cette ville compétent pour donner de semblable actes. </p>
+                  <p><lb/>1<hi rend="sup">o</hi>. Si, d’après les loix de cet État, un débiteur ou une débitrice actionné
+       <lb/>pour reconnoître une dette quelconque &amp; ayant laissé prendre
+       <lb/>passement, n’est pas passible des conséquences de la demande
+       <lb/>&amp; déclaré redevable en faveur du demandeur de toutes les sommes
+       <lb/>qu’il lui reclamoit.
+      </p>
+                  <p><lb/>2<hi rend="sup">o</hi>. Si conséquemment la femme <persName
+                        ref="per008771b"
+                        >Dubois, née Sixt</persName>, ayant laissé <lb/>prendre passement contr’elle, n’est pas censée avoir reconnu d’une <lb/>manière irrévocable, être débitrice envers <persName
+                        ref="per008770">Aimé Fréderic Dubois</persName>
+                     <lb/>de la somme de <measureGrp><measure type="currency" origin="NE"
+                           unit="franc" quantity="828">L&#160;828</measure>.<measure type="currency"
+                           origin="NE" unit="S" quantity="13">13<hi rend="sup">s</hi>
+                        </measure></measureGrp>, mentionnée en la transaction du <date
+                        when="1821-07-19">19<hi rend="sup">e</hi>
+                        <lb/>
+                        <add place="below" type="catchword">juillet</add>
+                        <pb n="94r" facs="AVN_B_101.14.002_0094r"/>
+                        <lb/>juillet 1821</date>, ainsi que de la liste des frais montant à <measureGrp><measure
+                           type="currency" origin="NE" unit="franc" quantity="168"
+                           >L&#160;168</measure>, <measure type="currency" origin="NE" unit="S"
+                           quantity="1">1<hi rend="sup">s</hi>
+                        </measure></measureGrp>
+                     <lb/>portée à page&#160;25 de la procédure qu’il avoit annexée à sa demande. </p>
+                  <p><lb/>3<hi rend="sup"
+                        >o</hi>. Si elle n’est pas également redevable envers le même <persName
+                        ref="per008770"
+                        >Aimé <lb/>Fréderic Dubois</persName>&#160;: a) de la liste des frais qu’a occasionné son <lb/>appel devant le <orgName
+                        ref="org003167">souverain Tribunal des Trois États de <placeName
+                           ref="loc007786">Neuchâtel</placeName></orgName>
+                     <lb/>sur la question incidente qu’elle avoit élevée, à la suite de laquelle <lb/>est intervenue sa restitution signifiée au créancier à la barre du dit <lb/>
+                     <orgName ref="org003167"
+                           >Tribunal Souverain</orgName>, la dite liste montant à <measureGrp><measure
+                           type="currency" origin="NE" unit="franc" quantity="58"
+                           >L&#160;58</measure>.<measure type="currency" origin="NE" unit="S"
+                           quantity="16">16<hi rend="sup">s</hi>
+                        </measure></measureGrp> d’ici <lb/>b) de celle des frais de procédure de première instance relative au <lb/>même incident, s’élevant à la somme de <measureGrp><measure
+                           type="currency" origin="NE" unit="franc" quantity="47"
+                           >L&#160;47</measure>.<measure type="currency" origin="NE" unit="S"
+                           quantity="18">18<hi rend="sup">s</hi>
+                        </measure></measureGrp> même valeur, <lb/>c) et enfin de celle concernant le fond de la cause, dressée à la <lb/>suite du passement obtenu contr’elle, ascendant à <measureGrp><measure
+                           type="currency" origin="NE" unit="franc" quantity="52"
+                           >L&#160;52</measure>.<measure type="currency" origin="NE" unit="S"
+                           quantity="5">5<hi rend="sup">s</hi>
+                        </measure></measureGrp>
+                     <lb/>de ce pays. Ces trois listes ayant été acceptées par monsieur <lb/>l’avocat <persName
+                        ref="per008773">Jeanrenaud</persName>, <term ref="lem014972"
+                        >procureur</term> de la dame <persName ref="per008771b"
+                     >Dubois</persName>, à la <lb/>suite de leur modération, ainsi qu’elles le constatent. </p>
+                  <p><lb/>4<hi rend="sup">o</hi>. Si le créancier <persName ref="per008770">Dubois</persName> ne pourroit pas
+       contraindre actuellement <lb/>la dame <persName ref="per008771b">Dubois, née Sixt</persName>, sa débitrice,
+       dans cet État, au cas <lb/>qu’elle y fût, au payement des différentes sommes principales
+       <lb/>&amp; accessoires par lui ci devant indiquées &amp; cela par toutes <lb/>les voyes
+       légales &amp; permises, sans qu’elle pût porter en manière <lb/>quelconque opposition à ces
+       divers actes. </p>
+                  <p><lb/>À l’appui de ces diverses demandes &amp; pour justifier de tout <lb/>ce qui est
+       ci-devant résumé, <persName ref="per008770">Aimé Fréderic Dubois</persName> produit <lb/>la
+       procédure instruite devant la noble <orgName ref="org003308">cour de justice</orgName> de
+       <lb/>cette ville, ainsi que les trois listes de frais dont il est fait <lb/>mention
+       ci-devant, sollicitant respectueusement jugement. </p>
+                  <p><lb/>Surquoi, après mur examen et délibération, <orgName ref="org003085">messieurs du <lb/>Petit
+        Conseil</orgName>, conformément à la coutume usitée de père en <lb/>fils dans cette
+       Principauté, &amp; sans s’arrêter d’ailleurs aux <lb/>détails particuliers et personnels,
+                     contenus dans les dites questions, <lb/>ont en général dit &amp; déclaré, savoir&#160;: </p>
+                  <p><lb/><hi rend="underline">Sur le premier point&#160;:</hi> Qu’un individu actionné devant un
+       <lb/>tribunal de cet État, en reconnoissance d’une dette, devient <lb/>passible des
+       conséquences de la demande qui lui a été formée <lb/>&amp; par conséquent débiteur des sommes
+       que le demandeur <lb/>lui reclamoit, s’il a laissé prendre passement contre lui en
+       <lb/>justice, pourvu que ce passement lui ait été notifié dans <lb/>
+                     <date dur="P8D">la
+        huitaine</date> à dater du jour de la sentence qui l’a prononcé, <lb/>&amp; à
+                     moins que dans les <date dur="P3D">trois jours</date> à dater de cette notification <pb n="94v" facs="AVN_B_101.14.002_0094v"/>
+                     <lb/>il ne se soit pourvu auprès du <orgName ref="org003098">Conseil d’État</orgName> pour
+       s’en faire <lb/>relever. </p>
+                  <p><lb/>
+                     <hi rend="underline">Sur le second point&#160;:</hi> Que dans le cas sus-mentionné, le débiteur
+       <lb/>actionné, par le passement qu’il a laissé prendre &amp; tomber
+       <lb/>en force, est censé avoir reconnu irrévocablement devoir payer
+       <lb/>les sommes portées en la demande, avec tous légitimes accessoires.
+      </p>
+                  <p><lb/><hi rend="underline">Sur le troisième point&#160;:</hi> Qu’une restitution de procédure
+       signifiée <lb/>par un plaideur à sa contre-partie à la barre du <orgName ref="org003167">souverain
+        <lb/>Tribunal des Trois États</orgName>, sur une question incidente jugée en <lb/>première
+       instance &amp; sur laquelle appel a été interjetté, le rend <lb/>passible envers sa
+       contre-partie tant des frais occasionnés <lb/>par cet appel, que de ceux de la procédure de
+                     première <lb/>instance relative à l’incident&#160;; &amp; que pareillement, le passement
+       <lb/>qu’il laisse prendre &amp; tomber en force sur le fond de la <lb/>cause, le rend
+       également passible de tous les autres frais <lb/>du procès, le tout au contenu des listes de
+       frais dressées <lb/>par la contre-partie, &amp; sauf &amp; réservé la modération qui
+       <lb/>peut en être demandée suivant la loi. </p>
+                  <p><lb/><hi rend="underline">Sur le quatrième et dernier point&#160;:</hi> Que par l’effet du
+       <lb/>passement tombé en force, obtenu par un créancier contre
+       <lb/>son débiteur, le premier acquiert le droit immédiat de
+       <lb/>contraindre le second au payement des sommes qui lui
+       <lb/>sont dues, tant en principal qu’accessoires, en vertu de ce
+       <lb/>passement &amp; cela par toutes les voyes juridiques &amp; légales,
+       <lb/>&amp; sans que le débiteur puisse apporter d’ultérieures oppositions
+       <lb/>à ses poursuites.
+      </p>
+                  <p><lb/>Laquelle déclaration étant ainsi rendue, il a été ordonné <lb/>au secrétaire du Conseil
+       soussigné de l’expédier en cette <lb/>forme, sous le sceau de la mairie &amp; justice de
+       cette ville, <lb/>à <origPlace ref="loc007786">Neuchâtel</origPlace> les an, mois &amp; jour que devant
+        <origDate when="1823-07-16">16<hi rend="sup">e</hi> juillet 1823</origDate>. </p>
+                  <p><lb/>Par <choice>
+                        <abbr>ordonn<hi rend="sup">ce</hi>
+                        </abbr>
+                        <expan>ordonnance</expan>
+                     </choice>.
+       <lb/>Le Secrétaire du Conseil.
+       </p>
+               </div>
+               <div>
+                  <lb/>
+                  <signed>
+                     <persName ref="per008600">
+                        <choice>
+                           <abbr>G<hi rend="sup">ge</hi>.</abbr>
+                           <expan>George</expan>
+                        </choice>
+                        <choice>
+                           <abbr>F<hi rend="sup">c</hi>.</abbr>
+                           <expan>Frédéric</expan>
+                        </choice> Gallot</persName>
+                     <figure type="notarial sign"/>
+                  </signed>
+               </div>
+            </body>
+         </text>
+      </group>
+   </text>
+</TEI>

@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-08-15"/>
+            <date type="print"/>
+            <availability><p xml:id="facs">Sibylle Malamud</p></availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_245_1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>OGA Gams Nr. 191b</idno>
+               </msIdentifier>
+               <head>Zolltarif und Zollbegünstigung von Schwyz und Glarus für Gams</head>
+               <msContents>
+                  <summary><p>Landammann und Rat beider Orte Schwyz und Glarus urkunden, dass die Herrschaft
+   Hohensax-Gams das Recht hat, Zölle einzuziehen. Alle, die mit ihren Waren die Strassen und Wege
+   nutzen, sollen die hier ausgegebenen Zolltarife für Vieh, Lebensmittel und andere Waren wie Salz,
+   Wein, Eisen u. ä. bei Androhung einer hohen Strafe zahlen.</p></summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <author role="scribe"><persName ref="per004894a">Johann Rudolf Stähli</persName>, Landvogt von Gaster und Gams</author>
+                     <filiation type="original">
+                        <origDate when="1775-06-20">Undatiert, datiert nach dem Datum der Abschrift.</origDate>
+                     </filiation>
+                     <filiation type="current">Abschrift (Doppelblatt)</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="38.5"/>
+                              <width unit="cm" quantity="23.0"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1775-06-20">Undatiert, datiert nach dem Datum der Abschrift.</origDate>
+                     <origPlace>Glarus</origPlace><origPlace>Schwyz</origPlace>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000199">Zoll</term>
+               <term ref="key000690">Zollordnung</term>
+               <term ref="key004581">Zolltarifordnung</term>
+               <term ref="key000831">Zolltarif</term>
+               <term ref="key000692">Zöllner</term>
+               <term ref="key004584">Zollwesen</term>
+               <term ref="key004591">Fuhr</term>
+               <term ref="key000791">Tier</term>
+               <term ref="key001114">Waren</term>
+               <term ref="key000882">Lebensmittel</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb facs="OGA_Gams_Nr._191b"/>
+               <div>
+                  <seg><add place="left margin">Copia</add></seg>
+                  <p><lb/>Wir, landtamman und rath beyder hoch<lb break="no"/>loblichen ohrten <orgName
+                     ref="org003265">Schweitz</orgName> und <orgName ref="org003239">Glaruß</orgName>, thun
+                     <lb/>kundt und zu wissen mäniglichen, daß in <lb/>der herrschafft <placeName
+                        ref="loc006040.09">Hochen Sachsen und Gambs</placeName> macht <lb/>und gewalt erlangt
+                     haben, von allem dem <lb/>jenigen, was in dero land- und herrschafft <lb/><term
+                        ref="lem001145">steeg und weeg</term> gebrauchen, den <term ref="lem000349">zoll</term>
+                     einzu<lb break="no"/>ziechen, gleichförmig wie an anderen <lb/>ohrten auch geschichet,
+                     alles fleissig bey hocher <lb/>straff und ungnad bezahlen und erlegen <lb/>solle, wie
+                     hernach folget:</p>
+                  <p>
+                     <table>
+                        <row>
+                           <cell/>
+                           <cell role="data">kreützer</cell>
+                           <cell role="data">pfenig</cell>
+                        </row>
+                        <row>
+                           <cell role="label"><lb/>Erstlich von <measure type="volume" quantity="1" unit="Sack"
+                              commodity="grain">einem sakh korn</measure>
+                              <lb/>gibt mann <term ref="lem000349">zoll</term>
+                           </cell>
+                           <cell role="data">1</cell>
+                           <cell role="data">–</cell>
+                        </row>
+                        <row>
+                           <cell role="label"><lb/>ein <term ref="lem000579">pferdt</term>, so theür es verkaufft
+                              wird, <lb/>von jedem gulden</cell>
+                           <cell role="data">1</cell>
+                           <cell role="data">–</cell>
+                        </row>
+                        <row>
+                           <cell role="label"><lb/>ein stuckh <term ref="lem002693">rindvich</term></cell>
+                           <cell role="data">1</cell>
+                           <cell role="data">–</cell>
+                        </row>
+                        <row>
+                           <cell role="label"><lb/>von einem <term ref="lem000055">schaff</term>, <term
+                              ref="lem001394">geiß</term>, <term ref="lem003274.04">bokh</term> oder <term
+                                 ref="lem000057">schwein</term></cell>
+                           <cell role="data">2</cell>
+                           <cell role="data">–</cell>
+                        </row>
+                        <row>
+                           <cell role="label"><lb/><measure commodity="salt" quantity="1" unit="Saum" type="volume"
+                              >ein saum saltz</measure></cell>
+                           <cell role="data">1</cell>
+                           <cell role="data">–</cell>
+                        </row>
+                        <row>
+                           <cell role="label"><lb/><measure quantity="1" commodity="wine" unit="Fuder"
+                              type="undefined">ein fueder wein</measure></cell>
+                           
+                           <cell role="data">4</cell>
+                           <cell role="data">2</cell>
+                        </row>
+                        <row>
+                           <cell role="label">
+                              <lb/><measure quantity="1" commodity="wine" unit="Saum" type="volume">ein saum
+                                 wein</measure> zu <term ref="lem001069">roß</term></cell>
+                           <cell role="data">–</cell>
+                           <cell role="data">2</cell>
+                        </row>
+                        <row>
+                           <cell role="label"><lb/>ein <sic>einige</sic>
+                              <term ref="lem000071">lagel</term></cell>
+                           <cell role="data">–</cell>
+                           <cell role="data">1</cell>
+                        </row>
+                        <row>
+                           <cell role="label"><lb/>ein saum <term ref="lem001748">eisen</term> oder <measure
+                              quantity="1" unit="Saum" commodity="steel" type="volume">stachel</measure></cell>
+                           <cell role="data">2</cell>
+                           <cell role="data">–</cell>
+                        </row>
+                        <row>
+                           <cell role="label"><lb/>ein <term ref="lem012799.02">boschen</term>
+                              <term ref="lem001748">eisen</term> oder <term ref="lem002956">stachel</term></cell>
+                           <cell role="data">1</cell>
+                           <cell role="data">–</cell>
+                        </row>
+                        <row>
+                           <cell role="label"><lb/>ein zentner <term ref="lem002304.05">unschlig</term> oder <measure
+                              quantity="1" commodity="cheese" unit="Zentner" type="weight">käß</measure></cell>
+                           <cell role="data">1</cell>
+                           <cell role="data">2</cell>
+                        </row>
+                        <row>
+                           <cell role="label"><lb/><measure quantity="1" commodity="hemp" unit="Zentner"
+                              type="weight">ein zentner hampff</measure></cell>
+                           <cell role="data">1</cell>
+                           <cell role="data">–</cell>
+                        </row>
+                        <row>
+                           <cell role="label"><lb/><measure commodity="hemp" type="volume" unit="Saum" quantity="1"
+                              >ein saum hampff</measure></cell>
+                           <cell role="data">2</cell>
+                           <cell role="data">–</cell>
+                        </row>
+                        <row>
+                           <cell role="label"><lb/>in <term ref="lem003258">zentner</term>
+                              <term ref="lem002306">leim</term></cell>
+                           <cell role="data">1</cell>
+                           <cell role="data">2</cell>
+                        </row>
+                        <row>
+                           <cell role="label"><lb/>ein zentner <term ref="lem016821.01">weinstein</term></cell>
+                           <cell role="data">–</cell>
+                           <cell role="data">3</cell>
+                        </row>
+                     </table></p>
+                  <p>
+                     <lb/>Von dem originale abgezogen, den <origDate when="1775-06-20">20.<hi rend="sup">ten</hi>
+                        juny 1775</origDate>, <lb/>von mir, <persName ref="per004894a">Johann Rudolff
+                           Stähelin</persName>, landtvogt <lb/>im <placeName ref="loc000842">Gaster</placeName> und
+                     <placeName ref="loc006040">Gambs</placeName>.
+                  </p>
+               </div>
+               <div>
+                  <ab type="dorsal" place="verso" hand="hand18c"><lb/>Copia <lb/>der alten getruckten
+                     <lb/><term ref="lem001333">zoll tarriffen</term> zu <lb/><placeName ref="loc006040">Gambs</placeName></ab>
+               </div>
+               <pb facs="OGA_Gams_Nr._191bv"/>
+               <div>
+                  <ab type="archiving reference" place="verso"><lb/>Nro 191 B, N<hi rend="sup">o</hi> 14, 35,
+                     ano 1775</ab>
+               </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div><p>Die <term ref="key000831">Zolltarife</term> für die Herrschaft <placeName ref="loc006040"
+            >Hohensax-Gams</placeName> sind undatiert und wurden nach dem Datum der Abschrift datiert.
+            Nach der Dorsualnotiz handelt es sich um eine Abschrift von älteren, gedruckten
+            Zolltarifen.</p>
+            <p>Seit <date when="1673">1673</date> hat <orgName ref="org001881">Gams</orgName> das
+               Recht, <term ref="key000199">Zölle</term> und <term ref="key000493">Weggelder</term>
+               zu erheben, da vornehmlich in <placeName ref="loc000440">Werdenberg</placeName> neue
+               Zölle und Weggelder erhoben werden. Darauf erhält Gams von <orgName ref="org001191"
+                  >Schwyz</orgName> 1673 sowie von <orgName ref="org001197">Glarus</orgName>
+               <date when="1675">1675</date> das <term ref="key000431">Gegenrecht</term>, sollte
+               Gams von diesen Neuerungen nicht verschont werden (<bibl><ref>OGA Gams
+                     Nr.&#160;119</ref>; <ref>Nr.&#160;120</ref></bibl>). Zu den Zoll- und
+               Weggeldtarifen vgl. auch <ref>SSRQ_SG_III_4_183</ref>; <ref>SSRQ_SG_III_4_188</ref>;
+                  <ref>SSRQ_SG_III_4_226</ref>; <ref>SSRQ_SG_III_4_254</ref>. </p></div>
+      </back>
+   </text>
+</TEI>

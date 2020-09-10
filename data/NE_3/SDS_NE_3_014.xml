@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="headerinfo"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <date type="electronic" when="2020-08-17"/>    <date type="print"/>
+    <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Collection des sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS_NE_3_014</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier>
+      <idno>AVN B 101.14.001, fol. 363r–364v</idno>
+     </msIdentifier>
+     <head>Dettes d’un fils émancipé et succession de la veuve</head>
+     <msContents>
+      <summary>Les dettes d’un fils émancipé contractées sans le consentement de sa mère peuvent
+       être remboursées sur les biens qu’il hérite de son père décédé et sur son propre bien. Les
+       biens dont la mère hérite en tant que veuve, tant en bien propre qu’en usufruit, ne peuvent
+       pas être touchés avant son décès.</summary>
+      <msItem>
+       <textLang>français</textLang>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="33"/>
+          <width unit="cm" quantity="23.5"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <origDate when="1583-03-29"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>
+      </origin>
+     </history>
+     <additional>
+      <listBibl>
+       <head/>
+       <bibl/>
+      </listBibl>
+     </additional>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term/>
+     <term ref="key000058"/>
+     <term ref="key000920"/>
+     <term ref="key000815"/>
+     <term ref="key000803"/>
+     <term ref="key005198"/>
+     <term ref="key000074"/>
+     <term ref="key005153"/>
+     <term ref="key003331"/>
+    </keywords>
+   </textClass>
+   <particDesc default="false"/>
+   <settingDesc default="false"/>
+  </profileDesc>
+ </teiHeader>
+ 
+ <text>
+  <group>
+   <text>
+    <body>
+     <pb n="363r" facs="AVN_B_101.14.001_0363r"/>
+     <div>
+      <head>
+       <lb/>Declaration sy une femme est <lb/>tenue de payer de son bien les debtes de <lb/>son fils
+       estant esmancipé et <term ref="lem014992.09">detronqué</term>
+       <lb/>d’avec elle. </head>
+      <p>
+       <lb/>Je, <persName ref="per010595">Claude Clerc</persName>, mayre &amp; du <orgName
+        ref="org003085">Conseil de la Ville de <lb/><placeName ref="loc007786"
+         >Neufchastel</placeName></orgName>, au nom et pour la part de tres illustre <lb/>tres
+       haulte &amp; tres puissante dame <persName ref="per010524">Marie de Bourbon</persName>
+       <lb/>duchesse de <placeName ref="loc008493">Longueville</placeName> et de <placeName
+        ref="loc008494.02">Toutteville</placeName> comtesse <lb/>souveraine dudict <placeName
+        ref="loc007785">Neufchastel</placeName> et <placeName ref="loc005950.05"
+        >Vallangin</placeName> etc. comme <lb/>mere tutrice de messeigneurs ses tres illustres
+       enffans <lb/>nos souverains princes fais scavoir à qu’il appartiendra <lb/>que pardevant moy
+       et les sieurs conseillers dudict lieu <lb/>cy apres nommez, personnellement est comparu en
+       <lb/>justice ouverte honnorable <persName ref="per010596">Jean Gryvat</persName> bourgeois
+       <lb/>de la Ville d’<placeName ref="loc007918">Orbe</placeName> assisté d’honnorable <persName
+        ref="per010597a.01">Wolffang <lb/>de Montmolin</persName> notaire bourgeois dudict
+        <placeName ref="loc007786">Neufchastel</placeName>
+       <pb n="363v" facs="AVN_B_101.14.001_0363v"/>
+       <lb/>&amp; <term ref="lem014997">moderne</term> concierge au chasteau de son excellence,
+       faisant <lb/>entendre par un sien <term ref="lem016298">parlier</term> comme <persName
+        ref="per010598a.01">Clauda Petitpierre dit <lb/>Bailliod</persName> de <placeName
+        ref="loc008486.02">Moustier</placeName> au <placeName ref="loc007812.02"
+        >Vaultravers</placeName>, sa conjointe, partie avoit <lb/>esté maryée en premier lict avec
+       un nommé <persName ref="per010599">Claude <add place="above">du</add> Crest</persName>
+       <lb/>d’<placeName ref="loc007618.03">Yverdon</placeName>, aux loix &amp; coustumes de
+       cestedicte Ville dudit <lb/><placeName ref="loc007786">Neufchastel</placeName> ainsi que par
+       icelluy peut avoir dheuement <lb/>signé, auquel Sainct Estat de mariage lesdicts maris ont
+       <lb/>heu deux enffans fils &amp; fille, le fils il a pleu <add place="above">à Dieu</add> le
+       retirer <lb/>à sa part qui estoit marié à la Ville de <placeName ref="loc007607.03"
+        >Mouldon</placeName>, et la <lb/>fille est pourvue de partie honnorable, qu’a esté la
+       <lb/>cause que sadicte femme n’ayant auparavant repeté <lb/>son bien selon lesdictes
+       coustumes a desiré retirer premièrement <lb/>son mariage porté avec ledict <persName
+        ref="per010599">Ducrest</persName>. Item la moitié <lb/>des acquisitions qu’ils peuvent
+       avoir faict par ensemble <lb/>constant leur mariage, et concequement les meubles que <lb/>par
+        l<del rend="overwritten">es</del><add place="overwritten">a</add>dicte<del
+        rend="strikethrough">s</del> coustume<del rend="strikethrough">s</del> luy peuvent
+       appartenir, mais <lb/>parce que ledict<del rend="strikethrough">e</del> fils (à l’insceu
+       &amp; sans le consentement <lb/>de sa mere, et de luy requerant) a faict certaines debtes
+       <lb/>ceux ausquelles <add place="above">elles</add> jour dheues mettent empeschement à
+       <lb/>sadicte femme de retirer les susdictes pretentions entendu <lb/>que devant ce ils
+       doibvent estre payez &amp; sattisfaicts ce <lb/>qu’elle n’entend ny luy aussi en <del
+        rend="strikethrough">un</del>consideration qu’à son advis <lb/>si cela avoit lieu, les
+       louables coustumes dudict <placeName ref="loc007785">Neufchastel</placeName>
+       <lb/>seroient enfrainctes, qu’est l’occasion qu’il demande <lb/>droit et cognoissance pour
+       avoir declaration desdictes <lb/>coustumes, assavoir mon si sadicte femme est tenue et
+       <lb/>obligée payer du sien les debtes de sondict fils, et par ce <lb/>privée de la retraicte
+       de sondict mariage, acquisitions <lb/>et meubles prementionnés. Et je ledict mayre en demande
+       <lb/>le droict esdicts seigneurs conseillers lesquels apres <lb/>avoir heu advis et conseil
+       par ensemble, et à plain <pb n="364r" facs="AVN_B_101.14.001_0364r"/>
+       <lb/>informez que ladicte <persName ref="per010598a.02">Clauda Bailliod</persName> a esté
+       <lb/>conjoincte au saint estat de mariage, avec ledict <lb/><persName ref="per010599"
+        >Ducrest</persName> es us et bonnes coustumes de ceste Ville <lb/>m’ont là dessus donné par
+       declaration que lesdicts <lb/>us &amp; coustumes sont telles, assavoir que quand le <lb/>mary
+       &amp; femme sont mariés à la coustume dudict <lb/><placeName ref="loc007785"
+        >Neufchastel</placeName> le mary venant à mourir, le survivant <lb/>qu’est sa femme, retire
+       de plein droict le dot de mariage <lb/>qu’elle apporte avec sondict mary, à quoi qu’il se
+       puisse <lb/>monter, comme aussi la moitié des acquisitions qu’ilz <lb/>ont faict par
+       ensemble, estant mary &amp; femme. Item la <lb/>moitié de tous les meubles delaissés par le
+       mort. <lb/>Et quant à l’autre moitié desdicts meubles la moitié de <lb/>la moitié appartient
+       aux enffans qu’elle a heu avec <lb/>sondict premier mary, et l’autre moitié qu’est le quart
+       <lb/>elle le doibt tenir par us sa vie naturelle durant sans <lb/>qu’elle soit tenue payer de
+       sondict bien aucunes debtes <lb/>faictes par ses enffans qui seront emancipez et nullement
+       <lb/><term ref="lem015629.03">entronques</term> en pain et sel avec leurdicte mere, ains
+       <lb/>faut que les crediteur se contournent sur le bien paternel <lb/>que si icelluy n’est
+        <term ref="lem016324">bastant</term> &amp; suffisant pour couvrir et <lb/>payer lesdictes
+       debtes, alors ils peuvent aprehender le <lb/>biens et legitime dudict enfant ou enffans pour
+       en estre payés <lb/>mais devant ce faire, faut qu’ils attendent le trespas de la mere
+       <lb/>qui n’est tenue le leur delivrer d<del rend="strikethrough">evant</del><add
+        place="above">urant</add> sa vie et apres sondit <lb/>deceds <add place="above"><term
+         ref="lem016325.02">adonques</term></add> les effans dudict premier mary viennent à partager
+       le <lb/>bien de leurdite mere, la moitié seullement consistant <lb/>en heritage et meubles,
+       et quand à l’autre moitié elle appartient <lb/>directement à la mere &amp; en peut faire à
+       son bon voulloir et <lb/>plaisir, laquelle declaration ledict <persName ref="per010596a.01"
+        >Jehan Grivat</persName> a prié <lb/>avoir par escript pour s’en ayder au besoin luy sera.
+       Ce que <lb/>luy fut accordé soubs le sceau de la mayorie dudict <lb/><placeName
+        ref="loc007786">Neufchastel</placeName>. <pb n="364v" facs="AVN_B_101.14.001_0364v"/></p>
+      <p>
+    <lb/>Est ce par l’adjudication des honnorables prudents et <lb/>sages <persName
+        ref="per010600">Jonas Merveilleux</persName>, <persName ref="per010601a.01">Jehan
+        Poury</persName>, <persName ref="per010602">Guillaume Henry <lb/>dit Dallemagne</persName>,
+       le notaire soubsigné <persName ref="per010603a.01">Jehan <lb/>Vuillame</persName>, <persName
+        ref="per010508">Daniel Huguenaud</persName>, <persName ref="per010510a.01">Jehan
+        Grenot</persName>, <persName ref="per010574a.03">Jehan <lb/>Bourgeois dit Blanc</persName>,
+        <persName ref="per010606a.01">Pierre Favergier</persName>, <persName ref="per010607">Henry
+        Bourgeois <lb/>dit Coinchely</persName>, <persName ref="per010575a.02">Jacques
+        Hudrict</persName>, <persName ref="per010611">Perrenet Bretel</persName>, <persName
+        ref="per010613">Josué <lb/>Huguenaud</persName>, <persName ref="per010615a.01">Jehan Jacques
+        Jaquemet</persName>, <persName ref="per010589">Nicolas Heuzely</persName>
+       <lb/>et <persName ref="per010616">Pierre Trybollet</persName> tous conseillers dudict
+        <placeName ref="loc007786">Neufchastel</placeName>
+       <lb/>le <origDate when="1583-03-29">vingt neufviesme jour du moys de mars mille cinq
+        <lb/>cents octante &amp; troys</origDate>.</p> 
+      <p>
+       <lb/>Ladicte declaration est signée par le sieur <persName ref="per010617">Jean
+        Petter</persName>
+       <lb/>&amp; à l’originale la presente a esté coppiée par moy <persName ref="per010433"><choice>
+         <abbr>D</abbr>
+         <expan>David</expan>
+        </choice> Baillod</persName>. </p>
+      <p><handShift/><lb/>Et par moy <choice>
+        <abbr>Not&#160;:</abbr>
+        <expan>notaire</expan>
+       </choice> extraict par copie <lb/>sur <choice>
+        <abbr>lad</abbr>
+        <expan>ladicte</expan>
+       </choice> copie, sans mutation. </p>
+     </div>
+     <div>
+      <signed><persName ref="per010440">Carrel</persName>
+       <figure type="notarial sign"/></signed>
+     </div>
+    </body>
+   </text>
+  </group>
+ </text>
+</TEI>

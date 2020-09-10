@@ -1,0 +1,785 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+    <persName>Sibylle Malamud</persName>
+    <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+    <persName>Sibylle Malamud</persName>
+    <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-10-04"/>
+            <date type="print"/>
+            <availability><p xml:id="facs">Staatsarchiv St. Gallen (StASG)</p></availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+    <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+    <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_064_1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+    <msIdentifier>
+       <idno>StASG AA 2 U 5</idno>
+    </msIdentifier>
+    <head>Schiedsspruch der acht eidgenössischen Orte zwischen Appenzell und Lütfried Mötteli über den Kirchensatz von Sax und verschiedene Einkünfte aus der Herrschaft Frischenberg</head>
+    <msContents>
+       <summary>
+          <p>Die in Luzern versammelten Gesandten der acht eidgenössischen Orte, Konrad Schwend von Zürich, Ritter Niklaus von Scharnachtal, alt Schultheiss von Bern, Heinrich von Hunwil, alt Schultheiss von Luzern, Walter In der Gass, Ammann von Uri, Dietrich In der Halden, alt Ammann  von Schwyz, Klaus von Zuben von Unterwalden, Heinrich Schmid, alt Ammann von Zug, und Johannes Tschudi von Glarus, erlassen einen Spruchbrief zwischen Ammann, Rat und gemeinem Land Appenzell und Lütfried Mötteli von St. Gallen wegen Nutzungen und Rechten in der Herrschaft Frischenberg. Nach langen Streitigkeiten und einem Urteil von Uri, an das sich Appenzell nicht hält, können die Gesandten die beiden Parteien einigen: Mötteli soll im Besitz des Kirchensatzes von Sax und anderer Einkünfte aus der Herrschaft Frischenberg bleiben. Die Appenzeller haben Mötteli an die Gerichtskosten 100 Rheinische Gulden zu bezahlen.</p>Die Aussteller siegeln.</summary>
+       <msItem>
+          <textLang>Deutsch</textLang>
+          <filiation type="current">Original</filiation>
+       </msItem>
+    </msContents>
+    <physDesc>
+       <objectDesc>
+          <supportDesc>
+             <support>
+                <material>Pergament</material>
+             </support>
+             <extent>
+                <dimensions type="leaves">
+        <height unit="cm" quantity="58.0"/>
+        <width unit="cm" quantity="68.0"/>
+                </dimensions>
+             </extent>
+          </supportDesc>
+       </objectDesc>
+       <sealDesc>
+          <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI"
+                n="1"
+                nontei:condition="well-preserved"
+                nontei:material="wax"
+                nontei:shape="round"
+                nontei:attachment="sealed on a parchment tag" facs="StASG_AA_2_U_05_s01">
+             <persName role="sigillant" ref="per004700a">Konrad Schwend von Zürich</persName>
+          </seal>
+          <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI"
+                n="2"
+                nontei:condition="well-preserved"
+                nontei:material="wax"
+                nontei:shape="round"
+                nontei:attachment="sealed on a parchment tag" facs="StASG_AA_2_U_05_s02">
+             <persName role="sigillant" ref="per000894a">Niklaus von Scharnachtal, alt Schultheiss von Bern</persName>
+          </seal>
+          <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI"
+                n="3"
+                nontei:condition="well-preserved"
+                nontei:material="wax"
+                nontei:shape="round"
+                nontei:attachment="sealed on a parchment tag" facs="StASG_AA_2_U_05_s03">
+             <persName role="sigillant" ref="per000778a">Heinrich von Hunwil, alt Schultheiss von Luzern</persName>
+          </seal>
+          <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI"
+                n="4"
+                nontei:condition="well-preserved"
+                nontei:material="wax"
+                nontei:shape="round"
+                nontei:attachment="sealed on a parchment tag" facs="StASG_AA_2_U_05_s04">
+             <persName role="sigillant" ref="per000818a">Walter In der Gass, Landammann  von Uri</persName>
+          </seal>
+          <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI"
+                n="5"
+                nontei:condition="well-preserved"
+                nontei:material="wax"
+                nontei:shape="round"
+                nontei:attachment="sealed on a parchment tag" facs="StASG_AA_2_U_05_s05">
+             <persName role="sigillant" ref="per000765a">Dietrich In der Halden, alt Landammann von Schwyz</persName>
+          </seal>
+          <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI"
+                n="6"
+                nontei:condition="well-preserved"
+                nontei:material="wax"
+                nontei:shape="round"
+                nontei:attachment="sealed on a parchment tag" facs="StASG_AA_2_U_05_s06">
+             <persName role="sigillant" ref="per000688a">Klaus von Zuben von Unterwalden</persName>
+          </seal>
+          <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI"
+                n="7"
+                nontei:condition="well-preserved"
+                nontei:material="wax"
+                nontei:shape="round"
+                nontei:attachment="sealed on a parchment tag" facs="StASG_AA_2_U_05_s07">
+             <persName role="sigillant" ref="per000945a">Heinrich Schmid von Zug</persName>
+          </seal>
+          <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI"
+                n="8"
+                nontei:condition="well-preserved"
+                nontei:material="wax"
+                nontei:shape="round"
+                nontei:attachment="sealed on a parchment tag" facs="StASG_AA_2_U_05_s08">
+             <persName role="sigillant" ref="per000215a">Johannes Tschudi von Glarus</persName>
+          </seal>
+       </sealDesc>
+    </physDesc>
+    <history>
+       <origin>
+          <origDate when="1473-12-14"/>
+       </origin>
+    </history>
+    <additional>
+       <listBibl>
+          <head>Regest</head>
+          <bibl><ref target="http://permalink.snl.ch/bib/chbsg000142695">UB Appenzell</ref>, Bd. 1, Nr. 1100 (nach der Zweitausfertigung im LAAI)</bibl>
+       </listBibl>
+    </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+    <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+    <term ref="key001117">Schiedsspruch</term>
+    <term ref="key000140">Herrschaft</term>
+    <term ref="key000040">Kirchensatz</term>
+    <term ref="key000205">Einkommen</term>
+    <term ref="key000615">Hoheitsrecht</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <div org="uniform" sample="complete">
+                  <pb facs="StASG_AA_2_U_05_r"/>
+                  <p>
+                     <seg>
+                        <lb/>Wir, nachbenempten gemeiner <choice>
+                           <abbr>Eitgnon</abbr>
+                           <expan><orgName ref="org000531">Eidgenossen</orgName></expan>
+                        </choice> botten und rätesfrunde, namlich von <placeName ref="loc000066"
+                           >Zurich</placeName>
+                        <persName ref="per004700a.02">Cuͤnrat Schwend</persName>, von <placeName
+                           ref="loc000464">Bern</placeName>
+                        <persName ref="per000894a.02">Niclaus von Scharnachtal</persName>, ritter, <choice>
+                           <abbr>altschulths</abbr>
+                           <expan>altschultheis</expan>
+                        </choice>, von <placeName ref="loc000972">Lutzern</placeName>
+                        <persName ref="per000778a.02">Heinrich von Hunnwyl</persName>, <choice>
+                           <abbr>altschulths</abbr>
+                           <expan>altschultheis</expan>
+                        </choice>, von <placeName ref="loc000796">Ure</placeName>
+                        <persName ref="per000818a.01">Walther In der Gaß</persName>, ammann, von
+                           <placeName ref="loc000730">Switz</placeName>
+                        <persName ref="per000765a.01">Dietrich In der Halten</persName>, altammann,
+                        <lb/>von <placeName ref="loc000568">Underwalden</placeName>
+                        <persName ref="per000688a.01">Claus von Zuben</persName>, von <placeName
+                           ref="loc000215">Zug</placeName>
+                        <persName ref="per000945a">Heinrich Schmid</persName>, altammann, und von
+                           <placeName ref="loc000326">Glarus</placeName>
+                        <persName ref="per000215a.02">Hans Schudi</persName>, als wir von bevelchens
+                        wegen unnser herren und obern diser nachgemelten sachen halb zuͤ <placeName
+                           ref="loc000088">Lutzern</placeName> byeinandern versammnet gewesen sind,
+                        bekennen und tuͦnd kundt aller<lb break="no"/>menglich, als denn hievor
+                        unlangest zwu̍schend den ersammenn, wisen ammann, rät und gemeinem lande
+                           <orgName ref="org002174">Appenzell</orgName>, unnsern sundern guͤten
+                        fru̍nden und getru̍wen <choice>
+                           <abbr>Eitgnon</abbr>
+                           <expan><orgName ref="org000531">Eidgenossen</orgName></expan>
+                        </choice> an eim, und dem vesten, fu̍rnaͤmen <persName ref="per004642a"
+                           >Lu̍tfriden Moͤttelin</persName>, burger zuͤ <placeName ref="loc000082"
+                           >Sant Gallen</placeName>, am andern teil <lb/>von der gerichten zu̍
+                           <placeName ref="loc006069">Frischemberg</placeName> und ander sachen
+                        wegen sich mergelich <term ref="lem001130.03">spenn</term> und irrungen
+                        erhept, darumb sy sich dann beidersite uff die fu̍rsichtigen, wisen, unnser
+                        besunder lieben, guͤt fru̍nde und getru̍wen <choice>
+                           <abbr>Eitgnon</abbr>
+                           <expan><orgName ref="org000531">Eidgenossen</orgName></expan>
+                        </choice>, <orgName ref="org001181">ammann und rat zuͤ Ure</orgName>,
+                        veranlasset hātten. Und deshalben <lb/>durch dieselben von <orgName
+                           ref="org001181">Ure</orgName> mit recht entscheiden worden sind nach lute
+                        und inhalt versigleter <term ref="lem000675">rechtspruch</term>en inen
+                        darumb geben.<note anchored="true">Dieses Urteil konnte nicht gefunden
+                           werden (siehe auch die von Anton Denier edierten Urkunden des Kantons Uri
+                           in <bibl><ref target="http://permalink.snl.ch/bib/chbsg000150459"
+                                 >Denier, Urkunden</ref></bibl>).</note> Und aber demnach die
+                        fu̍rsichtigen, ersammenn und wisen <orgName ref="org002601">burgermeister
+                           und rat der statt Sant Gallen</orgName>, ouch unnser sunder guͤt frûnde
+                        und getru̍wen <lb/>
+                        <choice>
+                           <abbr>Eitgnon</abbr>
+                           <expan>
+                              <orgName ref="org000531">Eidgenossen</orgName></expan>
+                        </choice>, von des genanten <persName ref="per004642a">Lûtfriden
+                           Moͤtteli</persName>s als irs burgers wegen durch ir wisen ratesfrûnde und
+                        geschriften sich vor unsern <choice>
+                           <sic>und und</sic>
+                           <corr>und</corr>
+                        </choice> obern gemeiner <choice>
+                           <abbr>Eitgnon</abbr>
+                           <expan><orgName ref="org000531">Eidgenossen</orgName></expan>
+                        </choice> zuͤ meren māln trefflich erclagt uff meynunge, wie die von
+                           <orgName ref="org002174">Appenzell</orgName> über und wider solich
+                        rechtspru̍ch, <lb/>zuͤ <placeName ref="loc000796">Ure</placeName> usgangen,
+                        dem jetzgenannten <persName ref="per004642a">Mottelin</persName>, iren
+                        burger, irs eignen <term ref="lem008136">frevel</term>n <term
+                           ref="lem005162">gewalt</term>es und one recht dis hienach gemelten stück
+                        und <term ref="lem000076.10">guͤtre</term> zuͤ iren handen genommenn und inn
+                        dero <term ref="lem001302">entwert</term> hetten:</seg>
+                     <seg>Namlich und des ersten sinen <term ref="lem003935.12">houͤwachs</term> in
+                        der herschaft <placeName ref="loc006069">Frischenberg</placeName>,
+                        <lb/>darzuͤ alle sin <term ref="lem009958">frücht</term> und <term
+                           ref="lem003604.01">obs</term> daselbs in allen sinen gutern.</seg>
+                     <seg>Item sinen <term ref="lem000164.08">wingarten</term> zuͤ <placeName
+                           ref="loc006042">Saxs</placeName> genant <placeName ref="loc006237.02"
+                           >Arslicher</placeName> mitsampt dem <term ref="lem008024">win</term> und
+                           <term ref="lem014489.02">jargewechds</term>, ouch sinen <term
+                           ref="lem000251.15">walt</term> genant das <placeName ref="loc006239.02"
+                           >Boucholtz</placeName> und die <term ref="lem000072.34">muͤle</term> zuͤ
+                           <placeName ref="loc006238.01">Saxs</placeName> und darzuͤ genant die
+                           <term ref="lem000306">alp</term> genant <placeName ref="loc006130.05"
+                           >Tafruseln</placeName>
+                        <lb/>mit der uffgehabten <term ref="lem002706.06">nu̍tzung</term>e und das
+                           <term ref="lem014490.02">kilchenlechen</term> zuͤ <placeName
+                           ref="loc006042">Saxs</placeName>, das doch alles sin eigenlich güt
+                        were.</seg>
+                     <seg>Und daruff dieselben von <orgName ref="org002601">Sant Gallen</orgName>
+                        unnser herren und obern hochermant und gebetten, inen durch craft der
+                        geswornen <term ref="lem000737.09">bünden</term> hilfflich zesind und dîe
+                        von <lb/>
+                        <orgName ref="org002174">Appenzel</orgName> daran zewisen, damit sy iren
+                        burger des sinen wider in gewerde satzten und sich gegen im rechtens
+                        benuͤgen liessend, so vere, das ye uff solich ir <term ref="lem009439.04"
+                           >clag</term>e unnser herren und obern der <orgName ref="org001188">syben
+                           orten</orgName>
+                        <placeName ref="loc000066">Zurich</placeName>, <placeName ref="loc000972"
+                           >Lutzern</placeName>, <placeName ref="loc000796">Ure</placeName>,
+                           <placeName ref="loc000730">Switz</placeName>, <placeName ref="loc000568"
+                           >Underwalden</placeName>, <placeName ref="loc000215">Zug</placeName> und
+                        von <placeName ref="loc000326">Glarus</placeName>
+                        <lb/>die vorgenanten von <orgName ref="org002174">Appenzell</orgName> ir
+                        geschwornen bunden so verre gemant, das sy je am lesten zūgeseit haben, dem
+                        also gestracks nachzekommenn und sich des rechten benuͤgen lassen nach ir
+                        geswornen buͤnden sage und der mannige, die von wort zuͤ wort also wiset,
+                        <lb/>von allen orten und jeglichem orte insunders:</seg>
+                     <seg>Wir, der <orgName ref="org002406">burgermeister der rāt und burgere
+                           gemeinlich der statt Zurich</orgName>, enbieten den ersamen, wisen unsern
+                        sundern guten fru̍nden und getru̍wen <choice>
+                           <abbr>Eitgnon</abbr>
+                           <expan><orgName ref="org000531">Eidgenossen</orgName></expan>
+                        </choice>, dem <orgName ref="org002174">aman, rāt und gantzer gemeind zuͤ
+                           Appenzell</orgName> unser fru̍ntlich, <lb/>willige dienst vor und daby
+                        zuͤ wissen, als denn zwu̍schend u̍ch und dem vesten <persName
+                           ref="per004642a">Lûtfriden Mötteli</persName>n, burger zuͤ <placeName
+                           ref="loc000082">Sant Gallen</placeName>, von der herschaft <placeName
+                           ref="loc006069">Frischemberg</placeName> und ander sachen wegen hievor
+                        ettwz spenn und irrung gewesen, darumb ir dann beidersit u̍ch rechtlichen
+                        zuͦ <lb/>entscheiden uff unnser guten frûnde und getru̍wen, lieben <choice>
+                           <abbr>Eitgnon</abbr>
+                           <expan>
+                              <orgName ref="org000531">Eidgenossen</orgName></expan>
+                        </choice>, <orgName ref="org001181">ammann und rath zuͤ Ure</orgName> zu̍
+                        recht kommenn und lest durch dieselben umb solich u̍wer spenn und sachen mît
+                        recht entscheiden worden sind nach lute der rechtspru̍chen, die sy u̍ch zuͤ
+                        beidersite darumb ver<lb break="no"/>siglet geben und die ouch wir verhort
+                        haben <abbr>etc</abbr>.</seg>
+                     <seg>Hand also demnach die fu̍rsichtigen, ersamm und wisen <orgName
+                           ref="org002601">burgermeister und rat der statt Sant Gallen</orgName>,
+                        unnser gut fru̍nd und getruw <choice>
+                           <abbr>Eitgnon</abbr>
+                           <expan><orgName ref="org000531">Eidgenossen</orgName></expan>
+                        </choice>, uns schriftlich und ouch durch ir erbern ratsfrunde berichten
+                        lassen, wie dz ir <lb/>uber und wider solich rechtspruch zuͤ <placeName
+                           ref="loc000796">Ure</placeName> usgangen und darnach den gemelten iren
+                        burger des sinen frevenlich und one recht entwert und im dis
+                        hienachgenemmpte stuck und gu̍ter zuͤ u̍wern handen genommenn und noch
+                        haben: Des ersten sinen <term ref="lem003935.13">hoͤuwachs</term> in
+                        <lb/>der herschaft <placeName ref="loc006069">Frischenberg</placeName>. Item
+                        sin ops und <damage agent="fold">früchte</damage> zuͤ <placeName
+                           ref="loc006069">Frischmberg</placeName> in allen sinen guͤtern. Item
+                           <persName ref="per004701">Marx Slicher</persName>n wingarten zuͤ
+                           <placeName ref="loc006042">Saxs</placeName> genant <placeName
+                           ref="loc006237.02">Arslicher</placeName> mitsampt dem win und
+                        jargewechsdt. Item sin walt genant das <placeName ref="loc006239.03"
+                              ><sic>Buͦchholtz</sic></placeName> und die muͤli zuͦ <placeName
+                           ref="loc006238">Saxs</placeName>. Denn die alpen <lb/>genant <placeName
+                           ref="loc006130">Tafruseln</placeName> mit der uffgehepten nutzung und das
+                        kilchenlechen zu <placeName ref="loc006042">Saxs</placeName>. Das alles sy
+                        vermeinent üch nach lute des gedachten spruches nit zugehoͤre. Und hand uns
+                        daruff dieselben von <orgName ref="org002601">Sant Gallen</orgName> gebetten
+                        und hochermant, ir und unser geswornen bünden <lb/>inen von deselben irs
+                        burgers wegen bistendig und daran zesind, damit dem iren das sin, des er
+                        also on recht von uch entwert sye, widerkeret und er des ingewerd gesetzt
+                        werde.</seg>
+                     <seg>Uff dz haben nechst unnser guͤt frunde gemein <choice>
+                           <abbr>Eitgnon</abbr>
+                           <expan><orgName ref="org000531">Eidgenossen</orgName></expan>
+                        </choice>, mit denen ir in <term ref="lem002882.15">buntnis</term> sind,
+                        <lb/>ir trefflich <term ref="lem000581">bottschaft</term> by üch gehept, uch
+                        muntlich gebetten und ermant, den gemelten <persName ref="per004642a"
+                           >Mötteli</persName>n des sinen onne recht nit also zuͤ entweren, sunder
+                        inn des, so er von ûch also entwert were, angends uff recht wider
+                        inzuͦsetzen und im dz zuͤ sinen handen wider<lb break="no"/>komen zelassen.
+                        Das alles als wir verstandent von u̍ch nit beschechen und zuͤhoͤren
+                        unbillich ist. Und so nuͤ wir den gemelten unsern <choice>
+                           <abbr>Eitgnon</abbr>
+                           <expan><orgName ref="org000531">Eidgenossen</orgName></expan>
+                        </choice> von <orgName ref="org002601">Sant Gallen</orgName> solicher ir
+                           <term ref="lem000978.01">manunge</term> nît vor sin moͤgend und ouch in
+                        unnser <orgName ref="org000531">Eitgnoschaft</orgName> nîeman gestattet
+                        wirt, <lb/>das jeman den andern des sinen onn recht entwerren und nach
+                        gemeinem rechten nîeman <term ref="lem014492.02">mît verpfanter hand</term>
+                        zuͤ recht zuͤkomenn genotiget werden sol, so haben wir den geschwornen <term
+                           ref="lem000330.04">buntbrîeff</term> zwu̍schend uch und uns wisende, den
+                        wir mît andern unsern <choice>
+                           <abbr>Eitgnon</abbr>
+                           <expan><orgName ref="org000531">Eidgenossen</orgName></expan>
+                        </choice>
+                        <lb/>darinn begriffen, versiglet und aber ir zuͦhalten an heiligen geschworn
+                        hand fu̍r uns geleit, den eigentlich verhoͤrt und darinn under anderm funden
+                        zwen artickel also sagende:</seg>
+                     <seg>
+                        <quote>Der erst were, dz wir von <orgName ref="org002174"
+                              >Appenzell</orgName> mît jeman, wer der were, zuͦ <term
+                              ref="lem000599.06">krîeg</term> kement <lb/>und uns derselb solich
+                           glich billich völlige <term ref="lem001156.03">recht butte</term>, dz
+                           unser obgenanten <choice>
+                              <abbr>Eitgnon</abbr>
+                              <expan><orgName ref="org000531">Eidgenossen</orgName></expan>
+                           </choice> gemeinlich oder den merenteil under inen bedu̍chte, dz es inen
+                           und uns erlich were, dz wir der rechten eins uffnemmenn soͤnd, so sollend
+                           wir es tun und inen darinn gevolgig und <lb/>gehorsamm sin one
+                           widerred</quote>.</seg>
+                     <seg>Denn wiset der ander artickel also: <quote>Und das wir von <orgName
+                              ref="org002174">Appenzell</orgName> alle und alle die, so zuͤ uns
+                           gehorendt, unser jeglicher insunders und alle unnser nachkommenn den
+                           obgenanten unsern <choice>
+                              <abbr>Eitgnon</abbr>
+                              <expan><orgName ref="org000531">Eidgenossen</orgName></expan>
+                           </choice> von stetten und lendern allen und dem meren teil <lb/>under
+                           inen gehorsam sin, ir nutz und ere fu̍rdern und iren schaden wenden
+                           soͤllend onn widerred und geverde <abbr>etc</abbr>.</quote>
+                     </seg>
+                     <seg>Darumb uff solich jetz gemelt beid artickel, so ir zuͤ halten an heiligen
+                        geschworn hand, so bitten und manen wir u̍ch derselben u̍wer geswornen <term
+                           ref="lem000070">eyd</term>en <lb/>und der bunden so hoch und ernstlichest
+                        wîr das tuͤn moͤgend, dz ir by craft derselben uwer eyden und der buͤnden
+                        den <choice>
+                           <abbr>obgenten</abbr>
+                           <expan>obgenannten</expan>
+                        </choice>
+                        <persName ref="per004642a">Lûtfriden Motteli</persName>n von stund an der
+                        obgenanten siner entwerten stûck und guͤter angends wider in gewerd setzent
+                        und im die <lb/>onn engeltnis wider zuhanden komen lassent und fu̍rer inn
+                        nît witer bekumbrent, sunder ob ir an inn oder er an ûch, es sye umb costen,
+                        schaden oder ander sachen, fu̍rer u̍tzit zuͤ sprechen hetten, dz ir des
+                           <term ref="lem006807">zuͦ recht kommennt</term> uff gemeiner <choice>
+                           <abbr>Eitgnon</abbr>
+                           <expan><orgName ref="org000531">Eidgenossen</orgName></expan>
+                        </choice> botten und ûch desselben <lb/>rechten benuͤgen lassend, als wir
+                        uch das ze tuͤnde wol getru̍wen. Wann ob ir dz nît tuͦn wurden, des wir uns
+                        doch zuͤ u̍ch nît versechend, so mo̍chten wir nit darvor sin, dann dz wir
+                        dannenthin der manung und den geschwornen bu̍nden zwu̍schend denen von <lb/>
+                        <orgName ref="org002601">Sant Gallen</orgName> und uns wisende genu̍g tuͦn
+                        muͤsten, wîe gern wir des vertragen werend, zu urkunde versiglet mît unser
+                        statt ufftrucktem secrete am <origDate when="1473-01-22">fritag nach sant
+                              <persName ref="per000795">Anthon</persName>ien tag gezalt von der
+                           geburt <choice>
+                              <abbr>Xpi</abbr>
+                              <expan>
+                                 <persName ref="per000353">Christi</persName>
+                              </expan>
+                           </choice> unsers herren vierzechenhundert sibentzig und dru̍
+                           jar</origDate>.</seg>
+                     <seg>
+                        <lb/>Und als nuͤ uff dz unnser herren und obern beiden partyen solicher sach
+                        halb uff hu̍tt rechtlich tag angesetzt und uns als <term ref="lem002379"
+                           >botten</term> zuͤ den sachen geordnet und bevolchen haben, dîe nach lute
+                        der vorgemelten <term ref="lem000978">manung</term> fu̍rzenemmenn, haben wir
+                        uff hut sy beidersit, als sy fu̍r uns mit <lb/>vollem gewalt komenn sind,
+                        namlich die von <orgName ref="org002174">Appenzell</orgName> durch die
+                        erbern wisen <persName ref="per004702a">Ulrichen Broger</persName> und
+                           <persName ref="per004703a">Hansen Stemmlin</persName>, iren lantschriber,
+                        als ir volmechtig botten, und aber <persName ref="per004642a">Lu̍tfrid
+                           Motteli</persName>n durch sich selben ouch mît gewalt und mit im der
+                        fromm wise <persName ref="per004704a">Ulrich Farenbuͤler</persName> als ein
+                        <lb/>ratzbott von <placeName ref="loc000082">Sant Gallen</placeName> fuͤr
+                        uns genomen und begert, ir sachen vor uns ze eroffnen.</seg>
+                     <seg>Also hat <persName ref="per004642a">Lûtfrid Mötteli</persName>n sin <term
+                           ref="lem009439.04">clag</term> zü denen von <orgName ref="org002174"
+                           >Appenzell</orgName> eroffnet uff meynunge als ouch vormaln, wîe sy inn
+                        der <choice>
+                           <abbr>vorgenten</abbr>
+                           <expan>vorgenannten</expan>
+                        </choice> stucken u̍ber und wider der <term ref="lem000675"
+                           >rechtspruch</term> zuͤ <placeName ref="loc000796">Ure</placeName>
+                        usgangen onn recht <lb/>frevenlich <term ref="lem001302">entwert</term>,
+                        solichs zuͤ iren handen genomen und inn dadurch zu grossem costen und
+                        schaden gebracht haben. Und nachdem sy von unsern herren und obern nach ir
+                           <term ref="lem000737">bunden</term> sage und by iren eiden gemant werend,
+                        inn des sinen onn entgeltnis wider inzesetzen und si dz also <lb/>zetunde
+                        zuͤgeseit und doch nit getan hetten, trûwete er nuͤ got und dem rechten, sy
+                        solten nuͤ durch unser rechtlich <term ref="lem001289">urteil</term> daran
+                        bracht werden, den dingen nach inhalt der <term ref="lem000978"
+                           >manung</term> und irem zuͤsagen nachzegand, im das sin zuͦ widerkeren
+                        und darzuͤ im sin costen und schaden, <lb/>darinn sy inn wider die manung
+                        und sider der urteil zuͦ <placeName ref="loc000796">Ure</placeName>
+                        usgangen, irs eignen gewalts unrechtlich bracht hetten, gentzlich
+                        abzetragen.</seg>
+                     <seg>Darwider aber der <choice>
+                           <abbr>vorgent</abbr>
+                           <expan>vorgenannt</expan>
+                        </choice> von <orgName ref="org002174">Appenzell</orgName> botten also
+                        antwurten, sy neme solich des <persName ref="per004642a">Motteli</persName>s
+                        hoch verclagen vast fro̍mde, wann ob <lb/>er in den dingen die rechte
+                        warheit furgeben hette, zwiflet inen nit, sy werend solicher mas nîe gemant
+                        worden, sy hetten ouch dhein <term ref="lem000302">unrecht</term> noch <term
+                           ref="lem000044">frevel</term> an im begangen, wann als bald si mit im in
+                        dem spruch zuͤ <placeName ref="loc000796">Ure</placeName> usgangen, irrîg
+                        worden werend, hetten si sich von <lb/>stundan und allwegen gegen im wider
+                        fu̍r die von <orgName ref="org001181">Ure</orgName> zuͦ rechtlicher <term
+                           ref="lem009724.06">lutrung</term> erbotten, als sy noch deten, dz hette
+                        aber <persName ref="per004642a">Motteli</persName>n gegen inen nie wollen
+                        uffnemmenn, sunder sinen <term ref="lem014491.02">hochenmuͤt</term> mît inen
+                        gewaltigclich geprucht. Uff dz hetten si den <term ref="lem000458.03"
+                           >kilchensatz</term> und anders, so sy <lb/>noch hoften, inen zugehorte,
+                        darumb zü iren handen genommenn, das si dester ee mit im zu recht kement und
+                        tru̍weten wol, dz wir den <persName ref="per004642a">Moͤtli</persName>n von
+                        solichen unbillichen fûrnemen wisen solten, damit und er sy nach lute der
+                        von <orgName ref="org001181">Ure</orgName> rechtspruch, den si zehoͤren
+                        begerten, <lb/>by solichen stucken und dem iren bliben <damage agent="fold"
+                              ><supplied source="StAZH F II a 383 b, fol. 48v">lies
+                           und</supplied></damage> das er inen darzuͤ iren costen und schaden, darin
+                        er sy mutwilligclichen bracht, damit dz er iri rechtbott und das recht zu̍
+                           <placeName ref="loc000796">Ure</placeName> verachtet hette, abtragen und
+                        sy im umb sin zuͤspru̍ch und fordrung sîns costens nit <lb/>zuͤ antwurten
+                        haben solten.</seg>
+                     <seg>Zu solichem aber <persName ref="per004642a">Lu̍tfrit Mötteli</persName>n
+                        furer rette, ob die von <orgName ref="org002174">Appenzell</orgName> inn des
+                        sinen one recht nit <damage agent="fold"><supplied
+                              source="StAZH F II a 383 b, fol. 49r">also</supplied></damage> entwert
+                        hetten, were er inen rechtes nie vorgesin, dz aber er schuldig gewesen sye,
+                           <term ref="lem014492.03">mît gepfanter hand</term> zü recht zekommenn,
+                        truwe er nit, <lb/>und begerte glich wie vor, im umb das sin nach lute der
+                        manung wandel zetuͦnd und darzuͤ im sinen <term ref="lem009651">costen und
+                           schaden</term>, der sich ob <measure quantity="250" type="currency"
+                           unit="fl" origin="Rh">dritthalb hundert Rinsch guldin</measure> treffe,
+                        abzetragen. Aber von des <term ref="lem000458.03">kilchensatz</term>es
+                        wegen, dartzu̍ hetten dîe von <orgName ref="org002174">Appenzell</orgName>
+                        dhein recht <lb/>nach lute des spruchs zuͤ <placeName ref="loc000796"
+                           >Ure</placeName> usgangen, der doch nît witer inhîelte, denn was
+                        gerechtîkeit die gerichte zuͤ <placeName ref="loc006069"
+                           >Frischenberg</placeName> züm selben kilchensatz hetten, die solten die
+                        von <orgName ref="org002174">Appenzell</orgName> ouch daran han, daby lies
+                        ers noch bliben und tru̍wte nît, dz dieselben gericht <lb/>ye kein
+                        gerechtikeit daran gehept und noch hetten. Zuͤdem so hette er ouch den
+                        bitzhar gelichen on ir und menglîchs inrede und hindernis, hofte und
+                        tru̍wete ouch noch hu̍t bi tage daby ze bliben.</seg>
+                     <seg>Harwider aber die von <orgName ref="org002174">Appenzell</orgName> glich
+                        wîe vor retten, <lb/>sy werend dem <persName ref="per004642a"
+                           >Mo̍tteli</persName>n rechtes nie vor gesin, er hette aber dz nîe wollen
+                        uffnemen, sunder si durch sin unrechtlich verclagen zü mergklicher unruͤw
+                        und costen gepracht. Und umb den <term ref="lem000458.03">kilchensatz</term>
+                        zuͤ <placeName ref="loc006042">Sax</placeName>s, da verstuͤnden wir wol, dz
+                        die von <orgName ref="org001181">Ure</orgName> inen alle gericht und
+                        <lb/>die herschaft <placeName ref="loc006069">Frischemberg</placeName>
+                        zuͤbekent hetten, daby man wol vermarckte, dz inen billich der kilchensatz
+                        zuͤgehörte und sy den fürbashin zuͤ lichen han als wol als bitzhar und
+                        yewelten ein herschaft von <placeName ref="loc006069"
+                           >Frischemberg</placeName> den geluchen hette, inmas si dz wol furbringen
+                        <lb/>wolten, dz er zuͤ den gerichten <placeName ref="loc006069"
+                           >Frischemberg</placeName> gehorte und das <persName ref="per004642a"
+                           >Lûtfrid Motteli</persName>n inen daby iren costen abtragen und sy im umb
+                        sin zuͤspru̍ch gantz nu̍tzît zeantwurten haben solten. Und satzten damit ir
+                        sachen, mit me worten nît not zuͤ melden, zuͤ unnser <lb/>rechtlichen
+                        erkantnis.</seg>
+                     <seg>Und als wir nuͦ solicher beider teylen clag und antwurt, red und
+                        widerrede, ouch die obbestîmpte <term ref="lem000978">manunge</term> und
+                        daby den <term ref="lem000675">rechtspruch</term> zwu̍schen inen vormaln zuͤ
+                           <placeName ref="loc000796">Ure</placeName> usgangen und alles dz, so ir
+                        beider partyen halb vor uns in recht gelegen ist, <lb/>gar eigentlichen
+                        verho̍rt und aber daruff an beiden teiln dhein vervolge, si fru̍ntlich inn
+                        der <term ref="lem000426.04">mynn</term> sammennt ze betragen finden mögen
+                        haben. Sind wir doch am lesten nach rat bedachtlich uber die sachen gesessen
+                        und dîe nach unser besten verstentnis und uff unnser eyde, als denn dz uns
+                        <lb/>von unsern herren und obern uffgeleit und ze tuͤnde bevolchen worden
+                        ist, mît recht und einhelliger urteil usgesprochen, als hienach stāt:</seg>
+                     <seg n="1">Des ersten von der <term ref="lem000076.06">guͤter</term>n, <term
+                           ref="lem000237">zins</term>en, <term ref="lem000340.04">gult</term>en und
+                        sachen wegen zuͤ <placeName ref="loc006069">Frischenberg</placeName>,
+                        darumb, wîe vorstât, <persName ref="per004642a">Lu̍tfrid Motteli</persName>n
+                        clagt und <lb/>furgewendt hat, dz im dîe zuͤgehorend und dz die von <orgName
+                           ref="org002174">Appenzel</orgName> inn dero onn recht entwert haben, wîe
+                        denn das stuck davor von beiden teylen angezogen und verantwurt worden ist
+                           <abbr>etc</abbr>, erkennen wir uns uff unnser eyde, sider und der
+                        rechtspru̍ch zwu̍schend inen beidersite <lb/>vormaln zuͤ <placeName
+                           ref="loc000796">Ure</placeName> usgangen, in eim artickel luter inhaltet,
+                        dz solich <term ref="lem000237">zins</term>, <term ref="lem002834"
+                           >rent</term>, <term ref="lem000340.04">gult</term> und <term
+                           ref="lem002706">nutzung</term>, die <persName ref="per004642a">Lu̍tfrid
+                           Mo̍tteli</persName>n in den <term ref="lem000431">gerichten</term> und
+                        herschaft zu habend vermeinnet und die in siner clage angezogen hatt,
+                        demselben <persName ref="per004642a">Lu̍tfriden Motteli</persName>n
+                        zugehoren sollend. Diewile doch die <lb/>von <orgName ref="org002174"
+                           >Appenzel</orgName> nît dawider gerett noch das verantwurtet haben, wie
+                        denn das derselb artickel des rechtspruchs witer begriffet <abbr>etc</abbr>,
+                        sprechen wir zuͤ recht und lutrent dis also, das ouch nuͤ der vorgenant
+                           <persName ref="per004642a">Lu̍tfrid Moͤtteli</persName>n by sollichen
+                        sinen zinsen, renten, gûlten und <lb/>allen nutzungen, so er bitzhar in den
+                           <term ref="lem000431">gericht</term>en <placeName ref="loc006069"
+                           >Frischenberg</placeName> und der herschaft gehept hāt und noch ze habend
+                        vermeinet, nuͤ fu̍rbashin als by dem sinen ruͤwig bliben sol und das daby
+                        dîe von <orgName ref="org002174">Appenzell</orgName> denselben <persName
+                           ref="per004642a">Lutfriden Motteli</persName>n umb alle und jegliche
+                        stuck, <lb/>es syend zins, rent, gult, nutzungen und ander sachen in der
+                        herschaft und <term ref="lem000431">gericht</term>en zü <placeName
+                           ref="loc006069">Frischenberg</placeName>, <term ref="lem003935.12"
+                           >houͤwachs</term>, <term ref="lem003604.01">obs</term>, <term
+                           ref="lem009958.07">frûchte</term>, <persName ref="per004701">Marx
+                           Slicher</persName>s <term ref="lem000164.32">wîngarten</term> mit sampt
+                        dem <term ref="lem009478.02">hûrig</term>en <term ref="lem008024">win</term>
+                        des vergangnen <term ref="lem000479">herbst</term>es, den <term
+                           ref="lem000251">walt</term> genant dz <placeName ref="loc006239.02"
+                           >Banholtz</placeName>, dîe <term ref="lem000072.32">muͤli</term> zuͤ
+                           <placeName ref="loc006042">Sax</placeName>s, die <lb/><term
+                           ref="lem000306">alp</term>
+                        <placeName ref="loc006130">Tafruselen</placeName> mît allen und jeglichen
+                        zinsen und nutzungen und umb alle sachen, darumb dann die von <orgName
+                           ref="org002174">Appenzell</orgName>
+                        <persName ref="per004642a">Lutfriden Motteli</persName>n nach lute und
+                        inhalt gemeiner <choice>
+                           <abbr>Eitgnon</abbr>
+                           <expan><orgName ref="org000531">Eidgenossen</orgName></expan>
+                        </choice> manunge sider dem spruch zuͤ <placeName ref="loc000796"
+                           >Ure</placeName> usgangen, bitzhar entwert und zuͤ iren <lb/>handen
+                        genommenn oder verbotten haben. Denselben <persName ref="per004642a"
+                           >Lûtfriden Mötteli</persName>n jetz angends onn alle sin engeltnis
+                        ruͤwigclich wider <term ref="lem014493.02">in gewerd setzen</term> und im
+                        die von hin zuͤgehoren soͤllend und dz er solich zins, rent, gült, nutzungen
+                        und sachen nuͤ fu̍rbashin als dz sin sol <lb/>und mag inn han nûtzen,
+                        niessen, besetzen und entsetzen unbeku̍mbert von denen von <orgName
+                           ref="org002174">Appenzell</orgName> und menglichen ungefarlich.</seg>
+                     <seg n="2">Denn von des <term ref="lem014490">kilchenlechen</term>s wegen zuͤ
+                           <placeName ref="loc006042">Sax</placeName>s, darzuͤ denn jetweder teyl
+                        gemeînt hat, recht zuͤ han <abbr>etc</abbr>, haben wir uns erkent, sider und
+                        dîe <lb/>von <orgName ref="org002174">Appenzell</orgName> von unsern herren
+                        und obern gemeiner <choice>
+                           <abbr>Eitgnon</abbr>
+                           <expan><orgName ref="org000531">Eidgenossen</orgName></expan>
+                        </choice> nach sage ir bûnden gemant worden sind, denselben <persName
+                           ref="per004642a">Moͤtteli</persName>n umb all stuck und sachen, dero si
+                        inn entwert haben, wider in gewerd zuͤ setzen, das ouch nuͤ <persName
+                           ref="per004642a">Lu̍tfrid Moͤtteli</persName>n nach inhalt derselben
+                        manunge des kilchen<lb break="no"/>lechens zuͤ <placeName ref="loc006042"
+                           >Sax</placeName>s in gewerd sin sol. Dîewile aber unser <choice>
+                           <abbr>Eitgnon</abbr>
+                           <expan><orgName ref="org000531">Eidgenossen</orgName></expan>
+                        </choice> von <placeName ref="loc000796">Ure</placeName> sich vormaln under
+                        anderm zuͤ recht erkennt, wz <damage agent="fold"><supplied
+                              source="StAZH F II a 383 b, fol. 50v">gerechte</supplied></damage> die
+                           <term ref="lem000431">gericht</term>e zu <placeName ref="loc006069"
+                           >Frischenberg</placeName> bitzhar zü kilchenlechen zuͤ <placeName
+                           ref="loc006042">Sax</placeName>s gehept haben, das ouch die von <orgName
+                           ref="org002174">Appenzell</orgName> hinfu̍r daby bliben soͤllend
+                           <abbr>etc</abbr>. Haben <lb/>wir uns fu̍rer bekent, das die von <orgName
+                           ref="org002174">Appenzel</orgName> deshalb ir <term ref="lem000582"
+                           >kuntschaft</term> vor uns uff hu̍t erscheinen und hören lassen so̍llend,
+                        wz gerechtigkeit sy von der gerichten wegen zu <placeName ref="loc006069"
+                           >Frischenberg</placeName> zu <term ref="lem014490">kilchenlechen</term>
+                        zuͤ <placeName ref="loc006042">Sax</placeName>s ze habend vermeinent und den
+                        fu̍rer geschechen sol, wz recht sye. <lb/>Und nachdem die von <orgName
+                           ref="org002174">Appenzel</orgName> nach lute derselben unnser urteil von
+                        desselben kilchenlechens wegen sich uff hu̍t understanden haben, solich
+                        kuntschaft vor uns zelegen, als ouch dz beschechen ist, haben wir sy aber
+                        beidersite nach ir nottdurft gegenander reden lassen <lb/>und daruff
+                        dieselbe der von <orgName ref="org002174">Appenzell</orgName> kuntschaft
+                        wolbedachtlich verhoͤrt und uns daruff fu̍rer uff unnser eyde erkennt, sider
+                        und die von Appenzell sich nach inhalt unser vordrigen usgangnen urteil
+                        vermessen gehept hant, als inen ouch dz zetuͤnde bekennt <lb/>worden ist,
+                        mit guͤter kuntschaft fu̍rzebringen und kuntlich ze machen, dz der <term
+                           ref="lem000458.03">kilchensatz</term> zuͤ <placeName ref="loc006069"
+                           >Frischemberg</placeName> zuͤ den gerichten daselbs gehoͤre und aber si
+                        das inn solcher mas, als si sich vermessen hatten, mit ir kuntschaft
+                        genugsamclich nit haben fu̍rbracht und ouch <lb/><persName ref="per004642a"
+                           >Lu̍tfrid Moͤtteli</persName>n vormaln solich kilchenlechen mer dann
+                        einist geluͤchen hāt, dz ouch nuͤ derselb <persName ref="per004642a">Lûtfrid
+                           Mo̍tteli</persName>n und sin nachkommenn nuͤ <term ref="lem007828"
+                           >fu̍rbas</term> hin by solichem kilchensatz bliben und den als recht
+                           <foreign xml:lang="la"><term ref="lem009210.02"
+                           >collatores</term></foreign> lichen und besetzen moͤgend, so dick und vil
+                        das nuͦ vonhin zuͦ <lb/>schulden kumpt und er ledig wirt, von denen von
+                           <orgName ref="org002174">Appenzell</orgName> und menglichen gantz
+                        ungehîndert.</seg>
+                     <seg n="3">Und von des <term ref="lem000279">costen</term>s wegen, darumb denn,
+                        wîe vorstāt, beide teil einandern angesprochen hand <abbr>etc</abbr>,
+                        erkennen wir uns uff unnser eyde, dz dîe von <orgName ref="org002174"
+                           >Appenzell</orgName> dem <lb/>genanten <persName ref="per004642a"
+                           >Lutfriden Moͤtteli</persName>n an sinen costen, wie er den diser sach
+                        halb gehept hatt und darfu̍r <measure origin="Rh" type="currency"
+                           quantity="100" unit="fl">hundert Rînsch guldin</measure> geben und im dîe
+                        bitz <date type="deadline" when="--06-24">sant <persName ref="per000049"
+                              >Johan</persName>s tag zuͤ sungichten nechst</date> kumpt <choice>
+                           <sic>umb</sic>
+                           <corr>und</corr>
+                        </choice> zeglich und onn alle sin engeltnîs also bar usrichten und im die
+                        <lb/>zuͤ sinen sicheren handen und gewaltsame gen <placeName ref="loc000082"
+                           >Sant Gallen</placeName> antwurten solleͤnd onn allen intrag und
+                        geverde.</seg>
+                     <seg n="4">Und hiemît solleͤnd sy zuͦ beidersîte umb all solich ir spenn und
+                        sachen verricht und rechtlich entscheiden sin, by disem unserm rechtspruch
+                        <lb/>bliben und den stete halten by <term ref="lem000545">pen</term> der
+                           <term ref="lem000978">manunge</term>, so, als vorstāt, unnser herren und
+                        oberen denen von <orgName ref="org002174">Appenzell</orgName> getan, und si
+                        dem also nachzekomenn gemeinen orten zugeseît haben.</seg>
+                     <seg>In craft dis unnsers rechtspruches, dero wir zwen glich wisende und mit
+                        unser aller <lb/>anhangenden ingesigeln uns und unsern erben unschedlich
+                        versiglet, jetwederm teyl einen geben haben <origDate when="1473-12-14">am
+                           nechsten zinstag nach sant <persName ref="per000631">Lucie</persName>n
+                           tag, als man zalte von der gepurt <choice>
+                              <abbr>Xpi</abbr>
+                              <expan>
+                                 <persName ref="per000353">Christi</persName>
+                              </expan>
+                           </choice> unnsers herren tusent vierhundert sibentzig und drü
+                           jare</origDate>.</seg>
+                  </p>
+               </div>
+               <pb facs="StASG_AA_2_U_05_v"/>
+               <div org="uniform" sample="complete">
+                  <ab type="dorsal" place="verso" hand="hand15c"><placeName ref="loc006069.04"
+                        >Fryschen berg</placeName> betreffend</ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab type="archiving reference" place="verso">
+                     <del>N<hi rend="sup">o</hi> 4</del>; Sakristey truk. 39 L 2; <del>N<hi
+                           rend="sup">o</hi> 8</del>; 1473; N<hi rend="sup">o</hi> 5; <del>8</del>;
+                        <del>ingrosiert</del></ab>
+               </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div n="1" org="uniform" sample="complete">
+            <p><persName ref="per004642a">Lütfried Mötteli</persName>, Bürger von <placeName
+                  ref="loc000082">St. Gallen</placeName>, erwirbt die Freiherrschaft <placeName
+                  ref="loc006069">Frischenberg</placeName> als <term ref="key000441">Pfand</term>
+               von den <term ref="key000920">Erben</term> von <persName ref="per000749a">Albrecht I.
+                  von Sax-Hohensax</persName>, der diese seinerseits <date when="1454">1454</date>
+               von <persName ref="per004526">Ulrich VII. von Sax-Hohensax</persName> erworben hatte.
+               Doch seit der Eroberung der Herrschaft Frischenberg <date when="1446">1446</date>
+               durch die <orgName ref="org002174">Appenzeller</orgName> im Zuge des <term
+                  ref="key000513">Alten Zürichkrieg</term>s sind diese die eigentlichen Machthaber
+               der Herrschaft Frischenberg (vgl. dazu <ref>SSRQ_SG_III_4_050</ref>). Mötteli
+               versucht in langjährigen Streitigkeiten mit Appenzell, seine Rechte in Frischenberg
+               durchzusetzen. Ende <date when="1471">1471</date> gelangt Mötteli in dieser Sache an
+               die <term ref="key000299">Tagsatzung</term>, die den Streit zum Entscheid <orgName
+                  ref="org001181">Uri</orgName> übergibt (vgl. dazu <bibl><ref
+                     target="http://permalink.snl.ch/bib/chbsg000143942">EA, Bd. 2</ref>, Art. 674h
+                  [S. 421]; <ref target="http://permalink.snl.ch/bib/chbsg000143942">EA,
+                  Bd. 2</ref>, Art. 482k [S. 428]</bibl>). In diesem Urteil wird Appenzell die
+               Herrschaft Frischenberg zugesprochen, abgesehen von den <term ref="key000154"
+                  >Zins</term>en, <term ref="key003336">Gült</term>en, <term ref="key000222"
+                  >Renten</term> und <term ref="key000336">Nutzung</term>en, die Mötteli in
+               Frischenberg besitzt. Der Spruchbrief selbst ist nicht erhalten. Da sich Appenzell
+               jedoch nicht an das Urteil von Uri hält und sich sowohl den <term ref="key000040"
+                  >Kirchensatz</term> von Sax als auch die dem Mötteli zugehörigen Nutzbarkeiten
+               aneignet, schwelt der Streit weiter. Im <date when="1473-01">Januar 1473</date>
+               beschliesst die Tagsatzung, dass jeder Ort am <date when="1473-02-06">6. Februar
+                  1473</date> seine Boten mit Mahnbriefen nach Appenzell schicken soll. Zuerst soll
+               Appenzell aufgefordert werden, dem Mötteli seine Rechte und Nutzbarkeiten an
+               Frischenberg zurückzugeben. Weigert sich Appenzell weiter, soll man ihnen die
+               Mahnbriefe übergeben, was auch geschieht (<bibl><ref
+                     target="http://permalink.snl.ch/bib/chbsg000143942">EA, Bd. 2</ref>, Art. 694a
+                  [S. 437]</bibl>; vgl. dazu auch <bibl><ref
+                     target="http://permalink.snl.ch/bib/chbsg000070326">Inhelder 1992</ref>,
+                  S. 121–122</bibl>; <bibl><ref target="http://permalink.snl.ch/bib/chbsg000150481"
+                     >Zellweger 1834</ref>, Bd. 2, S. 72–76</bibl>; <bibl><ref
+                     target="http://permalink.snl.ch/bib/chbsg000143942">EA, Bd. 2</ref>, Art. 696a
+                  [S. 439]; Art. 697c [S. 439]; Art. 701e [S. 442–443]; Art. 704g [S. 445];
+                  Art. 709f [S. 448]</bibl>).</p>
+         </div>
+         <div n="2" org="uniform" sample="complete">
+            <p>Da Appenzell trotz Mahnbriefen seitens der <orgName ref="org000531"
+                  >Eidgenossen</orgName> nicht einlenkt, kommt es zu dem vorliegenden <term
+                  ref="key001117">Schiedsspruch</term> der <orgName ref="org001189">acht
+                  eidgenössischen Orte</orgName>. Lütfried Mötteli gelingt es hier, seine Rechte und
+               seinen Nutzen an Gütern, Personen, an der <term ref="key000047">Mühle</term> von Sax,
+               an der <placeName ref="loc006130.01">Roslenalp</placeName> (Alp Tafrus), am <term
+                  ref="key000003">Weinberg</term>, an seinem <term ref="key000249">Wald</term> und
+               am <term ref="key000811">Kollaturrecht</term> der Kirche <placeName
+                  ref="loc006249.01">Sax</placeName> durchzusetzen; die <term ref="key000615"
+                  >Hoheitsrechte</term> bleiben jedoch bei Appenzell. Zu den Appenzeller im
+                  <placeName ref="loc001075">Rheintal</placeName> vgl. den Rechtsquellenband von
+               Werner Kuster (<bibl><ref target="https://www.ssrq-sds-fds.ch/online/SG_III_3/index.html#p_III">SSRQ SG III/3</ref></bibl>).</p>
+         </div>
+         <div n="3" org="uniform" sample="complete">
+            <p><date when="1481">1481</date> löst <persName ref="per001640">Ulrich VIII. von
+                  Sax-Hohensax</persName> die Pfandschaften <placeName ref="loc000278"
+                  >Sax-Forstegg</placeName> und <placeName ref="loc006069">Frischenberg</placeName>
+               aus, die mittlerweile von der Stadt <orgName ref="org002601">St. Gallen</orgName>
+               übernommen worden waren (<ref>StASG AA 2 U 8</ref>). Wahrscheinlich gehen jedoch nur
+               diejenigen Rechte der Herrschaft Frischenberg, die <date when="1473">1473</date>
+               Lütfried Mötteli zugesprochen werden, an Ulrich  VIII. von Sax-Hohensax über. Die
+               Hoheitsrechte von Frischenberg mit dem Dorf <placeName ref="loc006068"
+                  >Sax</placeName> verbleiben weiterhin bei Appenzell.</p>
+         </div>
+         <div n="4" org="uniform" sample="complete">
+            <p>Nach dem <term ref="key003964">Rorschacher Klosterbruch</term> als Beginn des <term
+                  ref="key003969">St. Galler Krieg</term>s (<date when="1489">1489</date>/<date
+                  when="1490">1490</date>) zwischen den <term ref="key003952">vier eidgenössischen
+                  Orten</term>
+               <placeName ref="loc000066">Zürich</placeName>, <placeName ref="loc000972"
+                  >Luzern</placeName>, <placeName ref="loc000730">Schwyz</placeName> und <placeName
+                  ref="loc000326">Glarus</placeName> als Schirmorte des Klosters <placeName
+                  ref="loc000083">St. Gallen</placeName> einerseits und der Stadt <placeName
+                  ref="loc000082">St. Gallen</placeName> mit dem Land <orgName ref="org002174"
+                  >Appenzell</orgName> andererseits (vgl. dazu <bibl><ref
+                     target="http://www.hls-dhs-dss.ch/textes/d/D17168.php">HLS</ref></bibl>) müssen
+               die Appenzeller laut Spruch vom <date when="1490-02-10">10. Februar 1490</date>
+               zusammen mit dem <placeName ref="loc001075">Rheintal</placeName> auch die Herrschaft
+               Frischenberg den vier Schirmorten des Klosters St. Gallen übergeben (Druck:
+                     <bibl><ref target="http://permalink.snl.ch/bib/chbsg000135628">Zellweger,
+                     Urkunden</ref>, Bd. 2/2, Nr. 555</bibl>; Literatur: <bibl><ref
+                     target="http://permalink.snl.ch/bib/chbsg000070326">Inhelder 1992</ref>,
+                  S. 122</bibl>; <bibl><ref target="http://permalink.snl.ch/bib/chbsg000150481"
+                     >Zellweger 1834</ref>, Bd. 2, S. 193–216</bibl>). Einen Tag später erhält
+                  <orgName ref="org001198">Zug</orgName> die Mitherrschaft an den ehemals
+               appenzellischen Besitzungen im Rheintal (<ref
+                  target="https://query-staatsarchiv.lu.ch/detail.aspx?id=1191373">StALU Urk
+                  110/1682</ref>). <date when="1500">1500</date> übergeben die <orgName
+                  ref="org000531">Eidgenossen</orgName> die Herrschaft Frischenberg mit dem Dorf
+                  <placeName ref="loc006068">Sax</placeName> und der <term ref="key003994"
+                  >Hochgerichtsbarkeit</term> über die Obere <placeName ref="loc000951"
+                  >Lienz</placeName>
+               <persName ref="per001640">Ulrich VIII.</persName> von Sax-Hohensax als Dank für seine
+               Verdienste im <term ref="key003972">Schwabenkrieg</term>
+               <date when="1499">1499</date> (vgl. dazu auch <ref>SSRQ_SG_III_4_106</ref>). Zur
+               Herrschaft Frischenberg im 15. Jh. vgl. auch <bibl><ref
+                     target="http://permalink.snl.ch/bib/chbsg000080293">Deplazes-Haefliger
+                     1976</ref></bibl>, S. 124–125; <bibl><ref
+                     target="http://permalink.snl.ch/bib/chbsg000070326">Inhelder 1992</ref></bibl>,
+               S. 120–125; <bibl><ref target="http://permalink.snl.ch/bib/chbsg000110853">Kuster
+                     1991</ref></bibl>, S. 44–45. </p>
+         </div>
+      </back>
+   </text>
+</TEI>

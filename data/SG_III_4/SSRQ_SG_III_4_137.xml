@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-08-15"/>
+            <date type="print"/>
+            <availability><p xml:id="facs">Sibylle Malamud</p></availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_137</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>OGA Grabs U1-1565</idno>
+               </msIdentifier>
+               <head>Bartholomäus Schmid darf in der Landvogtei Werdenberg-Wartau unter gewissen
+                  Bedingungen eine Rindenstampfe zur Gerberei auf dem Wuhr neben dem Weiher am Bach
+                  bauen</head>
+               <msContents>
+                  <summary>
+                     <p>Jakob Schuler, Landvogt von Werdenberg-Wartau urkundet, dass Bartholomäus
+                        Schmid eine Stampfe zu seiner Werkstatt und Gerberei auf dem Wuhr neben dem
+                        Weiher an dem Bach, der aus dem Weiher fliesst, bauen möchte. Der Gerber
+                        will für den Eigenbedarf Rinde stampfen. </p>
+                     <p>Hans Forrer will dies verhindern, da er um das für ihn notwendige Wasser aus
+                        dem Weiher für seine Mühle und Stampfe fürchtet. Er weist alte Urkunden vor,
+                        die ihm das Vorrecht am Wasser zusichern.</p>
+                     <p>Schlussendlich einigt man sich darauf, dass die Rindenstampfe gebaut werden
+                        darf, wenn Schmid schriftlich zusichert, dass er nur für den Eigenbedarf
+                        Rinde stampft, an dem Bach nichts verändert und das Wasser nicht ableiten
+                        wird.</p>
+                     <p>Erbetener Siegler ist der Aussteller.</p>
+                  </summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <filiation type="current">Original</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Pergament</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="23.0"/>
+                              <width unit="cm" quantity="35.5"/>
+                           </dimensions>
+                           <dimensions type="plica">
+                              <width unit="cm" quantity="5.0"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <sealDesc>
+                     <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1"
+                        nontei:condition="chamfered" nontei:material="wax" nontei:shape="round"
+                        nontei:attachment="sealed on a parchment tag">
+                        <persName role="sigillant" ref="per008931a">Jakob Schuler</persName>
+                     </seal>
+                  </sealDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1565-04-21">am hälgen abendt zu osteren</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key004827">Gerber</term>
+               <term ref="key003498">Müller</term>
+               <term ref="key000715">Wasser</term>
+               <term ref="key000164">Stampfe</term>
+               <term ref="key000716">Wasserleitung</term>
+               <term ref="key000109">Stadt</term>
+               <term ref="key000687">Gewerbe</term>
+               <term ref="key000489">Bau</term>
+               <term ref="key000108">Weiher</term>
+               <term ref="key005140">Gerberei</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <div org="uniform" sample="complete">
+                  <pb facs="OGA_Grabs_U1-1565_r"/>
+                  <p>
+                     <seg>
+                        <lb/>Ich, <persName ref="per008931a">Jacob Schuller</persName>, des ratts zu
+                           <placeName ref="loc000326">Glaruß</placeName>, jetzenn minner gnädigen
+                           <orgName ref="org001197">herren vonn Glaruß</orgName>
+                        <term ref="lem000266">landtvogt</term> irrenn <lb/>graffschafft <placeName
+                           ref="loc007867">Wärdenberg unnd herschafft Warthow</placeName>
+                        <abbr>etc</abbr>, bekhen unnd thun khundt allermenigklich offenbar mit
+                        dyssem bryeffe, daß <lb/>feür mich komen unnd erschynen synndt, die erberen
+                        unnd bescheydnen personen, <persName ref="per008822a">Hannß
+                           Vorer</persName>,<note anchored="true">Im Urbar von 1581 als Müller der
+                           Stadtmühle bezeugt (<ref>SSRQ_SG_III_4_143</ref>).</note>
+                        <term ref="lem000227">burger</term> und lanndtman zu <lb/><placeName
+                           ref="loc000440">Werdenberg</placeName>, ann einem, <persName
+                           ref="per008932a">Bartlome Schmidt</persName>, <term ref="lem008488"
+                           >landtman</term> zu <placeName ref="loc000440">Werdenberg</placeName>,
+                        anders theylls, bethreffende eines spannß, namlich, daß geda<lb break="no"
+                        />chter <persName ref="per008932a">Bartlome Schmidt</persName> vermeynt,
+                        einn <term ref="lem000321.02">stampff</term> zu syner <term
+                           ref="lem009051.03">werchstat</term> unnd <term ref="lem004513.04"
+                           >gärby</term> uff dem <term ref="lem000769.18">wur</term> nebent dem
+                           <term ref="lem002275.01">wyer</term> ann dem <term ref="lem000473.18"
+                              >waßer<lb break="no"/>fluß</term>, der uß dem wyer gatt, zu buwen unnd
+                        begere ouch nüt wyter dar in zu stampffen, den <term ref="lem002694.03"
+                           >rina</term> zu syner noturfft und <term ref="lem005876.02">mut<lb
+                              break="no"/>ett</term> wyter, daß ime, gedachtem <persName
+                           ref="per008822a">Hannß Vorer</persName>, schaden mocht bringen.</seg>
+                     <seg><persName ref="per008822a">Hanß Vorers</persName> synn antwort gabe, daß
+                           <term ref="lem002512.08">gebüw</term> und <term ref="lem000321.02"
+                           >stampff</term>, daß ge<lb break="no"/>dachter <persName ref="per008932a"
+                           >Bartlome Schmidt</persName> begere da uff zurichten unnd zu buwen, syge
+                        ime zu wyder, synnen freyheyten, brieffe und sigell, so ime hoch<lb
+                           break="no"/>gedacht min gnädig <orgName ref="org001197">herren vonn
+                           Glaruß</orgName> umbe daß <term ref="lem000511">waßer</term> und <term
+                           ref="lem002838.10">waßer leyte</term> und ganzen <term ref="lem000473.18"
+                           >waßerfluß</term>, so in und uß dem <term ref="lem002275.01">wyer</term>
+                        gange. <lb/>Dann wen er da buwen sollte und daß waßer zu synem <term
+                           ref="lem000321.02">stampff</term> furen brechte, es im <term
+                           ref="lem005757.01">berlichen</term> schaden und großen nachteyll ann
+                        synen <lb/>fryheyten ouch ann synen <term ref="lem000769.17">wuren</term>,
+                        daß mügend ir, min herr landtvogt, und ein jeder byderman gedencken.</seg>
+                     <seg><persName ref="per008932a">Bartlome Schmidt</persName> syni <lb/>antwurt
+                        wyter gab glich wye vor, denn umb so vyll mer, er begere im an synen
+                        fryheyten und wuren, ouch waßer und waßerleiti, <lb/>ouch nüt wyter da zu
+                        stampffen an <term ref="lem002694.03">rina</term> zu syner notdurfft.</seg>
+                     <seg><persName ref="per008822a">Hannß Vorer</persName> latt es by synn, der
+                        vorigen redt bliben, den umb so vyll <lb/>mer, wann er im brieff unnd sygel
+                        gebe unnd uffrichte, daß er nüt wyter weder <damage agent="fold"><supplied
+                              resp="SM">gersten noch hirßen</supplied></damage> nach anderß, im
+                        selbs nach <lb/>ander lutenn da stampffen, dan allein zu synner noturfft
+                        rina, ouch inne an synen fryheyten, brieff und sygell, ouch waßer <lb/>und
+                        waßerleyti, ouch denn wuren, so er oder ander lut da machtendt,
+                        kunfftigklich oder vor <sic>kunffigen</sic> zyten gemachet wären, <lb/>weder
+                        zur graben nach zur brechen, sunders inen ann dem waßer und waßerfluß, wie
+                        ers in und uß dem wyer zu syner <term ref="lem000072">mulli</term>,
+                           <lb/><term ref="lem000321">stampff</term> unnd <term ref="lem000355"
+                           >bluwell</term> habe, ungesumpt unnd ungehindert lasse in all wyß und
+                        weg, all gevärd und arglist vermiten und ußgesch<lb break="no"/>loßen, doch
+                        daß ime, <persName ref="per008932a">Bartlome Schmidt</persName>, brieff und
+                        sygel in sym costen gebe, so muge ers im woll vergunen und zu lasen.</seg>
+                     <seg>Solichs alleß, <lb/>wye obgemelt ist, hat genanter <persName
+                           ref="per008932a">Bartlome Schmidt</persName> angenomen und sych in disem
+                        brieff versprochen unnd nut wyter begert. Deß <lb/>alleß zu warern urkhundt,
+                        so hab ich, <persName ref="per008932a">Bartlome Schmidt</persName>, mit
+                        undertanigem ernst und vlyß gebeten und erbeten denn fromen, <lb/>vesten,
+                        fursychtigen, wyßen herren <persName ref="per008931a">Jacob
+                           Schuller</persName>, obgenanter lanndtvogt, daß er synn eigen insigell
+                        laße hencken an disen bryeff, <lb/>doch minen gnadigen <orgName
+                           ref="org001197">herren vonn Glaruß</orgName> an iren fryheyten, recht und
+                        grechtigkeyten, ouch mir selbst und minen erben in allweg <lb/>unfergriffen
+                        und one schaden, der geben ist am <origDate when="1565-04-21">häligen abendt
+                           zu osteren, im jar also man zalt nach der geburt <persName
+                              ref="per000353">Crysti</persName>, unserß einigen <lb/>erlößers,
+                           thusent funfhundert sechzig unnd funff jare</origDate>. </seg>
+                  </p>
+               </div>
+               <pb facs="OGA_Grabs_U1-1565_v"/>
+               <div org="uniform" sample="complete">
+                  <ab type="dorsal" place="verso" hand="hand17c">
+                     <lb/>Luthet vom rindenstampff</ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab type="dorsal" place="verso">
+                     <figure type="stamp"/>
+                     <lb/>Vor Kantonsgericht <lb/><placeName ref="loc000810">St. Gallen</placeName>,
+                        <date when="1885-12-12">12. X. 1885</date>
+                     <lb/>der Präsident</ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab type="dorsal" place="verso">
+                     <figure type="stamp"/>
+                     <lb/>Vor Kantonsgericht <lb/><placeName ref="loc000810">St. Gallen</placeName>,
+                        <date when="1868-11-19">19. XI. 1868</date>
+                     <lb/>der Präsident</ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab type="archiving reference" place="verso">
+                     <lb/>1565, <unclear>Abend</unclear> vor Ostern; N. 23</ab>
+               </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div n="1" org="uniform" sample="complete">
+            <p>Ein <orig>gaͤrbhus</orig> am Bach wird bereits im Grabser Urbar von <date when="1463"
+                  >1463</date> erwähnt (<bibl><ref
+                     target="
+                http://permalink.snl.ch/bib/chbsg000142776">Vetsch,
+                     Urbar</ref>, S. 24</bibl>). <date when="1531">1531</date> heisst es, dass Glarus
+               ein Gut bei der <placeName ref="loc007995.01">Gerberei Werdenberg</placeName> auf dem
+                  <term ref="key000520">Wuhr</term> unter dem <term ref="key000108">Weiher</term> an
+               den Gerber <persName ref="per008933a">Lorenz</persName> von <placeName
+                  ref="loc006035">Buchs</placeName> verkauft unter der Bedingung, das Gut
+               einzuzäunen und den Bachlauf unter der Gerberei nicht zu verändern (Original:
+                     <bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/73fca71bf2e444edb064e5ea7457bf4e"
+                     >LAGL AG III.2405:002</ref></bibl>). Als <date when="1565">1565</date> der
+               Besitzer der Gerberei, <persName ref="per008932a">Bartholomäus Schmid</persName>, auf
+               dem Wuhr neben dem <term ref="key000108">Weiher</term> am <term ref="key000259"
+                  >Bach</term> zu seiner Gerberei eine <term ref="key000164">Stampfe</term> zur
+               Verarbeitung von Rinden errichten will (Lohstampfe bzw. Mühle, wo Baumrinde zu
+               Gerberlohe bzw. Gerbmittel zerstampft wird), fürchtet <persName ref="per008822a">Hans
+                  Forrer</persName> als Besitzer der Mühle bei der Stadt um das für ihn notwendige
+               Wasser, für das er ein Vorrecht besitzt.</p>
+         </div>
+         <div n="2" org="uniform" sample="complete">
+            <p><date when="1685">1685</date> sowie <date when="1740">1740</date> kommt es nochmals
+               zu Streitigkeiten um das Wasser des Weihers zwischen den Besitzern der <placeName
+                  ref="loc007870.01">Mühle Werdenberg</placeName> und der <placeName
+                  ref="loc007995.01">Gerberei Werdenberg</placeName> (<bibl><ref>OGA Grabs
+                     U3-1685</ref>; <ref>U5-1740</ref></bibl>). </p>
+            <p>Zu den Abgaben aus der Gerberei auf dem Wuhr
+    vgl. <bibl><ref target="https://archivverzeichnis.gl.ch/home/#/content/8ef942f13495417686bdbc0458cd0f4a">LAGL AG III.2401:044, S. 351</ref></bibl>.</p>
+         </div>
+         <div n="3" org="uniform" sample="complete">
+            <p>Zur <term ref="key000047">Mühle</term> unterhalb der Stadt <placeName ref="loc000016"
+                  >Werdenberg</placeName> an der <term ref="key000081">Ringmauer</term> vgl.
+                  <ref>SSRQ_SG_III_4_143</ref>, Art. 19.1; <ref>SSRQ_SG_III_4_229</ref>, S. 113;
+                     <bibl><ref>OGA Grabs U2-1604</ref></bibl>; <bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/2672e97e3f334ede87a05773b3a6037a"
+                     >LAGL AG III.2424:011</ref></bibl>; <bibl><ref>StASG AA 3 B 2</ref>, S.
+                  319–322, 329–330</bibl> sowie das Teildossier <bibl><ref>StASG AA 3 A
+                  8-2</ref></bibl>. </p>
+         </div>
+      </back>
+   </text>
+</TEI>

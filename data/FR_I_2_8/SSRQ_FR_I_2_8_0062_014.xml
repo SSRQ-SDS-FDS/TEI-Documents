@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+
+			</titleStmt>
+
+			<publicationStmt>
+				<date type="electronic" when="2019-05-29"/>
+				<date type="print"/>
+			</publicationStmt>
+
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ_FR_I_2_8_0062_014</idno>
+			</seriesStmt>
+
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<idno>StAFR, Thurnrodel 11, S. 323–324</idno>
+					</msIdentifier>
+					<head>Jean Monneron – Verhör / Interrogatoire</head>
+					<msContents>
+						<summary></summary> 
+						<msItem>
+							<textLang>fr, de</textLang> 
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support>
+									<material></material>
+								</support>
+								<extent>
+									<dimensions type="leaves">
+										<height unit="cm" quantity="0.0"/>
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+									<dimensions type="plica">
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+								</extent>
+							</supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1623-07-09"></origDate>
+							<origPlace></origPlace>
+						</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+							
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		
+		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+			<particDesc default="false"/>
+			<settingDesc default="false"/>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="323"/><p><lb/><foreign xml:lang="la">Ibidem</foreign><note>Das Verhör fand im <placeName ref="loc007683">Bösen Turm</placeName> statt.</note>
+							<seg><lb/><origDate when="1623-07-09">9 <foreign xml:lang="la">julii</foreign></origDate> 1623, <foreign xml:lang="la">judice</foreign> <persName ref="per006840">Fleischman</persName><note>Gemeint ist ein Stadtweibel.</note></seg>
+							<seg><lb/><choice><abbr>J</abbr><expan>Junker</expan></choice> <persName ref="per006751">Erhard</persName>,  <abbr>h</abbr> <persName ref="per009261">Techterman</persName></seg>
+							<seg><lb/><abbr>H</abbr> <persName ref="per009251">Känel</persName>, <persName ref="per009253">Boccard</persName></seg>
+						<seg><lb/>Weibel</seg></p>
+						
+						<p><lb/><persName ref="per009500">Jehan Monneron</persName> ward widerumb uff dem 
+						<lb/><term ref="lem015177">tisch</term> torturiert und alles bestätiget, wie hernach 
+						<lb/>volget.</p>
+						
+						<p><lb/>Premierement a dit et confessé, qu’il a l’envyron 
+						<lb/><date dur="P35Y">35 ans</date>, ainsi qu’il se malmenoit pour un proces 
+						<lb/>qu’il avoit, <persName>Satan</persName> s’estre <subst><del>p</del><add place="inline">apparu</add></subst> a luy, de nuit, 
+							<lb/>au lieu dit <placeName ref="loc009194">Combavauldra</placeName>s dessus la <placeName ref="loc008018.02">Grange de Voisin</placeName>, 
+						<lb/>s’appellant <persName>Daniel</persName>, en forme noire avec des pieds 
+						<lb/>ronds, lequel luy dit qu’il se donnat a luy, 
+						<lb/>ce que toutefois il n’a vollu faire. Mais 
+						<lb/>se trouvant dans <date dur="P8D">huit jours</date> en la predite 
+						<lb/>place, luy est derechef comparu, et le sollicitant, 
+						<lb/>renya Dieu son Createur et, le baisant a la 
+						<lb/>main, se donnat a luy.</p>
+						
+						<p><lb/>Allors ledit <term ref="lem015433.06">malin</term> l’a <term ref="lem018895.02">marqué</term> dernier, entre 
+						<lb/>les deux espaules, et luy a donné 
+						<lb/>du <term ref="lem014886.02">pusset</term> dans une boite, commandant de faire 
+						<lb/>mourir des gens et bestes.</p>
+						
+						<p><lb/>Avec le prenommé <term ref="lem014886.02">pusset</term>, il a fait mourir 
+							<lb/>un <term ref="lem018314">chien</term> et son propre bestal, assavoir 
+						<lb/>une jument, un cheval et un <term ref="lem015014.05">mogeon.</term></p>
+						
+						<p><lb/><add place="bottom"><foreign xml:lang="la">Verte</foreign></add></p>
+						
+					<pb n="324"/><p><lb/>Item a confessé avoir donné mal au <choice><abbr>sngr</abbr><expan>seigneur</expan></choice> <choice><abbr>chtlan</abbr><expan>chatelain</expan></choice> 
+						<lb/><persName>Chaney</persName> d’<placeName ref="loc007693.04">Estavayer</placeName>, et l’avoir derechef gueri 
+						<lb/>avec trois gottes de vin, au chemin entre 
+						<lb/><placeName ref="loc007693.04">Estavayer</placeName> et <placeName ref="loc008019">Font</placeName>.</p>
+						
+						<p><lb/>Plus a confessé avoir donné de la main sur 
+						<lb/>l’espaule a la femme dudit <persName>Chaney</persName>, dont 
+						<lb/>en a fallit mourir.</p>
+						
+						<p><lb/>Item  a confessé avoir esté trois fois a la 
+							<lb/><term ref="lem017043.01">secte</term> le jeudy au soir, au lieu dit <placeName ref="loc009193">La Belle Roche</placeName>, 
+						<lb/>ou il dansoit, et y vist beaucoup de gens, 
+						<lb/>lesquels estoyent la pluspart masquee.</p>
+						
+						<p><lb/>Dit ausi, <persName>Sata<subst><del>y</del><add place="overwritten">n</add></subst></persName> luy avoir donné a <placeName ref="loc008627.02">Molleire</placeName> 
+						<lb/>une buche de <term ref="lem015397.04">pallie</term>, avec laquelle il se 
+							<lb/>transporta a la <term ref="lem017043.01">secte</term>.</p>
+						
+						<p><lb/>Item a confessé, <persName>Satan</persName> l’avoir battu au lieu 
+						<lb/>dit a <placeName>La<unclear>v</unclear>ua</placeName><note>L’identification du lieu est incertaine. Il pourrait s’agir de <placeName ref="loc008628">Bas de Lavau</placeName>.</note>, pource qu’il ne faisoit pas 
+						<lb/>mourir force gens.</p>
+						
+						<p><lb/>Fina<del>ne</del>lement a dit et confessé avoir mis du 
+						<lb/>prenommé <term ref="lem014886.02">pusset</term> dans des verres, nommement 
+						<lb/>a <placeName ref="loc007610">Payerne</placeName>, a <placeName ref="loc008017.03">Chavane</placeName>, a <placeName ref="loc008022.02">Mombourset</placeName> et a <placeName ref="loc008021.02">Chable</placeName>, 
+						<lb/>a celle intention de faire mourir les gens,  
+						<lb/>mais ne sauroit nommer les personnes, 
+						<lb/>ny dire s’il en sont mortes.</p>
+						
+						<p><lb/>Ledit <persName ref="per009500">Monneron</persName> a <term ref="lem015356.09">accolpé</term> une femme de <placeName ref="loc008016.05">Muryt</placeName>, 
+						<lb/>nommé <persName>Lysa</persName>, femme d’un qui s’appelloit <persName>Bavaux</persName>, 
+						<lb/>fillie d’<persName>Estievena</persName> de <placeName ref="loc008021.02">Chable</placeName>.<note>Cet article est cancellé.</note> 
+							
+						<seg><add place="left margin">Hat sie <term ref="lem006220">entschlagen</term>, <lb/><foreign xml:lang="la">ut videbis infra</foreign>.</add></seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+
+
+
+<?oxy_options track_changes="on"?>

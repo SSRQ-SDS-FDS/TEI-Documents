@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     n="1234"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="headerinfo"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2020-08-17"/>    <date type="print"/>
+    <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Collection des sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des
+      sources
+      du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS_NE_3_492</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>AVN B 101.14.002, fol. 112v–113r</idno>
+               </msIdentifier>
+               <head>Poursuites d’un débiteur pour paiement d’un titre créé à l’étranger</head>
+               <msContents>
+                  <summary>Quelle loi ou coutume s’applique en matière de poursuites d’un débiteur dans le cas d’un titre créé
+                     à l’étranger&#160;? Le Petit Conseil renvoie la question aux tribunaux.</summary>
+                  <msItem>
+                     <textLang>français</textLang>
+                     <filiation type="current"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="34.5"/>
+                              <width unit="cm" quantity="22"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1839-01-26"/>
+                     <origPlace ref="loc007786">Neuchâtel</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head/>
+                     <bibl/>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key004980"/>
+               <term ref="key004969"/>
+               <term ref="key003867"/>
+               <term ref="key003040"/>
+               <term ref="key004994"/>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="112v" facs="AVN_B_101.14.002_0112v"/>
+               <div>
+                  <head>
+                     <lb/>Déclaration <lb/>touchant les poursuites au payement d’un <lb/>titre créé à l’étranger. <lb/><hi
+                        rend="underline">Du <origDate when="1839-01-26"
+                        >26. janvier 1839</origDate>.</hi>
+                  </head>
+               </div>
+               <div>
+                  <p>
+                     <lb/>L’an <origDate when="1839-01-26"
+                        >mil huit cent trente neuf, le vingt six <lb/>janvier</origDate>, le <orgName
+                        ref="org003085">Petit Conseil de la Ville de <placeName ref="loc007786.07"
+                           >Neuchâtel</placeName></orgName> en <placeName ref="loc001012.09"
+                        >Suisse</placeName> étant <lb/>assemblé à l’<origPlace ref="loc007793"
+                        >hôtel de la dite Ville</origPlace> sous le présidence de monsieur <lb/><persName
+                        ref="per008619">Louis Charles Maximilien de Meuron</persName>, maitre bourgeois en <lb/>chef, lecture a été faite d’une requête de <choice>
+                        <abbr>Mons<hi rend="sup">r</hi>
+                        </abbr>
+                        <expan>monsieur</expan>
+                     </choice>
+                     <persName ref="per008620">Isac Vuagneux</persName>
+                     <lb/><term ref="lem014771">notaire</term> et ancien greffier du <placeName
+                        ref="loc007795">Locle</placeName>, actuellement domicilié à <lb/><placeName
+                        ref="loc007786"
+                     >Neuchâtel</placeName>, par la quelle il sollicite une déclaration de la coutume <lb/>de cet État sur la question de savoir «&#160;Si en matière de poursuites <lb/>le débiteur d’un titre créé à l’étranger est justiciable d’après les <lb/>loix de cet État, où il est domicilié, et non point d’après les <lb/>loix du pays où le titre a été créé.&#160;» </p>
+                  <p>
+                     <lb/>Sur quoi <orgName ref="org003085"
+                     >messieurs du Petit Conseil</orgName> après mûr examen et <lb/>délibération, ont conformément à la coutume usitée de toute <lb/>ancienneté &amp; de père en fils en cette Principauté, dit et déclaré. </p>
+                  <p>
+                     <lb/>Qu’à teneur de la déclaration de coutume donnée le <date when="1714-02-16"
+                        >seize février <lb/>mil sept cent quatorze</date><note>Voir <ref>SDS_NE_3_376</ref>.</note>, la poursuite doit se faire conformément <lb/>à la loi et coutume du lieu du domicile du débiteur, trandis que <lb/>pour ce qui concerne la validité du titre, on doit juger conformé<lb
+                        break="no"
+                        />ment à la loi et coutume du pays où le titre a été créé&#160;; <lb/>mais que la question de savoir si c’est d’après la loi et coutume <lb/>de la Principauté, ou d’après celle du pays où le titre a été <lb/>créé que doivent être jugées les exceptions de prescription <lb/>ou autres qui pourroient être alléguées par un débiteur <lb/>domicilié dans cette Principauté contre les effets d’un titre <lb/>par lui souscrit à l’étranger&#160;; comme la loi et coutume <lb/>de cette Principauté n’est pas suffisamment établie à cet <lb/>égard&#160;; cette question demeure question de droit commun <lb/>sur la quelle le <orgName
+                        ref="org003085"
+                     >Petit Conseil</orgName> ne peut donner de déclaration <lb/>et qu’il laisse en conséquence au jugement des tribunaux. </p>
+                  <p>
+                     <seg><lb/>Laquelle déclaration étant ainsi rendue, il a été ordonné <lb/><add
+                        place="below" type="catchword">au</add><pb n="113r"
+                        facs="AVN_B_101.14.002_0113r"/>
+                     <lb/>au secrétaire du Conseil de l’expédier sous le sceau de la mairie <lb/>et justice de cette Ville a l’<origPlace
+                        ref="loc007793"
+                        >hôtel de ville de Neuchâtel</origPlace> les an <lb/>et jour que devant <origDate
+                        when="1839-01-26"
+                           >vingt six janvier mil huit cent trente <lb/>neuf 1839</origDate>.</seg> <seg>Par ordonnance <lb/>Le secrétaire du Conseil</seg></p>
+               </div>
+               <div>
+                  <lb/>
+                  <signed>
+                     <persName ref="per008613"><choice>
+                           <abbr>P&#160;: L&#160;:</abbr>
+                           <expan>Pierre-Louis</expan>
+                        </choice> Jacottet</persName>
+                     <figure type="notarial sign"/></signed>
+               </div>
+            </body>
+         </text>
+      </group>
+   </text>
+</TEI>

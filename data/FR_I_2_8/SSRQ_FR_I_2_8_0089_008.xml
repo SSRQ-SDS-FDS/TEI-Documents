@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+
+
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+
+			</titleStmt>
+
+			<publicationStmt>
+				<date type="electronic" when="2019-10-14"/>
+				<date type="print"/>
+			</publicationStmt>
+
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ_FR_I_2_8_0089_008</idno>
+			</seriesStmt>
+
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<idno>StAFR, Thurnrodel 13, S. 127–129</idno>
+					</msIdentifier>
+					<head>Jeanne Cuassot – Verhör / Interrogatoire</head>
+					<msContents>
+						<summary></summary> 
+						<msItem>
+							<textLang>fr, de</textLang> 
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support>
+									<material></material>
+								</support>
+								<extent>
+									<dimensions type="leaves">
+										<height unit="cm" quantity="0.0"/>
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+									<dimensions type="plica">
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+								</extent>
+							</supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate when="1635-09-10"/>
+							<origPlace></origPlace>
+						</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc> 
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+			<particDesc default="false"/>
+			<settingDesc default="false"/>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="127"/><p><lb/>Im <placeName ref="loc007683.02">bösen thurn</placeName><note>Le procès-verbal de cette séance commence par une mention hors teneur, placée dans la marge de gauche&#160;: «&#160;<num value="8">viii</num> rechnung&#160;».</note>
+							<seg><lb/><origDate when="1635-09-10">10 <foreign xml:lang="la"><choice><abbr>septemb</abbr><expan>septembris</expan></choice></foreign> 1635</origDate>, <foreign xml:lang="la"><choice><abbr>jud</abbr> <expan>judex</expan></choice></foreign> <abbr>h</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per011517">Peter Krummenstoll</persName>.</note></seg>
+							<seg><lb/><abbr>H</abbr> <persName ref="per009172a.01">Gaßer</persName></seg>
+							<seg><lb/><persName ref="per011546">Montenach</persName><!-- Niklaus von Montenach -->, <persName ref="per011519">Techterman</persName>, <persName ref="per011521a.01">Heylman</persName></seg>
+							<seg><lb/><persName ref="per011540a.02">Gartner</persName>, <persName ref="per011520a.02">Strow</persName></seg>
+							<seg><lb/><choice><abbr>W</abbr><expan>Weibel</expan></choice></seg></p>
+							
+						<p><seg><lb/><persName ref="per009771a">Jeanne Cuassot</persName> de <placeName ref="loc007931.02">Cugie</placeName> enquise pourquoy 
+							<lb/>elle tenoit prison, a respondu pour avoir esté 
+							<lb/>accusee de <term ref="lem018521">sorcellerie</term>. Interroguee si elle n’avoit 
+							<lb/>esté en la <term ref="lem017043.01">secte</term> au <placeName>Chaney du Bret</placeName><note>L’identification du lieu est incertaine. Il pourrait s’agir de <placeName ref="loc009852">En Chaney</placeName>.</note>, a dict ne 
+							<lb/>le pouvoir sçavoir. Pressee de dire la verité, 
+							<lb/>a dict qu’elle a esté plusieurs foys audit <placeName>Chaney</placeName><note>L’identification du lieu est incertaine. Il pourrait s’agir de <placeName ref="loc009852">En Chaney</placeName>.</note>, 
+							<lb/>mais pas pour mal faire, ains pour aller a <placeName ref="loc007693.10">Sta<lb break="no"/>vayer</placeName>. Enquise si son maistre nommé <persName>Raugeau</persName> ne 
+							<lb/>s’estoit apparu a elle en forme d’un <term ref="lem018314">chien</term> habillé 
+							<lb/>de <term ref="lem015746.02">tané</term>, a dict l’avoir confessé a <placeName ref="loc007931.02">Cugie</placeName>, mais 
+							<lb/>qu’elle s’avoit fait tort, qu’elle est variable.</seg> 
+							<seg><lb/>Elle confesse avoir esté une grande paillarde <add place="left margin" type="sign">et la plus <lb/>grande menteresse <lb/>sur la terre</add> 
+								<lb/>et pecheresse, et s’avoir prins un breuvage com<lb break="no"/>posé de <term ref="lem015747.02">rute</term> pour <term ref="lem018230">avorter</term>, mais qu’il n’opera, 
+							<lb/>estant l’enfant encor en vie, qu’elle mesme 
+						<pb n="128"/><lb/>feit le breuvage, ayant entendu d’autres qu’il faisoit
+								<lb/><term ref="lem018230">avorter</term>. Interroguee si elle n’estoit <term ref="lem018895.04">marquee</term>, a respon<lb break="no"/>du ne ne sçavoir d’avoir autre marque que du sainct babtesme. 
+							<lb/>Crie mercy.</seg></p>
+						
+						<p><lb/>Im <placeName ref="loc007683.02">bösen thurn</placeName>, <foreign xml:lang="la">eodem</foreign>.
+							
+							<seg><lb/><foreign xml:lang="la"><choice><abbr>Jud</abbr> <expan>Judex</expan></choice></foreign> <abbr>h</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per011517">Peter Krummenstoll</persName>.</note></seg>
+							<seg><lb/><abbr>H</abbr> <persName ref="per009172a.01">Gaßer</persName>, <abbr>h</abbr> <persName ref="per006714a.02">Fryo</persName></seg>
+							<seg><lb/><persName ref="per011519">Techterman</persName>, <persName ref="per011521a.01">Heylman</persName></seg>
+							<seg><lb/><persName ref="per011540a.02">Gartner</persName>, <persName ref="per011523a.01">Wildt</persName></seg>
+							<seg><lb/><choice><abbr>W</abbr><expan>Weibel</expan></choice></seg></p>
+						
+						<p><seg><lb/><persName ref="per009771a">Jeanne</persName> susdite nie entierement tous les articles 
+							<lb/>contenus au procez de <placeName ref="loc007931.02">Cugie</placeName>, qui concernent la sorcelle<lb break="no"/>rie, <add place="above">dict</add> qu’en les confessant, elle s’a faict tort, qu’elle a 
+							<lb/>excogité, que <persName ref="per011219">Sathan</persName> avoit nom <persName>Raugeau</persName>, comme aussy les 
+							<lb/>autres circonstances. Interrogee si elle n’avoit esté 
+							<lb/>en la <term ref="lem017043.01">secte</term> avec sa mere et ehu la compagnie de <persName ref="per011219">Sathan</persName>, 
+							<lb/>a respondu ne le sçavoir.</seg> <seg>Elle confesse avoir esté 
+							<lb/>grandement avaritieuse et paillarde&#160;; qu’elle a ehu accoin<lb break="no"/>tance charnelle de <persName>Jean Borbin</persName> et <persName>Carcasson</persName>&#160;; qu’elle 
+							<lb/>a emblé a <placeName ref="loc007647">Romont</placeName> un <term ref="lem016127.02">blanchet</term> et <term ref="lem016126">rosette</term> d’estain&#160;; a 
+							<lb/><placeName ref="loc007598.05">Ottigny</placeName>, a sa tante, une couverte&#160;; sur un champ des 
+							<lb/><term ref="lem015652.02">javelles</term> de bled&#160;; sur un autre champs proche du sien 
+								<lb/>des brassee de bled&#160;; a <persName>Beneiste Bergier</persName> un chan<lb break="no"/>dellier de letton et une corde de <term>guestalle</term><!-- PS: REF? --> avec 
+	 	  <!-- PS: REF? --><lb/>la <term>guestalle</term>&#160;; a <placeName ref="loc008304.02">Frasse</placeName> un pot de mestal et un 
+   							<lb/>plat d’estain&#160;; a son frere <persName>Pierre</persName> un <term>chaliet</term><note>Le sens de ce mot demeure incertain. Il pourrait désigner un <term ref="lem017939">chaillet</term>.</note>, mais 
+							<lb/>qu’elle l’en a recompensé&#160;; qu’elle a attendu <persName>Françoys 
+							<lb/>Cuard</persName> armee de pierres&#160;; qu’en sa jeusnesse, <subst><del>elle</del> 
+						<pb n="129"/><lb/><add place="inline">baignant avec une autre fille, elle</add></subst> souffla (<foreign xml:lang="la">honor sit 
+							<lb/>honestis auribus</foreign>) a ladite fille aux parties honteuses&#160;; 
+							<lb/>qu’elle a prins le breuvage pour faire <term ref="lem018230">avorter</term>, estant 
+							<lb/>marriee, luy estant advis qu’elle avoit assez d’en<lb break="no"/>fantz.</seg> <seg>Estant appliquee a la torture de la 
+							<lb/><term ref="lem018276">table</term>, n’a voullu confesser autre chose <add place="left margin" type="sign"><term ref="lem015653.02">aheurtant</term> <lb/>s’avoir faict <lb/>tort a <placeName ref="loc007931.02">Cugie</placeName></add>. Crie mercy.</seg></p>
+						
+					</div>
+				</body>
+				
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+
+<?oxy_options track_changes="on"?>

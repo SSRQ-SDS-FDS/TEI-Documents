@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+
+			</titleStmt>
+
+			<publicationStmt>
+				<date type="electronic" when="2019-05-29"/>
+				<date type="print"/>
+			</publicationStmt>
+
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ_FR_I_2_8_0056_019</idno>
+			</seriesStmt>
+
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<idno>StAFR, Thurnrodel 11, S. 272–274</idno>
+					</msIdentifier>
+					<head>Pierre Bosson, Antoine Feudy – Verhör / Interrogatoire</head>
+					<msContents>
+						<summary></summary> 
+						<msItem>
+							<textLang>fr</textLang> 
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support>
+									<material></material>
+								</support>
+								<extent>
+									<dimensions type="leaves">
+										<height unit="cm" quantity="0.0"/>
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+									<dimensions type="plica">
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+								</extent>
+							</supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1623-03-21"></origDate>
+							<origPlace></origPlace>
+						</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+							
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+			<particDesc default="false"/>
+			<settingDesc default="false"/>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="272"/><p><lb/>Im <placeName ref="loc007683.02">bösen turn</placeName>
+							<seg><lb/><origDate when="1623-03-21">21 <foreign xml:lang="la">martii</foreign> <hi rend="underline">1623</hi></origDate>, <foreign xml:lang="la"><choice><abbr>j</abbr><expan>judex</expan></choice></foreign> <abbr>h</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per009249">Daniel von Montenach</persName>.</note></seg>
+						<seg><lb/><abbr>H</abbr> <persName ref="per006751">Erhart</persName>, <abbr>h</abbr> <persName ref="per009449">Vögeli</persName></seg>
+						<seg><lb/><persName ref="per009451a.01"><choice><abbr>C</abbr> <expan>Christoph</expan></choice> von Ligertz</persName></seg> 
+							<seg><lb/><persName ref="per009460">Gottrow</persName>, <persName ref="per009253">Bocard</persName></seg>
+						<seg><lb/><choice><abbr>W</abbr> <expan>Weibel</expan></choice></seg></p>
+						
+						<p><seg><lb/><add place="left margin"><foreign xml:lang="la">Nihil solvit</foreign>.</add></seg> 
+							<seg>Le susnommé <persName ref="per009569">Pierre Bosson</persName> estant en la 
+						<lb/><term ref="lem015441.02">gehenne</term> a nyé d’avoir desrobé ledit argent 
+								<lb/>a son <subst><del>fr</del><add place="overwritten">p</add></subst>ere, racontant plusieurs for<lb break="no"/>faits de <term ref="lem018521">sorcellerie</term>, notamment qu’il 
+								<lb/>a esté en la <term ref="lem017043.01">secte</term> en plusieurs lieux, 
+						<lb/>et fait mourrir beaucoup de bestes. A 
+						<lb/>quoy messieurs du droit, extravagant 
+						<lb/>en ses paroles, ne y se peuvent bonne<lb break="no"/>ment arrester, tanto le soustenant, 
+						<lb/>tanto aprés le nyant.</seg></p>
+						
+						<p><lb/>Mais il a dit que veritablement a desro<lb break="no"/>bé en plusieurs lieux de la viande 
+						<pb n="273"/><lb/>avec ses compagnons cy devant nommés.</p>
+						
+						<p><lb/>Item a <placeName ref="loc008320.04">Agrewyl</placeName> avoir prins hors du pot de la 
+						<lb/>chair.</p>
+						
+						<p><lb/>A <placeName ref="loc008041.03">S<hi rend="sup">t</hi> Urs</placeName> une chemise.</p> 
+							
+						<p><lb/>A <persName>Hans Schodili</persName> des <term ref="lem015400.03">chauses</term>, qu’il a porté.</p>
+						
+						<p><lb/>A <space quantity="3" unit="cm"/> de la <term ref="lem015227.02">ferementa</term>, laquelle il ay vendu 
+							<lb/>a l’<placeName>Oye</placeName><note>L’identification du lieu est incertaine. Il pourrait s’agir de <placeName ref="loc006003">Château-d’Oex</placeName> ou simplement d’un lieu-dit, voire d’une auberge, dans la région de <placeName ref="loc007630.02">Tavel</placeName>, ce qui correspondrait davantage aux autres lieux mentionnés dans le procès.</note> pour <measure type="currency" unit="bz" quantity="12">12 bz</measure>.</p>
+						
+						<p><lb/>Y a <date dur="P5Y">cinq</date> ou <date dur="P6Y">6 ans</date>, estant encoures bien jeus<lb break="no"/>ne, que luy et un aultre enfant, filz du 
+						<lb/>curial d’<placeName ref="loc008074">Oron</placeName>, <term ref="lem017011.02">pollatarent</term> une <term ref="lem014874.07">genile</term>, mais 
+						<lb/>ils estoent encoures incapables, singuliere<lb break="no"/>ment ledit enfant.</p>
+						
+						<p><lb/>Mais du dempuis y <sic>au</sic> an qu’il s’est oublié 
+						<lb/>avec un veaux noir a <placeName ref="loc008041.03">S<hi rend="sup">t</hi> Urs</placeName> par 3 fois&#160;; <add place="interlinear">est mort.</add></p>
+						
+						<p><lb/>Item en mesme temps s’est aussy oublié avec 
+						<lb/>une <term ref="lem015324.02">bagnetta</term> <add place="above">rouge</add>, appartenante au <term ref="lem015025.02">monnier</term> 
+						<lb/>de <placeName ref="loc008045.02">Taspurg</placeName>.</p>
+						
+						<p><lb/>Aupres <placeName ref="loc007862.04">La Tour de Tresme</placeName> a commis aussy 
+						<lb/>tel acte avec une <term ref="lem015442.02">pollie</term>, appartenante <subst><del>au</del> 
+						<lb/><add place="inline">an</add></subst> un certain qu’habite en une mayson 
+						<lb/>neufve dela le bourg, <subst><del><unclear>se</unclear></del><add place="inline">le</add></subst> nom du<lb break="no"/>quel il ignore.</p>
+						
+						<p><lb/>A dit finablement <del>a dit</del> de s’avoir oublié cinq 
+						<lb/>fois avec des chievres a <placeName ref="loc008074">Oron</placeName>. Aultre n’a 
+						<lb/>on bonnement peu tirer de luy.</p>
+						
+						<pb n="274"/><p><lb/><persName ref="per009533">Anteyno Feudi <choice><abbr>als</abbr> <expan>alias</expan></choice> Rymbo</persName> a <subst><del>ny</del> <add place="inline">nyé</add></subst> et 
+							<lb/>s’est detiré de tous actes de <term ref="lem018521">sorcellerie</term>, 
+						<lb/>mesme <term ref="lem015363.07">desacculpé</term> tous ses compagnons 
+						<lb/>en tel cas, soustenant pourtant les la<lb break="no"/>reçains et actes sodomitiques cy devant 
+						<lb/>confessez. Ne sachant que personne se 
+						<lb/>soit oublié en tel acte.</p>
+						
+						<p><lb/>Joignant d’avoir desrobé a <placeName>Grenchen</placeName><note>Gemeint ist entweder <placeName ref="loc008315">Grenchen</placeName> bei Bösingen oder <placeName ref="loc008316">Grenchen</placeName> bei St. Antoni.</note> une 
+						<lb/>coppe de bled, laquelle luy et ses com<lb break="no"/>pagnons firent vendre a un certain de 
+						<lb/><placeName ref="loc007859.02">Bellegarde</placeName> pour <measure type="currency" unit="lb" quantity="4">4 </measure>.</p>
+						
+						<p><lb/>A <placeName ref="loc008075">Staffels</placeName> a emblé dimie un teston.</p>
+						
+						<p><lb/>A <placeName ref="loc007851.05">Chastel S<hi rend="sup">t</hi> Denis</placeName> deux chemises, lesquelles 
+						<lb/>il a vendu pour <measure type="currency" unit="bz" quantity="10">10 bz</measure>. Aultre n’a confessé.</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+
+
+
+<?oxy_options track_changes="on"?>

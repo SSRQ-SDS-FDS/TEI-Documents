@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+    xml:lang="fr" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"> 
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                    <title>XIXe partie&#160;: Les sources du droit du canton de Vaud, D. Répression de la sorcellerie en Pays de Vaud (XVe–XVIIe siècles), Tome 1&#160;: XVe siècle</title>
+                <respStmt>
+                    <persName>Pau Castell Granados</persName> 
+                    <persName>Gwendolin Ortega</persName>
+                    <persName>Martine Ostorero</persName>
+                    <resp key="transcript"/>
+                </respStmt>
+                    <respStmt>
+                        <persName>Martine Ostorero</persName>
+                        <resp key="qualitycheck"/>
+                    </respStmt>
+                    <respStmt>
+                        <persName>Gwendolin Ortega</persName>
+                        <resp key="tagging"/>
+                    </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date type="electronic" when="2020"/>
+                <date type="print" when="1999"/>
+            </publicationStmt>         
+            <seriesStmt xml:id="ssrq-sds-fds">
+                <title>Collection des sources du droit suisse</title>
+                <respStmt>
+                    <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+                    <resp/>
+                </respStmt>
+                <idno>SDS_VD_D_1_0010</idno>
+            </seriesStmt>      
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <idno>ACV, Ac 29, p.&#160;72–87</idno>
+                    </msIdentifier>
+                    <head>Procès de sorcellerie intenté contre Jeannette Anyo, de La Roche</head>
+                    <msContents>
+                        <summary>
+                            <p>Jeannette Anyo, de La Roche, comparait le 23 octobre 1461 devant le vicaire épiscopal Pierre Creschom, dans la salle du chapitre de la cathédrale de Lausanne, où elle reconnait avoir fréquenté des hérétiques. Le lendemain, l’accusée comparait à nouveau devant le vicaire épiscopal Pierre Creschon et le vice–inquisiteur [Victor Massenet] au château épiscopal d’Ouchy et, après la première monition, elle avoue et dénonce 27 personnes (19 hommes et 7 femmes). L’instruction reprend le 30 octobre avec la deuxième monition et la continuation des aveux, jusqu’à ce que le procureur de la foi Pierre Pascua demande une sentence interlocutoire pour qu’elle soit soumise à la question. Le 2 novembre, suite à la troisième monition, la sentence interlocutoire est rendue par la cour et exécutée immédiatement. L’inculpée complète ses aveux et augmente aussi le nombre de complices jusqu’à 43 personnes (32 hommes et 11 femmes). Les actes s’arrêtent ici, mais une note sur la couverture du procès confirme que Jeannette Anyo a été brûlée, peut–être le 27 novembre, date qui figure aussi sur la couverture frontale du cahier.</p> 
+                        </summary> 
+                        <msItem>
+                            <textLang>la</textLang>
+                            <filiation type="current"></filiation>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material>Papier</material>
+                                </support>
+                                <extent>
+                                    <dimensions type="leaves"> 
+                                        <height unit="cm" quantity="0.0"/>
+                                        <width unit="cm" quantity="0.0"/>
+                                    </dimensions>
+                                    <dimensions type="plica">
+                                        <width unit="cm" quantity="0.0"/>
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate from="1461-10-23" to="1461-11-02"/>
+                            <origPlace></origPlace>
+                        </origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <head>Edition</head>
+                            <bibl><ref target="http://permalink.snl.ch/bib/chbsg000011207">Modestin 1999</ref>, p.&#160;252–275</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Littérature</head>
+                            <bibl><ref target="http://permalink.snl.ch/bib/chbsg991001201449503977">Reymond 1909</ref>, p.&#160;86–87</bibl>
+                            <bibl><ref>Kieckhefer 1976</ref>, p.&#160;134</bibl>
+                            <bibl><ref target="http://permalink.snl.ch/bib/chbsg000011207">Modestin 1999</ref>, p.&#160;44–47, 94–98, 136–140, 163, 181</bibl>
+                            <bibl><ref target="http://permalink.snl.ch/bib/chbsg000048336">Ostorero et al. 2007</ref><!--, p.&#160;10, 21, 23, 26, 28, 30, 130, 243, 247, 248, 363–364, 386–387, 395, 398, 405--></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+                    <term/> 
+                </keywords>
+            </textClass>
+            <particDesc default="false"/>
+            <settingDesc default="false"/>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <group>
+            <text>
+                <body>
+                    <div>
+                        <pb n="120" facs="ACV_AC-29_119_120"/>
+                        <div><ab type="archiving reference" hand="hand20c" place="left margin" medium="pencil"><date when="1461">1461</date></ab></div>
+                         <p><seg><delSpan spanTo="#del1" rend="strikethrough"/>Sequitur processus <persName ref="per011218a.01">Johannete</persName>
+                                      <lb/>uxoris <persName ref="per012400a.01">Petri Anyo</persName> de <foreign xml:lang="fr"><placeName ref="loc007660.11">Laz Rochiz</placeName></foreign><note>La seigneurie de <placeName ref="loc007660.01">La Roche</placeName> a été acquise par les évêques de <orgName ref="org001749.05">Lausanne</orgName> en <date when="1349">1349</date> (<bibl><ref target="http://permalink.snl.ch/bib/chbsg000144836">DHBS</ref> V, p.&#160;518</bibl>).</note> 
+                                      <lb/>in facto fidei, incohat<subst><del>i</del><add place="overwritten">us</add></subst> 
+                                      <lb/><origDate when="1461-10-23">die XXIII<hi rend="sup">a</hi> mensis octobris anno 
+                                      <lb/>Domini M<hi rend="sup">o</hi> IIII<hi rend="sup">c</hi> sexagesimo primo</origDate>.<anchor xml:id="del1"/>
+                        </seg></p>
+                         <p><seg>Sequitur processus <persName ref="per011218a.01">Johannete</persName> uxoris <persName ref="per012400a.01">Petri Anyo</persName>
+                                      <lb/>de <foreign xml:lang="fr"><placeName ref="loc007660.11">Laz Rochiz</placeName></foreign> in facto fidei, inchoatus <origDate when="1461-10-27">die XXIII<hi rend="sup">a</hi> 
+                                      <lb/>mensis octobris, anno Domini M<hi rend="sup">o</hi> IIII<hi rend="sup">c</hi> LX I<hi rend="sup">o</hi></origDate>.
+                      </seg></p>
+                         <p><seg>Sequitur processus</seg></p>    
+                         <p><seg><delSpan spanTo="#del2" rend="strikethrough"/>Sequitur processus <persName ref="per011218a.01">Johannete</persName> uxoris <persName ref="per012400a.01">Petri Anyo</persName> de 
+                                      <lb/><foreign xml:lang="fr"><placeName ref="loc007660.11">Laz Rochiz</placeName></foreign> recepti<anchor xml:id="del2"/>
+                     </seg></p>
+                         <p><seg><origDate when="1461-11-27">Anno Domini M<hi rend="sup">o</hi> <choice><sic>III</sic><corr>IIII</corr></choice><hi rend="sup">c</hi> LX primo, die vero <sic>vicessima</sic> 
+                                    <lb/>septima mensis novembris</origDate>.<note>La page 121 porte plusieurs inscriptions, dont un intitulé indiquant comme début de la procédure le <date when="1461-10-23">23 octobre 1461</date>, un intitulé biffé et la date du <date when="1461-10-27">27 octobre 1461</date>. Que s’est-il passé ce jour-là&#160;? La conclusion du procès a-t-elle eu lieu à cette date&#160;? Ou l’exécution de Jeannette Anyo&#160;? Nous l’ignorons, car les actes sont incomplets.</note>
+                      </seg></p>    
+                        <pb n="121" facs="ACV_AC-29_121_122"/><p/>
+                        <pb n="122" facs="ACV_AC-29_121_122"/>
+                        <div><ab type="archiving reference" hand="hand20c" place="left margin" medium="pencil"><date when="1461">1461</date></ab></div>
+                        <head  place="top" >Sequitur processus <persName ref="per011218a.01">Johannete</persName> uxoris <persName ref="per012400a.01">Petri Anyo</persName> 
+                                      <lb/>de <foreign xml:lang="fr"><placeName ref="loc007660.11">Laz Rochiz</placeName></foreign> in facto <term ref="lem017109.01">heresis</term> <abbr>etc</abbr>.</head>
+                        <head type="subtitle" resp="GO">23 octobre 1461</head>
+                        <p><seg><origDate when="1461-10-23">Anno Domini millesimo quatercentesimo sexagesimo I<hi rend="sup">o</hi>,
+                                        <lb/>die vero XXIII<hi rend="sup">a</hi> mensis octobris</origDate> in cappituloe ecclesie
+                                        <lb/>cathedralis <placeName ref="loc009833.02">beate Marie virginis Lausannensis</placeName> coram venerabili et
+                                        <lb/>circonspecto viro domino <persName ref="per012298a.01">Petro Creschom</persName> in utroque
+                                        <lb/>jure licenciato <term ref="lem000013.01">vicario</term>que in hac parte reverendi in
+                                        <lb/><persName ref="per000353a.17">Christo</persName> patris et domini domini <persName ref="per010754a.01">Georgii de Saluciis</persName> misericordia
+                                        <lb/>divina <orgName ref="org001749.04">Lausannensis</orgName> <term ref="lem001847.01">episcopi</term> et <term ref="lem005360.01">comitis</term>, vicarioque eciam
+                                        <lb/>in hac parte reverendi patris fratris <persName ref="per012297a.02">Reymundi de Rota</persName>
+                                        <lb/><orgName ref="org004150.05">ordinis fratrum Predicatorum</orgName><note>Il s’agit des <orgName ref="org004150.01">Dominicains</orgName> établis au couvent de <orgName ref="org004025.01">la Madeleine</orgName> à  <placeName ref="loc007885.01">Lausanne</placeName></note> heretice pravitatis
+                                        <lb/>inquisitoris in civitatibus et <sic>dyocesibus</sic> <placeName ref="loc005781.05">Lausannensi</placeName>, <placeName ref="loc008750.02">Gebennensi</placeName>,
+                                        <lb/><placeName ref="loc008973.04">Sedunensi</placeName> ac alibi auctoritate appostolica specialiter
+                                        <lb/>deputati, in presencia venerabilis et circonspecti viri
+                                        <lb/>domini <persName ref="per012401a.01">Petri Reynaudi</persName> <term ref="lem006983.01">canonici</term> <orgName ref="org004871.02">Lausannensis</orgName>, discreti viri
+                                        <lb/><persName ref="per011623a.01">Petri Crostelli</persName> <term ref="lem009160.01">clerici</term> <placeName ref="loc007885.05">Lausannensis</placeName>, domini <persName ref="per012402a.01">Johannis Vollieti</persName>
+                                        <lb/><term ref="lem009181.01">capellani</term>, <persName ref="per012387a.02">Frencisci Burritaz</persName> et plurium aliorum dominorum
+                                        <lb/>ibidem existentium, personaliter comparens <persName ref="per011218a.01">Johanneta</persName> uxor
+                                        <lb/><persName ref="per012400a.01">Petri Anyo</persName> de <foreign xml:lang="fr"><placeName ref="loc007660.12">La Rochiz</placeName></foreign>, de heretica pravitate
+                                        <lb/>inculpata vehementerque suspecta et <term ref="lem018156.01">diffamata</term>,
+                                        <lb/>benigniter et <choice><sic>duliciter</sic><corr>dulciter</corr></choice> fuit monita per dominum vicarium predictum
+                                        <lb/>in presencia predictorum dominorum et primo si sciret
+                                        <lb/>casum propter quem esset detenta. Quequidem
+                                        <lb/><persName ref="per011218a.01">Johanneta</persName> dixit quod erat detenta pro casu
+                                        <lb/>heresis. </seg>
+                            <seg>Quequidem <persName ref="per011218a.01">Johanneta</persName> interrogata et <term ref="lem017107.01">monita</term>
+                                        <lb/>fuit utrum esset <term ref="lem017125">heretica</term>. Quequidem <persName ref="per011218a.01">Johanneta</persName>
+                                        <lb/>dixit et confessa fuit ivisse cum hereticis in
+                                        <lb/>quodam loco dicto <placeName ref="loc010211.02">Ousoutours</placeName>. Quequidem <persName ref="per011218a.01">Johanneta</persName>
+                                        <lb/>inquisita pro tunc <del rend="strikethrough">no</del> nulla alia voluit
+                                        <lb/>confiteri.</seg>
+                            <seg>Quibus premissis auditis, prefatus venerabilis
+                                        <lb/>vir dominus <persName ref="per012298a.01">Petrus Creschom</persName> in utroque licenciatus quo
+                                        <lb/>supra nomine eidem <persName ref="per011218a.01">Johannete</persName> inquisite presentavit
+                                <pb n="123" facs="ACV_AC-29_123_124"/><lb/>misericordiam atque graciam Ecclesie, videlicet quod
+                                        <lb/>si vellet confiteri suum reatum, gracia et misericordia Ecclesie
+                                        <lb/>sibi <choice><sic>impertraretur </sic><corr>impetraretur</corr></choice>. Quequidem <persName ref="per011218a.01">Johanneta</persName> inquisita
+                                        <lb/>nil aliud pro tunc voluit confiteri.</seg>
+                        <seg>Quare, auditis
+                                        <lb/>premissis, prefata <persName ref="per011218a.01">Johanneta</persName> detenta fuit assignata
+                                        <lb/>pro prima <term ref="lem017130.01">monicione</term> ad diem primam futuram
+                            <lb/>qua personaliter prefati domini judices et vicarii<note>Le procès contre <persName ref="per011218a">Jeannette Anyo</persName> est ouvert par <persName ref="per012298a.01">Pierre Creschom</persName> seul, mais il est question par la suite des <orig>&#160;seigneurs vicaires et juges&#160;</orig> au pluriel. La proximité temporelle avec le cas <persName ref="per012368a">Girod</persName> laisse supposer que le procès contre <persName ref="per011218a">Jeannette Anyo</persName> a été mené sous les auspices de <persName ref="per012298a">Pierre Creschom</persName> et du vice-inquisiteur <persName ref="per012535a">Victor Massenet</persName> (<bibl><ref target="http://permalink.snl.ch/bib/chbsg000011207">Modestin 1999</ref>, p.&#160;44</bibl>).</note>
+                                        <lb/>vacare in dicto processu possent ad eandem
+                                        <lb/><persName ref="per011218a.01">Johannetam</persName> inquisitam <choice><sic>benignter</sic><corr>benigniter</corr></choice> audiendum, si aliqua vellet confiteri.
+                        </seg></p>
+                        <head type="subtitle" resp="GO">24 octobre 1461</head>
+                        <p><seg><origDate when="1461-10-24">Anno quo retro, die vero XXIIII<hi rend="sup">ta</hi> predicti mensis</origDate> prefata
+                                        <lb/>detenta, personaliter constituta in <placeName ref="loc009335.04">castro Ochiaci</placeName>
+                                        <lb/>in magna aula ipsius castri coram dominis vicariis
+                                        <lb/>et judicibus in presencia venerabilis viri domini <persName ref="per012403a.01">Gerardi
+                                        <lb/>de Placito</persName> artium magistri, fratre <persName ref="per012404a.01">Johanne Pessonis</persName>
+                                        <lb/>baccalario conventus <placeName ref="loc010625.02">Beate Marie Magdalene Lausannensis</placeName>
+                                        <lb/>et nobili viro <persName ref="per012405a.01">Petro Mayor</persName> <term ref="lem017142.01">castellano</term> predicti castri
+                                        <lb/>et plurium aliorum, fuit eadem <persName ref="per011218a.01">Johanneta</persName> inquisita per
+                                        <lb/>quos supra interrogata an esset aliquid advisata
+                                        <lb/>in facto heresis <unclear>sive</unclear> deponendum et recognoscendum
+                                        <lb/>suum reatum, si aliqua deliquerit et perpetraverit,
+                                        <lb/>presentando eidem <persName ref="per011218a.01">Johannete</persName> inquisite misericordiam atque
+                                        <lb/>graciam Ecclesie, si et quatenus suum reatum
+                                        <lb/>voluerit agnoscere et recognoscere atque confiteri.<note>Une ligne droite sépare ce paragraphe du paragraphe suivant.</note>
+                        </seg></p>
+                        <p><seg>Quequidem <persName ref="per011218a.01">Johanneta</persName> inquisita mediante suo juramento,
+                                        <lb/>tactis Dei euvangeliis, sponte confessa fuit et
+                                        <lb/>dixit, ut sequitur, quod sunt bene <date dur="P30Y"><subst><del rend="strikethrough">viginti</del><add place="left margin" type="sign">XXX</add></subst> anni</date> quod
+                                        <lb/><persName ref="per012568a.01">Perrissona</persName> uxor advunculi mariti sui et ipsa
+                                        <lb/>habebant lites.</seg>
+                            <seg>Quadam <date period="P3WD">die martis</date> vel <date period="P2WD">lune</date>, 
+                                <pb n="124" facs="ACV_AC-29_123_124"/><lb/>exeundo de domo post cenam, prefata detenta
+                                        <lb/>reperit <persName ref="per012406a.01">Jaquetum Paris</persName> et <persName ref="per012413a.01">Jaquetum Bossum</persName> de
+                                        <lb/>eodem loco<note><persName ref="per012406a">Jacquet Paris</persName> possède des terres à <placeName ref="loc008196.01">Gumefens</placeName> et à <placeName ref="loc007678.01">Avry-devant-Pont</placeName>, tandis que la famille Bosson est attestée à <placeName ref="loc007662.01">Marsens</placeName>, <placeName ref="loc007846.01">Riaz</placeName> et <placeName ref="loc007861.01">Bulle</placeName> (<bibl><ref target="http://permalink.snl.ch/bib/chbsg000011207">Modestin 1999</ref>, p.&#160;346–347)</bibl></note>. Qui <persName ref="per012406a.01">Jaquetus Paris</persName> eidem <persName ref="per011218a.01">Johannete</persName>
+                                        <lb/>inquisite dixit&#160;: <q>&#160;Qualiter vadis et qualiter te habes&#160;?&#160;</q>
+                                        <lb/>Quequidem <persName ref="per011218a.01">Johanneta</persName> inquisita respondit sibi&#160;: 
+                                        <lb/><q>&#160;Ego male me habeo quia irascor cum uxore
+                                        <lb/>advunculi mei mariti&#160;</q>.</seg>
+                          <seg>Quiquidem <persName ref="per012406a.01">Jaquetus Paris</persName>
+                                        <lb/>dixit eidem <persName ref="per011218a.01">Johannete</persName> inquisite&#160;: <q>&#160;Si velis venire
+                                        <lb/>nobiscum et nobis credere, nos faciemus bene quod tu
+                                        <lb/>liberaberis&#160;</q>. Quequidem <persName ref="per011218a.01">Johanneta</persName> inquisita dixit
+                                        <lb/>quod non. Tamen cordialiter ivit cum ipsis ad
+                                        <lb/>quendam locum dictum <placeName ref="loc010211.02">Ousoutours</placeName> juxta <placeName ref="loc005708.08">Grueriam</placeName>,
+                                        <lb/>in quodam nemore quercuum domini <orgName ref="org004872.02">Gruerie</orgName><note>Il s’agit de <persName ref="per012581a">François I<hi rend="sup">er</hi></persName>, comte de Gruyère de <date from="1433-01-01" to="1475-12-31">1433 à 1475</date> (<bibl><ref target="http://permalink.snl.ch/bib/chbsg000144836">DHBS </ref>, III, p.&#160;657)</bibl>.</note> inter
+                                           <lb/><placeName ref="loc007862.08">Turrin</placeName><note><placeName ref="loc007862.01">La Tour-de-Trême</placeName> est une bourgade du comté de <placeName ref="loc008594.01">Gruyère</placeName>, à 3&#160;km au sud-est de <placeName ref="loc005708.04">Gruyères</placeName> (<bibl><ref target="http://permalink.snl.ch/bib/chbsg000144836">DHBS VI</ref>, p.&#160;645–646</bibl>). La forêt de <placeName ref="loc010211.01">Sautaux</placeName> se situe entre <placeName ref="loc007862.01">La Tour-de-Trême</placeName> et <placeName ref="loc005708.04">Gruyères</placeName>, à moins d’1&#160;km au sud-est de <placeName ref="loc007862.06">La Tour</placeName>. Les actuels lieux-dits <placeName>Petit Pré-de-Chêne</placeName> et <placeName>Pré-de-Chêne</placeName> réfèrent aux chênes qui sont mentionnés dans la déposition de <persName ref="per010754a.01">Jeannette Anyo</persName>.</note> et <placeName ref="loc005708.08">Grueriam</placeName> supra unum lupum qui ipsam
+                                        <lb/>portavit, et quilibet ipsorum habebat unum.
+<lb/><label type="keyword" place="left margin"><hi rend="underline">Complices</hi> </label> Et ibidem reperit <persName ref="per012414a.01">Roletum Baucitaz</persName> et <persName ref="per012415a.01">Agnelletam</persName>
+                                        <lb/>eius uxorem d’<placeName ref="loc007678.06">Avry</placeName>, <persName ref="per012416a.01">Mermetum Estosses</persName>, <persName ref="per012417a.01">Petrum
+                                        <lb/>dou Teurs</persName> de <placeName ref="loc010213.02">Stavanyens</placeName>, <persName ref="per012418a.01">Johannem Ramel</persName>, <persName ref="per012419a.01">Conetus
+                                        <lb/>Soudans</persName> de eodem <supplied reason="omitted">loco</supplied><note><persName ref="per012419a">Cuanet Soudans</persName> possède des terres à <placeName ref="loc010213.01">Estavannens</placeName> (<bibl><ref target="http://permalink.snl.ch/bib/chbsg000011207">Modestin 1999</ref>, p.&#160;361</bibl>).</note>, <persName ref="per012420a.01">Johannem Godrui</persName>, <persName ref="per012421a.01">Johannetam</persName>
+                                        <lb/>eius uxorem du <placeName ref="loc008196.04">Gumugfin</placeName>, <persName ref="per012422a.01">Reymondum Verset</persName>
+                                        <lb/>de <placeName ref="loc007849.09">Charney</placeName>, <persName ref="per012423a.01">Johannetam</persName> <choice><sic>soror</sic><corr>sororem</corr></choice> <persName ref="per012424a.01">Johannis Publoz</persName>, <persName ref="per012425a.01">Mermetam</persName>
+                                        <lb/>matrem <persName ref="per012426a.01">Vuillelmi Hugue</persName> de <placeName ref="loc010214.02">Ruz</placeName> parrochie de <placeName ref="loc008048.08">Corberes</placeName>,
+                                        <lb/><persName ref="per012427a.01">Johannem de Enyn</persName>, <persName ref="per012428a.01">Cristinam</persName> eius uxorem de
+                                        <lb/><placeName ref="loc007861.10">Buloz</placeName>, <persName ref="per012566a.01">Cristinum Brunet</persName><note><persName ref="per012566a">Cristin Brunet</persName> possède une maison à <placeName ref="loc007861.01">Bulle</placeName> (<bibl><ref target="http://permalink.snl.ch/bib/chbsg000011207">Modestin 1999</ref>, p.&#160;348</bibl>).</note> de eodem <supplied reason="omitted">loco</supplied>, <persName ref="per012429a.01">Johannetam</persName>
+                                        <lb/>matrem <persName ref="per012430a.01">Mermeti Bron</persName> de <placeName ref="loc007947.03">Vuaddem</placeName>, <persName ref="per012567a.01">Jaquetum
+                                        <lb/>de Laz Cremaz</persName> <choice><sic>morans</sic><corr>morantem</corr></choice> apud <placeName ref="loc007662.02">Marsuns</placeName>,
+                                        <lb/><persName ref="per012431a.01">Johannem Morel</persName> de <placeName ref="loc007662.03">Marsin</placeName>, <persName ref="per012570a.01">Petrum Buzon</persName>
+                                        <lb/>de <placeName ref="loc007662.04">Marsun</placeName>, <persName ref="per012571a.01">Stephanum</persName> eius fratrem, <persName ref="per012432a.01">Cristinum
+                                        <lb/>Soubes</persName> de <placeName ref="loc007678.07">Avris</placeName>, <persName ref="per012573a.01">Janoz Vuerrez</persName> de <placeName>Momblei</placeName><note>Peut-être <placeName ref="loc010216.01">Montbelley</placeName>, hameau près de <placeName ref="loc007892.01">Torny-le-Grand</placeName>.</note>,
+                                        <lb/><persName ref="per012391a.02">Nycodum Paradis</persName> de <placeName ref="loc009728.02">Villaret</placeName>, <persName ref="per012392a.02">Miguam</persName> eius
+                                        <lb/>uxorem et <persName ref="per012393a.02">Petrum</persName> eius filium antenatum, et
+                                        <lb/>ibidem reperuerunt unam mensam sine gausape
+                                        <lb/>supra quam illi qui adduxerunt ipsam adportaverunt
+                                        <lb/>carnes assatas <sic>postumi</sic> puerorum, panes, et non 
+                              <pb n="125" facs="ACV_AC-29_125_126"/><lb/>habebant vinum, sed bibebant aquam, et
+                                        <lb/>erant quedam candele facientes ignem <term ref="lem018185.02">persicum</term>.</seg>
+                            <seg>Quequidem
+                                        <lb/><persName ref="per011218a.01">Johanneta</persName> dixit se alia nescire in dicto casu heresis. 
+                                </seg>
+                        </p>
+                        <head type="subtitle" resp="GO">30 octobre 1461</head>
+                        <p><seg><origDate when="1461-10-30" period="P6WD">Die veneris ante festum Omnium Sanctorum, anno
+                                         <lb/>quo supra</origDate> interrogata <persName ref="per011218a.01">Johanneta</persName> detenta
+                                         <lb/>sepeque examinata, videlicet si esset aliquid advisata
+                                         <lb/>et si vellet aliquid confiteri, et hoc per vicarium
+                                         <lb/>reverendi in <persName ref="per000353a.17">Christo</persName> <supplied reason="omitted">patris</supplied> et domini domini <persName ref="per010754a.02"><choice><abbr>G</abbr><expan>Georgii</expan></choice> de Saluciis</persName> misericordia
+                                         <lb/>divina <orgName ref="org001749.04">Lausannenis</orgName> episcopi et comitis et per vicarium
+                                         <lb/>domini inquisitoris, presentibus quibus supra,
+                                         <lb/>et cum istis <persName ref="per012433a.02"><choice><abbr>G</abbr><expan>Girardo</expan></choice> de Alpibus</persName> <term ref="lem017295.01">burgense</term> <orgName ref="org004483.03">Lausannensi</orgName>
+                                         <lb/>et <persName ref="per012434a.01">Hugonino de Mauberto Fonte</persName>, quequidem
+                                         <lb/><persName ref="per011218a.01">Johanneta</persName> detenta respondit quod sic.</seg>
+                          <seg>Et
+                                        <lb/>primo dixit sponteque confessa fuit quod ira<lb break="no"/>scebatur cum uxore advunculi sui mariti intantum,
+                                        <lb/>quod quadam die jovis, ipsa detenta existente
+                                        <lb/>in <term ref="lem018186.02">cumbrino</term> mulierum, venit quidam <persName ref="per012406a.01">Jaquetus 
+                                        <lb/>Paris</persName> qui ipsam vocavit et sibi dixit&#160;: 
+                                        <lb/><q>&#160;Quid habes&#160;? Tu habes aliquid&#160;</q>. Que dixit&#160;: 
+                                        <lb/><q>&#160;Ego irascor cum uxore advunculi mei mariti&#160;</q>.</seg>
+                              <seg><lb/>Qui <persName ref="per012406a.01">Jaquetus Paris</persName> dixit sibi&#160;: <q>&#160;Si tu
+                                        <lb/>velis michi credere, ego docebo te qualiter
+                                        <lb/>tu liberaberis&#160;</q>. Que <persName ref="per011218a.01">Johanneta</persName> detenta dixit
+                                        <lb/>quod sibi crederet.</seg>
+                              <seg>Et tunc prefatus <persName ref="per012406a.01">Jaquetus
+                                       <lb/>Paris</persName> adduxit sibi quendam lupum nigrum
+                                       <lb/>et fecit ipsam <choice><sic>accendere</sic><corr>ascendere</corr></choice> supra dictum lupum,
+                                       <lb/>videlicet retroverte, et cepit dicta inquisita
+                                       <lb/>dictum lupum per caudam. Qui lupus
+                                       <lb/>ipsam portavit ad <sic>quendam</sic> locum dictum 
+                                  <pb n="126" facs="ACV_AC-29_125_126"/><lb/><foreign xml:lang="fr"><placeName ref="loc010211.04">ou Soutours</placeName></foreign>. Et ibidem reperit magnam
+                                       <lb/>congregacionem populi. </seg> 
+                              <seg>Quiquidem <persName ref="per012406a.01">Jaquetus Paris</persName>
+                                       <lb/>dixit eidem <persName ref="per011218a.01">Johannete</persName> inquisite&#160;: <q>&#160;Oportet quod
+                                       <lb/>tu facias omagium magistro nostro et quod
+                                       <lb/>tu neges Deum omnipotentem, gloriosam
+                                       <lb/>virginem <persName ref="per000169a.02">Mariam</persName> totamque fidem catholicam&#160;</q>.
+                                       <lb/>Quequidem <persName ref="per011218a.01">Johanneta</persName> inquisita contenta fuit
+<lb/><label type="keyword" place="left margin"><figure type="drawing"/>&#9755; Forma <term ref="lem018116.02">omagii</term> et<lb/> agnegacionis fidei<lb/> catholice</label> et dixit, prout sequitur&#160;: <q>&#160;Ego nego
+                                        <lb/>Deum <del rend="strikethrough">g[loriosam]</del> omnipotentem, gloriosam virginem 
+                                        <lb/><persName ref="per000169a.02">Mariam</persName> totamque fidem catholicam&#160;</q>, faciendo
+                                        <lb/>omagium <term ref="lem017097.02">dyabolo</term>, videlicet <del rend="strikethrough">su[um]</del> culum unius
+                                        <lb/>cati nigri obsculando. Et in signum veri <add place="above">magii</add>
+                                        <lb/>sibi <term ref="lem017097.01">diabolo</term> dedit oncilarem suum manus
+                                        <lb/>destre. Qui dyabolus arripuit dictum digitum
+                                        <lb/>et sibi <term ref="lem018187.01">corbavit</term>, prout apparet. 
+                              </seg>
+                          </p>
+                        <p><seg>Interrogata prefata detenta de quo videbant,
+                                        <lb/>dixit et confessa fuit quod erant candele,
+                                        <lb/>facientes ignem perseum.</seg>
+                            <seg>Interrogata quis vocatur 
+<lb/><label type="keyword" place="left margin"><term ref="lem018089.03">Nomen magistri</term></label> magister suus, dixit et confessa fuit quod vocatur 
+                                        <lb/><persName ref="per012574a.02">Perroz</persName>.</seg>
+                              <seg>Interrogata quid comedebant et
+                                        <lb/>bibebant, dixit et confessa fuit quod comedebant
+                                        <lb/><term ref="lem018083.01">carnes puerorum</term> et bibebant aquam, sed tamen
+                                        <lb/>quidam <persName ref="per012572a.01">Johannes Ravez</persName> de <placeName ref="loc010213.02">Stavanyens</placeName> et <persName ref="per012419a.02">Cuanetus
+                                        <lb/>Soudant</persName> iverunt ad quedam locum et ad<lb break="no"/>portaverunt vinum, sed tamen nescit ubi ceperunt.</seg>
+                              <seg><lb/>Item interrogata si in dicta <term ref="lem018331.01">secta</term> sint plures
+                                        <lb/>mulieres quam homines, dixit quod non, sed sunt
+                                        <lb/>plures homines.</seg> 
+                            <seg>Item dixit quod <persName ref="per012406a.01">Jaquetus
+                                        <lb/>Paris</persName> erat coqus. </seg>
+                            <seg>Interrogata quid
+                                        <lb/>fecerunt quando surrexerunt, dixit quod <persName ref="per012436a.01">Johannes Paris</persName>                    
+                                <pb n="127" facs="ACV_AC-29_127_128"/><lb/>debebat esse sponsus et <persName ref="per012435a.01">Anellet Surbat</persName>
+                                        <lb/>debebat esse sponsa, ut dicebant. </seg> 
+                            <seg>Interrogata
+<lb/><label type="keyword" place="left margin">&#9755; Complices</label> qui erant presentes&#160;: <persName ref="per012406a.01">Jaquetus Paris</persName>, <persName ref="per012413a.02">Jaquetus 
+                                        <lb/>Bosson</persName>, <persName ref="per012414a.01">Roletus Baucitaz</persName> et <persName ref="per012415a.01">Agnelleta</persName> eius
+                                        <lb/>uxor, <persName ref="per012437a.01">Urnit Godrui</persName> et eius uxor –&#160;mortui
+                                        <lb/>sunt&#160;–, <persName ref="per012438a.01">Perrodus Pigczon</persName> de <placeName ref="loc007678.06">Avry</placeName>, <persName ref="per012439a.01">Johannes de Enyn</persName>
+                                        <lb/>de <placeName ref="loc007861.10">Buloz</placeName>, <persName ref="per012428a.01">Cristina</persName> eius uxor, <persName ref="per012439a.01">Johannes Garin</persName>,
+                                        <lb/><persName ref="per012440a.01">Cristinus Vuruet</persName>, <persName ref="per012441a.01">Mermeta Jomuodaz</persName> <placeName ref="loc010214.03">dou Ruz</placeName>,
+                                        <lb/><persName ref="per012418a.01">Johannes Ramel</persName> de <placeName ref="loc010213.02">Stavanyens</placeName>, <persName ref="per012442a.01">Johannes Arnaul</persName>
+                                        <lb/>de <placeName ref="loc008089.07">Rogimont</placeName>, <persName ref="per012444a.01">Perreta de Monbovont</persName>, <persName ref="per012432a.02">Cristinus
+                                        <lb/>Soube</persName> d’<placeName ref="loc007678.06">Avry</placeName>, <persName ref="per012391a.03">Nydus Paradis</persName> et <persName ref="per012392a.03">Myuyt</persName>
+                                        <lb/>eius uxor de <placeName ref="loc009728.03">Vilaret</placeName>, <persName ref="per012445a.01">Yanyt Gunern</persName>
+                                        <lb/>de <placeName ref="loc010217.02">Monsoffloz</placeName>, <persName ref="per012393a.02">Petrus Paradis</persName> antenatus
+                                        <lb/>filius <persName ref="per012391a.02">Nycodi Paradis</persName> et quedam vidua
+                                        <lb/>de <foreign xml:lang="fr"><placeName ref="loc010623.01">Chaffloz</placeName></foreign><note>Maison isolée à <placeName ref="loc007660.01">La Roche</placeName>.</note> que est detenta in <placeName ref="loc007861.11"><subst><del>V</del><add place="overwritten">B</add></subst>ulo</placeName>
+                                        <lb/><persName ref="per012446a.01">Petrus Miguet</persName> de <placeName ref="loc007926.07">Schallens</placeName> et <persName ref="per012431a.02">Johannes Morez</persName> <!-- Johannes Morel?-->
+                                        <lb/>de <placeName ref="loc007662.04">Marsun</placeName>. </seg> 
+                            <seg>Item interrogata quot vicibus  
+                                        <lb/>fuit in dicta secta, quequidem detenta 
+                                        <lb/>respondit se numquam fuisse nisi duabus
+                                        <lb/>vicibus.</seg>
+                            <seg>Interrogata qua die vadunt ad dictam
+                                        <lb/>sectam, dixit quod ipsi vadunt ad dictam sectam
+                                        <lb/>in die jovis.</seg>
+                            <seg>Interrogata a quo tempore
+                                        <lb/>ultimate non fuit in dicta secta, quequidem
+                                        <lb/>detenta dixit quod est mensis.</seg>
+                            <seg>Interrogata
+                                        <lb/>in quo loco erant, dixit in loco supradicto.</seg>
+                              <seg><lb/>Interrogata quid faciebat, dixit quod comedebant
+                                        <lb/>carnes puerorum. Que iterato redixit quod sunt
+                                        <lb/>duo menses quod non fuit in dicta secta. </seg>
+                            <seg>Interrogata
+                                        <lb/>quis adportabat illas carnes <damage agent="ink blot">q</damage>, que dixit
+                                        <lb/>quod <persName ref="per012428a">uxor</persName> <persName ref="per012427a.01">Johannis de Enyn</persName> et illa que est detenta
+<lb/><label type="keyword" place="left margin">Omicidium</label> in <placeName ref="loc007861.11">Bulo</placeName> <choice><sic>ad portaverunt</sic><corr>adportaverunt</corr></choice> et erat masculus 
+                                        <lb/>de <placeName ref="loc007846.06">Raz</placeName>, sed tamen nescit cui erat. 
+                            </seg></p>                               
+                        <pb n="128" facs="ACV_AC-29_127_128"/>
+                        <p><seg>Item interrogata quid magister suus <del rend="strikethrough">vocatur</del>
+                                        <lb/>dabat sibi, respondit quod tociens quociens
+                                        <lb/>ipsi ibant ad dictam sectam, quilibet ipsorum
+                                        <lb/>habebat duos solidos.</seg>
+                           <seg>Interrogata quis
+                                        <lb/>solvebat sibi dictos duos solidos, dixit quod <persName ref="per012432a.02">Cristinus
+                                        <lb/>Soube</persName> et per <unclear>an[t]ea</unclear> <persName ref="per012406a.01">Jaquetus Paris</persName>, quia ipsi erant
+                                        <lb/>thesaurarii.</seg> 
+                            <seg>Interrogata ubi accipiebant illas
+                                         <lb/>pecunias, dixit et confessa fuit quod ipsi
+                                         <lb/>accipiebant in una pisside.</seg> 
+                            <seg>Interrogata quando solvebatur
+                                        <lb/>sibi, dixit et confessa quod solvebatur sibi ante cenam.</seg>
+                               <seg><lb/>Item interrogata a tempore quo incepit ire <del rend="strikethrough">quot bene</del>
+                                        <lb/>usque nunc, quod bene habuit, dixit quod ipsa habuit
+                                        <lb/>bene quatuor libras parve monete.</seg>
+                            <seg>Interrogata
+                                        <lb/>ubi ceperunt supradictum puerum, dixit quod nescit.</seg>
+                            <seg>
+ <lb/><label type="keyword" place="left margin">Omicidium</label> Item interrogata quot pueros portavit 
+                                        <lb/>ad dictam sectam, dixit quod numquam portavit
+                                        <lb/>aliquem, sed bene vidit <persName ref="per012413a.01">Jaquetum Bosson</persName> qui
+                                        <lb/><subst><del>ap</del><add place="inline">adportavit</add></subst> unum puerum masculum, videlicet filium
+                                        <lb/>filii sui. </seg>
+                            <seg>Interrogata quomodo ipsi adportant
+                                        <lb/>ad dictam sectam, dixit quod ipsi accipiunt
+                                        <lb/>vivos juxta matrem et adportant vivos.</seg>
+                               <seg><lb/>Item interrogata quando fecit omagium quid magister
+                                         <lb/>suus precipiebat sibi et si confitebatur semper
+                                         <lb/>in quolibet <date type="floating holiday">festo Pache</date>, dixit quod sic, sed
+                                         <lb/>numquam confessa fuit istud peccatum.</seg> 
+                            <seg>Item dixit
+                                         <lb/>quod ipsa ibat ad dictam sectam supra dictum lupum.</seg>
+                               <seg><lb/>Item dixit et confessa fuit quod magister suus
+                                         <lb/>dicebat sibi quod male faciebat se confiteri quando&#160;:
+<lb/><label type="keyword" place="left margin">Mendacium</label> <q>&#160;tu <sic>agnegasti</sic> Deum&#160;</q>.</seg>
+                                 <seg>Interrogata quot vicibus fuit in
+                                           <lb/>dicta secta, dixit quatuor vicibus. </seg> 
+                                 <seg>Interrogata
+                                           <lb/>qui erant presentes, dixit quod non <subst><del>cogscit</del><add place="above">cognoscit</add></subst>. 
+                                 </seg></p>                       
+                        <pb n="129" facs="ACV_AC-29_129_130"/>
+                        <p><seg>Quequidem <persName ref="per011218a.01">Johanneta</persName> inquisita nil aliud pro
+                                        <lb/>tunc voluit confiteri, dicens mediante juramento
+                                        <lb/>super sanctis Dei euvangeliis pridem per eam
+                                        <lb/>tactis, nil aliud scire et quod ea per eam deposita
+                                        <lb/>et confessata prout scribuntur superius,
+                                        <lb/>sunt vera.</seg>
+                            <seg>Quibus premissis per <term ref="lem017131.01">procuratorem
+                                        <lb/>fidei</term> auditis, videns quod dicta <persName ref="per011218a.01">Johanneta</persName> detenta
+                                        <lb/>variabat et noluerat veritatem puram
+                                        <lb/>agnoscere de per eam perpetratis in facto <term ref="lem018450.03">orthodoxe</term>
+                                        <lb/>fidei, peciit idem fidei procurator per prefatos
+                                        <lb/><subst><del rend="strikethrough">dne</del><add place="inline">dominos</add></subst> judices et vicarios, quatenus vellent decerni et declarari
+                                        <lb/>dictam <persName ref="per011218a.01">Johannetam</persName> inquisitam esse <term ref="lem018147.01">torquendam</term> et
+                                        <lb/><term ref="lem018098">torture</term> subiciendam, actentis diffamacionibus, accusacionibus, confessionibus,
+                                        <lb/>perjuriis contra ipsam laborantibus et existentibus, donec
+                                        <lb/>et quousque veritas ab eadem <persName ref="per011218a.01">Johanneta</persName> inquisita
+                                        <lb/>erueretur.</seg>
+                            <seg>Quiquidem prefati domini judices et vicarii,
+                                        <lb/>audita requisicione procuratoris fidei, pro tercia <term ref="lem017130.01">monicione</term>
+                                        <lb/>assignaverunt dictam <persName ref="per011218a.01">Johannetam</persName> inquisitam ad
+                                        <lb/><date when="1461-10-31" period="P7WD">diem sabati ante festum Omnium Sanctorum</date><note>Le procès ne reprend que le <date when="1461-11-02">2 novembre 1461</date>.</note> ad confitendum
+                                        <lb/>veritatem de per <supplied reason="omitted">eam</supplied> perpetratis in facto fidei,
+                                        <lb/>alias ad ferendum interloqutoriam sentenciam
+                                        <lb/>juxta petita per procuratorem fidei, si tunc eadem
+                                        <lb/><persName ref="per011218a.01">Johanneta</persName> inquisita veritatem puram non vellet
+                                        <lb/>agnoscere de per eam perpetratis in facto heresis dampnate.
+                            </seg></p>
+                        <head type="subtitle" resp="GO">2 novembre 1461</head>
+<p><seg><label type="keyword" place="left margin">Omicidium</label> <origDate when="1461-11-02" period="P2WD">Die lune post festum Omnium Sanctorum, anno
+                                        <lb/>quo supra</origDate> interrogata prefata detenta
+                                        <lb/>per dominos vicarios et judices predictos sepeque
+                                        <lb/>examinata <add place="above">et monita</add> <supplied reason="omitted">fuit</supplied>, ut moris est, presentibus venerabilibus 
+    <pb n="130" facs="ACV_AC-29_129_130"/><lb/>et discretis viris fratre <persName ref="per011100a.02">Petro Passcua</persName> procuratore fidei,
+                                        <lb/><persName ref="per012433a.02"><choice><abbr>G</abbr><expan>Girardo</expan></choice> de Alpibus</persName> burgense <orgName ref="org004483.03">Lausannensi</orgName>, nobili <supplied reason="omitted">viro</supplied> <persName ref="per012405a.01">Petro
+                                        <lb/>Mayor</persName> castellano <orgName ref="org005462.04">Rippe Ochiaci</orgName>, <persName ref="per012434a.01">Hugonino de
+                                       <lb/>Mauberto Fonte</persName>, <persName ref="per012576a.01">Stephano de Cresto</persName> <term ref="lem009160.01">clerico</term> et
+                                      <lb/><persName ref="per012577a.01">Henrico de <supplied reason="omitted">L</supplied>alerio</persName> burgense <orgName ref="org004483.03">Lausannensi</orgName>.</seg>
+                            <seg>Interrogata ac
+                                        <lb/>monita ut superius, videlicet si sit multum
+                                        <lb/>temporis quod ipsa fuit primo in dicta secta,
+                                        <lb/>quequidem <persName ref="per011218a.01">Johanneta</persName> detenta predicta dixit
+                                        <lb/>et confessa fuit quod <date dur="P34Y">sunt XXXIIII anni</date>. </seg>
+                            <seg>Item
+                                        <lb/>interrogata si sit multum quod ipsa detenta
+                                        <lb/>fuit ultima vice, respondit quod sunt tres
+                                        <lb/>menses. </seg> 
+                            <seg>Interrogata in quo loco ibant, dixit
+                                        <lb/>quod ipsi ibant ad locum dictum <placeName ref="loc010211.03">Ousouters</placeName>.</seg>
+                            <seg>Interrogata
+<lb/><label type="keyword" place="left margin"><hi rend="underline">Complices</hi></label> qui erant presentes&#160;: <persName ref="per012439a.01">Johannes Garin</persName> <sic>vinit</sic>, 
+                                        <lb/><persName ref="per012428a.01">Cristina</persName> uxor <persName ref="per012427a.01">Johannis de Enyn</persName>, <persName ref="per012582a.01">Stevinetus Borgon</persName>,
+                                        <lb/><persName ref="per012432a.02">Cristinus Soube</persName> d’<placeName ref="loc007678.06">Avry</placeName>.</seg>
+                            <seg>Interrogata quid
+                                        <lb/>bibebant et comedebant, dixit quod comedebant
+                                        <lb/>carnes puerorum.</seg> 
+                            <seg>Interrogata ubi accipebant
+                                        <lb/>dictos pueros, dixit et confessa fuit quod ipsi
+                                        <lb/>ceperunt unum puerum masculum <persName ref="per012578a.01"><sic>Johanni</sic> de Prez</persName>
+                                        <lb/><label type="keyword" place="left margin">Omicidium</label> de <placeName ref="loc007846.07">Riaz</placeName><note>La majorie de <placeName ref="loc007846.01">Riaz</placeName> dépend de l’évêque de <orgName ref="org001749.05">Lausanne</orgName> (<bibl><ref>Dubas 1995</ref>, p.&#160;57</bibl>).</note> etatis XIII <choice><sic>edobmadarum</sic><corr>ebdomadarum</corr></choice>.</seg> 
+                            <seg>Item interrogata
+                                        <lb/>prefata detenta si sit multum temporis quod
+                                        <lb/>magister suus non locutus est sibi, <choice><sic>dixit 
+                                        <lb/>dixit</sic><corr>dixit</corr></choice>quod a post quod <subst><del rend="strikethrough">est</del><add place="inline">fuit</add></subst> intus<note><orig>&#160;Dedans&#160;</orig>, se rapportant à la détention de l’inculpée.</note> quod non
+                                        <lb/>locutus est sibi.</seg>
+                            <seg>Interrogata quis magister
+                                        <lb/>suus vocatur, dixit quod vocatur <persName ref="per012574a.01">Perro</persName>.
+                            </seg></p>
+                        <p><seg>Quequidem <persName ref="per011218a.01">Johanneta</persName> inquisita nil aliud pro tunc
+                                        <lb/>voluit confiteri, dicens se alia nescire et quod sub
+                                        <lb/>periculo dampnacionis anime sue omnia per ipsam perpetrata
+                                        <lb/>dixerat et confessa fuerat, nec aliud sciebat.</seg>
+                              <seg><lb/>Eotunc prefatus fidei procurator peciit per prefatos
+                                        <lb/>dominos judices et vicarios predictos, actentis
+                                        <lb/>suis <persName ref="per011218a.02">Johanete</persName> inquisite variacionibus, perjuriis,
+                                        <lb/>mendaciis, diffamacionibus et accusacionibus contra dictam
+                                        <lb/>inquisitam laborantibus, eandem <persName ref="per011218a.01">Johannetam</persName> presentem
+                                  <pb n="131" facs="ACV_AC-29_131_132"/><lb/>et audientem decerni, declarari et sentenciari eandem
+                                        <lb/>fore et esse torquendam et torture subiciendam,
+                                        <lb/>donec et quousque veritas ab ore eiusdem inquisite
+                                        <lb/>eruatur.</seg>
+                             <seg>Quiquidem prefati domini judices et vicarii predicti,
+                                        <lb/>auditis peticionibus et requisicionibus prefati fidei procuratoris,
+                                        <lb/>dixerunt eidem <persName ref="per011218a.01">Johannete</persName> inquisite&#160;: <q>&#160;Advertas et advideas,
+                                        <lb/><persName ref="per011218a.01">Johanneta</persName>, tu audis requisicionem et peticionem quam facit
+                                        <lb/>contra te dominus procurator. Quare antequam feretur
+                                        <lb/>sentencia interloqutoria, te ortamur et requirimus
+                                        <lb/>benigniter, quatenus intuitu Dei pietatisque tuum
+                                        <lb/>reatum veridice velis confiteri et agnoscere, offerendo
+                                        <lb/>adhuc tibi de canonica benignitate et gracia speciali
+                                        <lb/>misericordiam Ecclesie&#160;</q>.</seg>
+                             <seg>Quequidem <persName ref="per011218a.01">Johanneta</persName>
+                                        <lb/>inquisita nil aliud pro tunc voluit dicere
+                                        <lb/>nec confiteri, nisi <subst><del rend="strikethrough">pre</del><add place="inline">prout</add></subst> supra dixerat et
+                                        <lb/>confessa fuerat, dicens se alia nescire.
+                             </seg></p>
+                        <p><seg>Eotunc prefati domini judices et vicarii, videntes
+                                        <lb/>quod dicta <persName ref="per011218a.01">Johanneta</persName> inquisita nil aliud voluerat
+                                        <lb/>confiteri, auditis eciam et actentis peticionibus
+                                        <lb/>domini procuratoris fidei et deductis in processu, volentes
+                                        <lb/>recte et legitime procedere, prout jura
+                                        <lb/>volunt et suadent canonice sanciones,
+                                        <lb/>eorum tulerunt <term ref="lem017305.02">sentenciam interloqutoriam</term> contra
+                                        <lb/>eandem <persName ref="per011218a.01">Johannetam</persName> inquisitam presentem
+                                        <lb/>et audientem, prout in quadam <sic>papireii</sic>
+                                        <lb/>cedula –&#160;incipiente <hi rend="underline"><persName ref="per000353a.17">Christi</persName> nomine invocato</hi> <abbr>etc</abbr>.&#160;–
+                                        <lb/>plenius continetur cuius copia ibidem inferitur.
+                         </seg></p>
+                        <p><seg><persName ref="per000353a.17">Christi</persName> nomine invocato, per hanc nostram
+                                         <lb/>sentenciam quam de juris peritorum consilio,
+                                         <lb/>pro tribunali sedentes et solum Deum pre oculis
+                                         <lb/>habentes, ordinaria et delegata auctoritatibus
+                                         <lb/>ferimus, in hiis scriptis pronunciamus, decernimus
+                                         <lb/>et declaramus te, <persName ref="per011218a.01">Johannetam</persName> uxorem <persName ref="per012400a.01">Petri
+                                         <lb/>Anyo</persName> de <foreign xml:lang="fr"><placeName ref="loc007660.12">La Rochiz</placeName></foreign> delatam presentem, corporali
+                                         <lb/><term ref="lem018157">questioni</term> subiciendam et torquendam 
+                            <pb n="132" facs="ACV_AC-29_131_132"/><lb/>fore, <add place="right margin" type="sign">done</add> et quousque veritas ex ore tuo
+                                         <lb/>habeatur, citra tamen mortis periculum, sanguinis
+                                         <lb/>effusionem et <sic>menbrorum</sic> mutilationem de quo
+                                         <lb/>solemniter et expresse protestamur.</seg>
+                               <seg><lb/>Que quidem sentencia interloqutoria per prefatos
+                                         <lb/><subst><del rend="strikethrough"><choice><abbr>dns</abbr><expan>dominus</expan></choice></del><add place="inline">dominos</add></subst> judices et vicarios contra eandem <persName ref="per011218a.01">Johannetam</persName>
+                                         <lb/>lata, peciit idem fidei procurator eandem senteciam
+                                         <lb/>contra dictam <persName ref="per011218a.01">Johannetam</persName> exequcioni demandari, prout
+                                        <lb/>in eadem sentencia canetur<note><orig>&#160;Canere&#160;</orig>, chanter, mais aussi publier (<bibl><ref>Lebaigue 1883</ref></bibl>).</note>. Tandem eadem inquisita
+                                         <lb/>fuit ducta ad locum torture fuitque ligata
+                                         <lb/>manibus et unum paucum a terra levata.</seg> 
+                               <seg><lb/>Quequidem <persName ref="per011218a.01">Johanneta</persName> inquisita requisiit,
+                                         <lb/>quatenus unum paucum relaxaretur et ipsa puram
+                                         <lb/>et meram veritatem de per eam perpetratis
+                                         <lb/>in facto heresis confiteretur. Quibus dicte <persName ref="per011218a.01">Johannete</persName>
+                                         <lb/>precibus fuit relicta a dictis <sic>turturis</sic>. Et tunc
+                                         <lb/>eadem dixit et deposuit atque confessa fuit,
+                                         <lb/>prout sequitur.</seg>
+                              <seg>Et primo dixit et confessa
+                                        <lb/>fuit prout superius de ymagio, de
+                                        <lb/><sic>agnegacione</sic> fidei catholice, de omicidiis.</seg>
+                               <seg><lb/>Item dixit et confessa fuit, videlicet quod ipsa cepit
+<lb/><label type="keyword" place="left margin">&#9755; Omicidium per ipsam factum</label> <choice><sic>quedam</sic><corr>quendam</corr></choice> puerum masculum <persName ref="per012822a.01">Johanni Bossum</persName> de <placeName ref="loc007662.03">Marsin</placeName>
+                                        <lb/>–&#160;sunt bene viginti anni, et hoc quadem die
+                                        <lb/>veneris post cenam&#160;– et ipsum puerum interfecit
+                                        <lb/>juxta matrem suam et post modum portavit
+                                        <lb/>dictum puerum ad locum nuncupatum <foreign xml:lang="fr"><placeName ref="loc010211.05">ou Souteurs</placeName></foreign>.</seg>
+                              <seg><lb/>Item interrogata quando ipsi cenati sunt, quid ipsi
+                                       <lb/>faciunt, que detenta dixit et confessa fuit quod
+                                       <lb/>ipsi <term ref="lem018188.02">scorisant</term><note>Le même verbe est utilisé par <persName ref="per012575a">Perrissone Gappit</persName>.</note> et jocantur.</seg>
+                               <seg>Quequidem <persName ref="per011218a.01">Johanneta</persName>
+<lb/><label type="keyword" place="left margin">Mendacium</label> inquisita propter mendacium apparentissimum, 
+                                        <lb/><sic>erga</sic> <choice><sic>interligentem</sic><corr>intelligentiam</corr></choice> fuit reposita ad torturam 
+                                        <lb/>et multum acriter fuit tracta. Que detenta
+                                        <lb/>requisiit, quatenus unum paucum relaxaretur
+                                        <lb/>et ipsa puram et meram veritatem confiteretur.
+                                        <lb/>Que fuit relaxata et ad terram posita.</seg>
+                               <seg><lb/><choice><sic>Quequidam</sic><corr>Quequidem</corr></choice> <persName ref="per011218a.01">Johanneta</persName> dixit et confessa fuit
+                                        <lb/>quod post cenam ipsi <sic>extiguunt</sic> candelas et, hoc
+                                        <lb/>facto, <persName ref="per012413a.02">Jaquetus Bosson</persName> eam cognovit <term ref="lem018190.02">abutitu</term>
+                                        <lb/>more brutorum, et similiter omnes alii sic faciunt 
+                                   <pb n="133" facs="ACV_AC-29_133_134"/><lb/>cum aliis mulieribus.</seg>
+                              <seg>Interrogata quando ipsi recedunt,
+                                        <lb/>quid magister suus precipiebat sibi,
+                                        <lb/><subst><del rend="strikethrough">quoq[uidem]</del><add place="inline">quequidem</add></subst> <persName ref="per011218a.01">Johanneta</persName> dixit et confessa
+                                        <lb/>fuit quod ipse dicebat sibi <del rend="strikethrough">p[refatus]</del> quod provideret
+                                        <lb/>de carnibus puerorum pro die sequenti et
+                                        <lb/>omnibus aliis in dicta secta existententibus.
+                              </seg></p>
+                        <p><seg>Interrogata qui erant presentes, dixit et
+<lb/><label type="keyword" place="left margin">Complices</label> confessa fuit quod <persName ref="per012432a.02">Cristinus Soube</persName>, <persName ref="per012439a.01">Johannes Garin</persName> 
+                                        <lb/>de <placeName ref="loc007861.11">Bulo</placeName>, <persName ref="per012415a.01">Agnelleta</persName> uxor de <persName ref="per012414a.01">la Baucitaz</persName> d’<placeName ref="loc007678.06">Avry</placeName>,
+                                        <lb/><persName ref="per012579a.01">Pittet Johanni</persName> de <placeName>Chavanez</placeName><note>Chavannes est le nom de nombreux villages de la Suisse romande (<bibl><ref target="http://permalink.snl.ch/bib/chbsg000011207">Jaccard 1978</ref> p.&#160;82</bibl>), par exemple, dans le district de la Glâne&#160;: <placeName ref="loc010280.01">Chavannes-les-Forts</placeName> ou <placeName ref="loc008333.01">Chavannes-sous-Orsonnens</placeName>.</note>, <persName ref="per012580a.01">Yanit Rigneriz</persName>
+                                        <lb/>de <foreign xml:lang="fr"><placeName ref="loc007660.12">La Rochiz</placeName></foreign>, quedam que est detenta in
+                                        <lb/><placeName ref="loc007861.11">Bulo</placeName> et est de <placeName ref="loc010623.02">Chafflo</placeName>, <persName ref="per012393a.02">Petrus Paradis</persName> de
+                                        <lb/><placeName ref="loc009728.03">Vilaret</placeName>, <persName ref="per012391a.03">Nydus Paradis</persName>, <persName ref="per012392a.04">Mygua</persName> eius uxor
+                                        <lb/>et <persName ref="per012428a.01">Cristina</persName> uxor <persName ref="per012427a.01">Johannis de Enyn</persName>.
+                              </seg></p>
+                        <p><seg>Interrogata <del rend="strikethrough">ut</del> si sit multum temporis quod non
+                                        <lb/>vidit dictum <persName ref="per012439a.01">Johannem Garin</persName> in dictis sectis, dixit
+                                        <lb/>et confessa fuit quod sunt <date when="1461-07">tres <choice><sic>menes</sic><corr>menses</corr></choice> et a tribus
+                                        <lb/>mensibus citra</date> vidit ipsum et eius uxorem et
+                                        <lb/><persName ref="per012415a.01">laz Baucitaz</persName> d’<placeName ref="loc007678.06">Avry</placeName>, uxorem <foreign xml:lang="fr"><persName ref="per012414a.02">Roletitaz Baucitaz</persName></foreign>.
+                        </seg></p>
+                        <p><seg>Item interrogata de quadam pisside que fuit
+                                        <lb/>adportata per <term ref="lem017272.01">mistralem</term> dicti loci de <foreign xml:lang="fr"><placeName ref="loc007660.12">La Rochiz</placeName></foreign>
+                                        <lb/>quando dicta <persName ref="per011218a.01">Johanneta</persName> <del rend="strikethrough">d</del> detenta fuit adducta
+                                        <lb/><placeName ref="loc007885.06">Lausannam</placeName> ad quid valet et de quo deservit, quequidem
+                                        <lb/><persName ref="per011218a.01">Johanneta</persName> inquisita dixit et confessa <del rend="strikethrough"><subst><del rend="strikethrough">d</del><add place="inline">f</add></subst></del> fuit
+                                        <lb/>quod si de pinguide in dicta pisside existente
+                                        <lb/>tangeretur aliquod animal, quod moriretur, et
+                                        <lb/>eciam si <del rend="strikethrough">s[i]</del> tangentur gentes, et sic de <sic>alis</sic>.</seg>
+                              <seg><lb/>Quequidem <persName ref="per011218a.01">Johanneta</persName> inquisita dixit se
+                                        <lb/>alia nescire et quod omnia per eam confessata,
+                                        <lb/>prout scribuntur superius, sunt vera.
+                            </seg></p>
+                        <p><seg><signed><persName ref="per012576a.02"><choice><abbr>Ste</abbr><expan>Stephanus</expan></choice> de Cresto</persName></signed> 
+                            <figure type="notarial sign"/>
+                        </seg></p>
+                        <pb n="134" facs="ACV_AC-29_133_134"/>
+                        <pb n="135" facs="ACV_AC-29_135_136"/>
+                        <p><seg><figure type="drawing"/>†&#160;Processus <persName ref="per011218a.03">Johannete</persName> uxoris <persName ref="per012400a.02"><sic>Peter</sic>
+                                        <lb/>Ansoz</persName> de <placeName ref="loc007660.13">Ruppe</placeName> super casu
+                                        <lb/>heresis combuste quondam. 
+                        </seg></p>
+                        <p><seg>Apon<note>Sens obscur.</note></seg></p>
+                    </div>
+                </body> 
+            </text>
+        </group>
+        
+        <back>
+            <div>
+                <p>Les procès de Pierre dou Chanoz (p.&#160;72–91 <ref>SDS_VD_D_1_0007</ref>), de Jeannette Anyo (p.&#160;120–135), de Guillaume Girod (p.&#160;136–159 <ref>SDS_VD_D_1_0009</ref>) et de Perrissone Gappit (p.&#160;160–195 <ref>SDS_VD_D_1_0011</ref>) sont les témoins d'une deuxième vague de répression, qui touche directement les possessions de l’évêque de Lausanne (Henniez, La Roche, Bulle) entre 1458 et 1465. Bien que ce procès concerne une inculpée de l’actuel canton de Fribourg (La Roche), il a été réuni au registre ACV, Ac 29, qui contient majoritairement des procès relatifs au diocèse de Lausanne et au pays de Vaud. Les éditeurs respectent ainsi l’unité codicologique du registre ACV, Ac 29.</p>
+            </div>
+        </back>
+    </text>
+</TEI>
+

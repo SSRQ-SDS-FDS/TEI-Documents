@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+
+			</titleStmt>
+
+			<publicationStmt>
+				<date type="electronic" when="2019-05-29"/>
+				<date type="print"/>
+			</publicationStmt>
+
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ_FR_I_2_8_0048_005</idno>
+			</seriesStmt>
+
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<idno>StAFR, Thurnrodel 11, S. 100–101</idno>
+					</msIdentifier>
+					<head>Jenon Péclat – Verhör / Interrogatoire</head>
+					<msContents>
+						<summary></summary> 
+						<msItem>
+							<textLang>fr, de</textLang> 
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support>
+									<material></material>
+								</support>
+								<extent>
+									<dimensions type="leaves">
+										<height unit="cm" quantity="0.0"/>
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+									<dimensions type="plica">
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+								</extent>
+							</supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1620-02-12"></origDate>
+							<origPlace></origPlace>
+						</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+							
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+			<particDesc default="false"/>
+			<settingDesc default="false"/>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="100"/><p><lb/>Im <placeName ref="loc008105">keller</placeName>
+							<seg><lb/><origDate when="1620-02-12">12 <foreign xml:lang="la"><choice><abbr>feb</abbr><expan>februarii</expan></choice></foreign> <hi rend="underline">1620</hi></origDate>, <choice><abbr>j</abbr><expan>judex</expan></choice> <abbr>h</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per009391">Wilhelm Reynold</persName>.</note></seg>
+							<seg><lb/><abbr>H</abbr> <persName ref="per009250">Gerwer</persName>, <abbr>h</abbr> <persName ref="per009255">Affry</persName></seg>
+							<seg><lb/><persName ref="per009252">Rämi</persName>, <persName ref="per009117">Pittung</persName>, <persName ref="per009123">Werli</persName></seg>
+							<seg><lb/><persName ref="per009414">Von der Weydt</persName></seg>
+							<seg><lb/>Weybel</seg></p>
+						
+						<p><seg><lb/><add place="left margin"><foreign xml:lang="la"><choice><abbr>ßt</abbr><expan>Solvit</expan></choice> <unclear>pro unoque</unclear></foreign> <measure type="currency" unit="bz" quantity="7.5">7½ bz</measure> 
+							<lb/>sydt inen <term ref="lem017190.02">verlussert</term>.</add></seg> 
+							<seg><persName ref="per009619">Jenon</persName>, femme de <persName ref="per009312a.01">Francey Peclat</persName> de <placeName ref="loc007893.02">Mides</placeName>, 
+							<lb/>a dit ne savoir l’occasion de son <choice><abbr>pnt</abbr><expan>present</expan></choice>  
+							<lb/>apprisonnement, bien qu’elle <add place="above">fut</add> avant <date dur="P20Y">20 
+							<lb/>ans</date> ou l’environ desja icy prisonniere, que 
+							<lb/>les filles d’<persName ref="per009319">Antoine Peclat</persName> en furent cau<lb break="no"/>se, neantmoins ne sait qu’elles pourroent 
+							<lb/>avoir dit d’elle. A dit estre vray qu’elle 
+							<lb/>fut conviee a <placeName ref="loc007892.03">Torny</placeName> quand on y benit 
+						<lb/>la mayson de <space quantity="6" unit="cm"/>, mais 
+						<pb n="101"/><lb/>ne savoir d’aulcun accident y survenuz, 
+						<lb/>mesmes ne savoir de tant d’articles, qu’on 
+						<lb/>luy demande, que pour c’endroit on luy fait 
+						<lb/>tort. Aultre n’a dit.</seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+
+
+
+<?oxy_options track_changes="on"?>

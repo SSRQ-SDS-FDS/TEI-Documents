@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="headerinfo"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <date type="electronic" when="2020-08-17"/>    <date type="print"/>
+    <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Collection des sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS_NE_3_322</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier>
+      <idno>AVN B 101.14.001, fol. 552v–553r</idno>
+     </msIdentifier>
+     <head>Mise en taxe et justice ordinaire</head>
+     <msContents>
+      <summary>Un créancier ne peut pas agir contre son débiteur par mise en taxe, avant que les
+       articles qu’il lui répète ne soient liquidés et confessés. Aucun bourgeois de Neuchâtel ne
+       peut être distrait de la justice ordinaire pour une cause civile par mandement ou par arrêts
+       du Conseil d’État s’il ne s’y est soumis.</summary>
+      <msItem>
+       <textLang>français</textLang>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="33"/>
+          <width unit="cm" quantity="23.5"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <origDate when="1694-10-13" calendar="Julian"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>
+      </origin>
+     </history>
+     <additional>
+      <listBibl>
+       <head/>
+       <bibl/>
+      </listBibl>
+     </additional>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key005095"></term>
+     <term ref="key000058"></term>
+     <term ref="key000086"></term>
+     <term ref="key000341"></term>
+     <term ref="key003331"></term>
+    </keywords>
+   </textClass>
+   <particDesc default="false"/>
+   <settingDesc default="false"/>
+  </profileDesc>
+ </teiHeader>
+
+ <text>
+  <group>
+   <text>
+    <body>
+        
+     
+     <pb n="552v" facs="AVN_B_101.14.001_0552v"/> 
+        
+     <div>
+      
+      <p>
+       <lb/>Sur la requeste presentée par le sieur <lb/><persName ref="per008988">Abraham
+        Chaillet</persName>, ancien receveur de <placeName ref="loc007797">Collombier</placeName>,
+       par <lb/>devant monsieur le maistre bourgeois et <orgName ref="org003085">Conseil Estroit
+        <lb/>de la Ville de <placeName ref="loc007786">Neufchatel</placeName></orgName>, le
+        <origDate when="1694-10-13" calendar="Julian">13<hi rend="sup">e</hi> octobre
+        1694</origDate>, tendante <lb/>aux fins d’avoir declaration des deux points de coutume
+       <lb/>suivant. </p>
+      
+      <p>
+       <lb/>Savoir, le premier, de quelle maniere on doit <lb/>proceder pour debtes liquides et
+       recogneues, et pour <term ref="lem015548">illiquides</term>
+       <lb/>et conditionnelles. </p>
+      
+      <p>
+       <lb/>Et le second, s’il ne fut pas donné par point de coutume <lb/>le <date when="1658-11-03"
+        calendar="Julian">3<hi rend="sup">e</hi> novembre 1658</date><note>Voir
+         <ref>SDS_NE_3_159</ref>.</note> qu’aucun bourgeois de <placeName ref="loc007786"
+        >Neufchastel</placeName>
+       <lb/>ne peut estre distrait de la justice ordinaire pour une cause <lb/>civile, par <term
+        ref="lem015553">mandement</term> ny arrest du <orgName ref="org003098">Conseil
+        d’Estat</orgName>, s’il <lb/>ne s’y est soumis. </p>
+     
+     <p>
+      <lb/><orgName ref="org003085">Mesdits sieurs du Conseil</orgName>, ayants eu advis et meure <lb/>deliberation
+       par ensemble ont donné &amp; donnent par <lb/>declaration que la coutume usitée en la
+      souveraineté <lb/>de <placeName ref="loc007785">Neufchatel</placeName> de pere à fils et de tout temps
+       immemorial <lb/>jusqu’à present, la coutume est telle. </p>
+      
+      <p>
+       <lb/>Assavoir, sur le premier point, en suite d’une <lb/>declaration rendue le <date
+        when="1686-01-15" calendar="Julian">15 janvier 1686</date><note>Voir
+         <ref>SDS_NE_3_304</ref>.</note> à l’instance du <lb/>greffier <persName
+        ref="per008897">Elie Petter</persName>, qu’un creancier ne peut pas agir <lb/>contre son
+       detteur par <term ref="lem014995">taxe</term>, qu’au préalable les <lb/>articles qu’il luy
+       repete ne soyent liquidés et confessés. </p>
+      
+      <p>
+       <lb/>Et sur le second poinct, ils declarent que le <date when="1658-11-03" calendar="Julian"
+         >3<hi rend="sup">e</hi> novembre <lb/>1658</date><note>Voir
+        <ref>SDS_NE_3_159</ref>.</note>, à l’instance de <persName ref="per010245a.01">Leonar
+        Pury</persName>, et le <date when="1681-11-18" calendar="Julian">18 novembre
+        1681</date><note>Ce point de coutume est introuvable. Il est également cité dans
+         <ref>SDS_NE_3_159</ref>.</note>, <pb n="553r" facs="AVN_B_101.14.001_0553r"/>
+       <lb/>à l’instance de monsieur <persName ref="per008990">Henry Trybollet Hardy</persName>,
+       mayre de cette <lb/>Ville, il fust declaré par point de coutume qu’aucun bourgeois <lb/>de
+        <placeName ref="loc007786">Neufchatel</placeName> ne peut estre distrait de la justice
+       ordinaire pour <lb/>une cause civile par <term ref="lem015553">mandement</term> ny par arrest
+       du <orgName ref="org003098">Conseil d’Estat</orgName>
+       <lb/>s’il ne s’y est sousmis. </p>
+      
+      <p>
+       <lb/>Ce qu’a esté ainsi passé, conclud et arresté l’an et jour que <lb/>dessus, et ordonné au
+       secretaire de ville soussigné de l’ainsi <lb/>expedier, sous le <term ref="lem016327.02">séel</term> de la mayorie et justice <choice>
+        <abbr>dud</abbr>
+        <expan>dudit</expan>
+       </choice>
+       <origPlace ref="loc007785">Neufchatel</origPlace>
+       <lb/>&amp; signature de ma main. </p>
+      
+  
+      
+      <div>
+       <p>
+        <lb/>Copie extraite sur l’original
+        <lb/>signé par moy.
+       </p>
+       <signed><persName ref="per008992"><choice><abbr>N</abbr><expan>Nicolas</expan></choice> Huguenaud</persName> <figure type="notarial sign"/></signed>
+      </div>
+      
+    
+      </div>
+     
+       
+    </body>
+    <back>
+     <div>
+      <p>Ce point de coutume est cité dans le point <ref>SDS_NE_3_324</ref>.</p>
+     </div>
+    </back>
+   </text>
+  </group>
+ </text>
+</TEI>

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     n="1234"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="headerinfo"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2020-08-17"/>    <date type="print"/>
+    <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Collection des sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des
+      sources
+      du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS_NE_3_465</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>AVN B 101.14.002, fol. 87r–87v</idno>
+               </msIdentifier>
+               <head>Prescription des dettes et dissolution d’un testament</head>
+               <msContents>
+                  <summary>D’après la loi de 1655, toute dette est déclarée éteinte et prescrite au bout de dix
+       ans. La coutume ne prescrit pas comment dissoudre un testament.</summary>
+                  <msItem>
+                     <textLang>français</textLang>
+                     <filiation type="current"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="34.5"/>
+                              <width unit="cm" quantity="22"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1799-05-15"/>
+                     <origPlace ref="loc007786">Neuchâtel</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head/>
+                     <bibl/>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000138"/>
+               <term ref="key000558"/>
+               <term ref="key000058"/>
+               <term ref="key003040"/>
+               <term ref="key003331"></term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="87r" facs="AVN_B_101.14.002_0087r"/>
+               <div><p>
+                     <lb/>Du <origDate when="1799-05-15">15 may 1799</origDate>.</p>
+                  <p>
+                     <lb/>En <orgName ref="org003085">Conseil Étroit</orgName>, sous la présidence
+                     de <choice>
+                        <abbr>M<hi rend="sup">r</hi>
+                        </abbr>
+                        <expan>monsieur</expan>
+                     </choice>
+                     <persName ref="per008769">Samuel Wavre</persName>, <choice>
+                        <abbr>M<hi rend="sup">tre</hi>.</abbr>
+                        <expan>maître</expan>
+                     </choice>
+                     <choice>
+                        <abbr>B<hi rend="sup">gs</hi>.</abbr>
+                        <expan>bourgeois</expan>
+                     </choice> en chef </p>
+                  <p>
+                     <lb/>Monsieur le banneret <persName ref="per008767">de Meuron</persName>,
+                     agissant au nom du <lb/>sieur <persName ref="per008768">Fréderic Perret
+                        Gentil</persName>
+                     <placeName ref="loc007795">du Locle</placeName>, bourgeois de <placeName
+                        ref="loc005950">Vallangin</placeName>, <lb/>a demandé, et prié <orgName
+                        ref="org003085">messieurs du Petit Conseil</orgName> sous la présidence
+                     <lb/>de monsieur <persName ref="per008769">Samuel Wavre</persName> maître
+                     bourgeois en chef de lui <lb/>donner une déclaration de la coutume sur les
+                     trois points <lb/>suivants. </p>
+                  <p>
+                     <lb/>1<hi rend="sup">o</hi>. Si une femme est obligée de payer les dettes de
+                     son mari mort <lb/>depuis <date dur="P10Y">dix ans</date>, sans qu’il y ait eu
+                     des enfants nés de leur mariage, <lb/>ladite veuve ne s’étant jamais engagé ni
+                     par promesses, <lb/>ni par cautionnements&#160;; peut-elle se flatter que la
+                     prescription <lb/>des dettes de feu son mari est certaine et précise en sa
+                     <lb/>faveur.</p> <p><lb/>2<hi rend="sup">o</hi>. Si une femme, dans un cas pareil à
+                     celui cy dessus, ayant <lb/>imploré la prescription, il y ait eu de sentence
+                     prononcée <lb/>contre elle.</p> <p><lb/>3<hi rend="sup">o</hi>. On demande encore
+                     quels sont les usages pratiqués pour <lb/>dissoudre un testament. </p>
+                  <p>
+                     <lb/>Surquoi, <orgName ref="org003085">mesdits sieurs du Conseil
+                        Étroit</orgName>, ayant eu avis <lb/>par ensemble, ont donné par
+                     déclaration. </p>
+                  <p>
+                     <lb/>Sur le premier point. Que par la loi de <date when="1655"
+                              >1655</date><note>Voir <bibl><ref
+                              target="https://www.ssrq-sds-fds.ch/online/NE_1/index.html#p_320">SDS
+                              NE 1, n<hi rend="sup">o</hi>&#160;138.</ref></bibl></note>, toute
+                     <lb/>dette est déclarée éteinte et prescrite au bout de <date dur="P10Y">dix
+                        ans</date>, à quoi <lb/>la pratique constante et diverses déclarations de la
+                     coutume <lb/>et entr’autres la loi de <date when="1733"
+                              >1733</date><note><bibl><ref
+                              target="https://www.ssrq-sds-fds.ch/online/NE_1/index.html#p_320">Voir
+                              SDS NE 1, n<hi rend="sup">o</hi>&#160;150.</ref></bibl></note> ont
+                     apporté pour restriction <lb/>que les personnes vivantes ayant contracté ne
+                     peuvent se servir <lb/>de la dite prescription de <date dur="P10Y">dix
+                        ans</date>. </p>
+                  <p>
+                     <lb/>Sur le second. Qu’il n’est pas dans la nature des <lb/>déclarations que
+                     l’on donne de la coutume, de prendre en objet <lb/>les décisions que des
+                     circonstances particulières ont pu dicter <lb/>aux tribunaux. Toutes fois, il
+                     n’ont aucune connoissance <lb/>de sentences ou arrêts qui, dans le cas de la
+                     déclaration cy <lb/>dessus donnée, n’ayant fait sortir effet à la dite
+                     prescription <lb/>de <date dur="P10Y">dix ans</date>. </p>
+                  <p>
+                     <lb/>Sur le troisième. Ne peuvent prendre en objet les <lb/>spécialités des
+                     divers cas que présente cette question, <term ref="lem015002">lesquelles
+                        <lb/>ne sont pas de nature à entrer dans une déclaration <lb/>de la
+                        coutume</term>. <lb/><add place="below" type="catchword">Laquelle</add>
+                  </p>
+                  <pb n="87v" facs="AVN_B_101.14.002_0087v"/>
+                  <p>
+                     <lb/>Laquelle déclaration ainsi rendue, il a été ordonné au <lb/>secrétaire du
+                     Conseil de l’expédier en cette forme, sous le <lb/>sceau de la mairie et
+                     justice de cette Ville. À <origPlace ref="loc007786">Neuchatel</origPlace>,
+                     <lb/>le <origDate when="1799-05-15">quinzième may mil sept cent quatre vingt
+                        dix neuf</origDate>. </p>
+               </div>
+               <div>
+                  <lb/>
+                  <signed>
+                     <persName ref="per008723">
+                        <choice>
+                           <abbr>A</abbr>
+                           <expan>Abram</expan>
+                        </choice> Pettavel</persName>
+                     <figure type="notarial sign"/></signed>
+               </div>
+            </body>
+         </text>
+      </group>
+   </text>
+</TEI>

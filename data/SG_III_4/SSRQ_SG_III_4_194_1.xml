@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-08-15"/>
+            <date type="print"/>
+            <availability><p xml:id="facs">Sibylle Malamud</p></availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_194_1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno source="https://archivverzeichnis.gl.ch/home/#/content/5c0f15d47ced43c08b82cec04a86675b">LAGL AG III.2421:002</idno>
+               </msIdentifier>
+               <head>Erkenntnis von Glarus über vier Beschwerdepunkte der Einwohnerschaft von Werdenberg («Freiheitsbrief»)</head>
+               <msContents>
+                  <summary>
+                     <p>Landammann und Rat von Glarus ergänzen die Rechtsordnung in Werdenberg, nachdem
+                    		Landeshauptmann Mathias Forrer und Säckelmeister Christian Müntener mit Beistand der
+                     			beiden Landvögte Johann Peter Elmer und Kaspar Iseli vor ihnen erschienen sind und sich
+                    			beklagt hatten, dass künftig die Landvögte weder Pferde noch Vieh auf der Allmend weiden
+                     			lassen und kein Holz aus dem Bannwald und den Rheinauen schlagen dürfen. Zuzüger aus
+                     			Glarus haben bei der jeweiligen Gemeinde ein Gesuch um Aufnahme zu stellen. Wer solche
+                    			Leute wider Erlaubnis der Gemeinde beherbergt, soll allenfalls für deren Schulden
+                     			aufkommen. Bezüglich Festlegung von Atzungs- und anderen Nutzungsrechten soll jede
+                   			Gemeinde freie Hand haben.</p> 
+                  </summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <author role="scribe"><persName ref="per009918">Johann Melchior Müller</persName>, Landschreiber</author>
+                     <filiation type="current">Original</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Pergament</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="48.5"/>
+                              <width unit="cm" quantity="60.0"/>
+                           </dimensions>
+                           <dimensions type="plica">
+                              <width unit="cm" quantity="5.5"/>
+                           </dimensions>
+                        </extent>
+                        <condition>kassiert</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <sealDesc>
+                     <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI"
+                           n="1"
+                           nontei:condition="absent"
+                           nontei:attachment="sealed on a parchment tag">
+                        <orgName role="sigillant" ref="org001197">Glarus</orgName>
+                     </seal>
+                  </sealDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1667-01-17" calendar="Julian"/>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head>Regesten</head>
+                     <bibl><ref target="http://permalink.snl.ch/bib/chbsg000142777">Senn, Chronik</ref>, S. 161</bibl>
+                     <bibl><ref target="http://permalink.snl.ch/bib/chbsg000113548">Schindler 1986</ref>, S. 148</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000180">Landvogt</term>
+               <term ref="key000445">Landmann</term>
+               <term ref="key000298">Vieh</term>
+               <term ref="key000307">Allmend</term>
+               <term ref="key000336">Nutzung</term>
+               <term ref="key003217">Freiheit</term>
+               <term ref="key004192">Wohnortswechsel</term>
+               <term ref="key000619">Freiheitsbrief</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb facs="LAGL_AG_III.2421_002"/>
+               <div org="uniform" sample="complete">
+                  <p>
+                     <seg>
+                        <lb/>Wir, landtamman unnd gantz gesessner ratth zuo <orgName ref="org003239"
+                           >Glaruß</orgName>, urkhunden <lb/>unnd bekhennend hiemitt dißren brieff,
+                        daß auff hütt zuo endtgesetzten dattums vor unß kommen und erschinnen die
+                        frommen, ehrenevesten <term ref="lem000775">landtshau<lb break="no"
+                           />ptman</term>
+                        <persName ref="per009913">Mathias Forer</persName>, so danne <term
+                           ref="lem001645">seckhellmeister</term>
+                        <persName ref="per009914">Christen Mündtener</persName> alß ußgeschoßne von
+                        unnßeren lieben unnd gethreüwen der graffschafft <orgName ref="org003242"
+                           >Werdenberg</orgName> unnd mit bystandt <lb/>herren landtvogt <persName
+                           ref="per002248a">Johann Peter Ellmer</persName> unnd herren landtvogt
+                           <persName ref="per009566a">Caspar Ißelis</persName> in unnderthänigkheit
+                        mit bezimmendem respect nachvolgende vier puncten anbringen laßen:</seg>
+                     <seg>Erstlich, daß <lb/>jetz bey etwelchen jahren haro ervolgt unnd geschächen,
+                        daß unnßer zue <placeName ref="loc000440">Werdenberg</placeName> regierende
+                        landtvögt <term ref="lem001069">roß</term> unnd anderß <term ref="lem000310"
+                           >vich</term>
+                        <abbr>etc</abbr> uff die gemein <term ref="lem008239">tratten</term>
+                        getriben.</seg>
+                     <seg>Zum anderen <lb/>haben sey auch zuo zeiten ohngefragt unnd erlaubt der
+                        gmeinden <term ref="lem000759">holtz</term> inn <term ref="lem001147.19">ban
+                           welderen</term> unnd in den <term ref="lem001528">auwen</term> hauwen
+                        unndt hinweg nemmen laßen.</seg>
+                     <seg>Drittens ziechen mithin leüth <lb/>uß unnßerem landt inn die graffschafft
+                           <placeName ref="loc000440">Werdenberg</placeName>, laßen sich ohnbegrüöst
+                        unnd begönstigett der gmeinden <term ref="lem000742">haußhäblich</term>
+                        nider. Ja, dan auch den <term ref="lem007170">inzug</term> oder daß <term
+                           ref="lem015713.02">sitzgelt</term>
+                        <lb/>unnd inn andere weeg eineß <term ref="lem000745.06">hindersäßen</term>
+                        schuldigkheit zue erstatten sich widersezen, mit vermelden, weill sey, von
+                           <placeName ref="loc000326">Glaruß</placeName>, sey befuogsamme haben,
+                        ohnbefragt sich daselbsten hinzuosezen <lb/>unnd habe man ihnen ni<damage
+                           agent="fold">cht</damage>s zuozuomuothen. Item eß sige auch diße
+                        beschwärlikheit mit erloffen, daß vor demme ein oder die andere inn der
+                        gemeinden persohnen, welche ohnne gesuochte <lb/>unnd gehabte erlaubnuß inn
+                        ein <term ref="lem006896">gemeindt</term> gezogen, <term ref="lem003476"
+                           >beherberget</term>, die dan <term ref="lem000037">schulden</term>
+                        gemacht, so volgendts abzuostatten etwan uff die gmeinden gewachßen. Haben
+                        alßo inn angelegenlichen nach<lb break="no"/>denckhen nothwendig befunden,
+                        daß geordnet werde, daß, wan inen daß künfftig der gestalten einem oder dem
+                        anderen inn den gmeinden <term ref="lem014132">unnderschlauff</term> gegeben
+                        werde unnd solche ehrliche leüth <lb/>ansetzen theten, die, so seye
+                        beherberget, solche schulden ohne zuo thuon der gmeinden abstatten solten.
+                        Unnd sithomahllen dißere ding den gmeinden hoch beschwarlich, altem
+                        harkhommen, ihrenn <lb/>freyheiten unnd rächtsammenen entgegen, ja, ihnen
+                        schädlich unnd nachtheillig, seye nit umbgehen können unnd deßen nit allein
+                        inn unnderthänigkheit berichten, sonderen auch inn höchster an<lb break="no"
+                        />gelegenheit pitten zuo laßen, wie hiemit beschäche, hierein hoch
+                        oberkheitliche <term ref="lem004302">remedierung</term> zuothuon, solche
+                        ingerißne beschwärlikheiten abzuoschaffen unnd zuomahlln sey bey altem
+                           har<lb break="no"/>khommen, freyheiten unnd rächtsammenen vätterlich zuo
+                           <term ref="lem002893">manutenieren</term> unnd zuo schirmen.</seg>
+                     <seg>Viertenß, dan beschäche auch, daß wan die ein oder andere <term
+                           ref="lem006896">gmeindt</term> der gmeinen <term ref="lem001167"
+                           >atzungen</term> oder <lb/>anderer sachen halb guot unnd nutzliche unnd
+                        zuo mahllen billiche <term ref="lem000809">ordnungen</term> unnder einem
+                           <term ref="lem000266">landtvogt</term> machen, selbige doch nit lenger
+                        bestandt haben, alß biß selbiger landtvogt ab<lb break="no"/>reyte unnd ein
+                        anderer khomme. Dan allwegen alß dan leüth den neüwen landtvögten nach
+                        lauffen unnd nit nachlaßen, biß sey ein zerrüttung zue wegen bringen,
+                        dardurch sye in ohnn<lb break="no"/>ordnung unnd cösten gestürzt werden. Hie
+                        mit auch ihr unnderthänige pitt seige, wyr wollen die könfftig vorsechung
+                        thuon, daß, wan fürohin ein oder die andere gmeindt ihrer nutz<lb break="no"
+                        />barkheiten halber ordnungen stellen unnd machen, bey denen sey sich wohll
+                        befinden, selbige beharlichen bstandt haben unnd sey ein landtvogt nit zur
+                        verenderung richten, sonderen <lb/>einfaltig den gmeinden überlaßen solle,
+                        solche zuobehalten unnd ihrem guotbedunckhen nach zuo disponieren.</seg>
+                     <seg>Wan dann wyr dißere articull unnd die gantze bewantnuß reyfflich erdau<lb
+                           break="no"/>ret unnd erwogen, wyr befunden, gesagt der unnßeren der
+                        graffschafft <orgName ref="org003242">Werdenberg</orgName> pitten unnd
+                        begehren nit wider die billigkheit.</seg>
+                     <seg n="1">Inn ansehung, auch in dem oberkheitlichen <term ref="lem000372"
+                           >urber</term>
+                        <lb/>ordenlich von stuckh zuo stuckh specificiert, waß unnßeren <term
+                           ref="lem000266">landtvögten</term> zuo <placeName ref="loc000440"
+                           >Werdenberg</placeName> zuo genießen stande, aber nit darinnen begriffen,
+                        daß sye befuogsamme haben, sich der gmei<lb break="no"/>nen <term
+                           ref="lem008239">tratten</term> einicher gestalten weder mit <term
+                           ref="lem001069">roßen</term> noch anderem <term ref="lem000310"
+                           >vich</term> genoß zuo machen oder <term ref="lem000598"><add
+                              place="above">brän</add>holtz</term> inn <term ref="lem001147.18"
+                           >banwelderen</term> unnd <term ref="lem001528">auwen</term> hauwen unnd
+                        hinweg nemmen zuo laßenn. <lb/>Deßetwegen wir unnßer erkhantnuß dahin
+                        gerichtet unnd wolle geredte, unnßer angehörige der graffschafft <placeName
+                           ref="loc000440">Werdenberg</placeName> bey ihren rächtsammenen unnd
+                        freyheiten hoch oberkheitlich <lb/>schirmen.</seg>
+                     <seg n="2">Inn mäßen zuo künfftigen zeiten unnßere <term ref="lem000266"
+                           >landtvögt</term> daselbsten weder <term ref="lem001069">roß</term>,
+                           <term ref="lem000833.02">rinder</term> noch <term ref="lem001393"
+                           >schmahllvich</term> uff die gmeinen <term ref="lem008239">tratten</term>
+                        nit zuotreiben, auch einicher gattung <term ref="lem000759">holtz</term> inn
+                        <lb/>denn <term ref="lem001147.18">banwelderen</term> unnd <term
+                           ref="lem001528">auwen</term> zuo hauwen unnd hinweg zuo nemmen sich
+                           unnderf<damage agent="fold">an</damage>gen, sondern die unnderthonen deß
+                        orthß ohne beschw<damage agent="fold">ert</damage> laßen sollen.</seg>
+                     <seg n="3">Drittenß, die jenige betreffend, <lb/>so uß unnßerem landt inn die
+                        graffschafft <placeName ref="loc000440">Werdenberg</placeName> ziechen unnd
+                        daselbsten wohnen wolten, solle einiche person uß unnßerem landt deßen <app>
+                           <lem><subst><del>ewigerß</del>
+                                 <add place="overwritten">einigeß</add></subst></lem>
+                           <rdg wit="StAZH A 247.8.1, Nr. 4">eigenes</rdg>
+                        </app> gewaltß befüögt sein, <lb/>inn betrachtung, eß dem harkhommen unnd
+                        die befuogsamme zuowider. Sonderen wan jemandt begehrte unnd lust haben
+                        thete, in ein oder die anndere gemeindt daselbsten zuozüchen, <lb/>selbige
+                        ein <term ref="lem006896">gmeindt</term> darumb begrüößen unnd anhalten
+                        sollen, da dan bey der gmeindt belieben, willkhur unnd erkhantnuß stohn
+                        solle, einen anzuonemmen oder abzuowyßen. <lb/>Unnd waß seye deß orths
+                        erkhennen, darbey soll eß gentzlicheß verbleiben haben. Demnach, wan leüth
+                        inn ein oder der anderen gmeindt zuochin ziechenden personen, denen ein
+                        gemeindt <lb/>den bey oder <term ref="lem015714.02">hindersitz</term> nit
+                        erlaubt, beherbergen thete unnd selbige ehrliche leüth ansezen unnd nit
+                        zallen wurden, alß dan die jenigen, so ihnen <term ref="lem014132"
+                           >unnderschlauff</term> gegeben, ohne zuothuon der gmeinden <lb/>selbige
+                           <term ref="lem000037">schulden</term> abzuostatten unnd zuebezallen
+                        sollen verpflichtet unnd schuldig sein.</seg>
+                     <seg n="4">Anbelangende den letsten puncten, solle jeder gmeindt heim geben
+                        sein, ihrer <term ref="lem001167">atzungen</term> unnd gmeine <term
+                           ref="lem002706">nutzungen</term>
+                        <lb/>halber <term ref="lem000809">ordnungen</term> mit einanderen zuostellen
+                        unnd anzuonemmen, wie sey finden, eß billich unnd im nutzlichist besten seye
+                        unnd so lang solche zuobehalten, alß es ihnen gefallen wirt unnd sey sich
+                        <lb/>wohll darbey befinden. Unnd sollen unnßere landtvögt ihnen einichen
+                        anlaß oder antrib zur zerreütung unnd verenderung nit thuon, sonderen
+                        hierein den gemeinden die dispositionn <lb/>gentzlichen überlaßen.<note
+                           anchored="true">In der <term ref="key005257">Remedur</term> von <date
+                              when="1725">1725</date> wird dieses Recht der Gemeinden deutlich
+                           eingeschränkt, vgl. <ref>SSRQ_SG_III_4_216</ref>,
+                        Art.  5.</note></seg>
+                     <seg>Inn krafft unnd zuo wahrem urkhunndt deßen, haben wyr unnßers landt secret
+                        insigell, doch unnß ann unnßeren hochheit, rächten unnd ge<lb break="no"
+                        />rächtigkheiten inn allweg ohne nachtheill unnd schaden, mit der heiteren
+                        erleüterung, so lang daß sey, dißere unnßere gnadt nit miß brauchen,
+                        offentlich henckhen laßen ann di<lb break="no"/>ßeren brieff, der geben
+                        donstags, den <origDate when="1667-01-17" calendar="Julian">17. tag januarii
+                           anno 1667</origDate>.</seg>
+                  </p>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab type="chancery notation" place="sub plica">
+                     <lb/><persName ref="per009918">Johann Melchior Müller</persName>,
+                     <lb/>landtschriber daßelbsten</ab>
+               </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div org="uniform" sample="complete">
+            <p>Die Urkunde besitzt den gängigen Namen «<term ref="key000619">Freiheitsbrief</term>»
+               (so z. B. bei <bibl><ref target="http://permalink.snl.ch/bib/chbsg000142777">Senn,
+                     Chronik</ref>, S. 161</bibl> oder <bibl><ref
+                     target="http://permalink.snl.ch/bib/chbsg000143946">Beusch 1918</ref>,
+                  S. 28</bibl>), der jedoch irreführend ist, da die <orgName ref="org001197"
+                  >Glarner</orgName> Erkenntnis durch die Regelung der Kompetenzen eines <term
+                  ref="key000180">Landvogts</term> in erster Linie die <term ref="key004966"
+                  >Gemeinden</term> und Bewohner von <orgName ref="org003242">Werdenberg</orgName>
+               vor Übergriffen der Landvögte schützt. Zudem werden Missstände, die sich durch den
+               Zuzug von Glarnern für die Werdenberger Gemeinden ergeben haben, aufgehoben. Die
+               Gemeinden erhalten nicht erst mit dieser Urkunde das Recht, eigene Ordnungen über
+               ihre Allmenden, Alpen und gemeinen Nutzungen zu erstellen, wie dies in der Literatur
+               suggeriert wird (<bibl><ref target="http://permalink.snl.ch/bib/chbsg000143946"
+                     >Beusch 1918</ref>, S. 28</bibl> oder <ref
+                  target="http://permalink.snl.ch/bib/chbsg000142793">Winteler 1923</ref>, S. 51).
+               So erneuert <orgName ref="org001834">Sevelen</orgName>
+               <date when="1653">1653</date> ihren bereits früher erstellten <term ref="key004797"
+                  >Legibrief</term> selbstständig, doch mit Wissen des Landvogts
+                  (<ref>SSRQ_SG_III_4_184</ref>). Vielmehr reiht sich dieser «Freiheitsbrief»
+               nahtlos in die weiteren Reformen der Glarner in <placeName ref="loc000440"
+                  >Werdenberg</placeName> zu jener Zeit ein, die versuchen, den diversen Missständen
+               in der Verwaltung und den <term ref="key005172">Amtsmissbräuchen</term> oder
+               Einmischungen der Landvögte zugunsten der Einwohner entgegenzuwirken
+                  (<ref>SSRQ_SG_III_4_181</ref>; <ref>SSRQ_SG_III_4_185</ref>). </p>
+         </div>
+         <div org="uniform" sample="complete">
+            <p>Die Urkunde spielt im <term ref="key004776">Werdenberger Landhandel</term> zusammen mit anderen
+     Dokumenten eine wichtige Rolle und wurde im Zuge dieser Auseinandersetzung kassiert (siehe dazu
+     ausführlich <ref>SSRQ_SG_III_4_216</ref>). </p>
+         </div>
+      </back>
+   </text>
+</TEI>

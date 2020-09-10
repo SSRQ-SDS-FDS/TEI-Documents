@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-08-15"/>
+            <date type="print"/>
+            <availability><p xml:id="facs">Sibylle Malamud</p></availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_225</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>StASZ HA.IV.404, Nr. 76</idno>
+               </msIdentifier>
+               <head>Blutgerichtsordnung, wie der Landtag (Blutgericht) in Gams gehalten werden soll</head>
+               <msContents>
+                  <summary><p>Blutgerichtsordnung von Gams: Sobald sich die Richter im Gericht eingefunden haben, hält
+   der Landvogt als oberster Richter eine kurze Rede und fragt, ob er nach kaiserlichen Rechten und
+   eidgenössischer Gewohnheit über das Blut richten möge. Nach der Umfrage setzen sich die Richter,
+   der Landvogt verbannt das Gericht und danach beginnt der formalisierte Ablauf des Gerichts bis
+   zur Urteilsverkündigung, zur Exekution und Aufhebung des Gerichts.</p></summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <filiation type="current">Aufzeichnung (Doppelblatt)</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="34.0"/>
+                              <width unit="cm" quantity="21.5"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1741-11-18"/>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000180">Landvogt</term>
+               <term ref="key000179">Eid</term>
+               <term ref="key003291">Verbrecher</term>
+               <term ref="key000641">Henker</term>
+               <term ref="key000044">Hochgericht</term>
+               <term ref="key003037">Gerichtsverfahren</term>
+               <term ref="key000613">Formeln</term>
+               <term ref="key004397">Hochgerichtsprozessordnung</term>
+            </keywords>
+         </textClass>
+         <particDesc/>
+         <settingDesc/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb facs="StASZ_HA.IV.404_Nr._76_1r"/>
+               <div>
+                  <p><seg><head>Form und
+                     weiß, <lb/>wie zu <placeName ref="loc000211">Gamß</placeName> könfftighin die <term
+                        ref="lem006066">landttäg</term> sollen gehalten werden, <lb/>dahin von beyden <choice><abbr>lobl</abbr>
+                           <expan>loblichen</expan>
+                        </choice> orthen <orgName ref="org001191">Schweitz</orgName> und <orgName ref="org001197"
+                           >Glaruß</orgName> die <lb/><term ref="lem001504">abgesanten</term> zu der <term
+                              ref="lem004431">execution</term> abgeschickht werden</head></seg></p>
+                  <p>
+                     <lb/>1.<hi rend="sup">mo</hi> Nach dem die <term ref="lem000342">richter</term> an dem orth,
+                     wo daß <term ref="lem005841">gericht</term> befohlen <lb/>zu versamlen, sich einbefunden,
+                     macht der <term ref="lem000266">landtvogt</term> als <lb/><term ref="lem016340">oberster
+                        richter</term> ein kurtze red, umb zu verdeüten, warumb <lb/>mann versamlet.</p>
+                  <p>
+                     <lb/>2. Ob die richter ihre sitz auf den <term ref="lem016913.02">richterstüelen</term>
+                     nemmen, <lb/>haltet der oberst richter die <term ref="lem000802">umbfrag</term>, ob er möge
+                     sitzen und <lb/>über daß <term ref="lem000046">bluoth</term> richten nach <term
+                        ref="lem018816">kayserlichen rechten</term> und <lb/><orgName ref="org000531"
+                           >Eydgnössen</orgName>
+                     <term ref="lem001670">breüchen</term>, uebungen und gerechtigkeiten.</p>
+                  <p>
+                     <lb/>3. Nachdemme eß durch ein umbfrag bejaet, setzen sich die <lb/><term ref="lem000342"
+                        >richter</term> auf ihre <term ref="lem003788">stüel</term>.</p>
+                  <p>
+                     <lb/>4. Der <term ref="lem016340.01">oberste richter</term> ziechet sein <term
+                        ref="lem001950">degen</term> auß der <term ref="lem007142">scheid</term>, <term
+                           ref="lem001637">verbant</term>
+                     <lb/>daß gericht bey dem <term ref="lem000070">eyd</term>, daß keiner solle auffstehn noch
+                     <lb/>hinweg gehn, biß urtel und recht vollzogen, jedoch <lb/>gotteß gewald und ehrhaffte noth
+                     vorbehalten.</p>
+                  <p>
+                     <lb/>5. Der <term ref="lem016340.01">oberste richter</term> fragt, ob jemand gericht und
+                     grecht <lb/>begehre old verlange.</p>
+                  <p>
+                     <lb/>6. Der <term ref="lem016339.01">grossweibel</term><note>Hier ist wohl der <term
+                        ref="key000324">Landweibel</term> gemeint.</note> tritt hervor, verlanget recht über ein
+                     <lb/><term ref="lem014779">misethätter</term> imm nahmen der hochheiten und begerth <lb/>ein
+                     <term ref="lem000518.11">vorsprech</term>.</p>
+                  <p>
+                     <lb/>7. Welches ihme in einer <term ref="lem000802">umbfrag</term> bewilliget wird und
+                     <lb/>verlanget den <abbr>h</abbr>
+                     <term ref="lem002720.22">ehren gsanten</term> von <placeName ref="loc000730"
+                        >Schweitz</placeName>, der sich entschuldiget.</p>
+                  <p>
+                     <lb/>8. Wird aber durch ein umbfrag darzu angehalten.</p>
+                  <p>
+                     <lb/>9. Behaltet ihmme vor, sich zu vorsprechen zu lassen für daß erste, <lb/>ander und
+                     dritte mahl, so vil eß von nöthen.</p>
+                  <p><pb n="1v" facs="StASZ_HA.IV.404_Nr._76_1v-2r"/>
+                     <lb/>10. Deß <term ref="lem016339.01">grossweibels</term>
+                     <term ref="lem000518.11">vorsprech</term> bittet umb ein rath, werden <lb/>ihmme zwey <term
+                        ref="lem000342">richter</term> erlaubt, so mit ihmme zu rath gehn <lb/>in einem <term
+                           ref="lem012960">abtritt</term>.</p>
+                  <p>
+                     <lb/>11. Im zurugg kommen begerth er, daß mann denn <term ref="lem001472">malificanten</term>
+                     <lb/>vorstelle, so auch geschichet.</p>
+                  <p>
+                     <lb/>12. Deß <term ref="lem016339.01">grossweibels</term> vorsprech traget ihmme vor seine
+                     <term ref="lem003664">verbrechen</term>.</p>
+                  <p>
+                     <lb/>13. Der <term ref="lem010528">arme sünder</term> bittet umb einen vorsprech, welches
+                     ihmme <lb/>begünstiget, begert den <abbr>h</abbr> ehren gesanten von <placeName
+                        ref="loc000326">Glaruß</placeName>, <lb/>welcher sich entschuldiget, wird aber durch ein
+                     umb<lb break="no"/>frag darzu gehalt und mit einem <term ref="lem000857">mehr</term>
+                     bestättet.</p>
+                  <p>
+                     <lb/>14. Der <term ref="lem000518.11">vorsprech</term> dess <term ref="lem004394"
+                        >delinquenten</term> begerth auch ein <term ref="lem000346">rath</term>
+                     <lb/>von zwey <term ref="lem000342">richtern</term>, so ihmme bewilliget werden.</p>
+                  <p>
+                     <lb/>15. Trittet mit selbigen und dem <term ref="lem010528">armen sünder</term>, so wohl
+                     <lb/>verwareth, ab.</p>
+                  <p>
+                     <lb/>16. Bey ruggkonfft begehret er seineß <term ref="lem000070">eyds</term> entbunden
+                     <lb/>zu sein, welches auch geschicht.</p>
+                  <p>
+                     <lb/>17. Der <term ref="lem000518.11">vorsprech</term> deß <term ref="lem016339.01"
+                        >grossweibelß</term> begehret, daß der gantze <lb/>process deß <term ref="lem001472.04"
+                           >malificanten</term>
+                     <term ref="lem001052">abgelessen</term> werde.</p>
+                  <p>
+                     <lb/>18. Deß <term ref="lem010528">armen sünders</term> vorsprech widerspricht eß und sagt
+                     <lb/>dem vorsprech deß <term ref="lem016339.01">grossweibels</term>, er solle eß <term
+                        ref="lem001466">mündtlich</term>
+                     <lb/>thuon, welches auch kürtze halber mehristenß geschichet <lb/>durch ein auszug, so er von
+                     dem gantzen <term ref="lem001523">process</term> seiner <lb/>begangenen <term ref="lem001854"
+                        >misethatten</term> gemacht hat.</p>
+                  <p>
+                     <lb/>19. Dess <term ref="lem010528">armen sünders</term> vorsprech entschuldiget ihne, so
+                     guet er kan.</p>
+                  <p>
+                     <lb/>20. Der vorsprech dess grossweibels auff <term ref="lem000987">laib und
+                        leben</term>.</p>
+                  <pb n="2r" facs="StASZ_HA.IV.404_Nr._76_1v-2r"/>
+                  <p>
+                     <lb/>21. Der vorsprech deß armen sünders bittet für ihnne umb <term ref="lem000999"
+                        >gnad</term>.</p>
+                  <p>
+                     <lb/>22. Deß <term ref="lem016339.01">grossweibels</term>
+                     <term ref="lem000518.11">vorsprech</term> falt ein <term ref="lem003798.06">sentzentz</term>
+                     nach scharpfe der rechten.</p>
+                  <p>
+                     <lb/>23. Der <term ref="lem000518.11">vorsprech</term> deß <term ref="lem010528">armen
+                        sünders</term> gibet der sententz nach aller milte.</p>
+                  <p>
+                     <lb/>24. Die <term ref="lem000802">umbfrag</term> wird bay den <term ref="lem000342"
+                        >richtern</term> gehalten, so alle begehren, <lb/>daß der <term ref="lem003798.05"
+                           >setentz</term> bey den hochen eröffnet und abgelesen werde.</p>
+                  <p>
+                     <lb/>25. Welches geschichet und gibet <abbr>h</abbr> landtvogt einem sein beyfahl, <lb/>wann
+                     solche nicht gleich lauthet.</p>
+                  <p>
+                     <lb/>26. Auf welches, weilen ein <term ref="lem001202">todtsurthel</term>, <abbr>h</abbr>
+                     <term ref="lem000266">landtvogt</term>
+                     <term ref="lem016341">den staab <lb/>bricht</term>, dem <term ref="lem010528">armen
+                        sünder</term> für die <term ref="lem005198">füess</term> würfft und ihmme <lb/>anzeigt, was
+                     <term ref="lem000233">todts</term> er sterben solle.</p>
+                  <p>
+                     <lb/>27. Der <term ref="lem004390">scharpfrichter</term> wird berueffen, daß urtheil ihmme
+                     angezeigt <lb/>und der arme sünder zur <term ref="lem004431">execution</term> ihmme in die
+                     hände <lb/>übergeben.</p>
+                  <p>
+                     <lb/>28. Mann hat zu vor ein <term ref="lem000523">reichßvogt</term><note>Hier wird ein
+                        veralteter Begriff übernommen. Es ist der Landvogt gemeint.</note>
+                     <term ref="lem000406">erwellet</term>, so dem armen <lb/>sünder vorreithet mit seinem <term
+                        ref="lem001915">schwerth</term> in der hand, der <lb/><term ref="lem004431">execution</term>
+                     beywohnet und die vollziechung dem <lb/>richter überbringet.</p>
+                  <p>
+                     <lb/>29. Als dann <choice>
+                        <abbr>dh</abbr>
+                        <expan>der herr</expan>
+                     </choice> landtvogt als <term ref="lem016340.01">oberster richter</term> daß <lb/>bey dem
+                     <term ref="lem000070">eyd</term> gebanete <term ref="lem004395.04">bluethgericht</term>
+                     aufhebt und <lb/>nach einer <term ref="lem000802">umbfrag</term> alles aufstehet und
+                     ausein<lb break="no"/>andern gehet.</p>
+                  <p>
+                     <lb/>Dise <term ref="lem016343.01">form und ordnung</term>, ein <term ref="lem006066"
+                        >landtag</term> zu <placeName ref="loc000211">Gamß</placeName>
+                     <lb/>zu halten, ist von allhiesigem orth <orgName ref="org001191">Schweitz</orgName>
+                     <term ref="lem004120.03">placidiert</term>
+                     <lb/>worden, den <origDate when="1741-11-18">18.<hi rend="sup">ten</hi> 9bris
+                        1741</origDate>,</p>
+                  <p>
+                     <lb/>cantzley <origPlace ref="loc000731">Schweitz</origPlace>. </p>
+               </div>
+               <pb facs="StASZ_HA.IV.404_Nr._76_2v"/>
+               <div>
+                  <ab type="dorsal" place="verso" hand="hand18c"><lb/>Form und weiß, <lb/>wie könfftighin
+                     <lb/>die <term ref="lem006066">landttäg</term> sollen <lb/>zu <placeName ref="loc000211"
+                        >Gams</placeName> gehalten <lb/>werden, dahin von <lb/>beyden <choice>
+                           <abbr>lobl</abbr>
+                           <expan>loblichen</expan>
+                        </choice> orthen <orgName ref="org001191">Schweitz</orgName>
+                     <lb/>und <orgName ref="org001197">Glaruß</orgName> die <abbr>hh</abbr> abgesanten  zu der
+                     <term ref="lem004431">execution</term> abge<lb break="no"/>schickht werden</ab>
+               </div>
+                  
+            </body>
+         </text>
+      </group>
+      <back>
+         <div n="1">
+            <p>Die Hochgerichtsform schildert den Ablauf einer <term ref="key000892"
+                  >Verhandlung</term> des <term ref="key000044">Hochgerichts</term> in der
+               Herrschaft <placeName ref="loc006040">Hohensax-Gams</placeName>. Das formalisierte
+               Verfahren ist im Vergleich zu älteren Hochgerichtsformen kürzer und deutlich
+               vereinfacht, vgl. z.&#160;B. die Hochgerichtsform von <placeName ref="loc000326"
+                  >Glarus</placeName> (<bibl><ref
+                     target="https://www.ssrq-sds-fds.ch/online/GL_1.1/index.html#p_242">SSRQ
+                     GL&#160;1.1, Nr.&#160;105</ref></bibl>) oder <placeName ref="loc000440"
+                  >Werdenberg</placeName> (<bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/8f5e161edea24131b13f51ff22e11599"
+                     >LAGL AG&#160;III.2462:012</ref></bibl>, gedruckt bei <bibl><ref
+                     target="http://permalink.snl.ch/bib/chbsg000142658">Senn,
+                  Gerichts-Form</ref></bibl>). Das Verfahren lässt kaum Rückschlüsse auf die <term
+                  ref="key004759">Verfassung</term> des Hochgerichts in <placeName ref="loc006040"
+                  >Hohensax-Gams</placeName> zu. Aus der Hochgerichtsform wird jedoch ersichtlich,
+               dass der <term ref="key000180">Landvogt</term> als oberster <term ref="key000103"
+                  >Richter</term> das <term ref="key000057">Gericht</term> eröffnet, bei einem <term
+                  ref="key000604">Todesurteil</term> den Gerichtstab zerbricht und das Gericht
+               schliesst. Der sog. Grossweibel, hier wohl der <term ref="key000324"
+                  >Landweibel</term>, tritt als <term ref="key004436">Ankläger</term> auf, dessen
+                  <term ref="key000304">Fürsprech</term> der <term ref="key000209">Gesandte</term>
+               von <placeName ref="loc000730">Schwyz</placeName> ist. Als Fürsprech des <term
+                  ref="key004437">Beklagten</term> tritt der <placeName ref="loc000326"
+                  >Glarner</placeName> Gesandte auf. Die beiden Fürsprecher geben je ein <term
+                  ref="key000683">Urteil</term> ab. Falls diese beiden nicht gleich lauten, steht
+               dem Landvogt der Stichentscheid zu (vgl. auch den Kommentar in
+                  <ref>SSRQ_SG_III_4_224</ref>). </p>
+            <p>Aus den wenigen Akten über vollstreckte Todesurteile in <placeName ref="loc006040"
+               >Gams</placeName> sowie aus den Ratsprotokollen der beiden Orte <orgName ref="org001191"
+                  >Schwyz</orgName> und <orgName ref="org001197">Glarus</orgName> wird ersichtlich, dass es sich
+               beim Hochgerichtsverfahren in <placeName ref="loc006040">Hohensax-Gams</placeName> nurmehr um
+               ein rein formales Gerichtsverfahren gehandelt hat. Landammann und Rat der beiden Orte geben je
+               ihre Urteile aus und schicken diese dem Landvogt im <placeName ref="loc000842"
+                  >Gaster</placeName>. Das Blutgericht in <placeName ref="loc006040">Hohensax-Gams</placeName>
+               übernimmt danach nur noch die formale Verurteilung nach den Vorgaben von <orgName
+                  ref="org001191">Schwyz</orgName> und <orgName ref="org001197">Glarus</orgName> (vgl. dazu
+               ausführlicher <ref>SSRQ_SG_III_4_224</ref>, Kommentar 1). Zerfallen die beiden Urteile von
+               <orgName ref="org001197">Glarus</orgName> und <orgName ref="org001191">Schwyz</orgName>, hat
+               der Landvogt im Gaster den Stichentscheid, Beifall genannt (<bibl><ref>StASZ HA.III.70</ref>,
+                  S.&#160;87</bibl> [p.&#160;298]).</p>
+            <p>Zum <term ref="key000151">Niedergericht</term> in der Herrschaft <placeName ref="loc006040"
+               >Hohensax-Gams</placeName> und zur <term ref="key000287">Appellation</term> an den Landvogt im
+               <placeName ref="loc000842">Gaster</placeName> vgl. <ref>SSRQ_SG_III_4_094</ref>.</p>
+         </div>
+         <div n="2"><p>Die Hochgerichtsform von <placeName ref="loc000440">Werdenberg</placeName> mit dem Originaltitel:
+                     <orig><term ref="lem016357.02">Hochgrichtsformb</term> etc. zuo <placeName
+                     ref="loc000440">Werdenberg</placeName></orig> wird am <date when="1690-05-11"
+                  >11. Mai 1690</date> von <persName ref="per010660">Johann Kaspar Elmer</persName>
+               aus dem Original abgeschrieben (<bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/8f5e161edea24131b13f51ff22e11599"
+                     >LAGL AG&#160;III.2462:012</ref></bibl>). Von der Hochgerichtsform existiert
+               jedoch eine ältere Abschrift im Landbuch im PGA&#160;Buchs (<bibl><ref>PGA&#160;Buchs
+                     B&#160;11.21-04, S.&#160;53–69</ref></bibl>). Das Landbuch ist von <persName
+                  ref="per010661a">Balthasar Streiff</persName> von <placeName ref="loc008519.01"
+                  >Diesbach</placeName> um <date when="1648">1648</date> verfasst worden, der es am
+                  <date when="1648-12-23">23. Dezember 1648</date>
+               <term ref="key000979">Schulvogt</term>
+               <persName ref="per009130a">Niklaus Engler</persName> (um 1610–†1673) von <placeName
+                  ref="loc007765">Oberräfis</placeName> (Sevelen) schenkte. Engler erweitert das
+               Landbuch um diverse Einträge, u.&#160;a. auch um die Hochgerichtsform. Dieser Eintrag
+               im Landbuch war die Vorlage für die gedruckte Ausgabe der Hochgerichtsform von
+                  <persName>Nikolaus Senn</persName> aus dem Jahr <date when="1874">1874</date>
+                     (<bibl><ref target="http://permalink.snl.ch/bib/chbsg000142658">Senn,
+                     Gerichts-Form</ref></bibl>). Die Werdenberger Hochgerichtsform ist viel
+               ausführlicher als die Gamser, da sie nicht nur die formalisierten Handlungen, sondern
+               auch die Reden und Antworten von Richter und Fürsprecher in allen Einzelheiten
+               verzeichnet. Nach Beusch und Winteler wurde sie 1592 nach glarnerischem Vorbild
+               verfasst (<bibl><ref target="http://permalink.snl.ch/bib/chbsg000143946">Beusch 1918,
+                     S. 42</ref></bibl>; <bibl><ref
+                     target="http://permalink.snl.ch/bib/chbsg000142793">Winteler 1923, S.
+                  48</ref></bibl>). Zum Hochgericht in Werdenberg vgl. auch
+                  <ref>SSRQ_SG_III_4_124</ref>.</p></div>
+      </back>
+   </text>
+
+</TEI>

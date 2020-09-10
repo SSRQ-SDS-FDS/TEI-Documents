@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="headerinfo"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <date type="electronic" when="2020-08-17"/>
+    <date type="print"/>
+    <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Collection des sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS_NE_3_056</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier>
+      <idno>AVN B 101.14.001, fol. 374r–374v</idno>
+     </msIdentifier>
+     <head>Priorité des créanciers</head>
+     <msContents>
+      <summary>Les créanciers sont admis à la faillite de débiteurs selon l’ordre imposé par la date
+       de l’hypothèque, sans se préoccuper de leur origine ou nationalité, ni du lieu où les
+       obligations ont été conclues.</summary>
+      <msItem>
+       <textLang>français</textLang>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="33"/>
+          <width unit="cm" quantity="23.5"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <origDate from="1600-02-28" to="1615-09-27" calendar="Julian"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>
+      </origin>
+     </history>
+     <additional>
+      <listBibl>
+       <head/>
+       <bibl/>
+      </listBibl>
+     </additional>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+
+     <term ref="key003331"></term>
+     <term ref="key004001"></term>
+     <term ref="key004969"></term>
+     <term ref="key005096"></term>
+     <term ref="key004367"></term>
+     <term ref="key005189"></term>
+     <term ref="key003867"></term>
+
+    </keywords>
+   </textClass>
+   <particDesc default="false"/>
+   <settingDesc default="false"/>
+  </profileDesc>
+ </teiHeader>
+ 
+ <text>
+  <group>
+   <text>
+    <body>
+     <pb n="374r" facs="AVN_B_101.14.001_0374r"/> 
+        
+     <div>
+      <head>
+       <lb/>Declaration d’un point de <lb/>coustume usitée en ceste Ville &amp; Comté de
+        <lb/><placeName ref="loc007785">Neufchastel</placeName> touchant le faict des <term
+        ref="lem014969.03">discutions</term>
+       <lb/>&amp; <term ref="lem016019.03">exploicts</term> de justice qui se font par <term
+        ref="lem014975.02">decret</term> des <lb/>biens immeubles ou <term ref="lem016291.02"
+        >deniers</term> provenant de <lb/>la vente d’iceux pour payer les creantiers qui ont
+       <lb/>droict d’hypothecque sur lesdicts biens ou <lb/>immeubles <term ref="lem014975.03"
+        >decrets</term>, assavoir mon si les <lb/>creanciers estrangers soient françois ou
+       <lb/>autres sont pas indifferement admis et <lb/><term ref="lem015879.03">colloquez</term>
+       sur iceux pour percepvoir leur <lb/>payement en leur ordre selon leur date, et la
+       <lb/>priorité des hypotheques sans exception ny <lb/>plus ny moings que les originaires de ce
+       <lb/>pays et autres suisses.</head>
+      <p>
+       <lb/>A esté rapporté, declaré et attesté par le debvoir <lb/>de leurs offices que suivant la
+       coustume usitée et <lb/>pratiquée en ceste Ville &amp; Comté de <placeName ref="loc007785"
+        >Neufchastel</placeName> de <lb/>temps immemorial jusqu’à present tous creanciers
+       <lb/>estrangers soyent françois ou autres sont indifferement <lb/>admis &amp; receus pour
+       poursuivre &amp; percepvoir leur <lb/>payement sur les biens immeubles de leurs debteurs
+       <lb/>qui sont unis en <term ref="lem014975.02">decret</term> et <term ref="lem014969.02"
+        >discution</term> de justice existans <lb/>en ce païs, et ce en leur ordre et selon la datte
+       des <lb/>ypothecques tout ainsi que les originaires de cedict <lb/>païs ou autre suisses, en
+       preferant les anterieurs <lb/>soyent estrangers ou du païs, <term ref="lem016035">jaçoit
+        que</term> les obligations <lb/>soyent passées &amp; stipulées en <placeName
+        ref="loc000281.08">France</placeName> ou ailleurs hors <pb n="374v"
+        facs="AVN_B_101.14.001_0374v"/>
+       <lb/>de cedict Comté sans y avoir autre exception que des <lb/>droicts seigneuriaux. </p>
+     </div>
+     
+       
+    </body>
+    <back>
+     <div><p><lb/>Les premières lignes de la transcription du permier coutumier Bailliod (AEN 3PAST-2, fol. 256r) indiquent&#160;:
+       <lb/><orig>&#160;Par declaration du <origDate when="1615-02-14">14<hi rend="sup">e</hi> jour de
+        febvrier 1615</origDate> rendue a <lb/>l’instance de <choice>
+        <abbr>honn<hi rend="sup">ble</hi></abbr>
+        <expan>honnorable</expan>
+       </choice> homme <persName ref="per011225a.01">Olivier Admioz</persName> bourgeois <lb/>de
+        <placeName ref="loc007786">Neufchastel</placeName> demandant declaration d’un point de
+       coustume&#160;</orig>. <lb/>Pour un raison indéterminée, la date et le nom de la partie n’ont pas
+       été reportés dans le coutumier de la Ville ci-dessus.</p></div>
+    </back>
+   </text>
+  </group>
+ </text>
+</TEI>

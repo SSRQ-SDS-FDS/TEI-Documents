@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-08-15"/>
+            <date type="print"/>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_117_2</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno source="https://query.staatsarchiv.sz.ch/detail.aspx?ID=370272">StASZ HA.II.997</idno>
+               </msIdentifier>
+               <head>Schiedsspruch zwischen der Herrschaft Hohensax-Gams und der Landvogtei Werdenberg über die Grenze und die Fischereirechte in der Simmi</head>
+               <msContents>
+                  <summary>
+                     <p>Ulrich Gubser, Altvogt im Gaster, Georg Füres, Vogt von Uznach, beide von Schwyz, sowie Dionys Bussy, Altlandammann, und Paulus Schuler, Altvogt von Werdenberg, beide von Glarus, einigen sich im Streit um die Herrschaftsgrenzen zwischen der Herrschaft Hohensax-Gams und der Landvogtei Werdenberg sowie um die Fischereirechte in der Simmi. Die vier Personen nehmen Augenschein und legen die umstrittenen Grenzen fest: </p>
+                     <p>1. Die Grenzen verlaufen von einem Grenzstein in einem Feld, Heinrich Scherrers Feld genannt, hinauf zu einer Eiche mit zwei Kreuzen unterhalb von Hans Scherrers Haus und Hof und von der Eiche hinauf in einen Eichstock vor Hans Scherrers Haus und von da der Simmi entlang bis in das Orloch. </p>
+                     <p>2. Die Fischereirechte vom Rhein bis zur Eiche bei Hans Scherrers Haus gehören Gams; die Fischereirechte von der Eiche bis zum Orloch gehören zu Werdenberg.</p>
+                     <p>3. Wer Güter innerhalb der Grenzen der jeweils anderen Herrschaft besitzt, soll diese nutzen wie bisher.</p>
+                     <p>Glarus und Schwyz siegeln.</p>
+                  </summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <filiation type="current">Original</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Pergament</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="29.0"/>
+                              <width unit="cm" quantity="62.0"/>
+                           </dimensions>
+                           <dimensions type="plica">
+                              <width unit="cm" quantity="10.0"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <sealDesc>
+                     <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI"
+                           n="1"
+                           nontei:condition="well-preserved"
+                           nontei:shape="round"
+                           nontei:material="wax"
+                           nontei:attachment="sealed on a parchment tag">
+                        <orgName role="sigillant" ref="org001191">Schwyz</orgName>
+                     </seal>
+                     <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI"
+                           n="2"
+                           nontei:condition="well-preserved"
+                           nontei:shape="round"
+                           nontei:material="wax"
+                           nontei:attachment="sealed on a parchment tag">
+                        <orgName role="sigillant" ref="org001197">Glarus</orgName>
+                     </seal>
+                  </sealDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1538-09-30">menntags nach sannt Mychelstag</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000305">Grenze</term>
+               <term ref="key000258">Fischenz</term>
+               <term ref="key000140">Herrschaft</term>
+               <term ref="key000980">Landesgrenze</term>
+               <term ref="key000940">Eigengut</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body/>
+         </text>
+      </group>
+      <back>
+         <div/>
+      </back>
+   </text>
+</TEI>

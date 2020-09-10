@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-07-11"/>
+            <date type="print"/>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_084_1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno source="https://archivverzeichnis.gl.ch/home/#/content/bc79711f228347e6af1b4a3d8e73e4dc">LAGL AG III.2409:007</idno>
+                  <altIdentifier>
+                     <idno>LAGL 82</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <head>Schiedsspruch um die Grenzen zwischen den Grafschaften Werdenberg und Sargans sowie der Herrschaft Wartau</head>
+               <msContents>
+                  <summary>
+                     <p>Heinrich Feer und Venner Peter Fankhuser, beide Ratsherren von Luzern, Jakob Arnold, alt Landammann von Uri, und Gilg Mettler, Ratsherr von Schwyz, entscheiden als Schiedsleute einen Streit zwischen den Orten Zürich, Uri, Schwyz, Unterwalden, Zug und Glarus einerseits und Luzern andererseits bezüglich der Zuständigkeit über die hohe Gerichtsbarkeit in den Grafschaften Werdenberg und Sargans und in der Herrschaft Wartau. Nach einem Augenschein und der Verhandlung in Einsiedeln holen sich die Schiedsleute bei den Parteien das Einverständnis ein, zwischen den beiden Grafschaften gemäss Aussagen alter Leute und eigenem Ermessen eine Grenze zu ziehen. Diese entspricht der Grenze der Kirchspiele Sevelen und Wartau, die den obersten Grat des Gebirges mit dem Rhein verbindet. Was von dort bis Werdenberg geht, soll mit allen Rechten denen von Luzern gehören. Was von dort gegen Sargans geht, soll den sieben Orten gehören. Das Schloss Wartau und das Dorf Gretschins sollen aber zu Luzern gehören.</p>Die Aussteller siegeln.</summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <filiation type="current">Original</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Pergament</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="31.5"/>
+                              <width unit="cm" quantity="62.5"/>
+                           </dimensions>
+                           <dimensions type="plica">
+                              <width unit="cm" quantity="10.0"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <sealDesc>
+                     <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI"
+                           n="1"
+                           nontei:condition="fragmentary"
+                           nontei:material="wax"
+                           nontei:shape="round"
+                           nontei:attachment="sealed on a parchment tag">
+                        <persName role="sigillant" ref="per001104a">Heinrich Feer</persName>
+                     </seal>
+                     <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI"
+                           n="2"
+                           nontei:condition="chamfered"
+                           nontei:material="wax"
+                           nontei:shape="round"
+                           nontei:attachment="sealed on a parchment tag">
+                        <persName role="sigillant" ref="per001101a">Peter Fankhuser</persName>
+                     </seal>
+                     <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI"
+                           n="3"
+                           nontei:condition="well-preserved"
+                           nontei:material="wax"
+                           nontei:shape="round"
+                           nontei:attachment="sealed on a parchment tag">
+                        <persName role="sigillant" ref="per001105a">Jakob Arnold</persName>
+                     </seal>
+                     <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI"
+                           n="4"
+                           nontei:condition="well-preserved"
+                           nontei:material="wax"
+                           nontei:shape="round"
+                           nontei:attachment="sealed on a parchment tag">
+                        <persName role="sigillant" ref="per001106a">Gilg Mettler</persName>
+                     </seal>
+                  </sealDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1488-06-02"/>
+                     <origPlace>Schloss Werdenberg</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head>Editionen</head>
+                     <bibl><ref target="https://www.ssrq-sds-fds.ch/online/SG_III_2/index.html#p_334">SSRQ SG III/2, Nr. 101</ref></bibl>
+                  </listBibl>
+                  <listBibl>
+                     <head>URL</head>
+                     <bibl type="url"><ref target="https://www.ssrq-sds-fds.ch/online/SG_III_2/index.html#p_334">https://www.ssrq-sds-fds.ch/online/SG_III_2/index.html#p_334</ref></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000305">Grenze</term>
+               <term ref="key003994">Hochgerichtsbarkeit</term>
+               <term ref="key000140">Herrschaft</term>
+               <term ref="key001117">Schiedsspruch</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text type="summary">
+            <body>
+               <div org="uniform" sample="complete">
+                  <p>
+                     <persName ref="per001104a">Heinrich Feer</persName> und der Venner <persName ref="per001101a">Peter Fankhuser</persName>, beide Ratsherren von <orgName ref="org001195">Luzern</orgName>, <persName ref="per001105a">Jakob Arnold</persName>, alt Landammann von Uri,
+       und <persName ref="per001106a">Gilg Mettler</persName>, Ratsherr von Schwyz, entscheiden als
+       Schiedsleute einen Streit zwischen den Ständen <orgName ref="org001196">Zürich</orgName>,
+        <orgName ref="org001181">Uri</orgName>, <orgName ref="org001191">Schwyz</orgName>, <orgName ref="org001192">Unterwalden</orgName>, <orgName ref="org001195">Zug</orgName> und <orgName ref="org001197">Glarus</orgName> einerseits und <orgName ref="org001195">Luzern</orgName>
+       andererseits bezüglich der Grenzen der hohen Gerichtsbarkeit in den Grafschaften <placeName ref="loc000440">Werdenberg</placeName> und <placeName ref="loc000925">Sargans</placeName>
+       und in der Herrschaft <placeName ref="loc000827.01">Wartau</placeName>. Nach der Verhandlung
+       in <placeName ref="loc000086.01">Einsiedeln</placeName> und einer Besichtigung holen sich die
+       Schiedsleute bei den Parteien das Einverständnis ein, zwischen den beiden Grafschaften eine
+       Grenze zu ziehen. Diese entspricht der Grenze der Kirchspiele <placeName ref="loc006039.01">Sevelen</placeName> und <placeName ref="loc000921">Wartau</placeName>, die den obersten
+       Grat des Gebirges mit dem <placeName ref="loc000644">Rhein</placeName> verbindet. Was von
+       dort bis <placeName ref="loc000016">Werdenberg</placeName> geht, soll mit allen Rechten
+        <orgName ref="org001195">Luzern</orgName> gehören. Was von dort gegen <placeName ref="loc000010.01">Sargans</placeName> geht, soll den sieben <orgName ref="org001188">Orten</orgName> gehören. Ausgenommen ist die Burg <placeName ref="loc000829">Wartau</placeName> und das Dorf <placeName ref="loc000309">Gretschins</placeName> innerhalb
+       des Etters mit der niederen Gerichtsbarkeit. Diese sollen <orgName ref="org001195">Luzern</orgName> gehören. </p>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab place="verso" type="dorsal" hand="hand15c">
+                     <lb/>Entschidigung beider herschafften zwûschend den sechs orten und Lucern, 1488</ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab type="dorsal" place="verso" hand="hand17c">
+                     <lb/>Entscheidung beyder graaffschaften Sargans und Werdenberg durch die marchen 
+       samt außsönderung der herrschaft Warthauw, zwüschend den sechs ohrten und Lucern, als damahligen besitzern der graaffschaft Werdenberg
+       und herrschafft Warthauw, errichtet, a. 1488</ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab place="verso" type="archiving reference">N<hi rend="sup">o</hi> 82<hi rend="sup">c</hi>
+                  </ab>
+               </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div n="1" org="uniform" sample="complete">
+            <p>Die territoriale <term ref="key000305">Grenze</term> zwischen den Grafschaften
+                  <placeName ref="loc000440">Werdenberg</placeName> und <placeName ref="loc000925"
+                  >Sargans</placeName> wird hier festgelegt und bleibt bis <date when="1783"
+                  >1783</date> unbestritten, als ein Streit um die Zugehörigkeit der Alp Plattegg
+               entsteht (vgl. dazu <bibl><ref>SSRQ SG III/2.1</ref>, <ref
+                     target="https://www.ssrq-sds-fds.ch/online/SG_III_2/index.html#p_1180">Nr. 353,
+                     Bem. 2</ref></bibl>; <bibl><ref target="http://permalink.snl.ch/bib/chbsg000124577">Gabathuler
+                     2011</ref>, S. 251</bibl>). Das Stück ist ediert und ausführlich kommentiert in
+               den Rechtsquellen Sarganserland <bibl><ref
+                     target="https://www.ssrq-sds-fds.ch/online/SG_III_2/index.html#p_334">SSRQ SG
+                     III/2.1, Nr. 101</ref></bibl>; zu den Grenzen zwischen den Herrschaften
+               Werdenberg und Sargans siehe auch <bibl><ref
+                     target="http://permalink.snl.ch/bib/chbsg000124577">Gabathuler 2011</ref>,
+                  S. 246–251</bibl>; <bibl><ref target="http://permalink.snl.ch/bib/chbsg000038423"
+                     >Graber 2003</ref>, S. 73–76</bibl>).</p>
+         </div>
+         <div n="2" org="uniform" sample="complete">
+            <p><placeName ref="loc000828">Wartau</placeName> und <placeName ref="loc000708"
+                  >Sevelen</placeName> sind bereits hundert Jahre früher umstrittenes
+               Herrschaftsgebiet zwischen den <orgName ref="org000019">Werdenberger</orgName> und
+                  <orgName ref="org000008">Sarganser</orgName> Grafen. Letztere beanspruchen die
+                  <term ref="key003994">hohe Gerichtsbarkeit</term> bis zum Nussbaum von <placeName
+                  ref="loc000428">Räfis</placeName>: Der Anspruch der Sarganser Grafen wird deutlich
+               im <term ref="key000173">Bündnis</term> von 1395, in welchem der beanspruchte
+               Grenzverlauf zwischen den beiden Grafschaften erstmals beschrieben wird
+                  (<ref>SSRQ_SG_III_4_017</ref>). <date when="1462">1462</date> entstehen weitere
+               Streitigkeiten über die Herrschaftsgrenzen (<bibl><ref
+                     target="https://www.ssrq-sds-fds.ch/online/SG_III_2/index.html#p_213">SSRQ SG
+                     III/2.1</ref>, Nr. 66</bibl>), bis sich die Obrigkeiten der beiden Herrschaften
+                  <date when="1488">1488</date> endgültig einigen:</p>
+         </div>
+      </back>
+   </text>
+</TEI>

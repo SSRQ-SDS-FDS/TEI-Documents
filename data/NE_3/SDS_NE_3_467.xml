@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     n="1234"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="headerinfo"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2020-08-17"/>    <date type="print"/>
+    <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Collection des sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des
+      sources
+      du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS_NE_3_467</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>AVN B 101.14.002, fol. 88r–88v</idno>
+               </msIdentifier>
+               <head>Droits du créancier</head>
+               <msContents>
+                  <summary>Le Petit Conseil revoie à une connaissance de justice pour les deux premières
+       questions et à la loi de 1748 pour la troisième. Concernant la quatrième, l’acte de défaut ne
+       change en rien la nature du titre et la position du créancier qui est obligé d’agir contre
+       son débiteur après que son décret a été bouclé par la voie des usages ordinaires. </summary>
+                  <msItem>
+                     <textLang>français</textLang>
+                     <filiation type="current"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="34.5"/>
+                              <width unit="cm" quantity="22"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1801-01-23"/>
+                     <origPlace ref="loc007786">Neuchâtel</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head/>
+                     <bibl/>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key004001"/>
+               <term ref="key000058"/>
+               <term ref="key000803"/>
+               <term ref="key004367"/>
+               <term ref="key003331"></term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="88r" facs="AVN_B_101.14.002_0088r"/>
+               <div>
+                  <p>
+                     <lb/>Du <origDate when="1801-01-23">23<hi rend="sup">e</hi> janvier 1801</origDate>.
+      </p>
+                  <p><lb/>Sur une requête présentée par le <choice>
+                        <abbr>S<hi rend="sup">r</hi>.</abbr>
+                        <expan>sieur</expan>
+                     </choice>
+                     <persName ref="per008761">David Francois <lb/>Vuagneux</persName>
+                     <placeName ref="loc007795">du Locle</placeName>, résident à <placeName ref="loc007815">Auvernier</placeName>, priant
+       <lb/>monsieur le maître bourgeois en chef et <orgName ref="org003085">messieurs <lb/>du Conseil
+        Étroit</orgName> de lui donner une déclaration de <lb/>la coutume usitée en cette
+       souveraineté sur les quatre <lb/>cas suivants.</p>
+                  <p><lb/>1<hi rend="sup">o</hi>. Lorsqu’un acteur a un titre illiquide tel qu’une facture,
+       <lb/>l’eut-il même fait inscrire dans une discussion qu’auroit
+       <lb/>fait le débiteur de cette facture, peut-il s’en prévaloir
+       <lb/>contre d’autres personnes qui n’auroyent pas discuté.</p>
+       <p><lb/>2<hi rend="sup">o</hi>. Si le même acteur, après avoir fait valoir sa facture
+       <lb/>dans un décret, ne doit pas se pourvoir par devant le juge
+       <lb/>naturel du débiteur contre lequel il prétend avoir recours
+       <lb/>au défaut des biens du discutant.</p>
+       <p><lb/>3<hi rend="sup">o</hi>. Si un créancier, perdant dans une discussion, son
+       <lb/>inscription lui donne un titre contre le fils du discutant
+       <lb/>si le créancier est étranger dans cet État.</p>
+       <p><lb/>4<hi rend="sup">o</hi>. Si en vertu d’un acte de défaut, si l’on veut s’en
+       <lb/>prévaloir, on ne doit pas faire les usages, lévation
+                     <pb n="88v" facs="AVN_B_101.14.002_0088v"/>
+                     <lb/>vendition &amp; taxe à la personne même contre qui on
+       <lb/>prétend se prévaloir au défaut du payement dans
+       <lb/>la discussion du discutant.
+      </p>
+                  <p><lb/>Surquoi, monsieur le maître bourgeois en chef <lb/>&amp; <orgName ref="org003085">messieurs du
+       Conseil</orgName>, ayant consulté mûrement <lb/>ensemble &amp; délibéré, ils ont donné par
+       déclaration. </p>
+                  <p><lb/>Sur les 2 premiers cas, renvoyé à une <term ref="lem014980">connaissance <lb/>de justice</term>. </p>
+                  <p><lb/>Sur le 3<hi rend="sup">e</hi>. la justice renvoye le requérant à la loi
+                     <lb/>de <date when="1748">1748</date><note>Loi du <date when="1748-05-08">8 mai 1748</date>, voir <bibl><ref
+                              target="http://permalink.snl.ch/bib/chbsg000142472"
+                        >RPO</ref>, t.&#160;1, Neuchâtel 1827, p.&#160;59-61</bibl>, ou
+                           <ref target="https://www.ssrq-sds-fds.ch/online/NE_1/index.html#p_353"
+                           >SDS NE I, N<hi rend="sup">o</hi>&#160;151</ref>.</note>, qui
+                        <sic>exclud</sic> de tout recours contre les enfants <lb/>les créanciers qui
+                     ne sont pas de l’État, dans le cas <lb/>où lesdits enfants n’ont hérité aucun
+                     bien de père &amp; <lb/>de mère. </p>
+                  <p><lb/>Sur le 4<hi rend="sup">e</hi>. conformément à la coutume usitée de
+                     <lb/>tous tems, l’acte de défaut ne change en rien la <lb/>nature du titre et
+                     la position du créancier qui est obligé <lb/>d’agir contre son débiteur après
+                     que son décret a <lb/>été bouclé par la voye des usages ordinaires, la
+                     <lb/>coutume exceptant le cas où un créancier colloque <lb/>qui a mis en
+                     remontes ses <term ref="lem014977.02">collocations</term> veut agir <lb/>pour le défaut de ladite
+                     remonte, auquel cas <lb/>il peut passer sans usages préliminaires à la
+                     délivrance <lb/>de taxe. </p>
+                  <p><lb/>Laquelle déclaration ainsi rendue, il a été ordonné <lb/>au secrétaire du Conseil <add place="above">soussigné</add> de l’expédier en cette forme <lb/>sous le sceau de la mairie
+       &amp; justice de cette Ville <lb/>à <origPlace ref="loc007786">Neûchatel</origPlace>. Le <origDate when="1801-01-23">vingtroisième janvier mil huit <lb/>cent-un</origDate>. </p>
+               </div>
+               <div>
+                  <lb/>
+                  <signed>
+                     <persName ref="per008723">
+                        <choice>
+                           <abbr>A</abbr>
+                           <expan>Abram</expan>
+                        </choice> Pettavel</persName>
+                     <figure type="notarial sign"/>
+                  </signed>
+               </div>
+            </body>
+         </text>
+      </group>
+   </text>
+</TEI>

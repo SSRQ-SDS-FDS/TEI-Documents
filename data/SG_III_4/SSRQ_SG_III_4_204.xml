@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-08-15"/>
+            <date type="print"/>
+            <availability><p xml:id="facs">Sibylle Malamud</p></availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_204</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>Burgerarchiv Grabs U 1698-1</idno>
+               </msIdentifier>
+               <head>Gemeindebeschluss der Ausbürger der Stadt Werdenberg, die in der Gemeinde Grabs
+                  wohnen, über die Erhebung und Verteilung einer Sondersteuer zur Tilgung der
+                  Schulden der Buchser Bürger (Werdenberger Ausbürger, die in der Gemeinde Buchs
+                  wohnen)</head>
+               <msContents>
+                  <summary>
+                     <p>Mit Erlaubnis von Landvogt Samuel Blumer beschliessen die Ausbürger der
+                        Stadt Werdenberg in Grabs durch einen Mehrheitsbeschluss, eine Sondersteuer
+                        einzuführen. Grund ist die hohe Schuldenlast der in Buchs wohnhaften
+                        Werdenberger Ausbürger, an deren Tilgung sich die Ausbürger in Grabs
+                        beteiligen. Folgender Steuereinzug auf St. Georg (25.4.) wird
+                        festgelegt:</p>
+                     <p>1. Jede Haushaltung, ob Männer oder Witwen: 2 Dukaten.</p>
+                     <p>2. Jeder junge Mann, der sich verheiratet: 2 Dukaten.</p>
+                     <p>3. Verheiratete Bürger, die im Ausland gelebt haben, ihr Bürgerrecht jedoch
+                        nicht aufgegeben und wieder in die Gemeinde ziehen: 2 Dukaten.</p>
+                     <p>4. Ledige Frauen und Männer: 1 Louistaler.</p>
+                     <p>Diese Sondersteuer soll für 24 Jahre bis 1723 gelten. Wenn der
+                        Amtsbürgermeister seine Rechnung ablegt, soll derjenige, der für das Kapital
+                        verantwortlich ist, auch Rechnung geben.</p>
+                  </summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <author role="scribe"><persName ref="per008735a">David Hilty</persName>,
+                        Bürgermeister</author>
+                     <filiation type="current">Original (Einzelblatt)</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="31.5"/>
+                              <width unit="cm" quantity="20.0"/>
+                           </dimensions>
+                        </extent>
+                        <condition>an den Faltstellen z. T. gebrochen</condition>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1698-11-20">20. tag wintermoneth 1698</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key004600">Mehrheitsbeschluss</term>
+               <term ref="key000931">Gemeindebeschluss</term>
+               <term ref="key000667">Abstimmung</term>
+               <term ref="key000313">Bürgerschaft</term>
+               <term ref="key000058">Schulden</term>
+               <term ref="key003534">Gemeinde</term>
+               <term ref="key004210">Schuldentilgung</term>
+               <term ref="key000087">Ausbürger</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <div org="uniform" sample="complete">
+                  <pb facs="Burgerarchiv_Grabs_U_1698-1r"/>
+                  <p>
+                     <seg>
+                        <lb/>Willen die <term ref="lem000227">burger</term> der gmeindt <orgName
+                           ref="org001912">Buchß</orgName>,<note>Ausbürger der Stadt Werdenberg, die
+                           in der Gemeinde Buchs wohnhaft sind.</note> willen sie in ein zimlichen
+                           <lb/><term ref="lem010379">schulden last</term> gewachsen, deswegen sie
+                        bey gmeiner <orgName ref="org001185"><term ref="lem010577"
+                              >burgerschafft</term></orgName><note anchored="true">Vgl. dazu den
+                           Kommentar.</note>
+                        <lb/>pitlich angehalten, daß man ihnen mit einem stuckh <term
+                           ref="lem000308">gelt</term> begegnen <lb/>wurde, damit sie desto eher bey
+                        dem ihren bleiben und den <term ref="lem000037">schulden</term>
+                        <lb/>wehren könten. Welches ihnen vergünstiget, übrigen zwey <term
+                           ref="lem006896">gmeinden</term>, <lb/><orgName ref="org001828"
+                           >Grabs</orgName> und <orgName ref="org001834">Seffellen</orgName>, nach
+                        parte auch zu gestelt worden.</seg>
+                     <seg n="1">Über welch<lb break="no"/>es die burger der gmeind <orgName
+                           ref="org001828">Grabs</orgName><note>Ausbürger der Stadt Werdenberg, die
+                           ausserhalb der Stadt in der Gemeinde Grabs wohnhaft sind.</note> sich uff
+                        rattificattion und guottheisen <lb/>unsers hochgeacht, <choice>
+                           <abbr>gnd</abbr>
+                           <expan>gnädigen</expan>
+                        </choice> und gebiethenden herren <choice>
+                           <abbr>lvogts</abbr>
+                           <expan>landvogt</expan>
+                        </choice> und zügher <lb/><persName ref="per009956a">Samuel
+                           Bluomers</persName> erkenth, <term ref="lem002564">ermehret</term> und
+                        beschlosen, daselbige <lb/>einem ehrlichen man zeübergeben, welcher
+                        nechstkünfftigen <date type="deadline" when="1699-04-25">st. Jörgen <lb/>tag
+                           anno 1699</date> solle von den übergebnen <term ref="lem000037"
+                           >schulden</term> solle <term ref="lem000350">ihnziehen</term> und
+                        <lb/>uff jede verehlicheti burgerliche <term ref="lem002439"
+                           >haußhaltung</term>, es seigend <term ref="lem000220">mäner</term>
+                        <lb/>oder <term ref="lem011890">witfrauwen</term>, solle <measure
+                           type="currency" quantity="2" unit="Dukat">2 dugathen</measure>
+                        geben.</seg>
+                     <seg n="2">Glichmesig sol es für<lb break="no"/>baßhin und inßkünfftig mit
+                           <term ref="lem000261">knaben</term>, die sich verhürathen und <lb/><term
+                           ref="lem003726">hochzit</term> gehalten, uff nechst komende <date
+                           type="deadline" when="1699-04-25">st. Jörgen tag</date> auch
+                        geschehen.</seg>
+                     <seg n="3">
+                        <lb/>Ebnermasen gegend <term ref="lem000227">burgeren</term>, die an der
+                           <term ref="lem000868">främbde</term> und ihr <term ref="lem000235"
+                              >burger<lb break="no"/>recht</term> nit <term ref="lem005727"
+                           >verzogen</term> und sich wider in der gmeind haußheblich sezen
+                        <lb/>tethen. Den selben sollen glichmäßig, wie oben vermelt, die <measure
+                           type="currency" quantity="2" unit="Dukat">2 dugathen</measure>, <lb/>so
+                        fern sie verehelichet, uff nechst komenden <date type="deadline"
+                           when="1699-04-25">st. Jörgen tag</date> auch geben <lb/>werden.</seg>
+                     <seg n="4">Betreffende die <term ref="lem005094">ledigen</term> persohnen, so
+                        biß uff <measure quantity="40" type="age" unit="year">40 <term
+                              ref="lem000732">jarr</term>
+                        </measure> und <lb/>darüber alt und sich nit verhürateth, sol jeder persohn,
+                        es sey <term ref="lem005623">man <lb/>oder weib</term>, ein <measure
+                           type="currency" quantity="1" unit="Louistaler">Loißtaller</measure> uff
+                        nechst komenden <date type="deadline" when="1699-04-25">st. Jörgen
+                           tag</date> geben <lb/>werden und vor nit.</seg>
+                     <seg>Welches terminiert und dan gestelt verdüter <lb/>masen uff <date
+                           dur="P24Y">24 jarr</date>, da man zelt <date when="1723">1723</date>.
+                        Über bestimte <add place="above">zit</add> solle es wider <lb/>gmeinglich
+                        den burgeren der gmeind <orgName ref="org001828">Grabs</orgName> verfahlen
+                        sein, nach <lb/>belieben mit demselbigen zu verfahren, bey welchem wir
+                        oberkeitlich <lb/>sollen geschüzt und geschirmet werden.</seg>
+                     <seg>Es sol auch der jenige, der <lb/>diß <term ref="lem002247.10"
+                           >cappithal</term> under handen hat, alweg, wan der <choice>
+                           <abbr>amptsburger<lb break="no"/>ms</abbr>
+                           <expan><term ref="lem005057.03">amptsburgermeister</term></expan>
+                        </choice> sein <term ref="lem000390">rechnig</term> ableith, auch
+                        spezificierliche rechnig geben.</seg>
+                     <seg>
+                        <lb/>Beschehen, den <origDate when="1998-11-20">20. tag wintermoneth
+                           1698</origDate> jahrr.</seg>
+                  </p>
+                  <p>
+                     <lb/>Durch mich verzeichnet, <persName ref="per008735a">Davidt Hilti</persName>.</p>
+               </div>
+               <pb facs="Burgerarchiv_Grabs_U_1698-1_v1"/>
+               <div org="uniform" sample="complete">
+                  <ab type="dorsal" place="verso" hand="hand17c">
+                     <lb/>No 46, <lb/>verzeichnus, <lb/>wie sich die
+       burger der <lb/>gmeindt <orgName ref="org001828">Grabs</orgName> mit <lb/>ihrem besonderen
+       <term ref="lem002247.09">capithal</term>
+                     <lb/>zu verhalten oder selbiges <lb/>laut <term ref="lem000857">mehrs</term> anwenden <lb/>sollen, <lb/>lauth
+       inhalts.</ab>
+               </div>
+               <pb facs="Burgerarchiv_Grabs_U_1698-1_v2"/>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div n="1" org="uniform" sample="complete">
+            <p>Auf Ansuchen der beiden Abgeordneten der in <orgName ref="org001912">Buchs</orgName>
+               wohnhaften <term ref="key000087">Ausbürger</term> der Stadt <placeName
+                  ref="loc000016">Werdenberg</placeName>, Baumeister <persName ref="per009957a"
+                  >Christian Rohrer</persName> und <persName ref="per009958">Mathias
+                  Rohrer</persName>, und den beiden <term ref="key000133">Bürgermeistern</term>,
+                  <persName ref="per009959a">Michael</persName> und <persName ref="per008735a">David
+                  Hilty</persName>, als Abgeordnete der Bürgerschaft von <orgName ref="org001185"
+                  >Werdenberg</orgName>, bestätigt der Werdenberger Landvogt am <date
+                  when="1697-02-24">24. Februar 1697</date> folgendes: <orig>Daß wilen vor dißem die
+                     <term ref="lem000227">burger</term> von <placeName ref="loc000198"
+                     >Buchs</placeName> bittlich an der <term ref="lem010577">burgerschafft</term>
+                  angehalten, weilen die gmeind <orgName ref="org001912">Buchs</orgName> ein
+                  zimlichen <term ref="lem010379">schuldenlast</term> gewachsen und die <term
+                     ref="lem000794.11">stürsgnoßen</term> aldorten ein zimliche summa uß ihrer
+                     <term ref="lem017815.02">stür</term> zu nemen <term ref="lem002564"
+                     >ermeret</term>, daruff dan die burger <del>ins</del>gmeind uff dz <term
+                     ref="lem000925">rathhauß</term> berüöfft worden</orig>, um zu sehen, was die
+               Bürgerschaft den <term ref="key000087">Ausbürgern</term> in <placeName
+                  ref="loc000198">Buchs</placeName> daran geben kann. Nachdem man gerechnet hat, ist
+               beschlossen worden, dass die Herren Bürgermeister den Ausbürgern in <orgName
+                  ref="org001912">Buchs</orgName> den Rodel geben sollen, damit sie die <term
+                  ref="key000058">Schulden</term> zurückzahlen und auf den <date when="--04-25"
+                  >Georgstag</date> (zur Datierung des Georgtages vgl. ausführlicher die Fussnote in
+                  <ref>SSRQ_SG_III_4_250</ref>) einziehen können. Die Anteile der Ausbürger in
+                  <orgName ref="org001828">Grabs</orgName> und <orgName ref="org001834"
+                  >Sevelen</orgName> sollen von dem Bürgermeister separat verwaltet werden, ausser
+               sie wollen ihre Anteile selber durch ehrliche Personen verwalten lassen. Sollten
+               einige Bürger diesen Spruch nicht annehmen wollen, sollen sie sich vor dem Georgstag
+               beim Landvogt melden (<bibl><ref>Burgerarchiv Grabs U 1697-1</ref></bibl>). Aufgrund
+               dieser Erkenntnis stimmen im folgenden Stück ihrerseits die Ausbürger in der Gemeinde
+                  <orgName ref="org001828">Grabs</orgName> auf Bestätigung des Landvogts ab, wie sie
+               diese Sondersteuer einziehen wollen. Die Haushaltungen der Bürger und Ausbürger in
+               Grabs, Buchs und Sevelen bringen die hohe Summe von <measure quantity="2472"
+                  type="currency" unit="fl">2472 Gulden</measure> auf (<bibl><ref
+                     target="http://permalink.snl.ch/bib/chbsg000142779">Hilty 1898</ref>, S.
+                  33</bibl>).</p>
+            <p>Laut der Bestätigung des Landvogts vom <date when="1697-02-24">24. Februar
+                  1697</date> handelt es sich um <term ref="key000058">Schulden</term> der Gemeinde
+                  <orgName ref="org001912">Buchs</orgName>, welche die Buchser aufgrund eines
+               Beschlusses ihrer <term ref="key000315">Steuergenossen</term> (der <term
+                  ref="key000445">Landleute</term> von Buchs) aus ihrer Steuerkasse tilgen wollen.
+               Die Ausbürger in Buchs sind nicht Teil der <term ref="key000158"
+                  >Steuergenossenschaft</term> der Landleute, sondern der <term ref="key000313"
+                  >Bürgerschaft</term>. Doch als Teil der Bewohnerschaft der Gemeinde <orgName
+                  ref="org001912">Buchs</orgName> müssen sie wohl zur Schuldentilgung beitragen,
+               weshalb sie ihrerseits sowohl an die Ausbürger von <orgName ref="org001834"
+                  >Sevelen</orgName> und <orgName ref="org001828">Grabs</orgName> als auch an die
+                  <term ref="key000313">Stadtbürgerschaft</term> um einen Beitrag aus der
+               Steuerkasse gelangen. Den beiden Urkunden nach zu urteilen, bildet jede
+               Ausbürgerschaft und die Bürgerschaft der Stadt eine separate Steuergenossenschaft.
+               Auch jede Gemeinde der Landleute hat eine eigene Steuergenossenschaft mit einer
+               eigenen Steuerkasse (zu den <orgName ref="org003675">Grabser Steuergenossen</orgName>
+               vgl. auch <bibl><ref>OGA Grabs Gruppe I./4</ref></bibl>; <bibl><ref>OGA Grabs Gruppe
+                     II./1</ref>; <ref>VI./A/03</ref>; <ref>VI./A/04</ref>; <ref>VI./A/08</ref>;
+                     <ref>VI./A/17</ref></bibl>; zu den Steuergenossen von <orgName ref="org003676"
+                  >Sevelen</orgName> siehe <bibl><ref>OGA Sevelen B 90.01</ref></bibl>; <bibl><ref
+                     target="http://permalink.snl.ch/bib/chbsg000081988">Hagmann 1984</ref>, Bd. 2,
+                  S. 129–131</bibl>). Über die <term ref="key000158">Steuergenossenschaften</term>
+               ist wenig bekannt: Aus der Steuerkasse (<orig><term ref="lem017815.02">stür</term></orig>) werden
+               nicht nur die Steuern an die Obrigkeit abgeliefert; vielmehr dient sie als Fonds, in
+               den auch die Zinsen belehnter Liegenschaften der Genossenschaft oder der Abzug auf
+               Güter einfliessen und aus dem auch Beträge an die <term ref="key000315"
+                  >Steuergenossen</term> ausbezahlt werden oder wie in diesem Beispiel gemeinsame
+               Schulden getilgt werden, vgl. dazu die Ausführungen von Mathäus Lippuner zum Urbar
+               der Steuergenossen von <date when="1578">1578</date> im <bibl><ref>OGA Grabs Gruppe
+                     I./1</ref></bibl>).</p>
+         </div>
+         <div n="2" org="uniform" sample="complete">
+            <p>Warum die Gemeinde <orgName ref="org001912">Buchs</orgName>
+               <date when="1698">1698</date> so hoch verschuldet ist, ist schwierig zu beurteilen.
+               Da die anderen Bürger und Ausbürger in der Lage sind, sie finanziell zu unterstützen,
+               sind die <term ref="key000058">Schulden</term> kaum auf äussere Einflüsse wie Kriege,
+               Krankheiten, Naturkatastrophen u. ä., die wohl alle gleichermassen betroffen hätten,
+               zurückzuführen. Möglicherweise liegt die Ursache in einem langjährigen und teuren
+               Gerichtsverfahren der Gemeinde <orgName ref="org001912">Buchs</orgName> mit <term
+                  ref="key004798">Müllermeister</term>
+               <persName ref="per011064">Thomas Senn</persName> von <placeName ref="loc006060"
+                  >Altendorf</placeName> um das <term ref="key000715">Wasser</term>, das der Müller
+               unterhalb Altendorf widerrechtlich für seine neue <term ref="key000047">Mühle</term>
+               ableitet: <date when="1693">1693</date> erwirken mehrere Abgeordnete von Buchs in
+                  <placeName ref="loc000326">Glarus</placeName> ein Urteil (<bibl><ref>PGA Buchs
+                     U 10</ref></bibl>), das jedoch den Streit nicht beendet, da <date when="1695"
+                  >1695</date> in der gleichen Sache eine Besichtigung der Streitsache durch den
+               Landvogt und mehrere Amtleute durchgeführt wird (<bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/fcc2aaedf3c942da97aca347c4276610"
+                     >LAGL AG III.2409:106</ref></bibl>). Der Streit endet schliesslich <date
+                  when="1696">1696</date> durch einen Schiedsspruch des Landvogts mit seinen
+               Amtleuten, der in einen Kauf der Mühlen und der <term ref="key000166">Sägerei</term>
+               für 6500 Gulden durch die Gemeinde Buchs von Müllermeister <persName ref="per011064"
+                  >Senn</persName> mündet: <orig>Erstlichen daß <term ref="lem000248">hauß</term>
+                  sammt den zwei darin stehenden <term ref="lem017171.02">mülli hüffen</term> und
+                  der darzu gehörigen rächtsammen, so an der <placeName ref="loc008899"
+                     >Creuzgaß</placeName> stehen thuth, zum anderen daß hauß sambt drey darin
+                  begreiffenen <term ref="lem017171.03">meülli heüffen</term> zu <placeName
+                     ref="loc006061">Altendorff</placeName>, zum driten daß alte und obere hauß
+                  sambt dem darnebendt <del>al</del> stehenden alten <term ref="lem000072"
+                     >meülle</term> recht sambt <term ref="lem001611">stall</term> und <term
+                     ref="lem000246">gärthen</term>, <gap reason="irrelevant"/> zum vierthen die
+                     <term ref="lem000356">sagen</term> mit ihrem gebeüw, fünfftens die <term
+                     ref="lem017172.01">werkreibe</term> wie auch zwey <term ref="lem000321"
+                     >stämpf</term> mit allen und jeden derselben rechtsammenen</orig>
+                     (<bibl><ref>PGA Buchs U 11 A-1</ref></bibl>; zu den Zahlungsmodalitäten siehe
+                     <bibl><ref>PGA Buchs U 12 A-1</ref></bibl>). Es ist gut möglich, dass die
+               teueren Verfahrenskosten zusammen mit dem hohen Preis der Mühlen und der Sägerei die
+               finanziellen Mittel der Gemeinde deutlich überstieg.</p>
+         </div>
+      </back>
+   </text>
+</TEI>

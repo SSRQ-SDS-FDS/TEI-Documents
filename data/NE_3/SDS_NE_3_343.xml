@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     n="1234"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="headerinfo"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2020-08-17"/>    <date type="print"/>
+    <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Collection des sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS_NE_3_343</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>AVN B 101.14.001, fol. 591v</idno>
+               </msIdentifier>
+               <head>Signature des taxes</head>
+               <msContents>
+                  <summary>Toute taxe, pour être valable, doit être signée par deux
+                     justiciers.</summary>
+                  <msItem>
+                     <textLang>français</textLang>
+                     <filiation type="current"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="33"/>
+                              <width unit="cm" quantity="23.5"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1702-01-31"/>
+                     <origPlace ref="loc007786">Neuchâtel</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head/>
+                     <bibl/>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key005095"/>
+               <term ref="key004774"/>
+               <term ref="key000103"/>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="591v" facs="AVN_B_101.14.001_0591v"/>
+               <div>
+                  <head>
+                     <lb/>Touchant la signature
+       <lb/>des taxes.
+      </head>
+                  <p>
+                     <lb/>Sur la requeste presentée a <choice>
+                        <abbr>Mess<hi rend="sup">rs</hi>
+                        </abbr>
+                        <expan>messieurs</expan>
+                     </choice> le <lb/>maitre bourgeois et <orgName ref="org003085">Conseil Etroit de la Ville <lb/>de
+        <placeName ref="loc007786">Neufchastel</placeName>
+                     </orgName> par les tuteur de l’hoirie <lb/>de feu le <choice>
+                        <abbr>S<hi rend="sup">r</hi>
+                        </abbr>
+                        <expan>sieur</expan>
+                     </choice> capitaine <persName ref="per008900">Pierre Dardel</persName>, en son <lb/>vivant bourgeois de <choice>
+                        <abbr>lad</abbr>
+                        <expan>ladite</expan>
+                     </choice> ville, aux fins <lb/>d’avoir declaration de la coutume de <placeName ref="loc007785">Neuf<lb break="no"/>chastel</placeName>, sur le cas suivant. </p>
+                  <p>
+                     <lb/>Assavoir, si lors qu’on fait des suittes et
+       <lb/>usages, il n’est pas necessaire que la taxe
+       <lb/>soit signée par deux justiciers, et si à ce
+       <lb/>deffaut <choice>
+                        <abbr>lad</abbr>
+                        <expan>ladite</expan>
+                     </choice> taxe n’est pas nulle.
+      </p>
+                  <p>
+                     <lb/>
+                     <orgName ref="org003085">
+                        <choice>
+                           <abbr>MesdS<hi rend="sup">rs</hi>
+                           </abbr>
+                           <expan>Mesdits sieurs</expan>
+                        </choice> du Conseil</orgName>, ayant eu avis par ensemble, <lb/>ont declaré que, de tout
+       temps immemorial de <lb/>pere à fils jusqu’à present, la coutume est telle. </p>
+                  <p>
+                     <lb/>Assavoir, que toute taxe, pour estre va<lb break="no"/>lable, doit estre signée par deux justiciers.
+      </p>
+                  <p>
+                     <lb/>Laquelle declaration <orgName ref="org003085">
+                        <choice>
+                           <abbr>MesdS<hi rend="sup">rs</hi>
+                           </abbr>
+                           <expan>mesdits sieurs</expan>
+                        </choice>
+                     </orgName> ont ordonné <lb/>à moy secretaire de Ville soussigné de l’expe<lb break="no"/>dier en cette forme sous le <term ref="lem016327">seel</term> de la mayrie <lb/>et justice <choice>
+                        <abbr>dud</abbr>
+                        <expan>dudit</expan>
+                     </choice>
+                     <origPlace ref="loc007786">Neufchastel</origPlace> le <origDate when="1702-01-31">31 janvier
+        <lb/>1702</origDate>. </p>
+               </div>
+               <div>
+                  <p>
+                     <lb/>L’original est signé par moy.
+       </p>
+                  <signed>
+                     <persName ref="per009011">
+                        <choice>
+                           <abbr>J&#160;J</abbr>
+                           <expan>Jean-Jacques</expan>
+                        </choice> Favargier</persName> <figure type="notarial sign"/>
+                  </signed>
+               </div>
+            </body>
+         </text>
+      </group>
+   </text>
+</TEI>

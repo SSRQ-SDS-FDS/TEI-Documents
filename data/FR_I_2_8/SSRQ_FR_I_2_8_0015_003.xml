@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+
+			</titleStmt>
+
+			<publicationStmt>
+				<date type="electronic" when="2019-03-20"/>
+				<date type="print"/>
+			</publicationStmt>
+
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ_FR_I_2_8_0015_003</idno>
+			</seriesStmt>
+
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<idno>StAFR, Ratsmanual 146 (1595), S. 358</idno>
+					</msIdentifier>
+					<head>Antheni Marset, Clauda Péclat, Françoise Chanoz, Claude Péclat, Antoine Péclat, Clauda Rieffli, Anna Péclat, Jenon Besson dite la Drotzi – Anweisung / Instruction</head>
+					<msContents>
+						<summary></summary> 
+						<msItem>
+							<textLang>de</textLang> 
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support>
+									<material></material>
+								</support>
+								<extent>
+									<dimensions type="leaves">
+										<height unit="cm" quantity="0.0"/>
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+									<dimensions type="plica">
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+								</extent>
+							</supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate when="1595-08-21">21<hi rend="sup">ten</hi> <foreign xml:lang="la"><choice><abbr>aug</abbr><expan>augusti</expan></choice></foreign> [1595]</origDate>
+							<origPlace></origPlace>
+						</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+							
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+			<particDesc default="false"/>
+			<settingDesc default="false"/>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<p><lb/>Gefangne</p>
+							
+						<p><lb/><persName ref="per010005">Antheni Marset</persName> des strudelwesens verdacht unnd mit dem 
+							<lb/>kleinen <term ref="lem018287">stein</term> ohn <term ref="lem016794.05">bekhandtnuß</term> uffzogen. Man soll mit iren 
+							<lb/><term ref="lem010306.03">fürfaren</term>.</p>
+						
+						<p><lb/><persName ref="per009749a.01">Clauda Peclat</persName>, ouch des <term ref="lem014640.03"
+								>strudelwerchs</term> beclagt und <term ref="lem006868.02"
+								>gejichtiget</term>
+							<lb/>von <subst><del><placeName ref="loc007892.04">Tornie</placeName></del><add place="inline"><placeName
+										ref="loc007893.02">Mides</placeName></add></subst>. Man soll
+							mit iren <term ref="lem010306.03">fürfaren</term>, doch hett das gricht
+							gwalt.</p>
+						
+						<p><lb/><persName ref="per009778">Franceysa Chanoz</persName>, ein junge tochter, <choice>
+								<abbr>bnte</abbr>
+								<expan>benannte</expan>
+							</choice>
+							<persName ref="per009749a.01">Clauda Peclat</persName> enckhel, <lb/>so
+							bekhendt, uff anhalten und vil <term ref="lem003737">streich</term> der
+							gesagten <persName ref="per009749a.01">Clauda</persName>, <lb/>irer
+							großmutter, in der <term ref="lem015075.02">synagog</term> ein mal
+							gewesen zu syn, doch <lb/>ohn verlöugnung gottes. Sie soll allso stil
+							blyben und durch die <lb/>hern <term ref="lem016504">jesuiter</term> underwißen werden.</p>
+						
+						<p><lb/><persName ref="per009776a.01">Claudo</persName> und <persName ref="per009777a.01">Antheno Peclat</persName>, <choice><abbr>bnte</abbr><expan>benannte</expan></choice> <persName ref="per009749a.01">Clauda</persName> eheman und sun, und der tochtervatter 
+							<lb/>und großvatter, die sollen vollends mit dem <term ref="lem002679.06">keiserlichen rechten</term> <term ref="lem010306.03">fürfaren</term>.</p>
+						
+						<p><lb/><persName ref="per010009">Clauda Rieffili</persName>, ouch des <term ref="lem014640.03">strudelwerchs</term> beclagt und uffzogen, ler, mitt dem <term ref="lem018287">stein</term>.</p>
+						
+						<p><lb/><persName ref="per010006">Anna Peclat</persName>, der vordrigen tochter unangeben, allein zu eins bricht inthan, ist erlassen.</p> 
+						
+						<p><lb/><persName ref="per009754a">Jenon Besson, die Drutzi</persName>, soll <term ref="lem016507">gschoren</term>, nüw
+							bekleid, mit einem nüwen seil und grossen <term ref="lem018287">stein</term> <lb/>verbunden uffzogen
+									werden.<note><persName ref="per009754a">Jenon</persName> a déjà
+								été interrogée en <date when="1593-05">mai 1593</date>, dans le
+								cadre du procès mené contre <persName ref="per009744a">Jenon
+									Davet</persName>. Voir <ref>SSRQ_FR_I_2_8_0017_000</ref>.</note>
+						</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+
+

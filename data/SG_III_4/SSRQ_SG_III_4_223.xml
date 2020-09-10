@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-08-15"/>
+            <date type="print"/>
+            <availability><p xml:id="facs">Sibylle Malamud</p></availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_223</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>EKGA Salez 32.01.45, Wohlfahrt, 31.05.1741, fol. 1r–3r</idno>
+               </msIdentifier>
+               <head>Protokoll über die Besetzung der Chorstühle in der Kirche Salez</head>
+               <msContents>
+                  <summary><p>Protokoll über die verliehenen Kirchenstühle im Chor der Kirche Salez laut Erkenntnis vom 31. Mai
+                        1741: Die zwei eingebauten Stühle gehören zum Schloss Forstegg, der Stuhl
+                        rechts davon dem Reitknecht. Die beiden Stühle links an der Wand sind für
+                        die Hausgenossen des Schlosses oder Ehrengäste reserviert. Die zwei Stühle
+                        bei der Kanzel gehören zum Pfarrhaus. Die restlichen Stühle werden für einen
+                        Gulden 30 Kreuzer gegen einen Schein verliehen. Stirbt ein Besitzer, fällt
+                        der Stuhl an die Kirche zurück und wird neu verliehen. Es folgen die 17
+                        nummerierten Stühle und ihre Besitzer.</p></summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <filiation type="current">Aufzeichnung, Heft (7 Doppelblätter) mit Umschlag</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="21.5"/>
+                              <width unit="cm" quantity="17.0"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate from="1741-05-31" to="1804-08-05"/>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000794">Kirche</term>
+               <term ref="key004267">Kirchenstuhl</term>
+               <term ref="key000537">Verleihung</term>
+               <term ref="key004324">Chor</term>
+               <term ref="key005353">Rangordnung</term>
+               <term ref="key000065">Amtmann</term>
+               <term ref="key000103">Richter</term>
+               <term ref="key004687">Protokoll</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <div>
+                  <pb n="1r" facs="EKGA_Salez_32.01.45_Wohlfahrt_31051741_1r"/>
+                  
+                  <head>
+                     <lb/>Protocoll <lb/>von <lb/>den <term ref="lem016888.02">chor-stühlen</term>
+                     <lb/>in der <term ref="lem000240">kirchen</term> zu <placeName ref="loc007991"
+                        >Sallez</placeName>, <lb/>angefangen <lb/>von <lb/><persName ref="per010728a">Caspar
+                           Thommann</persName>, <lb/><choice>
+                              <abbr>pfr</abbr>
+                              <expan><term ref="lem000672">pfarrer</term></expan>
+                           </choice>, <lb/>anno <origDate when="1741">1741</origDate></head>
+                  <p><lb/><add place="below" hand="other hand">Eine neue <term ref="lem003309">verordnung</term>
+                     von der <term ref="lem006896">gemeind</term>
+                     <lb/>veranlaaset durch die veränderung der <lb/><term ref="lem002961">regierung</term>,
+                     seite 23</add>.<note>Die Nachträge stammen von Pfarrer <persName ref="per010820">Markus
+                        Freuler</persName> aus dem Jahr 1804.</note></p>
+                  <pb n="1v" facs="EKGA_Salez_32.01.45_Wohlfahrt_31051741_1v-2r"/>
+                  <p>
+                     <lb/>Laut dem VIII.<hi rend="sup">ten</hi> articul, der den <origDate when="1741-05-31">31.
+                        maii anno 1741</origDate> von <lb/>dem <term ref="lem015672">stillstand</term> der kirchen
+                     <placeName ref="loc007991">Sallez</placeName> aufgerichteten und von <lb/><choice>
+                        <abbr>hhrn ldvogt</abbr>
+                        <expan>herrn landvogt</expan>
+                     </choice>
+                     <persName ref="per010765">Joh Heinrich Ulrich</persName> gesigleten <term ref="lem003309"
+                        >verordnung</term> und <lb/>erkantnus wegen den <term ref="lem012592.04"
+                           >kirchen-stühlen</term> im <term ref="lem004903">chor</term>
+                     <placeName ref="loc007991">Sallez</placeName>,<note>Der genaue Inhalt der Ordnung wird hier
+                        nicht detailliert wiedergegeben. Aus dem Verwaltungshandbuch (um 1755) von Landvogt
+                        <persName ref="per010271">Johannes Ulrich</persName>, der auf die gleiche Ordnung Bezug
+                        nimmt, erfährt man, dass abgemacht wurde, dass, wenn in dieser Kirche neben den vier
+                        Richtern noch ein anderer Amtmann von <placeName ref="loc007991">Salez</placeName> komme,
+                        der Landvogt einen von den zwei Stühlen links neben seinen beiden eingebauten Stühlen zur
+                        Verleihung zur Verfügung stellt (<bibl><ref>StASG AA 2 B 006</ref>, S. 116</bibl>). Die
+                        Änderung wurde wegen der Wahl von <persName ref="per010333a">Ulrich Rhyner</persName> von
+                        <placeName ref="loc007991">Salez</placeName> zum Landammann nötig.</note>
+                     <lb/>wird dißes protocoll von mir, <choice>
+                        <abbr>pfr</abbr>
+                        <expan><term ref="lem000672">pfarrer</term></expan>
+                     </choice>
+                     <persName ref="per010728a">Caspar Thomman</persName>, <lb/>angehebt und zwaren:</p>
+                  <p>
+                     <lb/>A: Zu dem <term ref="lem000376">schloß</term>
+                     <placeName ref="loc006124">Forstegk</placeName> gehören</p>
+                  <p>
+                     <lb/>1. die zwei <term ref="lem016892">eingemachte</term>
+                     <term ref="lem010870">stühl</term></p>
+                  <p>
+                     <lb/>2. der voraußen auf der rechten hand für den <term ref="lem016642">reitknecht</term></p>
+                  <p>
+                     <lb/>3. die zwei nächst folgende auf der lingken seiten an der <lb/><term ref="lem001106"
+                        >wand</term> für die <term ref="lem016889.02">haußgenoßen</term> oder sonst auch andere
+                     <lb/><term ref="lem004162.04">ehren-gäst</term>.</p>
+                  <p>
+                     <lb/>B: Zu dem <term ref="lem000637">pfarrhauß</term> gehören 2 <term ref="lem010870"
+                        >stühl</term>, namlich der unter <lb/>der <term ref="lem003605">canzel</term> und der
+                     nächste bei der <term ref="lem010846.03">canzel-stägen</term>.</p>
+                  <p>
+                     <lb/><abbr>NB</abbr>: Copia eines <term ref="lem002485">scheins</term>, der den <term
+                        ref="lem002624">besizeren</term> der <term ref="lem012592.04">kirchen-stühlen</term>
+                     <lb/>gegeben worden:</p><p> <lb/>Krafft der den <origDate when="1741-05-31">31. mai anno
+                        1741</origDate> gemachten verordnung ist <lb/>von mir, unts undterschribnem, dem <abbr>N
+                           N</abbr> der <term ref="lem010870">stuhl</term> im <lb/><term ref="lem004903">chor</term>
+                        der kirchen <placeName ref="loc007991">Sallez</placeName> an der <term ref="lem001106"
+                           >wand</term> (hinder dem <term ref="lem010872.03">tauff<lb break="no"/>stein</term>) mit
+                        N<hi rend="sup">o</hi> xx bezeichnet auf bezahlung von <measureGrp><measure quantity="1"
+                           unit="fl" type="currency">1 </measure>
+                           <measure quantity="30" unit="xr" type="currency">30 xr</measure></measureGrp>
+                        <term ref="lem000211">ver<lb break="no"/>lichen</term> worden mit dem recht, daß er denselben
+                        für sein <lb/>persohn lebenslänglich besizen möge. Nach seinem <term ref="lem000233"
+                           >tod</term> solle <lb/>der <term ref="lem010870">stuhl</term> widerum der <term
+                              ref="lem000240">kirchen</term> verfallen sein und der sel<lb break="no"/>bige dannzumahl
+                        wider verliehen werden, wie die anfangs <lb/>verdeütete verordnung und erkantnus vermag.</p>
+                  <p><lb/><origPlace ref="loc000691">Sallez</origPlace>, <lb/><foreign xml:lang="la"
+                     >die</foreign>
+                     <sic>.. xxx</sic>
+                     <lb/>anno <origDate when="1741">1741</origDate>, <lb/>bescheint <lb/><abbr>N N</abbr>, <lb/><choice>
+                        <abbr>pfr</abbr>
+                        <expan><term ref="lem000672">pfarrer</term></expan>
+                     </choice>.</p>
+                  <pb n="2r" facs="EKGA_Salez_32.01.45_Wohlfahrt_31051741_1v-2r"/>
+                  <p>
+                     <lb/>N<hi rend="sup">o</hi> 1. Ein <term ref="lem016891.02">amtsmann stuhl</term> wurde
+                     <foreign xml:lang="la">die</foreign>
+                     <origDate when="1741-05-31">31. maii 1741</origDate> gegeben <lb/>dem <term ref="lem000449"
+                        >landamman</term>
+                     <persName ref="per010333a">Ulrich Rhyner</persName> zu <placeName ref="loc000691.04"
+                        >Sallez</placeName>.</p><p> <lb/>Nach seinem <term ref="lem001497">absterben</term>, <foreign
+                           xml:lang="la">die</foreign>
+                           <origDate when="1741-06-21">21. junii 1741</origDate>, ruhte <lb/>in dißen stuhl der <term
+                              ref="lem000342">richter</term>
+                           <persName ref="per010816">Hanß Hagmann</persName> in <placeName ref="loc000389"
+                              >Haag</placeName>.</p><p><lb/>Nach dem absterben des richter <persName ref="per010816">Hanß
+                                 Hagmanns</persName> im <lb/><placeName ref="loc000389">Haag</placeName>, <foreign
+                                    xml:lang="la">die</foreign>
+                                 <origDate when="1743-11-01">1. 9bris 1743</origDate>, ruhte in dißem stuhl der richter
+                                 <lb/><persName ref="per010813">Jacob Berger</persName> zu <placeName ref="loc000691.04"
+                                    >Sallez</placeName>.</p>
+                  <p><lb/><addSpan place="below" hand="other hand" spanTo="#add1"/>Den <origDate when="1804-08-05">5. augsten
+                     1804</origDate></p>
+                  <p><lb/>der stuhl voraußen auf der rechten hand <lb/>(genant <term ref="lem016642"
+                     >reitknecht</term>), bekamme durch das <term ref="lem002565">loos</term>
+                     <lb/><persName ref="per010814">Christian Beglinger</persName>, <persName ref="per010815"
+                        >Conrad Beglingers</persName>
+                     <lb/>sohn von <placeName ref="loc000691.04">Salez</placeName>, um <measureGrp><measure
+                        quantity="1" unit="fl" type="currency">1 </measure>
+                        <measure quantity="30" unit="xr" type="currency">30 x</measure></measureGrp>.</p><p> <lb/>Der
+                           vertheilung nach inhalt der alten <lb/>erkantnus.<anchor xml:id="add1"/></p>
+                  <pb n="2v" facs="EKGA_Salez_32.01.45_Wohlfahrt_31051741_2v-3r"/>
+                  <p><lb/>N<hi rend="sup">o</hi> 2. Ein <term ref="lem016891.03">amts-mann-stuhl</term> wurde
+                     <foreign xml:lang="la">die</foreign>
+                     <origDate when="1741-05-31">31. maii 1741</origDate> gegeben dem <lb/><term ref="lem000342"
+                        >richter</term>
+                     <persName ref="per010816">Hanß Hagmann</persName> im <placeName ref="loc000389"
+                        >Haag</placeName>.</p><p> <lb/><foreign xml:lang="la">Die</foreign>
+                           <origDate when="1741-06-21">21. junii 1741</origDate> ruhte in dißem <term ref="lem010870"
+                              >stuhl</term> der richter <persName ref="per010813">Ja<lb break="no"/>cob Berger</persName>
+                           zu <placeName ref="loc000691.04">Sallez</placeName>.</p><p> <lb/><foreign xml:lang="la"
+                              >Die</foreign>
+                              <origDate when="1743-11-01">1. 9bris 1743</origDate> ruhte in dißen stuhl der richter
+                              <persName ref="per010810">Ulrich <lb/>Egli</persName> im <placeName ref="loc000389"
+                                 >Haag</placeName>.</p>
+                  <p><lb/><add place="below" hand="other hand">Den <origDate when="1804-08-05">5. <del>ma</del>
+                     augst 1804</origDate>
+                     <lb/>obigen <term ref="lem010870">stuhl</term> bekamme durch das <term ref="lem002565"
+                        >loos</term>
+                     <lb/><persName ref="per010811">Jacob Tinner</persName>, <term ref="lem000342">richter</term>
+                     <persName ref="per010812">Tinners</persName>
+                     <del>im</del> sohn im <lb/><term ref="lem000229">wirtshauß</term>, um <measure
+                        type="currency" unit="fl" quantity="2">2 </measure>, das geld ist nach <lb/>inhalt der
+                     alten erkantnus verheilt worden.</add></p>
+                  <pb n="3r" facs="EKGA_Salez_32.01.45_Wohlfahrt_31051741_2v-3r"/>
+                  <p><lb/>N<hi rend="sup">o</hi> 3. Ein <term ref="lem016891.03">amts-mann-stuhl</term> wurde
+                     <foreign xml:lang="la">die</foreign>
+                     <origDate when="1741-05-31">31. maii 1741</origDate> gegeben <lb/>dem <term ref="lem000342"
+                        >richter</term>
+                     <persName ref="per010813">Jacob Berger</persName> zu <placeName ref="loc000691.04"
+                        >Sallez</placeName>.</p><p> <lb/><foreign xml:lang="la">Die</foreign>
+                           <origDate when="1741-06-21">21. junii 1741</origDate> ruhte in dißen stuhl der richter
+                           <lb/><persName ref="per010810">Ulrich Egli</persName> im <placeName ref="loc000389"
+                              >Haag</placeName>.</p><p> <lb/><foreign xml:lang="la">Die</foreign>
+                                 <origDate when="1743-11-01">1. 9bris 1743</origDate> ruhte in dißen stuhl der richter
+                                 <lb/><persName ref="per010818">Andreas Rych</persName> zu <placeName ref="loc000691.04"
+                                    >Sallez</placeName>.</p>
+                  <p><lb/>Weil dißer richter <persName ref="per010818">Andreas Rych</persName> vom <choice>
+                     <abbr>hhrn ldvogt</abbr>
+                     <expan>herrn landvogt</expan>
+                  </choice>
+                     <lb/><persName ref="per010271">Johannes Ulrich</persName>
+                     <foreign xml:lang="la">die</foreign>
+                     <origDate when="1746-07-06">6. julii anno 1746</origDate> seiner <term ref="lem014235"
+                        >richter stell</term>
+                     <lb/><term ref="lem001788">entsezt</term> worden, so rukte in dißen stuhl der richter
+                     <persName ref="per010819a">Adam <lb/>Engler</persName> im <placeName ref="loc000389"
+                        >Haag</placeName>. </p>
+                  <p>
+                     <lb/><add place="below" hand="other hand">Den <origDate when="1804-08-05">5.
+                           augsten 1804</origDate>
+                        <lb/>obigen 0<note>Es ist unklar, was diese Null bedeutet.</note>
+                        <term ref="lem010870">stuhl</term> bekamme durch das <term ref="lem002565"
+                           >looß</term>
+                        <lb/><term ref="lem016894.01">alt wuhrmeister</term>
+                        <persName ref="per010817a">Hans Beglinger</persName> um <lb/><measure
+                           type="currency" unit="fl" quantity="2">2 </measure>, <measure
+                           type="currency" unit="bz" quantity="20">20zig bazen</measure> an den
+                           <term ref="lem016895.02">gemeinds<lb break="no"/>seckelmeister</term>,
+                           <lb/><measure type="currency" unit="bz" quantity="10">10 bazen</measure>
+                        an den <term ref="lem008931.03">allmoosenpfleger</term></add>. <gap
+                        reason="irrelevant"/><note>Die folgenden Seiten enthalten die weiteren
+                        Verleihungen der nummerierten Stühle von Nr.&#160;4 bis Nr.&#160;17 in
+                        ähnlichem Wortlaut sowie eine Erneuerung der alten Ordnung von 1741, die
+                        1804 in einigen Punkten den neuen politischen Verhältnissen angepasst wird
+                        (vgl. Kommentar).</note>
+                     <!-- Nr. 4: Amtmannstuhl Ulrich Egli im Haag, dann Andreas Rych zu Sallez, Adam Engler, 1746 neuerwählten Richter Ulrich Berger, wirt zu Sallez.
+        Nr. 5 Stuhl Andreas Rych, Nachdem Landammann stell in Sennwald gekommen und AR Stuhl Nr. 4 fortgerukt und Nr 5 ledig, Hans Berger Schulmeister Salez mit Erläuterung, neben 4 richteren ein mehrerer
+        oder anderer in diese Kirchhöi, so gibt ihm LV einen von den zwei schlosstühlen bis ein anderer von den angezeichnetet leer.
+        Nr. 6 Stuhl Georg Rupf Heiris sel, nach Tod Jörg Rupfen Ulrich Rhyner Jörgen sohn... im Holz, 1812 Andreas Rhyner Jörgen sohn im holz loos
+        Nr. 7 Stuhl Christian Egli Richter Hans Eglis sel Sohn Haag, 1779 Sohn von ihm gl. Namen,
+        Nr. 8 Stuhl Jakob Rupf, Geörg Rupfen Sohn im roten Hüsli, 1800 seinem Sohn Jakob Rupf
+        Nr. 9 Stuhl 1741 Albrecht Berger, Ulrich Berger Tambouren sohn, 1787 Jakob Berger Tamboren, obigen Sohn
+        Nr. 10 Stuhl Ulrich Berger, schräpfer SAlez, 1791 Andreas Berger Schulmeister, Adam Bergers soehn von Salez
+        Nr. 11 Stuhl Ulrich Berger, richter, Joh Bergers sohn, 1773 Johann Berger richter UB sel sohn
+        Nr. 12 Schulmeister Stuhl Schulmeister-Stuhl für Schulm im Haag Adam Hagmann im Haag
+        Nr. 13 Schulmeister Stuhl Schulmeister Stuhl für SM Salez Konrad Berger Salez, 1742 SM tritt zurück, darauf der junge Salezer Heinrich Berger SM gewählt, bekommt diesen stuhl
+        Nr. 14: Stuhl Ulrich Hagmann, alt ehegaumer, gestrichen: sein Sohn Ulrich Hagmann, 1767 Ulrich Hagmann will ihn nicht mehr, Joseph Beglinger, krämers sohn zu Salez
+        Nr. 15. Stuhl SM Peter Rederer sel Kinder gelassen, wollen nicht behalten, Christian Engler, Adam Englers sel sohn Haag, tod Christian Engler vakant 1791 Joh Reich Schmid
+        Nr. 16 Stuhl Christian Egli Richter Ulrich Eglis sohn, 1772 Conkrad Be...
+        Nr. 17 Stuhl Christian Bösch Maurer Salez Messmer Hans Bösch sel sohn, 1791 Johannes Egli Richter, 1812
+        S. 23: Versammlung Pfarrhaus, REcht Stühle besetzen keine Parteilichkeit, Hände der Gemeinde werfe, Dank und erkannt, 1. ledige Stühle Preis verlost werden, 2. stühle, ehem LV ausser
+        dem eingemachten der Gemeinde verfallen Loss
+        3.  die drei ersten grad nach den eingemachten sollen Vorgesetzten und richtern gehören
+        4. Um Streit mit Haag ausweichen, solle die Stühle, welche Haager besitzen Gem. Haag gehören, im Pffarrhaus under Aufsicht Pfarrer vergeben und Preis Gemeindseckel Haag gehören und Armengut, sont wie 31. Mai 1741 Markus Freuler Pfarrer 5. August 1804-->
+                  </p>
+               </div>
+               
+            </body>
+         </text>
+      </group>
+      <back>
+         <div n="1">
+            <p>Das <term ref="key004687">Protokoll</term> über die <term ref="key000537">Verleihung</term>
+               der Kirchenstühle in der Kirche <placeName ref="loc007991">Salez</placeName> wird aufgrund
+               einer neuen <term ref="key000341">Ordnung</term> vom <origDate when="1741-05-31">31. Mai
+                  1741</origDate> erstellt, deren Inhalt hier nicht detailliert wiedergegeben ist (vgl. dazu
+               Fussnote 2). Die Verleihung zeigt deutlich die <term ref="key005353">Rangordnung</term>
+               innerhalb einer <term ref="key000140">Herrschaft</term> und <term ref="key000306"
+                  >Kirchgenossenschaft</term>. Gewisse eingebaute Stühle gehören dem <term ref="key000180"
+                     >Landvogt</term>, seinem Reitknecht und seinen Gästen. Die Stühle bei der Kanzel sind dem
+               <term ref="key000806">Pfarrhaus</term> vorbehalten. Die ersten Stühle Nr.&#160;1 bis 4, die
+               verliehen werden, gehören den <term ref="key000065">Amtleuten</term> der Herrschaft; der erste
+               dem <term ref="key003718">Landammann</term>, falls dieser aus <placeName ref="loc000691"
+                  >Salez</placeName> oder <placeName ref="loc000389">Haag</placeName> kommt. Bei seinem <term
+                     ref="key003024">Tod</term> rückt der <term ref="key000103">Richter</term> vom 2. Stuhl nach.
+               Auf dessen Stuhl rückt dann der Richter von Nr.&#160;3 vor usw. Die weiteren Verleihungen der
+               Stühle zeigen, dass diese vielfach vom <term ref="key000244">Vater</term> auf den <term
+                  ref="key000300">Sohn</term> vererbt werden. Will jemand den Stuhl nicht übernehmen, kann er
+               ihn zurückgeben. Auf den meisten Stühlen sitzen Richter, doch die Stühle Nr.&#160;12 und 13
+               sind den <term ref="key000276">Schulmeistern</term> von <placeName ref="loc000389"
+                  >Haag</placeName> und <placeName ref="loc000691">Salez</placeName> vorbehalten.</p></div>
+            <div n="2">
+               <p>Aufgrund der neuen Regierungsform wird die alte Ordnung von 1741 am <date
+                  when="1804-08-05">5. August 1804</date> angepasst: Wegen der freien Chorstühle
+               wird im <term ref="key000806">Pfarrhaus</term> eine <term ref="key004098"
+                  >Versammlung</term> abgehalten. Das Recht, die <term ref="key004327">Stühle</term>
+               zu verleihen, geht nicht mehr von der Kirche bzw. dem <term ref="key000301"
+                  >Pfarrer</term> aus, sondern wird in die Hände der <term ref="key004966"
+                  >Gemeinde</term> gelegt. Neu werden die Stühle nicht mehr nach dem Ansehen der
+               Person, sondern nach dem <term ref="key004149">Los</term> vergeben. Auch die
+               ehemaligen Landvogtstühle gehören der Gemeinde und werden verlost. Die ersten drei
+               Reihen hinter den eingebauten Stühlen sind den <term ref="key000800"
+                  >Vorgesetzten</term> und <term ref="key000103">Richtern</term> vorbehalten. Die
+               Stühle der <orgName ref="org001787">Haager</orgName> sollen ihnen verbleiben und im
+               Pfarrhaus unter Aufsicht des Pfarrers verliehen werden. Der Erlös kommt dem
+               Gemeindesäckel von <placeName ref="loc000389">Haag</placeName> und dem <term
+                  ref="key004632">Armengut</term> von <placeName ref="loc000691">Salez</placeName>
+               zu. Im Übrigen bleibt es bei der Erkenntnis von <date when="1741">1741</date>.</p>
+            </div>
+         <div n="3"><p>Im Verwaltungshandbuch (um 1755) von Landvogt <persName ref="per010271">Johannes
+                  Ulrich</persName> werden die Ansprüche eines Landvogts auf bestimmte <term
+                  ref="key004327">Stühle</term> in den drei <term ref="key000794">Kirchen</term>
+               <placeName ref="loc006249">Sax</placeName>, <placeName ref="loc007990"
+                  >Sennwald</placeName> und <placeName ref="loc007991">Salez</placeName>
+               beschrieben: Danach besitzt der Landvogt in allen Kirchen zwei eingebaute Stühle,
+               neben ihm hat der Reitknecht einen Stuhl. Die <term ref="key000558">Ehefrau</term>
+               von <persName ref="per010271">Johannes Ulrich</persName> und seine <term
+                  ref="key000141">Töchter</term> sitzen auf der vordersten, eingebauten Kirchenbank.
+               In der <placeName ref="loc006249">Saxer</placeName> Kirche hat auch das Haus
+                  <placeName ref="loc007946">Sax</placeName> Ansprüche auf bestimmte Stühle
+                     (<bibl><ref>StASG AA&#160;2 B&#160;006</ref>, S.&#160;114–116</bibl>; zum
+               Handbuch allgemein vgl. den Kommentar in <ref>SSRQ_SG_III_4_234</ref>). Als <date
+                  when="1754">1754</date> der neu gewählte <term ref="key003718">Landammann</term> aus Sax stammt,
+               müssen die <term ref="key000103">Richter</term> von Sax und <placeName
+                  ref="loc006121">Frümsen</placeName> einen Stuhl zurückweichen, damit dem Amt und
+               Stand des neuen Landammanns das erforderliche Ansehen gewährt wird. Nach seinem Tod
+               dürfen sie zur alten Stuhlordnung zurückkehren (<bibl><ref>OGA Sax
+                  18.07.1754</ref></bibl>).</p></div>
+      </back>
+   </text>
+</TEI>

@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     n="1234"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="headerinfo"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2020-08-17"/>    <date type="print"/>
+    <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Collection des sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des
+      sources
+      du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS_NE_3_495</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>AVN B 101.14.002, fol. 114v–115r</idno>
+               </msIdentifier>
+               <head>Acquisition d’un immeuble par résignation pendant la durée du mariage</head>
+               <msContents>
+                  <summary>Un immeuble acquis par résignation pendant la durée du mariage est un bien propre
+       pour le conjoint qui l’a acquis et pour ses héritiers, en l’occurence par l’épouse. Le Petit Conseil renvoie aux juges pour
+       les questions d’investiture de la succession des biens d’un étranger décédé hors du
+       pays.</summary>
+                  <msItem>
+                     <textLang>français</textLang>
+                     <filiation type="current"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="34.5"/>
+                              <width unit="cm" quantity="22"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1841-04-19"/>
+                     <origPlace ref="loc007786">Neuchâtel</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head/>
+                     <bibl/>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key004999"/>
+               <term ref="key000863"/>
+               <term ref="key000920"/>
+               <term ref="key000815"/>  
+               <term ref="key004428"/>
+               <term ref="key005000"/>
+               <term ref="key005001"/>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="114v" facs="AVN_B_101.14.002_0114v"/>
+               <div>
+                  <head>
+                     <lb/>Déclaration <lb/>touchant l’effet d’une <term ref="lem014964"
+                        >résignation</term>
+                     <lb/>faite à une femme pendant la durée <lb/>du mariage. <lb/><hi
+                        rend="underline">Du <origDate when="1841-04-19"
+                        >19 avril 1841</origDate>.</hi>
+                  </head>
+               </div>
+               <div>
+                  <p>
+                     <lb/>L’an <origDate when="1841-04-19"
+                        >mil huit cent quarante un, le dix neuf <lb/>avril</origDate>, le <orgName
+                        ref="org003085">Petit Conseil de la Ville de <placeName ref="loc007786.07"
+                           >Neuchâtel</placeName></orgName> en <placeName ref="loc001012.09"
+                        >Suisse</placeName> étant <lb/>assemblé sous la présidence de monsieur <persName
+                        ref="per008607"
+                        >Alexandre Auguste <lb/>de Rougemont</persName> maitre bourgeois en chef, lecture a été faite d’une <lb/>requête de monsieur <persName
+                        ref="per008608"
+                        >Auguste Delachaux</persName>, membre du corps législatif <lb/> et avocat à <placeName
+                        ref="loc007790"
+                        >la Chaux de Fonds</placeName>, agissant dans l’intérêt des héritiers <lb/>testamentaires de feu le sieur <persName
+                        ref="per008609">Théophile Voumard Calame</persName> de <lb/><placeName
+                        ref="loc001157"
+                     >Courtelary</placeName>, par la quelle il sollicite une déclaration de la <lb/>coutume de cet État sur les points suivants. </p>
+                  <p>
+                     <lb/>1<hi rend="sup"
+                     >o</hi>. Lorsqu’une investiture de la succession d’un étranger décédé <lb/>hors du pays a été accordée par une cour de justice de l’État dans le <lb/>ressort du quel est situé un immeuble faisant partie de la succession <lb/>réclamée, un juge d’inventaire et partage émanant de cette <lb/>cour de justice n’est il pas compétent pour connoitre des difficultés <lb/>qui peuvent s’élever au sujet du partage de cette succession, ou tout <lb/>au moins de celles qui peuvent s’élever au sujet du partage de <lb/>l’immeuble situé dans son ressort&#160;?</p>
+                  <p>
+                     <lb/>2<hi rend="sup"
+                        >o</hi>. S’agissant dans le cas de la question précédente, d’un démêle<lb
+                        break="no"
+                     />ment de biens, à faire entre les héritiers invêtus et l’époux survivant <lb/>ou ses héritiers, les difficultés relatives à un immeuble situé dans <lb/>ce pays ne doivent elles pas être soumises au juge du lieu où <lb/>cet immeuble est situé&#160;?</p>
+                  <p>
+                     <lb/>3<hi rend="sup"
+                        >o</hi>. Lorsqu’un immeuble a été résigné à une femme mariée par <lb/>ses cohéritiers, cette circonstance suffit elle pour que cet immeuble <lb/>soit envisagé comme un <term
+                        ref="lem014963"
+                        >bien propre</term> de la femme&#160;? Ne faut-il <lb/>pas en outre justifier que le prix de cette <term
+                        ref="lem014964">résignation</term> a été payé <lb/>du <term ref="lem014963"
+                        >bien propre</term> de la femme&#160;? Et si cette preuve est impossible <lb/>l’immeuble ne sera-t-il pas envisagé comme bien propre pour <lb/>la portion héritée par la femme mariée, et comme <term
+                        ref="lem014965"
+                     >acquêt</term> de <lb/>communauté pour la portion résignée&#160;?</p>
+                  <p>
+                     <lb/>Sur quoi <orgName ref="org003085"
+                        >messieurs du Petit Conseil</orgName> après mûr examen et <lb/>délibération ont dit et déclaré&#160;: <hi
+                        rend="underline">Sur les premier et second points</hi>
+                     <lb/>qu’il ne peut y être répondu par une déclaration de la coutume. <lb/>C’est au juge d’ordre, ou aux tribunaux eux mêmes à prononcer <lb/>sur les questions de compétence&#160;; <hi
+                        rend="underline"
+                        >et sur le troisième point</hi>, que <lb/>conformément à la Coutume usitée de toute ancienneté et de père <lb/>en fils en cette Principauté&#160;; l’immeuble acquis par <term
+                        ref="lem014964">résignation</term>
+                     <lb/>pendant la durée du mariage est un <term ref="lem014963"
+                        >bien propre</term> et d’<term ref="lem014966"
+                        >estoc</term> pour <lb/>celui des conjoints qui l’a ainsi acquis et pour ses héritiers&#160;; et si <lb/><add
+                        place="below" type="catchword">le</add>
+                     <pb n="115r" facs="AVN_B_101.14.002_0115r"/>
+                     <lb/>le prix n’en a pas été payé de ses propres deniers, mais qu’il ait <lb/>été payé de ceux de la conjonction, celle ci devient créancière du <lb/>conjoint à la décharge duquel elle a payé. </p>
+                  <p>
+                     <lb/>Laquelle déclaration étant ainsi rendue, il a été ordonné au <lb/>secrétaire du Conseil de l’expédier en cette forme sous le sceau de la <lb/>mairie et justice de cette ville. À l’<origPlace
+                        ref="loc007793"
+                        >hôtel de ville de Neuchâtel</origPlace> les <lb/>an et jour que devant <origDate
+                        when="1841-04-19">19 avril 1841</origDate>. </p>
+                  <p>
+                     <lb/>Par ordonnance <lb/>Le secrétaire du Conseil </p>
+               </div>
+               <div>
+                  <lb/>
+                  <signed>
+                     <persName ref="per008613"><choice>
+                           <abbr>P&#160;: L&#160;:</abbr>
+                           <expan>Pierre-Louis</expan>
+                        </choice> Jacottet</persName>
+                     <figure type="notarial sign"/></signed>
+               </div>
+            </body>
+         </text>
+      </group>
+   </text>
+</TEI>

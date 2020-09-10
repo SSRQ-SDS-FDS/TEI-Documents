@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften
+     und Landstädte, Band 4: Die Rechtsquellen der Region Werdenberg: Grafschaft Werdenberg und
+     Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-08-15"/>
+            <date type="print"/>
+            <availability><p xml:id="facs">Staatsarchiv St. Gallen (StASG)</p></availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_180</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>StASG AA 2 A 6b-3-4</idno>
+                  <altIdentifier>
+                     <idno>StASG AA 2 A 6b-3</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <head>Ordnung über das Wuhren der Gemeinde Sennwald für die Jahre 1648 und 1649</head>
+               <msContents>
+                  <summary><p>Johann Jakob Lavater, Landvogt von Sax-Forstegg, bestätigt der Gemeinde Sennwald
+                     eine Ordnung über das Wuhren:</p> <p>1. Der Mesmer soll im Herbst und Winter die grosse Glocke
+			um 8 Uhr läuten, worauf sich jeder auf den Wuhrplatz begeben muss. Wer nicht erscheint,
+			wird mit 6 Batzen bestraft.</p> <p>2. Keiner darf von sich aus irgendwo Stauden schlagen,
+			   sondern jeder muss sich auf dem Wuhrplatz einfinden und warten, was ihm befohlen wird.</p> <p>3. Jeder, der ein Fuhrwerk oder eine Axt besitzt, soll am Abend um 15 Uhr wieder auf dem
+			      Wuhrplatz erscheinen, bis entschieden ist, wie man mit dem Wuhren weiterfährt.</p> <p>4. Jeder
+			         muss sein eigenes Essen und Futter für die Tiere mitnehmen.</p> <p>5. Wuhrhölzer müssen so
+			            stabil sein, dass sie gelocht werden können.</p> <p>6. Ein Rodmeister soll kontrollieren, dass
+			               alle erscheinen und arbeiten.</p> <p>7. Alle Rodmeister sollen schauen, dass jeder seine Steine
+			                  und Hölzer selber führt.</p> <p>8. Jeder soll dem Wuhrmeister und Vorgesetzten gehorsam
+			sein.</p></summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <filiation type="current">Aufzeichnung (Doppelblatt)</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="33.5"/>
+                              <width unit="cm" quantity="21.0"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate from="1648-01-01" to="1649-12-31">Ohne Monat und Tag.</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000184">Busse</term>
+               <term ref="key000520">Wuhr</term>
+               <term ref="key004405">Wuhrmeister</term>
+               <term ref="key000733">Wuhrpflicht</term>
+               <term ref="key000699">Transport</term>
+               <term ref="key004609">Wuhrung</term>
+               <term ref="key000923">Fuhrwerk</term>
+               <term ref="key000479">Frondienst</term>
+               <term ref="key004608">Stein</term>
+               <term ref="key000341">Ordnung</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <div>
+                  <pb n="1r" facs="StASG_AA_2_A_06b-03-04_01"/>
+                  <head type="title"><lb/><term ref="lem000809">Ordnung</term>
+                     <lb/>betreffende das <term ref="lem010133">wuhren</term> der gemeind <orgName ref="org003296"
+                        >Senwaldt</orgName> auff das <lb/><origDate when="1648">1648</origDate> und <origDate
+                           when="1649">49</origDate> jahr</head>
+                  <p>
+                     <lb/>Durch den hochgeachten, frommen, ehrnvesten, fürsichtigen, für<lb break="no"/>nemen und
+                     weyßen herren <persName ref="per009961a">Johan Jacob Lavater</persName>, dißer zeit wohl
+                     re<lb break="no"/>gierender landvogt der freyherrschafft <placeName ref="loc000278">Sax und
+                        Vorsteckh</placeName>, übersehen <lb/>und bestatt worden, wie folget
+                     <abbr>etc</abbr>:</p>
+                  <head type="subtitle"><lb/>Für das erst</head>
+                  <p><seg><lb/><add place="left margin" hand="other hand">1.</add><note>Die Nummerierungen wurden
+                     von späterer Hand in den Text und am Rand eingefügt.</note>
+                     <term ref="lem002140">Herbst</term> und <term ref="lem001325">windters zeit</term> solle der
+                     <term ref="lem002695.05">meßmer</term> die <term ref="lem009352">groß glockhen</term> umb
+                     <time when="08:00:00">acht<lb/>
+                        <term ref="lem000927">uren</term></time> leüten, alß dann sol ein jeder in gemelter <term
+                           ref="lem001964">stund</term> auff dem <lb/><term ref="lem015770.02">wuhr blatz</term>, do man <choice><sic>ansicht</sic><corr resp="PS">anficht</corr></choice><note>Wohl Verschreiber für <orig>anficht</orig> bzw.
+                              anfangen.</note> zu wuhren, erschynen.
+                     Wellicher aber sich <lb/><term ref="lem009869">hinder schluge</term> und spätter käme, deme
+                     sol der tag nützet gelten, sonder <lb/>ohn allen nachlaß umb <measure quantity="6"
+                        type="currency" unit="bz">6 batzen</measure> gestrafft werden und seinem <term
+                           ref="lem015772.02">rath <lb/>meister</term> an selbigen tag zustellen. Es möchte aber einer
+                     solliche gfahr <lb/>bruchen wöllen, er wurdt obwohl gedachtem herren <term ref="lem000266"
+                        >landvogt</term>
+                     <term ref="lem000829">geleidet</term>
+                     <lb/>werden, einen sollichen ungehorsammen nach der sachen befindtnuß <lb/>abzustraffen und
+                     gehorsam machen.</seg>
+                     <seg><add place="above" hand="other hand">2.</add> Es ist hierbey auch lutter beschloßen,
+                        <lb/>daß keiner eigens gewaldts gange <term ref="lem002179">studen</term> zehauwen oder an
+                        ein andern <lb/>orth, sonder auff dem <term ref="lem015770.02">wuhr blatz</term>, wie
+                        gemelt, sich finden laße und wahrte, <lb/>waß man ime befehle.</seg>
+                     <seg><add place="above" hand="other hand">3.</add> Auch sol ein jeder, er habe ein <term
+                        ref="lem003811">menni</term> oder ein <term ref="lem015774.02">studen <lb/>hauwer</term>,
+                        am <term ref="lem001491">abend</term> widerumb auff dem <term ref="lem015770.02">wuhr
+                           blatz</term> erschynen und dem <lb/><term ref="lem002001.18">fyr abendt</term> namblich biß
+                        umb <time when="15:00:00">3</time> vern erwarten und laßen, wie mann <lb/>ins künfftig sich
+                        mit dem wuhren verhalten wurde.</seg>
+                     <seg><add place="above" hand="other hand">4.</add> Es sol auch ein jeder <lb/>sich mit <term
+                        ref="lem000187">spyß</term> und <term ref="lem000143">futter</term> versehen, damit soliche
+                        angestelte <term ref="lem015771.02">wuhr tag</term>, <lb/>wen desto fleyßiger mögend
+                        verricht werden.</seg></p>
+                  <pb n="1v" facs="StASG_AA_2_A_06b-03-04_02"/>
+                  <head type="subtitle"><lb/>Für das ander</head>
+                  <p><lb/><add place="left margin" hand="other hand">5.</add> Betreffende die hiernach geschriben
+                     <term ref="lem010549">wuhr höltzer</term>, so jedem ufferleit <lb/>worden, ist gmachet, das
+                     jedes <term ref="lem000759">holtz</term> hinden und <choice>
+                        <sic>formmen</sic>
+                        <corr>fornnen</corr>
+                     </choice> das <term ref="lem015775.01">lochen</term> wohl <lb/>erlyden möchte, womit sollend
+                     selbige nit gültig sein und von dem <term ref="lem011394">wuhr <lb/>meisteren</term> ab
+                     kändt werden, inmaaßen, daß hierin kein gefahr ge<lb break="no"/>brucht werde und die lenge
+                     mache, so wyt müglich ist.</p>
+                  <head type="subtitle"><lb/>Für das dritt</head>
+                  <p><lb/><add place="left margin" hand="other hand">6.</add> ist beschlossen und gmachet worden,
+                     wyl die zeit und jarr anhero iren vil <lb/>gar nit auff daß <term ref="lem000769"
+                        >wuhr</term> gegangen, etliche auch auff demselbige nit allein <lb/>nichts gearbeitet,
+                     sonder nach andere zu verhinderet, waß angesehen, <lb/>söllichem allem nun zu begegnen, so
+                     soll ein <term ref="lem015772.01">rodmeister</term> uff vorgesetzt <lb/>zeit und stund bey
+                     guter zeit erschynen und die synnigen zeigen und <lb/>flyßig achtung geben, daß nimand uß
+                     blybe, laut seinem <term ref="lem015773.02">rod zedel</term>, <lb/>so ime übergeben wirdt.
+                     Und wo es sich begebe, daß einer oder der ander <lb/>sich von der <term ref="lem005104"
+                        >arbeidt</term> ußeren wölte, mit ernst dohin vermögen. Und <lb/>so er oder dieselbigen nit
+                     wolten gehorsammen, die söllend nit allein <lb/>die genambt <measure quantity="6"
+                        type="currency" unit="bz">6 batzen</measure> zu <term ref="lem000036">buß</term> erlegen,
+                     sonder vohr wohl gedachtem, <lb/>unßerenn g<subst><del>näd</del><add place="overwritten"
+                        hand="other hand">ür</add></subst>igen herren landtvogt zue gehorsame angezeigt
+                     <lb/>werden <abbr>etc</abbr>.</p> 
+                  <head type="subtitle"><lb/>Und dann für das viert</head>
+                  <p><lb/><add place="left margin" hand="other hand">7.</add> söllend alle <term
+                     ref="lem015772.01">rodmeister</term> fleißig achtung geben, das die meinen <lb/>all
+                     verhanden und jede seyne auff gelegte <term ref="lem010128">stein</term> und <term
+                        ref="lem000759">höltzer</term>, auch <lb/><term ref="lem005843">pfäl</term> füre, daß auch
+                     hier in kein gefahr gebrucht wurde. <lb/></p>
+                  <p><add place="left margin" hand="other hand">8.</add> Es sol auch ein yder schuldig sein,
+                     dem <term ref="lem011394">wuhr meisteren</term> und <term ref="lem002891">für ge<lb
+                        break="no"/>setzten</term>, was man ihme befehlen wirt, gehorsamm sein by obgesetzter
+                     <lb/>unnachlässlicher buß <abbr>etc</abbr>.</p>
+               </div>
+               <pb  facs="StASG_AA_2_A_06b-03-04_03"/>
+               <div>
+                  <ab type="dorsal" place="verso" hand="hand17c"><lb/><term ref="lem000809">Ordnung</term>
+                     <lb/>betreffende daß <term ref="lem010133">wuhren</term> der <lb/>gemeind im <placeName ref="loc000950">Senwald</placeName>
+                     <abbr>etc</abbr></ab>
+               </div>
+               <div>
+                  <ab type="archiving reference" place="verso"><lb/>N<hi rend="sup">o</hi> 26; <date when="1648">1648</date>; cist Sax N.
+                     47</ab>
+               </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div n="1"><p>Das folgende Stück wurde in die Edition aufgenommen, da <term ref="key000341">Ordnungen</term>
+            von <term ref="key004966">Gemeinden</term> über das <term ref="key004609">Erstellen</term> von
+            Dämmen bzw. die Organisation und die Aufgaben der Bewohnerschaft während der sogenannten
+            Wuhrtage kaum überliefert sind. Einige Bestimmungen finden sich in den <term ref="key000013"
+               >Dorfrechten</term> (<term ref="key004797">Legibriefe</term>), so z. B. von <placeName
+                  ref="loc000198">Buchs</placeName> aus dem Jahr <date when="1775">1775</date> (<bibl><ref>OGA&#160;
+                     Buchs U&#160;09</ref>, Art.&#160;25</bibl>) oder von Sevelen <date when="1653">1653</date> bzw. <date
+                        when="1786">1786</date> (<ref>SSRQ_SG_III_4_184</ref>, Art.&#160;10–11;
+            <bibl><ref
+               target="https://archivverzeichnis.gl.ch/home/#/content/1e896ea0ddc54525a048c334de1c92d7">LAGL
+               AG III.2436:038</ref>, Art.&#160;10</bibl>). Vgl. auch die Verordnung des Landvogts für <orgName
+                  ref="org001835">Wartau</orgName> von <date when="1789">1789</date> (<bibl><ref>StASG&#160;CK
+                     10/3.02-24e</ref></bibl>). </p>
+         </div>
+            <div n="2">
+            <p>Weit häufiger sind Konflikte mit Nachbargemeinden wegen Wuhren am <placeName
+                  ref="loc000644">Rhein</placeName>, über Grösse, Länge und Beschaffenheit eines
+               Wuhrs bzw. die Grenzen. So streitet <orgName ref="org003296">Sennwald</orgName> v. a.
+               mit <orgName ref="org003504">Ruggell</orgName> und/oder <orgName ref="org003683"
+                  >Bangs</orgName> auf der anderen Rheinseite (vgl. dazu die Dossiers:
+                     <bibl><ref>LLA&#160;RA&#160;41/01</ref></bibl>; <bibl><ref>StASG&#160;AA 2 A
+                     06b</ref></bibl>; <bibl><ref>OGA&#160;Sennwald Mappe Nachbarn, Mappe
+                     Bangs</ref> oder <ref>Mappe Nachbarn, Mappe Ruggell</ref></bibl> sowie die
+               Dokumente <bibl><ref>GA&#160;Ruggell 14.05.1776</ref> und
+                  <ref>18.02.1790</ref></bibl>;
+                  <bibl><ref>StASG&#160;AA&#160;2&#160;U&#160;48</ref>; <ref>AA 2a
+                  U&#160;32</ref></bibl>).</p>
+            </div><div n="3">
+            <p>Zu Wuhrkonflikten am Rhein in der Region <placeName ref="loc000962">Werdenberg</placeName>
+               vgl. auch <ref>SSRQ_SG_III_4_058</ref>; <ref>SSRQ_SG_III_4_144</ref>;
+               <ref>SSRQ_SG_III_4_162</ref>.</p></div>
+      </back>
+   </text>
+</TEI>

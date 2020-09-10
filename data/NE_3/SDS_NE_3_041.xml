@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome
+     3&#160;: Les points de coutume neuchâtelois</title>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="headerinfo"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <date type="electronic" when="2020-08-17"/>
+    <date type="print"/>
+     <availability><p xml:id="facs">Adrien Wyssbrod</p></availability>  
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Collection des sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS_NE_3_041</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier>
+      <idno>AEN 14JL–451, fol. 214v–215v</idno>
+     </msIdentifier>
+     <head>Répartition des biens d’un premier mariage entre la veuve et les enfants</head>
+     <msContents>
+      <summary>Les tuteurs ne peuvent déshériter veuves et enfants orphelins sans passer par une
+       connaissance de justice et cela pour payer les dettes des pupilles ou dans leur intérêt. Si une
+       veuve se remarie elle doit partager l’héritage équitablement entre elle et ses enfants d’un
+       premier lit, suivant les règles habituelles sur la propriété et l’usufruit des différentes
+       parties. Les biens immeubles qu’elle conservent en usufruit doivent être entretenus et
+       exploités, faute de quoi elle s’en trouve mésusée.</summary>
+      <msItem>
+       <textLang>français</textLang>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="34"/>
+          <width unit="cm" quantity="22.5"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <origDate when="1602-01-29" calendar="Julian"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>
+      </origin>
+     </history>
+     <additional>
+      <listBibl>
+       <head/>
+       <bibl/>
+      </listBibl>
+     </additional>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key005098"></term>
+     <term ref="key000138"></term>
+     <term ref="key000863"></term>
+     <term ref="key000874"></term>
+     <term ref="key000997"></term>
+     <term ref="key005061"></term>
+     <term ref="key004056"></term>
+     <term ref="key000231"></term>
+     <term ref="key000074"></term>
+     <term ref="key000815"></term>
+     <term ref="key000920"></term>
+     <term ref="key004368"></term>
+     <term ref="key000244"></term>
+     <term ref="key005072"></term>
+     <term ref="key005101"></term>
+     <term ref="key000311"></term>
+     <term ref="key000476"></term>
+     <term ref="key001112"></term>
+     <term ref="key005155"></term>
+     <term ref="key005011"></term>
+     <term ref="key005068"></term>
+     <term ref="key004770"></term>
+     <term ref="key000159"></term>
+     <term ref="key005077"></term>
+     <term ref="key005197"></term>
+     <term ref="key005001"></term>
+     <term ref="key000558"></term>
+     <term ref="key000336"></term>
+
+    </keywords>
+   </textClass>
+   <particDesc default="false"/>
+   <settingDesc default="false"/>
+  </profileDesc>
+ </teiHeader>
+ <text>
+  <group>
+   <text>
+    <body>
+     <pb n="214v" facs="AEN_14JL_451_0214v"/>
+     <div>
+      <add place="left margin" hand="later hand"><foreign xml:lang="la">Levata est</foreign></add>
+      <p>
+       <lb/>Je <persName ref="per010508">Daniel Huguenaud</persName> mayre et du <orgName
+        ref="org003085">Conseil de la Ville de <placeName ref="loc007786"
+        >Neufchastel</placeName></orgName> pour et <lb/>au nom de l’<choice>
+        <abbr>ex<hi rend="sup">ce</hi></abbr>
+        <expan>excellence</expan>
+       </choice> et grandeur de <orgName ref="org003598">messeigneurs nos souverains
+        princes</orgName>, sçavoir fais a qu’il <lb/>appartiendra, que ce jourd’huy date soubscript,
+       administrant justice, par devant moy et une <lb/>partie des sieurs conseillers de <choice>
+        <abbr>lad<hi rend="sup">e</hi></abbr>
+        <expan>ladite</expan>
+       </choice> ville après nommez, est comparu <choice>
+        <abbr>honn</abbr>
+        <expan>honorable</expan>
+       </choice>
+       <persName ref="per013418a.01">Pierre</persName> filz de <lb/><persName ref="per013419a.01"
+        >Jehan Junoud </persName> de <placeName ref="loc009827.02">Monstruz</placeName>, lequel au
+       nom de <persName ref="per013420">Perenon</persName> sa femme fille de feu <persName
+        ref="per013421">Collar Moyreux</persName>
+       <lb/>de <placeName ref="loc012043.02">Vernea</placeName> procréée en loyal mariage au corps
+       de <persName ref="per013422a.01">Jehanne</persName> femme <choice>
+        <abbr>dud</abbr>
+        <expan>dudit</expan>
+       </choice>
+       <persName ref="per013421">Collar</persName>, assisté d’<choice>
+        <abbr>honn<hi rend="sup">e</hi></abbr>
+        <expan>honorable</expan>
+       </choice>
+       <lb/><persName ref="per011749a.01">Jehan Banderet</persName> de <placeName ref="loc007906.04"
+        >Vaulmarcus</placeName>, a proposé a forme de droict, comme <choice>
+        <abbr>lad<hi rend="sup">e</hi></abbr>
+        <expan>ladite</expan>
+       </choice>
+       <persName ref="per013422a.01">Jehanne</persName> ayant esté <lb/>en premiere nopces
+       conjoincte par mariage <choice>
+        <abbr>aud</abbr>
+        <expan>audit</expan>
+       </choice>
+       <persName ref="per013421">Collar Moyreux</persName> aux us et coustumes du comté <lb/>de
+        <placeName ref="loc007785"><choice>
+         <abbr>Neufchl</abbr>
+         <expan>Neufchastel</expan>
+        </choice></placeName>, et d’iceluy ayant heu deux enfans, assavoir <choice>
+        <abbr>lad<hi rend="sup">e</hi></abbr>
+        <expan>ladite</expan>
+       </choice>
+       <persName ref="per013420">Perenon</persName> sa femme et une autre fille, <lb/>en secondes
+       nopces elle a esté remariée a <persName ref="per011750a.01">Jaques Perroudet</persName>
+       mestral de <placeName ref="loc012043.02">Vernea</placeName>, avec lequel elle <lb/>a aussy
+       heu des enfans, et pour ce <choice>
+        <abbr>q</abbr>
+        <expan>que</expan>
+       </choice>
+       <choice>
+        <abbr>led</abbr>
+        <expan>ledit</expan>
+       </choice>
+       <persName ref="per011750a.01">Jaques Perroudet</persName> a faict et pourchassé certains
+       <lb/>accords et conventions avec les tuteurs et <term ref="lem014768.04">advoyers</term> des
+       enfans du premier mary, au profit et <lb/>advantage de ses enfans qu’il a de <choice>
+        <abbr>lad<hi rend="sup">e</hi></abbr>
+        <expan>ladite</expan>
+       </choice>
+       <persName ref="per013422a.01">Jehanne</persName>, qui ont estes associez et <term
+        ref="lem018663.03">affrarachez</term> en bien <lb/>avec ceux du premier lict, contre droict
+       et coustume, au desadvantage <choice>
+        <abbr>desd</abbr>
+        <expan>desdits</expan>
+       </choice> premiers enfans heus <lb/><choice>
+        <abbr>dud</abbr>
+        <expan>dudit</expan>
+       </choice>
+       <persName ref="per013421">Collar</persName> qui estoit plus opulent <choice>
+        <abbr>q</abbr>
+        <expan>que</expan>
+       </choice>
+       <choice>
+        <abbr>led</abbr>
+        <expan>ledit</expan>
+       </choice>
+       <persName ref="per011750">Perroudet</persName>, ensorte que luydict proposant est en
+       <lb/>deliberation de faire corrompre et annuller <choice>
+        <abbr>lesd</abbr>
+        <expan>lesdits</expan>
+       </choice> accords par justice, mais pour a cela <pb n="215r" facs="AEN_14JL_451_0215r"/>
+       <lb/>parvenir luy seroit requis d’avoir declairation d’un point de coustume, assavoir <term
+        ref="lem016286">mon</term> sy <lb/>tuteurs et <term ref="lem014768.04">advoyers</term>
+       peuvent desheriter enfans orphelin. A cest effect et d’autant que <lb/>cest ville de
+        <placeName ref="loc007786">Neufchastel</placeName> est le chef et lieu capital du comté,
+       requeroit par cogfoissance <lb/>judicialle que <choice>
+        <abbr>declairaon</abbr>
+        <expan>déclaration</expan>
+       </choice> luy fest faite <choice>
+        <abbr>dud</abbr>
+        <expan>dudit</expan>
+       </choice> poinct de coustume. Et par mesme moyen a aussi <lb/>demandé declairation de la
+       coustume <choice>
+        <abbr>dud</abbr>
+        <expan>dudit</expan>
+       </choice>
+       <placeName ref="loc007785">Neufchastel</placeName> touchant l’usement qu’une femme qui s’est
+       <lb/>mariée en seconde nopces peut avoir sur le bien de son premier mary, et comment elle
+       doibt <lb/>partager avec les enfans qu’elle a heue d’iceluy, et aussi comment elle se peut
+       mesuser, pour <lb/>et afin de s’en servir a l’endroit de <choice>
+        <abbr>lad<hi rend="sup">e</hi></abbr>
+        <expan>ladite</expan>
+       </choice>
+       <persName ref="per013422a.01">Jehanne</persName> sa bellemere et ailleurs ou il pourra par
+       raison. </p>
+      <p>
+       <lb/>Et je <choice>
+        <abbr>led</abbr>
+        <expan>ledit</expan>
+       </choice> mayre ay demandé <choice>
+        <abbr>lad</abbr>
+        <expan>ladite</expan>
+       </choice> declairation <choice>
+        <abbr>ausd</abbr>
+        <expan>ausdits</expan>
+       </choice> sieurs conseillers lesquels se sont <lb/>rapportez aux declairations qui desja par
+       cy devant ont esté faites sur un chacun desdits points, <lb/>et a esté ordonné au <choice>
+        <abbr>secret<hi rend="sup">e</hi></abbr>
+        <expan>secrétaire</expan>
+       </choice> de la justice <choice>
+        <abbr>soubs<hi rend="sup">né</hi></abbr>
+        <expan>soubsigné</expan>
+       </choice> d’en faire recherche sur ses registres et l’en <lb/>communiquer <choice>
+        <abbr>aud</abbr>
+        <expan>audit</expan>
+       </choice> requerant, pour selon icelles se scavoir conduire. Ce que <choice>
+        <abbr>led</abbr>
+        <expan>ledit</expan>
+       </choice> secretaire <lb/>suyvant <choice>
+        <abbr>lad<hi rend="sup">e</hi></abbr>
+        <expan>ladite</expan>
+       </choice> ordonnance a faict. </p>
+      <add place="left margin" hand="later hand" rend="pencil"><choice>
+        <abbr>P de C.</abbr>
+        <expan>Point de coutume</expan>
+      </choice> du <date when="1602-01-26" calendar="Julian">26 <choice>
+         <abbr>janv<hi rend="sup">r</hi></abbr>
+         <expan>janvier</expan>
+        </choice> 1602</date></add>
+      <p>
+       <lb/>Et pour le regard du premier poinct questionné sy tuteur et <term ref="lem014768.04"
+        >advoyers</term> peuvent desheriter <lb/>enfans orphelins, se trouve que la coustume usitée
+       de toute ancienneté jusqu’a present <lb/>en ceste ville et comté de <placeName
+        ref="loc007785">Neufchastel</placeName> a esté et est encore telle. Que tuteurs et <term
+        ref="lem014768.04">advoyers</term>
+       <lb/>ne peuvent desheriter femme vefves ny enfans orphelins, et ne peuvent alliener ny faire
+       <lb/>laisser perdre le bien de vefves ny orphelin par partage, <term ref="lem015546"
+        >vendition</term>, engagées ou autrement, <lb/>fors que par cognoissance de justice, par
+       l’advis des plus proches parens, pour payer les <lb/>debtes des pupils, et pour appliquer le
+       tout a leur évident profit. A la charge d’en rendre <lb/>bon et fidel compte en temps et
+       lieu, a qui il appartient. </p>
+      <p>
+       <lb/>Touchant le second poinct de l’usufruict et partage entre la mere et les enfans selon
+       <lb/>la coustume du comté du <placeName ref="loc007785">Neufchastel</placeName>, il se trouve
+       que quand le mary et la femme ont estez <lb/><date dur="P1Y6W"><term ref="lem014776">an et
+         jour</term></date> par ensemble, et ont des enfans en loyal mariage. Et sur ce le pere
+       meurt laissant <lb/><choice>
+        <abbr>lesd</abbr>
+        <expan>lesdits</expan>
+       </choice> enfans de <choice>
+        <abbr>sad<hi rend="sup">e</hi></abbr>
+        <expan>sadite</expan>
+       </choice> femme. Icelle se voulant remarier a un autre mary, et voulant partir aux <lb/><choice>
+        <abbr>sesd</abbr>
+        <expan>sesdits</expan>
+       </choice> enfans un ou plusieurs, alors <choice>
+        <abbr>lad<hi rend="sup">e</hi></abbr>
+        <expan>ladite</expan>
+       </choice> mere et <choice>
+        <abbr>lesd</abbr>
+        <expan>lesdits</expan>
+       </choice> enfans partissent esgalement l’heritage <lb/>soyent meubles ou immeubles du
+       deffunct, autant l’un que l’autre, soit tant l’ancien heritage <lb/>que les accroissances que <choice>
+        <abbr>lesd</abbr>
+        <expan>lesdits</expan>
+       </choice> pere et mere auroyent faict par ensemble. A condition <lb/>telle que tant qu’il
+       touche de la moytié de l’ancien heritage que pourra avoir retiré <choice>
+        <abbr>lad<hi rend="sup">e</hi></abbr>
+        <expan>ladite</expan>
+       </choice>
+       <lb/>femme d’autre ses enfans ou enfant, elle les doibt tenir seulement sa vie durant en
+       usement <lb/>sans que aucunement elle les puisse ny doibt vendre, engager, ny alliener hors
+       de ses mains, <lb/>sinon que ne fust par cognoissance de justice ou par necessité cognue. Et
+       apres le decez <lb/>de <choice>
+        <abbr>lad<hi rend="sup">e</hi></abbr>
+        <expan>ladite</expan>
+       </choice> mere reviennent entierement <choice>
+        <abbr>esd</abbr>
+        <expan>esdits</expan>
+       </choice> enfans, sans ce qu’elle les puisse donner a personne <lb/>quelle qu’elle soit. Et
+       au regard de la moytié des biens des accroissances qu’auroit retiré <lb/><choice>
+        <abbr>lad<hi rend="sup">e</hi></abbr>
+        <expan>ladite</expan>
+       </choice> mere, la coustume est telle que de la moytié d’<choice>
+        <abbr>icelled<hi rend="sup">e</hi></abbr>
+        <expan>icelledite</expan>
+       </choice> moytié qu’est la quarte <choice>
+        <abbr>ptie</abbr>
+        <expan>partie</expan>
+       </choice>, <pb n="215v" facs="AEN_14JL_451_215v"/>
+       <lb/>elle en pourra <choice>
+        <abbr>f<hi rend="sup">e</hi></abbr>
+        <expan>faire</expan>
+       </choice> son bon plaisir, et l’autre moytié debvra revenir franchement <choice>
+        <abbr>esd</abbr>
+        <expan>esdits</expan>
+       </choice> enfans <lb/>ou enfant apres le decez de <choice>
+        <abbr>lad<hi rend="sup">e</hi></abbr>
+        <expan>ladite</expan>
+       </choice> mere, sans les debvoir alliener sinon par cas de necessité et <lb/>par <choice>
+        <abbr>cog<hi rend="sup">ce</hi></abbr>
+        <expan>cognoissance</expan>
+       </choice> judicialle. Et quant aux biens, <term ref="lem014766.02">trossel</term>, argent et
+       autres qu’auroit apporté <choice>
+        <abbr>lad<hi rend="sup">e</hi></abbr>
+        <expan>ladite</expan>
+       </choice>
+       <lb/>mere avec <choice>
+        <abbr>sond</abbr>
+        <expan>sondit</expan>
+       </choice> feu mary, la coustume est telle que <choice>
+        <abbr>lad<hi rend="sup">e</hi></abbr>
+        <expan>ladite</expan>
+       </choice> mere peut et doibt <choice>
+        <abbr>librem<hi rend="sup">t</hi></abbr>
+        <expan>librement</expan>
+       </choice>
+       <choice>
+        <abbr>franchem<hi rend="sup">t</hi></abbr>
+        <expan>franchement</expan>
+       </choice>
+       <lb/>et paysiblement retirer sans nul contredict tout le bien et mariage porté aux <choice>
+        <abbr>sond</abbr>
+        <expan>sondit</expan>
+       </choice> feu mary <lb/>de quelle qualité ou espece qu’il soit, sans en rien reserver, sans
+       qu’elle soit tenue en laisser a <lb/><choice>
+        <abbr>sesd</abbr>
+        <expan>sesdits</expan>
+       </choice> enfans ou enfant, sy ce n’est de son bon gré et vouloir, lequel bien elle pourra
+       tenir, jouyr, <lb/>fruyr et posseder jusques apres son decez, qu’alors <choice>
+        <abbr>lesd</abbr>
+        <expan>lesdits</expan>
+       </choice> enfans ou enfant heus en loyal mariage <lb/>tant du premier <choice>
+        <abbr>q</abbr>
+        <expan>que</expan>
+       </choice> second mary partageront iceluy bien esgalement autant l’un que l’autre
+       <lb/>advenant qu’il n’y ayt testament de <choice>
+        <abbr>lad<hi rend="sup">e</hi></abbr>
+        <expan>ladite</expan>
+       </choice> mere, laquelle ne pourra ny debvra tester ny leguer <lb/>a autre qu’a <choice>
+        <abbr>sesd</abbr>
+        <expan>sesdits</expan>
+       </choice> enfans sinon de la moytié de <choice>
+        <abbr>sond</abbr>
+        <expan>sondit</expan>
+       </choice> mariage, pour ce <choice>
+        <abbr>q</abbr>
+        <expan>que</expan>
+       </choice>
+       <choice>
+        <abbr>lesd</abbr>
+        <expan>lesdits</expan>
+       </choice> enfans ne peuvent <lb/>ni ne doibvent estre frustrez par raison de leur <term
+        ref="lem015074.02">legitime</term>. Et sy icelle mere avoit des enfans <lb/>d’un autre mary,
+       iceux enfans pourront alors retourner et partir la moytié des biens de <lb/><choice>
+        <abbr>leurd<hi rend="sup">e</hi></abbr>
+        <expan>leurdite</expan>
+       </choice> mere, advenus en partage <choice>
+        <abbr>esd</abbr>
+        <expan>esdits</expan>
+       </choice> premiers enfans leurs freres et soeurs maternels, et <choice>
+        <abbr>ptie</abbr>
+        <expan>partie</expan>
+       </choice>
+       <lb/>esgalement comme <choice>
+        <abbr>fre<hi rend="sup">e</hi></abbr>
+        <expan>frères</expan>
+       </choice> et soeurs doibvent faire la ou l’on trouveroit des biens de <choice>
+        <abbr>leurd<hi rend="sup">e</hi></abbr>
+        <expan>leurdite</expan>
+       </choice> mere, <lb/>mais sy elle n’avoit plus d’enfans sinon ceux qu’elle a heus de son
+       premier mary, la coustume est <lb/>telle que apres le deces de <choice>
+        <abbr>lad<hi rend="sup">e</hi></abbr>
+        <expan>ladite</expan>
+       </choice> mere <choice>
+        <abbr>lesd</abbr>
+        <expan>lesdits</expan>
+       </choice> enfans retireront <choice>
+        <abbr>le<hi rend="sup">r</hi></abbr>
+        <expan>leur</expan>
+       </choice>
+       <term ref="lem015074.02">legitime</term>, sans qu’elle les en <lb/>doibge frustrer, comme en
+       raison appartiendra aussy ne debvront <choice>
+        <abbr>lesd</abbr>
+        <expan>lesdits</expan>
+       </choice> enfans alliener, vendre, <lb/>engager ny hypothequer ce <choice>
+        <abbr>q</abbr>
+        <expan>que</expan>
+       </choice> leur adviendra a cause de <choice>
+        <abbr>leurd<hi rend="sup">e</hi></abbr>
+        <expan>leurdite</expan>
+       </choice> mere, comme dessus est dict. </p>
+      <p>
+       <lb/>Et quant au tierce poinct touchant le <term ref="lem015633.02">mesus</term> se trouve
+       selon les mesmes coustumes, <lb/>que sy le survivant tenant l’us du trespassé laisse la
+       maison descouverte a raison dequoy <lb/>elle se doibgs gaster et pourrir il sera <term
+        ref="lem015634.10">mesusé</term> de <choice>
+        <abbr>lad</abbr>
+        <expan>ladite</expan>
+       </choice> piece, et quant aux vignes sy il <lb/>les laisse sans labourer une ou plusieurs
+       sera a dict de <term ref="lem016353.02">vignolan</term>, et sy fault y a sera <lb/><term
+        ref="lem015634.10">mesusé</term> de la piece de vigne en laquelle se trouvera fault, item
+       quant aux champs sy <lb/>le survivant ne les laboure a us de laboureur, sera <term
+        ref="lem015634.10">mesusé</term> de la piece et ainsy se trouvera. <lb/>Item quant es prelz
+       les doibt entretenir a dict de gens de bien sans fraud ny <term ref="lem016008">aguet</term>,
+       et s’il <lb/>ne faict le contenu la piece qui se trouvera avoir fault d’icelle sera <term
+        ref="lem015634.10">mesusé</term>. Et sy <lb/>la femme usufructuayre se mesfait d’honneur et
+       cognoit charnellement un autre homme <lb/>que son mary espousé elle est <term
+        ref="lem015634.05">mesusée</term> du tout. </p>
+      <p>
+       <lb/>Lesquelles choses <choice>
+        <abbr>led</abbr>
+        <expan>ledit</expan>
+       </choice>
+       <persName ref="per013418a.01">Pierre Junoud</persName> a desiré avoir acte en forme desus
+       pour luy servir et <lb/>valoir a son besoing, lequel judicialement luy a esté octroyé soubs
+       le <term ref="lem016327">seel</term> de la mayorie <lb/>de <placeName ref="loc007786"
+        >Neufchastel</placeName>, et le seing notarial du <choice>
+        <abbr>secrete</abbr>
+        <expan>secrétaire</expan>
+       </choice> de la justice soubsigné en mis en tesmognage <lb/>de verité. Par <choice>
+        <abbr>lad</abbr>
+        <expan>ladite</expan>
+       </choice> judication des <choice>
+        <abbr>honnor</abbr>
+        <expan>honorables</expan>
+       </choice> prudens et sages <persName ref="per011729a.02">Nicollet Heinzely</persName>,
+        <persName ref="per010539">Pierre Herbe</persName>, <lb/>
+       <persName ref="per010427a.03">Jehan Rougemont</persName>, <persName ref="per010476a.02"
+        >Balthazar Bailliod</persName>, <persName ref="per010492">David Grenot</persName>, <persName
+        ref="per010602a.07">Guillame Henry dict d’Allemagne</persName>, <lb/><persName
+        ref="per011737"><choice>
+         <abbr>Guill</abbr>
+         <expan>Guillaume</expan>
+        </choice> Massonde</persName> et autres conseillers <choice>
+        <abbr>dud</abbr>
+        <expan>dudit</expan>
+       </choice>
+       <placeName ref="loc007786"><choice>
+         <abbr>Neufchl</abbr>
+         <expan>Neufchastel</expan>
+        </choice></placeName>, et en <choice>
+        <abbr>moyd</abbr>
+        <expan>moydit</expan>
+       </choice> mayre ordonné <choice>
+        <abbr>aud</abbr>
+        <expan>audit</expan>
+       </choice>
+       <choice>
+        <abbr>secret</abbr>
+        <expan>secrétaire</expan>
+       </choice>
+       <lb/>de l’expedier, faict le <origDate when="1602-01-29" calendar="Julian">vingt neufvieme
+        jour de janvier l’an de salut mille six centz deux</origDate>. </p>
+      <p>
+       <lb/>Par l’ordonnance et <choice>
+        <abbr>adjudicaon</abbr>
+        <expan>adjudication</expan>
+       </choice>
+       <lb/>de <choice>
+        <abbr>mesd</abbr>
+        <expan>mesdits</expan>
+       </choice> sieurs.</p>
+     </div>
+     
+      <div>
+       <signed><persName ref="per010433a.03"><choice>
+          <abbr>D</abbr>
+          <expan>David</expan>
+         </choice> Bailliods</persName>
+        <figure type="notarial sign"/> not</signed>
+      </div>
+
+    </body>
+   </text>
+  </group>
+ </text>
+</TEI>

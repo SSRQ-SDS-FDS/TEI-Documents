@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-08-13"/>
+            <date type="print"/>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_002_1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>Germanisches Nationalmuseum Nürnberg</idno>
+               </msIdentifier>
+               <head>Heinrich II. von Sax und sein Sohn Albert II. stiften für sich und ihre
+                  Vorfahren im Kloster Churwalden eine Jahrzeit</head>
+               <msContents>
+                  <summary>Heinrich II. von Sax und sein Sohn Albert II. stiften mit 5 Mark Silber
+                     und einem Weinberg in Gams für sich und ihre Vorfahren eine Jahrzeit im Kloster
+                     Churwalden. Die Burg Hohensax (Ausstellungsort) wird erstmals urkundlich
+                     erwähnt.</summary>
+                  <msItem>
+                     <textLang>Latein</textLang>
+                     <filiation type="current">Original</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Pergament</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="16.0"/>
+                              <width unit="cm" quantity="23.5"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <sealDesc>
+                     <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1"
+                        nontei:condition="absent"/>
+                  </sealDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1210-03-15"/>
+                     <origPlace>Burg Hohensax/Churwalden</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head>Editionen</head>
+                     <bibl><ref target="http://permalink.snl.ch/bib/chbsg000110415">UBSSG</ref>, Bd.
+                        1, Nr. 252</bibl>
+                     <bibl><ref target="http://permalink.snl.ch/bib/chbsg000142708">Mohr CD</ref>,
+                        Bd. 1, Nr. 176</bibl>
+                     <bibl><ref target="http://permalink.snl.ch/bib/chbsg000070135">BUB</ref>, Bd.
+                        2, Nr. 532 (537)</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text type="summary">
+            <body>
+               <div org="uniform" sample="complete">
+                  <p><persName ref="per006537">Heinrich II. von Sax</persName> und sein Sohn
+                        <persName ref="per006538">Albert II.</persName> stiften für sich und ihre
+                        <term ref="key003028">Vorfahren</term> mit 5 Mark Silber und einem <term
+                        ref="key000003">Weinberg</term> in <placeName ref="loc000211"
+                        >Gams</placeName> (<orig>vineam unam in <placeName ref="loc000211"
+                           >Chames</placeName> cum omni jure, quo eam possederant</orig>) eine <term
+                        ref="key000150">Jahrzeit</term> im Kloster <placeName ref="loc000064"
+                        >Churwalden</placeName>; <orig>facta sunt autem hec idus martii in castro
+                           <origPlace ref="loc000185">Saches</origPlace> in presentia multorum
+                        hominum una vice et altera vice in presentia etiam multorum in ipso loco
+                           <origPlace ref="loc000064.02">Curewalde</origPlace>, ubi scriptum hoc cum
+                        sigillo eorum fecerunt fieri.</orig><note anchored="true">Originalzitate,
+                        Grössen- und Siegelangabe sowie Rückvermerk beruhen auf der Edition in
+                              <bibl><ref
+                              target="https://www.gr.ch/DE/institutionen/verwaltung/ekud/afk/sag/projekte/bub/BUBonline/BUB-II.pdf"
+                                 >BUB</ref>, Bd.&#160;2, Nr.&#160;532 (537)</bibl>.</note>
+                  </p>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab type="dorsal" place="verso" hand="hand15c"><lb/>Donacio domini <persName ref="per006537">Henrici de Sacho</persName> et filii eius ad anniversar[ium] ipsorum unam vineam in <placeName ref="loc000211">Chames </placeName>
+       sitam anno M<hi rend="sup">o</hi>.CC<hi rend="sup">o</hi>.X<hi rend="sup">o</hi>
+                  </ab>
+               </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div org="uniform" sample="complete">
+            <p>Bei dieser <term ref="key000192">Stiftung</term> handelt es sich um die erste
+               urkundliche <term ref="key003736">Erwähnung</term> der Burg <placeName
+                  ref="loc000185">Hohensax</placeName>, gedruckt in <bibl><ref
+                     target="http://permalink.snl.ch/bib/chbsg000070135"
+                     >BUB</ref>, <ref target="http://permalink.snl.ch/bib/chbsg000070135">Bd.&#160;2, Nr.&#160;532 (537)</ref></bibl>. Das Haus Sax ist zu jener Zeit noch ungeteilt.
+               Erst nach dem Tod des Grossvaters <persName ref="per006537">Heinrich II.</persName> um <date when="1240">1240</date> wird unter den Söhnen des bereits verstorbenen <persName
+                  ref="per006538">Albert II.</persName> von Sax die Herrschaft geteilt, wobei
+                  <persName ref="per000024b">Ulrich IV.</persName> (nach dem Stammbaum bei <bibl><ref
+                     target="http://permalink.snl.ch/bib/chbsg000080293">Deplazes-Haefliger
+                     1976</ref>, S.&#160;166</bibl>, Ulrich&#160;III.) die Freiherrschaft Sax erhält und als
+               Stammvater des Hauses Sax-Hohensax gilt.</p>
+         </div>
+      </back>
+   </text>
+</TEI>

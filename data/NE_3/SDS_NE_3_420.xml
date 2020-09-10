@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     n="1234"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="headerinfo"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2020-08-17"/>    <date type="print"/>
+    <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Collection des sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des
+      sources
+      du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS_NE_3_420</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>AVN B 101.14.002, fol. 59v–60v</idno>
+               </msIdentifier>
+               <head>Validité d’un testament alors qu’un héritier se trouve dans un pays
+                  lointain</head>
+               <msContents>
+                  <summary>Particularité de la succession lorsqu’un héritier testamentaire se trouve
+                     par exemple en Amérique et était peut-être déjà mort au moment de la confection
+                     du testament.</summary>
+                  <msItem>
+                     <textLang>français</textLang>
+                     <filiation type="current"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="34.5"/>
+                              <width unit="cm" quantity="22"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate from="1740-07-21" to="1740-12-05"/>
+                     <origPlace ref="loc007786">Neuchâtel</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head/>
+                     <bibl/>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000635"/>
+               <term ref="key004770"/>
+               <term ref="key000242"/>
+               <term ref="key000920"/>
+               <term ref="key000815"/>  
+               <term ref="key004995"/>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="59v" facs="AVN_B_101.14.002_0059v"/>
+               <div>
+                  <p>
+                     <lb/>Sur la requette présentée à monsieur <lb/>le maître bourgeois en chef et à
+                     messieurs du <lb/><orgName ref="org003085">Conseil Étroit de la Ville de
+                           <placeName ref="loc007786">Neufchatel</placeName></orgName>, par <lb/>les
+                     dames <persName ref="per008668">Francoise</persName> et <persName
+                        ref="per008669">Marie-Theresse de Favarger</persName>, <lb/>bourgeoises de
+                     la <choice>
+                        <abbr>d.</abbr>
+                        <expan>dite</expan>
+                     </choice> ville, aux fins d’avoir une <lb/>déclaration de la coutume de ce païs
+                     sur les <lb/>points et articles suivants. </p>
+                  <p>
+                     <lb/>1<hi rend="sup">o</hi>. Si une personne qui, en faisant son testament, <lb/>est dans
+       l’incertitude que l’un de ses héritiers ab<lb break="no"/> intestat qui se trouve en
+       <placeName ref="loc008082">Amérique</placeName>
+       ou en d’autres <lb/>païs elloignés, soit mort ou vivant, et qu’elle luy <lb/>donne en
+       département de ses biens un leg dans son <lb/>testament, si ce testament seroit réputé
+       deffectueux, <lb/>quand même on viendroit, après la mort du testateur, <lb/>
+                     <add place="below" type="catchword">à</add>
+                     <pb n="60r" facs="AVN_B_101.14.002_0060r"/>
+                     <lb/>à justiffier que ce légataire étoit déjà mort lors de <lb/>la confection du <choice>
+                        <abbr>d</abbr>
+                        <expan>dit</expan>
+                     </choice> testament. </p>
+                  <p>
+                     <lb/>2<hi rend="sup">o</hi>. Si, lors qu’un légataire meurt avant le testateur,
+       <lb/>le leg à luy fait ne tourne pas au proffit des
+       <lb/>héritiers institués.
+      </p>
+                  <p>
+                     <lb/>3<hi rend="sup">o</hi>. Si ceux qui veullent hériter un deffunt, soit
+       <lb/>en qualité d’héritiers ab-intestat, soit comme héritiers
+       <lb/>testamentaires, ne doivent pas se présenter sur le
+       <lb/>jour des <date dur="P6W">six semaines</date> depuis l’enterrement de ce
+       <lb/>deffunt pour demander l’envoy en possession et
+       <lb/>l’investiture des biens par luy délaissé, lorsque
+       <lb/>les <choice>
+                        <abbr>d</abbr>
+                        <expan>dits</expan>
+                     </choice> héritiers sont dans le païs ; et lors qu’ils sont
+       <lb/>dehors du païs et qu’ils ont sçu la mort de celuy
+       <lb/>à l’héritage duquel ils prétendent, ils peuvent
+       <lb/>attendre au delà de l’<date dur="P1Y1D">an et jour</date> pour réclamer
+       <lb/>cette succession.
+      </p>
+                  <p>
+                     <lb/>4. Si des héritiers ab-intestat, <date dur="P8">huit</date> ou <date dur="P9">neuf ans</date>
+                     <lb/>après la mort de leur parent, laquelle ils n’ont <lb/>pas ignoré, et qui ont même perceu
+       et touché des <lb/>héritiers testamentaires les legs à eux faits, sont <lb/>encore
+       admissibles à plaider le testament de leur <lb/>
+                     <choice>
+                        <abbr>d</abbr>
+                        <expan>dit</expan>
+                     </choice> parent. </p>
+                  <p>
+                     <lb/>5. Si tous ceux qui veullent hériter un de leur
+       <lb/>parent deffunt, soit comme héritiers ab intestat
+       <lb/>en ligne collatéral, soit en vertu d’un testament
+       <lb/>ne doivent pas demander en justice la mise en
+       <lb/>possession et l’investiture des biens qu’il peut
+       <lb/>délaisser &amp; si pour l’obtenir il ne faut pas être
+       <lb/>muni de certificats authentiques et pro<del rend="overwritten">p</del>bants qui
+       <lb/>justifient de la mort de celuy dont on veut récla<lb break="no"/>mer la succession.
+      </p>
+                  <p>
+                     <lb/>Mon dit sieur le maître bourgeois en <lb/>chef et <orgName ref="org003085">mes dits sieurs du Conseil
+        Étroit</orgName> ont <lb/>dit et déclaré après meure délibération, que la <lb/>coutume
+       constante et invariable sur les articles <lb/>sus proposés est comme suit, savoir. </p>
+                  <p>
+                     <lb/>Sur le premier, que le testament d’un deffunt <lb/>ne seroit pas deffectueux quand même
+       on viendroit <lb/>
+                     <add place="below" type="catchword">à</add>
+                     <pb n="60v" facs="AVN_B_101.14.002_0060v"/>
+                     <lb/>à justifier après sa mort qu’un sien héritier <lb/>ab-intestat qui se trouve en
+       <placeName ref="loc008082">Amérique</placeName>
+       ou en <lb/>d’autre païs bien elloignés, et auquel le <lb/>testateur a fait un leg en
+       département <choice>
+                        <abbr>dess</abbr>
+                        <expan>de ses</expan>
+                     </choice>
+                     <lb/>biens, étoit déjà mort lors de la confection <lb/>du <choice>
+                        <abbr>d</abbr>
+                        <expan>dit</expan>
+                     </choice> testament. </p>
+                  <p>
+                     <lb/>Sur le second, que le leg fait à un légataire
+       <lb/>qui meurt avant le testateur tourne au proffit
+       <lb/>des héritiers institués.
+      </p>
+                  <p>
+                     <lb/>Sur le troisième, que ceux qui sont dans
+       <lb/>l’État, doivent, sur le jour fatal des <date dur="P6W">six semaines</date>
+                     <lb/>depuis l’enterrement de celuy qu’ils prétendent
+       <lb/>hériter, se présenter en justice munis de leurs
+       <lb/>titres et droits pour réclamer la succession
+       <lb/>de ce deffunt et que pour ceux qui sont hors
+       <lb/>de l’État ils sont attendus l’<date dur="P1Y1D">an et jour</date> pour
+       <lb/>faire cette réclamation.
+      </p>
+                  <p>
+                     <lb/>Sur le quatrième, que des héritiers ab-intestat en <lb/>ligne collatérale qui sont hors
+       de l’État, qui ont <lb/>seu la mort de leur parent, et qui même ont receu <lb/>des héritiers
+       institués le leg à eux faits par leur <choice>
+                        <abbr>d</abbr>
+                        <expan>dit</expan>
+                     </choice>
+                     <lb/>parent dans sont testament ne pourroient être <lb/>admis, après l’<date dur="P1Y1D">an et jour</date>, et
+       beaucoup moins <date dur="P8Y">huit</date>
+                     <lb/>ou <date dur="P9Y">neuf ans</date> après la
+       mort du testateur, à venir <lb/>plaider contre ce <choice>
+                        <abbr>d</abbr>
+                        <expan>dit</expan>
+                     </choice> testament. </p>
+                  <p>
+                     <lb/>Sur le cinquième, que tout prétendant à une
+       <lb/>succession, soit comme héritier ab-intestat en ligne
+       <lb/>collatérale, soit comme héritier testamentaire, est obligé
+       <lb/>de demander l’envoy en possession et l’investiture
+       <lb/>de ce qu’il prétend à cette succesion, par devant
+       <lb/>la justice, sur <date dur="P6W">le jour des six semaines</date> depuis
+       <lb/>l’enterrement de celuy qu’il veut hériter, et pour
+       <lb/>cet effet, il <del rend="strikethrough">en</del> doit justiffier <add place="left margin">et faire conster de
+        <lb/>la mort et du dit enter<lb break="no"/>rement</add>par certificat authentique,
+       <lb/>faute de quoy il est éconduit de sa <choice>
+                        <abbr>d</abbr>
+                        <expan>dite</expan>
+                     </choice> demande en
+       <lb/>prise de possession et d’investiture.
+      </p>
+                  <p>
+                     <lb/>C’est ce qui a été ordonné <choice>
+                        <abbr>&amp;<hi rend="sup">ce</hi>
+                        </abbr>
+                        <expan>etcétéra</expan>
+                     </choice>.
+      </p>
+               </div>
+               <div>
+                  <signed>
+                     <persName ref="per008676">
+                        <choice>
+                           <abbr>P</abbr>
+                           <expan>Philibert</expan>
+                        </choice> Perroud</persName>
+                     <figure type="notarial sign"/>
+                  </signed>
+               </div>
+            </body>
+         </text>
+      </group>
+   </text>
+</TEI>

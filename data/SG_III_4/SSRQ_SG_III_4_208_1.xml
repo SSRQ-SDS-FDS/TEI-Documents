@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-08-19"/>
+            <date type="print"/>
+            <availability default="false">
+               <p xml:id="facs">Staatsarchiv St. Gallen (StASG)</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_208_1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>StASG AA 2 A 13-4-5</idno>
+                  <altIdentifier>
+                     <idno>StASG AA 2 A 13-4</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <head>Projekt einer Holzordnung für Sax-Forstegg sowie eine Stellungnahme zum Schlossbrunnen, zu einzelnen Gebäuden sowie zum Brandschutz</head>
+               <msContents>
+                  <summary><p>Nach der Erkenntnis des Zürcher Rats vom 15. November 1706 stellen die von Zürich
+   verordneten drei Ratsherren Rahn, Werdmüller und Ziegler auf Ratifikation der Obrigkeit ein
+   Projekt einer Holzordnung auf. Zudem nehmen sie Stellung zum Amt eines Försters, dem Wuhren, den
+   Brunnen, der Gebäude (Handmühle, Trinkwasserspeicher, Backstube, Sennenküche, Fischhaus, Kammer
+   neben der Handmühle) sowie dem Zubehör im Brandfall und schlagen Massnahmen vor, um die Mängel zu
+   beheben.</p></summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <filiation type="current">Aufzeichnung (2 Doppelblätter)</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="35.0"/>
+                              <width unit="cm" quantity="21.5"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1707-01-28"/>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head>Editionen</head>
+                     <bibl><ref target="http://permalink.snl.ch/bib/chbsg000040681">Berger/Reich 2004</ref>, S. 43–44</bibl>
+                  </listBibl>
+                  <listBibl>
+                     <head>Literatur</head>
+                     <bibl><ref target="http://permalink.snl.ch/bib/chbsg000040681">Berger/Reich 2004</ref>, S. 40–47</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000905">Strafe</term>
+               <term ref="key000341">Ordnung</term>
+               <term ref="key000374">Holzrecht</term>
+               <term ref="key000249">Wald</term>
+               <term ref="key000404">Feuer</term>
+               <term ref="key004337">Holzbedarf</term>
+               <term ref="key000524">Holz</term>
+               <term ref="key000750">Forstrecht</term>
+               <term ref="key000186">Schloss</term>
+               <term ref="key000713">Brunnen</term>
+               <term ref="key000509">Gebäude</term>
+               <term ref="key000715">Wasser</term>
+               <term ref="key000716">Wasserleitung</term>
+               <term ref="key000509">Gebäude</term>
+               <term ref="key000715">Wasser</term>
+               <term ref="key000716">Wasserleitung</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   
+   <text>
+      <group>
+         <text>
+            <body>
+               <div>
+                  <p><pb n="1r" facs="StASG_AA_2_A_13-04-05_01"/>
+                     <lb/>Nach meiner gnedigen herren erkantnus unterm <origDate when="1706-11-15">15. novembris
+                        <lb/>in letst verwichnem jahr</origDate><note>Vgl. <bibl><ref>StASG AA&#160;2 A
+                           13-4-6</ref>.</bibl></note> sind endtsernante verordnete herren <lb/>zusammen getreten
+                     und haben beforderist uf oberkeitliche <lb/>genehmhaltung und ratification hin für die
+                     herrschafft <placeName ref="loc000278">Sax</placeName>
+                     <lb/>hernach stehende <term ref="lem000764">holzordnung</term> projectiert:</p>
+                  <p><lb/>1. Weilen biß dahin ein jeweiliger <term ref="lem016072.02">schloßknecht</term> die
+                     aufsicht <lb/>über die <term ref="lem016073.02">schloß hölzer</term> gehabt, darinnen aber
+                     nicht die erforder<lb break="no"/>liche treüw bezeiget nach für daß könnftig hierzu
+                     genugsame <lb/>zeit nebent verrichtung seiner geschäfften übrig hete, alß <lb/>fonde mann
+                     vor allen dingen nöthig, daß ein ehrlicher und <lb/>treüwer mann zu einem <term
+                        ref="lem002048.05">voster</term> über die herrschafft <term ref="lem000028">hölzer</term>
+                     <lb/>gesetzet, demme die treüwe <term ref="lem002536">ufsicht</term> und visitation
+                     anbefohlen, <lb/>und er darzu mit einem <term ref="lem000070">eid</term>
+                     verpflichtet.<note>Vgl. dazu <ref>SSRQ_SG_III_4_159</ref>.</note> Hingegen
+                     aber <lb/>auch wegen seiner müeh mit einer jehrlichen <term ref="lem002833">besoldung</term>
+                     <lb/>von <measure quantity="2" commodity="spelt" type="volume" unit="Mütt">2 <abbr>mt</abbr>
+                        kernen</measure> und <measure unit="lb" type="currency" quantity="10">10 </measure> gelt
+                     betrachtet wurde.</p>
+                  <p>
+                     <lb/>2. Dass für daß könftig nicht mehr so unordenlich, bald da, bald <lb/>dort, geholzet,
+                     sonderen eine beßere <term ref="lem000809">ordnung</term> beobachtet <lb/>und gleich an
+                     meisten ohrten zubeschehen pfleget, der <term ref="lem003776">bezirckh</term>
+                     <lb/>in gewüsse <term ref="lem007004.03">haüw</term> eingetheilet, wo daß <term
+                        ref="lem000028">holz</term> am meisten <lb/>außgewachsen. Dermahlen mit <term
+                           ref="lem000598">brennholz</term> fellen angefangen, <lb/>auch zu erleichterung deß sonst
+                     starcken <term ref="lem016075.02">holzbruchs</term>, auch <lb/><term ref="lem016076.02"
+                        >dörn</term> und <term ref="lem002179">studen</term>
+                     <term ref="lem016667">gebränt</term> werden solten. Wann dann <lb/>in den jehrlichen <term
+                        ref="lem007004.03">hauwen</term> bequemes <term ref="lem002454">bauw holz</term>
+                     angetroffen <lb/>wurde <sic>?</sic>, könte mann solches zu vorfallendem gebrauch wol
+                     <lb/>stehen laßen.</p>
+                  <pb n="1v" facs="StASG_AA_2_A_13-04-05_02"/>
+                  <p><lb/>3.<hi rend="sup">tio</hi> Allen denjenigen, welche biß dahin mit <term ref="lem001069"
+                     >rossen</term>, <term ref="lem001076">küeh</term>, <term ref="lem001394">geissen</term>
+                     <lb/>oder anderem <term ref="lem000310">vych</term> in denen <term ref="lem016073.02">schloß
+                        hölzeren</term> geweidet, denen <lb/>solte es alß eine höchst schedliche sach by einer
+                     schwären <term ref="lem000345">straaff</term>
+                     <lb/>gentzlichen <term ref="lem005655">abgestrikt</term> und verboten werden. Und diß ver<lb
+                        break="no"/>bott insonderheit auch angehen die <orgName ref="org003798"
+                           >Büswiger</orgName><note>Die Leute des Weilers <placeName ref="loc006534"
+                              >Büsmig</placeName>.</note>, welchen <lb/>gleichwolen die nutzung der <term
+                                 ref="lem002450">streüwi</term> in dem <term ref="lem000251">wald</term> vorbehalten
+                     <lb/>werden könte.</p>
+                  <p>
+                     <lb/>4.<hi rend="sup">to</hi> Denen <term ref="lem003599">beamteten</term>, alß <term
+                        ref="lem000449">landtamman</term>, <term ref="lem000560">schreiber</term>, <term
+                           ref="lem000043">weibel</term> und <lb/>dergleichen persohnen, welche seit einichen jahren
+                     ohne <lb/>einiche rechtsame und durch einen schädlichen misbrauch <lb/>jehrlich vil <term
+                        ref="lem000759">holz</term> bekommen <sic>?</sic>, solle für daß könfftig nichts <lb/>mehr
+                     gegeben und diser articel der <term ref="lem000809">ordnung</term> eines herren
+                     <lb/>landtvogts eingeruckt werden. Damit auch der <term ref="lem001743">müller</term>
+                     <lb/>im <placeName ref="loc000950">Sennwald</placeName> mit seinem sonsten starcken <term
+                        ref="lem016075.02">holzbruch</term> desto <lb/>sparsamer verfahre: Alß solte ein jeweiliger
+                     <abbr>hr</abbr>
+                     <choice>
+                        <abbr>ldtvogt</abbr>
+                        <expan>landtvogt</expan>
+                     </choice>
+                     <lb/>ihme eine gewüße anzahl <term ref="lem002176">klaffter</term> bestimmen und durch den
+                     <lb/><term ref="lem002048.04">foster</term> anzeichnen laßen, so viel er namlich zu seinem
+                     <lb/><term ref="lem001962">haußbrauch</term> jehrlich ohnentbarlich vonnöthen.</p>
+                  <p>
+                     <lb/>5.<hi rend="sup">to</hi> Wann ein jeweiliger herr <term ref="lem000266"
+                        >landtvogt</term> jemandem holz be<lb break="no"/>williget und verkauffe <sic>?</sic>,
+                     solte der beeidigete <term ref="lem002048.04">foster</term> solches <lb/>anweisen und <term
+                        ref="lem003863">zeichenen</term>. Auch ein sorgfeltiges aufsehen <lb/>haben, daß nur die
+                     bestimte zahl und mehrers nicht gefalt <lb/>werde. Und so er hierinnen den geringsten <term
+                        ref="lem000044">freffel</term>
+                     <lb/>gewahrete, denselben keines wegs verschwygen, sonder zu <lb/>gebührender abstraaffung
+                     <term ref="lem000829">leiden</term> solle. Welcher puncten <lb/>deß fosters <term
+                        ref="lem000070">eid</term> eingerukt werden könte.<note>Vgl. dazu
+                           <ref>SSRQ_SG_III_4_159</ref>.</note></p>
+                  <pb n="2r" facs="StASG_AA_2_A_13-04-05_02"/>
+                  <p><lb/>6. Zu denen <term ref="lem004063">rynwuehren</term> solte zwahren von rechts wegen
+                     <lb/>auß denen <term ref="lem016073.03">schloßhölzeren</term> nur daß jenige genommen
+                     werden, <lb/>was zu <term ref="lem001291">schirmung</term> derer an den <placeName
+                        ref="loc000644">Ryn</placeName> stoßenden herrschaffts<lb break="no"/>güetteren vonnöthen
+                     were. Wann aber biß dahin üeblich <lb/>gewesen, denen benachbarten gemeinden, insonderheit
+                     denen <lb/>im <placeName ref="loc000389">Hag</placeName>, mit <term ref="lem000759"
+                        >holz</term> byzuspringen, damit denen <term ref="lem015258">schloßgüeteren</term>
+                     <lb/>von fehrnus gewehret und sicherheit verschaffet werde, alß <lb/>wird einem herren
+                     landtvogt überlaßen werden müeßen, <lb/>auch für daß könnftig by enstehender noth,
+                     fürnemlich der <lb/>gemeind <placeName ref="loc000389">Hag</placeName> mit grobem,
+                     ohnschedlichem <term ref="lem000759">holz</term> zum <term ref="lem000769">wuehr</term>
+                     <lb/>zubegegnen.<term ref="key000520"/></p>
+                  <p>
+                     <lb/>7. Funde mann die <term ref="lem006180">außmarchung</term> der <term ref="lem016073.03"
+                        >schloßhölzeren</term> gegen <lb/>allen <term ref="lem001537">anstösseren</term>,
+                     insonderheit auch gegen <term ref="lem016081.02">erlen holz</term><note>Es könnte sich hier
+                        auch um den Namen eines Waldes handeln, evtl. um den bei <bibl><ref
+                           target="http://permalink.snl.ch/bib/chbsg000146201">Stricker 2017</ref>, Bd. 6,
+                           S.&#160;159</bibl> erwähnten <placeName ref="loc008420.01">Erlenforst</placeName>.</note>
+                     hoch<lb break="no"/>nothwenig, wie nicht weniger zu üffnung deß <term ref="lem000028"
+                        >holzes</term> thunlich, <lb/>daß in denen <term ref="lem000251">wälderen</term> junge
+                     <term ref="lem001138">eichen</term> und <term ref="lem000700">buechen</term> gesetzet,
+                     <lb/>auch auf anderen güeteren <term ref="lem009374">fruchtbare baüm</term> gepflantzet
+                     <lb/>werdind. Worzu man im <term ref="lem002765">früehling</term> und <term ref="lem000479"
+                        >herbst</term> die <term ref="lem015262">tagwen <lb/>leüth</term> gebrauchen
+                     könte.</p><pb n="2v" facs="StASG_AA_2_A_13-04-05_03"/>
+                  <p><seg n="8">
+                     <lb/>Waß demenach den alten, lauffenden <term ref="lem000699">brunnen</term> beim <term
+                        ref="lem000376">schloss</term>
+                     <lb/>betrifft, ist selbiger erhaltenem bericht nach gantz unbe<lb break="no"/>stendig,
+                     erforderet gar vil <term ref="lem003924.09">teüchel</term> und volglich eine kost<lb
+                        break="no"/>bahre inehrenhaltung, weßwegen man rahtsam funde, <lb/>selbigen gentzlich <term
+                           ref="lem005157">abgehen</term> zulaßen. Hingegen in der <placeName ref="loc008210.01"
+                              >Wetti</placeName>, <lb/>alwo es gar gut- und genugsames <term ref="lem000511"
+                                 >wasser</term> hat, einen <lb/>anderen, auch wol gelegnen, laufenden <term ref="lem000699"
+                                    >brunnen</term> aufzu<lb break="no"/>richten, deßen inehrenhaltung vil minder alß jemers
+                     <lb/>kosten wurde, maßen von dem alten brunnen nicht nur <lb/>genug <term ref="lem003924.09"
+                        >teüchel</term> hierzu verhanden werden, sonderen annach <lb/>eine zimliche zahl
+                     vorschießen wurden, welche in die <lb/><placeName ref="loc008210.02">Weti</placeName> zu
+                     einem <term ref="lem003400">vorrath</term> gelegt, auch die <term ref="lem016084.02">teüchel
+                        zwingen</term>
+                     <lb/>aufbehalten werden könten.</seg>
+                     <seg>Inzwüschent fallet der <lb/>bericht, daß der <term ref="lem016074">sodbrunnen</term>
+                        wol außgefallen, auch <lb/>gutes und genugsames <term ref="lem000511">wasser</term> habe,
+                        außgenommen, <lb/>daß es by anhaltendem <term ref="lem001002">regen wäter</term> etwas trüeb
+                        <lb/>werde. Welchem vorzukommen daß <term ref="lem016085.02">rägen wasser</term> durch
+                        <lb/><term ref="lem003925.06">kännel</term> abgefüehret werden könte. Auch solten an die
+                        <lb/><term ref="lem016077.02">wasser eimer</term> in dem <term ref="lem016074"
+                           >sodbrunnen</term>
+                        <term ref="lem016086.02">ketenen</term> gemachet <lb/>werden.</seg></p>
+                  <pb n="3r" facs="StASG_AA_2_A_13-04-05_03"/>
+                  <p><seg n="9">
+                     <lb/>Letstlichen findet mann der <term ref="lem005126.05">gebaüwen</term> halben fehrner
+                     <lb/>volgendes nöthig:</seg></p>
+                  <p><lb/>1. Daß die verhandene und in abgang gekommene <term ref="lem016082.02"
+                     >handmülli</term>
+                     <lb/>widerum repariert werde, welches nach <choice>
+                        <abbr>mstr</abbr>
+                        <expan>meister</expan>
+                     </choice>
+                     <persName ref="per010279">Heinrich <lb/>Syffriden</persName> bericht
+                     ohne sonderlich großen kosten geschehen <lb/>könte.</p>
+                  <p><lb/>2. Zu einem nöthigen <term ref="lem016078.02">wasser vorrath</term> solte in dem
+                     <term ref="lem000376">schloß</term> ein <lb/><term ref="lem016079.02">waßer samler</term>
+                     gemachet und eingefaßet werden, deßen <lb/>größe aber dermahlen nicht bestimmet werden kan,
+                     weilen <lb/>mann nach nicht weißt, obe mann mit graben vor großen <lb/><term ref="lem010128"
+                        >steinen</term> vortkommen werde.</p>
+                  <p><lb/>3. Weilen die <term ref="lem000845.01">pfisterey</term> und <term
+                     ref="lem016070.02">senkuchi</term> (<choice>
+                        <abbr>rev</abbr>
+                        <expan><term ref="lem016844">reverenter</term></expan>
+                     </choice>) dermahlen an <lb/>einem solchen ohrt, daß mann darby in augenscheinlicher
+                     <lb/><term ref="lem004961">gefahr</term> läben mueß, hingegen selbige gantz komlich in
+                     <lb/>daß <term ref="lem005090.03">wöschhauß</term> verenderet werden könten, funde <lb/>mann
+                     solche <term ref="lem016087.01">versetzung</term> rahtsam und nothwendig.</p>
+                  <p>
+                     <lb/>4. Daß <term ref="lem015704.03">fischhauß</term> manglet annach eindeckens.<note>Zum
+                        Fischhaus in Salez vgl. <ref>SSRQ_SG_III_4_206</ref>.</note>
+                  </p>
+                  <p>
+                     <lb/>5. In der <term ref="lem000277">cammer</term>, darnebent die <term ref="lem016082.02"
+                        >handmülli</term> stehet, könte der <lb/><term ref="lem010007">boden</term> mit <term
+                           ref="lem014479">laden</term>
+                     <term ref="lem016071">überschosen</term>, darmit selbige zu einer <lb/><term
+                        ref="lem016845.02">schüti</term> gemachet oder zu anderwertigem, nöthigem <lb/>gebrauch
+                     angewendet werden. </p>
+                  <p>
+                     <lb/>6. Nach dem bericht deß meister <persName ref="per010279">Heinrich Syfriden</persName>
+                     sind <pb n="3v" facs="StASG_AA_2_A_13-04-05_04"/>
+                     <lb/>keine <term ref="lem003369.04">feür leiteren</term>, <term ref="lem001727">kübel</term>
+                     und <term ref="lem016083.02">häggen</term> weder im <term ref="lem000376">schloß</term>
+                     <lb/>nach sonsten in der herrschafft vorhanden, weßwegen man <lb/>nöthig erachtet, uf den
+                     nothfahl, welchen gott gnedig ab<lb break="no"/>wende <sic>!</sic>, eine anzahl dergleichen
+                     <term ref="lem000503.01">werchzeüg</term> in vorrath <lb/>machen zu laßen.<note>Vgl. dazu
+                        die Feuerordnung von 1733 <ref>SSRQ_SG_III_4_219</ref>.</note></p>
+                  <p>
+                     <lb/>Welches aber alles eüch, <choice>
+                        <abbr>m gnd</abbr>
+                        <expan>meinen gnädigen</expan>
+                     </choice> herren, zu beliebiger <lb/>verminder oder vermehrung ehrenbietig hinterbracht
+                     <lb/>wird.</p>
+                  <p>
+                     <lb/>Actum freitags, den <origDate when="1707-01-28" calendar="Gregorian">28. jenner anno
+                        1707</origDate>, <choice>
+                           <abbr>pretbus</abbr>
+                           <expan>präsentibus</expan>
+                        </choice>
+                     <lb/>herr seckelmeister <persName ref="per015245a.02">Rahn</persName>, herr seckelmeister
+                     <persName ref="per010281">Werdmüller</persName>, <lb/>herr zunfftmeister <persName
+                        ref="per010282">Heidegger</persName> und herr landtvogt <persName ref="per010283"
+                           >Ziegler</persName>.</p>
+                  <p>
+                     <lb/><term ref="lem016080">Rechenschreibers</term>
+                     <term ref="lem000887">cantzley</term>.</p>
+               </div>
+               <pb facs="StASG_AA_2_A_13-04-05_05"/>
+               <div>
+                  <ab type="dorsal" place="verso" hand="hand18c"><lb/>Rahtschlag <lb/>wegen der
+                     <term ref="lem000028">hölzeren</term>, <term ref="lem000699">brünnen</term>
+                     <lb/>und fehrner nöthigen <term ref="lem010662">bauwens</term>
+                     <lb/>zu <placeName ref="loc000278">Sax</placeName>, <lb/>sub <date when="1707-01-28">28. jenner anno 1707</date></ab>
+               </div>
+               <div>
+                  <ab type="archiving reference" place="verso"><lb/>N<hi rend="sup">o</hi> 23; N<hi rend="sup"
+                     >o</hi> 61; 61</ab>
+               </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div n="1">
+            <p>Das vorliegende Projekt zur Bewirtschaftung des <term ref="key000249">Waldes</term> in
+               <placeName ref="loc000278">Sax-Forstegg</placeName> betrifft die Aufsicht und den <term
+                  ref="key000565">Schutz</term> der sogenannten Schlosswälder, den übermässigen und
+               unkontrollierten <term ref="key000640">Holzschlag</term> sowie die <term ref="key000942"
+                  >Aufforstung</term>. Zur Kontrolle wird die Stelle eines beeidigten <term ref="key005243"
+                     >Försters</term> geschaffen (vgl. dazu den <term ref="key000179">Eid</term> des Försters bzw.
+               des <term ref="key000066">Bannwarts</term> in <placeName ref="loc000278"
+                  >Sax-Forstegg</placeName>: <ref>SSRQ_SG_III_4_159</ref>). Die Holzordnung wurde
+               erlassen, weil es unter Landvogt <persName ref="per010284">Johann Jakob Ulinger</persName>
+               (1704–1706) und seinem Reitknecht <persName ref="per010285a">Albrecht Rhyner</persName> von
+               <placeName ref="loc000691">Salez</placeName>, der zu jener Zeit auch für die Schlosswälder
+               zuständig war, zu übermässigen <term ref="key003822">Rodungen</term> sowie zu
+               Unregelmässigkeiten bei der weiteren Verarbeitung der geschlagenen <term ref="key000919"
+                  >Bäume</term> kam (vgl. dazu ausführlich den Artikel im Werdenberger Jahrbuch <bibl><ref
+                     target="
+                     http://permalink.snl.ch/bib/chbsg000040681">Berger/Reich 2004</ref>,
+                     S.&#160;40–47</bibl>).</p>
+            <p>Für die <term ref="key004163">Gemeindewälder</term> sind die einzelnen <term
+                  ref="key004966">Gemeinden</term> zuständig, die eigene <term ref="key004230"
+                  >Nutzungsordnungen</term> bzw. <term ref="key000750">Holzordnungen</term> für ihre
+                  <term ref="key000249">Wälder</term> erlassen, so z.&#160;B. <orgName
+                  ref="org003296">Sennwald</orgName>
+               <date when="1778">1778</date> (<ref>SSRQ_SG_III_4_246</ref>) und <orgName
+                  ref="org001175">Sax</orgName>
+               <date when="1783">1783</date> (<bibl><ref>OGA Sax 26.02.1783</ref></bibl>). Auch in
+               den sog. <term ref="key004797">Legibriefen</term> erlassen die Gemeinden zum Schutz
+               ihrer Wälder Verbote zum Holzschlag, zum Verkauf von Holz ausser Landes, zur <term
+                  ref="key000517">Atzung</term> im Wald, zum Holzhau der <term ref="key003498"
+                  >Müller</term> usw. (so z.&#160;B. <ref>SSRQ_SG_III_4_184</ref>, Art.&#160;20;
+                     <bibl><ref>StASG AA&#160;3&#160;A 12b-1a</ref>, Art.&#160;11–12</bibl>;
+                     <bibl><ref>OGA&#160;Grabs O 1755-1</ref>, Art.&#160;8, Art. 12, Art. 14, Art.
+                  27–28, Art. 38, Art. 41</bibl>). Zur Waldbewirtschaftung in <placeName
+                  ref="loc000278">Sax-Forstegg</placeName> allgemein vgl. <bibl><ref
+                     target="http://permalink.snl.ch/bib/chbsg000040681">Berger/Reich 2004</ref>,
+                  S.&#160;40–47</bibl>. </p>
+         </div>
+         <div n="2">
+            <p>Eine <term ref="key000392">Feuerordnung</term> für die Landvogtei <placeName
+                  ref="loc000278">Sax-Forstegg</placeName> gibt es keine, da <orgName
+                  ref="org001196">Zürich</orgName> allgemeine <term ref="key000491">Mandate</term>
+               zur Brandverhütung für Stadt und Land erlässt, die meist in gedruckter Form an die
+               verschiedenen Untertanengebiete geschickt und dort regelmässig verlesen werden (so
+               z.&#160;B. die Mandate im <bibl><ref>EKGA&#160;Salez 32.01.42, Sicherheit und Ordnung
+                     [Schachtel Mandate], 12.03.1708</ref>; <ref>19.01.1738</ref></bibl> oder
+                     <bibl><ref>EKGA&#160;Salez 32.01.51, Herstellungswirtschaft, Fischerei,
+                     11.06.1695</ref></bibl>; zu den gedruckten Zürcher Mandaten allgemein
+                     <bibl><ref>SSRQ ZH NF I/1/11</ref></bibl>). </p>
+            <p>Zur Feuerordnung in Werdenberg von 1733 vgl. <ref>SSRQ_SG_III_4_219</ref>.</p>
+         </div>
+      </back>
+   </text>
+</TEI>
+

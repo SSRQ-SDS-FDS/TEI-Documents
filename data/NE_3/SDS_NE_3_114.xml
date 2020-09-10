@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="headerinfo"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <date type="electronic" when="2020-08-17"/>   
+    <date type="print"/>
+    <availability><p xml:id="facs">Adrien Wyssbrod</p></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Collection des sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS_NE_3_114</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier>
+      <idno>AVN B 101.01.01.006, p. 671</idno>
+     </msIdentifier>
+     <head>Délai pour le droit de préemption</head>
+     <msContents>
+      <summary>Lors de la vente d’un bien-fonds, les proches parents qui disposent d’un droit de
+       préemption disposent du délai d’an et jour pour en faire usage.</summary>
+      <msItem>
+       <textLang>français</textLang>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="32"/>
+          <width unit="cm" quantity="22.5"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <origDate when="1634-04-19" calendar="Julian"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>
+      </origin>
+     </history>
+     <additional>
+      <listBibl>
+       <head/>
+       <bibl/>
+      </listBibl>
+     </additional>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key000376"></term>
+     <term ref="key000231"></term>
+     <term ref="key005117"></term>
+     <term ref="key005221"></term>
+    </keywords>
+   </textClass>
+   <particDesc default="false"/>
+   <settingDesc default="false"/>
+  </profileDesc>
+ </teiHeader>
+ 
+ <text>
+  <group>
+   <text>
+    <body>
+     
+     <pb n="670"/>
+     <div>
+      <head>
+       <lb/>Du <origDate when="1634-04-19" calendar="Julian"><hi rend="underline">19</hi> avril <hi rend="underline">1634</hi></origDate> en <orgName ref="org007660">Conseil general</orgName>, presidant
+       <lb/>monsieur le <choice><abbr>mrebourgeois</abbr><expan>maître-bourgeois</expan></choice> <persName ref="per010461a">Jean Varnod</persName>.
+      </head>
+     </div>
+     <gap reason="irrelevant"/>
+     
+     
+     <pb n="671" facs="AVN_B_101.01.01.006_0671"/> 
+     
+     <div><head><lb/><choice><abbr>Dud</abbr><expan>Dudit</expan></choice> jour en <orgName ref="org003085">Conseil estroict</orgName>.</head></div>
+     
+     
+     <div>
+      <add place="left margin">Poinct de coutume</add>
+      <add place="left margin" hand="later hand" rend="pencil"><choice>
+        <abbr>Délibér</abbr>
+        <expan>Délibérations</expan>
+       </choice></add>
+      <p>
+       <lb/>Le receveur <persName ref="per010459a.02">Hugues Trybolet</persName> a requis d’avoir
+       declairation <lb/>d’un point de coustume, sçavoir <term ref="lem016286">mon</term>, quand une
+       personne qui <lb/>fait <term ref="lem015546">vendition</term> d’une pièce de terre, celuy ou
+       ceux qui ont droit <lb/>de retraicte par proximité, desirant s’en faire <term
+        ref="lem015637.04">rehemtion</term>, s’ils ne <lb/>le doivent pas faire dans l’<date
+        dur="P1Y6W"><term ref="lem014776">an et jour</term></date>. </p>
+      <p>
+       <lb/>Il a esté surce declairé la coustume de ce Comté usitée de temps <lb/>immemorial estre
+       telle, asçavoir que tous <term ref="lem016048.04">preusmes</term> qui <lb/>desirent faire retraction, et <term
+        ref="lem015637.04">rehemtion</term> de quelque piece <lb/>vendue, iceluy le doit faire dans
+        l’<date dur="P1Y6W"><term ref="lem014776">an et jour</term></date>, selon <lb/><choice>
+        <abbr>lesd</abbr>
+        <expan>lesdites</expan>
+       </choice> coustumes, à defaut de quoy en sera exclus. </p>
+     </div>
+     
+       
+    </body>
+   </text>
+  </group>
+ </text>
+</TEI>

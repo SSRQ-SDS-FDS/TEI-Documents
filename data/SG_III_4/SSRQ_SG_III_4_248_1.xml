@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-08-15"/>
+            <date type="print"/>
+            <availability><p xml:id="facs">Sibylle Malamud</p></availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_248_1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno source="https://archivverzeichnis.gl.ch/home/#/content/9b0139d1d5884ad39672b7a3fc695493">LAGL AG III.2444:008a</idno>
+                  <altIdentifier>
+                     <idno>LAGL X.</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <head>Glarus verpachtet das Salzregal für die Landvogtei Werdenberg auf vier Jahre an Johann Christoph Tschudi</head>
+               <msContents>
+                  <summary>
+                     <p>Landammann und Rat von Glarus verganten für vier Jahre das Salzregal der Landvogtei
+                        Werdenberg: Der Vertrag beginnt am 13. Juni 1782 und endet am 13. Juni 1786. Werdenberg soll
+                        gutes bayrisches Salz beziehen können. Sollte dies nicht möglich sein, muss sich der Salzpächter
+                        mit Glarus in Verbindung setzen, ebenso, wenn sich jemand mit Salz aus Hall im Inntal eindecken
+                        möchte. Das Salz soll durch beeidigte Salzmesser in der Stadt Werdenberg, oder wo der Wochenmarkt
+                        gehalten wird, abgemessen werden. Ein Kopf bayrisches Salz kostet 26 Kreuzer bzw. das Pfund 2.5
+                        Kreuzer. Der meistbietende Johann Christoph Tschudi erwirbt die Salzpacht und stellt als Bürgen
+                        Johann Rudolf Iseli.</p> <p>Der Aussteller siegelt.</p>
+                  </summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <author role="scribe"><persName ref="per010974">Albrecht Schlitter</persName>, Landschreiber</author>
+                     <filiation type="current">Original (Doppelblatt, 3 Seiten beschrieben)</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="37.5"/>
+                              <width unit="cm" quantity="22.5"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <sealDesc>
+                     <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI"
+                           n="1"
+                           nontei:condition="well-preserved"
+                           nontei:material="papered seal"
+                           nontei:place="end"
+                           nontei:shape="round"
+                           nontei:attachment="applied">
+                        <orgName role="sigillant" ref="org001197">Glarus</orgName>
+                     </seal>
+                  </sealDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1782-05-13">Ausstellungsdatum ohne Tag. Tag ergänzt nach Beginn und Ablauf der Pacht [13. Juni 1782 bis 13. Juni 1786].</origDate>
+                     <origPlace>Glarus, Rathaus</origPlace>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000739">Pacht</term>
+               <term ref="key004704">Salzadmodiation</term>
+               <term ref="key004702">Salzhandel</term>
+               <term ref="key004256">Salzpreis</term>
+               <term ref="key003493">Salzpächter</term>
+               <term ref="key004703">Salzregal</term>
+               <term ref="key004710">Salzwesen</term>
+               <term ref="key004700">Salzkontrakt</term>
+               <term ref="key004419">Salzhändler</term>
+               <term ref="key000629">Salz</term>
+               <term ref="key000412">Gant</term>
+               <term ref="key005367">Beschlagnahmung</term>
+               <term ref="key004419">Salzhändler</term>
+               <term ref="key000629">Salz</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <div org="uniform" sample="complete">
+                  <pb n="1r" facs="LAGL_AG_III.2444_008a_1r"/>
+                  <p>
+                     <lb/>Wir, <orgName ref="org003239">landamman und rath gemeinen stands
+                           <lb/><placeName ref="loc000326.07">Glaruß</placeName></orgName>, urkunden
+                     hiermit, daß wir abermahlen <lb/>durch unser lobliches ambt die <term
+                        ref="lem013919">besalzung</term> unserer <lb/><term ref="lem001996"
+                        >landtvogthei</term>
+                     <placeName ref="loc000440">Werdenberg</placeName> auf heute datto von <date
+                        dur="P1H"><time when="13:00:00">1</time> bis <lb/><time when="14:00:00"
+                           >2</time>
+                        <term ref="lem000927">uhr</term></date> auf unserem rathaus zu <placeName
+                        ref="loc008742.01">Glarus</placeName> unter <lb/>nachstehenden conditionen
+                        <term ref="lem006661">verganten</term> laßen, als</p>
+                  <p>
+                     <lb/>1.<hi rend="sup">mo</hi> solle dise <term ref="lem004093"
+                        >admodiation</term>
+                     <date dur="P4Y">4 jahr</date> lang, nemlich vom <lb/><date from="1782-06-13"
+                        calendar="Gregorian" to="1786-06-13">2/13 juny 1782 bis 2/13 juny
+                        1786</date> dauren. </p>
+                  <p>
+                     <lb/>2.<hi rend="sup">do</hi> sollen alle <term ref="lem017134.02"
+                        >comploten</term> bei ehr und <term ref="lem000070">eid</term> verbotten
+                     sein, <lb/>auch das nicht mehr als <num value="2">2</num> bis höchstens <num
+                        value="3">3</num>
+                     <term ref="lem005806">gemeinder</term>
+                     <lb/>solche <term ref="lem013919">besalzung</term> erganten und behalten mögen,
+                     <lb/>worauf das <term ref="lem017119.02">eids gelübt</term> geleistet werden
+                     solle. </p>
+                  <p>
+                     <lb/>3.<hi rend="sup">tio</hi> solle die graffschaft <placeName ref="loc000440"
+                        >Werdenberg</placeName> mit gutem <lb/><placeName ref="loc001010"
+                        >Bajerischem</placeName>
+                     <term ref="lem002317">salz</term> besalzen werden, vorbehalten, <lb/>wan <term
+                        ref="lem012589">pests zeit</term> sich ereignen solte, welche gott <lb/>vor
+                     alle zeit allergnädigst verhüeten wolle, <lb/>daß man das salz von daher nicht
+                     bekomen <lb/>könte, in welchem fahl der <term ref="lem017113.01"
+                        >admodiator</term> sich <lb/>an <choice>
+                        <abbr>mgdhh</abbr>
+                        <expan>meine gnädigen herren</expan>
+                     </choice> wenden sol, um den befehl auszubiten, <lb/>mit was vor <term
+                        ref="lem002317">salz</term> er das <placeName ref="loc000440"
+                        >Werdenbergische</placeName>
+                     <lb/>besalzen solle. Und solte auch dermahlen je<lb break="no"/>mand sein, der
+                     lieber mit <sic><placeName ref="loc005718.01"
+                        >Hallintalischem</placeName></sic><note anchored="true">Hall im <placeName
+                           ref="loc005755">Inntal</placeName>.</note> salz <lb/>besalzen sein und
+                     mehrers darvor bezahlen <lb/>wolte, so mag sich auch in disem fahl der <term
+                        ref="lem017113.01">ad<lb break="no"/>modiator</term> an <choice>
+                        <abbr>mgdhh</abbr>
+                        <expan>meine gnädigen herren</expan>
+                     </choice> wenden, hochwelche die an<lb break="no"/>gemeßene <term
+                        ref="lem017122.01">taxation</term> solchen <term ref="lem002317"
+                        >salzes</term> verordnen <lb/>werden. </p>
+                  <p>
+                     <lb/>4.<hi rend="sup">to</hi> Das <term ref="lem002317">salz</term>, so unsere
+                     angehörige in der graff<lb break="no"/>schaft <orgName ref="org003242"
+                        >Werdenberg</orgName> verbrauchen, solle alles <lb/>durch beeidigte <term
+                        ref="lem012444.03">ausmäßer</term> ausgemäßen werden, <lb/>der <measure
+                        quantity="1" commodity="salt" type="volume" unit="Kopf" origin="Werdenberg"
+                        >kopf gutes <placeName ref="loc001010">Bajerisches</placeName>
+                        salz</measure>
+                     <placeName ref="loc000440">Werdenberger</placeName>
+                     <lb/><term ref="lem000196">mäß</term> gegen <term ref="lem002251">baar
+                        gelt</term> um <measure unit="xr" type="currency" quantity="26">26 x<hi
+                           rend="sup">er</hi></measure>, oder das <measure quantity="1"
+                        commodity="salt" type="weight" unit="Pfund">pfund</measure>
+                     <lb/>a <measure unit="xr" type="currency" quantity="2.5">2½ x<hi rend="sup"
+                           >er</hi></measure>, und so nach proportion solle auch das <lb/>höchere
+                     und kleinere <term ref="lem000196">mäs</term> im <placeName ref="loc000440"
+                        >Werdenbergischen</placeName>
+                     <lb/>verkauft werden.</p>
+                  <p>
+                     <lb/>5.<hi rend="sup">to</hi> Solle der <term ref="lem017113.01"
+                        >admodiator</term>, wan es die <term ref="lem006896">gemeinden</term> nicht
+                     <lb/>begehren, nit schuldig sein, <term ref="lem012444.03">ausmäßer</term>
+                     zuhaben <lb/>als im <term ref="lem005032">städtli</term>
+                     <placeName ref="loc000016">Werdenberg</placeName> ald dortiger <pb n="1v"
+                        facs="LAGL_AG_III.2444_008a_1v"/>
+                     <lb/>enden, wo der <term ref="lem000663">wochen markt</term> gehalten wird. Wan
+                     <lb/>es ihme aber beliebiger wäre, auch in anderen <lb/>gemeinden der
+                     graffschaft <term ref="lem012444.03">ausmäßer</term> zubestelen, <lb/>so ist
+                     solches seiner wilckhür überlaßen, jedoch daß schon <lb/>gemelter maßen alle
+                     ausmäßer in pflicht und <term ref="lem000070">eidt</term>
+                     <lb/>genohmen werden sollen.</p>
+                  <p>
+                     <lb/>6.<hi rend="sup">to</hi> Die <term ref="lem004127">zahlung</term> des
+                        <term ref="lem016619.02">admodiations schillings</term> solle folgender<lb
+                        break="no"/>maßen einem jewilligen <sic>hherren</sic>
+                     <choice>
+                        <abbr>landseckelmr</abbr>
+                        <expan>landsseckelmeister</expan>
+                     </choice>
+                     <lb/>geleistet werden: Namlich die erste <term ref="lem017123.02">jahr
+                        zahlung</term>
+                     <lb/>in zeit <date type="deadline" dur="P14D">14 tagen</date> nach der <term
+                        ref="lem000604">gant</term> und die anderten <lb/><term ref="lem004127"
+                        >zahlungen</term>
+                     <date dur="R/P1Y">alle jahr</date> zum voraus, ehe einer wider<lb break="no"
+                     />um ein anderes jahr antritet. Auch solle der <lb/><term ref="lem017113.01"
+                        >admodiator</term> an <term ref="lem003543.07">eids statt</term> anloben,
+                     daß weder <lb/>er selbsten noch durch jemand anderst um einichen <lb/>nachlas
+                     anhalten wollen und fahls wider beßeres <lb/>verhoffen der oder die
+                     admodiatoren ihr ver<lb break="no"/>sprechen nicht erfüllen wurden, so wird bei
+                     <lb/>solchen alle verursachte kösten und auch der <lb/>verlurst und das, so man
+                     allenfahls von der <lb/><term ref="lem013919">besalzung</term> minder ziehen
+                     wurde, ohne ver<lb break="no"/>schonen obrigkeits wegen gesucht werden.
+                     <lb/>Auch sollen solche admodiatoren in zukunft zu <lb/>obrigkeitlichen <term
+                        ref="lem000604">ganten</term> unfähig sein.</p>
+                  <p>
+                     <lb/>7.<hi rend="sup">mo</hi> Verheißen <choice>
+                        <abbr>mgdhh</abbr>
+                        <expan>meine gnädigen herren</expan>
+                     </choice> dem <term ref="lem017113">admodiatoren</term> allen
+                     <lb/>obrigkeitlichen schuz und schirm, deswegen <lb/>die erforderlichen befehl
+                     an einen jewillig <lb/>regierenden <choice>
+                        <abbr>hhn</abbr>
+                        <expan>herren</expan>
+                     </choice> landtvogt ausgefertiget <lb/><sic>werden werden</sic>. Es wird auch
+                     zu dem <lb/>ende hin ohne verzug <add place="above">durch</add> ein ernstliches
+                        <term ref="lem005370">mandata</term>
+                     <lb/>in der graffschaft <placeName ref="loc000440">Werdenberg</placeName>
+                     verbotten werden, <lb/>das niemand bei <term ref="lem003906"
+                        >confiscation</term> des <term ref="lem002317">salzes</term> und <lb/>hocher
+                     straff und ungnad, weder im kleinen <lb/>noch großen, kein salz ins land
+                     werffen <lb/>oder hineinkauffen, sonderen alles von dem <lb/><term
+                        ref="lem017113">admodiatoren</term> oder seinen bestelten <term
+                        ref="lem012444.04">aus<lb break="no"/>meßeren</term> nehmen solle. Und wan
+                     der admodi<lb break="no"/>ator ein obrigkeitliches schreiben an die <term
+                        ref="lem017117.02">salz <lb/>kammer</term> nacher <placeName
+                        ref="loc006480.05">Buochhorn</placeName> begehren wird, so werden <lb/><choice>
+                        <abbr>mgdhh</abbr>
+                        <expan>meine gnädigen herren</expan>
+                     </choice> ihne mit einem solchen begleiten.</p>
+                  <pb n="2r" facs="LAGL_AG_III.2444_008a_2r"/>
+                  <p>
+                     <lb/>8.<hi rend="sup">vo</hi> Sowohlen um den versprechenden <term
+                        ref="lem017120.02">gant schillig</term> als <lb/>auch um alles und jedes,
+                     wan etwas bei der <term ref="lem017117.02">salz <lb/>kammer</term>
+                     hinderbleiben solte, solle der <term ref="lem017113.01">admodiator</term>
+                     <lb/>einen <choice>
+                        <abbr>mgdhh</abbr>
+                        <expan>meinen gnädigen herren</expan>
+                     </choice> angenehmen <term ref="lem000225">bürg</term> und <term
+                        ref="lem004257">zahler</term> stellen.</p>
+                  <p>
+                     <seg n="9.">
+                        <lb/>Und ledsteren solle der <term ref="lem017113.01">admodiator</term>
+                        <date dur="P6M">ein halbes <lb/>jahr</date> vor auslauff seiner <term
+                           ref="lem017114.01">admodiationszeit</term>
+                        <lb/><choice>
+                           <abbr>mgdhh</abbr>
+                           <expan>meine gnädigen herren</expan>
+                        </choice> zu fernerer <term ref="lem016310">vergantung</term> den anzeig
+                        thun.</seg>
+                  </p>
+                  <p>
+                     <lb/>Nach verfloßener <term ref="lem017121.02">gant zeit</term> hat solche als
+                     der <lb/>meistbietende ergantet <choice>
+                        <abbr>hh</abbr>
+                        <expan>herr</expan>
+                     </choice> rathsherr <persName ref="per010973a"><choice>
+                           <abbr>Joh</abbr>
+                           <expan>Johann</expan>
+                        </choice> Christoph <lb/>Tschudi</persName> von <placeName ref="loc000326"
+                        >Glarus</placeName> und zum <term ref="lem000225">bürg</term> und <lb/><term
+                        ref="lem004257">zahler</term> gestelt <choice>
+                        <abbr>hh</abbr>
+                        <expan>herr</expan>
+                     </choice>
+                     <unclear>major</unclear> haubtman, <term ref="lem017118.02">9<hi rend="sup"
+                           >er</hi> richter</term>
+                     <lb/><persName ref="per010975a">Iselin</persName>, welchen <choice>
+                        <abbr>mgdhh</abbr>
+                        <expan>meine gnädigen herren</expan>
+                     </choice> angenohmen haben.</p>
+                  <p>
+                     <lb/>Deßen zu wahrem urkund haben wir gegen<lb break="no"/>wärtiges <term
+                        ref="lem017115.02">admodiations instrument</term> dreifach <lb/>ausfertigen
+                     und mit unserem gewonlichen <lb/>stands sigel bekräfftigen laßen, datum,
+                     <lb/>den <space quantity="2" unit="character"/>
+                     <origDate when="1782-05-13">may 1782</origDate><note>Ausstellungsdatum ohne Tag. Tag ergänzt nach Beginn und Ablauf der Pacht (13. Juni 1782 bis 13. Juni 1786).</note>.</p>
+                  <p>
+                     <lb/><persName ref="per010974">Albrecht Schlittler</persName>,
+                     <lb/>landschreiber. </p>
+               </div>
+               <pb facs="LAGL_AG_III.2444_008a_2v"/>
+               <div org="uniform" sample="complete">
+                  <ab type="dorsal" place="verso" hand="hand18c">
+                     <lb/><placeName ref="loc000440">Werdenbergisches</placeName>
+                     <lb/><term ref="lem017116.02">salz admodiations<lb break="no"
+                        />instrument</term>
+                  </ab>
+               </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div n="1" org="uniform" sample="complete">
+            <p>
+               <date when="1778">1778</date> monopolisiert <orgName ref="org001197">Glarus</orgName>
+               die Salzversorgung für die Landvogtei <placeName ref="loc000440"
+                  >Werdenberg</placeName> und <term ref="key000739">verpachtet</term> das <term
+                  ref="key004703">Salzregal</term> auf <date dur="P4Y">vier Jahre</date> (<bibl><ref
+                     target="https://www.ssrq-sds-fds.ch/online/GL_1.1/index.html#p_506"
+                     >SSRQ GL 1.1, Nr. 189C</ref></bibl>). Kurz darauf wird per <term
+                  ref="key000491">Mandat</term> der <term ref="key004702">Salzhandel</term> in
+                  <placeName ref="loc000440">Werdenberg</placeName> verboten. Die Bewohnerschaft
+               darf das <term ref="key000629">Salz</term> nur noch beim <term ref="key003493"
+                  >Salzpächter</term> beziehen (<bibl><ref>StASG AA 3 A 10-3</ref></bibl>). Bis zu
+               diesem Zeitpunkt hatte der Salzhandel in den Händen der <orgName ref="org003242"
+                  >Werdenberger</orgName> gelegen. Bereits <date when="1779">1779</date> beschweren
+               sich einige Abgeordnete von <placeName ref="loc000440">Werdenberg</placeName> über
+               die neue Salzverpachtung (<bibl><ref>OGA Grabs O 1779-1</ref></bibl>). <orgName
+                  ref="org001197">Glarus</orgName> geht jedoch auf die Klagen nicht ein. In den
+               folgenden Jahren steigt der Salzpreis und es entstehen Engpässe in der Versorgung.
+               Nach mehrfachen Gesuchen der Bewohnerschaft um Rückkehr zur alten Ordnung und zum
+               freien Salzhandel ist <orgName ref="org001197">Glarus</orgName>
+               <date when="1794">1794</date> schliesslich gewillt, das Salzregal den <term
+                  ref="key004966">Gemeinden</term> gegen einen Zins von <measure quantity="200"
+                  unit="fl" type="currency">200 Gulden</measure> zu überlassen (<bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/6e424569a7844431af16ec5b6c2a2204"
+                     >LAGL AG III.2444:028</ref>; <ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/6e424569a7844431af16ec5b6c2a2204"
+                     >AG III.2444:029</ref></bibl>; <bibl><ref
+                     target="http://permalink.snl.ch/bib/chbsg000142793">Winteler 1923</ref>,
+                  S 152–153</bibl>; zum Salzhandel in <placeName ref="loc000440"
+                  >Werdenberg</placeName> vgl. auch das Dossier <bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/d17922a832d044b4af8a33bfe507ff21"
+                     >LAGL AG III.2444</ref></bibl> mit diversen Werdenbergischen Salzrechnungen aus
+               den Jahren 1782–1786).</p>
+         </div>
+         <div n="2" org="uniform" sample="complete">
+            <p>Bereits <date when="1725">1725</date> monopolisiert <orgName ref="org001197"
+                  >Glarus</orgName> in einem <term ref="key000491">Mandat</term> die Salzversorgung
+               in der Herrschaft <placeName ref="loc000842">Gaster</placeName> und verbietet in
+               einem Salzmandat vom <date when="1725-08-29">29. August 1725</date> bei einer <term
+                  ref="key000184">Busse</term> von <measure quantity="50" unit="Taler"
+                  type="currency">50 Talern</measure> die <term ref="key004353">Einfuhr</term> von
+                  <term ref="key000629">Salz</term> durch Salzhändler von <placeName ref="loc000061"
+                  >Feldkirch</placeName>, <placeName ref="loc000440">Werdenberg</placeName> oder
+               anderen Orten. Das Salz muss vom Glarner <term ref="key003493">Salzpächter</term>
+               nach festgelegten <term ref="key000764">Preisen</term> bezogen werden (Druck:
+                     <bibl><ref
+                     target="https://www.ssrq-sds-fds.ch/online/SG_III_1/index.html#p_170">SSRQ
+                     SG III/1, Nr. 93</ref></bibl>; Original: <bibl><ref>OGA Gams
+                  Nr. 147</ref></bibl>). <orgName ref="org001881">Gams</orgName> als Teil von
+                  <placeName ref="loc000842">Gaster</placeName> beschwert sich daraufhin bei
+                  <orgName ref="org001191">Schwyz</orgName>, das die Gamser von dieser Neuerung
+               befreit (<bibl><ref>OGA Gams Nr. 148</ref>; <ref>Nr. 150</ref></bibl>). Als <orgName
+                  ref="org001197">Glarus</orgName>
+               <date when="1733">1733</date> für die Herrschaft <placeName ref="loc006040"
+                  >Hohensax-Gams</placeName> ein weiteres Verbot zum Salzhandel ausgibt, wehrt sich
+                  <orgName ref="org001881">Gams</orgName> abermals erfolgreich bei <orgName
+                  ref="org001191">Schwyz</orgName> dagegen (<bibl><ref>StASZ HA.IV.404,
+                  Nr. 46</ref></bibl>; <bibl><ref>OGA Gams Nr. 156</ref></bibl>, vgl. auch
+                     <bibl><ref target="http://permalink.snl.ch/bib/chbsg000143825">EA, Bd.
+                     7/1</ref>, Uznach und Gaster, Art. 107, 111–112</bibl>). <date when="1782"
+                  >1782</date> versucht <orgName ref="org001197">Glarus</orgName> auch den <term
+                  ref="key004702">Salzhandel</term> im <placeName ref="loc000925"
+                  >Sarganserland</placeName> zu monopolisieren (<bibl><ref
+                     target="http://permalink.snl.ch/bib/chbsg000143823">EA, Bd. 8</ref>, Sargans,
+                  Art. 59–69</bibl>).</p>
+         </div>
+      </back>
+   </text>
+</TEI>

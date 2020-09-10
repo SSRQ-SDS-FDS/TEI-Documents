@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+
+
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+
+			</titleStmt>
+
+			<publicationStmt>
+				<date type="electronic" when="2019-10-14"/>
+				<date type="print"/>
+			</publicationStmt>
+
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ_FR_I_2_8_0097_005</idno>
+			</seriesStmt>
+
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<idno>StAFR, Thurnrodel 13, S. 383–384</idno>
+					</msIdentifier>
+					<head>Jacques Chablais – Verhör / Interrogatoire</head>
+					<msContents>
+						<summary></summary> 
+						<msItem>
+							<textLang>fr</textLang> 
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support>
+									<material></material>
+								</support>
+								<extent>
+									<dimensions type="leaves">
+										<height unit="cm" quantity="0.0"/>
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+									<dimensions type="plica">
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+								</extent>
+							</supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate when="1637-03-04"/>
+							<origPlace></origPlace>
+						</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc> 
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+			<particDesc default="false"/>
+			<settingDesc default="false"/>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="383"/><p><lb/>Im <placeName ref="loc007683.02">bösen thurn</placeName>
+							
+							<seg><lb/><origDate when="1637-03-04">4 <foreign xml:lang="la">martii</foreign> 1637</origDate>, <foreign xml:lang="la"><choice><abbr>jud</abbr> <expan>judex</expan></choice></foreign> <abbr>h</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per011517">Peter Krummenstoll</persName>.</note></seg>
+							<seg><lb/><abbr>H</abbr> <persName ref="per009172">Gasser</persName>, <abbr>h</abbr> <persName ref="per009267">Brodard</persName></seg>
+							<seg><lb/><persName ref="per011543">Falck</persName></seg>
+							<seg><lb/><persName ref="per011540a.02">Gartner</persName>, <persName ref="per011523a.01">Wildt</persName></seg>
+						
+							<seg><lb/><choice><abbr>W</abbr><expan>Weibel</expan></choice></seg></p>
+							
+						<pb n="384"/><p><seg><lb/><add place="left margin"><measure type="currency" quantity="3" unit="lb">3 </measure>.</add></seg> 
+							<seg><persName ref="per011930a">Jaques</persName> prenommé enquis s’il ne maudissoit les gens, 
+							<lb/>a respondu qu’estant fasché, il disoit que le <term ref="lem017521">diable</term> 
+							<lb/>les devoit emporter.</seg> <seg>S’il n’avoit esté en la <term ref="lem017043.01">secte</term> 
+							<lb/>au <placeName ref="loc009887.02">Riaux d’Enfer</placeName>, s’il ne sçavoit ou ce que ledit <term ref="lem015027.02">riaux</term> 
+							<lb/>estoit, s’il n’avoit medeciné des <term ref="lem017507.02">vaches</term>, s’il 
+							<lb/>n’avoit dict, estantz ses chevaux restifz, qu’ilz devoient 
+							<lb/>marcher au nom du <term ref="lem017521">diable</term>, s’il n’avoit dict a un 
+							<lb/>certain qui menoit un harnois ou attelage de 
+							<lb/>chevaux qu’ilz ne passeroient outre un <term ref="lem017723.02">ruz</term>, a 
+							<lb/>respondu que non.</seg> <seg>Sur la proposition qui luy 
+							<lb/>avoit appris le charme susmentionné, a dict 
+							<lb/>que c’estoit un de <placeName ref="loc008454.02">Fuyen</placeName> nommé <persName>Puttod</persName>.</seg> <seg>S’il ne 
+							<lb/>sçavoit faire a venir aux <term ref="lem017507.02">vaches</term> leur <term ref="lem015011.04">laict</term>, 
+							<lb/>a dict que, rencontrant <persName>Françoys Pasquier</persName>, 
+							<lb/>il luy dict qu’il devoit aller quant, et quant 
+							<lb/>luy veoir certaines <term ref="lem017507.02">vaches</term> appartenantes au 
+							<lb/><term ref="lem016294.02">banderet</term> <persName>Chassot</persName> et commanda qu’on ne mesurast 
+							<lb/>le <term ref="lem015011.04">laict</term> dans <date dur="P3D">troys jours</date>, qu’allors le 
+							<lb/><term ref="lem015011.04">laict</term> reviendroit aux bestes&#160;; qu’il a servy 
+							<lb/>fidellement l’espace de <date dur="P5Y">5 ans</date> audit <persName>Chassot</persName>. 
+							<lb/>Crie mercy.</seg></p>
+					</div>
+				</body>
+				
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+
+<?oxy_options track_changes="on"?>

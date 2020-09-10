@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     n="1234"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="headerinfo"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2020-08-17"/>    <date type="print"/>
+    <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Collection des sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS_NE_3_401</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>AVN B 101.14.002, fol. 39r–39v</idno>
+               </msIdentifier>
+               <head>Degré de parenté dans un héritage</head>
+               <msContents>
+                  <summary>Dans un héritage, les biens paternels retournent aux parents paternels et
+                     les biens maternels aux parents maternels, sans distinction de l’éloignement ou
+                     de la proximité des degrés de parenté. Les cousins germains héritent des
+                     acquêts et profits faits par le défunt. Cette coutume s’applique également à un
+                     bourgeois ou sujet de Soleure. </summary>
+                  <msItem>
+                     <textLang>français</textLang>
+                     <filiation type="current"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="34.5"/>
+                              <width unit="cm" quantity="22"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1725-03-16"/>
+                     <origPlace ref="loc007786">Neuchâtel</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head/>
+                     <bibl/>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000920"/>
+               <term ref="key000815"/>  
+               <term ref="key000244"/>
+               <term ref="key000476"/>
+               <term ref="key005111"/>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="39r" facs="AVN_B_101.14.002_0039r"/>
+               <div>
+                  <p>
+                     <lb/>Sur la requête par les hoirs de feu <lb/>le sieur maistre bourgeois
+                        <persName ref="per008841">Charles Gicot</persName>
+                     <lb/>de <placeName ref="loc007792">Landeron</placeName>, le <origDate
+                        when="1725-03-16">16<hi rend="sup">e</hi> mars <hi rend="underline"
+                           >1725</hi></origDate>, à messieurs <lb/>du <orgName ref="org003085">Petit
+                        Conseil de la Ville de <placeName ref="loc007786"
+                        >Neufchâtel</placeName></orgName>
+                     <lb/>tendant aux fins d’avoir déclaration de la <lb/>coutume de <placeName
+                        ref="loc007785">Neufchatel</placeName> sur les articles <lb/>suivants,
+                     sçavoir. </p>
+                  <p>
+                     <lb/>1<hi rend="sup">o</hi>. Si des héritiers du côté maternels, se trouvant d’un
+       <lb/>degré plus proche du deffunt, peuvent exclure des
+       <lb/>héritiers du côté paternel d’un degré plus éloigné, ou
+       <lb/>si au contraire les biens ne doivent pas retourner d’où
+       <lb/>ils viennent.
+      </p>
+                  <p>
+                     <lb/>2<hi rend="sup">o</hi>. Si, dans le cas susdit, les <term ref="lem015648.02">accroissances</term> et profits du
+       <lb/>deffunt ne doivent pas se partager par égalles portions
+       <lb/>entre les héritiers paternels et maternels.
+       </p>
+                  <p>
+                     <lb/>3<hi rend="sup">o</hi>. Et enfin, si un bourgeois de <placeName ref="loc000738">Soleure</placeName> dans
+       l’un ou <lb/>l’autre de ces cas, s’il ne profiteroit pas du bénéfice <lb/>de la loy de mesme
+       qu’un sujet de l’État. </p>
+                  <p>
+                     <lb/>Surquoy, et après avoir examiné les susdittes propositions,
+       <lb/>il a été dit que la coutume est telle.
+      </p>
+                  <p>
+                     <lb/>Sur le premier article, que les propres et anciens retour<lb break="no"
+                     />nent toujours dans la famille d’où ils sont partis, les <lb/>biens paternels
+                     aux parents paternels et les biens mater<lb break="no"/>nels aux parents
+                     maternels, sans distinction de <lb/><add place="below" type="catchword"
+                        >l’éloignement</add>
+                     <pb n="39v" facs="AVN_B_101.14.002_0039v"/>
+                     <lb/>l’éloignement ou proximité de degré. </p>
+                  <p>
+                     <lb/>Sur le second, que par rapport aux acquêts et profits
+       <lb/>faits par le deffunt, les cousins germains les héritent
+       <lb/>à l’exclusion des issus de germains et de ceux qui
+       <lb/>sont plus éloignés en degré.
+      </p>
+                  <p>
+                     <lb/>Et sur le troisième enfin, qu’un bourgeois ou sujet <lb/>de <orgName
+                        ref="org002899"><choice>
+                           <abbr>L.&#160;L.&#160;EE.</abbr>
+                           <expan>Leurs Excellences</expan>
+                        </choice> de <placeName ref="loc000738">Soleure</placeName></orgName>, se
+                     trouvant dans l’un et l’autre <lb/>de ces cas profite<del rend="strikethrough"
+                        >nt</del> à cet égard du bénéfice de la coutume <lb/>de mesme qu’un sujet de
+                     l’État. </p>
+                  <p>
+                     <lb/>Ce qui a eté ainsi conclu et arrêté les jours et ann que dessus <lb/>et ordonné à moy,
+       secrétaire du Conseil de Ville soussigné, <lb/>d’expedier le présent, sous le sçeau de la
+                     mayrie et justice <lb/>de <origPlace ref="loc007786">Neufchatel</origPlace> et signature de ma main. </p>
+                  <p>
+                     <lb/>L’original signé.
+      </p>
+               </div>
+               <div>
+                  <signed>
+                     <persName ref="per008827">
+                        <choice>
+                           <abbr>J&#160;J</abbr>
+                           <expan>Jean Jacques</expan>
+                        </choice> Purry</persName>
+                     <figure type="notarial sign"/>
+                  </signed>
+               </div>
+            </body>
+         </text>
+      </group>
+   </text>
+</TEI>

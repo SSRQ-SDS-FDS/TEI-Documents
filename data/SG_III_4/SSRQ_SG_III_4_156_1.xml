@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-08-15"/>
+            <date type="print"/>
+            <availability><p xml:id="facs">Sibylle Malamud</p></availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_156_1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>PGA Buchs U 06 A-1</idno>
+               </msIdentifier>
+               <head>Urteil betreffend das Halbteilrecht der Beklagten aus Räfis (Kirchspiel Buchs) im Kirchspiel von Sevelen</head>
+               <msContents>
+                  <summary>
+                     <p>Ulrich Montaschiner, Landammann von Werdenberg, sitzt auf Befehl von
+                        Dietrich Streuli, Landvogt von Werdenberg-Wartau, zu Gericht auf Schloss
+                        Werdenberg. Vor Gericht stehen Lienhart Tischhauser von Sevelen und Michael
+                        Hänni von Räfis als Verordnete der Gemeinde Sevelen als Kläger einerseits
+                        und als Beklagte aus Räfis die Brüder Hans und Christian Rotenberger und
+                        Mathias Rotenberger, alle die Zoggen genannt, sowie die Brüder Hans und
+                        Rudolf Zogg und die Brüder Klaus und Mathias Spitz andererseits. Die
+                        Letztgenannten besitzen zwei Kirchspielrechte, das ganze in Buchs und das
+                        halbe (Halbteilrecht) in Sevelen. Die Rechte der Halbteiler werden
+                        geschützt: Sie dürfen ihr Vieh weiterhin auf die Seveler Allmend treiben und
+                        alle Rechte im Seveler Kirchspiel zur Hälfte nutzen. Dafür müssen sie aber
+                        auch die Hälfte der Gemeinwerke übernehmen. Durch Heirat mit einer
+                        Halbteilerin kann das Halbteilrecht nicht mehr wie bisher erworben werden.
+                        Eine Frau, die jemanden ausserhalb des Kirchspiels heiratet, verliert
+                        dadurch ihr Halbteilrecht. Bei Heirat mit einem Hintersassen verliert eine
+                        Frau das Landrecht laut Artikel im Landbuch.</p> <p>Der Aussteller siegelt.</p>
+                  </summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <filiation type="original">
+                        <origDate when="1613-07-24">vier und zwentzigsten heüw mannat</origDate>
+                        <idno>PGA Buchs U 06 A-1</idno>
+                     </filiation>
+                     <filiation type="current">Abschrift (Doppelblatt)<origDate from="1601-01-01" to="1700-12-31"/></filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="35.5"/>
+                              <width unit="cm" quantity="23.0"/>
+                           </dimensions>
+                        </extent>
+                        <condition>an den Faltstellen z. T. gebrochen</condition>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1613-07-24">vier und zwentzigsten heüw mannat</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key005170">Halbteiler</term>
+               <term ref="key004778">Halbteilrecht</term>
+               <term ref="key000952">Kirchgenossen</term>
+               <term ref="key000057">Gericht</term>
+               <term ref="key000683">Urteil</term>
+               <term ref="key004067">Gemeinderecht</term>
+               <term ref="key004059">Gemeindegenosse</term>
+               <term ref="key000746">Gerichtsort</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <div org="uniform" sample="complete">
+                  <p>
+                     <pb n="1r" facs="PGA_Buchs_U_06_A-1_1r"/>
+                     <seg>
+                        <lb/>Ich, <persName ref="per009095a">Ullerich Muntaschinner</persName>,
+                        dißer zeit <term ref="lem000449">land ammen</term> zu <placeName
+                           ref="loc000440">Werden berg</placeName>, <lb/>bekenn und thun kundt aller
+                        männgklichen hir mit <sic>zdißem</sic> brieff, <lb/>daß ich auff die zeit
+                        seines dadto uß geheiß und bevelches wegen <lb/>deß frommen, ehren vesten,
+                        für sichtigen, ehrsammen und weißen herren <lb/>haubt mann <persName
+                           ref="per009236">Diethrich Streülins</persName>, landtmann und des raths
+                        zu <placeName ref="loc000326">Glarus</placeName>, <lb/>dißer zeit der
+                        selbigen landtvogt der graffschafft <placeName ref="loc007867">Werden berg
+                           und <lb/>herr schafft Wardtauw</placeName>, meines gnädigen herren,
+                        offentlichen auff dem <lb/>schloß <placeName ref="loc000015">Werden
+                           berg</placeName>
+                        <term ref="lem007829">zu gricht geseßen</term>, al da für mich und daß
+                        selbig <lb/>
+                        <add place="left margin">kommen und</add> erschinnen sind die nach
+                        benemmpten persohnen, nammlich <persName ref="per009226a">Lienhart
+                           <lb/>Dischhußer</persName> von <placeName ref="loc000708"
+                           >Sevellen</placeName> und <persName ref="per009237">Michel
+                           Hänne</persName> von <placeName ref="loc000428.06">Reffes</placeName>,
+                        als verorndnete <lb/>und folkommne gewalt haber einer ganzen gemein zu
+                           <orgName ref="org001834">Sevellen</orgName>, cläger an <lb/>einem, als
+                        dann <persName ref="per009238a">Hanß</persName> und <persName
+                           ref="per009239a">Christen Roten berger</persName>, gebrüöder, und
+                           <persName ref="per009243a">Tiß <lb/>Roten berger</persName>, genannt die
+                        Zockhen, und <persName ref="per009230a">Hannß</persName> und <persName
+                           ref="per009245a">Ruodolff Zockh</persName>
+                        <lb/>gebrüöder, <persName ref="per009241a">Clauß</persName> und <persName
+                           ref="per009242a">Matiß Spitz</persName>, gebrüöder, antwurdt geber
+                           anders<lb break="no"/>teils.</seg>
+                     <seg>Und als dan ließend sich die ver ordneten von <placeName ref="loc000708">
+                           <sic>Sevellelen</sic>
+                        </placeName>
+                        <lb/>nach formm des rechten ver für sprechen und klagende in daß <lb/>recht
+                        für tragen, daß wie die vor gesagten <orgName ref="org001861">Roten
+                           berger</orgName>, genannten <lb/>Zockhen, wie auch die <orgName
+                           ref="org000992">Zockhen</orgName> und <orgName ref="org001348"
+                           >Spitzen</orgName> zu <placeName ref="loc000428.06">Reffes</placeName>
+                        saßen und zwey <lb/>
+                        <term ref="lem015410.02">kilch spil recht</term> bruchten, als nammlich daß
+                        kilchspiel recht zu <placeName ref="loc000198">Buchs</placeName>
+                        <lb/>und daß halb <term ref="lem015410">kilch spil recht</term> zu
+                           <placeName ref="loc000708.08">Sevellen</placeName>. Und die weil sy <add
+                           place="verso"><lb/>und ihre <term ref="lem002282">eltern</term> etliche
+                           zu <placeName ref="loc000198">Buchs</placeName>
+                           <term ref="lem002980">in kaufft</term> und dann daß <term
+                              ref="lem015411.03">halb<lb break="no"/>theil recht</term> et wann von
+                              <term ref="lem000655">wibern</term>
+                           <term ref="lem011442">über kommen</term> und <term ref="lem005056">er
+                              erbt</term>
+                           <lb/>und ihnen, von <orgName ref="org001834">Sevellen</orgName>, mit an
+                           ihr kilch spil recht geben und <lb/>aber sömmlichs weder in statten und
+                           landen brüchlich noch <lb/>ge brucht werde. Und die weil sy</add> ihnen,
+                        <lb/>von <orgName ref="org001834">Sevellen</orgName>, be schwärlich seyen
+                        mit <term ref="lem012082">auff triben</term> ihrer <term ref="lem010613"
+                           >hab</term> auff <lb/>ihre <term ref="lem008239">tradt</term>, so ver
+                        meinend sy, sy sollend sich eines <term ref="lem000299">kilch spils</term>
+                           ver<lb break="no"/>mögen und da mit recht ab ge weißen <add place="above"
+                           >werden</add>, daß sy nit mehr weder <lb/>
+                        <term ref="lem015413.02">halb theiller</term> sein noch gelten sollend und
+                        daß <term ref="lem015411.02">halb theiller recht</term>
+                        <lb/>nit mehr gnoß sein zu bruchen noch lut alter brieff und <lb/>siglen und
+                        satzend <choice>
+                           <sic>es es</sic>
+                           <corr>es</corr>
+                        </choice> mithin zu recht, ob sy nit billich nun <lb/>hin für an der halb
+                        theiller recht und grechtigkeit nit mehr <lb/>haben sollend.</seg>
+                     <seg>Auff <del rend="strikethrough">daß</del> daß die vor ge sagten <persName
+                           ref="per009238a">Hanß</persName> und <lb/>
+                        <persName ref="per009239a">Christen Roten berger</persName>, gebrüöder,
+                           <persName ref="per009243a">Matiß Roten berger</persName>, alle <choice>
+                           <sic>vor <pb n="1v" facs="PGA_Buchs_U_06_A-1_1v"/>
+                              <lb/>vor</sic>
+                           <corr>vor</corr>
+                        </choice> genannte Zockhen, <persName ref="per009230a">Hanß</persName> und
+                           <persName ref="per009245a">Ruodolff Zockh</persName>, gebrüöder, <lb/>
+                        <persName ref="per009241a">Clauß</persName> und <persName ref="per009242a"
+                           >Matiß Spiz</persName> durch ihren rechten, er laubten für<lb break="no"
+                        />sprechen reden und ant wurdten ließend, sy habend denen von <lb/>
+                        <orgName ref="org001834">Sevellen</orgName> klag wol ver standen und nemme
+                        sy frömbd und wunder,<lb/> daß ihnen sömmlichs ge werth werde, dan sy und
+                        ihre alt fordern <lb/>sömliches mit dennen von <orgName ref="org001834"
+                           >Sevellen</orgName> daß <term ref="lem015411.02">halb theiller
+                           recht</term> lange <lb/>zit und jahr ge brucht haben und so vil recht und
+                        grechtigkeit im <lb/>
+                        <placeName ref="loc006039">Seveller</placeName> kilchspil ge hebt als andere
+                           <term ref="lem015413.03">halb teiller</term> und habends ihre <term
+                           ref="lem001481.08">alt<lb break="no"/>fordern</term> über alle lange ge
+                        war in guten ruhen be seßen, <lb/>begertend der halben ihre brieff, so sy
+                        gegen denen von <orgName ref="org001834">Sevellen</orgName>
+                        <lb/>haben, vor <term ref="lem000034">gricht</term> zu ver hören, die mit
+                        urtel und recht er kent zu <lb/>ver hören und ver hört sind, hoffend noch
+                        mallen bey ihren alten <lb/>freyheiten und gerechtigkeiten, auch bey brieff
+                        und siglen zu ver<lb break="no"/>bliben, trauend got und dem rechten, sy
+                        werdend dar zu be<lb break="no"/>kent und darbey gschüzt und gschirmbt, dan
+                        sy daß <choice>
+                           <sic>von von</sic>
+                           <corr>von</corr>
+                        </choice> ihren <lb/>rechten, natürlichen eltern er<add place="above"
+                           >erbt</add> habend, und satzend <unclear>auch</unclear> alles zu
+                        <lb/>recht, waß recht wurde.</seg>
+                     <seg>Und nach klag, ant wurdt, red und wider <lb/>
+                        <add place="left margin">red</add>, auch ab läßen und auß weißung brieff und
+                        siglen sambt ver<lb break="no"/>hörung der kundtschafft und beider recht
+                        saz, fragt ich, ob ge<lb break="no"/>sagter <term ref="lem000342"
+                           >richter</term>, nun auff den eid, waß recht wäre, und nach meiner <lb/>
+                        <term ref="lem000802">um frag</term> ward ein hellig mit der urtel auff den
+                        eid zu <lb/>recht er kennt, daß die von <orgName ref="org001834"
+                           >Sevellen</orgName>, die vil ge sagten <persName ref="per009238a"
+                           >Hanß</persName>, <lb/>
+                        <persName ref="per009239a">Christen Roten berger</persName>, ge brüöder,
+                           <persName ref="per009243a">Matiß Roten berger</persName>, ge nannt die
+                        <lb/>Zockhen, <persName ref="per009230a">Hanß</persName> und <persName
+                           ref="per009245a">Ruodolff Zockh</persName>, <persName ref="per009241a"
+                           >Clauß</persName> und <persName ref="per009242a">Matis Spiz</persName>,
+                           ge<lb break="no"/>gebrüöder, sy und ihre erben und noch kommen bey ihren
+                        allten frey<lb break="no"/>heiten und <term ref="lem015411.02">halb theiller
+                           rechten</term>, wie sy es von alter här gebrucht, <lb/>ver bliben laßen
+                        und daß selbig laßen nuzen und bruchen, wie <lb/>es ihre <term
+                           ref="lem001481.09">alt fordern</term> ge brucht haben. Daß sy mögen ihre
+                        halbe <lb/>
+                        <term ref="lem010613">hab</term> auff deren von <orgName ref="org001834"
+                           >Sevellen</orgName>
+                        <term ref="lem008239">tradt</term>
+                        <term ref="lem007596">auff triben</term> und <pb n="2r"
+                           facs="PGA_Buchs_U_06_A-1_2r"/>
+                        <lb/>und wun und weid, holtz und feld, alle gerechtigkeit den <term
+                           ref="lem000273.06">halben <lb/>theil</term> bruchen laßen ohne ge spert
+                        und ge werth von mänigklichen. <lb/>Sy, die vil ge sagten <term
+                           ref="lem015413.02">halb theiller</term>, sollend und müßend auch dennen
+                        <lb/>von <orgName ref="org001834">Sevellen</orgName> helffen, halbe <term
+                           ref="lem002351">werck</term> thun, es seige auff <term ref="lem001145"
+                           >steg und <lb/>weg</term>, <term ref="lem000769">wuer</term> und <term
+                           ref="lem000114">straßen</term>, <term ref="lem000240">kilchenn</term>,
+                           <term ref="lem005126.04">ge beüw</term>, <term ref="lem015414.02"
+                           >herren</term> und andere <term ref="lem000391">tag<lb break="no"
+                           />wen</term>, in summa den halben teil wie ein andern <term
+                           ref="lem000674">kilch ge noß</term>
+                        <lb/>zu thun schuldig ist.</seg>
+                     <seg>Item für daß letst ist auch in der urtel <lb/>er kennt und dar ihnen ver
+                        faßt worden, daß wie sich et<lb break="no"/>wann vor har daß <term
+                           ref="lem015411.02">halb theiller recht</term>
+                        <term ref="lem008991">er wiben</term> mögenn, <add place="bottom">
+                           <lb/>so er ein halb theillerin genommen, so ist der selbig den ein <lb/>
+                           <term ref="lem015413.02">halb theiller</term> gsin und dar für ge rechnet
+                           worden. Der halben ist mit <lb/>der urtel er kennt, daß fürhin keiner
+                           mehr daß halb theiler <lb/>recht und deß selbigen gerechtigkeit er wiben
+                           möge,</add>
+                        <lb/>sonder wann ein <term ref="lem001436">wibs bild</term> einer ußert
+                        ihrem <term ref="lem000299">kilch spil</term> zu einem <lb/>
+                        <term ref="lem000484">ehe mann</term> nimbt, so sol und hat sy ihr <term
+                           ref="lem015410.02">kilch spil recht</term>
+                        <term ref="lem002558">ver<lb break="no"/>mannet</term> haben; und so eine
+                        einenn <term ref="lem000745">hinder säßen</term> nimbt, so hat <lb/>sy daß
+                           <term ref="lem009060">landt recht</term>
+                        <term ref="lem002558">ver mannet</term> nach lut des artickels im <term
+                           ref="lem007043">land<lb break="no"/>buch</term>.<note anchored="true"
+                           >Vgl. <ref>SSRQ_SG_III_4_174</ref>, Art. 56, wobei sich der Artikel
+                           inhaltlich deutlich unterscheidet. Ein älteres Landrecht vor 1639 ist
+                           jedoch nicht erhalten.</note>
+                     </seg>
+                     <seg>Solcher urtlen be gertend die <del rend="strikethrough">Roten</del>
+                        <orgName ref="org001861">Roten berger</orgName>, genannt die <lb/>Zockhen,
+                        glich auch die <orgName ref="org000992">Zockhen</orgName> und <orgName
+                           ref="org001348">Spitzen</orgName> brieff und sigel, die <lb/>ihnen <add
+                           place="above">mit recht</add> zu <add place="above">zerkennt</add> geben
+                        er kennt worden.</seg>
+                     <seg>Diß alles zu wahrem <lb/>ur kundt, so hab ich, ob stendter richter, von
+                        meinem und erkanntnus <lb/>des grichts mein eigen in sigel an dißen brieff
+                        ge henckt, <lb/>doch meinen gnädigen herren von <orgName ref="org001197"
+                           >Glarus</orgName> an ihr frey heiten <lb/>und herrlich keiten, auch mir
+                        und meinen noch kommen in al weg <lb/>ohne schaden, der geben den <origDate
+                           when="1613-07-24">vier und zwentzigsten heüw mannat <lb/>im johr ge zelt
+                           noch der heil sammen ge burt unßers lieben <lb/>herren und er lößers
+                              <persName ref="per000353">Jeßu Christi</persName> sechs zehen hundtert
+                           <lb/>im dryzähenden jor</origDate>.</seg>
+                  </p>
+               </div>
+               <pb facs="PGA_Buchs_U_06_A-1_2v"/>
+               <div org="uniform" sample="complete">
+                  <ab type="dorsal" place="verso" hand="hand18c">
+                     <lb/>
+                     <date when="1613">1613</date>
+                     <lb/>urtheil von landammann <persName ref="per009095a">Muntaschiner</persName>
+                  </ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab type="archiving reference" place="verso">
+                     <lb/>
+                     <del>N<hi rend="sup">o</hi> 2</del>; <del>N<hi rend="sup">o</hi> 3</del>; 5
+                  </ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab type="dorsal" place="verso" hand="hand19c">
+                     <lb/>Vom <abbr>Bez. Gericht</abbr> Werdenberg <lb/>eingesehen, den <date
+                        when="1851-10-13">13. <abbr>Octbr</abbr> 1851</date>, <lb/>vom
+                        <abbr>Gerichtsprsdt</abbr>
+                     <persName ref="per009246a">P. Hilty</persName>
+                  </ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab type="dorsal" place="verso" hand="hand19c">
+                     <lb/>Vor <abbr>Bez. Gericht</abbr> gelegen <lb/>Werdenberg, <abbr>d</abbr>
+                     <date when="1852-02-24">24. <abbr>Feb</abbr> 1852</date>, <lb/>
+                     <persName ref="per009246a">P. Hilty</persName>, <abbr>Prsdt</abbr>
+                  </ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab type="dorsal" place="verso" hand="hand19c">
+                     <lb/>Vor <abbr>Kantger</abbr>, <date when="1852-09-11">
+                        <unclear>11</unclear>. Sept 1852</date>, <lb/>
+                     <persName ref="per008590a">C. Saylern</persName>, <abbr>Prsdt</abbr>
+                  </ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab type="dorsal" place="verso" hand="hand19c">
+                     <lb/>Vor <abbr>Bez. Gericht</abbr> gelegen <lb/>Werdenberg, <abbr>d</abbr>
+                     <date when="1855-12-15">15. <abbr>Dez</abbr> 1855</date>, <lb/>
+                     <persName ref="per009246a">P. Hilty</persName>, <abbr>Prsdt</abbr>
+                  </ab>
+               </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div org="uniform" sample="complete">
+            <p>Bereits 1476 sind nach einer Grenzerneuerung zwischen <placeName ref="loc000198"
+                  >Buchs</placeName> und <placeName ref="loc000708">Sevelen</placeName> die
+               gemeinsamen <term ref="key000335">Nutzungsrechte</term> einiger Bewohner von
+                  <placeName ref="loc000428">Räfis</placeName> mit der Kirchgenossenschaft <orgName
+                  ref="org001911">Sevelen</orgName> umstritten. Im Urteil von 1476 wird ihnen das
+               gemeinsame Nutzungsrecht mit den Kirchgenossen von Sevelen jedoch zugesprochen
+                  (<ref>SSRQ_SG_III_4_068</ref>). 1618 werden z. B. die <orgName ref="org000718"
+                  >Schwendener</orgName> und <orgName ref="org001907">Müntener</orgName> von
+                  <placeName ref="loc000428">Räfis</placeName> als <term ref="key004956"
+                  >Ganzteiler</term>, d. h. Besitzer der vollen Nutzungsrechte im Kirchspiel
+                  <placeName ref="loc006039">Sevelen</placeName>, bezeichnet (<bibl><ref>PGA Buchs
+                     U 07 A-2</ref></bibl>). Andere <orgName ref="org001913">Räfiser</orgName> als
+               Angehörige des Kirchspiels <placeName ref="loc006100">Buchs</placeName> besitzen nur
+               das <term ref="key004778">Halbteilrecht</term> von Sevelen (vgl. dazu den Kommentar 2
+               in <ref>SSRQ_SG_III_4_068</ref>). Nach dem vorliegenden Urteil vom <date
+                  when="1613-07-24">24. Juli 1613</date> sind dies die <orgName ref="org001861"
+                  >Rotenberger</orgName>, <orgName ref="org000992">Zogg</orgName> und <orgName
+                  ref="org001348">Spitz</orgName>. Die Gemeinde <orgName ref="org001834"
+                  >Sevelen</orgName> versucht hier erstmals erfolglos, diesen Halbteilern von Räfis
+               das halbe Nutzungsrecht abzusprechen. Im Kopialbuch von Sevelen ist ein weiteres
+               Urteil zwischen Sevelen und den Halbteilern vom <date when="1613-10-15">15.
+                  Oktober</date> gleichen Jahres erhalten, das im ersten Teil fast wörtlich dem
+               Urteil vom 24. Juli entspricht. In einem zweiten Teil wird die <term ref="key000433"
+                  >Aufnahme</term> der beiden Geschlechter <orgName ref="org001907"
+                  >Müntener</orgName> und <orgName ref="org000718">Schwendener</orgName> als <term
+                  ref="key000952">Kirchgenossen</term> von Sevelen mit ihren Rechten und Pflichten
+               angefügt (<bibl><ref>OGA Sevelen B 04.11</ref>. S. 75–77</bibl>). Laut dem Urteil von
+               1735 dürfen die Geschlechter Schwendener und Mèntener das Ganzteilrecht in Sevelen
+               nur geniessen solange sie in Räfis wohnhaft sind (<bibl><ref>OGA Sevelen B
+                     04.11</ref>, S. 131–133</bibl>).</p>
+            <p>Weitere <term ref="key003343">Konflikte</term> der Gemeinde <orgName ref="org001834"
+                  >Sevelen</orgName> mit den <term ref="key005170">Halbteilern</term>:
+                     <bibl><ref>PGA Buchs U 07 A-2</ref></bibl> (1618);
+                     <bibl><ref>OGA Sevelen U 1711</ref></bibl> (1711); <bibl><ref>PA Hilty S
+                     006/038</ref>(1718); <ref>S 006/040</ref></bibl>. Im Streit zwischen der
+               Gemeinde <orgName ref="org001834">Sevelen</orgName> und den Ganz- und Halbteilern von
+               Räfis <date when="1748">1748</date> um Gemeinde- und Steuerrechte werden die
+               Geschlechter <orgName ref="org001907">Müntener</orgName> und <orgName ref="org000718"
+                  >Schwendener</orgName> als <term ref="key004956">Ganzteiler</term> und die
+               Geschlechter <orgName ref="org000992">Zogg</orgName>, <orgName ref="org001861"
+                  >Rotenberger</orgName>, <orgName ref="org001348">Spitz</orgName> und <orgName
+                  ref="org002873">Vorburger</orgName> als <term ref="key005170">Halbteiler</term>
+               genannt (zu diesem Konflikt siehe <bibl><ref>PA Hilty S 006/045</ref>;
+                     <ref>S 006/047</ref>; <ref>S 006/048</ref></bibl>; <bibl><ref>PGA Buchs U 17
+                     A-1</ref>; <ref>U 18</ref>; <ref>U 19 A-1</ref></bibl>; <bibl><ref>StASG AA 3 A
+                     12c-2</ref></bibl>; <bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/b40ed3b40d8348d38c24fb994f7d2e68"
+                     >LAGL AG III.2409:107</ref></bibl>). In allen Konflikten werden die Ganz- und
+               Halbteiler in ihren Rechten in Sevelen geschützt.</p>
+            <p>Zum Streit der Gemeinde <orgName ref="org001912">Buchs</orgName> mit den <term
+                  ref="key004956">Ganz-</term> und <term ref="key005170">Halbteiler</term> von Räfis
+                  <date when="1725">1725</date> wegen der Schulden, die der Gemeinde nach dem <term
+                  ref="key004776">Werdenberger Landhandel (1719–1725)</term> aufgebürdet wurden,
+               siehe <bibl><ref>PGA Buchs U 13 A-1</ref></bibl>.</p>
+         </div>
+      </back>
+   </text>
+</TEI>

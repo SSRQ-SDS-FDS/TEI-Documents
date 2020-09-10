@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+
+			</titleStmt>
+
+			<publicationStmt>
+				<date type="electronic" when="2019-05-29"/>
+				<date type="print"/>
+			</publicationStmt>
+
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ_FR_I_2_8_0056_024</idno>
+			</seriesStmt>
+
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<idno>StAFR, Thurnrodel 11, S. 275–276</idno>
+					</msIdentifier>
+					<head>Pierre Feudy – Verhör / Interrogatoire</head>
+					<msContents>
+						<summary></summary> 
+						<msItem>
+							<textLang>fr</textLang> 
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support>
+									<material></material>
+								</support>
+								<extent>
+									<dimensions type="leaves">
+										<height unit="cm" quantity="0.0"/>
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+									<dimensions type="plica">
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+								</extent>
+							</supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1623-03-23"></origDate>
+							<origPlace></origPlace>
+						</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+							
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+			<particDesc default="false"/>
+			<settingDesc default="false"/>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="275"/><p><lb/>Ufm <placeName ref="loc007890.03">Jaquemar</placeName>
+							<seg><lb/><origDate when="1623-03-23">23 <foreign xml:lang="la">martii</foreign> 1623</origDate>, <abbr>h</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per009249">Daniel von Montenach</persName>.</note></seg>
+							<seg><lb/><abbr>H</abbr> <persName ref="per006751">Erhart</persName>, <abbr>h</abbr> <persName ref="per009449">Vögeli</persName></seg>
+							<seg><lb/><persName ref="per009271">Wildt</persName>, <persName ref="per009462"><choice><abbr>Grib</abbr> <expan>Gribolet</expan></choice></persName></seg>
+							<seg><lb/><persName ref="per009485">Perroman</persName>, <persName ref="per009253">Bocard</persName></seg>
+						<seg><lb/><choice><abbr>W</abbr> <expan>Weibel</expan></choice></seg></p>
+						
+						<p><seg><lb/><add place="left margin"><foreign xml:lang="la">Nihil solvit</foreign>.</add></seg> 
+							<seg><persName ref="per009534">Pierre Feudy <choice><abbr>als</abbr> <expan>alias</expan></choice> Rimbo</persName> a dit et confessé 
+						<lb/>avoir commis plusieurs lareçains avec ses 
+						<lb/>freres, desrobant de la viande.</seg> <seg>Primierement 
+						<lb/>a <placeName ref="loc008058.02">Uberstorff</placeName> un pain avec sesdits freres, a 
+						<lb/><placeName>Grenchen</placeName><note>Gemeint ist entweder <placeName ref="loc008315">Grenchen</placeName> bei Bösingen oder <placeName ref="loc008316">Grenchen</placeName> bei St. Antoni.</note> lesdits 2 <term ref="lem018643.04">formages</term>, que <persName ref="per009533">Anteyno</persName> 
+						<lb/>son frere a prins a <placeName ref="loc008062.02">Blumensperg</placeName> 3 jambons, 
+						<lb/>et luy en plusieurs lieux 5 sausisses, <placeName>Sus le 
+						<lb/>Biel</placeName><note>L’identification du lieu est incertaine. Il pourrait s’agir de <placeName ref="loc008638">Sur le Bey</placeName> ou de <placeName ref="loc008639">Le Biel</placeName>.</note> 3 pains, item deux <term ref="lem015429.04">linceulx</term>, item avec sondit 
+							<lb/>frere un <term ref="lem017451.04">auzi</term>, a <placeName ref="loc007921.04">Bösing</placeName> avec luy deux 
+							<lb/>aultres <term ref="lem017451.03">auzes</term>, a <placeName ref="loc008077">Kriegstetten</placeName> deux chemises, 
+							<pb n="276"/><lb/>item un aultre a <placeName ref="loc007921.04">Bösing</placeName>, une roba a <placeName ref="loc008041.03">S<hi rend="sup">t</hi> Urs</placeName>, 
+							<lb/>st’hyver <del>pass</del> des <term ref="lem015400.03">chauses</term> a <persName>Zaubinger</persName> de <term ref="lem015863.02">try<lb break="no"/>gu</term>, un sac de <term ref="lem015863.02">trigu</term> au moulin de la 
+							<lb/><persName>Möwlina</persName>, a <placeName ref="loc008051.03">Alterschwyl</placeName> un chappeau, 
+							<lb/>a <placeName>Obergrenchen</placeName><note>Gemeint ist entweder <placeName ref="loc008315">Grenchen</placeName> bei Bösingen oder <placeName ref="loc008316">Grenchen</placeName> bei St. Antoni.</note> un sac de toile, a <placeName ref="loc008059.02">Obert<lb break="no"/>metli</placeName> un aultre, duquel en a fait des 
+							<lb/><term ref="lem015400.02">chausses</term>, que <persName ref="per009535"><choice><abbr>Fran</abbr><expan>François</expan></choice></persName> son frere a prins un 
+							<lb/><term ref="lem015429.05">linceulx</term> a <placeName ref="loc008320.02">Agretzwyl</placeName>, chez l’hoste de 
+							<lb/><placeName ref="loc007857.03">Gin</placeName> un <term ref="lem015429.03">lincieulx</term>, mais le fallut<del><unclear>ent</unclear></del> rendre, 
+							<lb/>a desrobé 3 culteaux en <placeName>Alemagne</placeName><note>Gemeint ist vermutlich die Alphütte Allemannia in der Nähe von <placeName ref="loc007595">Plaffeien</placeName>.</note>, 4 <subst><del><unclear>paies</unclear></del> 
+							<lb/><add place="inline">pairs</add></subst> de <term ref="lem015400.03">chauses</term> et 4 <term ref="lem015399.04">gypons</term> et 4 che<lb break="no"/>mises, a chastel <placeName ref="loc008321.02">Crisieux</placeName> un <term ref="lem015429.05">linceulx</term>, une 
+							<lb/>pairs de <term ref="lem014866.03">solars</term> a <placeName ref="loc008041.03">S<hi rend="sup">t</hi> Urs</placeName>, un’aultre pair 
+						<lb/>a <placeName ref="loc007860.02">Menzißwyl</placeName>, item en tout 3 chappeau. 
+						<lb/>Aultre n’a voulu confesser.</seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+
+
+
+<?oxy_options track_changes="on"?>

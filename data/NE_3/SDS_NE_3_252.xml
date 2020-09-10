@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234" xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="headerinfo"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <date type="electronic" when="2020-08-17"/>    <date type="print"/>
+    <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Collection des sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS_NE_3_252</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier>
+      <idno>AVN B 101.14.001, fol. 499r–499v</idno>
+     </msIdentifier>
+     <head>Procédure en cas d’offense</head>
+     <msContents>
+      <summary>Une personne injuriée doit former sa demande dans la huitaine, ou, en cas d’absence,
+       dans un an et six semaines. Le reste du point détaille la nature écrite ou non de la
+       procédure, et la présence ou non des parties. Il est renvoyé à un point de coutume du 26 juin
+       1632 et à une connaissance de justice. </summary>
+      <msItem>
+       <textLang>français</textLang>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="33"/>
+          <width unit="cm" quantity="23.5"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <origDate when="1673-10-14" calendar="Julian"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>
+      </origin>
+     </history>
+     <additional>
+      <listBibl>
+       <head/>
+       <bibl/>
+      </listBibl>
+     </additional>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key005189"></term>
+     <term ref="key003026"></term>
+     <term/>
+    </keywords>
+  
+   </textClass>
+   <particDesc default="false"/>
+   <settingDesc default="false"/>
+  </profileDesc>
+ </teiHeader>
+ 
+ <text>
+  <group>
+   <text>
+    <body>
+        
+     
+     <pb n="499r" facs="AVN_B_101.14.001_0499r"/> 
+        
+     <div>
+      
+      <head><p>
+       <lb/>1. Si on ne doit pas former sa
+       <lb/>demande pour une offence receue dans la
+       <lb/><date dur="P8D">huictaine</date>.</p>
+       <p><lb/>2. Si on ne doit pas adjuger traicte à l’affirmant.</p>
+       <p><lb/>3. Plus si les causes d’injures ne sont pas personnelles.</p>
+         <p><lb/>4. Item si on ne doit pas adjuger le procedé par
+       <lb/>escript à la partie qui le demande, apres
+          <lb/>quelque contestation.</p>
+          <p><lb/>5. D’avantage, si sur toutes cognoissance rendues
+       <lb/>par la justice inferieure, la partie grevée ne
+           <lb/>peut pas protester ou appeller.</p>
+      </head>
+     
+      <p>
+       <lb/>Sur la requeste presentée par <lb/>le <choice>
+        <abbr>s<hi rend="sup">r</hi></abbr>
+        <expan>sieur</expan>
+       </choice> maistre bourgeois <persName ref="per009993">Pierre Trybolet</persName> par devant <lb/>monsieur le
+       maistre bourgeois &amp; <orgName ref="org003085">Conseil Estroit de la <lb/>Ville de
+         <placeName ref="loc007786">Neufchâtel</placeName></orgName>, tendante aux fins d’avoir les
+       <lb/>poincts de coustume suivans. </p>
+      
+      <p>
+       <lb/>En premier lieu si quelqu’un voulant tirer
+       <lb/>satisfaction de quelque pretendue offence, de quelle
+       <lb/>nature qu’elle puisse estre, s’il n’est pas tenu &amp; obligé
+       <lb/>de former son action ou demande dans la <date dur="P8D">huictaine</date>,
+       <lb/>&amp; si laissant écouler la <date dur="P8D">huictaine</date> sans le faire, sa
+       <lb/>demande ne doit pas estre nulle pour avoir esté formée
+       <lb/>à tard.
+      </p>
+      
+      <p>
+       <lb/>En second lieu, si lors que l’une ou l’autre
+       <lb/>des parties dit &amp; affirme quelque chose pour la
+       <lb/>deffence de son droit, &amp; mesme demande en cas de
+       <lb/><sic>negative traite</sic> à le verifier, si la coustume ne veut
+       <lb/>pas que traicte luy soit adjugée.
+      </p>
+      
+      <p>
+       <lb/>En troizième lieu, si par la coustume du pays
+       <lb/>les causes d’injures ne sont pas personnelles, &amp; la
+       <lb/>partie injuriante obligée de comparoistre en personne
+       <lb/>pour repondre à la partie injuriée.
+      </p>
+      
+      <p>
+       <lb/>En quatrième lieu, si l’une ou l’autre des parties
+       <lb/>venant après quelque contestation à demander le
+       <lb/>procedé par escript qui a esté tenu en justice, la
+       <lb/>coustume n’est pas qu’on le cognoisse &amp; adjuge à la partie
+       <lb/>qui le demande, &amp; qu’on y insere toutes les pieces qui
+       <lb/>ont esté produites respectivement par les parties.
+      </p>
+      
+      <pb n="499v" facs="AVN_B_101.14.001_0499v"/>
+      
+      <p>
+       <lb/>En cinquieme lieu, si sur toutes cognoissances
+       <lb/>rendues par la justice inferieure la partie grevée
+       <lb/>ne peut pas protester ou appeller.
+      </p>
+      
+      <p>
+       <lb/><orgName ref="org003085">Mesdits sieurs du Conseil</orgName> ayans eu advis &amp;
+       <lb/>meure premeditation par ensemble, <term ref="lem015635.04">baillent</term> par
+       <lb/>declaration, suivant la coustume usitée en la souveraineté
+       <lb/>de <placeName ref="loc007785">Neufchatel</placeName> de pere à fils &amp; de tout temps
+       <lb/>immemorial jusqu’à present la coustume estre telle.
+      </p>
+      
+      <p>
+       <lb/>Assavoir sur le premier poinct, que quand une <lb/>personne est injuriée, si c’est en sa
+       presence, il est <lb/>obligé de former sa demande dedans la <date dur="P8D">huictaine</date>&#160;;
+       mais <lb/>si c’est à son absence, il a <date dur="P1Y6W"><term ref="lem014776">an &amp;
+         jour</term></date> pour la former. </p>
+      
+      <p>
+       <lb/>Sur le second, declaré suivant une declaration <lb/>desja rendue le <date
+        when="1632-06-26" calendar="Julian">26 juin <hi rend="underline">1632</hi></date><note>Voir
+         <ref>SDS_NE_3_108</ref>.</note> que traicte ne <lb/>peut estre refusée à l’affirmant pour
+       verification <lb/>de son droit. </p>
+      
+      <p>
+       <lb/>Pour le troisième, on en demeure auprès de <lb/>la <term ref="lem014980">cognoissance rendue en
+        justice</term>. </p>
+      
+      <p>
+       <lb/>Sur le quatrième declaré, que quand on a
+       <lb/>amené sa partie à responce sur la demande formée
+       <lb/>après cela on peut demander le procedé par escript &amp;
+       <lb/>non auparavant.
+      </p>
+      
+      <p>
+       <lb/>Pour le cinquième &amp; dernier poinct, il a esté <lb/><term ref="lem014980">renvoyé à la cognoissance
+        de justice</term>. </p>
+      
+      <p>
+       <lb/>Ce qu’a esté ainsi passé, conclud &amp; arresté le
+       <lb/><origDate when="1673-10-14" calendar="Julian">14<hi rend="sup">e</hi> d’<choice><abbr>oct</abbr><expan>octobre</expan></choice> <hi rend="underline">1673</hi></origDate> et ordonné à moy secretaire de Ville
+       <lb/>l’expedier en cette forme, sous le <term ref="lem016327">seel</term> de la mayrie &amp;
+       <lb/>justice <choice><abbr>dud.</abbr><expan>dudit</expan></choice> <origPlace ref="loc007786">Neufchatel</origPlace>, &amp; signature de ma main.
+      </p>
+      
+      <p>
+       <lb/>Extrait pour copie comme devant.
+      </p>
+      
+     </div>
+      
+      <div>
+       <signed><persName ref="per008992"><choice><abbr>N</abbr><expan>Nicolas</expan></choice> Huguenaud</persName> <figure type="notarial sign"/></signed>
+      </div>
+     
+       
+    </body>
+   </text>
+  </group>
+ </text>
+</TEI>

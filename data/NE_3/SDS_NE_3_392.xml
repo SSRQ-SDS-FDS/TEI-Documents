@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     n="1234"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="headerinfo"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2020-08-17"/>    <date type="print"/>
+    <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Collection des sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS_NE_3_392</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>AVN B 101.14.002, fol. 26v–27r</idno>
+               </msIdentifier>
+               <head>Éclaircissement concernant le terme de publication</head>
+               <msContents>
+                  <summary> Par le terme de publication, le Petit Conseil entend la présentation du
+                     testament en justice faite par l’héritier lorsqu’il en demande l’exécution dans
+                     le temps prescrit par la loi. </summary>
+                  <msItem>
+                     <textLang>français</textLang>
+                     <filiation type="current"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="34.5"/>
+                              <width unit="cm" quantity="22"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1722-04-20"/>
+                     <origPlace ref="loc007786">Neuchâtel</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head/>
+                     <bibl/>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000635"/>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="26v" facs="AVN_B_101.14.002_0026v"/>
+               <div>
+                  <p>
+                     <lb/>Sur l’éclaircicement demandés des points de <lb/>coustume cy devant, le <origDate when="1722-04-20">20<hi rend="sup">e</hi> avril</origDate>, par le
+       sieur <lb/>advocat <persName ref="per008830">Jaques François Boive</persName>, au nom de ladite <lb/>dame,
+       veuve de feu noble <persName ref="per008788">François d’Emollombe</persName>, <lb/>a esté dit et déclaré ce
+       que suit. </p>
+                  <p>
+                     <lb/>Que lors qu’il a demandé, dans le premier article de sa <lb/>requête du
+                        <date when="1722-04-10">10<hi rend="sup">e</hi> de ce mois</date><note>Voir
+                           <ref>SDS_NE_3_391</ref>.</note>, que quand le testateur, les
+                     <lb/>tesmoins au nombre de cinq ou six, y compris un notaire, <lb/>signent un
+                     testament, s’il n’est pas bon et valable, <lb/>il a entendu parler d’un
+                     testament olographe. </p>
+                  <p>
+                     <lb/><orgName ref="org003085">Mesdits sieurs du Conseil</orgName>, ayant
+                     déliberé là dessus <lb/>s’en rapportent à la déclaration qu’ils rendirent déjà
+                     <lb/>le <date when="1721-05-27">27<hi rend="sup">e</hi> may</date> dernier<note>Voir <ref>SDS_NE_3_388</ref>.</note>, sur
+                     le troisième article de la <lb/>requête qui leur <add place="above">fut</add>
+                     présentée ledit jour, en y adjoutant <lb/>cependant l’explication par eux
+                     donnée sur le second <lb/>article de la requête à eux présentée le <date
+                        when="1722-04-10">10<hi rend="sup">e</hi> de ce mois</date>&#160;; <lb/>et sur
+                     l’éclairssicement que ledit <persName ref="per008830">
+                        <choice>
+                           <abbr>J.</abbr>
+                           <expan>Jacques-François</expan>
+                        </choice> Boive</persName> a demandé ce que <lb/>l’on entend par le terme de
+                     publication énoncé dans <choice>
+                        <abbr>led<hi rend="sup">t</hi>
+                        </abbr>
+                        <expan>ledit</expan>
+                     </choice>
+                     <lb/>article de sa requête du <date when="1722-04-10">10<hi rend="sup">e</hi>
+                        de ce mois</date>. </p>
+                  <p>
+                     <lb/><orgName ref="org003085">Messieurs du Conseil</orgName> donnent par
+                     éclairssicement que par le <lb/>terme de publication ils entendent <del
+                        rend="strikethrough">que</del> la présentation <lb/>qui se fait par
+                     l’héritier en justice, du testament lors <lb/>qu’il en demande l’exécution dans
+                     le tems prescrit par la <lb/>loy. </p>
+                  <p>
+                     <lb/>Ce qu’a esté ainsi conclu et arrêté les <sic>ann, mois et ann</sic> que dessus
+        <lb/>
+                     <add place="below" type="catchword">et</add>
+                     <pb n="27r" facs="AVN_B_101.14.002_0027r"/>
+                     <lb/>et à moy ordonné, secrétaire de la Ville, l’expédier en <lb/>cette forme, sous le même
+                     <term ref="lem016327">seel</term> de la mayorie de <origPlace ref="loc007786">Neufchatel</origPlace>
+                     <lb/>et signature de ma main. </p>
+                  <p>
+                     <lb/>L’original est signé par moy.
+      </p>
+               </div>
+               <div>
+                  <signed>
+                     <persName ref="per008827">
+                        <choice>
+                           <abbr>J&#160;J</abbr>
+                           <expan>Jean Jacques</expan>
+                        </choice> Purry</persName>
+                     <figure type="notarial sign"/>
+                  </signed>
+               </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div>
+            <p>Ce point de coutume est lié au point <ref>SDS_NE_3_391</ref> qui constitue déjà la suite de la déclaration <ref>SDS_NE_3_388</ref>.</p>
+         </div>
+      </back>
+   </text>
+</TEI>

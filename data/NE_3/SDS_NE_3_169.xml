@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="headerinfo"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <date type="electronic" when="2020-08-17"/>    <date type="print"/>
+    <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Collection des sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS_NE_3_169</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier>
+      <idno>AVN B 101.14.001, fol. 446r</idno>
+     </msIdentifier>
+     <head>Trousseau de l’épouse décédée</head>
+     <msContents>
+      <summary>Dans un couple marié, si l’épouse décède avant ou après un an et six semaines et sans
+       avoir eu d’enfants, le mari hérite du trousseau de sa défunte femme.</summary>
+      <msItem>
+       <textLang>français</textLang>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="33"/>
+          <width unit="cm" quantity="23.5"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <origDate when="1660-03-07" calendar="Julian"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>
+      </origin>
+     </history>
+     <additional>
+      <listBibl>
+       <head/>
+       <bibl/>
+      </listBibl>
+     </additional>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key005011"></term>
+     <term ref="key000558"></term>
+     <term ref="key004770"></term>
+     <term ref="key000920"></term>
+     <term ref="key000815"></term>
+     <term ref="key005098"></term>
+
+    </keywords>
+   </textClass>
+   <particDesc default="false"/>
+   <settingDesc default="false"/>
+  </profileDesc>
+ </teiHeader>
+ 
+ <text>
+  <group>
+   <text>
+    <body>
+        
+     
+     <pb n="446r" facs="AVN_B_101.14.001_0446r"/> 
+        
+     <div>
+     
+     <head>
+      <lb/>Declaration touchant ce que le
+      <lb/>mary herite quand sa femme meurt avant
+      <lb/>l’<date dur="P1Y6W"><term ref="lem014776">an &amp; jour</term></date> expiré à prendre dès le jour
+      <lb/>de leurs espousailles.
+     </head>
+      
+      <p>
+       <lb/>Sur la requeste presentée par <lb/><persName ref="per010204a.01">Henry Vauxtravers</persName> de
+       <placeName ref="loc007813">Cortaillod</placeName> par devant <choice>
+        <abbr>mons<hi rend="sup">r</hi></abbr>
+        <expan>monsieur</expan>
+       </choice>
+       <lb/>le maistre bourgeois &amp; <orgName ref="org003085">Conseil Estroit de la Ville <lb/>de
+        <placeName ref="loc007786">Neufchastel</placeName></orgName> le <origDate when="1660-03-07" calendar="Julian"
+         >7<hi rend="sup">me</hi> de mars 1660</origDate>, tendante aux <lb/>fins d’avoir le point
+       de coustume suivant. </p>
+      
+      <p>
+       <lb/>Assavoir, sy deux personnes conjointes au <choice>
+        <abbr>S<hi rend="sup">t</hi></abbr>
+        <expan>saint</expan>
+       </choice> estat <lb/>de mariage, la femme venant à deceder avant l’<date dur="P1Y6W"><term
+         ref="lem014776">an &amp; <lb/>jour</term></date> expiré dès leurs espousailles sans laisser
+       aucuns <lb/><term ref="lem015995.02">hoirs</term> procréez de son corps, sy le mary la survivant <lb/>n’est pas
+       heritier du <term ref="lem014956.03">lict entier garny &amp; refait</term> delaissé <lb/>par la deffunte. </p>
+      
+      <p>
+       <lb/><orgName ref="org003085">Mesdits <choice><abbr>s<hi rend="sup">rs</hi></abbr><expan>sieurs</expan></choice> du Conseil</orgName> ayants eu advis &amp; meure
+       <lb/>premeditation par ensemble ont donné par declaration
+       <lb/>que suivant la coustume usitée en la souveraineté de
+       <lb/><placeName ref="loc007785">Neufchastel</placeName> de pere à fils et de tout temps immemorial
+       <lb/>jusqu’à present la coustume estre telle.
+      </p>
+      
+      <p>
+       <lb/>Assavoir que, avant &amp; après <date dur="P1Y6W">un an &amp; six sepmaines</date>
+       <lb/>le mary est heritier du <term ref="lem014956.02">lict refait</term> de sa femme, n’ayant <lb/>laissé aucuns
+       heritiers.</p>
+      
+      <p>Ce qu’a esté ainsy passé <lb/>conclud &amp; arresté les an &amp; jour que dessus, &amp;
+       ordonné <lb/>à moy secretaire de Ville l’expedier en ceste forme, <lb/>sous le
+       <term ref="lem016327">seel</term> de la mayorie &amp; justice <choice>
+        <abbr>dud</abbr>
+        <expan>dudit</expan>
+       </choice>
+       <origPlace ref="loc007786"><choice>
+         <abbr>Neufch<hi rend="sup">el</hi></abbr>
+         <expan>Neufchâtel</expan>
+        </choice></origPlace>
+       <lb/>&amp; signature de ma main. </p>
+      
+      <p>
+       <lb/>Pour copie extraite sur le vray original signé par
+       <lb/>moy <persName ref="per009020"><choice>
+        <abbr>M</abbr>
+        <expan>Maurice</expan>
+       </choice> Tribolet</persName>. &amp; sur icelle prins la presente.
+      </p>
+      
+     </div>
+      
+      <div>
+       <signed><persName ref="per008992"><choice><abbr>N</abbr><expan>Nicolas</expan></choice> Huguenaud</persName> <figure type="notarial sign"/></signed>
+      </div>
+     
+       
+    </body>
+   </text>
+  </group>
+ </text>
+</TEI>

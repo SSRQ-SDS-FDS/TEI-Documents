@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+          Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-08-15"/>
+            <date type="print"/>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_185_3</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>PGA Buchs B 11.21, S. 85–99</idno>
+               </msIdentifier>
+               <head>Nachtrag im Landbuch von Werdenberg, Landlibell oder Ordnung</head>
+               <msContents>
+                  <summary>
+                     <p>Abgeordnete von Werdenberg kommen mit der Bitte nach Glarus, ihnen einige Artikel,</p>
+                     <p>			die sie aufgrund zahlreicher Missstände aufgestellt haben, durchzugehen und zu</p>
+                     <p>			bestätigen. Landammann und Landrat von Glarus kommen der Bitte nach und bestätigen das</p>
+                     <p>			Libell mit 20 Artikeln: 1. Kleinere Streitsachen 2. Festlegung der Zinshöhe 3. Ungeld 4.</p>
+                     <p>			Appellation 5. Verpfändung von Fahrhabe bei Erbschaften 6. Ausstehende Zinsen 7.</p>
+                     <p>			Beischlaf verlobter Paare vor der Hochzeit 8. Kundschaften 9. Verkauf von Kälbern 10.</p>
+                     <p>			Pflanzplätze auf den Allmenden für die Armen 11. Wirten auf dem Schloss 12. Bestrafung</p>
+                     <p>			von Verbalinjurien 13. Begangene Delikte ausserhalb Werdenbergs 14. Todfall 15.</p>
+                     <p>			Gerichtskosten und Kosten für Augenscheine 16. Kosten für Grenzsteinsetzungen 17.</p>
+                     <p>			Öffentliche Bekanntgabe von Schulden oder Rechnungen in der Kirche nach Todesfällen 18.</p>
+                     <p>			Anmeldung beim Landvogt vor dem Gang nach Glarus 19. Grosse Bussen an Jahrmärkten und</p>
+                     <p>			Kirchweihen 20. Zolltarife wegen Verkaufs von Vieh ausser Landes</p>
+                  </summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <author role="scribe">Nikolaus Engler</author>
+                     <filiation type="original">
+                        <origDate when="1653-09-22">Ohne Monat und Tag, datiert nach dem Eintrag der Ordnung im Landbuch.</origDate>
+                        <idno>StASG AA 3 B 01</idno>
+                     </filiation>
+                     <filiation type="current">Abschrift, Buch (S. 1–14 beschriftet, von hinten: S. 1–103 beschriftet) mit kartoniertem Einband</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="30.0"/>
+                              <width unit="cm" quantity="20.0"/>
+                           </dimensions>
+                        </extent>
+                        <condition>restauriert</condition>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate from="1668-01-01" to="1668-12-31"/>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key003298">Landesrecht</term>
+               <term ref="key003328">Libell</term>
+               <term ref="key001112">Fahrhabe</term>
+               <term ref="key003021">Termin</term>
+               <term ref="key005172">Amtsmissbrauch</term>
+               <term ref="key000199">Zoll</term>
+               <term ref="key000624">Metzger</term>
+               <term ref="key003570">Zollstation</term>
+               <term ref="key000154">Zins</term>
+               <term ref="key003026">Verbalinjurie</term>
+               <term ref="key000057">Gericht</term>
+               <term ref="key000184">Busse</term>
+               <term ref="key000341">Ordnung</term>
+               <term ref="key000270">Kosten</term>
+               <term ref="key005270"/>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body/>
+         </text>
+      </group>
+      <back>
+         <div/>
+      </back>
+   </text>
+</TEI>

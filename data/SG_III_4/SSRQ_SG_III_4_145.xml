@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-09-17"/>
+            <date type="print"/>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_145</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>LAGL AAA 1/14, S. 228–230</idno>
+                  <altIdentifier>
+                     <idno>LAGL AG I.2, Bd. 14</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <head>Ratsprotokoll: Werdenberger Sachen</head>
+               <msContents>
+                  <summary>
+                     <p>Erkenntnisse des Rats von Glarus über Bussen bei Schlägereien, die Gebühren
+                        bei der Schuldeneintreibung, das Weihnachtsholz der Ausbürger, den
+                        Wochenmarkt, das Weggeld, den Bau eines Zollhauses, den Kälber- und
+                        Jungzehnt, das Eheversprechen einer jungen Frau und die Ehekonflikte des
+                        Ehepaars Steinheuel.</p>
+                  </summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <filiation type="current">Buch (540 Seiten) mit Ledereinband</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="32.0"/>
+                              <width unit="cm" quantity="21.5"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1582-03-27"/>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000184">Busse</term>
+               <term ref="key000363">Ratsprotokolle</term>
+               <term ref="key000204">Verwaltung</term>
+               <term ref="key000493">Weggeld</term>
+               <term ref="key000294">Wochenmarkt</term>
+               <term ref="key000199">Zoll</term>
+               <term ref="key000109">Stadt</term>
+               <term ref="key000863">Ehe</term>
+               <term ref="key004344"/>
+               <term ref="key000865">Eheversprechen</term>
+               <term ref="key000049">Zehnt</term>
+               <term ref="key003378"/>
+               <term ref="key000270"/>
+               <term ref="key005168"/>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <div org="uniform" sample="complete">
+                  <p><gap reason="irrelevant"/>
+                     <pb n="228"/>
+                     <seg>
+                        <head type="title"><placeName ref="loc000440">Werdenberger</placeName>
+                           sachen</head>
+                     </seg>
+                     <seg>
+                        <head n="1"><term ref="lem000036">Bußen</term></head>
+                     </seg>
+                     <seg>
+                        <lb/>Erstlich die bußen, wan einer den anderen <term ref="lem000632"
+                           >gschlagen</term>, <lb/>der ander, so den anfang than, allzyth die <term
+                           ref="lem000036">buß</term> geben <lb/>müßen. Belangende denen zu <orgName
+                           ref="org001816">Werdenberg</orgName> auch <lb/>nachlaß zethun, ist
+                        erkhent, das, so zwen miteinand<lb break="no"/>eren uneins werden und
+                        schlachent, soll jettwederer <lb/>nüt minder dan <measure quantity="5"
+                           type="currency" unit="bz">v bz</measure> geben unnd soll ein <term
+                           ref="lem000266">landtvogt</term>, <lb/>je nachdem sich einer gebaret,
+                        wyther mit denselbigen <lb/>zehandlen und zestraffen gwalt haben.</seg>
+                     <seg>
+                        <head n="2"><term ref="lem000382">Inzug</term> zestraffen</head>
+                     </seg>
+                     <seg>Diewyl vornacher einem bi <measure unit="lb" type="currency" quantity="1"
+                           >j </measure> am ersten tag, am <lb/>2. tag by <measure quantity="10"
+                           type="currency" unit="lb">x lib pfennig</measure> und am dritten bi <term
+                           ref="lem000985">lyb <lb/>und gutt</term> einen zu bezalen gebotten
+                        worden, <term ref="lem009720.01">brüchig</term>
+                        <lb/>gewessen, ist erkhent, wan einem ein <term ref="lem007433"
+                           >gebott</term>
+                        <lb/>angleit werde, am ersten tag <measure unit="lb" type="currency"
+                           quantity="1">j lib pfennig</measure>, <lb/>am 2. tag <measure unit="lb"
+                           type="currency" quantity="3">3 lib pfennig</measure>, am dritten tag
+                           <measure unit="lb" type="currency" quantity="9">9 lib
+                           <lb/>pfennig</measure> und so danethin einer unghorsam were, <lb/>soll
+                        ein landtvogt mit demselbigen zehandlen gwalt <lb/>haben. </seg>
+                     <seg>
+                        <head n="3"><term ref="lem014652.03">Wienacht holtz</term></head>
+                     </seg>
+                     <seg>
+                        <lb/>Söllent alle die <term ref="lem000227">burger</term>, so <del
+                           rend="strikethrough"><gap reason="illegible" unit="character"
+                              quantity="5"/></del> ussere der <term ref="lem000184">statt</term>
+                        <lb/>wonen, das <term ref="lem014652.02">wienachtholtz</term> nach luth deß
+                        im <term ref="lem000372">urbar</term><note anchored="true">Vgl. das Urbar
+                           von 1581 (<ref>SSRQ_SG_III_4_143</ref>), Art. 5.</note>
+                        <lb/>vergriffnen artickels dasselbig ußrichten und <lb/>geben.</seg>
+                     <pb n="229"/>
+                     <seg>
+                        <head n="4"><term ref="lem000663.19">Wuchenmerckt</term> zu <placeName
+                              ref="loc000440">Werdenberg</placeName></head>
+                     </seg>
+                     <seg>
+                        <lb/>Hannd min herren inen denselbigen <term ref="lem005586">merckt</term>,
+                        doch allein inn der <lb/><term ref="lem000184">statt</term> zhaltenn unnd
+                        zbruchen <del>söllent</del> nachgelassenn. Und welcher <lb/>den anderen an
+                        einem <term ref="lem000663.19">wuchenmerckt</term>
+                        <del rend="strikethrough">strafft schla</del> zum ersten <lb/><term
+                           ref="lem000632">schlacht</term>, soll <measure unit="lb" type="currency"
+                           quantity="3">iij lib</measure> unnachleßlich unnd der ander
+                              <subst><del>v</del><add place="overwritten">j</add></subst> bz geben.
+                        <lb/>Unnd soll der <term ref="lem000266">landtvogt</term> und <term
+                           ref="lem002854">landtschryber</term>, wie wyth die <lb/>groß buß gon
+                        sölle, <term ref="lem001694">zil</term> machen unnd <term ref="lem000696"
+                           >ußmarchen</term>.</seg>
+                     <seg>
+                        <head n="5"><term ref="lem001110">Weggelt</term> uff zelegenn</head>
+                     </seg>
+                     <seg>
+                        <lb/>Soll der landtvogt ennethal <placeName ref="loc000644"
+                           >Rhyns</placeName> nachfragen, wz sy <term ref="lem000349">zoll</term>
+                        <lb/>und <term ref="lem001110">weggelt</term> gebent, und nachdem er
+                        befindt, ongfar den <lb/><term ref="lem000273">halben theil</term> inen zu
+                           <orgName ref="org001816">Werdenberg</orgName> zu lassen, doch dasselbig
+                        <lb/>zuvor minen herren zuschryben und dasselbig danethin <lb/>ze minderen
+                        oder zemeeren gwalt haben. Und wz inen <lb/>zu <orgName ref="org001816"
+                           >Werdenberg</orgName> uß gnaden vergünstiget wirt, der <term
+                           ref="lem009984">drittheil</term>
+                        <lb/>jederzyth minen herren zuston und vom weggelt dienen.</seg>
+                     <seg>
+                        <head n="6"><term ref="lem001335.03">Zolhuß</term> uffzerichten</head>
+                     </seg>
+                     <seg>Soll der <term ref="lem000266">landtvogt</term> mit dem landtvogt im
+                           <placeName ref="loc000925.31">Salganserland</placeName>
+                        <lb/>deßhalb reden, unnd was er bi im für bescheidt findt, soll <lb/>er
+                        minen herren desselbigen berichten.</seg>
+                     <pb n="230"/>
+                     <seg>
+                        <head n="7"><term ref="lem014550">Kalber zechenden</term></head>
+                     </seg>
+                     <seg>
+                        <lb/>Söllent die, so schon in der <term ref="lem000184">statt</term> sitzent
+                        unnd nüt <term ref="lem000227">burger</term>
+                        <lb/>sind, den <term ref="lem014550">kalber zechenden</term> nach luth deß
+                        artückels im <lb/>urbar<note anchored="true">Vgl. das Urbar von 1581
+                              (<ref>SSRQ_SG_III_4_143</ref>), Art. 15.3.</note> ußrichten unnd
+                        bezalen.</seg>
+                     <seg>
+                        <head n="8"><term ref="lem000610.02">Junger zechenden</term></head>
+                     </seg>
+                     <seg>
+                        <lb/>Söllent all <term ref="lem000227">burger</term> unnd <term
+                           ref="lem000507">landtlüth</term> inn der gantzen <lb/>graffschafft
+                           <placeName ref="loc000440">Werdenberg</placeName> ußrichten und
+                        bezalen.</seg>
+                     <seg><head n="9" resp="SM">Eheversprechen</head></seg>
+                     <seg>
+                        <lb/>Item deß <term ref="lem015096.02">töchterlis</term> wegen, so deß
+                           <persName ref="per009046a">Minenvißers</persName>
+                        <term ref="lem000210">son</term>
+                        <lb/>genommen haben sölte, ist erkhent, dz deß töchterlis <lb/><term
+                           ref="lem000608">früntschafft</term>, so zu dritten und necher, und was
+                        <lb/>zmeer wirt, dassselbig dem töchterli fürhaltenn. <lb/>Will es den <term
+                           ref="lem000261">knaben</term> bhan und den willen darzu gibt, <lb/>soll
+                        es ein <term ref="lem000080">ee</term> belyben. Wo aber nüt, thund inenn
+                        <lb/>min herren zrecht uff.</seg>
+                     <seg><head n="10" resp="SM">Ehekonflikt</head></seg>
+                     <seg>
+                        <lb/>Umb das <persName ref="per009047a">Petter Steinhüwel</persName> und sin
+                           <term ref="lem000450">husfrouw</term> gar <lb/>wild miteinandern lebent
+                        und den <term ref="lem015097.02">katzenstrigel <lb/>ziechent</term>, soll
+                        der landtvogt im anzeigen, dz er luge <lb/>unnd denke und sich gegen siner
+                        husfrouwen wie <lb/>einem eelichen man zustande halte, thüg ers nüt,
+                           <lb/><unclear>scheil we</unclear> nüt, habent im min herren inne <term
+                           ref="lem005997">an lyb und <lb/>gutt zestraffen</term> bevolchenn.</seg>
+                     <gap reason="irrelevant"/>
+                  </p>
+               </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div org="uniform" sample="complete">
+            <p>Folgendes Stück dient als Beispiel für die Einträge des <orgName ref="org001211"
+                  >Rates von Glarus</orgName> in die Ratsprotokollbücher, meist unter den Titeln
+                     <orig><placeName ref="loc000440">Werdenberger </placeName>sachen</orig>,
+                  <orig>Werdenberger handlungen</orig> oder <orig>Instruktionen gegen
+                  Werdenberg</orig>, die mehrmals jährlich erfolgten. Die Einträge enthalten
+               Ratserkenntnisse, Anweisungen an den Landvogt in <term ref="key000204"
+                  >Verwaltungssachen</term>, <term ref="key004002">Gebote und Verbote</term> oder
+               kurze Notizen zu Anträgen oder Bitten von Werdenberger Einwohnern. So heisst es z. B.
+               im Ratsprotokoll vom <date when="1581-07-06">6. Juli 1581</date> (<bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/cf6f4d5e765b460d9546832d276d795b"
+                     >LAGL AAA 1/14</ref>, S. 167</bibl>): <orig>Herr houptman <persName
+                     ref="per009050a">Caspar Gallati</persName>
+                  <add place="above">und sin hußfrow</add> begertt an min heren, daß sy ir gutt ein
+                  andern <term ref="lem003740">uffmachen</term> mögend noch unserm <term
+                     ref="lem000597">lantzrechte</term>, wie dan von eim posten zum andren
+                     <unclear>erzelt</unclear> worden ist, ist ine einhellig vorgunt unnd zu glassen
+                  nach unserm bruch und recht.</orig>
+            </p>
+            <p>Seltener befinden sich auch <term ref="key000683">Urteile</term> in den <term
+                  ref="key000363">Ratsprotokollen</term>, so z. B. <bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/d0e159df1f214e24a8fe66957f363ae9"
+                     >LAGL AAA 1/19</ref>, S. 488</bibl> oder <bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/9b32482642194bbb852c22ae3545f0c2"
+                     >LAGL AAA 1/68</ref>, S. 90</bibl>.</p>
+         </div>
+      </back>
+   </text>
+</TEI>

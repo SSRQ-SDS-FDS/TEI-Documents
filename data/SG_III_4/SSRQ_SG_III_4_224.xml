@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-10-04"/>
+            <date type="print"/>
+            <availability><p xml:id="facs">Sibylle Malamud</p></availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_224</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>LAGL AG III.25, Bündel 111</idno>
+               </msIdentifier>
+               <head>Kopie eines Schreibens von Schwyz an Landvogt Karl Joseph Reding mit dem
+                  Todesurteil über Johannes Schefferenz aus dem Schwabenland</head>
+               <msContents>
+                  <summary>
+                     <p>Alt Landammann und gesessener Rat von Schwyz schreiben an Landvogt Karl
+                        Joseph Reding wegen des in der Herrschaft Hohensax-Gams inhaftierten
+                        Johannes Schefferenz aus dem Schwabenland, der Ammann Wessner ermordet sowie
+                        diverse Diebstähle und Einbrüche begangen hat. Schwyz urteilt, dass der
+                        Henker dem Delinquenten die rechte Hand abhauen, ihn hängen, auf das Rad
+                        flechten, unter das Hochgericht stellen und die Hand auf das Hochgericht
+                        stellen soll. Am 13. Juli 1741 soll die Hinrichtung stattfinden, was dem
+                        Delinquenten mitgeteilt werden soll, damit er sich mit geistlichem Beistand
+                        auf den Tod vorbereiten kann. An den Exekutionstag schickt Schwyz Spitalherr
+                        Josef Karl Gasser. Schwyz will zudem mehr über die Komplizen erfahren und
+                        über Joseph Egger von Oberegg (AI), welcher der Diebesbande Unterschlupf
+                        gewährt und mit der gestohlenen Ware gehandelt haben soll.</p>
+                  </summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <filiation type="original">
+                        <origDate when="1741-07-08"/>
+                        <idno>LAGL AG III.25, Bündel 111</idno>
+                     </filiation>
+                     <filiation type="current">Abschrift (Doppelblatt)<origDate from="1741-01-01"
+                           to="1741-12-31">ca.</origDate></filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1741-07-08"/>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key003037">Gerichtsverfahren</term>
+               <term ref="key000604">Todesstrafe</term>
+               <term ref="key001014">Einbruch</term>
+               <term ref="key005346">Komplizenschaft</term>
+               <term ref="key003037">Gerichtsverfahren</term>
+               <term ref="key003291">Verbrecher</term>
+               <term ref="key003037">Gerichtsverfahren</term>
+               <term ref="key000291">Diebstahl</term>
+               <term ref="key000954">Mord</term>
+               <term ref="key000603">Dieb</term>
+               <term ref="key001027">Hehlerei</term>
+               <term ref="key003283">Hintrichtung am Galgen</term>
+               <term ref="key005473">Offizialverfahren</term>
+               <term ref="key004418">Hochgerichtsurteil</term>
+               <term ref="key004416">Hochgerichtsfall</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <div org="uniform" sample="complete">
+                  <p>
+                     <pb n="1r" facs="LAGL_AG_III.25_Kiste_7_Buendel_111_1r"/>
+                     <lb/>Copia schreiben von <choice>
+                        <abbr>lob</abbr>
+                        <expan>loblichem</expan>
+                     </choice> standt <orgName ref="org001191">Schweiz</orgName> sub dato, den
+                        <lb/><origDate when="1741-07-08">8. jully 1741</origDate>, an landtvogt
+                        <persName ref="per010870a">Carl, baron de Reding</persName>, in <lb/>welchem
+                     der <term ref="lem016989.02">todts sentenz</term> vor ihr orth des zuo
+                        <lb/><placeName ref="loc000211">Gambs</placeName> inhafftierten <persName
+                        ref="per010871a">Johannes Schäfferenz</persName>
+                  </p>
+                  <p>
+                     <lb/>Unser <abbr>etc</abbr>
+                  </p>
+                  <p>
+                     <lb/>Wihr haben euwer erlaßens schreiben sambt eingeschickten, <lb/>nach
+                     rechtens form errichteten <term ref="lem001523.03">proceß</term> und
+                     vollfüehrte <lb/><term ref="lem003708.02">examina</term> des <term
+                        ref="lem016994.02">in yßen und banden</term> auf <placeName ref="loc000211"
+                        >Gambs</placeName>
+                     <lb/>befinthlichen <term ref="lem005122">ubelthätters</term>
+                     <persName ref="per010871a">Johannes Schäfferänz</persName>
+                     <lb/>aus dem <placeName ref="loc005561.07">Schwaben Landt</placeName> durch den
+                        <term ref="lem014427">expressen botten</term>
+                     <lb/>zu recht erhalten und die bekhente <term ref="lem001854"
+                        >misethatten</term> des <lb/>besagten <term ref="lem004394"
+                        >delinquenten</term> wegen begangnem <term ref="lem005701">mordt</term>
+                     <lb/>an dem <term ref="lem015445">amman</term>
+                     <persName ref="per010872">Weßner</persName>
+                     <choice>
+                        <abbr>sel</abbr>
+                        <expan>selig</expan>
+                     </choice>, auch anderen verübeten <lb/>verschidenen <term ref="lem000047"
+                        >diebstählen</term> und <term ref="lem005000">einbrüchen</term>, des mehrern
+                     <lb/>zuo ersuchen gehabt und weillen nun <term ref="lem001254">vergicht</term>
+                     und <lb/>that eines sonderen die <term ref="lem012298">mordthat</term>
+                     <foreign xml:lang="la">de <term ref="lem016993.01">corpore
+                        delicti</term></foreign>
+                     <lb/>genuogsam <term ref="lem016992.02">constiert</term>, als haben wihr vor
+                     unser <lb/>orth mit urtheil und recht dem <persName ref="per010871a">Johannes
+                        Schäfferänz</persName>
+                     <lb/><sic>abgesprochen</sic> sein leib und leben und erkent, <seg>das solchem
+                           <lb/><term ref="lem004394">delinquenten</term> die rechte <term
+                           ref="lem013364">hand abgehauwen</term>, an einer <lb/>stedt <term
+                           ref="lem016599">erwürget</term>, danethin <term ref="lem001984"
+                           >radt</term> gebrochen, der <term ref="lem004417">cörper</term>
+                        <pb n="1v" facs="LAGL_AG_III.25_Kiste_7_Buendel_111_1v"/>
+                        <lb/><term ref="lem016995.02">auf das radt geflochten</term>, under das
+                           <term ref="lem010968">hochgericht</term> gethan <lb/>und die <term
+                           ref="lem013364">hand</term> auf das hochgericht gestelt werden
+                        <lb/>solle.</seg>
+                     <seg>Den <term ref="lem016990.02">executions tag</term> haben wihr auf donstag,
+                           <lb/><origDate when="1741-07-13">den 13. dises monats jully</origDate>
+                        angesetz, das solcher dem <lb/><term ref="lem004394">delinquenten</term>
+                        frühezeitig angezeiget werden solle, <lb/>umb sich zuo dem todt zuo rüsten
+                        und der <term ref="lem001861">geistlichen</term>
+                        <lb/>hilff zuo genießen.</seg>
+                     <seg>Auf besagten <term ref="lem016990.02">executions tag</term>
+                        <lb/>haben wihr aus unseren ehren <term ref="lem014544">mittlen</term>
+                        abgeordnet <lb/>unseren vorgeliebten mitradt <choice>
+                           <abbr>spithh</abbr>
+                           <expan>spithalherr</expan>
+                        </choice>
+                        <persName ref="per010873">Joseph Carl Gaßer</persName>, <lb/>das jenige, was
+                        gebraüchlich, zu versächen.</seg>
+                     <seg>Anbey <lb/>befinden wihr auch nöttig, die description so vill <lb/>möglich
+                        der <term ref="lem016991.02">complicitet</term> zuo erheben und köntten
+                        <lb/>der 2 männer, so mit disem delinquenten auf <placeName ref="loc000211"
+                           >Gambs</placeName>
+                        <lb/>geweßen, von denjenigen, so selbe gesächen, eingenomben, <lb/>die
+                        uberigen von dem verhafften erhebt werden, <lb/>wan dan auch aus dem <term
+                           ref="lem001523.03">process</term> sich erhellet, wie <lb/>das <persName
+                           ref="per010877">Joseph Eger</persName> zuo <placeName ref="loc006770.01"
+                           >Oberegg</placeName> von <placeName ref="loc005996">Apenzell</placeName>
+                        den <lb/><term ref="lem013356.04">diebsbanden</term>
+                        <term ref="lem003582">underschlauf</term> gestattet, auch gestollene
+                        <lb/>wahren abgekauft. Das uberlaßen wihr eüch, an <lb/><choice>
+                           <abbr>lob</abbr>
+                           <expan>loblichen</expan>
+                        </choice> standt <orgName ref="org002174">Apenzell</orgName> das nottige zuo
+                        erlaßen, <lb/><unclear>inmitlest</unclear>
+                        <abbr>etc</abbr>.</seg>
+                  </p>
+                  <p>
+                     <lb/>Underschriben alt landaman und geßesner <lb/>landt rath zuo <orgName ref="org003265">Schweiz</orgName>. </p>
+               </div>
+               <pb facs="LAGL_AG_III.25_Kiste_7_Buendel_111_v"/>
+               <div org="uniform" sample="complete">
+                  <ab type="dorsal" place="verso" hand="hand18c">
+                     <lb/>Copia <lb/>schreibens von <choice>
+                        <abbr>lob</abbr>
+                        <expan>loblichem</expan>
+                     </choice> stand <orgName ref="org001191">Schweiz</orgName>, <lb/>so den <term ref="lem016989.02">todts sentenz</term> des <persName ref="per010871a">Johannes
+        <lb/>Schäfferänz</persName> einhaltet. </ab>
+               </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div n="1" org="uniform" sample="complete">
+            <p>Über das <term ref="key005473">Offizialverfahren</term> in <placeName ref="loc006040"
+                  >Hohensax-Gams</placeName> ist wenig bekannt. Es gibt weder eine <term
+                  ref="key004397">Hochgerichtsprozess-</term> noch eine <term ref="key000588"
+                  >Gerichtsordnung</term>. Überliefert ist die Hochgerichtsform, die den formalen
+               Ablauf einer <term ref="key000892">Verhandlung</term> vor dem <term ref="key000044"
+                  >Hochgericht</term> in der Herrschaft <placeName ref="loc006040"
+                  >Hohensax-Gams</placeName> schildert (vgl. <ref>SSRQ_SG_III_4_225</ref>). 1737
+               heisst es in den Syndikatsabschieden, dass <orig>wegen obrigkeitlichen regals,
+                  hochcriminal- und malefizsachen die auf Gams gleich denen zu Windegg, Wesen und
+                  Gaster gehalten werden sollen</orig> (nach <bibl><ref
+                     target="http://permalink.snl.ch/bib/chbsg000143825"
+                     >EA, Bd. 7/1</ref>, <ref target="https://digital.ub.uni-duesseldorf.de/periodical/pageview/1304722?query=Gams">Uznach und Gaster, Art. 122</ref></bibl>). Rückschlüsse auf das
+               hochgerichtliche Verfahren über die Verfahrens- und Gerichtspraxis in <placeName
+                  ref="loc006040">Hohensax-Gams</placeName> vornehmlich aus dem 18. Jh. zeigen im
+               Wesentlichen die gleichen Grundzüge wie im Gaster (zum Landtag und zum
+               hochgerichtliche Verfahren in der Landvogtei <placeName ref="loc000842"
+                  >Gaster</placeName> vgl. <bibl><ref target="http://permalink.snl.ch/bib/chbsg991001191949703977">Gmür
+                     1905</ref>, <ref target="https://archive.org/details/bub_gb_6DY_AQAAMAAJ/page/n189">S. 179–180, 325–328</ref></bibl>):</p>
+            <p>Das Schreiben von <orgName ref="org001191">Schwyz</orgName> mit dem <term
+                  ref="key000604">Todesurteil</term> zeigt, dass die Voruntersuchung mit dem <term
+                  ref="key000701">Verhör</term> und dem peinlichen Examen durch den Landvogt im
+                  <placeName ref="loc000842">Gaster</placeName> in <placeName ref="loc006040"
+                  >Hohensax-Gams</placeName> stattfindet. Nach erfolgtem <term ref="key001045"
+                  >Geständnis</term> schickt der <term ref="key000180">Landvogt</term> alle
+               Unterlagen nach <placeName ref="loc000730">Schwyz</placeName>, wo das <term
+                  ref="key000604">Todesurteil</term> gefällt sowie der Zeitpunkt der Vollstreckung
+               festgelegt wird (vgl. dazu den Eintrag in den Ratsprotokollen vom <date
+                  when="1741-07-08">8. Juli 1741</date>, <bibl><ref
+                     target="https://query.staatsarchiv.sz.ch/detail.aspx?id=371366">StASZ HA
+                     III.70</ref>, S. 441–442 [im Pdf, S. 139]</bibl>). Dies wird dem Landvogt per
+               Eilbote mitgeteilt. Ebenso bekommt <orgName ref="org001197">Glarus</orgName> die
+               Unterlagen vom Landvogt und gibt ein Urteil aus (vgl. dazu auch die Ratsprotokolle
+               von Schwyz, so z. B. <bibl><ref
+                     target="https://query.staatsarchiv.sz.ch/detail.aspx?id=371365">StASZ
+                     HA.III.63</ref>, S. 943 [Pdf, S. 275]</bibl>). Die rechtliche Verurteilung des
+                  <term ref="key003291">Delinquenten</term> erfolgt durch ein formales <term
+                  ref="key003037">Gerichtsverfahren</term> vor dem <term ref="key000044"
+                  >Hochgericht</term> in <placeName ref="loc000211">Gams</placeName> nach den
+               Vorgaben der beiden Orte. Die Vollstreckung des Todesurteils findet auf der <term
+                  ref="key004677">Richtstätte</term> in <placeName ref="loc006040"
+                  >Hohensax-Gams</placeName> statt (vgl. die Akten in <bibl>
+                  <ref>LAGL AG III.25, Kiste 7, Bündel 111</ref></bibl>). Divergieren die Urteile
+               der beiden Orte, so erhält der Landvogt im <placeName ref="loc000842"
+                  >Gaster</placeName> den Stichentscheid, Beifall genannt (vgl. z. B.
+                     <bibl><ref>StASZ HA.III.70</ref>, S. 298</bibl> [im Pdf, S. 87]).</p>
+            <p>Das vom Landvogt an <orgName ref="org001191">Schwyz</orgName> mitgeschickte Verhör
+               mit <persName ref="per010871a">Johannes Schefferenz</persName> zeigt zudem, dass die
+               Voruntersuchung vom Landvogt zusammen mit vier <term ref="key000065">Amtleuten</term>
+               von <placeName ref="loc006040">Gams</placeName>, dem <term ref="key004964"
+                  >Ammann</term>, dem <term ref="key000636">Säckelmeister</term>, dem <term
+                  ref="key000051">Schreiber</term> und dem <term ref="key000547">Weibel</term>
+               durchgeführt wird und zwei Tage dauert. Am Vormittag des <date when="1741-07-05">5.
+                  Juli 1741</date> beginnt ein gütliches <term ref="key000701">Verhör</term>, das am
+               Nachmittag und am nächsten Tag unter <term ref="key003369">Folter</term> so lange
+               fortgesetzt wird, bis der Delinquent in den Augen der Untersuchungsrichter alles
+               gestanden hat (<bibl><ref>LAGL AG III.25, Bündel 111</ref>,
+                  1741.07.05</bibl>; weitere Quellen zu <persName ref="per010871a">Johannes
+                  Schefferenz</persName> und seiner Diebesbande befinden sich im gleichen Bündel.
+               Offenbar wird das Urteil nicht nach den Vorgaben von <orgName ref="org001191"
+                  >Schwyz</orgName>, sondern wohl von <orgName ref="org001197">Glarus</orgName>
+               vollstreckt, da nach den Notizen von Landvogt <persName ref="per010870a">Karl Josef
+                  von Reding</persName> über die Vorbereitungen zur Exekution <persName
+                  ref="per010871a">Johannes Schefferenz</persName>
+               <term ref="key003366">geköpft</term> und danach auf das Rad geflochten werden
+               soll).</p>
+            <p>Nicht in allen erhaltenen <term ref="key004416">Hochgerichtsfällen</term> geben
+                  <orgName ref="org001197">Glarus</orgName> und/oder <orgName ref="org001191"
+                  >Schwyz</orgName> ein Todesurteil aus, sondern sie weisen wegen unsicherer <term
+                  ref="key001006">Beweislage</term> oder eingereichten <term ref="key001046"
+                  >Begnadigungsgesuchen</term> Fälle an den <term ref="key000180">Landvogt</term> im
+                  <placeName ref="loc000842">Gaster</placeName> zurück, so z. B. bei dem <date
+                  when="1670">1670</date> wegen <term ref="key000955">Sodomie</term> verdächtigten
+                  <persName ref="per010883">Jakob Gehrig</persName> aus dem <placeName
+                  ref="loc000842">Gaster</placeName> oder bei dem <date when="1741">1741</date>
+               wegen <term ref="key000056">Fälschung</term> verhafteten <persName ref="per010884"
+                  >Johannes Büeler</persName> von <placeName ref="loc000211">Gams</placeName>
+                     (<bibl><ref>LAGL AG III.25, Bündel 111</ref>, 08.11.1670 und
+                  17.06.1741</bibl>).</p>
+         </div>
+         <div n="2" org="uniform" sample="complete">
+            <p>Die Herrschaft <placeName ref="loc006040">Hohensax-Gams</placeName> hat keinen
+               eigenen <term ref="key000641">Scharfrichter</term>. Laut einer <term ref="key000574"
+                  >Rechnung</term> von <date when="1739">1739</date> über die Kosten eines
+               hingerichteten Übeltäters wurde der Scharfrichter von <placeName ref="loc000925"
+                  >Sargans</placeName> für 4 Tage nach <placeName ref="loc000211">Gams</placeName>
+               bestellt (<bibl><ref>LAGL AG III.25, Bündel 111</ref>,
+                  1739.01.30–1739.03.05</bibl>). </p>
+         </div>
+      </back>
+   </text>
+</TEI>

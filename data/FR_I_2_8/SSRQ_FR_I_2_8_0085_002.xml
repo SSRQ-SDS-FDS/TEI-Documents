@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+
+			</titleStmt>
+
+			<publicationStmt>
+				<date type="electronic" when="2019-07-23"/>
+				<date type="print"/>
+			</publicationStmt>
+
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ_FR_I_2_8_0085_002</idno>
+			</seriesStmt>
+
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<idno>StAFR, Thurnrodel 12, S. 377–379</idno>
+					</msIdentifier>
+					<head>Jean Pinny – Verhör / Interrogatoire</head>
+					<msContents>
+						<summary></summary> 
+						<msItem>
+							<textLang>fr</textLang> 
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support>
+									<material></material>
+								</support>
+								<extent>
+									<dimensions type="leaves">
+										<height unit="cm" quantity="0.0"/>
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+									<dimensions type="plica">
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+								</extent>
+							</supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1629-05-17"/>
+							<origPlace></origPlace>
+						</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc> 
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+			<particDesc default="false"/>
+			<settingDesc default="false"/>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="377"/>
+						<p><lb/><placeName ref="loc007594">Rosey</placeName>
+							<seg><lb/><origDate when="1629-05-17">17 <foreign xml:lang="la">may</foreign> 1629</origDate>, <foreign xml:lang="la">judex</foreign> herr großweibel<note>Gemeint ist <persName ref="per009276">Franz Karl Gottrau</persName>.</note></seg>
+							<seg><lb/><abbr>H</abbr> <persName ref="per009266">Feldtner</persName>, <abbr>h</abbr> <persName ref="per009267">Brodard</persName></seg>
+							<seg><lb/><persName ref="per006532">Bawman</persName>, <persName ref="per009264">Amman</persName>, <persName ref="per006839">Lari</persName></seg>
+							<seg><lb/><persName ref="per009265">Gydolla</persName></seg>
+							<seg><lb/><choice><abbr>W</abbr><expan>Weibel</expan></choice></seg></p> 
+						
+						<p><gap reason="irrelevant"/><note>Ce passage concerne le procès mené contre <persName ref="per009281">Margret Grob</persName>. Voir <ref>SSRQ_FR_I_2_8_0084_003</ref>.</note></p>
+						<pb n="378"/>
+						<p><seg><lb/><persName ref="per009360">Jean Pinny</persName>, natif de <placeName ref="loc007903.02">Bossonens</placeName>, demeurant a <placeName ref="loc007902.02">Escuvillens</placeName>, enquis 
+							<lb/>de la cause de son emprisonnement, a dict pour ce qu’il avoit 
+							<lb/>esté accusé a tort&#160;; desire qu’on le despouille tout nud pour veoir 
+							<lb/>s’on trouvera aucune <term ref="lem018894.01">marque</term> en son corpz. Interrogé pourquoy il 
+							<lb/>juroit et blasphemoit costumierement, a respondu qu’il est de 
+							<lb/>son naturel terrible en son mesnage et quelques foys pas maistre 
+							<lb/>de sa teste, estant despiteux par bouttades, mais s’en repentant bien tost. 
+							<lb/>Enquis s’il n’avoit esté adonné aux filles et qu’il leur donnoit 
+							<lb/>pour les inciter a ses amours, a dict qu’il avoit esté en sa jeusnesse 
+							<lb/>prou mauvais garçon, mais qu’il ne donnoit autre chose aux filles qu’une 
+							<lb/>ausmosne de pain, mais n’avoir onques donné aucun filtre ny 
+						<pb n="379"/><lb/>usé de charmes.</seg> <seg>Luy estant commandé de prier, il a bien prié le 
+							<lb/><foreign xml:lang="la"><term ref="lem016771">Pater</term></foreign>, <foreign xml:lang="la"><term ref="lem016772">Ave</term></foreign> et <foreign xml:lang="la"><term ref="lem016774">Credo</term></foreign> et d’autres bonnes prieres. Enquis s’il n’avoit 
+							<lb/>faict a mourir des jumentz a la bonne maison d’<placeName ref="loc007901.03">Auterive</placeName>, a dict 
+							<lb/>que non&#160;; vray estre que ladite bonne maison avoit perdu une jument, mais luy n’en avoir 
+							<lb/>esté la cause. Interrogé s’il n’avoit desrobbé a feu <choice><abbr>s<hi rend="sup">r</hi></abbr><expan>seigneur</expan></choice> <persName>Gillet</persName> un cheval, 
+							<lb/>de nuict, a respondu que non, que ce cheval luy a esté remys par 
+							<lb/><persName>Jaques Angello</persName> et que ce soubçon luy cousta <measure type="currency" quantity="14" unit="k">14 escus</measure> et tout ce 
+							<lb/>que le grangier dudit <persName>Gillet</persName> luy devoit, niant entierement tous les 
+							<lb/>pointz de l’enqueste.</seg> 
+							</p>				
+					</div>
+				</body>
+				
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+
+<?oxy_options track_changes="on"?>

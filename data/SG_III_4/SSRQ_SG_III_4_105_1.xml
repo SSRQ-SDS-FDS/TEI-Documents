@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-10-04"/>
+            <date type="print"/>
+            <availability><p xml:id="facs">Sibylle Malamud</p></availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_105_1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>OGA Gams Nr. 37</idno>
+               </msIdentifier>
+               <head>Schiedsspruch um die hohen und niederen Gerichtsgrenzen zwischen Gams und Wildhaus bzw. den Herrschaften Hohensax-Gams und dem Toggenburg</head>
+               <msContents>
+                  <summary>
+                     <p>Ulrich VIII. von Sax-Hohensax schlichtet den Streit zwischen Franz, Abt von St. Gallen, zusammen mit seinem bevollmächtigten Anwalt Hans Giger, Landvogt der Grafschaft Toggenburg, auch Ammann und Gemeinde der Landleute von Wildhaus einerseits sowie Schwyz und Glarus und der Gemeinde der Landleute von Gams andererseits um die Grenzen der Hoch- und Niedergerichte.</p>
+                     <p>Der Aussteller siegelt.</p>
+                  </summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <filiation type="current">Original</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Pergament</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="23.5"/>
+                              <width unit="cm" quantity="53.5"/>
+                           </dimensions>
+                           <dimensions type="plica">
+                              <width unit="cm" quantity="7.5"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <sealDesc>
+                     <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI"
+                           n="1"
+                           nontei:material="wax"
+                           nontei:shape="round"
+                           nontei:condition="damaged"
+                           nontei:attachment="sealed on a parchment tag">
+                        <persName role="sigillant" ref="per001640a">Ulrich VIII. von Sax-Hohensax</persName>
+                     </seal>
+                  </sealDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1517-06-30">dinstag nachst nach sant Johanß baptisten tag</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000140">Herrschaft</term>
+               <term ref="key003819">Gerichtsgrenze</term>
+               <term ref="key004417">Hochgerichtsgrenze</term>
+               <term ref="key001117">Schiedsspruch</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <div org="uniform" sample="complete">
+                  <pb facs="OGA_Gams_Nr._37"/>
+                  <p>
+                     <seg>
+                        <lb/>Ich, <persName ref="per001640a">Uoͤllrich, friger her von Hochen
+                           Sax</persName>, her zu <placeName ref="loc006070.03">Burglen</placeName>
+                        und <placeName ref="loc000278">Forsteg</placeName>, bekenn und thuͤn kundt
+                        mit dem brieff, daß sich etwaß <term ref="lem006298.12">irtumig</term> und
+                        spenn erhabenn entzwuschenn dem hochwirdigen fursten und minem genadigen
+                        hernn <persName ref="per005352b">Francysenn</persName>, <lb/>aptte deß
+                        gotzhuß <placeName ref="loc000083">Sannt Gallen</placeName>, und siner
+                        genadnn landvogt der graͤfschaft <placeName ref="loc000782"
+                           >Liechttenstaig</placeName>, <persName ref="per005504a">Hansen
+                           Giger</persName>n alß volmechtiger <term ref="lem013779.02"
+                           >angewaͤllt</term>, och <orgName ref="org001937">amman und gantzer
+                           gemaind der <term ref="lem000507">lantliütten</term> zü dem <placeName
+                              ref="loc000845">Wildennhuß</placeName>
+                        </orgName> ann ainem und ander siten <lb/>miner fruͤntlichen und liebenn
+                        hernn <orgName ref="org001191">Schwitz</orgName> und <orgName
+                           ref="org001197">Glarriß</orgName>, <orgName ref="org001881">amman und
+                           gantzer gemainde der landtliuͤtten zuͤ <placeName ref="loc000211"
+                              >Gamptz</placeName></orgName>, minen liebnn <term ref="lem006532"
+                           >nachpurenn</term>, antreffend denn <term ref="lem000975">hochnn</term>
+                        und <term ref="lem000976">nydern gerichtzzwanng</term>, so dann jeder taill
+                        zuͤ haben ver<lb break="no"/>maint uf dem <term ref="lem000573">berg</term>
+                        inn <placeName ref="loc007567.02">Wallenprand</placeName> und daselbß umb.
+                        Und alß sy zuͤ baider sittenn sollichß irß spann mich ernnstlich gebettenn
+                        und bitten lasenn, <term ref="lem007242">tagsatzung</term> darann zuͤ
+                        machenn und uf dem stoß sy zuͤ verhorn, <lb/>also hab ich ir bitt angesechnn
+                        und userr sunderbarenn guͤtterr nachpurschaft, die ich zuͤ inenn hab, baider
+                        sittenn witter <term ref="lem000279">kouͤst</term> und schadnn gegenn
+                        ainandern ze ferhuitten, ann dem ennd uf dem berg <placeName ref="loc007567"
+                           >Wallenprand</placeName>, guͤtlich tag <lb/>gehalltenn. Alß och baider
+                        sitten mit vogtenn, angewallten, <term ref="lem000006">ammann</term> und
+                           <term ref="lem006896">gemainden</term> mit vollem gewallt vor mir
+                        erschinen und jeder taille sin anfordrung der gericht halberr, wie die
+                        usgangen, annzogtt und daruff <lb/><term ref="lem000582">kuntschaft</term>
+                        durch liuͤtt und brieff zuͤ verhoren begertt, und die ich also schriftlich
+                        und muͤntlich gehort habenn.</seg>
+                     <seg>Unnd nach langem deß heuͤtigenn tagß, alß dattumm wist, abermallnn
+                        tagsatzung den baiden partigen ver<lb break="no"/>kuͤnden lasenn und uf dem
+                        stoß widerumb zesamen komenn. Diewill dann die gemellten partigenn sich deß
+                        spannß halberr guͤttlich zuͤ allem ustraͤg uf mich veranlasett, hab ich
+                        sollich miner <term ref="lem001481">altfordernn</term> vonn <lb/><orgName
+                           ref="org000384">Sax</orgName>
+                        <term ref="lem000008">koufbrieff</term>, och <term ref="lem000372"
+                           >urberr</term> und sust durch frum personnen gloplich kuntschaft
+                        verhoͤrtt und daruf zwüschnn baiden taillnn denn spann also usgesprochnn.
+                        Und sprich mit wussenn und inn kranft diß <lb/>brieffs:</seg>
+                     <seg>Deß erstenn, ob sich etwaß onnwillen zwuschnn inn erhabnn, daß der
+                        gentzlich tod und absin sollnn und ainandern deß zuͤ argenn nit mer
+                        gedancknn.</seg>
+                     <seg>Zuͤ dem anderm umb <term ref="lem000431">gericht</term>, <term
+                           ref="lem000067">zwing und pennen</term>, <lb/>daß sollicherr <term
+                           ref="lem008781">gerichtzwanng</term> der baidnn herschaften <placeName
+                           ref="loc006040">Gamptz</placeName> und zum <placeName ref="loc000845"
+                           >Wildenhuͤß</placeName> gann soll zwuschnn innen namlich, daß deß
+                           <placeName ref="loc007571.02">Petzlerß Badpruͤn</placeName> ain under
+                           <term ref="lem000693">march</term> der gerichtn sin sollnn. Von
+                        demselbenn <lb/><term ref="lem000699.08">pruͤnen</term> inn die gredy inn
+                        daß <placeName ref="loc007569.02">Luͤgentobell</placeName>, jetweder sitten
+                        inn die <term ref="lem014107.03">duffy</term> deß <term ref="lem000288.07"
+                           >toͤbellß</term>. Und daßselbig <term ref="lem000288.08">thobell</term>
+                        uff denn gradnn weg ann den <term ref="lem014535">first</term> und <term
+                           ref="lem001725.03">pirg</term> genant <placeName ref="loc007570.03">im
+                           Gatterr</placeName> und witer nit. Daß sol also die <lb/>under <app>
+                           <lem>lachnn</lem>
+                           <rdg wit="OGA Gams Nr. 38">marchen</rdg>
+                        </app><note anchored="true">Lāch: Grenze. <ref
+                              target="https://digital.idiotikon.ch/idtkn/id3.htm#!page/30997/mode/1up"
+                              >Idiotikon 3, 998, 2f</ref>. In der Transkription von Oskar Lutz (als
+                           Beilage zu <bibl><ref>OGA Gams Nr. 37</ref></bibl>) nach der Kopie im
+                           StiASG irrtümlich als <orig>lorch</orig> gelesen. In der Kopie aus dem
+                           18. Jh. (<bibl><ref>StiASG Rubr. 121, Fasz. 1, Nr. 23</ref></bibl>)
+                           heisst es jedoch wie im Original <orig>lach</orig>.</note> der baidenn
+                        gericht, hoch und nydern, sin und plibnn, jetz und ewig, sich der also
+                        hallten, jetz und hernach bei verlopptem annlauß mir gettann. Und sollnnd
+                        aber sust jederman in allen <lb/>irnn guͤtter, sturenn, pruͤchn, zinsen,
+                        zendenn, nutzen, gulten, trib und treͤtt, allmand und allnn anndern irem
+                        alppen pruchnn, zuͤgehordnn, wie er dann daß vorhar inn besitzung, pruch und
+                        gewonhait gewesen sin und plibenn. <lb/>Und damit obgemellten spannß halber
+                        der hochn und nydern gerichten gentzlich veraint, gericht und geschlicht sin
+                        und plibnn und jeder taill sinen erliten costenn und schaden selbß duldnn
+                        und haben, alleß getruͤ<lb break="no"/>lich und ungeferd.</seg>
+                     <seg>Und deß zuͤ urkundt, hab ich, <persName ref="per001640a">Uollrich, friger
+                           her von Hochnn Sax</persName>, diser briffenn zwenn glicher luͤtt machen
+                        lasen und jedm taill deß ainen gebenn, besiglett mit minem aigenn insigell,
+                        <lb/>doch mir und minen erbn onne schadnn, <origDate when="1517-06-30">uf
+                           dinstag nachst nach sant <persName ref="per000049">Johan</persName>ß
+                           baptisten tag, alß man zallt vonn der geburt Kristy unserß hern
+                           fuinfzechnhundert und sibnnzechn jar.</origDate></seg>
+                  </p>
+               </div>
+               <pb facs="OGA_Gams_Nr._37v"/>
+               <div org="uniform" sample="complete">
+                  <ab type="dorsal" place="verso" hand="hand16c">Der brif <del rend="overwritten">zeiget</del>
+       zuͤ dem <placeName ref="loc000845">Wildnn huß</placeName>
+                  </ab>  
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab type="dorsal" place="verso" hand="hand18c">Marckhenbrieff gegen <lb/>Wildenhausseren <add place="below" hand="other hand">1517</add>
+                  </ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab type="archiving reference" place="verso">Nro 37</ab>
+               </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div n="1" org="uniform" sample="complete">
+            <p>In diesem Schiedsspruch werden die Herrschaftsgrenzen bzw. die Grenzen des <term ref="key000044">Hoch-</term> und <term ref="key000151">Niedergerichts</term> zwischen den
+     Herrschaften <placeName ref="loc006040">Hohensax-Gams</placeName> und <placeName ref="loc000782">Toggenburg</placeName> festgelegt, die zugleich die <term ref="key000305">Grenzen</term> zwischen <placeName ref="loc000211">Gams</placeName> und <placeName ref="loc000845">Wildhaus</placeName> bilden. Es geht besonders um die untere Grenze im Gebiet
+     von <placeName ref="loc007567">Walenbrand</placeName>. Erwähnt als untere Grenze ist Bätzlers
+     Badbrunnen, heute <placeName ref="loc007571">Bätzlers</placeName> genannt, ein <term ref="key000153">Bad</term> unterhalb der <placeName ref="loc007572.01">Tobelsäge</placeName>
+     an der <placeName ref="loc006290">Simmi</placeName>. Vom Badbrunnen (eingefasste Quelle, die zu
+     Heilbädern dient) geht die Grenze geradewegs in das <placeName ref="loc007569">Lügentobel</placeName>. Der Name des <term ref="key000198">Tobels</term> ist heute nicht mehr
+     bekannt: Nach ortsnamen.ch ist es identisch mit dem heutigen <placeName ref="loc007749">Letzitobel</placeName> des <placeName ref="loc007573.01">Letzibachs</placeName>. Die Grenze
+     verläuft in der Mitte des Tobels hinauf bis an dessen Ende, wo sie direkt hinauf in den
+      <placeName ref="loc007570">Gätterifirst</placeName> als oberste Grenze geht. Nach den
+     Grenzbriefen sowie der Beschreibung im Vergleich von <date when="1644">1644</date> (<bibl><ref>StiASG
+       Rubr. 121, Fasz. 1, Nr. 23, S. 4–6</ref></bibl>) ist es ziemlich eindeutig, dass
+     das Lügentobel mit dem Letzitobel gleichzusetzen ist. Heute verläuft die Gemeindegrenze nicht
+     von der Simmi her das Letzitobel hinauf, sondern ein Tobel weiter östlich zwischen Walenbrand
+     und <placeName ref="loc007574.01">Gästelen</placeName> bis an dessen Ende bei der <placeName ref="loc007575.01">Summerigweid</placeName>. Von dort geht die Grenze scharf nach Westen in
+     das Tobel des <placeName ref="loc007573">Letzibachs</placeName>.</p>
+         </div>
+         <div n="2" org="uniform" sample="complete">
+            <p>Es stellt sich die Frage, ob <placeName ref="loc007571">Bätzlers</placeName> Badbrunnen mit
+     dem <placeName ref="loc007576.01">Bätzlibad</placeName> gleichzusetzen ist: Laut ortsnamen.ch
+     liegt das Bätzlibad am hinteren <placeName ref="loc006025">Grabser Berg</placeName>, offenbar
+     am gleichen Ort wie das heutige Bädli vor der <placeName ref="loc007577.01">Bätzleregg</placeName>. Das Bätzlibad wird jedoch <date when="1765">1765</date>
+       (<bibl><ref>OGA Grabs O 1765-1</ref></bibl>) und <date when="1783">1783</date> etwas genauer in den
+     Grenzbriefen zwischen den Herrschaften <placeName ref="loc000440">Werdenberg</placeName> und
+      <placeName ref="loc006040">Hohensax-Gams</placeName> beschrieben, wo <orig>die <term ref="lem010622">marchung</term> von oben herab ihren anfang bei dem 
+         <placeName ref="loc007576">Bätzlibad</placeName> nimt, von da aber in <lb/>das <placeName ref="loc007578.01">Simmitobel</placeName> und durch dieseres 
+         <term ref="lem000288">tobell</term> beständig hinaus sich <lb/>ziehet bis anfangs der <term ref="lem000202">ebne</term></orig> (<bibl><ref>OGA Grabs O 1783-1</ref></bibl>). Laut dieser
+     Beschreibung kann das Bätzlibad nicht beim heutigen Bädli gelegen haben, das viel weiter
+     östlich und weit entfernt vom Simmitobel am <placeName ref="loc007579.01">Bruggbach</placeName>
+     am <placeName ref="loc006025">Grabser Berg</placeName> liegt. Das Bätzlibad ist die oberste
+     Grenze zwischen den Herrschaften Werdenberg und Hohensax-Gams und muss im Simmitobel viel
+     weiter oben am hinteren Grabser Berg gelegen haben. Wahrscheinlich ist es bei der heutigen
+     Badweid oder etwas unterhalb der Badweid im Simmitobel zu lokalisieren. Es muss in der Nähe von
+     Bätzlers Badbrunnen, der bei der Tobelsäge liegt und die unterste Grenze zwischen Hohensax-Gams
+     und dem Toggenburg (bzw. Gams und Wildhaus) bildet, sein. Im gleichen Gebiet liegt nämlich die
+      <placeName ref="loc006227">Zapfenmüli</placeName>, die <date when="1497">1497</date> und <date when="1501">1501</date>
+     als Grenzpunkt der drei Gerichte Hohensax-Gams, Toggenburg und <placeName ref="loc000440">Werdenberg</placeName> beschrieben wird. D. h. die Grenze der Grafschaft Werdenberg bzw. der
+     Gemeinde Grabs stösst dort auf die Grenze zwischen dem Toggenburg und Hohensax-Gams. Aufgrund
+     der Ähnlichkeit von Name und Lage könnte man davon ausgehen, dass Bätzlibad und Bätzlers
+     Badbrunnen identisch sind. Ersteres wird jedoch nur als Grenzbezeichnung zwischen Werdenberg
+     und Hohensax-Gams gebraucht, während letzters nur als Grenzbezeichnung zwischen Hohensax-Gams
+     und dem Toggenburg genannt wird. Es ist durchaus möglich, dass auf beiden Seiten der Simmi ein
+     Bad bzw. ein Badbrunnen ist, Bätzlibad auf der Grabser Seite der Simmi und Bätzlers Badbrunnen
+     in der Nähe des Lügentobels auf der Gamser Seite der Simmi. Die Ähnlichkeit des Namens könnte
+     auf einen ehemaligen Besitzer beider Bäder zurückzuführen sein. Der Name könnte jedoch auch
+     identisch sein. In einer Quelle <date when="1761">1761</date> heisst es <orig>an dem Grabs Berg bey dem
+      Bäzler badhauß</orig> (<bibl><ref>StiASG Rubr. 85, Fasz. 31</ref></bibl>).</p>
+            <p>Zu den unteren Grenzen zwischen Grabs und Gams bzw. Werdenberg und Hohensax-Gams vgl. auch
+      <ref>SSRQ_SG_III_4_091</ref>; <ref>SSRQ_SG_III_4_117</ref>. Zu den Grenzen zwischen
+     Grabs und Wildhaus vgl. <ref>SSRQ_SG_III_4_085</ref>.</p>
+         </div>
+         <div n="3" org="uniform" sample="complete">
+            <p>Zu den Grenzen von Hohensax-Gams siehe auch die Übereinkunft von Schwyz und Glarus mit Gams
+      <date when="1497">1497</date> (<ref>SSRQ_SG_III_4_094</ref>).</p>
+         </div>
+         <div n="4" org="uniform" sample="complete">
+            <p>Erst 1640 entstehen Unsicherheiten über die <date when="1517">1517</date> bestimmten
+               Grenzen, da die dort beschriebenen Grenzpunkte zu weit auseinander liegen. Darauf
+               werden 1644 neue Grenzsteine gesetzt und beschrieben. Wildhaus beschwert sich über
+               die Grenzen, weshalb der Abt von St. Gallen die Grenzsetzung nicht bestätigt. Der
+               Konflikt schwelt weiter und bricht <date when="1669">1669</date> wieder aus, als der
+               Abt beschliesst, den <date when="1644">1644</date> gesetzten und umstrittenen
+               Grenzstein zu entfernen. Im gleichen Jahr jedoch einigen sich die Abgeordneten von
+                  <orgName ref="org001191">Schwyz</orgName> und <orgName ref="org001197"
+                  >Glarus</orgName> sowie dem <orgName ref="org000581">Kloster St. Gallen</orgName>
+               über die Grenzen: 1. Es bleibt beim Schiedsspruch von 1517 und laut dessen Inhalt
+               soll 2. <orig>deß <placeName ref="loc007571.03">Bätzlers <term ref="lem001114"
+                           >Baadt<lb break="no"/>brunen</term></placeName> die erste <term
+                     ref="lem000693">mark</term> gelten, <lb/>3. welche dem <term ref="lem000152"
+                     >stein</term>, so mit ihr <abbr>hochfürstl</abbr> gnaden und der herschafft
+                     <lb/><placeName ref="loc006040">Gambs</placeName>
+                  <term ref="lem002068">wappen</term> bezeichnet, in der wiß oberhalb der <term
+                     ref="lem000114">straß</term> sitzet, <lb/>entsprächen. <lb/>4. Dahero es in die
+                  tieffe des <sic>Lügentoblels</sic>, alda an beeden <term ref="lem002177"
+                     >porten</term>
+                  <lb/>2 stein zue sehen, die hinunder in die tieffe deüten. <pb n="9"/>
+                  <lb/>5. So danne dem <placeName ref="loc007569">Lügentobel</placeName> nach hinuf
+                  bis an dessen endt, alda aber<lb break="no"/>mahlen ein <term ref="lem000151"
+                     >markstein</term> zue setzen. <lb/>6. Und von dannen der grede in ein <term
+                     ref="lem014611.02">creützzeichen</term>, so uf den <term ref="lem014535.02"
+                     >fürst</term> deß <lb/>
+                  <term ref="lem000573">berg</term>s genandt <placeName ref="loc007570"
+                     >Gätteri</placeName> zue machen gehen</orig> (<bibl><ref>StiASG Rubr. 121,
+                     Fasz. 1, Nr. 23, S. 8–9</ref></bibl>; vgl. dazu auch die verschiedenen Akten
+               und Pläne im <bibl><ref>StiASG Rubr. 85, Fasz. 31</ref></bibl>).</p>
+         </div>
+         <!-- -->
+         <div n="5" org="uniform" sample="complete">
+            <p>
+               <date when="1725">1725</date> werden die beiden Vergleiche von <date when="1517"
+                  >1517</date> und <date when="1669">1669</date> bestätigt und die <term
+                  ref="key000140">Grenzen</term> der Herrschaften erneuert. Es wird ein neuer
+               Grenzstein <orig>mit einem <lb/>
+                  <term ref="lem001557">bähren</term> gegen <placeName ref="loc000782"
+                     >Toggenburg</placeName> und einem <term ref="lem001633.07">gambs</term> gesezet
+                  <lb/>bey endt des <placeName ref="loc007569">Lugentobels</placeName> nechst einem
+                     <term ref="lem000173">weeg</term>, dienent den graden weeg an die first und
+                     <term ref="lem014612.02">blang</term> genant <lb/>
+                  <placeName ref="loc007570">Gätterey</placeName> und gleich da mann daruber steigen
+                  kann, <lb/>selbigen auch alß ein marckhstein gelten solle</orig>. Diese Neuerung
+               wird am <date when="1726-03-19">19. März 1726</date> vom <orgName ref="org000581"
+                  >Kloster St. Gallen</orgName> bestätigt (<bibl><ref>LAGL AG III.25, Bündel
+                     101</ref></bibl>).</p>
+         </div>
+         <div n="6" org="uniform" sample="complete">
+            <p>Eine umstrittene <term ref="key000305">Grenze</term> zwischen den beiden Gemeinden
+                  <placeName ref="loc000211">Gams</placeName> und <placeName ref="loc000845.02"
+                  >Wildhaus</placeName> ist besonders der <placeName ref="loc007580.01"
+                  >Gulmen</placeName>: <date when="1495">1495</date> wird erstmals ein Zeuge um den
+               Gulmen befragt (<bibl><ref>PA Hilty S 006/006</ref></bibl>). <date when="1658"
+                  >1658</date>, <date when="1741">1741</date> und <date when="1781">1781</date>
+               werden die Grenzen am <term ref="key000660">Berg</term> Gulmen erneuert. Als
+               Grenzpunkte werden <placeName ref="loc007585.01">Wisschnorren</placeName> und das
+                  <placeName ref="loc007581.01">Wannenbord</placeName> genannt (<bibl><ref>OGA Gams
+                     Nr. 115</ref>; <ref>Nr. 165</ref></bibl>). Beide Namen sind abgegangen. Sie
+               liegen wohl im Gebiet unterhalb des <placeName ref="loc007570"
+                  >Gätterifirst</placeName> beim <placeName ref="loc007582.01"
+                  >Wannenchopf</placeName>, auch Wannenturm genannt. Das Wannenbord liegt nicht wie
+               von ortsnamen.ch angenommen im Gebiet von <placeName ref="loc007583.01"
+                  >Wanne</placeName> (4058702), sondern von <placeName ref="loc007584.01"
+                  >Wanne</placeName> (4058701) bzw. der heutigen Gemeindegrenze.</p>
+         </div>
+         <div n="7" org="uniform" sample="complete">
+            <p>Zu Konflikten zwischen Gams und Wildhaus um <term ref="key000006">Alpen</term>,
+               Alpwege oder Alpgrenzen vgl. <bibl><ref>StASZ HA.II.407</ref></bibl> (17.06.1437);
+                     <bibl><ref>OGA Gams Nr. 103</ref> (01.12.1633); <ref>Nr. 153</ref></bibl>
+               (22.08.1651); <bibl><ref>StASZ HA.IV.404, o. Nr.</ref></bibl>
+               (08.01.1776).</p>
+         </div>
+      </back>
+   </text>
+</TEI>

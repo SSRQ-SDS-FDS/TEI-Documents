@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+
+			</titleStmt>
+
+			<publicationStmt>
+				<date type="electronic" when="2019-05-29"/>
+				<date type="print"/>
+			</publicationStmt>
+
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ_FR_I_2_8_0045_004</idno>
+			</seriesStmt>
+
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<idno>StAFR, Thurnrodel 11, S. 66–68</idno>
+					</msIdentifier>
+					<head>Estienne Bredelin – Verhör / Interrogatoire</head>
+					<msContents>
+						<summary></summary> 
+						<msItem>
+							<textLang>fr, de</textLang> 
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support>
+									<material></material>
+								</support>
+								<extent>
+									<dimensions type="leaves">
+										<height unit="cm" quantity="0.0"/>
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+									<dimensions type="plica">
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+								</extent>
+							</supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1619-05-23"></origDate>
+							<origPlace></origPlace>
+						</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+							
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 				
+		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+			<particDesc default="false"/>
+			<settingDesc default="false"/>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="66"/><p><lb/>Im <placeName ref="loc007683.03">bosen turn</placeName>
+							<seg><lb/><origDate when="1619-05-23">23 <foreign xml:lang="la">maii</foreign> <hi rend="underline">1619</hi></origDate>, <choice><abbr>j</abbr><expan>judex</expan></choice> <abbr>h</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per009391">Guillaume de Reynold</persName>.</note></seg>
+							<seg><lb/><abbr>H</abbr> <persName ref="per006501">Heinricher</persName>, <abbr>h</abbr> <persName ref="per009275">Paccot</persName></seg>
+							<seg><lb/><persName ref="per009388">Reiff</persName>, <persName ref="per009251">Känel</persName></seg>
+							<seg><lb/><subst><del><choice><abbr>P</abbr><expan><persName ref="per009578">Pankraz</persName></expan></choice></del><add place="overwritten"><choice><abbr>L</abbr><expan><persName ref="per009579">Ludwig</persName></expan></choice></add></subst> Gottrow<note>Die Korrektur des Vornamens ist nicht eindeutig und könnte auch in umgekehrter Reihenfolge erfolgt sein: Sowohl <persName ref="per009578">Pankraz</persName> als auch sein Bruder <persName ref="per009579">Ludwig Gottrau</persName> sassen damals im Stadtgericht.</note>, <persName>Werly</persName><note>Gemeint ist entweder <persName ref="per009392">Caspar</persName> oder <persName ref="per009123">Lorenz Werli</persName>, die beide im Stadtgericht sassen.</note></seg>
+							<seg><lb/>Weybel</seg></p>
+			
+						<p><seg><lb/><add place="left margin">Hat nüt bezalt.</add></seg> <seg>Susdite <persName ref="per009417">Estievena Bredelin</persName> disant tousjours ne 
+							<lb/>savoir aulcune chose de <term ref="lem018521">sorcellerie</term>, a dit avoir 
+						<lb/>apprins des prieres pour guerir diverses maladies, 
+						<lb/>comme a decharger des gens inchargez, disant&#160;: 
+					<pb n="67"/><lb/><q>&#160;Je te decharge <abbr>&amp;c</abbr>&#160;</q>, prennant du bois en chandele be<lb break="no"/>nite et le mettant dans une mesure&#160;; avec ce, <term ref="lem016125.04">pro<lb break="no"/>flamant</term> la personne par 3 fois, dont y fault adjouster 
+						<lb/>la foy&#160;; l’avoir usé, mais en bonne intention.</seg> <seg>Pour ce que 
+						<lb/>elle seroit venue en ce bruict, est que elle auroit ad<lb break="no"/>verty un certain de <placeName ref="loc007849.01">Charmey</placeName>, que tenoit mauvais 
+						<lb/>train chez leur voisin le <persName>Cottu</persName>&#160;; dont l’auroit 
+						<lb/><term ref="lem018774.04">admonesté</term> de s’en depourtir. Item a dit que <persName>Peter<lb break="no"/>man Clerc</persName> luy fait grand tort, quand il dit 
+						<lb/>que elle soit cause de sa maladie, dont ledit <persName>Clerc</persName> 
+						<lb/>disoit que luy fut dit des docteurs. A dit dad<lb break="no"/>vantage que le <persName>Rossinet</persName>, decedé a <placeName ref="loc007936.02">Grinile</placeName>, la 
+						<lb/>menaçoit souventefois, que <subst><del>les</del><add place="overwritten">la</add></subst> fairoit secher, et 
+						<lb/>ses enfants, <subst><del>volo</del><add place="inline">voulant</add></subst> mettre des <term ref="lem016904.02">faves</term> dans 
+						<lb/>une lampe de eglise, a cause qu’elle mainte<lb break="no"/>noit sa belle soeur et empeschoit que ledit <persName>Ros<lb break="no"/>sinet</persName> ne luy mangeat son bien.</seg> <seg>Estre vray 
+						<lb/>qu’elle auroit dit que si on la fairoit prendre, que 
+						<lb/>fairoit aussy endurer des aultres, que le disoit 
+						<lb/>sus <persName>Peterman Clerc</persName>, <persName>Petterman Rosset</persName> et <persName>Claude 
+						<lb/>Mulet</persName>, lesquelz luy font tous maux. Dadvantage 
+						<lb/>avoir pourter du vin <term ref="lem015225.02">quict</term> a une malade, pen<lb break="no"/>sent la secourrir. Et si on luy impose de 
+						<lb/>l’avoir fait mourir, qu’on luy fait tort.</seg> <seg>Pour 
+						<lb/>diverses maladies, a recité plusieures prieres, et 
+						<lb/>pour la gotte, qu’on doit prendre de l’eau distillan<lb break="no"/>te d’une fontaine avec de la <term ref="lem016907.02">gravina</term> et se la<lb break="no"/>ver, ce qu’elle auroit trouvé bon <add place="above" type="sign">en soy mesme</add>. Avoir mau<lb break="no"/><pb n="68"/>dit ledit <persName>Rossinet</persName> a cause que leur gastoit 
+						<lb/>leur blé, et ses enfants a cause que ne 
+						<lb/>la vouloent croire, mais en aprés crioit 
+						<lb/>mercy a Dieu, et se reppentoit. Aultre n’a 
+						<lb/>dit, disant tousjours estre femme d’honneur 
+						<lb/>et n’obliee en tels affaires qu’on l’accuse.</seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+
+
+
+<?oxy_options track_changes="on"?>

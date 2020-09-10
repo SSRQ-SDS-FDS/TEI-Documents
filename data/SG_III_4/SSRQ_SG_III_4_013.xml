@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-08-13"/>
+            <date type="print"/>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_013</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>Fürstlich Fürstenbergisches Archiv Donaueschingen OA 22 III 6</idno>
+               </msIdentifier>
+               <head>Graf Albrecht III. von Werdenberg-Heiligenberg, Herr von Bludenz, verzichtet zugunsten seines Bruders Heinrich II. auf die Grafschaft Werdenberg und die Burg Starkenstein aus der Erbschaft ihres Bruders Hugo IV.</head>
+               <msContents>
+                  <summary>
+                     <p>Graf Albrecht III. von Werdenberg-Heiligenberg, Herr von Bludenz, urkundet, dass Hugo IV. von Werdenberg-Heiligenberg seinem Bruder Graf Heinrich II. von Werdenberg-Heiligenberg, Herr von Rheineck, vor seinem Tod die Grafschaft Werdenberg mit Burg, Stadt, Leuten und Gütern sowie die Burg Starkenstein hinterlassen hat. Graf Albrecht III., der Bruder Heinrichs II., erhebt ebenfalls Anspruch auf die Hinterlassenschaft. Mit Hilfe und Rat Verwandter und anderer Leute kommen die Brüder überein, dass Heinrich II. die Grafschaft Werdenberg mit Burg, Stadt, Leuten und Gütern sowie die Burg Starkenstein behalten soll.</p>
+                     <p>Der Aussteller siegelt. Erbetene Siegler Abt Kuno von St. Gallen, Graf Rudolf V. von Montfort-Feldkirch und Ritter Ulrich von Ems.</p>
+                     <p/>
+                  </summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <filiation type="current">Original</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Pergament</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="28.0"/>
+                              <width unit="cm" quantity="35.0"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <sealDesc>
+                     <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI"
+                           n="1"
+                           nontei:material="wax"
+                           nontei:shape="round"
+                           nontei:condition="chamfered"
+                           nontei:attachment="sealed on a parchment tag">
+                        <persName role="sigillant" ref="per000416a">Albrecht III. von Werdenberg-Heiligenberg</persName>
+                     </seal>
+                     <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI"
+                           n="2"
+                           nontei:material="wax"
+                           nontei:shape="oval"
+                           nontei:condition="damaged"
+                           nontei:attachment="sealed on a parchment tag">
+                        <persName role="sigillant" ref="per004970">Abt Kuno von St. Gallen</persName>
+                     </seal>
+                     <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI"
+                           n="3"
+                           nontei:material="wax"
+                           nontei:shape="round"
+                           nontei:condition="damaged"
+                           nontei:attachment="sealed on a parchment tag">
+                        <persName role="sigillant" ref="per000415">Graf Rudolf V. von Montfort-Feldkirch</persName>
+                     </seal>
+                     <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI"
+                           n="4"
+                           nontei:material="wax"
+                           nontei:shape="round"
+                           nontei:condition="well-preserved"
+                           nontei:attachment="sealed on a parchment tag">
+                        <persName role="sigillant" ref="per000389a">Ritter Ulrich von Ems</persName>
+                     </seal>
+                  </sealDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1390-03-15"/>
+                     <origPlace>Lindau</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head>Editionen</head>
+                     <bibl><ref target="http://permalink.snl.ch/bib/chbsg000135621">UBSG</ref>, Bd. 4, Nr. 1996</bibl>
+                     <bibl><ref target="http://permalink.snl.ch/bib/chbsg000056393">ChSG</ref>, Bd. 11, Nr. 6379</bibl>
+                  </listBibl>
+                  <listBibl>
+                     <head>Regest</head>
+                     <bibl><ref target="http://permalink.snl.ch/bib/chbsg000141369">Krüger, Regesten</ref>, Nr. 505</bibl>
+                  </listBibl>
+                  <listBibl>
+                     <head>URL</head>
+                     <bibl type="url"><ref target="http://monasterium.net/mom/CSGXI/6379/charte">http://monasterium.net/mom/CSGXI/6379/charter</ref></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000920">Erbschaft</term>
+               <term ref="key000140">Herrschaft</term>
+               <term ref="key000759">Teilung</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text type="summary">
+            <body>
+               <div org="uniform" sample="complete">
+                  <p>Graf <persName ref="per000416a">Albrecht III. von Werdenberg-Heiligenberg</persName>, Herr
+       von <placeName ref="loc000933">Bludenz</placeName>, verzichtet zugunsten seines Bruders
+        <persName ref="per000417a">Heinrich II.</persName> auf die Grafschaft <placeName ref="loc000440">Werdenberg</placeName> und die Burg <placeName ref="loc000754.01">Starkenstein</placeName> aus der <term ref="key000920">Erbschaft</term> ihres Bruders
+       <persName ref="per000418a">Hugo IV.</persName>: Albrecht III. urkundet, dass sein Bruder,
+       der verstorbene Graf <persName ref="per000418a">Hugo IV. von
+        Werdenberg-Heiligenberg</persName>, zu Lebzeiten seinem Bruder, Graf <persName ref="per000417a">Heinrich II. von Werdenberg-Heiligenberg und Rheineck</persName>, die
+       Herrschafft <placeName ref="loc000440">Werdenberg</placeName>, <term ref="key000021">Burg</term> und <term ref="key000109">Stadt</term>, mit allen Leuten und Zubehör, sowie die
+       Burg <placeName ref="loc000754.01">Starkenstein</placeName> vermacht habe. Graf <persName ref="per000416a">Albrecht III.</persName> vermeint jedoch, dass er die gleichen Ansprüche
+       auf die <term ref="key000920">Hinterlassenschaft</term> habe wie sein Bruder Heinrich II.
+       Schliesslich einigen sich die beiden Brüder, dass <orig>grâf <persName ref="per000417a">Hainrich</persName> und sin erben beliben sont bi der herschafft ze <placeName ref="loc000440">Werdenberg</placeName>, ez sig burg oder statt, lut oder guter, und ôch bi
+        der vesti genant <placeName ref="loc000754.02">Starkenstain</placeName> und was darzu
+        gehort, also das der selb min bruder, grâf <persName ref="per000417a">Hainrich von
+         Werdenberg</persName>, und sin erben, die herrschafft ze <placeName ref="loc000440">Werdenberg</placeName>, burg und statt, und die vesti <placeName ref="loc000754.02">Starkenstain</placeName> und was darzu gehort inne haben und niessen sond mit luten, mit
+        gutern, mit vogtigen des closters ze <placeName ref="loc006111.02">Sant Johann</placeName>
+        und ze <placeName ref="loc007168.02">Neßlôw</placeName> und mit andren <term ref="lem000012.17">vogtigen</term> und <term ref="lem000458">kirchensatzen</term>, mit
+        zinsen, mit sturen, mit gerichten, mit vallen, mit gelassen, mit allen rechten, nuttzen und
+        gewonhaiten und mit aller zugehord.</orig>
+                  </p>
+               </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div n="1" org="uniform" sample="complete">
+            <p>Nach dem Tod von <persName ref="per004996">Albrecht II. von Werdenberg-Heiligenberg</persName> um
+    <date when="1371">1371</date>/<date when="1372">1372</date> wird die Grafschaft <placeName ref="loc000440">Werdenberg</placeName> zunächst von den
+     vier Söhnen gemeinsam verwaltet. Ab 1377/78 wird die Herrschaft nach und nach <term ref="key000759">aufgeteilt</term> bis schliesslich vier Teilherrschaften entstehen: <placeName ref="loc007777">Heiligenberg</placeName>, <placeName ref="loc000440">Werdenberg</placeName>,
+      <placeName ref="loc007128">Rheineck</placeName> und <placeName ref="loc000933">Bludenz</placeName>. Um 1377/78 fällt Werdenberg, Rheineck und das <placeName ref="loc001075">Rheintal</placeName> an die beiden Brüder <persName ref="per000418">Hugo IV.</persName> und
+      <persName ref="per000417">Heinrich II.</persName>, die ihr Gebiet etwa 10 Jahre später weiter
+    unter sich teilen: <persName ref="per000418">Hugo IV.</persName> erhält Werdenberg,
+     Heinrich II. Rheineck und das Rheintal. Die übrigen Besitzungen fallen an <persName ref="per000416a">Albrecht III.</persName> und <persName ref="per000382">Albrecht
+       IV.</persName>, die ihre Teilherrschaft ebenfalls <date when="1382">1382</date> weiter aufteilen (<bibl><ref target="http://permalink.snl.ch/bib/chbsg000141369">Krüger,
+       Regesten</ref>, Nr. 464</bibl>): Bludenz kommt an Albrecht III. und Heiligenberg an Albrecht
+     IV. Wie folgende Quelle zeigt, währt diese Aufteilung nicht lange. Hugo IV. als Besitzer von
+     Werdenberg stirbt um 1388/89 kinderlos. Er setzt seinen Bruder Heinrich II., Besitzer von
+     Rheineck und dem Rheintal, als Erben von Werdenberg und Starkenstein ein (vgl. dazu
+               <bibl><ref target="http://permalink.snl.ch/bib/chbsg000150287">Burmeister 2006</ref>, S. 122–124</bibl>).</p>
+         </div>
+         <div n="2" org="uniform" sample="complete">
+            <p>
+               <placeName ref="loc000440">Werdenberg</placeName> und <placeName ref="loc000754">Starkenstein</placeName> sind jedoch bereits durch König <persName ref="per000439a">Wenzel</persName> an <persName ref="per000416a">Albrecht III. von
+      Werdenberg-Heiligenberg</persName> verliehen worden, weshalb dieser am Tag des Schiedsspruchs,
+     in dem die Besitzungen Heinrich II. zugesprochen werden, König Wenzel bittet, die ihm bereits
+     verliehenen <term ref="key000046">Reichslehen</term> Werdenberg und Starkenstein seinem Bruder
+    <persName ref="per000417a">Heinrich</persName> zu verleihen (<bibl><ref target="http://permalink.snl.ch/bib/chbsg000135621">UBSG</ref>, Bd. 4,
+      Nr. 1996, Anm.</bibl>). </p>
+         </div>
+      </back>
+   </text>
+</TEI>

@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="headerinfo"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <date type="electronic" when="2020-08-17"/>    <date type="print"/>
+    <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Collection des sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS_NE_3_356</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier>
+      <idno>AVN B 101.14.001, fol. 606v–609v</idno>
+     </msIdentifier>
+     <head>Testaments et droits de la veuve sur les biens</head>
+     <msContents>
+      <summary>Énumération des conditions pour qu’un testament soit valide et son ouverture
+       conforme. Précision des droits de la femme sur les biens du ménage et sur ceux de son mari
+       après le décès de celui-ci. </summary>
+      <msItem>
+       <textLang>français</textLang>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="33"/>
+          <width unit="cm" quantity="23.5"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <origDate when="1706-02-11"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>
+      </origin>
+     </history>
+     <additional>
+      <listBibl>
+       <head/>
+       <bibl/>
+      </listBibl>
+     </additional>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key000138"/>
+     <term ref="key000558"/>
+     <term ref="key003521"/>
+     <term ref="key005000"/>
+     <term ref="key000920"/>
+     <term ref="key000815"/>
+     <term ref="key000635"/>
+     <term ref="key000078"/>
+     <term ref="key000803"/>
+     <term ref="key005125"/>
+     <term ref="key000058"/>
+     <term ref="key000902"/>
+     <term ref="key004428"/>
+     <term ref="key001112"/>
+     <term ref="key005001"/>
+     <term ref="key000882"/>
+     <term ref="key000468"/>
+     <term ref="key004774"/>
+     <term ref="key000241"/>
+     <term ref="key005216"/>
+     <term ref="key003331"/>
+    </keywords>
+   </textClass>
+   <particDesc default="false"/>
+   <settingDesc default="false"/>
+  </profileDesc>
+ </teiHeader>
+
+ <text>
+  <group>
+   <text>
+    <body>
+        
+     
+     <pb n="606v" facs="AVN_B_101.14.001_0606v"/> 
+        
+     <div>
+      
+      <head>
+       <p><lb/>Touchant les testamens.</p>
+       <p><lb/>Le <choice><abbr>jugem<hi rend="sup">t</hi></abbr><expan>jugement</expan></choice> suivant la coutume.</p>
+       <p><lb/>Le relief du bien d’une femme.</p>
+       <p><lb/>Les droits d’une veuve sur les bien du mari.</p>
+           <p><lb/>Les acquets &amp; l’usufruit.</p>
+      </head>
+      
+   <p>
+       <lb/>Sur la requeste presentée à <choice>
+        <abbr>Mess<hi rend="sup">rs</hi></abbr>
+        <expan>messieurs</expan>
+       </choice> le maitrebour<lb break="no"/>geois et <orgName ref="org003085">Conseil Etroit de la Ville de
+        <placeName ref="loc007786">Neufchatel</placeName></orgName>
+       <lb/>par le <choice>
+        <abbr>S<hi rend="sup">r.</hi></abbr>
+        <expan>sieur</expan>
+       </choice>
+    <persName ref="per008997">Abram Brandt</persName>
+       <choice>
+        <abbr>Docte</abbr>
+        <expan>docteur</expan>
+       </choice> aux loix, <lb/>bourgeois <choice>
+        <abbr>dud</abbr>
+        <expan>dudit</expan>
+       </choice>
+    <placeName ref="loc007786">Neufchastel</placeName>, aux fins d’avoir <lb/>declaration de la coutume <choice>
+        <abbr>dud</abbr>
+        <expan>dudit</expan>
+       </choice> lieu sur les <lb/>articles suivans. </p>
+      
+      <p>
+       <lb/>1. Si une personne d’âge competant, en bon sens
+       <lb/>et en faculté de tester, écrivant et souscrivant
+       <lb/>son <choice><abbr>testam<hi rend="sup">t</hi></abbr><expan>testament</expan></choice> et ordonnance de dernière volonté, 
+       <lb/>si, dis-je, tel testament n’est pas valide sans que
+       <lb/>le testateur soit obligé de le clore et cachetter,
+       <lb/>ni d’y appeller notaire ni témoins&#160;? Ou s’il <del rend="strikethrough">faut</del>
+       <lb/>est necessaire pour la validité <choice><abbr>dud</abbr><expan>dudit</expan></choice> <choice><abbr>testam<hi rend="sup">t</hi></abbr><expan>testament</expan></choice>
+       <lb/>qu’il soit cacheté et qu’un <choice><abbr>not</abbr><expan>notaire</expan></choice> ou cinq à sept
+       <lb/>temoins le signent, soit son envelope.
+      </p>
+      
+      <p>
+       <lb/>2. S’il est necessaire pour la validité d’un <choice><abbr>testam<hi rend="sup">t</hi></abbr><expan>testament</expan></choice>
+       <lb/>ecrit et souscrit de la main du testateur sans
+       <lb/>estre passé devant <choice><abbr>not</abbr><expan>notaire</expan></choice> et témoins ; que <choice><abbr>led</abbr><expan>ledit</expan></choice> tes<lb break="no"/>tateur y requiere le seau de la seigneurie&#160;? Et
+       <lb/>si ne le requerant pas, <choice><abbr>led</abbr><expan>ledit</expan></choice> <choice><abbr>testam<hi rend="sup">t</hi></abbr><expan>testament</expan></choice> est invalide&#160;?
+      </p>
+      
+      <pb n="607r" facs="AVN_B_101.14.001_0607r"/>
+      
+      <p>
+       <lb/>3. Si la formalité qu’on doit observer pour l’ouverture
+       <lb/>d’un <choice><abbr>testam<hi rend="sup">t</hi></abbr><expan>testament</expan></choice> clos et cacheté est necessaire à l’égard d’un
+       <lb/><choice><abbr>testam<hi rend="sup">t</hi></abbr><expan>testament</expan></choice> que le <choice><abbr>testate</abbr><expan>testateur</expan></choice> a laissé ouvert&#160;? Ou si tel
+       <lb/><choice><abbr>testam<hi rend="sup">t</hi></abbr><expan>testament</expan></choice> qui a ainsi esté trouvé ouvert devient in<lb break="no"/>valide quand on ne fait pas la <choice><abbr>susd</abbr><expan>susdite</expan></choice> formalité&#160;?
+      </p>
+      
+      <p>
+       <lb/>4. Si dans cette souveraineté l’on est obligé d’observer
+       <lb/>les loix romaines, et si l’on y juge suivant icelles
+       <lb/>ou suivant la coutume du pays&#160;?
+      </p>
+      
+      <p>
+       <lb/>5. Si une veuve peut relever à son choix sur les
+       <lb/>biens de son defunt mari, et <choice><abbr>preferablem<hi rend="sup">t</hi></abbr><expan>préférablement</expan></choice> à tous
+       <lb/>les creanciers d’iceluy, tous les biens qu’elle a mis
+       <lb/>en communion avec lui, et qui ne se trouvent plus
+       <lb/>en estre&#160;?
+      </p>
+      
+      <p>
+       <lb/>6. Si les creanciers du mari, auxquels la femme
+       <lb/>survivante est co-obligée, viennent à agir contre
+       <lb/>elle et sur ses biens <choice><abbr>po</abbr><expan>pour</expan></choice> leur <choice><abbr>payem<hi rend="sup">t</hi></abbr><expan>payement</expan></choice>, si dis-je, elle
+       <lb/>peut en ce cas se recuperer pour son dedommagement
+       <lb/>sur les biens <choice><abbr>dud</abbr><expan>dudit</expan></choice> feu son mari, de tout ce qu’elle a
+       <lb/>esté obligé de payer <choice><abbr>auxd</abbr><expan>auxdits</expan></choice> creanciers&#160;? Ou si elle
+       <lb/>ne doit pas en supporter sa part et moitié&#160;?
+      </p>
+      
+      <p>
+       <lb/>7. Quel est le droit et la portion qu’une veuve <lb/>(ayant vecu passé <date dur="P1Y6W"><term ref="lem014776">an et
+        jours</term></date> avec son mari et n’y <lb/>ayant point d’enfans) peut prelever sur les
+       victuailles <lb/>qui se trouvent en la maison de <choice>
+        <abbr>sond</abbr>
+        <expan>sondit</expan>
+       </choice> mary, apres son <lb/>decès&#160;? </p>
+      
+      <pb n="607v" facs="AVN_B_101.14.001_0607v"/>
+      
+      <p>
+       <lb/>8. Quel droit une telle veuve peut aussi prelever
+       <lb/>sur les habillemens delaissés par <choice><abbr>sond</abbr><expan>sondit</expan></choice> mary, et
+       <lb/>qui ont esté pour l’usage de son corps&#160;?
+      </p>
+      
+      <p>
+       <lb/>9. Quelle est la portion que cette veuve peut
+       <lb/>avoir et retirer en propre sur les acquets meu<lb break="no"/>bles et immeubles, faits pendant la conjonction
+       <lb/>de son mariage avec <choice><abbr>led</abbr><expan>ledit</expan></choice> defunt son mary&#160;?
+      </p>
+      
+      <p>
+       <lb/>10. Quel droit <choice><abbr>lad</abbr><expan>ladite</expan></choice> veuve peut aussi avoir et reti<lb break="no"/>rer en pleine proprieté sur les biens mobiliaires
+       <lb/>appartenans à <choice><abbr>sond</abbr><expan>sondit</expan></choice> mary predecedé&#160;?
+      </p>
+      
+      <p>
+       <lb/>11. Et enfin, de quelle étendue est le droit d’usufruit
+       <lb/><choice><abbr>q<hi rend="sup">e</hi></abbr><expan>que</expan></choice> <choice><abbr>lad</abbr><expan>ladite</expan></choice> veuve peut pretendre sur les biens de
+       <lb/>son mary mort sans enfans, apres les effets <choice><abbr>q<hi rend="sup">lle</hi></abbr><expan>qu’elle</expan></choice>
+       <lb/>en aura retiré en propre&#160;?
+      </p>
+      
+      <p>
+       <lb/><orgName ref="org003085"><choice>
+        <abbr>MesdS<hi rend="sup">rs</hi></abbr>
+        <expan>Mesdits sieurs</expan>
+       </choice> du Conseil</orgName>, ayant eu avis <lb/>par ensemble, donnent par
+       declaration que de <lb/>tout tems immemorial de pere à fils jusqu’à <lb/>present, la coutume
+       de <placeName ref="loc007785">Neufchastel</placeName> est telle. <lb/>Assavoir. </p>
+      
+      <p>
+       <lb/>1. Lors qu’une personne, estant en âge competant,
+       <lb/>en bon sens et en faculté de tester, a écrit
+       <pb n="608r" facs="AVN_B_101.14.001_0608r"/>
+       <lb/>et signé de sa main son <choice><abbr>testam<hi rend="sup">t</hi></abbr><expan>testament</expan></choice>, tel testament doit
+       <lb/>estre valide, quand même elle ne l’aura pas fermé
+       <lb/>et cachetté de son cachet, ni fait signer <add place="below">sur l’envelope d’icelui</add> par un
+       <lb/><choice><abbr>not</abbr><expan>notaire</expan></choice>, ni par cinq à sept témoins.
+      </p>
+      
+      <p>
+       <lb/>2. Une personne qui ecrit et signe de sa main
+       <lb/>son <choice><abbr>testam<hi rend="sup">t</hi></abbr><expan>testament</expan></choice>, n’est pas obligée pour la validité
+       <lb/>d’icelui d’y requerir le seau de la seigneurie.
+      </p>
+      
+      <p>
+       <lb/>3. Il n’est pas necessaire pour l’ouverture d’un
+       <lb/><choice><abbr>testam<hi rend="sup">t</hi></abbr><expan>testament</expan></choice> ecrit et signé de la main d’un testateur,
+       <lb/>qui n’est ni clos ni cacheté, d’observer la formalité
+       <lb/>dont on se sert pour l’ouverture d’un <choice><abbr>testam<hi rend="sup">t</hi></abbr><expan>testament</expan></choice>
+       <lb/>qui est clos et cacheté.
+      </p>
+      
+      <p>
+       <lb/>4. En jugeant, on ne suit pas le droit romain,
+       <lb/>mais bien la coutume particuliere et ancienne
+       <lb/>ecrite et non ecrite usitée dans cette souveraineté.
+      </p>
+      
+      <p>
+       <lb/>5. La femme, soit les heritiers d’icelle, peuvent, avant <lb/>que d’entrer en aucun
+       partage que ce soit, relever <lb/>son dot et mariage et tout ce qu’elle a apporté <lb/>avec
+       son mari, et le retirer sur le bien fonds, ou <lb/><choice>
+        <abbr>obligaon</abbr>
+        <expan>obligation</expan>
+       </choice>, ou de quelle nature qu’il soit estant en estre <lb/>mouvant d’elle, ou sur fonds
+       acquis de ses propres deniers <lb/>au taux&#160;; et le surplus sur les plus clairs biens du
+       <lb/>mari&#160;; et en retirant <choice>
+        <abbr>led</abbr>
+        <expan>ledit</expan>
+       </choice> bien il ne se doit prendre <lb/>aucun <term ref="lem015540">tier denier</term>. </p>
+      
+      <pb n="608v" facs="AVN_B_101.14.001_0608v"/>
+      
+      <p>
+       <lb/>6. Le bien du mari doit supporter et payer les
+       <lb/>dettes qu’il a creées avec sa femme, et si on avoit
+       <lb/>saisi le bien de la femme à cause <choice><abbr>q<hi rend="sup">lle</hi></abbr><expan>qu’elle</expan></choice> se seroit
+       <lb/><choice><abbr>solidairem<hi rend="sup">t</hi></abbr><expan>solidairement</expan></choice> obligée avec lui, icelle se peut
+       <lb/>dedommager sur le bien <choice><abbr>dud</abbr><expan>dudit</expan></choice> son mari s’il y en
+       <lb/>a de reste apres que ses dettes particulieres
+       <lb/>creées devant leur mariage seront payées.
+      </p>
+      
+      <p>
+       <lb/>7. Une veuve ayant vécu <date dur="P1Y6W"><term ref="lem014776">an et
+        jours</term></date> avec <lb/>sont mari mort sans enfans, elle peut retirer <lb/>et prendre
+       du vin et du grain qui se trouve <lb/>dans la maison lors du decès de son mari, <choice>
+        <abbr>hon<lb break="no"/>nestem<hi rend="sup">t</hi></abbr>
+        <expan>honnestement</expan>
+       </choice> pour la nourriture et <choice>
+        <abbr>entretenem<hi rend="sup">t</hi></abbr>
+        <expan>entretenement</expan>
+       </choice>
+       <lb/>d’elle et de son menage <choice>
+        <abbr>seulem<hi rend="sup">t</hi></abbr>
+        <expan>seulement</expan>
+       </choice>
+       <choice>
+        <abbr>po</abbr>
+        <expan>pour</expan>
+       </choice> son année <lb/>sans en faire excès. Et du sur abondant qui <lb/>demeure <choice>
+        <abbr>dud</abbr>
+        <expan>dudit</expan>
+       </choice> blé et vin, la moitié lui appar<lb break="no"/>tient en propre, et l’autre moitié
+       se doit evaluer <lb/>par gens à ce entendus, et le prix et valeur se <lb/>doit mettre en
+       inventaire, afin que les heri<lb break="no"/>tiers d’icelui le puissent retirer en son tems,
+       <lb/>mais quant à l’autre victuaille comme chair, <lb/>fromage, beure, cuir et autres danrées
+        conve<lb break="no"/>nantes à un ménage, elle n’en tient compte et <lb/>n’est obligée d’en
+       restituer aucune chose. </p>
+      
+      <pb n="609r" facs="AVN_B_101.14.001_0609r"/>
+      
+      <p>
+       <lb/>8. Une veuve qui a vécu <date dur="P1Y6W"><term ref="lem014776">an et jours</term></date> avec son mari <lb/>mort sans enfans,
+       herite pour elle et les siens, les <lb/>vêtemens et habits appartenans <choice>
+        <abbr>aud</abbr>
+        <expan>audit</expan>
+       </choice> defunt son <lb/>mari </p>
+      
+      <p>
+       <lb/>9. Elle retire pour elle et les siens la juste moitié
+       <lb/><choice><abbr>generalem<hi rend="sup">t</hi></abbr><expan>généralement</expan></choice> de tous les acquets faits pendant la
+       <lb/>conjonction de son mariage avec le defunt son
+       <lb/>mari, soit tant par trafic de marchandises,
+       <lb/>acquisitions, recompense de services qu’autrement,
+       <lb/>en <choice><abbr>quelq<hi rend="sup">e</hi></abbr><expan>quelque</expan></choice> sorte et maniere qu’iceux <choice><abbr>d</abbr><expan>dits</expan></choice> acquets se
+       <lb/>peuvent faire ; à la reserve des profits et acquets
+       <lb/>que <choice><abbr>sond</abbr><expan>sondit</expan></choice> mari peut avoir fait en guerre, auxquels
+       <lb/>profits fait en guerre, elle y doit avoir <choice><abbr>seulem<hi rend="sup">t</hi></abbr><expan>seulement</expan></choice>
+       <lb/>le quart <choice><abbr>po</abbr><expan>pour</expan></choice> elle et les siens.
+      </p>
+      
+      <p>
+       <lb/>10. Elle herite pour elle et les siens la moitié des biens
+       <lb/>meubles, linge, vaisselle et ustensiles de ménage appar<lb break="no"/>tenans <choice><abbr>aud</abbr><expan>audit</expan></choice> defunt son mari mort sans enfans, tant
+       <lb/>de ceux qui lui appartenoient en propre à l’heure de
+       <lb/>son decès, que de sa part de ceux qu’il a acquis pendant
+       <lb/>la conjonction de <add place="above">son</add> mariage avec elle. Mais pour les
+       <lb/>armes <choice><abbr>dud</abbr><expan>dudit</expan></choice> defunt son mari, elle n’y a aucun droit et
+       <lb/>n’y peut rien pretendre, qu’il y ait des enfans ou non,
+       <lb/>ains les armes du mari doivent incontinant apres sa
+       <lb/>mort parvenir à ses legitimes heritiers, à moins qu’il
+       <pb n="609v" facs="AVN_B_101.14.001_0609v"/>
+       <lb/>n’en ait disposé autrement.
+       <lb/>Et sous le mot de meubles, l’on entend les
+       <lb/>meubles meublans, compris le betail qui se
+       <lb/>trouve dans la maison du defunt lors de son
+       <lb/>decès ; mais le betail à commande, l’or, <choice><abbr>l’arg<hi rend="sup">t</hi></abbr><expan>l’argent</expan></choice>, lettres
+       <lb/>viageres, obligations, cedules, comptes, articles
+       <lb/>sur les livres de raison et autres redevances, et
+       <lb/>la marchandise non plus que le vin et le grain
+       <lb/>ne sont point compris dans le mot de meubles.
+       </p>
+      
+      <p>
+       <lb/>11. Une veuve qui a vecu <date dur="P1Y6W"><term ref="lem014776">an et jours</term></date> avec son mari <lb/>peut jouir <choice>
+        <abbr>generalem<hi rend="sup">t</hi></abbr>
+        <expan>généralement</expan>
+       </choice> tous les biens meubles et <lb/>immeubles <choice>
+        <abbr>aud</abbr>
+        <expan>audit</expan>
+       </choice> mari appartenans lors de son <lb/>decès, n’ayant point laissé d’enfans, tant ceux
+       <lb/>qu’il avoit apporté en communion, que ceux qui <lb/>ont esté acquis constant leur
+       mariage, à la <lb/>reserve des armes qui doivent apres son decès <lb/>parvenir aux heritiers
+       d’icelui. </p>
+      
+      <p>
+       <lb/><choice>
+        <abbr>Laq<hi rend="sup">lle</hi></abbr>
+        <expan>Laquelle</expan>
+       </choice>
+       <choice>
+        <abbr>declaraon</abbr>
+        <expan>déclaration</expan>
+       </choice>, <orgName ref="org003085"><choice>
+        <abbr>Mesds<hi rend="sup">rs</hi></abbr>
+        <expan>mesdits sieurs</expan>
+       </choice> du <choice>
+        <abbr>Cons&#160;:</abbr>
+         <expan>Conseil</expan></choice></orgName>
+         ont ordonné <lb/>à moi, <choice>
+        <abbr>secret</abbr>
+        <expan>secrétaire</expan>
+       </choice> de Ville soussigné, d’expedier en cette <lb/>forme, sous le seau de la mairie et
+       justice <choice>
+        <abbr>dud</abbr>
+        <expan>dudit</expan>
+       </choice>
+       <lb/><origPlace ref="loc007786">Neufchastel</origPlace>, le <origDate when="1706-02-11">11. de fevrier 1706</origDate>. </p>
+      
+     </div>
+      
+      <div>
+       <p>
+        <lb/>L’original est signé par moi.
+       </p>
+       <signed><persName ref="per009011"><choice><abbr>J&#160;J</abbr><expan>Jean-Jacques</expan></choice> Favargier</persName> <figure type="notarial sign"/></signed>
+      </div>
+  
+
+     
+       
+    </body>
+   </text>
+  </group>
+ </text>
+</TEI>

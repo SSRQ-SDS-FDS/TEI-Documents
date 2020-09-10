@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     n="1234"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="headerinfo"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2020-08-17"/>    <date type="print"/>
+    <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Collection des sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS_NE_3_398</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>AVN B 101.14.002, fol. 35v–36r</idno>
+               </msIdentifier>
+               <head>Prescription des lods et droits de la caution</head>
+               <msContents>
+                  <summary>Si un receveur a laissé s’écouler quinze ans sans percevoir le lod d’un
+                     particulier décédé, l’hoirie du défunt peut lui opposer la prescription. Une
+                     caution n’est pas en droit d’agir contre un débiteur principal pour son
+                     dédommagement avant que le créancier ne lui ait fait délivrance de taxe et
+                     n’ait engagé des poursuites contre lui. </summary>
+                  <msItem>
+                     <textLang>français</textLang>
+                     <filiation type="current"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="34.5"/>
+                              <width unit="cm" quantity="22"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1723-07-02"/>
+                     <origPlace ref="loc007786">Neuchâtel</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head/>
+                     <bibl/>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key005133"/>
+               <term ref="key004001"/>
+               <term ref="key005110"/>
+               <term ref="key000274"/>
+               <term ref="key003040"/>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="35v" facs="AVN_B_101.14.002_0035v"/>
+               <div>
+                  <p>
+                     <lb/>Sur la requête présentée par le sieur <lb/>advocat <persName
+                        ref="per008834">Jacot</persName> à messieurs du <orgName ref="org003085"
+                        >Conseil Estroit de la <lb/>Ville de <placeName ref="loc007786"
+                           >Neufchâtel</placeName></orgName>, aux fins d’avoir les trois points
+                     <lb/>de coutume suivants, le <origDate when="1723-07-02">2<hi rend="sup">e</hi>
+                        juillet <hi rend="underline">1723</hi></origDate>. </p>
+                  <p>
+                     <lb/>1<hi rend="sup">o</hi>. Si un receveur vient à répéter à une <term
+                        ref="lem014982">hoirie</term> des articles <lb/>de <term ref="lem014983"
+                        >lods</term> deus depuis passé <date dur="P15Y">quinze anns</date>, elle
+                     n’est pas <lb/>fondée a luy opposer la prescription, tout comme <lb/>une autre
+                     dette&#160;? </p>
+                  <p>
+                     <lb/>2<hi rend="sup">o</hi>. Si en fait de taxe une caution peut, pour se
+                     dédommager <lb/>de la taxe faite contre luy, prendre lettre judiciaire aux
+                     <lb/>deux tiers deniers au principal débiteur avant que le <lb/>créancier ait
+                     pris sa lettre sur les fonds de la ditte <lb/>caution. </p>
+                  <p>
+                     <lb/>3<hi rend="sup">o</hi>. Et si le cas eschet que le débiteur vienne à payer
+                        entière<lb break="no"/>ment le créancier avant qu’il ait fait dresser aucun
+                     rapport <lb/>de lettre sur les biens fonds du fidéjusseur, si la lettre
+                     <lb/>judiciaire qu’aura prise ce fidéjusseur n’est pas <lb/>nulle pour s’être
+                     précipité dans ses suites et tenu <lb/>à ses frais, sans que le débiteur luy
+                     doive autre <lb/>dépends que ceux qui luy auront été faits par le
+                     <lb/>créancier et à son imitation, puis qu’autrement <lb/>la caution
+                     profiteroit de deux tiers deniers sans être <lb/>en dommage, et le débiteur
+                     constitue dans une perte visible <lb/>et injuste. </p>
+                  <pb n="36r" facs="AVN_B_101.14.002_0036r"/>
+                  <p>
+                     <lb/><orgName ref="org003085">Mesdits sieurs du Conseil</orgName>, ayants eu
+                     advis et <lb/>meure préméditation par ensemble, donnent par <lb/>déclaration
+                     que, suivant la coutume usitée en la <lb/>souveraineté de <placeName
+                        ref="loc007785">Neufchâtel</placeName>, la coutume estre telle. </p>
+                  <p>
+                     <lb/>1<hi rend="sup">o</hi>. Sur le premier article, on répond que si un
+                     receveur <lb/>a laissé escouler <date dur="P15Y">quinze anns</date> sans
+                     répéter un <term ref="lem014983">lod</term> relaté <lb/>contre un particulier
+                     qui seroit venu à mourrir dans <lb/>ce laps de tems, l’<term ref="lem014982"
+                        >hoirie</term> de ce deffunt est fondée à se <lb/>servir de la prescription
+                     et à s’opposer à la susditte <lb/>répétition. </p>
+                  <p>
+                     <lb/>2<hi rend="sup">o</hi>. Sur le second, on répond qu’une caution n’est pas
+                     en <lb/>droit d’agir contre un principal débiteur pour son <lb/>dédommagement
+                     qu’autant qu’il est poursuivi par le <lb/>créancier et ne peut par conséquent
+                     faire la <term ref="lem014968">délivran<lb break="no"/>ce de taxe</term> et
+                     rapport d’icelle au principal débiteur <lb/>qu’après que le créancier a fait
+                     ces mesmes usages et <lb/>poursuites contre luy. </p>
+                  <p>
+                     <lb/>3<hi rend="sup">o</hi>. Sur le troisième, on répond à cet article par le
+                     <lb/>second cy dessus. </p>
+                  <p>
+                     <lb/>Ce qui a esté fait ainsi conclu et arrêté, les jours et ann que dessus
+                     <lb/>et ordonné à moy, secrétaire de Ville soussigné, d’expédier le présent
+                     <lb/>en cette forme, sous le sceau de la mayrie et justice dudit <origPlace
+                        ref="loc007786">Neufcha<lb break="no"/>tel</origPlace> et signature de ma
+                     main. </p>
+                  <p>
+                     <lb/>L’original signé. </p>
+               </div>
+               <div>
+                  <signed>
+                     <persName ref="per008827">
+                        <choice>
+                           <abbr>J J</abbr>
+                           <expan>Jean Jacques</expan>
+                        </choice> Purry</persName>
+                     <figure type="notarial sign"/></signed>
+               </div>
+            </body>
+         </text>
+      </group>
+   </text>
+</TEI>

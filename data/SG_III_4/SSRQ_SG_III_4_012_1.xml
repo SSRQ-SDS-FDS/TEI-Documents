@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     n="1234"
+     xml:lang="de"><?xml-model href="20131127_1.rnc" type="application/relax-ng-compact-syntax"?>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-07-01"/>
+            <date type="print"/>
+            <availability><p xml:id="facs">Sibylle Malamud</p></availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_012_1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>Privatarchiv</idno>
+               </msIdentifier>
+               <head>Lehenbrief der Alp Arin von Graf Heinrich II. von Werdenberg-Heiligenberg(-Rheineck)</head>
+               <msContents>
+                  <summary>
+                     <p>Graf Heinrich II. von Werdenberg-Heiligenberg(-Rheineck) verleiht Hans Steinheuel und Fridolin Imboden die Alp Arin zu Erblehen. Sie sollen dafür jährlich auf Martini 38 Mass Schmalz und 10 Käse im Wert von 10 Konstanzer Pfennigen auf die Burg Werdenberg liefern.</p>Der Aussteller siegelt.</summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <filiation type="current">Original</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Pergament</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="11.5"/>
+                              <width unit="cm" quantity="20.0"/>
+                           </dimensions>
+                        </extent>
+                        <condition>Verfärbungen, Schrift stark abgerieben</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <sealDesc>
+                     <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI"
+                           n="1"
+                           nontei:condition="absent"
+                           nontei:attachment="sealed on a parchment tag">
+                        <persName role="sigillant" ref="per000417">Heinrich II. von Werdenberg-Heiligenberg(-Rheineck)</persName>
+                     </seal>
+                  </sealDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1389-05-20">nechsten donstag for unsers herren uffart</origDate>
+                     <origPlace>Werdenberg</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head>Regest</head>
+                     <bibl><ref target="
+                        http://permalink.snl.ch/bib/chbsg000056393">ChSG</ref>, <ref target="https://www.monasterium.net/mom/CSGXIII/6321a/charter">Bd. 13, Nr. 6321a</ref> (Nachtrag zu Band 10)</bibl>
+                     <bibl><ref target="http://permalink.snl.ch/bib/chbsg000142773">Litscher 1919</ref>, S. 19</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000006">Alp</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <div org="uniform" sample="complete">
+                  <pb facs="PA_13890520_1_r"/>
+                  <p><seg><lb/>Wir, graf <persName ref="per000417">Heinrich von Werdenberg, herr zu
+                        Rinegg</persName>, verjehent und tuͦn kunt <damage agent="faded ink"
+                           ><supplied source="OGA Sevelen B 04.11, S. 144">öffent<lb break="no"
+                           />lich</supplied></damage> mit diesem brief für uns und all unser erben,
+                     das wir mit guͦtem willen recht <lb/>und redlich gelihen haben und lihen öch
+                     mit urkund diß briefs Hansen dem <lb/><damage agent="faded ink"><supplied
+                           source="OGA Sevelen B 04.11, S. 144"><persName ref="per004357"
+                              >Steinhüwel</persName> und <persName ref="per004360"
+                           >Friken</persName></supplied>
+                     </damage>
+                     <app>
+                        <lem>In dem Boden</lem>
+                        <rdg wit="OGA Sevelen B 04.11, S. 144">item dem <orgName ref="org000417"
+                              >Mader</orgName></rdg>
+                     </app> ze rechtem <term ref="lem000501">erblehen</term> die alp <placeName
+                        ref="loc006033">Arin</placeName>, gelegen <lb/>ob <damage agent="faded ink"
+                           ><supplied source="OGA Sevelen B 04.11, S. 144">
+                           <placeName ref="loc006034">Masora</placeName></supplied></damage>, mit
+                     holtz, mit feld, mit wasser und mit allen grechtigkeiten, die dar zuͦ gehören,
+                     <lb/>und sond inen und all synen erben die selben alp gelihen nach <term
+                        ref="lem003023">erblehens recht</term> mit <lb/>solichen geding, das si ald
+                     ir erben uns ald unsern erben <date dur="R/P1Y">jarlich</date> da von ze
+                        <damage agent="faded ink"><supplied source="OGA Sevelen B 04.11, S. 144"
+                           >zinsen</supplied></damage>
+                     <lb/>geben sölen <date type="deadline" when="--11-11">uff sant <persName
+                           ref="per000141">Martis</persName>
+                     </date> tag gen <placeName ref="loc000015">Werdenberg</placeName> in die burg
+                     ane allen unseren schaden <lb/>
+                     <measure type="volume" commodity="lard" unit="Mass" quantity="38">acht und
+                        drissig maͤss smaltz</measure> und zehen kes, dar jeklicher gelten sol
+                        <measure type="currency" unit="lb" quantity="10" origin="Konstanz">zehen
+                        Costenzer <lb/>phennig</measure>. Und sond <sic>och</sic> ald unser erben
+                     Hansen <damage agent="faded ink"><supplied source="OGA Sevelen B 04.11, S. 144"
+                              ><persName ref="per004357">Steinhüwel</persName> und <persName
+                              ref="per004360">Friken</persName></supplied></damage>
+                     <app>
+                        <lem>In dem Boden</lem>
+                        <rdg wit="OGA Sevelen B 04.11, S. 144">item dem <orgName ref="org000417"
+                              >Mader</orgName></rdg>
+                     </app>
+                     <lb/>ald ir erben der obgenanten alp <placeName ref="loc006033"
+                        >Arin</placeName> rächtens sin nach erblehens recht, als dis <lb/>sy der
+                     notdurftig sint. Won wir inen die selben alp glihen haben mit allen <damage
+                        agent="faded ink"><supplied source="OGA Sevelen B 04.11, S. 144">rechten und
+                           beschwerden</supplied>,</damage>
+                     <lb/><damage agent="faded ink"><unclear>werchen und
+                     güeteren</unclear></damage>, die darzuͦ gehörrent oder notdurftig sint.</seg>
+                        <seg>Und des ze warer, <lb/>offen urkund, so han ich min eigen insigel
+                        offenlich gehenkt an disen brief, der <lb/>geben ist ze <origPlace
+                           ref="loc000015">Werdenberg</origPlace>, <origDate when="1389-05-20">an
+                           dem nechsten donstag for unsers herren uffart dag, <damage
+                              agent="faded ink"><unclear>als</unclear></damage>
+                           <lb/>man zalt von götz geburt druzehen hundert achzig jar dar nach in dem
+                           nunden <lb/>jar</origDate>.</seg>
+                  </p>
+               </div>
+               <pb facs="PA_13890520_1_v"/>
+               <div org="uniform" sample="complete">
+                  <ab type="dorsal" place="verso">
+                     <damage agent="faded ink">Lechenbrieff um die alp
+                           <placeName ref="loc006033">Arryn</placeName></damage></ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab type="dorsal" place="verso" hand="later hand"><lb/><unclear cert="high"
+                        >Seckelmeister <persName>Schwendener</persName></unclear></ab>
+               </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div n="1" org="uniform" sample="complete">
+            <p>Es handelt sich hier um die älteste Lehenurkunde einer Alp in  der Region Werdenberg.</p>
+         </div>
+         <div n="2" org="uniform" sample="complete">
+            <p>Am <date when="1586-11-11">11. November 1586</date> stellt der Landvogt von Werdenberg für <persName ref="per004358">Hans Mader</persName> und
+						<persName ref="per004359">Hans Steinheuel</persName> im Namen der Alpgenossen der Alp <placeName ref="loc006033">Arin</placeName> von diesem Lehenbrief ein Vidimus aus. Von dem Vidimus existiert eine Abschrift im Kopialbuch von <placeName ref="loc000708">Sevelen</placeName> (<bibl><ref>OGA Sevelen B 04.11-04, S. 144–145</ref></bibl>); zwei weitere Abschriften finden
+               sich auch im <bibl><ref>Kopialbuch von Christian Litscher von 1693</ref>, S. 23–25</bibl> sowie als Fragment im <bibl><ref>Kopialbuch von
+                  Johannes Beusch von 1611</ref>, S. 10–11</bibl> (beide in Privatbesitz). Der Vidimus wurde wohl im Zusammenhang mit der
+     Erstellung eines neuen Alpbuches angefertigt (vgl. dazu die Erlaubnis des <term ref="key000180">Landvogts</term> von Werdenberg am
+						<date when="1486-08-15">15. August 1586</date> für die Alpgenossen der Alp Arin, ein neues Alpbuch anzulegen [<bibl><ref target="https://archivverzeichnis.gl.ch/home/#/content/6a7a5211ccfb4fb8a97abd226f424b07">LAGL
+						AG III.2418:017</ref></bibl>]). Das Alpbuch ist nicht mehr erhalten.</p>
+         </div>
+         <div n="3" org="uniform" sample="complete">
+            <p>Bei <bibl><ref target="http://permalink.snl.ch/bib/chbsg000142773">Litscher 1919</ref>, S. 19,</bibl> ist der Lehenbrief  
+     auf das Jahr <date when="1394">1394</date> datiert nach einer Kopie in der Ariner Alplade. Es handelt sich dort jedoch um einen
+     Druckfehler, da Litscher auf Seite 29 das korrekte Datum <date when="1389">1389</date> nennt. Die Kopie in der Ariner Alplade ist verschollen.</p>
+         </div>
+      </back>
+   </text>
+</TEI>

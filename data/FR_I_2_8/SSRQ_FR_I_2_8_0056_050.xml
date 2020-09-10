@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234" xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+
+			</titleStmt>
+
+			<publicationStmt>
+				<date type="electronic" when="2019-05-29"/>
+				<date type="print"/>
+			</publicationStmt>
+
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ_FR_I_2_8_0056_050</idno>
+			</seriesStmt>
+
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<idno>StAFR, Ratsmanual 174 (1623), S. 263–264</idno>
+					</msIdentifier>
+					<head>Germain Martin Grisonney, German Figuet, Jacques Tissot, Antoine Feudy – Urteil und Anweisung / Jugement et instruction</head>
+					<msContents>
+						<summary></summary> 
+						<msItem>
+							<textLang>de, fr</textLang> 
+							<filiation type="current"/>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support>
+									<material/>
+								</support>
+								<extent>
+									<dimensions type="leaves">
+										<height unit="cm" quantity="0.0"/>
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+									<dimensions type="plica">
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+								</extent>
+							</supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1623-04-15">15 <foreign xml:lang="la">aprilis</foreign> 1623</origDate>
+							<origPlace/>
+						</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+			<particDesc default="false"/>
+			<settingDesc default="false"/>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="263"/><p><lb/>Gfangne</p>
+						
+						<p><gap reason="irrelevant"/><note>Ce passage concerne d’autres individus.</note></p>
+						<p><lb/><persName ref="per009575">Louis <subst><del>Thomas</del><add place="above">German</add></subst> Martin Grisonney</persName> hat das <term ref="lem002679.09">keiserlich recht</term> 
+							<lb/>erlitten und vom <persName ref="per009511">Thoma</persName>, der in <term ref="lem017212.01">accusiert</term>, <term ref="lem006220.04">endtschlagen</term>, soll 
+						<lb/>ordentlich vereidet werden.</p>
+						
+						<p><lb/><persName ref="per009572">German Figuet</persName>, porteur de <term ref="lem015448.03">courbillies</term>, ist ouch ein <term ref="lem017211.01">savoyer</term>, 
+						<lb/>der soll ouch geeidet werden.</p>
+						
+						<p><lb/><persName ref="per009571">Jaques Tissot <choice><abbr>als</abbr><expan>alias</expan></choice> Groz Jaques</persName>, den der <persName ref="per009511">Thomas</persName> ouch <term ref="lem006220.04">endtschlagen</term> 
+							<lb/>hat, ist ouch ein <term>taranteiser</term><note>Il s’agit d'un habitant de la <placeName ref="loc008279">Tarentaise</placeName>.</note>. Ouch vereidet wie die andere.</p>
+						
+						<pb n="266"/><p><lb/>Mer gfangne</p>
+						<p><gap reason="irrelevant"/><note>Ce passage concerne le procès mené contre <persName ref="per009577">Jean Sermoud</persName>. Voir <ref>SSRQ_FR_I_2_8_0057_004</ref>.</note></p>
+						
+						<p><lb/><persName ref="per009533">Anteno Feudi</persName>, der hievor vil bößes bekhent, 
+							<lb/>darnach bim grossen <term ref="lem018287">stein</term> alles verneinet und by 
+						<lb/>diser verneinung standthafft blybt. Syn bruder<note>Gemeint ist <persName ref="per009535">François Feudy</persName>.</note>, 
+						<lb/>der hingericht ist, hat in ouch <term ref="lem006220.04">endtschlagen</term>. 
+						<lb/>Diewyl er aber der bösest syn soll, würt man 
+						<lb/>ine in der gfangenschafft <term ref="lem015340.02">zytigen</term> lassen bis 
+						<lb/>nach <date when="1623-04-20">quasimodo</date><note>Erster Sonntag nach Ostern.</note>.</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+
+<?oxy_options track_changes="on"?>

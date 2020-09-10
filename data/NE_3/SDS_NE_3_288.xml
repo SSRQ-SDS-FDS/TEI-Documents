@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="headerinfo"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <date type="electronic" when="2020-08-17"/>    <date type="print"/>
+    <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Collection des sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS_NE_3_288</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier>
+      <idno>AVN B 101.14.001, fol. 530r–530v</idno>
+     </msIdentifier>
+     <head>Succession de l’épouse décédée avant l’an et jour</head>
+     <msContents>
+      <summary>Si une épouse décède avant un an et six semaines, son mari n’hérite de rien d’autre
+       que du widerfall. Le bien qu’elle a laissé à son enfant, décédé également, revient aux
+       parents maternels, le mari ne peut pas en avoir la jouissance. Le mari ne peut pas non plus
+       jouir du bien que ses enfants héritent de leur grand-père maternel après la mort de leur
+       mère.</summary>
+      <msItem>
+       <textLang>français</textLang>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="33"/>
+          <width unit="cm" quantity="23.5"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <origDate when="1681-11-09" calendar="Julian"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>
+      </origin>
+     </history>
+     <additional>
+      <listBibl>
+       <head/>
+       <bibl/>
+      </listBibl>
+     </additional>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key000920"></term>
+     <term ref="key000815"></term>
+     <term ref="key000138"></term>
+     <term ref="key000558"></term>
+     <term ref="key000476"></term>
+     <term ref="key000803"></term>
+     <term ref="key000244"></term>
+     <term ref="key000336"></term>
+     <term ref="key003013"></term>
+     <term ref="key005028"></term>
+     <term ref="key003521"></term> 
+    </keywords>
+   </textClass>
+   <particDesc default="false"/>
+   <settingDesc default="false"/>
+  </profileDesc>
+ </teiHeader>
+
+ <text>
+  <group>
+   <text>
+    <body>
+        
+     
+     <pb n="530r" facs="AVN_B_101.14.001_0530r"/> 
+        
+     <div>
+      
+      <head>
+       <lb/>La jouissance qu’un<del rend="strikethrough">e</del> pere peut avoir sur les
+       <lb/>biens de sa femme lors qu’elle delaisse un enfant.
+       <lb/>Item, que le mary ne peut jouir que ce que sa
+       <lb/>femme a delaissé à son enfant decedé après elle.
+      </head>
+     
+      <p>
+       <lb/>Sur la requeste presentée <lb/>par le <choice>
+        <abbr>s<hi rend="sup">r</hi></abbr>
+        <expan>sieur</expan>
+       </choice>
+       <persName ref="per009038">Fredrich Rougemont</persName> ancien receveur <lb/>des restes, à monsieur le
+       maistre bourgeois &amp; <lb/><orgName ref="org003085">Conseil Estroit de la ville de
+        <placeName ref="loc007786">Neufchâtel</placeName></orgName>, le <origDate when="1681-11-09" calendar="Julian">ix<hi
+         rend="sup">e</hi> de <lb/>novembre <hi rend="underline">1681</hi></origDate>, tendante aux
+       fins d’avoir les <lb/>poincts de coustume suivans. </p>
+      
+      <p>
+       <lb/>Premierement, si un mary peut avoir en <lb/>vertu de la coustume de <placeName
+        ref="loc007786">Neufchatel</placeName> les biens de sa <lb/>femme en propre ou en
+       jouissance, quand elle meurt <lb/>avant l’<date dur="P1Y6W"><term ref="lem014776">an &amp; jour</term></date>
+       expiré, à compter dès leurs nopces, <lb/>et qu’ils ont esté mariés suivant <choice>
+        <abbr>lad.</abbr>
+        <expan>ladite</expan>
+       </choice> coustume. </p>
+      
+      <p>
+       <lb/>Secondement, si un pere qui n’a pas la <lb/>jouissance des biens de sa femme decedée
+       avant <lb/>l’<date dur="P1Y6W"><term ref="lem014776">an &amp; jour</term></date> de leur mariage, peut avoir
+       la jouissance <lb/>des mesmes biens desvolus à son enfant, lors qu’il <lb/>survit de quelques
+       années à sa mere, ou s’il ne retourne <lb/>pas incontinent aux parens maternels, comme ils
+       <lb/>auroyent fait si la mere n’avoit point laissé d’enfant <lb/>en mourant avant l’<date
+        dur="P1Y6W"><term ref="lem014776">an &amp; jour</term></date>. </p>
+      
+      <p>
+       <lb/>Tiercement, si un pere herite les biens que
+       <lb/>son enfant a eu de la succession de sa mere, ou
+       <lb/>s’il ne retourne pas aux parents maternels.
+      </p>
+      
+      <p>
+       <lb/>Quatrièmement, si lors mesme qu’une
+       <lb/>femme a vescu an et jour avec son mary, il peut
+       <lb/>pretendre la jouissance des biens que ses enfans
+       <lb/>heritent de leur grand pere maternel après la
+       <lb/>mort de leur mere, outre ce qu’elle en avoit en
+       <lb/>mains et en jouissance quand elle mourut.
+      </p>
+      
+      <p>
+       <lb/><orgName ref="org003085">Mesdits sieurs du Conseil</orgName>, ayans eu advis <lb/>et meure premeditation
+       par ensemble, <term ref="lem015635.04">baillent</term> par <lb/>declaration suivant la coustume usitée en la <pb n="530v" facs="AVN_B_101.14.001_0530v"/>
+       <lb/>souveraineté de <placeName ref="loc007785">Neufchâtel</placeName> de pere à fils et de tout <lb/>temps
+       immemorial jusqu’a present, la coustume estre telle. </p>
+      
+      <p>
+       <lb/>Assavoir, sur le premier poinct, que quand un <lb/>mary et une femme sont conjoints par
+       ensemble <del rend="overwritten">a</del><add place="overwritten">e</add>n <lb/>mariage
+       suivant la coustume du pais, et la mere <lb/>venant à mourir avant l’<date dur="P1Y6W"
+        ><term ref="lem014776">an &amp; jour</term></date> expiré, quoy <lb/>qu’elle aye laissé un enfant qui
+       mourut après, le <lb/>survivant ne peut rien heriter que ce que la deffunte <lb/>luy a baillé
+       par le <term ref="lem015070">Wederfal</term>. </p>
+      
+      <p>
+       <lb/>Sur le second poinct, declarent que le
+       <lb/>mary ne peut rien avoir en jouissance que ce que
+       <lb/>la mere avoit laissé à son enfant durant le temps
+       <lb/>qu’il a vécu, mais estant mort, incontinent ledit
+       <lb/>bien retourne aux parents maternels.
+      </p>
+      
+      <p>
+       <lb/>Sur le troisième, il est decidé par le devandit
+       <lb/>poinct.
+      </p>
+      
+      <p>
+       <lb/>Sur le quatrième, declarent que le mary
+       <lb/>ne peut rien pretendre à la jouissance des biens que
+       <lb/>ses enfans heritent de leur grand pere maternel
+       <lb/>après la mort de leur mere, outre ce qu’elle en avoit
+       <lb/>en main et en jouissance quand elle est morte.
+      </p>
+      
+      <p>
+       <lb/>Ce qu’a esté ainsi passé, conclud et arresté <lb/>les <date dur="P1Y6W"><term ref="lem014776">an &amp;
+         jour</term></date> que devant, et ordonné à moy <choice>
+        <abbr>secret</abbr>
+        <expan>secrétaire</expan>
+       </choice>
+       <lb/>de ville l’expedier en cette forme, sous le <term ref="lem016327">seel</term> de la <lb/>mayrie &amp; justice dudit
+       <origPlace ref="loc007786">Neufchatel</origPlace>, &amp; signature de <lb/>ma main. </p>
+      
+      <p>
+       <lb/>Pour copie extraite de sur celle qu’en avoit fait sur <lb/>l’original feu <choice>
+        <abbr>Mons<hi rend="sup">r</hi></abbr>
+        <expan>monsieur</expan>
+       </choice> le secretaire de ville, <persName ref="per009020"><choice><abbr>M.</abbr><expan>Maurice</expan></choice> Tribolet</persName>. </p>
+      
+     </div>
+      
+      <div>
+       <signed><persName ref="per008992"><choice><abbr>N</abbr><expan>Nicolas</expan></choice> Huguenaud</persName> <figure type="notarial sign"/></signed>
+      </div>
+     
+       
+    </body>
+   </text>
+  </group>
+ </text>
+</TEI>

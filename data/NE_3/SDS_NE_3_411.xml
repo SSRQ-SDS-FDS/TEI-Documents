@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     n="1234"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="headerinfo"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2020-08-17"/>    <date type="print"/>
+    <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Collection des sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS_NE_3_411</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>AVN B 101.14.002, fol. 52r–52v</idno>
+               </msIdentifier>
+               <head>Stipulation dans les obligations et dans les billets de main privée de
+                  l’intérêt au cinq pour cent et au-dessous</head>
+               <msContents>
+                  <summary>Il est permis de stipuler, tant dans les obligations reçues par les
+                     notaires que dans les billets de main privée, l’intérêt du capital à raison de
+                     cinq pour cent par an, ou au-dessous.</summary>
+                  <msItem>
+                     <textLang>français</textLang>
+                     <filiation type="current"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="34.5"/>
+                              <width unit="cm" quantity="22"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1735-12-31"/>
+                     <origPlace ref="loc007786">Neuchâtel</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head/>
+                     <bibl/>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key004001"/>
+               <term ref="key005049"/>
+               <term ref="key004969"/>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="52r" facs="AVN_B_101.14.002_0052r"/>
+               <div>
+                  <head>
+                     <lb/>S’il est permis de <term ref="lem017005.03">stipuler</term>, dans les <lb/>obligations &amp;
+                     dans les <term ref="lem014772">billets</term> de main <lb/>privée, l’interrêt
+                     au cinq pour cent &amp; <lb/>au dessous.</head>
+               </div>
+               <div>
+                  <p>
+                     <lb/>Sur la requette presentée à <lb/>monsieur le maître bourgeois en chef et à
+                     <lb/>messieurs du <orgName ref="org003085">Conseil Étroit de la Ville de
+                           <placeName ref="loc007786">Neuf<lb break="no"
+                        />chatel</placeName></orgName>, par la <orgName ref="org003320">chambre de
+                        la maison de <lb/>charité</orgName> de la dite ville, aux fins d’avoir la
+                     <lb/>déclaration de la coutume de ce païs, sur le <lb/>cas suivant, sçavoir. </p>
+                  <p>
+                     <lb/>Si les loix et coutumes de cette souveraineté <lb/>ne permettent et
+                     n’authorisent pas même, la <lb/>promesse et <term ref="lem017005">stipulation</term> de
+                     l’interrêt du capital <lb/>au cinq pour cent, et au dessous, dans une
+                     <lb/>obligation qui est recue par un<del rend="blackened">e</del> notaire
+                     <lb/>public, aussi bien que dans un <term ref="lem014772">billet</term> de
+                     <lb/>main privée, en sorte que le créancier n’est <lb/>pas moins en droit
+                     d’exiger les interrêts, que <lb/>de se faire payer du capital d’une obliga<lb
+                        break="no"/>tion rentuelle dressée &amp; <term ref="lem017005.02">stipulée</term> dans cette
+                     <lb/>souveraineté. </p>
+                  <p>
+                     <lb/>Messieurs le maître bourgeois en chef <lb/>&amp; du <orgName
+                        ref="org003085">Conseil Étroit</orgName>, après avoir consulté &amp;
+                        <lb/><add place="below" type="catchword">déliberé</add>
+                     <pb n="52v" facs="AVN_B_101.14.002_0052v"/>
+                     <lb/>déliberé entr’eux, ont donné par décla<lb break="no"/>ration, que de tout
+                     tems, suivant la coutume <lb/>de <placeName ref="loc007785"
+                        >Neufchatel</placeName>, <seg>il a été permis de <term ref="lem017005.03">stipuler</term>, <lb/>tant dans
+                        les obligations recues par les notaires <lb/>de ce païs, que dans les <term
+                           ref="lem014772">billets</term> de main pri<lb break="no"/>vée, l’interrêt
+                        du capital à raison du cinq <choice>
+                           <abbr>p.cent</abbr>
+                           <expan>pourcent</expan>
+                        </choice>
+                        <lb/>par an, ou au dessous, et qu’en conséquence <lb/>un créancier peut
+                        exiger le payement des <lb/>interrêts promis &amp; échus, tout comme du
+                        <lb/>sort principal d’une obligation rentuelle <lb/>stipulée dans cette
+                        souveraineté.</seg>
+                  </p>
+                  <p>
+                     <lb/>Laquelle déclaration ainsi faite, il a <lb/>été ordonné, au secrétaire de
+                     Conseil soussigné <lb/>de l’expédier en cette ferme, sous le seau de <lb/>la
+                     mairie &amp; justice de <origPlace ref="loc007786">Neufchatel</origPlace> le
+                        <lb/><origDate when="1735-12-31">trente &amp; unième décembre mil sept cents
+                        <lb/>trente cinq</origDate>. </p>
+                  <p>
+                     <lb/>Signé à l’original. </p>
+               </div>
+               <div>
+                  <signed>
+                     <persName ref="per008676">
+                        <choice>
+                           <abbr>P</abbr>
+                           <expan>Philibert</expan>
+                        </choice> Perroud</persName>
+                     <figure type="notarial sign"/></signed>
+               </div>
+            </body>
+         </text>
+      </group>
+   </text>
+</TEI>

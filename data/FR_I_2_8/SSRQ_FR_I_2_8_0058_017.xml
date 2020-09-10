@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+
+			</titleStmt>
+
+			<publicationStmt>
+				<date type="electronic" when="2019-05-29"/>
+				<date type="print"/>
+			</publicationStmt>
+
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ_FR_I_2_8_0058_017</idno>
+			</seriesStmt>
+
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<idno>StAFR, Thurnrodel 11, S. 306–307</idno>
+					</msIdentifier>
+					<head>Françoise Dévaud-Clerc – Verhör / Interrogatoire</head>
+					<msContents>
+						<summary></summary> 
+						<msItem>
+							<textLang>fr, de</textLang> 
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support>
+									<material></material>
+								</support>
+								<extent>
+									<dimensions type="leaves">
+										<height unit="cm" quantity="0.0"/>
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+									<dimensions type="plica">
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+								</extent>
+							</supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1623-05-27"></origDate>
+							<origPlace></origPlace>
+						</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+							
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		
+		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+			<particDesc default="false"/>
+			<settingDesc default="false"/>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="306"/><p><lb/><origDate when="1623-05-27">27 <foreign xml:lang="la">maii</foreign> 1623</origDate><note>Das Verhör fand im <placeName ref="loc007683">Bösen Turm</placeName> statt.</note>, <foreign xml:lang="la"><choice><abbr>j</abbr><expan>judex</expan></choice></foreign> <abbr>h</abbr> <persName><choice><abbr>groß</abbr><expan>großweibel</expan></choice></persName><note>Gemeint ist <persName ref="per009249">Daniel von Montenach</persName>.</note>
+							<seg><lb/><abbr>H</abbr> <persName ref="per006751">Erhart</persName>, <abbr>h</abbr> <persName ref="per009449">Vögeli</persName></seg>
+							<seg><lb/><abbr>H</abbr> <persName ref="per009254">Progin</persName>, <abbr>h</abbr> <persName ref="per006751">Erhart</persName></seg>
+							<seg><lb/><persName ref="per009451a.01"><choice><abbr>C</abbr> <expan>Christoph</expan></choice> von Ligertz</persName>, <persName ref="per009271">Wildt</persName>, <persName ref="per009221a.01">Raze</persName></seg>
+							<seg><lb/><del rend="rubbing">Gottrouw</del>, <persName ref="per009460">Gottroud</persName>, <persName ref="per009253">Bocard</persName></seg>
+							<seg><lb/><choice><abbr>W</abbr> <expan>Weibel</expan></choice></seg></p>
+						
+						<p><gap reason="irrelevant"/><note>Ce passage concerne d’autres individus.</note></p>
+						<pb n="307"/><p><note>Vor <persName ref="per009453">Françoise Clerc</persName> wurden andere Personen verhört.</note>
+						<lb/><add place="left margin"><foreign xml:lang="la">Nihil solvit</foreign>.</add> <persName ref="per009453">Franceysa Clerc</persName> continue ses confessions&#160;; 
+						<lb/>dit <persName>Sathan</persName> l’avoir tancé et detourné d’estre 
+						<lb/>constante, confirmant avoir veu en la 
+							<lb/><term ref="lem017043.01">secte</term> la <persName ref="per009487">Waleysanna</persName>. <add place="left margin">Hingricht mit <lb/>dem <term ref="lem007052">schwert</term>, den <lb/><origDate when="1623-05-29">29. <foreign xml:lang="la">maii</foreign> 1623</origDate>, <lb/><measure type="currency" unit="lb" quantity="6">6 </measure> fürs <lb/>proces.</add><note>Laut Ratsmanual wurde sie am <date when="1623-05-30">30.5.1623</date> hingerichtet.</note></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+
+
+
+<?oxy_options track_changes="on"?>

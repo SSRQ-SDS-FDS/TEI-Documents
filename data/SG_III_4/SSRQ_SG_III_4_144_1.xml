@@ -1,0 +1,684 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften
+     und Landstädte, Band 4: Die Rechtsquellen der Grafschaft Werdenberg, Freiherrschaft
+     Sax-Forstegg und Herrschaft Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-08-15"/>
+            <date type="print"/>
+            <availability><p xml:id="facs">Staatsarchiv St. Gallen (StASG)</p></availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_144_1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>StASG AA 3 U 17</idno>
+               </msIdentifier>
+               <head>Schiedsspruch im Streit um Rheinwuhren zwischen Triesen, Vaduz und Schaan einerseits und Buchs, Sevelen und Wartau andererseits</head>
+               <msContents>
+                  <summary>
+                     <p>Graf Schweikhard von Helfenstein, Freiherr Peter von Mörsberg, Freiherr
+                        Konrad von Bemelberg, Administratoren der Grafen Rudolf und Karl Ludwig von
+                        Sulz, Herren von Vaduz, Schellenberg und Blumenegg, sowie alt Landammann
+                        Melchior Hässi und Landessäckelmeister Thomas Schmid von Glarus schlichten
+                        nach einem Augenschein einen Streit um Rheinwuhren zwischen den Untertanen
+                        von Triesen, Vaduz und Schaan einerseits und den Untertanen von Buchs,
+                        Sevelen und von Wartau andererseits.</p>
+                     <p>1. Im Streit zwischen Triesen und Wartau sollen die Landvögte von Sargans,
+                        Werdenberg und Vaduz gemeinsam das obere Triesner Wuhr und das Wartauer Wuhr
+                        in Augenschein nehmen.</p>
+                     <p>2. Die Triesner sollen das Kopfwuhr so verkleinern, dass ihre Landstrasse
+                        strich- und nicht schupfweise geschützt wird. Zusätzlich dürfen sie
+                        Streichwuhren errichten.</p>
+                     <p>3. Das Wuhr unterhalb Triesen ist zu stark gekrümmt. Es soll gemäss Vertrag
+                        von 1562 innert Jahresfrist korrigiert werden.</p>
+                     <p>4. Bei dem neuen Wuhr in Sevelen soll in Anwesenheit der Landvögte von
+                        Werdenberg und Vaduz über eine neue Lösung verhandelt werden.</p>
+                     <p>5. Beim Wuhr unter dem Vaduzer Bächlein soll die untere Krümmung ausgefüllt
+                        werden, die obere soll bleiben.</p>
+                     <p>6. Die Buchser können ein Wuhr errichten, doch unter Kontrolle der Landvögte
+                        von Werdenberg und Vaduz sowie der Wuhrmeister.</p>
+                     <p>7. Triesen, Sevelen, Buchs bekommen je zwei, Vaduz und Schaan gemeinsam zwei
+                        Wuhrmeister. Diese beraten sich jeweils in Anwesenheit der Landvögte.
+                        Grundlage bildet der Vertrag von 1562. Wer ohne dieses Gremium Wuhren baut,
+                        wird mit 14 Pfund gebüsst.</p>
+                     <p>Es wird für die Administratoren und Glarus je ein Original ausgestellt. Die
+                        Untertanen bekommen je eine beglaubigte Abschrift.</p>
+                     <p>Die Aussteller siegeln.</p>
+                  </summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <filiation type="current">Original</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Pergament</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="39.5"/>
+                              <width unit="cm" quantity="57.0"/>
+                           </dimensions>
+                           <dimensions type="plica">
+                              <width unit="cm" quantity="8.0"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <sealDesc>
+                     <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI"
+                           n="1"
+                           nontei:condition="well-preserved"
+                           nontei:material="wax in a box"
+                           nontei:shape="round"
+                           nontei:attachment="sealed on a parchment tag" facs="StASG_AA_3_U_17_s_01">
+                        <persName role="sigillant" ref="per009042a">Schweikhard von Helfenstein</persName>
+                     </seal>
+                     <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI"
+                           n="2"
+                           nontei:condition="well-preserved"
+                           nontei:material="wax in a box"
+                           nontei:shape="round"
+                           nontei:attachment="sealed on a parchment tag" facs="StASG_AA_3_U_17_s_02">
+                        <orgName role="sigillant" ref="org001197">Glarus</orgName>
+                     </seal>
+                  </sealDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1582-02-20"/>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000520">Wuhr</term>
+               <term ref="key004405">Wuhrmeister</term>
+               <term ref="key000817">Vertrag</term>
+               <term ref="key004049">Schupfwuhr</term>
+               <term ref="key001117"/>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <div org="uniform" sample="complete">
+                  <pb facs="StASG_AA_3_U_17_r"/>
+                  <p>
+                     <seg>
+                        <lb/>Wir, <persName ref="per009042a">Schweigkhart, grave zu Hellffenstain,
+                           <lb/>freyherr zu <placeName ref="loc008155">Gundelfingen</placeName> unnd
+                              <placeName ref="loc008156.02">Gomögnis</placeName></persName>, <choice>
+                           <abbr>f</abbr>
+                           <expan>fürstlicher</expan>
+                        </choice>
+                        <choice>
+                           <abbr>Bay</abbr>
+                           <expan>Bayerischer</expan>
+                        </choice> rath unnd <term ref="lem006292">pfleger</term> zu <placeName
+                           ref="loc008157.02">Landtsperg</placeName>
+                        <abbr>etc</abbr>, <persName ref="per009040a">Peter, freyherr zu <placeName
+                              ref="loc008158.02">Mörßperg</placeName> unnd <placeName
+                              ref="loc008159.02">Beffort</placeName></persName>, <choice>
+                           <abbr>fürstl</abbr>
+                           <expan>fürstlicher</expan>
+                        </choice>
+                        <choice>
+                           <abbr>dht</abbr>
+                           <expan>des herrn</expan>
+                        </choice> ertzhertzog <persName ref="per006798a">Ferdinanden zuo <placeName
+                              ref="loc000589">Österreich</placeName></persName> rath unnd landvogt
+                        inn <lb/><placeName ref="loc008160.02">Orttnauw</placeName>, unnd <persName
+                           ref="per009041">Conradt, freyherr zu <placeName ref="loc008161.01"
+                              >Bemelberg</placeName> unnd <placeName ref="loc008163.02"
+                              >Hochennburg</placeName></persName>, herr zu <placeName
+                           ref="loc008162.03">Marckht Bißingen</placeName>
+                        <abbr>etc</abbr>, als von der Römischen <choice>
+                           <abbr>kay</abbr>
+                           <expan>kayserlichen</expan>
+                        </choice>
+                        <choice>
+                           <abbr>mht</abbr>
+                           <expan>majestät</expan>
+                        </choice>
+                        <abbr>etc</abbr>, unserm allergnedigisten herren, dem wolgebornnen, unnsern
+                        freündtlichen, lieben vettern <persName ref="per009043a"
+                           >Ruodolffen</persName> unnd <persName ref="per000916a">Carlin Ludwigenn,
+                           <lb/>graven zu Sultz</persName>, lanndtgraven in <placeName
+                           ref="loc000854">Kleggew</placeName>, herrn zu <placeName ref="loc006197"
+                           >Vadutz</placeName>, <placeName ref="loc007232.02"
+                           >Schellenberg</placeName> unnd <placeName ref="loc007908.03"
+                           >Blomeneckh</placeName>, verordnete <term ref="lem009146"
+                           >administratorn</term>, so dann wir, nachbenannte <persName
+                           ref="per001872a">Melchior Hessi</persName>, allt lanndtaman, unnd
+                           <persName ref="per009044a">Thoman Schmidt</persName>,
+                        lanndtseckellmayster, beede des rahts zue <lb/><placeName ref="loc000326"
+                           >Glaris</placeName>, alls vonn herrn lanndtaman unnd gantzen lanndtrath
+                        daselbstenn zue <placeName ref="loc000326">Glaris</placeName> abgeordnete
+                        bottschafft, bekhennen unnd thun khundt menigklichem, demnach zwischen denn
+                        underthonnen der herrschafft <placeName ref="loc007026"
+                           >Sulltz</placeName><note anchored="true">Die Nennung Herrschaft Sulz ist
+                           ungewöhnlich. Sulz am Neckar liegt in Baden-Württemberg und bildet
+                           anfänglich den Schwerpunkt der Herrschaft der Grafen von Sulz. Die
+                           Gemeinden <placeName ref="loc000425">Triesen</placeName>, <placeName
+                              ref="loc000803">Vaduz</placeName> und <placeName ref="loc001079"
+                              >Schaan</placeName> gehören zur Herrschaft <placeName ref="loc006197"
+                              >Vaduz</placeName>, die 1510 zusammen mit den Herrschaften <placeName
+                              ref="loc007908">Blumenegg</placeName> und <placeName ref="loc007232"
+                              >Schellenberg</placeName> an die Grafen <orgName ref="org000489">von
+                              Sulz</orgName> kommt, vgl. dazu <bibl><ref
+                                 target="http://www.hls-dhs-dss.ch/textes/d/D19543.php"
+                              >HLS</ref></bibl>.</note> zu <placeName ref="loc000425.04"
+                           >Trißen</placeName>, <placeName ref="loc000803.01">Vadutz</placeName>
+                        unnd <lb/><placeName ref="loc001079.03">Schann</placeName> ains unnd der
+                        graveschafft <placeName ref="loc000440">Werdennberg</placeName>, irer
+                        unnderthonnen zue <placeName ref="loc000198">Buchs</placeName> unnd
+                           <placeName ref="loc000708">Sevellen</placeName> unnd herrschafft
+                           <placeName ref="loc000827">Warttaw</placeName> andersthaills des <term
+                           ref="lem000768">wuerenns</term> am <placeName ref="loc000644.13"
+                           >Rehin</placeName> halber spenn, irrung unnd stöß enndtstannden, das
+                        jeder thaill sich wider <lb/>brieff unnd sigell des wueren gebraucht
+                        zuhabenn vermainnt. Welche brief unnd sigell vermechten, wie auch <term
+                           ref="lem015084.02">landtberüchig</term>, wo einem thaill wuorenns
+                        vonnötten, mit deß andern vorwissenn unnd willen geschechen, als dann der
+                           <lb/><term ref="lem011534">schnur</term> nach den schadenn wol besseren
+                        möge, aber <term ref="lem015087.02">schupff unnd buckh</term> sich in allweg
+                        enndthallten unnd nit gebrauchenn solle.</seg>
+                     <seg>Solchem enndtgegen unnd zuwider die zu <orgName ref="org002399"
+                           >Trißen</orgName> sich ab dennen von <orgName ref="org001835"
+                           >Warttaw</orgName>, das sy inen zu nachthaill ge<lb break="no"/>wueret
+                        unnd die von <orgName ref="org001834">Sevelle</orgName>, das die von
+                           <orgName ref="org002399">Trißen</orgName> oberhalb irer <term
+                           ref="lem015088.02">vich trünckhen</term> ain <term ref="lem015090"
+                           >kopff</term>, so dann vom grossen <term ref="lem000471">stain</term> bey
+                        dem <term ref="lem000229">würtshauß</term> ain <term ref="lem015089.02">krum
+                           wuer</term> in <placeName ref="loc000644.01">Rein</placeName>
+                        geschlagenn, beclagdt, dardurch die von <orgName ref="org001834"
+                           >Sevellen</orgName> ain wuehr bey dem <lb/><placeName ref="loc008165.02"
+                           >Haberwuer</placeName> dargegen zu <term ref="lem000323">bawen</term>
+                        verursacht sein vermeindt. Ab welchem die von <orgName ref="org001834"
+                           >Sevellen</orgName> new <term ref="lem000769">wuer</term>, die von
+                           <orgName ref="org001877">Vadutz</orgName> unnd <orgName ref="org001878"
+                           >Tschan</orgName> sich das inen dasselbig zu nachtaill gelannge,
+                        beschwertt. Dergleichenn die von <orgName ref="org001912">Buchs</orgName>
+                        wider deren von <lb/><orgName ref="org001877">Vadutz</orgName> unnd <orgName
+                           ref="org001878">Tschann</orgName> wuer, so sy neben dem <term
+                           ref="lem014715">einfluss</term> des <placeName ref="loc000803.01"
+                           >Vadutzer</placeName>
+                        <term ref="lem002586">bechlins</term> der schnuer nach schlagen sollen, aber
+                        oben unnd unden sich bieckhe unnd krümmen gebraucht, clag eingefiert unnd
+                        die buckh der schnur nach außzue<lb break="no"/>füerenn begert.</seg>
+                     <seg>Neben dem der ernvest <persName ref="per001960a.04">Hanns Ellmar</persName>,
+                        der zeit lanndtvogdt der graffschafft <placeName ref="loc007867">Werdenberg
+                           unnd herrschafft Warthauw</placeName>, deß raths zu <placeName
+                           ref="loc000326">Glaris</placeName>, fürgebracht, wie der <placeName
+                           ref="loc000644">Rhein</placeName> gegen denen von <placeName
+                           ref="loc000198">Buchs</placeName> zugefallen, daß inen <lb/>schaden
+                        zuefürkhomme aines kleinnen <term ref="lem000769">wuehrs</term> vonnötten,
+                        mit nachparlicher pitt, man wollte inen dasselbig guettwillig
+                        gestatten.</seg>
+                     <seg>Also obgedachter aller unnd jeder wuehren klag und beschwerden der <term
+                           ref="lem003214">augenschein</term> von ain<lb break="no"/>em landt zu dem
+                        andern eingenommenn, alle gelegenhait von obenher <placeName ref="loc000644"
+                           >Rheins</placeName> herab biß gehn <placeName ref="loc000440"
+                           >Werdenberg</placeName> nach notturfft besichtiget, auch wo vonnöten
+                        gewesen, brieff unnd sigell abgehört unnd auß sollcher ganntzen
+                        <lb/>hanndlung befunndenn, da beederthaills unnderthonnen sich gegen
+                        ainandern nach außweysunng brieff unnd sigell ainer bessern beschaidennheitt
+                        gebrauchen, das deren spenn unnd stöß in dem, das jederthaill da <lb/>ime
+                        wuerenns vonnöttenn, mit deß andern vorwissenn thon unnd wz er beschaidenn,
+                        sich desselbigenn gebrauchenn unnd weitter nit schreittenn sollte, vill
+                        verhüett werdenn kendten. Wann aber zubesorrgent, wo nit <lb/>etwa ain
+                        mittell fürfallennder <term ref="lem009034">wassers</term> noht unnd gefahr,
+                        weß sich der gfahrenndt thaill im <term ref="lem000768">wuehrenn</term> zue
+                        halltenn gesucht, dardurch bey den unnderthonnenn ainanndernn wie bißher
+                        selbst <sic>anzusuchennn</sic>
+                        <lb/>abgestellt, das sy sich der <term ref="lem004961">gefahr</term> nit
+                        enndthalltenn unnd zwischenn innenn nimmermehr rhue oder früdenn sein werde,
+                        so habenn wir unns, wie nit allein oberzelltenn spennenn, irrunngenn unnd
+                        stossen <lb/>an jetzunnder gleich <sic>abgeholffennn</sic>, sonnder auch so
+                        woll denn oberkhaittenn täglichenn <term ref="lem012000">überlauffs</term>
+                        als denn <term ref="lem000329">unnderthonnenn</term> zu bestenndiger <term
+                           ref="lem003485">rhue</term>, auch abstellung viller muehe, versaumnus
+                        unnd costenns, weß <lb/>mann sich nun fürohin, da ainem oder dem andernn
+                        thaill wuehrenns vonnöttenn sein wurde, zuverhalltenn, mit ainanndern
+                        freünndtlich unnd nachpürlich unnderredt und aller sachenn nothwenndiger
+                        gelegenhait <lb/>nach verainbart unnd verglichenn:</seg>
+                     <seg>Erstlichs so vil gegenwerttige clagenn unnd beschwerdenn unnd nammlichen
+                        die <orgName ref="org002399">Trißammer</orgName> unnd <orgName
+                           ref="org001835">Warttawer</orgName> belannget, dieweill die von <orgName
+                           ref="org001835">Wartaw</orgName> dißmalle <lb/>nit zugegenn, das dann die
+                        drei <term ref="lem000266">lanndtvögdt</term>
+                        <placeName ref="loc000925.30">Sargames</placeName>, <placeName
+                           ref="loc000440">Werdenberrg</placeName> unnd <placeName ref="loc006197"
+                           >Vadutz</placeName> fürderrlichenn zusammenn khommenn, denn <term
+                           ref="lem003214">augennscheinn</term> der <orgName ref="org002399"
+                           >Trißammer</orgName> ober unnd der <orgName ref="org001835"
+                           >Warttawer</orgName> dargegen gemachtenn <lb/><term ref="lem000769.24"
+                           >wuehr</term>
+                        <sic>besichtigennn</sic>, sich fründtlich unnd nachparlich mit ainannder
+                        verglichenn. Wo es aber über allenn <sic>angewennndtem</sic> vleiß nit sein
+                        kunndte oder wollte, jedemm thaill sein gepürlich recht vorbehalten
+                        <lb/>sein soll.</seg>
+                     <seg>Zum anndernn, diewyll die von <orgName ref="org002399">Trißenn</orgName>
+                        bey dem <term ref="lem002796.04">gesslinn</term> von <term ref="lem000103"
+                           >dorff</term> herab oberhalb irer in <placeName ref="loc000644.21"
+                           >Reihnn</placeName>
+                        <term ref="lem015088.03">vichtrünnckhenn</term> ain <term ref="lem015090.02"
+                           >kopff</term> gleichwol zu beschirmunng der <term ref="lem000596"
+                           >lanndtstrassenn</term>
+                        <lb/>in <placeName ref="loc000644.21">Reihnn</placeName> geschlagenn, aber
+                        dennenn zu <orgName ref="org001834">Sevellenn</orgName> zu nachthaill
+                           <sic>gelannngt</sic>, sollenn sy, die vonn <orgName ref="org002399"
+                           >Trissenn</orgName>, dennselben kopf biß auff <measure type="length"
+                           quantity="2" unit="Klafter">zwai gutte werckh klaffter</measure>, so sie
+                        streich- unnd nit schupfweis zu erhalltunng der <lb/>lanndstraß behalltenn
+                        mögen, schliessenn unnd vonn dannenn hin der lanndtstraß durch nider inen
+                        mit <term ref="lem000770.09">streichwuerenn</term> zu irer notturfft ze
+                        werren unbenommenn, sonnder zugelassenn <lb/>sein, doch gefahr hindann
+                        gesetzt.</seg>
+                     <seg>Zum dritten, deß wuehrenns halb, so von dem grossemm <term ref="lem000471"
+                           >stainn</term> zue negst unnder dem <term ref="lem000103">dorff</term>
+                        <placeName ref="loc008164.02">Trißenn</placeName> durch die vonn <orgName
+                           ref="org002399">Trißenn</orgName> gemacht, dieweill daß<lb break="no"
+                        />selbig zuvill gekrümnt, ist erleüteret unnd <sic>gesprochennn</sic>, das
+                        die von <orgName ref="org002399">Trißenn</orgName> denn <term
+                           ref="lem014112.03">buckh</term> in <date dur="P1Y">jarsfrist</date>,
+                        damit es, durch auß inmassenn der anno <date when="1562">ain tausenndt
+                           fünffhunndert sechtzig zway <lb/>jar</date> auferricht vertrag<note
+                           anchored="true">Original vom <date when="1562-05-16">16. Mai 1562</date>:
+                              <ref
+                              target="https://login.gmg.biz/earchivmanagement/projektdaten/earchiv/Media/gat_u49_1562_05_16_sm.pdf"
+                              >GA Triesen U 49</ref>.</note> außweisst, <term ref="lem015085.02"
+                           >snuerrichtig</term> sey, vom annfanng biß zum enndt ausfillenn
+                        sollenn.</seg>
+                     <seg>Zum vierttenn, dieweill die vonn <orgName ref="org001834"
+                           >Sevellenn</orgName> ihr new <term ref="lem000769">wuer</term> zunegst
+                        <lb/>unnder dem <placeName ref="loc008165.03">Haber Wuehr</placeName> vonn
+                        wegenn derenn vonn <orgName ref="org002399">Trißenn</orgName> obgedachtenn
+                           <term ref="lem015090">kopfs</term> unnd wuehrs zuschlagen verurrsacht
+                        unnd dennenn vonn <orgName ref="org002399">Trißenn</orgName> dasselbig
+                        innhallt vorgeenndenn articulls zubesseren <lb/>ufferlegit, dennen vonn
+                           <orgName ref="org001834">Sevellen</orgName> dardurch weitter khein
+                        schadenn zugefahrenn unnd derowegenn allsbaldt auch der <term
+                           ref="lem011534">schnuer</term> nach zubesserenn schuldig werrenn. Nach
+                        dem sy aber angezaigdt, das inen der <placeName ref="loc000644"
+                           >Rhein</placeName> oben herab <lb/>leichtlich hinder dem wuehr einbrechen
+                        unnd dann undem gegenn dem alltenn wuehr auch wider einfallenn, allso
+                        grossenn schadenn thonn möchte, ist vonn dennen zu <orgName ref="org001878"
+                           >Tschann</orgName> unnd <orgName ref="org001877">Vadutz</orgName>
+                        bewilliget, das in bey<lb break="no"/>sein beeder lanndtvögtenn zu
+                           <placeName ref="loc006197">Vadutz</placeName> unnd <placeName
+                           ref="loc000440">Werdennberg</placeName>, auch derenn zu <orgName
+                           ref="org001878">Tschann</orgName>, <orgName ref="org001877"
+                           >Vadutz</orgName> unnd <orgName ref="org002399">Trißen</orgName> zu
+                        verrhiettung anngezaigter zer erwarttennder gefahr, jetzunder allein
+                        erbessern mögen. So baldt sie aber <term ref="lem009034">wasser</term>
+                        <lb/>halb khönnen, das gemellt wuehr in der gerede <term ref="lem015086.02"
+                           >schnuerschlecht</term> nach erkhanndtnus der lanndtvögt unnd <term
+                           ref="lem011394.06">wuermaister</term> zue enndernn <lb/>schuldig
+                        sein.</seg>
+                     <seg>Zum funnfftenn, so vil derenn von <orgName ref="org001877"
+                           >Vadutz</orgName> lanngwuehr unnd des <placeName ref="loc000803.01"
+                           >Vadutzer</placeName>
+                        <term ref="lem002586">bechlins</term>
+                        <term ref="lem014715">einflus</term> den <placeName ref="loc000644.14"
+                           >Reihn</placeName> hinab belanngt, ist beschlossenn, dass die vonn
+                           <orgName ref="org001877">Vadutz</orgName> denn unndernn <term
+                           ref="lem014112.03">buckh</term> in die <term ref="lem010689.06"
+                           >kredenn</term> ausfillenn unnd richtenn sollenn. Unnd nach dem die vonn
+                           <orgName ref="org001877">Vadutz</orgName> für <lb/>den obern buckh
+                        gebettenn, derselbig unns, den <choice>
+                           <abbr>kay</abbr>
+                           <expan>kayserlichen</expan>
+                        </choice>
+                        <term ref="lem009146">administratoren</term> unnd unnserm freündtlichenn,
+                        liebenn vetternn unnd <term ref="lem015091.01">pflegsohn</term>
+                        <persName ref="per000916a">Carlin Ludwigenn, gravenn zu Sulltz</persName>
+                        <abbr>etc</abbr>, so auch zugegenn gewesenn, zu ehrenn und <lb/>den zu
+                           <orgName ref="org001877">Vadutz</orgName> zue lieb, wie derselbig
+                        jetzunder hinab biß uff denn unndern außgefülltenn buckh zu pleibenn
+                        gelassenn werdenn.</seg>
+                     <seg>Zum sechstenn gegenn sollchem ist enndtgegenn dennenn zu <orgName
+                           ref="org001912">Buchs</orgName>
+                        <lb/>bewilliget, das sy uff <measure unit="Klafter" quantity="8"
+                           type="length">acht klaffter</measure> ann dem orth, sy es jetzunnder
+                        begert, inn beisein derenn vonn <orgName ref="org001877">Vadutz</orgName>
+                        unnd <orgName ref="org001878">Tschann</orgName> woll wuerenn mögenn, doch in
+                        dem unnd negst vorgemelltem articull, da den gegenn<lb break="no"
+                        />gesessnennenn benachpaurttenn künnfftiger zeittenn nachthaill daruß
+                        zugewarttenn nach erkhanndtnus der <term ref="lem011394.06"
+                           >wuermaister</term> in beysein beeder lanndtvögdt <placeName
+                           ref="loc006197">Vadutz</placeName> unnd <placeName ref="loc000440"
+                           >Werdenberg</placeName> gebessert werdenn oder <lb/>dargegenn die
+                        notturfft fürzunemmenn unnbenummenn sein soll.</seg>
+                     <seg>Lettstlichenn, damit fürohinn großer uncostenn, widerwillenn unnd schadenn
+                        beeder herrschafftenn, irer lanndenn unnd under<lb break="no"/>thonnenn
+                        erspart unnd guette <term ref="lem008296">nachpaurschafft</term> erhalltenn
+                        werde, sein wir zu beeden thailenn übereinkhommenn, das des wuerenns
+                        wassergebeuwenn auch des <placeName ref="loc000644.01">Reins</placeName>
+                        gelegennhait verstenndige <term ref="lem011394.07">wuermeister</term>
+                        <lb/>anjetzo gleich <term ref="lem003551.07">erkuest</term>, gesetzt unnd
+                        geordnet werdenn, nammlichenn zu <placeName ref="loc000425.05"
+                           >Trißenn</placeName>
+                        <num value="2">zwenn</num>, zu <placeName ref="loc000708"
+                           >Sevellenn</placeName> zwenn, zu <placeName ref="loc000198"
+                           >Buchs</placeName> zwenn unnd zu <placeName ref="loc000803.01"
+                           >Vadutz</placeName> unnd <placeName ref="loc001079.04"
+                           >Tschann</placeName> zwenn, so daruff zu fürfallennder noht
+                           <sic>allwegennn</sic>
+                        <lb/>erhalltenn werdenn unnd uff das wuehrenn ain sonndernn <term
+                           ref="lem000070">aydt</term> in beysein beeder herrschafftenn schwerenn,
+                        in crafft desselbenb aydt sich wuerenns halber auch in beysein beeeder
+                        herrschafftenn landt<lb break="no"/>vögtenn erkhennenn.</seg>
+                     <seg>Allso wann zwischenn <placeName ref="loc000425.05">Trißenn</placeName>
+                        unnd <placeName ref="loc000708">Sevellenn</placeName> wuerenns vonnöttenn,
+                        so soll der begerenndt thaill dem gegenthaill verkhünndenn unnd sollenn die
+                           <num value="4">vier</num>
+                        <term ref="lem011394.07">wuermeister</term>
+                        <lb/>vonn <placeName ref="loc000198">Buchs</placeName>, <placeName
+                           ref="loc000803.01">Vadutz</placeName> unnd <placeName ref="loc001079.04"
+                           >Tschann</placeName> in beywsenn unnd mit rath beeder lanndtvögdt sich
+                        auff ir aydt in guettigkhait darumb erkhennen, wie mann wuerenn solle nach
+                        brieff unnd sigell, <choice>
+                           <sic>auch dem <lb/>auch dem</sic>
+                           <corr>auch dem</corr>
+                        </choice>
+                        <term ref="lem010804.03">lanndtsgebrauch</term> unnd gestalltsame der
+                        sachenn. Demselbenn nach mögenn dann die <term ref="lem000769">wuehr</term>
+                        unnd nit anderst gemacht werdenn. Gleicher gestallt, wann noth fürfielle,
+                        das zu wuehrenn vonnötenn sein wurde <lb/>zwischen dennen vonn <orgName
+                           ref="org001912">Buchs</orgName>, <orgName ref="org001877"
+                           >Vadutz</orgName> unnd <orgName ref="org001878">Tschann</orgName>,
+                        sollenn die wuehrmaister vonn <placeName ref="loc000425.04"
+                           >Trißen</placeName> unnd <placeName ref="loc000708">Sevellenn</placeName>
+                        herrab beruffenn unnd inn beisein beeder lanndtvögt gehanndlet werdenn, wie
+                        obsteth.</seg>
+                     <seg>Ob aber <lb/>ier guettlicher spruch ainer oder beeder parthei gar nit
+                        annemmlich sein sollte, so ist jedem thaill sein recht, wie es die vertreg
+                        anno <date when="1562">fünffzechennhundert sechtzig unnd zwaizue</date>
+                        gebenn, <sic>vorbehalltennn</sic>. <lb/>Es soll auch in beedenn
+                        herrschafftenn khain thaill ohne vorwissenn des andernn unnd diser
+                        angeregdtenn <term ref="lem011394.06">wuermaister</term> wueren bei <term
+                           ref="lem015092.02">peenn unnd straff</term>
+                        <measure type="currency" quantity="14" unit="lb">vierzechenn pfunndt
+                           pfenninng</measure> ohne gnadt, <lb/>darvonn der herrschafft, darunnder
+                        die straffpar parthei gesessenn, halb unnd der annder halb thaill solcher
+                        straff denn <term ref="lem011394">wuermaisternn</term> gebürenn unnd zu
+                        stehnn.</seg>
+                     <seg>Welches alles unnd jedes, wie vorsteht, wir, die <lb/><choice>
+                           <abbr>kay</abbr>
+                           <expan>kayserlichen</expan>
+                        </choice> administratores ann statt unnd vonn wegenn obwollvermellter
+                        unnserer freündtlichenn, liebenn <term ref="lem000399">vetternn</term> unnd
+                           <term ref="lem015091">pflegsohnenn</term> der gravenn <orgName
+                           ref="org000489">zu Sulltz</orgName> unnd deren unnderthonnenn zu
+                           <placeName ref="loc000425.05">Trißenn</placeName>, <placeName
+                           ref="loc000803.01">Vadutz</placeName>
+                        <sic>unnnd</sic>
+                        <lb/><placeName ref="loc001079.04">Tschann</placeName>, <app>
+                           <lem>auch wir, lanndtamann unnd ganntzer lanndtrath zu <placeName
+                                 ref="loc000326">Glaris</placeName>, uf beschehenn unnserer
+                              obgedachter abgesanntenn bottenn relation, alles was gehanndlet unnd
+                              in disem brieff begriffenn, doch ellt<lb break="no"/>en briefenn
+                              ausserhalb diser hanndlung unvergriffenn, ratificieren unnd
+                              bekrefftigenn, für unns selbst unnd anstatt unnserer underthonnenn zu
+                                 <placeName ref="loc000708">Sevellenn</placeName> unnd <placeName
+                                 ref="loc000198">Buchs</placeName> der graffschafft <placeName
+                                 ref="loc000440">Werdennberrg</placeName>, demm <lb/>allem also zu
+                              allenn thaillenn fürohin nach zu khommen, war unnd steth zuhalltenn,
+                              darwider nit zu thun noch schaffenn gethann zu werdenn, angenommenn,
+                              verwilliget, zugesagdt unnd <sic>versprochennn</sic>, <lb/>wie wir
+                              dann dasselbig beederseits von oberkhait wegenn verwilligenn, zu
+                              sagenn unnd versprechenn inn crafft diß brieffs, jedem zu mehrerm
+                              urkhundt unnd sicherhait zwenn gleich laudtendt <lb/>uffgericht unnd
+                              unnder unnser, der administrator, unnd unnserer, derenn vonn <orgName
+                                 ref="org001197">Glaris</orgName>, anhanngenndenn innsigell
+                              geferttiget, jeder oberkhaitenn <term ref="lem000884">originall</term>
+                              unnd denn underthonnen jedes ortts glaubwürdige <lb/><term
+                                 ref="lem005366.03">copey</term> davonn zugestellt. Geschehenn unnd
+                              gebenn <origDate when="1582-02-20">zinstags, denn zwainntzigistenn
+                                 februarii, im jar, als man zallt nach der gnadenreichenn gepurtt
+                                    <persName ref="per000353">Christi</persName>, unsers hailandts,
+                                 gezallt tausent fünffhundert zwei unnd
+                              <lb/>achtzig</origDate>.</lem>
+                           <rdg wit="StASG AA 3 A 03-04">
+                              <pb n="9"/>
+                              <lb/>Unnd wir, der <orgName ref="org001197">herren von
+                                 Glaris</orgName> abgesanndte uff <lb/>unnserer herren unnd oberen
+                                 <term ref="lem002434">ratification</term> unnd <lb/>becrefftigen an
+                              statt unnd von wegen irer <lb/>selbs unnd irer unnderthanen zu
+                                 <orgName ref="org001834">Sevelen</orgName> und <pb n="10"/>
+                              <lb/><orgName ref="org001912">Buchs</orgName> der graveschafft
+                                 <placeName ref="loc000440">Werdenberg</placeName>, dem allem
+                              <lb/>also fürohin nachzukhumen, war unnd steet zu <lb break="no"
+                              />hallten, darwider nit zuthuen noch schaffen <lb/>gethan zu werden,
+                              angenumen, verwilliget, zuge<lb break="no"/>sagt unnd versprochen. In
+                              urkhunndt seindt <lb/>jetzunder zwen gleichlauttendt <term
+                                 ref="lem002116">abschidt</term> unnder <lb/>unnsern obgedachter
+                              aller hannden <term ref="lem003583">unnderschriben</term>
+                              <lb/>unnd fürgedruckhten <term ref="lem010600.03">pettschiern</term>
+                              uffgericht. Unnd so <lb/>die <orgName ref="org001197">herrn von
+                                 Glaris</orgName> ires thaills hierein auch <lb/>verwilligen, alß
+                              dann zwen <term ref="lem000886">originalbrief</term> unnder
+                              <lb/>unnserm administrations unnd der <orgName ref="org001197">herrn
+                                 von <lb/>Glaris</orgName> anhanngendem insigl uff <term
+                                 ref="lem002976">pergament</term>, <lb/>disem abschidt unnd darinn
+                              begriffnen puncten <lb/>unnd articuln gleich geschriben geferttiget.
+                              Jeder <lb/>oberkhait ain <term ref="lem000884">original</term> unnd
+                              den unnderthanen <lb/>jedes ortts glaubwurdige <term
+                                 ref="lem005366.08">copei</term> darvon zuege<lb break="no"/>stellt
+                              werden soll. Beschechen und <lb/>geben, <origDate when="1582-02-20"
+                                 >zinßtags, den zweintzigisten februarii, <lb/>im jar, alls man
+                                 zallt tausent fünffhundert <lb/>zway unnd achtig</origDate>. <table>
+                                 <row>
+                                    <cell role="data"><signed><handShift scribe="per009042a"
+                                          />Schwaickharth zu <lb/>Helffenstein, <lb/><choice>
+                                             <abbr>mmpr</abbr>
+                                             <expan>manu propria</expan>
+                                          </choice></signed></cell>
+                                    <cell role="data"><signed><handShift scribe="per009040a"/>Peter,
+                                          fryherr zu Mersperg <choice>
+                                             <abbr>u</abbr>
+                                             <expan>und</expan>
+                                          </choice> Beffort, <lb/>landvogt in Orttennuw, <lb/><choice>
+                                             <abbr>mmpr</abbr>
+                                             <expan>manu propria</expan>
+                                          </choice></signed></cell>
+                                    <cell role="data"><signed><handShift scribe="per009041"/>
+                                          <choice>
+                                             <abbr>Cunr</abbr>
+                                             <expan>Cunrat</expan>
+                                          </choice>, <choice>
+                                             <abbr>fh</abbr>
+                                             <expan>freiherr</expan>
+                                          </choice> zuo Bamelberg <lb/>und Hohenburg, <choice>
+                                             <abbr>mmpr</abbr>
+                                             <expan>manu propria</expan>
+                                          </choice></signed></cell>
+                                 </row><row>
+                                    <cell role="data"><signed><handShift scribe="per001872a"
+                                          />Melchior Hässy</signed>
+                                    </cell>
+                                    <cell role="data"/>
+                                    <cell role="data">
+                                       <signed>
+                                          <handShift scribe="per009044a"/>Thomann Schmid</signed>
+                                    </cell>
+                                 </row>
+                              </table>
+                           </rdg>
+                        </app>
+                     </seg>
+                  </p>
+               </div>
+               <div>
+                  <ab type="dorsal" place="verso" hand="hand16c"><lb/>Gütlicher vertrag wurens
+                     halber <lb/>aller kilchörinen hie und enhalb <placeName ref="loc000644.09">Rins</placeName>
+                     <lb/>bis gen <placeName ref="loc000198">Buchs</placeName> hinab, anno
+                     <lb/><date when="1582">1582</date></ab>
+               </div>
+               <div>
+                  <ab type="archiving reference" place="verso"><lb/>Werd <del>N<hi rend="sup">o</hi>
+                        206</del>; N<hi rend="sup">o</hi> 17</ab>
+               </div>
+               <pb facs="StASG_AA_3_U_17_v"/>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div n="1" org="uniform" sample="complete">
+            <p>Von dem Wuhrvertrag sind zwei Originalurkunden erhalten, eine pergamentene mit zwei
+               angehängten <term ref="key000241">Siegeln</term> und eine papierene <term
+                  ref="key003025">Urkunde</term> mit fünf aufgedruckten Siegeln (<bibl><ref>StASG
+                     AA 3 A 03-04</ref></bibl>). Aufgrund der unterschiedlichen Ausfertigung lautet
+               jeweils der letzte Abschnitt etwas anders (siehe Text). Im LAGL liegt eine Kopie, die
+               auf der papierenen Urkunde beruht (<bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/5b9a87e749024558b4d04dd3149d81c2"
+                     >LAGL AG III.2468:005, S. 57–64</ref></bibl>). Die Abschriften in den <term
+                  ref="key000122">Urbaren</term> beruhen auf dem Original (<bibl><ref
+                     resp="https://archivverzeichnis.gl.ch/home/#/content/89aed8c5484f45e68c79ccfec159a1a6"
+                     >LAGL AG III.2401:036, S. 169–175</ref>; <ref
+                     resp="https://archivverzeichnis.gl.ch/home/#/content/06c3f1bc4e404d1c89e600a38dc3c7c4"
+                     >AG III.2401:044, S. 390–394</ref></bibl>; <bibl><ref>StASG AA 3 B 2,
+                     S. 390–394</ref></bibl>). Die pergamentene Ausfertigung ist laut dem Inhalt der
+               Urkunde für die Obrigkeiten bestimmt, die papierene Ausfertigung ist die beglaubigte
+               Kopie für die betroffenen Gemeinden. Von beiden ist jeweils nur noch ein Exemplar
+               erhalten. Der Vertrag beruht auf früheren Verträgen, u. a. auf den Verträgen zwischen
+               den Gemeinden Sevelen und Triesen von <date when="1467">1467</date>
+                     (<bibl><ref>PGA Sevelen Nr. 3</ref></bibl>), 1536 (<bibl><ref>GA Triesen U
+                     23</ref></bibl>) und <date when="1562">1562</date> (<bibl><ref>GA Triesen
+                     U 49</ref></bibl>). Neuerungen <date when="1582">1582</date> sind die <term
+                  ref="key000184">Busse</term> sowie die <term ref="key004405">Wuhrmeister</term>
+               und deren Pflichten.</p>
+            <p>Zu weiteren Wuhrkonflikten zwischen den beiden Gemeinden <orgName ref="org001834"
+                  >Sevelen</orgName> und <orgName ref="org002399">Triesen</orgName>, vgl. z. B.
+                  (<date from="1401" to="1700">15.–17. Jh.</date>):
+                  <ref>SSRQ_SG_III_4_058</ref>; <bibl><ref>OGA Sevelen U 1439</ref>;
+                     <ref>U 1649</ref>; <ref>U 1669</ref></bibl>; <bibl><ref>PGA Sevelen
+                  A2</ref></bibl>; <bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/d18252772a874e7a8e99713e8f0dc6ca"
+                     >LAGL AG III.2455:157</ref>; <ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/ce793e2085844e118ab6ec5bb6efe9fd"
+                     >AG III.2455:145</ref>; <ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/d7f7c1aef5ca4a5f95bc941afe461afd"
+                     >AG III.2423:001</ref>; <ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/15fbdc82f8214785b75492585d5312392454"
+                     >AG III.2454:071</ref></bibl>; <bibl><ref>GA Triesen U 30</ref>; <ref>U
+                     56</ref></bibl>; <bibl><ref>StASZ HA.IV.404, o. Nr.,
+                     27.04.1663–20.05.1663</ref></bibl>; <bibl><ref>StASG AA 3 A 03-07</ref></bibl>;
+                  (<date from="1701" to="1800">18. Jh.</date>, z. T. auch mit Wartau):
+                     <bibl><ref>GA Triesen U 44</ref>; <ref>U 14</ref></bibl>; <bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/8577f2efb78c49a5a21e902621a035ed"
+                     >LAGL AG III.2455:088</ref></bibl>; <bibl><ref>OGA Sevelen B 04.11-06,
+                     S. 25–26</ref></bibl>; <bibl><ref>PGA Sevelen Nr. 16</ref></bibl>;
+                     <bibl><ref>PA Hilty S 006/044</ref></bibl>; <bibl><ref>OGA Wartau
+                  Nr. 49</ref></bibl>; <bibl><ref>StALU A1 F1 Sch 397 Mappe Herrschaft Wartau,
+                     11.11.1790</ref></bibl>; <bibl><ref>LLA RA 41/09/01-17</ref></bibl>. </p>
+         </div>
+         <div n="2" org="uniform" sample="complete">
+            <p><term ref="key003511">Überschwemmungen</term> des <placeName ref="loc000644"
+                  >Rheins</placeName> führen für die anstossenden Gemeinden auf beiden Seiten immer
+               wieder zu grossen Schäden ihrer Auen, Felder und Weiden, weshalb aufwändige und
+               kostspielige <term ref="key000520">Dämme</term> zum Schutz gebaut werden müssen.
+               Sogenannte <term ref="key004049">Schupfwuhren</term>, die das Wasser auf die
+               gegenüberliegende Rheinseite schieben, führen seit <date from="1440" to="1460">Mitte
+                  des 15. Jhs.</date> über Jahrhunderte zu Konflikten zwischen den sich
+               gegenüberliegenden Gemeinden. Zu Wuhrkonflikten zwischen <orgName ref="org001912"
+                  >Buchs</orgName>, <orgName ref="org001878">Schaan</orgName> und <orgName
+                  ref="org001877">Vaduz</orgName> vgl. <ref>SSRQ_SG_III_4_058</ref>.</p>
+            <p>Sonstige Wuhrkonflikte der Gemeinden in <placeName ref="loc000440"
+                  >Werdenberg</placeName> mit Gemeinden in der Herrschaft <placeName ref="loc006197"
+                  >Vaduz</placeName> und/oder mit benachbarten Gemeinden (v. a. <orgName
+                  ref="org001835">Wartau</orgName>) in der Herrschaft <placeName ref="loc000925"
+                  >Sargans</placeName> z. B.: <bibl><ref>LLA RA 41/03/04</ref>; <ref>41/03/11</ref>;
+                     <ref>01/09/8/1-9</ref></bibl>; <bibl><ref>GA Schaan U9</ref>; <ref>U12</ref>;
+                     <ref> U13</ref></bibl>; <bibl><ref>PGA Sevelen B03</ref>,
+                  <ref>Nr. 15</ref></bibl>; <bibl><ref>OGA Sevelen U 1665</ref>; <ref>U 1795</ref>;
+                     <ref>B 04.11-10, S. 51–52</ref></bibl>; <bibl><ref>OGA Sax
+                  23.08.1769</ref></bibl>; <bibl><ref>OGA Buchs B 00.52, S. 138–145</ref></bibl>. Zu
+               Wartau vgl. auch den Protestschein von <orgName ref="org001197">Glarus</orgName> über
+               das von den regierenden <orgName ref="org001188">Orten</orgName> des <placeName
+                  ref="loc000925">Sarganserlands</placeName> geänderte Verfahren in
+               Wuhrstreitigkeiten zwischen <placeName ref="loc000708">Sevelen</placeName> und
+                  <placeName ref="loc000828">Wartau</placeName> (<bibl><ref>OGA Sevelen U
+                  1665</ref></bibl>).</p>
+            <p>Zahlreiche Wuhrverträge befinden sich auch in den Urbaren <bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/c109b35f986a40d5b300fc1313b6344c"
+                     >LAGL AG III.2401:036</ref></bibl>; <bibl><ref>StASG AA 3 B 2</ref></bibl> bzw.
+                     <bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/85e11623d05e4ed088f788722b004138"
+                     >LAGL AG III.2401:044</ref></bibl>. Weitere Dokumente zu Wuhrsachen befinden
+               sich in den Dossiers <bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/84ac509cea7c41aa8c60803c2543eb5e"
+                     >LAGL AG III.2423</ref>; <ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/c0883e7f551b4041b284c2c93c241c8a"
+                     >AG III.2454</ref>; <ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/773a0a46bec047f9af4303de5c85b32f"
+                     >AG III.2455</ref></bibl> (mit Vaduz) und <bibl><ref>StASG
+                  AA 2 A 06b</ref></bibl>.</p>
+         </div>
+         <div n="3" org="uniform" sample="complete">
+            <p>Zu Wuhrangelegenheiten in <placeName ref="loc000278"
+                  >Sax-Forstegg</placeName> (vornehmlich <placeName ref="loc000389">Haag</placeName>
+               und <placeName ref="loc000691">Salez</placeName> betreffend) vgl.
+                  <ref>SSRQ_SG_III_4_162</ref>; <bibl><ref>OGA Haag 27.02.1599</ref>;
+                     <ref>23.02.1741</ref>; <ref>09.02.1765–03.07.1769</ref></bibl>;
+                     <bibl><ref>StASG AA 2 U 54</ref>; <ref>U 57</ref>; <ref>U 58</ref></bibl>;
+                     <bibl><ref>StASG AA 2 A 06b-5-4</ref></bibl>; <bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/3eaa50fe0eba4eb4b96e60943a5fc6c7"
+                     >LAGL AG III.2454:038</ref></bibl>; <bibl><ref>StAZH A 346.5,
+                  Nr. 296</ref></bibl>; <bibl><ref>EKGA Salez 32.01.51
+                     Herstellungswirtschaft/Bauwesen/Gewässerbauten</ref></bibl>; vgl. auch die
+               Ordnung der Gemeinde <orgName ref="org003296">Sennwald</orgName> über das Erstellen
+               von Dämmen <ref>SSRQ_SG_III_4_180</ref>. </p>
+         </div>
+      </back>
+   </text>
+</TEI>

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     n="1234"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="headerinfo"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2020-08-17"/>    <date type="print"/>
+    <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Collection des sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des
+      sources
+      du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS_NE_3_489</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>AVN B 101.14.002, fol. 110r</idno>
+               </msIdentifier>
+               <head>Exécution des titres obligatoires ou cédulaires et leur prescription</head>
+               <msContents>
+                  <summary>Un billet à ordre fait à Neuchâtel ou en France est exécutoire même
+                     lorsqu’aucun intérêt n’a été payé. La seule prescription reconnue par la
+                     coutume est de trente ans. </summary>
+                  <msItem>
+                     <textLang>français</textLang>
+                     <filiation type="current"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="34.5"/>
+                              <width unit="cm" quantity="22"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1838-06-15"/>
+                     <origPlace ref="loc007786">Neuchâtel</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head/>
+                     <bibl/>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key004975"/>
+               <term ref="key003040"/>
+               <term ref="key004970"/>
+               <term ref="key004969"/>
+               <term ref="key003867"/>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="110r" facs="AVN_B_101.14.002_0110r"/>
+               <div>
+                  <head>
+                     <lb/>Déclaration touchant l’exécution des <lb/>titres obligatoires ou cédulaires et leur prescrip<lb
+                        break="no"/>tion. <origDate when="1838-06-15">
+                        <hi rend="underline">Du 15 juin 1838.</hi>
+                     </origDate>
+                  </head>
+               </div>
+               <div>
+                  <p>
+                     <lb/>L’an <origDate when="1838-06-15"
+                        >mil huit cent trente huit le quinze juin</origDate>
+                     <lb/>le <orgName ref="org003085">Petit Conseil de la Ville de <placeName
+                           ref="loc007786.07">Neuchâtel</placeName></orgName> en <placeName
+                        ref="loc001012.09">Suisse</placeName> étant assemblé <lb/>dans l’<origPlace
+                        ref="loc007793"
+                        >hôtel de cette ville</origPlace> sous la présidence de monsieur <lb/><persName
+                        ref="per008600"
+                        >George Fréderic Gallot</persName> maître bourgeois en chef, lecture a <lb/>été faite d’une requête en date du <date
+                        when="1838-06-05">cinq de ce mois</date> de <choice>
+                        <abbr>M<hi rend="sup">r</hi>
+                        </abbr>
+                        <expan>maitre</expan>
+                     </choice>
+                     <persName ref="per008614"><choice>
+                           <abbr>Franç<hi rend="sup">s</hi>
+                           </abbr>
+                           <expan>François</expan>
+                        </choice>
+                        <lb/>Constant Borel</persName> greffier en cette ville, agissant au nom du <lb/>sieur <persName
+                        ref="per008615">Abram Henry Borel Jaquet</persName> de <placeName
+                        ref="loc007787">Couvet</placeName> y demeurant <lb/>bourgeois de <placeName
+                        ref="loc007786"
+                        >Neuchâtel</placeName>, par la quelle il sollicite une <lb/>déclaration de la coutume de cette Principauté constatant <lb/>qu’un simple <term
+                        ref="lem014772">billet</term> créé, soit dans ce pays, soit en <placeName
+                        ref="loc000281"
+                        >France</placeName>, <lb/>ayant pour provenant de l’argent ou des marchandises <lb/>délivrées à la satisfaction du débiteur, est exécutoire dans cet <lb/>État lors même qu’il n’y a aucun intérêt payé&#160;; et que le débiteur <lb/>ne peut invoquer de son vivant la prescription pour des <term
+                        ref="lem014772">billets</term>
+                     <lb/>par lui souscrits. </p>
+                  <p>
+                     <lb/>Sur quoi <orgName ref="org003085"
+                     >messieurs du Petit Conseil</orgName> après mûr examen <lb/>et délibération ont conformément à la coutume usitée de <lb/>toute ancienneté et de père en fils en cette Principauté, dit <lb/>et déclaré. </p>
+                  <p>
+                     <lb/>1<hi rend="sup"
+                        >o</hi>. Que tout titre obligatoire ou cédulaire créé soit dans ce pays <lb/>soit à l’étranger, et spécialement en <placeName
+                        ref="loc000281"
+                     >France</placeName>, et ayant une provenance <lb/>légitime quelconque, est exécutoire dans ce pays contre le débiteur <lb/>qui l’a souscrit s’il y est domicilié ou qu’il y possède des biens, et <lb/>cela lors même qu’aucun intérêt n’en a été payé. </p>
+                  <p>
+                     <lb/>2<hi rend="sup">o</hi>. <add place="above"
+                        >Que</add> la seule prescription qui puisse être opposée d’après la <lb/>coutume à un titre obligatoire ou cédulaire créé dans ce pays <lb/>par le débiteur vivant qui l’a souscrit, est celle de <date
+                        dur="P30Y"
+                     >trente ans</date>, à <lb/>partir du dernier intérêt ou à compte payé, ou de la dernière <lb/>reconnoissance de la dette. </p>
+                  <p>
+                     <lb/>Laquelle déclaration étant ainsi rendue, il a été ordonné au <lb/>secrétaire du Conseil soussigné de l’expédier sous le sceau de la <lb/>mairie et justice de cette Ville. À l’<origPlace
+                        ref="loc007793"
+                        >hôtel de ville de Neuchâtel</origPlace> les an <lb/>et jour que devant <origDate
+                        when="1838-06-15">15<hi rend="sup"
+                     >e</hi> juin 1838</origDate>. Par ordonnance <lb/>Le secrétaire du Conseil </p>
+               </div>
+               <div>
+                  <lb/>
+                  <signed>
+                     <persName ref="per008613"><choice>
+                           <abbr>P&#160;: L&#160;:</abbr>
+                           <expan>Pierre-Louis</expan>
+                        </choice> Jacottet</persName>
+                     <figure type="notarial sign"/></signed>
+               </div>
+            </body>
+         </text>
+      </group>
+   </text>
+</TEI>
+
+

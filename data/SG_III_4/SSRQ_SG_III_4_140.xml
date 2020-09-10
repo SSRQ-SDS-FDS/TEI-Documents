@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-08-15"/>
+            <date type="print"/>
+            <availability><p xml:id="facs">Sibylle Malamud</p></availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_140</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>StAZH A 346.5, Nr. 67</idno>
+               </msIdentifier>
+               <head>Alpordnung der Alpgenossen von Sax und Gaster aus dem Alpbuch der Alp Scheibs</head>
+               <msContents>
+                  <summary>
+                     <p>Die Alpgenossen der Alp Scheibs aus Sax und dem Gaster stellen eine Alpordnung mit 12 Artikeln auf betreffend die Wahl der Alpvögte, die Alpfahrt, die Bestossung, die Hirten, den Verkauf von Stössen und das Zugrecht.</p>
+                     <p/>
+                  </summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <filiation type="original">
+                        <origDate when="1571-05-14"/>
+                        <idno></idno>
+                     </filiation>
+                     <filiation type="current">Abschrift (2 Doppelblätter)</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="21.0"/>
+                              <width unit="cm" quantity="16.5"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate from="1710-01-01" to="1710-12-31"/>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000006">Alp</term>
+               <term ref="key004093">Alpordnung</term>
+               <term ref="key000160">Alpbrief</term>
+               <term ref="key000885">Alpfahrt</term>
+               <term ref="key000655">Alpmeister</term>
+               <term ref="key000772">Alpnutzung</term>
+               <term ref="key000596"/>
+               <term ref="key000340"/>
+               <term ref="key000184"/>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <div org="uniform" sample="complete">
+                  <pb n="1" facs="StAZH_A_346.5_Nr._67_1"/>
+                  <head>
+                     <lb/>Puncten deß <term ref="lem001090.09">alp-buechs</term>
+                  </head><p>
+                     
+                        <lb/><origDate when="1571-05-14">Anno 1571, auf den 14. tag
+                        meyen</origDate>, <lb/>habend die <term ref="lem001095.16">alp-gnoßen</term>
+                        gemeinlich der alp <lb/><placeName ref="loc000684.04">Scheibß</placeName>
+                        sich volgender articklen vereinbaret <lb/>fürhin ze halten, wie hernach
+                     volget:</p>
+                  <p>
+                     <seg n="1">
+                        <lb/>Item des ersten sollen seyn zwen <term ref="lem014725.02"
+                           >alpvögt</term>, <lb/>einen von <placeName ref="loc000278"
+                           >Sax</placeName><note anchored="true">Es ist nicht ganz klar, ob hier Sax
+                           als Ort oder als Herrschaft gemeint ist. Da auch von Gaster als
+                           Herrschaft die Rede ist, wird hier ebenfalls Sax als Herrschaft
+                           interpretiert. Heute gehört die Alp der Ortsgemeinde <placeName
+                              ref="loc006042">Sax</placeName>.</note> und einen auß dem <placeName
+                           ref="loc000842">Gaster</placeName>, die <lb/>sollen der gmeinen <term
+                           ref="lem001093.27">stofel-gnoßen</term> nutz betrachten. <lb/>Und sollend
+                           <date dur="R/P1Y">alle jahr</date> auf <date type="deadline"
+                           when="--05-25">st. <persName ref="per000352">Urban</persName>s tag</date>
+                        bei <lb/>ein anderen zu <placeName ref="loc000005">Melß</placeName>
+                        erschinen oder einanderen <lb/>sonst gwüße <term ref="lem007068.03"
+                           >potschafft</term> senden, auf welichen tag <lb/>man <term
+                           ref="lem002889">zu alp fahren</term> solle. Und wann dann alle <lb/><term
+                           ref="lem010613">haab</term> auf der <term ref="lem000306">alp</term> ist,
+                        so sollend die <term ref="lem014725">alp-vögt</term>
+                        <lb/>allzeit zu <date dur="P14D">14 tag</date> umb ungfar beyd auf der alp
+                        <lb/>bei einandern erschinen und jetwederer von <lb/><term ref="lem000286"
+                           >schirm</term>
+                        <term ref="lem003491">alpmeister</term>
+                        <term ref="lem000390">rechnung</term> empfahen und dann <lb/>miteinanderen
+                        das <term ref="lem000310">vich</term> zehlen, ob es recht seige.</seg></p>
+                 
+                  <pb n="2" facs="StAZH_A_346.5_Nr._67_2_3"/>
+                      <p><seg n="2">
+                        <lb/>Zum anderen soll kein stofel-gnoß nüzit auf <lb/>die alp treiben, er
+                        habe dann zuvor seyn haab <lb/>oder <term ref="lem002096">stöß</term>, was
+                        er besezen wölle, dem <term ref="lem003491">alpmeister</term>
+                        <lb/>angeben, damit die <term ref="lem014725.02">alpvögt</term> im zehlen
+                           ein<lb break="no"/>anderen <term ref="lem000390">rechnung</term> geben
+                         könnend, alsß vorstadt.</seg></p>
+                  <p>
+                     <seg n="3">
+                        <lb/>Für das drit, wann man <term ref="lem002889">ze alp fahrt</term>, so
+                        soll <lb/>jeder seine <term ref="lem000833.02">rinder</term> in die <term
+                           ref="lem000835">rinderalp</term> laßen treiben <lb/>und auf der rinderalp
+                        soll jeder den vierten <lb/>theil lär laßen ligen bis auf <date
+                           type="deadline" when="--06-24">st. <persName ref="per000049"
+                              >Johannes</persName>tag</date>. <lb/>Und so einer lieber wolte mehr
+                        ligen laßen, <lb/>mag ers auch thun, doch soll man allwegen, <lb/>alß dann
+                        dieselb alp mit <term ref="lem002191">füllinen</term> oder mit <lb/><term
+                           ref="lem014727.02">münchen</term> bestoßen und nit mit <term
+                              ref="lem004657.02">stuedten</term>.</seg></p>
+                  <p>
+                     <seg n="4">
+                        <lb/>Item es soll niemands keine <term ref="lem000833.02">rinder</term> auf
+                        die alp thun, <lb/>die elter sind dann <term ref="lem015705.03">zeit
+                           pfangen</term>.</seg></p>
+                  <p>
+                     <seg n="5">
+                        <lb/>Item es soll keiner keine <term ref="lem000833.02">rinder</term> in die
+                           <term ref="lem001087.05">khüealp</term>
+                        <lb/>treiben, sonder in die <term ref="lem000835">rinderalp</term> thun. Und
+                        ob sy <lb/>in die <term ref="lem001087.05">khüealp</term> kemmend, da einer
+                        keine hete, <lb/>so soll man gwalt haben, die auß der alp <lb/>auf die <term
+                           ref="lem003094">gaßen</term> zu treiben.</seg></p>
+                  <pb n="3" facs="StAZH_A_346.5_Nr._67_2_3"/>
+                  <p>
+                     <seg n="6">
+                        <lb/>Die <term ref="lem014728">rinderhirten</term> soll man mit einanderen
+                           <lb/><term ref="lem003449">speißen</term> und <term ref="lem011270.02"
+                           >blönen</term> und die zween <term ref="lem014725.02">alpvögt</term>
+                        <lb/>gwalt haben, den <term ref="lem008901.04">fohlen</term> aufzelegen nach
+                        ihrem <lb/>gefallen, es seyen wenig oder vil, da doch <lb/>soll niemand
+                        weder rinder noch <term ref="lem001069">roß</term> ab der <lb/>alp treiben,
+                        er habe dann den <term ref="lem009495">hirtlohn</term> vorhin
+                        <lb/>erlegt.</seg></p>
+                  <p>
+                     <seg n="7">
+                        <lb/>Item es soll niemandts keine <term ref="lem001618.03">ungringete
+                           schweyn</term>
+                        <lb/>auf die alp thun und allwegen zu eim schweyn <lb/>vier <term
+                           ref="lem001076.04">khüe</term> haben oder da uß lohn.</seg></p>
+                  <p>
+                     <seg n="8">
+                        <lb/>Es sollend auch die <term ref="lem014725.02">alpvögt</term> dahin
+                        verordnen <lb/>vier <term ref="lem001070">saum-roß</term> und vier <term
+                           ref="lem002556.06">pfahren</term> und wie es <lb/>von ihnen geordnet
+                        wird, darbei soll es bleiben.</seg></p>
+                  <p>
+                     <seg n="9">
+                        <lb/>Item es soll niemandts keine <term ref="lem000055">schaaf</term> auf
+                        die <lb/>alp thun, es seye dann der alpvögten will <lb/>und meinung.</seg></p>
+                  <p>
+                     <seg n="10">
+                        <lb/>Item zwey <term ref="lem002088.05">kelber</term> mag man auf einen stoß
+                        <lb/>thun, gott geb, was es für alp seyge.</seg></p>
+                  
+                  <pb n="4" facs="StAZH_A_346.5_Nr._67_4"/>
+                     <p><seg n="11">
+                        <lb/>So auch ein <term ref="lem001095">alp-gnoß</term> einem <term
+                           ref="lem001783">ungnoßen</term>
+                        <lb/>ze khauffen gäbe, so mag ein jeder stofel-gnoß <lb/>die <term
+                           ref="lem005214">ziehen</term>, ein stoß umb <measure type="currency"
+                           quantity="8" unit="fl">8 guldi</measure> khüe alp. <lb/>Ein rinderstoß
+                        umb <measure type="currency" quantity="7" unit="fl">7 </measure> und ein
+                           roß<lb break="no"/>stoß umb <measure type="currency" quantity="6"
+                              unit="fl">6 </measure>.</seg></p>
+                  <p>
+                     <seg n="12">
+                        <lb/>Zum letsten, welicher der wäre, der einen <lb/>oder mehr artickel, wie
+                        vorstadt, nit hielte, <lb/>sonder übertreten wurde, der soll ohn alle gnad
+                        <lb/>verfallen haben <measure type="currency" quantity="3" unit="lb"
+                           origin="Sargans">3  haller Sarganßer landts<lb break="no"
+                           />werung</measure>, <measure type="currency" quantity="1" unit="lb"
+                           origin="Sargans">1 </measure> soll gehören einem <term ref="lem000266"
+                           >landtvogt</term>
+                        <lb/><term ref="lem001292">schirmgelt</term>, <measure type="currency"
+                           quantity="1" origin="Sargans" unit="lb">1 </measure> gmeinen <term
+                           ref="lem001093">stofelgnoßen</term> und <lb/><measure type="currency"
+                           quantity="1" unit="lb" origin="Sargans">1 </measure> den <term
+                           ref="lem014725.02">alpvögten</term>.</seg>
+                  </p>
+               </div>
+               <pb facs="StAZH_A_346.5_Nr._67_v"/>
+               <div org="uniform" sample="complete">
+                  <ab type="dorsal" place="verso" hand="hand18c">Ußzug deß <term ref="lem001090">alpbuchs</term>
+                  </ab>
+               </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div n="1" org="uniform" sample="complete">
+            <p>Die vorliegende <term ref="key004093">Alpordnung</term> der Alp <placeName ref="loc000684">Scheibs</placeName> im <placeName ref="loc000120">Sarganserland</placeName> wird am <date when="1571-05-14">14.
+      Mai 1571</date> von den <term ref="key000373">Alpgenossen</term> aus <placeName ref="loc006042">Sax</placeName> und dem <placeName ref="loc000842">Gaster</placeName>
+     aufgestellt. Es handelt sich um einen Auszug von <date when="1710">1710</date> aus dem Alpbuch. Diese
+     Alpordnung wurde als Beispiel für eine Alpordnung gewählt, da von den <term ref="key000006">Alpen</term> in der heutigen Region <placeName ref="loc000962">Werdenberg</placeName>
+     (ausgenommen in der Gemeinde <placeName ref="loc000828">Wartau</placeName>) kaum Alpordnungen
+     überliefert sind. Ausser der <term ref="key004093">Alpordnung</term> der Alp <placeName ref="loc006033.01">Arin</placeName> von <date when="1549">1549</date> (vgl.
+      <ref>SSRQ_SG_III_4_125</ref>), die jedoch v. a. <term ref="key000092">Handänderungen</term> von <term ref="key000342">Alpstössen</term> regelt, gibt es ausserhalb
+     der Gemeinde Wartau keine Alpordnungen mehr. Teilweise enthalten jedoch die sogenannten <term ref="key004797">Legibriefe</term> Bestimmungen über die <term ref="key000772">Alpnutzung</term> (vgl. dazu <ref>SSRQ_SG_III_4_125</ref>).</p>
+         </div>
+         <div n="2" org="uniform" sample="complete">
+            <p>Für Alpen in der heutigen Gemeinde <placeName ref="loc000828">Wartau</placeName> sind
+               mehrere <term ref="key004093">Alpordnungen</term> überliefert, so zwei Alpordnungen
+               von <placeName ref="loc000405">Hinterpalfris</placeName> aus den Jahren <date
+                  when="1541">1541</date> und <date when="1649">1649</date>, eine weitere für die
+               Alp am Kamm in Palfris (heute Teil der <placeName ref="loc000136">Alp
+                  Palfris</placeName>) aus dem Jahr <date when="1498">1498</date> (<bibl><ref>StASG
+                     CK 10/3.01.005</ref>; <ref>CK 10/3.01.009</ref>; <ref>CK
+                  10/3.01.015</ref></bibl>, alle gedruckt bei <bibl><ref
+                     target="http://permalink.snl.ch/bib/chbsg000142773">Litscher 1919</ref>,
+                  S. 110–119</bibl>), der Alp <placeName ref="loc007725.01">Arlans</placeName>
+               (heute Schaner Alp) von <date when="1550">1550</date> (<bibl><ref target="https://archivverzeichnis.gl.ch/home/#/content/da304b06978545ed80b83df6d196a0b6">LAGL AG III.2430:055</ref></bibl>, S. 5–6) oder der Alp <placeName ref="loc008273.01"
+                  >Tschugga</placeName> (heute Teil der <placeName ref="loc000136">Alp
+                  Palfris</placeName>) von <date when="1583">1583</date> (<bibl><ref>StASG CK
+                     10/3.01.010</ref></bibl>).</p>
+         </div>
+         <div n="3" org="uniform" sample="complete">
+            <p>Weitere Alpordnungen von Alpen im <placeName ref="loc000120"
+                  >Sarganserland</placeName>, die von Alpgenossen aus der heutigen Region <placeName
+                  ref="loc000962">Werdenberg</placeName> aufgestellt wurden, sind z. B. die
+               Alpordnungen von <placeName ref="loc000808">Valtüsch</placeName> von <date
+                  when="1531">1531</date> (<bibl><ref>OGA Mels Nr. 12</ref></bibl>, gedruckt bei
+                     <bibl><ref target="http://permalink.snl.ch/bib/chbsg000142773">Litscher
+                     1919</ref>, S. 121–125</bibl>) oder der Alpbrief von der <placeName
+                  ref="loc000403">Hinteren Sardona</placeName> von <date when="1520">1520</date>
+                     (<bibl><ref>OGA Gams Nr. 40</ref></bibl>).</p>
+         </div>
+      </back>
+   </text>
+</TEI>

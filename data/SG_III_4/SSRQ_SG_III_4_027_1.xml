@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+    <persName>Sibylle Malamud</persName>
+    <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+    <persName>Sibylle Malamud</persName>
+    <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-07-08"/>
+            <date type="print"/>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+    <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+    <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_027_1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+    <msIdentifier>
+       <idno source="http://scope.stiftsarchiv.sg.ch/detail.aspx?ID=361">StiAPf Urk. 08.09.1401</idno>
+       
+    </msIdentifier>
+    <head>Herzog Leopold IV. von Habsburg-Österreich stellt dem Abt von Pfäfers das Kirchenlehen in Gams als Dank für die vom Abt geleisteten Dienste im Krieg gegen die Werdenberg-Heiligenberger in Aussicht</head>
+    <msContents>
+       <summary>Herzog Leopold IV. von Habsburg-Österreich urkundet, dass er wegen der vom Abt von Pfäfers im Krieg gegen die von Werdenberg-Heiligenberg geleisteten Dienste dem Abt und Konvent des Klosters Pfäfers sowie zu seinem, Leopolds, und seiner Nachkommen Seelenheil das Kirchenlehen in Gams und die dortige Kirche übergeben wird, sobald dieses frei wird.</summary>
+       <msItem>
+          <textLang>Deutsch</textLang>
+          <filiation type="current">Original</filiation>
+       </msItem>
+    </msContents>
+    <physDesc>
+       <objectDesc>
+          <supportDesc>
+             <support>
+                <material>Pergament</material>
+             </support>
+             <extent>
+                <dimensions type="leaves">
+        <height unit="cm" quantity="20.0"/>
+        <width unit="cm" quantity="36.0"/>
+                </dimensions>
+                <dimensions type="plica">
+        <width unit="cm" quantity="6.5"/>
+                </dimensions>
+             </extent>
+          </supportDesc>
+       </objectDesc>
+       <sealDesc>
+          <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI"
+                n="1"
+                nontei:material="wax with margin"
+                nontei:condition="well-preserved"
+                nontei:shape="round"
+                nontei:attachment="sealed on a parchment tag">
+             <persName role="sigillant" ref="per000387">Leopold IV. von Habsburg-Österreich</persName>
+          </seal>
+       </sealDesc>
+    </physDesc>
+    <history>
+       <origin>
+          <origDate when="1401-09-08"/>
+          <origPlace>Innsbruck</origPlace>
+       </origin>
+    </history>
+    <additional>
+       <listBibl>
+          <head>Editionen</head>
+          <bibl><ref target="http://permalink.snl.ch/bib/chbsg000071960">Tschudi, Chronicon</ref>, Bd. 7, S. 32–33</bibl>
+       </listBibl>
+       <listBibl>
+          <head>Regesten</head>
+          <bibl><ref target="http://permalink.snl.ch/bib/chbsg000142699">Wegelin, Regesten</ref>, Nr. 359</bibl>
+          <bibl><ref target="http://permalink.snl.ch/bib/chbsg000141369">Krüger, Regesten</ref>, Nr. 629</bibl>
+       </listBibl>
+       <listBibl>
+          <head>URL</head>
+          <bibl type="url"><ref target="http://scope.stiftsarchiv.sg.ch/detail.aspx?id=361">http://scope.stiftsarchiv.sg.ch/detail.aspx?id=361</ref></bibl>
+       </listBibl>
+    </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+    <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+    <term ref="key000023">Schenkung</term>
+    <term ref="key000794">Kirche</term>
+    <term ref="key000022">Lehen</term>
+    <term ref="key000097">Seelenheil</term>
+    <term ref="key000439">Hilfe</term>
+    <term ref="key000174">Fehde</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <div org="uniform" sample="complete">
+                  <p>
+                     <seg>
+                        <lb/>Wir, <persName ref="per000387">Leupolt</persName>, von gots gnaden
+                        hertzog ze <placeName ref="loc000589">Oͤsterreich</placeName>, ze <placeName
+                           ref="loc000759">Steyr</placeName>, ze <placeName ref="loc000454"
+                           >Kernden</placeName> und ze <placeName ref="loc000220">Krain</placeName>,
+                        graf ze <placeName ref="loc000780">Tyrol</placeName>
+                        <abbr>etc</abbr>, tun kuͤnt für uͤns, unser pruͤder <lb/>und erben, daz wir
+                        angesehen und betracht haben die willigen und grossen <term ref="lem010192"
+                           >dinst</term>, die uͤns der erber gaistleich, unser lieber andeͣchtiger
+                        <lb/>der abbt ze <placeName ref="loc000001.36">Phefers</placeName>
+                        manignoltiklichen getan und erzaigt hat und besuͤnderlich yetz und in dem
+                           <term ref="lem000599">krieg</term> wider die von <orgName ref="org000019"
+                           >Werdemberg</orgName>
+                        <lb/>und <term ref="lem007828">furbasser</term> wol getuͤn und ertzaigen mag
+                        und sol. Davon wir im und seinem gotshaus aller gnaden und fürdrung wol
+                        schuldig <lb/>seien und also haben wir durch derselben erkantnuͤss willen
+                        und auch got ze lob unserer und unsern nachkomen selen ze hail und ze
+                        <lb/>trost dem <choice>
+                           <abbr>vorgenan</abbr>
+                           <expan>vorgenannten</expan>
+                        </choice> abbt und dem <orgName ref="org000001">conventt ze
+                           Phefers</orgName> das kirchenlehen ze <placeName ref="loc000211"
+                           >Gams</placeName> in <placeName ref="loc000021">Chur</placeName>er bistum
+                        gelegen und die <term ref="lem000240">kirche</term>n daselbs <lb/>unsrer
+                        <term ref="lem000456.01">lehenschaft</term>, wenn die am nachsten ledig
+                        wirdet, ewigklich gegeben und geaygnet geben und aygen, auch mit kraft ditz
+                           gegen<lb break="no"/>wurtigen brief, die mit aller irer zugehörung zu
+                        nuͤtzen und ze niessen an iren tisch und an irs gotshaus notduͤrft als ander
+                        ir aigen <lb/>güter. Und dieselben kirchen, wenn die also zu iren handen
+                        kumpt und gevellet, ze verwesen, ze besetzen und aufzerichten nach irem
+                        <lb/>willen und als sy denn ander kirchen tun, die zuͤ iren gotshaus
+                        gehoren.</seg>
+                     <seg>Und wan wir in die <choice>
+                           <abbr>egen</abbr>
+                           <expan>egenannten</expan>
+                        </choice> kirchen also lauterlich durch got <lb/>und des <choice>
+                           <abbr>vorgen</abbr>
+                           <expan>vorgenannten</expan>
+                        </choice> abbt vervangen und kunftigen dinst willen geaygnet haben, als vor
+                        geschriben steet, so maynen wir, ob die vor<lb break="no"/>mals von unsern
+                        vordern oder von uns yemand verschriben were ze verleihen, daz das alles tod
+                        und kraftlos und an allen schaden <lb/>sey gen der <choice>
+                           <abbr>egenan</abbr>
+                           <expan>egenannten</expan>
+                        </choice> aygenschaft, die wir dem <choice>
+                           <abbr>vorgenan</abbr>
+                           <expan>vorgenannten</expan>
+                        </choice> abbt und seinem gotshaus getan haben mit der <choice>
+                           <abbr>obgenan</abbr>
+                           <expan>obgenannten</expan>
+                        </choice> kirchen. Wan wir die <lb/>den diselb kilchen also verschriben
+                        weͣre und die uns des mit iren briefen beweisent in ander weg und mit
+                        anderer lehenschaft <lb/>ergetzen wellen, wir vertzeihen uns auch fuͤr üns,
+                        die <choice>
+                           <abbr>egenan</abbr>
+                           <expan>egenannten</expan>
+                        </choice> unser bruder und erben gen dem <choice>
+                           <abbr>vorgenan</abbr>
+                           <expan>vorgenannten</expan>
+                        </choice> abbt, seinem conventt, <lb/>gotshaus und nachkomen, aller unser
+                        rechten, aigenschaft und lehenschaft, die wir an derselben kirchen ze
+                           <placeName ref="loc000211">Gams</placeName> gehabt haben oder
+                        <lb/>gehaben möchten an alle geveͣrde.</seg>
+                     <seg>Mit urkunt ditz briefs, geben ze <origPlace ref="loc000436"
+                           >Insprugg</origPlace>, <origDate when="1401-09-08">an unser frowen tag,
+                           als sy geporen ward, nach Krists
+                           <lb/>gepürde viertzehen hundert jar und in dem ersten
+                        jare.</origDate></seg>
+                  </p>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab type="chancery notation" place="sub plica" xml:id="la">
+                     <choice>
+                        <abbr>d d p m cur</abbr>
+                        <expan>Dominus dux per magistrum curie</expan>
+                     </choice><note anchored="true">Für den Hinweis zur Bedeutung der Abkürzung
+                        danke ich Ursus Brunold.</note>
+                  </ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab type="dorsal" place="verso" hand="hand15c">
+                     <lb/>Ao 1401 <lb/><placeName ref="loc000211">Gamps</placeName></ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab type="dorsal" place="verso" hand="hand18c">
+                     <lb/>Donationsbrieff der pfarrey <lb/><placeName ref="loc000211"
+                        >Gambß</placeName> L<damage agent="faded ink"><gap quantity="1" unit="word"
+                        /></damage>.</ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab type="archiving reference" place="verso" hand="hand19c">
+                     <lb/>1401 Kasten V <add place="above">Zelle</add> 17 fascikel <add
+                        place="below">g</add>
+                     <lb/>Regesten N<hi rend="sup">o</hi> 359; <lb/>G; <lb/>Dupl; <lb/>lit
+                        <unclear>s</unclear></ab>
+               </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div n="1" org="uniform" sample="complete">
+            <p>Am <date when="1401-06-15">15. Juni 1401</date> stellt Herzog <persName
+                  ref="per000387">Leopold  IV. von Habsburg-Österreich</persName> dem Abt von
+                  <placeName ref="loc000001">Pfäfers</placeName> eine lateinische Urkunde aus (<ref
+                  target="http://scope.stiftsarchiv.sg.ch/detail.aspx?id=359">StiAPf Urk.
+                  15.06.1401</ref>), in der er dem Abt das <placeName ref="loc000211"
+                  >Gamser</placeName> Kirchenlehen für seine geleisteten Dienste in der Fehde gegen
+                  <orgName ref="org000019">Werdenberg-Heiligenberg</orgName> in Aussicht stellt,
+               sobald dieses frei wird (zur Werdenberger Fehde vgl.
+                  <ref>SSRQ_SG_III_4_017</ref>). Am <date when="1401-09-08">8. September
+                  1401</date> lässt der Herzog die hier vorliegende Urkunde in deutscher Sprache
+               ausfertigen. Die Herzöge von Habsburg-Österreich hatten die Burg <placeName
+                  ref="loc000185">Hohensax</placeName> und das Dorf <placeName ref="loc006103"
+                  >Gams</placeName> mit dem Kirchensatz am <date when="1393-11-24">24. November
+                  1393</date> von <persName ref="per004385">Ulrich Eberhard I.</persName> von
+               Sax-Hohensax mit allen Rechten für 12’000 Gulden gekauft (<bibl><ref
+                  target="
+                  http://permalink.snl.ch/bib/chbsg000056393">ChSG</ref>, <ref target="http://monasterium.net/mom/CSGXI/6616./charter">Bd. 11,
+                  Nr. 6616</ref></bibl>; <ref>SSRQ_SG_III_4_016</ref>; zum Verkauf und den
+               vorhergehenden Ereignissen vgl. <ref
+                  target="http://permalink.snl.ch/bib/chbsg000080293">Deplazes-Haefliger 1976</ref>,
+               S. 95–102). Das Kirchenlehen von <placeName ref="loc000211">Gams</placeName>
+               erscheint aber nie in Besitz des <orgName ref="org000001">Klosters Pfäfers</orgName>.
+                  <date when="1411">1411</date> verpfändet Herzog <persName ref="per000346"
+                  >Friedrich IV. von Habsburg-Österreich</persName> die Burg <placeName
+                  ref="loc000185">Hohensax</placeName> zusammen mit dem <term ref="key000040"
+                  >Kirchensatz</term> von Gams an <persName ref="per006499">Hans von
+                  Bonstetten</persName> (<bibl><ref>Burgerbibliothek Bern FA von Bonstetten 6 [2],
+                     Nr. 5</ref></bibl>). <date when="1468">1468</date> ist der <term
+                  ref="key000049">Zehnt</term> aus dem Kirchensatz von Gams im Besitz der Herren von
+               Bonstetten belegt (<ref>SSRQ_SG_III_4_059</ref>).</p>
+            <div n="2" org="uniform" sample="complete">
+            <p>Zur Frühmesse in Gams vgl. <ref>SSRQ_SG_III_4_063</ref>.</p></div>
+         </div>
+      </back>
+   </text>
+</TEI>

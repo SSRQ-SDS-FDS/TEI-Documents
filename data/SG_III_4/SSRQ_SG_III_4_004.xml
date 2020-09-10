@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-09-02"/>
+            <date type="print"/>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_004</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>GLA Karlsruhe 4 Nr. 1339</idno>
+               </msIdentifier>
+               <head>Graf Hugo II. von Werdenberg-Heiligenberg überträgt dem Zisterzienserkloster Salem Eigentumsrechte in Altenbeuren</head>
+               <msContents>
+                  <summary>
+                     <p>Graf Hugo II. von Werdenberg-Heiligenberg übergibt auf Bitten des Ulrich von Markdorf dem Kloster Salem das Eigentumsrecht der Mühle in Altenbeuren und der dortigen Lehengüter, welche die Gebrüder Konrad und Berthold genannt «Rôbesvanz» ihm resiginiert und um 20 Mark Silber an das genannte Kloster verkauft hatten.</p>Der Aussteller siegelt.</summary>
+                  <msItem>
+                     <textLang>Latein</textLang>
+                     <filiation type="current">Original</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Pergament</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="16.5"/>
+                              <width unit="cm" quantity="25.0"/>
+                           </dimensions>
+                           <dimensions type="plica">
+                              <width unit="cm" quantity="2.5"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <sealDesc>
+                     <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI"
+                           n="1"
+                           nontei:condition="well-preserved"
+                           nontei:attachment="sealed on a parchment tag"
+                           nontei:material="wax"
+                           nontei:shape="round">
+                        <persName role="sigillant" ref="per004424">Graf Hugo II. von Werdenberg-Heiligenberg</persName>
+                     </seal>
+                  </sealDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1289-02-13">actum et datum in Werdenberc 1289, idus februarii</origDate>
+                     <origPlace>Werdenberg</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head>Regesten</head>
+                     <bibl><ref target="
+                        http://permalink.snl.ch/bib/chbsg000150484">FUB, Bd. 5, Nr. 183, S. 140–141</ref></bibl>
+                     <bibl><ref target="http://permalink.snl.ch/bib/chbsg000056393">ChSG</ref>, Bd. 4, Nr. 2207, S. 332</bibl>
+                     <bibl><ref target="http://permalink.snl.ch/bib/chbsg000110415">UBSSG</ref>, Bd. 2, Nr. 793</bibl>
+                     <bibl><ref target="http://permalink.snl.ch/bib/chbsg000150455">v. Weech, CD Salemitanus</ref>, Bd. 2, Nr. 753</bibl>
+                  </listBibl>
+                  <listBibl>
+                     <head>URL</head>
+                     <bibl type="url"><ref target="http://digital.ub.uni-duesseldorf.de/ihd/content/pageview/5820768">http://digital.ub.uni-duesseldorf.de/ihd/content/pageview/5820768</ref></bibl>
+                     <bibl type="url"><ref target="http://monasterium.net/mom/CSGIV/1289_II_13/charter">http://monasterium.net/mom/CSGIV/1289_II_13/charter</ref></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key003736">Ersterwähnung</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text type="summary">
+            <body>
+               <div org="uniform" sample="complete">
+                  <p>Graf <persName ref="per004424">Hugo II. von Werdenberg-Heiligenberg</persName> überträgt dem
+       Zisterzienserkloster <orgName ref="org000120">Salem</orgName> Eigentumsrechte in
+       <placeName ref="loc006515.03">Altenbeuren</placeName>, <orig>actum et datum in
+         <origPlace ref="loc000015.05">Werdenberc</origPlace>
+                        <origDate when="1289-02-13">1289, idus februarii</origDate></orig>. </p>
+               </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div n="1" org="uniform" sample="complete">
+            <p><placeName ref="loc000015">Werdenberg</placeName> wird hier als Ort erstmals
+               urkundlich erwähnt. Es handelt sich wegen des Ausstellers wahrscheinlich um die Burg
+               und nicht um das Städtchen. Frühere Erwähnungen von Werdenberg gehen meist auf
+               Nachträge von <persName ref="per000063">Tschudi</persName> zurück (so z. B.
+                     <bibl><ref target="http://permalink.snl.ch/bib/chbsg000110415">UBSSG,</ref>
+                     Bd. 1, Nr. 357, Anm. a</bibl>).</p>
+         </div>
+         <div n="2" org="uniform" sample="complete">
+            <p>Wenige Jahre später, <date when="1294">1294</date>, wird des Litschers <term
+                  ref="key000075">Haus</term> in Werdenberg als <term ref="key000746"
+                  >Gerichtsort</term> erwähnt: <orig>Dis gischach zi <placeName ref="loc000016.05"
+                     >Werdinberg</placeName> in <persName ref="per004974a">Uͦlrich</persName>s hûs
+                  des Litscher</orig> (<bibl><ref
+                     target="http://permalink.snl.ch/bib/chbsg000056393">ChSG</ref>,
+                     <ref target="http://monasterium.net/mom/CH-StiASG/Urkunden/PP.5.B.25/charter">Bd. 4, Nr. 2365</ref></bibl>). Der Name Litscher taucht zudem <date when="1282"
+                  >1292</date> auf: <orig><persName ref="per004975a">Cuͦnraden, den
+                     Litscher</persName> von <placeName ref="loc000016.05">Werdinberc</placeName>
+                  und umbe <persName ref="per004974a">Uͦlrichin</persName>, sin sun</orig>
+                     (<bibl><ref target="http://permalink.snl.ch/bib/chbsg000110415">UBSSG</ref>,
+                     Bd. 1, Nr. 821</bibl>; <bibl><ref
+                        target="http://permalink.snl.ch/bib/chbsg000056393">ChSG</ref>, <ref target="http://monasterium.net/mom/CSGIV/1292/charter">Bd. 4,
+                     Nr. 2302</ref></bibl>. Im UBSSG ist dieselbe Quelle mit der gleichen Signatur
+               zweimal als Regest ediert, einmal unter <date when="1282">1282</date>, Nr. 727 und
+               einmal unter <date when="1292">1292</date>, Nr. 821. Beim ersten Eintrag von <date
+                  when="1282">1282</date> handelt sich wohl um einen Fehler des Editors. Die Urkunde
+               wurde <date when="1292">1292</date> ausgestellt: <orig>Dis geschach, do man zalte von
+                  vnsirs herrin gebvrtlichin tag tvsint jâr, zwai hvndirt jâr vnd nivnzic vnd zwai
+                  jâr</orig> (zit. nach <bibl><ref
+                     target="http://permalink.snl.ch/bib/chbsg000056393">ChSG</ref>, <ref target="http://monasterium.net/mom/CSGIV/1292/charter">Bd. 4,
+                     Nr. 2302</ref></bibl>).</p>
+         </div>
+         <div n="3" org="uniform" sample="complete">
+            <p>Laut der Befunde der <term ref="key000489">Bau</term>archäologie entsteht um/vor
+                  <date when="1228">1228</date> der <term ref="key000167">Burgturm</term>, den
+               vermutlich bald eine Schildmauer, dann eine <term ref="key000081">Ringmauer</term>
+               (um/nach <date when="1228">1228</date>, vor <date when="1235">1235</date>) mit
+               vorgelagertem Zwinger <date when="1235">1235</date> sichert. 1269/1270 wird der
+               Zwinger um ein Wehrgeschoss erhöht und im 15. Jh. mit Scharten für Handfeuerwaffen
+               versehen (vgl. Krumm [erscheint 2020], Die Kunstdenkmäler der Region Werdenberg, Kap.
+               Gemeinde Grabs, Bauten, Schloss Werdenberg). In der älteren Forschung ging man davon
+               aus, dass Mitte des 13. Jh. mit der Erstnennung der Grafen als <orig>von
+                  Werdenberg</orig> und der Entstehung des Stammsitzes Werdenberg auch die <term
+                  ref="key000109">Stadt</term> entstanden ist: Nach Albertin werden Teile der
+               östlichen Stadt- bzw. Umfassungsmauer und der mit ihr im Verbund stehenden Häuser
+               Städtli 5 und 14 (Schlangenhaus) um/nach <date when="1260">1260</date> erbaut
+                     (<bibl><ref target="http://permalink.snl.ch/bib/chbsg000016930">Albertin
+                     2000</ref>, S. 36–47</bibl>; <bibl><ref
+                     target="http://permalink.snl.ch/bib/chbsg000150863">Albertin 2009</ref>,
+                        S. 1–25</bibl>; <bibl><ref target="
+                           http://permalink.snl.ch/bib/chbsg000136757">Albertin 2015</ref>, S. 47</bibl>). Aktuelle
+               bauarchäologische Untersuchungen können dies zurzeit nicht bestätigen, auch wenn
+               zahlreiche frühe Strukturen einer Siedlung nachzuweisen sind (vgl. Krumm [erscheint 2020], Die
+               Kunstdenkmäler der Region Werdenberg, Kap. Gemeinde Grabs, Städtchen Werdenberg). Ein
+               eigentlicher Ausbau einer Ansiedlung zur Stadt zeichnet sich erst gegen Ende des 13.
+               Jh./Anfang 14. Jh. ab; so gelang für Teile der Umfassungsmauer die Datierumg um/nach
+                  <date when="1300">1300</date>. Zudem ist nicht klar, ob je eine
+               geschlossene Stadtmauer bzw. <term ref="key000081">Ringmauer</term> existiert hat.
+               Der Begriff Ringmauer wird zwar in den Quellen ab dem <date from="1401" to="1500"
+                  >15. Jh.</date> wiederholt verwendet, weshalb die Literatur von einer
+               durchgehenden Stadtmauer ausgegangen ist (zur baulichen Entwicklung der Stadt im 14.
+               und 15. Jh. vgl. auch <bibl><ref target="http://permalink.snl.ch/bib/chbsg991001200547703977">Krumm 2018</ref>, S. 29–35</bibl>; Krumm [erscheint
+               2020], Die Kunstdenkmäler der Region Werdenberg, Kap. Gemeinde Grabs, Bauten, Schloss
+               Werdenberg; ebd., Kap. Gemeinde Grabs, Städtchen Werdenberg). </p>
+         </div>
+      </back>
+   </text>
+</TEI>

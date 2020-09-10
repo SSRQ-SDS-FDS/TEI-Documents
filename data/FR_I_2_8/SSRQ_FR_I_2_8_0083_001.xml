@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+
+			</titleStmt>
+
+			<publicationStmt>
+				<date type="electronic" when="2019-07-23"/>
+				<date type="print"/>
+			</publicationStmt>
+
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ_FR_I_2_8_0083_001</idno>
+			</seriesStmt>
+
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<idno>StAFR, Thurnrodel 12, S. 339–343</idno>
+					</msIdentifier>
+					<head>Marie Pillet-Clerc – Verhör / Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang>fr, de</textLang>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support>
+									<material></material>
+								</support>
+								<extent>
+									<dimensions type="leaves">
+										<height unit="cm" quantity="0.0"/>
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+									<dimensions type="plica">
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+								</extent>
+							</supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1629-03-03"/>
+							<origPlace></origPlace>
+						</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc> 
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+			<particDesc default="false"/>
+			<settingDesc default="false"/>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="339"/><p><lb/><placeName ref="loc008105">Keller</placeName>
+							<seg><lb/><origDate when="1629-03-03">3 <foreign xml:lang="la">martii</foreign> 1629</origDate>, <foreign xml:lang="la"><choice><abbr>jud</abbr><expan>judex</expan></choice></foreign> herr <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per009276">Franz Karl Gottrau</persName>.</note></seg>
+							<seg><lb/><abbr>H</abbr> <term ref="lem018597.02">burgermeister</term> <persName ref="per009100">Weck</persName>, <abbr>h</abbr> <persName ref="per009266">Feldtner</persName></seg>
+							<seg><lb/><persName ref="per006532">Bawman</persName>, <persName ref="per006839">Lari</persName></seg>
+							<seg><lb/><persName ref="per009357a.01">Hanß <unclear><choice><abbr>J</abbr><expan>Jacob</expan></choice></unclear> Bawman</persName></seg>
+							<seg><lb/><choice><abbr>W</abbr><expan>Weibel</expan></choice></seg></p>
+						
+						<p><seg><lb/><persName ref="per009356">Marie Clerc</persName> de <placeName ref="loc007846.02">Ria</placeName>, relicte de feu <persName ref="per009355a.01">Françoys Pillet</persName>, enquise 
+							<lb/>de la cause de son emprisonnement, a dict ne le sçavoir&#160;; que 
+							<lb/>ceux qui l’ont accusé luy font tort, provenant telle accusa<lb break="no"/>tion de jalousie, envie et malveillance, n’ayant elle onques 
+							<lb/>mesfaict ny ehu aucune mauvaise vollonté&#160;; s’estant mise, 
+							<lb/>il y a desja <date dur="P15Y">quinze ans</date>, de la <orgName ref="org004385">confrerie du Rosaire</orgName>, sur la 
+							<lb/>proposition de messeigneurs de l’honnorable justice&#160;; qu’on 
+							<lb/>disoit qu’elle estoit mauvaise voisine, dict avoir battu sa fille 
+							<lb/>assez griefvement pour cause qu’elle parloit des parolles 
+							<lb/>mal a propos, demandoit et voulloit avoir a manger par force, 
+							<lb/>estant la mere depourveue de toutte viande, n’en ayant 
+							<lb/>veu ny ehu depuis le <time when="12:00:00">midy</time> du jour precedent aucune 
+							<lb/>miette.</seg> <seg>Interroguee si elle n’avoit donné sadite fille au <term ref="lem017521">diable</term>, 
+							<lb/>a respondu que non, ains que heurlant et pleurant 
+							<lb/>sadicte fille pour le frappement susdit, toutte la nuict, 
+							<lb/>et estant tombee de sa couche, a son cris que la mere 
+							<lb/>la devoit aller lever, elle l’alla lever et despiteuse, 
+						<pb n="340"/><lb/>faschee et courroucee des maux qu’il luy convenoit souffrir avec 
+								<lb/>sadite fille, dict&#160;: <q>&#160;<term ref="lem017521">Diable</term>, emporte la mort qu’elle ne te 
+							<lb/>vient recueillir tant de maux tu me fais&#160;!&#160;</q>. Qu’il y a 
+							<lb/>desja <date dur="P12Y">douze ans</date> que sadite fille est affligee du <term ref="lem015480">haut mal</term>. En<lb break="no"/>quise quel aage ladite fille avoit, a dict <measure type="age" quantity="22" unit="year">vingt deux ans</measure>, 
+							<lb/>estant saisie du mal touttes les nuictz, troys ou quatre foys 
+							<lb/>et plusieurs foys en dormant. Interroguee suivant 
+							<lb/>l’examen que c’estoit qui voulloit emporter ladite fille, 
+							<lb/>a respondu que ladite fille, a son dire, avoit veu de nuict une 
+							<lb/>femme longue, revestue de blanc, ressemblante a la  
+							<lb/>soeur de <persName>Domp Anthoine</persName>, laquelle voulloit prendre 
+							<lb/>la prenommee fille, sur quoy la fille crioit&#160;: <q>&#160;Mere, tenez 
+							<lb/>me&#160;!&#160;</q> Aprés ceste interrogation et response, la prisonniere 
+							<lb/>dict semblables parolles&#160;: <q>&#160;Il faut bien dire qu’on nous 
+							<lb/>espie et guette de prez, croyez que nous avons des gens 
+							<lb/>qui nous veullent du bien&#160;!&#160;</q> Allors messeigneurs de l’honnora<lb break="no"/>ble justice luy ont demandé quelles gens elle pensoit, 
+							<lb/>a quoy elle a respondu que troys hommes, assavoir <persName>Jean 
+							<lb/>Morel</persName>, son frere et garçon les avoient escoutez. Enquise 
+							<lb/>si d’autres foys elle n’avoit ainsy rudement traittee de 
+							<lb/>coupz sadite fille, a respondu que non et que son courroux 
+							<lb/>allors pour l’enragement de la fille, l’avoit incité 
+							<lb/>a tel frappement.</seg> <seg>Interroguee combien elle avoit demeuré 
+						<pb n="341"/><lb/>a <placeName ref="loc007609.04">Estavayé le Gibloux</placeName>, a dict <date dur="P47Y">47 ans</date>, ayant encor deux 
+							<lb/>filz en vie, l’un audit village, l’autre a <placeName ref="loc007900">Bergamo</placeName>, suivant 
+							<lb/>le train de la guerre.</seg> <seg>Interroguee si elle n’avoit faict a tarir 
+								<lb/>le <term ref="lem015011.04">laict</term> aux <term ref="lem017507.02">vaches</term>, a dict que non. Sur la remonstrance 
+							<lb/>de messeigneurs de dire la verité, qu’on la soubçonnoit de 
+							<lb/>tel faict, l’a derechef nié et dict que telle charge prove<lb break="no"/>noit de ce que <persName>Jean Morel</persName>, ayant congedié son <term ref="lem015141.03">armailler</term>, 
+							<lb/>en a loué un autre, qui ne sçait le train de gouverner le 
+								<lb/>bestail, et pour ne donner aux <term ref="lem017507.02">vaches</term> leur accoustumé 
+							<lb/>fourrage, elles ne donnent point de <term ref="lem015011.04">laict</term>.</seg> <seg>Enquise 
+							<lb/>si elle ne sçavoit et usoit point de prieres pour remet<lb break="no"/>tre les gens a santé, a dict qu’il y a desja <date dur="P15Y">quinze 
+							<lb/>ans</date> qu’elle s’en estoit deportee, luy en ayant esté faicte 
+							<lb/>deffence par son curé domp <persName>Jaques</persName>. Interroguee 
+							<lb/>de quelle priere elle usoit et qui la luy avoit apprins, 
+							<lb/>a respondu la mere du <term ref="lem017410.02">mestral</term> <persName>Jaques Modey</persName> de <placeName ref="loc007846.01">Riaz</placeName>, 
+							<lb/>qu’elle n’en avoit usé qu’a l’endroict des petitz enfantz, disant 
+							<lb/>en leur suslevant doucement la teste&#160;: <q>&#160;<hi rend="font change">Aussy tost soy 
+							<lb/>levé la cervellette, come celle de saincte <persName ref="per000793">Ca<lb break="no"/>therine</persName>, saincte <persName ref="per000365">Margarite</persName> et saincte <persName ref="per000324">Agate</persName>&#160;!</hi>&#160;</q>, 
+							<lb/>n’y adjoustant aucun autre mystere.</seg> <seg>Interroguee si elle 
+							<lb/>n’avoit <subst><del>debat</del><add place="overwritten">dict</add></subst> son filz <persName>Jaques</persName> estant en <term ref="lem015479.02">estrif</term> et debat 
+							<lb/>l’un contre l’autre, qu’elle donnoit sa part qu’elle 
+								<pb n="342"/><lb/>avoit en luy au <term ref="lem017521">diable</term> et si elle ne luy avoit dict&#160;: <q>&#160;Je 
+							<lb/>diray bien quelque chose&#160;!&#160;</q>, a respondu qu’estant despiteuse  
+							<lb/>contre son prenommé filz et voyant que ledit filz la voulloit 
+							<lb/>battre, luy dict&#160;: <q>&#160;Si tu me batz, je le diray a messeigneurs&#160;!&#160;</q> 
+							<lb/>Quand a l’autre maudison, <subst><del>n</del><add place="overwritten">el</add></subst>le ne s’en sçait souvenir&#160;; vray 
+							<lb/>estre qu’en la presence de son compere <persName>Marmet Fryo</persName>, elle, 
+							<lb/>constituee en courroux contre sondit filz, dict semblables 
+							<lb/>parolles&#160;: <q>&#160;Il ne s’en faudroit gueres que je te donnerois 
+								<lb/>ou la part que j’ay en toy au <term ref="lem017521">diable</term>&#160;!&#160;</q>&#160;; lors ledit <persName>Marmet</persName> 
+							<lb/>dict qu’il ne failloit pas.</seg> <seg>Interroguee pour quelle 
+							<lb/>raison elle estoit aintz courroucee contre sondit filz, a respon<lb break="no"/>du que son filz luy avoit emblé quelques chosettes, 
+							<lb/>dont il ne voulloit faire restitution. Enquise si elle n’avoit 
+							<lb/>dict quand on saisit sa feue belle fille, prisonniere, qu’il avoit 
+							<lb/>de plus grandes sorcieres qu’elle, a dict que non. Ains <add place="above" type="sign">avoir dict</add> qu’on 
+							<lb/>luy faisoit tort, n’ayant apperceu onques aucune mauvaise 
+							<lb/>chose de sadite belle fille.</seg> <seg>Interroguee si elle ne sçavoit quel<lb break="no"/>ques charmes pour guerir le bestail, a respondu que 
+							<lb/>non, que si elle en auroit sceu, elle auroit bien garanty le sien, 
+							<lb/>duquel elle en a perdu a la valleur de <measure type="currency" quantity="600" unit="lb">600 </measure>.</seg> <seg>Enquise 
+							<lb/>d’ou elle sçavoit que un petit masle appartenant a <persName>Jacob
+							<lb/>de <placeName ref="loc007929.01">Bossens</placeName></persName> estoit pery et si elle ne luy avoit donné le 
+							<lb/>mal, a respondu qu’elle ne luy avoit donné le mal. Ains 
+							<lb/>que le boeuf de la cure l’avoit heurté et frappé de 
+						<pb n="343"/><lb/>ses cornes longtempz, ainsy qu’elle avoit dict a la femme 
+							<lb/>dudit de <placeName ref="loc007929.01">Bossens</placeName>, qui luy avoit faict le plaintif qu’elle 
+							<lb/>avoit perdu leur petit masle.</seg> <seg>Interroguee si elle n’avoit 
+							<lb/>proferé telles parolles&#160;: <q>&#160;Nous avons ehu de l’honte, mais 
+							<lb/>je crains que n’en ayons davantage&#160;!&#160;</q>, a respondu qu’ouy, mais 
+							<lb/>que c’estoit a cause que sa fille estoit subjecte au <term ref="lem015480">haut mal</term>, 
+								<lb/>craignant qu’elle ne s’enfuist et fist quelque <term ref="lem017488.02">fau bon</term>. Enqui<lb break="no"/>se si elle n’avoit jetté le sort sur <persName>Antheyne</persName>, fille d’<persName>Anthoine 
+							<lb/>de <placeName ref="loc007929.01">Bossens</placeName></persName>, qui a esté longuement mallade, a dict que non. 
+							<lb/>Ains que ladite <persName>Antheyne</persName> estoit tombee en malladie de 
+							<lb/>regret que son frere soy voulloit marrier a une fille 
+							<lb/>contre le gré de ladite <persName>Antheyne</persName>, et que sçachant ladite 
+							<lb/><persName>Antheyne</persName> que son frere ne voulloit espouser ladite fille, 
+							<lb/>elle revient a convallessence.</seg> <seg>Interroguee si elle 
+							<lb/>n’alloit desrobbant les raves des ravieres de 
+							<lb/>ses voisins, a dict que non&#160;; vray estre que sa fille en a prins 
+							<lb/>troys dans la raviere de <persName>Claude Morel</persName>. Prie 
+							<lb/>d’avoir pitié d’elle et de sa fille et de leur voulloir 
+							<lb/>eslargir.</seg> 
+						</p>	
+					</div>
+				</body>
+				
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+
+<?oxy_options track_changes="on"?>

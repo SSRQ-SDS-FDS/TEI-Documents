@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+
+			</titleStmt>
+
+			<publicationStmt>
+				<date type="electronic" when="2019-05-29"/>
+				<date type="print"/>
+			</publicationStmt>
+
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ_FR_I_2_8_0060_012</idno>
+			</seriesStmt>
+
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<idno>StAFR, Thurnrodel 11, S. 320</idno>
+					</msIdentifier>
+					<head>Jean Cordey – Verhör / Interrogatoire</head>
+					<msContents>
+						<summary></summary> 
+						<msItem>
+							<textLang>fr</textLang> 
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support>
+									<material></material>
+								</support>
+								<extent>
+									<dimensions type="leaves">
+										<height unit="cm" quantity="0.0"/>
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+									<dimensions type="plica">
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+								</extent>
+							</supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1623-06-20"></origDate>
+							<origPlace></origPlace>
+						</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+							
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		
+		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+			<particDesc default="false"/>
+			<settingDesc default="false"/>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<p><lb/><origDate when="1623-06-20">Le jour que devant</origDate><note>Das Verhör fand im <placeName ref="loc007683">Bösen Turm</placeName> statt.</note></p>
+						
+						<p><seg><lb/><add place="left margin"><foreign xml:lang="la">Nihil solvit</foreign>.</add></seg> 
+							<seg><persName ref="per009489">Jean Cordey</persName> de <placeName ref="loc007934.05">Mignyres</placeName> recommande sa fillette 
+						<lb/>a messeignieurs.</seg></p>
+						
+						<p><lb/>Item a <term ref="lem015356.09">accolpé</term> <persName>Jacques Fally</persName> filz d’<persName>Aymé</persName> de 
+							<lb/><placeName ref="loc007934.07">Mignires</placeName>, qu’a esté a la <term ref="lem017043.01">secte</term> vers <placeName ref="loc007932.01">Vesin</placeName> et est 
+						<lb/>venu sorcier pour avoir fait un faux serment.</p>
+						
+						<p><lb/>Item il luy semble que <persName ref="per009514">Jean du Four</persName> de <placeName ref="loc007934.05">Mignyres</placeName> <add place="left margin">et sa femme</add> 
+							<lb/>estoit a la <term ref="lem017043.01">secte</term> vers <placeName ref="loc007932.04">Visyn</placeName>, qu’il dançoit.</p>
+						
+						<p><lb/>Item a dit que <persName>Jacques de Trey</persName> de <placeName ref="loc007610">Payerne</placeName> 
+							<lb/>est le capitaine de la <term ref="lem017043.01">secte</term>, qui donnoit l’heure  
+						<lb/>et la place aux aultres, et le se disoent l’un 
+						<lb/>l’aultre.</p>
+						
+						<p><lb/>Il dit avoir bruslé sa <term ref="lem018382">graisse</term> il y a <date dur="P3Y">troys ans</date>, 
+						<lb/>qui faisoit le feu tout <term ref="lem015364.02">per</term>, et dempuis il est 
+						<lb/>allé touttes les dimenches et vendredy a la messe, dont 
+						<lb/>son <choice><abbr>mre</abbr><expan>maitre</expan></choice> n’a plus eu de puissance sur luy.</p>
+						
+						<p><lb/>Item a dit que quant il alla a la guerre avec <choice><abbr>mons<hi rend="sup">r</hi></abbr><expan>monseigneur</expan></choice> 
+							<lb/>d’<persName>Affry</persName>, il laissa sa <term ref="lem018382">graisse</term> a sa femme et luy 
+							<lb/>dit qu’il devoit prendre la <term ref="lem018382">graisse</term> de son <choice><abbr>mre</abbr><expan>maitre</expan></choice> et 
+						<lb/>en faire ce qu’elle vouldroit.</p>
+						
+						<p><lb/>Et a le tout confirmé, estant par deux foys esté 
+							<lb/>eslevé avec la petite <subst><del><term ref="lem018231">corde</term></del> <add place="inline">pierre</add></subst>.</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+
+
+
+<?oxy_options track_changes="on"?>

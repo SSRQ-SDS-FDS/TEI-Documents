@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+    <persName>Sibylle Malamud</persName>
+    <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+    <persName>Sibylle Malamud</persName>
+    <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-01-28"/>
+            <date type="print"/>
+            <availability><p xml:id="facs">Staatsarchiv St. Gallen (StASG)</p></availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+    <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+    <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_068_1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+    <msIdentifier>
+       <idno>OGA Sevelen B 04.11, S. 119–123</idno>
+       <altIdentifier>
+          <idno>StASG AA 3 A 12c-1</idno>
+       </altIdentifier>
+    </msIdentifier>
+    <head>Schiedsspruch betreffend gemeinsame Nutzungsrechte der Bewohner von Räfis mit dem Kirchspiel Sevelen, zu dem sie gehören</head>
+    <msContents>
+       <summary>
+          <p>Hans Vittler, Vogt und Dienstmann des Grafen Wilhelm VIII. von Montfort-Tettnang, urkundet in der Stadt Werdenberg, dass sie Ludwig und Jörg Müntener, Sigmund Schwendener, Ulrich Ger, Hans Montlorentscher und Felix Müntener, alle von Räfis, einerseits und Klaus Steinheuel, Hans Rüttner, Heinrich Riffer, Heinrich Schwegler und Lorenz Gerung, Vertreter der Kirchgenossenschaft Sevelen, andererseits gerichtet haben. Die Räfiser klagen durch Matthias Metzger, Landammann von Sargans, dass ein Urteil wegen des Holzschlags zwischen denen von Sevelen und Altendorf oder Buchs von Werdenberger Geschworenen gesprochen wurde und Sevelen ihnen keine Holzhaurechte zuteilte, obwohl sie seit über 100 Jahren als Kirchgenossen des Kirchspiels Sevelen Wunn und Weid, Holz und Feld mit denen von Sevelen nutzen. – Klaus Steinheuel antwortet für die Seveler: Nach einem Untergang seien zwischen Buchs und Sevelen die Grenzmarchen neu gesetzt worden, die sollen eingehalten werden. – Urteil: Da Räfis mit den Kirchgenossen aus Sevelen den Unterhalt der Kirche, Frondienste, Steuern und anderes teilt, sollen sie auch Wunn und Weide, Holz und Feld mit ihnen nutzen. Die zwischen Buchs und Sevelen neu gesetzten Grenzen sollen ohne Beeinträchtigung der alten Nutzungsrechte derjenigen von Räfis bestehen bleiben. Es werden 2 Urkunden ausgefertigt.</p>Der Aussteller siegelt.</summary>
+       <msItem>
+          <textLang>Deutsch</textLang>
+          <author role="scribe">Ulrich Saxer von Sevelen</author>
+          <filiation type="original">
+             <origDate when="1476-01-29">mentag vor unser frauentag purificationis</origDate>
+             <idno>OGA Sevelen B 04.11</idno>
+          </filiation>
+          <filiation type="current">Abschrift (Editionsvorlage, 163 Seiten paginiert) mit Ledereinband</filiation>
+       </msItem>
+    </msContents>
+    <physDesc>
+       <objectDesc>
+          <supportDesc>
+             <support>
+                <material>Papier</material>
+             </support>
+             <extent>
+                <dimensions type="leaves">
+        <height unit="cm" quantity="34.5"/>
+        <width unit="cm" quantity="21.0"/>
+                </dimensions>
+             </extent>
+          </supportDesc>
+       </objectDesc>
+    </physDesc>
+    <history>
+       <origin>
+          <origDate from="1735-01-01" to="1735-12-31"/>
+       </origin>
+    </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+    <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+    <term ref="key000683">Urteil</term>
+    <term ref="key000336">Nutzung</term>
+    <term ref="key000305">Grenzen</term>
+    <term ref="key000524">Holz</term>
+    <term ref="key000637">Pfarrei</term>
+    <term ref="key003818">Waldnutzung</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+    <div org="uniform" sample="complete">
+       <p>
+                     <pb n="119" facs="OGA_Sevelen_B_04.11_S119"/>
+                     <seg>
+                        <lb/>Wir, der <term ref="lem000041">vogt</term> und der geschwornen <term
+                           ref="lem000564">rätte</term><note anchored="true">Soweit leserlich heisst
+                           es in den beiden Originalen <orig>unnd des gesworen rats</orig> (<ref>PGA
+                              Buchs U 01</ref>; <ref>OGA Sevelen U 1476</ref>). Im Vidimus von 1628
+                              (<ref>PGA Buchs U 02</ref>) und den späteren Kopien heisst es dann
+                           aber immer <orig>und geschworne räte</orig>. Da sich Hans Vittler als
+                           Siegler unten geschworener Vogt, Rat und Amtmann des Grafen nennt, ist
+                           davon auszugehen, dass hier Rat als Berater bzw. Dienstmann gemeint ist
+                           und nicht mehrere Berater oder möglicherweise der Rat der Stadt
+                           Werdenberg.</note> des <lb/>wolgebornen herren <persName ref="per000884a"
+                           >Willhelmmans, <subst><del><unclear>bränner</unclear></del>
+                              <add place="above" hand="later hand">grafen</add></subst> zuo Muntfurt
+                           <lb/>und zuo Werdenberg</persName>
+                        <app>
+                           <lem>und</lem>
+                           <rdg wit="OGA Sevelen U 1476"><abbr>etc</abbr></rdg>
+                        </app>, bekennen offentlich und thun kundt <lb/>allermaniglich mit dißem
+                        brieff, das wir auff heütigen tag seiner <lb/>datto von gnaden, gewaltz und
+                        empfelchens wegen des obgemelten <lb/>unßers gnädigen herren, daselbst zuo
+                           <placeName ref="loc000016">Werdenberg</placeName> in der <term
+                           ref="lem000184">statt</term>, in rahts <lb/><app>
+                           <lem>wie sy</lem>
+                           <rdg wit="PGA Buchs U 01">wyse</rdg>
+                        </app> bey einanderen geseßen sind und sind für uns <term ref="lem014520.02"
+                           >in gerichtsweiß</term> kommen <lb/>die erbaren und bescheidenen
+                           <persName ref="per004746">Ludwig Müntener</persName>, <persName
+                           ref="per004737a">Jörg Müntener</persName>, <persName ref="per004748a"
+                           >Sigmund <lb/>Schwendener</persName>, <persName ref="per004749a">Uollrich
+                           Ger</persName>, <persName ref="per004750a">Hanß
+                           Mundtlerentscher</persName> und <persName ref="per004747a">Felix
+                           Müntener</persName>, <lb/>alle von <placeName ref="loc000428.06"
+                           >Reffes</placeName>, innamen und anstatt ir selbst an einem, <persName
+                           ref="per004706a">Claus Stein<lb break="no"/>hoüwel</persName>, <persName
+                           ref="per004734a">Hanß Reütner</persName>, <persName ref="per004751a"
+                           >Heine Riffer</persName>, <persName ref="per004752a">Heinerich
+                           Schwiglin</persName> und Lurentz <lb/><app>
+                           <lem>Gafontz</lem>
+                           <rdg wit="StASG 3 A 12c-1"><persName ref="per004753a"
+                              >Gerung</persName></rdg>
+                        </app><note anchored="true">In den beiden Originalen ist der Name nicht mehr
+                           lesbar. Der Name wird sowohl im Vidimus (<bibl><ref>PGA Buchs U 02</ref></bibl>) als
+                           auch in diversen Kopien ganz unterschiedlich geschrieben, so z. B. als
+                              <orig>Gacontz</orig> (<ref>PGA Buchs U 01 A-1</ref>). Der Name im
+                           Vidimus ist wohl als <orig>Geruntz</orig> zu lesen und nicht wie in der
+                           Transkription im Archivverzeichnis als <orig>Gacontz</orig>.</note>, in
+                        namen anstatt und von wegen ihr selbst, auch als volmächtige <term
+                           ref="lem000782">gew<lb break="no"/>waltshaber</term> eins gantzen
+                        gemeinen <term ref="lem000299">kilchspil</term>s zuo <placeName
+                           ref="loc006039">Sefellen</placeName> ein anderen theil <lb/>und als sy
+                        sich nach form des rechten gestalten.</seg>
+                     <seg>Clagten die obgemelten <lb/>von <orgName ref="org001913">Reffes</orgName>
+                        in namen und von wegen ihr selbst durch <persName ref="per000454a">Mattias
+                           Metzger</persName>n, <lb/>landaman zuo <placeName ref="loc000925"
+                           >Sargantz</placeName>, ihren <term ref="lem006420">redner</term>, wie ein
+                        recht zuo vergangnen tagen <lb/>etlicher <term ref="lem014521.02"
+                           >holtzhauwer</term> halb entzwüschen den von <orgName ref="org001911"
+                           >Sevelen</orgName> und <orgName ref="org001914">Altendorff</orgName>
+                        <lb/>old <orgName ref="org001912">Buchs</orgName> ergangen und volführt, so
+                        vor uns alß geschwornen rähte <lb/>unßers gnädigen herren,
+                              <subst><del>bränner</del>
+                           <add place="above" hand="later hand">graf</add></subst>
+                        <persName ref="per000884a">Wilhelmans zuo Muntfurt</persName>, daß sy si in
+                        <lb/>ließen, als daß sy nach demselben rechten, die von <orgName
+                           ref="org001911">Seffelen</orgName>, etlich <term ref="lem008672">teil<lb
+                              break="no"/>ungen</term> angesehen und gethan haben und sy darzuo nit
+                        berüöfft noch in <lb/>ihren zugeteillet, daß sy doch unbillich <choice>
+                           <sic>befemdt</sic>
+                           <corr>befremdt</corr>
+                        </choice>. Und haben zuo den von <lb/><orgName ref="org001911"
+                           >Seffelen</orgName> geschickt und an vorbringen, sy bleiben zuo lassen
+                        als ihre vordern <lb/>und wie von altem herkommen sey, dass auch die von
+                           <orgName ref="org001911">Sevelen</orgName> in abgeschlagen <lb/>und
+                        ausser <app>
+                           <lem/>
+                           <rdg wit="PGA Buchs U 01">dehainer</rdg>
+                        </app> grechtigkeit thun haben wollen, dass sy doch unbillich genomen
+                        <lb/>und befremdt haben. Demnach sy ihre gnädige herren,
+                              <subst><del>bränner</del>
+                           <add place="above" hand="later hand">graf</add></subst>
+                        <persName ref="per000884a">Wilhelmen</persName>s <lb/>obgemelt, umb recht
+                        nach etlich bit so von seinen gnaden und in an die <lb/>von <orgName
+                           ref="org001911">Seffelen</orgName> sy hinfür als bissher bleiben zuo
+                        lassen <app>
+                           <lem>und beschehen ist an<lb break="no"/>gerüöfft haben</lem>
+                           <rdg wit="PGA Buchs U 02"/>
+                        </app>.</seg>
+                     <seg>Demnach in von sinen gnaden ein rechttag alher für uns, <lb/>als seinen
+                        gnaden geschworen rähte, gesetzt und verkündt sey, und wan <lb/>nun ihr
+                           <term ref="lem001480">forderen</term>, ein <term ref="lem014439"
+                           >vatter</term> und sy, so auff ihrem sitzen gesessen sein lenger <lb/>und
+                        mehr den <date dur="P100Y">hundert jahr</date>, <term ref="lem000252">wun
+                           und weid</term>, <term ref="lem008214">holtz und feld</term> mit den von
+                           <lb/><orgName ref="org001911">Seffelen</orgName> genutzet und gebraucht
+                        und alle <term ref="lem004946">gemeinschafft</term> als <term
+                           ref="lem013546.03">kilchgehören</term>
+                        <lb/>zuo <orgName ref="org001911">Seffelen</orgName> mit den von <orgName
+                           ref="org001911">Seffelen</orgName> mit <term ref="lem005195"
+                           >tagwercken</term>, <term ref="lem000240">kirchen</term>
+                        <term ref="lem000323">bauen</term>, <term ref="lem000070">eid</term>
+                        <term ref="lem000335">schweren</term>, <lb/><term ref="lem000545"
+                           >pennen</term>, <term ref="lem008672">teillungen</term> und <term
+                           ref="lem005808">brüchen</term> in lieb und leid herbracht haben, je unnd
+                        je <lb/>lenger den jemand verdencken mag, unssher von iren vorderen <pb
+                           n="120" facs="OGA_Sevelen_B_04.11_S120_121"/>
+                        <lb/>und inen ungedrengt und ungesumbt. Daran sy in doch jetz <lb/><term
+                           ref="lem006204">understanden</term>, <term ref="lem008992">abbruch</term>
+                        thun und sy nit beliben lassen wollen als <lb/>dero von <orgName
+                           ref="org001911">Seffelen</orgName> vorderen und sy ihr vorderen und sy je
+                        und je <lb/>haben lassen beliben. Demnach sy begehrten, die von <orgName
+                           ref="org001911">Seffelen</orgName> gütlich <lb/>und so ver dass gütlich
+                        nit wissen mocht, mit unßerem rechtlichen <lb/>spruch zuo wissen, sy hinfür
+                        bey ihrem rüwigen <term ref="lem003706.14">gewehr</term> und altem her<lb
+                           break="no"/>kommen beliben zuo lassen als bisher, dan sy doch auff den
+                           <term ref="lem000693.04">marcken</term>
+                        <lb/>sitzen. Und so ver sy in den abbruch also thäten, deß verderben wäre.
+                        <lb/>Und wan auch die marcken von den, so die gesezt haben, die auch noch
+                        <lb/>eins theils in leben sind, mit underscheid und fürworten gesetzt
+                        <lb/>sein, die sy auch darumb um undterrichtung der ding zuo verhören
+                        <lb/>begerten.</seg>
+                     <seg>
+                        <lb/>Darauff die genemten von <orgName ref="org001911">Sevelen</orgName>
+                        durch den bemelten <lb/><persName ref="per004706a">Claus
+                           Steinhoüwel</persName>, ihren redner, von wegen ihr selbst und als
+                        <lb/>und volmächtig gewalthaber eines gemeinen kilchspils zuo <placeName
+                           ref="loc006039">Sevelen</placeName>
+                        <lb/>antworten und reden liessen, dero von <orgName ref="org001913"
+                           >Reffes</orgName> clag hab man wol <lb/>verstanden und nach den vergangen
+                        jahren ein <term ref="lem001683">untergang</term> beschehen <lb/>und guott
+                        marchen entzwüschen den von <orgName ref="org001911">Seffelen</orgName> und
+                           <orgName ref="org001912">Bux</orgName> gesetzt sein. <lb/>Wie wol sy nun
+                        zuo beiden seiten einander als guot <term ref="lem006532">nachburen</term>
+                        <term ref="lem005891">gelitten</term>
+                        <lb/>und zuo beiden seiten über die marcken gebraucht haben außer deheinem
+                        <lb/>anderen grund, dan auss nachburschafft wilen bis an das end, das
+                        <lb/>die von <orgName ref="org001912">Bux</orgName> ir so weit geriffen, das
+                        sy dass nit mehr haben <term ref="lem005891">leiden</term> wollen. <lb/>Und
+                        sy mit den von <orgName ref="org001912">Buchs</orgName> allher für recht
+                        kommen nach inhalt eines <lb/>urtheil und <term ref="lem000460"
+                           >spruchbrieff</term>s, den sy darum zu verhören begerten und <lb/>darauff
+                        ihre wort, der auch mit urteil verhört und verleßen ward. <lb/>Darauff sy
+                        fürter redten, <app>
+                           <lem>in zu fällen</lem>
+                           <rdg wit="PGA Buchs U 01 A-1">sy zwyfeln</rdg>
+                        </app> nit, hab man den verlesen brief <lb/>verstanden und hofften, das die
+                        von <orgName ref="org001912">Buchs</orgName> sich hinder ihren <lb/>marcken
+                        ungesumbt und <app>
+                           <lem>ungeihrt</lem>
+                           <rdg wit="PGA Buchs U 01 A-1">ungenwert</rdg>
+                        </app> lassen sollen, als sy <app>
+                           <lem>gerurhten</lem>
+                           <rdg wit="PGA Buchs U 01 A-1">getruwten</rdg>
+                        </app>
+                        <lb/>nach des verleßnen brieffs, sich billich und recht wessen.</seg>
+                     <seg>Daruff <lb/>die von <orgName ref="org001913">Reffes</orgName> obgemelt
+                        antworten, man hab den verlessen brieff wol <lb/>verstanden und laßen den in
+                        seinem werd bestehen, hoffen auch, das <lb/>sy der nit vil bünden noch
+                        verbünden sol nach gestalter sach, <app>
+                           <lem>und wan <lb/>ob sich mit den von <orgName ref="org001911"
+                                 >Seffelen</orgName> alle gemeinschafft als kilchgehören zuo
+                                 <orgName ref="org001911">Sevelen</orgName>
+                              <lb/>uns her mit den von Sevelen herbracht und daß</lem>
+                           <rdg wit="PGA Buchs U 01">unnd wan aber sy unnd ir vordern alle
+                              gemainschafft als kilch<lb break="no"/>gehören von Sevellen bis hermit
+                              den von Sevellen herbracht und die</rdg>
+                        </app> in stiller gewer langer <lb/>den hundert jahr und menschliche
+                        gedachtnus sye, von allermeniglichen <lb/><app>
+                           <lem>und gehindert und unversucht</lem>
+                           <rdg wit="PGA Buchs U 01">ungehindert und un<lb break="no"
+                              />ersuͦcht</rdg>
+                        </app> gebraucht und genossen haben, hoffen wie <lb/>vor, sy sollen sy bey
+                        ihrem alten herkomen beliben laßen, als sy hofften, <lb/>billich und recht
+                        weßen gsin were, auch wie vor im <term ref="lem000582">kundtschafft</term>
+                        <pb n="121" facs="OGA_Sevelen_B_04.11_S120_121"/>
+                        <lb/>der marcken halben zuo verhören.</seg>
+                     <seg>Darauff die von <orgName ref="org001911">Sevelen</orgName> obgemelte
+                        <lb/>antworten, man <app>
+                           <lem/>
+                           <rdg wit="PGA Buchs U 01">hab</rdg>
+                        </app> klagen und widerreden verstanden und nach dem <lb/>der verleßen
+                        urteil und spruchbrieff clarlich weißt, daß <choice>
+                           <sic>de</sic>
+                           <corr>die</corr>
+                        </choice> von <lb/><orgName ref="org001912">Buchs</orgName> in namen und als
+                        volmächtige gewalthaber eins gantzen gemeinen <lb/><term ref="lem000299"
+                           >kilchspyl</term>s, desgleich die von <orgName ref="org001911"
+                           >Sevelen</orgName> in recht gestanden seind und fürter die
+                        <lb/>gesprochen urteil lautter zuo erkennen gibt, dass die von <orgName
+                           ref="org001912">Buchs</orgName>, auch die <lb/>von <orgName
+                           ref="org001911">Seffelen</orgName> jedwedere partey die anderen hinder
+                        ihren offenen marcken <lb/>wider ihren guthen willen ungesumbt und <term
+                           ref="lem006519">ungeyehrt</term> laßen sollen und <lb/>in ouch, als daß
+                        selb recht ergangen, jeder partey zuo bringen und für<lb break="no"
+                        />zuwenden, daß sy getreüw zuo geniessen, und verkundt sey, demnach, <lb/>sy
+                        hoofften, dass in dehein kundtschafft über den verlessnen brieff <lb/>gehört
+                        noch der obthan sol werden, sonder sy derselb beliben zuo <lb/>lassen. Und
+                        ob jemandt derüber greiffen, hab sy ußer <term ref="lem008296"
+                           >nachburschafft</term>
+                        <lb/>und nit ußer grechtigkeit beschehen, demnach sy in solches nit
+                        schädlich <lb/>weßen.</seg>
+                     <seg>Hofften darauff die von <orgName ref="org001913">Reffes</orgName> gleich
+                        wie vor und dass mehrer <lb/>redten, sy haben mit den von <orgName
+                           ref="org001911">Seffelen</orgName> brüch, tagwerck und alle gemein<lb
+                           break="no"/>schafft als kilchgehörige gethan, thun auch an unssers
+                        gnädigen herren <lb/>tagwerck, auch an dem <term ref="lem000769"
+                           >wuohr</term> mit den von <orgName ref="org001911">Sevelen</orgName>
+                        tagwerck, demnach <lb/>sy hofften wie vor und begerten in kundtschafft zuo
+                        verhören.</seg>
+                     <seg>Darzuo <lb/>die von <orgName ref="org001911">Sefelen</orgName> anttworten
+                        gleich wie vor und daß mehr, es sey <add place="above">jeder</add>
+                        <choice>
+                           <sic>arman</sic>
+                           <corr>arm man</corr>
+                        </choice>
+                        <lb/>meiner gnädegen herren tagwerck schuldig zuo thun, die sy mit in oder
+                        <lb/>anderen thun möchten, dan meine herren die von <orgName ref="org001828"
+                           >Grabs</orgName> old ander <lb/>zuo in schicken und ordnen mocht und
+                        hofften wie vor, daß in dehein <lb/>kundtschafft über den verlessnen brieff
+                        nach vergangen rechten verhört <lb/>werden sol, sonder hofften, sy sollen
+                        bey ihrem verlessnen urthel und <lb/>spruchbrieff bleiben. <persName
+                           ref="per004737a">Jörg Müntener</persName> sey auch für sich selbst und
+                           <term ref="lem000674">kilchgenoßen</term>
+                        <lb/>nach lut des urthelbrieffs <term ref="lem006623">in daß recht
+                           gestanden</term>, demnach sy solches <app>
+                           <lem/>
+                           <rdg wit="PGA Buchs U 01">an ir frömd nem</rdg>
+                        </app>
+                        <lb/>und hofften wie vor. <app>
+                           <lem>Zuo</lem>
+                           <rdg wit="PGA Buchs U 01">Darzuͦ</rdg>
+                        </app>
+                        <persName ref="per004737a">Jörg Müntener</persName> anttwort, er sey von
+                           <term ref="lem000716">bott</term> und <lb/>gehorsam wegen, so ihm von dem
+                           <term ref="lem000041">vogt</term> gethan sey, seinen rechten unschädlich,
+                        <lb/>in daß recht gestanden, wo man das nit geloben wolt, so begert er,
+                        wider <lb/>vogt und gantzer raht darum zuo verrhören und hofften, im sol das
+                        nitt <lb/>schaden beren.</seg>
+                     <seg>Und als beidtheil die sach zuo recht und unsserem spruch <lb/>satztend,
+                        haben wir nach clag, anttwort, red, weiderred, verhörung <lb/>dess verlessen
+                        brieffs und allem fürwand zuo recht erkennt, daß man <lb/>den von <orgName
+                           ref="org001913">Reffes</orgName> ir kundtschafft verhör und darnach
+                        beschehen, was recht <lb/>sey, die auch eigendtlich verhört ist.</seg>
+                     <seg>Darauff die von <orgName ref="org001913">Reffes</orgName> obgemelt
+                        <lb/>fürter reden ließen, man hab, als dan in nit <app>
+                           <lem/>
+                           <rdg wit="PAG Buchs U 01">zwivele</rdg>
+                        </app>, clagen und widerreden, <lb/>auch die verhörten kundtschafften wol
+                        verstanden, unnoht die zu melden, <pb n="122"
+                           facs="OGA_Sevelen_B_04.11_S122_123"/>
+                        <lb/>und nachdem sy und ihr vorderen jetz mit den von <orgName
+                           ref="org001911">Sevelen</orgName> und <lb/>ihr vorderen wun und weid,
+                        holtz und veld genossen, auch alle gemein<lb break="no"/>schafft mit bauwen,
+                        brüchen, tagwerchen, teilungen, pennen und eidschweren <lb/>und als anders
+                        kirchgehörigen zuo <orgName ref="org001911">Seffelen</orgName> mit in
+                        herbracht und gethan <lb/>haben, alles in rüwiger, stiller gewehr ohne
+                        hindernuss und widersprechen, <lb/>allermaniglich lenger und mehr den
+                        huntert jahr und menschliche <lb/>gedächtnus sey. Und nun auch die
+                        kundtschafft clarlich und lautter <lb/>zuo erkennen gibt, dass die marcken
+                        in an ihren alten herkomen <lb/>unschadlich gesetzt worden seinn, dem allem
+                        nach sy hofften und vermeinten, <lb/>dass die von <orgName ref="org001911"
+                           >Seffelen</orgName> sy bey ihrem alten herkomen und rüwiger, <lb/>stiller
+                        gewehr und unausssprechendtliche hinfer als bisher beliben <lb/>laßen
+                        sollent, als sy hofften, wir getrauend, wie billich und recht wesen.</seg>
+                     <seg>
+                        <lb/>Darzuo die von <orgName ref="org001911">Seffelen</orgName> obgemelt
+                        auch reden und anttworten ließen <lb/>gleicher meinung wie vor und des
+                        fürter, nachdem vormalen den <lb/>von <orgName ref="org001912">Bux</orgName>
+                        auch den von <orgName ref="org001911">Sevelen</orgName> entlich ein <term
+                           ref="lem000948">rechttag</term> gesetzt und jede par<lb break="no"/>they
+                        auff denselben tag fürzuwenden und zuo bringen, es sey kundt<lb break="no"
+                        />schafft, leüt old brieff, und was sy gerüwt zuo geniessen, verkündt
+                        sey.</seg>
+                     <seg>
+                        <lb/>Demnach auch auff denselben tag die von <orgName ref="org001912"
+                           >Buchs</orgName> innamen und anstatt <lb/>und als volmächtige <term
+                           ref="lem000782">gewalthaber</term> unssers gantzen gemeinen kirchspels
+                        <lb/>zuo <placeName ref="loc006100">Buchs</placeName>, dessgleich die von
+                           <orgName ref="org001911">Seffelen</orgName> auch in recht gestanden und
+                        <lb/>demnach allda ein urtheil und spruch nach inhalt dess verlesen
+                           <lb/><term ref="lem001228">urteilbrieff</term>s erkent und gesprochen
+                        sey. Demnach sy hofften getreüend, <lb/>dass sy bey ihrem erlangten
+                        behaltenen rechten und urteilbrieff billich <lb/>beliben, uns in der in
+                           <sic>krufften</sic> erkent und mit solchen den von <orgName
+                           ref="org001913">Reffes</orgName>
+                        <lb/>clag, auch der verhörten kuntschafft, die doch zuo guotem theil
+                        <lb/>auff <app>
+                           <lem>hin ob sag</lem>
+                           <rdg wit="PGA Buchs U 02">höris sag</rdg>
+                        </app> thät lauten, nit abkent noch hinder sich getriben sol <lb/>werden, er <app>
+                           <lem>werde in den abgrund gesetzt, als nach sy</lem>
+                           <rdg wit="PGA Buchs U 01">wurd in dann abgesetzt, als recht sy</rdg>
+                        </app>. Alss sy hoffen <lb/>und getreüwend billich und recht wessen.</seg>
+                     <seg>Und nun beid teil die sach mit <lb/>mehreren worten auff die meinung
+                        lautend, unnot alle hie zu schriben <lb/>und zuo melden, zuo recht und
+                        unßerem rechtspruch gesetzt, so haben, <lb/>wir nach clag, antwort, red,
+                        widerred, verhörung lüt und brieff und <lb/>allen fürgewendten dingen auff
+                        unßeren eiden einhellig zuo recht <lb/>erkent und gesprochen:</seg>
+                     <seg>Die weil die von <orgName ref="org001913">Reffes</orgName> mit den von
+                           <orgName ref="org001911">Seffelen</orgName>
+                        <lb/><term ref="lem000274">bauw</term>, <term ref="lem005195"
+                           >tagwerck</term>, <term ref="lem005808">brüch</term> und anders gethan,
+                        auch <term ref="lem000252">won und weid</term>, <term ref="lem008214">holtz
+                           <lb/>und veld</term> mit in genossen haben, alles in rüwiger, stiller
+                           <term ref="lem003706">gewehr</term>, und <lb/>die verhört <term
+                           ref="lem000582">kuntschafft</term> zum theil clarlich erkentt und
+                        gesprochen, <lb/>daß die <term ref="lem000693">marcken</term> zuo vergangnen
+                        jahren mit unterscheid, der von <lb/><orgName ref="org001913"
+                           >Reffes</orgName> an ihrem alten herkomen unschädlich gesetzt sein. <pb
+                           n="123" facs="OGA_Sevelen_B_04.11_S122_123"/>
+                        <lb/>Auch nachdem <persName ref="per004737a">Jörg Müntener</persName> in daß
+                           <term ref="lem010466">vorspruchrecht</term> von <term ref="lem000716"
+                           >pot</term> und gehor<lb break="no"/>samy wegen, seinen rechten
+                        unschädlich, gestanden ist, dass dann der ver<lb break="no"/>leßen
+                        urtheilbrieff, vormalen von uns ausgangen, nit abnem der von <lb/><orgName
+                           ref="org001913">Reffes</orgName> alt herkomen, sonder dass sy schuldig
+                        sein, die von <orgName ref="org001913">Reffes</orgName>, so in das recht
+                        <lb/>gestanden sind, obgemelt ihr erben und nachkommen, laßen zuo brauchen
+                        holtz <lb/>und veld, won und weid, wie das von altem herkomen ist,
+                        ungefahrlich. Die von <lb/><orgName ref="org001911">Sevelen</orgName>
+                        setzendt in dass anderwertlingen ab, als recht sey.</seg>
+                     <seg>Und des alles <lb/>zuo wahrem und vesten urkundt, so sind dißer brieff
+                        zwen ungefahrlich <lb/>gleich lautent gemacht und mit des frommen, weissen
+                        <persName ref="per004484a">Hanssen Vitlers</persName>, <lb/>genant
+                        Füllengas, als geschworner vogts, <term ref="lem011800">amptman</term>s und
+                           <term ref="lem000564.09">raht</term>s des <lb/>genanten unßers gnädigen
+                        herren <app>
+                           <lem>bränen</lem>
+                           <rdg wit="PGA Buchs U 01">graven</rdg>
+                        </app>
+                        <persName ref="per000884a">Wilhelman</persName>s, insigel nach <lb/>unßeren
+                        rechtlichen spruch besiglet, doch unsserem gnädigen herren <lb/>obgemelt,
+                        auch im selbst und unsseren rähten, seinen und unßeren <lb/>erben und
+                        nachkomen unschädlich und jeder parthey von ihr beger <lb/>wegen eingeben am
+                           <origDate when="1476-01-29">montag nächst vor unßer lieben frauwen
+                           <lb/>tag purificationis, nach der geburt <persName ref="per000353"
+                              >Christi</persName> taussendt vierhundert <lb/>sibentzig und im
+                           sechsten jahr.</origDate></seg>
+                     <add place="below"><lb/>Disser brieff lautent wider wegen holtz hauwens,
+                        <lb/>so die von <orgName ref="org001913">Reffes</orgName> und auss der
+                           <placeName ref="loc000198">Buchs</placeName>er gmeind wegen <lb/>holtz
+                        hauwens halb, so der gmeind <orgName ref="org001911">Sevelen</orgName> klag
+                        hafft wäre, <lb/>sol jedere gmeind hinder ihren marcken bleiben, berüöfft
+                        sich <lb/>auff ein urtheil brieff und bestätiget selbiges, so auff gericht
+                        <lb/>worden im jahr <origDate when="1476">1476</origDate>.</add>
+                  </p>
+    </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div n="1" org="uniform" sample="complete">
+            <p>Von der vorliegenden Urkunde existieren zwei Originale (<ref>PGA Buchs U 01</ref>;
+                  <ref>OGA Sevelen U 1476</ref>). Bei beiden Originalausfertigungen ist die Schrift
+               stark abgerieben und teilweise unleserlich. Vom Original im politischen
+               Gemeindearchiv Buchs existiert eine Transkription im Archivverzeichnis. Die
+               unleserlichen Stellen wurden dort anhand des Vidimus vom <date when="1628-12-30">30.
+                  Dezember 1628</date> (<bibl><ref>PGA Buchs U 02</ref></bibl>) und einer Kopie aus
+               dem <date from="1801" to="1900">19. Jh.</date> (<bibl><ref>PGA Buchs U 01
+                  A-1</ref></bibl>) ergänzt. Da auch die Schrift des Vidimus stark abgerieben ist
+               und um die Lesbarkeit durch zahlreiche Ergänzungen nicht zu sehr zu erschweren, wurde
+               die älteste Kopie der Urkunde im Urkundenbuch von Sevelen (<ref>OGA Sevelen B
+                  04.11-30, S. 119–123</ref>) als Editionsvorlage gewählt. Die Vorlage enthält
+               jedoch einige Fehler und Falschlesungen. Die Stellen wurden jedoch anhand der
+               Originale und/oder anderen Abschriften überprüft und ergänzt bzw. verbessert. Die
+               übrigen Abschriften, sowohl vom Vidimus als auch von den beiden Originalen, stammen
+               aus dem 19. Jh. </p>
+         </div>
+         <div n="2" org="uniform" sample="complete">
+            <p><placeName ref="loc000428">Räfis</placeName> ist ein kleines Dorf zwischen <placeName
+                  ref="loc000198">Buchs</placeName> und <placeName ref="loc000708"
+                  >Sevelen</placeName>, das heute mit Buchs zusammengewachsen ist und zur Gemeinde
+               Buchs gehört. Ein Teil von <placeName ref="loc007765.01">Oberräfis</placeName> gehört
+               heute zur Gemeinde Sevelen. Gemäss dieser Urkunde besitzt ein Teil der Bewohner von
+               Räfis (wohl die Zugehörigen des <orgName ref="org001869">Räfiser Drittel</orgName>s
+               von Sevelen [heute Oberräfis]) auch das Kirchspielrecht von Sevelen. Im 17.  Jh.
+               besitzen einige Räfiser als <term ref="key004956">Ganzteiler</term> weiterhin beide
+                  <term ref="key000637">Kirchspiel</term>rechte, d. h. sie haben die vollen Rechte
+               am <term ref="key000461">Gemeinnutzen</term> sowohl von Sevelen als auch von Buchs
+               (vgl. auch <bibl><ref target="
+                  http://permalink.snl.ch/bib/chbsg000150870">Sulzberger
+                     1957</ref>, S. 59</bibl>). Andere Räfiser besitzen nur das
+               sogenannte <term ref="key004778">Halbteilrecht</term>, d. h. neben dem
+               Kirchspielrecht von Buchs besitzen sie das halbe Nutzungsrecht eines <term
+                  ref="key000952">Kirchgenossen</term> von Sevelen. Dieses Halbteilrecht führt v. a.
+               im <date from="1601" to="1700">17.</date> und im <date from="1701" to="1800"
+                  >18. Jh.</date> zu mehrfachen Konflikten zwischen den Halbteilern und der Gemeinde
+               Sevelen (vgl. dazu <ref>SSRQ_SG_III_4_156</ref>).</p>
+         </div>
+         <div n="3" org="uniform" sample="complete">
+            <p>Vgl. auch die Einigung um die Verteilung von <term ref="key000524">Holz</term> zwischen Sevelen und Räfis, <date when="1607">1607</date>/<date when="1608">1608</date>
+    (<ref>OGA Sevelen U 1607</ref>).</p>
+         </div>
+      </back>
+   </text>
+</TEI>

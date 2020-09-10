@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     n="1234"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="headerinfo"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2020-08-17"/>    <date type="print"/>
+    <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Collection des sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS_NE_3_383</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>AVN B 101.14.002, fol. 5v–6r</idno>
+               </msIdentifier>
+               <head>Conclusion d’un traité de mariage</head>
+               <msContents>
+                  <summary>Il n’est pas nécessaire que tous les parents assistent à la stipulation
+                     d’un traité de mariage et deux témoins, neutre et non-parents suffisent pour un
+                     tel acte. Il n’est pas permis de révoquer par testament des donations ou autre
+                     dispositions, promesses et conventions mutuelles contenues dans un contrat de
+                     mariage. </summary>
+                  <msItem>
+                     <textLang>français</textLang>
+                     <filiation type="current"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="34.5"/>
+                              <width unit="cm" quantity="22"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1718-10-28"/>
+                     <origPlace ref="loc007786">Neuchâtel</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head/>
+                     <bibl/>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000863"/>
+               <term ref="key000244"/>
+               <term ref="key000476"/>
+               <term ref="key000275"/>
+               <term ref="key000817"/>
+               <term ref="key000635"/>
+               <term ref="key005141"/>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="5v" facs="AVN_B_101.14.002_0005v"/>
+               <div>
+                  <p>
+                     <lb/>Sur la requeste par <persName ref="per008783">Jacob Jaquet</persName> de
+                        <lb/><placeName ref="loc007818">Rochefort</placeName>, par devant monsieur
+                     le maistre bourgeois <lb/>et <orgName ref="org003085">messieurs du Conseil de
+                        la Ville de <placeName ref="loc007786">Neufchatel</placeName></orgName>
+                     <lb/>le <origDate when="1718-10-28">28<hi rend="sup">e</hi>
+                        <choice>
+                           <abbr>8bre</abbr>
+                           <expan>octobre</expan>
+                        </choice>
+                        <hi rend="underline">1718</hi></origDate>, tendante et aux fins d’avoir
+                     <lb/>les trois points de coutume suivants. </p>
+                  <p>
+                     <lb/>Premièrement, s’il est nécessaire que tous les <lb/>parents d’un espoux et
+                     d’une espouse soyent présents <lb/>à la <term ref="lem017005">stipulation</term> d’un traitté de mariage,
+                     receu par <lb/>main de notaire, fait suivant la coutume du pays, <lb/>et s’il
+                     ne suffit pas qu’une partie des parents de <lb/>part et d’autre y assistent. </p>
+                  <p>
+                     <lb/>2<hi rend="sup">o</hi>. Si ce que père et mère ont donné par traitté de
+                     <lb/>mariage à leurs enfans n’est pas inévitable et <lb/>peut estre révoqué
+                     dans la suitte. </p>
+                  <p>
+                     <lb/>3<hi rend="sup">o</hi>. S’il ne suffit pas qu’il y est deux témoins
+                     neutres <lb/>et non parents, présents à la passation d’un traitté <lb/>de
+                     mariage, et si les parents qui y ont esté <lb/>appelléz et que le notaire y a
+                     aussi dénommé <lb/>pour témoins, ne sont pas bons et recevables comme <lb/>les
+                     autres. </p>
+                  <p>
+                     <lb/><orgName ref="org003085">Mesdits sieurs du Conseil</orgName>, ayant eu
+                     avis et <lb/>meure méditation par ensemble, donnent par <lb/>déclaration la
+                     coustume usitée en la souveraité <lb/>de <placeName ref="loc007785"
+                        >Neüfchatel</placeName> estre telle comme cy contre sera dit.</p>
+                  <pb n="6r" facs="AVN_B_101.14.002_0006r"/>
+                  <p>
+                     <lb/>x Sur le premier, qu’il <subst><del rend="rubbing">suffit qu’une partie
+                           des</del>
+                        <add place="above">n’est pas nécessaire que tous</add></subst>
+                     <lb/>les parents, soit de l’un ou d’autre costé assistent <lb/>à la <term ref="lem017005">stipulation</term>
+                     d’un traitté de mariage. </p>
+                  <p>
+                     <lb/>x Sur le second. Il n’est pas permis de révoquer <lb/>par testament,
+                     donnation ou autre disposition <lb/>aucunes des promesses et conventions
+                     mutuelles <lb/>contenue en un contract de mariage, d’autant <lb/>que les
+                     traitez de mariages doivent subsister <lb/>sans pouvoir estre aucunement rompus
+                     ny <lb/>viciés par donnations ou d’autres actes. </p>
+                  <p>
+                     <lb/>Sur le troisième. Il suffit qu’il y ait deux <lb/>témoins neutres et non
+                     parents présents à <lb/>la passation d’un traitté de mariage, les parents
+                     <lb/>qui luy ont esté appellé, et que le notaire y a <lb/>denommé pour témoins,
+                     sont bons et recevables <lb/>comme les autres. </p>
+                  <p>
+                     <lb/>Ce qu’a esté ainsi fait, conclu et arrêté les ann <lb/>et jour que devant
+                     et à moy ordonné, secrétaire <lb/>du Conseil de la Ville, l’expédier en cette
+                     forme, sous <lb/>le <term ref="lem016327">seel</term> de la justice et mayorie de <origPlace ref="loc007786"
+                        >Neüfchatel</origPlace>
+                     <lb/>et signature de ma main. </p>
+                  <p>
+                     <lb/>L’original est signé par moy. </p>
+               </div>
+               <div>
+                  <signed>
+                     <persName ref="per008827">
+                        <choice>
+                           <abbr>J&#160;J</abbr>
+                           <expan>Jean Jacques</expan>
+                        </choice> Purry</persName>
+                     <figure type="notarial sign"/></signed>
+               </div>
+            </body>
+         </text>
+      </group>
+   </text>
+</TEI>

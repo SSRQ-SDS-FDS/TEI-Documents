@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-08-15"/>
+            <date type="print"/>
+            <availability><p xml:id="facs">Sibylle Malamud</p></availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_198_1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>OGA Sennwald Mappe Alpen und Auen, 10.08.1675-1</idno>
+               </msIdentifier>
+               <head>Schiedsspruch des Landvogts zwischen der Gemeinde Sennwald und Landschreiber Andreas Roduners Erben wegen Holzhaus in den Alpen Rohr und Eidenen</head>
+               <msContents>
+                  <summary>
+                     <p>Die Gemeinde Sennwald liegt mit Landschreiber Andreas Roduners Erben im
+                        Streit wegen Holzhaus in den Alpen Rohr und Eidenen. Landvogt Johann
+                        Heinrich Scheuchzer kommt auf Bitten der Gemeinde nach Sennwald an die
+                        Gemeindeversammlung und einigt beide Parteien folgendermassen: Das Urteil
+                        von Landvogt Hans Rudolf Lavater bleibt in Kraft. Die Staffelgenossen müssen
+                        die Alp Rohr unterhalten und junge Bäume in der Kuhweide roden. Die Alpen
+                        Rohr und Eidenen haben das Recht, das Holz zu nutzen, auch wenn die Gemeinde
+                        dieses in Bann legt. Hebt die Gemeinde den Bann auf, haben die
+                        Gemeindegenossen ebenfalls das Recht, in den Wäldern der beiden Alpen Holz
+                        zu hauen.</p> <p>Der Aussteller
+                     			siegelt.</p>
+                  </summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <filiation type="current">Original (Doppelblatt)</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="32.5"/>
+                              <width unit="cm" quantity="20.5"/>
+                           </dimensions>
+                        </extent>
+                        <condition>Rückseite z. T. gebrochen und abgerissen, mit Klebstreifen zusammengeklebt</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <sealDesc>
+                     <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI"
+                           n="1"
+                           nontei:material="papered seal"
+                           nontei:attachment="applied"
+                           nontei:place="end"
+                           nontei:condition="well-preserved"
+                           nontei:shape="round">
+                        <persName role="sigillant" ref="per009934a">Landvogt Johann Heinrich Scheuchzer</persName>
+                     </seal>
+                  </sealDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1675-08-10"/>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000006">Alp</term>
+               <term ref="key003818"/>
+               <term ref="key000249">Wald</term>
+               <term ref="key000561">Gemeindeversammlung</term>
+               <term ref="key001117">Schiedsspruch</term>
+               <term ref="key004284">Bann</term>
+               <term ref="key000667">Abstimmung</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <div org="uniform" sample="complete">
+                  <pb n="1r" facs="OGA_Sennwald_Mappe_Alpen_und_Auen_10081675_1r"/>
+                  <p>
+                     <seg>
+                        <lb/>Zu wüssen und kundt seige männigklichem hiemit in <lb/>crafft diß
+                        brieffs, daß nach demme ein gantz ehrsamme gmeind <lb/>inn <orgName
+                           ref="org003296">Sennwald</orgName> an einem, so danne <term
+                           ref="lem002854">landtschryber</term>
+                        <persName ref="per009933a">Andreß <lb/>Roduners</persName>
+                        <choice>
+                           <abbr>se</abbr>
+                           <expan>seligen</expan>
+                        </choice> erben am andren theil, wegen ihrer <term ref="lem000306"
+                           >alp</term>
+                        <placeName ref="loc006143.03">im <lb/>Rohr</placeName> genant und selbigen
+                           <term ref="lem000028">holtzes</term> in etwas strytigkeit ge<lb
+                           break="no"/>wachßen und under ein anderen sich nit vereinigen mögen,
+                        <lb/>so ist hiemit uff hütt, deß zu end gemelten datums, <lb/>uff
+                        obgedachter gmeind underthänig bitten und ersuechen der <lb/>hochgeacht,
+                        fromm, ehren und nothvest, fürsichtig, fürnemm und <lb/>wol wyß herr
+                           <persName ref="per009934a">Johaͤnn Heinrich Schüchtzer</persName>, deß
+                           <orgName ref="org001217">regiments <lb/>hochloblicher statt <placeName
+                              ref="loc000065">Zürich</placeName></orgName> und dißer zyt wol regierender <lb/>landtvogt der freyherrschafft
+                           <placeName ref="loc000278">Sax und Forstegg</placeName>, by gantz
+                        <lb/>vollkommner, versammleter <term ref="lem001054">gmeind</term>
+                        erschienen und beidersits <lb/>dahin gewisen, sich in fründtlichkeit und
+                        nachparlicher <lb/>liebe zu verglychen, wie es dann durch wolgedachten
+                        herren <lb/>oberkeitliches ansehen und mittel geschehen, alß hernach
+                        volget:</seg>
+                     <seg>
+                        <lb/>Nammlichen, so solle es by vor auffgerichter urthel,<note
+                           anchored="true">Dieses Urteil konnte nicht gefunden werden. Es wurde
+                           während der Regierungszeit von Landvogt <persName ref="per009915">Hans
+                              Rudolf Lavater</persName> ausgegeben, daher muss es zwischen 1663 und
+                           1669 gefällt worden sein.</note> so under <lb/>der regierung herren
+                        landtvogt und rathsherr <persName ref="per009915a">Lavaters</persName>
+                        <lb/>gemacht worden, syn und blyben, ussert daß die <term ref="lem001093"
+                           >stoffelgnossen</term>
+                        <lb/>die berüehrte alp <placeName ref="loc006143.04">Rohr</placeName> mögend
+                        in ehren halten mit <term ref="lem004316">süberen</term>
+                        <lb/>und <term ref="lem002600">rüthen</term>, auch wo etwan unütze <term
+                           ref="lem002798">grotzen</term>, <term ref="lem000700">buechen</term> oder
+                           <term ref="lem003302">tannen</term>
+                        <lb/>in der <term ref="lem001078">küeweid</term> in dem bezirck deß
+                        neüwgemachten under<lb break="no"/>gangs auffwachsend, mögind <term
+                           ref="lem002567">schwemmen</term>, jedoch nit auf ge<lb break="no"/>fahr
+                        der gmeind und selbigen zughörigen <term ref="lem000251.03">wälden</term>
+                        ohne nach<lb break="no"/>theil und schaden. Mit dem fehrneren und heiteren
+                        erleüteren, <lb/>daß ein alp <placeName ref="loc006142.03"
+                           >Eydenen</placeName> und <placeName ref="loc006143.04">Rohr</placeName>
+                        rechtsamme haben soll, eine <lb/>wie die ander und so lang ein gmeind
+                        selbiges holtz oder wäld <pb n="1v"
+                           facs="OGA_Sennwald_Mappe_Alpen_und_Auen_10081675_1v"/>
+                        <lb/>in <term ref="lem008878">pan</term> legt, darinn solle verbleiben, biß
+                        und so lang ein gmeind <lb/>den pan <term ref="lem008109">mit der mehreren
+                           hand</term> aufthuet und als dan ein <lb/><term ref="lem002448"
+                           >gmeindsgnoss</term> rechtsamme, <term ref="lem000759">holtz</term> zu
+                        hauwen, haben in beiden <lb/><term ref="lem000306">alpen</term>, einer wie
+                        der ander und niemandts gesündert werden, <lb/>jedoch daß man die nächsten
+                           <term ref="lem000251.03">wäld</term> in beiden alpen by den <lb/><term
+                           ref="lem002512.19">gebaüwen</term> nit schädige, damit zum gebäuw der
+                        selbigen allzyt <lb/>gnuegsamm holtz verhanden seig, wie dan in vorgehnder
+                        urthel <lb/>dessen meldung geschicht. Welches alle in mässen, alß vorstath,
+                        <lb/>ein gantze, gesamte, ehrsamme gmeind von beiden partheyen <lb/>mit
+                        globten handen und grossem danck auff und angenommen.</seg>
+                     <seg>
+                        <lb/>Mit mehrerem, so hat obhochwolgedachter herr landtvogt nach <lb/><term
+                           ref="lem008109">mit der mehreren hand</term> vermahnet, welcher dessen
+                        nit <lb/>zu friden, der wölle syn <term ref="lem012146">hand
+                        aufheben</term>. Aber under der <lb/>gantzen gmeind von beiden partheyen
+                        keiner sich eines <lb/><damage agent="restoration">
+                           <supplied source="OGA Sennwald Mappe Alpen und Auen (Kopie)"
+                              >anderen</supplied></damage> vermercken lassen, <damage
+                           agent="restoration">
+                           <supplied source="OGA Sennwald Mappe Alpen und Auen (Kopie)"
+                              >sondern</supplied></damage> globt und versprochen, <lb/>darby zu
+                        verblyben, darwider nit zu thuen nach schaffen ge<lb break="no"/>than zu
+                        werden, in kein weiß noch weg, gethreüwlich und <lb/>ungefahrlich.</seg>
+                     <seg>Und demme zu wahrem uhrkhundt, so hat offt <lb/>wol ernanter herr
+                        landtvogt desse zu mehrer bekrefftigung <lb/>syn eigen anerbohren ynsigel
+                        uff einer gantzen gmeind <lb/>von beiden partheyen bitt und begehren (jedoch
+                        ihmme, <lb/>herren landtvogt, und synen erben ohne nachtheil und schaden)
+                        <lb/>hierauff getruckt. Geben und beschehen, den <origDate when="1675-08-10"
+                           >zehenden <lb/>tag augstmonat nach <persName ref="per000353"
+                              >Christi</persName>, unsers heilandts, geburth, <lb/>alß man zehlt
+                           ein <damage agent="covered by seal">
+                              <supplied source="OGA Sennwald Mappe Alpen und Auen (Kopie)"
+                                 >taußendt</supplied></damage> sechß hundert sibentzig <lb/>und
+                           fünff jahr</origDate>.</seg>
+                  </p>
+               </div>
+               <pb facs="OGA_Sennwald_Mappe_Alpen_und_Auen_10081675_2v"/>
+               <div org="uniform" sample="complete">
+                  <ab type="dorsal" place="verso" hand="hand17c">
+                     <lb/><placeName ref="loc006143">Rohr</placeName> und <placeName ref="loc006142"
+                        >Eidenen</placeName></ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab type="archiving reference" place="verso">
+                     <lb/>N<hi rend="sup">o</hi> 33; G N<hi rend="sup">o</hi> 14</ab>
+               </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div org="uniform" sample="complete">
+            <p>In der Frühen Neuzeit sind wenige Alpstreitigkeiten in der Region <placeName ref="loc000962">Werdenberg</placeName> überliefert, zu den <term ref="key000006">Alpen</term> nach <date when="1500">1500</date> vgl. auch <ref>SSRQ_SG_III_4_125</ref>;
+      <ref>SSRQ_SG_III_4_130</ref>; <ref>SSRQ_SG_III_4_140</ref>;
+      <ref>SSRQ_SG_III_4_182</ref>; <ref>SSRQ_SG_III_4_196</ref>.</p>
+            <p>Zu den Alpen <placeName ref="loc006142">Eidenen</placeName> und <placeName
+                  ref="loc006143">Rohr</placeName> siehe auch <bibl><ref>StASG AA 2a
+                  U 10</ref></bibl>; <bibl><ref>StASG AA 2a U 20</ref></bibl>.</p>
+         </div>
+      </back>
+   </text>
+</TEI>

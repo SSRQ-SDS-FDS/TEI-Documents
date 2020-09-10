@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+    <persName>Sibylle Malamud</persName>
+    <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+    <persName>Sibylle Malamud</persName>
+    <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-06-12"/>
+            <date type="print"/>
+            <availability><p xml:id="facs">Sibylle Malamud</p></availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+    <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+    <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_078</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+    <msIdentifier>
+       <idno source="https://query-staatsarchiv.lu.ch/detail.aspx?ID=1191865">StALU URK 209/3021, fol. 2r–3r</idno>
+    </msIdentifier>
+    <head>Jahrrechnung von Ulrich Feiss, dem ersten Luzerner Landvogt der Grafschaft Werdenberg und der Herrschaft Wartau</head>
+    <msContents>
+       <msItem>
+          <textLang>Deutsch</textLang>
+          <filiation type="current">Aufzeichnung, Heft (unpaginiert) mit Pergamentumschlag</filiation>
+       </msItem>
+    </msContents>
+    <physDesc>
+       <objectDesc>
+          <supportDesc>
+             <support>
+                <material>Papier</material>
+             </support>
+             <extent>
+                <dimensions type="leaves">
+                   <height unit="cm" quantity="30.5"/>
+                   <width unit="cm" quantity="23.0"/>
+                </dimensions>
+             </extent>
+          </supportDesc>
+       </objectDesc>
+    </physDesc>
+    <history>
+       <origin>
+          <origDate when="1487-02-09">fritag nechst nach Dorathe</origDate>
+       </origin>
+    </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+    <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+    <term ref="key000574">Rechnung</term>
+    <term ref="key000180">Landvogt</term>
+    <term ref="key000212">Lohn</term>
+    <term ref="key000205">Einkommen</term>
+    <term ref="key004924">Umrechnung</term>
+    <term ref="key000872">Geldsorten</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+    <div org="uniform" sample="complete">
+       <pb n="0"/>
+                  <head>
+                     <lb facs="StALU_URK_209-3021_0a"/>Dis ist miner herren <lb/><term ref="lem001737.03">rechebuch</term> umb
+                     die grafschaft <lb/><placeName ref="loc007867.03">Werdenberg und der herschaft
+                        <lb/>Wartow</placeName>, angevangen uff <lb/><origDate when="1487-02-09"
+                        >fritag nechst nach <persName ref="per004902">Do<lb break="no"
+                           />rathee</persName> anno <abbr>dm</abbr> lxxxvij</origDate></head>
+                  <head>
+                     <lb facs="StALU_URK_209-3021_0b"/>Dis ist miner herren <term ref="lem001737.04">rêchenbuch</term>
+                     <lb/>umb die graveschafft <placeName ref="loc007867.03">Werdenberg <lb/>und der
+                        herschafft Wartow</placeName>, ange<lb break="no"/>vangen uff <origDate
+                        when="1487-02-09">fritag nechst nach <lb/><persName ref="per004902"
+                           >Dorathee</persName> anno <abbr>dm</abbr> lxxxvij</origDate></head>
+                  <p>
+                     <pb n="1r"/>
+                     <pb n="1v"/><note>Der Umschlag des Hefts ist nicht beschriftet.</note>
+                     <pb n="2r" facs="StALU_URK_209-3021_2r"/>
+                     <lb/>
+                     <delSpan hand="later hand" spanTo="#del1"/><seg><origDate when="1487-02-08">Uff
+                           donstag nechst nach sant <persName ref="per004902">Dorothee</persName>n
+                           tag anno <abbr>dm</abbr> lxxxvij</origDate> ist rechnung geben <lb/>durch
+                           <persName ref="per001103">Ülrichen Veiss</persName>en, vogt zuͦ
+                           <placeName ref="loc007867.03">Werdenberg und Wartow</placeName>,<note
+                              anchored="true">Ulrich Feiss war von 1486–1489 der erste Luzerner Vogt in Werdenberg
+                           (<bibl><ref
+                                 target="http://www.hls-dhs-dss.ch/textes/d/D14120.php"
+                              >HLS</ref></bibl>).</note>
+                        <del><term ref="lem007398">rechnung</term></del> von <lb/>dem vergangnen jar
+                        von der graveschafft <placeName ref="loc000440">Werdenberg</placeName> und
+                        der herschafft <lb/><placeName ref="loc000827">Wartow</placeName> wegen. Und
+                        ist in dem zyt gevallen zü <placeName ref="loc007867.03">Werdenberg und
+                           <lb/>Wartow</placeName> an <term ref="lem000209">stu̍ren</term>, an <term
+                           ref="lem014573.01">diensten</term>, an <term ref="lem000237"
+                           >zinsen</term>, an <term ref="lem000073">zechenden</term>, an <term
+                           ref="lem000051.01">weissen</term>, <lb/>an <term ref="lem000310"
+                           >vech</term>, an <term ref="lem000551.01">bonen</term>, an <term
+                           ref="lem000549.05">gersten</term>, an <term ref="lem000049.01"
+                           >korn</term>, an <term ref="lem002516.02">nussen</term>, an <term
+                           ref="lem004267.01">reben</term> und an <lb/><term ref="lem002792"
+                           >hanff</term>, an <term ref="lem000603.01">ancken</term>, <term
+                           ref="lem000139.01">ziger</term> und <term ref="lem000928">keß
+                           zinßen</term>, ouch <term ref="lem000030">vïschetzen</term>, an <term
+                           ref="lem000053">win</term>, so dis <lb/>jars gevallen und gewachsen ist,
+                        das düt alles an einer summ zü <lb/>gelt geslagen und yegklich stuck
+                        besunder gewerdet, wie das von dem <lb/>graven angeben und das in dem <term
+                           ref="lem001761">urberbu̍ch</term> von stuck ze stuck geschriben <lb/>stāt
+                        und tüt die summ namlich <measureGrp>
+                           <measure type="currency" quantity="1124" unit="fl">xj<hi rend="sup"
+                                 >c</hi> xxiiij guldin</measure>
+                           <measure unit="ß" quantity="1" type="currency">1
+                        </measure></measureGrp>. Daran gat <lb/>ab, so der <term ref="lem000003"
+                           >graff</term> fu̍r geben hātt und sich das nit vindet, namlich <measureGrp>
+                           <measure type="currency" quantity="68" unit="fl">lxviij
+                              <lb/>guldin</measure> und <measure unit="ß" quantity="2"
+                              type="currency">2  ₰</measure></measureGrp>.</seg>
+                     <seg>Aber gevallen an <term ref="lem000337">vällen</term>
+                        <measure type="currency" quantity="3" unit="fl">iij guldin</measure>.</seg>
+                     <seg>So dann gevallenn <lb/>an <term ref="lem000036">büssen</term>
+                        <measure type="currency" quantity="16" unit="fl">xvj guldin</measure> minder
+                           <measure type="currency" quantity="6" unit="ß">vj </measure>. Sûma düt
+                        an inen namlich <measureGrp>
+                           <measure type="currency" quantity="1075" unit="fl">m<hi rend="sup">o</hi>
+                              <lb/>und lxxv guldin</measure>
+                           <measure type="currency" quantity="1" unit="Ort">ein
+                           ort</measure></measureGrp>.</seg>
+                     <seg>Noch ist gefallen an vällen iij <term ref="lem001076">kü</term>, sind
+                           vor<lb break="no"/>handen, hatt der vogt, und gehören minen herren
+                        zü.</seg>
+                     <seg>Darwider, so <lb/>hatt er usgeben, so er an beden <term ref="lem000376"
+                           >slossen</term>
+                        <placeName ref="loc000015">Werdenberg</placeName> und <placeName
+                           ref="loc000829">Wartow</placeName>
+                        <term ref="lem005607">verbuwenn</term>
+                        <lb/>und verdeckt hātt, ouch <term ref="lem000282">lön</term> und umb <term
+                           ref="lem000187">spiß</term>, so die <term ref="lem001382.06"
+                           >winreben</term> gebuwere und <lb/>darin gewerchet hand, deßglich ander
+                           <term ref="lem000727">werchlu̍t</term>, so da sust gewerchet <lb/>hand,
+                        und denen umb spiß, so die <term ref="lem000391.15">tawen</term> tuͦnd und
+                        tün söllen, ouch <lb/>das u̇ber des vogts hushalten dis jares gangen ist mit
+                           <term ref="lem000232">knechten</term> und <lb/><term ref="lem000525"
+                           >junckfrowen</term> lönen und anders, so daru̍ber gangen, als er dz
+                        eigentlich <lb/>von stuck ze stuck gerechnet hatt. Und düt sin usgeben und
+                        cost <lb/><measureGrp><measure type="currency" quantity="205" unit="fl"
+                                 >ij<hi rend="sup">c</hi> guldin und v guldin</measure>
+                           <measure type="currency" quantity="13" unit="ß">xiij </measure>
+                           <measure unit="h" quantity="8" type="currency">viij
+                           hlr</measure></measureGrp>.</seg>
+                     <seg>Item aber ist costen daruff <lb/>gangen, so im sloß an weissen und kernen
+                        verbrucht ist, und an <lb/>schulden, so der vogt inen geben hatt, so im
+                        gewerchet hand in winrebenn <lb/>ald sust ander werch, das ist <measureGrp>
+                           <measure type="volume" quantity="77" unit="Scheffel" commodity="wheat"
+                              >lxxvij schöffel</measure>
+                           <measure commodity="wheat" unit="Viertel" type="volume" quantity="2.5">
+                              und iiɉ fiertel an weissen</measure></measureGrp>.</seg>
+                     <seg>
+                        <lb/>Und an <measureGrp>
+                           <measure type="volume" quantity="15" unit="Scheffel" commodity="grain"
+                              >korn xv schöffel</measure>
+                           <measure commodity="grain" unit="Viertel" type="volume" quantity="3">und
+                              iij fiertel</measure></measureGrp>, das dut an gelt wie das <lb/>im
+                        urberbuͦch angeslagen ist <measure type="currency" quantity="80" unit="fl"
+                           >lxxx guldin</measure>.</seg>
+                     <seg>Item aber über das <term ref="lem001152">huß</term>
+                        <lb/>gangen an den <term ref="lem000076">gütern</term>, so der vogt selbs
+                        hātt und buwt und aber in <lb/>sim innemen im zü gerechnet ist: Das ist des
+                        ersten der <placeName ref="loc007533.01">Ober Graben</placeName>, <lb/>der
+                        ist für <measure type="currency" quantity="10" unit="fl">x guldin</measure>
+                        zinß angeslagen. So hatt er die <placeName ref="loc006072.05">Buchser
+                           Wiß</placeName>, ist <lb/>ouch fur <measure type="currency" quantity="10"
+                           unit="fl">x guldin</measure> zins angeslagen. Ouch den <term
+                           ref="lem014574.02">krießgart</term>, ein <lb/><term ref="lem000164.16"
+                           >wingarten</term> und ein <term ref="lem001744.10">krutgarten</term>, das
+                        ist ouch fu̍r <measure type="currency" quantity="4" unit="fl">iiij
+                           guldin</measure> an <lb/>zinß angeslagenn.</seg>
+                     <seg>Also düt sin usgeben umb das, so obgemeldet ist, <lb/>an einer summ, als
+                        er das alles eigentlich von stuck ze stuck gerechnet <lb/>hatt und düt an
+                        siner summ namlich <measureGrp>
+                           <measure type="currency" quantity="309" unit="fl">iij<hi rend="sup"
+                                 >c</hi> und viiij guldin</measure>
+                           <measure type="currency" quantity="13" unit="ß">xiij </measure>
+                           <measure unit="h" quantity="8" type="currency">
+                              <lb/>viij haller</measure></measureGrp>.</seg>
+                     <seg>Item aber so hatt der vogt usgeben, so in miner herren <lb/>dienst und
+                        nutz komen ist: Des ersten, das er zwen <term ref="lem000110">ochsen</term>
+                        koufft, so der <pb n="2v" facs="StALU_URK_209-3021_2v_3r"/>
+                        <lb/>vogt hātt, und gehörren minen herren zü umb <term ref="lem003269"
+                           >salpeter</term>. Und dem <term ref="lem000560">schriber</term> von
+                        <lb/>Werdenberg ze <term ref="lem000282">lon</term> geben von dem <term
+                           ref="lem000008">kouffbrieff</term> ze machen umb <placeName
+                           ref="loc007867.03">Werdenberg<note anchored="true">Verkauf von Schloss,
+                              Stadt und Grafschaft Werdenberg und Schloss und Herrschaft Wartau
+                              durch Graf <persName ref="per000643a">Johann Peter von
+                                 Sax-Misox</persName> an <orgName ref="org001195">Luzern</orgName>
+                              am <date when="1485-10-29">29. Oktober 1485</date>, siehe <ref
+                                 target="https://archivverzeichnis.gl.ch/home/#/content/2f62c3b98af64d0293e60edeefdab963"
+                                 >LAGL AG III.2405:009</ref>.</note>
+                           <lb/>und Wartow</placeName>, ouch dem <term ref="lem000043">weibel</term>
+                        daselbs ein <term ref="lem003502">kleid</term>, desglich, das er zwo <lb/>kü
+                        koufft hatt, sind vorhanden und gehörren minen herren zü. Ouch <lb/>als er
+                        usgeben hatt <term ref="lem000514">zerung</term> im und den <term
+                           ref="lem002379">bottenn</term> von Werdenberg, so <lb/>in dem <term
+                           ref="lem002858">stoß</term> zwu̍schent minen herren und den <choice>
+                           <abbr>Eitgnen</abbr>
+                           <expan><orgName ref="org000531">Eitgenossen</orgName></expan>
+                        </choice> ist gan <placeName ref="loc000086">Einsidlen</placeName>
+                        <lb/>uff den tag und wider heim, verzert hand, das tüt, so vorstatt, <measureGrp>
+                           <measure type="currency" quantity="41" unit="fl">xlj<del></del>
+                              gulden</measure>
+                           <lb/><measure type="currency" quantity="4" unit="ß">iiij
+                           </measure></measureGrp>.</seg>
+                     <seg>Sûma das alles abgezogenn und eins gegen dem andren gerechnet, <lb/>so ist
+                        noch u̇ber das alles noch gevallenn und vorhandenn <measureGrp>
+                           <measure type="currency" quantity="719" unit="fl">vij<hi rend="sup"
+                                 >c</hi> und xviiij <lb/>guldin</measure>
+                           <measure type="currency" quantity="32" unit="ß">xxxij </measure>
+                           <measure type="currency" quantity="4" unit="h">iiij
+                           haller</measure></measureGrp>.</seg>
+                     <seg>Daran hatt der vogt angends bar gewert <measure type="currency"
+                           quantity="100" unit="fl" origin="Rh">j<hi rend="sup">c</hi>
+                           <lb/>Rinischer guldin</measure>.</seg>
+                     <seg>Sûma no stat us, so der vogt sol und gevallen, ist namlich
+                              <lb/><measureGrp><measure type="currency" quantity="619" unit="fl"
+                                 >vj<hi rend="sup">c</hi> und xviiij guldin</measure>
+                           <measure type="currency" quantity="32" unit="ß">xxxij </measure>
+                           <measure type="currency" quantity="4" unit="h">iiij
+                           hlr</measure></measureGrp>. Dasselb ist an win, an korn im <lb/>sloß
+                        vorhanden, mer und nit minder.</seg>
+                     <seg><add place="inline" hand="other hand">Daran hat der vogt bar gewert
+                           <lb/>mim <term ref="lem014575.02">gefatter</term>
+                           <persName ref="per004903a">Holdermeyer</persName>, seckelmeister,
+                              <measure type="currency" quantity="100" unit="fl">hundert
+                              gulden</measure> uff <origDate when="1487-05-05">samstag nach des
+                              <lb/>helgen krûtz tag ze meyen in dissem jar</origDate>, aber hat er
+                           gewert <measure type="currency" quantity="60" unit="fl">lx
+                              guldin</measure> uff <origDate when="1487-07-02">mendag</origDate>
+                           <lb/><add place="left margin">vor sant <persName ref="per000356"
+                                 >Uͦlrich</persName>s <lb/>tag</add>.</add></seg>
+                     <seg>
+                        <lb/>Item aber ist <term ref="lem000279.09">cost</term> u̍ber das <term
+                           ref="lem006280.02">hushaben</term> gangenn und im <term ref="lem000376"
+                           >sloß</term> verbrucht, <lb/>so von dem graven koufft ist, <term
+                           ref="lem000049.01">korn</term>, <term ref="lem001375.01">haber</term> und
+                           <term ref="lem000142">höw</term>, als er in das <lb/>sloß komen und
+                        hushaben solt, tüt <measureGrp><measure type="currency" quantity="24"
+                              unit="fl">xxiiij guldin</measure>
+                           <measure type="currency" quantity="12" unit="ß">xij </measure>
+                           <measure type="currency" quantity="6" unit="d">vj
+                           ₰</measure></measureGrp> und dann <lb/>darzuͦ <measureGrp>
+                           <measure type="volume" quantity="19" unit="Scheffel" commodity="grain"
+                              >xviiij schöffel</measure>
+                           <measure commodity="grain" unit="Viertel" type="volume" quantity="3">und
+                              iij fiertel korn</measure></measureGrp>. Das alles söllen min herren
+                        <lb/>dem graven, min herren graff <persName ref="per000643">Johans Peter von
+                           Mosax</persName>, noch gelten <lb/>und ist in keiner rechnung begriffen
+                        noch gerechnet.</seg>
+                     <seg>
+                        <lb/>Item so ist im sloß zü <placeName ref="loc000015"
+                           >Werdenberg</placeName> noch vorhanden an <term ref="lem000810"
+                           >fleisch</term>, <term ref="lem000142">höw</term>
+                        <lb/>und anders und vor in dem usgeben verrechnet und besser <lb/>dann
+                           <measure type="currency" quantity="20" unit="fl">xx guldin</measure> ist,
+                        das hatt und kumpt minen herren und dem <lb/>vogt uff das nechst komend jar
+                        zü nutz.</seg>
+                     <seg>
+                        <lb/>Item die <term ref="lem000169">höff</term> zü <placeName
+                           ref="loc000827">Wartwo</placeName>, so der graff verkoufft und geben hatt <choice>
+                           <sic>umb <lb/>umb</sic>
+                           <corr>
+                              <lb/>umb</corr>
+                        </choice>
+                        <measure unit="fl" quantity="950" type="currency">viiij<hi rend="sup">c</hi>
+                           und l guldin</measure>, und hand gulten zü zinß umb <measure
+                           quantity="44" unit="Scheffel">xliiij <lb/>schöffel</measure> und gilt
+                           <measure quantity="1" unit="Scheffel">ein schöffel</measure>
+                        <measure type="currency" quantity="0.5" unit="fl">ɉ guldin</measure>. Das
+                        duͤt jerlichs zinses zü <lb/>gelt geslagen <measure type="currency"
+                           quantity="22" unit="fl">xxij guldin</measure>. So tünd aber die <measure
+                           unit="fl" quantity="950" type="currency">viiij<hi rend="sup">c</hi> und l
+                           guldin</measure>, <lb/>wann die zü <term ref="lem000340">gu̍lt</term>
+                        geslagen <measure unit="fl" quantity="22" type="currency">xx</measure>, umb
+                        ein düt jerlich ze zinß <measure unit="fl" quantity="48" type="currency"
+                           >xlviij gulden</measure>. <lb/>Und daran hant die von <orgName
+                           ref="org001835">Wartow</orgName>, so den kouff getan hand, mim
+                        <lb/>gevatter, seckelmeister <persName ref="per004903a">Hans
+                           Holdermeyer</persName>, gewert <measure unit="fl" quantity="300"
+                           type="currency">iij<hi rend="sup">c</hi> guldin</measure> uff
+                           <lb/><origDate when="1487-02-09">fritag nach <persName ref="per004902"
+                              >Dorothea</persName> im lxxxvij jare</origDate>. <add place="inline"
+                           hand="other hand">So ist an dz gelt bezalt <measure unit="fl"
+                              quantity="30" type="currency">xxx gulden</measure>, <lb/>dem gräffen
+                           ist ouch <term ref="lem000983">verdetiget</term>, noch sol an sy <measure
+                              unit="fl" quantity="620" type="currency">vj<hi rend="sup">c</hi> und
+                              xx guldin</measure>.</add></seg>
+                     <seg>
+                        <lb/><add place="below" hand="other hand">Item aber hat der fogt gewert dem
+                              <term ref="lem001359">statschriber</term>
+                           <lb/><measure unit="fl" quantity="35" type="currency">xxxv
+                              guldin</measure>, sint komen an dz <term ref="lem001560.06"
+                              >umgelt</term></add>.</seg>
+                     <pb n="3r" facs="StALU_URK_209-3021_2v_3r"/>
+                     <seg>
+                        <lb/>Item der vogt hat gewert min gefatter, seckelmeister <persName
+                           ref="per005642">Wernherr von Meggenn</persName>, <lb/><measure
+                           type="currency" quantity="48" unit="fl" origin="Österreich">xlviij gulden
+                           an Oͤsterricheschen <choice>
+                              <abbr>pla</abbr>
+                              <expan>plappart</expan>
+                           </choice></measure>, dz hat <persName ref="per004905">Jackob
+                           Jeger</persName> brächt.</seg>
+                     <seg>
+                        <lb/>Item <measure type="currency" quantity="19" unit="fl">xviiij gulden an
+                           altten <choice>
+                              <abbr>pla</abbr>
+                              <expan>plappart</expan>
+                           </choice> und an krûtzeren</measure>.</seg>
+                     <seg>
+                        <lb/>Item <measure type="currency" quantity="10" unit="fl">x gulden an
+                           dicken <choice>
+                              <abbr>pla</abbr>
+                              <expan>plappart</expan>
+                           </choice></measure>.</seg>
+                     <seg>
+                        <lb/>Item <measure type="currency" quantity="35" unit="fl">xxxv gulden in
+                           gold</measure>.</seg>
+                     <seg>
+                        <lb/>Item <measure type="currency" quantity="3" unit="Dukat">iij
+                           tugatten</measure>.</seg>
+                     <seg>
+                        <lb/>Item <measure type="currency" quantity="2" unit="fl" origin="Utrecht"
+                           >ij Ūttrisch gulden</measure>.</seg>
+                     <seg>
+                        <lb/>Item <measure type="currency" quantity="36" unit="ß" origin="LU">xxxvj
+                            an unser mūntz</measure>.</seg>
+                     <seg>
+                        <lb/>Item aber gewert, so <persName ref="per008549">Talhein</persName>
+                        brächt hat, des ersten <measure type="currency" quantity="55" unit="fl">lv
+                           gulden in gold</measure>.</seg>
+                     <seg>
+                        <lb/>Item <measure type="currency" quantity="126" unit="fl">cxxvj gulden an
+                           krūtzeren und krūtz <choice>
+                              <abbr>pla</abbr>
+                              <expan>plappart</expan>
+                           </choice></measure>.</seg>
+                     <seg>
+                        <lb/>Item <measure type="currency" quantity="2" unit="fl" origin="Utrecht"
+                           >ij Ūttrischs gulden</measure>.</seg>
+                     <seg>
+                        <lb/>Item <measureGrp><measure type="currency" quantity="8" unit="fl">viij
+                              gulden</measure>
+                           <measure type="currency" quantity="23" unit="ß" origin="LU">und xxiij 
+                              an unser mūntz</measure></measureGrp>, <measure type="currency"
+                                 quantity="2" unit="lb">ij lib hlr</measure> fūr <measure type="currency"
+                           quantity="1" unit="fl">ein gulden</measure>.<term ref="key004531"/>
+                     </seg>
+                     <seg>
+                        <lb/>Item aber gewert <measure type="currency" quantity="202.5" unit="fl"
+                              >ij<hi rend="sup">c</hi> und iiɉ gulden</measure> gräff <persName
+                                 ref="per000632a">Heinrich</persName><note anchored="true">Graf Heinrich
+                                    von Sax-Misox, Vater von <persName ref="per000643a">Johann Peter von Sax-Misox</persName>.</note> an sin <term
+                           ref="lem002021">libding</term>.</seg>
+                     <lb/>Item allso so hat er fūr bezalt <measureGrp><measure type="currency"
+                           quantity="100" unit="fl">hundert gulden</measure>
+                        <measure type="currency" quantity="20" unit="ß">xx
+                        </measure></measureGrp>.<anchor xml:id="del1"/>
+                     <gap reason="irrelevant"/><note anchored="true">Es folgen auf S. 5–17 weitere
+                        Rechnungen der Landvögte. <date when="1488">1488</date> und <date
+                           when="1489">1489</date> legen Landvogt <persName ref="per001103">Ulrich
+                           Feiss</persName> für <placeName ref="loc000440">Werdenberg</placeName>
+                        und Ammann <persName ref="per000759a">Müller</persName> von Wartau für die
+                        Herrschaft <placeName ref="loc000827">Wartau</placeName> wieder Rechnung ab
+                        (S. 5–9). Es folgen <date when="1490">1490</date>, <date when="1491"
+                           >1491</date> und <date when="1492">1492</date> die Rechnungen von
+                           <persName ref="per001474a">Hans Sonnenberg</persName>, nachfolgender
+                        Landvogt von <placeName ref="loc007867.01">Werdenberg und Wartau</placeName>
+                        (S. 10–15). Als letzter Landvogt folgt <persName ref="per004906a">Hans
+                           Grepper</persName>, der im Januar <date when="1493">1493</date> die
+                        Rechnung ablegt (S. 16–17).</note>
+                  </p>
+               </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div org="uniform" sample="complete">
+            <p>Diese Rechnung befindet sich in einem <term ref="key004320">Rechnungsbuch</term> mit den <date dur="R/P1Y">jährlich</date>en <term ref="key000574">Rechnungen</term> der Landvögte von
+            <placeName ref="loc000972">Luzern</placeName> von <date when="1487">1487</date> bis
+            <date when="1493">1493</date>. Die Rechnungen für die Herrschaft <placeName ref="loc000827">Wartau</placeName> sind für die Jahre <date when="1488">1488</date> und
+            <date when="1489">1489</date> von Ammann <persName ref="per000759a">Müller</persName>
+          von Wartau Mitte Mai separat abgelegt und in das Heft eingetragen worden. Das Heft wurde
+          ergänzt mit dem <term ref="key000179">Eid</term> der <term ref="key000594">Untertanen</term> und <term ref="key000586">strafrechtlichen Bestimmungen</term>
+            (<ref>SSRQ_SG_III_4_079</ref>), einem <term ref="key000971">Inventar</term> des
+          Schlosses <placeName ref="loc000015">Werdenberg</placeName> unter Landvogt <persName ref="per001103">Ulrich Feiss</persName> (<ref>SSRQ_SG_III_4_080</ref>) sowie einem
+          Eid und einer <term ref="key000341">Ordnung</term> zum <term ref="key000180">Landvogt</term> (<ref>SSRQ_SG_III_4_081</ref>). Dem Heft wurden einige lose
+          Einzel- und Doppelblätter beigelegt. Es handelt sich wohl um <term ref="key003514">Entwürfe</term> zu den Ergänzungen im Rechnungsbuch. </p>
+         </div>
+      </back>
+   </text>
+</TEI>

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+    
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="headerinfo"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <date type="electronic" when="2020-08-17"/>    <date type="print"/>
+    <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Collection des sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS_NE_3_381</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier>
+      <idno>AVN B 101.14.001, fol. 644v–645r</idno>
+     </msIdentifier>
+     <head>Renonciation d’un fils de famille à la succession</head>
+     <msContents>
+      <summary>Un enfant élevé dans la maison et les biens de son père ne peut pas renoncer à sa
+       succession. Dans le cas examiné, le fils est allé demeurer dans le pays de Berne et sa
+       renonciation se ferait au détriment des créanciers de son père décédé.</summary>
+      <msItem>
+       <textLang>français</textLang>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="33"/>
+          <width unit="cm" quantity="23.5"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <origDate when="1718-02-01"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>
+      </origin>
+     </history>
+     <additional>
+      <listBibl>
+       <head/>
+       <bibl/>
+      </listBibl>
+     </additional>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key004770"></term>
+     <term ref="key000920"></term>
+     <term ref="key000815"></term>
+     <term ref="key004980"></term>
+     <term ref="key000803"></term>
+     <term ref="key004001"></term>
+    </keywords>
+   </textClass>
+   <particDesc default="false"/>
+   <settingDesc default="false"/>
+  </profileDesc>
+ </teiHeader>
+
+ <text>
+  <group>
+   <text>
+    <body>
+        
+     
+     <pb n="644v" facs="AVN_B_101.14.001_0644v"/> 
+        
+     <div>
+      
+      <p>
+       <lb/>Sur la requeste présentée par le <choice>
+        <abbr>S<hi rend="sup">r</hi></abbr>
+        <expan>sieur</expan>
+       </choice>
+       <persName ref="per010243">Felix Meuron</persName>, <lb/>tendante aux fins d’avoir le point de coutume
+       suivant, <lb/>exposé par devant monsieur le maistre bourgeois <lb/>et <orgName
+        ref="org003085">messieurs du Conseil Estroit de la Ville de <placeName ref="loc007786"
+         >Neuchatel</placeName></orgName>, <lb/>le <origDate when="1718-02-01">premier jour du mois
+        de février mille sept cent <lb/>et dix huit</origDate>. </p>
+      
+      <p>
+       <lb/>Assavoir sy un homme ayant été noury et élevé <lb/>en la maison de son père, jusqu’à
+       l’âge d’avoir <lb/>communié à la <choice>
+        <abbr>S<hi rend="sup">te</hi></abbr>
+        <expan>sainte</expan>
+       </choice> Cène, étant ensuite venu dans <lb/>un aage majeur, pour faire renonciation es bien
+       <lb/>de son père, au cas mesme qu’il fust alé demeurer <lb/>hors de l’État et dans les pays
+       circonvoisins et <lb/>particulièrement dans les terres de <orgName ref="org002094"><choice>
+        <abbr>L.&#160;L.&#160;E.&#160;E.</abbr>
+         <expan>Leurs Excellences</expan>
+        </choice> de Berne</orgName>
+       <lb/>si, dis-je, ayant acquis du bien, il peut faire cette <lb/>renonciation au préjudice des
+       créanciers de feu <lb/>son père, et par <add place="above">là</add> empêcher de se payer sur
+       les biens <lb/>qu’il peut avoir acquis. </p>
+      
+      <p>
+       <lb/><orgName ref="org003085">Mes dits sieurs du Conseil</orgName>, ayant eu advis et meure
+       <lb/>préméditation par ensemble, <term ref="lem015635.04">baillent</term> par déclaration <lb/>que, suivant la coutume usitée
+       en la souverainneté <lb/>de <placeName ref="loc007786">Neüfchatel</placeName>, de tout temps
+       immémorial, la coutume
+       <lb/>estre telle. </p>
+      
+      <pb n="645r" facs="AVN_B_101.14.001_0645r"/>
+      
+      <p>
+       <lb/>Assavoir q’un enfant ayant esté noury, entretenu
+       <lb/>et élevé des biens de son père, ne peut ny n’est en
+       <lb/>droit d’estre receu à renonciation des biens de son
+       <lb/>dit père, n’y estant en aucune façon admicible.
+      </p>
+      
+      <p>
+       <lb/>Laquelle déclaration <orgName ref="org003085">mesdits sieurs du Conseil</orgName> ont <lb/>ordonné à
+       moy, secrétaire de Ville soussigné, <lb/>d’expédier en cette forme, sous le sceau de la
+       justice <lb/>et mayorie dudit <origPlace ref="loc007786">Neüfchatel</origPlace>, le jour,
+       mois et <lb/>ann que devant <origDate when="1718-02-01">1<hi rend="sup">r</hi> febvrier 1718</origDate>. </p>
+      
+     </div>
+     
+      
+      <div>
+      <p>
+       <lb/>L’original est signé. </p>
+      <signed>
+       <persName ref="per008827">
+        <choice>
+         <abbr>J&#160;J</abbr>
+         <expan>Jean Jacques</expan>
+        </choice> Purry</persName>
+       <figure type="notarial sign"/></signed>
+     </div>
+
+     
+       
+    </body>
+   </text>
+  </group>
+ </text>
+</TEI>

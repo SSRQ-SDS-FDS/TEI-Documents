@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="headerinfo"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <date type="electronic" when="2020-08-17"/>    <date type="print"/>
+    <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Collection des sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS_NE_3_059</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier>
+      <idno>AVN B 101.14.001, fol. 395v</idno>
+     </msIdentifier>
+     <head>Exclusion des héritiers collatéraux dans un testament</head>
+     <msContents>
+      <summary>Le fait qu’un testateur n’ait pas exclu ses frères et soeurs de son testament de
+       manière nominale et en leur léguant cinq sols ne rend pas caduc son testament, car ses frères
+       et soeurs ne sont qu’héritiers collatéraux.</summary>
+      <msItem>
+       <textLang>français</textLang>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="33"/>
+          <width unit="cm" quantity="23.5"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <origDate when="1617-02-04" calendar="Julian"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>
+      </origin>
+     </history>
+     <additional>
+      <listBibl>
+       <head/>
+       <bibl/>
+      </listBibl>
+     </additional>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term></term>
+     <term ref="key000920"></term>
+     <term ref="key000815"></term>
+     <term ref="key004770"></term>
+     <term ref="key000242"></term>
+     <term ref="key005127"></term>
+     <term ref="key000635"></term>
+     <term ref="key005111"></term>
+     
+    </keywords>
+   </textClass>
+   <particDesc default="false"/>
+   <settingDesc default="false"/>
+  </profileDesc>
+ </teiHeader>
+ 
+ <text>
+  <group>
+   <text>
+    <body>
+        
+     
+     <pb n="395v" facs="AVN_B_101.14.001_0395v"/> 
+        
+     <div>
+     
+     <head>
+      <lb/>Du mardy <origDate when="1617-02-04" calendar="Julian">iiii febvrier <hi rend="sup">1617</hi></origDate>.
+     </head>
+      
+      <p>
+       <lb/><persName ref="per010757a.01">Anthoine Penestrus</persName> de <placeName
+        ref="loc008483">Cressier</placeName> accompagné de <persName ref="per010501">Wilhelm
+        Janin</persName>
+       <lb/>dudit lieu, ont requis avoir declaration de la coustume du pais, scavoir <lb/>mon sy un
+       testateur <add place="bottom">par la disposition<lb/> de son bien obmet de specifier un</add>
+       ou plusieurs de ses freres ou soeurs <choice>
+        <abbr>led</abbr>
+        <expan>ledit</expan>
+       </choice>
+       <lb/>rejettant nominement pour <measure origin="NE" type="currency" unit="sol faible"
+        quantity="5">cinq solz</measure><note>Il s'agit probablement de sols faibles et non de sols. Le sol faible est une dénomination rare du gros qui constitue un douzième de livre faible de Neuchâtel.</note>, ils ne peuvent revenir à la <lb/>succession &amp; pour ce invalider
+        tel<del rend="strikethrough">le</del> testament. </p>
+      
+      <p>
+       <lb/>Il n’a esté veu pratiquer telle privation nominatifve et specificative de <lb/><measure
+        origin="NE" type="currency" unit="sol faible" quantity="5">cinq solz</measure> estre necessaires, en
+       tel cas principallement quand les pretendans <lb/>en la succession des biens questionnez ne
+       sont qu’en ligne collateralle <lb/>alliez du deffunt veu mesme la liberté du legateur, estant
+       de condition <lb/>franche et bourgeoise au faict de la disposition de ses biens.<note>Sans
+        signature.</note>
+      </p>
+      
+     </div>
+
+     
+       
+    </body>
+   </text>
+  </group>
+ </text>
+</TEI>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="headerinfo"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <date type="electronic" when="2020-08-17"/>
+    <date type="print"/>
+    <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Collection des sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS_NE_3_018</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier>
+      <idno>AVN B 101.14.001, fol. 370r–370v</idno>
+     </msIdentifier>
+     <head>Saisies pour dépenses de taverne</head>
+     <msContents>
+      <summary>Pour se faire payer des dépenses de tavernes, un tenancier peut demander la saisie de
+       biens meubles de ses débiteurs par le biais d’un sautier octroyé par le maire pour les sommes
+       en-dessous de dix livres. Au-delà, il doit obtenir la taxe de deux membres du
+       Conseil.</summary>
+      <msItem>
+       <textLang>français</textLang>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="33"/>
+          <width unit="cm" quantity="23.5"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <origDate when="1594-01-18" calendar="Julian"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>
+      </origin>
+     </history>
+     <additional>
+      <listBibl>
+       <head/>
+       <bibl/>
+      </listBibl>
+     </additional>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+
+     <term ref="key005184"></term>
+     <term ref="key005076"></term>
+     <term ref="key003867"></term>
+     <term ref="key003331"></term>
+     <term ref="key004980"></term>
+      <term ref="key005189"></term>
+    </keywords>
+   </textClass>
+   <particDesc default="false"/>
+   <settingDesc default="false"/>
+  </profileDesc>
+ </teiHeader>
+ 
+ <text>
+  <group>
+   <text>
+    <body>
+        
+     
+     <pb n="370r" facs="AVN_B_101.14.001_0370r"/>
+        
+     <div><add place="left margin" hand="later hand">Despence de <lb/>taverne.</add>
+      <head>
+       <lb/>Par declaration faicte le <lb/><origDate when="1594-01-18" calendar="Julian">XVIII<hi rend="sup">e</hi>
+        janvier <hi rend="underline">1594</hi></origDate><note>Dans les manuels du Conseil de ville, ce point est daté du <date when="1593-12-19">19 décembre 1593</date> (AVN B 101.01.01.004, p.&#160;93-95).</note> à l’instance de <lb/><choice>
+        <abbr>honn</abbr>
+        <expan>honnorable</expan>
+       </choice>
+       <persName ref="per010571">Michel Poette</persName>, <term ref="lem016943.02">hoste</term> et
+       bourgeois <lb/>de <placeName ref="loc007786">Neufchastel</placeName> contenant comme on se
+       peut <lb/>faire à payer des deniers provenants de <lb/>despence de taverne, enregistrée au
+       long <lb/>sur mondict registre. </head>
+      <p>
+       <lb/>A esté declaré et jugé que <choice>
+        <abbr>po</abbr>
+        <expan>pour</expan>
+       </choice> lesdicts deniers provenants <lb/>de despence de taverne ledict <persName
+        ref="per010571">Poette</persName> se pourroit addresser <lb/>au <choice>
+        <abbr>S<hi rend="sup">r</hi></abbr>
+        <expan>sieur</expan>
+       </choice> mayre pour luy octroyer un <term ref="lem014994.03">soubtier</term> pour aller
+       prendre <lb/>&amp; saisir des gages et meubles suffisans ès maisons des <lb/>debteurs, et les
+       faire promptement à vendre par ledict <lb/><term ref="lem014994.03">soubtier</term>
+       publiquement sans autres usages, pour les <lb/>sommes qui seront de <measure origin="NE"
+        type="currency" unit="livre faible" quantity="10">dix livres</measure><note>Sous-entendu livre faible.</note>
+       <measure origin="NE" type="currency" unit="bz" quantity="1">un batz</measure>, mais quant
+       <lb/>aux sommes qui excedderont et passeront <measure origin="NE" type="currency" unit="livre faible"
+        quantity="10">dix livres</measure>, sy <lb/>il luy plaist de prendre des biens meubles des
+        <pb n="370v" facs="AVN_B_101.14.001_0370v"/>
+       <lb/>debteurs il le pourra faire à la <term ref="lem014995.02">taxe</term> de deux
+       <lb/>sieurs du <orgName ref="org003085">Conseil</orgName> tels que ledict <choice>
+        <abbr>S<hi rend="sup">r</hi></abbr>
+        <expan>sieur</expan>
+       </choice> mayre luy <lb/>pourra ordonner, sans estre tenu de faire à faire <lb/>prealablement
+       aucuns usages, moyennant qu’il y ait <lb/>confession touttefois quand il y aura de grandes
+       <lb/>sommes pour lesquelles l’on ne pourroit trouver des <lb/>meubles suffisans ou bien <term
+        ref="lem016035">jaçoit qu</term>’il s’en trouvast <add place="above">assez</add> pour
+       <lb/>sattisfaire, quand ledict <persName ref="per010571">Poette</persName> voudroit <del
+        rend="strikethrough">pour</del> laisser <lb/>pour saisir des terres et possessions il debvra
+       faire à <lb/>faire les usages et exploits de justice selon le decret, <lb/>&amp; selon que
+       pour debtes d’autres qualité par cy devant a <lb/>esté usité. </p>
+     </div>
+     
+       
+    </body>
+   </text>
+  </group>
+ </text>
+</TEI>

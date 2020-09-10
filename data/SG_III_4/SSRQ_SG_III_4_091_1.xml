@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+    <persName>Sibylle Malamud</persName>
+    <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+    <persName>Sibylle Malamud</persName>
+    <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-07-11"/>
+            <date type="print"/>
+            <availability><p xml:id="facs">Staatsarchiv St. Gallen (StASG)</p></availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+    <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+    <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_091_1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+    <msIdentifier>
+       <idno>StASG AA 2 U 16</idno>
+    </msIdentifier>
+    <head>Mathis von Castelwart und Beat von Bonstetten legen die Grenzen zwischen Gams und Grabs bzw. zwischen der Grafschaft Werdenberg und der Herrschaft Hohensax-Gams fest</head>
+    <msContents>
+       <summary>
+          <p>Freiherr Mathis von Castelwart, Herr von Werdenberg, und Beat von Bonstetten, Herr von Hohensax-Gams, legen die Grenzen der hohen und niederen Gerichte ihrer beiden Herrschaften fest. Die Grenze scheidet auch die beiden Kirchspiele Grabs und Gams.</p>Die Aussteller siegeln. Erbetener Siegler für die Kirchgenossenschaft Gams: Lazarus Göldli.</summary>
+       <msItem>
+          <textLang>Deutsch</textLang>
+          <filiation type="current">Original</filiation>
+       </msItem>
+    </msContents>
+    <physDesc>
+       <objectDesc>
+          <supportDesc>
+             <support>
+                <material>Pergament</material>
+             </support>
+             <extent>
+                <dimensions type="leaves">
+        <height unit="cm" quantity="20.5"/>
+        <width unit="cm" quantity="40.5"/>
+                </dimensions>
+                <dimensions type="plica">
+        <width unit="cm" quantity="5.0"/>
+                </dimensions>
+             </extent>
+             <condition>grosser Wasserfleck (5.0/10.0 x 15.5) im mittleren Teil der Urkunde</condition>
+          </supportDesc>
+       </objectDesc>
+       <sealDesc>
+          <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI"
+                n="1"
+                nontei:condition="well-preserved"
+                nontei:shape="round"
+                nontei:material="wax with margin"
+                nontei:attachment="sealed on a parchment tag" facs="StASG_AA_2_U_16_s_01">
+             <persName role="sigillant" ref="per004694a">Mathis von Castelwart</persName>
+          </seal>
+          <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI"
+                n="2"
+                nontei:condition="well-preserved"
+                nontei:shape="round"
+                nontei:material="wax with margin"
+                nontei:attachment="sealed on a parchment tag" facs="StASG_AA_2_U_16_s_02">
+             <persName role="sigillant" ref="per004692a">Beat von Bonstetten</persName>
+          </seal>
+          <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI"
+                n="3"
+                nontei:condition="well-preserved"
+                nontei:shape="round"
+                nontei:material="wax with margin"
+                nontei:attachment="sealed on a parchment tag" facs="StASG_AA_2_U_16_s_03">
+             <persName role="sigillant" ref="per004695a">Lazarus Göldli</persName>
+          </seal>
+       </sealDesc>
+    </physDesc>
+    <history>
+       <origin>
+          <origDate when="1496-11-22">an zinstag vor sannt Katterinen tag</origDate>
+       </origin>
+    </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+    <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+    <term ref="key000305">Grenze</term>
+    <term ref="key004417">Hochgerichtsgrenze</term>
+    <term ref="key000140">Herrschaft</term>
+    <term ref="key000637">Pfarrei</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <div org="uniform" sample="complete">
+                  <pb facs="StASG_AA_2_U_16_r"/>
+                  <p>
+                     <seg>
+                        <lb/>Wir, <persName ref="per004694a">Mathis von Kastelwärckh, fryherr unnd
+                           herr zuͦ Werdemberg</persName>, unnd ich, <persName ref="per004692a">Batt
+                           von Bonstetten</persName>, bekennen unnd veryehen offennlich für
+                        <lb/>unns, all unsser erben und nachkomen mit urkund ditz brieffs, das wir
+                        baid fruntlich und lieblich, och insonder mit wissen und och <lb/>guttem
+                        willen des <term ref="lem000299.02">kilspels</term>
+                        <placeName ref="loc006122">Gambs</placeName>, so dan mir, gemelten <persName
+                           ref="per004692a">Batt von Bonstetten</persName>, zu gehoren, in ain unnd
+                        uber ainkomen syen, den <term ref="lem000975">hohen</term>
+                        <lb/>und <term ref="lem000976">nidren gerichten</term>, zwingen, bennen und
+                        herligkaiten halben, so dan die grǎffschafft <placeName ref="loc000440"
+                           >Werdemberg</placeName>, so unns, <persName ref="per004694a">Mathis von
+                           Kastelwarckh</persName>, <lb/>zuͦgehort und der herschafft <placeName
+                           ref="loc006040">Hohennsagx</placeName>, so dan mir, <persName
+                           ref="per004692a">Batt von Bonstetten,</persName> zuͦgehort, berurend die
+                           <term ref="lem000693">marchen</term>, die zwischen den baiden
+                        <lb/>kilspell <placeName ref="loc006027">Graps</placeName> und <placeName
+                           ref="loc006122">Gamps</placeName> vormals gesetzt sind, umb das dan
+                        zwischen unser und unsern erben und nachkomen in kunfftig zyt <lb/>dehain
+                        irrung beschehe, so soll es jetz und hienach zu ewigen ziten by den selben
+                        gemelten gesetzten marchen bestan sin und beliben <lb/>in aller mas, wie sy
+                        dan in obgerǔrter massen vormals zwischen baiden kilsperen <placeName
+                           ref="loc006027">Graps</placeName> und <placeName ref="loc006122"
+                           >Gamps</placeName> gesetzt sind:</seg>
+                     <seg>Von ainer march <lb/>in die andren biß uff die obristen march, die stat
+                        nebent <persName ref="per004871a">Hainrich Scherer</persName>s <term
+                           ref="lem000248">huß</term><note anchored="true">In
+                              <ref>SSRQ_SG_III_4_117</ref> wird Hans Scherers Haus und Heinrich
+                           Scherers Feld als Grenze genannt.</note>. Und von der selben march
+                        dannethin hinuff in <lb/>das <placeName ref="loc007324.02"
+                           >Oͧloch</placeName>, da das <term ref="lem000511">wasser</term><note
+                           anchored="true">Hier ist die <placeName ref="loc006290.01"
+                              >Simmi</placeName> gemeint (vgl. dazu die Kundschaft von <date
+                              when="1501">1501</date> über die Fischereirechte zwischen Grabs und
+                              Gams im Bach Simmi, <bibl><ref>StASZ HA.IV.404, Nr. 2</ref></bibl>).</note> entwedrem ort usbrechen mag. Und daselben
+                        enmitten inn soll es by den obgerurten marchen bliben. Und <lb/>ob ald wie
+                        das <term ref="lem000372">urbar</term> von der <placeName ref="loc006040"
+                           >Hohensagx</placeName> herlanget wytter, minder oder mer, zuͦ gab der
+                        marchen halb, so soll es doch by dennen marchen, <lb/>wie dann obgemelt ist,
+                        also fur und für in die ewigkait geschidiget sin und daby beliben one unser
+                        und unser baider erben und nach<lb break="no"/>komen irrung intrag, alles on
+                        arglist, boß fund, hierinn gentzlich hidan gesetzt sin sollen.</seg>
+                     <seg>Und des alles ze warrem, offem, vestem <lb/>urkund und bestennlicher
+                        sicherhait, so sind dire brieff zween in gelicher lut geschriben und mit
+                        unser, obgemelten <persName ref="per004694a">Mathis <lb/>von
+                           Kastelwarckh</persName>, fryherr, und <persName ref="per004692a">Batt von
+                           Bonstett</persName>, insigeln versigelt, die wir baid fur uns, all unser
+                        erben und nachkomen <lb/>offenlich heran gehennckht haben. Wir, die <term
+                           ref="lem000971">nachpurschafft</term> gemainlich zu <orgName
+                           ref="org001865">Gamps</orgName> des <term ref="lem000299.13"
+                           >kilspers</term>, verjehen och offenlich, <lb/>an disen brieffen, das die
+                        obgemelten unser gnedig herren solich uberkomen und entschidüng mit unserm
+                        gutten willen <lb/>und wussen gethon haben. Und des zu urkund, so haben wir
+                        mit flis ernstlich gebetten und erbetten den fromen und vesten
+                        <lb/>junckherr <persName ref="per004695a">Lassarus Goldi</persName>, das er
+                        sin insigel für uns unnd unser nachkomen, im selb und sinnen erben one
+                        schaden, och <lb/>heran gehennckht hǎt. Diser brieff ist geben an <origDate
+                           when="1496-11-22">zinstag vor sannt <persName ref="per000793"
+                              >Katterin</persName>en tag anno <choice>
+                              <abbr>domi</abbr>
+                              <expan>domini</expan>
+                           </choice> tusent fierhundert nuntzig <lb/>und sechs
+                        jare.</origDate></seg>
+                  </p>
+               </div>
+               <pb facs="StASG_AA_2_U_16_v"/>
+               <div org="uniform" sample="complete">
+                  <ab type="dorsal" place="verso" hand="hand17c?"><damage agent="faded ink"
+                           ><unclear>Brifly</unclear></damage> von <orgName ref="org001197"
+                        >Glarus</orgName></ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab type="dorsal" place="verso" hand="hand18c?">Marchenbrieff entzwüschen denen
+                     kirchspielen <lb/><placeName ref="loc006027">Grabs</placeName> und <placeName
+                        ref="loc006122">Gambs</placeName>
+                     <lb/><unclear>anno</unclear> 1496</ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab type="dorsal" place="verso" hand="hand18c?">Briefely von <orgName
+                        ref="org001197">Glarus</orgName></ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab type="archiving reference" place="verso">N<hi rend="sup">o</hi>
+                     <del>192; 126</del>; N<hi rend="sup">o</hi> 16</ab>
+               </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div n="1" org="uniform" sample="complete">
+            <p>Die Bestimmung der Grenzen zwischen den Obrigkeiten der Herrschaften Werdenberg und Hohensax-Gams
+     geschieht hier mit Einwilligung von Gams, das auch einen <term ref="key003720">Siegler</term>
+     stellt. Grabs hingegen wird nicht hinzugezogen. Die Urkunde zeigt damit die stärkere Stellung
+     der Gemeinde <orgName ref="org001881">Gams</orgName> gegenüber ihrem Herrn im Vergleich zu den
+     Gemeinden in der Grafschaft Werdenberg (vgl. auch <ref>SSRQ_SG_III_4_092</ref>).</p>
+         </div>
+         <div n="2" org="uniform" sample="complete">
+            <p>Die vormals gesetzten <term ref="key000305">Grenzen</term> (vgl. <ref>SSRQ_SG_III_4_053</ref>) zwischen den beiden
+    Kirchspielen <placeName ref="loc006027">Grabs</placeName> und <placeName ref="loc006122">Gams</placeName> werden hier als
+    <term ref="key004417">Hochgerichtsgrenze</term> zwischen der Grafschaft <placeName ref="loc000440">Werdenberg</placeName> und der
+    Herrschaft <placeName ref="loc006040">Hohensax-Gams</placeName> festgesetzt. Zu den Grenzen der Herrschaft Hohensax-Gams
+    und dem Kirchspiel Gams vgl. auch <ref>SSRQ_SG_III_4_059</ref>, Art. 21–22; <ref>SSRQ_SG_III_4_094</ref>, Art. 11.2.</p>
+         </div>
+         <div n="3" org="uniform" sample="complete">
+            <p>Die Grenzen sind hier nicht sehr ausführlich beschrieben. Eine genauere Beschreibung
+               findet sich <date when="1538">1538</date> im Streit um die <term ref="key000980"
+                  >Landesgrenzen</term> und die <term ref="key000535">Fischereirechte</term> in der
+               <placeName ref="loc006290">Simmi</placeName> (vgl. <ref>SSRQ_SG_III_4_117</ref>). Über die Grenzen zwischen den beiden Herrschaften
+               wird danach erst wieder ab <date when="1721">1721</date> diskutiert (vgl. die
+               Kommentare in <ref>SSRQ_SG_III_4_117</ref>).</p>
+         </div>
+      </back>
+   </text>
+</TEI>

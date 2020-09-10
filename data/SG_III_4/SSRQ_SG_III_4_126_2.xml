@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-08-15"/>
+            <date type="print"/>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_126_2</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>StAAG Grafschaft Baden, U 22</idno>
+               </msIdentifier>
+               <head>Vergleich zwischen den das Sarganserland regierenden eidgenössischen Orten und Glarus als Herr von Werdenberg und Wartau über den Wegzug von Leibeigenen und den Wildbann in der Herrschaft Wartau</head>
+               <msContents>
+                  <summary>
+                     <p>Alt Bürgermeister Johannes Haab und Stadtschreiber Johannes Escher, beide von Zürich, alt Schultheiss Hans Bircher von Luzern, Ratsherr Jakob a Pro von Uri, Ritter und Landammann Dietrich In der Halden von Schwyz, Landammann Johann Bünti von Unterwalden, Ratsherr Stefan Zürcher von Zug und Ratsherr Paulus Schuler von Glarus klären die Streitigkeiten zwischen den im Sarganserland regierenden eidgenössischen Orten und Glarus als Herr von Werdenberg-Wartau folgendermassen: </p>
+                     <p>1. Werdenberger, die sich in der Landvogtei Sargans niederlassen, müssen weiterhin Fasnachtshennen, Fälle und andere Abgaben nach Werdenberg entrichten müssen. Das Gegenrecht gilt für Sarganser, die nach Werdenberg ziehen. </p>
+                     <p>2. Wer von einer Grafschaft in die andere zieht, darf die Leibeigenschaft nur dann wechseln, wenn er sich vom alten Herrn loskauft.</p>
+                     <p>3. Den Wildbann in Wartau sollen künftig beide Herrschaften gemeinsam verwalten. Zur Jagd ist die Erlaubnis der beiden Landvögte einzuholen.</p>
+                     <p>Es siegeln Johannes Haab, alt Bürgermeister von Zürich, und Ägidius Tschudi, Ratsherr von Glarus und Landvogt von Baden.</p>
+                  </summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <filiation type="current">Original</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Pergament</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="40.5"/>
+                              <width unit="cm" quantity="65"/>
+                           </dimensions>
+                           <dimensions type="plica">
+                              <width unit="cm" quantity="10.5"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <sealDesc>
+                     <seal n="1" ssrq:material="wax with margin"  ssrq:shape="round" ssrq:attachment="sealed on a parchment tag" ssrq:condition="fragmentary"><persName ref="per001933">Johannes Hab</persName>
+                     </seal>
+                     <seal n="2" ssrq:material="wax with margin"  ssrq:shape="round" ssrq:attachment="sealed on a parchment tag"  ssrq:condition="well-preserved"><persName ref="per000063">Ägidius Tschudi</persName></seal>
+                  </sealDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1550-03-20"/>
+                     <origPlace>Baden</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head>Editionen</head>
+                     <bibl><ref target="https://www.ssrq-sds-fds.ch/online/SG_III_2/index.html#p_557">SSRQ SG III/2.1, Nr. 154a</ref></bibl>
+                  </listBibl>
+                  <listBibl>
+                     <head>URL</head>
+                     <bibl type="url"><ref target="https://www.ssrq-sds-fds.ch/online/SG_III_2/index.html#p_557">https://www.ssrq-sds-fds.ch/online/SG_III_2/index.html#p_557</ref></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000084">Leibeigenschaft</term>
+               <term ref="key000729">Wegzug</term>
+               <term ref="key004192">Wohnortswechsel</term>
+               <term ref="key000183">Fall</term>
+               <term ref="key000273">Abgabe</term>
+               <term ref="key004077">Leibeigenschaftsabgabe</term>
+               <term ref="key000279">Fasnachtshuhn</term>
+               <term ref="key000685">Ablösung</term>
+               <term ref="key000230">Wildbann</term>
+               <term ref="key000351">Jagd</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body/>
+         </text>
+      </group>
+      <back>
+         <div/>
+      </back>
+   </text>
+</TEI>

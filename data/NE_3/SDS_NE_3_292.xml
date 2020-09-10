@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="headerinfo"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <date type="electronic" when="2020-08-17"/>    <date type="print"/>
+    <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Collection des sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS_NE_3_292</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier>
+      <idno>AVN B 101.14.001, fol. 533r–533v</idno>
+     </msIdentifier>
+     <head>Procédure pour une mise en taxe</head>
+     <msContents>
+      <summary>Une mise en taxe nécessite de produire à l’officier et aux taxeurs, l’obligation, la
+       cédule, le compte ou le cautionnement en vertu duquel il veut faire taxer. Sans cela la mise
+       taxe est nulle. Elle l’est également si la mise en taxe est faite pour plus qu’il n’est dû ou
+       si elle est faite avant terme.</summary>
+      <msItem>
+       <textLang>français</textLang>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="33"/>
+          <width unit="cm" quantity="23.5"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <origDate when="1682-04-29" calendar="Julian"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>
+      </origin>
+     </history>
+     <additional>
+      <listBibl>
+       <head/>
+       <bibl/>
+      </listBibl>
+     </additional>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key005095"></term>
+     <term ref="key005117"></term>
+     <term ref="key000065"></term>
+     <term ref="key004969"></term>
+     <term ref="key005038"></term>
+     <term ref="key000499"></term>
+     <term ref="key005084"></term>
+
+    </keywords>
+   </textClass>
+   <particDesc default="false"/>
+   <settingDesc default="false"/>
+  </profileDesc>
+ </teiHeader>
+
+ <text>
+  <group>
+   <text>
+    <body>
+        
+     
+     <pb n="533r" facs="AVN_B_101.14.001_0533r"/> 
+        
+     <div>
+      <head><p>
+       <lb/>Si une <term ref="lem014995.02">taxe</term> faite pour plus qu’il n’est deu n’est <lb/>pas nulle, et la
+       partie condamnée aux frais.</p> <p><lb/>Item, s’il n’est pas obligé de produire à l’officier <lb/>et
+       taxeurs l’obligation ou autres papiers obligatoires.</p></head>
+      <p>
+       <lb/>Sur la requeste presentée <lb/>par devant monsieur le maistre bourgeois &amp;
+        <lb/><orgName ref="org003085">Conseil Estroit de la Ville de <placeName ref="loc007786"
+         >Neufchatel</placeName></orgName>, par <choice>
+        <abbr>Mons<hi rend="sup">r</hi></abbr>
+        <expan>monsieur</expan>
+       </choice>
+       <lb/><persName ref="per009032">de Montmollin</persName>, ancien receveur de <placeName
+        ref="loc005950">Vallangin</placeName>, le <lb/><origDate when="1682-04-29" calendar="Julian">29 d’avril <hi
+         rend="underline">1682</hi></origDate>, tendante aux fins d’avoir les <lb/>poincts de
+       coustume suivans. </p>
+      <p>
+       <lb/>Premierement, si celuy qui veut faire <lb/>une <term ref="lem014995.02">taxe</term>
+       n’est pas obligé de produire <del rend="strikethrough">an</del>
+       <add place="above">à</add> l’officier, <lb/>et ensuite aux taxeurs, l’obligation, la cedule,
+       le compte <lb/>ou le cautionnement en vertu duquel il veut faire <lb/>taxer,
+       &amp; si à deffaut de ce faire la <term ref="lem014995.02">taxe</term> n’est pas nulle. </p>
+      <p>
+       <lb/>Secondement, si une <term ref="lem014995.02">taxe</term> faite pour plus <lb/>qu’il n’est deu n’est pas nulle, et si
+       celuy qui la fait <lb/>faire ne doit pas estre condamné aux frais. </p>
+      <p>
+       <lb/>Tiercement, si une <term ref="lem014995.02">taxe</term> faite avant le <lb/>terme escheu n’est pas nulle, &amp; si celuy
+       qui la fait <lb/>faire ne doit pas estre condamné aux frais. </p>
+      <p>
+       <lb/><orgName ref="org003085">Mesdits sieurs du Conseil</orgName> ayans eu advis <lb/>et
+       meure deliberation par ensemble, <term ref="lem015635.04">baillent</term> par <lb/>declaration, suivant la coustume usitée en
+       la <choice>
+        <abbr>souver<hi rend="sup">té</hi></abbr>
+        <expan>souveraineté</expan>
+       </choice>
+       <lb/>de <placeName ref="loc007785">Neufchatel</placeName> de pere à fils, et de tout temps
+       <lb/>immemorial jusqu’à present, la coustume estre telle. </p>
+      <p>
+       <lb/>Assavoir, sur le premier poinct, que celuy <lb/>qui veut faire une <term ref="lem014995.02">taxe</term> est obligé de
+       produire <lb/>à l’officier, et ensuite aux taxeurs, l’obligation, la <lb/>cedule, le compte
+       ou le cautionnement en vertu duquel <lb/>il veut faire taxer, &amp; si à deffaut de ce la
+       <term ref="lem014995.02">taxe</term> est nulle. </p>
+      <p>
+       <lb/>Sur le second, <del rend="strikethrough">si</del> une <term ref="lem014995.02">taxe</term> faite pour plus <lb/>qu’il
+       n’est deu est nulle, &amp; celuy qui la fait est condamné <lb/>aux frais. </p>
+      <pb n="533v" facs="AVN_B_101.14.001_0533v"/>
+      <p>
+       <lb/>Sur le troisième, <del rend="strikethrough">si</del> une <term ref="lem014995.02">taxe</term> faite avant <lb/>le terme
+       escheu est nulle, &amp; celuy qui la fait faire <lb/>est condamné aux frais. </p>
+      <p>
+       <lb/>Ce qu’a esté ainsi passé, conclud &amp; arresté <lb/>les an et jour que dessus, et
+       ordonné à moy <lb/>secretaire de Ville l’expedier en cette forme, sous le <lb/><term ref="lem016327">seel</term> de la
+       mayrie &amp; justice <choice>
+        <abbr>dud.</abbr>
+        <expan>dudit</expan>
+       </choice>
+       <origPlace ref="loc007786">Neufchatel</origPlace>, &amp; signature <lb/>de ma main. </p>
+     </div>
+      
+      <div>
+       <p>
+        <lb/>Levée pour copie comme devant.
+       </p>
+       <signed><persName ref="per008992"><choice><abbr>N</abbr><expan>Nicolas</expan></choice> Huguenaud</persName> <figure type="notarial sign"/></signed>
+      </div>
+     
+       
+    </body>
+   </text>
+  </group>
+ </text>
+</TEI>

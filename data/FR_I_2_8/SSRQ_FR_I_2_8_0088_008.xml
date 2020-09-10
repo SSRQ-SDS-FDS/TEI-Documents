@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+
+
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+
+			</titleStmt>
+
+			<publicationStmt>
+				<date type="electronic" when="2019-10-14"/>
+				<date type="print"/>
+			</publicationStmt>
+
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ_FR_I_2_8_0088_008</idno>
+			</seriesStmt>
+
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<idno>StAFR, Thurnrodel 13, S. 430–431</idno>
+					</msIdentifier>
+					<head>Marguerite Renevey-Huguenot – Verhör / Interrogatoire</head>
+					<msContents>
+						<summary></summary> 
+						<msItem>
+							<textLang>fr</textLang> 
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support>
+									<material></material>
+								</support>
+								<extent>
+									<dimensions type="leaves">
+										<height unit="cm" quantity="0.0"/>
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+									<dimensions type="plica">
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+								</extent>
+							</supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate when="1637-08-06"/>
+							<origPlace></origPlace>
+						</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc> 
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+			<particDesc default="false"/>
+			<settingDesc default="false"/>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						
+						<pb n="428"/><p><lb/><placeName ref="loc007890.04">Jaquemard</placeName>
+						<seg><lb/><origDate when="1637-08-06">6 <foreign xml:lang="la">augusti</foreign> 1637</origDate>, <foreign xml:lang="la"><choice><abbr>jud</abbr> <expan>judex</expan></choice></foreign> <abbr>h</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per011527">Beat Jakob von Montenach</persName>.</note></seg>
+							<seg><lb/><abbr>H</abbr> <choice><abbr>b</abbr><expan><term ref="lem018597.02">burgermeister</term></expan></choice> <persName ref="per009390a.01">Reyf</persName></seg>
+						<seg><lb/><persName ref="per011521a.01">Heylman</persName></seg>
+							<seg><lb/><persName ref="per011540a.02">Gartner</persName></seg>
+						<seg><lb/><choice><abbr>W</abbr><expan>Weibel</expan></choice></seg></p>
+						
+						<p><gap reason="irrelevant"/><note>Ce passage concerne un autre individu.</note></p>
+						
+						<pb n="430"/><p><lb/>Im <placeName ref="loc007683.02">bösen thurn</placeName>
+						<seg><lb/><persName ref="per009462a.01">Gribollet</persName></seg></p>
+							
+						<p><seg><lb/><add place="left margin"><measure type="currency" quantity="9" unit="lb">9 </measure></add>.</seg> <seg><persName ref="per011815a.01">Marguerite Rinevey</persName> soustient 
+							<lb/>qu’elle entendoit aux jours de festes la 
+							<lb/>messe entiere et sortoit avec les autres, 
+							<lb/>qu’elle va vollontiers a l’eglise, 
+							<lb/>que quand on l’appelloit <term ref="lem014908.07">vaudeisa</term>, elle 
+						<pb n="431"/><lb/>respondoit que <term ref="lem014908.08">vaudey</term> estoit celuy qui 
+							<lb/>ainsy l’appelloit, qu’aux jours ouvriers 
+							<lb/>elle alloit aussy a l’eglise quand elle n’estoit 
+							<lb/>incommodee de malladie, qu’on la faict a sortir 
+							<lb/>d’<placeName ref="loc008116.04">Avry</placeName> parce qu’elle n’estoit pas du 
+							<lb/>lieu, qu’elle a cy devant esté mariee 
+							<lb/>a <placeName ref="loc007605">Surpierre</placeName>, et que son lieu natal est 
+							<lb/>a <placeName ref="loc009797.02">Manens</placeName>.</seg> <seg>Elle a esté torturee avec 
+								<lb/>la simple <term ref="lem018231">corde</term>. Crie mercy.</seg></p>
+						
+					</div>
+				</body>
+				
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+
+<?oxy_options track_changes="on"?>

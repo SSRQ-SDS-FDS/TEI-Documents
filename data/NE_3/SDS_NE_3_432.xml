@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     n="1234"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="headerinfo"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2020-08-17"/>    <date type="print"/>
+    <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Collection des sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des
+      sources
+      du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS_NE_3_432</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>AVN B 101.14.002, fol. 66v–67r</idno>
+               </msIdentifier>
+               <head>Accommodement conclu par la majorité des autres créanciers contre la volonté
+                  d’un créancier</head>
+               <msContents>
+                  <summary>Dans une faillite, un créancier ne peut être ni obligé ni contraint de
+                     signer un accommodement et de suivre le sentiment des autres
+                     créanciers.</summary>
+                  <msItem>
+                     <textLang>français</textLang>
+                     <filiation type="current"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="34.5"/>
+                              <width unit="cm" quantity="22"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1756-01-17"/>
+                     <origPlace ref="loc007786">Neuchâtel</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head/>
+                     <bibl/>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key004367"/>
+               <term ref="key005081"/>
+               <term ref="key004001"/>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="66v" facs="AVN_B_101.14.002_0066v"/>
+               <div>
+                  <p>
+                     <lb/>Sur la requête présentée par le sieur <lb/><persName ref="per008689">David
+                        Petitpierre</persName>, ancien maître des clefs, <lb/>à <del
+                        rend="overwritten">messieurs</del>monsieur <del rend="strikethrough">du
+                        Conse</del> le maître bourgeois en chef <lb/>et à messieurs du <orgName
+                        ref="org003085">Conseil Étroit</orgName>, aux fins d’avoir <lb/>la coutume
+                     de ce pays sur la question cy après, <lb/>qui leur a remis par écrit, savoir. </p>
+                  <p>
+                     <lb/>Si <date dur="P3Y">trois années</date> après qu’un débiteur a fait
+                        <lb/><term ref="lem014969">discution</term>, <add place="above">et</add> que
+                     son créancier a obtenu <term ref="lem014991">actes de <lb/>déffaut</term>, si
+                     le décrétable ou gens <choice>
+                        <abbr>po<hi rend="sup">r</hi>
+                        </abbr>
+                        <expan>pour</expan>
+                     </choice> luy <lb/>parviennent au bout de ce tems là, à faire <lb/>un
+                     accommodement avec la plus grande partie <lb/><add place="below"
+                        type="catchword">de ses créanciers</add>
+                     <pb n="67r" facs="AVN_B_101.14.002_0067r"/>
+                     <lb/>de ses créanciers, si celui ou ceux qui n’auront <lb/>pas voulu, par de
+                     bonnes raisons, signer <lb/>l’accommodement, sont contraints de suivre
+                     <lb/>l’avis de la pluralité des créanciers. </p>
+                  <p>
+                     <lb/>Après avoir consulté et délibéré, le <orgName ref="org003085">Conseil
+                        <lb/>Étroit</orgName> donne par déclaration&#160;: </p>
+                  <p>
+                     <lb/>Que dans les <term ref="lem014969">discutions</term> la coutume de ce pays
+                     <lb/>est telle, qu’on ne peut point obliger, ni <lb/>contraindre un créancier à
+                     signer un <lb/>accomodement, et à suivre le sentiment de <lb/>de la pluralité
+                     des autres créanciers dans <lb/><choice>
+                        <abbr>quelqs</abbr>
+                        <expan>quelques</expan>
+                     </choice> tems que ce soit. </p>
+                  <p>
+                     <lb/>Laquelle déclaration ainsy rendue, il a été <lb/>ordonné au secrétaire de
+                     ville soussigné <lb/>de l’expédier en cette forme sous le sceau <lb/>de la
+                     mairie et justice de <origPlace ref="loc007786">Neufchatel</origPlace>, <lb/>ce
+                        <origDate when="1756-01-17">dix septième janvier mille sept cent
+                        <lb/>cinquante &amp; six</origDate>. </p>
+               </div>
+               <div>
+                  <signed>
+                     <persName ref="per008687">
+                        <choice>
+                           <abbr>A</abbr>
+                           <expan>Abraham</expan>
+                        </choice> Renaud</persName>
+                     <figure type="notarial sign"/></signed>
+               </div>
+            </body>
+         </text>
+      </group>
+   </text>
+</TEI>

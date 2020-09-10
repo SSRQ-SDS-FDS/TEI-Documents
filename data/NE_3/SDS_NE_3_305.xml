@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="headerinfo"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <date type="electronic" when="2020-08-17"/>    <date type="print"/>
+    <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Collection des sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS_NE_3_305</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier>
+      <idno>AVN B 101.14.001, fol. 543r–543v</idno>
+     </msIdentifier>
+     <head>Prescription d’un partage entre un père et ses enfants</head>
+     <msContents>
+      <summary>Vingt ans après un partage fait entre un père et ses enfants dont toutes les parties
+       ont joui paisiblement, il n’est plus possible de revenir sur ce partage. Les testaments,
+       donations et actes de partage doivent être munis du sceau de la seigneurie pour être produits
+       en justice.</summary>
+      <msItem>
+       <textLang>français</textLang>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="33"/>
+          <width unit="cm" quantity="23.5"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <origDate when="1686-03-31" calendar="Julian"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>
+      </origin>
+     </history>
+     <additional>
+      <listBibl>
+       <head/>
+       <bibl/>
+      </listBibl>
+     </additional>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key000244"></term>
+     <term ref="key000803"></term>
+     <term ref="key000635"></term>
+     <term ref="key000023"></term>
+     <term ref="key000759"></term>
+     <term ref="key005117"></term>
+     <term ref="key000241"></term>
+    </keywords>
+   </textClass>
+   <particDesc default="false"/>
+   <settingDesc default="false"/>
+  </profileDesc>
+ </teiHeader>
+
+ <text>
+  <group>
+   <text>
+    <body>
+        
+     
+     <pb n="543r" facs="AVN_B_101.14.001_0543r"/> 
+        
+     <div>
+     
+      <p>
+       <lb/>Sur la requeste du <choice>
+        <abbr>S<hi rend="sup">r</hi></abbr>
+        <expan>sieur</expan>
+       </choice>
+       <persName ref="per009018">Nicolas <lb/>Bosle</persName>, greffier des <placeName ref="loc007799">Verrieres</placeName>,
+       adressée à monsieur <lb/>le maistre bourgeois &amp; <orgName ref="org003085">Conseil Estroit de la Ville de
+        <lb/><placeName ref="loc007786">Neufchatel</placeName></orgName>, le <origDate when="1686-03-31" calendar="Julian">dernier
+        jour de mars <hi rend="underline">1686</hi></origDate>, tendante <lb/>aux fins d’avoir les
+       poincts de coustume suivans. </p>
+      
+      <p>
+       <lb/>Premierement, si après un partage fait
+       <lb/>entre un pere &amp; ses enfans, tant de biens que de
+       <lb/>debts, il y a passé <date dur="P20Y">vingt ans</date>, pendant lesquels
+       <lb/>chacun d’eux a joui paisiblement de ce qui luy estoit
+       <lb/>avenu en partage&#160;; si après lesdits <date dur="P20Y">vingt ans</date> expirés
+       <lb/>l’un ou l’autre des partageurs est en droit d’en venir
+       <lb/>en arriere, &amp; si au contraire les parties ne doivent
+       <lb/>pas se conformer audit partage.
+      </p>
+      
+      <p>
+       <lb/>Secondement, si lors que quelqu’un demande <lb/>la mise en possession et
+       <term ref="lem015531">investiture</term> des biens d’un <lb/>deffunt en vertu d’un testament, donation ou
+       acte de <lb/>partage, il n’est pas obligé de produire son acte <lb/>deuement scellé du seau
+       de la seigneurie, &amp; si à deffaut <lb/>du seau l’acte n’est pas deffectueux. </p>
+      
+      <p>
+       <lb/>Tiercement, si un procès estant intenté pour <lb/>fait de succession, et les parties ont
+       allegué <choice>
+        <abbr>respectivem<hi rend="sup">t</hi></abbr>
+        <expan>respectivement</expan>
+       </choice>
+       <lb/>leurs raisons en justice, &amp; que les juges prennent <lb/>jour d’advis pour rendre
+       leur sentence, la partie qui <lb/>a demandé la mise en possession et <term ref="lem015531"
+        >investiture</term> en <lb/>vertu d’un acte qu’elle a produit n’est pas obligée de
+       <lb/>soliciter pendant les <date dur="P10Y">dix ans</date> (à compter dès le jour <lb/>de
+       l’advis pris) de faire rendre ledit advis, à peine de <lb/><term ref="lem015532">forclusion</term>, &amp; si
+       après <date dur="P14Y">quatorze ans</date> expirés dès ledit <lb/>avis pris, la partie qui a
+       negligé son droit peut rentrer <lb/>en procès par une nouvelle demande. </p>
+      
+      <p>
+       <lb/>En quatrième lieu, si une personne estant en
+       <lb/>possession <del rend="strikethrough">d’un bien</del>de bonne foy d’un bien &amp; heritage
+       <lb/>passé l’espace de <date dur="P14Y">quatorze ans</date>, au veu &amp; au sceu de
+       <pb n="543v" facs="AVN_B_101.14.001_0543v"/>
+       <lb/>tous pretendans, l’on peut le depossessioner valablement,
+       <lb/>et si au contraire on ne le doit pas laisser dans son
+       <lb/>paisible possessoire en vertu de la prescription.
+      </p>
+      
+      <p>
+       <lb/><orgName ref="org003085">Mesdits sieurs du Conseil</orgName>, ayans eu advis &amp; <lb/>meure
+       deliberation par ensemble, donnent par <choice>
+        <abbr>declaraon</abbr>
+        <expan>déclaration</expan>
+       </choice>, <lb/>suivant la coustume usitée en la souveraineté de
+       <lb/><placeName ref="loc007785">Neufchatel</placeName> de pere à fils et de tout temps immemorial
+       <lb/>jusqu’à present, la coustume estre telle. </p>
+      
+      <p>
+       <lb/>Assavoir sur le premier poinct, que lors <lb/>qu’il y a partage fait entre un pere &amp;
+       ses enfans <lb/>tant de biens que de debtes, et qu’il y a passé <date dur="P20Y">vingt
+        <lb/>ans</date> pendant lesquels chacun d’eux a joui <choice>
+        <abbr>paisiblem<hi rend="sup">t</hi></abbr>
+        <expan>paisiblement</expan>
+       </choice>
+       <lb/>de ce qui luy est advenu en partage, &amp; qu’il n’y a aucun <lb/>fraud, ny
+       <term ref="lem015189">barrat</term>, ny aucune obmission, qu’on n’en peut <lb/>venir en arriere, mais les
+       parties se doivent conformer <lb/>audit partage. </p>
+      
+      <p>
+       <lb/>Sur le second poinct, ils declarent, en suite <lb/>des precedentes declarations rendues
+       le <date when="1659-08-21" calendar="Julian">21 aoust 1659</date><note>Voir
+         <ref>SDS_NE_3_167</ref>.</note>
+       <lb/>et <date when="1681-02-23" calendar="Julian">23<hi rend="sup">e</hi> fevrier
+        1681</date><note>Voir <ref>SDS_NE_3_283</ref>.</note>, que tous testaments &amp;
+       <lb/>donations, de mesme qu’acte de partage, doivent estre <lb/>munis du seau de la
+       seigneurie pour les produire en <lb/>justice lors que l’on demande la mise en possession
+       &amp; <lb/><term ref="lem015531">investiture</term> de bien fond, ou certificat de diligence
+       pour <lb/>ce fait. </p>
+      
+      <p>
+       <lb/>Le troisième et quatrième point sont renvoyés à
+       <lb/>une <term ref="lem014980">cognoissance de justice</term>.
+      </p>
+      
+      <p>
+       <lb/>Ce qu’a esté ainsi passé, conclud &amp; arresté <lb/>les an &amp; jour que devant, &amp;
+       ordonné au secretaire <lb/>soussigné de l’expedier en cette forme, sous le <term ref="lem016327">seel</term> de la
+       <lb/>mayorie &amp; justice dudit <origPlace ref="loc007786">Neufchâtel</origPlace>, &amp; signature <lb/>de
+       sa main. </p>
+      
+     </div>
+      
+      <div>
+       <p>
+        <lb/>Extrait pour copie de sur l’original
+        <lb/>signé par moy.
+       </p>
+       <signed><persName ref="per008992"><choice><abbr>N</abbr><expan>Nicolas</expan></choice> Huguenaud</persName> <figure type="notarial sign"/></signed>
+      </div>
+     
+       
+    </body>
+   </text>
+  </group>
+ </text>
+</TEI>

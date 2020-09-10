@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+    <persName>Sibylle Malamud</persName>
+    <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+    <persName>Sibylle Malamud</persName>
+    <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2018-10-31"/>
+            <date type="print"/>
+            <availability><p xml:id="facs">Sibylle Malamud</p></availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+    <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+    <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_024</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+    <msIdentifier>
+       <idno source="https://archivverzeichnis.gl.ch/home/#/content/30ffaa060dd1463b8f3b86340e1ae260">LAGL AG III.2401:001</idno> 
+    </msIdentifier>
+    <head>Urbar der Kapelle St. Niklaus in Werdenberg</head>
+    <msContents>
+       <summary>
+          <p>Verzeichnis der Schenkungen, Zinse und Einkünfte der Kapelle St. Niklaus in der Stadt Werdenberg.</p>
+       </summary>
+       <msItem>
+          <textLang>Deutsch</textLang>
+          <filiation type="current">Original, Heft (3 Einzelblätter, 4 Seiten beschrieben)</filiation>
+       </msItem>
+    </msContents>
+    <physDesc>
+       <objectDesc>
+          <supportDesc>
+             <support>
+                <material>Pergament</material>
+             </support>
+             <extent>
+                <dimensions type="leaves">
+        <height unit="cm" quantity="18.5"/>
+        <width unit="cm" quantity="14.5"/>
+                </dimensions>
+             </extent>
+          </supportDesc>
+       </objectDesc>
+    </physDesc>
+    <history>
+       <origin>
+          <origDate from="1400-01-01" to="1400-12-31">um etwa 1400</origDate>
+       </origin>
+    </history>
+               <additional>
+                  <listBibl><head>Literatur</head>
+                     <bibl><ref target="http://permalink.snl.ch/bib/chbsg000142660">Senn, Jahrzeitbuch</ref>, Anhang, S. 25–26</bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+    <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+    <term ref="key000143">Kapelle</term>
+    <term ref="key000192">Stiftung</term>
+    <term ref="key000147">Gut</term>
+    <term ref="key000154">Zins</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+    <div org="uniform" sample="complete">
+       <pb n="1" facs="LAGL_AG_III.2401-001_S1"/>
+                  <head>
+                     <lb/>Dis nachgeschriben guͦt ist <placeName ref="loc006078.02">Sant
+                        Niclasen</placeName> ze <lb/><choice>
+                        <abbr>Wdenbg</abbr>
+                        <expan><placeName ref="loc000016">Werdenberg</placeName></expan>
+                     </choice></head>
+                  <p>
+                     <lb/><choice>
+                        <abbr xml:lang="la">Pmo</abbr>
+                        <expan>Primo</expan>
+                     </choice>.
+                     <lb/><delSpan rend="crossout" hand="later hand" spanTo="#del1"/>Item ain hoffstǎtt, lit ze dem
+                           <placeName ref="loc006060">Altendorf</placeName>, die hǎt <lb/><persName
+                           ref="per004445a.01">Cuͦntz Rorer</persName><note anchored="true"><date
+                              when="1437">1437</date> wird Konrad Rohrer von Altendorf von <persName
+                              ref="per008052a">Ulrich von St. Johann</persName> um 40 Pfund aus der
+                           Leibeigenschaft entlassen (<ref>SSRQ_SG_III_4_041</ref>).</note> umb
+                           <measure unit="Viertel" commodity="wheat" quantity="1" type="volume">
+                           <subst><del rend="rubbing"><gap/></del><add place="overwritten">j fiertel</add></subst> waissen</measure>. Die liess
+                        <persName ref="per004462a">
+                           <choice>
+                              <abbr>Uͦlr</abbr>
+                              <expan>Uͦlrich</expan>
+                           </choice>
+                           <lb/>Vittler</persName> und <persName ref="per004463a">Elsbet</persName>,
+                        sin wirtin.<anchor xml:id="del1"/>
+                  </p>
+                  <div org="uniform" sample="complete">
+                     <p>
+                        <lb/>Item <persName ref="per004448">Uli</persName> an dem <term
+                           ref="lem001108">kilchweg</term> hǎt gelǎn ain wisli, <lb/>dz lit ze
+                           <placeName ref="loc000428.04">Revis</placeName>, dz gilt <measure
+                           unit="Vierdung" commodity="wheat" quantity="1">ainen vierdung
+                           waissen</measure>.</p>
+                  </div>
+                  <div org="uniform" sample="complete">
+                     <p>
+                        <lb/>Item ab <persName ref="per004449">Haintzen Vittler</persName>s <term
+                           ref="lem008955">hus und hofstatt</term> gǎt <lb/><measure
+                           type="currency" quantity="6" unit="d">vj ₰</measure>.</p>
+                  </div>
+                  <div org="uniform" sample="complete">
+                     <p>
+                        <lb/>Item ab <persName ref="per004450a.01">Elsin Keller</persName>inen
+                        hofstat gǎt <measure type="currency" quantity="4" unit="d">iiij
+                        ₰</measure>.</p>
+                  </div>
+                  <div org="uniform" sample="complete">
+                     <p>
+                        <lb/><del rend="strikethrough" hand="later hand">Item ab dem hindren <term
+                              ref="lem001121">bongarten</term> gǎt <num value="6">vj</num>
+                           <app>
+                              <lem/>
+                              <rdg wit="Senn, Jahrzeitbuch, Anhang, S. 25">₰</rdg>
+                           </app>.</del>
+                     </p>
+                  </div>
+                  <div org="uniform" sample="complete">
+                     <p>
+                        <lb/><del rend="strikethrough" hand="later hand">Item <damage agent="faded ink"
+                           ><gap quantity="1" unit="line"/></damage></del>
+                     </p>
+                  </div>
+                  <div org="uniform" sample="complete">
+                     <p><del rend="strikethrough" hand="later hand">Item 
+                        <damage agent="faded ink"
+                                 ><gap quantity="2" unit="line"/></damage></del><note
+                           anchored="true">Es handelt sich um zwei gestrichene Einträge, von denen
+                                    nur noch einzelne Buchstaben lesbar sind. Bei <bibl><ref target="http://permalink.snl.ch/bib/chbsg000142660">Senn, Jahrzeitbuch</ref>, Anhang, S. 25,</bibl> fehlen beide Einträge.</note>
+                     </p>
+                  </div>
+                  <div org="uniform" sample="complete">
+                     <p>
+                        <lb/>Item <persName ref="per004451a.01">Welti Erni</persName> hǎt gelǎn
+                           <measure unit="d" type="currency" quantity="4">iiij ₰</measure> ab ainem
+                           <lb/><term ref="lem000100">aker</term> in <placeName ref="loc006079.02"
+                           >Campalong</placeName>.</p>
+                  </div>
+                  <div org="uniform" sample="complete">
+                     <p>
+                        <lb/>Item <persName ref="per004452a">Hans Palutter</persName> git <measure
+                           unit="Trinken" type="volume" quantity="1" commodity="lard">ain trinken
+                           smaltz</measure>
+                        <lb/>ab aim wis an <placeName ref="loc006080">Pradell</placeName>.</p>
+                  </div>
+                  <div org="uniform" sample="complete">
+                     <p>
+                        <lb/><del rend="strikethrough" hand="later hand">Item ab des <orgName
+                              ref="org001048.02">Bikkers</orgName> hofstat zuͦm <placeName
+                              ref="loc007196.01">Hinderen <term ref="lem000154">Tor</term></placeName> gat <measure unit="d" type="currency" quantity="4">vj
+                              ₰</measure>.</del>
+                     </p>
+                  </div>
+       <pb n="2" facs="LAGL_AG_III.2401-001_S2_3"/>
+                  <div org="uniform" sample="complete">
+                     <p>
+                        <lb/>Item <persName ref="per004453a.01">Willi Kelin</persName> git <measure
+                           unit="d" type="currency" quantity="2">ij ₰</measure> ab ainem aker vor
+                        <lb/>der kilchen.</p>
+                  </div>
+                  <div org="uniform" sample="complete">
+                     <p>
+                        <lb/>Item die <persName ref="per004480a.01">Walastaderin</persName> hǎt
+                        gelǎn <measure unit="d" type="currency" quantity="4">iiij ₰</measure>
+                        <lb/>von der hofstatt, da si uff sass.</p>
+                  </div>
+                  <div org="uniform" sample="complete">
+                     <p><del rend="strikethrough" hand="later hand">
+                           <lb/>Item <persName ref="per004454a.01">Uͤli Suter</persName> hat gelan
+                           den hailgen aig<lb break="no"/>enlich ain aker, lit in <placeName
+                              ref="loc006081.02">Stokken</placeName>.</del>
+                     </p>
+                  </div>
+                  <div org="uniform" sample="complete">
+                     <p>
+                        <lb/>Item <persName ref="per004455a.01">Jacob Stainhu̍wel</persName> hat
+                        gelǎn <placeName ref="loc006078.03">Sant Niclas<lb break="no"
+                           />en</placeName> ain aker, lit ze dem <placeName ref="loc007194.01"
+                           >Holder</placeName> aigenlich.</p>
+                  </div>
+                  <div org="uniform" sample="complete">
+                     <p>
+                        <lb/>Item <persName ref="per004456a.01">Eberli Huͦber</persName> hǎt gelan
+                        den hailgen ay<lb break="no"/>genlich ain <choice>
+                           <abbr>bg</abbr>
+                           <expan>berg</expan>
+                        </choice>, haist in <placeName ref="loc006082">Puttetsch</placeName>.</p>
+                  </div>
+                  <div org="uniform" sample="complete">
+                     <p>
+                        <lb/>Item <persName ref="per004481a.01">Katrin Grublin</persName> hǎt gelan
+                        den hailgen <lb/>ain aker, lit in <choice>
+                           <abbr>Q<hi rend="sup">u</hi>der</abbr>
+                           <expan><placeName ref="loc006085">Quader</placeName></expan>
+                        </choice><note anchored="true">Die Zuordnung des Ortsnamens Quader zu Grabs
+                           ist unsicher. Es gibt auch <placeName ref="loc007781.01"
+                              >Quader</placeName> in der Gemeinde Sevelen.</note> aigenlich.</p>
+                  </div>
+                  <div org="uniform" sample="complete">
+                     <p>
+                        <lb/>Item <persName ref="per004457a.02">Uͤli Simlener</persName> hǎt gelan
+                        ain aker <measure type="area" quantity="0.5" unit="Mal">ain halbs
+                           <lb/>mu̍ttmel</measure><note anchored="true">Mittmal ist ein Flächenmass
+                              von 100–120 Quadratklaftern oder ¼ Juchart. Laut <bibl><ref target="http://permalink.snl.ch/bib/chbsg000092847">Dubler 1975</ref>, S. 30,</bibl> entspricht ein Mitmal/Mal in Werdenberg 10.5 Aren
+                           Ackerland.</note>, lit in <placeName ref="loc006085">
+                           <choice>
+                              <abbr>Q<hi rend="sup">u</hi>der</abbr>
+                              <expan>Quader</expan>
+                           </choice>
+                        </placeName> und tailt sich von <persName ref="per004458a">
+                           <abbr>Burk</abbr>
+                           <lb/>Frik</persName>en.</p>
+                  </div>
+                  <div org="uniform" sample="complete">
+                     <p>
+                        <lb/>Item ain aker, lit in <choice>
+                           <abbr>Q<hi rend="sup">u</hi>der</abbr>
+                           <expan>
+                              <placeName ref="loc006085">Quader</placeName></expan>
+                        </choice><note anchored="true">Die Zuordnung des Ortsnamens Quader zu Grabs
+                           ist unsicher. Es gibt auch <placeName ref="loc007781.01"
+                              >Quader</placeName> in der Gemeinde Sevelen.</note>, ist <measure
+                           type="area" quantity="1" unit="Mal">ain mu̍ttmel</measure>, <lb/>dz lit
+                        disend <term ref="lem002183">bild</term>, dz ist och <placeName ref="loc006078">Sant
+                           Niclasen</placeName>, <lb/>und gǎt den heren davon <measure unit="d"
+                           type="currency" quantity="6">vj ₰</measure>
+                        <term ref="lem012487">lehenph<lb break="no"/>eninng</term>.</p>
+                  </div>
+       <pb n="3" facs="LAGL_AG_III.2401-001_S2_3"/>
+                  <div org="uniform" sample="complete">
+                     <p>
+                        <lb/>Item <persName ref="per004459a">Haini Fronberger</persName> und
+                           <persName ref="per004460a">Els Mesner</persName> hant <lb/><placeName
+                           ref="loc006078">Sant Niclasen</placeName> aim aker geben <measure
+                           type="area" quantity="1" unit="Mitmal">ain muttmel</measure>, <lb/>lit
+                        under dem <term ref="lem002183">bild</term>, und tailt sich von <persName
+                           ref="per004461a.01">Uͤlin <lb/><unclear>Stepper</unclear></persName>. Dz
+                        hǎnt si im geben sin tail des hus, <lb/>dz bi der cappel stǎt. Und sont
+                           <date dur="R/P1Y">jerlich</date> von der <lb/>hoffstatt geben <measure
+                           unit="d" type="currency" quantity="6">vj ₰</measure>, die wil dz hus
+                        stǎt, oder <measure type="volume" unit="Trinken" commodity="lard"
+                           quantity="1">ain trinken smaltz</measure>.</p>
+                  </div>
+                  <div org="uniform" sample="complete">
+                     <p>
+                        <lb/>Item min herren von <choice>
+                           <abbr>Wdenbg</abbr>
+                           <expan>Werdenberg</expan>
+                        </choice> hǎnd <placeName ref="loc006078">Sant Niclasen</placeName>
+                        eweklich geben <measure unit="lb" type="currency" quantity="1">j 
+                           ₰</measure> uss der <term ref="lem000209">stu̍r</term> ze <lb/>
+                        <placeName ref="loc006083.02">Montafun</placeName>.<note anchored="true">Zur
+                              <term ref="key000157">Steuer</term> in <placeName ref="loc006083"
+                              >Montafon</placeName> vgl. die <term ref="key000192">Stiftung</term>
+                           der Grafen <orgName ref="org000019">von Werdenberg-Heiligenberg</orgName>
+                           von <date when="1362">1362</date>, die eine <term ref="key000150"
+                              >Jahrzeit</term> in der Kirche <placeName ref="loc007779"
+                              >St. Peter</placeName> bei <placeName ref="loc000933"
+                              >Bludenz</placeName> aus der Montafoner Steuer stiften
+                                 (<bibl><ref>VLA Vogteiamt Bludenz, Akten
+                           002/0012/1-4</ref></bibl>). Für die Angabe danke ich Heinz
+                           Gabathuler.</note>
+                     </p>
+                  </div>
+                  <div org="uniform" sample="complete">
+                     <p>
+                        <handShift scribe="2"/>
+                           <lb/>Item <persName ref="per004482a.01">Uͤli Tus</persName> hat gelan
+                           durch siner selhail willen <measure unit="d" type="currency" quantity="2"
+                              >ij ₰</measure> ewigs <lb/>geltz ab der hofstat ze <placeName
+                              ref="loc006017">Limbs</placeName>, da der <persName
+                              ref="per004483a.01">Hebstrit</persName> uff sesshafft <lb/>was, und
+                           och ab dem bongarten, der bi der selben hofstat gelegen.
+                     </p>
+                  </div>
+                  <div org="uniform" sample="complete">
+                     <p>
+                        <handShift scribe="3"/>
+                        <lb/>Item ain hofstat, lit ze dem <placeName ref="loc006060"
+                           >Altendorff</placeName>, die <add place="above">hat</add>
+                        <persName ref="per004445a.02">Kuͦntz Rorer</persName> ze <lb/>erblehen
+                        erkoufft und git jaͤrlich davon <measure quantity="1" commodity="wheat"
+                           type="volume" unit="Viertel">ain viertal waißen</measure>
+                        <lb/>und die ließ <persName ref="per004462a.01">Uͦlrich Vittler</persName>
+                        und <persName ref="per004463a.01">Elßbeth</persName>, sin wirtin, und
+                        <lb/>hat der vorgenant <persName ref="per004445a">Cuͦntz Rorer</persName>
+                        umb die selben hofstat ze <lb/><term ref="lem000601.03">erschatz</term>
+                        geben <measure unit="lb" type="currency" quantity="6">sechs pfund
+                           pfeninng</measure>
+                        <persName ref="per004464a">Caspar Suter</persName>n, der <lb/>des selben
+                        mals <term ref="lem006736">kilchenpfleger</term> was <placeName
+                           ref="loc006078">Sant Niclausen</placeName>.</p>
+                  </div>
+       <pb n="4" facs="LAGL_AG_III.2401-001_S4"/>
+                  <div org="uniform" sample="complete">
+                     <p>
+                        <handShift scribe="4"/>
+                        <del rend="crossout" hand="later hand"><lb/>Item ab dem hus <add
+                              place="above">und hoffstatt</add> bi der <placeName ref="loc006084.02"
+                              >Stappffen</placeName>, das der <orgName ref="org001804"
+                              >Maler</orgName> und <persName ref="per004465a">Heͣnsli
+                              <lb/>Stainhu̍wel</persName> erkoufft hand, gat jaͤrlich <placeName
+                              ref="loc006078">Sant Niclausen</placeName>
+                           <lb/><measure quantity="1" commodity="wheat" type="volume" unit="Viertel">ain
+                              viertal waissen</measure>.</del>
+                     </p>
+                  </div>
+       <pb  facs="LAGL_AG_III.2401-001_v"/>
+                  <div org="uniform" sample="complete">
+                     <ab type="dorsal" place="verso"><placeName ref="loc006078.04"><lb/>Sant
+                           Nicklausen</placeName>
+                        <lb/>brieff <add place="inline" hand="other hand">unnd güllt</add></ab>
+                  </div>
+               </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div n="1" org="uniform" sample="complete">
+            <p>Es handelt sich hier um das älteste Urbar einer Kirche oder Kapelle der Region
+                  <placeName ref="loc000962">Werdenberg</placeName>. Die Kapelle <placeName
+                  ref="loc006078">St. Niklaus</placeName> existiert nicht mehr und ihre Lage ist
+               unbekannt (zum Standort vgl. die neusten Erkenntnisse von Krumm (erscheint 2020), Die
+               Kunstdenkmäler der Region Werdenberg, Kap. Gemeinde Grabs, Städtchen Werdenberg, die
+               spätmittelalterliche Stadtgestalt, zur Frage nach dem Standort der Werdenberger
+               Kapelle St. Nikolaus). Sie wird in den schriftlichen Quellen des <date from="1401"
+                  to="1500">15. Jh.</date> erwähnt und war eine Kapelle im Städtchen <placeName
+                  ref="loc000016">Werdenberg</placeName>, die möglicherweise im Oberstädtli in der
+               Lücke der äusseren nördlichen Häuserreihe lag (<bibl><ref
+                  target="http://permalink.snl.ch/bib/chbsg000142778">Hilty 1906</ref>,
+                  S. 94ff.</bibl>). Laut den Amtspflichten eines Kaplans von <placeName
+                  ref="loc000335">Grabs</placeName> von <date when="1455">1455</date> hat ein
+               Priester zweimal <date dur="R/P1W">wöchentlich</date> in der Niklauskapelle in der
+               Stadt Werdenberg Messe zu lesen (vgl. dazu <ref>SSRQ_SG_III_4_051</ref>).</p>
+            <p>Am <date when="1461-11-26">26. November 1461</date> sitzt <persName ref="per000883"
+       >Heinrich Gocham</persName>, Ammann von Werdenberg, im Namen des Grafen <persName
+       ref="per000884a">Wilhelm VIII. von Montfort-Tettnang</persName> zu Gericht in der
+    Stadt <placeName ref="loc000016">Werdenberg</placeName>. <persName ref="per004514"
+       >Sigmund Spenli</persName>, Kirchmeier der Kapelle St. Niklaus, beschwert sich,
+    dass die fälligen <term ref="key000154">Zinsen</term> sehr schwierig einzutreiben
+    seien. Das <term ref="key000057">Gericht</term>
+    <term ref="key000683">urteilt</term>, dass künftig die Schulden bei der Kirche vom
+    Gerichtsboten eingetrieben und die Schuldner falls nötig <term ref="key000441"
+       >gepfändet</term> oder ihre Güter auf der <term ref="key000412">Gant</term>
+    versteigert werden sollen. Ersteigert niemand das Gut, soll der Kirchmeier dieses
+    zuhanden der Kirche kaufen (<bibl><ref target="https://archivverzeichnis.gl.ch/home/#/content/918ba7e71d8145fb87af8f484276dd1f">LAGL AG III.2402:029</ref></bibl>). </p>
+         </div>
+         <div n="2" org="uniform" sample="complete">
+            <p>Das <term ref="key000122">Urbar</term> ist undatiert. Von der Schrift her ist es um
+                  <date when="1400">1400</date>, wahrscheinlich noch etwas früher, entstanden. Es
+               enthält einige Nachträge aus dem ersten Viertel des <date from="1401" to="1425"
+                  >15. Jh.</date> Die Stiftung der Herren von <orgName ref="org000025"
+                  >Werdenberg</orgName> ist ein Hinweis, dass das Urbar noch vor dem Verlust der
+               Grafschaft <placeName ref="loc000440">Werdenberg</placeName> (nach <date when="1400"
+                  >1400</date> und vor <date when="1404">1404</date>) an die Grafen von <orgName
+                  ref="org000202">Montfort-Tettnang</orgName> entstanden ist. </p>
+         </div>
+      </back>
+   </text>
+</TEI>

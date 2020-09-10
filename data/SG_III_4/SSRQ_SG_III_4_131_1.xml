@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften
+     und Landstädte, Band 4: Die Rechtsquellen der Grafschaft Werdenberg, Freiherrschaft
+     Sax-Forstegg und Herrschaft Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-08-15"/>
+            <date type="print"/>
+            <availability><p xml:id="facs">Sibylle Malamud</p></availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_131_1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>StAZH C IV 7.3, Nr. 5</idno>
+               </msIdentifier>
+               <head>Erbvertrag von Ulrich Philipp von Sax-Hohensax über die Hinterlassenschaft für seine zweite Ehefrau und seine Söhne und Töchter aus beiden Ehen</head>
+               <msContents>
+                  <summary>
+                     <p>Bürgermeister und Rat der Stadt Zürich urkunden, dass ihr Bürger Ulrich Philipp von Sax-Hohensax mit seinem ältesten Sohn Hans Albrecht von Sax-Hohensax vorsprach, weil er sich von Anna von Hohenzollern, seiner ersten Frau, scheiden liess und kürzlich Regina Marbach heiratete, jedoch aus erster Ehe Kinder hat. Damit nach seinem Tod kein Streit unter den Erben entsteht, bestimmt Ulrich Philipp, wie sein Erbe unter seiner jetzigen Frau und den Kindern aus erster und zweiter Ehe verteilt werden soll:</p>
+                     <p>1. Regina Marbach erhält bei seinem Tod ihr zugebrachtes Heiratsgut, ihr ererbtes Gut, ihre Kleidung, ihren Schmuck, ihre Heiratsgeschenke sowie weiteren Hausrat. </p>
+                     <p>2. Als Morgengabe erhält sie das Schloss Sax, das er von Hans Bäbi gekauft hat, und gemäss Heiratsvertrag den Hof Sax, den er von Vitus Hewer erworben hat. Diese Güter kann sie lebenslänglich nutzen, wenn sie sich nicht mehr verheiratet.</p>
+                     <p>3. Beim Tod der jeweiligen Mutter erben nur deren leibliche Kinder.</p>
+                     <p>4. Die Freiherrschaft Sax-Forstegg soll an die Söhne seiner ersten und zweiten Frau übergehen, falls sie nicht vorher ausgesteuert wurden oder noch werden. </p>
+                     <p>5. Die Töchter beider Ehefrauen, die gehorsam sind, sollen zu Lebzeiten des Vaters oder nach dessen Tod mit Rat der Verwandtschaft aus dem väterlichen Gut ausgesteuert und versorgt werden.</p>
+                     <p>Der Aussteller siegelt.</p>
+                  </summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <filiation type="current">Original</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Pergament</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="27.0"/>
+                              <width unit="cm" quantity="49.5"/>
+                           </dimensions>
+                           <dimensions type="plica">
+                              <width unit="cm" quantity="9.5"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <sealDesc>
+                     <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI"
+                           n="1"
+                           nontei:condition="damaged"
+                           nontei:material="wax with margin"
+                           nontei:shape="round"
+                           nontei:attachment="sealed on a parchment tag">
+                        <orgName role="sigillant" ref="org001196">Zürich</orgName>
+                     </seal>
+                  </sealDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1553-05-20"/>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head>Regest</head>
+                     <bibl><ref target="http://permalink.snl.ch/bib/chbsg000141199">Zeller-Werdmüller 1878</ref>, S. 103 Beilagen Nr. I. (Auszug)</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key004770">Erbe</term>
+               <term ref="key000815">Erbnachfolge</term>
+               <term ref="key000920">Erbschaft</term>
+               <term ref="key000110">Heirat</term>
+               <term ref="key000242">Verfügung letztwillige</term>
+               <term ref="key003398">Aussteuer</term>
+               <term ref="key003400"/>
+               <term ref="key000112"/>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <div org="uniform" sample="complete">
+                  <pb facs="StAZH_C_IV_7.3_Nr._5"/>
+                  <p>
+                     <seg>
+                        <lb/>Wir, der <orgName ref="org002406">burgermeister unnd rath der statt
+                           Zürich</orgName>, thund khundt mengklichem mitt disem brief, das vor unns
+                        verschinnen ist der wolgeborn herr <persName ref="per004426">Uͦlrich
+                           Phillips, fryg<lb break="no"/>herr von der Hochensax, herr zu <placeName
+                              ref="loc000278">Vorstegk</placeName></persName>
+                        <abbr>etc</abbr>, unnser besonnders lieber herr unnd getrüwer <term
+                           ref="lem000227">burger</term>, mitt bystand syner gnaden <term
+                           ref="lem009427">eltisten suns</term>, <persName ref="per004677a">Hanns
+                           Albrechten von der Hochensax</persName>, offnet unnd erscheint,
+                        <lb/>nachdem er by syner ersten <term ref="lem000267">gemahel</term>, frow
+                           <persName ref="per008915a">Anna, geborne grävin von Zorn</persName>,
+                        etliche eeliche <term ref="lem000130">kinder</term> überkommen unnd er aber
+                        sich jüngst mitt frow <persName ref="per008914a">Regyna Marbechin</persName>
+                        widerumb <term ref="lem003308">vereelichet</term>, mitt dero nach <lb/>
+                        <term ref="lem010589">cristenlicher ordnung</term>
+                        <term ref="lem006647.08">zu kilchen unnd straaß gangen</term>, welliche er
+                        der billigkeit nach mitt eynem <term ref="lem014853.02">hyrat</term> unnd
+                           <term ref="lem002477">gemecht</term> zu betrachten <term ref="lem000734"
+                           >vertröst</term>. Harumb habe er inn bedenckung der sorgsamen unnd
+                           schwe<lb break="no"/>ren <term ref="lem012403">loüff</term>, ouch das
+                        nüdt gewüssers dann der <term ref="lem000233">tod</term> unnd nüdt
+                        ungewüssers dann die stund des tods, damitt nach synem sterben unnd
+                        abscheiden des zytlich unnd verlassnen gutz halb zwüschend den kinnden unnd
+                        <lb/>erben dhein irrung, widerwill noch mißverstand erwachse, sonnders
+                        fridlich unnd früntlich gehandlet werde, mitt wolbedachtem mut, guter
+                        zytlicher vorbetrachtung, gesunds lybs unnd vernünfftig der sin<lb
+                           break="no"/>nen, gesetzt und geordnet, wie er das nach recht unnd
+                        gwonheit gethun kündt, solt unnd möcht:</seg>
+                     <seg n="1">Namlich des ersten, wänn er, vorgenannter, syner jetzigen eewirtin
+                           <persName ref="per008914a">Regina Marbechin</persName>
+                        <term ref="lem014801">mitt tod ab<lb break="no"/>gienge</term>, so sölle
+                        dieselb anfangs umb ir zubracht unnd ererbt gut, so sy jetzt hatt oder
+                        künfftengklich überkompt, vernügt unnd abgefertiget werden. Demnach sy haben
+                        unnd nemmen ire <term ref="lem003502">cleider</term>, <term
+                           ref="lem002070.06">cleynotter</term>, <term ref="lem002461"
+                           >gestüch</term>
+                        <lb/>unnd <term ref="lem014861.02">gebend</term> zu irem <term
+                           ref="lem000271">lyb</term> gehörig. Item ein gebettet <term
+                           ref="lem002033">bettstatt</term>, daran er gwonlich lege, mitt sampt
+                        drygen annderen gebetteten bettstatten, dartzu eynen eerlichen <term
+                           ref="lem000354">hußrath</term>, ouch <num value="6">sechs</num>
+                        <term ref="lem001714">silberine</term> zimlich <term ref="lem014854.01"
+                           >tischbecher</term> und <lb/>die <num value="2">zwey</num>
+                        <term ref="lem004013.01">vergülten</term>
+                        <term ref="lem014855.02">kelchli</term>. Zudem solle iro plyben alles das,
+                        so iro uff die <term ref="lem003726">hochtzit</term>
+                        <term ref="lem011566">gaabet</term> unnd vereert were,<note anchored="true"
+                           >Am <date when="1556-02-17">17. Februar 1556</date> stellt <persName
+                              ref="per004426">Ulrich Philipp von Sax-Hohensax</persName> zur
+                           Vermeidung künftiger Erbstreitigkeiten eine Urkunde aus über die <term
+                              ref="key003401">Geschenke</term>, die <persName ref="per008914a"
+                              >Regina Marbach</persName> von ihm und anderen Personen bekommen hat.
+                           Der Erb- und Leibdingvertrag vom <date when="1552-05-20">20. Mai
+                              1553</date> soll von der Urkunde nicht betroffen sein. Die Urkunde
+                           enthält eine detaillierte Aufzählung über die Hochzeitsgeschenke an die
+                           Ehefrau, darunter Ketten und Ringe mit Saphiren, Diamanten, Amethisten
+                           oder Rubinen, silberne Becher und anderes Geschirr  (<bibl><ref>StAZH C
+                                 IV 7.3, Nr. 6</ref></bibl>; siehe auch das Verzeichnis über ihre
+                           Hinterlassenschaft an die drei Söhne von 1589: <bibl><ref>KA Werdenberg
+                                 im OA Grabs Nr. 43–39 [Kopialbuch Schäpper]</ref>, S. 93–95</bibl>).</note> deßglych er oder annder lüth iro noch ungevarlicher wyß
+                        schencken möchten, darumb die erbenn <lb/>sy unersucht unnd rüwig lassen
+                        solten.</seg>
+                     <seg n="2">Fürer als er gedachter syner <term ref="lem000450">hußfrowen</term>
+                        <persName ref="per008914a">Regina</persName> zu rechter, fryger <term
+                           ref="lem002020">morgengab</term> sin <term ref="lem001152">huß</term>
+                        mitt zugehörigen gütteren zu <placeName ref="loc007946.01">Sax</placeName>,
+                        wie er sollichs kurtzlich von <persName ref="per008916">Hannsen
+                           <lb/>Bebi</persName> erkoufft, zugesagt unnd versprochen, das dann iro
+                        sollich morgengab zugehören unnd plyben nach morgengabs bruch unnd recht.
+                        Unnd über diß ir <term ref="lem014856.02">eegerechtigkeit</term>, <term
+                           ref="lem002020">morgengab</term> unnd annders, so iro, als <lb/>obstadt,
+                        gehört, schafft unnd vermachte er iro vermög beschehens <term
+                           ref="lem014857.02">hyrat zusags</term> verrer unnd wyter den <term
+                           ref="lem000169">hof</term> zu <placeName ref="loc006042">Sax</placeName>
+                           gelegen,<note anchored="true">Nachdem <persName ref="per004426">Ulrich
+                              Philipp von Sax-Hohensax</persName> die Herrschaft <placeName
+                              ref="loc006070">Bürglen</placeName> verkauft und 1560 die Burg
+                              <placeName ref="loc006924">Uster</placeName> gekauft hat, setzt er
+                           1560 seiner zweiten Ehefrau <persName ref="per008914a">Regina
+                              Marbach</persName> anstelle von <placeName ref="loc007946"
+                              >Sax</placeName> die Burg Uster zu <term ref="key000818"
+                              >Leibding</term> (<bibl><ref>StAZH C IV 7.3,
+                           Nr. 7</ref></bibl>).</note> wie er den von <persName ref="per008917a">Vyt
+                           Hewern</persName> seligen erkoufft hatt mitt huß, hofreiti, garten,
+                        acker, wisen, vel<lb break="no"/>dern unnd allen synen rechten,
+                        gerechtigkeiten, eigentschafften unnd zugehörungen, gantz unnd gar, nüdt
+                        ußbedingt. Also das sy nach synem tödtlichen hinscheiden, er verlasse by iro
+                        eeliche kinnder oder nitt, sölli<lb break="no"/>chen <term ref="lem000169"
+                           >hof</term> mitt aller rechtung unnd frygheit zu iren sicheren handen
+                        haben unnd nämmen, den innhaben, besitzen, nutzen unnd nyessen sölle unnd
+                        möge ir wyl unnd leben lang, von synen erben unnd nachkommen <lb/>ungesumpt
+                        unnd ungeirrt. Doch das sy, die frow, disen hof weder zu <term
+                           ref="lem007900">beschweren</term>, zu veränderen noch zu verkouffen gwalt
+                        noch macht haben. So aber sy sich annderwerth vereelichen unnd iren <term
+                           ref="lem011833.06">witwen stadt</term>
+                        <lb/>enderen oder <term ref="lem014801">mitt tod abgan</term> wurd, es
+                        beschech über kurtz oder lange zyt, sölle als dann der obgedacht hof zu
+                           <placeName ref="loc006042">Sax</placeName> gar unnd gantz sampt aller
+                        besserung, recht unnd gerechtigkeit nüdt ußgenommen, on alles <lb/>mittel
+                        widerumb an syne <term ref="lem000130">kinnder</term> unnd <term
+                           ref="lem001415">erben</term> gmeinlich gefallen unnd zugehören. Unnd also
+                        sy, die <term ref="lem002312">frow</term>, uß synem hab unnd gut für all
+                        vorderung unnd ansprach ußgericht unnd abgefertiget heyssen unnd syn.</seg>
+                     <seg n="3">
+                        <lb/>Demnach zu verhütung künfftiger spännen zwüschent synen <term
+                           ref="lem000130">kinden</term> unnd erben inn vätterlich unnd müterlichem
+                        erb unnd gut, were syn <term ref="lem000809">ordnung</term>, will unnd
+                        meynung, diewyl göttlich, natürlich unnd recht, das <lb/>eyn jedes kinnd syn
+                        rechte, natürliche <term ref="lem000292">muter</term> erben sölle, das nach
+                           <term ref="lem005098">abgang</term> jeder kinnden muter söllichs
+                        beschehen. Unnd die kinnder, so er by syner ersten frowen <persName
+                           ref="per008915a">Anna, geborne grävin von Zorn</persName>, überkommen,
+                        <lb/>dieselb ir muter, deßglychen was kinnderen er by jetziger syner
+                        eewirtin hatt unnd sy verlaßt, dise ir muter alleyn als rechte, eeliche
+                        kinnder erben söllen, von den annderen kinden unnd mengklichem ganntz unnd
+                        <lb/>gar unverhindert. Unnd wiewol ime von vilgedachter <persName
+                           ref="per008915a">frowen von Zorn</persName>
+                        <measure quantity="2000" type="currency" unit="fl">zweythusent
+                           guldin</measure> zu <term ref="lem009267.06">hyrat gut</term> zugesagt,
+                        ouch irer frow muter gut unnd annder <term ref="lem002051">erbfäl</term>
+                        vorbehalten, so habe er doch weder <term ref="lem010266.04">haller noch
+                           <lb/>pfenning</term> an houptgut enpfangen, zu dem stünden im etlich jar
+                        zinnß davon unbezalt uß. Darumb was unnd wie vil denselben <term
+                           ref="lem000130">kinden</term> von irer frow <term ref="lem000292"
+                           >muter</term> zugesagten <term ref="lem009267.05">hyratgut</term> oder
+                        sonst inn erbswyß gefallen <lb/>wirt, das alles sölle inen, so es zu fal
+                        kompt, obgehörter maß gefolgen unnd plyben.</seg>
+                     <seg n="4">Sovil aber das vätterlich erb unnd gut belangt, satzte unnd ordnete
+                        er, diewyl die <term ref="lem000210">sün</term>
+                        <term ref="lem002787">stammen</term> unnd nammen er<lb break="no"/>hielten,
+                        das dieselben, so er by voriger oder jetziger frowen gehept hatt oder noch
+                        überkompt (welliche sün nitt zu annderen <term ref="lem005138.05"
+                           >stenden</term> geordnet unnd <term ref="lem014860.02">ußgestürt</term>
+                        sind oder noch werdent), by der herrschafft <placeName ref="loc000278"
+                           >Vorstegk</placeName>
+                        <lb/>mitt hochen unnd nidern gerichten, ouch allen unnd jeden frygheiten,
+                        recht unnd gerechtigkeiten, mitt zinnß, zehenden, rennt, nütz, gülten unnd
+                        gütteren, was dartzu gehört, darinn nüdt ußgenommen one intrag und
+                        <lb/>widerred gentzlich plyben unnd denselben zugehören.</seg>
+                     <seg n="5">Dargegen söllind die <term ref="lem000082">töchteren</term> von
+                        beiden frow mutern, so gefölgig unnd gehorsam sind, es syge by syn, des
+                        vatters, leben oder nach synem tod mit rath eyner <lb/>
+                        <term ref="lem000608">fründtschafft</term> uß <term ref="lem004486"
+                           >vätterlichem</term> gut, eerlichen inn hyratswyß oder inn annder weg,
+                           <term ref="lem014860.02">ußgestürt</term> unnd <term ref="lem013271"
+                           >versorgt</term> werden. Unnd umb was ald wievil jede <term
+                           ref="lem000082">tochter</term> uff die bemelt herrschafft ald anndere
+                        gütter verwyßt, <lb/>söllen die <term ref="lem000210">sün</term>, so die
+                        herrschafft unnd gütter innhabend, abzufertigen oder zu versicheren schuldig
+                        syn. Unnd dieselben sün die bemelt herrschafft unnd gütter mitt aller
+                        zugehördt ouch alles das, so über die ußstü<lb break="no"/>rung der
+                        töchteren oder sünen überig syn wirt, brüderlich unnd früntlich mitt
+                        eynannderen besitzen, nutzen unnd niessen, unverhindert der annderen
+                        geschwüstergiten unnd mengklichs alles getrüwlich, erberlich <lb/>und
+                        ungevarlich.</seg>
+                     <seg>Diewyl nun das alles syner <term ref="lem002312">frowen</term>, <term
+                           ref="lem000130">kinden</term> unnd <term ref="lem001415">erben</term> zu
+                        wolfart, ruwen unnd gutem angesehen unnd dann er sampt der vermelten
+                        herrschafft <placeName ref="loc000278">Vorstegk</placeName> für sich unnd
+                        syn nachkommen <lb/>gegen gmeyner unnser statt mitt ewigem <term
+                           ref="lem012837">burgrechten</term> verpflicht unnd verbunden, so were syn
+                        gantz vlyssig unnd früntlich bitt unnd begeren, wir welten söllichs mitt
+                        briefflicher gwarsame bekrefftigen unnd be<lb break="no"/>stetigen. Also
+                        habent wir des wolgenannten, unnsers <term ref="lem000227">burgers</term>
+                        herr <persName ref="per004426a">Uͦlrichen Phillipps, frygherr von der
+                           Hochensax</persName>
+                        <abbr>etc</abbr>, bittlich ansuchen nach gstalt unnd gelegenheit der sachen
+                        für zimlich unnd billich geacht <lb/>unnd daruff syner gnaden obgemelt <term
+                           ref="lem014858.02">hyrats</term> unnd <term ref="lem014859.02"
+                           >gemechtsordnung</term> unnd verschaffung <term ref="lem000540"
+                           >confirmiert</term> unnd bestetiget unnd wellend, das dem inn allweg, wie
+                        har inn von wort zu wort begriffen stadt, jetz unnd hernach <lb/>getrüwlich
+                        gelept unnd nachgangen werde, von mengklichem ungesumpt unnd
+                        unverhindert.</seg>
+                     <seg>Unnd des alles zu warem urckhundt unnd bevestigung, so ist unnser statt
+                           <orgName ref="org001196">Zürich</orgName> secret insigel offentlich
+                        gehenckt <lb/>an disen brief, doch wolgenannts <persName ref="per004426a"
+                           >hern von Sax</persName> gelten unnd unnser statt recht unnd gesetzt inn
+                        allweg one schaden unnd nachteil, der geben ist <origDate when="1553-05-20"
+                           >sambstags, den zwentzigisten tag meygens nach der <lb/>geburt <persName
+                              ref="per000353">Christi</persName> gezalt fünfftzehenhundert fünfftzig
+                           unnd drü jar</origDate>. </seg>
+                  </p>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab place="verso" type="dorsal" hand="hand18c">
+                     <lb/>Herr freyherren von der Hochen Sax
+       <lb/>testamentliche vermächtnus gegen frauw <persName ref="per008914a">Regina
+        <lb/>Marbech</persName>, seiner gemahlin, 1553 <abbr>etc</abbr>. </ab>
+               </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div org="uniform" sample="complete">
+            <p><date when="1552">1552</date> erwirkt <persName ref="per004426">Ulrich Philipp von
+                  Sax-Hohensax</persName> die Scheidung von <persName ref="per008915a">Anna von
+                  Hohenzollern</persName> durch das <term ref="key004344">Ehegericht</term> von
+                  <placeName ref="loc000066">Zürich</placeName> wegen <term ref="key000611"
+                  >Ehebruchs</term> mit seinem Halbbruder <persName ref="per008919">Mathis
+                  Saxer</persName>, dem er während seiner Abwesenheit in französischen Diensten die
+               Verwaltung über die Freiherrschaft <placeName ref="loc000278"
+                  >Sax-Forstegg</placeName> übergeben hatte (<bibl><ref>StAZH C IV 7.3,
+                  Nr. 4</ref></bibl>, vgl. auch <bibl><ref>StAZH A 346.1.1, Nr. 44</ref>; <ref>C IV
+                     7.3, Nr. 2</ref></bibl>; <bibl><ref
+                     target="http://permalink.snl.ch/bib/chbsg000141199">Zeller-Werdmüller 1878</ref>,
+                  S. 52</bibl>). Kurze Zeit später heiratet er <persName ref="per008914a">Regina
+                  Marbach</persName>. Seine Scheidung und Wiederheirat legitimiert <persName
+                  ref="per004426">Ulrich Philipp von Sax-Hohensax</persName>
+               <date when="1564">1564</date>, indem er zum reformierten Glauben übertritt und in
+               seiner Herrschaft die Reformation einführt (<ref>SSRQ_SG_III_4_136</ref>; zur ersten
+               und zweiten Reformation siehe <bibl><ref
+                     target="http://permalink.snl.ch/bib/chbsg000142591">Aebi 1963</ref>, S.
+                  17–22</bibl>; <bibl><ref target="http://permalink.snl.ch/bib/chbsg000080285"
+                     >Bänziger 1977</ref>, S. 95–118</bibl>; <bibl><ref
+                     target="http://permalink.snl.ch/bib/chbsg000142593">Staehelin 1958</ref>, S.
+                  25–32</bibl>; <bibl><ref target="http://permalink.snl.ch/bib/chbsg000141222"
+                     >Sulzberger 1872</ref></bibl>; <bibl><ref
+                     target="http://permalink.snl.ch/bib/chbsg000141199">Zeller-Werdmüller
+                     1878</ref>, S. 52–56</bibl>). </p>
+            <p>Um künftige <term ref="key003343">Konflikte</term> um seine <term ref="key000920">Hinterlassenschaft</term> zwischen seinen Kindern aus beiden Ehen zu vermeiden, stellt er
+      <date when="1553">1553</date> den hier edierten Vertrag um sein <term ref="key000920">Erbe</term> und das
+      <term ref="key000818">Leibding</term> seiner zweiten Ehefrau auf: Die Söhne aus beiden Ehen erben die Herrschaft gemeinsam (sofern sie nicht in den geistlichen Stand treten und
+     ausgesteuert werden), die Töchter werden ausgesteuert und der Besitz und die
+     Nutzniessungsrechte seiner neuen Ehefrau werden festgehalten.</p>
+            <p>In den folgenden Jahrzehnten stellt Ulrich Philipp weitere Regelungen über seine
+               Hinterlassenschaft auf (<bibl><ref>StAZH C IV 7.3, Nr. 6</ref>; <ref>Nr. 7</ref>;
+                     <ref>Nr. 8</ref>; <ref>Nr. 9</ref></bibl>; <bibl><ref>StAZH A 346.1.3,
+                     Nr. 46</ref></bibl>). Trotzdem kommt es nach seinem Tod <date when="1585"
+                  >1585</date> zu langwierigen <term ref="key001030">Erbstreitigkeiten</term>
+               zwischen den Kindern aus erster und zweiter Ehe (siehe dazu die umfassenden Dossiers
+               in <bibl><ref>StAZH A 346.1.4</ref></bibl> und <bibl><ref>StASG
+                  AA 2 A 01-07</ref></bibl>). Trotz des Erbteilungsvertrags von <date when="1590"
+                  >1590</date> (Original: <bibl><ref>EKGA Salez 32.01.23, Besitzungen</ref></bibl>)
+               und weiteren Erbverhandlungen (Dossier: <bibl><ref>StAZH A 346.1.5, Nr.
+                  18</ref></bibl>; Dossier: <bibl><ref>StAZH A 346.2.1</ref></bibl>) schwelt der
+               Konflikt weiter und führt schliesslich <date when="1596">1596</date> zum <term
+                  ref="key000954">Mord</term> an <persName ref="per004582">Johann Philipp von
+                  Sax-Hohensax</persName> durch seinen Neffen <persName ref="per008918">Ulrich
+                  Georg</persName>, Sohn von <persName ref="per004677a">Johann Albrecht I. von
+                  Sax-Hohensax</persName> (Dossier: <bibl><ref>StAZH A 346.2.2</ref></bibl>;
+               Literatur: <bibl><ref target="http://permalink.snl.ch/bib/chbsg000081782">Kessler
+                     1996</ref>, S. 276–287</bibl>; <bibl><ref
+                     target="http://permalink.snl.ch/bib/chbsg000141036">Reich 2006b</ref>,
+                  S. 52–65</bibl>; <bibl><ref target="http://permalink.snl.ch/bib/chbsg000141199"
+                     >Zeller-Werdmüller 1878</ref>, S. 49–138</bibl>).</p>
+         </div>
+      </back>
+   </text>
+</TEI>

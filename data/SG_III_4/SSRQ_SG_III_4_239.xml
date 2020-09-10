@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-08-15"/>
+            <date type="print"/>
+            <availability><p xml:id="facs">Sibylle Malamud</p></availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_239</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>OGA Sax 07.12.1764</idno>
+               </msIdentifier>
+               <head>Vertrag zwischen dem Pfarrer der Pfründe Sax und der Gemeinde Frümsen um den Zehnten</head>
+               <msContents>
+                  <summary><p>Landvogt Johann Jakob Escher hat Johann Martin Weiss, Pfarrer der Pfründe Sax, das Zehntrecht
+                        während seiner Regierungszeit gegen Bezahlung von vier Gulden überlassen.
+                        Danach vereinbart der Pfarrer mit der Gemeinde Frümsen folgendes:</p> <p>1. Mit Ausnahme des Wein- und
+   Kälberzehnts soll der Zehnt von Frümsen zu Lebzeiten des jetzigen Pfarrers
+   den Frümsern gegen einen jährlichen Betrag von 130 Gulden überlassen werden.</p> <p>2. Dieser Betrag soll
+   von zwei ehrlichen Männern, die ihm von der Gemeinde vorgeschlagen werden, eingezogen und auf den
+   Nikolaustag in das Pfarrhaus gebracht werden.</p> <p>3. Werden zu viele Wiesen in Äcker umgewandelt und
+   dadurch der Kälberzehnt beeinträchtigt, muss die Gemeinde sich mit dem Pfarrer vergleichen.</p></summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <author role="scribe"><persName ref="per011184a">Johann Martin Weiss</persName>, Pfarrer</author>
+                     <filiation type="current">Aufzeichnung (Doppelblatt)</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="36.0"/>
+                              <width unit="cm" quantity="23.0"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1764-12-07"/>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000193">Pfründe</term>
+               <term ref="key000049">Zehnt</term>
+               <term ref="key000065">Amtmann</term>
+               <term ref="key000685">Ablösung</term>
+               <term ref="key000301">Pfarrer</term>
+               <term ref="key000817">Vertrag</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <div>
+                  <pb facs="OGA_Sax_07_12_1764"/>
+                  <p>
+                     <lb/>Nachdeme die ehrsamme gemeind <orgName ref="org001786">Frümsen</orgName> an mich
+                     gelangen laßen, daß ich <lb/>ihro und zwaren einem jeden <term ref="lem013592"
+                        >gemeindsangehörigen</term> den der <term ref="lem000367">pfrund</term>
+                     <placeName ref="loc006120">Sax</placeName> dahero <lb/>zuständigen <term ref="lem000073"
+                        >zehenden</term> überlaßen möchte, habe ich zuerst mit <choice>
+                           <abbr>tit mnm</abbr>
+                           <expan>tituliertem, meinem</expan>
+                        </choice> hoch<lb break="no"/>geachten und wohlweisen herren landvogt <persName
+                           ref="per002744">Johann Jacob Escher</persName> des <term ref="lem001210">zehenden
+                              recht</term>
+                     <lb/>halben mich verabreden müßen, als welcher mi<subst><del>t</del><add place="overwritten"
+                        >r</add></subst> daßelbe während der zeit seiner <lb/>regierung gegen bezahlung <measure
+                           type="currency" quantity="4" unit="fl">4 </measure>
+                     <date dur="R/P1Y">alljährlich</date> überlaßen. Auf welches dann die gemeind <lb/><orgName
+                        ref="org001786">Frümsen</orgName> nebst denen <term ref="lem003599">beamteten</term>
+                     daselbst ausschüßen an mich abgeordnet, namlich <lb/><choice>
+                        <abbr>hr</abbr>
+                        <expan>herr</expan>
+                     </choice>
+                     <term ref="lem000449">landamman</term>
+                     <persName ref="per010763a.01">Jacob Hanselman</persName>, <term ref="lem000342"
+                        >richter</term>
+                     <persName ref="per011175">Heinrich Fuchs</persName>, <term ref="lem000342">richter</term>
+                     <persName ref="per011178">Johannes Tinner</persName>, <lb/><persName ref="per011181a.01"
+                        >Andreas Rüedisüeli</persName>, <choice>
+                           <abbr>alt sekelmstr</abbr>
+                           <expan><term ref="lem001663">alt sekelmeister</term></expan>
+                        </choice>, <persName ref="per011182a.01">Andreas Rüedisüeli</persName>, <choice>
+                           <abbr>sekelmstr</abbr>
+                           <expan><term ref="lem001645">sekelmeister</term></expan>
+                        </choice>, <term ref="lem015671.01">ehegaumer</term>
+                     <persName ref="per011176">Hans <lb/>Fuchs</persName>, <persName ref="per011177a.01">Jacob
+                        Fuchs</persName> in <placeName ref="loc009007.02">Göfer</placeName> und <persName
+                           ref="per011183">Thomas Walser</persName>, welche mit mir des <term ref="lem000073"
+                              >zehendens</term>
+                     <lb/>halber nachfolgenden <term ref="lem002927">verglich</term> eingegangen:</p>
+                  <p>
+                     <lb/>Des ersteren, daß von nun an aller und jeder <term ref="lem000073">zehenden</term>,
+                     ausgenohmen der <lb/><term ref="lem001215">wein</term> und <term ref="lem014550">kalber
+                        zehenden</term>, denen <term ref="lem014093">gemeindsgenoßen</term> zu <placeName
+                           ref="loc006121">Frümsen</placeName> bis auf die <lb/>zeit, so lange der liebe gott mich bey
+                     der <choice>
+                        <abbr>l</abbr>
+                        <expan>lieben</expan>
+                     </choice> gemeind im leben erhaltet, solle <lb/>überlaßen seyn gegen <date dur="R/P1Y"
+                        >jährlicher</date> bezahlung <measure type="currency" quantity="130" unit="fl">130
+                           </measure>, sage, einhundert dreysig <lb/>gulden, guter und gangbahrer müntz und währung,
+                     ohne einige ausnahm.</p>
+                  <p>
+                     <lb/>Demnach solle dise gesezte summa von <measure type="currency" quantity="130" unit="fl"
+                        >130 </measure> ohne meine, des <term ref="lem000672">pfarrers</term>, beschwerd <lb/>von
+                     zweyen ehrlichen männeren, welche die im nammen der gemeind abgeordnete <lb/>mir
+                     vorgeschlagen, an welche ich auch kommen bin, namlich <persName ref="per011180a.01">Jacob
+                        Ostermeyer</persName> und <lb/><term ref="lem002914">schützenmeister</term>
+                     <persName ref="per011179a">Johannes Tinner</persName>, eingezogen, <date dur="R/P1Y"
+                        >alljährlich</date> auf <date when="--12-06" type="deadline"><persName ref="per001536"
+                           >Nicolai</persName> tag</date> in das <lb/><term ref="lem000637">pfarrhauß</term> gebracht
+                     werden und falt hiemit die erste lifferung dieser summa auf <lb/><date when="1765-12-06"
+                        type="deadline"><persName ref="per001536">Nicolai</persName> 1765</date>.</p>
+                  <p>
+                     <lb/>Wann aber dritens ein allzugroßer <term ref="lem017243.01">aufbruch</term> in <term ref="lem010944.04"
+                        >heüwgüteren</term> oder <term ref="lem008043">mäderen</term>
+                     <lb/>solte vorgenohmen werden, wordurch dem <term ref="lem014550">kalber zehenden</term> zu
+                     vil abgebrochen wurde <lb/>(ob wenigem wird mann sich nicht aufhalten), wird sich die <term
+                        ref="lem010856">gemeind</term> mit dem <term ref="lem000672">pfarrer</term>
+                     <lb/>deßwegen vergleichen. </p>
+                  <p>
+                     <lb/>Und endlich wird dieser verglich von denen partheyen unterzeichnet.</p>
+                  <p>
+                     <lb/>Gott, von deßen gedeyen alles unser thun abhanget, wolle auch dises nach seiner
+                     <lb/>gnad mit glük und segen begleiten.
+                  </p>
+                  <p>
+                     <lb/>Bescheint, <lb/><persName ref="per011184a.01">Johann Martin Weyß</persName>, <lb/><term ref="lem000672">pfarrer</term>,
+                     <lb/>beschehen, <lb/>in dem <origPlace ref="loc009008">pfarrhauß Sax</origPlace>, <lb/>den <origDate when="1764-12-07">7. xbris
+                        1764</origDate>. </p>
+               </div>
+               <div><ab type="dorsal" place="verso" hand="hand18c"><lb/>Zehenden vertrag</ab></div>
+               
+            </body>
+         </text>
+      </group>
+      <back>
+         <div n="1">
+            <p>Der <term ref="key000049">Zehnt</term> von <placeName ref="loc006121"
+                  >Frümsen</placeName> wird <date when="1609">1609</date> der <term ref="key000193"
+                  >Pfründe</term> von <placeName ref="loc006042">Sax</placeName> verkauft
+                     (<bibl><ref>StASG AA&#160;2a U&#160;25</ref></bibl>; zum Zehnt in Frümsen [und
+               Sax] vgl. auch <ref>SSRQ_SG_III_4_040</ref>; <ref>SSRQ_SG_III_4_042</ref>;
+               OGA&#160;Sax, 11.11.1638–10.10.1707 [zwei Büchlein zum Zehnt der Pfründe Sax];
+                     <bibl><ref>StASG AA&#160;2 B&#160;006</ref>, S.&#160;51–55</bibl>; zum Zehnt
+               von <placeName ref="loc006042">Sax</placeName> vgl. auch
+               <ref>SSRQ_SG_III_4_016</ref>). </p>
+            <p>Die Kirchgenossenschaft <orgName ref="org001784">Sennwald</orgName> kauft <date when="1531"
+               >1531</date> den <term ref="key004072">Grosszehnt</term> vom <orgName ref="org003291">Kloster
+                  St. Luzi</orgName> für 250 Pfund (<bibl><ref>StASG AA&#160;2 U&#160;25a</ref></bibl>) und
+               <date when="1639">1639</date> den <term ref="key003444">Kleinzehnt</term> von <orgName
+                  ref="org001196">Zürich</orgName> (<bibl><ref>StASG AA&#160;2a
+                     U&#160;36</ref></bibl>; zum <term ref="key000049">Zehnt</term> von <placeName ref="loc000950"
+                        >Sennwald</placeName> vgl. auch <bibl><ref>PfABe 27/6a-b</ref></bibl>; <bibl><ref>EKGA
+                           Sennwald 960.02</ref>, 1666–1893 und 1763–1876</bibl>; <bibl><ref>StASG AA&#160;2 A
+                              3-13-5</ref>; <ref>AA&#160;2 A&#160;12-3-21</ref>; <ref>AA&#160;2
+                                 A&#160;12-3-26</ref></bibl>; <bibl><ref>OGA Sennwald Mappe Sennwalder Pfründe</ref>,
+                                    1792</bibl>).</p>
+            <p>Die Kirchgenosssenschaft <orgName ref="org004219">Salez</orgName> kauft <date
+                  when="1529">1529</date> den <term ref="key004072">Grosszehnt</term> vom <orgName
+                  ref="org003291">Kloster St. Luzi</orgName> für 120 Pfund (<bibl><ref>StASG
+                     AA&#160;2 U&#160;24a</ref></bibl>) und <date when="1624">1624</date> den <term
+                  ref="key003444">Kleinzehnt</term> um 500 Gulden (<bibl><ref>EKGA Salez 32.01.25,
+                     Rechnungswesen</ref>, 11.11.1624</bibl>; zum <term ref="key000049">Zehnt</term>
+               in <placeName ref="loc000691">Salez</placeName> vgl. auch <bibl><ref>PfABe
+                     27/6a-b</ref></bibl>; <bibl><ref>EKGA Salez 32.01.25, Rechnungswesen</ref>,
+                  16.02.1593; 22.09.1710</bibl>; <bibl><ref>StASG&#160;AA&#160;2 A
+                  1-6-17</ref></bibl>). <date when="1551">1551</date> kauft <persName
+                  ref="per004426">Ulrich Philipp von Sax-Hohensax</persName> nach einem <term
+                  ref="key005304">Zehntstreit</term> mit dem <orgName ref="org003291">Kloster St.
+                  Luzi</orgName> den <term ref="key000049">Zehnt</term> von <placeName
+                  ref="loc000389">Haag</placeName> für 180 Pfund (<bibl><ref>StAZH C&#160;I,
+                     Nr.&#160;3204</ref></bibl>; zum Zehnt in <placeName ref="loc000389"
+                  >Haag</placeName> siehe auch <ref>SSRQ_SG_III_4_207</ref>, Art.&#160;17;
+                     <bibl><ref>PfABe U&#160;24</ref></bibl>; <bibl><ref>StAZH A&#160;346.2.3,
+                     Nr.&#160;44</ref></bibl>; <bibl><ref>EKGA Salez 32.01.25, Rechnungswesen</ref>,
+                  01.10.1630</bibl>; <bibl><ref>OGA&#160;Haag</ref>, 1666</bibl>; <bibl><ref>StASG
+                     AA&#160;2 B&#160;006</ref>, S.&#160;12–15</bibl> sowie das Teildossier
+                     <bibl><ref>StASG AA&#160;2 A&#160;12-7</ref></bibl>). <date when="1641"
+                  >1641</date> erlässt <orgName ref="org001196">Zürich</orgName> der Gemeinde
+                  <orgName ref="org001787">Haag</orgName> den <term ref="key003444"
+                  >Kleinzehnt</term> (<ref>SSRQ_SG_III_4_146</ref>, Kommentar 3). </p>
+            <p>Literatur zum Zehnt der Kirchgenossenschaften in <placeName ref="loc000278">Sax-Forstegg</placeName>
+               vgl. <bibl><ref
+                  target="http://permalink.snl.ch/bib/chbsg000141190">Büchel
+                  1923</ref>, S. 11–12, 30, 45–49</bibl>; <bibl><ref target="http://permalink.snl.ch/bib/chbsg000141314">Kreis
+                     1923</ref>, S.&#160;43–45</bibl>.</p>
+         </div>
+         <div n="2">
+            <p>Zum <term ref="key000049">Zehnt</term> von <placeName ref="loc000211"
+                  >Gams</placeName> siehe u.&#160;a. <ref>SSRQ_SG_III_4_059</ref>;
+                  <ref>SSRQ_SG_III_4_094</ref>, Art.&#160;2; <bibl><ref>StAZH A&#160;346.1.3,
+                     Nr.&#160;44</ref></bibl>; <bibl><ref>StASZ HA.II.1175</ref></bibl>;
+                     <bibl><ref>OGA&#160;Gams Nr.&#160;68</ref>; <ref>Nr.&#160;98</ref></bibl>;
+                     <bibl><ref>BAC 861.07-01</ref></bibl>.</p>
+         </div>
+         <div n="3"><p>Zum <term ref="key000049">Zehnt</term> in der Grafschaft bzw. Landvogtei <placeName ref="loc000440"
+            >Werdenberg</placeName> siehe u.&#160;a. <ref>SSRQ_SG_III_4_029</ref>, Art.&#160;1;
+            <bibl><ref>SSRQ_SG_III_4_056</ref>, Kommentar</bibl>; <ref>SSRQ_SG_III_4_075</ref>;
+            <ref>SSRQ_SG_III_4_143</ref>, Art.&#160;16; <ref>SSRQ_SG_III_4_197</ref>, Kommentar
+            2; <ref>SSRQ_SG_III_4_229</ref>, Art.&#160;2.13; <bibl><ref>KAE Urkunde
+               Nr.&#160;4</ref></bibl>; <bibl><ref>StASG AA&#160;3 U&#160;06</ref></bibl>; <bibl><ref>OGA
+                  Grabs Gruppe I./3</ref></bibl>; <bibl><ref>StASG AA&#160;3a U&#160;20</ref>; <ref>AA&#160;3
+                     A&#160;12a-1</ref></bibl>; <bibl><ref target="http://permalink.snl.ch/bib/chbsg000142793"
+                        >Winteler&#160;1923</ref>, S.&#160;141–144</bibl>; zum <term ref="key000049">Zehnten</term>
+            von <orgName ref="org002398">Wartau-Gretschins</orgName> vgl. <bibl><ref
+               target="https://www.ssrq-sds-fds.ch/online/SG_III_2/index.html#p_1022">SSRQ SG&#160;III/2,
+               Nr.&#160;290</ref></bibl>; <bibl><ref target="http://permalink.snl.ch/bib/chbsg000038423"
+                  >Graber 2003</ref>, S.&#160;99–101</bibl>.</p></div>
+      </back>
+   </text>
+</TEI>

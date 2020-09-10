@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+
+			</titleStmt>
+
+			<publicationStmt>
+				<date type="electronic" when="2019-07-23"/>
+				<date type="print"/>
+			</publicationStmt>
+
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ_FR_I_2_8_0070_025</idno>
+			</seriesStmt>
+
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<idno>StAFR, Thurnrodel 12, S. 408 </idno>
+					</msIdentifier>
+					<head>Margret Schueller-Python – Verhör / Interrogatoire</head>
+					<msContents>
+						<summary></summary> 
+						<msItem>
+							<textLang>fr, de</textLang> 
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support>
+									<material></material>
+								</support>
+								<extent>
+									<dimensions type="leaves">
+										<height unit="cm" quantity="0.0"/>
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+									<dimensions type="plica">
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+								</extent>
+							</supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1629-08-17"/>
+							<origPlace></origPlace>
+						</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc> 
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+			<particDesc default="false"/>
+			<settingDesc default="false"/>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+					
+						<p><lb/><origDate when="1629-08-17">17 <foreign xml:lang="la">augusti</foreign></origDate>, <placeName ref="loc007683.16">Zolletsthurn</placeName>, <foreign xml:lang="la"><choice><abbr>jud</abbr><expan>judex</expan></choice></foreign> <abbr>h</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per009276">Franz Carl Gottrau</persName>.</note>
+							<seg><lb/><abbr>H</abbr> <term ref="lem018597.02">burgermeister</term> <persName ref="per009100">Weck</persName>, <abbr>h</abbr> <persName ref="per009266">Feldtner</persName></seg>
+							<seg><lb/><persName ref="per006838a.01">Zur Tannen</persName>,  <persName ref="per006816"><choice><abbr>F</abbr><expan>Franz</expan></choice> Gottrow</persName><!-- Franz, LX -->, <persName ref="per006839">Lary</persName><!-- Hans Jacob, LX --></seg>
+							<seg><lb/><persName ref="per009357">Bawman</persName><!-- hans Jacob -->, <persName ref="per009265a.02">Gydolla</persName></seg>
+						<seg><lb/><choice><abbr>W</abbr><expan>Weibel</expan></choice></seg></p>
+						
+						<p><seg><lb/><persName ref="per006147b.02">Margareth</persName> susdite enquise qui luy avoit dict que la <term ref="lem018102.02">gresle</term> tenoit du <placeName ref="loc008144">Gibloux</placeName>, a dict 
+							<lb/>l’avoir entendu de plusieurs mendiantz estantz vers <placeName ref="loc008353">La Maigrauge</placeName>, ne sçachant leur nom ny 
+							<lb/>les cognoissant, come aussy de l’officier <persName>Schaller</persName><note>Vermutlich ist der Freiburger Stadtweibel <persName ref="per009609">Peter Schaller</persName> gemeint.</note> que le mauvais tempz avoit faict un 
+							<lb/>degast a <placeName ref="loc008120.02">Brunißriedt</placeName>, tellement qu’on n’y feroit pas un bichet de grains. Item que 
+							<lb/><persName>Leysa</persName>, relicte de <persName>Hans Jungo</persName> du <placeName ref="loc008558.03">Muller</placeName>, avoit aussy dict que ceste tempeste venoit du <placeName ref="loc008144">Gibloux</placeName>. 
+						<lb/>Dict en outre qu’elle a ouy <choice><sic>lire</sic><corr>dire</corr></choice> qu’en ce moys d'aost doibvent arriver troys grandes 
+						<lb/>desfortunes. Crie mercy.</seg> <seg>Ist 3 mal lär uffgezogen worden.</seg></p>
+						
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+
+
+<?oxy_options track_changes="on"?>

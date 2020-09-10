@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     n="1234"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="headerinfo"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2020-08-17"/>    <date type="print"/>
+    <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Collection des sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des
+      sources
+      du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS_NE_3_433</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>AVN B 101.14.002, fol. 67r–67v</idno>
+               </msIdentifier>
+               <head>Prétention d’un père à la succession de ses enfants</head>
+               <msContents>
+                  <summary>Un père est habilité à prétendre à la succession de ses enfants qui ne
+                     sont pas détronqués d’avec lui, afin que ces biens soient réunis à la masse de
+                     son hérédité.</summary>
+                  <msItem>
+                     <textLang>français</textLang>
+                     <filiation type="current"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="34.5"/>
+                              <width unit="cm" quantity="22"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1756-03-19"/>
+                     <origPlace ref="loc007786">Neuchâtel</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head/>
+                     <bibl/>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000920"/>
+               <term ref="key000815"/>  
+               <term ref="key000244"/>
+               <term ref="key000803"/>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="67r" facs="AVN_B_101.14.002_0067r"/>
+               <div>
+                  <p>
+                     <lb/>Sur la requête présentée à monsieur le <lb/>maître bourgeois en chef &amp;
+                     à messieurs du <lb/><orgName ref="org003085">Conseil Étroit de la Ville de
+                           <placeName ref="loc007786">Neufchatel</placeName></orgName> par
+                     <lb/>Monsieur <persName ref="per008690">Guillaume Pierre d’Yvernois</persName>, <lb/><choice>
+                        <sic>conseil <del rend="strikethrough">d’État</del></sic>
+                        <corr>conseiller d’État</corr>
+                     </choice> et procureur général de cet <lb/>État, aux fins d’avoir la
+                     déclaration de la <lb/>coutume de ce pays sur le cas suivant.</p>
+                  <p>
+                     <lb/>Si un père n’est pas le plus habile à <lb/>prétendre à la succession de
+                     ses enfans <lb/>qui ne sont pas <term ref="lem014992">détronqués</term> d’avec
+                     lui, pour <lb/>que les dits biens soyent reunis à la masse de <lb/>son
+                     hérédité. </p>
+                  <p>
+                     <lb/>Surquoi monsieur le maître bourgeois en chef, <lb/>et du <orgName
+                        ref="org003085">Petit Conseil</orgName>, ayant consulté et délibéré
+                     <lb/>entreux, ont donné par déclaration. </p>
+                  <p>
+                     <lb/>Que la coutume de la Ville et Comté de <placeName ref="loc007785"
+                        >Neufchatel</placeName>
+                     <lb/><add place="below" type="catchword">est</add>
+                     <pb n="67v" facs="AVN_B_101.14.002_0067v"/>
+                     <lb/>est bien telle qu’elle est exprimée cy dessus <lb/>et qu’elle s’y observe,
+                     ainsy que le cas du <lb/>point proposé&#160;; laquelle déclaration ainsy <lb/>faite,
+                     il a eté ordonné au secrétaire du <lb/>Conseil soussigné de l’expédier en cette
+                     forme <lb/>sous le sceau de la mairie et justice de <lb/><origPlace
+                        ref="loc007786">Neufchatel</origPlace>, ce <origDate when="1756-03-19">19<hi
+                           rend="sup">e</hi> mars <hi rend="underline">1756</hi></origDate>. </p>
+               </div>
+               <div>
+                  <signed>
+                     <persName ref="per008687">
+                        <choice>
+                           <abbr>A</abbr>
+                           <expan>Abraham</expan>
+                        </choice> Renaud</persName>
+                     <figure type="notarial sign"/></signed>
+               </div>
+            </body>
+         </text>
+      </group>
+   </text>
+</TEI>

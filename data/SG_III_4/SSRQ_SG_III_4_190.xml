@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-08-15"/>
+            <date type="print"/>
+            <availability default="false">
+               <p xml:id="facs">Staatsarchiv St. Gallen (StASG)</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_190</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>StASG AA 2 A 7-3-12</idno>
+                  <altIdentifier>
+                     <idno>StASG AA 2 A 7-3</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <head>Bestätigung von Landvogt Johann Ulrich Escher wegen eines Kostenbeitrags an die Verfahrenskosten in Werdenberg aus den 400 Gulden, die dem Hans Hagmann, genannt Häberli im Haag, von Lienhard Gantner von Sevelen gestohlen wurden</head>
+               <msContents>
+                  <summary>
+                     <p>Johann Ulrich Escher, Landvogt von Sax-Forstegg, bestätigt, dass dem Hans Hagmann,
+                     			genannt Häberli im Haag, von Lienhard Gantner von Sevelen 400 Gulden gestohlen wurden.
+                     			Nach der Verurteilung des Diebs einigen sich Elias Blumer und Johann Balthasar Gallati,
+                     		die beiden Gesandten von Glarus, zusammen mit dem Werdenberger Landvogt Gabriel Schmid
+                     			mit dem Landvogt von Sax-Forstegg, dass nach eidgenössischem Brauch von diesem Geld an
+                    			die Unkosten von Gefangenschaft und Exekution 130 Gulden bezahlt werden sollen, mit
+                    			Vorbehalt auf das Gegenrecht. Der Rest soll der Bestohlene wieder erhalten.</p> <p>Der Aussteller
+                    			siegelt.</p>
+                  </summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <filiation type="current">Original (Doppelblatt)</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="34.0"/>
+                              <width unit="cm" quantity="22.0"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <sealDesc>
+                     <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI"
+                           n="1"
+                           nontei:condition="absent"
+                           nontei:attachment="applied"
+                           nontei:place="end"
+                           nontei:shape="round">
+                        <persName role="sigillant" ref="per009987a">Johann Ulrich Escher</persName>
+                     </seal>
+                  </sealDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1660-04-09"/>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000044">Hochgericht</term>
+               <term ref="key004597">Kostenbeitrag</term>
+               <term ref="key000291">Diebstahl</term>
+               <term ref="key000431">Gegenrecht</term>
+               <term ref="key003037">Gerichtsverfahren</term>
+               <term ref="key000270">Kosten</term>
+               <term ref="key001092">Brauch</term>
+               <term ref="key000603">Dieb</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <div org="uniform" sample="complete">
+                  <p>
+                     <pb facs="StASG_AA_2_A_07-3-12"/>
+                     <seg>
+                        <lb/>Ich, <persName ref="per009987a">Hanns Ulrich Escher</persName>, burger
+                        der statt <placeName ref="loc000065">Zürich</placeName> und diser <lb/>zeit
+                        regierender landtvogt der freyherrschafft <placeName ref="loc000278">Sax und
+                           Forstegk</placeName>
+                        <abbr>etc</abbr>, <lb/>thun kundt hiemit, daß, nach dem meinem
+                        ambtsangehörigen <persName ref="per010138">Hanns <lb/>Hagman, genant Häberli
+                           im <placeName ref="loc000389">Hag</placeName></persName>, von dem nun
+                        mehr mit recht abgethanem <lb/>armen mann, <persName ref="per010139a"
+                           >Lienhart Gantner</persName> von <placeName ref="loc000708"
+                           >Seffelen</placeName>, in der graffschafft <lb/><placeName
+                           ref="loc000440">Werdenberg</placeName> gebürtig, etwas zu <measure
+                           quantity="400" type="currency" unit="fl">vierhundert gulden</measure> an
+                        barem gelt <lb/>entfrömbdet und nachgentz auff dem <term ref="lem000376"
+                           >schloss</term> zu <placeName ref="loc000015">Werdenberg</placeName> in
+                           oberkeit<lb break="no"/>liche hannd gebracht worden.</seg>
+                     <seg>Unnd hierüber die frommen, ehrenvesten, <lb/>fürsichtige und wyse
+                           <abbr>hr</abbr>
+                        <persName ref="per010141">Elias Blumer</persName>, deß raths und geweßner
+                           landt<lb break="no"/>vogt im <placeName ref="loc000842"
+                           >Gastall</placeName>, <abbr>hr</abbr>
+                        <persName ref="per009960a">Hanns Balthaßer Gallatin</persName>,
+                        landtschryber, alß <lb/>anweßende ehrengesandte, in nammen ihrer gnedigen
+                        herren unnd <lb/>oberen deß loblichen orth <orgName ref="org001197"
+                           >Glarus</orgName>, auff dem schloss zu <placeName ref="loc000015"
+                           >Werdenberg</placeName>, <lb/>und <abbr>hr</abbr>
+                        <persName ref="per010142">Gabriel Schmid</persName>, dißmahlen regierender
+                        landtvogt daselbst, <lb/>uff mein, wegen obernanten, meines <term
+                           ref="lem002973">ambtsangehörigen</term> freündt<lb break="no"
+                        />eidtgnößisch ersuchen und mit ihnen hiervon gepflogne nachbarliche
+                           under<lb break="no"/>red, sich dessen wolmeinend entschlossen und mit mir
+                        verglichen, daß <lb/>in betrachtung eidtgnößischer <term ref="lem001670"
+                           >breüchen</term> und harkommen, auch beileüffiger <lb/>der sachen
+                        beschaffenheit von disem gelt über die ehrengedachten herren
+                        <lb/>eingewilligte bewußte <term ref="lem016015.02">recompens</term>
+                        <measure quantity="130" type="currency" unit="fl">ein hundert und dreißig
+                           guldin</measure>
+                        <lb/>an die villfaltigen, über die <term ref="lem003195"
+                           >gefangenschafft</term> und <term ref="lem004431.01">execution</term>
+                        dises <lb/>mit recht abgethanen <term ref="lem012656">armen mentschen</term>
+                        auffergangne <term ref="lem002157">uncosten</term>
+                        <lb/>verwendt unnd zu rugk verbleiben. Der überrest aber, gegen inn
+                        <lb/>dergleichen fählen üblichen reversschein, zu gutem, obernanten, meines
+                        <lb/>ambtszuegehörigen herauß volgen und gebührender maßen restituiert
+                        <lb/>werden solle, wie dann auch selbiges auff endtsernandten dato würcklich
+                        <lb/>beschechen.</seg>
+                     <seg>Alß bezeüg ich hiermit, daß so über kurtz oder über lang <lb/>in diser,
+                        von meinen gnedigen herren und oberen loblicher stat <orgName
+                           ref="org001196">Zürich</orgName>, <lb/>mir <abbr>g</abbr> anvertrauwter
+                        freyherrschafft <placeName ref="loc000278">Sax und Forstegk</placeName> ein
+                           unver<lb break="no"/>hoffender gleicher fahl sich begeben solte, ein
+                        gleiches ebenmeßig practi<lb break="no"/>ciert und daß <term ref="lem002392"
+                           >gegenrecht</term> höchsten billichkeit gemeß beobachtet, auch <lb/>die
+                        biß anhero gegen ein anderen gepflogene gute, vertrauwliche <lb/>freündt und
+                           <term ref="lem008296">nachbarschafft</term> inn gebürender observanz
+                        gehalten werden <lb/>solle. </seg>
+                     <seg>Dessen zu mehrer bekrefftigung, hab ich mein anerboren <lb/>insigel
+                        (jedoch beforderst meinen gnedigen herren und oberen ann <lb/>ihr habenden,
+                        andern rechtsamminen, auch mir unnd meinen eerben <lb/>inn all weg ohne
+                        schaden) offentlich hierunder getruckt, so beschechen, <lb/>den <origDate
+                           when="1660-04-09">nünten tag aprel, nach <persName ref="per000353"
+                              >Christi</persName>, unsers selligmachers, geburt <lb/>gezelt,
+                           sechszehen hundert unnd sechszig jahr</origDate>. </seg>
+                  </p>
+                  <pb facs="StASG_AA_2_A_07-3-12_1"/>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab type="dorsal" place="verso" hand="hand17c">
+                     <lb/>Reffvers <lb/>gegen der herschafft <lb/><placeName ref="loc000278"
+                        >Sax</placeName></ab>
+               </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div org="uniform" sample="complete">
+            <p>Das Beispiel zeigt, dass nach <orgName ref="org000531">eidgenössischem</orgName>
+               <term ref="key001092">Brauch</term> ein Teil der Gerichtskosten durch das Diebesgut
+               gedeckt wird. Das Opfer bzw. der Bestohlene muss demnach einen Teil der <term
+                  ref="key000270">Verfahrenskosten</term> selber tragen. Zu den hohen Gerichtskosten
+               in <term ref="key004416">Hochgerichtsfällen</term> sowie deren Deckung vgl. auch
+                     <bibl><ref target="http://permalink.snl.ch/bib/chbsg000056736">Malamud
+                     2008</ref>, S. 37–42</bibl>; <bibl><ref
+                     target="http://permalink.snl.ch/bib/chbsg991001180649803977">Malamud
+                  2018</ref>, S. 240–255</bibl>.</p>
+         </div>
+      </back>
+   </text>
+</TEI>

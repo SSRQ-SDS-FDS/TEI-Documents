@@ -1,0 +1,597 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+  xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+  <teiHeader>
+
+  <fileDesc>
+   <titleStmt>
+    <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+
+    <respStmt>
+     <persName>Sibylle Malamud</persName>
+     <resp key="transcript"/>
+    </respStmt>
+
+    <respStmt>
+     <persName>Sibylle Malamud</persName>
+     <resp key="tagging"/>
+    </respStmt>
+
+   </titleStmt>
+
+   <publicationStmt>
+    <date type="electronic" when="2019-08-19"/>
+    <date type="print"/>
+            <availability><p xml:id="facs">Sibylle Malamud</p></availability>
+   </publicationStmt>
+
+    <seriesStmt xml:id="ssrq-sds-fds">
+      <title>Sammlung Schweizerischer Rechtsquellen</title>
+      <respStmt>
+        <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+        <resp>Herausgeberschaft</resp>
+      </respStmt>
+      <idno>SSRQ_SG_III_4_127</idno>
+    </seriesStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+          <idno source="https://archivverzeichnis.gl.ch/home/#/content/216d48a30f924e728b38309ab08801cc">LAGL AG III.2401:027</idno>
+          <altIdentifier>
+            <idno>LAGL I.11</idno>
+          </altIdentifier>
+        </msIdentifier>
+        <head>Verzeichnis der Amtleute von Werdenberg und Wartau mit Einkommen der Amtleute, Eidformeln, Verzeichnisse und Beschlüsse mit Nachträgen bis 1737 (Urbarbüchlein)</head>
+        <msContents>
+          <summary><p>Verzeichnis der Amtleute von Werdenberg und Wartau mit Einkommen der Amtleute, Eidformeln, Verzeichnisse und Beschlüsse mit Nachträgen bis 1737 (Urbarbüchlein)</p></summary> 
+          <msItem>
+            <textLang>Deutsch</textLang>
+            <filiation type="current">Original, Heft (56 Seiten beschrieben) eingebunden in
+              Pergamentfragmente</filiation>
+          </msItem>
+        </msContents>
+        <physDesc>
+          <objectDesc>
+            <supportDesc>
+              <support>
+                <material>Papier</material>
+              </support>
+              <extent>
+                <dimensions type="leaves">
+                  <height unit="cm" quantity="19.0"/>
+                  <width unit="cm" quantity="14.5"/>
+                </dimensions>
+              </extent>
+              <condition>an den Rändern zerfleddert</condition>
+            </supportDesc>
+          </objectDesc>
+        </physDesc>
+        <history>
+          <origin>
+            <origDate from="1551-01-01" to="1600-12-31">Undatiert, Hand aus der zweiten
+              Hälfte des 16. Jh.</origDate>
+          </origin>
+        </history>
+      </msDesc>
+    </sourceDesc>
+
+  </fileDesc><encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+   <profileDesc>
+     <textClass>
+       <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+         <term ref="key000212">Lohn</term>
+         <term ref="key000065"></term>
+         
+       </keywords>
+     </textClass>
+     <particDesc/>
+     <settingDesc/>
+   </profileDesc>
+ </teiHeader>
+
+ <text>
+  <group>
+   <text>
+    <body>
+     <div>
+            <pb n="Ir" facs="LAGL_AG_III.2401_027_Ir"/>
+            <head><lb/><add place="cover" hand="other hand"><term ref="lem014843.01">Amts</term>-
+                &amp; <lb/><term ref="lem014844.01">eid<lb break="no"
+              />verzeichnis</term></add></head>
+            <head><lb/><add place="cover" hand="other hand">Kleines <term ref="lem014845.01"
+                    >urbar<lb break="no"/>büchlein</term></add></head>
+            <pb n="Iv" facs="LAGL_AG_III.2401_027_Iv_1"/>
+            <p><gap reason="irrelevant"/><note>Die Rückseite des Titelblatts enthält Schreibübungen
+                sowie einen Stempel des Archivs Glarus.</note></p>
+            <pb n="1"/>
+            <p><gap reason="irrelevant"/><note>Eintrag über die Kosten des <term ref="key000524"
+                  >Holzes</term> für den Bau von <term ref="key000080">Schiffen</term> für die <term
+                  ref="key000703">Fähre</term> bei <placeName ref="loc000689">Bendern</placeName>
+                und die Kosten der Gesandten auf dem Schloss <placeName ref="loc000015"
+                  >Werdenberg</placeName> von Hand B.</note></p>
+            <pb n="2"/>
+            <pb n="3" facs="LAGL_AG_III.2401_027_3"/>
+            <head n="1"><lb/>Eineß <term ref="lem015445">ammans</term> zuͦ <placeName
+                ref="loc000440">Wärdenberg</placeName>
+              <lb/><term ref="lem000612">belonung</term></head>
+            <p>
+              <seg n="1.1"><lb/>Ein amman zuͦ <placeName ref="loc000440">Wärdenberg</placeName> hat
+                zuͦ <date dur="R/P3Y">drü jaren <lb/>umb</date> von minen herren, wann ein <term
+                  ref="lem000266">lanndtvogt</term>
+                <lb/><term ref="lem000616">ufryth</term>, ein <term ref="lem000379.03"
+                  >bekleydung</term> wie annder <term ref="lem000089.39">ampts<lb break="no"
+                  />lüth</term>.</seg></p>
+            <p>
+              <seg n="1.2"><lb/>Zücht die <term ref="lem000340">gültt</term> in von <placeName
+                  ref="loc010199.03">S. Uͦrich</placeName><note>Zur Kapelle von St. Ulrich vgl. auch
+                      <bibl><ref>StASG AA 3a U 20</ref></bibl>; <bibl><ref
+                      target="https://archivverzeichnis.gl.ch/home/#/content/52c005a8127a49b79eddf4cd991ea007"
+                      >LAGL AG III.2402:025</ref></bibl>; <bibl><ref
+                      target="https://archivverzeichnis.gl.ch/home/#/content/7f8e427a624948a695094f1b61caf9f1"
+                      >LAGL AG III.2402:031</ref></bibl>.</note> unnd <placeName ref="loc006104.04"
+                  >S. Jeörgen</placeName>, <lb/>darvon hat er <measure type="currency" quantity="5"
+                  unit="fl">fünff guͦt guldi</measure>
+                <term ref="lem000612">belonung</term>, <lb/>gibt dem lanndtvogt <term
+                  ref="lem000390">rächnung</term> darumb, <lb/>daß nimbt er inn syn
+              rächnung.</seg></p>
+            <p>
+              <seg n="1.3"><handShift cert="high" scribe="2"/><lb/>Item so zücht er ouch in
+                  <placeName ref="loc006078">Sant <persName ref="per001536"
+                  >Nicklaus</persName></placeName>
+                <lb/>gült, sol ouch <date dur="R/P1Y">jërlich</date> darum rëchnung <lb/>geben und
+                ein zimliche belonung darvon.</seg></p>
+            <p>
+              <seg n="1.4"><handShift cert="high" scribe="3"/><lb/><placeName ref="loc010199.02">S.
+                  Uͦlrich</placeName> gültt thuͦtt <measureGrp><measure type="currency"
+                    quantity="15" unit="fl">xv </measure>
+                  <measure type="currency" quantity="2" unit="ß">ij </measure>
+                  <measure type="currency" quantity="2" unit="d">ij ₰</measure></measureGrp>.
+                  <lb/><placeName ref="loc006104.05">Sanct Jörgen</placeName> gültt thuͦtt
+                    <measureGrp><measure type="currency" quantity="19" unit="fl">xviiij </measure>
+                  <measure type="currency" quantity="1" unit="ß">j </measure>
+                  <measure type="currency" quantity="2" unit="d">ij
+              ₰</measure></measureGrp>.</seg></p>
+            <pb n="4" facs="LAGL_AG_III.2401_027_4"/>
+            <p><seg n="1.5"><handShift cert="high" scribe="4"/><lb/>Item ehin <term ref="lem015445"
+                  >ama</term> zuͦ <placeName ref="loc000440">Werdenberg</placeName> sol <lb/>minen
+                heren <date dur="R/P1Y">jerlich</date>
+                <measure type="currency" quantity="26" unit="fl">zwentzig und sechs
+                  <lb/>guldi</measure> über die <measure type="currency" quantity="5" unit="fl"
+                  >fünff guldi</measure>, die ehr ze <term ref="lem000282">lon</term>
+                <lb/>hätt wëgen sinß <term ref="lem000382">inzugs</term> und über sin <lb/>blonung,
+                die ehr <choice>
+                  <abbr>v</abbr>
+                  <expan>von</expan>
+                </choice> minen heren hätt. <lb/>Also verblipt ehr die <measure type="currency"
+                  quantity="26" unit="fl">26 </measure>, wie <lb/>obstatt.</seg>
+              <pb n="5"/>
+              <pb n="6"/>
+              <pb n="7" facs="LAGL_AG_III.2401_027_7"/>
+              <seg><head n="2"><lb/><handShift cert="high" scribe="1"/>Eineß <term ref="lem000560"
+                    >schrybers</term> zuͦ <placeName ref="loc000440">Wärdenbärg</placeName>
+                  <lb/><term ref="lem000612">belonunng</term></head></seg></p>
+            <p>
+              <seg n="2.1"><lb/>Item ein <term ref="lem000560">schryber</term> hat <date dur="R/P1Y"
+                  >järlich</date>
+                <measure type="currency" quantity="20" unit="fl">20 </measure>
+                <lb/>unnd <measure type="volume" quantity="6" unit="Mass" commodity="lard">sächs maß
+                  schmaltz</measure>.</seg></p>
+            <p>
+              <seg n="2.2"><lb/>Item zuͦ <date dur="R/P3Y">drü jaren umb</date>, wann ein <term
+                  ref="lem000266">landt<lb break="no"/>vogt</term>
+                <term ref="lem000616.08">uf ryth</term> ein <term ref="lem003502"
+                >kleyd</term>.</seg></p>
+            <p>
+              <seg n="2.3"><lb/>Item eß soll ein schryber <term ref="lem000350.08">inzüchen</term>
+                die helgen <lb/>unnd <term ref="lem014846.02">nunnengültt</term> zu <placeName
+                  ref="loc000335.07">Gravß</placeName>, <del>ouch daß in<lb break="no"/>komen by
+                    <placeName ref="loc010199.02">S. Uͦlrich</placeName></del> unnd sol darumb <date
+                  dur="R/P1Y">järliche</date>
+                <lb/><term ref="lem000390">rächnung</term> gäbenn unnd minen herren syn
+                <lb/>empfanng an guͦter müntz erlegen. Darvon <lb/>hat er <term ref="lem000612"
+                  >belonung</term>
+                <measure type="currency" quantity="5" unit="fl">v </measure>.</seg></p>
+            <p>
+              <seg n="2.4"><handShift cert="high" scribe="4"/><lb/>Item die helgen gülten errächnot
+                  <abbr>ao</abbr>
+                <origDate when="1592">92</origDate>, über <lb/>dz min heren schryber <persName
+                  ref="per008875a">Heitzen</persName> selgen kinden <lb/>geschenkt hand, nemlich
+                    <measureGrp><measure type="currency" quantity="92" unit="fl">92 </measure>
+                  <measure type="currency" quantity="5" unit="xr">5
+                krüzer</measure></measureGrp>.</seg></p>
+            <p>
+              <seg n="2.5"><lb/>Item die <term ref="lem014846.03">nunen gült</term> ist
+                    <measureGrp><measure type="currency" quantity="55" unit="fl">55 </measure>
+                  <measure type="currency" quantity="2" unit="bz">2 <abbr>baz</abbr></measure>
+                  <lb/><measure type="currency" quantity="4.5" unit="d">4½ <choice>
+                      <sic>pfemig</sic>
+                      <corr>pfenig</corr>
+                    </choice></measure></measureGrp>.</seg></p>
+            <p>
+              <seg n="2.6"><lb/>Daran gat ab <date dur="R/P1Y">jerlichen</date> ettwaß umb<lb
+                  break="no"/>costenß, doch nit vil darumb er <lb/>rächnig gipt.</seg></p>
+            <p>
+              <seg n="2.7"><lb/><add place="left margin">Anno <lb/><origDate when="1599"
+                    >1599</origDate>.</add> Item gat ouch ab sin <date dur="R/P1Y">jerliche</date>
+                belonung, wie obstadt, <lb/>und gat ab <measureGrp><measure type="currency"
+                    quantity="1" unit="fl">j </measure>
+                  <measure type="currency" quantity="6" unit="bz">vj btz</measure>
+                  <measure type="currency" unit="d" quantity="4">4 ₰</measure></measureGrp>
+                <date dur="R/P1Y">järlich</date>, <lb/>so verlorn <unclear>an <persName
+                    ref="per011065a">Pauly Han</persName> vendit sol.</unclear></seg></p>
+            <pb n="8" facs="LAGL_AG_III.2401_027_8"/>
+            <p><seg n="2.8"><handShift cert="high" scribe="4"/><lb/>Item ehin <term ref="lem002854"
+                  >lantschriber</term> ist <date dur="R/P1Y">jerlich</date>
+                <lb/>schuldig minen heren <measureGrp><measure type="currency" quantity="115"
+                    unit="fl">ehin <lb/>hundertt und fünffzechen guldi</measure>
+                  <lb/><measure type="currency" quantity="12" unit="bz">zwölff batzen</measure>
+                  <measure type="currency" quantity="1" unit="xr">j crüizer</measure></measureGrp>
+                über sin <lb/><term ref="lem000612">belonung</term>.</seg></p>
+            <pb n="9"/>
+            <pb n="10" facs="LAGL_AG_III.2401_027_10-11"/>
+            <p>
+              <seg n="2.9"><note>Dieser und folgender Artikel gehören inhaltlich nach weiter
+                  unten.</note><lb/>Item waß ehin <term ref="lem000642">lantweibel</term> minen
+                <lb/>gnädigen herenn <date dur="R/P1Y">jerlich</date> schuldig <lb/>ist über alen
+                  <term ref="lem011601">abzug</term> siner <choice>
+                  <sic>bloung</sic>
+                  <corr>blonung</corr>
+                </choice>
+                <lb/>halb, namlich <measureGrp><measure type="currency" quantity="283" unit="fl"
+                    >zwey hundertt dry und <lb/>achzig guͦtt guldi</measure>
+                  <measure type="currency" quantity="11" unit="bz">elff batzen</measure>
+                  <measure type="currency" quantity="9" unit="d">9 ₰</measure></measureGrp> an
+                <lb/>gutter müntz.</seg></p>
+            <p>
+              <seg n="2.10"><lb/>Wither ist ehr schuldig minen heren <lb/>den <term
+                  ref="lem000610.09">junger zecheten</term>, ist nütt gwüß rechnen, <lb/>git einß
+                jar mer wider das ander, darum <lb/>sol ehr guͦtt rechnig gen.</seg>
+              <pb n="11" facs="LAGL_AG_III.2401_027_10-11"/>
+              <seg><head n="3"><handShift cert="high" scribe="1"/><lb/>Eines <term ref="lem000043"
+                    >weybels</term> zuͦ <placeName ref="loc000440">Wärdenbërg</placeName>
+                  <term ref="lem000612">belonung</term></head></seg></p>
+            <p>
+              <seg n="3.1"><lb/>Item der <term ref="lem000043">weybel</term> hat <date dur="R/P1Y"
+                  >järlich</date>
+                <measure type="currency" quantity="20" unit="fl">20 </measure> zlon, <lb/>ouch
+                  <measure type="volume" quantity="1" unit="Viertel" commodity="lard">ein groß
+                  viertel schmaltz</measure>.</seg></p>
+            <p>
+              <seg n="3.2"><lb/>Item er hat von miner herren wägen <lb/>fünff stuckh guth, darvon
+                gibt er <date dur="R/P1Y">järlich</date>
+                <lb/><measure type="currency" quantity="5" unit="fl">5 </measure> zinnß.</seg></p>
+            <p>
+              <seg n="3.3"><lb/>Hingägen muͦß er <term ref="lem000350.08">inzüchen</term>
+                <date dur="R/P1Y">järlich</date> daß <lb/><term ref="lem012420.04">pfänning
+                  gältt</term> und die <term ref="lem002710">lanndtstür</term>, soll <lb/>ouch das
+                an guͦter müntz erlegen unnd <lb/>ghört im darvon kein <term ref="lem000282"
+                  >lon</term>.</seg>
+            </p>
+            <p><seg n="3.4"><lb/>Item er hat ouch <date dur="R/P3Y">zu drü jaren umb</date>, so
+                <lb/>der <term ref="lem000266">lanndtvogt</term>
+                <term ref="lem000616.09">ufryth</term>, ein <term ref="lem003502"
+                >kleyd</term>.</seg>
+              <seg n="3.5"><handShift scribe="5"/><lb/>Errächnet im <origDate when="1592">92gisten
+                  jar</origDate>:</seg></p>
+            <p><lb/>Item die <measure type="currency" quantity="5" unit="fl">5 </measure> von den
+              guͦttern.</p>
+            <p><lb/>Die <term ref="lem002710">lanndtstür</term>
+              <measureGrp><measure type="currency" quantity="195" unit="fl">195 </measure>
+                <measure type="currency" quantity="6" unit="bz">6 bz</measure>
+                <measure type="currency" quantity="6" unit="d">6 pfänig</measure></measureGrp>.</p>
+            <p><seg n="3.6"><lb/>Item dz <term ref="lem012420.05">pfäning gelt</term>
+                <measureGrp><measure type="currency" quantity="102" unit="fl">102 </measure>
+                  <measure type="currency" quantity="6" unit="ß">6 schillig</measure></measureGrp>,
+                <lb/>darzuͦ so khumpt fürthin <measure type="currency" quantity="1" unit="fl">1
+                  </measure> vom ver<lb break="no"/>runen gutli ir <term ref="lem001721"
+                  >verlurst</term>.</seg></p>
+            <p><seg n="3.7"><lb/>Item er zücht ouch <date dur="R/P1Y">jerlichen</date> in der <term
+                  ref="lem000610">junger <lb/>zächenden</term>, darvon gat ime <date dur="R/P1Y"
+                  >jerlichen</date>
+                <lb/>ab <measure type="currency" quantity="20" unit="fl">20 </measure>
+                <term ref="lem000381.05">jerlon</term>, wie obvermelt.<note>Vgl. weiter oben
+                  3.3.</note></seg></p>
+            <pb n="12" facs="LAGL_AG_III.2401_027_12-13"/>
+            <p><seg><lb/><handShift scribe="6"/>Der <origDate when="1669-02-20">20. februari ano
+                  1669</origDate> hat <abbr>hr</abbr> landt<lb break="no"/>vogt <persName
+                  ref="per008876a">Heinrich Tschudi</persName> landtweibel <persName
+                  ref="per008877a">Mathias <lb/>Tschudi</persName> der <term ref="lem000073"
+                  >zehend</term> in der <placeName ref="loc000335">Grabs</placeName>er gmein
+                <lb/>übergäben, <del>in</del> uszewüsen in dem bezirgt, <lb/>wie es die
+                jederwilligen <term ref="lem000642">landtweibel</term> vor <lb/>disem auch gehabt
+                haben luth seinen urkundt <lb/>meiner <abbr>g</abbr> heren obern und räthen
+                erkantnus. <lb/>Und hat ein landweibel darvon <date dur="R/P1Y">järliche</date>
+                <lb/><term ref="lem000612">belonung</term>
+                <measure type="currency" quantity="7.5" unit="fl">7½ </measure>.</seg>
+              <pb n="13" facs="LAGL_AG_III.2401_027_12-13"/>
+              <seg><head n="4"><lb/><handShift cert="high" scribe="1"/>Eines <term
+                    ref="lem008776.06">stattknächts</term> zuͦ <placeName ref="loc000440"
+                    >Wärdenbärg</placeName>
+                  <lb/><term ref="lem000612">belonung</term></head></seg></p>
+            <p>
+              <seg n="4.1"><lb/>Item ein <term ref="lem008776.06">stattknächt</term> zücht die <term
+                  ref="lem012836.05">burgerstür</term>
+                <lb/>in, soll ouch die an guͦter müntz erlegen. <lb/>Unnd ghört im <date dur="R/P3Y"
+                  >zuͦ drü jaren umb</date> ein <term ref="lem003502">kleyd</term>
+                <lb/>unnd etwas <term ref="lem000612">belönung</term>.</seg></p>
+            <p>
+              <seg n="4.2"><lb/><handShift cert="high" scribe="5"/>Thut, so man die <term
+                  ref="lem000209">stür</term> errächnet hat, <measureGrp><measure type="currency"
+                    quantity="43" unit="fl">43 </measure>
+                  <lb/><measure type="currency" quantity="6" unit="bz">6 bazen</measure>
+                  <measure type="currency" quantity="6" unit="d">6 pfening</measure></measureGrp>,
+                <lb/>daran gat <date dur="R/P1Y">jerlichen</date> abe <measure type="currency"
+                  quantity="8" unit="ß">8 schillig</measure>, so <lb/>min herren den <term
+                  ref="lem000227">burgern</term> schuldig.</seg></p>
+            <p>
+              <seg n="4.3"><lb/>Für sin <term ref="lem000612">belonung</term> guts willens
+                <lb/>geben ano <origDate when="1593">93</origDate>
+                <measure type="currency" quantity="1" unit="fl">1 </measure>.</seg></p>
+            <p>
+              <seg n="4.4"><handShift cert="high" scribe="4"/><lb/>Item ehin <term
+                  ref="lem008776.07">stathknecht</term> ist schuldig <date dur="R/P1Y"
+                  >jerlich</date>
+                <lb/>minen herenn <measureGrp><measure type="currency" quantity="42" unit="fl"
+                    >fiertzig und zwen <add place="left margin"></add></measure>
+                  <lb/>minder <measure type="currency" quantity="0.5" unit="bz">ɉ
+                  bazen</measure></measureGrp>, über <measure type="currency" quantity="1" unit="fl"
+                  >den </measure>, den min heren <lb/>im ze lon gendt, ouch über die <measure
+                  type="currency" quantity="8" unit="ß">8 </measure>, die man <lb/>den burgeren
+                git, also blipt, wie obstatt.</seg></p>
+       <p><pb n="14"/><gap reason="irrelevant"/>
+            <pb n="15" facs="LAGL_AG_III.2401_027_15"/>
+            <lb/><gap reason="irrelevant"/><note>S.&#160;15–17 folgen Einträge zu <term
+                  ref="key000202">Schlossammann</term> und <term ref="key000201"
+                  >Schlossweibel</term> der Herrschaft <placeName ref="loc000827">Wartau</placeName>
+                (Edition: <bibl>SSRQ SG III 2.1, Nr. <ref
+                    target="https://www.ssrq-sds-fds.ch/online/SG_III_2/index.html#p_382">112a</ref>
+                  und <ref target="https://www.ssrq-sds-fds.ch/online/SG_III_2/index.html#p_383"
+                    >112b</ref></bibl>).</note></p>
+       <pb n="19" facs="LAGL_AG_III.2401_027_18-19"/>
+              <seg><head n="5"><lb/><handShift scribe="1"/>Was min herren <date dur="R/P1Y"
+                    >järlich</date> den <term ref="lem002923.05">predi<lb break="no"/>cannten</term>
+                  schuldig</head></seg>
+            <p>
+              <seg n="5.1"><lb/>Item dem predicannten zuͦ <placeName ref="loc000708"
+                  >Sevelen</placeName>
+                <measure type="volume" quantity="36" unit="Mass" commodity="lard">36 <lb/>maß
+                  schmaltz</measure>.</seg></p>
+            <p>
+              <seg n="5.2"><lb/><add place="left margin" hand="hand17c">Ghört ir <lb/>niemer.</add>
+                Item einem predicanten zu <placeName ref="loc000198">Buchs</placeName>
+                <measure type="volume" quantity="3" unit="Scheffel" commodity="wheat">3 schöffel
+                  <lb/>weyßen</measure> nach luth und inhalt deß <term ref="lem000372"
+                >urbars</term>. <add place="inline" hand="hand17c">Man <lb/>git jetz den weisen nitt
+                  mer, gehörtt im <lb/>nitt.</add></seg></p>
+            <p>
+              <seg n="5.3"><lb/>Item er nimpt den volkomnen <term ref="lem014550">kalber
+                  <lb/>zächenden</term> zuͦ <placeName ref="loc000198">Buchs</placeName>, daran gibt
+                er <date dur="R/P1Y">järlich</date>
+                <lb/>einem landtvogt <measure type="volume" quantity="12" unit="Mass"
+                  commodity="lard">12 maß schmaltz</measure>
+                <lb/>nach inhalt deß urbars.</seg></p>
+            <p>
+              <seg n="5.4"><lb/>Item dem <term ref="lem002923">predicannten</term> zuͦ <placeName
+                  ref="loc000335">Grapß</placeName>
+                <measure type="volume" quantity="32" unit="Mass" commodity="lard">32 <lb/>maß
+                  schmaltz</measure>.</seg></p>
+            <p>
+              <seg n="5.5"><lb/>Unnd ist <measure type="volume" quantity="1" unit="Mass">ein jede
+                  maß</measure> zuͦ <measure type="weight" quantity="4" unit="Pfund">4
+                  pfunden</measure>
+                <lb/>grächnot wie ann der <term ref="lem000932">gwicht</term> thuͦt.</seg></p>
+            <p>
+              <pb n="20"/>
+              <pb n="21"/>
+              <pb n="22"/>
+              <pb n="23" facs="LAGL_AG_III.2401_027_23"/>
+              <seg><head n="6"><lb/>Artickhel unnd <term ref="lem000809">ordnungen</term> inn
+                  <lb/>gmein von minen herren gesteltt</head></seg></p>
+            <p>
+              <seg n="6.1"><lb/>Item eß sol ein <term ref="lem000266">lanndtvogt</term>
+                <date dur="R/P1Y">järlich</date>
+                <measure type="currency" quantity="1" unit="fl">den guldi</measure>
+                <lb/><orgName ref="org001912">denen von Buchs</orgName> von deß <term
+                  ref="lem000944">grabennß</term> wägen <lb/>erlegen, wie ouch von alterhar brüchig
+                gsin. <lb/>Unnd darvon nützit verrächnen, allwyl er <lb/>die nutzig von den güeteren
+                hat.</seg></p>
+            <p>
+              <seg n="6.2"><lb/>Belangennd die uncösten, alß wann ein landt<lb break="no"/>vogt zuͦ
+                  <placeName ref="loc000440">Wärdennbärg</placeName>
+                <term ref="lem010240">uff</term> unnd der annder <lb/>aber <term ref="lem014847.02"
+                  >abzücht</term>, habennd sich min herren erkänt, <lb/>das fürhin beid, <term
+                  ref="lem014849.02">nüw</term> unnd <term ref="lem000371">altt lanndtvögt</term>,
+                <lb/>allen costenn vom <term ref="lem005237">sambstag</term> biß <term
+                  ref="lem005236">mäntag</term> zuͦ <lb/><term ref="lem007329">imbiß</term> haben
+                söllennd. Daran sol inen gäben <lb/>wärden <measure type="currency" quantity="20"
+                  unit="fl">20 </measure>. Ob aber die <term ref="lem002718">gsannten</term>
+                <lb/>von ehrn wägen, so sy vermeintend tuͦnlich <lb/>etwaß ehrnpersonen uff das
+                  <term ref="lem000376">schloß</term> zuͦ <term ref="lem002886">gast</term>
+                <lb/>lüedend, soll sölichs inn miner herren costen <lb/>zuͦgon.</seg></p>
+            <p>
+              <seg n="6.3"><lb/>Unnd diewyl aber allwägen im <term ref="lem001670">bruch</term>, das
+                  <pb n="24" facs="LAGL_AG_III.2401_027_24-25"/><lb/>der <term ref="lem000371">alltt
+                  lanndtvogt</term> die <term ref="lem014848.01">gastung</term>, so zuͦ ehrn
+                <lb/>dem <term ref="lem014849.02">nüwen landtvogt</term> inn <term
+                  ref="lem014851.02">uffüeren</term> mit <lb/>den <term ref="lem000938.08"
+                  >mäleren</term>
+                <term ref="lem014850.02">steygeren</term> wellenn, ist erkännt, <lb/>wover sy sich
+                inn güetigkeyt damit nit <lb/>könnend verglychenn, soll sölichs zuͦ miner
+                <lb/>herren erkantnuß unnd uspruch gelangen.</seg></p>
+            <p>
+              <seg n="6.4"><lb/>Es soll ouch jeder lanndtvogt, wann er <term ref="lem014847.02"
+                    >ab<lb break="no"/>zücht</term>, ouch <date dur="R/P1Y">järlich</date>enn, wann
+                er <term ref="lem007398">rächnung</term>
+                <lb/>gibt, den <term ref="lem000032">rodel</term>, darin der <term
+                  ref="lem010027.03">hußblunder</term>
+                <lb/>(so minen herren ghört) verzeichnet, den <lb/><term ref="lem002718"
+                  >gsannten</term> unnd dem <term ref="lem014849.02">nüwen lanndtvogt</term>
+                <lb/>überanntwurten unnd darumb guͦte <lb/>rächnung gäben.</seg></p>
+            <p>
+              <seg n="6.5"><lb/>Von wägen das bißhar etwaß <term ref="lem014852.02">mißbrüch</term>
+                <lb/>enndtstanden, wann die <term ref="lem000329">underthonen</term>
+                <lb/>minen herren den <term ref="lem002014.10">hofzinnß</term> bringend, <lb/>ist
+                erkäntt und habend mit herren an<lb break="no"/>gsächen, das fürhin ein landtvogt
+                allein <lb/>denen das <term ref="lem000938">mal</term> gäben sölle, die umb <lb/>die
+                  <term ref="lem000169">höff</term> verschriben sind und sonst nie<lb break="no"
+                />manndts. Ist widerumb geändert <lb/>unnd gibt man daß mal ouch nit mehr,
+                <lb/>sonder einem jeden darfür <measure type="currency" quantity="2" unit="bz">zwen
+                  bz</measure>.</seg></p>
+            <pb n="25" facs="LAGL_AG_III.2401_027_24-25"/>
+            <p><seg n="6.6"><lb/>Item eß soll ouch dhein <term ref="lem000266">lanndtvogt</term>,
+                wann er <lb/><term ref="lem014847.02">abzücht</term>, desselbigenn jars kein stuckh
+                <lb/>güeter, so minen herren ghörennd, <term ref="lem001166">etzen</term>, dann
+                <lb/>allein die zwen <placeName ref="loc007013.03">Unnderen Gräben</placeName>. Eß
+                soll <lb/>ouch dhein landtvogt zuͦ <term ref="lem002766.11">früelig zyth</term> die
+                  <lb/><term ref="lem000164">wyngärten</term> etzen, aber zuͦ <term
+                  ref="lem002140.13">herpstzyth</term> mag <lb/>er die wol etzenn, doch das er das
+                  <term ref="lem000310">vech</term> hüeti <lb/>unnd die <term ref="lem004267"
+                  >räbenn</term> schirme zu vermydung <lb/>schadennß, so darmit ervolgenn
+                möchte.</seg></p>
+            <p>
+              <seg n="6.7"><lb/>Anträffennd die <term ref="lem001039.25">killwy</term> inn
+                  <placeName ref="loc007913.04">Marschuͤl <lb/>im Alten Vorsäß</placeName>,
+                dieselbig ist von wägen <lb/>großen überflusses unnd <term ref="lem004305"
+                  >unordnung</term>, so <lb/>darinn gebrucht wordenn, <term ref="lem008994"
+                  >abgsteltt</term>, doch <lb/>inen darfür nachgelassen zwey mal <term
+                  ref="lem002272">milch</term>, <lb/>daß sy jetz allein <date dur="R/P1Y"
+                  >järlich</date> fünff mahl schuldig, <lb/>wie sy vorhin siben mahl zegäben
+                schuldig <lb/>gsyn. <add place="inline" hand="hand17c">Und sol hiemit die <term
+                    ref="lem001039.04">kilby</term> uff <lb/>gehäpt und ab sin.</add></seg></p>
+            <p>
+              <seg n="6.8"><lb/>Der <term ref="lem000349">zol</term> oder <term ref="lem001110.15"
+                  >wäggältt</term> wirt in dry teyl <lb/>geteylt unnd gehört minen herren davon <pb
+                  n="26" facs="LAGL_AG_III.2401_027_26-27"/><lb/>ein theyl unnd die annderen zwen
+                teyl den <lb/><term ref="lem000507">lanndtlüten</term>. Unnd dem verordneten
+                  <lb/><term ref="lem002872">buwmeister</term> gibt man <measure type="currency"
+                  quantity="3" unit="fl">3 </measure> zuͦ <term ref="lem000612">belonung</term>
+                <lb/><date dur="R/P1Y">järlich</date>, deren gäbennd min herren einen.</seg></p>
+            <pb n="27" facs="LAGL_AG_III.2401_027_26-27"/>
+            <p><lb/><handShift scribe="3"/>Item mine herren die <choice>
+                <sic>gsamtten</sic>
+                <corr>gsantten</corr>
+              </choice> söllendt gwaltt <lb/>han, <date dur="R/P1Y">alle jarr</date> den gmeinen
+                <term ref="lem001231.06">schiesxellen</term>
+              <lb/>zegäben <measure type="currency" quantity="10" unit="k">x nüv kronen</measure>
+              und nütt merr.</p>
+            <pb n="29"/>
+            <lb/>
+            <p><gap reason="irrelevant"/><note>S.&#160;29–32 folgt eine <term ref="key000582"
+                  >Beschwerde</term> des Werdenberger <term ref="key000180">Landvogtes</term> über
+                die <term ref="key004139">Fährleute</term> von <placeName ref="loc000689"
+                  >Bendern</placeName> vom <date when="1601-05">Mai 1601</date>.</note></p>
+            <pb n="35"/>
+            <p>
+              <seg><gap reason="irrelevant"/><note>S.&#160;35–39 folgen Bestimmungen zum <term
+                    ref="key000185">Hausrat</term> des Schlosses <placeName ref="loc000015"
+                    >Werdenberg</placeName> vom <date when="1602-05-18">18. Mai 1602</date>, ein
+                  Verzeichnis der Schränke im Schloss vom <date when="1606-11-25">25. November
+                    1606</date> und ein Beschluss von <orgName ref="org001197">Glarus</orgName> von
+                    <date when="1604">1604</date>, dass kein Landvogt den <term ref="key000185"
+                    >Hausrat</term> des Schlosses veräussern dürfe. Auch darf der Landvogt keine
+                  Fenster und andere Verehrungen an <term ref="key000509">Gebäuden</term> ausgeben,
+                  sondern dies Glarus überlassen.</note></seg></p>
+            <pb n="43"/>
+            <p><lb/><gap reason="irrelevant"/><note>S.&#160;43–47 folgt ein Verzeichnis des <term
+                  ref="key000185">Hausrates</term>, der im <date when="1609-05">Mai 1609</date> von
+                Landvogt <persName ref="per008736a">Schmid</persName> an Landvogt <persName
+                  ref="per003142a">Elmer</persName> übergegangen ist. Es ist das ausführlichste
+                  <term ref="key000971">Inventar</term> des Schlosses <placeName ref="loc000015"
+                  >Werdenberg</placeName> (vgl. dazu <ref>SSRQ_SG_III_4_082</ref>).</note></p>
+            <pb n="49" facs="LAGL_AG_III.2401_027_49"/>
+            <seg><head n="7"><lb/><handShift scribe="1"/>Eines <term ref="lem000266"
+                  >landtvogts</term> zuͦ <placeName ref="loc000440">Wärdenbärg</placeName>
+                <term ref="lem000070">eyd</term>
+                <lb/>lutet vermög deß artickhelß im <lb/><term ref="lem007043.06"
+                  >lanndtsbuͦch</term> von wort zu wort also:</head>
+              <gap reason="irrelevant"/><note>Vgl. <ref>SSRQ_SG_III_4_128</ref>.</note></seg>
+            <pb n="57"/>
+            <seg><head n="8"><lb/><term ref="lem000347.05">Eydzädel</term>
+                <orgName ref="org003242">dero von Wärdennbärg</orgName></head><gap
+                reason="irrelevant"/><note>Vgl. <ref>SSRQ_SG_III_4_129</ref>.</note></seg>
+            <pb n="60" facs="LAGL_AG_III.2401_027_60"/>
+            <seg><head n="9"><lb/><term ref="lem000347.05">Eydzädel</term> miner herren <term
+                  ref="lem000624">lybeygnen <lb/>lüthen</term> zuͦ <placeName ref="loc000827"
+                  >Warthouw</placeName></head><gap reason="irrelevant"/><note>Edition: <bibl><ref
+                    target="https://www.ssrq-sds-fds.ch/online/SG_III_2/index.html#p_384">SSRQ SG
+                    III/2.1, Nr.&#160;112c</ref></bibl>.</note></seg>
+            <pb n="61" facs="LAGL_AG_III.2401_027_61-62"/>
+            <seg><head n="10"><handShift scribe="7"/><lb/>Eines <term ref="lem000373"
+                  >schloßammans</term> von <placeName ref="loc000827">Warthauw</placeName>
+                <term ref="lem000070">eid</term>
+                <lb/>anno <origDate when="1731-06-10">1731, den 10. junii</origDate>, hat neüw
+                schloßamen <lb/><persName ref="per002112a">Müller</persName> auf schloß <placeName
+                  ref="loc000015">Werdenberg</placeName>
+                <term ref="lem000374">gehuldiget</term></head><gap reason="irrelevant"
+                /><note>Edition: <bibl><ref
+                    target="https://www.ssrq-sds-fds.ch/online/SG_III_2/index.html#p_1105">SSRQ SG
+                    III/2.2, Nr.&#160;329b, Art. 1–5</ref></bibl>.</note></seg>
+            <pb n="63" facs="LAGL_AG_III.2401_027_63"/>
+            <seg><head n="11">Eines <term ref="lem000378">schloßweibels</term> zu <placeName
+                  ref="loc000827">Wartauw</placeName> eid, <lb/>neüw schloßweibell <persName
+                  ref="per001541">Alexander Müller</persName> hat auch <lb/><origDate
+                  when="1731-06-10">den 10. junii 1731</origDate> hierauf gehuldiget</head><gap
+                reason="irrelevant"/><note>Edition: <bibl><ref
+                    target="https://www.ssrq-sds-fds.ch/online/SG_III_2/index.html#p_1107">SSRQ SG
+                    III/2.2, Nr.&#160;329f, Art. 1–4</ref></bibl>.</note></seg>
+            <pb n="65" facs="LAGL_AG_III.2401_027_65"/>
+            <seg><head n="12"><lb/><handShift scribe="8"/>Eines <term ref="lem002854"
+                  >landtschreibers</term> zu <placeName ref="loc000440">Werdenberg</placeName>
+                <term ref="lem000070">eyd</term>, <lb/>worauff der neüw erwelte landtschreiber
+                  <lb/><persName ref="per008878a">Joachim Legler</persName> heüt, den <origDate
+                  when="1737-04-19">den 19.<hi rend="sup">ten</hi> apprill 1737</origDate>
+                <lb/>gehuldiget und allhier zu <placeName ref="loc000326">Glaruss</placeName>
+                præstiertenden eid <lb/>und künfftighin ein jeweilliger landtschreiber <lb/>auf
+                folgende beschreibung schwerenn solle</head>
+              <gap reason="irrelevant"/><note>Vgl. <bibl><ref
+                    target="https://archivverzeichnis.gl.ch/home/#/content/ad82867f2a1d4607b2f9b5fa987298a8"
+                    >LAGL AG III.2410:063</ref></bibl>.</note></seg>
+            <pb n="67" facs="LAGL_AG_III.2401_027_67"/>
+            <seg><head n="13"><lb/><handShift scribe="9"/><term ref="lem003236.06">Eidts form</term>
+                der <term ref="lem000227">burger</term>, <term ref="lem000507">landtleüht</term>,
+                  <lb/><term ref="lem007652.04">beysäßen</term>, auch samtlichen <term
+                  ref="lem002869">einwohneren</term>
+                <lb/>der graffschafft <placeName ref="loc000440">Werdenberg</placeName></head><gap
+                reason="irrelevant"/><note>Es handelt sich hier um eine Wiederholung des Eides mit
+                der Ordnung von Seite 57–59 (vgl. <ref>SSRQ_SG_III_4_129</ref>). Bis und mit Artikel
+                10 ist die Wiederholung inhaltlich gleich. Anstelle der letzten beiden Artikel 10
+                und 11 der früheren Ordnung beziehen sich die letzten drei Artikel auf den
+                Landhandel (vgl. <ref>SSRQ_SG_III_4_216</ref>).</note></seg>
+            <pb n="75"/>
+            <p><lb/><gap reason="irrelevant"/><note>Der letzte Eintrag im Heft ist aus dem Jahr
+                  <date when="1682 ">1682</date> über die Rückgabe einer verlorenen Stute des <term
+                  ref="key000180">Landvogts</term> von <placeName ref="loc000440"
+                  >Werdenberg</placeName> durch den Herren der Herrschaft <placeName ref="loc006197"
+                  >Vaduz</placeName>. Dieser verlangt 8 Dukaten für die Rückgabe, die der
+                Werdenberger Landvogt nicht bezahlen will.</note></p>
+          </div>
+    </body>
+   </text>
+  </group>
+  <back>
+      <div n="1">
+        <p>Das Amtsverzeichnis ist von verschiedenen Händen verfasst, die erste Hand stammt aus der
+          Mitte des <date from="1540-01-01" to="1560-12-31">16.&#160;Jh.</date> Die zweite Hand ist flüchtig geschrieben und stammt
+          wohl aus dem Ende des <date from="1575-01-01" to="1600-12-31">16.&#160;Jh.</date> Auch die übrigen Hände sind flüchtig
+          geschrieben, stammen jedoch aus dem <date from="1601-01-01" to="1700-12-31">17.&#160;Jh.</date></p>
+      </div>
+      <div n="2">
+        <p>Eine spätere, unvollständige Abschrift zu <term ref="key003718">Landammann</term>, <term
+            ref="key000324">Landweibel</term>, <term ref="key000310">Landschreiber</term> und <term
+            ref="key004857">Stadtknecht</term> findet sich unter <bibl><ref>LAGL&#160; AG III.2442:051</ref></bibl>–<bibl><ref>LAGL AG
+            III.2442:052</ref></bibl>. Die Abschrift enthält mit Ausnahme der Artikel zum Landammann meist
+          nur die ersten Artikel der hier edierten Version (Landschreiber: bis Art. 2.6; Landweibel:
+          bis Art. 3.4; Stadtknecht: nur Art. 4.1) zur jeweiligen Amtsperson. Im Gegensatz zu diesem
+          Amtsbüchlein enthält die Abschrift jedoch ausführliche Angaben zum <term ref="key000205"
+            >Einkommen</term> eines <term ref="key000180">Landvogts</term> (vgl.
+          <ref>SSRQ_SG_III_4_207</ref>).</p>
+      </div>
+    </back>
+ </text>
+</TEI>

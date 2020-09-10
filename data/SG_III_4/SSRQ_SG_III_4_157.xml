@@ -1,0 +1,720 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-08-22"/>
+            <date type="print"/>
+            <availability><p xml:id="facs">Sibylle Malamud</p></availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_157</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>EKGA Salez 32.01.25, Rechnungswesen, 18.03.1615</idno>
+               </msIdentifier>
+               <head>Verzeichnis der Rechte, Güter und des Einkommens der Freiherrschaft Sax-Forstegg von Friedrich Ludwig von Sax-Hohensax (Verkaufsurbar)</head>
+               <msContents>
+                  <summary>
+                     <p>Friedrich Ludwig von Sax-Hohensax verzeichnet mit seinem Angestellten Hans Steiner
+                     			die Rechte, Güter und Einkommen der Freiherrschaft Sax und Forstegg: Hohe und niedere
+                     		Gerichtsbarkeit in Forstegg und Sax, Hochgericht in der Lienz und am Büchel; Mannschaft
+                     			der ganzen Herrschaft von 500–600 Mann; Kollatur der Pfarrkirchen Sax, Sennwald und
+                     		Salez; Leibeigenschaft; Fälle; Beerbung von Unehelichen; Jagdrecht bzw. Wildbann;
+                     			Schloss Forstegg; Fischerei im Rhein, in 5 Bächen und dem Weiher beim Schloss Forstegg;
+                     		verschiedene Güter, Alpen und Zinsen. Der Hof Gartis inklusive verschiedene Güter wird
+                     		mit 6000 Gulden bewertet. Das Haus in Sax inklusive verschiedene Güter und Zinsen;
+                     			Mühlen in Sennwald und Sax; Zehnten in Sax, darunter Kälberzehnt (für jedes Kalb ist ein
+                     			Mass Schmalz zu entrichten); Frondienst; Zoll bzw. Weggeld.</p>
+                  </summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <filiation type="current">Aufzeichnung (3 Doppelblätter)</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="33.5"/>
+                              <width unit="cm" quantity="22.0"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1615-03-18"/>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000369">Kauf</term>
+               <term ref="key000140">Herrschaft</term>
+               <term ref="key000336">Nutzniessung</term>
+               <term ref="key000058">Schulden</term>
+               <term ref="key000147">Gut</term>
+               <term ref="key003338">Kuhwinterung</term>
+               <term ref="key000044"/>
+               <term ref="key000837"/>
+               <term ref="key000183"/>
+               <term ref="key000811"/>
+               <term ref="key004699"/>
+               <term ref="key000258"/>
+               <term ref="key003818"/>
+               <term ref="key000151"/>
+               <term ref="key000626"/>
+               <term ref="key000047"/>
+               <term ref="key000049"/>
+               <term ref="key000479"/>
+               <term ref="key000493"/>
+               <term ref="key000154"/>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="1r" facs="EKGA_Salez_32.01.25_Rechnungswesen_18031615_1r"/>
+               <div org="uniform" sample="complete">
+                  <head n="1">
+                     <lb/>
+                     <term ref="lem011088">Verzeichnuß</term> der herrschafften <placeName
+                        ref="loc000278.21">Vor<lb break="no"/>stegk und Sax</placeName>
+                     <term ref="lem000626">gerechtigkeiten</term>, <term ref="lem000076"
+                        >güteren</term>
+                     <lb/>und <term ref="lem002802">inkhommens</term>
+                  </head>
+                  <p>
+                     <lb/>
+                     <add place="left margin">/</add>Erstlich die <term ref="lem000975"
+                        >hochen</term> und <term ref="lem000976">nideren gricht</term> inn beiden
+                        herrschafft<lb break="no"/>en <placeName ref="loc000278.21">Vorstegk und
+                        Sax</placeName>, deßglychen die hohen gricht inn der <lb/>
+                     <placeName ref="loc000951">Lientz</placeName> und am <placeName
+                        ref="loc006476.02">Büchel</placeName>.</p>
+                  <p>
+                     <lb/>
+                     <add place="left margin">/</add>Die <term ref="lem012213">mannschafft</term>
+                     inn diseren herrschafften söllend fünf oder <lb/>sechshundert <term
+                        ref="lem000220">mann</term> syn.</p>
+                  <p>
+                     <lb/>
+                     <add place="left margin">/</add>Die <term ref="lem004050">collaturen</term>
+                     dryger <term ref="lem000673">pfarrkirchen</term> zu <placeName ref="loc006249"
+                        >Sax</placeName>, <placeName ref="loc007990">Sennwald</placeName>
+                     <lb/>unnd <placeName ref="loc007991">Saletz</placeName>.</p>
+                  <p>
+                     <lb/>
+                     <add place="left margin">/</add>Das <term ref="lem015211">lybeigenbuch</term>
+                     rürt über das halbe theil der <term ref="lem001593">herrschafft
+                        <lb/>lüthen</term>.</p>
+                  <p>
+                     <lb/>
+                     <add place="left margin">/</add>Die <term ref="lem000337">fäl</term> inn der
+                     gantzen herrschafft sambt den <term ref="lem015212">bastart
+                     <lb/>fälen</term>.</p>
+                  <p>
+                     <lb/>
+                     <add place="left margin">/</add>Der <term ref="lem000461">wildbann</term>.</p>
+                  <p>
+                     <lb/>
+                     <add place="left margin">/</add>Das <term ref="lem000376">schloss</term>
+                     <placeName ref="loc006124">Vorstegk</placeName> sambt <term ref="lem000248"
+                        >hüsseren</term>, <term ref="lem000246">gärten</term>, <term ref="lem000249"
+                        >schüren</term>, <term ref="lem001613">stall<lb break="no"/>ungen</term> und
+                     aller anderer zugehördt. </p>
+                  <p>
+                     <lb/>
+                     <add place="left margin">/</add>Die <term ref="lem000030">vischentzen</term> im
+                        <placeName ref="loc000644">Rhyn</placeName> sambt anderen hohen
+                     gerechtigkeiten <lb/>und <term ref="lem005999">ylancken</term>
+                     <term ref="lem014605.10">erich</term>, da der <placeName ref="loc000644"
+                        >Rhyn</placeName>, so lang die herrschafft <lb/>sich erstreckt, biß an das
+                     ander <term ref="lem002177">port</term> des husses <add place="above"
+                           ><placeName ref="loc007946">Sax</placeName></add> eigen thumb <pb n="1v"
+                        facs="EKGA_Salez_32.01.25_Rechnungswesen_18031615_1v-2r"/>
+                     <lb/>ist, sambt der grechtigkeit, wann ein <term ref="lem001473"
+                        >malefitzische</term> ald strafwürd<lb break="no"/>ige person uff dem
+                        <placeName ref="loc000644">Rhyn</placeName> ergriffen wurde, das die
+                     besitzere <lb/>der herrschafft denselben darumb straffen mögend.</p>
+                  <p>
+                     <lb/>
+                     <add place="left margin">/</add>Fünf <term ref="lem015113">banneter
+                        bechen</term> sambt dem <term ref="lem002275">wyger</term> bim schloss
+                        <placeName ref="loc006124">Vor<lb break="no"/>stegk</placeName>, darunder
+                     sind dryg <term ref="lem000320">bäch</term> im <placeName ref="loc000950"
+                        >Sennwald</placeName>, der vierte <lb/>zu <placeName ref="loc000691"
+                        >Saletz</placeName> und der fünfft im <placeName ref="loc000389"
+                        >Hag</placeName>.</p>
+                  <p>
+                     <lb/>
+                     <add place="left margin">/ <abbr>V</abbr><note anchored="true">Die Auflösung
+                        der beiden Abkürzungen <orig>V</orig> und <orig>H</orig> ist unklar. <orig>V</orig>
+                           könnte für zur Burg <orig>Vorstegg</orig> gehörige Güter und
+                              <orig>H</orig> für zum <orig>Haus Sax</orig> gehörige Güter stehen. Es
+                           fällt auf, dass es sich bei den mit <orig>V</orig> gekennzeichneten
+                           Gütern fast nur um Güter handelt, die dem Landvogt zur Nutzniessung
+                           übergeben wurden. Einige mit <orig>H</orig> gekennzeichneten Güter hingegen wurden
+                           verliehen. <orig>V</orig> und <orig>H</orig> könnten auch als Zeichen gedient haben, welche Güter
+                           nach dem Kauf dem Landvogt zugeteilt und welche als Lehen ausgegeben
+                           werden sollten.</note></add> Das <term ref="lem000076">gut</term> hinder
+                     dem <term ref="lem000376">schloss</term> mit sambt dem gantzen <term
+                        ref="lem000251">wald</term>
+                     <lb/>doran, ist bißhero <measure quantity="6000" type="currency" unit="fl">6000
+                        </measure> wert syn geschetzt worden.<note anchored="true">Nach dem Kauf
+                        der Herrschaft durch Zürich wird dieser Wald dem Landvogt für seinen
+                        Unterhalt übergeben, <ref>SSRQ_SG_III_4_161</ref>, Art. 1.</note>
+                  </p>
+                  <p>
+                     <lb/>
+                     <add place="left margin">/ <abbr>V</abbr></add> Ein stückli <term
+                        ref="lem000027">weid</term> hinder dem <placeName ref="loc008236"><term
+                           ref="lem015219">sennhuß</term></placeName>, ist sambt jetzt gemelt<lb
+                        break="no"/>em gut hinderm <term ref="lem000376">schloss</term>, so mans inn
+                     ehren halt, zu einer <lb/><term ref="lem003321.04">kuwinteri</term>.<note
+                        anchored="true">Nach dem Kauf der Herrschaft durch Zürich wird diese Weide
+                        dem Landvogt für seinen Unterhalt übergeben,
+                           <ref>SSRQ_SG_III_4_161</ref>, Art. 1.</note>
+                  </p>
+                  <p>
+                     <lb/>
+                     <add place="left margin">/ <abbr>V</abbr></add> Ein stuck gut, der <placeName
+                        ref="loc008200.01">Oberforst</placeName> genannt, ungefahr <num value="4"
+                        >vier</num>
+                     <lb/>küyen winteri.<note anchored="true">Nach dem Kauf der Herrschaft durch
+                        Zürich wird dieses Gut dem Landvogt für seinen Unterhalt übergeben,
+                           <ref>SSRQ_SG_III_4_161</ref>, Art. 1.</note>
+                  </p>
+                  <p>
+                     <lb/>
+                     <add place="left margin">/ H</add>
+                     <!-- unsichere Auflösung, da Hohensax zu Gams gehört, evtl. herrschaft sax gemeint? -->
+                     Ein <term ref="lem000164">wyngarten</term>, uff dem <placeName
+                        ref="loc008200.04">Obren Forst</placeName> genant, hat verschinn<lb
+                        break="no"/>ens <origDate when="1614">1614<hi rend="sup">den</hi>
+                        jars</origDate>
+                     <measure type="volume" commodity="wine" unit="Fuder" quantity="4">vier fuder
+                           <term ref="lem000053">wyn</term>
+                     </measure> geben.</p>
+                  <p>
+                     <lb/>
+                     <add place="left margin">/ <abbr>V</abbr></add> Ein stuck gut genannt das
+                        <placeName ref="loc008209">Veld</placeName>, ist ungfahr zu <num value="9"
+                        >nün</num> küyen <lb/>winteri.<note anchored="true">Nach dem Kauf der
+                        Herrschaft durch Zürich wird dieses Gut dem Landvogt für seinen Unterhalt
+                        übergeben, <ref>SSRQ_SG_III_4_161</ref>, Art. 1.</note>
+                  </p>
+                  <p>
+                     <lb/>
+                     <add place="left margin">/ <abbr>V</abbr></add> Ein stuck gut sambt der
+                        <placeName ref="loc008211">Wettistuden</placeName> uff dem <del>Oberen</del>
+                     <placeName ref="loc008212">Undren <lb/>Forst</placeName>
+                     <del>ist zu fünf küyen sümeri</del>.<note anchored="true">Nach dem Kauf der
+                        Herrschaft durch Zürich wird dieses Gut dem Landvogt für seinen Unterhalt
+                        übergeben, <ref>SSRQ_SG_III_4_161</ref>, Art. 1.</note>
+                  </p>
+                  <pb n="2r" facs="EKGA_Salez_32.01.25_Rechnungswesen_18031615_1v-2r"/>
+                  <p>
+                     <lb/>
+                     <add place="left margin">/ <abbr>V</abbr></add> Item ein gut die <placeName
+                        ref="loc008210">Wetti</placeName> genannt, sambt dem <placeName
+                        ref="loc008214">Undern</placeName> und <placeName ref="loc008213">Obern
+                        <lb/>Burstriet</placeName>
+                     <del>ist sechs rossen winteri</del>.<note anchored="true">Nach dem Kauf der
+                        Herrschaft durch Zürich wird dieses Gut dem Landvogt für seinen Unterhalt
+                        übergeben, <ref>SSRQ_SG_III_4_161</ref>, Art. 1.</note>
+                  </p>
+                  <p>
+                     <lb/>
+                     <add place="left margin">/ <abbr>V</abbr></add> Mehr ein stuck gut genannt
+                        <placeName ref="loc008216">Butzenwinckel</placeName>, ist zu <num value="5"
+                        >fünf</num>
+                     <lb/>
+                     <term ref="lem000833">rinderen</term>
+                     <term ref="lem004655.03">winteri</term>.<note anchored="true">Nach dem Kauf der
+                        Herrschaft durch Zürich wird dieses Gut dem Landvogt für seinen Unterhalt
+                        übergeben, <ref>SSRQ_SG_III_4_161</ref>, Art. 1.</note>
+                  </p>
+                  <p>
+                     <lb/>
+                     <add place="left margin">/ <abbr>V</abbr></add> Item die <placeName
+                        ref="loc008218">Under</placeName> und <placeName ref="loc008217.02">Ober
+                        Theilmäder</placeName>, ist <num value="9">nün</num>
+                     <term ref="lem015460.03">haupt rinder<lb break="no"/>vych</term>
+                     <term ref="lem004655.03">winteri</term>.</p>
+                  <p>
+                     <lb/>
+                     <add place="left margin">/ H</add> Item die <placeName
+                        ref="loc008215">Burstmäder</placeName>, ist auch nün <term
+                        ref="lem015460.03">hauptrindervych</term> wint<lb break="no"/>eri.<note
+                        anchored="true">Vgl. dazu die Verleihung des Guts als erste Amtshandlung von
+                        Zürich nach dem Kauf der Herrschaft <ref>SSRQ_SG_III_4_161</ref>,
+                        Art. 7.</note>
+                  </p>
+                  <p>
+                     <lb/>
+                     <add place="left margin">/ H</add> Mehr ein stuck deß <placeName
+                        ref="loc008219">Müllers Mäder</placeName>, ist zechen <term
+                        ref="lem015903.02">haupt kü</term>
+                     <lb/>und <term ref="lem002693">rinder vych</term> winteri.<note anchored="true"
+                        >Vgl. dazu die Verleihung des Guts als erste Amtshandlung von Zürich nach
+                        dem Kauf der Herrschaft <ref>SSRQ_SG_III_4_161</ref>, Art. 7.</note>
+                  </p>
+                  <p>
+                     <lb/>
+                     <add place="left margin">/ <abbr>V</abbr></add> Ein stuck <term ref="lem000027"
+                        >weid</term> genant die <placeName ref="loc007750.04">Först</placeName>, ist
+                     sechs <term ref="lem001069">roßen</term>
+                     <term ref="lem007593.03">sümeri</term>.<note anchored="true">Nach dem Kauf der
+                        Herrschaft durch Zürich wird diese Weide dem Landvogt für seinen Unterhalt
+                        übergeben, <ref>SSRQ_SG_III_4_161</ref>, Art. 1.</note>
+                  </p>
+                  <p>
+                     <lb/>
+                     <add place="left margin">/ <abbr>V</abbr></add> Ein stuck <term ref="lem002450"
+                        >strüwi</term> genant im <placeName ref="loc008384.02"
+                     >Vemortlen</placeName>, soll uff alle <lb/>güter ungfahr gnug stroüwi geben.
+                        <note anchored="true">Nach dem Kauf der Herrschaft durch Zürich wird diese
+                        Weide dem Landvogt für seinen Unterhalt übergeben,
+                           <ref>SSRQ_SG_III_4_161</ref>, Art. 1.</note>
+                  </p>
+                  <p>
+                     <lb/>
+                     <add place="left margin">/ H</add> Item ein stuck genant
+                        <placeName ref="loc008221">Inns Frömsers Riet</placeName>, ist vierzechen <lb/>
+                     <term ref="lem002693">rindervych</term>
+                     <term ref="lem004655.03">winteri</term>.</p>
+                  <seg>
+                     <lb/>
+                     <add place="left margin">/ H</add> Ein stuck genant der <placeName
+                        ref="loc008222">Alben</placeName>, ist zu <num value="8">acht</num> küyen
+                     winteri.</seg>
+                  <pb n="2v" facs="EKGA_Salez_32.01.25_Rechnungswesen_18031615_2v-3r"/>
+                  <p>
+                     <lb/>
+                     <add place="left margin">/</add> Ein stuck genannt der <placeName
+                        ref="loc008201.02">Frömser Wyngarten</placeName>, mag <date dur="R/P1Y"
+                        >jerlichen</date>
+                     <lb/>ungfahr <measure type="volume" commodity="wine" unit="Fuder" quantity="7"
+                        >siben fuder <term ref="lem000053">wyn</term>
+                     </measure> geben. Und ein <term ref="lem000245">matten</term>
+                     <lb/>darby, so ungfahr zu einer <term ref="lem003321.04">kuwinteri</term>. </p>
+                  <seg>
+                     <head n="2">
+                        <lb/>Der <term ref="lem000169">hof</term>
+                        <placeName ref="loc006533">Gardis</placeName> hat hienach <lb/>volgende
+                        stuck <term ref="lem000076">güter</term>
+                     </head>
+                  </seg>
+                  <p>
+                     <lb/>
+                     <add place="left margin">/</add>
+                     <term ref="lem000248">Huß</term> und <term ref="lem000170">hofstatt</term>,
+                        <term ref="lem000249">schür</term>, <term ref="lem001613">stallung</term>
+                     und ein gut, darby alles <lb/>inn einem <term ref="lem006002"
+                     >infang</term>.</p>
+                  <p>
+                     <lb/>
+                     <add place="left margin">/</add> Item ein stuck <term ref="lem000251"
+                        >wald</term> der <placeName ref="loc008228">Türenbühel</placeName>
+                     genannt.</p>
+                  <p>
+                     <lb/>
+                     <add place="left margin">/</add> Mehr ein stuck gut, heißt deß <placeName
+                        ref="loc008229">Oügstlers Veld</placeName>.</p>
+                  <p>
+                     <lb/>
+                     <add place="left margin">/</add> Wyter ein stuck genant <placeName
+                        ref="loc008230.03">Ellsenmaaß</placeName>.</p>
+                  <p>
+                     <lb/>
+                     <add place="left margin">/</add> Ein stuck genant das <placeName
+                        ref="loc008231.02">Maas</placeName>.</p>
+                  <p>
+                     <lb/>
+                     <add place="left margin">/</add> Ein stuck genant <placeName ref="loc008232"
+                        >Haberrüti</placeName>, ist ein <term ref="lem002759">summerweyd</term>.</p>
+                  <p>
+                     <lb/>
+                     <add place="left margin">/</add> Ein stuck genant Im <placeName
+                        ref="loc006261.04">Herrweg</placeName>, ist ein gantz <term ref="lem015217"
+                        >kornveld</term>, doran <lb/>sayt man sambt dem <placeName ref="loc008233"
+                        >Haberveld</placeName>
+                     <measure commodity="pulses" unit="Scheffel" quantity="22" type="volume"
+                        >zwentzig und zwen schöffel <lb/>allerley frücht</measure>.</p>
+                  <seg>
+                     <lb/>
+                     <add place="left margin">/</add> Ein stuck genant das <placeName
+                        ref="loc008233">Haberveld</placeName>.</seg>
+                  <p>
+                     <lb/>
+                     <add place="left margin">/</add> Und <measure quantity="6" type="area"
+                        unit="Mannmad">sechs manwerch</measure> uff dem <placeName ref="loc006117"
+                        >Saxenriedt</placeName>.</p>
+                  <p>
+                     <lb/>Diser <term ref="lem000169">hof</term> ist ungefahr <num value="18"
+                        >achtzechen</num> küyen winteri und <lb/>umb <measure quantity="6000"
+                        type="currency" unit="fl">6000 </measure> geschetzt.<note anchored="true"
+                        >Vgl. dazu die Verleihung des Hofs als erste Amtshandlung von Zürich nach
+                        dem Kauf der Herrschaft <ref>SSRQ_SG_III_4_161</ref>, Art. 5.</note>
+                     <pb n="3r" facs="EKGA_Salez_32.01.25_Rechnungswesen_18031615_2v-3r"/>
+                  </p>
+                  <seg>
+                     <head n="3">
+                        <lb/>
+                        <placeName ref="loc007946">Sax</placeName></head>
+                  </seg>
+                  <p>
+                     <lb/>
+                     <add place="left margin">/</add>
+                     <term ref="lem001152">Huß</term> und <term ref="lem000170">hofstatt</term>
+                     sambt übrigen <term ref="lem000248">hüseren</term>, <term ref="lem000249"
+                        >schüren</term>, <term ref="lem000246">gärten</term>
+                     <lb/>und aller zugehördt, hatt grechtigkeit inn <placeName ref="loc006130.07"
+                        >Saxer <lb/>Alp</placeName><note anchored="true">Heute Roslenalp.</note> uff
+                     siben <term ref="lem002096">stöss</term>.</p>
+                  <p>
+                     <lb/>
+                     <add place="left margin">/</add> Ein stuck genant <placeName ref="loc008223"
+                        >Rürgarten</placeName>, sambt dem byligenden stuck, <lb/>so der <placeName
+                        ref="loc008224">Brül</placeName> heißt, auch die <placeName ref="loc008225"
+                        >Brülwiß</placeName><note anchored="true">Vgl. dazu die Verleihung des Guts
+                        als erste Amtshandlung von Zürich nach dem Kauf der Herrschaft
+                           <ref>SSRQ_SG_III_4_161</ref>, Art. 2.</note>, alles aneinandern,
+                     <lb/>ist zu <subst>
+                        <del>vier</del>
+                        <add place="above">fünf</add>
+                     </subst>zechen <term ref="lem001076">küyen</term> und acht <term
+                        ref="lem000833">rinderen</term>
+                     <term ref="lem004655.03">winteri</term>, soll <lb/><measure quantity="4000"
+                        type="currency" unit="fl">4000 </measure> wert syn.</p>
+                  <p>
+                     <lb/>
+                     <add place="left margin">/</add> Ein stuck genant deß <placeName
+                        ref="loc008226">Mennlis Hofstatt</placeName>, <num value="3">dryg</num>
+                     küyen <lb/>winteri.</p>
+                  <p>
+                     <lb/>
+                     <add place="left margin">/</add> Ein stuck genannt <placeName
+                        ref="loc006046.04">Schumachers Veld</placeName>, <num value="4">vier</num>
+                     <term ref="lem001069">rossen</term> winteri.</p>
+                  <p>
+                     <lb/>
+                     <add place="left margin">/</add> Ein stückli genant das <placeName
+                        ref="loc008227.03">Fullwißli</placeName>, ist ein <term ref="lem002759"
+                        >sommerweyd</term>, <lb/>darufff ein <term ref="lem000684">haubt</term>
+                        zesümmeren.<note anchored="true">Vgl. dazu die Verleihung des Guts als erste
+                        Amtshandlung von Zürich nach dem Kauf der Herrschaft
+                           <ref>SSRQ_SG_III_4_161</ref>, Art. 6.</note>
+                  </p>
+                  <p>
+                     <lb/>
+                     <add place="left margin">/</add><measure type="area" quantity="14"
+                        unit="Mannmad">Vierzechen manmad</measure> uff <placeName ref="loc008208.03"
+                        >Saxer Frü Riet</placeName>, gibt <term ref="lem002450">stroüwi</term>.</p>
+                  <p>
+                     <lb/>
+                     <add place="left margin">/</add> Ein stuck genant der <placeName
+                        ref="loc008202">Klyn Wyngarten</placeName> bim <term ref="lem001152"
+                        >huß</term>, gibt <lb/>ungfahr <measure type="volume" commodity="wine"
+                        unit="Fuder" quantity="2">zwey fuder <term ref="lem000053"
+                        >wyn</term></measure>.</p>
+                  <p>
+                     <lb/>
+                     <add place="left margin">/</add> Ein stuck genant der <placeName
+                        ref="loc008203">Ober Wingarten</placeName>, mag <measure type="volume"
+                        commodity="wine" unit="Fuder" quantity="4">vier fuder <lb/>wyn</measure>
+                     geben, sambt dem byligenden gut und noch ein stuck <lb/>oben doran gelegen,
+                     genant die <placeName ref="loc006163">Ebni</placeName>. Und aber ein stuck oben
+                     <lb/>doran, genant der <placeName ref="loc008205">Frischenberg</placeName>, ist
+                     alles zu <num value="3">dryg</num> küyen <lb/>winteri.</p>
+                  <pb n="3v" facs="EKGA_Salez_32.01.25_Rechnungswesen_18031615_3v-4r"/>
+                  <p>
+                     <lb/>
+                     <add place="left margin">/</add> Ein stuck genant der <placeName
+                        ref="loc008204">Under Wyngarten</placeName>, gibt <date dur="R/P1Y"
+                        >jerlich</date> ungfahr <lb/>
+                     <measure type="volume" commodity="wine" unit="Fuder" quantity="4">vier fuder
+                           <term ref="lem000053">wyn</term>
+                     </measure> und ein gut darby gelegen, so ungfahr <lb/>zu einer <term
+                        ref="lem003321.05">ku winteri</term>.</p>
+                  <p>
+                     <lb/>
+                     <add place="left margin">/</add> Item ein stuck <term ref="lem000251"
+                        >wald</term>, das <placeName ref="loc006044">Biggisholtz</placeName>
+                     genannt.</p>
+                  <p>
+                     <lb/>
+                     <add place="left margin">/</add> Mehr aber ein stuck wald genant <placeName
+                        ref="loc008206">Kapfhalden</placeName>.</p>
+                  <p>
+                     <lb/>
+                     <add place="left margin">/</add> Item ein <term ref="lem000306">alp</term> zu
+                     beiden <term ref="lem001152">hüseren</term>
+                     <placeName ref="loc006124">Vorstegk</placeName> und <placeName ref="loc007946"
+                        >Sax</placeName>, heißt <lb/>
+                     <placeName ref="loc006126">Alp Pylen</placeName>.</p>
+                  <p>
+                     <lb/>
+                     <add place="left margin">/</add> Item ein gantzen <term ref="lem000251"
+                        >wald</term> inn <placeName ref="loc006564">Kälen</placeName> genannt.</p>
+                  <p>
+                     <lb/>Das huß <placeName ref="loc007946">Sax</placeName>
+                     <subst><del>j</del>
+                        <add place="overwritten">h</add></subst>att so vil grechtigkeit und <term
+                        ref="lem001251">stimmen</term> als die <lb/>gantz gmeind <placeName
+                        ref="loc006042">Sax</placeName> und <placeName ref="loc006121.05"
+                        >Frümbsen</placeName>.</p>
+                  <p>
+                     <lb/>
+                     <add place="left margin">/</add> Das huß <placeName ref="loc007946"
+                        >Sax</placeName> hatt jerlichs zinses uß <placeName ref="loc006130.10"
+                        >Frusslen</placeName>
+                     <measure type="volume" unit="Viertel" commodity="lard" quantity="5">fünf
+                        <lb/>viertel schmaltz</measure>, <num value="30">dryßig</num>
+                     <term ref="lem000054">käß</term> und <num value="5">fünf</num>
+                     <term ref="lem000139">ziger</term>.</p>
+                  <p>
+                     <lb/>
+                     <add place="left margin">/</add> Dem huß <placeName ref="loc006124"
+                        >Vorstegk</placeName> gehört uß <placeName ref="loc006123">Alp
+                        Peel</placeName>
+                     <date dur="R/P1Y">jerlich</date> zinses <lb/>
+                     <measure unit="Viertel" commodity="lard" quantity="2" type="volume">zwey
+                        viertel schmaltz</measure>.</p>
+                  <p>
+                     <lb/>
+                     <add place="left margin">/</add> Item uß <placeName ref="loc006126">Alp
+                        Pylen</placeName>
+                     <measure unit="Viertel" commodity="lard" quantity="3" type="volume">dry viertel
+                        schmaltz</measure> und <num value="8">acht</num>
+                     <term ref="lem000054">käß</term>.</p>
+                  <pb n="4r" facs="EKGA_Salez_32.01.25_Rechnungswesen_18031615_3v-4r"/>
+                  <p>
+                     <lb/>
+                     <add place="left margin">/</add> Im <placeName ref="loc008385.01"
+                        >Sennwald</placeName> sind zwo <term ref="lem006000">zwingmüllinen</term>
+                     sambt <term ref="lem000321">stampf</term>
+                     <lb/>und <term ref="lem000355">blüwel</term>.<note anchored="true">Vgl. dazu
+                        die erste Amtshandlung von Zürich nach dem Kauf der Herrschaft
+                           <ref>SSRQ_SG_III_4_161</ref>, Art. 4.</note>
+                  </p>
+                  <p>
+                     <lb/>
+                     <add place="left margin">/</add> Zu <placeName ref="loc006238">Sax</placeName>
+                     ist ein <term ref="lem006000">zwingmülli</term> sambt <term ref="lem000321"
+                        >stampf</term> und <term ref="lem000355">blüwel</term>.<note anchored="true"
+                        >Vgl. dazu die Verleihung des Guts als erste Amtshandlung von Zürich nach
+                        dem Kauf der Herrschaft <ref>SSRQ_SG_III_4_161</ref>, Art. 3.</note>
+                  </p>
+                  <p>
+                     <lb/>
+                     <add place="left margin">/</add> Item den <term ref="lem000073">zehenden</term>
+                     im <placeName ref="loc000389">Hag</placeName>, der hat hürigs jars ertreit
+                        <lb/><measure commodity="wheat" unit="Scheffel" quantity="9" type="volume"
+                        >achtzechen schöffel halb weysen</measure> und <measure commodity="grain"
+                        unit="Scheffel" quantity="9" type="volume">unnd halb korn</measure>,
+                        <measure commodity="flax" unit="Pfund" quantity="60" type="weight">sechtzig
+                        <lb/>pfund gerüsten flachs</measure> und <measure commodity="flax"
+                        quantity="1" unit="Scheffel" type="volume">ein schöffel
+                        flachssaamen</measure>.</p>
+                  <p>
+                     <lb/>
+                     <add place="left margin">/</add> Item den <term ref="lem000073">zehenden</term>
+                     zu <placeName ref="loc006042">Sax</placeName>, der hat hürigs jars ungfahr
+                        <lb/><measure unit="Scheffel" quantity="25" commodity="grain_wheat"
+                        type="volume">zwentzig und fünf schöffel korn und weyssen</measure>
+                     ertreit.</p>
+                  <p>
+                     <lb/>
+                     <add place="left margin">/</add> Item den <term ref="lem014550"
+                        >kalberzehenden</term> zu <placeName ref="loc006042">Sax</placeName>, für
+                     jedes <term ref="lem002088">kalb</term>
+                     <measure commodity="lard" unit="Mass" quantity="1" type="volume">ein <lb/>maß
+                        schmaltz</measure>.</p>
+                  <p>
+                     <lb/>
+                     <add place="left margin">/</add> Item den <term ref="lem015218"
+                        >nußzehenden</term> zu <placeName ref="loc006042">Sax</placeName>.</p>
+                  <p>
+                     <lb/>Den <term ref="lem012841">rebenzehenden</term> zu <placeName
+                        ref="loc006042">Sax</placeName>.</p>
+                  <p>
+                     <lb/>
+                     <add place="left margin">/</add>
+                     <subst><del>er</del><add place="above"><term ref="lem014694">Lyb</term> und
+                              <term ref="lem015214">zug</term></add></subst>tagwen.</p>
+                  <p>
+                     <lb/>
+                     <add place="left margin">/</add>
+                     <term ref="lem001110">Weggelt</term> von allen den <term ref="lem001407"
+                        >wahren</term>, so durch die herrschafft <lb/>gefürt werdent.<note
+                        anchored="true">Zum Zoll oder Weggeld vgl. auch
+                           <ref>SSRQ_SG_III_4_232</ref>.</note>
+                  </p>
+                  <pb n="4v" facs="EKGA_Salez_32.01.25_Rechnungswesen_18031615_4v"/>
+                  <p>
+                     <lb/>Die <term ref="lem009958">frücht</term> und andere <term ref="lem000237"
+                        >zinß</term> sind specificierlich inn dem <term ref="lem000372"
+                        >urber</term><note anchored="true">Ein Urbar der Herschaft Sax-Forstegg
+                        unter den Herren von Sax-Hohensax konnte nicht gefunden werden.</note>
+                     <lb/>beschriben. </p>
+                  <p>
+                     <lb/>Und dann hatt ir <choice>
+                        <abbr>g</abbr>
+                        <expan>gnaden</expan>
+                     </choice> versprochen, mynen gnedigen herren <lb/>
+                     <del>versp</del> unverzogenlich umb die ablosigen <term ref="lem010360"
+                        >pfeningzinß</term> ein <lb/>ordenliche <term ref="lem011088"
+                        >verzeichnuß</term> zuzeschicken.</p>
+                  <p>
+                     <lb/>Diß, wie vorstadt, hatt herr <persName ref="per004774">Fridrich Ludwig,
+                        fryherr von <lb/>der Hohen Sax</persName>, samt ir <choice>
+                        <abbr>g</abbr>
+                        <expan>gnaden</expan>
+                     </choice>
+                     <term ref="lem000189.02">dienner</term>
+                     <persName ref="per010070">Hansen Steiner</persName> also <lb/>angeben, den
+                        <origDate when="1615-03-18">18.<hi rend="sup">den</hi> marty anno
+                        1615</origDate>. </p>
+               </div>
+               <pb facs="EKGA_Salez_32.01.25_Rechnungswesen_18031615_v"/>
+               <div org="uniform" sample="complete">
+                  <ab type="dorsal" place="verso" hand="hand17c">
+                     <lb/>Beschrybung <lb/>der herrschafften
+                <placeName ref="loc000278.21">Vorstegk und Sax</placeName>
+                     <lb/>gerechtigkeiten, inkhommens unnd <lb/>güteren, 1615</ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab type="archiving reference" place="verso">
+                     <lb/>Trk. 320 L 5 N<hi rend="sup">o</hi>3,
+              den <date when="1615-03-18">18.ten marty 1615</date>
+                     <lb/>16 <lb/>17</ab>
+               </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div n="1" org="uniform" sample="complete">
+            <p>Aufgrund der hohen <term ref="key000058">Schuldenlast</term>, die auf der
+               Freiherrschaft <placeName ref="loc000278">Sax-Forstegg</placeName> lastet,
+               unterbreitet <persName ref="per004774a">Friedrich Ludwig von Sax-Hohensax</persName>
+               <orgName ref="org001196">Zürich</orgName> anfang 1615 einen Vorschlag zur Übergabe
+               der Freiherrschaft <placeName ref="loc000278">Sax-Forstegg</placeName> an Zürich
+                     (<bibl><ref>StAZH A 346.3, Nr. 146</ref></bibl>) und erstellt am <date
+                  when="1615-03-18">18. März 1615</date> dieses Verzeichnis über die Rechte und
+               Einkommen der Herrschaft. Das Verzeichnis oder «Verkaufsurbar» wurde mehrheitlich in
+               den <term ref="key000822">Kaufbrief</term> aufgenommen
+               (<ref>SSRQ_SG_III_4_158</ref>), wobei einzelne Präzisierungen, wie z. B. die Angaben
+               zur Höhe der <term ref="key000838">Mannschaft</term> von 500 bis 600 Mann oder zum
+               Wert oder zu den <term ref="key004483">Erträgen</term> der <term ref="key000147"
+                  >Güter</term>, weggelassen wurden. Während hier die Rechte und Güter geographisch
+               dem einzelnen Haus (Schloss <placeName ref="loc006124">Forstegg</placeName> bzw. Haus
+                  <placeName ref="loc007946">Sax</placeName>) zugeordnet sind, sind sie im Kaufbrief
+               thematisch (<term ref="key000249">Wälder</term>, <term ref="key000003"
+                  >Weingärten</term>, Güter) geordnet. </p>
+            <p>Das Stück wurde u. a. in die Rechtsquellensammlung aufgenommen, da <term
+                  ref="key000122">Urbare</term> der Freiherrschaft Sax-Forstegg fehlen und das
+               «Verkaufsurbar» wenigstens einen Einblick in die zur Herrschaft gehörigen Güter,
+               Einkommen und Rechte gewährt. Eine wichtige Ergänzung zu diesem Verkaufsurbar ist das
+               um 1755 entstandene Verwaltungshandbuch von Landvogt <persName ref="per010271a"
+                  >Johannes Ulrich</persName>. <persName ref="per010271a">Ulrich</persName> geht
+               ausführlich auf die Verleihung der zum <term ref="key000186">Schloss</term> gehörigen
+                  <term ref="key000147">Güter</term>, <term ref="key000139">Höfe</term> und <term
+                  ref="key000342">Alpstösse</term>, <term ref="key000047">Mühlen</term> oder <term
+                  ref="key000259">Bäche</term> ein und beschreibt nicht nur die Lehensnehmer und
+               Lehenzinsen, sondern auch die Pflichten, die Lieferbedingungen von Geld und
+               Naturalien, Unterhaltsbedingungen oder Lasten auf einzelnen Lehen usw. (vgl. dazu
+               ausführlich <ref>SSRQ_SG_III_4_232</ref> [Jahr und Wochenmärkte in Salez],
+                  <ref>SSRQ_SG_III_4_233</ref> [Wahl der Amtleute] und SSRQ_SG_III_4_234 [Gerichte].
+               Zur Datierung des Handbuchs vgl. auch <ref>SSRQ_SG_III_4_232</ref>).</p>
+            <p>Ein ähnliches, undatiertes Verzeichnis über Rechte, Einkommen und Güter liegt im
+               StAZH (<ref>StAZH A 346.1.4, Nr. 56</ref>). Es könnte sich dabei um einen Entwurf zu
+               diesem Verzeichnis handeln. Ein detaillierter Überblick über das Einkommen eines
+               Herren von <orgName ref="org000384">Sax-Hohensax</orgName> gibt das undatierte
+               Verzeichnis um <date from="1590" to="1610">1600</date>, in dem die einzelnen Güter,
+               Mühlen u. ä. mit den dazugehörigen Erträgen aufgelistet sind. So belaufen sich z. B.
+               die Erträge der <term ref="key000047">Mühle</term> in <placeName ref="loc008385.01"
+                  >Sennwald</placeName> auf 250 Gulden, der Mühle in <placeName ref="loc006238"
+                  >Sax</placeName> auf 76 Gulden oder die <term ref="key000184">Bussen</term> mit
+                  <term ref="key000446">Abzügen</term> und <term ref="key000183">Fällen</term> auf
+               250 Gulden. Insgesamt sind es 1718 Gulden und 42 Kreuzer (<bibl><ref>StAZH A 346.1.4,
+                     Nr.
+               58</ref></bibl>).<!-- ev als Stück aufnehmen? Ist nur ein Einzelblatt. so lassen, wenn Zeit bleibt... -->
+               Vgl. auch den <term ref="key004546">Schätzungsbericht</term> zu den Besitzungen der
+               Freiherrschaft <placeName ref="loc000278">Sax-Forstegg</placeName> von <date
+                  when="1589">1589</date> (<bibl><ref>EKGA Salez 32.01.21,
+               Besitzungen</ref></bibl>), wo z. B. das <placeName ref="loc006046"
+                  >Schuemachersfeld</placeName> von etwa 7 Mannmad mit dem <placeName
+                  ref="loc006044">Biggisholz</placeName> auf 300 Gulden geschätzt wird.</p>
+         </div>
+         <div n="2" org="uniform" sample="complete">
+            <p>Der Hof <placeName ref="loc006533">Gartis</placeName> ist ein stattlicher
+               Herrschaftshof mit grossen Ländereien, der von der Obrigkeit als <term
+                  ref="key000022">Lehen</term> ausgegeben wird. Nachdem sich der Zustand von Hof und
+               Gütern im Laufe des 18. Jh. verschlechtert und die jährlichen Einnahmen deutlich
+               sinken, wird der Hof schliesslich <date when="1794">1794</date> stückweise verkauft
+               (zum <term ref="key000231">Verkauf</term> vgl. die Dossiers <bibl><ref>StASG AA 2
+                     A 13-3</ref></bibl>; <bibl><ref>AA 2 B 009</ref></bibl>; <bibl><ref>AA 2
+                     B 025</ref></bibl>; <bibl><ref>OGA Sennwald Mappe Hof Gardus</ref></bibl>; zum
+               Hof Gartis allgemein vgl. <ref>SSRQ_SG_III_4_158</ref>; <ref>SSRQ_SG_III_4_161</ref>;
+                     <bibl><ref>StAZH A 346.3, Nr. 204</ref>; <ref>Nr. 206</ref>; <ref>A 346.4,
+                     Nr. 52</ref></bibl>; <bibl><ref>StASG AA 2 A 3-9-2</ref>; <ref>AA 2
+                     A 3-13-24</ref>; <ref>AA  2 A 13-1-3</ref>; <ref>AA 2 A  3-1-12</ref>;
+                     <ref>AA 2 A 13-3-1</ref></bibl>; <bibl><ref>OGA Sennwald Mappe Hof
+                  Gardus</ref>, 25.04.1671</bibl>; <bibl><ref
+                     target="http://permalink.snl.ch/bib/chbsg000141314">Kreis 1923</ref>,
+                  S. 9</bibl>. </p>
+         </div>
+      </back>
+   </text>
+</TEI>

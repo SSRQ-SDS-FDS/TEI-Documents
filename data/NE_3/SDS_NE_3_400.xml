@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     n="1234"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="headerinfo"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2020-08-17"/>    <date type="print"/>
+    <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Collection des sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS_NE_3_400</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>AVN B 101.14.002, fol. 38r–38v</idno>
+               </msIdentifier>
+               <head>Succession d’un conjoint sans enfant</head>
+               <msContents>
+                  <summary>Si un traité de mariage a été passé, que les conjoints sont demeurés un
+                     an et six semaines ensemble, qu’ils n’ont pas d’enfant et que l’un d’eux
+                     décède, le survivant lui succède. Un testament ne peut pas détruire ou vicier
+                     un traité de mariage.</summary>
+                  <msItem>
+                     <textLang>français</textLang>
+                     <filiation type="current"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="34.5"/>
+                              <width unit="cm" quantity="22"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1724-11-20"/>
+                     <origPlace ref="loc007786">Neuchâtel</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head/>
+                     <bibl/>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000138"/>
+               <term ref="key000558"/>
+               <term ref="key000920"/>
+               <term ref="key000815"/>  
+               <term ref="key000863"/>
+               <term ref="key000635"/>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="38r" facs="AVN_B_101.14.002_0038r"/>
+               <div>
+                  <p>
+                     <lb/>Sur la requête présentée par le <choice>
+                        <abbr>S<hi rend="sup">r</hi>
+                        </abbr>
+                        <expan>sieur</expan>
+                     </choice>
+                     <lb/><persName ref="per008838">Abraham Mouchet</persName>, notaire et bourgeois
+                     <lb/>de la Ville de <placeName ref="loc007786">Neufchatel</placeName>, au nom
+                     de <persName ref="per008840">Susanne <lb/>L’Escuyer</persName> d’<placeName
+                        ref="loc007791">Auterive</placeName>, veuve d’<choice>
+                        <abbr>hon :</abbr>
+                        <expan>honorable</expan>
+                     </choice>
+                     <persName ref="per008839">George Simonin</persName>, <lb/>le <origDate
+                        when="1724-11-20">20<hi rend="sup">e</hi>
+                        <choice>
+                           <abbr>9bre</abbr>
+                           <expan>novembre</expan>
+                        </choice>
+                        <hi rend="underline">1724</hi></origDate>, par devant <orgName
+                        ref="org003085">messieurs du Conseil <lb/>Estroit de laditte Ville de
+                           <placeName ref="loc007786">Neufchatel</placeName></orgName>, tendante aux
+                     <lb/>fins d’avoir les deux points de coutume suivants. </p>
+                  <p>
+                     <lb/>1<hi rend="sup">o</hi>. <choice>
+                        <abbr>Premièrem<hi rend="sup">t</hi>
+                        </abbr>
+                        <expan>Premièrement</expan>
+                     </choice>, quand deux conjoints ont été mariés <lb/>passé <date dur="P1Y6W">
+                        <term ref="lem014776">ann et jours</term>
+                     </date> sans enfants, on demande de <lb/>quel droit, suivant la coutume de
+                        <placeName ref="loc007785">Neufchatel</placeName>, <lb/>peut avoir la veuve
+                     sur les biens du deffunt, tant de <lb/>ceux qu’il a apporté en conjonction de
+                     mariage, que <lb/>de ceux qui ont esté acquis constant le mariage. </p>
+                  <p>
+                     <lb/>2<hi rend="sup">o</hi>. <choice>
+                        <abbr>Secondem<hi rend="sup">t</hi>
+                        </abbr>
+                        <expan>Secondement</expan>
+                     </choice> et enfin, si pendant la conjonction de <lb/>mariage l’un des mariés
+                     venoit à faire son <lb/>testament et qu’ensuitte il meure après <date
+                        dur="P1Y6W"><term ref="lem014776">l’ann et <lb/>jours</term></date>, on
+                     demande si le testament pourroit vicier <lb/>et détruire soit les clauses et
+                     astrinctions portées <lb/>dans un traité de mariage, soit les droits que la
+                     <lb/>coutume du pays donne aux conjoints sans traitté, les <lb/>mariés n’ayant
+                     dérogés ny aux conventions matrimo<lb break="no"/>niales, ni au bénéfice de la
+                     coutume. </p>
+                  <p>
+                     <lb/><orgName ref="org003085">Mesdits sieurs du Conseil</orgName>, ayants eu
+                     advis et <lb/>meure préméditation par ensemble, donnent par <lb/>déclaration la
+                     coutume estre telle. </p>
+                  <p>
+                     <lb/>1<hi rend="sup">o</hi>. En premier lieu, assavoir sur le premier article, <lb/>
+                     <add place="below" type="catchword">on</add>
+                     <pb n="38v" facs="AVN_B_101.14.002_0038v"/>
+                     <lb/>on repond que, quand traicté de mariage est fait <lb/>entre mary et femme
+                     selon les bons us et coutume de <lb/>laditte Ville de <placeName
+                        ref="loc007786">Neufchatel</placeName> et, après avoir demeuré <lb/><date
+                        dur="P1Y6W"><term ref="lem014776">ann et jours</term></date> par ensemble,
+                     qu’est <date dur="P1Y6W">un ann et six <lb/>semaines</date>, et après l’un
+                     d’eux meurt, le survivant <lb/>a succédé et succède à présent ès bien du
+                     trépassé, <lb/>ayant sont us sur les biens du deffunt sa vie <lb/>durant. </p>
+                  <p>
+                     <lb/>2<hi rend="sup">o</hi>. Sur le second, on répond q’un testament ne
+                     <lb/>peux vicier ny détruire un traicté de mariage <lb/>fait selon les us et
+                     coutume de <placeName ref="loc007785">Neufchatel</placeName>. </p>
+                  <p>
+                     <lb/>Ce qui a été ainsi conclu et arrêté les jours et <lb/>ann que dessus et
+                     ordonné à moy, secrétaire du <lb/>Conseil de Ville soussigné, d’expédier le
+                     présent, sous <lb/>le sçeau de la mayrie et justice de <origPlace
+                        ref="loc007786">Neufchatel</origPlace> et <lb/>signature de ma main. </p>
+                  <p>
+                     <lb/>L’original signé. </p>
+               </div>
+               <div>
+                  <signed>
+                     <persName ref="per008827">
+                        <choice>
+                           <abbr>J&#160;J</abbr>
+                           <expan>Jean Jacques</expan>
+                        </choice> Purry</persName>
+                     <figure type="notarial sign"/></signed>
+               </div>
+            </body>
+         </text>
+      </group>
+   </text>
+</TEI>

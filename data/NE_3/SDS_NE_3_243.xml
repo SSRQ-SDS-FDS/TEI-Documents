@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="headerinfo"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <date type="electronic" when="2020-08-17"/>    <date type="print"/>
+    <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Collection des sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS_NE_3_243</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier>
+      <idno>AVN B 101.14.001, fol. 495v–496r</idno>
+     </msIdentifier>
+     <head>Admodération de frais pour les journées d’un procès</head>
+     <msContents>
+      <summary>Une partie souhaitant être dédommagées pour les journées consacrées à un procès doit
+       en avoir tenu un compte précis, sans quoi il ne peut s’appuyer que sur sa bonne
+       foi.</summary>
+      <msItem>
+       <textLang>français</textLang>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="33"/>
+          <width unit="cm" quantity="23.5"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <origDate when="1672-05-13" calendar="Julian"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>
+      </origin>
+     </history>
+     <additional>
+      <listBibl>
+       <head/>
+       <bibl/>
+      </listBibl>
+     </additional>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key000270"></term>
+     <term ref="key005021"></term>
+     <term ref="key005280"></term>
+     <term ref="key000886"></term>
+    </keywords>
+   </textClass>
+   <particDesc default="false"/>
+   <settingDesc default="false"/>
+  </profileDesc>
+ </teiHeader>
+ 
+ <text>
+  <group>
+   <text>
+    <body>
+        
+     
+     <pb n="495v" facs="AVN_B_101.14.001_0495v"/> 
+        
+     <div>
+      
+      <head>
+       <lb/>Touchant les journées employées à la
+       <lb/>suite d’un procez.
+      </head>
+     
+      <p>
+       <lb/>Sur la requeste presentée par <lb/>monsieur le capitaine <persName ref="per009999">Samuel
+        Marval</persName> du <orgName ref="org003085">Conseil <lb/>Estroit de la Ville de <placeName
+         ref="loc007786">Neufchatel</placeName></orgName>, à monsieur le <lb/>maistre bourgeois
+       &amp; <choice>
+        <abbr>led.</abbr>
+        <expan>ledit</expan>
+       </choice>
+       <orgName ref="org003085">Conseil</orgName>
+       <choice>
+        <abbr>dud.</abbr>
+        <expan>dudit</expan>
+       </choice> lieu le <origDate when="1672-05-13" calendar="Julian">13<hi rend="sup">e</hi> de <lb/>may <hi
+         rend="underline">1672</hi></origDate>, aux fins d’avoir les poincts de coustume
+       <lb/>suivans. </p>
+      
+      <p>
+       <lb/>Permierement, si une personne faisant <pb n="496r" facs="AVN_B_101.14.001_0496r"/>
+       <lb/><term ref="lem015968.02">admoderation</term> de frais contre sa partie peut demander <lb/>autres choses
+       outre la restitution de son argent debourcé, <lb/>que le payement de sa peine actuelle, comme
+       sont les <lb/>journées qu’il verifie avoir employées au procès, si pretendant <lb/>d’estre
+       payé d’une journée selon sa condition pour avoir <lb/>ordonné au <term ref="lem014994.02">sauthier</term> de
+       faire une citation, il ne doit <lb/>pas verifier qu’il l’ait fait luy mesme, &amp; vacqué à
+       cela <lb/><choice>
+        <abbr>lad.</abbr>
+        <expan>ladite</expan>
+       </choice> journée &amp; ne l’ait fait par occasion. </p>
+      
+      <p>
+       <lb/>Secondement, si une personne est obligée de payer
+       <lb/>à sa partie une journée qu’il dit avoir vacqué au procez,
+       <lb/>ce qu’estant nié &amp; contesté par dite partie, on ne s’en
+       <lb/>doit pas rapporter à la procedure plutost qu’ailleurs, puis 
+       <lb break="no"/>que toutes les instances ont accoustumé d’estre <choice><abbr>fidellem<hi rend="sup">t</hi></abbr><expan>fidellement</expan></choice>
+       <lb/>marquées &amp; datées du jour &amp; an.
+      </p>
+      
+      <p>
+       <lb/><orgName ref="org003085"><choice><abbr>Mesd. s<hi rend="sup">rs</hi></abbr><expan>Mesdits sieurs</expan></choice> du Conseil</orgName>, ayans eu advis &amp; meure
+       <lb/>premeditations par ensemble, <term ref="lem015635.04">baillent</term> par declaration,
+       <lb/>suivant la coustume usitée en la souveraineté <choice><abbr>dud.</abbr><expan>dudit</expan></choice>
+       <lb/><placeName ref="loc007785">Neufchâtel</placeName> de pere à fils &amp; de tout temps immemorial
+       <lb/>jusqu’à present la coustume estre telle.
+      </p>
+      
+      <p>
+       <lb/>Assavoir, que quand un homme veut faire une <lb/><term ref="lem015968.03">moderation</term> contre un
+       autre, il doit specifiquement <lb/>marquer le jour &amp; la date de chaque journée employée,
+       <lb/>tant pour la notification qu’il a fait faire à sa partie, <lb/>que autres journées
+       employées actuellement, ce que <lb/>n’estant fait il sera obligé de soustenir par sa bonne
+       <lb/>foy <choice>
+        <abbr>lesd.</abbr>
+        <expan>lesdites</expan>
+       </choice> journées estre bien deues, et en tout cas il ne <lb/>peut estre deu <date dur="P2D"
+        >deux journées</date> pour un mesme jour. </p>
+      
+      <p>
+       <lb/>Ce qu’a esté ainsi passé, conclud &amp; arresté les <lb/>an &amp; jour que devant, &amp;
+       ordonné à moy secretaire <lb/>de Ville l’expedier en cette forme sous le <term ref="lem016327">seel</term> de
+       la <lb/>mayorie &amp; justice <choice>
+        <abbr>dud.</abbr>
+        <expan>dudit</expan>
+       </choice>
+       <origPlace ref="loc007786">Neufchâtel</origPlace>, &amp; signature de <lb/>ma main. </p>
+      
+     </div>
+      
+      <div>
+       <p>
+        <lb/>Idem comme devant.
+       </p>
+       <signed><persName ref="per008992"><choice><abbr>N</abbr><expan>Nicolas</expan></choice> Huguenaud</persName> <figure type="notarial sign"/></signed>
+      </div>
+     
+       
+    </body>
+   </text>
+  </group>
+ </text>
+</TEI>

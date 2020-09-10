@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="headerinfo"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <date type="electronic" when="2020-08-17"/>    <date type="print"/>
+    <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Collection des sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS_NE_3_195</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier>
+      <idno>AVN B 101.14.001, fol. 460v–461r</idno>
+     </msIdentifier>
+     <head>Droits de la veuve sur les biens de feu son mari</head>
+     <msContents>
+      <summary>Précisions sur les droits d’usufruit ou de propriété d’une veuve sur les biens de feu
+       son mari et dont les enfants sont aussi décédés par la suite.</summary>
+      <msItem>
+       <textLang>français</textLang>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="33"/>
+          <width unit="cm" quantity="23.5"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <origDate when="1664-07-02" calendar="Julian"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>
+      </origin>
+     </history>
+     <additional>
+      <listBibl>
+       <head/>
+       <bibl/>
+      </listBibl>
+     </additional>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key000074"></term>
+     <term ref="key004770"></term>
+     <term ref="key000920"></term>
+     <term ref="key000803"></term>
+     <term ref="key000336"></term>
+     <term ref="key005098"></term>
+     <term ref="key003024"></term>
+    </keywords>
+   </textClass>
+   <particDesc default="false"/>
+   <settingDesc default="false"/>
+  </profileDesc>
+ </teiHeader>
+ 
+ <text>
+  <group>
+   <text>
+    <body>
+     
+     
+    
+     
+     <pb n="460v" facs="AVN_B_101.14.001_0460v"/> 
+     
+     <div>
+      <head>
+       <lb/>Ce qu’une vefve peut avoir en jouissance <lb/>sur les biens de feu son mary qui a laissé
+       <lb/>un fils qui est mort <date dur="P4Y">quatre</date> ou <date dur="P5Y">cinq ans</date>
+       <lb/>apres le pere. <lb/>Plus ce qu’elle peut pretendre sur les
+       <lb/><term ref="lem015648.02">accroissances</term>. </head>
+      <p>
+       <lb/>Sur la requeste du <choice>
+        <abbr>s<hi rend="sup">r</hi></abbr>
+        <expan>sieur</expan>
+       </choice>
+       <persName ref="per010151">Pierre Cornu</persName>, <lb/>juré en la justice de <placeName
+        ref="loc007945">Boudevillier</placeName>, &amp; ses consors <lb/>par devant monsieur le
+       maistre bourgeois &amp; <lb/><orgName ref="org003085">Conseil Estroit de la Ville de
+         <placeName ref="loc007786">Neufchastel</placeName></orgName> le <origDate when="1664-07-02"
+        calendar="Julian">2 de <lb/>juillet 1664</origDate>, tendante aux fins d’avoir les points
+       <lb/>de coustumes suivans. </p>
+      <p>
+       <lb/>Premierement, scavoir mon en quoy &amp; surquoy <lb/>la <persName ref="per010153">vefve</persName> de feu <persName ref="per010152a.01">Abraham Cornu de <choice>
+         <sic>Lospine</sic>
+         <corr>l’Espine</corr>
+        </choice></persName><note>Cet ajout a été porté par une branche de la famille durant
+         plusieurs générations. Il provient apparement d’un lieu-dit introuvable, faisant référence à
+        des biens possédés en invision par deux frères de la famille. Ces biens étaient désignés
+        «&#160;en l’Espine&#160;». Voir <bibl><ref target="http://doi.org/10.5169/seals-697458">Pettavel, Jean, Le famille Cornu, in&#160;: Le généalogiste suisse 23 (1956), Heft 3–4</ref>, <ref target="https://www.e-periodica.ch/digbib/view?pid=fsj-002:1956:23::259#64">p.&#160;47</ref></bibl>.</note> peut <lb/>avoir en jouissance sur les biens de feu son
+       mary <lb/>qui a laissé un fils, lequel est mort <date dur="P4Y">4</date> ou <date dur="P5Y">5
+        ans</date>
+       <lb/>apres le decez du pere. </p>
+      <p>
+       <lb/>Secondement, ce qu’elle peut pretendre &amp; avoir en sa <lb/>part des
+       <term ref="lem015648.02">accroissances</term>. </p>
+      <p>
+       <lb/><orgName ref="org003085">Mesdits <choice>
+         <abbr>S<hi rend="sup">rs</hi></abbr>
+         <expan>sieurs</expan>
+        </choice> du Conseil</orgName> eu adviz &amp; meure <lb/>premeditation par ensemble donnent
+       par declaration <lb/>que suivant la coustume usitée en la souveraineté <lb/><choice>
+        <abbr>dud</abbr>
+        <expan>dudit</expan>
+       </choice>
+       <placeName ref="loc007785">Neufchastel</placeName> de pere à fils, &amp; de tout temps
+       <lb/>immemorial jusqu’à present la coustume estre telle. </p>
+      <p>
+       <lb/>Assavoir, que quand le mary &amp; la femme ont esté <lb/><date dur="P1Y6W"><term
+         ref="lem014776">an &amp; jour</term></date> par ensemble ayants eu des enfans de leur
+       <lb/>mariage, &amp; sur ce le pere meurt laissant <choice>
+        <abbr>lesd</abbr>
+        <expan>lesdits</expan>
+       </choice> enfans <lb/>eus de <choice>
+        <abbr>sad</abbr>
+        <expan>sadite</expan>
+       </choice> femme, icelle voulant partir avec sesdits <lb/>enfans ou leurs heritiers, alors <choice>
+        <abbr>lad</abbr>
+        <expan>ladite</expan>
+       </choice> mere &amp; lesdits <lb/>enfans ou heritiers partissent <choice>
+        <abbr>esgallem</abbr>
+        <expan>esgallement</expan>
+       </choice> l’heritage <lb/>soyent meubles ou immeubles du deffunt autant l’un <lb/>que
+       l’autre, soit tant l’ancien heritage que les <choice>
+        <abbr>accroiss<hi rend="sup">ces</hi></abbr>
+        <expan><term ref="lem015648.02">accroissances</term></expan>
+       </choice>
+       <pb n="461r" facs="AVN_B_101.14.001_0461r"/>
+       <lb/>que lesdits pere et mere avoyent fait par ensemble, à <lb/>telle condition que quand à
+       ce qui attouche la moitié <lb/>de l’ancien heritage que pourra avoir retiré ladite <lb/>femme
+       d’avec ses enfans ou leurs heritiers, elle la doit tenir <lb/><del rend="strikethrough"
+        >faire</del> seulement sa vie durant par usement, moyennant <lb/>un inventaire qui en sera
+       dressé, sans que <choice>
+        <abbr>aucunem<hi rend="sup">t</hi></abbr>
+        <expan>aucunement</expan>
+       </choice>
+       <lb/>elle la puisse ny doige vendre, engager ny alliener hors <lb/>de ses mains, sinon que ce
+       fust par cognoissance de <lb/>justice, ou par necessité cogneue, &amp; après le decez de
+       <lb/>ladite mere revient entierement <choice>
+        <abbr>esd</abbr>
+        <expan>esdit</expan>
+       </choice> enfans ou <lb/>heritiers d’iceux, sans qu’elle la puisse donner à <lb/>personne
+       quelconque. </p>
+      <p>
+       <lb/>Et quant à la moitié des biens des <term ref="lem015648.02">accroissances</term>
+       <lb/>qu’avoit retiré <choice>
+        <abbr>lad</abbr>
+        <expan>ladite</expan>
+       </choice> mere, la coustume est telle, <lb/>que de la moitié d’icelle moitié qu’est la quarte
+       partie, <lb/>elle en pourra faire son bon plaisir, &amp; l’autre quarte <lb/>partie devra
+       reunir franchement esdits enfans <lb/>ou à leurs heritiers apres le decez de ladite mere,
+       <lb/>sans la debvoir alliener sinon en cas de necessité <lb/>&amp; par cognoissance
+       judicialle.</p>
+      <p>Ce qu’a esté <lb/>ainsi passé, conclud &amp; arresté les an &amp; jour que <lb/>devant,
+       &amp; ordonné à moy secretaire de Ville l’expedier <lb/>en ceste forme sous le
+       <term ref="lem016327">seel</term> de la mayorie &amp; justice <lb/>dudit <origPlace ref="loc007786"
+        >Neufchastel</origPlace> &amp; signature de ma main. </p>
+      <p>
+       <lb/>Pour copie extraite sur le vray original signé de ma <lb/>main, <persName
+        ref="per009020"><choice>
+         <abbr>M</abbr>
+         <expan>Maurice</expan>
+        </choice> Tribolet</persName> &amp; sur icelle colationné la presente <lb/>par moy notaire.
+      </p>
+     </div>
+      
+      <div>
+       <signed><persName ref="per008992"><choice><abbr>N</abbr><expan>Nicolas</expan></choice> Huguenaud</persName> <figure type="notarial sign"/></signed>
+      </div>
+     
+       
+    </body>
+   </text>
+  </group>
+ </text>
+</TEI>

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     n="1234"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="headerinfo"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2020-08-17"/>    <date type="print"/>
+    <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Collection des sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS_NE_3_404</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>AVN B 101.14.002, fol. 45r–45v</idno>
+               </msIdentifier>
+               <head>Droit des créanciers possédant une délivrance de taxe lorsque le débiteur fait
+                  discussion</head>
+               <msContents>
+                  <summary>Lorsqu’un créancier a obtenu une délivrance de taxe sur les biens de son
+                     débiteur en faillite, les fonds taxés et obtenus en délivrance de taxe rentrent
+                     dans la faillite au bénéfice des créanciers en fonction de la date de leur
+                     créance ou prétention, de leur rang et de leurs privilèges. </summary>
+                  <msItem>
+                     <textLang>français</textLang>
+                     <filiation type="current"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="34.5"/>
+                              <width unit="cm" quantity="22"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1729-10-23"/>
+                     <origPlace ref="loc007786">Neuchâtel</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head/>
+                     <bibl/>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key004001"/>
+               <term ref="key005052"/>
+               <term ref="key000058"/>
+               <term ref="key004367"/>
+               <term ref="key003331"></term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="45r" facs="AVN_B_101.14.002_0045r"/>
+               <div>
+                  <head>
+                     <lb/>Si, une <term ref="lem014968">délivrance de taxe</term> obtenue sur
+                     <lb/>les biens d’un débiteur, lequel venant à faire <lb/><term ref="lem014969"
+                        >discution</term> avant l’<date dur="P1Y1D">an et jour</date> expiré depuis
+                     <lb/>l’obtention de <choice>
+                        <abbr>lad</abbr>
+                        <expan>ladite</expan>
+                     </choice> taxe, les biens taxés ne <lb/>doivent pas rentrer dans la <term
+                        ref="lem014969">discution</term>
+                     <lb/>au profit des créanciers. </head>
+                  <p>
+                     <lb/>Sur la très humble requeste du sieur receveur <lb/>et avocat <persName
+                        ref="per008913">Meuron</persName>, aux fins d’obtenir de <lb/>messieurs le
+                     maistre bourgeois en <lb/>chef et <orgName ref="org003085">Conseil
+                        Étroit</orgName> leur déclaration de <lb/>la coustume du comté de <placeName
+                        ref="loc007785">Neufchastel</placeName>
+                     <lb/>sur le cas suivant. </p>
+                  <p>
+                     <lb/>Sçavoir si, lors qu’un créancier a obtenu <lb/>une <term ref="lem014968"
+                        >délivrance de taxe</term> sur les biens de son <lb/>débiteur, celui ci
+                     venant à faire discution <lb/>avant l’<date dur="P1Y1D">an et jour</date>
+                     <del rend="strikethrough">écoulé</del> révolus, à <lb/>compter dès le jour du
+                     rapport de la dite <lb/>taxe, ou de la demande des lettres judiciaires, <lb/>si
+                     tels fonds taxés et obtenus en <term ref="lem014968">délivrance <lb/>de
+                        taxe</term>, ne rentrent pas dans la discution <lb/>au bénéfice des
+                     créanciers, pour estre remis <lb/>et délivrés à celui qui se trouvera estre
+                     <lb/>fondé à les obtenir, chacun suivant la <lb/>date de sa créance, ou
+                     prétention, son <lb/>rang &amp; ses privilèges. </p>
+                  <pb n="45v" facs="AVN_B_101.14.002_0045v"/>
+                  <p>
+                     <lb/>Messieurs le maistre bourgeois <lb/>en chef et <orgName ref="org003085"
+                        >Conseil Étroit</orgName>, après avoir <lb/>consulté et délibéré entr’eux,
+                     donnent par <lb/>déclaration que de tout temps la coutume <lb/>de <placeName
+                        ref="loc007785">Neufchastel</placeName> est telle. </p>
+                  <p>
+                     <lb/>Que lorsqu’un créancier a obtenu une <lb/><term ref="lem014968">délivrance
+                        de taxe</term> sur les biens de son <lb/>débiteur qui, venant à faire <term
+                        ref="lem014969">discution</term>, <lb/>avant l’<date dur="P1Y1D">an et
+                        jour</date> résolus, à compter dès <lb/>le jour du rapport de <choice>
+                        <abbr>lad</abbr>
+                        <expan>ladite</expan>
+                     </choice> taxe, ou de la <lb/>demande des lettres judiciaires&#160;; les fonds
+                     <lb/>taxés et obtenus en <term ref="lem014968">délivrance de taxe</term>
+                     <lb/>rentrent dans la discution au bénéfice <lb/>des créanciers, pour estre
+                     remis et délivrés <lb/>à celui qui se trouvera fondé à les obtenir, <lb/>chacun
+                     suivant la date de sa créance ou <lb/>prétention, son rang &amp; ses
+                     privilèges. </p>
+                  <p>
+                     <lb/>Laqu’elle déclaration a été ainsi <lb/>faite, et ordonné à moi secrétaire
+                     de <choice>
+                        <abbr>lad</abbr>
+                        <expan>ladite</expan>
+                     </choice>
+                     <lb/>Ville de la rédiger par écrit en cette forme, <lb/>sous le sçeau de la
+                     justice &amp; mairie <lb/>
+                     <choice>
+                        <abbr>dud</abbr>
+                        <expan>dudit</expan>
+                     </choice>
+                     <origPlace ref="loc007786">Neufchastel</origPlace>, le <origDate
+                        when="1729-10-23">vingt troisième jour <lb/>du mois de septembre, l’an mille
+                        sept <lb/>cent vingt et neuf</origDate>. </p>
+                  <p>
+                     <lb/>Signé à l’original. </p>
+               </div>
+               <div>
+                  <signed>
+                     <persName ref="per008651">
+                        <choice>
+                           <abbr>J&#160;F</abbr>
+                           <expan>Jean-Frédéric</expan>
+                        </choice> Brun</persName>
+                     <figure type="notarial sign"/></signed>
+               </div>
+            </body>
+         </text>
+      </group>
+   </text>
+</TEI>

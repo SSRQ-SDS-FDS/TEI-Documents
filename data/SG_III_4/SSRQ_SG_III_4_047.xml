@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die
+					Rechtsquellen der Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+    <persName>Sibylle Malamud</persName>
+    <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+    <persName>Sibylle Malamud</persName>
+    <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-07-09"/>
+            <date type="print"/>
+            <availability><p xml:id="facs">Sibylle Malamud</p></availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+    <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+    <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_047</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+    <msIdentifier>
+       <idno source="https://archivverzeichnis.gl.ch/home/#/content/cf89621b709f4d79aef11630866553ab">LAGL AG III.2417:007</idno>
+       <altIdentifier>
+          <idno>LAGL 33</idno>
+       </altIdentifier>
+    </msIdentifier>
+    <head>Margaretha von Rotenberg, die ohne Zustimmung ihrer Leibherren Stefan Schiner von Sax heiratete, verspricht, ihren Besitz nach Werdenberg zu versteuern</head>
+    <msContents>
+       <summary>
+          <p>Margaretha von Rotenberg hat ohne Zustimmung ihrer Leibherren Stefan Schiner von Sax, der einer anderen Herrschaft angehört, geheiratet. Da sie einer Strafe entgangen ist, verpflichtet sie sich auf Anraten ihres Verwandten und Vogts Walter von Rotenberg, ihren Besitz künftig nach Werdenberg zu versteuern. Sie oder ihre Erben dürfen ihre Güter in Werdenberg nur an die Steuergenossen von Werdenberg verkaufen.</p>Für die Ausstellerin siegelt Klaus Vittler, Bürger von Werdenberg.</summary>
+       <msItem>
+          <textLang>Deutsch</textLang>
+          <filiation type="current">Original</filiation>
+       </msItem>
+    </msContents>
+    <physDesc>
+       <objectDesc>
+          <supportDesc>
+             <support>
+                <material>Pergament</material>
+             </support>
+             <extent>
+                <dimensions type="leaves">
+        <height unit="cm" quantity="12.5"/>
+        <width unit="cm" quantity="25.0"/>
+                </dimensions>
+             </extent>
+          </supportDesc>
+       </objectDesc>
+       <sealDesc>
+          <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI"
+                n="1"
+                nontei:condition="well-preserved"
+                nontei:material="wax"
+                nontei:shape="round"
+                nontei:attachment="sealed on a parchment tag">
+             <persName role="sigillant" ref="per000707a">Klaus Vittler, Bürger von Werdenberg</persName>
+          </seal>
+       </sealDesc>
+    </physDesc>
+    <history>
+       <origin>
+          <origDate when="1450-02-23"/>
+       </origin>
+    </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+    <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+    <term ref="key000110">Heirat</term>
+    <term ref="key000158">Steuergenossenschaft</term>
+    <term ref="key001001">Ungehorsam</term>
+    <term ref="key000084">Leibeigenschaft</term>
+    <term ref="key000653">Ungenossame</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <div org="uniform" sample="complete">
+                  <pb facs="LAGL_AG_III.2417-007_r"/>
+                  <p>
+                     <lb/>
+                     <seg>Ich, <persName ref="per004632a">Greth von Rotenberg</persName>, thuͦn kund
+                        offennlich allermeͣnglich mit disem brieve, als ich <lb/>mich <term
+                           ref="lem001600.03">u̍berfaren</term> han, also das ich <persName
+                           ref="per004633a">Steffann Schiner</persName> von <placeName
+                           ref="loc006042">Sax</placeName>, der nit myner gneͣdigen herschaft
+                        <lb/>von <orgName ref="org000007">Montfort</orgName> als gen <placeName
+                           ref="loc000440">Werdenberg</placeName> zuͦgehoͤrt, ôn wissen und urloben
+                        derselben myner gneͣ<lb break="no"/>digen herschafft und ir anwaͤlten ze
+                        ainem <term ref="lem006712">elichen man</term> genomen hab. Darumb ich
+                        billich <lb/>villicht <term ref="lem000630">gestrâfft</term> weͣre worden,
+                        wa̍n ich der ebenempten myner gneͣdigen herschaft als gen <lb/><placeName
+                           ref="loc000440">Werdenberg</placeName> zuͦgehoͤr als ander, die zuͦ
+                           <placeName ref="loc000440">Werdenberg</placeName> gehoͤrendt, das nü nit
+                        beschehen ist. <lb/>Darumb so hab ich mich mit rât, willen und <term
+                           ref="lem005936.08">verheͣnknu̍sse</term>
+                        <persName ref="per004634a">Waͤltis von Rotenberg</persName>, mynes
+                        <lb/>lieben <term ref="lem000128">fru̍nd</term>s und mit recht gesatzten
+                           <term ref="lem000180">vogt</term>s, willenklich und unbezwungenlich
+                        begeben <lb/>und ergeben hân und begib mich des fu̍r mich selb und myn erben
+                        wissenklich in krafft <lb/>dis briefs, das wir alles das <term
+                           ref="lem005362">guͦt</term>, so u̍ns gott beratet, ich jetzo hab ald mich
+                        und myn <lb/>erben miner sïten halb anvallet, es sig u̍ber kurtz ald lang
+                        zit, soͤllent und wellent wir als <lb/>gen <placeName ref="loc000440"
+                           >Werdenberg</placeName> mit <term ref="lem000209">stu̍r</term>en
+                        verdienen, sonderlich gehorsam und geweͣrtig ze sind als <lb/>ander, die zuͦ
+                           <placeName ref="loc000440">Werdenberg</placeName> gehoͤrendt, wye darumb
+                        sitt und herkomen ist, ungevarlich.</seg>
+                     <seg>Och <lb/>so vil me, ob sich fuͤgen wurd, das ich, oder ob ich nit waͤre,
+                        myn erben, die guͤter, so wir <lb/>also in der herschafft <placeName
+                           ref="loc000440">Werdenberg</placeName> hettind, verkoffen woͤltindt, so
+                        soͤllen wyr die mit geding niemand <lb/>anders ze koffen <choice>
+                           <abbr>ge</abbr>
+                           <expan>geben</expan>
+                        </choice> denn den <orgName ref="org001862">
+                           <term ref="lem000794.05">stu̍rgenossen</term> ze Werdenberg</orgName>.
+                        Ouch mit geding die selben guͤter des <lb/>ersten anbieten und ze koffen
+                        geben daselbs u̍nsern nechsten fru̍nden, wer die denn sind, waͤre sach,
+                        <lb/>dz si als vil darumb geben woͤltind als ander lu̍t darumb
+                        gaͤbind.</seg>
+                     <seg>Ze urku̍nd der warhait, so hab <lb/>ich, <choice>
+                           <abbr>obgnte</abbr>
+                           <expan>obgenannte</expan>
+                        </choice>
+                        <persName ref="per004632a">Greth von Rotenberg</persName>, mitsampt dem <choice>
+                           <abbr>obgntn</abbr>
+                           <expan>obgenannten</expan>
+                        </choice>
+                        <persName ref="per004634a">Waͤltin von Rotenberg</persName>, mynen mit recht
+                        gesatzten vogt, <lb/>gar ernstlich erpetten den fromen <persName
+                           ref="per000707a">Klasen Vittler</persName>, burger ze <choice>
+                           <abbr>Wdenbg</abbr>
+                           <expan>Werdenberg</expan>
+                        </choice>, dz er sin aigen insigel, doch im und sinen <lb/>erben ôn schaden
+                        fu̍r u̍ns offenlich gehenkt hat an disen brief, darunder ich mich, alle min
+                        erben und nachkomen <lb/>und ich, <choice>
+                           <abbr>obgnt</abbr>
+                           <expan>obgenannt</expan>
+                        </choice>
+                        <persName ref="per004634a">Waͤlti von Rotenberg</persName>, von der vogty
+                        wegen allen <choice>
+                           <abbr>obgnten</abbr>
+                           <expan>obgenannten</expan>
+                        </choice> ding verpunden hand. Geben uff sant <lb/><origDate
+                           when="1450-02-23"><persName ref="per000375">Mathyas</persName> abend <choice>
+                              <abbr>apli</abbr>
+                              <expan>apostoli</expan>
+                           </choice>
+                           <foreign xml:lang="la">anno <abbr>dm</abbr> m<hi rend="sup">o</hi>
+                                 iiij<hi rend="sup">o</hi>
+                              <choice>
+                                 <abbr>ququagesimo</abbr>
+                                 <expan>quinquagesimo</expan>
+                              </choice></foreign></origDate>.</seg>
+                     <lb/>
+                  </p>
+               </div>
+               <pb facs="LAGL_AG_III.2417-007_v"/>
+               <div org="uniform" sample="complete">
+                  <ab type="dorsal" place="verso" hand="hand18c">
+                     <persName ref="per004632a"><lb/>Grethen von Rotenberg</persName> verbindungs<lb
+                        break="no"/>brief ihr gut auf Werdenberg zu versteuren</ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab type="dorsal" place="verso" hand="hand15c">
+                     <persName ref="per004632a"><lb/>Gretten</persName> brief von <lb/>Rotenberg</ab>
+               </div>
+              
+               <div org="uniform" sample="complete">
+                  <ab place="verso" type="archiving reference">1450 N<hi rend="sup">o</hi> 33
+                           <del>N<hi rend="sup">o</hi> 154</del></ab>
+               </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div org="uniform" sample="complete">
+            <p>Das vorliegende Stück steht in engem Zusammenhang mit der <term ref="key000084"
+       >Leibeigenschaft</term> und den daraus resultierenden leibherrlichen Rechte auf
+    die Person und ihren <term ref="key000152">Besitz</term>. <persName ref="per004632a"
+       >Margaretha von Rotenberg</persName> geht als Leibeigene der Grafschaft <placeName
+       ref="loc000440">Werdenberg</placeName> eine <term ref="lem004550"
+       >ungenossame</term> Ehe ein, d. h. sie heiratet einen Mann, der Leibeigener einer
+    anderen Herrschaft ist. Sie versäumt es, die Bewilligung ihres <term ref="lem003315"
+       >Leibherr</term>n einzuholen. Leibeigene müssen jedoch unter Androhung einer
+    Strafe bei einer <term ref="key000110">Heirat</term> mit einer ungenossamen Person
+    oder einem Herrschaftswechsel die Erlaubnis des Leibherrn einholen, damit keine
+    Unklarheiten bei der leibherrlichen Rechtsabgrenzung entstehen sowie leibherrliche
+       <term ref="key000273">Abgaben</term> und vermögensrechtliche Ansprüche (z. B.
+               Todfall, Abgaben auf Güter) nicht geschmälert werden (vgl. dazu <bibl><ref target="http://permalink.snl.ch/bib/chbsg000150482">HRG</ref>,
+                  Bd. 2, S. 1761–1771</bibl>). Um
+    der <term ref="key000905">Strafe</term> zu entgehen, verpflichtet sich Margaretha,
+    ihren Besitz weiterhin nach <placeName ref="loc000440">Werdenberg</placeName> zu
+    versteuern. Bei einem <term ref="key000231">Verkauf</term> ihrer Güter in Werdenberg
+    hat sie diese vorher den <orgName ref="org001862">Steuergenossen</orgName> von
+    Werdenberg anzubieten. In späterer Zeit fordert die Herrschaft bei einer ungenossamen
+    Heirat oder bei Herrschaftswechsel eine Gebühr (<term ref="key000446">Abzug</term>)
+    (vgl. dazu z. B. <bibl><ref target="https://www.ssrq-sds-fds.ch/online/SG_III_2/index.html#p_557">SSRQ SG
+       III/2.1, Nr. 154a</ref></bibl>).</p>
+         </div>
+      </back>
+   </text>
+</TEI>

@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     n="1234"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="headerinfo"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2020-08-17"/>    <date type="print"/>
+    <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Collection des sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS_NE_3_338</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>AVN B 101.14.001, fol. 584r–585r</idno>
+               </msIdentifier>
+               <head>Distinction des biens meubles et portion d’un survivant sur les meubles</head>
+               <msContents>
+                  <summary>Informations concernant la répartition des biens, lors du décès de l’un
+                     des conjoints, avec et sans enfant. </summary>
+                  <msItem>
+                     <textLang>français</textLang>
+                     <filiation type="current"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="33"/>
+                              <width unit="cm" quantity="23.5"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1701-04-20"/>
+                     <origPlace ref="loc007786">Neuchâtel</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head/>
+                     <bibl/>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000920"/>
+               <term ref="key000815"/>
+               <term ref="key001112"/>
+               <term ref="key004428"/>
+               <term ref="key000138"/>
+               <term ref="key000558"/>
+               <term ref="key000803"/>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="584r" facs="AVN_B_101.14.001_0584r"/>
+               <div>
+                  <head><p>
+                     <lb/>1. Touchant les successions.</p>
+       <p><lb/>2. La distinction des biens meubles.</p>
+        <p><lb/>3. La portion d’un survivant sur les meubles.</p>
+      </head>
+                  <p>
+                     <lb/>Sur la requeste presentée à messieurs le <lb/>maitre bourgeois et <orgName ref="org003085">Conseil
+        Etroit de la Ville <lb/>de <placeName ref="loc007786">Neufchastel</placeName>
+                     </orgName> par le <choice>
+                        <abbr>S<hi rend="sup">r</hi>
+                        </abbr>
+                        <expan>sieur</expan>
+                     </choice> avocat <persName ref="per008997">Abram Brandt</persName>, <lb/>bourgeois de <choice>
+                        <abbr>lad</abbr>
+                        <expan>ladite</expan>
+                     </choice> ville, tendante aux fins d’avoir <lb/>declaration de la coutume sur les articles
+       <lb/>suivans. </p>
+                  <p>
+                     <lb/>1. Si c’est la coutume en ce pays, et s’il y a jamais
+       <lb/>eu aucun exemple, que dans les successions legi<lb break="no"/>times qui arrivent hors du mariage, il y ait
+       <lb/>ces deux sortes d’heritiers, sçavoir les uns,
+                     <lb/>des meubles, et les autres des immeubles&#160;? Si
+       <lb/>au contraire tous ceux qui se trouvent habiles
+       <lb/>à ces successions n’heritent pas des biens du
+       <lb/>deffunt, tant meubles qu’immeubles, sans que
+                     <lb/>cette distinction y ait eu, ni puisse avoir lieu&#160;?
+      </p>
+                  <p>
+                     <lb/>2. Quels sont et quels ne sont pas en fait de
+       <lb/>successions les biens mobiliaires, quand il s’agit
+       <lb/>de les distinguer des immeubles, sçavoir dans
+       <lb/>le cas où la coutume donne à celui de deux
+       <lb/>conjoints par mariage qui survit à l’autre une
+       <lb/>portion dans ses <add place="above">biens</add> meubles, et dans le cas où le deffunt
+       <lb/>a disposé de ses meubles en faveur de quelqu’un,
+                     <lb/>soit par donation ou autrement&#160;?
+      </p>
+                  <p>
+                     <lb/>3. Quelle est cette portion que le survivant
+       <lb/>des conjoints doit avoir dans les biens mobi<lb break="no"/>liaires du predecedé, dans le cas où il laisse
+       <lb/>des enfans, et dans le cas où il n’en laisse
+                     <lb/>point&#160;?
+      </p>
+                  <p>
+                     <lb/>
+                     <orgName ref="org003085">
+                        <choice>
+                           <abbr>MesdS<hi rend="sup">rs</hi>
+                           </abbr>
+                           <expan>Mesdits sieurs</expan>
+                        </choice> du Conseil</orgName>, ayant eu avis par <lb/>ensemble, ont declaré et declarent
+       que, de <lb/>tout temps immemorial de pere à fils, la <lb/>coutume est telle. </p>
+                  <p>
+                     <lb/>Assavoir, sur le premier article, que
+       <lb/>lors qu’il y a une succession à recueillir,
+       <lb/>l’heritier legitime herite generalement
+       <lb/>tous les biens d’un deffunt tant meubles
+       <lb/>qu’immeubles sans distinction.
+      </p>
+                  <p>
+                     <lb/>Sur le second, que dans le cas où la cou<lb break="no"/>tume donne à celui de deux conjoints par
+       <lb/>mariage qui survit l’autre, une portion
+                     <lb/>dans les meubles du decedé&#160;; et dans le
+       <lb/>cas où un deffunt a disposé de ses meubles
+       <lb/>en faveur de quelqu’un, soit par donation
+                     <lb/>ou testament&#160;; l’on entend par meubles
+       <lb/>les meubles meublans, compris le betail qui
+       <lb/>se trouve dans la maison du deffunt lors de
+                     <lb/>son deceds&#160;; mais l’or, l’argent, les lettres
+       <lb/>viageres, les obligations, cedules, comptes,
+                     <pb n="585r" facs="AVN_B_101.14.001_0585r"/>
+                     <lb/>articles sur les livres de raison, et autres
+       <lb/>redevances, et la marchandise, non plus que
+       <lb/>le vin et le grain, ne sont point compris dans
+       <lb/>les meubles.
+      </p>
+                  <p>
+                     <lb/>Sur le troisième, que le survivant de deux <lb/>personne conjointes par
+                     mariage et qui ont vescu <lb/><date dur="P1Y6W">an et jours</date> par
+                     ensemble, à compter des le jour de <lb/>leurs nopces, herite pour lui et ses
+                     hoirs, assavoir <lb/>la moitié des biens meubles appartenans au deffunt <lb/>à
+                     l’heure de son deceds, ne delaissant point d’enfans. <lb/>Mais si le deffunt ou
+                     la deffunte delaisse un <lb/>ou plusieurs enfans, soit de leur mariage, ou
+                     <lb/>d’autres precedens mariage, alors le survivant <lb/>herite <choice>
+                        <abbr>seulem<hi rend="sup">t</hi>
+                        </abbr>
+                        <expan>seulement</expan>
+                     </choice> le quart des meubles apparte<lb break="no"/>nans au deffunt ou à la
+                     deffunte le jour de <lb/>son deceds. </p>
+                  <p>
+                     <lb/>Ce qui a ainsi esté fait et declaré et ordonné <lb/>à moy, secretaire de
+                     Ville soussigné, de l’expedier <lb/>en cette forme, sous le <term ref="lem016327">seel</term> de la mayrie
+                     et <lb/>justice <choice>
+                        <abbr>dud</abbr>
+                        <expan>dudit</expan>
+                     </choice>
+                     <origPlace ref="loc007786">Neufchastel</origPlace>, le <origDate
+                        when="1701-04-20">20 d’avril <hi rend="underline">1701.</hi></origDate>
+                  </p>
+               </div>
+               <div>
+                  <p>
+                     <lb/>L’original est signé par moy.
+       </p>
+                  <signed>
+                     <persName ref="per009011">
+                        <choice>
+                           <abbr>J&#160;J</abbr>
+                           <expan>Jean-Jacques</expan>
+                        </choice> Favargier</persName> <figure type="notarial sign"/>
+                  </signed>
+               </div>
+            </body>
+            <back>
+               <div>
+                  <p>Ce point de coutume est le premier du calendrier grégorien. Neuchâtel abandonne le calendrier julien le 31 décembre 1700, le 1<hi rend="sup">er</hi> janvier 1701 est donc le 12 janvier 1701.</p>
+               </div>
+            </back>
+         </text>
+      </group>
+   </text>
+</TEI>

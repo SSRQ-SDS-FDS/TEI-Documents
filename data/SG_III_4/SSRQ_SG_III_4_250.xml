@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-08-15"/>
+            <date type="print"/>
+            <availability><p xml:id="facs">Sibylle Malamud</p></availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_250</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>PA Litscher I</idno>
+               </msIdentifier>
+               <head>Auszug über eine Vereinbarung zwischen dem Seveler Bergdrittel und den zwei Seveler Taldritteln über die Nutzung von Gütern</head>
+               <msContents>
+                  <summary><p>Folgendes wird zwischen dem Seveler Bergdrittel und den zwei Taldritteln über den Nutzen
+   an Gütern und die Pflichten festgehalten:</p> <p>1. Alle Drittel haben die gleichen Nutzen und
+      Pflichten.</p> <p>2. Die Bergleute müssen auch bei Rheinfuhren und dem Unterhalt der Strassen mithelfen,
+         ausgenommen sind Landstrassen.</p> <p>3. Die Rheinwege sollen von den Talleuten unterhalten werden.</p> <p>4.
+            Wege am Berg und durch Eigengüter sollen von den Eigentümern unterhalten werden.</p> <p>5. Anteil am
+               Wächterlohn.</p> <p>6. Der Tag des Auftriebs ist am Georgstag, der dem 23. und nicht dem 25. April
+                  entspricht; der Tag des Abtriebs ist an Michael (29. September).</p> <p>7. Die Talleute möchten über die
+                     obigen Daten noch beraten.</p> <p>8. Die Vereinbarung dauert so lange wie die Seveler Legibriefe gültig
+   sind.</p></summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <author role="scribe"><persName ref="per002684">Fridolin Luchsinger</persName>, Landschreiber</author>
+                     <filiation type="current">Auszug (Doppelblatt)</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="35.0"/>
+                              <width unit="cm" quantity="20.5"/>
+                           </dimensions>
+                        </extent>
+                        <condition>Wasserflecken</condition>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate from="1784-08-14" to="1800-08-14">Nur Monat und Tag, ohne Jahr</origDate>
+                     <origPlace>Schloss Werdenberg</origPlace>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key004059">Gemeindegenossen</term>
+               <term ref="key000728">Weg</term>
+               <term ref="key003827">Steg und Weg</term>
+               <term ref="key000520">Wuhr</term>
+               <term ref="key000298">Vieh</term>
+               <term ref="key004250">Landstrasse</term>
+               <term ref="key000307">Allmend</term>
+               <term ref="key005273">Neugut</term>
+               <term ref="key000759">Teilung</term>
+               <term ref="key000951">Hanfland</term>
+               <term ref="key000730">Herbst</term>
+               <term ref="key000527">Bergleute</term>
+               <term ref="key000528">Talleute</term>
+               <term ref="key000759">Teilung</term>
+               <term ref="key000951">Hanfland</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <div>
+                  <p><pb n="1r" facs="PGA_Litscher_I_1r"/>
+                     <lb/>Extractus</p>
+                  <p>
+                     <lb/>Die <orgName ref="org001870">Seveler</orgName>
+                     <num value="2">2</num>
+                     <term ref="lem013406">drittell</term><note>Seveler Dorfdrittel und <orgName ref="org001869"
+                        >Räfiser Drittel</orgName>.</note> am <term ref="lem016369.01">boden</term> sind mit
+                     <lb/>dem <orgName ref="org001868">berger drittell</orgName> folgender gestalten
+                     <lb/>vorläufig übereinsgekomen:</p>
+                  <p><seg n="1">
+                     <lb/>Nemlich, daß alle 3 <term ref="lem013406">drittell</term> in nutz und beschwarden
+                     <lb/>der <term ref="lem002448">gemeindtsgnußen</term> in <term ref="lem000246"
+                        >gärthen</term>, <term ref="lem016377.02">neügütheren</term>,<note>Zu den Neugütern vgl.
+                           auch <bibl><ref>OGA Sevelen U&#160;1733</ref></bibl>.</note>
+                     <lb/><term ref="lem002791">hanfländeren</term> und all anderem gmeinsamm durch <lb/>ein
+                     andern zu beziehen haben sollen.</seg></p>
+                  <p>
+                     <seg n="2">
+                        <lb/>Danne die <orgName ref="org001868">berger</orgName> unterwerfen sich in <lb/><term
+                           ref="lem011358">gmeinen werkhen</term> der <term ref="lem009027">rheinfuhren</term>, <term
+                              ref="lem001145">steeg <lb/>und weegen</term> zu arbeiten, wie die <term ref="lem016373.02"
+                                 >ebneleüthe</term>, <lb/>auch vorbehalten, die <term ref="lem000596">landtstraß</term>
+                        solle <lb/>nach der oberkeitlichen erkantnus<note>Vgl. dazu Kommentar 1.</note> sein ver<lb
+                           break="no"/>bleiben haben. Die <term ref="lem016378.02">allmeindweeg</term> oder <lb/>so
+                        genante schuldige <term ref="lem008046">gemeinds</term>
+                        <term ref="lem000173">weege</term> auf der <lb/><term ref="lem000512.07">allmeind</term> zu
+                        <term ref="lem009864">berg und thahl</term> sollen von <lb/>allen drei drittlen gemeinsamm
+                        gemacht <lb/>werden.</seg></p>
+                  <p><seg n="3">
+                     <lb/>Die sogenanten <term ref="lem016376.02">rheinweege</term> in der <term ref="lem000202"
+                        >ebne</term>
+                     <lb/>auf eigenem guth und feldern als <unclear>... <lb/> ...</unclear>
+                     sollen von denen <term
+                        ref="lem016373.03">ebne leüthe</term> wie bis dahin <lb/>gemacht werden. </seg></p>
+                  <p><seg n="4">
+                     <lb/>Die <term ref="lem014496">ehe</term> und andere <term ref="lem000173">weege</term> am
+                     <term ref="lem000573">berge</term> in <lb/><term ref="lem000807">eigenen gütheren</term>
+                     sollen wie bis dahin von <lb/>denen güther eigenthümmerer gemacht werden.</seg></p>
+                  
+                  <pb n="1v" facs="PGA_Litscher_I_1v"/>
+                  <p><seg n="5">
+                     <lb/>Denen <orgName ref="org001868">bergeren</orgName> solle anstatt dem <term
+                        ref="lem016374.02">wächter <lb/>guth</term>, so die <term ref="lem016373.03">ebne
+                           leüthe</term> haben, auch nach <lb/>proportion so vile guth zu getheilt werden.
+                     <lb/>Dagegen werden die <orgName ref="org001868">berger</orgName> ihrer antheil <lb/><term
+                        ref="lem016375.01">wachtlohn</term>, was ihnen wegen der <term ref="lem000240"
+                           >kilchen</term>
+                     <lb/>und <term ref="lem002474.11">pfrundhause</term> nach proportion treffen <lb/>mag, an
+                     <term ref="lem000308">gelt</term> erlegen. </seg></p>
+                  <p>
+                     <seg n="6">
+                        <lb/>Die <orgName ref="org001868">berger</orgName> sezen, daß in der gemeind der
+                        <lb/>ordinare <del>as</del> außlaßungs tag auf <persName ref="per000270a"
+                           >Georgitag</persName>, <lb/>allezeit den <date when="--04-23"> 23. aprill</date>,<note>Nach
+                              Grotefend ist im Bistum <placeName ref="loc000021">Chur</placeName> der Georgstag der <date
+                                 when="--04-25">25. April</date>. Dieser Eintrag nennt jedoch den 23. April und scheint
+                              damit die neuesten Erkenntnisse von Tschaikner, zumindest für die Landvogtei Werdenberg, zu
+                              bestätigen. Nach Tschaikner (Manfred Tschaikner, Die Datierung des Georgstags im nördlichen
+                              Teil der Diözese Chur, in: Bludenzer Geschichtsblätter 119/2018, S.&#160;4–8) wurde im
+                              nördlichen Bereich der Diözese Chur (Vorarlberger Oberland) der Georgstag am <date
+                                 when="--04-23">23. April</date> gefeiert. Ob dies auch für die ganze Region <placeName
+                                    ref="loc000962">Werdenberg</placeName> zutrifft, kann nicht mit Sicherheit verifiziert
+                              werden. In den von mir gesichteten Werdenberger Quellen wird der Georgstag als
+                              Ausstellungsdatum zwar häufig angegeben (besonders in <placeName ref="loc000278"
+                                 >Sax-Forstegg</placeName>), doch nie mit einem Vermerk auf das Datum oder den
+                              Wochentag.</note> festgesezt seyn solle, vor <lb/>hero solle zu berg und thal niemand
+                        auslaßen. <lb/>Die <term ref="lem016371.02">trattniesung</term> solle zu berg und thahl
+                        <lb/><del>wie bis dahin</del> gemeinsamm genuzet <lb/>werden. <lb/>Die berger sezen den
+                        <term ref="lem016372.01">einstellungstag</term> am <lb/><term ref="lem000479">herbst</term>
+                        allezeit auf neüen <persName ref="per000390">Micheli</persName>, nach dieser <lb/>zeit solle
+                        jeder alle seine <term ref="lem010613">haabe</term>, <term ref="lem001069">roß</term> und
+                        <term ref="lem000310">viehe</term>, <lb/>was es sein mag, auf seinem eigenen haben. </seg></p>
+                  <p>
+                     <seg n="7">
+                        <lb/>Die <term ref="lem016373.03">ebne leüthe</term> gehen alles ein bis auf <lb/>den <term
+                           ref="lem016379.02">außlaß</term> und <term ref="lem016372.01">einstellungstag</term>,
+                        welcher <lb/>sie noch ad referendum nehmen. </seg></p>
+                  <p>
+                     <seg n="8"><lb/>Zu beiden theilen behalten sie sich ihre alte <lb/>briefe und sigell vor und
+                        solle diese <lb/>gütliche machenschaft nur so lange währen <lb/>als der jezige <term
+                           ref="lem016231">legibriefe</term> zu <placeName ref="loc000708">Sevelen</placeName> dauert. </seg></p>
+                  <p>
+                     <lb/>Beschehen, schloß <origPlace ref="loc000015">Werdenberg</origPlace>, den <date
+                        when="--08-14">14. august</date><note>Die Jahrzahl fehlt, dem <term ref="key000310"
+                           >Landschreiber</term>
+                           <persName ref="per002684">Fridolin Luchsinger</persName> nach zu urteilen muss das Dokument
+                           nach <date when="1779">1779</date> entstanden sein, da Luchsinger 1779 zum Landschreiber
+                           gewählt wird (<bibl><ref
+                              target="https://archivverzeichnis.gl.ch/home/#/content/59b5cc31a8e649c48756acb04589359b"
+                              >LAGL&#160;AG&#160;III.2442:047</ref></bibl>). Zur Datierung vgl. den
+                           Kommentar.</note>, <lb/><persName ref="per002684">Fridolin Luchsinger</persName>, <lb/><term
+                              ref="lem002854">landtschreiber</term>. 
+                  </p>
+               </div>
+               <div><ab type="dorsal" place="verso" hand="hand18c"><lb/>Extractus</ab></div>
+               
+            </body>
+         </text>
+      </group>
+      <back>
+         <div n="1">
+            <p>Das Dokument gibt nur Tag und Monat des Ausstellungsdatums an, das Jahr fehlt.
+               Wahrscheinlich ist die <term ref="key003245">Übereinkunft</term> zwischen dem Seveler
+                  <orgName ref="org001868">Bergdrittel</orgName> und den beiden Dorfdritteln
+                  <orgName ref="org001870">Sevelen</orgName> und <orgName ref="org001869"
+                  >Räfis</orgName> im <date when="1784-08">August 1784</date> oder einige Jahre
+               danach entstanden, da im Dokument auf eine oberkeitliche Erkenntnis über die <term
+                  ref="key004250">Landstrassen</term> referenziert wird. Dabei handelt es sich mit
+               ziemlicher Sicherheit um das <term ref="key000683">Urteil</term> des <term
+                  ref="key000180">Landvogts</term> mit dem <term ref="key000288">Oberamt</term>
+               zwischen dem <orgName ref="org001868">Seveler Bergdrittel</orgName> und den beiden
+                  <orgName ref="org001870">Seveler</orgName> und <orgName ref="org001869"
+                  >Räfiser</orgName> Dorfdritteln vom <date when="1784-04-05">5. April 1784</date>
+               betreffend die Landstrasse (<bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/799637a676534709a686accd097f101f"
+                     >LAGL AG&#160;III.2428:007</ref></bibl>) oder das Appellationsurteil von
+                  <placeName ref="loc000326">Glarus</placeName> vom <date when="1784-05-18">18. Mai
+                  1784</date> (OGA Sevelen U&#160;1784). Es sind die einzigen Urteile, die den
+               Unterhalt des Bergdrittels an der Landstrasse verhandeln. Darin geht es um die Frage,
+               wie oder auf welche Weise die neu gemachte <term ref="key004250">Landstrasse</term>
+               unter den Dritteln weiter <term ref="key000187">unterhalten</term> werden soll.
+                  <orgName ref="org001197">Glarus</orgName> erkennt, dass das Seveler <orgName
+                  ref="org001868">Bergdrittel</orgName> diejenige Strasse, die es nach alter Übung
+               unterhalten hat und die von dem <placeName ref="loc008521.01">Ranser Steg</placeName>
+               durch den <placeName ref="loc008416.02">Langen Graben</placeName> bis zum <placeName
+                  ref="loc008522.01">Schild</placeName> geht, ohne Hilfe der beiden anderen Dritteln
+               unterhalten muss. </p>
+            <p>Zu den Seveler Dritteln vgl. auch <ref>SSRQ_SG_III_4_052</ref>. </p></div>
+         <div n="2">
+            <p>Bereits <date when="1592">1592</date> kommt es zwischen den beiden Dorfdritteln <orgName ref="org001869">Räfis</orgName>
+               und <orgName ref="org001870">Sevelen</orgName> und dem <orgName ref="org001868">Bergdrittel</orgName> zum Streit um die
+               <term ref="key004591">Fuhren</term> an den <placeName ref="loc000644">Rhein</placeName> im <term ref="key000702">Winter</term>, auch Winterfuhren genannt (<bibl><ref>[PA&#160;Hilty]
+                  Privatarchiv Mappe Sevelen, 17.05.1592</ref></bibl>): </p>
+            <p>1. Wenn eine der <term ref="key000648">Genossenschaften</term> von <placeName
+                  ref="loc000708">Sevelen</placeName> eine <term ref="key004591">Fuhr</term> an den
+                  <placeName ref="loc000644">Rhein</placeName> bringen will, soll sie dies laut
+                  <term ref="key004797">Legibrief</term> tun. Die beiden Dorfdrittel sollen <term
+                  ref="key004608">Steine</term>, das Bergdrittel soll <term ref="key000524"
+                  >Holz</term> an den Rhein transportieren. Auf sechs Fuhren mit <term
+                  ref="key004608">Steinen</term> der beiden Dorfdritteln folgen vier Fuhren mit Holz
+               des Bergdrittels.</p>
+            <p>2. Wenn man Steine führt, doch kein Holz braucht, sollen die vom Berg die Hölzer trotzdem
+               transportieren.</p>
+            <p>Am <date when="1635-06-10">10. Juni 1635</date> wird dieses Urteil auf Verlangen der
+               beiden Dorfdrittel dahingehend geändert, dass die Bergleute auf sechs Steinfuhren der
+               Talleute anstatt der Holzfuhren vier Steinfuhren an den Rhein tätigen (<bibl><ref>OGA
+                     Sevelen U&#160;1635-2</ref></bibl>). Dieses Urteil wird sowohl am <date
+                  when="1626-06-25">25. Juni 1636</date> als auch am <date when="1638-02-10">10.
+                  Februar 1638</date> bestätigt (<bibl><ref>OGA Sevelen U&#160;1636-1</ref>;
+                     <ref>U&#160;1638-1</ref></bibl>), jedoch am <date when="1638-06-08">8. Juni
+                  1638</date> wieder aufgehoben und es wird zur Bestimmung von <date when="1592"
+                  >1592</date> über die vier <term ref="key004505">Holzfuhren</term> zurückgekehrt
+                     (<bibl><ref>OGA Sevelen U&#160;1638-2</ref></bibl>). Am <date when="1638-09-10"
+                  >10. September 1638</date> werden für das Bergdrittel <term ref="key000249"
+                  >Wälder</term> gebannt, aus denen sie das Holz für die Wuhren gewinnen können
+               sowie die <term ref="key000305">Grenzen</term> der neuen und alten <term
+                  ref="key000747">Bannwäldern</term> verzeichnet (<bibl><ref>PGA&#160;Sevelen
+                     B02</ref></bibl>). </p>
+            <p><date when="1733">1733</date> bestimmt Glarus über die Winterfuhren an den <placeName
+                  ref="loc000644">Rhein</placeName>, dass <orgName ref="org003225">St.
+                  Ulrich</orgName> und <orgName ref="org004000">Glat</orgName> wie die Talleute
+               Steine auf das <term ref="key000520">Wuhr</term> bringen sollen. Andere Fuhren für
+               das Wuhr sollen sie gleichzeitig mit den Bergleuten tätigen (<bibl><ref>OGA Sevelen
+                     U&#160;1733</ref></bibl>). <date when="1789">1789</date> erkennt <orgName
+                  ref="org001197">Glarus</orgName>, dass wegen der grossen Veränderungen seit <date
+                  when="1638">1638</date> die Bergleute nicht nur <term ref="key000524">Holz</term>,
+               sondern auch <term ref="key004608">Steine</term> für die <term ref="key000520"
+                  >Wuhren</term> am <placeName ref="loc000644">Rhein</placeName> transportieren
+               müssen. Die vom Berg haben die Wahl entweder das Holz oder die Steine zu führen. In
+                  <placeName ref="loc000708">Sevelen</placeName> sollen gute <term ref="key004796"
+                  >Steinbrüche</term> angelegt werden, aus denen auf Kosten der Gemeindekasse die
+               Steine gebrochen werden sollen (<bibl>OGA Sevelen U&#160;1789</bibl>, vgl. auch
+                     <bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/c228ade8bca646e69af42158d585a399"
+                     >LAGL AG&#160;III.2454:012</ref>; <ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/4b78ffec0bd64eb6812f637d57236c59"
+                     >AG&#160;III.2423:035</ref></bibl>; <bibl><ref>OGA Sevelen
+                  U&#160;1791</ref></bibl>). Zu den Winterfuhren vgl. auch <bibl><ref>OGA Sevelen
+                     U&#160;1748</ref></bibl>.</p></div>
+         <div n="3">
+            <p>Gleichzeitig zu den Auseinandersetzungen über die Winterfuhren werden auch
+               Streitigkeiten über die <term ref="key000336">Nutzniessung</term> der <term
+                  ref="key003834">Gemeindegüter</term> zwischen dem Bergdrittel und den beiden
+               Dorfdritteln geregelt: Am <date when="1636-10-10">10. Oktober 1636</date> verlangen
+               die Bergleute, dass die Talleute, die einen Monat früher ihre <term ref="key000307"
+                  >Allmenden</term> nutzen können, nicht auch den <term ref="key000249">Wald</term>
+               mitnutzen. Das Begehren der Bergleute wird abgewiesen. Nach dem <date when="--09-14"
+                  >Heiligkreuztag</date> im <term ref="key000730">Herbst</term> dürfen die Wälder
+               auch mit <term ref="key000264">Pferden</term> bestossen werden. Doch soll ein neuer
+                  <term ref="key004797">Legibrief</term> aufgerichtet werden und die Artikel vom
+               alten Legibrief von <date when="1613">1613</date> dahingehend verändert werden, dass
+               die <term ref="key004631">Armen</term> die gleichen Rechte haben sollen wie die <term
+                  ref="key005269">Reichen</term> (<bibl><ref>OGA Sevelen
+               U&#160;1636-2</ref></bibl>). Dieses Urteil wird zusammen mit dem neuen Legibrief von
+                  <date when="1637">1637</date> am <date when="1638-06-08">8. Juni 1638</date>
+               bestätigt und bestimmt, dass der <term ref="key000249">Wald</term> zur besseren
+               Nutzung im <term ref="key000726">Frühling</term> von den Kirchgenossen zwei Tage
+                     <orig><term ref="lem002567">geschwemmt</term></orig> werden soll
+                     (<bibl><ref>OGA Sevelen U&#160;1638-2</ref></bibl>).</p></div>
+      </back>
+   </text>
+</TEI>
+

@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="headerinfo"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <date type="electronic" when="2020-08-17"/>    <date type="print"/>
+    <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Collection des sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS_NE_3_181</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier>
+      <idno>AVN B 101.14.001, fol. 451r–451v</idno>
+     </msIdentifier>
+     <head>Passation d’un testament</head>
+     <msContents>
+      <summary>Les légataires doivent être payés au moment ordonné par le testament. Quand un
+       testament est défectueux en un point, il l’est en tout. Les témoins de la passation d’un
+       testament ne doivent pas être parent du notaire, testateur ou héritier. Ces témoins doivent
+       être au nombre de cinq à sept. Le fait de savoir si un testament ne peut être rédigé que sur
+       son lit de mort ou confirmés à ce moment-là est renvoyé à une connaissance de
+       justice.</summary>
+      <msItem>
+       <textLang>français</textLang>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="33"/>
+          <width unit="cm" quantity="23.5"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <origDate when="1662-05-07" calendar="Julian"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>
+      </origin>
+     </history>
+     <additional>
+      <listBibl>
+       <head/>
+       <bibl/>
+      </listBibl>
+     </additional>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key000635"></term>
+     <term ref="key005066"></term>
+     <term ref="key000242"></term>
+     <term ref="key000275"></term>
+     <term ref="key000815"></term>
+     <term ref="key000920"></term>
+     <term ref="key000078"></term>
+     <term ref="key005111"></term>
+     <term ref="key005127"></term>
+     <term ref="key005128"></term>
+
+    </keywords>
+   </textClass>
+   <particDesc default="false"/>
+   <settingDesc default="false"/>
+  </profileDesc>
+ </teiHeader>
+ 
+ <text>
+  <group>
+   <text>
+    <body>
+        
+     
+     <pb n="451r" facs="AVN_B_101.14.001_0451r"/> 
+        
+     <div>
+      <head>
+       <lb/>Points de coustume pour sçavoir <lb/>en quel temps les <term ref="lem015623.02">legats</term> se doivent
+       payer. </head>
+      <head>
+       <lb/>Plus quand un testament est deffectueux en un <lb/>point s’il ne l’est pas en tous. </head>
+      <head>
+       <lb/>Item les tesmoins appellés à la passation d’un <lb/>testament peuvent estre parens au
+       testateur <lb/>ou heritiers, &amp; au notaire. </head>
+      <head>
+       <lb/>Plus combien de tesmoins il faut à un <lb/>testament. </head>
+      <p>
+       <lb/>Sur la requeste presentée par les <lb/><choice>
+        <abbr>honnor</abbr>
+        <expan>honnorables</expan>
+       </choice>
+       <persName ref="per010167">Abraham</persName> &amp; <persName ref="per010168">Pierre Clottus</persName>
+       d’<placeName ref="loc007791.02">Auterive</placeName>, &amp; <lb/><persName ref="per010169">Abraham Brignot</persName> de <placeName ref="loc007800"><choice>
+         <abbr>S<hi rend="sup">t</hi></abbr>
+         <expan>Saint</expan>
+        </choice> Blaise</placeName> par devant monsieur <lb/>le maistre bourgeois &amp; <orgName
+        ref="org003085">Conseil Estroit de la Ville de <lb/><placeName ref="loc007786"
+         >Neufchastel</placeName></orgName> le <origDate when="1662-05-07" calendar="Julian">7<hi rend="sup">me</hi>
+        jour du mois de may en l’année <lb/>courante 1662</origDate>, tendante aux fins d’avoir les
+       points <lb/>de coustume suivans. </p>
+      <p>
+       <lb/>Premierement, en quel temps les <term ref="lem015623.02">legats</term> portés <lb/>dedans un testament se
+       doivent payer. </p>
+      <p>
+       <lb/>Secondement, quand un testament est defectueux <lb/>en un point s’il ne l’est pas en
+       tous. </p>
+      <p>
+       <lb/>Tiercement, lors &amp; quand que quelque personne <lb/>veut tester &amp; ordonner de ses
+       biens avant son decez <lb/>s’il ne doit pas estre au lict de la mort, ou si le <lb/>testament
+       ne doit pas estre reconfirmé estant dedans <lb/>le lict. </p>
+      <p>
+       <lb/>Quatriemement, si l’on demande quelques tesmoins <lb/>estans parens du testateur ou de
+       l’heritier créé par un <lb/>testament, ou des personnes qui sont privés par ledit
+       <lb/>testament, si cela se peut ou non. </p>
+      <p>
+       <lb/>Cinquiemement, combien de tesmoins il faut <lb/>à un testament pour estre valide. </p>
+      <pb n="451v" facs="AVN_B_101.14.001_0451v"/>
+      <p>
+       <lb/><orgName ref="org003085">Mesdits <choice>
+         <abbr>s<hi rend="sup">rs</hi></abbr>
+         <expan>sieurs</expan>
+        </choice> du Conseil</orgName> ayans eu advis &amp; <lb/>meure premeditation par ensemble,
+       donnent par <lb/>declaration que suivant la coustume usitée en la <lb/>souveraineté de
+        <placeName ref="loc007785">Neufchâtel</placeName> de pere à fils et de tout <lb/>temps
+       immemorial jusqu’à present la coustume estre <lb/>telle, assavoir </p>
+      <p>
+       <lb/>Sur le premier point, que les <term ref="lem015623.02">legats</term> portés <lb/>dans un testament se
+       doivent payer au temps &amp; <lb/>terme que le testateur l’ordonne. </p>
+      <p>
+       <lb/>Sur le second, quand un testament est defectueux <lb/>en un point. Il est defectueux en
+       tous. </p>
+      <p>
+       <lb/>Pour le troisième, il a esté renvoyé à une <lb/><term ref="lem014980">cognoissance de justice</term>. </p>
+      <p>
+       <lb/>Sur le quatrieme, les tesmoins que l’on <lb/>demande à la passation d’un testament ne
+       doivent <lb/>estre parens au notaire qui reçoit ledit testament, <lb/>ny aussi au testateur
+       et heritier qui est créé par <lb/>ledit testament. </p>
+      <p>
+       <lb/>Sur le cinquième, il faut cinq à sept tesmoins <lb/>à la passation d’un testament. </p>
+      <p>
+       <lb/>Ce qu’a esté ainsi passé, conclud &amp; arresté les <lb/>an et jour que devant, et
+       ordonné à moy secretaire <lb/>de Ville l’expedier en cette forme sous le <term ref="lem016327">seel</term> de
+       la <lb/>mayorie &amp; justice dudit <placeName ref="loc007786">Neufchâtel</placeName>, &amp;
+       signature de <lb/>ma main. </p>
+      <p>
+       <lb/>Pour copie extraite sur le vray original signé par <lb/>moy <persName ref="per009020"><choice>
+        <abbr>M</abbr>
+        <expan>Maurice</expan>
+       </choice> Tribolet</persName>. &amp; sur icelle colationné la <choice>
+        <abbr>pnte</abbr>
+        <expan>présente</expan>
+       </choice>
+       <lb/>par moy notaire. </p>
+     </div>
+      
+      <div>
+       <signed><persName ref="per008992"><choice><abbr>N</abbr><expan>Nicolas</expan></choice> Huguenaud</persName> <figure type="notarial sign"/></signed>
+      </div>
+     
+       
+    </body>
+    <back>
+    <div>
+     <p>Ce point de coutume est cité dans le point <ref>SDS_NE_3_298</ref>.</p>
+    </div>
+    </back>
+   </text>
+  </group>
+ </text>
+</TEI>

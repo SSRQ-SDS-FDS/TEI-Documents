@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="headerinfo"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <date type="electronic" when="2020-08-17"/>    <date type="print"/>
+    <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Collection des sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS_NE_3_264</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier>
+      <idno>AVN B 101.14.001, fol. 512r–513r</idno>
+     </msIdentifier>
+     <head>Succession avec ou sans enfants</head>
+     <msContents>
+      <summary>Quand le mari et la femme ont été unis sous le régime du mariage coutumier pendant
+       l’an et jour, et que l’un d’eux décède sans qu’il n’y ait d’enfants, le survivant a l’usage
+       des biens du ménage, la moitié en biens propres et l’autre en usufruit. S’il y a des enfants
+       de ce mariage ou d’un mariage précédent, la moitié de la succession appartient au survivant,
+       un quart lui est laissé en usufruit, et un quart va aux enfants. Habits, armes et joyaux sont
+       exclus des meubles et suivent un régime différent&#160;: seul un quart revient au survivant en
+       propriété, un quart en usufruit, et la moitié va aux enfants. </summary>
+      <msItem>
+       <textLang>français</textLang>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="33"/>
+          <width unit="cm" quantity="23.5"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <origDate when="1676-04-07" calendar="Julian"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>
+      </origin>
+     </history>
+     <additional>
+      <listBibl>
+       <head/>
+       <bibl/>
+      </listBibl>
+     </additional>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key000920"></term>
+     <term ref="key000815"></term>
+     <term ref="key000138"></term>
+     <term ref="key000558"></term>
+     <term ref="key005000"></term>
+     <term ref="key000336"></term>
+     <term ref="key000803"></term>
+     <term ref="key003521"></term>
+    </keywords>
+   </textClass>
+   <particDesc default="false"/>
+   <settingDesc default="false"/>
+  </profileDesc>
+ </teiHeader>
+ 
+ <text>
+  <group>
+   <text>
+    <body>
+        
+     
+     <pb n="512r" facs="AVN_B_101.14.001_0512r"/> 
+        
+     <div>
+      
+      <head>
+       <lb/>Ce que peut appartenir à un homme
+       <lb/>qui a survécu sa femme sans avoir heu aucun
+       <lb/>enfant par ensemble.
+      </head>
+     
+      <p>
+       <lb/>Sur la requeste presentée par <lb/>noble <persName ref="per009767">Jean Merveilleux</persName> de
+       <placeName ref="loc007879">Peseux</placeName> &amp; bourgeois de <lb/><placeName ref="loc007786"
+        >Neufchâtel</placeName>, par devant monsieur le maistre bourgeois <lb/>et <orgName
+        ref="org003085">Conseil Estroit de <choice>
+         <abbr>lad.</abbr>
+         <expan>ladite</expan>
+        </choice> Ville de <placeName ref="loc007786">Neuchatel</placeName></orgName>, le <origDate
+         when="1676-04-07" calendar="Julian">7<hi rend="sup">e</hi>
+        <lb/>d’avril <hi rend="underline">1676</hi></origDate>, tendante aux fins d’avoir les
+       poincts <lb/>de coustume suivans. </p>
+      
+      <p>
+       <lb/>Premierement, si le survivant, après avoir <lb/>esté marié <date dur="P1Y6W"><term ref="lem014776">an &amp; jour</term></date>
+       sans delaisser aucun enfant, <lb/>n’herite pas la moitié de tous les meubles, linges,
+       vaisselle <lb/>d’argent et autres utenciles de mesnage appartenans <lb/><choice>
+        <abbr>aud.</abbr>
+        <expan>audit</expan>
+       </choice> deffunt lors de son decez, mouvans tant de son <lb/>bien patrimonial que
+       d’acquisition, donation ou succession. <lb/>Et si de l’autre moitié il ne peut pas aussi user
+       sa vie <lb/>durant. </p>
+      
+      <p>
+       <lb/>Secondement, si le mary survivant sa femme <lb/>après l’<date dur="P1Y6W"><term ref="lem014776">an &amp; jour</term></date> de
+       leur nopces sans avoir aucun <lb/>enfant non plus que d’autres precedens mariages, ne
+       <lb/>doit pas avoir &amp; heriter le <term ref="lem014766.02">trossel</term>, les habits &amp; joyaux <lb/>appartenans à sa
+       deffunte femme lors de son decez <lb/>entierement. </p>
+      
+      <p>
+       <lb/>Tiercement, si le survivant est obligé de faire
+       <lb/>un inventaire de ce que luy appartient en propre,
+       <lb/>et mesme de ce que la coustume luy baille du bien
+       <lb/>du deffunt, &amp; s’il ne suffit pas de faire un inventaire
+       <lb/>de ce que le survivant peut jouir et qui revient aux
+       <lb/>heritiers du deffunt après la mort de l’usufructuaire.
+      </p>
+      
+      <p>
+       <lb/><orgName ref="org003085">Mesdits sieurs du Conseil</orgName>, ayans eu advis <lb/>et
+       meure premeditation par ensemble, <term ref="lem015635.04">baillent</term> par
+       <lb/>declaration, suivant la coustume usitée en la souveraineté <lb/>de <placeName
+        ref="loc007785">Neufchatel</placeName> de pere à fils et de tout temps <lb/>immemorial
+       jusqu’à present, voire suivant une declaration <lb/>desja rendue le <date when="1604-04-27"
+        calendar="Julian">27<hi rend="sup">e</hi> d’avril <hi rend="underline"
+        >1604</hi></date><note>Voir <ref>SDS_NE_3_048</ref>.</note> et d’autres subsequentes. </p>
+      
+      <p>
+       <lb/>Assavoir, que quand le mary &amp; la femme sont <lb/>conjoints par mariage à la coustume <choice>
+        <abbr>dud.</abbr>
+        <expan>dudit</expan>
+       </choice>
+       <placeName ref="loc007785">Neufchâtel</placeName>, <lb/>et ont esté <date dur="P1Y6W"><term
+         ref="lem014776">an &amp; jour</term></date> par ensemble, à compter dès le <lb/>jour de
+       leurs nopces &amp; espousailles sans delaisser enfans, <pb n="512v"
+        facs="AVN_B_101.14.001_0512v"/>
+       <lb/>le survivant <choice>
+        <abbr>desd.</abbr>
+        <expan>desdits</expan>
+       </choice> deux mariés a usé &amp; encores de <lb/>present use les biens, meubles, linges,
+       vaisselle &amp; <lb/>utenciles de mesnage appartenans au deffunt à <lb/>l’heure de son decez,
+       tant la moitié que luy appartenoit <lb/>de ceux que luy &amp; ledit survivant pouvoyent avoir
+       <lb/>acquis par ensemble constant leur mariage, que autres <lb/>audit deffunt appartenants de
+       son propre &amp; particulier <lb/>et par luy apportés en communion, la moitié desquels
+       <lb/>meubles du deffunt doit appartenir &amp; demeurer <choice>
+        <abbr>aud.</abbr>
+        <expan>audit</expan>
+       </choice>
+       <lb/>survivant pour luy &amp; ses hoirs, pour en faire &amp; disposer <lb/>comme de chose
+       sienne, &amp; l’autre moitié <choice>
+        <abbr>led.</abbr>
+        <expan>ledit</expan>
+       </choice> survivant <lb/>les doit tenir par us sa vie durant&#160;; en ce toutesfois
+       <lb/>qu’inventaire s’en doit dresser, sans que le survivant <lb/>puisse vendre ny engager <choice>
+        <abbr>lesd.</abbr>
+        <expan>lesdits</expan>
+       </choice> meubles d’usement, sinon <lb/>en cas de necessité &amp; par cognoissance de
+       justice&#160;: ce <lb/>que ne luy doit estre accordé que jusqu’à ce que <lb/>prealablement il
+       aye dépendu son bien patrimonial, <lb/>le tout sans fraud ny <term ref="lem015189.02"
+        >barrat</term>, &amp; sans dependre autre <lb/>que son estat portat, à peine que s’il fait
+       le contraire <lb/>d’estre <term ref="lem015634.02">mesusé</term> de <choice>
+        <abbr>lad.</abbr>
+        <expan>ladite</expan>
+       </choice> moitié. Neantmoins n’est à entendre <lb/>que lettres voyageres, bestail à commande
+       &amp; autres <lb/>biens contenus en obligations ou lettres authentiques<note>Le sens de
+        «&#160;lettre voyagère&#160;» et «&#160;lettre authentique&#160;» n’est pas clair.</note>
+       <lb/>soyent meubles. Mais touchant le bestail qui est en <lb/>la maison lors du decez de l’un
+       ou de l’autre <choice>
+        <abbr>desd.</abbr>
+        <expan>desdits</expan>
+       </choice> mariés, <lb/>l’on doit considerer le nombre &amp; valeur d’iceluy pour <lb/>en user
+       comme <choice>
+        <abbr>desd.</abbr>
+        <expan>desdits</expan>
+       </choice> meubles, en sorte que la moitié <lb/><choice>
+        <abbr>dud.</abbr>
+        <expan>dudit</expan>
+       </choice> bestail ou la valeur doit après le trespas de <lb/>l’usufructuaire revenir aux
+       heritiers du premier decedé. </p>
+      
+      <p>
+       <lb/>Mais quand l’un des mariés, après l’<date dur="P1Y6W"><term ref="lem014776">an &amp; jour</term></date>
+       <lb/>de leur conjonction, vient à deceder restant des enfans <lb/>dudit mariage, ou <choice>
+        <abbr>led.</abbr>
+        <expan>ledit</expan>
+       </choice> deffunt laissant des enfans d’autres <lb/>precedens mariages, devans avoir droit
+       &amp; participation <lb/>à sa succession &amp; hoirie, alors le survivant desdits <lb/>mariés
+       se doit contenter d’avoir &amp; tenir la moitié de <lb/>tous les meubles du deffunt &amp; <choice>
+        <abbr>aud.</abbr>
+        <expan>audit</expan>
+       </choice> deffunt appartenans <lb/>lors de son decez, mouvans tant de son bien patrimonial
+       <lb/>que d’acquisition, donation ou succession, assavoir la <lb/>moitié de <choice>
+        <abbr>lad.</abbr>
+        <expan>ladite</expan>
+       </choice> moitié, qu’est le quart du <term ref="lem015071.02">toutage</term> pour <lb/><choice>
+        <abbr>led.</abbr>
+        <expan>ledit</expan>
+       </choice> survivant &amp; pour ses hoirs, pour en faire à son <lb/>bon vouloir &amp; plaisir,
+       &amp; l’autre quart pour le jouir <lb/>par us sa vie naturelle durant, estans descrits en
+       <lb/>inventaire, sans les pouvoir vendre ny engager <lb/>sinon en cas de necessité &amp; par
+       cognoissance de <lb/>justice aux conditions <choice>
+        <abbr>susd.</abbr>
+        <expan>susdites</expan>
+       </choice>. Quant à l’autre moitié <lb/><choice>
+        <abbr>desd.</abbr>
+        <expan>desdits</expan>
+       </choice> meubles <choice>
+        <abbr>dud.</abbr>
+        <expan>dudit</expan>
+       </choice> deffunt, ils doivent tost après <lb/>son decez parvenir &amp; demeurer à ses enfans
+       &amp; <lb/>heritiers. </p>
+      
+      <pb n="513r" facs="AVN_B_101.14.001_0513r"/>
+      
+      <p>
+       <lb/>Et sous le mot de meubles ne sont compris les <lb/>habits &amp; armes du mary, ny les
+       <term ref="lem014766.02">trossel</term>, habits &amp; joyaux <lb/>appartenans à la femme, veu que si la femme decede <lb/>la
+       premiere après avoir esté <date dur="P1Y6W"><term ref="lem014776">an &amp; jour</term></date> avec son mary <lb/>sans delaisser enfans d’elle
+       survivans, soit <choice>
+        <abbr>dud.</abbr>
+        <expan>dudit</expan>
+       </choice> mary <lb/>ou d’autres précedens qui luy puissent succeder &amp; l’heriter, <lb/><choice>
+        <abbr>led.</abbr>
+        <expan>ledit</expan>
+       </choice> mary survivant doit avoir &amp; heriter pour luy &amp; <lb/>ses hoirs <choice>
+        <abbr>lesd.</abbr>
+        <expan>lesdits</expan>
+       </choice> <term ref="lem014766.02">trossel</term>, habits &amp; joyaux appartenans à <lb/><choice>
+        <abbr>lad.</abbr>
+        <expan>ladite</expan>
+       </choice> deffunte sa femme entierement ; &amp; delaissant <choice>
+        <abbr>lad.</abbr>
+        <expan>ladite</expan>
+       </choice>
+       <lb/>deffunte des enfans <choice>
+        <abbr>dud.</abbr>
+        <expan>dudit</expan>
+       </choice> mariage ou de precedents <lb/>ayans droit en sa succession, <choice>
+        <abbr>led.</abbr>
+        <expan>ledit</expan>
+       </choice> mary survivant se <lb/>doit contenter d’avoir &amp; retirer la moitié <choice>
+        <abbr>desd.</abbr>
+        <expan>desdits</expan>
+       </choice> habits, <lb/>trossel &amp; joyaux de <choice>
+        <abbr>lad.</abbr>
+        <expan>ladite</expan>
+       </choice> deffunte sa femme, assavoir <lb/>un quart pour luy &amp; les siens, &amp; un quart
+       pour le <lb/>jouir seulement par us&#160;: l’autre moitié doit rester &amp; <lb/>parvenir
+       promptement <choice>
+        <abbr>auxd.</abbr>
+        <expan>auxdits</expan>
+       </choice> enfans heritiers de <choice>
+        <abbr>lad.</abbr>
+        <expan>ladite</expan>
+       </choice>
+       <lb/>deffunte. Comme au reciproque si le mary predecede <lb/>après <choice>
+        <abbr>led.</abbr>
+        <expan>ledit</expan>
+       </choice>
+       <date dur="P1Y6W"><term ref="lem014776">an &amp; jour</term></date> sans delaisser enfans qu’il ait eu <lb/>de sa femme survivante, ou
+       d’autres precedens mariages <lb/>luy devans succeder <add place="bottom">et l’heritier, <choice>
+         <abbr>lad</abbr>
+         <expan>ladite</expan>
+        </choice> femme doit avoir <lb/>et heriter pour elle et les siens les vestemens et
+        <lb/>habits appartenans <choice>
+         <abbr>aud</abbr>
+         <expan>audit</expan>
+        </choice> deffunt son mari&#160;: mais de<lb break="no"/>laissant <choice>
+         <abbr>led</abbr>
+         <expan>ledit</expan>
+        </choice> mari des enfans <choice>
+         <abbr>dud</abbr>
+         <expan>dudit</expan>
+        </choice> mariage ou de <lb/>precedens lui devant succeder</add>
+       <choice>
+        <abbr>lad.</abbr>
+        <expan>ladite</expan>
+       </choice> femme survivante se doit <lb/>contenter de retirer la moitié <choice>
+        <abbr>desd.</abbr>
+        <expan>desdits</expan>
+       </choice> vestements &amp; <lb/>habits <choice>
+        <abbr>dud.</abbr>
+        <expan>dudit</expan>
+       </choice> deffunt son mary, assavoir un quart <lb/>pour elle &amp; les siens, &amp; l’autre
+       quart par us, l’autre <lb/>moitié doit parvenir et demeurer promptement <choice>
+        <abbr>aud.</abbr>
+        <expan>auxdits</expan>
+       </choice>
+       <lb/>enfans heritiers <choice>
+        <abbr>dud.</abbr>
+        <expan>dudit</expan>
+       </choice> deffunt. </p>
+      
+      <p>
+       <lb/>Ce qu’a esté ainsi passé, conclud &amp; arresté les
+       <lb/>an &amp; jour que devant, &amp; ordonné à moy secretaire
+       <lb/>de Ville l’expedier en cette forme, sous le <term ref="lem016327">seel</term> de la
+       <lb/>mayrie &amp; justice <choice><abbr>dud.</abbr><expan>dudit</expan></choice> <origPlace ref="loc007786">Neufchatel</origPlace>, &amp; signature de
+       <lb/>ma main.
+      </p>
+      
+      <p>
+       <lb/>Aussy levée la presente pour copie sur celle qu’en avoit <lb/>fait sur son original feu
+       <persName ref="per009020"><choice><abbr>M</abbr><expan>Maurice</expan></choice> Tribolet</persName>. </p>
+      
+     </div>
+      
+      <div>
+       <signed><persName ref="per008992"><choice><abbr>N</abbr><expan>Nicolas</expan></choice> Huguenaud</persName> <figure type="notarial sign"/></signed>
+      </div>
+     
+       
+    </body>
+   </text>
+  </group>
+ </text>
+</TEI>

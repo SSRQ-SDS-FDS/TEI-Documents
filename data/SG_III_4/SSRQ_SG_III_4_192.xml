@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-08-15"/>
+            <date type="print"/>
+            <availability><p xml:id="facs">Sibylle Malamud</p></availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_192</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>OGA Sax 25.04.1662</idno>
+               </msIdentifier>
+               <head>Bewilligung für Jörg Müller, Pfeifer von Sax, sein ertauschtes Haus auf sein Gut zu setzen mit einer Stiftung von 50 Gulden für die Schule und mit einem Nachtrag von 1663 mit einer Stiftung für die Armen von seiner Ehefrau Margaretha Tinner</head>
+               <msContents>
+                  <summary>
+                     <p>Nach einem Haustausch zwischen Jörg Müller, Pfeifer von Sax, und dem Jüngling Hans
+                   			Düsel möchte Müller sein Häuschen auf sein Gut Im Müllersberg versetzen. Da dort aber
+                     			keine Allmend ist und niemals eine Haushofstatt gestanden ist, beschweren sich Anlieger
+                     			und Gemeinde, die befürchten, dadurch geschädigt zu werden. Johann Ulrich Escher,
+                     			Landvogt von Sax-Forstegg, bewilligt Müller, sein Häuschen auf dieses Gut zu setzen und
+                     			dort zu wohnen, doch unter der Bedingung, dass er seine Schweine und Hühner auf seinem
+                     			Gut halten soll. Bei seinem Tod soll das Häuschen abgerissen werden und auf eine rechte
+                     			Haushofstatt gesetzt werden. Zum Dank stiftet Jörg Müller für die armen Kinder in der
+                     			Gemeinde der Schule 50 Gulden aus seiner Hinterlassenschaft, woraus der jährliche Zins
+                     			für diese verwendet werden soll. Im Nachtrag vom 17. April 1663 vermacht seine Ehefrau
+                     			Margaretha Tinner von Sax den Armen 30 Gulden.</p>
+                  </summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <filiation type="current">Original (Doppelblatt)</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="33.0"/>
+                              <width unit="cm" quantity="20.5"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <sealDesc>
+                     <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI"
+                           n="1"
+                           nontei:condition="absent"
+                           nontei:attachment="applied"
+                           nontei:place="end"
+                           nontei:shape="round">
+                        <persName role="sigillant" ref="per009987">Junker Johann Ulrich Escher</persName>
+                     </seal>
+                  </sealDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate from="1662-04-25" to="1663-04-17">uff sant Jörgentag</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000237">Tausch</term>
+               <term ref="key000075">Haus</term>
+               <term ref="key000192">Stiftung</term>
+               <term ref="key004631">Arme</term>
+               <term ref="key000242">letztwillige Verfügung</term>
+               <term ref="key000147">Gut</term>
+               <term ref="key000795">Schule</term>
+               <term ref="key000307">Allmend</term>
+               <term ref="key004016">Hausbau</term>
+               <term ref="key000297">Bewilligung</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <div org="uniform" sample="complete">
+                  <p>
+                     <pb n="1r" facs="OGA_Sax_25041662_1r"/>
+                     <seg>
+                        <lb/>Zue wüssen unnd khundt seyge mennigklichem <lb/>inn crafft diß brieffs,
+                        daß der ehrbare <persName ref="per009984a">Jörg Müller</persName>, <lb/>der
+                           <term ref="lem006065">pfyffer</term> zue <placeName ref="loc006042"
+                           >Sax</placeName>, durch sein und seiner erben <lb/>beßeren nutz und
+                        frommen wegen, ein auf rechter, <lb/>redlicher <term ref="lem000446"
+                           >dusch</term> mit dem auch ehrbaren <term ref="lem004781">jüngling</term>
+                        <lb/><persName ref="per009986">Hanß Düßel</persName> umb ihre <term
+                           ref="lem000248">heüßer</term> getroffen (lauth <lb/>und vermög darumb auf
+                        gerichter zwo gleich lautende <lb/><term ref="lem000822">markhs</term>
+                        verzeichnußen sind gemachet und geschriben <lb/>worden). Weillen aber er,
+                           <persName ref="per009984a">Müller</persName>, vorhabens unnd
+                        <lb/>gesinnet, sein an sich erthuschet <term ref="lem005035.05"
+                           >heüßli</term> uf sein <term ref="lem000076">guet</term> ge<lb break="no"
+                        />nampt <placeName ref="loc008358.02">Im Müllersberg</placeName> zuesetzen
+                        und daselbst zu<lb break="no"/>wohnen, aber daselbst keine <term
+                           ref="lem000512">algmeind</term> und auch nie<lb break="no"/>mahlen ein
+                           <term ref="lem008725">haußhoffstatt</term> gezelt nach gerechnet worden,
+                        <lb/>danachen die <term ref="lem001537">anstösser</term> der güetern
+                        daselbst, zum <lb/>theil auch ein gantze <term ref="lem006896">gmeind</term>
+                        sich beschwert sein befunden.</seg>
+                     <seg>
+                        <lb/>Nun aber ihme, <persName ref="per009984a">Müller</persName>, uf sein
+                        underthenniges anhalten <lb/>von dem hochgeachten, wohl edlen, gestrengen,
+                        <lb/>frommen, ehren- und notthvesten, fürsichtigen, fürnemmen <lb/>und
+                        weyßen junckher <persName ref="per009987">Johann Ulrich Escher</persName>,
+                        dißer <lb/>zeit wohl regierender landtvogt der freygherrschafft
+                           <lb/><placeName ref="loc000278">Sax und Vorsteckh</placeName>, uß sondern
+                        gnaaden vergünstiget, <lb/>bewilliget und zugelassen worden, </seg>
+                     <seg n="1">daß er sein <term ref="lem005035.01">hüßli</term>
+                        <lb/>uff obgemelt sein <term ref="lem000076">gut</term> wol setzen möge<note
+                           anchored="true">Diese «Liegenschaft» kann anscheinend einfach abgerissen,
+                           versetzt und wieder aufgebaut werden.</note> und daselbst
+                        <lb/>haußhablichen <term ref="lem009428">wohnnen</term> möge, doch mit der
+                        <lb/>condicion und vorbehalt, daß er syne <term ref="lem000057"
+                           >schwyn</term> und <term ref="lem000116.15">hünner</term>
+                        <lb/>uff seinem gut ohne yedermenigklichen schaden und <pb n="1v"
+                           facs="OGA_Sax_25041662_1v"/>
+                        <lb/>entgeltnuß haben sölle.</seg>
+                     <seg n="2">Für daß ander, wann gott, <lb/>der allmechtige, ihne, <persName
+                           ref="per009984a">Müller</persName>, und seine liebe <term ref="lem000450"
+                           >hauß frauw</term>
+                        <lb/>auß dißem jammerthal zu seinen göttlichen gnaaden <lb/>berüeffen wirt,
+                        alß dan sol dißers <term ref="lem005035.05">heüßli</term> widerumb
+                           <lb/><term ref="lem015780.02">abgeschlißen</term> und hinweg gethon und
+                        uff ein rechte, ehr<lb break="no"/>haffte <term ref="lem008725"
+                           >haußhoffstatt</term> gesetz werden.</seg>
+                     <seg n="3">Für daß drite, <lb/>so verspricht er, <persName ref="per009984a"
+                           >Jörg Müller</persName>, weillen ihme von hoch<lb break="no"
+                        />wohlgedachtem junckher landtvogt so ein gnedige in<lb break="no"
+                        />willigung wider fahren und zugelassen worden, dero<lb break="no"/>wegen
+                        wolle er hiemit uß schuld williger danckhbarkeitt <lb/>versprochen und <term
+                           ref="lem009832">vermachet</term> haben den armen <term ref="lem000130"
+                           >kindern</term>
+                        <lb/>in der gmeind an die <term ref="lem012475">schuel</term> nammblich
+                           <measure quantity="50" type="currency" unit="fl">fünfftzig
+                           guldin</measure>
+                        <lb/><term ref="lem000588">hauptgut</term> nach seinem <term ref="lem001497"
+                           >absterben</term> auß seiner <term ref="lem003103.01">verlaßen<lb
+                              break="no"/>schafft</term>. Darvon solle der jehrliche <term
+                           ref="lem000237">zinß</term> daselbst hin ver<lb break="no"/>ordnet und
+                        angewendt werden. Darwider solle <lb/>niemand reden, nach einiche gedanckhen
+                        machen, dan <lb/>er sölliches auß christenlichem yffer wölle verordnet
+                        haben, <lb/>alles gethreüw und ungefahrlich.</seg>
+                     <seg>Und deß zue wahrem <lb/>urkhundt, so hat er, offtgemelter <persName
+                           ref="per009984a">Jörg Müller</persName>, mit under<lb break="no"
+                        />thenigem fleiß und ernst gebetten und erbetten, den ob<lb break="no"
+                        />hochwolgedachten, gnedigen junckher landtvogt, daß <lb/>er sein eigen
+                        adenlich insigel, für ihne, <persName ref="per009984a">Müller</persName>,
+                        und seine <lb/>erben uff dißen brieff truckhen thun, doch ze vor der
+                        <lb/>landtvogthei, auch ihme, junckher landvogt, und seinen erben <lb/>ohne
+                        schaden. Der geben <origDate when="1662-04-25">uff santt <persName
+                              ref="per000270">Jörgen</persName>tag, nach <persName ref="per000353"
+                              >Christi</persName> ge<lb break="no"/>purt gezelt sechß zechen hundert
+                           sechßzig und zwey jahre</origDate><note anchored="true">Nach Grotefend
+                           ist im Bistum Chur der Georgstag der 25. April, wobei dies nach den
+                           neuesten Erkenntnissen von Tschaikner offenbar nicht für das ganze Bistum
+                           gilt (vgl. dazu ausführlicher die Fussnote in
+                              <ref>SSRQ_SG_III_4_250</ref>).</note>.</seg>
+                  </p>
+                  <p>
+                     <lb/><persName ref="per009933a">Andreaß Roduner</persName>, <lb/><choice>
+                        <abbr>landtschr</abbr>
+                        <expan>landschreiber</expan>
+                     </choice>
+                  </p>
+                  <p>
+                     <pb n="2r" facs="OGA_Sax_25041662_2r"/>
+                     <seg>
+                        <add place="next page"><lb/>Zu wüssen hiemit fehrners, das <persName ref="per009985a">Margreth
+                              Thinner</persName> zu <placeName ref="loc006042">Sax</placeName>,
+                           vorstehenden <persName ref="per009984a">Jörg Müllers</persName>
+                           <lb/><term ref="lem002395">eheliche hußfrauw</term>, uß gutem, freyen
+                           willen und gemüet den <term ref="lem000849">armen</term> ze gutem ge<lb
+                              break="no"/>ordnet und <term ref="lem009832">vermachet</term> hat
+                              <measure quantity="30" type="currency" unit="fl">dryßig
+                              guldi</measure>, dißer herrschafft müntz ald
+                           wehrung,<!-- Eigene Währung in Sax-Forstegg? PS: Es ist unwahrschinlich, dass Sax-Forstegg eine eigene Währung hatte, ZH-Währung --><lb/>welliche
+                           uff ihr <term ref="lem001497">absterben</term> uß ihrer <term
+                              ref="lem003103.03">verlassenschafft</term> gebührender massen bezalt
+                           <lb/>ald gutgemachet werden sollend, beschach im <term ref="lem000376"
+                              >schloss</term>
+                           <origPlace ref="loc006124">Forsteck</origPlace>, den <origDate
+                              when="1663-04-17">17.ten aprel 1663</origDate>. <lb/><choice>
+                              <abbr>h u e</abbr>
+                              <expan>Herr <persName ref="per009987">Ulrich Escher</persName></expan>
+                           </choice><note anchored="true">Wohl Kürzel für den Landvogt <persName
+                                 ref="per009987">Johann Ulrich Escher</persName>.</note></add></seg>
+                  </p>
+               </div>
+               <pb facs="OGA_Sax_25041662_2v"/>
+               <div org="uniform" sample="complete">
+                  <ab type="dorsal" place="verso" hand="hand17c">
+                     <lb/>Obligation <persName ref="per009984a">Jörg Müllers</persName>, deß
+                        <lb/><term ref="lem006065">pfyfers</term> zu <placeName ref="loc006042"
+                        >Sax</placeName>, umb <measure type="currency" unit="fl" quantity="50">50
+                        </measure>, <lb/>die er den <term ref="lem000849">armen</term>
+                     <term ref="lem009832">vermachen</term>
+                     <lb/>thut, darby begriffen, mit <lb/>was conditionen ihme <lb/>das <term
+                        ref="lem000248">huß</term> uff sein <term ref="lem000076">gutt</term>
+                     <lb/>zuversetzen vergünstiget <lb/>worden.</ab>
+               </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div n="1" org="uniform" sample="complete">
+            <p>Im folgenden Stück bewilligt der Landvogt von <placeName ref="loc000278"
+                  >Sax-Forstegg</placeName> trotz der Beschwerden der Anlieger und der Gemeinde
+                  <persName ref="per009984a">Georg Müller</persName>, sein ertauschtes <term
+                  ref="key000075">Häuslein</term> auf sein <term ref="key000147">Gut</term>
+               <placeName ref="loc008358">Im Müllersberg</placeName> oberhalb <placeName
+                  ref="loc006042">Sax</placeName> zu versetzen, doch muss dieses nach seinem <term
+                  ref="key003024">Tod</term> wieder abgerissen werden, da das Gut weder <term
+                  ref="key000307">Allmend</term> ist noch dort jemals ein Haus gestanden hat. Es
+               gibt zwar im 17. Jh. weder Zonenordnung noch Raumplanung im heutigen Sinn, doch die
+               Bewilligung zeigt, dass es in gewissen Fällen Vorstellungen von «Bauzonen» gibt, die
+               auf <term ref="key000468">gewohnheitsrechtlichen</term> Vorgaben beruhen.</p>
+         </div>
+         <div n="2" org="uniform" sample="complete">
+            <p>Zum <term ref="key000237">Tausch</term> von <term ref="key000147">Gütern</term> oder
+                  <term ref="key000075">Häusern</term> siehe u. a. <bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/8a3c11b28de547daaf1f0b48922c033c"
+                     >LAGL AG III.2416:001</ref> (28.06.1484)</bibl>;
+                  <ref>SSRQ_SG_III_4_133</ref>, Art. 5; <bibl><ref>OGA Haag,
+                  25.07.1618</ref></bibl>; <bibl><ref>StAZH A 346.4, Nr. 24</ref>
+                  (04.11.1623)</bibl>; <bibl><ref>(PA Hilty) Privatarchiv weisse Mappe,
+                     11.11.1631</ref></bibl>; <bibl><ref>StASG AA 3a U 33</ref> (10.09.1638)</bibl>;
+                     <bibl><ref>OGA Gams Nr. 137</ref> (18.03.1700, neues Kaplaneihaus)</bibl>;
+                     <bibl><ref>OGA Sennwald Mappe Nachbarn, Mappe Altstätten,
+                  30.04.1727</ref></bibl>; <bibl><ref>OGA Sevelen U 1735</ref> (26.12.1735)</bibl>;
+                     <bibl><ref>PGA Sevelen Archiv Ulrich Friedrich Hagmann, Oranger Ordner
+                     Bd. 1</ref> (18.03.1790)</bibl>. </p>
+         </div>
+      </back>
+   </text>
+</TEI>

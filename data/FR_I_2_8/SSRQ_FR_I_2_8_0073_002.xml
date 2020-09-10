@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+
+			</titleStmt>
+
+			<publicationStmt>
+				<date type="electronic" when="2019-07-23"/>
+				<date type="print"/>
+			</publicationStmt>
+
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ_FR_I_2_8_0073_002</idno>
+			</seriesStmt>
+
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<idno>StAFR, Thurnrodel 12, S. 63</idno>
+					</msIdentifier>
+					<head>Marguerite Pillet – Verhör / Interrogatoire</head>
+					<msContents>
+						<summary></summary> 
+						<msItem>
+							<textLang>de</textLang> 
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support>
+									<material></material>
+								</support>
+								<extent>
+									<dimensions type="leaves">
+										<height unit="cm" quantity="0.0"/>
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+									<dimensions type="plica">
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+								</extent>
+							</supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1626-09-07"/>
+							<origPlace></origPlace>
+						</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc> 
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+			<particDesc default="false"/>
+			<settingDesc default="false"/>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<p><lb/>Im <placeName ref="loc007683.04">bößen thurn</placeName> 
+							<seg><lb/><foreign xml:lang="la"><origDate when="1626-09-07">7 <choice><abbr>7bris</abbr><expan>septembris</expan></choice> 1626</origDate></foreign>, <foreign xml:lang="la"><choice><abbr>jud</abbr><expan>judex</expan></choice></foreign> <abbr>h</abbr> <choice> <abbr>großw</abbr> <expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per006580">Niklaus Meyer</persName>.</note></seg>
+							<seg><lb/><abbr>H</abbr> <persName ref="per006501">Heinricher</persName>, <abbr>h</abbr> <persName ref="per006506">Brynißholtz</persName></seg>
+							<seg><lb/><persName ref="per006532">Buwman</persName>, <persName ref="per006838">Zur Tannen</persName></seg>
+							<seg><lb/><persName ref="per009265">Gidola</persName></seg>
+							<seg><lb/>Weibel</seg></p>
+						
+						<p><seg><lb/><add place="left margin"><foreign xml:lang="la">Non solvit</foreign>.</add></seg>
+							<seg><persName ref="per009353a.01">Margerita Pillet</persName> von <placeName ref="loc007609.05">Stäffis le Giblioux</placeName> hat 
+						<lb/>erstlich anzeigt, wie sy vor <date dur="P3W">zwo</date> oder <date dur="P3W">3 wochen</date> 
+						<lb/>schwanger worden. Nachdem si aber <del>schwang</del> das erstmall 
+						<lb/><term ref="lem016150">uffzogen</term> worden, hat sy bekhend, wie ihren vor 
+						<lb/><date dur="P2M">2 monat</date> <placeName>au Rahor</placeName><!-- Ort --> ein <subst><del>fra</del><add place="inline">schwarze frauw</add></subst> 
+						<lb/>begegnet, die iren <term ref="lem009591.02">angemůtet</term>, das sie sich derselben 
+						<lb/>ergeben solle. Wyters noch ein andermall erschinnen, 
+						<lb/>da habe sie zu der frauwen gered, sie besorge 
+						<lb/>ihr seel zu verdammen. Welche ihren geandtwortet, 
+						<lb/>nein, sonder werde seelig werden. Da habe sie sich 
+						<lb/>derselben ergeben.</seg> 
+						<seg><lb/>Hat demnach wyter bekhend, 
+						<lb/>wie sich vor <date dur="P6Y">6 jahren</date> dem <term ref="lem011429">bösen geist</term> in dem 
+						<lb/>ord sus <subst><del>Legerounoz</del><add place="above"><placeName>Les Ruinuz</placeName></add></subst><note>Ce lieu non identifié remplace <placeName>Legerounoz</placeName>, qui apparait ailleurs dans le procès, sans avoir été corrigé. Voir <ref>SSRQ_FR_I_2_8_0073_004</ref>.</note> ergeben, der sie mit der hand 
+						<lb/>uff den rucken geschlagen, alda sie <term ref="lem016598">gezeichnet</term>. Habe 
+						<lb/>damalen gott verlaugnet. Der <term ref="lem011429.05">böß geist</term> habe 
+						<lb/>ihren <term ref="lem009615.01">kraut</term> geben mit <term ref="lem004618.05">bevelch</term>, dasselbig gegen 
+						<lb/>den lüthen zu <term ref="lem017576.02">blaßen</term>.</seg> 
+						<seg><lb/>Hat wyters bekhend, 
+						<lb/>wie sy der <persName>Susanne de Saint Bernard</persName><!-- Name oder Ort? --> den todt 
+						<lb/>angethan uß der ursach, das sie ihren nit wöllen ein 
+						<lb/>khind uff <term ref="lem003506.08">theuffe</term> haben. Einem anderen ein <term ref="lem001076.42">khu</term> 
+						<lb/>machen <term ref="lem005335">verderben</term>, wylen man ihren nit hat wöllen 
+						<lb/><term ref="lem000603.07">ankhen</term> geben. Mit einem hölzinen nagel, den 
+						<lb/>sie über den wäg geworffen, hat sie khönnen 
+						<lb/>ein ganzen <term ref="lem016744">zug</term> <term ref="lem015265">stellen</term>. Den <term ref="lem001076.49">khüen</term> die <term ref="lem002272">milch</term> 
+						<lb/>zu nemmen, hat sie <term ref="lem017575.02">klebletter</term> zu lufft <term ref="lem017576.02">blaßen</term> 
+						<lb/>müssen.</seg></p>
+					</div>
+				</body>
+				
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+
+<?oxy_options track_changes="on"?>

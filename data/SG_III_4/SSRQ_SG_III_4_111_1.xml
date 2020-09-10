@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-08-15"/>
+            <date type="print"/>
+            <availability><p xml:id="facs">Sibylle Malamud</p></availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_111_1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>StASG AA 2 U 22a-1</idno>
+                  <altIdentifier>
+                     <idno>StASG AA 2 U 22a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <head>Ulrich VIII. von Sax-Hohensax quittiert den Herrschaftsleuten von Sax-Forstegg die Ablösung von Steuern und Fasnachtshennen für 1101 Pfund 5 Schilling</head>
+               <msContents>
+                  <summary>
+                     <p>Ulrich VIII. von Sax-Hohensax erlaubt den «armen Leuten» (Untertanen) und Hintersassen auf deren Bitte, sich von der Steuer und den Fasnachtshennen loszukaufen. Für die Befreiung zahlen die Herrschaftsleute 1101 Pfund 5 Schilling. Den Huldigungseid sollen sie weiterhin schwören wie bisher, doch ohne die beiden Artikel zu den Steuern und Fasnachtshennen.</p>
+                     <p>Der Aussteller siegelt.</p>
+                  </summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <filiation type="current">Original</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Pergament</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="26.5"/>
+                              <width unit="cm" quantity="51.0"/>
+                           </dimensions>
+                           <dimensions type="plica">
+                              <width unit="cm" quantity="6.0"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <sealDesc>
+                     <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI"
+                           n="1"
+                           nontei:condition="chamfered"
+                           nontei:material="wax with margin"
+                           nontei:shape="round"
+                           nontei:attachment="sealed on a parchment tag">
+                        <persName role="sigillant" ref="per001640a">Ulrich VIII. von Sax-Hohensax</persName>
+                     </seal>
+                  </sealDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1528-02-05">mitwuch nach unser lieben frowen tag liechtmess</origDate>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head>Editionen</head>
+                     <bibl><ref target="http://permalink.snl.ch/bib/chbsg000080285">Bänziger 1977</ref>, Anhang Nr. 18</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p><note>Bei Bänziger falsch datiert auf den 4. Februar.</note>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000314">Hintersasse</term>
+               <term ref="key000273">Abgabe</term>
+               <term ref="key000157">Steuer</term>
+               <term ref="key000679">Einwohner</term>
+               <term ref="key000279">Fasnachtshuhn</term>
+               <term ref="key000685">Ablösung</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb facs="StASG_AA_2_U_22a_1_r"/>
+               <div org="uniform" sample="complete">
+                  <p>
+                     <seg>
+                        <lb/>Wir, <persName ref="per001640a">Uͦlrich, fryherre von Hochensax, herre zuͦ <placeName ref="loc006070">Bürglen</placeName> und Vorstegg</persName>, bekennen und thuͦnd kunt
+        mengklichem mit disem brieff für uns, unser erben, nachkomen und innhaber <lb/>der
+        herschafft <placeName ref="loc000278">Vorstegg</placeName>, als dann die gerürt herschaft
+         <placeName ref="loc000278">Vorstegg</placeName> an uns von unsern <term ref="lem002283">voreltern</term> loblicher und säliger gedechtnis mit lüten, gütern, stüren, zinsen unnd
+        allen <lb/>rechten, oberkaiten und herlichaiten, erplich erwachsen und komen
+         <abbr>etc</abbr>. Und nun die <term ref="lem014606">armen lüt</term> gedachter herschaft
+         <placeName ref="loc000278">Vorstegg</placeName> sich bißhar gegen unsern vordern und unns
+        <lb/>mit aller gehorsami, underthenig erzaigt und bewisen, dardurch wir inen gnad und gunst
+        mitzeteilen genaigt. Und so aber dieselben armen lüt der herschafft <placeName ref="loc000278">Vorstegg</placeName>
+                        <lb/>unns <date dur="R/P1Y">jerlich</date> an unser herschaft und <term ref="lem001152">hus</term>
+                        <placeName ref="loc006124">Vorstegg</placeName>
+                        <term ref="lem000209.37">stür</term>, ouch <term ref="lem000607">vaßnacht hennen</term>
+        gegeben, und wir von inen durch ir bottschaft underthenigklich gepetten und ankert worden,
+        mit <lb/>inen der stür und vaßnachthenna, das sy hinfüro sölichs nit mer geben, zehandlen,
+        das wir usser gnaden gethan.</seg>
+                     <seg>Und also mit denselben, unsern armen lüten unser <lb/>herschaft <placeName ref="loc000278">Vorstegg</placeName>, rychen und armen, wie die begriffen, der stür und
+        vaßnacht henna gütlich überkomen und ains worden und uns ouch die gedachten herschaft lüt
+        darfür <lb/>zuͦ unsern handen geben haben <measureGrp>
+                           <measure type="currency" quantity="1101" unit="lb">ainliffhundert ain pfund</measure> und <measure type="currency" quantity="5" unit="ß">fünff schilling pfennig</measure>
+                        </measureGrp> landes werung, das
+        uns darumb und darfür gantz wolbenügt, mit der be<lb break="no"/>schaidenheit und rechten,
+        das die gemelten unser armen lüt und <term ref="lem000745">hindersässen</term> der herschaft
+         <placeName ref="loc000278">Vorstegg</placeName>, alle ir erben sampt und sonder und ir ewig
+        nachkomen, uns, unsern <lb/>erben noch innhabern gerürter unser
+        herschaft <placeName ref="loc000278">Vorstegg</placeName>, nun hinfüro zuͦ ewigen ziten
+        söliche <term ref="lem000209.37">stür</term> ouch die <term ref="lem000607">vasnacht
+         henna</term> niemer mer schuldig noch pflichtig sin ze geben <lb/>inn khainen weg, sonder
+        darvon quitt, fry, ledig und los, derselben jetzt und zuͦ ewigen ziten gezellt, haissen und
+        sin und uns noch niemant von unser noch unserer erben <lb/>und nachkomen innhaber der
+        herschafft <placeName ref="loc000278">Vorstegg</placeName> wegen nütz ze antwurten
+        haben.</seg>
+                     <seg>Wir verzichen uns ouch daruff, für uns, unser erben und nachkomen, innhaber der
+        <lb/>herschafft Vorstegg, gegen den vermelten unsern <term ref="lem000745">hindersässen</term> und <term ref="lem014606">armen lüten</term>, iren erben und ewigen
+        nachkomen der egesaiten <term ref="lem000209.37">stür</term> und <term ref="lem000607">vaßnacht henna</term> und daran <lb/>aller recht, gerechtigkait, vorderung und ansprach
+        aller <term ref="lem000372">urbar</term>, <term ref="lem000032">rödel</term> und brieffen,
+        wie wir die jetzt haben oder darumb hinfüro finden und überkomen möchten, so <lb/>darumb
+        sagten und wysen, aller <term ref="lem015046">innerung</term>, <term ref="lem014687.02">innhabung</term>, besitzung, geweren, kuntschaft lüten, rödeln und brieffen und gemainlich
+        und sonderlich aller anforderung unnd <lb/>rechtens, so wir und unser voreltern seliger
+        gedechtnis untzhar der stür und vasnacht henna zuͦ inen gehapt oder wir, unser erben und
+        nachkomen zu inen sampt und <lb/>sonder, iren erben und ewigen nachkomen gehaben, gewynnen
+        ald überkomen möchten, in dehain wis noch weg. Dann wir sy hiemit, ir erben und ewig
+        nachkomenn <lb/>in nutzlich <term ref="lem006034">gewer</term>, fry, ledig der stür und
+        vasnacht henna halb setzen und hiemit nach allen rechten gesetzt haben wellen.</seg>
+                     <seg>Wurde sich ouch hinfüro, über kurtz oder lang <lb/>zit begeben, das sy oder ir erben und
+        nachkomen uns, unsern erben ald nachkomenn, innhaber der herschafft <placeName ref="loc000278">Vorstegg</placeName>, <term ref="lem001906">huldigung</term> wie von
+        alterhar thun söllen, so soll doch <lb/>mit verdingten worten inen vorbehalten sin, allwegen
+        die huldigung zethund und inen die zwen artickel der stür und vasnacht henna halb
+        vorbehalten sin. Also das <lb/>inen die im <term ref="lem000070">aid</term> wie bishar
+        beschechen nit eroffnet und dern darinn ledig sin in allweg. Sunst
+        sond sy den aid ze schweren schuldig sin wie von alter har, ain <term ref="lem001448">aigen
+         <lb/>man</term> als ain aigen mann, ain <term ref="lem000745.09">hindersäs</term> als ain
+        hindersäss, hindan gesetzt die zwen artickel, wie jetzt erlüttert ist.</seg>
+                     <seg>Wir, unser erben, nachkomen und innhaber <lb/>der herschafft <placeName ref="loc000278">Vorstegg</placeName> söllen sy, ir erben und ewig nachkomen sampt und sonder wie bißhar in
+         <term ref="lem008754">schütz und schirmm</term> uff und zuͦ recht handthaben und nemen nach
+        unsern <lb/>vermögen.</seg>
+                     <seg>Und versprechen haruff für uns, unser erben und nachkomen, innhaber der herschaft
+         <placeName ref="loc000278">Vorstegg</placeName>, by unsern frygräfflichen thrüwenn, ditz
+        alles war, vest, stät und <lb/>was diser brieff innhalt und uswyst, von artickel zuͦ
+        artickel, unverprochenn ze halten unnd daruff nach aller notdurft wer sin mit und in craft
+        ditz briefs. Darin wir, ge<lb break="no"/>namet <persName ref="per001640a">Uͦlrich,
+         fryherre von Hochensax</persName>
+                        <abbr>etc</abbr>, unnser insigele uns, unnser erben, nachkomenn, innhabern der herschaft
+         <placeName ref="loc000278">Vorstegg</placeName>, darmit ze übersagende, offenlich thun
+        hangen an <lb/>disen brieff, der geben ist uff <origDate when="1528-02-05">mitwuch nach
+         unser lieben frowen tag liechtmess nach Cristi, unnsers lieben heren und behalters, gepurt
+         gezallt tusennt fünffhundert <lb/>unnd im achtt unnd zwanitzigsten jaren</origDate>.</seg>
+                  </p>
+               </div>
+               <pb facs="StASG_AA_2_U_22a_1_v"/>
+               <div org="uniform" sample="complete">
+                  <ab type="dorsal" place="verso" hand="hand16c">
+                     <lb/>Vaßnachthenen
+       <lb/>betreffende</ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab place="verso" type="archiving reference">No 20</ab>
+               </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div n="1" org="uniform" sample="complete">
+            <p>Kurz nach dieser <term ref="key000685">Ablösung</term> einigt sich <persName
+                  ref="per001640a">Ulrich VIII. von Sax-Hohensax</persName> mit den <term
+                  ref="key000314">Hintersassen</term> von <placeName ref="loc006042">Sax</placeName>
+               über deren Rechte und Pflichten (Original: <bibl><ref>StASG AA 2 U 23</ref></bibl>,
+               gedruckt bei: <bibl><ref target="http://permalink.snl.ch/bib/chbsg000080285">Bänziger
+                     1977</ref>, Anhang Nr. 19</bibl>), nachdem er bereits <date when="1521"
+                  >1521</date> den übrigen Hintersassen der Herrschaft wesentliche Rechte gewährt
+               hat (<ref>SSRQ_SG_III_4_109</ref>). </p>
+            <div n="2" org="uniform" sample="complete">
+               <p>Personen, die nicht in der Herrschaft wohnen und <term ref="key000147"
+                     >Güter</term> in der Herrschaft besitzen, müssen weiterhin <term
+                     ref="key000273">Abgaben</term> zahlen, weshalb Verwirrung entsteht, welche
+                  Güter befreit sind und welche nicht. <date when="1538">1538</date> bitten deshalb
+                  die Herrschaftsleute, alle Güter in der Herrschaft, unabhängig von ihrem Besitzer,
+                  von den <term ref="key000157">Steuern</term> zu befreien. Ulrich VIII. erlaubt
+                  darauf den Leuten von <placeName ref="loc000211">Gams</placeName> und <placeName
+                     ref="loc000335">Grabs</placeName>, die in der Freiherrschaft <placeName
+                     ref="loc000278">Sax-Forstegg</placeName> Güter besitzen, die Ablösung der
+                  Steuer für 4.5 Pfund (<bibl><ref>OGA Gams Nr. 51</ref></bibl>).</p>
+            </div>
+         </div>
+      </back>
+   </text>
+</TEI>

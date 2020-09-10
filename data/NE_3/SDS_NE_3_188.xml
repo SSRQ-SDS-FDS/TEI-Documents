@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="headerinfo"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <date type="electronic" when="2020-08-17"/>    <date type="print"/>
+    <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Collection des sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS_NE_3_188</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier>
+      <idno>AVN B 101.14.001, fol. 457v</idno>
+     </msIdentifier>
+     <head>Redevances à un défunt</head>
+     <msContents>
+      <summary>Si des redevances sont dues à un défunt et que celui-ci en a laissé un compte signé
+       ou non, la personne qui en réclame le paiement doit jurer par serment que celles-ci sont
+       biens dues.</summary>
+      <msItem>
+       <textLang>français</textLang>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="33"/>
+          <width unit="cm" quantity="23.5"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <origDate when="1663-05-01" calendar="Julian"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>
+      </origin>
+     </history>
+     <additional>
+      <listBibl>
+       <head/>
+       <bibl/>
+      </listBibl>
+     </additional>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key003331"></term>
+     <term ref="key000920"></term>
+     <term ref="key000815"></term>
+     <term ref="key004564"></term>
+     <term ref="key005189"></term>
+    </keywords>
+   </textClass>
+   <particDesc default="false"/>
+   <settingDesc default="false"/>
+  </profileDesc>
+ </teiHeader>
+ 
+ <text>
+  <group>
+   <text>
+    <body>
+        
+     
+     <pb n="457v" facs="AVN_B_101.14.001_0457v"/> 
+        
+     <div>
+     
+     <head>
+      <lb/>Point de coustume pour sçavoir sy une
+      <lb/>personne qui repette quelques redevances à
+      <lb/>des heritiers d’un deffunt, si telle personne
+      <lb/>n’est pas obligée de s’en purger par serment
+      <lb/>pour sçavoir sy telles redevances sont bien
+      <lb/>deues.
+     </head>
+      
+      <p>
+       <lb/>Sur la requeste presentée par <choice>
+        <abbr>hon.</abbr>
+        <expan>honorable</expan>
+       </choice>
+       <persName ref="per010160">Pierre <lb/>Guye Junoud</persName> des <placeName ref="loc007799">Verrieres</placeName> par devant
+       monsieur <lb/>le maistre bourgeois &amp; <orgName ref="org003085">Conseil Estroit de la Ville
+        de <lb/><placeName ref="loc007786">Neufchastel</placeName></orgName> le <origDate
+         when="1663-05-01" calendar="Julian">premier jour de may 1663</origDate>, tendante <lb/>aux fins d’avoir le
+       point de coustume suivant. </p>
+      
+      <p>
+       <lb/>Assavoir, quand une personne negotie quelque
+       <lb/>trafficq ou fait quelques fournitures à autre personne
+       <lb/>que luy mesme a fait et escrit le compte durant sa
+       <lb/>vie, s’il n’est pas loisible au survivant quand les
+       <lb/>heritiers du deffunt font negative du debt d’approuver
+       <lb/>par son serment ses articles ou compte soit que <choice><abbr>led</abbr><expan>ledit</expan></choice>
+       <lb/>compte soit signé ou non signé par ledit deffunt pour
+       <lb/>se faire payer de son debt.
+      </p>
+      
+      <p><seg>
+       <lb/><orgName ref="org003085"><choice>
+         <abbr>Mesd. S<hi rend="sup">rs</hi></abbr>
+         <expan>Mesdits sieurs</expan>
+        </choice> du Conseil</orgName> ayants eu advis &amp; meure <lb/>premeditation par ensemble
+       donnent par declaration <lb/>que suivant la coustume usitée en la souveraineté de
+        <lb/><placeName ref="loc007785">Neufchastel</placeName> de pere à fils &amp; de tout temps
+       immemorial <lb/>jusques à present la coustume estre telle,</seg> 
+       <seg>assavoir <lb/>que quand une
+       personne repete quelques fournitures ou <lb/>autres redevances à cause de compte fait avec un
+       deffunt <lb/>qu’il soit signé, ou non, il est obligé de se purger par <lb/>serment pour
+        sçavoir sy telle redevances sont bien deues.</seg></p>
+      
+      <p>
+       <lb/>Ce qu’a esté ainsy passé conclud &amp; arresté les an &amp; <lb/>jour que devant &amp;
+       ordonné à moy secretaire de Ville <lb/>l’expedier en ceste forme, sous le <term ref="lem016327">seel</term>
+       de la mayorie <lb/>et justice <choice>
+        <abbr>dud</abbr>
+        <expan>dudit</expan>
+       </choice>
+       <origPlace ref="loc007786"><choice>
+         <abbr>Neufch<hi rend="sup">el</hi></abbr>
+         <expan>Neufchâtel</expan>
+        </choice></origPlace> &amp; signature de ma main. </p>
+      
+      <p>
+       <lb/>Pour copie extraite sur le vray original signé par moy <lb/><persName ref="per009020"><choice>
+        <abbr>M</abbr>
+        <expan>Maurice</expan>
+       </choice> Tribolet</persName> &amp; sur icelle la presente. </p>
+      
+     </div>
+      
+      <div>
+       <signed><persName ref="per008992"><choice><abbr>N</abbr><expan>Nicolas</expan></choice> Huguenaud</persName> <figure type="notarial sign"/></signed>
+      </div>
+     
+       
+    </body>
+   </text>
+  </group>
+ </text>
+</TEI>

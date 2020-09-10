@@ -1,0 +1,889 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+          Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-08-15"/>
+            <date type="print"/>
+            <availability><p xml:id="facs">Staatsarchiv St. Gallen (StASG)</p></availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_185_1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>StASG AA 3 B 01, S. 13–18</idno>
+                  <altIdentifier>
+                     <idno>StASG AA 3 B 1</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <head>Nachtrag im Landbuch von Werdenberg, Landlibell oder Ordnung</head>
+               <msContents>
+                  <summary>
+                     <p>Abgeordnete von Werdenberg kommen mit der Bitte nach Glarus, ihnen einige Artikel,
+                     		die sie aufgrund zahlreicher Missstände aufgestellt haben, durchzugehen und zu bestätigen. Landammann und Landrat von Glarus
+                     		kommen der Bitte nach und bestätigen das
+                     		Libell mit 20 Artikeln:</p> <p>1. Kleinere Streitsachen</p> <p>2. Festlegung der Zinshöhe</p> <p>3. Ungeld </p> <p>4.
+                     		   Appellation </p> <p>5. Verpfändung von Fahrhabe bei Erbschaften </p> <p>6. Ausstehende Zinsen </p> <p>7.
+                     		      Beischlaf verlobter Paare vor der Hochzeit </p> <p>8. Kundschaften </p> <p>9. Verkauf von Kälbern </p> <p>10.
+                     		         Pflanzplätze auf den Allmenden für die Armen </p> <p>11. Wirten auf dem Schloss </p> <p>12. Bestrafung
+                     		            von Verbalinjurien </p> <p>13. Begangene Delikte ausserhalb Werdenbergs </p> <p>14. Todfall </p> <p>15.
+                     		               Gerichtskosten und Kosten für Augenscheine </p> <p>16. Kosten für Grenzsteinsetzungen</p> <p>17.
+                     Öffentliche Bekanntgabe von Schulden oder Rechnungen in der Kirche nach Todesfällen</p> <p>18.
+                        Anmeldung beim Landvogt vor dem Gang nach Glarus</p> <p>19. Grosse Bussen an Jahrmärkten und
+                    			Kirchweihen</p> <p>20. Zolltarife wegen Verkaufs von Vieh ausser Landes</p>
+                  </summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <filiation type="current">Buch (22 Seiten) mit kartoniertem Einband mit Stoffüberzug</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Pergament</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="35.5"/>
+                              <width unit="cm" quantity="31.0"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1653-09-22"/>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head>Editionen</head>
+                     <bibl><ref target="http://permalink.snl.ch/bib/chbsg000142793">Winteler 1923</ref>, Kapitel XI, Anhang, A., S. 178–187</bibl>
+                  </listBibl>
+                  <listBibl>
+                     <head>Regesten</head>
+                     <bibl><ref target="http://permalink.snl.ch/bib/chbsg000142777">Senn, Chronik</ref>, S. 156–157</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key003298">Landesrecht</term>
+               <term ref="key003328">Libell</term>
+               <term ref="key001112">Fahrhabe</term>
+               <term ref="key003021">Termin</term>
+               <term ref="key005172">Amtsmissbrauch</term>
+               <term ref="key000199">Zoll</term>
+               <term ref="key000624">Metzger</term>
+               <term ref="key003570">Zollstation</term>
+               <term ref="key000154">Zins</term>
+               <term ref="key003026">Verbalinjurie</term>
+               <term ref="key000057">Gericht</term>
+               <term ref="key000184">Busse</term>
+               <term ref="key000341">Ordnung</term>
+               <term ref="key000270">Kosten</term>
+               <term ref="key005270"/>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <div org="uniform" sample="complete">
+                  <p><!-- Worttrennungen über Seitenwechsel in Portal nicht angezeigt--></p>
+                  <p>
+                     <app><lem/><rdg wit="StASG AA 3 B 2, S. 285"><term ref="lem002974.03"
+                              >Libels</term> und zusatzes, weitere fortsetzung <lb/>berüehrend
+                           geringer <term ref="lem002465">händlen</term> beylegung, <lb/><date
+                              dur="R/P1Y">jährlich</date>en <term ref="lem000237">zinß</term> und
+                              <term ref="lem015498.03">taffernen gelt</term></rdg></app><note
+                        anchored="true">Die im Urbar von 1754 aufgeführten Titel am Seitenanfang
+                        werden im Folgenden nicht aufgeführt. In der Abschrift
+                              <bibl><ref>KA Werdenberg im OA Grabs  Nr. 6</ref></bibl> von 1775 sind
+                        die Titel den betreffenden Artikeln zugeordnet.</note>
+                  </p>
+                  <p>
+                     <pb n="13" facs="StASG_AA_3_B_001_12_13"/>
+                     <lb/>Wir, <orgName ref="org003239">landtamman und gantz geseßner landts<lb
+                           break="no"/>rath zu Glaruß</orgName>, urkhunndten und bekennend
+                     offentlich <lb/>hiemit in crafft diß <term ref="lem002974.01">libells</term>:
+                     Nach deme unß unßere liebe und gethreüw unßerer graffschafft <lb/><orgName
+                        ref="org003242">Werdenberg</orgName> in undertheniger demüetigkeit mit
+                     bezimender bescheidenheit aneroffnen, berichten und zu gemüot füören
+                     <lb/>laßen, waß maßen von unß ihnnen in nachvolgenden puncten und articlen
+                     gantz ohne præjudicierlich und ohnn nachtheillig <lb/>unßer oberkeitlichen
+                           <app><lem>juses</lem>
+                        <rdg wit="StASG AA 3 B 2, S. 285">juren</rdg></app>, hochheit, gerechtigkeit
+                     unnd gewaltsamkeit mit vätterlicher miltigkeit zu ihr sehr fürterglichen
+                     <lb/>erspriesslichkeit begegnet und die hand gebotten werden könte, sollcher
+                     gestalten, daß durch diß mitel ihnnen vill be<lb break="no"/>schwerliche <term
+                        ref="lem000279">cösten</term> gelichteret und abgerichtet, auch sollche
+                        <term ref="lem004302">remedierung</term> niemandem zu ohnn billichem abbruch
+                     gereichen wurde. <lb/>Mit underthenig demüetig und angelegenlichem bitten, wir
+                     gerueheten gnedig, sollche vor unß zu nemmen, zu erduren <lb/>und erwegen und
+                     dann nach befindender gestaltsamme unßer disposition nach unßerm guetachten
+                     darüber ze thüen und <lb/>ihnnen sollches dann volgents zu ihrem
+                     nachrichtlichen verhalt <term ref="lem010310">inn schrifft</term> zu übergeben,
+                     sich darbei anerbietende, sollch ver<lb break="no"/>hoffende gnad inn
+                     demüetiger underthenigkeit danckhbarlich unnd in threüwen zu erkennen und
+                     ihnnen angelegen sein <lb/>zu laßen, sollches einnicher gestalten zu
+                     mißbruchen, sondern auffrichtiger gehorsame sich zu befleißen. Wir <lb/>nit
+                     ermanglen wollen, ihnnen so vil zu willen ze sein und sollche materi vor augen
+                     zu nemmen und inn ryffe consider<lb break="no"/>ation zu ziechen, maßen über
+                     sollch gepflogne erwegung wir unß überall und einen jeden puncten besonders,
+                     <lb/>wie sollche hier nach specifice angesetzt, ußgefüehrt unnd
+                     erleütheretermaßen resolviert, erklert unnd erkent, <lb/>auch nit ermanglen
+                     noch sparen werden, sie<note anchored="true">Sie wird im folgenden vom
+                        Schreiber häufiger als <orig>sei</orig> geschrieben und wird deshalb nicht
+                        mehr speziell vermerkt.</note> bei sollchen zu <term ref="lem002893"
+                        >manutenieren</term> und zu handhaben, inn dem versechen, sei <lb/>sollche
+                     einicher gestalten inn mißbruch ziechen, sondern sich sollcher einfaltig nach
+                     heiter wyßung gebürlich behelffen <lb/>unnd bediennen unnd einichen puncten inn
+                     widerwertigen verstand, denn er nit erlyden möcht, zu verwandlen, sich
+                     <lb/>gelusten laßen vill minder understehen werden, jedoch mit der heitern
+                     reservation unnd vorbehalt, daß sollchen <lb/>unß ann unßerer hochheit recht
+                     unnd gewaltsamkeit einicher gestalten præjudicierlich abbrüchig noch ver<damage agent="faded ink"><supplied source="StASG AA 3 B 2, S. 286">schmählerlich</supplied></damage>
+                     <lb/>sein solle. <!-- Addspan --></p>
+               </div>
+               <div org="uniform" sample="complete">
+                  <p>
+                     <seg n="1">
+                        <lb/>Namlich und deß ersten belangend, daß untzhero alle <term
+                           ref="lem002465">hendeli</term>, wie gering sollche joch geweßen, auff daß
+                           <term ref="lem000376">schloß</term> ge<lb break="no"/>zogen und
+                        daselbsten mit großen <term ref="lem000279">kosten</term> erörteret und
+                        abgemacht werden müeßen. Wir befunden, diß wohl <damage agent="faded ink">
+                           <supplied source="StASG AA 3 B 2, S. 286">remedieren</supplied></damage>
+                        <lb/>erlyden möge und deßwegen uns dahin erklert, daß so sich fürohin
+                        geringe <term ref="lem001130.11">gspänn</term> und hendel als geringe
+                           <damage agent="faded ink"><supplied source="StASG AA 3 B 2, S. 286">ohnbe</supplied></damage><lb break="no"/>harliche <term ref="lem007042">zureden</term> und
+                        dergleichen zwüschent partheyen erheben, selbige befüegt und geweltig sein
+                        sollen inn <damage agent="faded ink"><supplied source="StASG AA 3 B 2, S. 286">gegen</supplied></damage><lb break="no"/>ward eines <term ref="lem000342">richters</term> nebet dem
+                           <term ref="lem000376">schloß</term> inn der <term ref="lem010667"
+                           >güetigkeit</term> abzuhandlen und sich widerumb zu <term ref="lem008336"
+                           >vergleichen</term>, <damage agent="faded ink"><supplied source="StASG AA 3 B 2, S. 286">jedoch</supplied></damage>
+                        <lb/>damit ein <term ref="lem000266">landtvogt</term> auch sein respect habe
+                        und bei der authoritet bleibe, er allwegen umb sollche begegnußen und
+                        <lb/>der bewandtnuß berichtet werden soll mit dem heiteren anhang aber, daß
+                        er kein kösten nit darauff machen <lb/>noch tryben und die vertragung nebet
+                        dem schloß nit wehren solle, darbei auch vorbehaltende, waß <damage
+                           agent="faded ink"><supplied source="StASG AA 3 B 2, S. 286">mit</supplied></damage>
+                        <lb/>lauffen und darbei begriffen sin möcht, daß oberkeitlicher <term
+                           ref="lem000036">bueß</term> und sträfflichkeit underworffen, <damage
+                           agent="faded ink"><supplied source="StASG AA 3 B 2, S. 286">selbiges</supplied></damage>
+                        <lb/>keineswegs nit soll verborgen behalten, vil minder <term
+                           ref="lem000983">vertediget</term> werden.<term ref="key000268"/>
+                        <term ref="key003026"/>
+                        <term ref="key000025"/>
+                        <term ref="key000224"/>
+                        <term ref="key000180"/>
+                        <term ref="key000270"/>
+                        <term ref="key000746"/>
+                     </seg>
+                  </p>
+               </div>
+               <div org="uniform" sample="complete">
+                  <p>
+                     <seg n="2">
+                        <lb/>Waß dann betrifft, daß unßere angehörige der graffschafft <orgName
+                           ref="org003242">Werdenberg</orgName> untzharo von <measure
+                           type="currency" quantity="1" unit="fl">jedem guldi</measure>
+                        <lb/><measure type="currency" unit="bz" quantity="1">den gueten
+                           batzen</measure> zinßen müeßen, wir erachtet, die billichkeit anleitung
+                        geben thüege, die sach dahin zu dirigieren und zu richten, <lb/>daß die
+                        zinßung allso und in der maß beschechen solle, alls wir in unßerm landt,
+                        zumahlen wir auch gesetzt und geordnet <damage agent="faded ink"><supplied source="StASG AA 3 B 2, S. 286">haben</supplied></damage>
+                        <lb/>wollend, daß die unßerigen inn der graffschafft <placeName
+                           ref="loc000440">Werdenberg</placeName> fürohin von neüwen und alten <term
+                           ref="lem000037">schulden</term>, verbrieffet <damage agent="faded ink"><supplied source="StASG AA 3 B 2, S. 286">und</supplied></damage>
+                        <lb/>ohnnverbrieffeten <term ref="lem003509">posten</term> mehr <term
+                           ref="lem000237">zinß</term>
+                        <date dur="R/P1Y">jerlich</date> nit zu zallen schuldig sein sollen alls wir
+                        inn unßerm landt braüchig, <damage agent="faded ink"><supplied source="StASG AA 3 B 2, S. 286">das</supplied></damage>
+                        <lb/>ist vom gelt von <measure type="currency" quantity="1" unit="fl">jedem
+                           guldi</measure>
+                        <measure type="currency" unit="ß" quantity="3" origin="LU">drey Lutzerner
+                           schillig</measure> und von ewigen briefen von <measure type="currency"
+                           quantity="1" unit="fl">jedem guldi</measure>
+                        <measure type="currency" quantity="3" unit="xr">drey crützer</measure>. Es
+                        soll <damage agent="faded ink"><supplied source="StASG AA 3 B 2, S. 286">sich auch</supplied></damage>
+                        <lb/>niemand understehen, sei mit mehrerem zu beschweren.</seg>
+                     <term ref="key000154"/>
+                     <term ref="key000814"/>
+                  </p>
+               </div>
+               <pb n="14" facs="StASG_AA_3_B_001_14_15"/>
+               <div org="uniform" sample="complete">
+                  <p>
+                     <seg n="3">
+                        <lb/>Berüehrend die <term ref="lem015498.02">tavernengelter</term>, in wellchen etwaß steigerung
+              inngeschlichen, wie doch sollches alls ein scheinbare nüwerung
+              <lb/>hiemit annuliert, auffgehebt, abgethon und allso die sach dahin gestelt haben
+              wollend, daß es gentzlich bei den alten <lb/>tavernen geltern old schilligen
+         verbleiben unnd mehr nit geforderet noch angemuet werden solle.</seg>
+                     <term ref="key000758"/>
+                     <term ref="key000510"/>
+                  </p>
+               </div>
+               <div org="uniform" sample="complete">
+                  <p>
+                     <seg n="4">
+                        <lb/>Daß zun zeiten inn daß landt komende <term ref="lem002718"
+                           >gsandten</term><note anchored="true">Hier sind wohl die beiden
+                              <placeName ref="loc000326">Glarner</placeName>
+                           <term ref="key000209">Gesandten</term> gemeint, die zusammen mit den
+                           beiden <term ref="key000180">Landvögten</term> bei der Übergabe der <term
+                              ref="key004482">Regierung</term> vom alten zum neuen Landvogt das
+                              <term ref="key005174">Syndikat</term> ad interim bilden und die
+                           laufenden Regierungsgeschäfte erledigen, vgl. <bibl><ref
+                                 target="http://permalink.snl.ch/bib/chbsg000143946">Beusch
+                                 1918</ref>, S. 55–56</bibl>; <bibl><ref
+                                 target="http://permalink.snl.ch/bib/chbsg000142793">Winteler
+                                 1923</ref>, S. 65–66</bibl>.</note> sachen hoch anziechen, schwer
+                        und große <term ref="lem000345">straffen</term> darüber machen, da es
+                        <lb/>biß dahin ohnne fernere berüeffung stricte darbei verbleibens gehebt,
+                        habend wir unß zu erhaltung ertrag<lb break="no"/>enlich unnd gebührender
+                        bescheidenheit dahin erleütheret unnd erkent: Fahls es künfftigkhlich
+                        beschechen tett, daß <lb/>gsandten sollcher gestalten hoche straff bueßen
+                        auffsetzen, daß diejenigen, so es betreffen möcht, sich all zu hoch belegt
+                        <lb/>befinden wurden, sei <term ref="lem011163">lufft</term> haben, befüegt
+                        und gewaltig sein sollen, für unß alls die hoche oberkeit zu <term
+                           ref="lem001043">appellieren</term>, <lb/>doch es beschechen soll im
+                        puncto und inn angesicht der <term ref="lem002718">gsandten</term>.<term
+                           ref="key000209"/>
+                        <term ref="key000287"/>
+                        <term ref="key000905"/>
+                        <term ref="key000184"/>
+                        <term ref="key000582"/>
+                     </seg>
+                  </p>
+               </div>
+               <div org="uniform" sample="complete">
+                  <p>
+                     <seg n="5">
+                        <lb/>Weillen beschächen, daß villmahlen vorgestandne <term ref="lem001446">erb</term>
+                        <term ref="lem000165">versetzt</term> und allso dardurch diejenigen, so deßen geerbt
+                sin <lb/>sollen, ehe zeit ruiniert und mit den ihrigen inn <term ref="lem000790">mangel</term> und <term ref="lem002442">armuet</term> gestürtzt worden, habend
+                wir ein notturfft <lb/>sein erachtet, sollchem crefftige vorbiegung ze thuen unnd
+                deßwegen erkent, gesetzt und geordnet, daß fürohin kein <lb/>dergleichen
+                vorschwebende erb under einichem prætext noch vorwand einicher gestalten nit sollen
+                versetzt werden. <lb/>Item weillen daß <placeName ref="loc000440">Werdenbergische</placeName>
+                        <term ref="lem000597">landtrecht</term> zulass, <term ref="lem002839">fahrende
+                  haab</term> zu versetzen, wir es zwahren auch darbei be<lb break="no"/>wenden
+                laßen, jedoch wir zu einer gewüßheit geordnet und gesetzt haben wollend, daß
+                allwegen die <term ref="lem006741">fährenden <lb/>pfand</term> nit minder alls die
+                  <term ref="lem006742">liegenden</term> specificiert unnd vermelt und keine <term ref="lem001659">verschribungen</term> über haupt unnd <lb/>inn genere auff <term ref="lem001066">haab und guet</term> gemacht werden sollen. Unnd obgleich ander
+                und wider dißen articul lauffende <lb/>verschribungen gemacht wurden, selbige doch
+                weder crafft, gültigkeit noch ansechen haben sollen.</seg>
+                     <term ref="key001112"/>
+                     <term ref="key000027"/>
+                     <term ref="key000920"/>
+                     <term ref="key004249"/>
+                  </p>
+               </div>
+               <div org="uniform" sample="complete">
+                  <p>
+                     <seg n="6">
+                        <lb/>Sitenmahlen dann auch biß dahin brüchig unnd gewont geweßen, daß man so vil
+                  <term ref="lem000237">zinß</term> alls bei dem <term ref="lem000588">haupt<lb break="no"/>guet</term> rugkhstendig gsin, bei denn <term ref="lem000218">pfandten</term> suechen können und mögen, wir aber uß erheblichen motiven
+                befunden, <lb/>deme auch nottwendig ein gewußer zwegkh gesetzt werden solle, inn
+                maßen erkent unnd geordnet haben <lb/>wollen, daß fürohin keiner mehr alls zwen
+                  <term ref="lem000237">zinß</term> bei denn <term ref="lem000218">pfandten</term>
+                ze suechen haben solle. Und fahls einem old dem <lb/>andern mehr zinß ußstehen
+                tetten, soll einer selbige bei deß <term ref="lem000875">schuldners</term> anderm
+                  <term ref="lem001066">haab und guet</term> ansuechen und in <lb/>zu ziechen
+        haben.</seg>
+                     <term ref="key000154"/>
+                     <term ref="key000441"/>
+                     <term ref="key001028"/>
+                  </p>
+               </div>
+               <div org="uniform" sample="complete">
+                  <p>
+                     <seg n="7">
+                        <lb/>Sitenweillen underschidenlich, ja gemeinlich beschechen, daß wann zwo
+                        personnen sich miteinandern <term ref="lem002394">ehellich</term>
+                        <term ref="lem012244">verlobt</term>
+                        <lb/>und versprochen und vor dem <term ref="lem006358">kilchgang</term> und
+                        offentlicher <term ref="lem007481.03">insegnung</term> zusamen gelegen, sei
+                        mit namhafften <term ref="lem000345">straffen</term> ge<lb break="no"/>büeßt
+                        worden in maßen, daß man sich entpfindtlicher beschwert vernemmen laßen,
+                        haben wir erforderlich angesechen, <lb/>dißem mit einer förmkhlichen <term
+                           ref="lem000809">ordnung</term> begegnet werden solle, gestalten unßer
+                        meinung und <term ref="lem002884">satzung</term> ist, daß wann <lb/>fürohin
+                        solch <term ref="lem015499.02">ohnnzeitiges zusamenligen</term> zwoer
+                        verehellicheten personnen offenbar wurde, jede derselben <lb/><measure
+                           type="currency" unit="k" quantity="3">drey cronnen</measure> verwürgkht
+                        haben und bezallen, ihnnen aber auch mehr nit angemuetet, vill weniger
+                        abgenommen <lb/>werden soll.<term ref="key000184"/>
+                        <term ref="key000110"/>
+                        <term ref="key000865"/>
+                        <term ref="key004200"/>
+                        <term ref="key000231"/>
+                     </seg>
+                  </p>
+               </div>
+               <div org="uniform" sample="complete">
+                  <p>
+                     <seg n="8">
+                        <lb/>Betreffend daß zu <placeName ref="loc000440">Werdenberg</placeName> vor deme <term ref="lem000582">kundtschafften</term>
+              gefaßt und ingenomen worden ohnne beiweßen der<lb break="no"/>jenigen, die es
+              betroffen, da aber beschwerliches bedengkhen hierin sich begeben, deßwegen nun damit
+              niemand <lb/>überlangt werd, wir geordnet und gesetzt haben wollend, daß wann man in
+              deß künfftig kundtschafften von <lb/>oberkeit wegen oder sonst zwüschent partheyen
+              anhören unnd innemmen will, allwegen denjhenigen, <lb/>wellche es berüehren möcht, zu
+        rechter zeit darzu <term ref="lem011046">verkünnt</term> und sei bei dem <term ref="lem003861">verhör</term> gelaßen
+         werden sollen.<term ref="key003261"/>
+                        <term ref="key005173"/>
+                        <term ref="key000078"/>
+                     </seg>
+                  </p>
+               </div>
+               <pb n="15" facs="StASG_AA_3_B_001_14_15"/>
+               <div org="uniform" sample="complete">
+                  <p>
+                     <seg n="9">
+                        <lb/>Daß jetz ein zeitlang von den <term ref="lem000266">landtvögten</term> ingefüöhrt worden, daß die
+         <term ref="lem000329">unnderthonnen</term>, wan sei <term ref="lem002088">kalber</term> zu <term ref="lem000852">verkauffen</term>
+                        <lb/>gehept, allwegen sich zuvor bei denn landtvögten anmelden und ihnnen sollche
+              angetragen werden müeßen, wir <lb/>sollches uß hoch oberkeitlicher befüegsamme
+              uffgehept und denn underthonnen freygestelt haben wollen, ihre kalber <lb/>fürohin
+         <term ref="lem012822">frömbd und heimbschen</term>
+                        <term ref="lem000818">metzgern</term> zu kauffen ze geben und nit mehr pflichtig noch verbunden sein
+              sollen, sich <lb/>deßwegen bei einem landtvogt anzumelden. Benebens aber sollen
+              jeweillige landtvögt disposition und vor<lb break="no"/>sechung thuen, daß die
+         <term ref="lem000818">metzger</term> in der graffschafft kein jüngere alls ohnngfahr <measure type="age" unit="week" quantity="3">dreywüchige</measure>
+                        <term ref="lem002088">kalber</term>
+         metzgen thüegen.<note anchored="true">Zu den Metzgern in Werdenberg siehe auch <ref>SSRQ_SG_III_4_087</ref>; <ref>SSRQ_SG_III_4_155</ref>.</note>
+                        <term ref="key000790"/>
+                        <term ref="key000624"/>
+                        <term ref="key003051"/>
+                        <term ref="key000180"/>
+                     </seg>
+                  </p>
+               </div>
+               <div org="uniform" sample="complete">
+                  <p>
+                     <seg n="10">
+                        <lb/>Alls dann unß zu gemüöth gefüöhrt worden, wellcher gestalten den <term
+                           ref="lem000849">armen</term> in vermelt unßerer graffschafft mit
+                           <lb/><term ref="lem002280">rütenen</term> auff denn <term ref="lem000512"
+                           >allmeinden</term> und derselben <term ref="lem000073">zechenden</term>
+                        freylaßung trost-undersprieslich begegnet und gehulffen <lb/>werden könte,
+                        alls habend wir nit ermanglen wollen, die <term ref="lem000849">armen</term>
+                        hierin auch miltigkhlich zu bedengkhen, in maßen <lb/>unß dahin resolviert
+                        unnd erklert haben wollend, daß arm und nottürfftigen leüthen, wan sei keine
+                           <term ref="lem000807">eigne güeter</term>
+                        <lb/>haben und umb gottes willen anhalten, auff denn <term ref="lem000512"
+                           >allmeinden</term>
+                        <term ref="lem002280">rütenen</term> gegeben werden, wellche sei auff thuen,
+                        <lb/>anpflantzen, nützen und genießen mögen, waß ihnnen gott durch sein
+                        sägen in selbigen bescheren wirt und deß orths <lb/><term ref="lem001219"
+                           >zächenden frey</term> und ledig sein sollen, so lang es unß belieben
+                        wirt und sei es nit mißbruchen werden, in betrachtung <lb/>es ein
+                        freymüetige gnad, jedoch aber hier in <term ref="lem015503.02">hanff</term>
+                        und <term ref="lem015504.02">hirschrütenen</term> vorbehalten sein sollen,
+                        auch es den <term ref="lem001528">auwen</term>
+                        <lb/>und <term ref="lem011616">lechenhöffen</term> zu einichem nachtheil und
+                        schaden nit gereichen soll.<term ref="key004249"/>
+                        <term ref="key003822"/>
+                        <term ref="key003744"/>
+                        <term ref="key000307"/>
+                        <term ref="key000676"/>
+                     </seg>
+                  </p>
+               </div>
+               <div org="uniform" sample="complete">
+                  <p>
+                     <seg n="11">
+                        <lb/>So dann auch denn <term ref="lem000329">underthonnen</term> nit zu ohnnzeitiger beschwert untzharo
+         beschechen, weilen die <term ref="lem000266">landtvögt</term> sich <lb/>deß <term ref="lem014839">wirtens</term> auff
+         dem <term ref="lem000376">schloß</term> bedient und underwunden, sei allwegen den <term ref="lem000053">wyn</term>
+         jede gatung umb ein namhafftes <lb/>theürer alls andere <term ref="lem000842">wirt</term> daselbsten
+              verwirtet und ußgeschengkht, allso unß für billich angesechen, hierin auch ge<lb break="no"/>bührende verbeßerung zeschaffen, gestalten gantz ernstlich gesetzt,
+              geordnet und allen unßern landtvögten, so der enden <lb/>regieren werden,
+              crefftigkhlich ingebunden unnd bevollen haben wollend, daß sei fürohin denn
+         <term ref="lem000053">wyn</term> nit theürer ver<lb break="no"/>wirten und ußschengkhen sollen alls
+         wie in andere <term ref="lem000842">wirt</term> zu gleichen gattungen auch verwirten und ußschengkhen
+              werden. <lb/>Wellches nun die landtvögt alls ein schuldigkeit threüwlich zu
+         observieren wüßen werden, damit sich kein rechtmesige clag <lb/>erregen thüege.<term ref="key000129"/>
+                        <term ref="key000180"/>
+                        <term ref="key004202"/>
+                        <term ref="key000356"/>
+                        <term ref="key001012"/>
+                        <term ref="key000758"/>
+                     </seg>
+                  </p>
+               </div>
+               <div org="uniform" sample="complete">
+                  <p>
+                     <seg n="12">
+                        <lb/>Sitenmahlen auch ingerißen, daß wann ein person die andere in vermelt
+                        unserer graffschafft wegen zugelegter <lb/>ehrrüehrender <term
+                           ref="lem005129">reden</term> mit auffgehebtem <term ref="lem000070"
+                           >eidt</term>
+                        <term ref="lem006208">entschlachen</term> müeßen, man es nit bei der
+                        ordinierten <term ref="lem000036">bueß</term> bewenden laßen, <lb/>sondern
+                        sollche offt vermehret. Dahero man sich nit ohnnnöttiger beschwerdt
+                        vernemmen laßen wollend, deßwegen zu<lb break="no"/>künfftiger gewüss- und
+                        sicherheit bestimpt und verordnet haben, daß fürohin, wann dergleichen <term
+                           ref="lem008446">entschlagungen</term> be<lb break="no"/>schechen, mehr
+                        bueß nit angemuetet noch genommen werden soll alls die vor altem taxierten
+                           <measure type="currency" unit="lb" quantity="10">10 <abbr>lib
+                           ₰</abbr></measure>.<term ref="key003026"/>
+                        <term ref="key000184"/>
+                        <term ref="key003324"/>
+                        <term ref="key000814"/>
+                        <term ref="key000179"/>
+                     </seg>
+                  </p>
+               </div>
+               <div org="uniform" sample="complete">
+                  <p>
+                     <seg n="13">
+                        <lb/>Wann nun auch ervolgt, daß wann einer ein <term ref="lem015501.02">exceß</term> oder <term ref="lem002925">fäller</term>
+                        <term ref="lem011868">ussert landt</term> verüebt und dan daselbsten, in wellcher <lb/>bottmessigkeit
+              der fäller gefallen, er von einer oberkeit gebüesst und abgestrafft worden, die
+        <term ref="lem000266">landtvögt</term>
+                        <damage agent="faded ink"><supplied source="StASG AA 3 B 2, S. 290">verdeüt unserer</supplied></damage>
+                        <lb/>graffschafft volgents sei, umb sollches auch noch zu red gesetzt und
+        <term ref="lem010526">bestrafft</term>, wellches aber ein manier, deren man sich <damage agent="faded ink"><supplied source="StASG AA 3 B 2, S. 290">nit
+                  ohn</supplied></damage>
+                        <lb break="no"/>billich alls beschwerlich vermergkhen
+              laßen. Deßwegen wir in bedengkhung der billichkeit gehebt ußtrugkhenlich er<lb break="no"/>kent und regul gegeben haben wollen, daß wann einer umb ein
+         <term ref="lem002925">fäller</term>, der <term ref="lem011868">ußert landts</term> begangen wirt, von der
+         <lb/>oberkeit, in deren <term ref="lem001923">jurisdiction</term> es beschechen, züchtiget und gebüeßt
+              ist, ein landtvogt ihnne nit mehr darumb ansechen, <lb/>vill weniger straffen, sondern
+         berüewiget laßen solle, vorbehalten <term ref="lem015507.02">delicten</term> und mißhandlungen, die an
+        daß <term ref="lem001470">malefitz</term>
+                        <pb n="16" facs="StASG_AA_3_B_001_16_17"/>
+                        <lb/>rüehren tetten, da in sollchem fahl ein jederweilliger landtvogt unß
+              bericht ze thuen und unßers guetachten, rath und bevelchs <lb/>zu erwarten wüßen
+         wirt.<term ref="key000847"/>
+                        <term ref="key000590"/>
+                        <term ref="key000905"/>
+                        <term ref="key000180"/>
+                        <term ref="key004236"/>
+                     </seg>
+                  </p>
+               </div>
+               <div org="uniform" sample="complete">
+                  <p>
+                     <seg n="14">
+                        <lb/>Daß auch beschächen, wann in geredt unßer graffschafft ein <term
+                           ref="lem000210">sohn</term> gestorben uß deß <term ref="lem000129"
+                           >vatters</term>, old wan ein vatter gestorben, <lb/>uß deß sohns <term
+                           ref="lem013016">haab</term> der <term ref="lem000337">fahl</term> gezogen
+                        und genommen worden und dahero beschwerliche andung ervolgt. Deßwegen,
+                        weilen <lb/>diß ja lauffen thuet, wider die nattürliche form und ard der
+                           <term ref="lem001205">fahlrechten</term> und sollches auch unß ohnnwüßent
+                        beschechen, <lb/>alls wollend wir sollches uß hoch oberkeitlicher macht und
+                        befuegsamme geenderet und zu künfftigen verhalt heiter <lb/>erleüteret unnd
+                        geordnet haben: Daß wan fürhin ein old die ander person inn dißer unßerer
+                        graffschafft durch <lb/>ihren tödtlichen hintrit ein fahl felt, ein
+                        landtvogt alls dann sollchen uß deß verstorbnen hinderlaßner eigner
+                        <lb/>unnd keines andern, weder <term ref="lem000129">vatters</term>, <term
+                           ref="lem000210">sohn</term> noch <term ref="lem000131">brüedern</term>,
+                           <term ref="lem013016">haab</term> nemmen soll, so fehr sollche zuvor
+                        gesünderet und nit mehr <lb/>gemein ist, jedoch man auch sich wohl fürsechen
+                        soll, daß man sich nit underfangen, hierin gefahr old <term ref="lem003973"
+                           >betrug</term> zu bruchen.</seg>
+                     <seg>
+                        <lb/><add place="below">Über dießren vorgesetzten puncten ist von unßren
+                                 <choice><abbr>gn</abbr>
+                              <expan>gnädigen</expan></choice> herren und <choice><abbr>obr</abbr>
+                              <expan>obern</expan></choice>, <lb/><orgName ref="org003239">landamman
+                              und raht zue Glaruß</orgName> undrem <origDate when="1687-07-28">28.
+                              july anno 1687</origDate> ein erleüterung <lb/>gemacht, darumben ist
+                           ein besiglet uhrkunt aufgerichtet, <choice><abbr>lschreib</abbr>
+                              <expan>landschreiber</expan></choice>
+                           <persName ref="per009346a">Weiß</persName>.</add><note anchored="true"
+                           >Vgl. dazu Artikel 2 in der Erkenntnis von <orgName ref="org001197"
+                              >Glarus</orgName> über diverse Beschwerden der <orgName
+                                 ref="org003242">Einwohner der Landvogtei Werdenberg</orgName>, vgl.
+                           das Regest im Kommentar von <ref>SSRQ_SG_III_4_185</ref>.</note>
+                        <term ref="key001112"/>
+                        <term ref="key000183"/>
+                        <term ref="key000244"/>
+                        <term ref="key000300"/>
+                        <term ref="key000920"/>
+                     </seg>
+                  </p>
+               </div>
+               <div org="uniform" sample="complete">
+                  <p>
+                     <seg n="15">
+                        <lb/>Wan dann in betrachtung gefasst worden, waß maßen zu <placeName
+                           ref="loc000440">Werdenberg</placeName> ein groß und schwerer <term
+                           ref="lem003133">gerichtscosten</term> genommen unnd all<lb break="no"
+                        />wegen fasst umb jeder sach willen in sollchem gericht bestelt und gehalten
+                        worden, habend wir erforderlich erachtet, ge<lb break="no"/>bührende <term
+                           ref="lem015493.02">messigung</term> und ertragenliche ringerung zu
+                        schaffen, gestalten wir erkent unnd hiemit geordnet haben wollen: <lb/>Daß
+                        fürohin umb ein eintziger sach willen kein <term ref="lem005841"
+                           >gericht</term> mehr angesechen und gehalten, sondern erwartet werden
+                        soll, <lb/>untz daß <num value="2">zwo</num> oder <num value="3">drey</num>
+                        partheyen sich angemelt.<note anchored="true">Die im KA Werdenberg im OA
+                           Grabs Nr. 6 kopierte Ordnung bricht hier ab.</note> Es seie dann, daß
+                        etwan ein sach vorfallen tett, daß sei kein ver<lb break="no"/>zug erlyden
+                        möcht, an einem schaden stüende und allso es ohnnvermydenlich sein müesst.
+                        Alls dann mag von sollcher <lb/>wegen wohl gericht angesechen und gehalten
+                        werden, jedoch mit der erklerten und ußgetrugkhten meinung <lb/>und
+                        condition, daß die <term ref="lem000342">richter</term>, es seigen gleich
+                        vil old wenig, <term ref="lem000034">gericht</term> old partheyen mehr <term
+                           ref="lem003133">gerichtscosten</term> nit alls <measure type="currency"
+                           quantity="7" unit="fl">siben <lb/>guldi</measure> und <measure
+                           type="currency" quantity="3" unit="bz">drey <abbr>bz</abbr></measure>
+                        heüschen und nemmen und sollchen auff die partheyen theillen sollen. <term
+                           ref="key003505"/>
+                        <term ref="key000057"/>
+                        <term ref="key000814"/>
+                     </seg>
+                     <seg>Belangend dan die <term ref="lem001683">under<lb break="no"/>geng</term>,
+                        da mann auff denn <term ref="lem003214">augenschein</term> müeß, soll denn
+                           <term ref="lem000089">amptleüthen</term> unnd <term ref="lem000342"
+                           >richtern</term>, die sich bei den sachen beschäfftiget <lb/>befinden,
+                        allen unnd einem jeden ze <term ref="lem000282">lohn</term> gegeben werden
+                           <measure type="currency" quantity="1" unit="fl">ein guldi</measure>, doch
+                        daß nit mehr personnen hierzugezogen <lb/>werden alls nach harkomner <term
+                           ref="lem000809">ordnung</term> und form.<term ref="key000814"/>
+                        <term ref="key000748"/>
+                        <term ref="key000212"/>
+                        <term ref="key001079"/>
+                        <term ref="key004167"/>
+                     </seg>
+                  </p>
+               </div>
+               <div org="uniform" sample="complete">
+                  <p>
+                     <seg n="16">
+                        <lb/>Sitenweillen auch den underthonnen diße entpfindtliche beschwerlichkeit <term ref="lem015508.02">über
+        den hallß wachsen</term> wollen, daß bei <term ref="lem004815">setzung</term>
+                        <lb/>der <term ref="lem000693">marchen</term> hin und wider nit die alte <term ref="lem000809">ordnung</term> in den
+        cösten beobachtet, sondern große <term ref="lem000279">cösten</term> uff diejenigen, so es antreffen,
+              <lb/>gemacht unnd geschlagen worden, deßhalb wir die ingerißne neüwerung gentzlich
+        <term ref="lem012063">relaxiert</term>, abgethon und es widerumb <lb/>inn die alte form gesetzt
+              haben wollen, dergestalt, daß wan in daß künfftig marchen gesetzt werden, die so
+        <lb/>interesiert, mehr nit alls nach altem <term ref="lem015500.02">ordnungsschrott</term> von jeder
+              march <measure type="currency" quantity="3" unit="bz">drey gbatzen</measure> costen
+              abrichten, erstatten und <lb/>geben sollen, auch man ihnnen mehr anzumueten sich nit
+        underfangen soll.<term ref="key000814"/>
+                        <term ref="key000305"/>
+                        <term ref="key001079"/>
+                        <term ref="key000270"/>
+                     </seg>
+                  </p>
+               </div>
+               <div org="uniform" sample="complete">
+                  <p>
+                     <seg n="17">
+                        <lb/>Inn wohlmeinlich und vätterlicher erdurung haben wir auch befunden, den
+                        unßern der graffschafft <orgName ref="org003242">Werdenberg</orgName>
+                        <lb/>zu nutzbarlicher ersprießlichkeit abhalt- unnd verhüetung
+                        ohnnrichtigkeiten, <term ref="lem004346.05">zengkh</term> und gespennen
+                        gereichen <lb/>und diennen werden, wann sei auch mit einer <term
+                           ref="lem002884">satzung</term> versechen, daß wann ein person von gott uß
+                        dißer welt <lb/>berüefft wirt inn denn nechsten <date dur="P4W">vier
+                           wuchen</date> darnach die <term ref="lem000037">schulden</term> durch ein
+                           <term ref="lem006749.07">kilchenrueff</term> zusamen beruefft <lb/>werden
+                        sollen, hiemit nün wir unßer erkantnuß, bevelch und gesatz dahin wollend
+                        gerichtet und formirt <lb/>haben, daß künfftigkhlich, wann ein person inn
+                        der graffschafft <term ref="lem001445">stirbt</term>, der selben <term
+                           ref="lem001415">erben</term> nach verfließung <pb n="17"
+                           facs="StASG_AA_3_B_001_16_17"/>
+                        <lb/><date dur="P4W">vier wuchen</date> ohnnfelbar inn allen <term
+                           ref="lem000240">kilchen</term> daselbsten ein <term ref="lem006749.07"
+                           >kilchenrueff</term> ergohn laßen und diejenigen, so anzusprächen und
+                        auch <lb/>die, so schuldig, zur <term ref="lem000390">rechnung</term> an ein
+                        gewüßes orth unnd auff einen gewüßen tag berüeffen sollen, <del
+                           rend="overwritten">be</del>mit beigehefftem ver<lb break="no"/>melden,
+                        daß inn crafft diß articuls hernach man niemandem kein bscheidt noch antwort
+                        mehr geben und die erben bei <lb/>ihren <term ref="lem000390"
+                           >rächnungen</term>
+                        <term ref="lem002893">manutenieren</term> unnd schirmen werde.<term
+                           ref="key003021"/>
+                        <term ref="key000058"/>
+                        <term ref="key000794"/>
+                        <term ref="key003024"/>
+                     </seg>
+                  </p>
+               </div>
+               <div org="uniform" sample="complete">
+                  <p>
+                     <seg n="18">
+                        <lb/>Daß vordeme die <term ref="lem000329">underthonnen</term> geredt unßerer
+                graffschafft, wann ihnnen waß beschwerliches angelegen geweßen, uß <term ref="lem002041">forcht</term>
+                        <lb/>namhaffter <term ref="lem000345">straff</term> ohnne erlaubt der <term ref="lem000266">landtvögten</term>, nit allhero zukomen und ihr angelegenheit zu
+                eroffnen, <term ref="lem000714">hilff</term>
+                        <lb/>unnd <term ref="lem000346">rath</term> zesuechen, sich verstehen dörffen, da
+                zun zeiten es ihnnen verstattet, vilmahl aber wan die sachen den landt<lb break="no"/>vögten, wie man sagt, die <term ref="lem015505.02">haut</term> old ihr interesse
+                berüehren wollen, es ihnnen <term ref="lem014693">abgeschlagen</term> und allso sei
+                  <term ref="lem012008">hinderhalten</term>
+                        <lb/>worden, deßwegen wir für künfftige zeit dißere disposition unnd <term ref="lem003309">verordnung</term> gethon haben wollen: Daß wann <lb/>einem old dem
+                andern unßerer underthonnen, waß so hart und tieff angelegen, daß er willens were,
+                unß zu be<lb break="no"/>richten und sich unßer trost, hilff unnd raths zu bewerben,
+                ein sollcher zwahren sich bei einem <term ref="lem000266">landtvogt</term> anmelden
+                <lb/>und offenbaren soll, daß er für unß alls die <term ref="lem013598">hoch
+                  oberkeit</term> gesinnet. Alls dann und in sollchem fahl soll ein landtvogt
+                <lb/>es einem sollchen nit wehren, vil weniger verbieten, sondern nach sollcher
+                anmeldung jeder befüegt sein, <lb/>ohnne <term ref="lem002041">forcht</term> der
+                  <term ref="lem000345">straff</term> allhero vor unß zu komen, da dann wir schon
+                nach anleitung der gebühr den sachen ze thuen <lb/>und zu begegnen wüßen werden.
+                Fahls aber einer oder der ander der frächheit were und ohnnange<lb break="no"/>melt,
+                hinderrugkhs eines landtvogts, eigenwillig, allhero lauffen tett, wir einen sollchen
+                umb sollches anzusechen <lb/>nit ermanglen werden, damit es nit ein allzu gemeines
+                ohnnnöttiges <term ref="lem001271.05">gelöüff</term> abgeben thüege. <term ref="key000905"/>
+                        <term ref="key000180"/>
+                        <term ref="key000439"/>
+                        <term ref="key003998"/>
+                        <term ref="key004393"/>
+                        <term ref="key004158"/>
+                     </seg>
+                  </p>
+               </div>
+               <div org="uniform" sample="complete">
+                  <p>
+                     <seg n="19">
+                        <lb/>Anlangende die <term ref="lem015496.02">groß buoß</term> an <term
+                           ref="lem000666.17">jahrmergten</term> ist zu <term ref="lem004398.02"
+                           >milterung</term> der beschwerdt, daß sollche untz hero an sollchen tagen
+                        <lb/>im gantzen <term ref="lem005579">landt</term> geweßen, geordnet,
+                        erleütheret unnd bestimpt, daß fürohin an dergleichen tagen die groß buoß
+                        <lb/>old achtung deß <term ref="lem005586">mergt</term>
+                        <term ref="lem015494.02">entfreyung</term> weiter nit gelten solle alls
+                        innert volgenden <term ref="lem001694">zill</term> und marchen, namlich: So
+                        <lb/>sollen die <term ref="lem000693">marchen</term> sin unnd anfachen bei
+                        dem <term ref="lem005033.07">brügkhli</term> zu <placeName ref="loc000198"
+                           >Buchs</placeName>, von dannen obsich der <term ref="lem000596"
+                           >landtstraß</term> nach an daß <lb/><term ref="lem000637"
+                           >pfarrhauß</term> und von dannen der grede nach ob dem <term
+                           ref="lem002275.07">weyer</term> hindurch biß oben an denn <term
+                           ref="lem015506.02">hooff</term> unßers <term ref="lem000376"
+                           >schloßes</term>
+                        <placeName ref="loc000015">Werden<lb break="no"/>berg</placeName>, da dannen
+                        dem kleinen <term ref="lem002796.05">geßli</term> nach hinab untz in die
+                           <term ref="lem000596">landtstraß</term> und der landtstraß nach hinuß biß
+                        gen <lb/><placeName ref="loc000335">Graps</placeName> an die <term
+                           ref="lem015497.02">bachbrugkh</term>, selbigem <term ref="lem000320"
+                           >bach</term> nach hinuß gegen dem <placeName ref="loc000644"
+                           >Ryn</placeName> biß an die landtstraß und der landtstraß nach
+                        <lb/>hinauff gegen dem <term ref="lem010968">hochgericht</term>, von dannen
+                        biß hinauff an den <placeName ref="loc008246.01">Wettisteg</placeName> und
+                        daselbst über die <placeName ref="loc008247.02">Buchser Weite</placeName>
+                        <lb/>der landtstraß nach hinauff biß an daß jetzig <term ref="lem001335.04"
+                           >zollhauß</term> bim <placeName ref="loc000198">Buchser</placeName>
+                        <term ref="lem000699">brunen</term> und dann grad durch den <lb/>brunen
+                        wider an daß erste <term ref="lem005033.08">brügli</term>. <term
+                           ref="key003819"/>
+                        <term ref="key000184"/>
+                        <term ref="key003819"/>
+                        <term ref="key000295"/>
+                        <term ref="key003217"/>
+                        <term ref="key000746"/>
+                        <term ref="key000044"/>
+                     </seg>
+                  </p>
+                  <p>
+                     <lb/>Waß daß die <term ref="lem001039.26">kilwennen</term> berüehrt, weilen
+                     sollche vor deme uß etlich feltigen motiven gentzlich abgestelt, <lb/>daß man
+                     dergleichen tagen nit mehr in sollchem weßen, wie zuvor beschechen, zu bringen
+                     solle, laßend wir es <lb/>noch mahlen darbei bewenden, gestalten unßer meinung
+                     und erklerung ist, daß an sollchen tagen die <term ref="lem015496.03">groß
+                        bueß</term>
+                     <lb/>inn unßerer graffschafft nit mehr sein noch gelten und hiemit von
+                     dennjenigen, wellche an sollchen in tettliche <lb/><term ref="lem004034"
+                        >handlung</term> alls ohnneinig komen, nit mehr alls ein gemeine <term
+                        ref="lem000044">freffel</term>
+                     <term ref="lem000036">bueß</term> genommen werden soll.<term ref="key000789"/>
+                     <term ref="key000184"/>
+                  </p>
+               </div>
+               <div org="uniform" sample="complete">
+                  <p>
+                     <seg n="20">
+                        <lb/>Betreffend den <term ref="lem000349">zoll</term> sollen <term ref="lem012822">frombd und heimbsche</term>, wellche <term ref="lem000310">vich</term> auff denn <term ref="lem000666.17">jahrmergten</term> erkauffind und
+                  <term ref="lem002457">ußert daß landt <lb/>fertigen</term>, denn zoll zu geben und
+                abzustatten schuldig sein: Namlich von jedem stugkh <term ref="lem001069">roß</term>
+                        <measure unit="bz" quantity="1" type="currency">ein batzen</measure>, von jedem
+                  <term ref="lem015460">haupt<lb break="no"/>rindvich</term>
+                        <measure unit="xr" quantity="2" type="currency">zwen crützer</measure> und von jedem
+                  <term ref="lem015502.02">hauptschmallvech</term>, <term ref="lem000055">schaaff</term> old <term ref="lem001394">geißen</term>
+                        <measure unit="xr" quantity="1" type="currency">ein crützer</measure>.<term ref="key000199"/>
+                        <term ref="key000814"/>
+                        <term ref="key000298"/>
+                        <term ref="key000295"/>
+                     </seg>
+                  </p>
+                  <p>Item von demjenigen <term ref="lem000310">vich</term>, waß nebet und ussert
+                     denn gewonten <term ref="lem000666.17">jahrmergten</term> erkaufft und usser
+                     daß landt ge<pb break="no" n="18" facs="StASG_AA_3_B_001_18_19"/>fertiget wirt,
+                     soll mann zollen von jedem <term ref="lem001069">roß</term>
+                     <measure unit="bz" quantity="1" type="currency">ein batzen</measure>, von jedem
+                        <term ref="lem000833">rind</term>
+                     <measure unit="xr" quantity="1" type="currency">ein crützer</measure> und von
+                     jedem <term ref="lem015502.03">hauptschmallvich</term>, <lb/><term
+                        ref="lem000055">schaaff</term> oder <term ref="lem001394">geiß</term>
+                     <measure unit="h" quantity="1" type="currency">ein haller</measure> und von
+                     jedem <term ref="lem003274">bogkh</term>
+                     <measure unit="d" quantity="1" type="currency">ein pfenig</measure> luth <term
+                        ref="lem015495.02">zollbuechs</term>. Wellchem <term ref="lem000349"
+                        >zoll</term> ebenmessig <term ref="lem012822">frömbd und
+                        <lb/>heimbsch</term> unnderworffen sin sollen. Wellcher letstere ußert denn
+                     jahrmergten auffnemende zoll inn <term ref="lem015492.02">landt<lb break="no"
+                        />zoll</term> gehören thuet und in <term ref="lem009984">drey theil</term>
+                     zebrechen unnd darvon ein theil unß und die andern <term ref="lem015321">zwen
+                        theil</term> unßren under<lb break="no"/>thonnen vermög alten harkomens
+                        gebührt.<term ref="key000199"/>
+                     <term ref="key000814"/>
+                     <term ref="key000298"/>
+                     <term ref="key000847"/>
+                     <term ref="key000231"/>
+                     <term ref="key000295"/>
+                  </p>
+               </div>
+               <div org="uniform" sample="complete">
+                  <p>
+                     <lb/>In urkhundt und inn crafft diß <term ref="lem002974">libells</term> unnd daß wir gehebt haben wollend, diß
+              vorbeschribnen puncten und <lb/>artickhlen inn allwyß unnd weg nachbuechsteblichem
+              begriff threüwlich und gehorsamlich gelebt und nach<lb break="no"/>gegangen unnd nit
+              überschriten, sondern in steiffer observanz gehalten werden sollen und unßer
+         <term ref="lem002050">teütsche</term>
+                     <lb/>erklerungsmeinung dahin seige, die unßern bei sollchen zu handhaben und zu
+              schirmen, habend wir <lb/>unßers landts secret insigel (doch vorangedeütermaßen unß in
+              all ander weg an unßerer hochheit, rechtsamme <lb/>und gerechtigkeit ohnn
+              præjudicierlich und ohnnschedlich), offentlich hengkhen laßen an diß libell, so geben,
+              <lb/>den <origDate when="1653-09-22">22<hi rend="sup">ten</hi>
+                        <abbr>7bris</abbr> nach <persName ref="per000353">Christi Jesu</persName> unßers
+                erlößers heillsamister menschwerdung gezelt eintaußent <lb/>sächs hundert fünfftzig
+                unnd dreüw jare</origDate>
+                     <abbr>etc</abbr>.<add place="below" hand="later hand">1653.</add>
+                  </p>
+               </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div n="1" org="uniform" sample="complete">
+            <p>Die Initative zur Abschaffung zahlreicher Missstände in <placeName ref="loc000440">Werdenberg</placeName> geht hier von der <orgName ref="org003242">Bewohnerschaft</orgName> aus, die dazu einige Artikel aufstellt und Glarus bittet,
+          diese zu bestätigen. <orgName ref="org001197">Glarus</orgName> kommt dem Begehren nach und
+          bestätigt die Artikel in Form eines Libells, das den Bedürfnissen der Bewohner wesentlich
+          entgegenkommt und versucht, dem eigenmächtigen Gebaren von <term ref="key000180">Landvögten</term> oder Glarner <term ref="key000209">Gesandten</term> Einhalt zu
+          gebieten: </p>
+            <p>So dürfen z. B. ungerechtfertigt hohe <term ref="key000184">Bussen</term>, die von
+          Glarner Gesandten ausgesprochen werden, nach <placeName ref="loc000326">Glarus</placeName>
+          appelliert werden. Offenbar ist es öfters vorgekommen, dass die Gesandten, die beim
+          Übergang der Herrschaft vom alten zum neuen Landvogt zusammen mit den beiden Landvögten
+          eine interimistische Regierung, das <term ref="key005174">Syndikat</term>, bilden, zu hohe
+          Bussen aussprechen. Wohl hat mancher Gesandte versucht, durch hohe Bussen sein Einkommen
+          aufzubessern, denn während der Regierungszeit anfallende Einnahmen wie Zinsen, Bussen,
+          Fälle oder Gebühren werden unter den vier Regierungsmitgliedern aufgeteilt. </p>
+            <p>Auch durch Landvögte entstandene Missbräuche werden in diesem Libell abgeschafft, so darf
+          ein Landvogt die Bewohner, die sich bei Glarus über seine Entscheidungen beschweren
+          wollen, nicht behindern. Er darf auch keinen überteuerten Wein mehr ausschenken, bereits
+          im Ausland bestrafte Taten nicht nochmals in Werdenberg strafen oder den Fall nicht
+          zweifach einziehen. Zur allgemeinen Senkung von <term ref="key003505">Gerichtskosten</term> werden im Libell auch Verfahren vereinfacht, der Zinsfuss gesenkt
+          oder Tarife festgelegt. Alles in allem zeigt das Libell das Bemühen von Glarus, den
+          Missständen in ihrer Landvogtei abzuhelfen und den Forderungen seiner Untertanen
+          entgegenzukommen.</p>
+            <p>Wie bereits Winteler feststellt, ist dieses Libell in der Literatur kaum beachtet
+               worden (<bibl><ref target="http://permalink.snl.ch/bib/chbsg000142793">Winteler
+                     1923</ref>, S. 43–44</bibl>). Daran hat sich bis heute wenig geändert, wohl
+               weil das Libell für die Bewohnerschaft von <orgName ref="org003242"
+                  >Werdenberg</orgName> günstig ausfällt und versucht, dem <term ref="key005172"
+                  >Amtsmissbrauch</term> durch Glarner Amtleute entgegenzuwirken. Dadurch steht es
+               deutlich in Widerspruch zu dem in der Literatur betonten Bild von Glarus, das die
+               Bewohnerschaft ihrer Landvogtei ausbeutet und unterdrückt.</p>
+            <p>Auch als sich am <date when="1687-07-28">28. Juli 1687</date> die Bewohnerschaft von
+          Werdenberg vor Landammann und Rat in <orgName ref="org003239">Glarus</orgName> über
+          diverse Missstände betreffend die hohen <term ref="key004371">Kosten</term> beim Ablegen
+          der <term ref="key004526">Waisen-</term> und Vogtrechnungen auf dem Schloss <placeName ref="loc000015">Werdenberg</placeName>, Unklarheiten beim Einzug des <term ref="key000183">Falls</term> und beim <term ref="key000187">Unterhalt</term> von <term ref="key000311">Waisen</term> sowie den Zeitpunkt der <term ref="key000127">Weinlese</term> beklagt, kommt Glarus dem Begehren entgegen und bestimmt folgendes:</p>
+            <p>1. Die <term ref="key004526">Waisen-</term> bzw. Vogtrechnungen können in Zukunft an
+          beliebigen Orten abgelegt werden, doch soll ein geschworner <term ref="key000103">Richter</term> dabei sein und kontrollieren, dass keine übermässigen Kosten
+          entstehen.</p>
+            <p>2. Bleiben beim <term ref="key003024">Tod</term> eines <term ref="key003836">Hausvaters</term> die <term ref="key000803">Kinder</term> im <term ref="key003405">Haushalt</term> zusammen und stirbt eines der (männlichen) Kinder, soll vor dem Bezug
+          des <term ref="key000183">Todfalls</term> in Anwesenheit des Landvogt eine Teilung unter
+          den Kindern gemacht werden und dann der Todfall nur aus dem Teil des Verstorbenen bezogen
+          werden. Kinder, welche die <term ref="key003408">Taufe</term> nicht erreichen, sind nicht
+          fallpflichtig.</p>
+            <p>3. Bei der jährlichen <term ref="key000127">Weinlese</term> soll nicht ein Landvogt,
+          sondern eine jeweilige <term ref="key004966">Gemeinde</term> selbst bestimmen, wann sie
+          wimmen will.</p>
+            <p>4. Betreffend den <term ref="key000187">Unterhalt</term> der <term ref="key000311"
+                  >Waisenkinder</term> können sich die <orgName ref="org003242"
+                  >Werdenberger</orgName> entweder an das Glarner <term ref="key003298"
+                  >Landesrecht</term> halten oder aber zwei Drittel aus dem väterlichen und einen
+               Drittel aus dem mütterlichen Gut beziehen (<bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/3c9466d05c9d46cdad5d71555ecedba2"
+                     >LAGL AG III.2462:006</ref></bibl>).</p>
+            <p>Weitere Verwaltungsreformen zu jener Zeit siehe auch <ref>SSRQ_SG_III_4_181</ref>;
+            <ref>SSRQ_SG_III_4_194</ref>; <ref>SSRQ_SG_III_4_216</ref>;
+            <ref>SSRQ_SG_III_4_231</ref>.</p>
+         </div>
+         <div n="2" org="uniform" sample="complete">
+            <p>Diese <term ref="key000341">Ordnung</term> ist als Ergänzung zum Landesrecht von 1639
+               im Landbuch eingetragen (<ref>SSRQ_SG_III_4_174</ref>). Das Urbar von 1754
+                     (<bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/85e11623d05e4ed088f788722b004138"
+                     >LAGL AG III.2401:044</ref>, S. 285–294</bibl> bzw. <bibl><ref>StASG AA 3 B
+                     2</ref>, S. 285–294</bibl>) sowie die meisten Abschriften des Landesrechts
+               enthalten diesen Nachtrag (<ref>StASG AA 3 B 9, fol. 1r–10v</ref>;
+                     <bibl><ref>PA  Buchs B 11.21-01, S. 85–99</ref></bibl>; <bibl><ref>StASG AA 3 A
+                     04-4b</ref></bibl>; <bibl><ref>[PA Hilty] Privatarchiv Kopial- und Formularbuch
+                     von Christian Litscher</ref>, S. 1–17</bibl>; <bibl><ref>KA Werdenberg im OA
+                     Grabs Nr. 6</ref></bibl>. In letzterer Abschrift bricht die Aufzeichnung
+               allerdings mitten in Artikel 15 ab). Im Vidimus (<bibl><ref>StASG AA 3 B
+                  5</ref></bibl>, gedruckt bei <bibl><ref
+                     target="http://permalink.snl.ch/bib/chbsg000142777">Senn, Chronik</ref></bibl>)
+               sowie in der Abschrift im <bibl><ref>KA Werdenberg im OA Grabs Nr. 6</ref></bibl>
+               fehlt dieser Nachtrag, dagegen hat Winteler im Anhang an seine Geschichte von
+               Werdenberg unter Glarner Herrschaft das <term ref="key003328">Libell</term> ediert
+                     (<bibl><ref target="http://permalink.snl.ch/bib/chbsg000142793">Winteler
+                     1923</ref>, Anhang A, S. 178–187</bibl>).</p>
+         </div>
+      </back>
+   </text>
+</TEI>

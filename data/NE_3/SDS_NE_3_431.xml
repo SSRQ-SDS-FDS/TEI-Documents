@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     n="1234"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="headerinfo"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2020-08-17"/>    <date type="print"/>
+    <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Collection des sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des
+      sources
+      du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS_NE_3_431</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>AVN B 101.14.002, fol. 65v–66v</idno>
+               </msIdentifier>
+               <head>Obligations du testateur envers ses frères et soeurs</head>
+               <msContents>
+                  <summary>Modalités concernant la rédaction d’un testament, en particulier les
+                     obligations du testateur envers ses frères et soeurs, ainsi que dans
+                     l’éventualité où l’un d’eux viendrait à mourir avant le décès du
+                     testateur.</summary>
+                  <msItem>
+                     <textLang>français</textLang>
+                     <filiation type="current"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="34.5"/>
+                              <width unit="cm" quantity="22"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1752-01-21"/>
+                     <origPlace ref="loc007786">Neuchâtel</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head/>
+                     <bibl/>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key005077"/>
+               <term ref="key003069"/>
+               <term ref="key000635"/>
+               <term ref="key004770"/>
+               <term ref="key005079"/>
+               <term ref="key000242"/>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="65v" facs="AVN_B_101.14.002_0065v"/>
+               <div>
+                  <p>
+                     <lb/>Du <origDate when="1752-01-21">21<hi rend="sup">e</hi> janvier 1752</origDate>.
+      </p>
+                  <p>
+                     <lb/>Sur la requête <add place="left margin">Remis copie à <choice>
+                           <abbr>M<hi rend="sup">r</hi>
+                           </abbr>
+                           <expan>monsieur</expan>
+                        </choice>
+                        <persName ref="per008612">Matile</persName>
+                        <lb/>maire de la <placeName ref="loc007789">Sagne</placeName> le <date
+                           when="1833-07-31">31 juillet <hi rend="underline">1833</hi></date></add>
+                     présentée par le sieur <lb/><persName ref="per008688"><choice>
+                           <abbr>Abrãm</abbr>
+                           <expan>Abraham</expan>
+                        </choice>-François Jeanneret</persName> de <placeName ref="loc007794"
+                        >Travers</placeName>
+                     <lb/>tailleur d’habits, habitant en cette ville, <lb/>à monsieur le maître
+                     bourgeois en chef et à <lb/>messieurs du <orgName ref="org003085">Conseil
+                        Étroit de la Ville de <lb/><placeName ref="loc007786"
+                        >Neufchatel</placeName></orgName>, aux fins d’avoir la déclaration <lb/>de
+                     la coutume de ce pais sur les deux <lb/>questions cy-après, qu’il leur a <del
+                        rend="strikethrough">été</del> remis <lb/>par écrit. </p>
+                  <p>
+                     <lb/>1<hi rend="sup">o</hi>. Si un frère de franche condition qui n’a
+                     <lb/>point d’enfans, étant de bon sens, esprit <lb/>et jugement, ayant frères
+                     et soeurs, <lb/>voulant disposer de ses biens par un <lb/>testament en y
+                     instituant un ou plusieurs <lb/>héritiers non parens, n’est pas obligé de
+                     <lb/>faire certains legs<del rend="blackened">
+                        <gap reason="illegible" unit="character" quantity="3"/>
+                     </del> à chacun de ses frères <lb/>et soeurs, ou les déjetter pour chacun
+                        <measure type="currency" origin="NE" unit="sol faible" quantity="5">cinq
+                        <lb/>sols foibles</measure><note>Le sol faible est une dénomination rare du
+                        gros qui constitue un douzième de livre faible de Neuchâtel.</note>, en les
+                     dénommant tous l’un après <lb/>l’autre nom par nom, si non, s’il s’en trouve
+                        <lb/><add place="below" type="catchword">un</add>
+                     <pb n="66r" facs="AVN_B_101.14.002_0066r"/>
+                     <lb/>un d’omis, tel testament, quand même <lb/>il renferme une <del
+                        rend="strikethrough">h</del>
+                     <term ref="lem015554.04">exhérédation</term> générale <lb/>devient nul et de
+                     toute nullité. </p>
+                  <p>
+                     <lb/>2<hi rend="sup">o</hi>. Que si ce frère, comme il est dit cy dessus,
+                     <lb/>ayant fais son dit testament, sans <lb/>avoir omis aucun de ses frères et
+                     soeurs <lb/>&amp; que ces derniers vinssent à décéder <lb/>quand même il n’y en
+                     auroit qu’un, <lb/>et a prédécéder le testateur, si celuy <lb/>cy n’étoit pas
+                     tenu avant sa mort, s’il <lb/>vouloit que <choice>
+                        <abbr>sond<hi rend="sup">t</hi>
+                        </abbr>
+                        <expan>sondit</expan>
+                     </choice> testament eût son <lb/>effet, de dénommer par un <term ref="lem014981.01"
+                        >codicile</term> tous
+                     <lb/>ces neveux et nièces, enfants des frères <lb/>et soeurs qui l’ont
+                     prédécédés, et cela l’un <lb/>après l’autre pour leur donner des legs<del
+                        rend="blackened"><unclear>illisible</unclear></del>
+                     <lb/>ou les <term ref="lem015554">exhéréder</term>, si non, s’il n’a pas fait <lb/>tel <term ref="lem014981.01"
+                        >codicile</term>, sondit testament devient <lb/>caduc et défectueux. </p>
+                  <p>
+                     <lb/>Monsieur le maître bourgeois en chef et <lb/>messieurs du <orgName ref="org003085">Conseil
+        Étroit</orgName>, après avoir <lb/>délibéré et consulté ensemble, ont donné <lb/>par
+       déclaration que de tout tems la <lb/>coutume de cette souveraineté est telle, <lb/>savoir. </p>
+                  <p>
+                     <lb/>Sur le premier article, qu’un homme de <lb/>franche condition qui n’a
+                     point d’enfants, <lb/>de bon sens, mémoire et jugement, <lb/>ayant frères et
+                     soeurs, voulant disposer <lb/>de ses biens par un testament, est obligé <lb/>de
+                     rappeller dans sondit testament nom <lb/>par nom ses frères et soeurs, chacun
+                     au <lb/>moins pour <measure type="currency" origin="NE" unit="sol faible"
+                        quantity="5">cinq sols foibles</measure><note>Le sol faible est une
+                        dénomination rare du gros qui constitue un douzième de livre faible de
+                        Neuchâtel.</note> en département <lb/><add place="below" type="catchword">de
+                        ses</add>
+                     <pb n="66v" facs="AVN_B_101.14.002_0066v"/>
+                     <lb/>de ses biens, sinon, s’il y en a d’omis, un <lb/>tel testament devient
+                     caduc. </p>
+                  <p>
+                     <lb/>Sur le second, si un homme qui n’a pas omis <lb/>dans son testament ses
+                     frères et soeurs <lb/>et que ces derniers vinssent à décéder avant <lb/>le
+                     testateur, quand même il n’y en auroit <lb/>qu’un, il est obligé de dé<del
+                        rend="overwritten"><gap reason="illegible" unit="character" quantity="5"
+                        /></del>nommer <lb/>dans un nouveau testament ses neveux <lb/>et nièces,
+                     frères fils de ses frères et soeurs <lb/>décédés, et cela l’un après l’autre,
+                     ou les <lb/>rétablir dans leurs droits suivant sa <lb/>disposition
+                     testamentaire par un <term ref="lem014981.01"
+                        >codicile</term>, <lb/>sinon le testament devient aussy caduc. </p>
+                  <p>
+                     <lb/>Laquelle déclaration ayant été ainsy <lb/>rendue, il a été ordonné au secrétaire <lb/>du
+       Conseil soussigné de l’expédier en <lb/>cette forme, sous le sceau de la mayrie <lb/>et
+                     justice de <origPlace ref="loc007786">Neufchatel</origPlace>, ce <origDate when="1752-01-21">vingt <lb/>unième janvier mille sept cent
+        cinquante <lb/>&amp; deux</origDate>. </p>
+               </div>
+               <div>
+                  <signed>
+                     <persName ref="per008687">
+                        <choice>
+                           <abbr>A</abbr>
+                           <expan>Abraham</expan>
+                        </choice> Renaud</persName>
+                     <figure type="notarial sign"/>
+                  </signed>
+               </div>
+            </body>
+         </text>
+      </group>
+   </text>
+</TEI>

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="headerinfo"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <date type="electronic" when="2020-08-17"/>    <date type="print"/>
+    <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Collection des sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS_NE_3_198</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier>
+      <idno>AVN B 101.14.001, fol. 463r–463v</idno>
+     </msIdentifier>
+     <head>Justice un jour de jeûne, traite et contregage</head>
+     <msContents>
+      <summary>On ne peut pas interagir avec la justice un jour de jeûne. On ne peut pas entrer en
+       justice par une traite, car il faut en former demande. On ne peut pas se
+       contregager.</summary>
+      <msItem>
+       <textLang>français</textLang>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="33"/>
+          <width unit="cm" quantity="23.5"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <origDate when="1664-10-01" calendar="Julian"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>
+      </origin>
+     </history>
+     <additional>
+      <listBibl>
+       <head/>
+       <bibl/>
+      </listBibl>
+     </additional>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key005189"></term>
+
+    </keywords>
+   </textClass>
+   <particDesc default="false"/>
+   <settingDesc default="false"/>
+  </profileDesc>
+ </teiHeader>
+ 
+ <text>
+  <group>
+   <text>
+    <body>
+     
+
+      
+      <pb n="463r" facs="AVN_B_101.14.001_0463r"/> 
+      
+      <div>
+      <head>
+       <lb/>Premierement, si l’on peut faire aucuns <lb/>usages ou <term ref="lem016019.02"
+        >exploits</term> de justice un jour de jeusne. </head>
+      <head>
+       <lb/>Secondement, si l’on peut entrer en justice par <lb/>une
+       <term ref="lem016409">traite</term>. </head>
+      <head>
+       <lb/>Tiercement, si l’on se peut <term ref="lem016018">contregager</term>. </head>
+      <p>
+       <lb/>Sur la requeste presentée par <lb/><choice>
+        <abbr>mess<hi rend="sup">rs</hi></abbr>
+        <expan>messieurs</expan>
+       </choice> les heritiers de feu <choice>
+        <abbr>mons<hi rend="sup">r</hi></abbr>
+        <expan>monsieur</expan>
+       </choice> le capitaine <persName ref="per009014a.01">Jeanjaques <lb/>Ostervald</persName>,
+       vivant bourgeois &amp; du <orgName ref="org003085">Conseil de la Ville de <lb/><placeName
+         ref="loc007786">Neufchâtel</placeName></orgName>, par devant <orgName ref="org003085"><choice>
+         <abbr>Mess<hi rend="sup">rs</hi></abbr>
+         <expan>messieurs</expan>
+        </choice> du Conseil Estroit de <choice>
+         <abbr>lad</abbr>
+         <expan>ladite</expan>
+        </choice>
+        <lb/>Ville de <placeName ref="loc007786">Neuchâtel</placeName></orgName>, le <origDate
+         when="1664-10-01" calendar="Julian">premier jour du mois d’<choice>
+         <abbr>oct</abbr>
+         <expan>octobre</expan>
+        </choice> en <lb/>l’année courante 1664</origDate>, tendante aux fins d’avoir les
+       <lb/>points de coustume suivants. </p>
+      <p>
+       <lb/>Premierement, si l’on peut faire aucuns usages <lb/>ou <term ref="lem016019.02"
+        >exploits</term> de justice un jour de jeusne. </p>
+      <p>
+       <lb/><choice>
+        <abbr>Secondem<hi rend="sup">t</hi></abbr>
+        <expan>Secondement</expan>
+       </choice>, si l’on peut entrer en justice par une <lb/><term ref="lem016409.02">traicte</term>,
+       &amp; si la coustume ne porte pas que l’on forme demande. </p>
+      <p>
+       <lb/>Tiercement, si l’on se peut <term>contregager</term>. </p>
+      <p>
+       <lb/><orgName ref="org003085"><choice>
+         <abbr>Mesd. s<hi rend="sup">rs</hi></abbr>
+         <expan>Mesdits sieurs</expan>
+        </choice> du Conseil</orgName> ayans eu advis et meure <lb/>premeditation par ensemble,
+       donnent par declaration <lb/>que suivant la coustume usitée en la souveraineté de
+        <lb/><placeName ref="loc007785">Neufchatel</placeName> de pere à fils &amp; de tout temps
+       immemorial <lb/>jusqu’a present la coustume estre telle, assavoir. </p>
+      <p>
+       <lb/>Sur le premier point, que l’on ne peut faire <lb/>aucuns usages ny <term ref="lem016019.02">exploits</term>
+       de justice un jour de jeusne. </p>
+      <p>
+       <lb/>Sur le second point, que l’on ne peut entrer en <lb/>cause par une
+       <term ref="lem016409">traite</term>, veu que la coustume porte que <lb/>l’on doit former
+       demande. </p>
+      <p>
+       <lb/>Et sur le troisieme, que l’on ne se peut <lb/><term ref="lem016018">contregager</term>. </p>
+      <p>
+       <lb/>Ce qu’a esté ainsi passé, conclud &amp; arresté les an <pb n="463v"
+        facs="AVN_B_101.14.001_0463v"/>
+       <lb/>et jour que devant, &amp; ordonné à moy secretaire de Ville <lb/>l’expedier en cette
+       forme, sous le <term ref="lem016327">seel</term> de la mayorie &amp; <lb/>justice dudit <origPlace
+        ref="loc007786">Neufchatel</origPlace>, &amp; signature de ma main. </p>
+      <p>
+       <lb/>Extrait pour copie sur celle que feu <choice>
+        <abbr>mons<hi rend="sup">r</hi></abbr>
+        <expan>monsieur</expan>
+       </choice> le maistre <lb/>bourgeois <persName ref="per009020">Tribolet</persName> en avoit
+       pris sur son original. </p>
+     </div>
+      
+      <div>
+       <signed><persName ref="per008992"><choice><abbr>N</abbr><expan>Nicolas</expan></choice> Huguenaud</persName> <figure type="notarial sign"/></signed>
+      </div>
+     
+       
+    </body>
+   </text>
+  </group>
+ </text>
+</TEI>

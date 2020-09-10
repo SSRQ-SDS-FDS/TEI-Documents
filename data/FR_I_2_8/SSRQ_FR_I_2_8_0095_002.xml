@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+
+
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+
+			</titleStmt>
+
+			<publicationStmt>
+				<date type="electronic" when="2019-10-14"/>
+				<date type="print"/>
+			</publicationStmt>
+
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ_FR_I_2_8_0095_002</idno>
+			</seriesStmt>
+
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<idno>StAFR, Thurnrodel 13, S. 140–141</idno>
+					</msIdentifier>
+					<head>Louis de Ledefour – Verhör / Interrogatoire</head>
+					<msContents>
+						<summary></summary> 
+						<msItem>
+							<textLang>fr</textLang> 
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support>
+									<material></material>
+								</support>
+								<extent>
+									<dimensions type="leaves">
+										<height unit="cm" quantity="0.0"/>
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+									<dimensions type="plica">
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+								</extent>
+							</supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate when="1635-10-25"/>
+							<origPlace></origPlace>
+						</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc> 
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+			<particDesc default="false"/>
+			<settingDesc default="false"/>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="140"/><p><lb/><placeName ref="loc008105">Keller</placeName> 
+							
+							<seg><lb/><origDate when="1635-10-25"><choice><sic>2</sic><corr>25</corr></choice><note>Le greffier a probablement commis une erreur, car il s’agit vraisemblablement du 25 octobre, date de l’instruction inscrite dans le Manual du Conseil. Voir <ref>SSRQ_FR_I_2_8_0095_001</ref> .</note> <foreign xml:lang="la">octobris</foreign> 1635</origDate>, <foreign xml:lang="la">judice</foreign> <abbr>h</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per011517">Peter Krummenstoll</persName>.</note></seg>
+							<seg><lb/><abbr>H</abbr> <persName ref="per009172a.01">Gaßer</persName></seg>
+							<seg><lb/><persName ref="per011519">Techterman</persName>, <persName ref="per011521a.01">Heylman</persName></seg>
+							<seg><lb/><choice><abbr>W</abbr><expan>Weibel</expan></choice></seg></p>
+							
+						<p><seg><lb/><persName ref="per011927a.02">Lois de Ledefrou</persName> de <placeName ref="loc008143.02">Rossin</placeName> riere <placeName ref="loc007935.07">Farvagné</placeName>, enquis 
+							<lb/>pourquoy il tenoit prison, a respondu que s’il n’estoit 
+							<lb/>des glandz, il ne seroit en tel estat, parce qu’en ayant 
+							<lb/>recueilly comme un autre communier, on luy a demandé 
+							<lb/>l’amende et imposé un autre de n’en plus recueillir. 
+							<lb/>Sur quoy, il respondist que si on le voulloit frustrer du 
+							<lb/>droict de communauté, qu’il aymoit autant perdre 
+							<lb/>la teste et aller luy mesme en prison&#160;; que la commun<lb break="no"/>auté outre autres privileges, retire annuellement 
+							<lb/><measure type="currency" quantity="30" unit="k">30 </measure> des prez communs, dont il ne perçoit <measure type="currency" quantity="1" unit="Quart">un quart</measure>&#160;; 
+							<lb/>que ceux qui disent qu’il ayt desrobbé luy font 
+							<lb/>tort, fors a l’environ d’une coppe d’orge hyverné 
+							<lb/>sur un champ&#160;; que pour vivre sans faire tort a autruy, 
+							<lb/>il a engagé sa maison&#160;; que quand il veut jouir des 
+							<lb/>biens communs on le bast&#160;; qu’il y a plus de 
+							<lb/><date dur="P10Y">10 ans</date> qu’il n’a eschauffé son fourneau&#160;; que luy, ses 
+							<lb/>femme et enfantz souffrent grande disette.</seg> <seg>Enquis s’il 
+							<lb/>n’avoit emblé de l’avoine et menacé d’embraser 
+							<lb/>des maisons, nie avoir prins aultre chose que l’orge 
+							<lb/>susdite et menacé d’aucun embrasement a son sçachant.</seg> 
+							<seg><lb/>Puis confesse avoir prins une hache qu’on luy 
+						<pb n="141"/><lb/>reprint. Interrogé d’ou il avoit tant de <term ref="lem015227.03">ferrementz</term>, 
+							<lb/>dont il avoit esté saisy et qu’il avoit venduz, a dict 
+							<lb/>qu’il a ehu cy devant un petit bien, qu’il a vendu pour 
+							<lb/>payer ses debtes, n’ayant faict comme d’autres qui de<lb break="no"/>mandent des edictz&#160;; qu’il a aussy esté granger du s<hi rend="sup">r</hi> cu<lb break="no"/>ré de <placeName ref="loc008073">Matran</placeName>&#160;; qu’il avoit retenu et gardé ces <term ref="lem015227.03">ferrementz</term> 
+							<lb/>dez ce temps la. Luy estant proposé qu’il usoit de 
+							<lb/>parolles outrageuses envers son curé, dict qu’il a 
+							<lb/>ehu noise avec luy a cause des <term ref="lem015150.04">essertz</term>, mais qu’ilz 
+							<lb/>ont beu la paix et que le s<hi rend="sup">r</hi> curé l’a pardonné. 
+							<lb/>Il nie tous les autres articles de l’examen.</seg></p>
+						
+					</div>
+				</body>
+				
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+
+<?oxy_options track_changes="on"?>

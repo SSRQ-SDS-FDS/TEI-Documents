@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     n="1234"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="headerinfo"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2020-08-17"/>    <date type="print"/>
+    <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Collection des sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS_NE_3_363</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>AVN B 101.14.001, fol. 616v–617r</idno>
+               </msIdentifier>
+               <head>Dettes, créanciers et mise en décret</head>
+               <msContents>
+                  <summary>Lorsqu’une personne met ses biens en décret, il doit le faire publier
+                     dans tous les lieux où il a des dettes et où les créanciers doivent se
+                     présenter pour être colloqués. Les créanciers ne s’étant pas présentés au
+                     décret ne peuvent agir sur les biens mis en décret ou colloquer les autres
+                     créanciers, même si leurs créances sont plus anciennes. Leur dette subsiste
+                     cependant encore et ils peuvent contraindre le débiteur par les voies
+                     ordinaires.</summary>
+                  <msItem>
+                     <textLang>français</textLang>
+                     <filiation type="current"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="33"/>
+                              <width unit="cm" quantity="23.5"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1709-07-23"/>
+                     <origPlace ref="loc007786">Neuchâtel</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head/>
+                     <bibl/>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key004367"/>
+               <term ref="key004423"/>
+               <term ref="key000058"/>
+               <term ref="key004001"/>
+               <term ref="key005138"/>
+               <term ref="key003331"></term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="616v" facs="AVN_B_101.14.001_0616v"/>
+               <div>
+                  <head>
+                     <lb/>Touchant une debte pour laquelle on <lb/>ne s’est presenté dans un
+                     decret.</head>
+                  <p>
+                     <lb/>Sur la requeste presentée à messieurs les maîtres <lb/>bourgeois et
+                        <orgName ref="org003085">Conseil Étroit de la Ville de <placeName
+                           ref="loc007786">Neûchâtel</placeName></orgName>, <lb/>par le sieur
+                        <persName ref="per008871">François Anthoine Rougemond</persName>,
+                     <lb/>bourgeois dudit <placeName ref="loc007786">Neuchâtel</placeName>, juge en
+                     la justice des <lb/>assises de <placeName ref="loc007810">
+                        <choice>
+                           <abbr>S<hi rend="sup">t</hi>
+                           </abbr>
+                           <expan>Saint</expan>
+                        </choice> Aubin</placeName>, tendant aux fins d’avoir <lb/>declaration de la
+                     coutume sur le cas suivant. </p>
+                  <p>
+                     <lb/>Si lors qu’un debiteur a fait puplier et afficher <lb/>l’ottroy de son
+                     decret au dommicile de ses <lb/>creanciers&#160;; si entr’eux il s’en trouve qui ne
+                     <lb/>s’etant point presenté audit decret, soit pour <lb/>cause de maladie,
+                     absence de son lieu, ou pareille <lb/>cause qui luy auroit fait ignorer la
+                     ditte <term ref="lem014969">discution</term>, <lb/>ledit <choice>
+                        <abbr>S<hi rend="sup">r</hi>
+                        </abbr>
+                        <expan>sieur</expan>
+                     </choice> creancier recouvrant la santé, ou estant <lb/>de retour chez soy, ne
+                     peut plus contraindre son <lb/>debiteur au payement de ce qui luy est <subst>
+                        <del rend="overwritten">doit</del>
+                        <add place="overwritten">deut</add>
+                     </subst> en telle <lb/>sorte qu’il soit autant irrecerchable que s’il
+                     <lb/>avoit payé reellement son crediteur, ou si seulement <lb/>celuy cy a perdu
+                     sa datte, accause de sa non <lb/>conparaissance audit decret. </p>
+                  <p>
+                     <lb/><orgName ref="org003085">Messieurs du Conseil Estroit</orgName>, ayant eu
+                     avis et <lb/>conseil par ensembles, donne par declaration <lb/>que la coutume
+                     est telle&#160;: <seg>quant une personne <lb/>met ses biens en decret, il le doit
+                        faire <lb/><add place="below" type="catchword">publier</add>
+                        <pb n="617r" facs="AVN_B_101.14.001_0617r"/>
+                        <lb/>publier dans tous les lieux où il y a des debtes, &amp; <lb/>les
+                        creanciers se doivent presenter sur le jour prescript <lb/>s’il veut estre
+                        colloqué à son rang et datte sur le bien <lb/>mis en decret. Mais s’il y a
+                        des creanciers, qui nonobstant <lb/>les publications faittes, ayent negligé
+                        de ce presenter au <lb/>decret, ils ne peuvent en ce cas agir sur les biens
+                        mis en <lb/>decret pour faire de colloquer les autres creanciers, quand
+                        <lb/>même leur creances seroyent plus anciennes en datte. <lb/>Cependant
+                        leur debtes subsiste encore, du payement <lb/>desquelles, ils peuvent
+                        contraindre le debiteur par <lb/>les voyes ordinaires, nonobstant le decret
+                        tenu.</seg> Fait <lb/>à <origPlace ref="loc007786">Neûchâtel</origPlace>, le
+                        <origDate when="1709-07-23">vingt troizieme jour du mois de <lb/>juillet
+                        mille sept cents et neuf</origDate>.</p>
+               </div>
+               <div>
+                  <p>
+                     <lb/>L’original est signé par moy. </p>
+                  <signed>
+                     <persName ref="per008874">Bourgeois dit Francey</persName>
+                     <figure type="notarial sign"/>
+                  </signed>
+               </div>
+            </body>
+         </text>
+      </group>
+   </text>
+</TEI>

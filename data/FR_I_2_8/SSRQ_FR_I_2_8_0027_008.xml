@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+
+			</titleStmt>
+
+			<publicationStmt>
+				<date type="electronic" when="2019-03-20"/>
+				<date type="print"/>
+			</publicationStmt>
+
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ_FR_I_2_8_0027_008</idno>
+			</seriesStmt>
+
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<idno>StAFR, Thurnrodel 10, S. 87</idno>
+					</msIdentifier>
+					<head>Clauda Comba – Verhör / Interrogatoire</head>
+					<msContents>
+						<summary></summary> 
+						<msItem>
+							<textLang>fr, de</textLang> 
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support>
+									<material></material>
+								</support>
+								<extent>
+									<dimensions type="leaves">
+										<height unit="cm" quantity="0.0"/>
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+									<dimensions type="plica">
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+								</extent>
+							</supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1608-06-03"></origDate>
+							<origPlace></origPlace>
+						</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+							
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc> 
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+			<particDesc default="false"/>
+			<settingDesc default="false"/>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+					
+						<p><lb/>Im <placeName ref="loc007683.02">bösen thurn</placeName>, <origDate when="1608-06-03"
+								>3 <foreign xml:lang="la">junii</foreign> 1608</origDate>
+							<seg><lb/><foreign xml:lang="la">Judice</foreign>
+								<abbr>h</abbr>
+								<choice>
+									<abbr>groß</abbr>
+									<expan>großweibel</expan>
+								</choice><note>Gemeint ist <persName ref="per009113">Franz
+										Schröter</persName>.</note></seg>
+							<seg><lb/><foreign xml:lang="la">Presentibus</foreign>
+								<abbr>h</abbr>
+								<persName ref="per009125"><choice>
+										<abbr>Mont</abbr>
+										<expan>Montenach</expan>
+									</choice></persName></seg>
+							<seg><lb/><persName ref="per009148"><choice>
+										<abbr>Zimm</abbr>
+										<expan>Zimmerman</expan>
+									</choice>, </persName><persName ref="per009108">Alt</persName>,
+									<persName ref="per009117">Pithung</persName>, <persName
+									ref="per009123">Werly</persName></seg>
+							<seg><lb/><persName ref="per009122">Mäß</persName></seg>
+							<seg><lb/>Weybel</seg></p>
+						
+						<p><seg><lb/><add place="left margin">Hat nüt be<lb break="no"/>zalt.</add></seg> <seg><persName ref="per009165">Clauda Combaz</persName> estant derechief examinee sur les 
+						<lb/>articles contenuz en l’examen, et torturee par 3 fois 
+							<lb/>avec la petite <term ref="lem018285">pierre</term>, n’a vouluz confesser aulcune 
+						<lb/> chose, ains a denegué les articles trestous, specia<lb break="no"/>lement d’avoir fai<subst><del><unclear>lte</unclear></del><add place="cover">t</add></subst> mourir son frere pour l’heriter. 
+						<lb/>Item son premier marry de <placeName ref="loc008099.02">Vivey</placeName>, lequel elle n’a ehu 
+						<lb/>que <date dur="P2Y">2</date> ou <date dur="P3Y">3 ans</date> durants.</seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>

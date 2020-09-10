@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="headerinfo"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <date type="electronic" when="2020-08-17"/>    <date type="print"/>
+    <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Collection des sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS_NE_3_158</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier>
+      <idno>AVN B 101.14.001, fol. 436v–438r</idno>
+     </msIdentifier>
+     <head>Usufruit du mari survivant</head>
+     <msContents>
+      <summary>Le survivant d’un mariage a l’usufruit des biens du défunt pendant le reste de sa
+       vie, en plus de la moitié des accroissances faites durant le mariage et du «&#160;lit
+       refait&#160;». Le survivant doit entretenir les biens fonciers (maison, vignes, champs et
+       prés) tenus en usufruit, à défaut de quoi il peut en être déchu.</summary>
+      <msItem>
+       <textLang>français</textLang>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="33"/>
+          <width unit="cm" quantity="23.5"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <origDate when="1658-09-01" calendar="Julian"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>
+      </origin>
+     </history>
+     <additional>
+      <listBibl>
+       <head/>
+       <bibl/>
+      </listBibl>
+     </additional>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key000336"></term>
+     <term ref="key003398"></term>
+     <term ref="key005208"></term>
+     <term ref="key005001"></term>
+     <term ref="key000376"></term>
+     <term ref="key004770"></term>
+     <term ref="key000920"></term>
+     <term ref="key000815"></term>
+     <term ref="key005299"></term>
+     <term ref="key000074"></term>
+     <term ref="key004056"></term>
+     <term ref="key005098"></term>
+     
+    </keywords>
+   </textClass>
+   <particDesc default="false"/>
+   <settingDesc default="false"/>
+  </profileDesc>
+ </teiHeader>
+ 
+ <text>
+  <group>
+   <text>
+    <body>
+     
+      
+          <pb n="436v" facs="AVN_B_101.14.001_0436v"/> 
+          
+          <div>
+     
+     <head>
+      <lb/>Declaration de sept point de
+      <lb/>coustumes touchant le mariage.
+     </head>
+      
+      <p>
+       <lb/>Sur la requeste presentée par <lb/>monsieur <persName ref="per010248">Perrot</persName>, ministre à
+       <placeName ref="loc001340.02">Orvin</placeName>, &amp; <choice>
+        <abbr>mons<hi rend="sup">r</hi></abbr>
+        <expan>monsieur</expan>
+       </choice> le <lb/>mayre de <placeName ref="loc001381.04">Saint Ymier</placeName> par devant <orgName
+        ref="org003085">messieurs du <lb/>Conseil Estroit de la Ville de <placeName ref="loc007786"
+         >Neufchastel</placeName></orgName> le <origDate when="1658-09-01" calendar="Julian">premier <lb/>jour de
+        septembre 1658</origDate>, tendante aux fins d’avoir <lb/>les points de coustume suivans.</p>
+      
+      <p>
+       <lb/>Premierement, si le mary survivant sa femme
+       <lb/>apres un <date dur="P1Y6W">an &amp; six sepmaines</date> ou apres plusieurs
+       <lb/>années qu’ils ont esté par ensemble n’est pas entierement
+       <lb/>usufructuaire, &amp; s’il ne jouyt pas tout le temps de sa vie
+       <lb/>tout le bien de sa femme deffunte tant celuy qu’elle
+       <lb/>a apporté en contractant leur mariage que celuy
+       <lb/>qu’ils ont aquis du depuis par ensemble quand il
+       <lb/>n’y a point d’enfans.
+      </p>
+      
+      <p>
+       <lb/>Secondement, si les dons &amp; presens qu’on fait au
+       <lb/>mary à l’exclusion de sa femme sont censés estre
+       <lb/>acquets, veu qu’ils ont esté donnez à la propre personne
+       <lb/>du mary en particulier.
+      </p>
+      
+      <p>
+       <lb/>Tiercement, si quand se vient à partager entre les
+       <lb/>heritiers du mary &amp; de la femme qui ont esté <date dur="P1Y6W">un an
+       <lb/>&amp; six sepmaines</date> par ensemble, un chacun retire
+       <lb/>premierement le bien qu’ils ont porté en se mariant
+       <lb/>sans que l’on puisse rien pretendre à celuy de l’autre,
+       <lb/>le mary retirant le sien tout entier, &amp; la femme le
+       <lb/>sien sauf l’usufruit.
+      </p>
+      
+      <p>
+       <lb/>Quatriemement, si le mary apres <date dur="P1Y6W">un an &amp; <lb/>six sepmaines</date>
+       n’est pas heritier du <term ref="lem014956.02">lict refait</term> &amp; <lb/>du <term ref="lem014766.02">trosel</term> de sa femme. </p>
+     
+        <pb n="437r" facs="AVN_B_101.14.001_0437r"/> 
+      
+      <p>
+       <lb/>Cinquiemement, pour quelles raisons un mary
+       <lb/>apres la mort de sa femme pert l’usufruit &amp; se prive du
+       <lb/>droit de jouir le bien de sa femme deffunte.
+      </p>
+      
+      <p>
+       <lb/>Sixiemement, si les heritiers de la deffunte ne sont
+       <lb/>pas obligés necessairement de faire descheoir par voye
+       <lb/>authentique de justice le mary qui aura transgressé
+       <lb/>les reigles de l’usufruit, est ce dans l’<date dur="P1Y6W">an &amp; six sepmaines</date>
+       <lb/>&amp; s’ils manquent à le punir dans ce terme du droit
+       <lb/>de jouir &amp; ce par voye juridicque &amp; par devant justice,
+       <lb/>si le mary qui avoit failli ne demeure pas tousjours
+       <lb/>usufructuaire puis qu’ils l’ont laissé en possession
+       <lb/>sans le priver juridicquement lors qu’il estoit temps
+       <lb/>&amp; si <choice><abbr>lesd</abbr><expan>lesdits</expan></choice> heritiers apres quelques années par malice
+       <lb/>venoyent à le luy disputer &amp; l’en vouloir priver, s’ils
+       <lb/>en seroyent puissants &amp; admissibles, puis qu’eux mesmes
+       <lb/>auroyent improcedé &amp; contrevenus aux termes &amp; au
+       <lb/>temps requis &amp; defini pour l’actionner &amp; l’en deposseder.
+      </p>
+      
+      <p>
+       <lb/>Septiemement, comment se fait le partage entre un
+       <lb/>mary survivant sa femme après <date dur="P1Y6W">un an &amp; six sepmaines</date>
+       <lb/>&amp; entre les heritiers d’elle sauf l’usufruit &amp; la jouissance
+       <lb/>&amp; qu’elle est la portion du mary survivant sur le bien
+       <lb/>propre de sa femme deffunte, en quoi il y participe, en
+       <lb/>fin dequoy le mary survivant doit tenir compte aux
+       <lb/>heritiers.
+      </p>
+      
+      <p>
+       <lb/><orgName ref="org003085">Mesdits sieurs du Conseil</orgName> ayants eu advis &amp; meure
+       <lb/>premeditation par ensemble ont donné &amp; donnent
+       <lb/>par declaration que suivant la coustume usitée
+       <lb/>en la souveraineté de <placeName ref="loc007785">Neufchastel</placeName> de pere à fils
+       <lb/>&amp; de tout temps immemorial jusqu’à present la coutume
+       <lb/>estre telle assavoir.
+      </p>
+      
+      <p>
+       <lb/>Sur le premier point, quand traité de mariage <pb n="437v" facs="AVN_B_101.14.001_0437v"/> 
+       <lb/>est fait entre mary &amp; femme selon les bons us &amp; <lb/>coustumes de <choice>
+        <abbr>lad</abbr>
+        <expan>ladite</expan>
+       </choice> Ville de <placeName ref="loc007786">Neufchastel</placeName> apres avoir
+       <lb/>demeuré <date dur="P1Y6W"><term ref="lem014776">an &amp; jour</term></date> par ensemble qu’est <date dur="P1Y6W">un
+        an &amp; six <lb/>sepmaines</date> &amp; apres l’un d’eux meurt, le survivant <lb/>a succedé
+       &amp; succede à present es biens du trepassé <lb/>ayant son us sur les biens du deffunt sa
+       vie durant. </p>
+      
+      <p>
+       <lb/>Sur le second, quand mary &amp; femme estants
+       <lb/>conjoints par ensemble <del rend="strikethrough">an &amp; jour</del> au <choice><abbr>S<hi rend="sup">t</hi></abbr><expan>saint</expan></choice> estat de
+       <lb/>mariage &amp; ayants vescus ensemble <date dur="P1Y6W"><term ref="lem014776">an &amp; jour</term></date> comme
+       <lb/>dessus, alors le survivant n’ayant point d’enfans
+       <lb/>procrées de son corps au <choice><abbr>S<hi rend="sup">t</hi></abbr><expan>saint</expan></choice> estat de mariage avec
+       <lb/>sa partie deffunte, iceluy a tousjours jouy pour luy
+       <lb/>&amp; les siens &amp; encores à present retire &amp; jouy la
+       <lb/>juste moitié de toutes les accroissances qui se font
+       <lb/>ainsi par ensemble pendant la conjonction de <choice><abbr>leurd</abbr><expan>leurdit</expan></choice>
+       <lb/>mariage, soit tant par traffiq de marchandise,
+       <lb/>aquisitions, recompences de services que autrement
+       <lb/>en quelle sorte et maniere qu’iceuxdits aquets se
+       <lb/>peuvent &amp; doivent faire.
+      </p>
+      
+      <p>
+       <lb/>Sur le troizieme, le survivant peut retirer son
+       <lb/>bien tout entier sauf le droit que la coustume luy
+       <lb/>adjuge sur le bien du deffunt tant pour les <choice><abbr>accroiss<hi rend="sup">ces</hi></abbr><expan>accroissances</expan></choice>
+       <lb/>les meubles &amp; victuailles que de l’usufruit.
+      </p>
+      
+      <p>
+       <lb/>Sur le quatrieme, le mary devant &amp; après <date dur="P1Y6W">un an <lb/>&amp; six
+        sepmaines</date> est heritier du <term ref="lem014956.02">lict refait</term> de sa femme, <lb/>laissant le
+       <term ref="lem014766.02">trossel</term> avec les autres meubles. </p>
+      
+      <p>
+       <lb/>Sur le cinquieme, le survivant tenant l’us du trepassé <lb/>&amp; il laisse la maison
+       descouverte à raison dequoi elle <lb/>se doige gaster &amp; pourir sera <term ref="lem015634.02">mesusé</term>
+       de ladite <lb/>piece. </p>
+      
+          <pb n="438r" facs="AVN_B_101.14.001_0438r"/> 
+      
+      <p>
+       <lb/>Et quant aux vignes s’il les laisse sans labourer aux <lb/>saisons une ou plusieurs sera
+       à dit de vignerons, &amp; <lb/>sy faute y a sera <term ref="lem015634.02">mesusé</term> de la piece de vigne qui
+       se <lb/>trouvera y avoir faute. </p>
+      
+      <p>
+       <lb/>Item quant és champs s’il ne les laboure à us de <lb/>laboureurs aux saisons sera
+       <term ref="lem015634.02">mesusé</term> de la piece qui <lb/>ainsi se trouvera. </p>
+      
+      <p>
+       <lb/>Et quant és préz les entretiendra à nature de préz <lb/>à dit de gens de bien sans fraud
+       ny <term ref="lem016008.02">aguait</term>, &amp; s’il ne <lb/>fait le contenu la piece qui se trouvera y avoir
+       faute <lb/>d’icelle sera <term ref="lem015634.02">mesusé</term>. </p>
+      
+      <p>
+       <lb/>Sur le sixeme il n’y a point de temps limité pour
+       <lb/>faire dechoir l’usufructuaire, ains si seulement quand
+       <lb/>la faute peut estre recogneue comme il est cy devant
+       <lb/>specifié.
+      </p>
+      
+      <p>
+       <lb/>Sur le septieme on en demeure aupres de la <lb/>declaration deja <term
+        ref="lem015635.06">baillée</term> le <date when="1658-08-27">27 d’aoust dernier
+        passé</date><note>Il s'agit en fait du point du <date when="1658-06-26">26 juin
+         1658</date> (<ref>SDS_NE_3_156</ref>).</note>, <lb/>qui porte des meubles en general &amp;
+       victuaille, comme <lb/>il est porté sur le coustumier de <choice>
+        <abbr>mess<hi rend="sup">rs</hi></abbr>
+        <expan>messieurs</expan>
+       </choice>
+       <choice>
+        <abbr>f<hi rend="sup">o</hi></abbr>
+        <expan>folio</expan>
+       </choice> 351<note>La foliotation ne correspond pas à ce manuscrit. Le manuscrit en question
+        est introuvable.</note>.</p>
+      
+      <p>
+       <lb/>Ce qu’a esté ainsi passé conclud &amp; arresté les an &amp;
+       <lb/>jour que devant, &amp; ordonné à moy secretaire de Ville
+       <lb/>l’expedier en ceste forme sous le seel de la mayorie &amp;
+       <lb/>justice <choice><abbr>dud</abbr><expan>dudit</expan></choice> <origPlace ref="loc007786">Neufchastel</origPlace> &amp; signature de ma main.
+      </p>
+      
+      <p>
+       <lb/>Pour copie extraite sur le vray original signé par <lb/>moy <persName ref="per009020"><choice>
+         <abbr>M</abbr>
+         <expan>Maurice</expan>
+        </choice> Tribolet</persName> &amp; sur icelle la presente par moy <choice>
+        <abbr>Not</abbr>
+        <expan>notaire</expan>
+       </choice>. </p>
+      
+     </div>
+      
+      <div>
+       <signed><persName ref="per008992"><choice><abbr>N</abbr><expan>Nicolas</expan></choice> Huguenaud</persName> <figure type="notarial sign"/></signed>
+      </div>
+     
+       
+    </body>
+   </text>
+  </group>
+ </text>
+</TEI>

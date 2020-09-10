@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="headerinfo"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <date type="electronic" when="2020-08-17"/>    <date type="print"/>
+    <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Collection des sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS_NE_3_231</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier>
+      <idno>AVN B 101.14.001, fol. 484r–485r</idno>
+     </msIdentifier>
+     <head>Quittance de dettes dans un traité de mariage et révocation de partages</head>
+     <msContents>
+      <summary>Plusieurs questions dans le cadre d’arrangements pour dettes et de partages décidé
+       par un père envers ses enfants. Une déclaration faite dans un traité de mariage ne peut être
+       rompue ou viciée, à moins que les autres héritiers ne soient lésés quant à leur part
+       légitime. Il n’est pas possible de revenir en arrière dans le cas d’un partage. Des questions
+       sur des aménagements de goutières et de fenêtres sont renvoyées à des connaissances de
+       justice. </summary>
+      <msItem>
+       <textLang>français</textLang>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="33"/>
+          <width unit="cm" quantity="23.5"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <origDate when="1671-03-29" calendar="Julian"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>
+      </origin>
+     </history>
+     <additional>
+      <listBibl>
+       <head/>
+       <bibl/>
+      </listBibl>
+     </additional>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term></term>
+     <term ref="key000058"></term>
+     <term ref="key000803"></term>
+     <term ref="key000863"></term>
+     <term ref="key000023"></term>
+     <term ref="key005071"></term>
+     <term ref="key005128"></term>
+     <term ref="key003331"></term>
+    </keywords>
+   </textClass>
+   <particDesc default="false"/>
+   <settingDesc default="false"/>
+  </profileDesc>
+ </teiHeader>
+ 
+ <text>
+  <group>
+   <text>
+    <body>
+        
+     
+     <pb n="484r" facs="AVN_B_101.14.001_0484r"/> 
+        
+     <div>
+      <head>
+       <lb/>Touchant la quittance faite à un <lb/>traité de mariage par un pere des debtes
+       <lb/>payées pour un sien fils, &amp; aussi de la prerogative <lb/><term ref="lem015635.03">baillée</term>.
+       <lb/>Plus touchant le partage jetté par le sort, <lb/>s’il peut estre revoqué. </head>
+      <p>
+       <lb/>Sur la requeste d’<choice>
+        <abbr>honn.</abbr>
+        <expan>honnorable</expan>
+       </choice>
+       <lb/><persName ref="per010117">Jaques Pitie</persName> de <placeName ref="loc008388.02">Cormondresche</placeName><del
+        rend="blackened">é</del>, presentée par devant <lb/>monsieur le maistre bourgeois &amp;
+        <orgName ref="org003085">Conseil Estroit de la <lb/>Ville de <placeName ref="loc007786"
+         >Neufchatel</placeName></orgName> le <origDate when="1671-03-29" calendar="Julian">29<hi rend="sup">e</hi> de
+        mars <hi rend="underline">1671</hi></origDate>, tendante <lb/>aux fins d’avoir les points de
+       coustume suivans. </p>
+      <p>
+       <lb/>Premierement, sçavoir mon quand un <lb/>fils s’en va hors du païs, &amp; y fait des
+       debtes, ses <pb n="484v" facs="AVN_B_101.14.001_0484v"/>
+       <lb/>pere &amp; mere les ayant payées avant son retour, et <lb/>estant de retour venant à se
+       marier, &amp; par son <lb/>traité de mariage le pere se declare que ses freres &amp;
+       <lb/>soeurs ne luy en peuvent rien repeter ny mettre en <lb/>compte, &amp; quand par <choice>
+        <abbr>led.</abbr>
+        <expan>ledit</expan>
+       </choice> traité le pere donne une <lb/>prerogative à ses deux fils sur sa maison &amp;
+       <lb/>appartenances, ensemble meubles morts &amp; vifs, &amp; <lb/>tous leurs enfans ont
+       <term ref="lem015998.02">advoué</term>
+       <choice>
+        <abbr>led.</abbr>
+        <expan>ledit</expan>
+       </choice> traité, &amp; iceluy <lb/>ratifié &amp; deuement authorisé, &amp; au bout d’<date dur="P1Y">un an</date> <lb/><choice>
+        <abbr>led.</abbr>
+        <expan>ledit</expan>
+       </choice> pere venant à donner une partie de ses biens <lb/>à ses enfans, se reservant de
+       disposer du reste à <lb/>sa volonté, de l’adveu, en presence &amp; du consentement <lb/>de
+       tous <choice>
+        <abbr>sesd.</abbr>
+        <expan>sesdits</expan>
+       </choice> enfans authorisés comme dit est, le <lb/>pere venant à disposer de sesdits biens
+       qu’il s’est <lb/>reservé en faveur de l’un de <choice>
+        <abbr>sesd.</abbr>
+        <expan>sesdits</expan>
+       </choice> enfans qui a <lb/>tousjours esté auprès de luy &amp; dans la maison, si <lb/>les
+       autres enfans peuvent mettre en compte le <lb/>contenu au traité de mariage pour rompre &amp;
+       <lb/>annuller ladite donation. </p>
+      <p>
+       <lb/><orgName ref="org003085"><choice>
+         <abbr>Mesd. s<hi rend="sup">rs</hi></abbr>
+         <expan>Mesdits sieurs</expan>
+        </choice> du Conseil</orgName> ayans eu advis &amp; meure <lb/>premeditation par ensemble,
+       <term ref="lem015635.04">baillent</term> par declaration <lb/>suivant la coustume usitée en la souveraineté de
+        <lb/><placeName ref="loc007785">Neufchatel</placeName> de pere à fils &amp; de tout temps
+       immemorial <lb/>jusqu’à present la coustume estre telle. </p>
+      <p>
+       <lb/>Assavoir que, telle declaration faite par ledit <lb/>pere, ensemble la prerogative <term
+        ref="lem015635.03">baillée</term> par <choice>
+        <abbr>led.</abbr>
+        <expan>ledit</expan>
+       </choice> traité <lb/>de mariage, ne peuvent estre rompus ny viciés <lb/>moyennant que les
+       autres heritiers ne soyent lezés <lb/>en leur <term ref="lem015074.02">legitime</term>. </p>
+      <p>
+       <lb/>Secondement, quand une personne donne <lb/>de ses biens à l’un de ses enfans, &amp;
+       qu’il se declare <lb/>qu’il doit relever <choice>
+        <abbr>lad.</abbr>
+        <expan>ladite</expan>
+       </choice> donation avant que faire un <lb/>partage avec ses coheritiers, &amp; <choice>
+        <abbr>lad.</abbr>
+        <expan>ladite</expan>
+       </choice> donation estant <lb/>contestée par les autres enfans qui la pretendent
+       <lb/>partager avant que la cause soit vuidée, si ce <lb/>n’est pas la coustume
+       que le partage doit surseoir <lb/>jusques après la déffinition du procès. </p>
+      <p>
+       <lb/>Declaré sur ledit poinct, que l’on renvoye ce <lb/>fait à une <term ref="lem014980">cognoissance de
+        justice</term>. </p>
+      <pb n="485r" facs="AVN_B_101.14.001_0485r"/>
+      <p>
+       <lb/>Tiercement, quand des freres &amp; soeurs deuement <lb/>authorisés font un partage, le
+       sort estant jetté, &amp; les <lb/>parties ayant renoncé au benefice de reveue, si l’un ou
+       <lb/>l’autre peut retourner en arriere, &amp; demander revision <lb/>de partage,
+       principalement quand il y en a une partie <lb/>des <term ref="lem014990">compartageurs</term> qui ont vendu et alliené des
+       pieces <lb/>qui leur estoyent venues en partage. </p>
+      <p>
+       <lb/>Declaré sur ledit poinct, que l’on ne peut <lb/>aucunement revoquer ny venir en arriere
+       d’un partage <lb/>qui a esté fait par le sort jetté, s’il ne s’y rencontre <lb/>lezion de la
+       valeur du tier. </p>
+      <p>
+       <lb/>Quatriemement, si une personne peut <lb/>faire à pleuvoir l’eau qui va sur son toict sur
+       celuy <lb/>de son voisin ou sur sa terre sans son <term ref="lem016005.02">adveu</term>. </p>
+      <p>
+       <lb/>Declaré que l’on renvoye ledit point à une <lb/><term ref="lem014980">cognoissance de justice</term>. </p>
+      <p>
+       <lb/>Cinquiemement si l’on peut faire un ou <lb/>plusieurs jours de fenestre à sa muraille
+       pour <lb/>regarder sur la terre d’autruy, lors qu’il a pris toute <lb/>sa terre, &amp; qu’il
+       non point laissé au dehors de sa muraille. </p>
+      <p>
+       <lb/>Declaré aussi que l’on renvoye ledit point à une <lb/><term ref="lem014980">cognoissance de
+        justice</term>. </p>
+      <p>
+       <lb/>Ce qu’a esté ainsi passé, conclud &amp; arresté les <lb/>an &amp; jour que devant, &amp;
+       ordonné à moy secretaire <lb/>de Ville l’expedier en cette forme, sous le <term ref="lem016327">seel</term>
+       de la <lb/>mayorie &amp; justice dudit <origPlace ref="loc007786">Neufchâtel</origPlace>,
+       &amp; signature de <lb/>ma main. </p>
+     </div>
+      
+      <div>
+       <p>
+        <lb/>Extrait pour copie comme devant.
+       </p>
+       <signed><persName ref="per008992"><choice><abbr>N</abbr><expan>Nicolas</expan></choice> Huguenaud</persName> <figure type="notarial sign"/></signed>
+      </div>
+     
+       
+    </body>
+   </text>
+  </group>
+ </text>
+</TEI>

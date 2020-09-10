@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     n="1234"
+     xml:lang="de"><?xml-model href="20131127_1.rnc" type="application/relax-ng-compact-syntax"?>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften
+     und Landstädte, Band 4: Die Rechtsquellen der Grafschaft Werdenberg, Freiherrschaft
+     Sax-Forstegg und Herrschaft Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-07-09"/>
+            <date type="print"/>
+            <availability><p xml:id="facs">Sibylle Malamud</p></availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_014_1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno source="https://archivverzeichnis.gl.ch/home/#/content/23d28eecee2c46038202225770e57807">LAGL AG III.2457:001</idno>
+                  <altIdentifier>
+                     <idno>LAGL V. 114</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <head>Verleihung des Zolls von St. Ulrich und der Schenke in Sevelen</head>
+               <msContents>
+                  <summary>
+                     <p>Graf Heinrich II. von Werdenberg-Heiligenberg(-Rheineck) verleiht den Brüdern Konrad, Heinz und Hans Grafer den Zoll von St. Ulrich und die Schenke in Sevelen.</p>Der Aussteller siegelt.</summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <filiation type="current">Original</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Pergament</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="6.5"/>
+                              <width unit="cm" quantity="27.5"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <sealDesc>
+                     <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI"
+                           n="1"
+                           nontei:condition="damaged"
+                           nontei:material="wax"
+                           nontei:shape="round"
+                           nontei:attachment="sealed on a parchment tag">
+                        <persName role="sigillant" ref="per000417">Heinrich II. von Werdenberg-Heiligenberg(-Rheineck)</persName>
+                     </seal>
+                  </sealDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1390-09-23">fritag nach sant Metheus tag</origDate>
+                     <origPlace>Rheineck</origPlace>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000199">Zoll</term>
+               <term ref="key000758">Wirtschaft</term>
+               <term ref="key000022">Lehen</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <div org="uniform" sample="complete">
+                  <pb facs="LAGL_AG_III.2457-001_1_r"/>
+                  <p>
+                     <lb/>Ich, grǎf <persName ref="per000417">Heinrich von Werdenberg, herre ze
+        Rinegg</persName>, tuͦn kund und vergich offenlich mit disem brief, das <lb/>ich
+       <persName ref="per004362">Chuͦnrat</persName>, <persName ref="per004363">Heintz</persName>en und <persName ref="per004364">Hansen, den
+        Grafer</persName>n gebruͦdern, recht und redlich ze rechtem lehen <choice>
+                        <sic>gelihen <lb/>gelihen</sic>
+                        <corr>gelihen</corr>
+                     </choice> han, den <term ref="lem010548">zol</term> ze <placeName ref="loc000696">Sant Uͦlrich</placeName> und die <term ref="lem012311">schenki</term> ze
+       <placeName ref="loc000708">Sefellen</placeName> mit allen den rechten, so dar zuͦ gehoͤrt, <lb/>won es recht
+       lehen von mir ist. Und han das getän mit allen worten, werchen und getaͤten, so dar zuͦ
+       gehoͤrt <lb/>und notdurftig was. <seg>Und des ze warem urkund, so han ich min eigen insigel
+        offenlich gehenkt an disen brief, <lb/>der geben ist ze <origPlace ref="loc006036">Rinegg</origPlace>,
+         <origDate when="1390-09-23">an dem nechsten fritag nach sant
+          <persName ref="per000340">Metheus</persName> tag, do man zalt von gotz geburt
+          <lb/>dru̍zehen hundert und nu̍nzig jar</origDate>.</seg>
+                  </p>
+               </div>
+               <pb facs="LAGL_AG_III.2457-001_1_v"/>
+               <div org="uniform" sample="complete">
+                  <ab type="dorsal" place="verso" hand="hand15c">
+                     <lb/>Lehen brief umb <lb/>den zoll <placeName ref="loc000696">Sant
+         <abbr>Ulr</abbr>
+                     </placeName>
+                  </ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab place="verso above left" type="archiving reference">Anno 1390; <del>No. 222</del> No.
+       114</ab>
+               </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div org="uniform" sample="complete">
+            <p><placeName ref="loc000696">St. Ulrich</placeName> liegt am Grenzübergang von
+                  <placeName ref="loc000708">Sevelen</placeName> nach <placeName ref="loc000198"
+                  >Buchs</placeName>. Unter der Herrschaft von <orgName ref="org001197"
+                  >Glarus</orgName> wird der Zoll an den Talweg nach <placeName ref="loc000428"
+                  >Räfis</placeName> verlegt (zum Zoll in <placeName ref="loc000696"
+                  >St. Ulrich</placeName> vgl. auch <ref>SSRQ_SG_III_4_036</ref>; die Auszüge
+               aus den Luzerner Akten von <date when="1493">1493</date> [<bibl><ref>KA Werdenberg im OA Grabs Nr. 10-13 bis 10-63</ref></bibl>;
+                     <bibl><ref target="http://permalink.snl.ch/bib/chbsg000124577">Gabathuler
+                     2011</ref>, S. 249</bibl>). Zur Zoll- und Weggeldordnung von Werdenberg vgl.
+               auch <ref>SSRQ_SG_III_4_226</ref>.</p>
+         </div>
+      </back>
+   </text>
+</TEI>

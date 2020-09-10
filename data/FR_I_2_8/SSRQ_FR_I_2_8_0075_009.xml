@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+
+			</titleStmt>
+
+			<publicationStmt>
+				<date type="electronic" when="2019-07-23"/>
+				<date type="print"/>
+			</publicationStmt>
+
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ_FR_I_2_8_0075_009</idno>
+			</seriesStmt>
+
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<idno>StAFR, Thurnrodel 12, S. 100</idno>
+					</msIdentifier>
+					<head>Jacques Jaquier – Verhör / Interrogatoire</head>
+					<msContents>
+						<summary></summary> 
+						<msItem>
+							<textLang>de</textLang> 
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support>
+									<material></material>
+								</support>
+								<extent>
+									<dimensions type="leaves">
+										<height unit="cm" quantity="0.0"/>
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+									<dimensions type="plica">
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+								</extent>
+							</supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1627-03-04"/>
+							<origPlace></origPlace>
+						</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc> 
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+			<particDesc default="false"/>
+			<settingDesc default="false"/>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<p><lb/>Im <placeName ref="loc007683.04">bößen thurn</placeName> 
+							<seg><lb/><origDate when="1627-03-04">4 <foreign xml:lang="la">martii</foreign> 1627</origDate> <foreign xml:lang="la"><choice><abbr>jud</abbr><expan>judex</expan></choice></foreign> <abbr>h</abbr> <choice> <abbr>groß</abbr> <expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per006580">Niklaus Meyer</persName>.</note></seg>
+							<seg><lb/><abbr>H</abbr> <persName ref="per006501">Heinricher</persName>, <abbr>h</abbr> <choice><abbr>doct</abbr> <expan>doctor</expan></choice> <persName ref="per009286">Gottrouw</persName><!-- KR ab 1624 --></seg>
+							<seg><lb/><persName ref="per006532">Buwman</persName>, <persName ref="per006509">Rämi</persName>, <persName ref="per006581">Vonderweid</persName></seg>
+							<seg><lb/><persName ref="per006523">Monthenach</persName>, <persName ref="per006517">Haberkhorn</persName></seg>
+						
+					<seg><lb/><choice><abbr>W</abbr> <expan>Weibel</expan></choice></seg></p>
+						<p><seg><lb/><add place="left margin"><foreign xml:lang="la">Solvit <measure type="currency" unit="lb" quantity="3">3 </measure></foreign>.</add></seg> 
+							<seg><persName ref="per005913">Jaque Jouquier</persName>, obgemelt, <term ref="lem015124">erhaltet</term> noch<lb break="no"/>malen, das er sich ohne menschliche hilff uß 
+						<lb/>der gefangenschafft zu <placeName ref="loc007605.02">Überstein</placeName> <term ref="lem014649">salviert</term>. 
+						<lb/>Er habe sich unser lieben frauwen zu 
+						<lb/><placeName ref="loc000085.07">Eißidlen</placeName> <unclear>verlopt</unclear> und die <term ref="lem002263">walfahrt</term> durch 
+						<lb/><persName>Beney Gomy</persName> verrichten laßen: Mit 
+						<lb/>beiden <term ref="lem000043.06">weiblen</term> <persName>Pittet</persName> und <persName>Corboz</persName> werde 
+						<lb/>es bezüget werden, das er nach gericht 
+						<lb/>und <foreign xml:lang="la">justitiam</foreign> angehalten, so er doch nit 
+						<lb/>erlangen mögen. <space quantity="5.5" unit="cm"/>Und <subst><del>ob</del>
+						<lb/><add place="inline">obschon</add></subst> er by <time dur="PT2H">2 stunden</time> an der <term ref="lem015170.02">zwechelen</term>
+						<lb/>gehangen, hat er doch anders nüt bekhennen
+						<lb/>wöllen.</seg></p>
+					</div>
+				</body>
+				
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+
+<?oxy_options track_changes="on"?>

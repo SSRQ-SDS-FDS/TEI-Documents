@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     n="1234"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="headerinfo"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2020-08-17"/>    <date type="print"/>
+    <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Collection des sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des
+      sources
+      du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS_NE_3_416</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>AVN B 101.14.002, fol. 57r–58r</idno>
+               </msIdentifier>
+               <head>Succession comportant un pressoir</head>
+               <msContents>
+                  <summary>Détails concernant une succession, avec des précisions sur le fait qu’un
+                     pressoir soit considéré comme meuble et non immeuble.</summary>
+                  <msItem>
+                     <textLang>français</textLang>
+                     <filiation type="current"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="34.5"/>
+                              <width unit="cm" quantity="22"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1739-02-13"/>
+                     <origPlace ref="loc007786">Neuchâtel</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head/>
+                     <bibl/>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000100"/>
+               <term ref="key001112"/>
+               <term ref="key004428"/>
+               <term ref="key005001"/>
+               <term ref="key000920"/>
+               <term ref="key000815"/>  
+               <term ref="key000863"/>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="57r" facs="AVN_B_101.14.002_0057r"/>
+               <div>
+                  <p>
+                     <lb/>Sur la demande faite à <lb/>monsieur le maître bourgeois en chef <lb/>et à
+                     messieurs du <orgName ref="org003085">Conseil Étroit de la Ville <lb/>de
+                           <placeName ref="loc007786">Neufchatel</placeName></orgName>, par les
+                     sieurs <persName ref="per008727">Etienne</persName> et <persName
+                        ref="per008728">Elie <lb/>Meuron</persName>, aux fins d’avoir la déclaration
+                     de <lb/>la coutume de ce païs sur les articles suivans. </p>
+                  <p>
+                     <lb/>1<hi rend="sup">o</hi>. <lb/>Quels sont les droits d’un mari ou femme
+                     <lb/>survivante, n’y ayant point d’enfans, lorsqu’ils <lb/>ont vécu l’<date
+                        dur="P1Y6W"><term ref="lem014776">an et jour</term></date> par ensemble, sur
+                     les <lb/>meubles faits et aquis pendant la conjonction <lb/>du mariage, soit en
+                     propriété soit en <lb/>jouissance. </p>
+                  <pb n="57v" facs="AVN_B_101.14.002_0057v"/>
+                  <p>
+                     <lb/>2 <lb/>Si le <term ref="lem014956">lict refait</term> de la femme n’apartient <lb/>pas au mary soit à
+       ses héritiers, lors même <lb/>que la femme a survécu son mary. </p>
+                  <p>
+                     <lb/>3<hi rend="sup">o</hi>.
+       <lb/>Si le pressoir est censé meuble, comme
+       <lb/>les autres meubles meublans, sur lesquels
+       <lb/>le survivant ou la survivante a des droits,
+       <lb/>ou plutôt s’il n’est pas censé immeuble
+       <lb/>quant au partage des aquêts entre mary
+       <lb/>et femme, et s’il ne fait pas partie de la
+       <lb/>maison dans laquelle il se trouve.
+      </p>
+                  <p>
+                     <lb/>Mon dit sieur le maître bourgeois <lb/>en chef et mes dits sieurs du
+                        <orgName ref="org003085">Conseil Étroit</orgName>, <lb/>après avoir délibéré
+                     et consulté entr’eux, ont <lb/>donné par déclaration, que la coutume de
+                        <lb/><placeName ref="loc007785">Neufchâtel</placeName> est. </p>
+                  <p>
+                     <lb/>Sur le premier. Que conformément
+       <lb/>à plusieurs points de coutume rendus sur
+       <lb/>pareils cas, la moitié des bien meubles
+       <lb/>linges et vaissaille et utencilles de ménage
+       <lb/>apartenants au deffunt, à l’heure de son décès,
+       <lb/>tant de ceux qui luy apartenoient en propre
+       <lb/>que de sa part de ceux qui<del rend="strikethrough">ils</del>ont <add place="above">été</add> aquis
+                     <lb/>durant leur mariage&#160;; que cette moitié doit
+       <lb/>apartenir au survivant pour luy et les siens
+       <lb/>pour en faire et disposer comme de chose sienne
+       <lb/>et, l’autre moitié, il en a la jouissance sa vie
+       <lb/>durant.
+      </p>
+                  <p>
+                     <lb/>Sur le deuxième. Que le mary hérite le <lb/><term ref="lem014956">lict
+                        refait</term> de feu sa femme, lorsqu’elle <lb/>vient à mourir la première&#160;;
+                     mais le <lb/>mary la prédécédant, le <term ref="lem014956">lict</term> reste à
+                     la femme. </p>
+                  <p>
+                     <lb/>Et sur le troisième. Qu’un pressoir
+                     <lb/>n’est pas reputé immeuble&#160;: mais qu’il est censé
+     <lb/>meuble, ensorte qu’il suit la nature des meubles
+     <lb/>meublants.
+    </p>
+                  <pb n="58r" facs="AVN_B_101.14.002_0058r"/>
+                  <p>
+                     <lb/>Laquelle déclaration ainsi rendue, il a été <lb/>ordonné au secrétaire du Conseil
+       soussigné <lb/>de l’expédier en cette forme, sous le sçau de la <lb/>mairie et justice de
+                     <origPlace ref="loc007786">Neufchatel</origPlace>. Le <origDate when="1739-02-13">treizième <lb/>février mil sept cents trente neuf</origDate>. </p>
+                  <p>
+                     <lb/>Par <choice>
+                        <abbr>ord<hi rend="sup">ce</hi>
+                        </abbr>
+                        <expan>ordonnance</expan>
+                     </choice>.
+      </p>
+               </div>
+               <div>
+                  <signed>
+                     <persName ref="per008676">
+                        <choice>
+                           <abbr>P</abbr>
+                           <expan>Philibert</expan>
+                        </choice> Perroud</persName>
+                     <figure type="notarial sign"/>
+                  </signed>
+               </div>
+            </body>
+         </text>
+      </group>
+   </text>
+</TEI>

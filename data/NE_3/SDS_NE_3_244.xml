@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="headerinfo"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <date type="electronic" when="2020-08-17"/>    <date type="print"/>
+    <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Collection des sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS_NE_3_244</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier>
+      <idno>AVN B 101.14.001, fol. 506r</idno>
+     </msIdentifier>
+     <head>Degré de parenté d’un notaire pour établir un testament</head>
+     <msContents>
+      <summary>Le notaire qui reçoit un acte testamentaire doit être au quatrième degré de
+       l’héritier et du testateur. Les témoins au «&#160;tiers et quart&#160;» degré.</summary>
+      <msItem>
+       <textLang>français</textLang>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="33"/>
+          <width unit="cm" quantity="23.5"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <origDate when="1672-08-28" calendar="Julian"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>
+      </origin>
+     </history>
+     <additional>
+      <listBibl>
+       <head/>
+       <bibl/>
+      </listBibl>
+     </additional>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key005111"></term>
+     <term ref="key000275"></term>
+     <term ref="key000635"></term>
+     <term ref="key000078"></term>
+     <term ref="key004770"></term>
+     <term></term>
+    </keywords>
+   </textClass>
+   <particDesc default="false"/>
+   <settingDesc default="false"/>
+  </profileDesc>
+ </teiHeader>
+ 
+ <text>
+  <group>
+   <text>
+    <body>
+        
+     
+     <pb n="506r" facs="AVN_B_101.14.001_0506r"/> 
+        
+     <div>
+      
+      <head>
+       <lb/>Touchant en quel degré de parentage le
+       <lb/>notaire qui reçoit un testament doit estre.
+      </head>
+     
+      <p>
+       <lb/>Sur la requeste du <choice>
+        <abbr>S.<hi rend="sup">r</hi></abbr>
+        <expan>sieur</expan>
+       </choice> receveur <lb/><persName ref="per009024">Jean Michel Bergeon</persName>, adressée à monsieur le
+       maistre <lb/>bourgeois &amp; <orgName ref="org003085">Conseil Estroit de la Ville de
+         <placeName ref="loc007786">Neufchastel</placeName></orgName>, le <lb/><origDate
+          when="1672-08-28" calendar="Julian">28<hi rend="sup">me</hi> d’aoust 1672</origDate> tendante aux fins d’avoir le point
+       <lb/>de coustume suivant. </p>
+      
+      <p>
+       <lb/>Assavoir en quel degré de parentage, tant de l’heritier
+       <lb/>que du testateur un notaire peut selon la coustume
+       <lb/>recevoir un testament.
+      </p>
+      
+      <p>
+       <lb/><orgName ref="org003085">Mesdits <choice><abbr>S<hi rend="sup">rs</hi></abbr><expan>sieurs</expan></choice> du Conseil</orgName> ayants eu advis &amp; meure <choice><abbr>premedion</abbr><expan>préméditation</expan></choice>
+       <lb/>par ensemble, <term ref="lem015635.04">baillent</term> par declaration suivant la
+       <lb/>coustume usitée en la souveraineté dudit <placeName ref="loc007785">Neufchastel</placeName>
+       <lb/>de pere à fils &amp; de tout temps immemorial jusqu’a
+       <lb/>present la coustume estre telle.
+      </p>
+      
+      <p>
+       <lb/>Assavoir que le notaire qui reçoit un acte testamentaire
+       <lb/>doit estre au quatrieme degré, &amp; aussi l’heritier &amp; le
+       <lb/>testateur de mesme, &amp; les tesmoins qui sont appellez
+       <lb/>à la passation dudit acte doivent estre au tier &amp;
+       <lb/>quart degré.
+      </p>
+      
+      <p>
+       <lb/>Ce qu’a esté ainsi passé, conclud &amp; arresté les an &amp; <lb/>jour que devant, &amp;
+       ordonné à moy secretaire de Ville <lb/>expedier le present en ceste forme, sous le
+       <term ref="lem016327">seel</term> de la <lb/>mayorie &amp; justice dudit <origPlace ref="loc007786"
+        >Neufchastel</origPlace> &amp; signature de <lb/>ma main. </p>
+      
+      <p>
+       <lb/>Pour copie extraite sur l’original, signé par moy <lb/><persName ref="per009020"><choice><abbr>M</abbr><expan>Maurice</expan></choice> Tribolet</persName>
+       &amp; sur icelle collationné la <choice>
+        <abbr>pnte</abbr>
+        <expan>présente</expan>
+       </choice>. </p>
+      
+     </div>
+      
+      <div>
+       <signed><persName ref="per008992"><choice><abbr>N</abbr><expan>Nicolas</expan></choice> Huguenaud</persName> <figure type="notarial sign"/></signed>
+      </div>
+     
+       
+    </body>
+    <back>
+     <div>
+      <p>Ce point de coutume est cité dans le point <ref>SDS_NE_3_298</ref>.</p>
+     </div>
+    </back>
+   </text>
+  </group>
+ </text>
+</TEI>

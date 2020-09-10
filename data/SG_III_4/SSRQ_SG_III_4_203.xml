@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-08-15"/>
+            <date type="print"/>
+            <availability><p xml:id="facs">Sibylle Malamud</p></availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_203</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>OGA Grabs O 1697-2</idno>
+               </msIdentifier>
+               <head>Glarus bewilligt den Beschluss von Grabs über die Wahl von sechs Männern zur Besichtigung der Grenzen zwischen Allmend und Privatgütern</head>
+               <msContents>
+                  <summary>
+                     <p>Vor Landammann und Rat von Glarus erscheint der Landschreiber von Werdenberg, Thomas
+                     			Elmer, und berichtet von einem Streit um die Grenzen zwischen den Allmenden und
+                    			Privatgütern in Grabs, da Untermarchen (Grenzsteine zwischen zwei Hauptgrenzsteinen)
+                   			verändert worden sein sollen. Zur Vermeidung weiterer Streitigkeiten hat die Gemeinde
+                    			mit einem Mehrheitsentscheid beschlossen, einen Ausschuss von sechs Männern zu
+                    			bestimmen, welche die Grenzsteine besichtigen sollen. Glarus bewilligt das Ansuchen mit
+                    			der Ergänzung, dass die sechs Männer vor dem Landvogt einen Eid schwören sollen, dass
+                    			sie die Untermarchen besichtigen und bestimmen. Was diese Untergänger bestimmen, soll
+                    			gelten.</p> <p>Der Aussteller siegelt.</p>
+                  </summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <author role="scribe"><persName ref="per009955a">Thomas Elmer</persName>, Landschreiber von Werdenberg</author>
+                     <filiation type="current">Original (Doppelblatt)</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="32.0"/>
+                              <width unit="cm" quantity="21.0"/>
+                           </dimensions>
+                        </extent>
+                        <condition>fleckig, an den Faltstellen z. T. gebrochen</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <sealDesc>
+                     <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI"
+                           n="1"
+                           nontei:condition="well-preserved"
+                           nontei:attachment="applied"
+                           nontei:place="end"
+                           nontei:shape="round">
+                        <orgName role="sigillant" ref="org001197">Glarus</orgName>
+                     </seal>
+                  </sealDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1697-10-16" calendar="Julian"/>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key004600">Mehrheitsbeschluss</term>
+               <term ref="key000931">Gemeindebeschluss</term>
+               <term ref="key000667">Abstimmung</term>
+               <term ref="key000305">Grenze</term>
+               <term ref="key001079">Grenzbereinigung</term>
+               <term ref="key004167">Untergang</term>
+               <term ref="key004172">Untergänger</term>
+               <term ref="key000307">Allmend</term>
+               <term ref="key000940">Eigengut</term>
+               <term ref="key000555">Wahl</term>
+               <term ref="key004966">Gemeinde</term>
+               <term ref="key000296">Bestätigung</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <div org="uniform" sample="complete">
+                  <p>
+                     <seg>
+                        <pb n="1r" facs="OGA_Grabs_O_1697-2_1r"/>
+                        <lb/>Wir, landtamman und ratt zu <orgName ref="org003239">Glaruß</orgName>,
+                        thund kundt <lb/>aller menigklichen, offenbar mit dißem brieff, daß uff
+                        <lb/>hüt sines datumbs vor unß erschinen der fromm, <lb/>fürnem, unßer
+                        gethrüwer, lieber landtschriber <lb/>zu <placeName ref="loc000440"
+                           >Werdenberg</placeName>, <persName ref="per009955a">Thomman
+                           Elmer</persName>, und hat unß <lb/>anzeigt und eroffnet, wie daß die
+                        unßeren zu <lb/><orgName ref="org001828">Gra<subst><del>ß</del><add
+                                 place="overwritten">p</add></subst>ß</orgName> in der graffschafft
+                           <placeName ref="loc000440">Werdenberg</placeName> ettwaß <lb/>gespanß
+                        haben von wegen irer <term ref="lem000512">almeinden</term> und
+                        <lb/>ettlichen <term ref="lem000807">eignen güttern</term>, da an einem ald
+                        dem <lb/>andern ortt die <term ref="lem006129.03">undermarchen</term>
+                        möchten verendert <lb/>worden sin. Deßwegen sy für thundlich und
+                        <lb/>nottwendig geacht, hierum gnugsamme erdur<lb break="no"/>ung zethun,
+                        damit vernern unwillen abge<lb break="no"/>lennet werde. Und mit einhelligem
+                           <term ref="lem000857">mher</term> endt<lb break="no"/>schloßen <choice>
+                           <sic/>
+                           <corr>(</corr>
+                        </choice>uff gfallen unßer, allß iren nattürlichen <lb/>oberhern), <num
+                           value="6">sechs</num> erbare biderbe <term ref="lem000220">mener</term>
+                        <term ref="lem004361">ußzu<lb break="no"/>schüßen</term> und die <term
+                           ref="lem006129.03">undermarchen</term> zuerkundigen. <lb/>Und derwegen
+                        gantz underthenig und dienstlichen <lb/>ersucht, angelangt und pätten, diß,
+                        ir vorhaben, <lb/>zu laßen, vergünstigen und bestätten, in
+                           <sic>hoffnug</sic>, <lb/>solches werde nit allein inen, sondern iren
+                           nach<lb break="no"/>khommen zu guten friden und einigkeit reichen
+                        <lb/>und dienen <abbr>etc</abbr>.</seg>
+                     <seg>Und wan nhun wir sollich <lb/>fürbringen angesächne <sic>ordnug</sic>,
+                        ouch pittlichs <lb/>begärn anghört und verstanden, so haben <lb/>wir unß deß
+                        hierumb einhelligklich erkhent <lb/>und ist unßer wil und meinung, daß die
+                        unßern <lb/>von <orgName ref="org001828">Grapß</orgName> von fhryer <term
+                           ref="lem002086">wha<damage agent="crack" cert="high" resp="sm"
+                           >l</damage></term>
+                        <num value="6">sechs</num> erbare und <lb/>biderbe <term ref="lem000220"
+                           >mäner</term> sollen <term ref="lem004361">ußschießen</term> und
+                        verordnen. <lb/>Den selbigen sol unßer landtvogt vor offnen <pb n="1v"
+                           facs="OGA_Grabs_O_1697-2_1v"/>
+                        <lb/>und sy heißen, ein uffgehapten <term ref="lem008758">eid liplich zu got
+                           und den <lb/>helgen schwern</term>, daß sy die <term ref="lem006129.03"
+                           >undermarchen</term> wellen flißig <lb/><term ref="lem008504"
+                           >undergon</term> und jedem daß laßen volgen und werden, <lb/>waß im von
+                        got und billichem rechten ghört. Und <lb/>waß also sy sprechent und
+                        erkhenen, darby sol eß <lb/>gentzlich und allerdingen verpliben und darumb
+                        <lb/>verner kein recht nit walten <abbr>etc</abbr>.</seg>
+                     <seg>Deß zu urkhundt, <lb/>habent wir unßer landts <orgName ref="org001197"
+                           >Glaruß</orgName> secreth insigel <lb/>offentlich hierin uffthruckhen und
+                        gäben laßen, <lb/>samstag, den <origDate when="1697-10-16" calendar="Julian"
+                           >16.ten tag octoberiß, anno <abbr>etc</abbr> 97</origDate>.</seg>
+                  </p>
+               </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div n="1" org="uniform" sample="complete">
+            <p>Der <term ref="key004600">Mehrheitsbeschluss</term> der Gemeinde <orgName
+                  ref="org001828">Grabs</orgName>, sechs Männer als <term ref="key004172"
+                  >Untergänger</term> zur Besichtigung der <term ref="key000305">Grenzen</term>
+               zwischen <term ref="key000307">Allmenden</term> und <term ref="key000940"
+                  >Eigengütern</term> zu wählen, muss von <orgName ref="org001197">Glarus</orgName>
+               bestätigt werden. Zudem haben diese vor dem <term ref="key000180">Landvogt</term>
+               einen <term ref="key000179">Eid</term> zu leisten. Hinsichtlich der Selbstverwaltung
+               einer Gemeinde müssen in anderen Fällen die <term ref="key000931"
+                  >Gemeindebeschlüsse</term> oder <term ref="key000657">Gemeindeordnungen</term> vom
+               Landvogt bestätigt (vgl. z. B. <ref>SSRQ_SG_III_4_184</ref>;
+                  <ref>SSRQ_SG_III_4_204</ref>) oder in dessen Anwesenheit gefällt werden (vgl.
+               z. B. die Gemeindebeschlüsse der Gemeinde Buchs: [PA  Hilty] Privatarchiv, Kopialbuch
+               Johannes Beusch, S. 87–88). Auch das Erstellen von <term ref="key004356"
+                  >Büchern</term> bedarf der Bestätigung des Landvogts, so z. B. das Buch der <term
+                  ref="key000158">Steuergenossenschaft</term> von <placeName ref="loc000335"
+                  >Grabs</placeName> (<bibl><ref>OGA Grabs Gruppe I./4</ref>; <ref>O
+                  1663-1</ref></bibl>), das Pfrundurbar (<bibl><ref>EKGA Grabs K 4.1–K
+                  4.3</ref></bibl>) oder das <term ref="key000388">Zinsbuch</term> für die <term
+                  ref="key004631">Armen</term> (<bibl><ref>EKGA Grabs K 7.1–K 4.3</ref></bibl>). Ob
+               allerdings jeder einzelne Gemeindebeschluss einer Bestätigung bedarf, ist unklar.</p></div>
+         <div n="2" org="uniform" sample="complete"><p>In <placeName ref="loc000278">Sax-Forstegg</placeName> werden Gemeindebeschlüsse mit Wissen des Landvogts
+     aufgestellt (vgl. <ref>SSRQ_SG_III_4_202</ref>), bedürfen danach aber nicht der
+     Bestätigung durch die Obrigkeit.</p>
+         </div>
+      </back>
+   </text>
+</TEI>

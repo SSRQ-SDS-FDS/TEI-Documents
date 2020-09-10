@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+
+
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+
+			</titleStmt>
+
+			<publicationStmt>
+				<date type="electronic" when="2019-10-14"/>
+				<date type="print"/>
+			</publicationStmt>
+
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ_FR_I_2_8_0090_002</idno>
+			</seriesStmt>
+
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<idno>StAFR, Thurnrodel 13, S. 43–44</idno>
+					</msIdentifier>
+					<head>Jaquema Baussan – Verhör / Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang>fr, de</textLang>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support>
+									<material></material>
+								</support>
+								<extent>
+									<dimensions type="leaves">
+										<height unit="cm" quantity="0.0"/>
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+									<dimensions type="plica">
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+								</extent>
+							</supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate when="1634-08-21"/>
+							<origPlace></origPlace>
+						</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc> 
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+			<particDesc default="false"/>
+			<settingDesc default="false"/>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="43"/><p><lb/><placeName ref="loc008105">Keller</placeName>
+							
+							<seg><lb/><origDate when="1634-08-21">21 <foreign xml:lang="la">augusti</foreign> 1634</origDate>, <foreign xml:lang="la"><choice><abbr>jud</abbr> <expan>judex</expan></choice></foreign> <abbr>h</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per011517">Peter Krummenstoll</persName>.</note></seg>
+							<seg><lb/><abbr>H</abbr> <persName ref="per009172">Gasser</persName><!-- Franz -->, <choice><abbr>j</abbr><expan>junker</expan></choice> <persName ref="per009390">Reyff</persName><!-- Peter Reyff --></seg>
+							<seg><lb/><persName ref="per009283a.02">Lombardt</persName><!-- Jacob Lombart -->, <persName ref="per011519">Techterman</persName><!-- Hans Jakob --></seg>
+							<seg><lb/><persName ref="per011520a.02">Strow</persName><!--Hans Strow, CC--></seg>
+							<seg><lb/><choice><abbr>W</abbr><expan>Weibel</expan></choice></seg></p>
+							
+						<pb n="44"/><p><seg><lb/><persName ref="per011818a.01">Jaquima Bausan</persName> de la paroisse de <placeName ref="loc008481.02">Ballavaux</placeName><note>Dans un interrogatoire mené trois ans plus tard, Jaquema déclare venir de <placeName ref="loc009798">Mégevette</placeName>. Voir <ref>SSRQ_FR_I_2_8_0089_005</ref>.</note>, bail<lb break="no"/>lifvage de <placeName ref="loc008112.03">Tonon</placeName>, enquise pourquoy elle tenoit prison, 
+							<lb/>a respondu n’en sçavoir bonnement la raison, qu’elle 
+							<lb/>est quelques foys transportee d’esprit, qu’on l’a 
+							<lb/>saisie a <placeName ref="loc007935.07">Farvagné</placeName> et enmeiner icy. Interrogee si elle n’a<lb break="no"/>voit esté cy devant <del><add place="above"><unclear>eté</unclear></add></del> prisonniere et bannye de ce pais, a 
+							<lb/>dict avoir esté prisonniere a <placeName ref="loc007886">Vaulruz</placeName> il y a <date dur="P2Y">deux ans</date>, 
+							<lb/>pource qu’elle estoit transportee d’esprit, que si on l’a 
+							<lb/>bannye, elle ne l’a entendu.</seg> <seg>Enquise de quoy elle soy 
+							<lb/>nourrissoit, a respondu d’ausmosnes, ne pouvant tra<lb break="no"/>vailler a cause de ladite indisposition, qu’estant attaquee 
+							<lb/>dudit mal, elle dort dans les bois. Interrogee pour 
+							<lb/>quoy elle se laissoit librement appeller sorciere, a 
+							<lb/>dict qu’estant de sens <term ref="lem017683.02">rassis</term>, elle respondoit bien a telz 
+							<lb/>injuriantz.</seg> <seg>Enquise de quelle façon elle avoit, ce prim<lb break="no"/>tempz passé, prins un <term ref="lem017685.02">esquereau</term>, a nié en avoir prins 
+							<lb/>audit printempz, advouant en avoir prins un, il y a <date dur="P3Y">troys 
+							<lb/>ans</date>, lequel elle abbatist d’une <term>sapelle</term><note>Le sens de ce mot demeure incertain&#160;; un rapprochement avec <term ref="lem017684">sape</term> peut être envisagé.</note>, mais qu’elle 
+							<lb/>ne le garda. Interrogee a quelle intention elle avoit dict 
+							<lb/>a un certain, auquel elle estoit redebvable d’<measure type="currency" quantity="1" unit="bz">un 
+							<lb/>batz</measure>, estant sommee au payement, qu’elle tascheroit 
+							<lb/>de le payer, si elle se debvoit mettre dans une peau 
+							<lb/>de loup, a respondu n’estre memoratifve d’avoir 
+							<lb/>proferees telles parolles, qu’allors elle pouvoit 
+							<lb/>estre hors de sens et jugement.</seg> <seg>Elle nie tous 
+							<lb/>les autres articles de l’examen. Crie mercy.</seg> 
+						</p>
+						
+					</div>
+				</body>
+				
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+
+<?oxy_options track_changes="on"?>

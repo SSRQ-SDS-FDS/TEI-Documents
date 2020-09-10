@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome
+     3&#160;: Les points de coutume neuchâtelois</title>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="headerinfo"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <date type="electronic" when="2020-08-17"/>
+    <date type="print"/>
+    <availability>
+     <p xml:id="facs">Adrien Wyssbrod</p>
+    </availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Collection des sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS_NE_3_042</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier>
+      <idno>AEN 14JL–451, fol. 216v–217r</idno>
+     </msIdentifier>
+     <head>Prise de corps pour dettes</head>
+     <msContents>
+      <summary>Si la coutume neuchâteloise ne prévoit pas la prise de corps pour dettes, au
+       contraire de celle de Genève, elle prévoit que le débiteur peut être emprisonné avec l’accord
+       de la Seigneurie pour le forcer à payer.</summary>
+      <msItem>
+       <textLang>français</textLang>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="34"/>
+          <width unit="cm" quantity="22.5"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <origDate when="1602-06-03" calendar="Julian"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>
+      </origin>
+     </history>
+     <additional>
+      <listBibl>
+       <head/>
+       <bibl/>
+      </listBibl>
+     </additional>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key004980"/>
+     <term ref="key000058"/>
+     <term ref="key005022"/>
+     <term ref="key003331"/>
+     <term ref="key004001"/>
+     <term ref="key004991"/>
+     <term ref="key005036"/>
+    </keywords>
+   </textClass>
+   <particDesc default="false"/>
+   <settingDesc default="false"/>
+  </profileDesc>
+ </teiHeader>
+ 
+ <text>
+  <group>
+   <text>
+    <body>
+
+     <pb n="216v" facs="AEN_14JL_451_0216v"/>
+
+     <div>
+      
+      <add place="left margin" hand="later hand"><foreign xml:lang="la"><choice><abbr>Levat</abbr><expan>Levata</expan></choice> est</foreign></add>
+      
+      <p>
+       <lb/>Par devant moy <persName ref="per010508">Daniel Huguenaud</persName> mayre et du
+        <orgName ref="org003085">Conseil de la Ville de <lb/><placeName ref="loc007786"
+         >Neufchastel</placeName></orgName> d’appart l’<choice>
+        <abbr>ex<hi rend="sup">ce</hi></abbr>
+        <expan>excellence</expan>
+       </choice> et grandeur de <orgName ref="org003598">messeigneurs nos souverains
+        <lb/>princes</orgName><del rend="strikethrough">ses</del>. Et en presence d’une partie des
+        <orgName ref="org003085">sieurs conseillers de <choice>
+         <abbr>lad<hi rend="sup">e</hi></abbr>
+         <expan>ladite</expan>
+        </choice> ville</orgName>
+       <lb/>cy après nommez, est comparu judiciallement honnorable et discret <persName
+        ref="per013415a.01">Jehan<lb/> Degissey</persName> de <placeName ref="loc007797"
+        >Colombier</placeName> notaire en ce comté, lequel par la bouche d’ung <lb/><term
+        ref="lem016298">parlier</term> par moy a luy octroyé, nous a exposé comme poursuivant au
+       payement <lb/>de quelque somme de <term ref="lem016291.02">deniers</term> qu’il a payée et
+        <term ref="lem016351.03">emendée</term> pour honneste <persName ref="per013416">Edme
+        <lb/>Quart</persName> et <persName ref="per013417">Debora Durant</persName> sa femme
+       demeurant a <placeName ref="loc007646.04">Geneve</placeName>, il estoit entré en
+       <lb/>differend avecq <choice>
+        <abbr>lesd</abbr>
+        <expan>lesdits</expan>
+       </choice> mariez, qui alegoient ne pouvoir estre aprehendez et <lb/>containcts en leurs
+       personnes audict payement et <choice>
+        <sic>indempnité</sic>
+        <corr>indemnité</corr>
+       </choice>, bien que les <lb/>actes obligatoires avoient esté par eulx passez en ceste ville,
+       et qu’ilz ne <lb/>portoyent prinse de corps, comme font ceux passez a <placeName
+        ref="loc007646.04">Geneve</placeName>, c’est pourquoy <lb/>il a requis luy conceder lettres <choice>
+        <abbr>attestoires</abbr>
+        <expan>attestatoires</expan>
+       </choice> la coustume de cedict comté <lb/>estre telle que combien que les notaires ne
+       stipulent ny reçoyvent<lb/> aulcunes obligations au corps, ce neanlmoings le debteur a faulte
+       <lb/>de payement d’argent ou d’autres biens peult (moyennant licence de la <lb/>Seigneurie) y
+       estre contrainct par emprisonnement de sa personne, <lb/>suportant par le creancier la
+       despence que ledict debteur feroit pour sa <lb/>nourriture a pain et eau, durant sa detention
+       et emprisonnement, <lb/>restituable toutesfois avecq la somme deue. </p>
+      
+      <pb n="217r" facs="AEN_14JL_451_0217r"/>
+      
+      <p>
+       <lb/>Dont je ledict mayre en ay demandé le droict auxdictz sieurs conseillers <lb/>lesquels
+       m’ont concordablement cogneu et jugé que je pouvois octroyer <lb/>audict <persName
+        ref="per013415">Degissey</persName> l’attestation par luy requise, pour estre conforme au
+       <lb/>decret et usance de cedict Conté, ce que j’ay faict, et ordonné au <lb/>greffier en
+       ladicte justice la luy expedier en ceste forme, par la <lb/>cognoissance et adjudication des
+       honnorables prudentz et sages <del rend="strikethrough">Henry</del><add place="above"
+         ><persName ref="per010515">Pierre Quelin</persName></add>, <lb/><persName
+        ref="per010465a.01"><add place="left margin">Henry</add> Bonvespre</persName>, <del
+        rend="strikethrough"><persName ref="per010515">Pierre Quelin</persName></del>
+       <persName ref="per010476a.02">Balthazar Bailliod</persName> et <persName ref="per011737"
+        >Guillaume Massonde</persName>
+       <lb/>conseillers <choice>
+        <abbr>dud</abbr>
+        <expan>dudit</expan>
+       </choice>
+       <placeName ref="loc007786">Neufchastel</placeName> le <origDate when="1602-06-03"
+        calendar="Julian">tiers jour du mois de juin, l’an de salut <lb/>mille six cents et
+        deux</origDate>. </p>
+      
+      <p>
+       <lb/>Par l’ordonnance <choice><abbr>dud</abbr><expan>dudit</expan></choice> je mayre
+       <lb/>et <choice><abbr>adjudicaon</abbr><expan>adjudication</expan></choice> <choice><abbr>desd</abbr><expan>desdits</expan></choice> <choice><abbr>srs</abbr><expan>sieurs</expan></choice> conseillers.
+      </p>
+
+     </div>
+     
+     <div>
+      <signed><persName ref="per010433a.03"><choice>
+       <abbr>D</abbr>
+       <expan>David</expan>
+      </choice> Bailliods</persName>
+       <figure type="notarial sign"/> not</signed>
+     </div>
+
+
+    </body>
+   </text>
+  </group>
+ </text>
+</TEI>

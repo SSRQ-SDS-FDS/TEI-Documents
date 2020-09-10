@@ -1,0 +1,957 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+    <persName>Sibylle Malamud</persName>
+    <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+    <persName>Sibylle Malamud</persName>
+    <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-10-04"/>
+            <date type="print"/>
+            <availability><p xml:id="facs">Sibylle Malamud</p></availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+    <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+    <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_059_1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+    <msIdentifier>
+       <idno>OGA Gams Nr. 1</idno>
+    </msIdentifier>
+    <head>Schiedsspruch von Zürich für Andreas Roll von Bonstetten über die Gamser Steuern sowie die hoheitlichen Nutzungen und Gerechtigkeiten in der Herrschaft Hohensax-Gams (Strafrecht, Gericht, Grenzen, Rechte der Gamser, Eid etc.)</head>
+    <msContents>
+       <summary>
+          <p>Die Schiedsrichter Bürgermeister und Rat von Zürich entscheiden einen Streit zwischen Andreas Roll von Bonstetten aus Uster und der Gemeinde Gams über 80 Pfund Steuern von Gams. </p>
+          <p>Gams muss von den 80 Pfund Steuern jährlich an Martini (11.11.) nur noch 50 Pfund bezahlen. Weitere 25 Pfund sind jedoch jährlich im Mai wegen der Verpfändung der Herrschaft Hohensax-Gams zu entrichten. Als Entschädigung für die Unkosten des Verfahrens haben die Gamser 200 Rheinische Gulden in zwei Raten zu bezahlen. Diese Steuern sollen vom Weibel eingezogen werden. </p>
+          <p>Weiter werden die Rechte und Pflichten der Gamser, strafrechtliche Bestimmungen, Hoheitsrechte, Herrschaftsgrenzen, Nutzungen und Gerechtigkeiten der Herrschaft, Eide der Untertanen und Amtleute, Bestimmungen zu Gericht, Richterwahl, Richtereid und Appellation sowie zum Siegel festgelegt.</p>
+          <p/>
+          <p/>
+       </summary>
+       <msItem>
+          <textLang>Deutsch</textLang>
+          <filiation type="current">Original, Heft (2 Doppelblätter)</filiation>
+       </msItem>
+    </msContents>
+    <physDesc>
+       <objectDesc>
+          <supportDesc>
+             <support>
+                <material>Pergament</material>
+             </support>
+             <extent>
+                <dimensions type="leaves">
+        <height unit="cm" quantity="37.5"/>
+        <width unit="cm" quantity="29.5"/>
+                </dimensions>
+             </extent>
+             <condition>an den Faltstellen Schrift z. T. abgerieben</condition>
+          </supportDesc>
+       </objectDesc>
+    </physDesc>
+    <history>
+       <origin>
+          <origDate when="1468-09-13"/>
+          <origPlace>Zürich</origPlace>
+       </origin>
+    </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+    <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+    <term ref="key001117">Schiedsspruch</term>
+    <term ref="key000157">Steuer</term>
+    <term ref="key001001">Ungehorsam</term>
+    <term ref="key000179">Eid</term>
+    <term ref="key000813">Tröstung</term>
+    <term ref="key000586">Strafrecht</term>
+    <term ref="key000184">Busse</term>
+    <term ref="key000341">Ordnung</term>
+    <term ref="key000183">Fall</term>
+    <term ref="key000588">Gerichtsordnung</term>
+    <term ref="key000047">Mühle</term>
+    <term ref="key000758">Wirtschaft</term>
+    <term ref="key003737">Herrschaftsrecht</term>
+    <term ref="key000065">Amtmann</term>
+    <term ref="key000555">Wahl</term>
+    <term ref="key000212">Lohn</term>
+    <term ref="key000040">Kirchensatz</term>
+    <term ref="key000287">Appellation</term>
+    <term ref="key004417">Hochgerichtsgrenze</term>
+    <term ref="key003290">Freizügigkeit</term>
+    <term ref="key000273">Abgabe</term>
+    <term ref="key003930">Ehepartnerwahl</term>
+    <term ref="key000615">Hoheitsrecht</term>
+    <term ref="key003298">Landesrecht</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <div org="uniform" sample="complete">
+                  <p>
+                     <pb n="1" facs="OGA_Gams_Nr._1_S1"/>
+                     <seg>
+                        <lb/>Wir, der <orgName ref="org001217">burgermeister und rätte der statt
+                           Zurich</orgName>, tund kunt aller mengklichem <lb/>mit disem brieffe, als
+                        unser lieber burger, der edel und vest <persName ref="per004609">Andres Roll
+                           von Bomstetten</persName>
+                        <lb/>zuͤ <placeName ref="loc006198.02">Ustre</placeName>, die <measure
+                           type="currency" unit="lb" quantity="80">achtzig pfund pfennig</measure>
+                        geltz <date dur="R/P1Y">jerlich</date>er <term ref="lem000209">stur</term>e,
+                        die er meint, so der durch<lb break="no"/>luchtig, hochgeborn furst und
+                        herre, herr <persName ref="per003136">Sigmund, hertzog zuͤ Oͤsterrich </persName>
+                        <abbr>etc</abbr>, unser <lb/>gnediger herre in der herrschafft <placeName
+                           ref="loc006040">Gamps</placeName>, so zuͤ der <placeName ref="loc000185"
+                           >Hohensagx</placeName> gehoͤrt haben soͤlte, mit <lb/>sampt den usstanden
+                        und unbetzalten sturen und andren siner gnädigen rechtungen, <lb/>da mit
+                        unser statt <term ref="lem000604">gandt</term> zuͤ sinen handen gezogen hät
+                        nach wisung und sage des <lb/><term ref="lem000956">gandtbrieff</term>s, im
+                        darumb besigelt geben. Und er an die von <orgName ref="org001881"
+                           >Gamps</orgName> gevordert hät, im <lb/>die zuͤ gebent und damit gehorsam
+                        und gewêrtig zesinde als irem herren und sy im <lb/>in andern sachen
+                        gehorsam und gewërtig wërent und sy das nit habent woͤllen tuͤn.</seg>
+                     <seg>
+                        <lb/>Und sy darumb, was sy von solichs wegen dem vorgenanten <persName
+                           ref="per004609">von Bomstetten</persName> zegebent <lb/>und zetuͤnde
+                        pflichtig und schuldig sin soltent, uff uns zu rechte komen sind und
+                        <lb/>wir inen <term ref="lem010714">rechtlich tag</term>e fur uns gesetzt
+                        und sy gen einandern gehört hand und uns <lb/>nach beider teilen verhörung
+                        und dem, so von inen fur uns gelegt ist, beducht haͤt, <lb/>wie sy mit
+                        wissen und in der guͤtlicheit mit einandern betragen werden moͤchtent.</seg>
+                     <seg>
+                        <lb/>Das soͤllichs wol fur sy beidersitte sin moͤchte und wir darzuͤ
+                        geordnet und geben <lb/>habent hern <persName ref="per000940a">Heinrich
+                           Swend</persName>en, ritter, und <persName ref="per001546a">Heinrich
+                           Roist</persName>en, beid unser lieben rätz<lb break="no"/>frunde, und
+                        unsern lieben stattschriber <persName ref="per004684a">Cuͤnratten von
+                           Chäm</persName> mit bevelhnusse, <lb/>zwuschent inen beider sitte
+                        getruwlichen ze arbeitten und zebesuͤchent, ob sy die in <lb/>der guͤttikeit
+                        und mit irem wissen und willen mit einandern geeinen und betragen
+                        <lb/>moͤchtent. Und sy uff unser bevelhnusse das an beidteille getruwlichen
+                        gesuͤcht <lb/>und geworben und doch das an inen beidersitte nit vinden
+                        moͤgent haben und <lb/>sy widerumb fur uns komen sind.</seg>
+                     <seg>Und die von <orgName ref="org001881">Gamps</orgName> mit uns reden lassen
+                        hand, <lb/>das inen ir ze swer wëre, soͤlich sture zegebent und das wir inen
+                        darinne in <lb/>ettlicher masse, das sy by dem iren beliben mochtent,
+                        zestatten komen woͤltent. Und <lb/>das aber zu uns in der gütlikeit <damage
+                           agent="fold"><supplied
+                              source="LAGL AG III.25, Mappe Weesen, 13.09.1468, S. 2"
+                              >satzten</supplied></damage>.</seg>
+                     <seg>Und dartzuͤ der obgenant <persName ref="per004609">von
+                           Bomstetten</persName>
+                        <lb/>ouch redt, das sy sölichs zegebent <damage agent="faded ink"><supplied
+                              source="LAGL AG III.25, Mappe Weesen, 13.09.1468, S. 2"
+                              >schuldig</supplied></damage> werent, als sich das erberlichen und wol
+                        <lb/>erfunden sölte und das sy das billichen geben söltent. Und doch so
+                        wolte er das <lb/>zu uns, in der güttikeit sy zu entscheiden, ouch
+                        setzen.</seg>
+                     <seg>Und wir, unser <choice>
+                           <abbr>vorgentn. </abbr>
+                           <expan>vorgenanten </expan>
+                        </choice>
+                        <lb/>ratt<damage agent="faded ink"><supplied
+                              source="LAGL AG III.25, Mappe Weesen, 13.09.1468, S. 2"
+                              >fründ</supplied></damage> und stattschriber och erkunnet habent, wie
+                        sy das in der guͤttikeit zebe<lb break="no"/>tragent <damage
+                           agent="faded ink"><supplied
+                              source="LAGL AG III.25, Mappe Weesen, 13.09.1468, S. 2">an
+                              beid</supplied></damage>en teillen hettent moͤgen funden und warumb
+                        das zerschlagen <lb/>were <damage agent="faded ink"><supplied
+                              source="LAGL AG III.25, Mappe Weesen, 13.09.1468, S. 2">und
+                              unß</supplied></damage> das von inen zuͤ verstande geben ist.</seg>
+                     <seg>So habent wir zwüschent <lb/>inen <damage agent="faded ink"><supplied
+                              source="LAGL AG III.25, Mappe Weesen, 13.09.1468, S. 2">in
+                              der muöw</supplied></damage><note anchored="true">Fehler in der
+                           Abschrift, in einer anderen Abschrift (StASG AA 2 A 14-2) heisst es
+                                 <orig><gap quantity="2" unit="word"/> minne</orig>.</note> und der
+                        guttikeit also gesprochen und uns erkennt:</seg>
+                     <term ref="key000157"/>
+                     <seg>Das die ob<lb break="no"/>genanten von <orgName ref="org001881"
+                           >Gamps</orgName> dem vorgenanten <persName ref="per004609">Andresen
+                           Rollen von Bomstetten</persName> fur <lb/>die obgenanten <measure
+                           type="currency" unit="lb" quantity="80">achtzig pfund pfenning</measure>
+                        <term ref="lem000318">geltz</term>, so der obgeseit herre, hertzog <persName
+                           ref="per003136">Sig<lb break="no"/>mund</persName>, die gehept haben sol
+                        und die er mit unser statt gandt zuͤ sinen handen <lb/>mit andrem gezogen
+                        hät, geben sollent hinfur <date dur="R/P1Y">jerlich</date>en uff sant
+                           <persName ref="per000141">Marti</persName>s tag <lb/><measure
+                           type="currency" unit="lb" origin="Konstanz" quantity="50">funftzig pfund
+                           pfenning Costentzer muntz und Veldkircher werung</measure> stüre. Und
+                        <lb/>im die anfachen zegebent und zewerent uff jetz den nechstkunfftigen
+                           <date type="deadline">sant <persName ref="per000141">Marti</persName>s
+                           <lb/>tage</date> zu den <measure type="currency" unit="lb" quantity="25"
+                           origin="Konstanz">zwentzig und funff pfund pfenningen</measure> sture der
+                        vorgenanten muntz <lb/>und werung, die sy im von siner <term ref="lem002220"
+                           >verpfandung</term> der herschafft <placeName ref="loc006040"
+                           >Hohensagx</placeName>
+                        <date dur="R/P1Y">jerlich</date>en <lb/>zü meyen zegebent schuldig und
+                        pflichtig sint und im ouch die also geben <lb/>soͤllent. Und das die
+                        vorgenanten von <orgName ref="org001881">Gamps</orgName> soͤlich sturen
+                           <date dur="R/P1Y">jerlich</date>en an<lb break="no"/>legen und die von
+                        dem <term ref="lem000043">weibel</term> ze <placeName ref="loc000211"
+                           >Gamps</placeName> denn ingezogen und dem <persName ref="per004609">von
+                              Bom<lb break="no"/>stetten</persName> uff die vorgenanten zile betzalt
+                        und geben werden soͤltent ze <placeName ref="loc000211">Gamps</placeName>,
+                        <lb/>als im bißher die vorgenanten <measure type="currency" unit="lb"
+                           quantity="25">zwentzig und funff pfund pfenning</measure> betzalt <pb
+                           n="2" facs="OGA_Gams_Nr._1_S2"/>
+                        <lb/>und geben worden wërent. </seg>
+                     <seg>Und was und wie vil die von <orgName ref="org001881">Gamps</orgName>
+                        soͤlicher sturen je <lb/>jetlichen uff die <term ref="lem000076.13"
+                           >guͤtter</term>e legent und die, dero die guͤttere werent, die nit geben
+                        woͤltent, <lb/>das denn der obgenant <persName ref="per004609">von
+                           Bomstetten</persName> oder der, dem er das je zetünde bevilchet, die
+                        <lb/>guͤtter fur die sture, so daruff gelegt, zegebent ist mit recht zuͤ
+                           <placeName ref="loc000211">Gamps</placeName> zuͤ iren handen <lb/>ziechen
+                        und nemen moͤgent.</seg>
+                     <seg>Und umb vergangens, das by den <measure type="currency" unit="lb"
+                           quantity="80">achtzig pfund <lb/>pfenningen</measure> sture unbezalt und
+                        ungegeben usstät und umb costen und schaden, den <lb/>der vorgenant
+                           <persName ref="per004609">von Bomstetten</persName> des entpfangen hät,
+                        das die <choice>
+                           <abbr>egntn.</abbr>
+                           <expan>egenannten</expan>
+                        </choice> von <orgName ref="org001881">Gamps</orgName>
+                        <lb/>im dafur geben soͤllent <measure type="currency" origin="Rh" unit="fl"
+                           quantity="200">zwey hundert gut Rinisch guldin</measure> mit namen uff
+                        jetz, <lb/>den nechstkomenden <date type="deadline" when="--11-11">sant
+                              <persName ref="per000141">Marti</persName>s</date> tage <measure
+                           type="currency" unit="fl" quantity="100">hundert guldin</measure> mit den
+                           <measure type="currency" unit="lb" quantity="50">funftzig pfund
+                           <lb/>pfennigen</measure> der stüre und uff den nechstkunfftigen meyen
+                           <measure type="currency" unit="fl" quantity="100">hundert
+                           guldin</measure> mit <lb/>den <measure type="currency" unit="lb"
+                           quantity="25">zwentzig und funff pfund pfenningen</measure> der sture, so
+                        sy im uff die beide zile <lb/>zegebent verfallent ane furer
+                        vertziechen.</seg>
+                     <seg>Und ob die von <orgName ref="org001881">Gamps</orgName> jemant <lb/>von
+                        der <measure type="currency" unit="lb" quantity="50">funftzig pfund
+                           pfenning</measure> wegen, die sy dem obgenanten <persName ref="per004609"
+                           >von Bomstetten</persName>
+                        <lb/>fur die <measure type="currency" unit="lb" quantity="80">achtzig pfund
+                           pfenning</measure> sture, wie obstät, geben soͤllent, bekumbern
+                        <lb/>woͤlte, das der selb <persName ref="per004609">von
+                           Bomstetten</persName> sy gen den selben darumb vertretten und
+                        <lb/>verstan sol.</seg>
+                     <seg>Und ob sich hinfur deheinest machte oder fuͤgty, das der <choice>
+                           <abbr>vorgent.</abbr>
+                           <expan>vorgenannten </expan>
+                        </choice>
+                        <lb/><persName ref="per004609">von Bomstetten</persName> von der herrschafft
+                           <placeName ref="loc000589">Osterrich</placeName> umb sin erlanget recht
+                        benuͤgig <lb/>gemacht oder das mit recht im abgezogen wurde, also, das er
+                        darinne der <lb/>egenanten herrschafft abstuͤnde, das die von <orgName
+                           ref="org001881">Gamps</orgName> im dannenthin die <lb/><measure
+                           type="currency" unit="lb" quantity="50">funftzig pfund pfennig</measure>
+                        fur die <measure type="currency" unit="lb" quantity="80">achtzig pfund
+                           pfenning</measure> sture nit mer ze<lb break="no"/>gebent schuldig sin
+                        sollent und sy denn dannenthin die der vorgenanten <lb/>herrschaft
+                           <placeName ref="loc000589">Oͤsterrich</placeName> geben oder in ander
+                        wege mit ir verkomen moͤgent, wie <lb/>inen das denne eben ist. Also, das
+                        inen dis gen der selben herrschafft an ir <lb/>gerechtikeit deheinen schaden
+                        bringen sol.</seg>
+                     <seg>Und als ettlich von <placeName ref="loc000211">Gamps</placeName> dem
+                        <lb/>obgenanten <persName ref="per004609">von Bomstetten</persName> sin
+                           <damage agent="fold"><supplied
+                              source="LAGL AG III.25, Mappe Weesen, 13.09.1468, S. 4"
+                              >gerächtigkeit</supplied></damage>, die er, wie obstat, behalten hat,
+                        nit <lb/>habent wellen <term ref="lem000335">sweren</term>, als von den
+                        andern das beschechen ist, weliche der<lb break="no"/>selben da noch
+                        furderlichen, im das swerent, das die des von dem <persName ref="per004609"
+                           >von Bom<lb break="no"/>stetten</persName> ane engeltnusse beliben
+                        sollent. Und weliche aber das also nit sweren, <lb/>sträffen mag und im die
+                        vorgenanten von <orgName ref="org001881">Gamps</orgName> die gehorsam ze
+                        <lb/>machent und sy sträffen zemögen, hilflichen sin soͤllent.</seg>
+                     <seg>Und das sy <lb/>beidersitte einander by dem, so hienach von einem an das
+                        ander geschriben <lb/>stät, och beliben lassen und dem och also nachgan
+                        sollent:</seg>
+                     <seg><head resp="SM">Rechte und Pflichten der Gamser, <term ref="key000586"
+                              >Strafrecht</term>sordnung<note anchored="true">Artikel 1 bis 16
+                              entsprechen inhaltlich den Artikeln 3.1 bis 3.16 von <date when="1497"
+                                 >1497</date>. Sie wurden 1497 jedoch erneuert, teilweise sprachlich
+                              verändert und ergänzt. Zum Gericht vgl. auch unten Artikel
+                           51.</note></head></seg>
+                     <lb/>
+                     <seg n="1">Die <choice>
+                           <abbr>vorgentn.</abbr>
+                           <expan>vorgenannten </expan>
+                        </choice>
+                        <lb/>von <orgName ref="org001881">Gamps</orgName> habent einen fryen <term
+                           ref="lem001006">zug</term>, also, das sy uss der herrschafft
+                           <lb/><placeName ref="loc006040">Hohensagx</placeName> mit iren liben und
+                        dem iren ziechen moͤgent, wo hin ald <lb/>war sy wellent, doch der
+                        herschafft <placeName ref="loc006040">Hohensagx</placeName> an ir gesatzten
+                        sturen <lb/>und nutzungen unschedlich, von dem vorgeseitten <persName
+                           ref="per004609">von Bomstetten</persName> und <lb/>einem herren der
+                        herrschafft <placeName ref="loc006040">Hohensagx</placeName> ungesumpt und
+                        ungeirrt.</seg>
+                     <term ref="key003290"/>
+                     <seg n="2">
+                        <lb/>Und das die vilgenanten von <orgName ref="org001881">Gamps</orgName>
+                        inwendig und usswendig der <lb/>herrschafft <placeName ref="loc006040"
+                           >Hohensagx</placeName> ire <term ref="lem000130">kind</term> zu der
+                        heiligen <term ref="lem000080">ee</term> wol berätten und geben
+                        <lb/>moͤgent, von der herschafft der <placeName ref="loc006040"
+                           >Hohensagx</placeName> ungesträfft und ungehindert.</seg>
+                     <seg n="3">
+                        <lb/>Ouch das der personen, so zuͤ der herrschafft <placeName
+                           ref="loc006040">Hohensagx</placeName> gehoͤrent, de<lb break="no"/>heine
+                        die <term ref="lem000750.01">trostung</term> gehaben und geben mag umb
+                        erlich sachen, die weder <lb/>leben, libe noch <term ref="lem005145.06"
+                           >gelide</term> beruͤrent, in <term ref="lem001256.11">vancknusse</term>
+                        zu <term ref="lem001568.07">tuͤrnnen</term>, ze <term ref="lem013974.02"
+                           >bloͤcken</term>
+                        <pb n="3" facs="OGA_Gams_Nr._1_S3"/>
+                        <lb/>und <term ref="lem013975.02">stoͤcken</term> von einer herrschafft der
+                           <placeName ref="loc006040">Hohensagx</placeName> genomen werden
+                        sol.</seg>
+                     <term ref="key000813"/>
+                     <seg n="4">Aber das leben, <lb/>libe oder <term ref="lem005145.06"
+                           >gelide</term> antrifft, das die herrschafft der <placeName
+                           ref="loc006040">Hohensagx</placeName> die vachen, bloͤcken, <lb/>stoͤcken
+                        und turnnen lassen mag, wie die notdurfft das in soͤlichem je vordert.</seg>
+                     <term ref="key001011"/>
+                     <seg n="5">
+                        <lb/>Und och das die herrschafft der <placeName ref="loc006040"
+                           >Hohensagx</placeName> dehein personen in der selben <lb/>herrschafft one
+                           <term ref="lem000361">recht</term>, die rechtz begerent und des erwartten
+                        wellent, sträffen <lb/>sol.</seg>
+                     <seg n="6">Und das die vilgenanten von <orgName ref="org001881">Gamps</orgName>
+                        ein herre der herrschafft <lb/><placeName ref="loc006040"
+                           >Hohensagx</placeName> ir <term ref="lem000252">wunne und weide</term>
+                        niessen lassen und sy daby, so verr er mag, <lb/>helffen beheben und
+                        schirmen sol, wie das von alter herkomen ist.</seg>
+                     <term ref="key000745"/>
+                     <seg n="7">Ouch <lb/>das ein herre der herrschafft <placeName ref="loc006040"
+                           >Hohensagx</placeName>
+                        <term ref="lem001576">mansperson</term>en, so zuͤ der selben herr<lb
+                           break="no"/>schafft gehoͤrent, je den eltosten in einer <term
+                           ref="lem003132">hußröicky</term>, so der abgät, vallen mag <lb/>mit dem
+                           <term ref="lem001565">besten hopt</term>
+                        <term ref="lem002693">rinder vich</term>s, so da ist, es syent <term
+                           ref="lem000110">ochßen</term> oder <term ref="lem001076"
+                        >kügen</term>.</seg>
+                     <term ref="key000183"/>
+                     <seg n="8">Und <lb/>welicher trostung, so die an inn gevordert wirt, nit geben
+                        wil, zuͤ dem ersten <lb/>mäl, das der einem herren der <placeName
+                           ref="loc006040">Hohensagx</placeName>
+                        <measure type="currency" unit="lb" quantity="3">dru pfund
+                        pfenning</measure>, zuͤ dem <lb/>andern mäl aber <measure type="currency"
+                           unit="lb" quantity="3">dru pfund pfenning</measure> und zuͤ dem dritten
+                        mäl <measure type="currency" unit="lb" quantity="3">dru <lb/>pfund
+                           pfening</measure>, das ist <measure type="currency" unit="lb"
+                           quantity="9">nun pfund pfening</measure>, verfallen sin sol. Und ob er
+                        <lb/>darnach furer nit trostung geben wolte, das denn der gefangen und einem
+                        <lb/>herren der <placeName ref="loc006040">Hohensagx</placeName> geantwurt
+                        werden sol, der inn denn umb sin unge<lb break="no"/>horsamy turnnen,
+                        blocken oder stoͤcken und furer sträffen und inn darzuͤ <lb/>halten mag,
+                        trostung zegebent und dem rechten gehorsam zesinde.</seg>
+                     <term ref="key000813"/>
+                     <seg n="9">Und welicher <lb/><term ref="lem001953">trostung brichet</term> und
+                        sich das mit recht herfundet, das der einem herren der <lb/><placeName
+                           ref="loc006040">Hohensagx </placeName>
+                        <measure type="currency" unit="lb" quantity="10">zehen pfund
+                           pfennig</measure> verfallen sin und dartzuͤ mit recht nach <lb/>dem der
+                        frëffel an im selbs ist, gesträfft werden sol, wie sich das mit recht
+                        <lb/>funden wirt.</seg>
+                     <seg n="10">Und wer den andern <term ref="lem001636">herdvellig machet</term>,
+                        das der einem herrn <lb/>vorgenant <measure type="currency" unit="lb"
+                           quantity="10">zehen pfund pfenning </measure><damage agent="fold"
+                              ><supplied
+                              source="LAGL AG III.25, Mappe Weesen, 13.09.1468, S. 5"
+                              >verfallen</supplied></damage> ist. </seg>
+                     <seg n="11">Und welicher uber den <lb/>andern ein <term ref="lem001989"
+                           >gewapnett hand</term>e <term ref="lem001911">zuckt</term> oder inn <term
+                           ref="lem008089">bluͤttrunsig macht</term>, das der <lb/>einem herren
+                        obgenant <measure type="currency" unit="lb" quantity="3">dru pfund
+                           pfening</measure> verfallen ist.</seg>
+                     <term ref="key003394"/>
+                     <seg n="12">Und wer den <lb/>andern mit der <term ref="lem001913.02"
+                           >funst</term>
+                        <term ref="lem000632">schlecht</term>, er mache inn damit bluͤtrunsig oder
+                        nit, <lb/>das er einem herren vorgenant verfallen ist <measure
+                           type="currency" unit="ß" quantity="5">funff schilling pfenning.</measure>
+                     </seg>
+                     <seg n="13">Und <lb/>ob öch jemant den andern <term ref="lem013983">von dem
+                           leben zu dem tode bringt</term>, das der einem <lb/>herren der <placeName
+                           ref="loc006040">Hohensagx</placeName> das guͤt und des totten <term
+                           ref="lem013984.02">lichamen</term>
+                        <term ref="lem000128">frunden</term> den <term ref="lem000271">lib</term>e
+                        <lb/>verfallen ist und das soͤlich <term ref="lem000036">buͤss</term>en alle
+                        zenement zuͤ des herren vorgenant <lb/>gnäden stand.</seg>
+                     <term ref="key000225"/>
+                     <term ref="key000954"/>
+                     <seg n="14">Was aber andrer <term ref="lem000044">frevel</term>n beschechent,
+                        denn vorgenempt <lb/>sind, wie die mit recht gesträfft werdent, daby denn
+                        das beliben sol und <lb/>das öch ein herre der <placeName ref="loc006040"
+                           >Hohensagx</placeName> den vorgenanten von <orgName ref="org001881"
+                           >Gamps</orgName> zegebietten <lb/>hät by <measure type="currency"
+                           unit="lb" quantity="3">dru pfund pfeningen.</measure> Und wer das
+                        ubersicht, von dem mag <lb/>er die inziechen, es werde im denn mit recht
+                        abgesetzt.</seg>
+                     <seg n="15">Zuͤ den <term ref="lem005841">gericht</term>en <lb/>zegände, das
+                        ein herre der <placeName ref="loc006040">Hohensagx</placeName> den
+                        egeseitten von <orgName ref="org001881">Gamps</orgName> ge<lb break="no"
+                        />bietten mag by <measure type="currency" unit="ß" quantity="3">dry
+                           schilling pfennig.</measure> Und wer dartzuͤ nit gat, <lb/>die von denen
+                        nemen.</seg>
+                     <term ref="key000057"/>
+                     <seg n="16">Von wunne und weide wegen ist by <measure type="currency" unit="lb"
+                           quantity="1">einem <lb/>pfund pfening</measure> zegebiettent und wer das
+                        nit haltet, von dem <lb/>mag ein herre obgenant das inziechen, es werde im
+                        denne mit <lb/>recht abgesetzt.</seg>
+                     <seg n="17"><note anchored="true">Artikel fehlt <date when="1497"
+                           >1497</date>.</note> Die wile das <term ref="lem001152">hus</term>e
+                           <placeName ref="loc000185">Hohensagx</placeName> in <term ref="lem000274"
+                           >buwen</term> was <pb n="4" facs="OGA_Gams_Nr._1_S4"/>
+                        <lb/>und so ein herre die buwe bessern und das huse <term ref="lem002307"
+                           >taͤcken</term> wolt, so sind die <choice>
+                           <abbr>vorgentn. </abbr>
+                           <expan>vorgenannten </expan>
+                        </choice>
+                        <lb/>von <orgName ref="org001881">Gamps</orgName> schuldig gewesen, dartzu
+                           <term ref="lem002454.06">buwholtz</term> ab gelegnen enden, so das
+                        <lb/>gewerchet was, das sy das fuͤren mochtent zufuͤrent und das <term
+                           ref="lem000360.02">tach</term> habent <lb/>sy och gefuͤrt. Und so sy also
+                        fuͤrtent, das inen denn ein herre zeessen gab.</seg>
+                     <term ref="key000489"/>
+                     <term ref="key000524"/>
+                     <seg n="18"><note anchored="true">Artikel fehlt <date when="1497"
+                           >1497</date>.</note> Zuͤ <lb/>des obgenanten herren der <placeName
+                           ref="loc006040">Hohensagx</placeName>
+                        <term ref="lem000072.18">muly</term>, den <term ref="lem000321.03"
+                           >stempffen</term> und den <term ref="lem000355.06">bluwel</term>n
+                        <lb/>soͤllent die obgenanten von <orgName ref="org001881">Gamps</orgName>,
+                        so dick das notdurfftig ist, buwholtz <lb/>ab gelegnen enden, so das
+                        gewerchet wirt, das sy das gefüren moͤgent fuͤren. <lb/>Und so sy fuͤrent,
+                        so git inen ein <term ref="lem001743">muller</term> ze <term ref="lem001801"
+                           >essen</term>. Und wenn die muly <term ref="lem001102.06">muly<lb
+                              break="no"/>stein</term>en notdurfftig ist, so soͤllent die egenanten
+                        von <orgName ref="org001881">Gamps</orgName> die stein ne<lb break="no"/>men
+                        under dem <placeName ref="loc006199.01">Holenweg</placeName> und die da
+                        dannen zu der muly furen und <lb/>inen denn der muller zu essen geben.</seg>
+                     <term ref="key000047"/>
+                     <seg n="19"><note anchored="true">Artikel fehlt <date when="1497"
+                           >1497</date>.</note> Und die vilgeseitten von <orgName ref="org001881"
+                           >Gamps</orgName>
+                        <lb/>soͤllent zuͤ des herren der <placeName ref="loc006040"
+                           >Hohensagx</placeName> muly zemallen varen. Ob aber ein herre
+                        <lb/>vorgenant ein muller daruff hette, der inen gemeinlich oder dem
+                        merteile <lb/>under inen nit gevellig sin wolte, so sol ein egenanter herre
+                        inen ein muller <lb/>geben, der inen gevellig sye. Und ob er das nit tuͤn
+                        wolte, so moͤchtent sy <lb/>denn anderswahin ze muly varen bis inen ein
+                        herre ein muller gebe, der <lb/>inen geviele und mit dem sy besorg
+                        wërent.</seg>
+                     <seg n="20"><note anchored="true">Artikel fehlt <date when="1497"
+                           >1497</date>.</note> Wenn ouch ein muller <term ref="lem010073">eichis
+                           <lb/>buwholtz</term>es zuͤ der mu̍ly, den stempffen oder der bluweln
+                        notdurfftig ist, <lb/>so sol er zu eins vorgenanten herren <term
+                           ref="lem000043">weibel</term> gän, das der im ein oder zwen <lb/>zuͤ gebe
+                        und denn mit dem oder den selben uff die gutter gan und solich buw<lb
+                           break="no"/>holtz, so ungevarlichest er kan, howen und im das von nieman
+                        also gewert <lb/>werden.</seg>
+                     <term ref="key000047"/>
+                     <term ref="key000524"/>
+                     <seg><head resp="SM">Hoheitsrechte, Herrschaftsgrenzen, Nutzungen und Güter der
+                              Herrschaft<note anchored="true">Die folgenden Artikel 24 bis 46 werden
+                                 <date when="1497">1497</date> nur summarisch unter Artikel 2.1 und
+                              2.2 aufgeführt: Viele Hoheitsrechte, Nutzungen und Gerechtigkeiten der
+                              Herrschaft waren von der Gemeinde Gams abgelöst worden und sind 1497
+                              im Besitz der Gemeinde.</note></head></seg>
+                     <seg n="21">So hät ein <damage agent="fold"><supplied
+                              source="LAGL AG III.25, Mappe Weesen, 13.09.1468, S. 8">her
+                              zuͦ Hochensax</supplied></damage> von der selben herschafft wegen
+                           <lb/><term ref="lem000975">hohe</term> und <term ref="lem001444">kleine
+                           gericht</term>, twing <damage agent="fold"><supplied
+                              source="LAGL AG III.25, Mappe Weesen, 13.09.1468, S. 8">und
+                              bäner</supplied></damage>, <term ref="lem000461">wildpann</term>,
+                           <term ref="lem001551">vederspil</term> und <lb/><term ref="lem000030"
+                           >vischentzen</term> und gand die selben <term ref="lem000431"
+                           >gerichte</term>, als die vor zitten gezöiget und uss <lb/>einem <term
+                           ref="lem001761">urberbuch</term> ze <placeName ref="loc000061"
+                           >Veldkirch</placeName> genomen sind, wie hienach geschriben stät <lb/>und
+                        das also ist:</seg>
+                     <term ref="key004417"/>
+                     <seg n="22"><note anchored="true">Entspricht <date when="1497">1497</date>,
+                           Artikel 1.2.1.</note> An die <placeName ref="loc006227.02">Zapffenden
+                           Muly</placeName> usswert gen <placeName ref="loc000335">Graps</placeName>
+                        untzit <lb/>an den hag ob <placeName ref="loc006200.02">Ruffers</placeName>
+                        enhalb des pfaffen zu <placeName ref="loc000211">Gamps</placeName> wisen und
+                        <lb/>abwertz untzit an den <placeName ref="loc006201.02"
+                           >Zoͤlbach</placeName> under <placeName ref="loc006202.02"
+                           >Varnen</placeName> und dannenthin hin ab <lb/>untzit in die <placeName
+                           ref="loc006153.02">Argen</placeName>. Und von <placeName
+                           ref="loc006202.02">Varnen</placeName> hinuff untzit in <placeName
+                           ref="loc006203.02">Guller Tobel</placeName>
+                        <lb/>und von <placeName ref="loc006203.02">Guller Tobel</placeName> hinuß in
+                        das <placeName ref="loc006204.02">Wurtzwal</placeName> hinder das <term
+                           ref="lem000376">schloß</term>
+                        <lb/><placeName ref="loc000185">Hohensagx</placeName>. Und da dannenthin die
+                           <placeName ref="loc006205.01">Egg</placeName> uff in den <term
+                           ref="lem000573">berg</term>.</seg>
+                     <seg n="23"><note anchored="true">Entspricht <date when="1497">1497</date>,
+                           Artikel 1.2.2, jedoch ohne Kirchensatz. Dieser ist in Artikel 1.3
+                           aufgeführt.</note> So <lb/>sye der <term ref="lem000458.03"
+                           >kilchensatz</term> zu <placeName ref="loc000211">Gamps</placeName> mit
+                        aller zugehorde eins herren der <placeName ref="loc006040">Hohen<lb break="no"/>sagx</placeName> und gang das <term ref="lem000299"
+                           >kilchspel</term> in <placeName ref="loc000778.02">Sant
+                           Johannertal</placeName> untzit gen <placeName ref="loc006206.02">Under<lb
+                              break="no"/>wasser</placeName> usswertz gen <placeName ref="loc000335"
+                           >Graps</placeName> und abwertz an <persName ref="per004641">Wilhelms von
+                           Sagx</persName> wyer <lb/>in <placeName ref="loc006207.02"
+                           >Schortten</placeName>.</seg>
+                     <term ref="key000040"/>
+                     <term ref="key000637"/>
+                     <seg n="24">So sye der <term ref="lem000164">wingart</term> under der <term
+                           ref="lem000039">burg</term> ze <placeName ref="loc000185"
+                           >Hohensagx</placeName> eins <lb/>herren daselbs, ouch sye <placeName
+                           ref="loc006226.02">Galletschen</placeName>, die <placeName
+                           ref="loc006234.02">Bannstuden</placeName>, eins herren der
+                           <lb/><placeName ref="loc006040">Hohensagx</placeName>, daruss <term
+                           ref="lem002451">stickel</term> in die <term ref="lem004267.01"
+                           >reben</term> howen zelassent.</seg>
+                     <term ref="key000003"/>
+                     <seg n="25">So sye die <lb/>obgenant muly, bluweln und stempff zuͤ <placeName
+                           ref="loc000211">Gamps</placeName> eins herren der <lb/><placeName
+                           ref="loc006040">Hohensagx</placeName> und hab gewonlichen <term
+                           ref="lem000340">gult</term>en, so die verlihen sye, <measure
+                           type="currency" unit="lb" quantity="16">sechstzehen <pb n="5"
+                              facs="OGA_Gams_Nr._1_S5"/>
+                           <lb/>pfund pfenning.</measure>
+                     </seg>
+                     <term ref="key000047"/>
+                     <seg n="26">Die <term ref="lem000068">taffern</term> zuͤ <placeName
+                           ref="loc000211">Gamps</placeName> sye ouch eins herren vorgenant und
+                        gelte <lb/><date dur="R/P1Y">jerlich</date>en <measure type="currency"
+                           unit="lb" quantity="3">dru pfund pfenning.</measure>
+                     </seg>
+                     <term ref="key000758"/>
+                     <seg n="27">Die <term ref="lem008043.02">meder</term>, genant der <placeName
+                           ref="loc006208.02">Herren Wis</placeName>, mit aller <lb/>zuͤgehoͤrd
+                        syent ouch eins herren der <placeName ref="loc006040">Hohensagx</placeName>
+                        und geltint gewonlichen <lb/>by <measure type="currency" unit="lb"
+                           quantity="8">acht pfund pfenningen</measure> und werdint geschëtzt fur
+                           <measure type="area" unit="Mannmad" quantity="31">drissig und ein mann<lb
+                              break="no"/>madt.</measure>
+                     </seg>
+                     <seg n="28"><note anchored="true">Entspricht <date when="1497">1497</date>,
+                           Artikel 4.2, jedoch ohne die Angaben zum Lohn des Weibels.</note> Und
+                        wenn ein herre der <placeName ref="loc006040">Hohensagx</placeName> eins
+                           <term ref="lem000043">weibel</term>s notdurfftig sye, <lb/>so slachint im
+                        die, so zu der herrschafft gehorint, dry fur und gevelt im dero <lb/>einer,
+                        so mag er inn nemen. Ob im aber dero deheiner geviele, so sol ein herre
+                        <lb/>inen dry furschlachen und der dryen einen soͤllent sy zuͤ einem weibel
+                        nemen. <lb/>Und sye des weibels <term ref="lem000282">lon</term>e die zwey
+                        stuckly wisen uff <placeName ref="loc006209.02">Gamschuͤl</placeName>
+                        gelegen, <lb/><measure type="currency" unit="lb" quantity="1">ein pfund
+                           pfenning</measure> uss der obgenanten sture und pfand gelt. Und gebe
+                        keinen <lb/><term ref="lem002088">kalb</term>er noch <term ref="lem004429"
+                           >lamb</term>er <term ref="lem000073">zend</term>en und kein <term
+                           ref="lem000380">vaßnachthuͤn</term>. Und sye ein weibel <lb/>schuldig,
+                        einem herren der <placeName ref="loc006040">Hohensagx</placeName>
+                        inzeziechent die stüre und ander <lb/>sin zinße, ussgenomen den <term
+                           ref="lem001213">kornzechend</term>en und das ze <placeName
+                           ref="loc000211">Gamps</placeName> ze weren. <lb/>Und ob er von fuͤren
+                        utzit gebe, das im das von einem herren wider geben <lb/>werden
+                        soͤlte.</seg>
+                     <term ref="key000547"/>
+                     <term ref="key000212"/>
+                     <term ref="key000555"/>
+                     <!-- Weibel Lohn Wahl -->
+                     <seg n="29">So sye der <term ref="lem000169">hoff</term> ze <placeName
+                           ref="loc006210.02">Gullen</placeName> eins herren der Hohensagx und gelte
+                        <lb/>jërlichen <measure quantity="3" unit="Scheffel" commodity="wheat"
+                           origin="Werdenberg">dry scheffel weissens</measure> Werdenberger messes
+                        und <measure type="currency" quantity="8" unit="ß">acht schilling
+                           <lb/>pfenning.</measure>
+                     </seg>
+                     <seg n="30">Und uss dem obgenanten <term ref="lem000458">kilchensatz</term>
+                        neme ein herre der <placeName ref="loc006040">Hohen <lb break="no"
+                           />sagx</placeName> den kornzechenden, genant der <term ref="lem001217"
+                           >groß zechend</term>, ussgenomen die <term ref="lem005192.03"
+                           >widmen</term>
+                        <lb/>zechenden näm ein <term ref="lem000678">lutpriester</term> zuͤ
+                           <placeName ref="loc000211">Gamps</placeName>.</seg>
+                     <term ref="key000040"/>
+                     <seg n="31">Ouch so nême ein herre da<lb break="no"/>selbs den lamber und <term
+                           ref="lem003441.09">kitzy</term>
+                        <term ref="lem000073">zechend</term>en <date dur="R/P1Y">jerlich</date>en
+                        uff <date when="--04-25" type="deadline">sant <persName ref="per000270"
+                              >Joͤrg</persName>en</date><note anchored="true">Zur Datierung des
+                           Georgtages im Bistum <placeName ref="loc000021">Chur</placeName> vgl. die
+                           Fussnote in <ref>SSRQ_SG_III_4_250</ref>.</note> tag und <lb/>von
+                        jegklichem kalb <measure quantity="1" commodity="lard" unit="Mass">ein mäss
+                           smaltze</measure> uff <date type="deadline" when="--11-11">sant <persName
+                              ref="per000141">Marti</persName>s</date> tag.</seg>
+                     <term ref="key000049"/>
+                     <seg n="32">So <lb/>habe ein herre der <placeName ref="loc006040"
+                           >Hohensagx</placeName> uff <damage agent="fold"><supplied
+                              source="LAGL AG III.25, Mappe Weesen, 13.09.1468, S. 9"
+                              >Cuͦntzly</supplied></damage>
+                        <persName ref="per004685a">Scherer</persName>s seligen veld under der
+                        <lb/>vesty <placeName ref="loc000185">Hohensagx</placeName> gelegen <measure
+                           commodity="wheat" quantity="1" unit="Scheffel">ein schöffel
+                           weissen</measure>
+                        <date dur="R/P1Y">jerlich</date>s zinßes.</seg>
+                     <term ref="key000154"/>
+                     <seg n="33">Ouch <lb/>habe ein vorgenanter herre <measure commodity="wheat"
+                           quantity="1" unit="Scheffel">ein schoffel weissen</measure>
+                        <date dur="R/P1Y">jerlich</date>s zinß uff des <lb/><placeName
+                           ref="loc006225.02">Scherli</placeName>s und <placeName ref="loc006158.03"
+                           >Kamrers Gut</placeName> under der <placeName ref="loc000185"
+                           >Hohensagx</placeName> gelegen.</seg>
+                     <seg n="34">So syent <lb/>die gutly ob der <placeName ref="loc000185"
+                           >Hohensagx</placeName> gelegen eins herren. </seg>
+                     <seg n="35">So hab ein herre vorge<lb break="no"/>seit <measure type="currency"
+                           unit="lb" quantity="2">zwey pfund pfenning</measure>
+                        <date dur="R/P1Y">jerlich</date>s zinßes uff dem hoff zuͤ <placeName
+                           ref="loc006211.02">Cristallen</placeName>.</seg>
+                     <seg n="36">Ouch <lb/>so hab ein vorgenanter herre <measure commodity="lard"
+                           unit="Viertel" quantity="1">ein fiertel schmaltzes</measure>
+                        <date dur="R/P1Y">jerlich</date>s zinßes uff <lb/>dem hoff <placeName
+                           ref="loc006228.02">Undrem Stein</placeName>.</seg>
+                     <seg n="37"><measure type="currency" unit="lb" quantity="4">Vier pfund pfening, </measure>
+                        <measure unit="ß" quantity="16">sechstzechen schilling pfening</measure>,
+                        <lb/>zwey <term ref="lem000055">schaff</term>, zwey <term ref="lem002088"
+                           >kelber</term>, hundert <term ref="lem000118">eyer</term> und sechs <term
+                           ref="lem003226">zinßhuner</term>
+                        <lb/>geltint einem vorgenanten herren die vier hoff ze <placeName
+                           ref="loc006212.01">Hardegg</placeName> und syent <lb/>dartzu von der
+                        herrschafft <placeName ref="loc006040">Hohensagx</placeName>
+                        <term ref="lem002673">manlehen</term>.</seg>
+                     <seg n="38"><measure type="currency" unit="ß" quantity="10">Zechen schilling
+                           pfenning, </measure>
+                        <lb/><measure commodity="lard" unit="Mass" quantity="20">zwentzig mäss
+                           smaltzes</measure>, sechstzig eyer, zwey zinßhüner, <lb/>alles <date
+                           dur="R/P1Y">jerlich</date>s zinßes, hab ein obgenanter herre uff dem hoff
+                        zu <placeName ref="loc006213.02">Swäb<lb break="no"/>hutten</placeName>,
+                           <measure commodity="oat" quantity="15" unit="Scheffel">funffzehen
+                           schoffel futter habers</measure> uff hoffen und güttern, wie <lb/>das der
+                           <term ref="lem000032">rodel</term>, so darumb sye, wise und zeige. Habe
+                        da ouch ein herre vor<lb break="no"/>genant sechstzechen <term
+                           ref="lem013996.02">teilkäß</term> und von jegklicher <term
+                           ref="lem014001.01">beilen</term> ein <term ref="lem014004.02"
+                           >löbkäß</term>
+                        <lb/>und von jettwederm gaden ein mal <term ref="lem000208"
+                        >schmaltz</term>es und <term ref="lem000139">ziger</term>, habe ein herre
+                        <lb/>der Hohensagx <date dur="R/P1Y">jerlich</date>en von der alpp im
+                           <placeName ref="loc006138.02">Taͤsell</placeName>.</seg>
+                     <term ref="key000126"/>
+                     <term ref="key000120"/>
+                     <seg n="39">Zehen <term ref="lem014006.02">zinßkaͤß</term> und <lb/>von je zwey
+                           <term ref="lem014001.01">beilen</term> ein zinßkeß und dry zinßkäß uff
+                           <placeName ref="loc006214.02">Gadel</placeName> und ein mal <pb n="6"
+                           facs="OGA_Gams_Nr._1_S6"/>
+                        <lb/>von jegklichem <term ref="lem003922">gaden</term>.</seg>
+                     <seg n="40">
+                        <lb/>Schmaltz und ziger habe ein herr der <placeName ref="loc006040"
+                           >Hohensagx</placeName> von der <lb/><term ref="lem000306">alpp</term>
+                        <placeName ref="loc006215.02">Gempelen</placeName>. Und wenn solich zinße
+                        gereichet werdint, so soͤlle ein vorge<lb break="no"/>nanter herre zuͤ
+                        jegklicher alpp <measure type="currency" unit="ß" quantity="3">dry schilling
+                           pfening</measure> wert <term ref="lem000847">brot</term>z schicken.</seg>
+                     <seg n="41">
+                        <lb/>So habe ein vorgenanter herre der Hohensagx zwey zinßhüner von dem
+                        <lb/>guͤt ab des <placeName ref="loc006216.02">Meyersfeld</placeName>, zwey
+                        zinßhuͤner ab der <placeName ref="loc006217.01">Matte</placeName>n, zwey
+                        zinßhuͤner <lb/>ab dem <placeName ref="loc006218.02">Byfang</placeName>,
+                        zwey zinßhuͤner ab dem <placeName ref="loc006219.02"
+                           >Wolffgartten</placeName>, ein vaßnacht hun <lb/>von jegklicher hußroicky
+                        in der herrschafft <placeName ref="loc006040">Hohensagx</placeName>, alles
+                        alle jare.</seg>
+                     <seg n="42">Und <lb/>das <term ref="lem000272">bad</term> in <placeName
+                           ref="loc006215.02">Gempelen</placeName> sye ouch eins herren der
+                           <placeName ref="loc006040">Hohensagx</placeName>.</seg>
+                     <term ref="key000153"/>
+                     <seg n="43">Ein mal schmaltz <lb/>in jegklichem gaden in <placeName
+                           ref="loc006221.02">Jorgen Swendy</placeName> habe da ein vorgenanter
+                        herre.</seg>
+                     <seg n="44">
+                        <lb/>Ein mäl schmaltz und <term ref="lem000032">kaͤs</term> von jegklichem
+                        gaden in <placeName ref="loc006222.02">Oberswendy</placeName> habe <lb/>da
+                        ein egenanter herre <date dur="R/P1Y">jerlich</date>en.</seg>
+                     <seg n="45">Ein mäl schmaltz und käß von jegklich<lb break="no"/>em gaden uff
+                        den <placeName ref="loc006223.01">Hegen</placeName>, das davon ein herre
+                        vorgenant <date dur="R/P1Y">jerlich</date>en hab.</seg>
+                     <seg n="46">
+                        <lb/>Und ein mal schmaltz und kaß habe ein vorgenanter herre jêrlichen
+                        <lb/>von jegklichem gaden ab <placeName ref="loc006224.02">Martis
+                           Schwend</placeName>en.</seg>
+                     <seg><head resp="SM"><term ref="key000179">Eide</term> der <term
+                              ref="key000594">Untertanen</term> und <term ref="key000065"
+                              >Amtleute</term><note anchored="true">Vgl. dazu <date when="1497"
+                                 >1497</date>, Artikel 4.1–4.5</note></head></seg>
+                     <seg n="47">So sye das der <term ref="lem000070">eid</term>e, so die <lb/>von
+                           <orgName ref="org001881">Gamps</orgName> einem herren der <placeName
+                           ref="loc006040">Hohensagx</placeName>, wenn sy im swerint, sweren
+                        <lb/>soͤllint, ein herrschafftman als ein herrschafft man, ein <term
+                           ref="lem000745.03">hindersaͤß</term> als ein <lb/>hindersaß, ein <term
+                           ref="lem000543.06">dienstman</term> als ein dienstmann, also einem herren
+                        der <placeName ref="loc006040">Hohen<lb break="no"/>sagx</placeName>
+                        gehorsam und gewërtig zesinde, im truw und warheit zehaltent, sin <lb/>nutz
+                        und ere zefurdrent und schaden zewendent. Und im von der herrschafft
+                           <lb/><placeName ref="loc006040">Hohensagx</placeName> wegen der selben
+                        herrschafft herlikeit, harkomen, gerechtikeit, <lb/>gericht, sturen und
+                        nutzungen <damage agent="fold"><supplied
+                              source="LAGL AG III.25, Mappe Weesen, 13.09.1468, S. 11"
+                              >hellfen</supplied></damage> zebehebent und zebehaltent. Und ob ir
+                        <lb/>deheiner by keiner zerwurfnuss <damage agent="fold"><supplied
+                              source="LAGL AG III.25, Mappe Weesen, 13.09.1468, S. 11"
+                              >werre und die säche</supplied></damage> und hortte, die zestellent
+                        <lb/>und zuͤ recht in trostung zenemen. Und was sy dero in trostung
+                        genement, <lb/>die irem obgenanten herren der <placeName ref="loc006040"
+                           >Hohensagx</placeName> oder sinen <term ref="lem000089">amptlutt</term>en
+                        fur ze <lb/>bringent, das recht darinne wissen moͤgen zebruchen. Und ob ir
+                        deheiner, <lb/>die nit also gestellen moͤchte, das wie vor furzebringen, das
+                        ein herr oder <lb/>sin amptlutte das tugint und zetuͤnde wissint, alles so
+                        ferr sy das vermug<lb break="no"/>ent und getruwlich und ungevarlich. </seg>
+                     <seg n="48">So soͤlle eins <term ref="lem000006">amman</term>s oder <term
+                           ref="lem000043">weibel</term>s <lb/>ald <term ref="lem000342"
+                           >richter</term>s ze <placeName ref="loc000211">Gamps</placeName> eide,
+                        den er sweret, also wesen ein gemeiner glicher <lb/>richter und amptmann
+                        zesinde, dem armen als dem richen und dem richen <lb/>als dem armen, niemant
+                        zuͤ lieb noch zuͤ leid und einem herren der <placeName ref="loc006040"
+                              >Hohen<lb break="no"/>sagx</placeName>, der selben herrschafft
+                        herlikeitten, gerichte, sturen und nutzungen, <lb/>so dartzu gehoͤrent,
+                        helffen zebehebent und zebehaltent. Und ob das <lb/>jemant der vorgenanten
+                        herrschafft <placeName ref="loc006040">Hochensagx</placeName> abbrechen
+                        woͤlte, <lb/>sinem herren der jetzgenanten herrschafft das furzebringint und
+                        by <lb/>was <term ref="lem002966">zerwurffnussen</term> er sye oder die im
+                        furbracht werdint, die zu stellent <lb/>und die sinem herren ze <term
+                           ref="lem000829">leidint</term> und furzubringint und sines herren nutze
+                        <lb/>und ere zefurdren und schaden zewenden, alles so ferr er kan und mag,
+                        <lb/>getrulich und ungevarlich.</seg>
+                     <term ref="key000179"/>
+                     <term ref="key000029"/>
+                     <term ref="key000103"/>
+                     <term ref="key000547"/>
+                     <seg><head resp="SM"><term ref="key000212">Lohn</term> des <term
+                              ref="key003498">Müllers</term><note anchored="true">Beide Artikel
+                              fehlen <date when="1497">1497</date>.</note></head></seg>
+                     <seg n="49">So soͤllint die vorgenanten von <orgName ref="org001881"
+                           >Gamps</orgName>
+                        <lb/>einem <term ref="lem001743">muller</term> von einem scheffel guͤtz
+                        zemalen zwey <choice>
+                           <sic>ume</sic>
+                           <corr><term ref="lem014691">immi</term></corr>
+                        </choice><note anchored="true">In der Kopie LAGL AG III.25,  Mappe
+                           Weesen, 13.09.1468, S. 12 heisst es <orig>ime</orig>.</note> geben und
+                           <pb n="7" facs="OGA_Gams_Nr._1_S7"/>
+                        <lb/>von me oder minder nach anzal ungevarlich.</seg>
+                     <seg n="50">Und von einer bluwy <term ref="lem002792.02">hanff</term>e soͤllent
+                        <lb/>sy ouch dem muller geben <measure quantity="2" type="currency" unit="d"
+                           >zwen pfenning</measure> oder hanff dafur weders der welle, <lb/>des der
+                        hanff sye.</seg>
+                     <term ref="key000047"/>
+                     <term ref="key003437"/>
+                     <!-- Mühle Hanf -->
+                     <seg><head resp="SM"><term ref="key000057">Gericht</term>, Richterwahl,
+                           Richtereid und <term ref="key000287">Appellation</term><note
+                              anchored="true"><date when="1497">1497</date>, Artikel 4.5 enthält nur
+                              die Richterwahl der 12 Richter.</note></head></seg>
+                     <term ref="key000179"/>
+                     <term ref="key000103"/>
+                     <term ref="key000555"/>
+                     <term ref="key001042"/>
+                     <seg n="51">Und zuͤ den zwey <term ref="lem008124">järgerichten</term> zü <term
+                           ref="lem001329">mey</term>en und zü <term ref="lem000479">herpst</term>,
+                        so <lb/>soͤlle ein herr der <placeName ref="loc006040">Hohensagx</placeName>
+                        sinem weibel und den geswornen richtern des <lb/>tags zwey mäl geben, ob sy
+                        in der früge koment, das sy dero notdurfftig syen. <lb/>Und wer da zwuschent
+                        gericht haben woͤlle, das der das in sinem costen tuͤn <lb/>soͤlle, er sye
+                           <term ref="lem006564">gast</term> oder <term ref="lem007652.08"
+                           >bysaͤss</term>e. So nemint ein herre der <placeName ref="loc006040"
+                           >Hohensagx</placeName> oder sin <term ref="lem000006">ammann</term>
+                        <lb/>und die, so in der selben herrschafft sitzent, zwoͤlff <term
+                           ref="lem000342">richter</term>, die sy dartzuͤ nutze <lb/>und guͤtte sin
+                        beduncken, die denn also sweren soͤllint, glich und gemein <lb/>richter
+                        zesinde, dem armen als dem richen und dem richen als dem armen <lb/>und dem
+                        froͤmden als dem heimschen, niemant zuͤ lieb noch zu leid. Und nach
+                        <lb/>clagen und antwürtten, so vor inen beschechent und getän werdent, ze
+                        urtailent <lb/>und zesprechent, das sy recht duncke, so ferr si sich des
+                        verstandint, one alle <lb/>gevërde. Und die <term ref="lem002991">minder
+                           urteile</term>, die dry hab, die dero gevolget habint, <lb/>die moͤge
+                        gezogen werden fur den richter, der denn die fur ein herren der <placeName
+                           ref="loc006040">Hoh<lb break="no"/>ensagx</placeName> bringen soͤlle, des
+                        rätt zehabent, wedre urteile die gerechter sye und <lb/>welche sy denn fur
+                        die gerechtern gebent, es sye die mer oder minder, das öch <lb/>denn dero
+                        nachgegangen werde soͤlle. Es moͤchte ouch so ein cleine sach sin, <lb/>der
+                        richter hette die urteilen selbs ze entscheident und eintwedrer
+                        zegehellent.</seg>
+                     <seg><head resp="SM"><term ref="key000241">Siegel</term></head></seg>
+                     <seg n="52"><note anchored="true">Vgl. dazu <date when="1497">1497</date>,
+                           Artikel 5, in welchem dem Ammann ein eigenes Siegel erlaubt wird. Ihm
+                           kommen auch die Einnahmen aus den amtlichen Siegelungen zu.</note>
+                        <lb/>Und das die <term ref="lem000973">brieff</term>e, so in der herschafft
+                           <placeName ref="loc006040">Hohensagx</placeName> zemachent syen, under
+                        <lb/>eines herren der Hohensagx insigel <damage agent="fold"><supplied
+                              source="LAGL AG III.25, Mappe Weesen, 13.09.1468, S. 13">die
+                              zuͦ besiglen</supplied></damage> gestelt werden soͤllint, und <lb/>er
+                        von einem <term ref="lem002109">sigel</term> zesigeln <measure unit="ß"
+                           quantity="1">ein schilling pfenning</measure> nemen soͤlle.</seg>
+                     <seg>Und von <lb/>der obgenanten von <orgName ref="org001881">Gamps</orgName>
+                        wegen und in irem namen sind hieby gewesen <lb/><persName ref="per004686a"
+                           >Uͤly Spauvald</persName>, der alt, <persName ref="per004615a">Uͤlrich
+                           Schoͤb</persName>, ammann zuͤ <placeName ref="loc000211"
+                           >Gamps</placeName>, <persName ref="per000887a">Heinrich
+                        Schoͤb</persName>, <lb/>sin bruͤder, <persName ref="per004687a">Uͤlrich
+                           Keiser</persName>, <persName ref="per004688">Uͤlrich Hager</persName>,
+                           <persName ref="per000889a">Uͤlrich Enderly</persName>, <persName
+                           ref="per004689a">Cuͤnrade Eich<lb break="no"/>horn</persName>, <persName
+                           ref="per004690a">Bentz Wesener</persName> und <persName ref="per004691a"
+                           >Hanns Bomgartter</persName>.</seg>
+                     <seg>Und zuͤ warem, ve<lb break="no"/>stem urkunde, das dem allem also, wie vor
+                        von einem an das ander geschrib<lb break="no"/>en stat, moͤge und konne
+                        nachgegangen werden und gnuͤg beschechen, so <lb/>haben wir das uff <term
+                           ref="lem000585">berment</term> in <term ref="lem001759">buͤch</term>ß wiß
+                        schriben und ein <term ref="lem001650.02">schnuͤr</term> dar<lb break="no"
+                        />durch ziechen und unser statt secret insigel an diser brieffen, zwen ge<lb
+                           break="no"/>lich, daran hencken lassen und jettwederm teile obgenant des
+                        einen geben. <lb/>Und ist das beschechen <origDate when="1468-09-13">uff des
+                           heiligen crutzes abent zuͤ herpst, als <lb/>man zalt nach <persName
+                              ref="per000353">Cristi</persName>, unsers lieben herren, gepurt tusent
+                           vierhundert <lb/>sechstzig und acht järe.</origDate>
+                     </seg>
+                     <lb/><add place="below" hand="hand19c">Eingesehen vom <choice>
+                           <abbr>Bez.gericht</abbr>
+                           <expan>Bezirksgericht</expan>
+                        </choice>
+                        <lb/><placeName ref="loc000962">Werdenberg</placeName>, d. <date
+                           when="1845-02-06">6. <choice>
+                              <abbr>Fbr</abbr>
+                              <expan>Februar</expan>
+                           </choice> 1845</date>, <lb/>Hilty, <choice>
+                           <abbr>Prsdt</abbr>
+                           <expan>Präsident.</expan>
+                        </choice>
+                        <lb/>Vor <choice>
+                           <abbr>Kt. gericht</abbr>
+                           <expan>Kantonsgericht</expan>
+                        </choice>, am <date when="1846-07-03">3. Juli 1846</date>, <lb/><persName
+                           ref="per008590a">C. Seyler</persName>, <choice>
+                           <abbr>mmp</abbr>
+                           <expan>manu propria</expan>
+                        </choice>.</add>
+                  </p>
+               </div>
+               <pb facs="OGA_Gams_Nr._1_v"/>
+               <div org="uniform" sample="complete">
+                  <ab type="dorsal" place="verso" hand="hand19c"><lb/>Nro. 1, <damage agent="faded ink"
+                           ><unclear>Auslösungs</unclear></damage>
+                     <lb break="no"/>urkunde </ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab type="dorsal" place="verso" hand="hand20c"><lb/>Auslösungsurkunde <lb/>von
+                     freiherrschaftlichen Nutzungen <lb/>u. Gerechtigkeiten <lb/>der Herrschaft
+                        <placeName ref="loc006040">Hohen Sax
+                     <lb/>u. Gambs</placeName>
+                  </ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab place="verso" type="archiving reference">No I <del>No 3; No 5</del></ab>
+               </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div n="1" org="uniform" sample="complete">
+            <p>Der <term ref="key001117">Schiedsspruch</term> von <orgName ref="org001217"
+                  >Bürgermeister und Rat von Zürich</orgName> um die <term ref="key000157"
+                  >Steuer</term>n von <placeName ref="loc000211">Gams</placeName> ist nicht nur ein
+               Schiedsspruch, sondern auch ein <term ref="key000122">Urbar</term> der Herrschaft
+                  <placeName ref="loc006040">Hohensax-Gams</placeName>. Es handelt sich hier um eine
+               zentrale Rechtsquelle dieser Herrschaft: <term ref="key003737"
+                  >Herrschaftsrechte</term>, <term ref="key004417">Hochgerichtsgrenze</term>, <term
+                  ref="key000588">Gerichtsordnung</term> und <term ref="key003037"
+               >-verfahren</term>, <term ref="key000586">Strafrecht</term>, die <term
+                  ref="key000005">Rechte</term> und <term ref="key003217">Freiheiten</term> der
+               Gamser, die <term ref="key000179">Eid</term>e der <term ref="key000594"
+                  >Untertanen</term> und <term ref="key000065">Amtleute</term> sowie die
+               herrschaftlichen <term ref="key004483">Erträge</term> werden in 52 Artikeln
+               festgelegt und aufgeführt. In späteren Quellen wird deshalb der Schiedsspruch auch
+               Urbar genannt: <orig>nach uswisung eis urbers von den obgedächten unsren herren,
+                  burgermeister und rät der stat Zu̍rich, versiglet usgangen, des datum wißt uff des
+                  heilgen cru̍tz äbend ze herpst, als man zalt nach Cristi, unsers lieben herren,
+                  gepurt tusent vierhundert sechtzig und acht jare</orig> (vgl.
+                  <ref>SSRQ_SG_III_4_094</ref>). Auslöser zur <term ref="key000470"
+                  >Verschriftlichung</term> dieses Urbars ist die Weigerung von Gams, die 80 Pfund
+               Steuern ihrem Herrn, <persName ref="per004609">Andreas Roll von
+               Bonstetten</persName>, zu bezahlen. Die 80 Pfund hatte <date when="1396">1396</date>
+               Herzog <persName ref="per000387">Leopold IV. von Habsburg-Österreich</persName> dem
+                  <persName ref="per004528">Ulrich Eberhard II. von Sax-Hohensax</persName>
+               verpfändet. Bereits <date when="1458">1458</date> war es wegen dieser Verpfändung
+               zwischen Habsburg-Österreich und Sax-Hohensax zum Streit gekommen (vgl. dazu den
+               Kommentar in <ref>SSRQ_SG_III_4_019</ref>). Andreas Roll von Bonstetten als
+                  <term ref="key003212">Pfandinhaber</term> der Herrschaft vermeint nun, dass die 80
+               Pfund laut <term ref="key000407">Gantbrief</term> ihm zustehen und fordert diese
+               Summe an Gams. Gams hat jedoch nicht nur die Zahlung der 80 Pfund, sondern auch den
+               Eid auf die Rechte ihres Herrn von Bonstetten in der Herrschaft verweigert. Deshalb
+               werden diese Rechte hier festgehalten und die Gamser angewiesen, ihrem Herrn bei
+               Androhung einer Strafe den Huldigungseid zu schwören. Der Schiedsspruch von Zürich
+               ist deshalb weniger wegen des Streits um die Steuern, sondern vielmehr wegen der
+               Rechte und <term ref="key000341">Ordnungen</term> interessant, die hier wegen der
+               Eidverweigerung verschriftlicht und von Zürich besiegelt werden.</p>
+            <p>Die Vereinbarung von <date when="1497">1497</date> zwischen Gams und den beiden Orten
+            <orgName ref="org001191">Schwyz</orgName> und <orgName ref="org001197">Glarus</orgName>
+          (Urbar und Freiheitsbrief) beruht inhaltlich auf dem hier vorliegenden Schiedsspruch bzw.
+          Urbar (<ref>SSRQ_SG_III_4_094</ref>). In Anmerkungen wird hier im Text  auf die
+          einzelnen Artikel verwiesen. Spätere Quellen zum gerichtlichen Verfahren, zur Verfassung
+          oder zum Strafrecht fehlen gänzlich. Auch ein herrschaftliches Urbar, das die
+          Hoheitsrechte und Einnahmen der Herrschaft enthält, fehlt. Zum <term ref="key000044">Hochgericht</term> in Gams vgl. <ref>SSRQ_SG_III_4_225</ref>.</p>
+         </div>
+         <div n="2" org="uniform" sample="complete">
+            <p>Erstmals werden hier die <term ref="key000305">Grenzen</term> sowohl der Herrschaft
+               Hohensax-Gams als auch des Kirchspiels <placeName ref="loc006122">Gams</placeName>
+               beschrieben. Die Grenzen werden <orig>uss einem <term ref="lem001761"
+                     >urberbuch</term> ze <placeName ref="loc000061">Veldkirch</placeName>
+                  genomen</orig>. Auf welches Urbar hier Bezug genommen wird, ist unklar. Es muss
+               sich um ein herrschaftliches Urbar der <orgName ref="org000384">Hohensaxer</orgName>
+               handeln, das beim Verkauf der Herrschaft <date when="1393">1393</date> (<bibl><ref
+                  target="http://permalink.snl.ch/bib/chbsg000056393">ChSG</ref>, <ref target="http://monasterium.net/mom/CSGXI/6616./charter">Bd. 11, Nr.
+                  6616</ref></bibl>) an <orgName ref="org000088">Habsburg-Österreich</orgName>
+               überging oder das von Letzteren selbst erstellt und zu jener Zeit in Feldkirch
+               verwahrt wurde (so lässt zum Beispiel <persName ref="per000429a">Graf Rudolf II. von
+                  Werdenberg-Heiligenberg</persName> eine Urkunde von <date when="1413">1413</date>
+               in Feldkirch aufbewahren, <ref>SSRQ_SG_III_4_032</ref>). Zu den
+               Herrschaftsgrenzen vgl. auch <ref>SSRQ_SG_III_4_089</ref>;
+                  <ref>SSRQ_SG_III_4_091</ref>; <ref>SSRQ_SG_III_4_107</ref>. </p>
+         </div>
+      </back>
+   </text>
+</TEI>

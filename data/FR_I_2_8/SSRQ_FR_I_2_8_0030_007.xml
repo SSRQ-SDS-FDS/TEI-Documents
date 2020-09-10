@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+
+			</titleStmt>
+
+			<publicationStmt>
+				<date type="electronic" when="2019-03-20"/>
+				<date type="print"/>
+			</publicationStmt>
+
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ_FR_I_2_8_0030_007</idno>
+			</seriesStmt>
+
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<idno>StAFR, Thurnrodel 10, S. 251–252</idno>
+					</msIdentifier>
+					<head>Jenon Jorand – Verhör / Interrogatoire</head>
+					<msContents>
+						<summary></summary> 
+						<msItem>
+							<textLang>fr, de</textLang> 
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support>
+									<material></material>
+								</support>
+								<extent>
+									<dimensions type="leaves">
+										<height unit="cm" quantity="0.0"/>
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+									<dimensions type="plica">
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+								</extent>
+							</supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1610-09-30"></origDate>
+							<origPlace></origPlace>
+						</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+							
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc> 
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+			<particDesc default="false"/>
+			<settingDesc default="false"/>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+					
+						<pb n="251"/><p><lb/>Im <placeName ref="loc007594">Rosey</placeName>, den <origDate when="1610-09-30">30 herbstmonats 1610</origDate>
+							<seg><lb/><foreign xml:lang="la">Judex</foreign> herr <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per009136">Umbert Brassa</persName>.</note></seg>
+							<seg><lb/><foreign xml:lang="la">Presentes</foreign> <abbr>h</abbr> <persName ref="per009101">Keller</persName>, <persName ref="per009141">Meyer</persName></seg>
+							<seg><lb/><persName ref="per009107">Thorman</persName>, <persName ref="per009212">Spreng</persName></seg>
+							<seg><lb/><persName ref="per009103"><choice><abbr>Melch</abbr><expan>Melchior</expan></choice> Zum Holtz</persName>, <persName ref="per009106">Tumbe</persName>, <persName ref="per006839"><choice><abbr>H Ja</abbr><expan>Hans Jacob</expan></choice> Lary</persName></seg> 
+						<seg><lb/>Weybel</seg></p>
+						
+						<p><seg><lb/><add place="left margin"><foreign xml:lang="la"><choice><abbr>ßt</abbr><expan>Solvit</expan></choice></foreign> <measure type="currency" quantity="3" unit="lb">3  </measure>.</add></seg> 
+							<seg>Estant <persName ref="per009217">Jenon</persName> <sic>feme</sic> du susdit <persName ref="per009214">Nicoud Joran</persName> <term ref="lem018774.04">admonesté</term> 
+						<lb/>de dire l’occasion de son emprisonement, auroit 
+						<lb/>respondu ne le sçavoir, mesme n’auroit voulluz 
+						<lb/>confesser aulcun des articles ou interrogatz 
+						<lb/> a elle faictes et exhibeees, se reputant 
+						<lb/>toutte innocente de tant d’accusations contre 
+						<lb/>elle pretendues.</seg> <seg>Car non obstant <persName>Claude 
+						<lb/>Grolley</persName>, granger du <choice><abbr>s<hi rend="sup">r</hi></abbr><expan>seigneur</expan></choice> <choice><abbr>challain</abbr><expan>chatellain</expan></choice> <persName>Charray</persName>, l’auroit 
+						<lb/>nomee <term ref="lem014908.06">vauldaise</term>, si est ce que toutefois il <subst><del>auroit</del><add place="above">lui</add></subst> 
+						<lb/>auroit faict tord, et que de ceci en seroit esté passé 
+						<lb/>entre eux une prononciation, ou ce que tous ces 
+						<lb/>parolles furent levés et mises soubz piedz. 
+					<pb n="252"/><lb/>Car jamais n’auroit faict murir bestes, n’en 
+						<lb/>estre la cause que quelcunes en seroint mortz, 
+						<lb/>puis que eux mesme les foulent et adonc  
+						<lb/>reputent cella aux <sic>mavaiges</sic> gens. Et seroint 
+						<lb/>aussi mortz a eux mesme des bestes.</seg> <seg>Touchant 
+						<lb/>la marque de sa fille<note>Il s’agit de <persName ref="per009215">Catherine Jorand</persName>.</note> qu’elle a sus l’espoule, 
+						<lb/>dit qu’elle l’auroit ainsin pourté sus terre, 
+						<lb/>pour avoir heu icelle prisoniere grand desir de 
+						<lb/>vin rouge.</seg> <seg>Finalement dict estre aulcun home 
+						<lb/>son maistre que Dieu, et que jamais n’auroit faict 
+						<lb/>chose digne de reprehension, et ne se constera 
+						<lb/>jamais. Aultrement seroit bien esté <term ref="lem015167.02">enproscelloir</term> 
+						<lb/>aultre part, et que si elle <subst><del>ser</del><add place="inline">sçavoit</add></subst> avoir faict 
+						<lb/>quelque mal, qu’elle le voudroit librement confesser. 
+						<lb/>Crie merci.</seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>

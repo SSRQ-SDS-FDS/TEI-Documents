@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+
+			</titleStmt>
+
+			<publicationStmt>
+				<date type="electronic" when="2019-05-29"/>
+				<date type="print"/>
+			</publicationStmt>
+
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ_FR_I_2_8_0065_020</idno>
+			</seriesStmt>
+
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<idno>StAFR, Thurnrodel 11, S. 338–339</idno>
+					</msIdentifier>
+					<head>François Franex – Verhör / Interrogatoire</head>
+					<msContents>
+						<summary></summary> 
+						<msItem>
+							<textLang>fr</textLang> 
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support>
+									<material></material>
+								</support>
+								<extent>
+									<dimensions type="leaves">
+										<height unit="cm" quantity="0.0"/>
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+									<dimensions type="plica">
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+								</extent>
+							</supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1623-09-04"></origDate>
+							<origPlace></origPlace>
+						</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+							
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		
+		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+			<particDesc default="false"/>
+			<settingDesc default="false"/>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+					<pb n="338"/><p><lb/><foreign xml:lang="la">Ibidem, presentibus quibus supra</foreign><note>Das Verhör fand im <placeName ref="loc007683">Bösen Turm</placeName> statt. </note></p>
+						
+						<p><seg><lb/><add place="left margin"><foreign xml:lang="la"><subst><del>nihil</del> <add place="inline">Solvit</add></subst></foreign> <measure type="currency" unit="lb" quantity="3">3 </measure>.</add></seg> 
+							<seg><persName ref="per009558a.02">Françoys Frané</persName> de <placeName ref="loc007931.02">Cugie</placeName> sus les interrogats 
+						<lb/>des <term ref="lem015358.05">acculpements</term> par <persName>Joanna</persName>, femme de 
+						<lb/><persName>Jaques Charvaz</persName>, respont tel <term ref="lem015358.04">acculpe</term> 
+						<lb/>estre variable, a cause que ladite <persName>Joanna</persName> 
+						<lb/>disoit l’avoir veu en plusieurs lieus de la 
+								<lb/><term ref="lem017043.01">secte</term>, comme a <placeName ref="loc008559.03">La Rapa</placeName><note>Il
+								existe de nombreux lieux-dits nommés (La ou Les) Râpe(s) dans
+								le canton de Fribourg, mais selon les autres mentions de lieux
+								faites dans le procès (<placeName ref="loc007967">Les Montets</placeName> et <placeName ref="loc007931">Cugy</placeName>), il faut privilégier la
+								provenance broyarde.</note>, a <placeName>La Pussiere</placeName> <!-- Ort -->
+							et <placeName>au 
+						<lb/>Craux</placeName><note>L’dentification du lieu est incertaine. Il existe plusieurs lieux-dits aux alentours du ruisseau du <placeName ref="loc008562">Creux des Prés</placeName>, comme le <placeName ref="loc008564">Creux des Roches</placeName> ou le <placeName ref="loc008565">Creux du Loup</placeName>. 
+							Un peu plus éloigné, mais plus proche de la Petite Glâne, il existe un lieu-dit <placeName ref="loc008566">Le Crau Renaud</placeName>.</note>, et qu’a la derniere torture 
+						<lb/>ladite <persName>Jeanna</persName> disoit l’avoir veu seulement 
+						<lb/>a <placeName ref="loc008581">La Croix</placeName> dessus <placeName ref="loc007970">Montet</placeName>. Dit aussi 
+						<lb/>que ladite <persName>Jeanna</persName>, le jour de son execution, 
+						<lb/>estoit juré, vomissant (sauf l’honneur) par 
+							<lb/>le chaimin.</seg></p>
+						
+						<p><lb/>Respond secundement sur l’<term ref="lem015358.04">acculpe</term> de <persName>Beney 
+						<lb/>Castela</persName>, et dit luy faire tort de l’avoir 
+					<pb n="339"/><lb/><term ref="lem015356.05">acculpé</term>, ce que se peut voir a ce que ledit 
+						<lb/><persName>Castela</persName> en la suitte du droit a confessé d’estre 
+						<lb/>sorcier seulement le terme de <date dur="P6Y">six ans</date>, et 
+						<lb/>nonobstant avoir <term ref="lem015356.05">acculpé</term> ceux qui sont 
+							<lb/>mort devant <date dur="P14Y">quatorze ans</date>.</p>
+						
+						<p><lb/>Et que ledit <persName>Castela</persName> au temps de la torture 
+						<lb/>l’a tenus pour homme de bien, hormis a la 
+						<lb/>derniere torture, disant avoir veu au lieu 
+						<lb/>dit <placeName ref="loc008580.03">Vieujoulx</placeName> six personnes, entre lesquels 
+						<lb/>ledit prisonier <persName ref="per009558">Frané</persName> estoit le sixiesme.</p>
+						
+						<p><lb/>A dit davantage que le <choice><abbr>chlain</abbr><expan>chatelain</expan></choice> de <placeName ref="loc007931.02">Cugie</placeName><note>Gemeint ist <persName ref="per009556">Claude Corminboeuf</persName>.</note>, 
+						<lb/>en examinant les prisoniers, faisoit des 
+						<lb/>interrogats sus beaucoup des gens de biens, 
+						<lb/>surquoy les justiciers estoent mal content 
+						<lb/>d’une telle procedure. Doncques ledit 
+						<lb/><choice><abbr>chlain</abbr><expan>chatelain</expan></choice> a ordonné une justice novelle tant 
+						<lb/>de ses parens que d’aultres de <placeName ref="loc007934.04">Mignieres</placeName>.</p>
+						
+						<p><lb/>Dit aussi d’avoir dit au predit <choice><abbr>chlain</abbr><expan>chatelain</expan></choice> qu’il 
+						<lb/>estoit <subst><del><unclear>v</unclear></del><add place="inline">un</add></subst> faulx juge, sans qu’il aye demandé 
+						<lb/>reparation d’honneur.</p>
+						
+						<p><lb/>Plus a dit que ledit <choice><abbr>chlain</abbr><expan>chatelain</expan></choice> alloit de nuit 
+						<lb/>a la prison vers <persName>Jeanna Girsiny</persName>, parlant 
+						<lb/>a ceste façon&#160;: <quote>&#160;Mechante sorciere, tu ne 
+						<lb/>veut pas <term ref="lem015356.06">acculper</term> la <persName>Colleta Frané</persName> et 
+						<lb/><persName>Jehan <del>Jehan</del> Marquet</persName>, qui sont prisoniers 
+						<lb/>a <placeName ref="loc007978.02">Treytorens</placeName>, et eux mesmes t’ont bien 
+						<lb/><term ref="lem015356.05">acculpé</term>&#160;!&#160;</quote> Et pour verifier son dire, 
+						<lb/>ledit confessant a nommé pour tesmoins <persName>Françoys 
+						<lb/>Ruly le Jeusne</persName> et <persName>Jehan Jaquot</persName> de <placeName ref="loc007934.04">Mignieres</placeName>. 
+						<lb/>Plus n’a vollu confesser.</p>	
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+
+
+
+<?oxy_options track_changes="on"?>

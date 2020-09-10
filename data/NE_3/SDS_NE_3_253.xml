@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="headerinfo"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <date type="electronic" when="2020-08-17"/>    <date type="print"/>
+    <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Collection des sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS_NE_3_253</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier>
+      <idno>AVN B 101.14.001, fol. 500r</idno>
+     </msIdentifier>
+     <head>Délai des demandes formées pour outrages</head>
+     <msContents>
+      <summary>Les requêtes soumises au tribunal pour outrages, subis par injures ou oeuvres de
+       fait, se font dans la huitaine. La partie adverse doit être notifiée dans la huitaine qui
+       suit la formulation en justice. Tant que la demande a été formée en justice dans la huitaine,
+       les demandeurs ne peuvent être forclos.</summary>
+      <msItem>
+       <textLang>français</textLang>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="33"/>
+          <width unit="cm" quantity="23.5"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <origDate when="1673-10-15" calendar="Julian"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>
+      </origin>
+     </history>
+     <additional>
+      <listBibl>
+       <head/>
+       <bibl/>
+      </listBibl>
+     </additional>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key005117"></term>
+     <term ref="key001074"></term>
+     <term ref="key003026"></term>
+     <term ref="key005277"></term>
+    </keywords>
+   </textClass>
+   <particDesc default="false"/>
+   <settingDesc default="false"/>
+  </profileDesc>
+ </teiHeader>
+ 
+ <text>
+  <group>
+   <text>
+    <body>
+        
+     
+     <pb n="500r" facs="AVN_B_101.14.001_0500r"/> 
+        
+     <div>
+      
+      <head>
+       <lb/>S’il n’est pas asses à temps de faire
+       <lb/>notifier les demandes formées pour injures,
+       <lb/>outrages &amp; debats à la contre partie dans la
+       <lb/><date dur="P8D">huictaine</date> à compter dès le jour qu’elles ont esté
+       <lb/>formées judicialement dans la <date dur="P8D">huictaine</date>.
+      </head>
+     
+      <p>
+       <lb/>Sur autre requeste du devant <lb/>nommé sieur maistre bourgeois <persName ref="per009993">Pierre
+        Trybolet</persName>, par <lb/>devant <choice>
+        <abbr>Mond.</abbr>
+        <expan>mondit</expan>
+       </choice> sieur le maistre bourgeois &amp; <orgName ref="org003085">Conseil
+        <lb/>Estroit</orgName>
+       <choice>
+        <abbr>dud.</abbr>
+        <expan>dudit</expan>
+       </choice>
+       <placeName ref="loc007786">Neufchâtel</placeName>, aux fins d’avoir le point de <lb/>coustume
+       suivant. </p>
+      
+      <p>
+       <lb/>Assavoir s’il n’est pas assés à temps de faire
+       <lb/>notifier les demandes formées pour injures, outrages
+       <lb/>et debats à la contrepartie dans la <date dur="P8D">huictaine</date>, compter
+       <lb/>dès le jour qu’elles sont esté formées judiciallement
+       <lb/>dans la <date dur="P8D">huictaine</date>.
+      </p>
+      
+      <p>
+       <lb/><orgName ref="org003085"><choice>
+         <abbr>Mesd.</abbr>
+         <expan>Mesdits</expan>
+        </choice> sieurs du Conseil</orgName> ayans eu advis &amp; meure <lb/>premeditation par
+       ensemble, <term ref="lem015635.04">baillent</term> par declaration <lb/>suivant une
+       declaration desja rendue le <date when="1615-09-27" calendar="Julian">27<hi rend="sup">e</hi>
+        jour du <lb/>mois de <choice>
+         <abbr>7bre</abbr>
+         <expan>septembre</expan>
+        </choice>
+        <hi rend="underline">1615</hi></date><note>Voir <ref>SDS_NE_3_057</ref>.</note> la coustume
+       estre telle. </p>
+      
+      <p>
+       <lb/>Assavoir, que suivant ce qu’ils ont veu usiter par <lb/>le passé et jusqu’à present,
+       touchant les demandes qui <lb/>sont formées en justice pour outrages qu’on peut avoir
+       <lb/>receu, soit par propos d’injure ou par oeuvres de fait, <lb/>ou par autres demandes qui
+       requierent d’estre formées <lb/>dans la <date dur="P8D">huictaine</date>, la coustume porte
+       que quand la <lb/>partie deffenderesse n’est pas citée &amp; adjournée pour <lb/>ouïr la
+       demande il suffit que icelle demande soit <lb/>notifiée à la contrepartie, soit à sa personne
+       ou à son <lb/>domicile seulement dans la <date dur="P8D">huictaine</date> après <choice>
+        <abbr>lad.</abbr>
+        <expan>ladite</expan>
+       </choice> demande <lb/>formée, sans que la partie actrice puisse estre <term ref="lem015626.03">forclose</term>
+       <lb/>moyennant <choice>
+        <abbr>lad.</abbr>
+        <expan>ladite</expan>
+       </choice> notification, &amp; pourveu que <choice>
+        <abbr>lad.</abbr>
+        <expan>ladite</expan>
+       </choice> demande <lb/>ait esté formée dans la <date dur="P8D">huictaine</date> de l’outrage receu par <lb/>propos,
+       oeuvres de fait ou autrement. </p>
+      
+      <p>
+       <lb/>Ce qu’a esté ainsi passé, conclud et arresté le <origDate when="1673-10-15">15<hi
+         rend="sup">e</hi>
+        <lb/>d’<choice>
+         <abbr>oct</abbr>
+         <expan>octobre</expan>
+        </choice>
+        <hi rend="underline">1673</hi></origDate> &amp; ordonné à moy secretaire de Ville
+       <lb/>l’expedier en cette forme, sous le <term ref="lem016327">seel</term> de la mayrie &amp; <lb/>justice <choice>
+        <abbr>dud.</abbr>
+        <expan>dudit</expan>
+       </choice>
+       <origPlace ref="loc007786">Neufchâtel</origPlace>, &amp; signature de ma main. </p>
+      
+     </div>
+      
+      <div>
+       <p>
+        <lb/><choice><abbr>Id</abbr><expan>Idem</expan></choice> comme devant.
+       </p>
+       <signed><persName ref="per008992"><choice><abbr>N</abbr><expan>Nicolas</expan></choice> Huguenaud</persName> <figure type="notarial sign"/></signed>
+      </div>
+     
+       
+    </body>
+   </text>
+  </group>
+ </text>
+</TEI>

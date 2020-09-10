@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+
+			</titleStmt>
+
+			<publicationStmt>
+				<date type="electronic" when="2019-05-29"/>
+				<date type="print"/>
+			</publicationStmt>
+
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ_FR_I_2_8_0047_002</idno>
+			</seriesStmt>
+
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<idno>StAFR, Thurnrodel 11, S. 99–100</idno>
+					</msIdentifier>
+					<head>Jean François Bourgognon – Verhör / Interrogatoire</head>
+					<msContents>
+						<summary></summary> 
+						<msItem>
+							<textLang>fr, de</textLang> 
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support>
+									<material></material>
+								</support>
+								<extent>
+									<dimensions type="leaves">
+										<height unit="cm" quantity="0.0"/>
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+									<dimensions type="plica">
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+								</extent>
+							</supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1620-01-18"></origDate>
+							<origPlace></origPlace>
+						</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+							
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 				
+		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+			<particDesc default="false"/>
+			<settingDesc default="false"/>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="99"/><p><lb/>Im <placeName ref="loc008829.03">spittal ufm <placeName ref="loc007883.03">Blatz</placeName></placeName>
+							<seg><lb/><origDate when="1620-01-18">18 <foreign xml:lang="la">januarii</foreign> <hi rend="underline">1620</hi></origDate>, <choice><abbr>j</abbr><expan>judex</expan></choice> <abbr>h</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per009391">Guillaume de Reynold</persName>.</note> – 3<note>Diese Zahl diente zur Verrechnung der Sitzungsgelder. Sie signalisiert, wie oft die Mitglieder des Gerichts anwesend waren.</note></seg>
+							<seg><lb/><abbr>H</abbr> <persName ref="per009250">Gerwer</persName> – 3, <abbr>h</abbr> <persName ref="per009255">Affry</persName> – 3</seg>
+							<seg><lb/><persName>Reiff</persName><note>Gemeint ist entweder <persName ref="per009388">Peter</persName> oder <persName ref="per009389">Franz Reyff</persName>.</note>, <persName ref="per009123">Werli</persName></seg>
+							<seg><lb/><persName ref="per009390">Reiff</persName>, <persName ref="per009260">Techterman</persName></seg>
+							<seg><lb/>Weybel</seg></p>
+					
+					<p><seg><lb/><add place="left margin">Hat nüt bezalt.</add></seg> 
+						<seg><persName ref="per009313a.01">Jean Francey Bourgognon</persName> de <placeName ref="loc007932.01">Vesin</placeName> estant 
+						<lb/>examiné sur plusi<subst><del>eurs</del><add place="overwritten">ers</add></subst> articles contenuz dans 
+						<lb/>l’examen contre luy dressé, et en faisant 
+						<lb/>du tout negative. Neantmoins a dit et de<lb break="no"/>claré l’occasion pourquoy il se seroit ab<lb break="no"/>senté de la seignorie de <placeName ref="loc007931.02">Cugie</placeName>, disant 
+						<lb/>estre veritable que, a son grand regret, estant 
+						<lb/>arrivé en sa mayson, sa femme luy dit que 
+							<lb/>deux soubsonnez de <term ref="lem018521.02">sorcelerie</term>, pour lors pri<lb break="no"/>sonniers <subst><del><unclear>l</unclear></del><add place="overwritten">a</add></subst> <placeName ref="loc007931.02">Cugie</placeName>, l’auroent aussy <term ref="lem015356.09">accolpé</term> 
+					<pb n="100"/><lb/>de tel fait.</seg> <seg>La dessus qu’il respondit qu’on 
+						<lb/>luy faisoit tort, voulant subitement en 
+						<lb/>aller reprendre lesdits accusateurs, mais le 
+						<lb/><choice><abbr>chlain</abbr><expan>chatelain</expan></choice> ne luy voulut octroyer l’acces. Et 
+						<lb/>estant ainsy fort esbahy, et deplaisant de 
+						<lb/>telle fausse imposition, son cousin <persName>Jean 
+						<lb/>Jacod</persName> et sa femme luy conseillarent de 
+						<lb/>absenter quelque temps la seignorie. Ce 
+						<lb/>qu’ayant fait, ouvrant et gagnant sa vie 
+						<lb/>en plusieurs lieu, en fin que luy arriva 
+						<lb/>cet accident a <placeName ref="loc007933.02">Libenstorff</placeName>&#160;; affirmant de 
+						<lb/>ne savoir aulcun mal, dont il a esté ac<lb break="no"/>coulpé par les jadis prisonniers. Aultre 
+						<lb/>n’a dit.</seg></p>		
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+
+
+
+<?oxy_options track_changes="on"?>

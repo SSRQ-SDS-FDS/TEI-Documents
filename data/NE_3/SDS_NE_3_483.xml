@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     n="1234"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="headerinfo"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2020-08-17"/>    <date type="print"/>
+    <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Collection des sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS_NE_3_483</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>AVN B 101.14.002, fol. 102r</idno>
+               </msIdentifier>
+               <head>Représentation devant les tribunaux</head>
+               <msContents>
+                  <summary>Un représentant doit être investi de pouvoirs suffisants de la part de celui qu’il
+       représente.</summary>
+                  <msItem>
+                     <textLang>français</textLang>
+                     <filiation type="current"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="34.5"/>
+                              <width unit="cm" quantity="22"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate from="1827-06-18" to="1827-06-23"/>
+                     <origPlace ref="loc007786">Neuchâtel</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head/>
+                     <bibl/>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000287"/>
+               <term ref="key005026"/>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="102r" facs="AVN_B_101.14.002_0102r"/>
+               <div>
+                  <p>
+                     <lb/>L’an <origDate when="1827-06-18"
+                        >mil huit cent vingt sept, les <lb/>dix huit</origDate> &amp; <origDate
+                        when="1827-06-23">vingt trois juin</origDate>, le <orgName ref="org003085"
+                           >Petit Conseil de la Ville de <placeName ref="loc007786.07"
+                           >Neuchâtel</placeName></orgName>
+                     <lb/>en <placeName ref="loc001012.09"
+                        >Suisse</placeName> étant assemblé dans l’<placeName ref="loc007793"
+                        >hôtel de cette ville</placeName>, sous la présidence de <lb/>monsieur <persName
+                        ref="per008634"
+                        >Jean Jaques André Wavre</persName>, maître bourgeois en chef, lecture <lb/>a été faite d’une requête du sieur <persName
+                        ref="per008639">Louis Belenot</persName>, notaire agissant au <lb/>nom du <choice>
+                        <abbr>S<hi rend="sup">r</hi>
+                        </abbr>
+                        <expan>sieur</expan>
+                     </choice>
+                     <persName ref="per008640"
+                        >Jean Jaques Petitpierre</persName>, bourgeois de cette ville &amp; <lb/>domicilié à <placeName
+                        ref="loc005824"
+                     >Morat</placeName>, par laquelle il demande déclaration de la coutume <lb/>usitée en cette Principauté sur la question suivante&#160;: </p>
+                  <p>
+                     <lb/>En cas d’appel d’une sentence pour un procès, de l’un des <lb/>tribunaux de première instance de ce pays au <orgName
+                        ref="org003167"
+                     >souverain tribunal <lb/>de Neuchâtel</orgName>, l’un des acteurs ne pouvant y paraître en personne, <lb/>charge un particulier de le représenter. N’est-il pas d’usage <lb/>que ce dernier doit être porteur de pleins pouvoirs &amp; les exhiber, <lb/>&amp; ne doit-il pas en être fait mention dans la sentence qui se <lb/>transcrit au pied de la procédure&#160;? </p>
+                  <p>
+                     <lb/>Sur quoi <orgName ref="org003085"
+                     >messieurs du Petit Conseil</orgName>, après mur examen &amp; <lb/>délibération, ont, conformément à la coutume usitée de toute <lb/>ancienneté, &amp; de père en fils en cette Principauté, dit &amp; déclaré&#160;: </p>
+                  <p>
+                     <lb/>Qu’en général celui qui agit pour un autre soit devant un tribunal <lb/>de première instance, soit en appel devant le souverain tribunal, <lb/>doit régulièrement être porteur de pouvoirs suffisans de la part de <lb/>celui qu’il représente &amp; en faire l’exhibition&#160;; que quant au surplus <lb/>de la question, la rédaction de la sentence étant une affaire de style <lb/>&amp; concernant particulièrement la chancellerie, on ne peut y <lb/>répondre d’une manière positive, ni y appliquer les principes <lb/>de la loi &amp; de la coutume. </p>
+                  <p>
+                     <lb/>Laquelle déclaration étant ainsi rendue, il a été ordonné au <lb/>secrétaire du Conseil sousigné, de l’expédier en cette forme <lb/>sous le sceau de la mairie &amp; justice de cette ville&#160;; à <lb/>l’<origPlace
+                        ref="loc007793">Hôtel-de-ville de Neuchâtel</origPlace>, les an &amp; jours que devant <lb/>
+                     <origDate when="1827-06-18">18<hi rend="sup">e</hi>
+                     </origDate> &amp; <origDate when="1827-06-23">23<hi rend="sup"
+                        >e</hi> juin 1827</origDate>. </p>
+                  <p>
+                     <lb/>Par ordonnance&#160;: <lb/>Le secrétaire du Conseil </p>
+               </div>
+               <div>
+                  <signed>
+                     <persName ref="per008600"><choice>
+                           <abbr>G. F.</abbr>
+                           <expan>Georges Frédéric</expan>
+                        </choice> Gallot</persName>
+                     <figure type="notarial sign"/></signed>
+               </div>
+            </body>
+         </text>
+      </group>
+   </text>
+</TEI>

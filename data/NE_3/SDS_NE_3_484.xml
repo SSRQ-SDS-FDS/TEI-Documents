@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     n="1234"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="headerinfo"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2020-08-17"/>    <date type="print"/>
+    <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Collection des sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS_NE_3_484</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>AVN B 101.14.002, fol. 103v–106r</idno>
+               </msIdentifier>
+               <head>Effets que produit le mariage quant aux biens pendant sa durée et après sa
+      dissolution</head>
+               <msContents>
+                  <summary>Précise les effets que le mariage produit sur les biens, ainsi que les
+       conséquences sur ces biens de la dissolution du mariage par la mort d’un des conjoints ou le divorce.</summary>
+                  <msItem>
+                     <textLang>français</textLang>
+                     <filiation type="current"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="34.5"/>
+                              <width unit="cm" quantity="22"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate from="1828-01-21" to="1828-02-29"/>
+                     <origPlace ref="loc007786">Neuchâtel</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head/>
+                     <bibl/>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000863"/>
+               <term ref="key003521"/>
+               <term ref="key003400"/>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="103v" facs="AVN_B_101.14.002_0103v"/>
+               <div>
+                  <p>
+                     <lb/>L’an <origDate when="1828-01-21"
+                        >mil huit cent vingt <lb/>huit, les vingt un janvier</origDate> &amp; <origDate
+                        when="1828-02-29">vingt neuf février</origDate>, le <orgName ref="org003085"
+                           >Petit <lb/>Conseil de la Ville de <placeName ref="loc007786.07"
+                           >Neuchâtel</placeName></orgName> en <placeName ref="loc001012.09"
+                        >Suisse</placeName> étant assemblé <lb/>dans l’<placeName ref="loc007793"
+                        >hôtel de cette ville</placeName> sous la présidence de monsieur <lb/><persName
+                        ref="per008641"
+                        >Auguste François de Meuron</persName>, maître bourgeois en chef, <lb/>lecture a été faite d’une requête de monsieur <persName
+                        ref="per008642"
+                     >Adolphe <lb/>de Pourtalès</persName>, bourgeois de cette ville, par laquelle il <lb/>demande une déclaration de la coutume de cet État sur <lb/>les effets que produit le mariage quant aux biens, soit <lb/>pendant sa durée, soit surtout après sa dissolution, <lb/>suivans les différens cas qui peuvent se présenter. </p>
+                  <p>
+                     <lb/>Le <orgName ref="org003085"
+                     >Conseil</orgName>, après mûr examen &amp; délibération, a dit &amp; <lb/>déclaré, que conformément à la coutume usitée de <lb/>toute ancienneté &amp; de père en fils dans cette souveraine <lb/>Principauté, le mariage contracté aux termes de la dite <lb/>coutume &amp; sans qu’il y ait été dérogé par des convention <lb/>spéciales, produit quant aux biens des époux &amp; depuis <lb/>le jour où il a été célébré &amp; béni en face de l’Église, <lb/>les effets suivans&#160;: </p>
+                  <head>
+                     <lb/>A. Pendant sa durée. </head>
+                  <p>
+                     <lb/>1<hi rend="sup"
+                     >o</hi> Tous les biens quelconques que possèdent les époux au <lb/>moment du mariage sont versé en communauté, de telle <lb/>sorte que les revenus en sont communs entr’eux, sans <lb/>aucune exception. Il en est de même des biens qu’ils <lb/>acquièrent durant le mariage, soit qu’ils en augmentent <lb/>ceux de la communauté par leur économie, leur travail <lb/>&amp; leur industrie, soit que ces biens soient dévolus à l’un <lb/>ou à l’autre des conjoints par succession, donnation ou <lb/>autrement. </p>
+                  <p>
+                     <lb/>2<hi rend="sup"
+                        >o</hi>. Le mari est tuteur naturel de sa femme, &amp; administrateur <lb/>de tous les biens &amp; revenus de la communauté conju<lb
+                        break="no"
+                        />gale, quelle que soit leur nature&#160;; toutefois il ne peut <lb/>disposer des propres de la femme, ni les vendre, aliener, <lb/>engager ou hypothéquer sans l’exprès consentement ou <lb/>la ratification de celle-ci, à peine de nullité. D’un <lb/>autre côté la femme ne peut valablement contracter <lb/>ni s’obliger sans l’exprès consentement &amp; autorisa<lb
+                        break="no"/>tion de son mari. </p>
+                  <p>
+                     <lb/>3<hi rend="sup"
+                        >o</hi>. Les dettes contractées pendant la conjonction du <lb/>mariage sont payées &amp; prélevées d’abord sur les <lb/><add
+                        place="below" type="catchword">acquêts</add>
+                     <pb n="104r" facs="AVN_B_101.14.002_0104r"/>
+                     <lb/><hi rend="underline"
+                        >acquêts</hi>, s’il y en a, &amp; à défaut sur les biens <add place="above"
+                        >propres</add> du mari, <lb/>qui en est principalement responsable envers les tiers créanciers&#160;; <lb/>de telle sorte que ce n’est qu’après que les biens du mari <lb/>ont été totalement épuisés, que ceux de la femme peuvent <lb/>être légalement saisis pour acquitter les dettes restantes, à <lb/>moins toutefois qu’elle ne se fût obligée conjointement avec <lb/>son mari, cas dans lequel un créancier porteur de son enga<lb
+                        break="no"
+                     />gement pourroit se payer indistinctement sur les biens <lb/>propres de l’un &amp; de l’autre des époux. Mais dans chacun <lb/>de ces cas, la femme acquiert &amp; conserve contre le mari &amp; <lb/>ses enfans ou hériters un recours légal pour le montant <lb/>des sommes qui ont été payées de son bien propre à l’acquit <lb/>des dettes de la conjonction. </p>
+                  <p>
+                     <lb/>La femme n’est d’ailleurs obligée ni directement ni subsi<lb break="no"
+                        />diairement, pour les cautionnement que son mari auroit contrac<lb
+                        break="no"
+                        />tés sans son exprès consentement, non plus que pour les <lb/>dettes qu’il auroit faites <hi
+                        rend="underline"
+                     >étant en guerre</hi>, à moins qu’il n’y <lb/>fût allé de l’aveu de la femme, ou que les dites dettes <lb/>n’eussent été créées pour l’entretien d’elle &amp; du ménage, <lb/>ni enfin pour les frais, dommages, bans &amp; amendes auxquels <lb/>le mari pourroit avoir été condamné par suite de délits ou <lb/>de crimes par lui commis. </p>
+                  <p>
+                     <lb/>Quant aux dettes que l’un des époux aurait contractées <lb/>soit avant les mariages soit après sa dissolution, elles sont <lb/>payées exclusivément sur les biens de celui qui les a contrac<lb
+                        break="no"
+                     />tées, sans que l’autre puisse en être tenu, à moins qu’il <lb/>n’en ait formellement répondu. </p>
+                  <p>
+                     <lb/>4<hi rend="sup"
+                        >o</hi> Lorsqu’il y a lieu a procéder entre mari &amp; femme au <lb/><hi
+                        rend="underline"
+                        >relief</hi> de leurs biens respectifs, l’inventaire de tous les biens <lb/>de la communauté ayant été préalablement dressé, la femme <lb/>relève d’abord tous ses biens propres, tant dotaux que <term
+                        ref="lem014957">para<lb break="no"
+                        />phernaux</term>, soit qu’elle les ait versés dans la communauté <lb/>à l’époque du mariage, soit qu’elle les ait acquis dès lors <lb/>&amp; pendant la durée de la dite communauté par héritage, <lb/>donnation ou autrement, pourvû qu’elle justifie qu’ils y sont <lb/>effectivement entrés&#160;; elle relève de plus tous les avantages <lb/>que son mari peut lui avoir assurés par contrat de <lb/>mariage. Ce relief s’exerce d’abord &amp; de préférence sur <lb/>ceux des biens apportés par la femme en conjonction qui <lb/>existent en nature ou sur ceux qui peuvent avoir été acquis <lb/><add
+                        place="below" type="catchword">en</add>
+                     <pb n="104v" facs="AVN_B_101.14.002_0104v"/>
+                     <lb/>en remplacement, &amp; à défaut sur les autres biens <lb/>de la communauté, &amp; même sur les propres du mari ; <lb/>bien entendu que les effets mobiliers existant en <lb/>nature se relèvent dans l’état où ils se trouvent sans <lb/>égard au dépérissement ou aux dégradations qu’ils <lb/>ont subis. </p>
+                  <p>
+                     <lb/>Le relief des biens de la femme étant complet, le <lb/>mari relève également &amp; à son tour ses biens propres, en <lb/>se remplaçant pour ceux qui n’existeroient plus en nature <lb/>sur les autres biens retant de la communauté&#160;; &amp; s’il y a <lb/>du vide, il le supporte en entier&#160;; tout comme si la femme <lb/>n’a pas trouvé de quoi compléter son relief, elle devient <lb/>pour le montant du déficit créancière du mari, soit de <lb/>ses enfans ou héritiers. </p>
+                  <p>
+                     <lb/>Après que les propres tant de la femme que du mari <lb/>ont été rétablis, &amp; que toutes les dettes de la conjonction <lb/>ont été payées ou prélevées, les biens restant constituent <lb/>les <hi
+                        rend="underline"
+                        >acquêts</hi>, &amp; se partagent par égales portions entre les <lb/>deux époux, à l’exception toutefois de ceux qui résulte<lb
+                        break="no"/>roient des profits que le mari auroit faits <hi rend="underline"
+                        >étant en guerre</hi>, <lb/>&amp; auxquels la femme n’a droit de participer que pour <lb/>un quart seulement. Le mari, d’un autre côté, qui aurait <lb/>vécu chez les parent de sa femme jusqu’à la mort de <lb/>celle-ci, n’auroit rien à prétendre aux acquêts faits <lb/>pendant ce tems. </p>
+                  <head>
+                     <lb/>B. Le mariage étant dissout par la <hi rend="underline"
+                     >mort</hi> de <lb/>l’un des époux : </head>
+                  <p>
+                     <lb/>I. Avant l’expiration <hi rend="underline">de l’<date dur="P1Y6W"><term
+                              ref="lem014776">an &amp; jours</term></date></hi>, soit d’<date
+                        dur="P1Y6W"
+                     >une année <lb/>&amp; six semaines</date>, à dater du jour de la bénédiction nuptiale. </p>
+                  <p>
+                     <lb/>a) <hi rend="underline">S’il n’y a pas d’enfans&#160;:</hi>
+                     <lb/>Le mari survivant est hériter du <hi rend="underline"><term
+                           ref="lem014956"
+                     >lit refait</term></hi> de sa femme <lb/>morte sans enfans, &amp; des habits &amp; joyaux qu’elle portoit <lb/>sur elle le jour des noces. </p>
+                  <p>
+                     <lb/>Si la femme survit, <hi rend="underline">le <term ref="lem014956"
+                           >lit refait</term></hi> lui reste&#160;; mais elle <lb/>n’hérite pas des habits du mari. </p>
+                  <p>
+                     <lb/>b) <hi rend="underline">S’il y a un ou plusieurs enfans :</hi>
+                     <lb/>Le survivant, quelqu’il soit,ne retire sur les biens du <lb/>défunt, laissant un ou plusieurs enfans, que ce qui peut <lb/>lui avoir été donné par contrat de mariage à titre de <hi
+                        rend="underline"><term ref="lem015070">Widerfahl</term></hi>. <pb n="105r"
+                        facs="AVN_B_101.14.002_0105r"/>
+                     <lb/>Mais il exerce la tutelle de l’enfant ou des enfans <lb/>issus du mariage, &amp; administre leurs biens, en jouissant des <lb/>revenus de ceux qu’ils ont hérités du prédécédé, &amp; cela <lb/>jusqu’à leur majorité ou à leur mort, bien entendu qu’il <lb/>doit d’un autre côté pouvoir convenablement à leur entretien <lb/>&amp; à leur éducation. </p>
+                  <p>
+                     <lb/>II. Après l’expiration de <hi rend="underline">l’<date dur="P1Y6W"
+                           >an &amp; six semaines</date></hi> depuis <lb/>le jour de la bénédiction nuptiale. </p>
+                  <p>
+                     <lb/>a) <hi rend="underline"
+                        >S’il n’y a pas d’enfant</hi> issus de ce mariage ou d’autres <lb/>précédens mariages. <lb/>1<hi
+                        rend="sup">o</hi> Le mari survivant est héritier du <hi rend="underline"
+                           ><term ref="lem014956"
+                     >lit refait</term></hi> de sa femme <lb/>morte sans enfans, ainsi que de ses vêtemens, habits &amp; <lb/>linges de corps, de son trousseau &amp; de ses joyaux, quels <lb/>qu’ils soyent &amp; d’où qu’ils meuvent. </p>
+                  <p>
+                     <lb/>2<hi rend="sup">o</hi> La femme survivante garde le <hi rend="underline"
+                           ><term ref="lem014956"
+                     >lit refait</term></hi>, &amp; hérite des <lb/>vêtemens, habit &amp; linges de corps de son mari mort sans <lb/>enfans. </p>
+                  <p>
+                     <lb/>3<hi rend="sup"
+                        >o</hi> Le survivant, quel qu’il soit, hérite de la moitié des <lb/>biens meubles, linges, vaisselle &amp; ustensiles de ménage, qui <lb/>appartenoient en propre au défunt à l’heure de sa mort <lb/>&amp; conserve l’autre moitié en usufruit&#160;; à l’exception toute<lb
+                        break="no"/>fois des <hi rend="underline"
+                        >armes</hi> du mari, sur lesquelles la femme n’exerce <lb/>aucun droit de survie, &amp; qui sont immédiatement dévolues <lb/>aux héritiers du défunt&#160;; &amp; bien entendu que sous le nom <lb/>général de <hi
+                        rend="underline">meubles</hi>, on ne comprend ici que les <hi
+                        rend="underline">meubles</hi>
+                     <lb/><hi rend="underline"
+                        >meublans</hi>, quels qu’ils soyent, &amp; en outre le bétail de la <lb/>maison, mais non celui qui seroit à <hi
+                        rend="underline">commande</hi> ou à <hi rend="underline">chédal</hi>
+                     <lb/>non plus que l’or, l’argent, les lettres de rente, obligations, <lb/>cédules &amp; comptes, ni les marchandises, ni les provisions <lb/>de blé &amp; de vin. </p>
+                  <p>
+                     <lb/>4<hi rend="sup">o</hi> Relativement au <hi rend="underline"
+                        >blé</hi> &amp; au <hi rend="underline"
+                     >vin</hi>, le survivant en prend ce qui <lb/>lui est raisonnablement nécessaire pour son entretien d’une année, <lb/>&amp; le surplus ayant été évalué &amp; sa valeur portée en <lb/>inventaire, il en prend la moitié en toute propriété, &amp; exerce <lb/>sur l’autre moitié sa vie durant un droit de jouissance &amp; <lb/>d’usufruit. Quant aux autres victuailles &amp; provisions de <lb/>ménage, il en fait son propre &amp; n’en doit aucun compte. </p>
+                  <p>
+                     <lb/>5<hi rend="sup"
+                        >o</hi> Enfin, après que le relief des propres de chaque <lb/>conjoint a été effectué, ainsi qu’il a été dit, &amp; avec les <lb/>modifications résultant de ce que dessus, &amp; que les <hi
+                        rend="underline">acquêts</hi>
+                     <pb n="105v" facs="AVN_B_101.14.002_0105v"/>
+                     <lb/>faits en conjonction ont été partagés, le survivant <lb/>conserve l’usufruit sa vie durant sur tous les biens <lb/>qui ont été reconnus appartenir au défunt ou à ses <lb/>héritiers, à teneur de l’inventaire exact qui doit en <lb/>être dressé. </p>
+                  <p>
+                     <lb/>b) <hi rend="underline"
+                     >S’il y a un ou plusieurs enfans</hi> issus de ce <lb/>mariage ou de précédens mariages. </p>
+                  <p>
+                     <lb/>1<hi rend="sup">o</hi> Le mari survivant hérite du quart du <hi
+                        rend="underline"><term ref="lem014956"
+                     >lit refait</term></hi>, <lb/>du trousseau &amp; des habits &amp; joyaux de sa femme défunte, <lb/>laissant un ou plusieurs enfans, &amp; garde un second quart <lb/>en usufruit&#160;; l’autre moitié est immédiatement dévolue aux <lb/>enfans. </p>
+                  <p>
+                     <lb/>2<hi rend="sup"
+                     >o</hi> La femme survivante hérite de même du quart des <lb/>habits &amp; vêtemens de son mari prédécédé, laissant un <lb/>ou plusieurs enfans, &amp; garde un second quart en <lb/>usufruit. </p>
+                  <p>
+                     <lb/>3<hi rend="sup"
+                        >o</hi> Le survivant, quelqu’il soit, hérite en toute propriété <lb/>du quart des <hi
+                        rend="underline"
+                     >meubles</hi> qui appartenoient en propre au <lb/>défunt, sous la restriction &amp; avec l’explication contenues <lb/>au précédent article, &amp; garde un second quart en usufruit. </p>
+                  <p>
+                     <lb/>4<hi rend="sup">o</hi> Quant aux provisions de <hi rend="underline"
+                        >blé</hi> &amp; de <hi rend="underline"
+                     >vin</hi>, le survivant <lb/>d’un côté &amp; les enfans de l’autre en prennent honnêtement <lb/>pour leur entretien d’une année, &amp; le surplus se partage <lb/>par égales portions&#160;; mais sur la part des enfans, le <lb/>survivant conserve la moitié en usufruit. L’argent <lb/>provenant de censes, loyers, fermages &amp; recoltes pendantes, <lb/>se partage d’après le même principe&#160;; &amp; quant aux <lb/>victuailles &amp; autres provisions de ménage, quoique le <lb/>survivant n’en doive aucun compte, néanmoins les <lb/>enfans doivent y participer pour leur honnête entretien. </p>
+                  <p>
+                     <lb/>5<hi rend="sup"
+                        >o</hi> Enfin, le relief des propres de chaque conjoint &amp; le partage <lb/>des acquêts étant effectué, ainsi qu’il a été dit, le survivant <lb/>conserve sa vie durant l’usufruit sur la moitié des biens <lb/>qui ont été reconnus appartenir au défunt soit à ses <lb/>enfans, à teneur de l’inventaire qui doit en être dressé&#160;; <lb/>toutefois s’il existe des enfans issus du mariage, qui <lb/>soyent encore en âge de minorité, ils restent sous la <lb/>tutelle du survivant, qui en conséquence a l’administration <lb/>de leurs biens &amp; la jouissance jusqu’à leur majorité ou à <lb/><add
+                        place="below" type="catchword">leur</add>
+                     <pb n="106r" facs="AVN_B_101.14.002_0106r"/>
+                     <lb/>leur mort de la totalité des revenus de ceux qu’ils ont hérité <lb/>du prédécédé, &amp; qui faisoient partie de la communauté, à <lb/>la charge d’entretenir &amp; d’élever convenablement les dits <lb/>enfans, selon leur condition &amp; fortune. </p>
+                  <head>
+                     <lb/>C. La dissolution du mariage arrivant par le <hi rend="underline"
+                        >divorce</hi>
+                  </head>
+                  <p>
+                     <lb/>Le divorce rompt le lien conjugal &amp; par conséquent <lb/>dissout la communauté de biens qui existoit entre les <lb/>époux. Lors donc qu’il a été prononcé par les tribunaux <lb/>compétent, chaque conjoint relève ses biens, ainsi qu’il <lb/>a été dit ci-devant, sans préjudice aux dommages &amp; <lb/>intérêts qui, dans de certains cas, peuvent être alloués par <lb/>le juge à la partie innocente contre la partie coupable, <lb/>cas sur lesquels la loi &amp; la coutume ne se prononcent <lb/>pas du reste d’une manière assez positive, pour qu’ils <lb/>puissent faire l’objet d’une déclaration spéciale. </p>
+                  <p>
+                     <lb/>Quant aux enfans mineurs issus du mariage, s’il y <lb/>en a, la tutelle, l’entretien &amp; l’éducation, en cas de <lb/>dissentiments entre les époux, en sont attribués par le juge <lb/>à celle des parties qui parait la plus capable &amp; la <lb/>plus digne, &amp; cela moyennant telle pension assignée <lb/>sur les biens de l’autre partie, que le juge détermine <lb/>pareillement selon les circonstances &amp; la position respec<lb
+                        break="no"/>tives des époux divorcés. </p>
+                  <p>
+                     <lb/>Laquelle déclaration étant ainsi rendue, il a été <lb/>ordonné au secrétaire du Conseil soussigné d’en faire <lb/>l’expédition en cette forme, sous le sceau de la mairie <lb/>&amp; justice de cette Ville&#160;; à l’<origPlace
+                        ref="loc007793"
+                        >Hôtel-de-ville de <lb/>Neuchâtel</origPlace>, les an &amp; jours que devant <origDate
+                        when="1828-01-21">21<hi rend="sup">e</hi> janvier</origDate> &amp; <lb/>
+                     <origDate when="1828-01-29">29<hi rend="sup"
+                     >e</hi> février 1828</origDate>. </p>
+                  <p>
+                     <lb/>Par <choice>
+                        <abbr>ordonn<hi rend="sup">ce</hi>
+                        </abbr>
+                        <expan>ordonnance</expan>
+                     </choice>
+                     <lb/>Le secrétaire du Conseil </p>
+               </div>
+               <div>
+                  <signed>
+                     <persName ref="per008600"><choice>
+                           <abbr>G.&#160;F.</abbr>
+                           <expan>Georges Frédéric</expan>
+                        </choice> Gallot</persName>
+                     <figure type="notarial sign"/></signed>
+               </div>
+            </body>
+         </text>
+      </group>
+   </text>
+</TEI>

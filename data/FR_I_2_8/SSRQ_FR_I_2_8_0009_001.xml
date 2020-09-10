@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+
+			</titleStmt>
+
+			<publicationStmt>
+				<date type="electronic" when="2018-12-12"/>
+				<date type="print"/>
+			</publicationStmt>
+
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ_FR_I_2_8_0009_001</idno>
+			</seriesStmt>
+
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<idno>StAFR, Thurnrodel 5, S. 108–112</idno>
+					</msIdentifier>
+					<head>Claude Chauderon – Verhör / Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang>fr, de</textLang>
+							<filiation type="current"/>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support>
+									<material/>
+								</support>
+								<extent>
+									<dimensions type="leaves">
+										<height unit="cm" quantity="0.0"/>
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+									<dimensions type="plica">
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+								</extent>
+							</supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate from="1541-02-18" to="1541-02-19"/>
+							
+							<origPlace/>
+						</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+			<particDesc default="false"/>
+			<settingDesc default="false"/>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+					
+					
+						<pb n="108"/><p><add place="above">+</add>
+							
+							<lb/>S’ensuyt le proces de <persName ref="per009734">Claude<note>Ces mots forment une sorte de titre et sont rédigées dans un module plus grand que le reste du document.</note> 
+							<lb/>Chouderon</persName> de <placeName ref="loc008183.02">Pontalla</placeName>, resortissant
+							<lb/>a <placeName ref="loc008182.02">Cosonex</placeName>.</p>
+					
+						<p><lb/>Premierement a dict et confessé ledit detenu qu’il avoit 
+							<lb/>derobé avecque son complice <hi rend="underline"><persName>Jaques Tremelle</persName></hi>, assavoir 
+							<lb/>une <term ref="lem015014">moge</term> a la montaigne de <placeName ref="loc001425.04">Tremellan</placeName>, laquelle 
+							<lb/>vendisrent a <placeName ref="loc000740.16">Biene</placeName> pour <measure type="currency" unit="lb" quantity="7">sept <subst><del>florins</del><add place="inline">livres</add></subst></measure>, et heut
+							<lb/>ledit detenu tout l’argent, et c’est l’espasse de <date dur="P2Y">deux ans</date>.</p>
+							
+						<p><lb/>Item a dict que luy et <subst><del>ledit</del><add place="inline">son complice</add></subst> <hi rend="underline">appellé <persName>Jaques
+							<lb/>Trybuenna</persName>, de <placeName ref="loc008184.02">Nion</placeName></hi>, avoit deroubé a ung homme 
+							<lb/>appellé <persName>Soupis</persName>, desmourent a <placeName>Lonnouro</placeName><note>L’identification du lieu est incertaine. Il pourrait s’agir de <placeName ref="loc008132">Lugnorre</placeName>.</note>, en la mayson
+							<lb/>de la <persName>Volioda</persName>, <measure type="currency" unit="fl" quantity="50">cinquante florins</measure> en une arche qu<subst><del>i</del><add place="overwritten">’ e</add></subst>stoit
+							<lb/>en une chambre aupres de la cusine, et levirent ung
+							<lb/><term>lan</term><note>Le sens de ce mot demeure incertain. Il pourrait désigner une <term ref="lem015868">laigne</term>.</note> atout une achete&#160;; ledit detenu <term ref="lem015015">derobavé</term> et son 
+							<lb/>complice fesoit le guetz, puis partirent ledit argent
+							<lb/>egallement. Il aura a la <date when="--06-24">Sainct <persName ref="per000049a.23">Jehan</persName></date> prochain <date dur="P2Y">deux ans</date>.</p>
+							
+						<p><lb/>Item a recogneu ledit detenu que en venant de <placeName>Surchat</placeName><!-- Ort?? -->,
+							<lb/>ung mercier, dever <placeName ref="loc000738.11">Salleurre</placeName>, luy donnast a porté
+							<lb/>une piece de <term ref="lem015863.05">triege</term>, contenant environt six aulnes,
+							<lb/>et pour son sallaire, ledit mercier luy promist donner
+							<lb/>ung teston, touteffoys icelluy detenu retenist a luy
+							<lb/>ledit <term ref="lem015863.04">trige</term> et le vendist a <placeName ref="loc000740.16">Biene</placeName>, et donast l’aune
+							<lb/>pour <measure type="currency" quantity="7" unit="Gros">sept groz</measure>.</p>
+						
+						<p><lb/>Item a dict et confessé ledit detenu qu’il a environt <date dur="P3Y">troys</date>
+							<lb/>ou <date dur="P4Y">quatre ans</date>, en venant deis <placeName ref="loc000916.03">Suabe</placeName>, ledit detenu et
+							<lb/>ung de ses consors, <hi rend="underline">appellé <persName>Franceoys Trolliet</persName> de la 
+							<lb/>parroche d’<placeName ref="loc008185">Aigle</placeName></hi>, avoyent achepté quatre hallibardes
+							<lb/>qu’avoyent coustez <measure type="currency" quantity="20" unit="bz">vingt baches</measure>, et feurent vendu
+							<lb/>par ledit detenu et ung de ses complices en <placeName ref="loc008186.03">Dilemont</placeName>
+							<lb/><subst><del>lequel complice avoit nom <persName>Jehan Girard</persName> de <placeName ref="loc008187.02">Sainct
+							<lb/>Pres</placeName> de l’<term ref="lem015395.03">ecq</term> de <placeName ref="loc008188.02">Morge</placeName></del><add place="left margin">a deroubé <lb/>ledit <persName>Jehan <lb/>Girard</persName></add></subst> et vendisrent lesdites hallibardes
+							<pb n="109"/><lb/>pour <measure type="currency" quantity="37" unit="bz">trente et sept baches</measure>, ledit son complice ehut
+							<lb/>le tier de la moitier et ledit detenu la reste.</p>
+							
+						<p><lb/>Item a confessé que une foys venoit de <placeName ref="loc008189.02">Meyrens</placeName>
+							<lb/>de achepté des berbis et en les admenant, venist
+							<lb/>une petite <term ref="lem015014">moge</term> avecq lesdits berbis, <date dur="P3D">troys jours</date>, laque<supplied>lle</supplied>
+							<lb/>il vendist en ung villaige desça de <placeName ref="loc008190.01">Coppet</placeName> pour
+							<lb/><measure type="currency" quantity="30" unit="Gros">trente groz</measure>.</p>
+							
+						<p><lb/>Item a recogneu qu’il acheptat une foys a <placeName ref="loc007646.02">Genesve</placeName>
+							<lb/>deux beufz pour <measure type="currency" unit="fl" quantity="55">cinquante et cinq florins</measure>
+							<lb/>et, en payant lesdits deux beufz, il <term ref="lem015016">defroudast</term> ledit
+							<lb/>marchant de <measure type="currency" unit="fl" quantity="2">deux florins</measure>.</p>
+						
+						<p><lb/>Item a confessé que luy et son complice <hi rend="underline"><persName>Jaquemo</persName> 
+							<lb/>de la parroche de <placeName>Lulliens</placeName><note>L’identification du lieu est incertaine. Il pourrait s’agir de <placeName ref="loc008496">Lully (FR)</placeName> ou <placeName ref="loc008497">Lully (VD)</placeName>.</note></hi> 
+							acheptarent a <placeName ref="loc008498.02">Crusillie</placeName> 
+							<lb/>sept <term ref="lem015014.03">moges</term>, et en payant le marchant, ilz le 
+							<lb/><term ref="lem015016">defroudarent</term> de <measure type="currency" unit="lb" quantity="7">sept livres</measure>.
+							<lb/>Ist <unclear>darum</unclear> gefalen.<note>Cet item est cancellé.</note></p>
+						
+						<p><lb/>Item a recogneu que luy et son consors <hi rend="underline">appellé <persName>Claude 
+							<lb/>de Trier</persName> <add place="left margin" type="sign">de <placeName ref="loc008183.02">Pontalla</placeName></add></hi> avoit deroubé eis <unclear><placeName>Disinceulx</placeName></unclear> huyt gerbes.</p>
+							
+						<p><lb/>Item a confessé ledit detenu qu’il a environt <date dur="P12Y">douze 
+							<lb/>ans</date> que luy et ses consors <hi rend="underline"><persName>Claude de Trier</persName> de <choice><sic>Ponta</sic><corr><placeName ref="loc008183.02">Pontalla</placeName></corr></choice> 
+							<lb/>et <persName>Jehan Butet</persName> de <placeName ref="loc008183.02">Pontalla</placeName></hi> <subst><del>avoyent</del><add place="inline">ont</add></subst> deroubé 
+							<lb/>des gerbes en la grange de domp <persName>Roby</persName> et les porta
+							<lb break="no"/>rent estourré en la grange dudit son complice <hi rend="underline"><persName>Claude
+							<lb/>de Tryer</persName>&#160;; <persName>Johan Butet</persName></hi>, <subst><del>desrobavé</del><add place="inline">ung de ses consors, 
+							<lb/><term ref="lem015015">desrobavé</term></add></subst>, et luy le detenu descendoit les gerbes, et <subst><del>au</del><add place="overwritten">u</add></subst>ng 
+							<lb/>aultre de ses complices, <hi rend="underline"><persName>Claude de Trier</persName></hi>, les recepvoit 
+							<lb/>et firent ung sac de ble, lequel l’ung de sesdits 
+							<lb/>compagnions, <hi rend="underline"><persName>Claude de Trier</persName></hi>, le menast vendre a 
+							<lb/><placeName ref="loc007885">Lausanne</placeName>, et en heut ledit detenu ung <term ref="lem015017.02">escot</term>.</p>
+							
+						<pb n="110"/><p><lb/>Item a dict qu’il lya environ <date dur="P12Y">douze ans</date> que luy et ledit 
+							<lb/>son complice <hi rend="underline"><persName>de Trier</persName></hi> avont deroubé a <persName>Loys Jalliet</persName>, 
+							<lb/>tisseran de <placeName ref="loc008183.03">Pontallaz</placeName>, deis gerbes d’aveine en son champ 
+							<lb/>appellé eis <placeName>Braes</placeName><!-- Ort -->.</p>
+						
+						<p><lb/>Plus a recogneu que <hi rend="underline"><persName>Guilliaume Crotel</persName>, ung de</hi> 
+							<lb/>ses complices, <hi rend="underline">d’<placeName ref="loc008191.02">Alen</placeName> aupres de <placeName ref="loc008182.03">Cosoney</placeName>, lequel a esté executé 
+							<lb/>par justice a <placeName ref="loc008182.04">Cusoney</placeName></hi>, le menaz une fois en la 
+							<lb/><term ref="lem015072.02">sinagogue</term> en ung lieu appellé en la <placeName>Costa</placeName><!-- Ort? --> de <placeName ref="loc008182.04">Cusoney</placeName>, 
+							<lb/>auquel lieu trouveront beaucop de <term ref="lem018315">chat</term> noirs, lesqueulx 
+							<lb/>luy sautoient dessus les espaules et le prenoient par 
+							<lb/>les jaret et jambes, tant qu’i le gecterent par terre. 
+							<lb/>Et luy, veant cella, heut grant peur, mais ledit 
+							<lb/><hi rend="underline"><persName>Crostel</persName></hi>, son complice, luy disoit&#160;: <q>&#160;Tu as peur&#160;? Tu n’eschap<lb break="no"/>peras jamais&#160;!&#160;</q> Et ledit detenu disoit&#160;: <q>&#160;<hi rend="font change"><persName ref="per000353">Jesus</persName> <persName ref="per000169">Maria</persName></hi>&#160;</q>. 
+							<lb/>Et quant il heut dict cela, lesdites bestes le laisserent 
+							<lb/>ung peu, mais sondit complice luy disoit&#160;: <q>&#160;Il 
+							<lb/>ne toy fault riens dire cella.&#160;</q> Adoncq ledit detenus 
+							<lb/>dist audit son complice que cela n’aloit point de bon 
+							<lb/>art&#160;; surquoy ledit <hi rend="underline"><persName>Crostel</persName></hi> luy respondit que cesdites bestes 
+							<lb/>estiont ses <term ref="lem018314.03">chiens</term>, et qu’il falloit que ledit <subst><del>clau</del><add place="inline">detenu</add></subst> 
+							<lb/>reniasse Dieu. Puis aprés ledit son complice <hi rend="underline"><persName>Crostel</persName></hi> 
+							<lb/>luy amena une beste comme ung <term ref="lem018315">chat</term> noir et 
+							<lb/>luy fist baiser au <term ref="lem015018.02">deruier</term>, puis reniaz Dieu. 
+							<lb/>Et ledit <hi rend="underline"><persName>Crostel</persName></hi> son complice luy faisoit entendre 
+							<lb/>que leur maistre leur<del>donneroit</del> donneroit de 
+							<lb/>l’argent, mais il les trompoit tousiours car ledit 
+							<lb/>argent n’estoit que fueillies de <term ref="lem016908.03">chasnes</term>. Et avoit 
+							<lb/>a nom ledit maistre <persName>Brunet</persName>, lequel demanda audit de 
+							<lb break="no"/>tenu la main droicte pour homaige, mais il ne 
+							<lb/>la luy voulut point donner, sinon ung morsel 
+							<lb/>de sa <term ref="lem015014.02">mauge</term>, et en le prenant, ledit maistre le 
+							<lb/><term ref="lem015019">grafonaz</term> et luy arrachat ung petit morsel du coudoz 
+							<lb/>senestre, lequel signe luy meut aulcune fois 
+							<lb/>tout noir et luy <term ref="lem015020">destille</term>.</p>
+							
+						<pb n="111"/><p><lb/>Mais a confessé ledit detenu que ledit leur maistre
+							<lb/>leur donnoit une verge blanche pour aller
+							<lb/>a la <term ref="lem015072.02">sinagogue</term>.</p>
+						
+						<p><lb/>Mais a confessé qu’il a esté dix fois a la <term ref="lem015072.02">sinagogue</term> 
+							<lb/>avec ledit <hi rend="underline"><persName>Crostel</persName></hi> son complice et ung aultre
+							<lb/><hi rend="underline">appellé <persName>Pierre Borraley</persName></hi>, et avec eulx trois femmes,
+							<lb/>desquelles n’en cognoissoit sinon une <hi rend="underline">appellee <persName>Person
+							<lb/>Borraley</persName></hi>. Et ledit leur maistre se trovoit tousiours
+							<lb/>avec eulx a ladite <term ref="lem015072.02">sinagogue</term> et leur fasoit entendre
+							<lb/>qu’i dansievant et qu’il leur donneroit de
+							<lb/>l’argent, mais ilz estiont tousiours trompé dudit
+							<lb/><persName>Brunet</persName> leur maistre, car il n’estoit que <term ref="lem018302.13">fueillies</term> de
+							<lb/><term ref="lem016908.02">chasne</term>.
+							
+						<seg><lb/><add place="left margin"><foreign xml:lang="la">Non oportet
+							<lb/><unclear>perletum</unclear></foreign>.</add><note>Cette expression est accompagnée d’une sorte d’accolade qui s’applique à l’ensemble du paragraphe précédent.</note></seg></p>
+							
+							
+						<p><lb/>Item a confessé que leur maistre <persName>Brunet</persName> leur fasoit
+							<lb/>entendre qui feriont la <term ref="lem018102.05">grele</term> avec une verge
+							<lb/>blanche, ce que ledit detenu a vehu faire a <hi rend="underline"><persName><choice><abbr>Guille</abbr><expan>Guillaume</expan></choice>
+							<lb/>Crostel</persName> d’<placeName ref="loc008191.03">Allen</placeName></hi>, son complice, en une fontaine.
+							
+						<seg><lb/><add place="left margin"><foreign xml:lang="la">Non oportet
+							<lb/><unclear>perletum</unclear></foreign>.</add><note>Cette expression est accompagnée d’une sorte d’accolade qui s’applique à l’ensemble du paragraphe précédent.</note></seg></p>
+						
+						<p>Plus a dict et confessé ledit detenu que son
+							<lb/>maistre et son complice <hi rend="underline"><persName>Crostel</persName></hi> le batoient quant il
+							<lb/>ne vouloit aller en la <term ref="lem015072.02">sinagogue</term>, qu’i luy rompoient
+							<lb/>tout le dos, et luy deffendoient qu’i
+							<lb/>ne prisse riens en nom de Dieu, ne de
+							<lb/>pain, ne d’eau benoicte.</p>
+						
+						<p>Item a dict que quant il pouroit tenir ung enfan 
+							<lb/>innocent, que ledit son maistre n’avoit riens de
+							<lb/>puissance sur luy et luy deffendoit qu’il n’en prisse
+							<lb/>riens.</p>
+							
+						<pb n="112"/><p><lb/>Item a dict que quant le coq chantoit, quant <choice><sic>il
+							<lb/>il</sic> <corr>il</corr></choice> estiont en la <term ref="lem015072.02">sinagogue</term>, qui soy trouviont tous
+							<lb/>perdus et ung chescung en son hostel et abusés du <term ref="lem017521">diable</term>.</p>
+						
+						<p><lb/>Plus a confessé ledit detenu que son maistre <persName>Brunet</persName>
+							<lb/>le faisoit sortir dehors entre jour et nuict, et quant
+							<lb/>il ne le vouloit faire, ledit son maistre le bactoit
+							<lb/>et luy faisoit tousiours entendre qu’i luy
+							<lb/>donneroit de l’argent, mais il l’abusoit tousiours,
+							<lb/>car ce n’estiont que fueillies de <term ref="lem016908.02">chasne</term>.</p>
+						
+						<p><lb/><origDate when="1541-02-18">Sus le vendredy 18 de fevrier l’an 1541</origDate><note>Il s’agit de la première date donnée au cours de ce procès. Il est probable que l’interrogatoire précédent ait eu lieu la veille ou quelques jours avant.</note>
+							<lb/>a reconfirmé le prenommé detenu les choses 
+							<lb/>prescriptes en recognoissant plus oultre qu’il y a <date dur="P7Y">sept 
+							<lb/>ans</date> qu’il prist ung cheval noir a <persName>Boniface Chauderon</persName> 
+							<lb/>de <placeName ref="loc008183.04">Pontollaz</placeName> et le vendist a <placeName ref="loc007918.02">Orbaz</placeName> pour <measure type="currency" unit="lb" quantity="5">cinq
+							<lb/>livres</measure>. Aultre chose n’a plus confessé ledit 
+							<lb/>detenu.</p>
+						
+						<p><origDate when="1541-02-19">Le sambedy 19 <foreign xml:lang="la">februarii anno 1541</foreign></origDate> 
+							<lb/><subst><del>sus</del><add place="inline">a</add></subst> esté cogneu et adjugé ledit 
+							<lb/><persName ref="per009734">Claude Chauderon</persName> le bruler <del><abbr>etc</abbr></del>. 
+							<lb/>Dieu ayt mercy de son
+							<lb/>ame.</p>
+							
+						<p><lb/><choice><abbr>Messrs</abbr><expan>Messieurs</expan></choice> Petit et Grand Conseil <!--ou messeigneurs-->
+							<lb/>ont faict grace audit <persName ref="per009734">Claude</persName> que 
+							<lb/>l’on luy doit coppé la teste 
+							<lb/>et puis gesté au feuz.</p>
+							
+						
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+
+
+
+<?oxy_options track_changes="on"?>

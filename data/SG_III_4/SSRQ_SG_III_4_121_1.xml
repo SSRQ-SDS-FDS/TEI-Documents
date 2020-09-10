@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-08-15"/>
+            <date type="print"/>
+            <availability><p xml:id="facs">Staatsarchiv St. Gallen (StASG)</p></availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_121_1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>StASG AA 3 U 12</idno>
+               </msIdentifier>
+               <head>Ordnung der Kirchgenossenschaft Buchs über Aufnahmegebühren bei Zuzug, Heirat und über Wegzug und Rückkehr</head>
+               <msContents>
+                  <summary>
+                     <p>Hans Brunner, Landvogt von Werdenberg, bestätigt Andreas Gasenzer, Ammann
+                        von Werdenberg, Hans Schwarz, Klaus Res, Lorenz Schmid, Burkhard Gasenzer,
+                        Uli Scherer, Andres Thorer, Hans Müntener, Christian Rotenberger und Johann
+                        Schlegel ab dem Buchserberg, alle Verordnete aus dem Kirchspiel Buchs, die
+                        Erneuerung ihrer alten Ordnung über die Aufnahme ins Bürgerrecht mit
+                        Festsetzung der Gebühren. </p>
+                     <p>1. Wenn ein Herrschaftsmann in das Kirchspiel einheiratet, soll er 10 Gulden bezahlen, falls er Weiden und Alpen nutzen will.</p>
+                     <p>2. Wenn ein Herrschaftsmann ohne Heirat einer Buchserin in das Kirchspiel ziehen will, soll er 20 Gulden bezahlen.</p>
+                     <p>3. Die Kinder von Eingekauften werden nicht automatisch nutzungsberechtigt, sondern müssen sich selber einkaufen.</p>
+                     <p>4. Ein Fremder, der eine Buchserin heiratet und sich niederlassen will, muss beweisen, dass er frei ist, und 20 Gulden bezahlen.</p>
+                     <p>5. Bei Fremden soll der Herr von Werdenberg zusammen mit der Gemeinde beschliessen, wie viel Einzugsgeld sie bezahlen müssen und ob man sie annehmen soll.</p>
+                     <p>6. Heiratet eine Buchserin einen Mann ausserhalb des Kirchspiels und möchte sie zurückkommen, darf sie das. Ihre Kinder aber müssen sich, wenn sie erwachsen sind, einkaufen.</p>
+                     <p>7. Diese Verordnungen sollen 30 Jahre gelten.</p>
+                     <p>Der Aussteller siegelt.</p>
+                  </summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <filiation type="current">Original</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Pergament</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="32.0"/>
+                              <width unit="cm" quantity="44.5"/>
+                           </dimensions>
+                           <dimensions type="plica">
+                              <width unit="cm" quantity="3.5"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <sealDesc>
+                     <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI"
+                           n="1"
+                           nontei:condition="absent"
+                           nontei:attachment="sealed on a parchment tag">
+                        <persName role="sigillant" ref="per004876a">Hans Brunner</persName>
+                     </seal>
+                  </sealDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1541-07-24">uff sontag for Jacoby</origDate>
+                     <origPlace ref="loc007863">Buchs Kirche</origPlace>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000341">Ordnung</term>
+               <term ref="key003290">Freizügigkeit</term>
+               <term ref="key000483">Einkauf</term>
+               <term ref="key003468">Einzugsgeld</term>
+               <term ref="key000110">Heirat</term>
+               <term ref="key004548">Niederlassungsrecht</term>
+               <term ref="key000330">Niederlassung</term>
+               <term ref="key000335">Nutzungsrecht</term>
+               <term ref="key003834">Gemeindegut</term>
+               <term ref="key004468">Zuzüger</term>
+               <term ref="key004192">Wohnortswechsel</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <div org="uniform" sample="complete">
+                  <pb facs="StASG_AA_3_U_12_r"/>
+                  <p>
+                     <seg>
+                        <lb/>Ich, <persName ref="per004876a">Hanns Brunner</persName>, lanndtman
+                        unnd des rats zuͦ <placeName ref="loc000326">Glaris</placeName>, jetz miner
+                           <orgName ref="org001197">heren von Glaris</orgName> landtvogt der
+                        graffschafft <placeName ref="loc007867.02">Werdenberg und her<lb break="no"
+                           />schafft Warthow</placeName>, vergich und thuͦn khund allermengklichem
+                        mit dissem brieff, das für mich komen sind die erberen unnd bescheidnen
+                           <lb/><persName ref="per005879a">Andres Gassentzer</persName>, der zit
+                           <term ref="lem000006">aman</term> zuͦ <placeName ref="loc000440"
+                           >Werdenberg</placeName>, <persName ref="per007514a">Hanß
+                           Schwartz</persName>, <persName ref="per008804a">Clauß Reß</persName>,
+                           <persName ref="per008799a">Lorentz Schmid</persName>, <persName
+                           ref="per008798a">Burckhart Gassentzer</persName>, <persName
+                           ref="per008800a">Uͦllin Scherer</persName>, <persName ref="per008805a"
+                              >And<lb break="no"/>res Thorer</persName>, <persName ref="per008801a"
+                           >Hanns Mündiner</persName>, <persName ref="per008802a">Cristan
+                           Rotennberger</persName>, <persName ref="per008803a">Johannes
+                           Schlegel</persName> ab dem <placeName ref="loc006062">Buchser
+                           Berg</placeName>, all gmeinlich an statt unnd in <lb/>namen des <term
+                           ref="lem000299">kilchspels</term> zuͦ <placeName ref="loc006100"
+                           >Buchs</placeName>, und eroffnetend mir, wie sy habennd ein brieff, der
+                        da were mit eins herren von <placeName ref="loc000440"
+                           >Werdenberg</placeName>
+                        <lb/>wüssenn und willen uffgericht und aber nun ein zit lang und ein
+                        bestimpte jar zall und were aber die zit unnd <term ref="lem006844"
+                           >jarzal</term> uss <lb/>unnd verruckt ires <term ref="lem014797.02"
+                           >inzugs</term> unnd <term ref="lem002884">satzungen</term> halb.</seg>
+                     <seg>Unnd uff semlichs, so habennd sy mich angerüfft unnd gebeten umb
+                        <lb/>hilff unnd ratt uff das sy ouch mügend by ein annderenn beliben. Unnd
+                        uff semlichs angesechen ir bit unnd nott<lb break="no"/>turfft, hab ich inen
+                        vergunt unnd verwilgot, das sy mögennd lütt vonn der ganntzenn <term
+                           ref="lem006896">gmeind</term> verordnenn unnd <lb/>verschaffenn mit
+                        vollem gwalt unnd by irenn <term ref="lem000070">eidenn</term>, da machen
+                        unnd <term ref="lem008080">ordnenn</term> ein <term ref="lem014797.02"
+                           >inzug</term> unnd <term ref="lem014798.02">gemecht</term>, darmyt
+                        <lb/>die biderben lut ouch wyssennd, woran sy sygennd. Unnd uff semlichs, so
+                        hat ein gmeind die obgemelten personen <lb/>darzuͦ verordnet unnd innen
+                        vollen gewalt gebenn, in der sach zuͦ hanndlen, ouch mit hilff und rat min
+                        als irem <lb/>oberherenn, dem also ist hernach volgennd:</seg>
+                     <seg n="1">Item des erstenn, wen ein <term ref="lem001593.04"
+                           >herschafftman</term> eins <term ref="lem000299">kilchspils</term>
+                        <term ref="lem000130">kind</term> nimpt, <lb/>der da usert dem kilchspil
+                        ist, der sol dem kilchspill gebenn an synenn nutz und fromen <measure
+                           type="currency" unit="fl" quantity="10">zechen guldin</measure>, wen er
+                        <lb/>da wil wun, weid unnd alpen nützen unnd bruchen.</seg>
+                     <seg n="2">Item und witer, wen unnd ob sach wery, das ein <term ref="lem001593"
+                              >herschafftt<lb break="no"/>man</term> welty in <placeName
+                           ref="loc006100">Buchser</placeName> kilchspil züchenn unnd nit ein <term
+                           ref="lem000674.31">kilchgnössine</term> het unnd doch welty wun, weid und
+                        alpen <lb/>nutzen unnd bruchenn, der sol dem kilchspill gebenn ann sinen
+                        nutz unnd fromen <measure type="currency" unit="fl" quantity="20">zweinzig
+                           guldinn</measure>. <lb/>Unnd <term ref="lem014799.02">uß welchem
+                           kilchspil einer zücht</term>, so unnd er mer gehalten wurdy, so mögennd
+                        die von <orgName ref="org001923">Buchs</orgName> inne ouch also
+                        halten.</seg>
+                     <seg n="3">
+                        <lb/>Item unnd ob sach wery, das einer ald der ander, die vor ald nach
+                        geschribenn stonnd, <term ref="lem014800.01">verteilte kinder</term> hetind,
+                        die söllennd <lb/>in dem <term ref="lem014797.02">inzug</term> unnd <term
+                           ref="lem014798.02">gemecht</term> nit verfasset sin. Unnd ob sy hinnach
+                        ouch in das kilchspill <term ref="lem001293">zuchen</term> weltind, so sonnd
+                        sy <lb/>sich ouch <term ref="lem002980">in kouffenn</term>.</seg>
+                     <seg n="4">Item unnd ob es sych begebe, das einer, der da were, ein <term
+                           ref="lem005091.03">frömbdling</term> usert der herschafft <placeName
+                           ref="loc000440">Werdenberg</placeName>
+                        <lb/>unnd ouch ein <term ref="lem000674.32">kilchgnösine</term> neme zuͦ
+                           <placeName ref="loc006100">Buchs</placeName> unnd welte in das <term
+                           ref="lem000299">kilchspil</term> ziechen, der sol als dan bringen von
+                        synem <lb/>oberheren, da danen er dan zücht, brieff unnd sigell, das er da
+                        erlich unnd redlich abgescheidenn sy unnd dan den <lb/>selbigen brieff selbs
+                        personlich einem heren zuͦ <placeName ref="loc000440">Werdenberg</placeName>
+                        uberantwurten und wen er dan das thun hat, so soll <lb/>er geben einem
+                        kilchspil an sinen nutz und fromen <measure type="currency" unit="fl"
+                           quantity="20">zweinzig guldin</measure> und darby belibenn.</seg>
+                     <seg n="5">Item wen einer oder mer, die da <lb/>frömbd werend, in das kilchspil
+                        zuͦ <placeName ref="loc006100">Buchs</placeName> züchenn wöltind unnd doch
+                        gar frömbd werind, das selbig sol dan ston an einem <lb/>heren zu <placeName
+                           ref="loc000440">Werdenberg</placeName> und an einem kilchspil zu
+                           <placeName ref="loc006100">Buchs</placeName>, was die selbigen geben
+                        söllind und ob man sy anneme alder nit.</seg>
+                     <seg n="6">
+                        <lb/>Item unnd wen es sich begebe, das eins kilchspils <term ref="lem000130"
+                           >kind</term> usert das lanndt <term ref="lem001569">manoty</term> unnd in
+                        das <term ref="lem000299">kilchspil</term> widerumb <lb/>begerte unnd <term
+                           ref="lem001293">züchen</term> welty, das mags wol thuͦn, doch mit dem
+                        beding und underscheid, wen ir der man <term ref="lem014801.01">mit tod
+                           abgangen</term>
+                        <lb/>wery und kein kinder mit iren bringt. Unnd aber ob sach wery, das sy
+                        kinder mit iren bringt, so mag sy die <lb/>kindlin wol by iren han unnd
+                        ufferziechen. Und wan dan die selbigen kinder uff komennd und ouch wun, weid <choice>
+                           <sic>und <lb/>und</sic>
+                           <corr>und</corr>
+                        </choice> alpen bruchen weltind, so söllend sy sich ouch <term
+                           ref="lem002980">in kouffen</term> in das kilchspil. Doch ob sy kinder
+                        vorhin hete in dem <lb/>kilchspill gehept, den selbigen allweg one schadenn
+                        unnd unvergriffenlich.</seg>
+                     <seg n="7">Ouch diß <term ref="lem014798.02">gemecht</term> weren nach dato diß
+                        brieffs <lb/><date dur="P30Y">drissig jar</date>.</seg>
+                     <seg>Unnd des alles zu warem urkund, so habennd sy mich algmeinlich unnd
+                        einhellenklich zu <origPlace ref="loc007863.01">Buchs</origPlace> in der
+                           <term ref="lem000240">kilchen</term>
+                        <lb/>mit vlis unnd ernst erbetenn, das ich min eigen insygell darunder
+                        gehenckt hab, doch minen gnedigen heren <choice>
+                           <sic>vonn <lb/>von</sic>
+                           <corr>von</corr>
+                        </choice>
+                        <orgName ref="org001197">Glaris</orgName> an iren gerechtigkeiten unnd
+                        fryheiten, ouch mir und minen erben alweg one schaden, der geben ist uff
+                           <lb/><origDate when="1541-07-24">sontag for <persName ref="per000208"
+                              >Jacoby</persName>, als man zalt von der gepurt Cristy tusend
+                           fünffhundert viertzig unnd ein jar.</origDate>
+                     </seg>
+                  </p>
+                  <pb facs="StASG_AA_3_U_12_v"/>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab type="dorsal" place="verso" hand="hand16c">
+                     <lb/>Buchser <term ref="lem000809">ordnung</term>
+                     <choice>
+                        <sic>unnd <lb/>unnd</sic>
+                        <corr>unnd</corr>
+                     </choice> satzung brieff <lb/><handShift/>1541 </ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab type="archiving reference" place="verso">
+                     <lb/>B; <del>N. 119</del> No <del>189</del>; Werd N<hi rend="sup">o 12</hi>
+                  </ab>
+               </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div n="1" org="uniform" sample="complete">
+            <p>Die unentgeltliche <term ref="key000336">Nutzung</term> der <term ref="key003834">Gemeindegüter</term> durch <term ref="key004468">Zuzüger</term> wird für die <term ref="key004966">Gemeinden</term> zunehmend zum Problem, weshalb sie bei der Aufnahme von <term ref="key000325">Fremden</term> als <term ref="key000314">Hintersassen</term> oder als
+     Gemeindsgenossen mitbestimmen sowie ein sogenanntes <term ref="key003468">Einzugsgeld</term>
+     erheben wollen, das die Gemeindsgenossen für die Nutzung der Gemeindegüter durch die Neuzuzüger
+     entschädigen soll (vgl. auch <ref>SSRQ_SG_III_4_109</ref>;
+      <ref>SSRQ_SG_III_4_133</ref>; <ref>SSRQ_SG_III_4_165</ref>).</p>
+         </div>
+         <div n="2" org="uniform" sample="complete">
+            <p>Zur Aufnahme Fremder und Hintersassen sowie zum Einkaufsgeld in <placeName
+               ref="loc000198">Buchs</placeName> vgl. <bibl><ref>GA Sevelen U 1775</ref></bibl>;
+               <bibl><ref>StASG AA 3 A 07-4</ref></bibl>; <bibl><ref
+                  target="https://archivverzeichnis.gl.ch/home/#/content/5c4b566b99e24277b4a3f5b6fe9f00d9"
+                  >LAGL AG III.2417:031</ref>; <ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/3d5892ad10434148b9f3073a65408bee"
+                     >AG III.2429:101</ref>; <ref
+                        target="https://archivverzeichnis.gl.ch/home/#/content/1e106f20d26a493fac5575d850c4d079"
+                        >AG III.2463:010</ref>; <ref
+                           target="https://archivverzeichnis.gl.ch/home/#/content/cca0c08899a74ce392aebae1e09610e4"
+                           >AG III.2417:039</ref></bibl>; <bibl><ref>PGA Sevelen Nr. 8</ref></bibl>;
+               <bibl><ref>PGA Buchs U 27</ref></bibl>.</p>
+            <p>Zu Hintersassen in der Landvogtei <placeName ref="loc000440">Werdenberg</placeName>
+               im allgemeinen bzw. zu einzelnen Gemeinden vgl. <bibl><ref>PGA Sevelen
+                  B01</ref></bibl>; <bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/236ebbb5440c4a7badbdffe32b93d995"
+                     >LAGL AG III.2463</ref></bibl>; <ref>SSRQ_SG_III_4_184</ref>; <bibl><ref
+                        target="https://archivverzeichnis.gl.ch/home/#/content/b41b957dcef148e9b5d8a7d1c6f1cfd0"
+                        >LAGL AG III.2421:045</ref></bibl>; <bibl><ref>OGA Sevelen U 1775</ref></bibl>;
+               <bibl><ref>PGA Sevelen C10</ref></bibl>; <bibl><ref>OGA Grabs O 1749-1</ref>;
+                  <ref>O 1751-1</ref></bibl>; <bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/c20e7502ed124b70abb604206253961e"
+                     >LAGL AG III.2417:017</ref></bibl>; <bibl><ref>OGA Grabs O 1763-1</ref></bibl>;
+               <ref>SSRQ_SG_III_4_227</ref>; zur Stadt siehe
+               <ref>SSRQ_SG_III_4_115</ref>.</p>
+            <p>Zu Hintersassen in <placeName ref="loc000278">Sax-Forstegg</placeName> vgl.
+               <ref>SSRQ_SG_III_4_109</ref>; <ref>SSRQ_SG_III_4_111</ref>;
+               <ref>SSRQ_SG_III_4_135</ref>; <bibl><ref>StASG AA 2a U 33</ref></bibl>;
+               <bibl><ref>StAZH A 346.4, Nr. 58</ref></bibl>; <bibl><ref>StASG
+                  AA 2a U 33</ref></bibl>; <bibl><ref>EKGA Salez 32.01.19, Zivilstandssachen</ref></bibl>. </p>
+            <p>Zu Hintersassen in <placeName ref="loc006040">Hohensax-Gams</placeName> vgl.
+               <ref>SSRQ_SG_III_4_133</ref>; <bibl><ref>OGA Gams Nr. 163</ref></bibl>.</p>
+         </div>
+      </back>
+   </text>
+</TEI>

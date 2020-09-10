@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+
+			</titleStmt>
+
+			<publicationStmt>
+				<date type="electronic" when="2019-05-29"/>
+				<date type="print"/>
+			</publicationStmt>
+
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ_FR_I_2_8_0058_008</idno>
+			</seriesStmt>
+
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<idno>StAFR, Thurnrodel 11, S. 303-305</idno>
+					</msIdentifier>
+					<head>Françoise Dévaud-Clerc – Verhör / Interrogatoire</head>
+					<msContents>
+						<summary></summary> 
+						<msItem>
+							<textLang>fr</textLang> 
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support>
+									<material></material>
+								</support>
+								<extent>
+									<dimensions type="leaves">
+										<height unit="cm" quantity="0.0"/>
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+									<dimensions type="plica">
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+								</extent>
+							</supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1623-05-16"></origDate>
+							<origPlace></origPlace>
+						</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+							
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		
+		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+			<particDesc default="false"/>
+			<settingDesc default="false"/>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="303"/><p><lb/>Im <placeName ref="loc007683.03">bosen turn</placeName> 
+							<seg><origDate when="1623-05-16">16 <foreign xml:lang="la">maii</foreign> <hi rend="underline">1623</hi></origDate></seg>
+							<seg><foreign xml:lang="la">Judex</foreign> <abbr>h</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per009249">Daniel von Montenach</persName>.</note></seg>
+							<seg><lb/><abbr>H</abbr> <persName ref="per006751">Erhart</persName></seg>
+							<seg><lb/><persName ref="per009251">Känel</persName>, <persName ref="per009462">Gribolet</persName></seg>
+							<seg><lb/><persName>Braliard</persName><note>Gemeint ist wohl Ratsherr <persName ref="per009463">Peter Braillard</persName>.</note><!-- vermutlich Peter Bralliard, CC Au --></seg>
+							<seg><lb/><choice><abbr>W</abbr><expan>Weibel</expan></choice></seg></p>
+						
+					<p><seg><lb/><add place="left margin"><foreign xml:lang="la">Nihil solvit</foreign>.</add></seg> 
+						<seg><persName ref="per009453a.01">Franceysa Clerc</persName> a librement confessé sans 
+						<lb/>torture, que s’estant mariee a <persName ref="per009454a.01">Pierre Devaux</persName>, 
+						<lb/>lequel l’avoit prinse la pluspart, pour avoir 
+						<lb/>entendu qu’elle avoit quelque argent, dont quel<lb break="no"/>que temps aprés le luy demandoit, et n’en 
+						<lb/>ayant point pour luy donner, il commença 
+						<lb/>delors la mal traitter et batre&#160;; qu’a esté 
+						<lb/>cause que l’environ <date dur="P3Y">trois ans</date>, l’ayant 
+						<lb/>bien battu, elle se partit de luy, et errant 
+						<lb/><date dur="P3D">trois</date> ou <date dur="P4D">quatre jours</date> par les champs et 
+						<lb/>bois toutte desolée, s’apparu a elle un 
+					<pb n="304"/><lb/>homme noir, estant en un bois pres d’<placeName>Avri</placeName><note>L’identification du lieu est incertaine. Il pourrait s’agir d’<placeName ref="loc007678">Avry-devant-Pont</placeName> ou <placeName ref="loc008116">Avry-sur-Matran</placeName>.</note>, 
+						<lb/>lequel luy dit, qu’elle avoit&#160;?</seg> <seg>Et luy ayant 
+						<lb/>compté comme son mari la battoit, <del>et</del> 
+						<lb/>luy dit qu’elle se debvoit donner a luy, 
+						<lb/>et qu’il fairoit que son mari ne la bat<lb break="no"/>troit plus, disant estre <persName>Sathan</persName>. Et s’ayant 
+						<lb/>donné a luy et touché l’un la main 
+						<lb/>de l’aultre, vouloit jouir d’elle et 
+						<lb/>la faire rennier Dieu. Mais faisant 
+						<lb/>refus et la croix, ledit <term ref="lem015433.06">malin</term> <subst><del>disp</del> 
+						<lb/><add place="inline">s’evanouit</add></subst>. Mais se representant <add place="above">a elle</add> in<lb break="no"/>content aprés et la sollicitant derechef, 
+						<lb/>elle rennia Dieu et fit hommeage a 
+						<lb/><persName>Sathan</persName>, que s’appelloit <persName>Grabié</persName>, le baisant 
+							<lb/>et luy la <term ref="lem018895.09">marquant</term> desoubs l’ongle 
+						<lb/>du doy de la main droite. Allors 
+						<lb/>son maistre luy donna cents florins, 
+							<lb/>qu’en aprés furent que <term ref="lem018302.04">feuilles</term> de <term ref="lem016908.06">chesne</term>.</seg> 
+						<seg><lb/>Puis aprés elle a dit son maistre luy avoir 
+							<lb/>voulu donner de la <term ref="lem018382.02">graise</term>, mais ne la 
+						<lb/>voulant prendre, la battit tant, que la 
+						<lb/>laissa comme <term ref="lem015267.02">pasmee</term>. Touttefois elle a re<lb break="no"/>ceu de luy du <term ref="lem014886.02">pusset</term>, lequel a jetté 
+						<lb/>dans un bois, affin de ne nuire a personne. 
+						<lb/>Pourtant elle a esté avec <persName>David Sauvey</persName> et 
+						<lb/><persName>Anne</persName>, <subst><del>exce</del><add place="inline">executés</add></subst> a <placeName ref="loc007610">Payerne</placeName>, une seule 
+							<pb n="305"/>fois en la <term ref="lem017043.01">secte</term> au <placeName ref="loc008570.03">Crouz Pellison</placeName>. La ou ce 
+						<lb/>qu’on dansoit, mais n’y a cogneu aultre que 
+						<lb/>lesdits executés.</seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+
+
+
+<?oxy_options track_changes="on"?>

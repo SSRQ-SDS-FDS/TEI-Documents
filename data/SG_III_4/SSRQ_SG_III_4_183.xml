@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-08-19"/>
+            <date type="print"/>
+            <availability default="false">
+               <p xml:id="facs">Staatsarchiv St. Gallen (StASG)</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_183_1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>StASG AA 2 A 11-1-9</idno>
+                  <altIdentifier>
+                     <idno>StASG AA 2 A 11-1</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <head>Die beiden Landvögte von Sax-Forstegg und Werdenberg-Wartau vereinbaren mit
+                  Amtleuten aus dem Rheintal eine Tarifordnung für den Getreidetransport von
+                  Monstein bis ins Sarganserland</head>
+               <msContents>
+                  <summary>
+                     <p>Hans Konrad Bodmer, Landvogt von Sax-Forstegg, und Hauptmann Jakob Feldmann,
+                        Landvogt von Werdenberg-Wartau, einigen sich in Anwesenheit von Landammann
+                        Roduner mit Amtleuten aus dem Rheintal über die Tarife für den
+                        Getreidetransport von Monstein bis ins Sarganserland.</p>
+                  </summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <filiation type="current">Aufzeichnung (Einzelblatt)</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="29.0"/>
+                              <width unit="cm" quantity="20.5"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1651-08-08"/>
+                     <origPlace>Oberriet</origPlace>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key004591">Fuhr</term>
+               <term ref="key000765">Fuhrmann</term>
+               <term ref="key004243">Kaufmann</term>
+               <term ref="key000814">Tarif</term>
+               <term ref="key000699">Transport</term>
+               <term ref="key004352">Transportweg</term>
+               <term ref="key000350">Getreide</term>
+               <term ref="key000817">Vertrag</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <div>
+                  <pb facs="StASG_AA_2_A_11-01-09_01"/>
+                  <p><lb/>Den <origDate when="11651-08-08">8. august anno 1651</origDate>, <lb/>in <origPlace
+                     ref="loc006007.05">Oberrieth</origPlace>.<note>Das Dokument ist zweispaltig und die Datierung findet sich in der linken Spalte.</note></p>
+                  <p><lb/>Contract uff <date dur="P2Y">2
+                     jahr</date> angenommen</p> <p><lb/>von herren <persName ref="per009975">Hanß Conrad
+                        Bodmer</persName>, <lb/>landtvogt der freyen herschafft <placeName ref="loc000278"
+                           >Sax <lb/>und Vorstekh</placeName>,</p> <p><lb/>herren haubtmann <persName
+                              ref="per002425">Jacob Feldtman</persName>, landt<lb break="no"/>vogt der
+                              herschafft <placeName ref="loc007867">Werdenberg und <lb/>Wartauw</placeName>, in
+                              bey weßen herren <lb/>landtaman <persName ref="per009976">Roduners</persName>.</p>
+                  <p><lb/>Von den ambtleüthen <abbr>h</abbr>
+                     <choice>
+                        <abbr> a</abbr>
+                        <expan>ammann</expan>
+                     </choice>
+                     <persName ref="per009977">Michel <lb/>Cappell</persName> von <placeName
+                        ref="loc006726">Widnauw und Haßlach</placeName>, <lb/><abbr>h</abbr> haubtman und
+                     hoffaman <persName ref="per007299">Caspar <lb/>Dietschi</persName>, <abbr>h</abbr>
+                     <persName ref="per007394a">Ambrosy Wüsten</persName>, <lb/><choice>
+                        <abbr>sekhlm</abbr>
+                        <expan>sekhelmeister</expan>
+                     </choice>
+                     <persName ref="per007491a">Jacob Lüchinger</persName>, <choice>
+                        <abbr> a</abbr>
+                        <expan>ammann</expan>
+                     </choice>
+                     <persName ref="per009978a">Lucas <lb/>Thurnherr</persName>,</p> <p><lb/>die <term
+                        ref="lem015778.02">khorn fuor</term> von dem <placeName ref="loc006988"
+                           >Monstein</placeName> ins <lb/><placeName ref="loc000925.32">Oberland</placeName>
+                        betreffend.
+                        Ist der <term ref="lem003533">tax</term></p>
+                  <p><lb/>von <placeName ref="loc006988">Monstein</placeName> biß in den <placeName
+                     ref="loc000950">Senwald</placeName></p>
+                  <p><lb/><hi rend="underline">vom <term ref="lem005895">malter</term></hi>
+                     <measureGrp><measure type="currency" unit="bz" quantity="7">7 bz</measure>
+                        <measure type="currency" quantity="2" unit="xr">2 kr</measure></measureGrp>;</p>
+                  <p>
+                     <lb/>biß gehn <placeName ref="loc006042">Sax</placeName>
+                     <measure unit="bz" type="currency" quantity="9">9 bz</measure>;</p>
+                  <p>
+                     <lb/>biß gen <placeName ref="loc000211">Gambß</placeName>
+                     <measure quantity="11" type="currency" unit="bz">11 bz</measure>.</p>
+                  <p>
+                     <lb/>Gen <placeName ref="loc000335">Grabs</placeName>, <placeName ref="loc000016"
+                        >Werdenberg</placeName>, <placeName ref="loc000198">Buchß</placeName> und
+                     <lb/><placeName ref="loc006060">Altendorff</placeName>
+                     <measureGrp><measure unit="bz" type="currency" quantity="11">11 bz</measure>
+                        <measure quantity="1" type="currency" unit="xr">1 kr</measure></measureGrp>.</p>
+                  <p>
+                     <lb/>Gehn <placeName ref="loc000708">Sevelen</placeName> vom sackh
+                     <measureGrp><measure unit="bz" type="currency" quantity="12">12 bz</measure>
+                        <measure quantity="3" type="currency" unit="xr">3 kr</measure></measureGrp>;</p>
+                  <p>
+                     <lb/>biß in <placeName ref="loc006199.03">Holenwegh</placeName>
+                     <measure type="currency" unit="fl" quantity="1">1 </measure>;</p>
+                  <p>
+                     <lb/>biß gen <placeName ref="loc000123">Atzmas</placeName>
+                     <measureGrp><measure quantity="1" unit="fl" type="currency">1 </measure>
+                        <measure type="currency" unit="bz" quantity="2">2 bz</measure></measureGrp>.</p>
+                  <p><seg>
+                     <lb/>So dan ist hierbey abgeredt und resolute preservirt, dass alle und jede
+                     <lb/><term ref="lem003177">fuor leüth</term>, welche dergleichen <term
+                        ref="lem001371">ledinen</term> annemen und laden wurden, <lb/>die sollen selbige
+                     als <term ref="lem002887.12">khauffmans wahr</term> lifferen und fertigen <lb/>in
+                     obbesagtem <term ref="lem002332">fuor lohn</term>. Welcher dan ein oder den andern
+                     steigern <lb/>wurde, der solle den fuor lohn dißer herschafften <del>vor</del> an
+                     ihren costen <lb/>verfallen sein.</seg>
+                     <seg>So dan sollen die <term ref="lem001322.21">khauff leüth</term> nit befuegt sein,
+                        bey obiger <lb/>straff, die <term ref="lem003177">fuor leüth</term>
+                        <del>od</del> gedingen oder abzefertigen.</seg>
+                  </p>
+                  <pb facs="StASG_AA_2_A_11-01-09_02"/>
+               </div>
+               
+            </body>
+         </text>
+      </group>
+      <back>
+         <div n="1"><p>Aus verkehrspolitischer Sicht liegt die Region <placeName ref="loc000962">Werdenberg</placeName>
+               an der Transitverbindung auf der linken Rheinseite vom <placeName ref="loc000096"
+                  >Bodensee</placeName> über den <placeName ref="loc000422">Schollberg</placeName>
+               nach <placeName ref="loc000026">Walenstadt</placeName> und <placeName ref="loc000065"
+                  >Zürich</placeName> bzw. über <placeName ref="loc000010">Sargans</placeName> nach
+                  <placeName ref="loc000007">Chur</placeName>. Bei <placeName ref="loc000211"
+                  >Gams</placeName> befindet sich ein Übergang Richtung Westen ins <placeName
+                  ref="loc000782">Toggenburg</placeName>. Die Hauptverkehrsachse läuft jedoch über
+               die rechte Rheinseite. Dies schlägt sich auch in den Quellen nieder. Über das <term
+                  ref="key000699">Transportwesen</term> finden sich – z. B. im Gegensatz zum
+                  <placeName ref="loc000925">Sarganserland</placeName>, durch das die wichtige <term
+                  ref="key004241">Handelsroute</term> von Zürich über den <placeName ref="loc000097"
+                  >Walensee</placeName> nach Chur führte – nur wenige Quellen. Zur Schollbergstrasse
+               vgl. Krumm (erscheint 2020), Die Kunstdenkmäler der Region Werdenberg, Kap. Wartau
+               (Gemeinde), Bauten, Schollbergstrasse.</p></div>
+         <div n="2"><p>Folgendes Stück ist ein <term ref="key000817">Vertrag</term> zwischen den beiden Landvögten von
+            <placeName ref="loc007867">Werdenberg-Wartau</placeName> und <placeName ref="loc000278"
+               >Sax-Forstegg</placeName> sowie den <term ref="key000065">Amtleuten</term> aus dem
+            <placeName ref="loc001075">Rheintal</placeName> über die <term ref="key000764"
+               >Taxen</term> für den <term ref="key000699">Transport</term> von <term ref="key000350"
+                  >Getreide</term> von <placeName ref="loc006988">Monstein</placeName> bis in das
+            <placeName ref="loc000925">Sarganserland</placeName>. <date when="1651-08-08">Am
+               gleichen Tag</date> einigen sich die beiden Landvögte auch mit <persName ref="per007334"
+                  >Hans Peter Steiner</persName>, Landvogt im Rheintal, dem <term ref="key003580"
+                     >Vogt</term> des Abtes von <placeName ref="loc000083">St. Gallen</placeName> auf
+            <placeName ref="loc006404.01">Blatten</placeName> und den Verordneten der beiden <term
+               ref="key000109">Städte</term>
+            <placeName ref="loc000650">Rheineck</placeName> und <placeName ref="loc000439"
+               >Altstätten</placeName> sowie der <term ref="key004478">Höfe</term> des <placeName
+                  ref="loc007046">unteren</placeName> und <placeName ref="loc006256">oberen
+                     Rheintals</placeName> auf weitere Punkte zum <term ref="key000699"
+                        >Transportwesen</term> (<ref>StASG&#160;AA&#160;2&#160;A 13-5-4</ref>): </p>
+            <p>1. Alle <term ref="key000188">Strassen</term> und <term ref="key000728">Wege</term> von
+               <placeName ref="loc000650">Rheineck</placeName> zum <placeName ref="loc006988"
+                  >Monstein</placeName> durch die <placeName ref="loc006010">Au</placeName>, <placeName
+                     ref="loc000073">Rüti</placeName> und über den <placeName ref="loc000422"
+                        >Schollberg</placeName> sollen verbessert werden, damit man diese im <term
+                           ref="key000917">Sommer</term> und im <term ref="key000702">Winter</term> befahren kann. </p>
+            <p>2. Stadtammann <persName ref="per007335a">Hans Jakob Bärlocher</persName> soll bei den
+               <orgName ref="org002906">Drei Bünden</orgName> um die «Gegenfuhr» anhalten. </p>
+            <p>3. Wenn mehrere <term ref="key000765">Fuhrleute</term> von <placeName ref="loc000650"
+               >Rheineck</placeName> aus fahren, soll jeder unterwegs einen Fuhrman bestimmen, sei es in der
+               Landvogtei <placeName ref="loc000278">Sax-Forstegg</placeName> oder in <placeName
+                  ref="loc007867">Werdenberg-Wartau</placeName>, der ihm Kaution und <term ref="key000499"
+                     >Bürgschaft</term> geben und die Fuhr übernehmen soll. Einer davon soll bis <placeName
+                        ref="loc000007">Chur</placeName> mitfahren und die Bescheinigungen dem <term ref="key000908">Faktor</term> nach <placeName
+                           ref="loc000650">Rheineck</placeName> bringen. </p>
+            <p>4. Wer in Chur eine «Gegenfuhr» aufnimmt, soll diese nach <placeName ref="loc000650"
+               >Rheineck</placeName> bzw. an den Bestimmungsort liefern. </p></div>
+         <div n="3"><p><date when="1781">1781</date> vergleichen sich Hofammann <persName ref="per009979"
+                  >Lüchinger</persName> von <placeName ref="loc006007.01">Oberriet</placeName> und
+               die Richter <persName ref="per009981">Andreas Berger</persName> von <placeName
+                  ref="loc000691">Salez</placeName> und <persName ref="per009982">Andreas
+                  Göldi</persName> von <placeName ref="loc000950">Sennwald</placeName>: Der
+               Hofammann verspricht für sich und die <orgName ref="org002605">Oberrieter</orgName>,
+               dass sie vier Fünftel des <orgName ref="org001197">Glarner</orgName>
+               <term ref="key000350">Getreides</term> in <placeName ref="loc000278"
+                  >Sax-Forstegg</placeName> abladen; den Rest führen sie selbst durch die
+               Herrschaft. Die Salezer und Richter <persName ref="per009983a">Göldi</persName>s
+               Sohn, der Schmied, sollen jedoch verpflichtet sein, zu jeder Zeit die Ware sofort
+               weiterzuführen und an den Bestimmungsort zu liefern. Ausgenommen vom Vertrag ist das
+                  <placeName ref="loc000001">Pfäferser</placeName> Getreide, das Hofammann <persName
+                  ref="per009979">Lüchinger</persName> jederzeit selbst durchführen darf
+            (<bibl><ref>StAZH&#160;A&#160;346.6,&#160;Nr.&#160;198</ref></bibl>). Trotz des Vergleichs kommt es wenige Jahre später zum sogenannten Saxer Fuhrstreit (<date from="1785" to="1787">1785–1787</date>), in dem der Speditor
+                  <persName ref="per009979">Lüchinger</persName> aus <placeName ref="loc006007"
+                  >Oberriet</placeName> erfolglos versucht, den Transit der Waren in das <placeName
+                  ref="loc000925">Sarganserland</placeName> ohne Umladepflicht in <placeName
+                  ref="loc000691">Salez</placeName> oder <placeName ref="loc000950"
+                  >Sennwald</placeName> durchzusetzen (<bibl><ref>StAZH A 346.6</ref>, Nr.
+                  234ff</bibl>; Literatur: <bibl><ref
+                     target="http://permalink.snl.ch/bib/chbsg000141314">Kreis 1923</ref>, S.
+                  102–107</bibl>; <bibl><ref target="http://permalink.snl.ch/bib/chbsg000110853"
+                     >Kuster 1991</ref>, S. 53</bibl>). </p>
+            <p>Zum Handel mit Getreide vgl. auch <bibl><ref>OGA&#160;Gams&#160;Nr.&#160;126</ref></bibl>;
+               <bibl><ref target="https://archivverzeichnis.gl.ch/home/#/content/7fedf2ffb92b4a628ba3212a47091dba">LAGL AG III.2467:008</ref></bibl>; <ref>SSRQ_SG_III_4_254</ref>;
+               <ref>SSRQ_SG_III_4_257</ref>.</p></div>
+         <div n="4">
+            <p>Zu <term ref="key000831">Zolltarifen</term> vgl. <ref>SSRQ_SG_III_4_188</ref>;
+               <ref>SSRQ_SG_III_4_226</ref>; <ref>SSRQ_SG_III_4_245</ref>;
+               <ref>SSRQ_SG_III_4_254</ref>.</p></div>
+      </back>
+   </text>
+</TEI>
+

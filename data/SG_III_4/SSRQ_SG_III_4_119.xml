@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-08-15"/>
+            <date type="print"/>
+            <availability><p xml:id="facs">Sibylle Malamud</p></availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_119</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno source="https://archivverzeichnis.gl.ch/home/#/content/761b72ffa33f4a11984fcac078cee6ee">LAGL AG III.2412:023</idno>
+                  <altIdentifier>
+                     <idno>LAGL VIII.</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <head>Abschrift einer vidimierten Urkunden für Paul Erni und Heinrich Gasenzer von Buchs über die Färberei in Buchs</head>
+               <msContents>
+                  <summary>
+                     <p>24. Februar 1588: Der Werdenberger Landvogt Rudolf König vidimiert Paul Erni folgende Urkunde, deren Original unleserlich geworden ist. Der Aussteller siegelt.</p>
+                     <p>23. Dezember 1540: Der Werdenberger Landvogt Johannes Brunner stellt Heinrich Gasenzer von Buchs und seinen Nachkommen einen Freiheitsbrief für ihre Färberei in Buchs aus. Fortan soll in der Landvogtei Werdenberg keine weitere Färberei eingerichtet werden. Gasenzer muss sich beim Lohn an den Lohn der Stadt Feldkirch halten und jährlich einen Schilling Zins ins Schloss Werdenberg bringen. Sollte Gasenzer jemals nachlässig arbeiten, bleibt es Glarus vorbehalten, den Freiheitsbrief zu kassieren. Der Aussteller siegelt.</p>
+                  </summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <filiation type="original">
+                        <origDate from="1540-12-23" to="1588-02-24"/>
+                        <idno></idno>
+                     </filiation>
+                     <filiation type="current">Abschrift (Doppelblatt, 2 Seiten beschrieben)</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="32.5"/>
+                              <width unit="cm" quantity="21.0"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate from="1601-01-01" to="1700-12-31"/>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key001106">Färber</term>
+               <term ref="key000967">Färberei</term>
+               <term ref="key000619">Freiheitsbrief</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <div org="uniform" sample="complete">
+                  <pb n="1" facs="LAGL_AG_III.2412-023_1"/>
+                  <head>Abschrifft eines besigleten brieffs</head>
+                  <p>
+                     <seg>
+                        <lb/>Ich, <persName ref="per008730a">Ruodolff Küng</persName>, landtman und deß raths
+        zu <placeName ref="loc000326">Glaruß</placeName>, auch jetz <lb/>meiner gnädigen <orgName ref="org001197">herren von Glarus</orgName> landtvogt der graffschafft <lb/>
+                        <placeName ref="loc000440">Werdenberg</placeName> und herrschafft <placeName ref="loc000827">Wartauw</placeName>, beken und thun kundt aler<lb break="no"/>menigklichen offenbar mit
+        dißem brieff, dz uff den tag seines <lb/>dato für mich komen und erschinen ist der ehrbar
+        und bescheiden <lb/>meister <persName ref="per008731a">Pauli Ärne</persName>, zeigt an, wie
+        er ein <term ref="lem001776.23">freiheitsbrieff</term>, welcher <lb/>an <term ref="lem001178.02">geschrifft</term>, <term ref="lem002976.02">berment</term> und <term ref="lem002109">sigel</term> gantz <term ref="lem014783.02">verargwänig</term>, darnebet
+        aber <lb/>gantz tunkel und unbekant zu leßen, beth mich der halben <lb/>undertänig und
+        dienstlich, im deß einen gläüblichen <term ref="lem002888.02">videmuß</term>
+                        <lb/>under meinem insigel zu geben. Und die wil nun ich solchen brieff <lb/>geleßen, so hab
+        ich seinem begehren nach zu gelaßen und bevolen, <lb/>dz er solchen brieff abvidemieren
+        solte, dz er gethon, und wist <lb/>von wort zu wort also:</seg></p>
+                     <p><seg>
+                        <lb/>Ich, <persName ref="per004876">Johanis Bruner</persName>, landtman und
+                        deß raths zu <placeName ref="loc000326">Glarus</placeName>, der zeit
+                        <lb/>meinen <abbr>g</abbr>
+                        <orgName ref="org001197">herren von Glarus</orgName> landtvogt der
+                        graffschafft <placeName ref="loc000440">Werdenberg</placeName>
+                        <lb/>und herrschaft <placeName ref="loc000827">Wartau</placeName>, beken und
+                        thun kundt alermenigklichen <lb/>mit dißem brieff, wie dz vor mir erschinen
+                        der ehrwürdig <lb/>herr <persName ref="per008732">Heinrich
+                           Gasentzer</persName>, seßhafft zu <placeName ref="loc000198"
+                           >Buchs</placeName>, da ich zu meinen <lb/>herren inhin han wolen, die
+                           <term ref="lem014764">jarrechnig</term> han wolen thun, hat <lb/>mich
+                        also fründlich gebeten, dz ich so wol täte und meine herren <lb/>ernstlich
+                        bite, dz im die <term ref="lem000389.01">färbe</term> zu <placeName
+                           ref="loc000198">Buchs</placeName>, gelegen bei dem <term ref="lem001505"
+                           >see</term>, <lb/>
+                        <term ref="lem006555">freiend</term>.</seg>
+                     <seg>Nachdem so han obgenamter landtvogt von seines <lb/>ernstlichen bits wegen
+                        meinen herren solches anzeigt, uff solches so <lb/>sind meine herren so
+                        güötig gsin und hand im die <term ref="lem000389.02">farb</term> günstig<lb
+                           break="no"/>klich gefreit und alen seinen nachkomenden und mit namen
+                        <lb/>einem <term ref="lem014784.02">landtaman mitsambt den
+                           fünffzecher</term> deß <orgName ref="org001211">raths zu
+                           <lb/>Glarus</orgName> uff der <term ref="lem001449.02">rathstuben</term>
+                        und dz also in solcher gestalt und <lb/>bescheidenheit, daß nun fürhin kein
+                        andere farb in der graff<lb break="no"/>schafft <placeName ref="loc000440"
+                           >Werdenberg</placeName> weder gebauen noch uffgericht sole werden,
+                        <lb/>sonder bei der bliben. Alein doch söle obgenanter herr <persName
+                           ref="per008732">Heinrich <lb/>Gasentzer</persName>, ale seine nachkomende
+                        und besitzer der farb oder <lb/>wer die imer besitzen wurden über kurtz oder
+                        lang zit die welt <lb/>fürderlich und wol versehen und <term
+                           ref="lem008780.03">fergen</term>, mit guten <term ref="lem014785.02"
+                           >farben</term>
+                        <lb/>dz <term ref="lem003393">handwerch</term> triben und bruchen.</seg>
+                     <seg>Und waß man den zu <placeName ref="loc000061">Feldkirch</placeName>
+                        <lb/>von <measure type="length" quantity="1" commodity="drapery" unit="Elle"
+                           >einer elen tuoch</measure> zu <term ref="lem000282">lohn</term> git und
+                        nimpt, es seie von <term ref="lem000552.10">line</term>
+                        <lb/>oder <term ref="lem014786.02">wuletüöcher</term>, dz sol er auch nemen
+                        und die welt wol <lb/>versechen zu guten treüwen ungevarlich.</seg>
+                     <seg>Darbei so solt obge<lb break="no"/>namter herr <persName ref="per008732"
+                           >Heinrich</persName> oder seine erben und nachkomen und <lb/>besitzer der
+                        farb, wer die in handen hat, meinen gnädigen <orgName ref="org001197">herren
+                           <lb/>von Glarus</orgName> und alen ihren nachkomen <measure
+                           type="currency" quantity="1" unit="ß">ein schiling pfenig</measure>
+                        <lb/><choice> <sic>järich</sic> <corr><date dur="R/P1Y">järlich</date></corr></choice> <term ref="lem000237">zinß</term> geben und dan in dz schloß <placeName
+                           ref="loc000015">Werdenberg</placeName> imer <lb/>ewigklich und jegliches
+                        jars insonders ohne ale widerredt uff <lb/>
+                        <date type="deadline" when="--11-11">sant <persName ref="per000141"
+                              >Martis</persName>tag</date> ungevarlich.</seg>
+                     <seg>
+                        <lb/>Und ob sach wär, dz die welt nit <lb/>
+                        <term ref="lem008780.03">geferget</term> wurde mit guten <term
+                           ref="lem014785.02">farben</term>, <term ref="lem004477">mangen</term> und
+                        anderen stucken, <pb n="2" facs="LAGL_AG_III.2412_023_2"/>
+                        <lb/>so den zu dem <term ref="lem003985.03">färberhandwerch</term> dienet
+                        und meinen herren oder <lb/>ihren nachkomen sämliches fürkeme oder klagt
+                        wurde, alß den, <lb/>so habend meine <orgName ref="org001197">herren von
+                           Glarus</orgName> alen gewalt und gute <lb/>recht, den <term
+                           ref="lem001776">freiheitsbrieff</term> widerum zu ihren handen zu
+                        nemen.</seg>
+                     <seg>
+                        <lb/>Deß zu wahrem urkundt, so han ich, obgenamter landtvogt <lb/>von
+                           <placeName ref="loc000326">Glarus</placeName>, im dißen brieff mit meinem
+                        eignen angehenkten <lb/>insigel besiglet und geben, doch meinen <orgName
+                           ref="org001197">herren von Glarus</orgName> an <lb/>ihrer herrlichkeit
+                        und freiheit und mir selbs und meinen erben <lb/>ohne schaden, der geben ist
+                           <origDate when="1540-12-23">am donstag vor dem heiligen wienacht<lb
+                              break="no"/>tag gezelt nach der geburt Christi fünffzechenhundert und
+                           viertzig <lb/>jar</origDate>.</seg>
+                     <seg>Und als ich, gemelter landtvogt, obgedachten brieff eigentlich
+                        <lb/>gehört, so hat mich der genamt meister <persName ref="per008731a">Pauli
+                           Ärne</persName> flißigklich <lb/>gebeten, im diß selbigen brieff ein
+                        globlich <term ref="lem002888">videmuß</term> under <lb/>meinem sigel zu
+                        geben, dz sy, wo sy deß nothürfftig werden oder <lb/>wurdens, gebruchen
+                        möchten.</seg>
+                     <seg>Und zu urkundt, so han ich, ob<lb break="no"/>genamter landtvogt, mein
+                        eigen insigel gehenckt an dißen <lb/>brieff, doch meinen <abbr>g</abbr>
+                        <orgName ref="org001197">herren von Glarus</orgName>, auch mir und meinen
+                        <lb/>erben ohne schaden, der geben ist <origDate when="1588-02-24">an sant
+                              <persName ref="per000375">Mathiß</persName> tag im jahr <lb/>von der
+                           geburt Christi gezelt fünffzechenhundert darnach <lb/>achtzig und acht
+                           jahr.</origDate>
+                     </seg>
+                  </p>
+               </div>
+               <pb facs="LAGL_AG_III.2412_023_4"/>
+               <div org="uniform" sample="complete">
+                  <ab type="dorsal" place="verso" hand="hand17c">
+                     <lb/>Abschrifft
+      <lb/>eines besiglethen
+      <lb/>brieffs</ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab place="verso" type="archiving reference">
+                     <lb/>XXIV <lb/>15<subst>
+                        <del>5</del>
+                        <add place="overwritten">8</add>
+                     </subst>8</ab>
+               </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div n="1" org="uniform" sample="complete">
+            <p>Es handelt sich hier um eine Abschrift aus dem <date from="1601-01-01" to="1700-12-31">17. Jh.</date> von einem <term ref="key003203">Vidimus</term> aus dem Jahr <date when="1588">1588</date>. Der Werdenberger Landvogt
+      <persName ref="per008730a">Rudolf König</persName> vidimiert Meister <persName ref="per008731a">Paul Erni</persName> eine Urkunde vom <date when="1540-12-23">23. Dezember 1540</date>, in
+     welcher der Werdenberger Landvogt <persName ref="per004876">Johannes Brunner</persName>,
+      <persName ref="per008732">Heinrich Gasenzer</persName> von <placeName ref="loc000198">Buchs</placeName> und seinen Nachkommen, Inhaber der <term ref="key001106">Färberbei</term>
+     am <term ref="key003557">See</term>, zusichert, dass in der Grafschaft keine weitere Färberei
+     eingerichtet werden darf.</p>
+            <p>Am <date when="1672-12-23">23. Dezember 1672</date> vidimiert <orgName
+                  ref="org001197">Glarus</orgName>
+               <persName ref="per008733a">Michael Forrer</persName> die Urkunde von <date
+                  when="1540">1540</date>, von der auch kein Original mehr erhalten ist. Die
+               Abschrift im Urbar von <date when="1754">1754</date> (<bibl><ref>StASG AA 3 B 2,
+                     S. 347–348</ref></bibl>) ist allerdings fehlerhaft: So wird irrtümlich Johannes
+               Staub anstatt <persName ref="per004876">Johannes Brunner</persName> als Aussteller
+               und Landvogt von Werdenberg genannt. Weiter heisst es, diese Urkunde sei von Landvogt
+                  <persName ref="per008730a">Rudolf König</persName>
+               <date when="1558">1558</date> vidimiert worden, doch stellte Landvogt Rudolf König
+                  <date when="1588">1588</date> für Meister <persName ref="per008731a">Paul
+                  Erni</persName> einen Vidimus aus. Ein Johannes Staub ist als Glarner Landvogt in
+               Werdenberg nicht belegt.</p>
+         </div>
+         <div n="2" org="uniform" sample="complete">
+            <p><date when="1706">1706</date> erwirbt Richter und Landesfähnrich <persName
+                  ref="per008734a">Gallus Engler</persName> von <placeName ref="loc000016"
+                  >Werdenberg</placeName> von seinem Schwager Landeshauptmann <persName
+                  ref="per008735a">David Hilty</persName> die Färberei zusammen mit der <term
+                  ref="key005154">Mange</term> mit allem Zubehör (<bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/85e11623d05e4ed088f788722b004138"
+                     >LAGL AG III.2401:044</ref>, S. 350</bibl>). <date when="1714">1714</date>
+               publiziert Glarus für Landesfähnrich <persName ref="per008734a">Gallus
+                  Engler</persName> ein <term ref="key000491">Mandat</term>, dass keine <term
+                     ref="key003022">Tücher</term> ausserhalb der Landvogtei Werdenberg gefärbt werden
+               dürfen (<bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/85e11623d05e4ed088f788722b004138"
+                     >LAGL AG III.2401:044</ref>, S. 349</bibl>). Zur Färberei vgl. auch <bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/85e11623d05e4ed088f788722b004138"
+                     >LAGL AG III.2401:044</ref>, S. 351</bibl>; <ref
+                  target="https://archivverzeichnis.gl.ch/home/#/content/d9a4f53ba173460eaa6e7f5d53fe0e78"
+                  >LAGL AG III.2463:001</ref>.</p>
+         </div>
+      </back>
+   </text>
+</TEI>

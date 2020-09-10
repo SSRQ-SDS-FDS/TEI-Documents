@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-09-17"/>
+            <date type="print"/>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_258</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>StASG HA R.1-0-3d</idno>
+               </msIdentifier>
+               <head>Glarus entlässt Werdenberg in die Freiheit</head>
+               <msContents>
+                  <summary>
+                     <p>Landammann, Rat und Landleute von Glarus urkunden, dass sie die Angehörigen der Landvogtei
+                        Werdenberg in die Freiheit entlassen. Sie behalten jedoch die Güter und lassen diese durch einen
+                       Verwalter besorgen, bis sie alles zusammen oder stückweise verkaufen. Als Schweizer sollen die
+                        Werdenberger treu bleiben und in allen Kriegszügen mit ihrer Mannschaft die Eidgenossenschaft
+                        verteidigen.</p>
+                  </summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <author role="scribe"><persName ref="per010780">Johann Balthasar Lutziger</persName>, Landschreiber</author>
+                     <filiation type="original">
+                        <origDate when="1798-03-11"></origDate>
+                     </filiation>
+                     <filiation type="current">Abschrift (Doppelblatt)</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="33.0"/>
+                              <width unit="cm" quantity="21.0"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate from="1801-01-01" to="1900-12-31"/>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key001098">Unabhängigkeit</term>
+               <term ref="key004760">Volk</term>
+               <term ref="key004482">Regierung</term>
+               <term ref="key003217">Freiheit</term>
+               <term ref="key000619">Freiheitsbrief</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <div org="uniform" sample="complete">
+                  <p>
+                     <seg>
+                        <lb/>Copia</seg>
+                     <seg>
+                        <lb/>
+                        <head>Wir, <orgName ref="org003838">landammann und rath und sämmtliche <add
+                                 place="above">gemeine</add> landleüte <lb/>des standes
+                              Glarus</orgName>, <lb/>urkunden hiemit,</head>
+                     </seg>
+                     <seg>
+                        <lb/>daß wir unsere lieb und getreüe angehörige <lb/>der grafschaft <orgName
+                           ref="org003242">Werdenberg</orgName> auf ihr schriftlich <lb/>gemachtes
+                        ansuchen für ein <term ref="lem014460">freyes</term> und unabhängiges
+                           <lb/><term ref="lem000900">volk</term> erklären und anerkennen und
+                        demselben auf <lb/>alle zeit hin überlaßen, eine selbst beständige <term
+                           ref="lem002961">regier<lb break="no"/>ung</term> aus ihrem eigenen <term
+                           ref="lem000900">volk</term> zu wählen.</seg>
+                     <seg>
+                        <lb/>Hingegen wir all in besagter grafschaft <placeName ref="loc000440"
+                              >Werden<lb break="no"/>berg</placeName> liegendes, so unserm stand
+                        gehört und gekauft <lb/>hat, so lange behalten und durch einen eigenen
+                           <lb/><term ref="lem016770.01">verwalter</term> besorgen laßen, bis es dem
+                        hohen gewalt <lb/>gefallt, selbiges zusammenhaft oder stükweise zu <term
+                           ref="lem000852">verkaufen</term>, <lb/>mit fernern hinzuthun, daß sie als
+                           <orgName ref="org002472">Schweizer</orgName> treü <lb/>bleiben und in
+                        allen <term ref="lem007247">auszügen</term> nach mehrzahl ihrer <lb/><term
+                           ref="lem003083">mannschaft</term> zur sicherheit der ganzen <placeName
+                           ref="loc000153">Eidgenoßenschaft</placeName>
+                        <lb/>sich bestmöglichst vertheidigen werden.</seg>
+                     <seg>
+                        <lb/>Urkundlich deßen haben wir obiges mit unserm <lb/>standes innsigill
+                        verwahrt und von unserm beeidig<lb break="no"/>ten landtschreiber
+                        ausfertigen laßen, den <origDate when="1798-03-11" calendar="Gregorian"
+                           >11.ten merz/28.ten febr <lb/>1798</origDate>.</seg>
+                     <seg>Sig. <persName ref="per010780"><abbr>Joh</abbr> Balthaser
+                           Lüziger</persName>, <lb/>landschreiber. <lb/><figure type="locus sigilli"
+                        />
+                     </seg>
+                  </p>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab type="archiving reference" place="above">
+                     <del>N<hi rend="sup">o</hi> 8</del>
+                  </ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab type="dorsal" place="verso" hand="hand19c">
+                     <lb/><date when="1798-03-11" calendar="Gregorian">1798, Feb. 28/11,</date>
+                     <lb/><orgName ref="org001197">Glarus</orgName>
+                     <lb/>erklärt <orgName ref="org003242">Werdenberg</orgName>
+                     <term ref="lem014460">frei</term>
+                  </ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab type="archiving reference" place="verso">
+                     <lb/>Urk A 1 <lb/>R 1 Nro <del>17<hi rend="sup">c</hi> 3<hi rend="sup">d</hi>
+                     </del>
+                  </ab>
+               </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div n="1" org="uniform" sample="complete">
+            <p>Am <date when="1798-01-31">31. Januar</date> und <date when="1798-02-01">1. Februar
+                  1798</date> werden in den <orgName ref="org003242">Werdenberger</orgName>
+               Gemeinden mit Bewilligung des Landvogts <term ref="key000561">Versammlungen</term>
+               abgehalten, in denen beschlossen wird, in jeder Gemeinde Ausschüsse zu wählen, die
+               ein Bittschreiben an <orgName ref="org001197">Glarus</orgName> überbringen sollen mit
+               dem Wunsch, in die <term ref="key003217">Freiheit</term> und <term ref="key001098"
+                  >Unabhängigkeit</term> entlassen zu werden. Weiter wird entschieden, dass niemand
+               etwas gegen die <term ref="key003233">Obrigkeit</term>, gegen <term ref="key000065"
+                  >Amtleute</term> oder <placeName ref="loc000326">Glarner</placeName>
+               <term ref="key000314">Hintersassen</term> unternehmen solle; vielmehr wolle man
+               weiterhin treu und gehorsam bleiben (<bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/cf25015b6ff841c999bf1d127be6762f"
+                     >LAGL AG III.2421:101</ref></bibl>). Trotzdem berichtet der Landvogt von
+               zunehmenden Unruhen (<bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/759fc81d5055428cb19874b2ba646002"
+                     >LAGL AG III.2421:102</ref>; <ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/a3da8542ddb94ef485d73f80e0e7bdc4"
+                     >AG III.2421:105</ref></bibl>). Am <date when="1798-02-04">4. Februar
+                  1798</date> wird das erste Bittschreiben an Glarus gesandt (dieses erscheint
+               sowohl im zeitgenössischen Druck, als auch bei der Edition von Senn unter dem Datum
+               vom 11. Februar [<bibl><ref>StASG HA R.1-0-6.2</ref>, S. 1–4</bibl>; <bibl><ref
+                  target="http://permalink.snl.ch/bib/chbsg000142777">Senn, Chronik</ref>, S.
+                  308–311</bibl>]. Reich geht davon aus, dass es sich bei Senn um einen Druckfehler
+               handeln muss und es sich um das erste Bittschreiben vom 4. Februar handelt
+                     [<bibl><ref target="http://permalink.snl.ch/bib/chbsg000141030">Reich
+                     1998</ref>, S. 43, Anm. 23</bibl>]. Der Irrtum bei Senn besteht bereits im
+               zeitgenössischen Druck, der ihm wohl als Vorlage diente. Da das zweite Bittschreiben
+               als Antwort von Glarus auf das erste Bittschreiben erfolgt, muss das Datum im
+               zeitgenössischen Druck falsch sein [Druck: <bibl><ref>StASG HA R.1-0-6.2</ref>,
+                  S. 1–4</bibl>; ediert bei <bibl><ref
+                     target="http://permalink.snl.ch/bib/chbsg000141030">Reich 1998</ref>,
+                  S. 42–43</bibl> sowie <bibl><ref
+                     target="http://permalink.snl.ch/bib/chbsg000142777">Senn, Chronik</ref>,
+                  S. 308–311</bibl>]). </p>
+            <p>Am <date when="1798-02-11">11. Februar 1798</date> wird auf die Reaktion von Glarus,
+               das nach dem ersten Bittschreiben von den Werdenbergern eine klarere Formulierung
+               ihrer Wünsche fordert, eine weitere <term ref="key003918">Bittschrift</term> an
+                  <orgName ref="org001197">Glarus</orgName> eingereicht (<bibl><ref>StASG HA
+                     R.1-0-6.2</ref>, S. 5–9</bibl>, gedruckt bei <bibl><ref
+                        target="http://permalink.snl.ch/bib/chbsg000141030">Reich 1998</ref>,
+                        S. 43–45</bibl> sowie <bibl><ref
+                           target="http://permalink.snl.ch/bib/chbsg000142777">Senn, Chronik</ref>,
+                     S. 311–315</bibl>). Am <date when="1798-02-16">16. Februar</date> äussern
+               die Werdenberger in einem Schreiben an Glarus mit deutlichen Worten ihre Enttäuschung
+               über die halbherzigen Zusagen seitens Glarus betreffend die Entlassung in die
+               Unabhängigkeit. Sie stossen sich an der Glarner Forderung, zuerst wegen der
+               obrigkeitlichen Güter in weitere Verhandlungen treten zu wollen (<bibl><ref>StASG HA
+                     R.1-0-6.2</ref>, S. 11, 13–14</bibl>; <bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/cb8bdb34a34d40daad660b7e6fce5683"
+                     >LAGL AG III.2421:106</ref></bibl>).</p>
+            <p>Am <date when="1798-03-11" calendar="Gregorian">11. März 1798</date> erhalten die
+                  <orgName ref="org003242">Werdenberger</orgName> von <orgName ref="org001197"
+                  >Glarus</orgName> ihre <term ref="key003217">Freiheit</term> unter dem Vorbehalt,
+               dass Glarus über ihre obrigkeitlichen Güter weiter bestimmt (vgl. das
+               Landsgemeindeprotokoll <bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/22acebab9be045be9a31e1564d611365"
+                     >LAGL AAA 1/87 S. 428</ref></bibl> sowie den Eintrag im Ratsprotokoll vom <date
+                  when="1798-03-08" calendar="Gregorian">8. März 1798</date> [<bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/837f4a55920f48b899ba4e7449f43fd5"
+                     >LAGL AAA 1/82</ref></bibl>]).<!--In EA nichts zu WB--> Am <date
+                  when="1798-03-22" calendar="Gregorian">22. März 1798</date> erhält der Landvogt
+               von Glarus den Auftrag, die Untertanen aus dem Eid zu entlassen (<bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/837f4a55920f48b899ba4e7449f43fd5"
+                     >LAGL AAA 1/82</ref></bibl>) und Zahlungsrückstände von Fällen, Fasnachtshennen
+               u. a. einzuziehen. Am <date calendar="Gregorian" when="1798-04-11">11. April</date>
+               wird der Landvogt durch Glarus entlassen und der Rat beschliesst, zwei Gesandte zur
+               Regelung des Übergangs nach Werdenberg zu senden (<bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/837f4a55920f48b899ba4e7449f43fd5"
+                     >LAGL AAA 1/82</ref></bibl>). Zu den geschichtlichen Ereignissen vgl.
+               ausführlich <bibl><ref target="http://permalink.snl.ch/bib/chbsg000142780"
+                     >Berger/Niederer 1897</ref>, S. 49–55</bibl> [vornehmlich nach <bibl><ref
+                        target="http://permalink.snl.ch/bib/chbsg000142777">Senn,
+               Chronik</ref></bibl>]; <bibl><ref target="http://permalink.snl.ch/bib/chbsg000143946"
+                     >Beusch 1918</ref>, S. 108–111</bibl>; <bibl><ref
+                     target="http://permalink.snl.ch/bib/chbsg000090995">Gabathuler
+                  1981</ref></bibl>; <bibl><ref target="http://permalink.snl.ch/bib/chbsg000141030"
+                     >Reich 1998</ref>, S. 36–52</bibl>; <bibl><ref
+                     target="http://permalink.snl.ch/bib/chbsg000113548">Schindler 1986</ref>,
+                  S. 326–333</bibl> sowie die Dokumente im Dossier <bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/cd40faf4221a4a6696609b60da61d4e2"
+                     >LAGL AG III.2421</ref></bibl>. Dass der Landvogt wirklich Hals über Kopf aus
+               Werdenberg geflüchtet ist, worauf Glarus seine Untertanen in die Freiheit entlässt,
+               wie dies in der Literatur nach zeitgenössischen Berichten gern dargestellt wird, kann
+               anhand der Ratsprotokolle nicht belegt werden. Landvogt Freitag bleibt zumindest bis
+               Mitte April in Werdenberg). </p>
+         </div>
+         <div n="2" org="uniform" sample="complete">
+            <p>Zur Entlassung der <orgName ref="org001881">Bewohnerschaft von
+                  Hohensax-Gams</orgName> in die Freiheit vgl. <ref>SSRQ_SG_III_4_259</ref>; zu
+                  <placeName ref="loc000278">Sax-Forstegg</placeName> vgl. Einleitung, Kapitel
+               2.12.</p>
+         </div>
+      </back>
+   </text>
+</TEI>

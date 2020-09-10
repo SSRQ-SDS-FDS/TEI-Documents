@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-08-15"/>
+            <date type="print"/>
+            <availability><p xml:id="facs">Sibylle Malamud</p></availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_101</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>(PA Hilty) Privatarchiv Mappe Werdenberg</idno>
+               </msIdentifier>
+               <head>Zeugenaussage (Kundschaft) von Augustin Steinheuel im Streit um Bürgerrechte durch das Gericht Churwalden</head>
+               <msContents>
+                  <summary>
+                     <p>Vor Thomas Hemig, der im Namen von Hans Gafaley, Landammann von Churwalden, zu Gericht sitzt, erscheinen Rudolf Mader und Paul Schwarz, Bürger von Werdenberg, als Fürsprecher von Augustin Steinheuel und bitten, gerichtliche Kundschaft aufzunehmen in ihrem Streit gegen die Landleute der Grafschaft Werdenberg wegen einiger Artikel über die Rechte der Bürger (Inbürger und Ausbürger).</p>
+                     <p>Steinheuel, der sein Bürgerrecht verloren hat, sagt aus: </p>
+                     <p>1. Wer eine Bürgerin heiratet ist Bürger, wer eine Landfrau heiratet ist Landmann.</p>
+                     <p>2. Inbürger und Ausbürger besitzen die gleichen Nutzungsrechte.</p>
+                     <p>3. Bürger und Landleute haben innerhalb der Grafschaft freies Zugrecht.</p>
+                     <p>Der Aussteller siegelt.</p>
+                  </summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <author role="scribe"><persName ref="per005429">David Heinrich Hilty</persName></author>
+                     <filiation type="original">
+                        <origDate when="1515-05-21">mentag vor dem hailigen pfingstag</origDate>
+                     </filiation>
+                     <filiation type="current">Abschrift (Einzelblatt)</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="36.0"/>
+                              <width unit="cm" quantity="22.5"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate from="1851-01-01" to="1900-12-31"/>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key003261">Kundschaft</term>
+               <term ref="key000433">Aufnahme (ins Bürger- und Landrecht)</term>
+               <term ref="key000086">Bürger</term>
+               <term ref="key000087">Ausbürger</term>
+               <term ref="key000336">Nutzung</term>
+               <term ref="key003290">Freizügigkeit</term>
+               <term ref="key004192">Wohnortswechsel</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="1" facs="PA_Hilty_Privatarchiv_Mappe_Werdenberg_1"/>
+               <div org="uniform" sample="complete">
+                  <head>Rechte der burger<note anchored="true">Die Abschrift stammt von <persName ref="per006536">David Heinrich
+      Hilty</persName>. Der Titel  (mit Bleistift) sowie die
+      Anmerkungen am Ende der Abschrift wurden von ihm dem ursprünglichen Text
+      hinzugefügt.</note>
+                  </head>
+               </div>
+               <div org="uniform" sample="complete">
+                  <p>
+                     <seg>
+                        <lb/>Ich, <persName ref="per009051a">Thoman Hemig</persName>, anstath und in
+                           <term ref="lem014636.01">verwesung</term>
+                        <persName ref="per009052a">Hansen Gafaley</persName>, der zit gesetzter
+                        <lb/>landtaman des gerichtz zu <placeName ref="loc000218"
+                           >Chirrwald</placeName>, bekeny mich offenlich mit dem brieffe, <lb/>das
+                        uff hütt siner date, als ich von empfelchnus wägen des aller
+                        durchluchtigesten, <lb/>grosmechtigesten herrn, her <persName
+                           ref="per000812">Maximilian, Römscher kunig, erwelter kayser</persName>, <lb/>
+                        <choice>
+                           <sic>mich</sic>
+                           <corr>min</corr>
+                        </choice> aller gnedigesten herren, daselbs an gewonlicher <term
+                           ref="lem000796">richtsstat</term> saß, für <lb/>mich und offenn, verbanen
+                        gericht komen sind die fürsichtigen und wisen <lb/>
+                        <persName ref="per006534">Rudi Mader</persName> und <persName
+                           ref="per006535">Pauli Schwartz</persName>, bayd <term ref="lem000227"
+                           >burger</term> zu <placeName ref="loc000016">Werdenberg</placeName>, und
+                        hand verfür<lb break="no"/>sprechet, wie recht was, den erbern und
+                        wolbeschaydnen <persName ref="per006536">Augustin Stainhuwel</persName>,
+                        <lb/>der och gegen vor gericht stund, beklagten umb ain <term
+                           ref="lem000582">kuntschaft</term> der warhayt, inen <lb/>die zu gäben
+                        wider ain erbern, wise, gantze gemaind der graffschaft <placeName
+                           ref="loc000440">Werdenberg</placeName>, <lb/>daselb sy zu beyden syt
+                        gegen anander im rächten stundent und inen och kundt<lb break="no"/>schaft
+                        zu erholen erkennt wäre von etlicher artikel wegenn. Spenn und irrung sie
+                        <lb/>dann gemain <term ref="lem000227">birger</term>, <term ref="lem002868"
+                           >inburger</term> und <term ref="lem000724">ußburger</term>, zu <placeName
+                           ref="loc000016">Werdenberg</placeName> gegen ainer <lb/>gantzen gemaind
+                        daselbs <gap reason="illegible" quantity="6" unit="character"/><note
+                           anchored="true">In der Abschrift ist die unleserliche Stelle mit 6
+                           Punkten gekennzeichnet, da <persName ref="per006536">David Heinrich
+                              Hilty</persName> wohl aufgrund des gebrochenen Falts (siehe Ergänzung
+                           unten) die Stelle nicht lesen konnte.</note> der fryen ludten halb, och
+                        der <term ref="lem002706">nutzig</term>
+                        <lb/>halb, <term ref="lem000252">wunn und wayd</term> der birger und
+                        landtlüdten gegen ainander, desglich <lb/>des <term ref="lem015006"
+                           >nachzugs</term> halb.</seg>
+                     <seg>Und wie wol sich uf die klag der gemelt <persName ref="per006536"
+                           >Augustin</persName> mit <lb/>ettlichen fürworten siner erbern <term
+                           ref="lem000608">früntschaft</term> under den burgern und gemain
+                        <lb/>halb, och gwin und verlurst halb, der im des rechten halb
+                           <unclear>entstog</unclear> möcht und andren <lb/>fil fürworten, nit
+                        noturfft zu melden, gewidert hat, ist nach bayder partyen <lb/>rechtsatz und
+                        miner <term ref="lem000802">umfrag</term> zu recht erkent, das der
+                              <choice><abbr>gnt</abbr>
+                           <expan>genannt</expan></choice>
+                        <persName ref="per006536">Augustin</persName> hierum <lb/>sin best wissen zu
+                        kuntschaft geben und sagen sölte. Und der <term ref="lem001289">urtal</term>
+                        nach ist er das <lb/>gestanden und hat uff der kleger
+                              <unclear><abbr>vo</abbr></unclear> eroffnen und form des rechtenn also
+                           ge<lb break="no"/>sagt,</seg>
+                     <seg n="1">das ain yeder fryet, der kain nachjagenden heren hat, er sy im land
+                        oder <lb/>usserthalb gesessen, ain birger oder ain <term ref="lem000198"
+                           >walser</term>. Hat er ain burgeri genomen, so ist <lb/>er ain birger mit
+                        allen <term ref="lem000235">burgerrechten</term> gesin, hat er aini
+                        landtmenni ge<lb break="no"/>nomen, so ist er ain <term ref="lem008488"
+                           >landtman</term> gesin.</seg>
+                     <seg n="2">Des ander, das all inburger und <lb/>ußburger von allter her alle
+                        recht habind gehebt, wunn und waid, holtz und feld, vom <lb/>understen <term
+                           ref="lem002389">grad</term> zum obersten zu nutzen, nyessenn und bruchen,
+                           <sic>kilich</sic> alß <lb/>wol alß die <term ref="lem008488"
+                           >landtlüdt</term>.</seg>
+                     <seg n="3">Zu dritten sy von alter här gebrucht, das all inburger und
+                        <lb/>usburger habind jeterman frig (?)<note anchored="true">Das (?) stammt
+                           vom Schreiber, unsichere Lesung seinerseits.</note> nachzug gehebt, wie
+                        die landtlüdt, dwil und sy <lb/><choice><sic>inder inder</sic>
+                           <corr>in der</corr></choice><note anchored="true">Vom Schreiber mit einem
+                              <orig>(sic)</orig> vermerkt.</note> graffschaft umzihend. Ob sy aber
+                        us der herschaft zihend, so sonnd <lb/>sy sych <term ref="lem014500"
+                           >abkoffen</term> vom heren, aber gelich, es sy burger oder landtman. Also
+                        hab <lb/>es sich von alter här gebrucht.</seg>
+                     <seg>Und der sag hand och die gemeltenn <persName ref="per006534">Rudi
+                           Mader</persName>
+                        <pb n="2" facs="PA_Hilty_Privatarchiv_Mappe_Werdenberg_2"/>
+                        <lb/>und <persName ref="per006535">Pauli Schwartz</persName> begert von mir
+                        krafft wägen dem rechten nach sy zu vestern <lb/>mit sinem <term
+                           ref="lem000070">ayd</term>. Uf des hat der gemelt <persName
+                           ref="per006536">Augustin</persName> der sag und kuntschaft ge<lb
+                           break="no"/>schworen ainen ayd zu got den helgen, das sye war sye und
+                        also das nach <lb/>dem rechten ergangen was.</seg>
+                     <seg>Batend die gerurten <persName ref="per006534">Rudi Mader</persName>,
+                           <persName ref="per006535">Pauli <lb/>Schwartz</persName>, inen des
+                        handels und der sag ainen brief zu geben, der inenn <lb/>zu geben erkent
+                        ward und mit urtayl von des rechten mit min, richters, <lb/>ingedruktem
+                        insigel, doch mir und dem gericht one schaden, versiglet und <lb/>zu urkund
+                        geben ist, am <origDate when="1515-05-21">mentag vor dem hailigen pfingstag
+                           <lb/>im jar, do man zalt von der gebirt Cristi tusent fünfhundert und
+                           <lb/>funfzehen jar</origDate>.</seg>
+                  </p>
+                  <p>
+                     <lb/>
+                     <add place="below">Papier in <unclear>den</unclear> falten gebrochen. Aufgetrukter
+        sigill fort.</add>
+                  </p>
+                  <p>
+                     <lb/>
+                     <add place="below">Burgerfond <placeName ref="loc000335"
+                        >Grabs</placeName></add>
+                  </p>
+               </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div n="1" org="uniform" sample="complete">
+            <p>Die <term ref="key003261">Kundschaft</term> ist nur in dieser Abschrift aus dem <date
+                  from="1801-01-10" to="1900-12-31">19. Jh.</date> von <persName ref="per005429"
+                  >David Heinrich Hilty</persName> erhalten. Sie ist interessant, da sie das
+               Konfliktpotenzial zwischen den Bürgern der Stadt <placeName ref="loc000016"
+                  >Werdenberg</placeName> und den Landleuten der Grafschaft verdeutlicht. Zu
+               Konflikten zwischen Stadt und Land siehe auch: <bibl><ref>Burgerarchiv Grabs
+                     U 0015</ref></bibl> (um 1490); <bibl><ref>Burgerarchiv Grabs U 0017</ref>
+                  (undatiert, um 1500); <ref>Burgerarchiv Grabs U 0013</ref> (02.06.1515)</bibl>;
+                  <ref>SSRQ_SG_III_4_115</ref>; <bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/f8e332fc20ed4161b38a102cd35448ff"
+                     >LAGL AG III.2433:044</ref></bibl> (03.11.1563); <bibl><ref>OGA Grabs Gruppe
+                     I./4</ref></bibl> (1681).</p>
+         </div>
+         <div n="2" org="uniform" sample="complete">
+            <p>Zu den <term ref="key000005">Rechten</term> der Bürger von Werdenberg siehe auch
+    <ref>SSRQ_SG_III_4_048</ref>; <ref>SSRQ_SG_III_4_049</ref>;
+      <ref>SSRQ_SG_III_4_116</ref>.</p>
+         </div>
+      </back>
+   </text>
+</TEI>

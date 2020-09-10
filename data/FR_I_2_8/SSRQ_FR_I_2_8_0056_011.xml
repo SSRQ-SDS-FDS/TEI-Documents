@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+
+			</titleStmt>
+
+			<publicationStmt>
+				<date type="electronic" when="2019-05-29"/>
+				<date type="print"/>
+			</publicationStmt>
+
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ_FR_I_2_8_0056_011</idno>
+			</seriesStmt>
+
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<idno>StAFR, Thurnrodel 11, S. 264–266</idno>
+					</msIdentifier>
+					<head>Pierre Thoma – Verhör / Interrogatoire</head>
+					<msContents>
+						<summary></summary> 
+						<msItem>
+							<textLang>fr</textLang> 
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support>
+									<material></material>
+								</support>
+								<extent>
+									<dimensions type="leaves">
+										<height unit="cm" quantity="0.0"/>
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+									<dimensions type="plica">
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+								</extent>
+							</supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1623-03-17"></origDate>
+							<origPlace></origPlace>
+						</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+							
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+			<particDesc default="false"/>
+			<settingDesc default="false"/>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="264"/><p><lb/>Im <placeName ref="loc007683.02">bösen turn</placeName>
+							<seg><lb/><origDate when="1623-03-17">1<subst><del>6</del><add place="overwritten">7</add></subst> <foreign xml:lang="la">martii</foreign> <hi rend="underline">1623</hi></origDate>, <foreign xml:lang="la"><choice><abbr>j</abbr><expan>judex</expan></choice></foreign> <abbr>h</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per009249">Daniel von Montenach</persName>.</note></seg>
+							<seg><lb/><abbr>H</abbr> <persName ref="per006751">Erhart</persName>, <abbr>h</abbr> <persName ref="per009449">Vögeli</persName></seg>
+							<seg><lb/><persName ref="per009451a.01"><choice><abbr>C</abbr> <expan>Christoph</expan></choice> von Ligertz</persName></seg>
+							<seg><lb/><persName ref="per009485">Perroman</persName>, <persName ref="per009253">Bocard</persName></seg>
+						<seg><lb/><choice><abbr>W</abbr><expan>Weibel</expan></choice></seg></p>
+						
+						<p><seg><lb/><add place="left margin"><foreign xml:lang="la">Nihil solvit</foreign>.</add></seg> 
+							<seg>Estant derechef ledit <persName ref="per009511">Pierre Toma</persName> serieu<lb break="no"/>sement examiné et singulierement ad<lb break="no"/>monesté ne soy faire tort, ny aux <term ref="lem015380.04">ac<lb break="no"/>culpéz</term>. La dessus a librement dit, 
+						<lb/>avoir fait tort a la femme de <placeName ref="loc007597.02">Dirlaret</placeName>, 
+						<lb/>a <persName>Lois</persName> et <persName>Marie la Naura</persName> de <placeName ref="loc007951.01">Grolley</placeName>, 
+						<lb/>au  <persName>Groz Ramu</persName> de <placeName ref="loc007868.07">S<hi rend="sup">t</hi> Aubin</placeName>, qu’est de la 
+						<lb/>justice dudit lieu, a celuy de <placeName ref="loc007649.06">Dompdidié</placeName>, 
+						<lb/>lequel y vend du vin. Avoir aussy fait 
+						<lb/><add place="left margin">tort</add> aux femmes de <placeName ref="loc008066.03">Lossie</placeName> et de <placeName ref="loc008067.02">La Corba</placeName>, 
+						<lb/>comme aussy a celle devers <placeName ref="loc008068">Cudrefin</placeName>&#160;; leur 
+						<lb/>crie mercy, disant <add place="above">partie</add> la torture <subst><del>l’avoir</del> 
+						<lb/><add place="inline">et partie</add></subst> les desplaisirs que luy ont fait 
+						<lb/>l’avoir induict les <term ref="lem015356.06">acculper</term>.</seg></p>
+						
+						<p><lb/>Soustenant pourtant <persName ref="per009533">Anteyno</persName> et <persName ref="per009535">Francey 
+						<lb/>Rimbo</persName>, <persName>Muri Chenin</persName>, <persName ref="per009519">Ister</persName> sa belle <add place="above">mere</add> <add place="left margin" hand="other hand" type="sign">estre sorciere</add>, la<lb break="no"/>quelle se doit avoir oubliee avec deux fre<lb break="no"/>res bouchers d’<unclear>ane</unclear>, comme sa femme le 
+						<lb/>pourroit savoir, et que elle fut prisonniere 
+						<lb/>a <placeName ref="loc001172">Erlach</placeName>, disant l’avoir aussy veu en la 
+							<lb/><term ref="lem017043.01">secte</term> aupres de <placeName ref="loc008068">Cudrefin</placeName>.</p>
+						
+						<p><lb/>Soustenant aussy avoir veu en la <term ref="lem017043.01">secte</term> vers 
+						<lb/><placeName ref="loc007597.02">Dirlaret</placeName>, <choice><abbr>ass</abbr><expan>assavoir</expan></choice> <persName ref="per009569">Pierre Bosson</persName> <choice><abbr>pnt</abbr><expan>present</expan></choice> pri<lb break="no"/><pb n="265"/>sonnier, <del><persName>Francey Lois</persName> de <placeName ref="loc008177.02">S<hi rend="sup">t</hi> Martin de Vaulx</placeName></del> 
+						<lb/>homme noir avec peu de barbe, <del><persName>Jaques le Pezo<lb break="no"/>ney</persName> dudit lieu</del> lequel a desrobé vers <placeName ref="loc007861.06">Bulo</placeName> 
+						<lb/>des beaux habits et un’espee, que le tout 
+						<lb/>se <subst><del>poaurr</del><add place="inline">pourra</add></subst> trouver a <placeName>Bertigné</placeName><note>L’identification du lieu est incertaine. Il pourrait s’agir de <placeName ref="loc008142">Bertigny</placeName> (Pont-la-Ville) ou de <placeName ref="loc008138">Bertigny</placeName> (Villars-sur-Glâne)</note>, <persName>Bovet</persName> 
+						<lb/>et sa femme, le <persName ref="per009571">Gro Jaques</persName>, lequel frequente 
+						<lb/>communement a <placeName ref="loc008046.02">Ottisperg</placeName>, un aultre savoyard 
+						<lb/>appellé <persName>La Leivra</persName>, et son compagnon appellé 
+						<lb/><persName>Pottet</persName>, <persName>Anteyno le Vauderain</persName>, <persName>Bamberolet</persName> 
+						<lb/>et son frere, lesquels il auroit tous veu en 
+							<lb/>la <term ref="lem017043.01">secte</term> vers <placeName ref="loc007597.02">Dirlaret</placeName>. Soustient aussy ladite 
+						<lb/><persName>Franceysa</persName> de <placeName ref="loc007937.07">Crisié</placeName>, femme du <term ref="lem015988.02">patey</term>, estre 
+							<lb/>sorciere et l’avoir veu en la <term ref="lem017043.01">secte</term> vers 
+						<lb/><placeName ref="loc008068">Cudrefin</placeName>.</p>
+						
+						<p><lb/>Confirmant au reste l’aultre partie de la 
+						<lb/>confession cy devant faite, joignant que 
+						<lb/>au <placeName ref="loc008242.02">Chasno</placeName> il auroit fait malade une fille 
+						<lb/> et qu’en luy mordant l’aureille revien<lb break="no"/>droit a santé.</p>
+						
+						<p><lb/>A <placeName ref="loc008192.04">Wolkrelzwyl</placeName> a fait aussy malade une 
+						<lb/>femme, pour ne luy avoir vouluz donner du 
+						<lb/>prez.</p>
+						
+						<p><lb/>Item a dit que dormant une fois avec <subst><del>Gro</del><add place="inline"><persName ref="per009533a.04">Tin<lb break="no"/>no Rimbo</persName></add></subst> a <placeName>Schwendi</placeName><note>L’identification du lieu est incertaine. Il pourrait s’agir de <placeName ref="loc008657">Schwendi</placeName> (Jaun) ou peut-être de <placeName ref="loc008052">Umbertsschweni</placeName> (Alterswil).</note>, ledit <persName ref="per009533">Rimbo</persName> se se<lb break="no"/>roit levé devers luy, et se seroit oublié 
+						<lb/>avec une chievre, <subst><del>dequoy ce</del><add place="inline">de quoy</add></subst> luy aur<lb break="no"/>roit en aprés fait reproche, mais il en 
+						<lb/>fut frappé.</p>
+						
+						<pb n="266"/><p><lb/>A dit aussy de bien examiner sa belle mere 
+						<lb/>et sa femme, s’il n’ont veu ledit <persName ref="per009569">Bosson</persName> sus 
+						<lb/>une <term ref="lem017507">vache</term>. Au reste, luy ne se seroit 
+						<lb/>jamais oublié en tel cas. Soustenant en<lb break="no"/>coures sa femme estre innocente.</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+
+
+
+<?oxy_options track_changes="on"?>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     n="1234"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="headerinfo"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2020-08-17"/>    <date type="print"/>
+    <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Collection des sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des
+      sources
+      du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS_NE_3_463</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>AVN B 101.14.002, fol. 86r</idno>
+               </msIdentifier>
+               <head>Envoi d’un extrait du coutumier de la Ville cité par Ostervald dans son coutumier</head>
+               <msContents>
+                  <summary>Le Petit Conseil accepte d’envoyer un extrait du coutumier de la Ville demandé par le
+       requérant s’appuyant sur le coutumier Ostervald qui cite cet extrait. La demande concerne une question d’injure et de diffamation.</summary>
+                  <msItem>
+                     <textLang>français</textLang>
+                     <filiation type="current"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="34.5"/>
+                              <width unit="cm" quantity="22"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1795-02-03"/>
+                     <origPlace ref="loc007786">Neuchâtel</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head/>
+                     <bibl/>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key003026"/>
+               <term ref="key000292"/>
+               <term ref="key005122"/>
+               <term ref="key005123"/>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="86r" facs="AVN_B_101.14.002_0086r"/>
+               <div>
+                  <p>
+                     <lb/>Du <origDate when="1795-02-03">3<hi rend="sup">e</hi> février
+                        1795</origDate>. </p>
+                  <p>
+                     <lb/>En <orgName ref="org003085">Conseil Étroit</orgName> assemblé sous la
+                     présidence de <lb/>monsieur <persName ref="per008758">Jean Henry
+                        Guillebert</persName>, maître bourgeois <lb/>en chef. </p>
+                  <p>
+                     <lb/>Sur la requette présentée à monsieur le maître <lb/>bourgeois en chef et à
+                        <orgName ref="org003085">messieurs du Conseil Étroit</orgName>
+                     <lb/>par le sieur avocat <persName ref="per008756">Godet</persName>, agissant
+                     au nom de <lb/><persName ref="per008759">David Mellier</persName> de <placeName
+                        ref="loc007814">Bevaix</placeName>, bourgeois de cette ville, <lb/>aux fins
+                     d’obtenir copie, <hi rend="underline">de cet article de la coutume <lb/>qui est
+                        porté dans l’ouvrage de monsieur le président <lb/><persName ref="per008760"
+                           >Ostervald</persName> folio&#160;306, titre XVI en ces
+                        termes</hi>.<note>Seul recueil imprimé (privé) de la coutume neuchâteloise.
+                              <bibl><ref target="http://permalink.snl.ch/bib/chbsg000142490"
+                              >Ostervald 1785</ref>, p.&#160;307</bibl>.</note>
+                  </p>
+                  <p>
+                     <lb/>La réparation d’injure doit se poursuivre par <lb/>devant le juge du lieu
+                     où l’injure a été dite &amp; faite&#160;; <lb/>mais, si elle a été divulguée par
+                     écrits publics ou <lb/>libelles difamatoires, dans ce cas la poursuite s’en
+                     <lb/>fait par devant le juge du lieu où lesdits écrits ont <lb/>été produits,
+                     ouverts, affichés ou répandus, &amp; on a l’<date dur="P1Y1D">an <lb/>&amp;
+                        jour</date> pour faire laditte poursuite, coutumier de la <lb/>ville folio&#160;477 verso. </p>
+                  <p>
+                     <lb/><orgName ref="org003085">Messieurs du Conseil</orgName> ayant eu avis
+                     ensemble &amp; après <lb/>mûre déliberation, ont dit, qu’ils accordent au
+                     requérant <lb/>l’expédition de ce qui est porté folio&#160;477 verso, du
+                     <lb/>coutumier de <orgName ref="org003119"><choice>
+                           <abbr>mm&#160;:</abbr>
+                           <expan>messieurs</expan>
+                        </choice> les quatre ministraux</orgName>, à quoi ils <lb/>ne peuvent rien
+                     ajouter, ne pouvant non plus avoir égard <lb/>à ce qui est porté dans les
+                     commentaires de la coutume, <lb/>se bornant selon l’ancien usage à déclarer ce
+                     qu’elle a <lb/>été de père à fils &amp; de tems immémorial <add place="bottom"
+                        >icy suit la copie dudit <lb/>point de coutume du folio <lb/>477
+                        verso.</add><note>Renvoi au point de coutume sans date rendu entre le <date from="1670-02-02" to="1670-04-28" calendar="Julian">2
+                        février 1670 et le 28 avril 1670</date>
+                        <ref>SDS_NE_3_222</ref>.</note>
+                  </p>
+                  <p>
+                     <lb/>Laquelle déclaration ainsi rendue, il a été ordonné <lb/>au soussigné
+                     secrétaire du Conseil de Ville de l’expédier <lb/>en cette forme, sous le sceau
+                     de la mairie &amp; justice de <lb/>cette Ville&#160;; à <origPlace ref="loc007786"
+                        >Neûchatel</origPlace>, le <origDate when="1795-02-03">troisième février mil
+                        <lb/>sept cent-quatre vingt-quinze</origDate>. </p>
+               </div>
+               <div>
+                  <lb/>
+                  <signed>
+                     <persName ref="per008723">
+                        <choice>
+                           <abbr>A</abbr>
+                           <expan>Abram</expan>
+                        </choice> Pettavel</persName>
+                     <figure type="notarial sign"/></signed>
+               </div>
+            </body>
+         </text>
+      </group>
+   </text>
+</TEI>

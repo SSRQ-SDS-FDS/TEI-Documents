@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+
+
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+
+			</titleStmt>
+
+			<publicationStmt>
+				<date type="electronic" when="2019-10-14"/>
+				<date type="print"/>
+			</publicationStmt>
+
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ_FR_I_2_8_0100_005</idno>
+			</seriesStmt>
+
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<idno>StAFR, Thurnrodel 13, S. 418–423</idno>
+					</msIdentifier>
+					<head>Barbli Bodmer – Verhör / Interrogatoire</head>
+					<msContents>
+						<summary></summary> 
+						<msItem>
+							<textLang>de</textLang>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support>
+									<material></material>
+								</support>
+								<extent>
+									<dimensions type="leaves">
+										<height unit="cm" quantity="0.0"/>
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+									<dimensions type="plica">
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+								</extent>
+							</supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate when="1637-07-29"/>
+							<origPlace></origPlace>
+						</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc> 
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+			<particDesc default="false"/>
+			<settingDesc default="false"/>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="418"/><p><lb/><placeName ref="loc008105">Keller</placeName>
+							
+							<seg><lb/><origDate when="1637-07-29">29 <foreign xml:lang="la">julii</foreign> 1637</origDate>, <foreign xml:lang="la"><choice><abbr>jud</abbr> <expan>judex</expan></choice></foreign> <abbr>h</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per011527">Beat Jakob von Montenach</persName>.</note></seg>
+							<seg><lb/><abbr>H</abbr> <persName ref="per009267a.01">Brodardt</persName>, <abbr>h</abbr> <persName ref="per006816"><choice><abbr>F</abbr><expan>Franz</expan></choice> Gottrow</persName><!-- Franz II --></seg>
+							<seg><lb/><persName ref="per011519">Techterman</persName>, <persName ref="per009462">Gribolet</persName>, <persName ref="per011521a.01">Heylman</persName></seg>
+							<seg><lb/><persName ref="per011523a.01">Wildt</persName></seg>
+							<seg><lb/><choice><abbr>W</abbr><expan>Weibel</expan></choice></seg></p>
+						
+						<p><gap reason="irrelevant"/><note>Ce passage concerne le procès mené contre <persName ref="per011815a">Marguerite Renevey</persName>. Voir <ref>SSRQ_FR_I_2_8_0088_004</ref>.</note></p>
+						
+						<pb n="419"/><p><lb/>Im <placeName ref="loc007683.02">bösen thurn</placeName></p>
+							
+						<p><seg><lb/><persName ref="per011982a">Barbli</persName> vorgemeldt ermant, die warheit 
+							<lb/>zu reden, hatt bekennt, sy habe vor <date dur="P3Y">dryen jahren</date> 
+							<lb/>gott <term ref="lem016063">verlöugnet</term> im graben der <placeName ref="loc010255.02">Felgen<lb break="no"/>schewr</placeName>. Daselbst habe sy einn warmen lufft 
+							<lb/>gespirt unndt sye in ein <term ref="lem017926.01">ohnmacht</term> gefallen.  
+							<lb/>Zuvor habe sy in einnem zorn <term ref="lem000722">geschworren</term>.</seg> <seg>Volgendts,  
+							<lb/>da sy von diser schwachheit unndt abgang ihrer 
+							<lb/>kräfften <add place="above">ein klein</add> uffkommen sye, habe sy ein erschröckenli<lb break="no"/>che stim gehört unndt 
+							von <term ref="lem016434.02">fernuß</term> ein schwarzlecht 
+							<lb/><term ref="lem002690.01">hündli</term> gesehen, so da bellete. Item eine grossen 
+						<pb n="420"/><lb/>langen man, der sy gefragt, waß sy daselbst 
+							<lb/>thue. Diser man sye <term ref="lem017842.02">gestalttet</term> gsyn, samb 
+							<lb/>hette er altte, zerrißne kleider. Sy habe 
+							<lb/>sich <term ref="lem011434">gesegnet</term> unndt er sich darvon gemacht.  
+							<lb/>Daruff sye sy heimb gezogen unndt kranck 
+							<lb/>gelegen.</seg> <seg>Uff die artikel deß <term ref="lem003708">examens</term> er<lb break="no"/>forschet, hatt bekennt, sy habe dem <term ref="lem002097.03">schnydern</term> 
+							<lb/><persName>Veillard</persName> <term ref="lem001127.03">öpffel</term> gäben, die sy mitt grüner 
+							<lb/><term ref="lem011432.02">salb</term> angestrichen. Welliche <term ref="lem011432.02">salb</term> ihren der <term ref="lem011429.05">böß 
+							<lb/>geist</term> gäben, namblichen daß er sy uff einnen 
+							<lb/>stein in ihrem hauß gethan unndt sy dieselb dry 
+							<lb/>mal daselbst gefunden. Der <term ref="lem011429.05">böß geist</term> habe 
+							<lb/>zu ihren gsagt, sy solle sich derselben gebrauchen 
+							<lb/>in ihrer <term ref="lem005883.06">notturfft</term>.</seg><seg>Sy habe den <term ref="lem011429">bösen geist</term> 
+							<lb/>3 mal in gemeldtem graben antroffen, er 
+							<lb/>habe sy by dem lingken <term ref="lem003828.03">or</term> geküßt unndt 
+							<lb/>sy ihn ouch, er hab sy under dem lingken <term ref="lem002549.05">knew</term> 
+							<lb/><term ref="lem016598">gezeichnet</term> <add place="above">mit einnem <unclear>pfründli</unclear></add><!-- le sens demeure inconnu -->, er heiße <persName>Hänßli</persName>. In einnem 
+							<lb/><term ref="lem015261.02">kyb</term> habe sy <persName>Carle</persName> <subst><del>Gottys</del><add place="above"><term ref="lem005243.06">nachpures</term></add></subst>  haußfrouwen 
+							<lb/><term ref="lem011429.15">böse geister</term> gäben in <term ref="lem001126.07">byren</term>. Das <term ref="lem017060">zeichen</term> 
+						<pb n="421"/><lb/>habe sy mitt gesegnetem <term ref="lem000603">anken</term> vertryben wöllen, 
+							<lb/>es sye aber noch ein löchli überbliben.  Dem 
+							<lb/><persName>Petern Veillard</persName> habe sy zwey <term ref="lem000057.03">schwyn</term> mitt ange<lb break="no"/>salbeten <term ref="lem016509.02">schnizen</term> <term ref="lem005335">verderbt</term>.</seg><seg> Vor <date dur="P3Y">dryen jahren</date> 
+							<lb/>habe sy <persName>Stephan Gaudrons</persName> khindt <term ref="lem017537">angeblase<subst><del>n</del><add place="overwritten">t</add></subst></term>, 
+							<lb/>so gestorben sye <date dur="P6M">halb jahr</date> darnach. Des <persName>Keß<lb break="no"/>lers</persName><note>Es ist unklar, ob es sich hier um einen Personennamen oder um die Funktion des <term ref="lem001697">Kesslers</term> handelt.</note> uffm <placeName>Brauch</placeName><note>Gemeint ist möglicherweise <placeName ref="loc008528">Bruch</placeName>.</note> haußfrouwn uß <term ref="lem015261.02">kyb</term> in 
+							<lb/>schnizen <term ref="lem011429.15">böse geister</term> gäben. Gegen <term ref="lem016749">gedachts</term> 
+							<lb/><persName>Gaudrons</persName> magd <term ref="lem017576">geblasen</term>, daß sy darab kranck 
+							<lb/>worden sye. Sy bekennt, sy habe <persName>Gaudrons</persName> khindt 
+							<lb/><term ref="lem016458.02">uffgeholffen</term>, aber allein daß <foreign xml:lang="la"><term ref="lem003412">Ave Maria</term></foreign> uff 
+							<lb/>ihm gebetten unndt das <term ref="lem000698.11">krytz</term> gemacht. Der 
+							<lb/><term ref="lem011429.05">böß geist</term> habe ihren zwey mal verbotten, un<lb break="no"/>ser lieben frouwen meldung zu thun unndt 
+							<lb/>so <term ref="lem016459">gottsdächtig</term> zu syn. Sy habe <persName>Schufflers</persName> 
+							<lb/>khindt kranck gemacht mitt <term ref="lem008898.05">eichlen</term>, die sy zu<lb break="no"/>vor im mundt gehabt. Der <term ref="lem011429.05">böß geist</term> habe 
+							<lb/>ihren <term ref="lem008237.03">bevolchen</term>, böses zu thun. Sy habe mitt 
+							<lb/>einnem <term ref="lem002311">stecken</term> klein <term ref="lem005796.03">gutt</term> <term ref="lem005335">verderbt</term>, deren 
+						<pb n="422"/><lb/>daß ein ihr, die andern <persName>Veillards</persName> waren. 
+							<lb/>Sy habe gegen <subst><del>Veillards</del><add place="above">Tullins</add></subst> khindt, so gestorben 
+							<lb/>ist, geblasen unndt ihn by der handt erwütscht. 
+							<lb/>Wie ouch ein anders, so an dem arm <term ref="lem017927.02">erlamt</term> 
+							<lb/>ist.</seg> <seg>Sy habe <persName><abbr>m</abbr> Wolffen</persName> bym <placeName ref="loc007981.04">Bernthor</placeName>
+							<lb/>houßfrouwen <term ref="lem010286.03">dirre</term> <term ref="lem001126.01">biren</term> <term ref="lem016509">schnitz</term>, brott,  
+							<lb/>ziger gäben, darin sy züg gethan wie 
+							<lb/><term ref="lem017928.03">neßelsamen</term>. Sy vermeinne, <term ref="lem016749">gedachte</term> frow 
+							<lb/>werde ihrem khindt ouch darvon gäben haben. 
+							<lb/>Sy habe der grossen <persName>Clauda</persName> <term ref="lem011429.15">böse gei<lb break="no"/>ster</term> gäben in wasser, daß sy ihren zu 
+							<lb/>trinken gab. Angedüttnen samen habe sy 
+								<lb/>daheimb gefunden <del><add place="above"><gap reason="illegible" quantity="8" unit="cm"/></add></del>. Da sy den leutten <term ref="lem011429.15">böse 
+							<lb/>geister</term> gäben, habe sy sy angeblasen.</seg><seg> Sy habe 
+							<lb/>dem <term ref="lem011429">bösen geist</term> gesagt, sy wölle ihr läben 
+							<lb/>lang syn <sic>syn</sic>. Sy habe die <term ref="lem011429.15">bösen geister</term>, <add place="left margin" type="sign">die sy den lütten <lb/> gäben,</add> hinder 
+							<lb/>dem <term ref="lem007139.03">offen</term> gfunden in einnem brieffli. Sy habe 
+							<lb/>zwey mal mitt dem <term ref="lem011429">bösen geist</term> <term ref="lem000668">unzucht</term> getriben 
+							<lb/><add place="left margin">ohne wollust</add>, er habe kaltte <term ref="lem002549.05">knew</term>, ein kaltte <term ref="lem016437.02">rutten</term> und 
+							<lb/><term ref="lem005198.07">fieß</term> gehabt wie ein roß. Er habe sy zu dem 
+							<pb n="423"/><lb/>end nider <term ref="lem017554.02">gefelt</term>. Sy sye mitt ihrem <term ref="lem017929.01">meister</term> 
+							<lb/>in <term ref="lem016749">gedachts</term> <persName>Veillards</persName> hauß by nächtlicher wyl 
+							<lb/>gangen, er hab sy darinn getragen.</seg><seg>Sy habe 
+							<lb/><persName>Petern zum Waldts</persName><note>Gemeint ist möglicherweise der langjährige Freiburger Stadtweibel <persName ref="per009448">Peter Zumwald</persName>.</note> <add place="above">haußfrouwen</add> ein <measure type="currency" unit="bz" quantity="0.5">halben bazen</measure> umb 
+							<lb/><term ref="lem000221.02">bott</term> lohn gäben, so mitt grüner <term ref="lem011432.02">salb</term> angstrichen war.
+							<lb/>Erfragt, ob sy nitt des würts zu <placeName ref="loc007630.04">Tavers</placeName> 
+							<lb/>magd nammens <persName>Tichtli</persName> ein <term ref="lem015180.03">wehtumb</term> angethan 
+							<lb/>habe. Hatt zum bscheidt gäben nein. Einne, 
+							<lb/>so man <persName>Tacconnary</persName><note>Vgl. hierzu den Fall <persName ref="per012301">Rose Bise</persName>. Vgl. <ref>SSRQ_FR_I_2_8_0102_001</ref>.</note> heißt, habe daß zugefügt,  
+							<lb/>wie dan ihren <term ref="lem016749">gedachte</term> <persName>Tichtli</persName> dasselbig an<lb break="no"/>gezeigt. Bittet umb gnad.</seg></p>
+					</div>
+				</body>
+				
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+
+<?oxy_options track_changes="on"?>

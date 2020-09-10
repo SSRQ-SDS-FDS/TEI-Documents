@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     n="1234"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="headerinfo"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2020-08-17"/>    <date type="print"/>
+    <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Collection des sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des
+      sources
+      du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS_NE_3_408</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>AVN B 101.14.002, fol. 48r–49v</idno>
+               </msIdentifier>
+               <head>Héritage d’une veuve après le décès de son mari</head>
+               <msContents>
+                  <summary>Détails concernant les droit d’une veuve à son héritage après le décès de son mari.</summary>
+                  <msItem>
+                     <textLang>français</textLang>
+                     <filiation type="current"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="34.5"/>
+                              <width unit="cm" quantity="22"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1733-03-13"/>
+                     <origPlace ref="loc007786">Neuchâtel</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head/>
+                     <bibl/>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000074"/>
+               <term ref="key000863"/>
+               <term ref="key005032"/>
+               <term ref="key001112"/>
+               <term ref="key000920"/>
+               <term ref="key000815"/>  
+               <term ref="key004969"/>
+               <term ref="key000058"/>
+               <term ref="key005046"/>
+               <term ref="key000211"/>
+               <term ref="key003331"></term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="48r" facs="AVN_B_101.14.002_0048r"/>
+               <div>
+                  <p>
+                     <lb/>Sur la très humble requête présentée par <lb/>les héritiers de feu
+                        <persName ref="per008659"><choice>
+                           <abbr>Abrām</abbr>
+                           <expan>Abraham</expan>
+                        </choice> Favre</persName> de <placeName ref="loc007787">Couvet</placeName>,
+                     <lb/>architecte, aux fins d’obtenir de messieurs <lb/>le maître bourgeois en
+                     chef et <orgName ref="org003085">Conseil Étroit</orgName>
+                     <lb/>leur déclaration de la coutume de cette <lb/>souveraineté de <placeName
+                        ref="loc007786">Neufchatel</placeName> sur les cas <lb/>suivants. </p>
+                  <p>
+                     <lb/>1<hi rend="sup">o</hi> Si lorsque le relief d’une veuve est fait <lb/>et
+                     rempli à son contentement tant de ses <lb/>fonds que de ses meubles, les
+                     héritiers de <lb/>son deffunt mari, n’ont pas le droit de <lb/>travailler à
+                     relever le bien qu’il a apporté <lb/>dans la communauté du mariage, et <lb/>si
+                     au cas, les fonds de l’herédité ne sont <lb/><add place="below"
+                        type="catchword">pas</add>
+                     <pb n="48v" facs="AVN_B_101.14.002_0048v"/>
+                     <lb/>pas suffisans, si les meubles et effets, <lb/>ne doivent pas entrer dans
+                     le relief, pour <lb/>servir de supplément, avant que de servir <lb/>de matière
+                     à l’exercice des droits que la <lb/>loy accorde au survivant sur les biens
+                     <lb/>du prédécédé. Si telle est la coutume dans <lb/>la thèse générale, si elle
+                     ne doit pas <lb/>estre <add place="above">encore</add> plus religieusement
+                     observée dans <lb/>un cas particulier chargé des circonstances <lb/>suivantes&#160;;
+                     savoir&#160;; lorsque le deffunt <lb/>auroit mis des meubles en communion de
+                     <lb/>mariage pour une somme assez considérable <lb/>et qu’il auroit outre cela
+                     contracté des <lb/>dettes pour l’acquisition d’autres meubles, <lb/>lesquelles
+                     dettes les héritiers seront obligés <lb/>de payer des propres <add
+                        place="above">du</add> deffunt puisqu’il <lb/>est obligé seul. </p>
+                  <p>
+                     <lb/>2<hi rend="sup">o</hi>. Si après qu’une femme survivante aura <lb/>retiré
+                     du grain pour l’entretient d’elle <lb/>&amp; de son ménage, pendant une année,
+                     si <lb/>on ne doit pas, avant que d’entrer en <lb/>partage, que la loy veut
+                     qu’il soit fait <lb/>du residu, en prélever pour <subst><del
+                           rend="strikethrough">prélever</del>
+                        <add place="above">payer</add></subst> les <del rend="strikethrough"><add place="above">payer</add></del>
+                     <lb/>intérêts de l’année de la mort du deffunt <lb/>les dépences faites pour
+                     battre &amp; semer les <lb/>grains et autres menus frais de cette nature
+                     <lb/>sur tout, après que le deffunt est mort <lb/>après la récolte.</p> 
+                  <p><lb/><add
+                        place="above" type="catchword">3<hi rend="sup">o</hi></add>
+                     <pb n="49r" facs="AVN_B_101.14.002_0049r"/>
+                     <lb/>3<hi rend="sup">o</hi>. Si une femme n’est pas obligée de payer <lb/>de
+                     son propre bien la juste moitié des <lb/>dettes contractées pendant la
+                     conjonction <lb/>du mariage, pour lesquelles elle sera <lb/>solidairement
+                     obligée, &amp; dénommée comme <lb/>débitrice dans les <term ref="lem014986"
+                        >titres obligatoires</term>
+                     <lb/>passifs qui en gisent. </p>
+                  <p>
+                     <lb/>Messieurs le maître bourgois en chef <lb/>&amp; du <orgName
+                        ref="org003085">Conseil Étroit</orgName>, après avoir consulté &amp;
+                     <lb/>déliberé entr’eux, donnent par déclaration <lb/>que de tout temps la
+                     coutume de <placeName ref="loc007785">Neufchatel</placeName>
+                     <lb/>est telle. </p>
+                  <p>
+                     <lb/>1<hi rend="sup">o</hi>. Sur le premier article que la coutume est <lb/>que
+                     les propres tant de la femme que du <lb/>mari doivent <add place="above"
+                        >estre</add> permièrement rétablis, &amp; <lb/>qu’après cela, la femme peut
+                     user de ses <lb/>droits sur les biens restans du mary <lb/>suivant la coutume. </p>
+                  <p>
+                     <lb/>2. Sur le second, qu’une femme peut prélever <lb/>sur le grain, ce que la
+                     coutume luy en donne <lb/>pour elle et son ménage, qu’ensuitte on <lb/>en peut
+                     prendre pour ensemencer les terres, <lb/>&amp; après en prélever pour payer les
+                     intérêts <lb/>de l’année de la mort du deffunt, aussy <lb/> bien que pour les
+                     batteurs dudit grain <lb/>et autres menus fraix, et ensuitte <lb/>partager le
+                     reste. <lb/><add place="below" type="catchword">Sur</add>
+                  </p>
+                  <pb n="49v" facs="AVN_B_101.14.002_0049v"/>
+                  <p>
+                     <lb/>3. Sur le troisième, il a été dit. Bien que <lb/>Messieurs du <orgName
+                        ref="org003085">Conseil Étroit</orgName> estiment, qu’une <lb/>femme s’étant
+                     obligée conjointement avec <lb/>son mary solidairement, cela ne doive
+                     <lb/>opérer dans la thèse autre effect, que de <lb/>donner au créancier la
+                     liberté de saisir <lb/>le bien de la femme sans avoir discuté <lb/>celuy du
+                     mary, sans que par là, une <lb/>femme soit privée du dédomagem<del
+                        rend="overwritten">t</del>ent qu’il <lb/>luy est dû sur les biens de sondit
+                     mary, <lb/>cependant vu l’application qu’on pourroit <lb/>faire de ce que
+                     dessus, à des cas particuliers <lb/>qui pourroyent estre une exception à la
+                     <lb/>maxime générale, on renvoye la décision <lb/>de ce troisième article à une
+                     connoissance <lb/>de justice. </p>
+                  <p>
+                     <lb/>Laquelle déclaration a été ainsy faite <lb/>&amp; ordonné à moy <add
+                        place="above">faisant les fonctions de</add> secrétaire de Ville de <lb/>la
+                     rédiger par écrit en cette forme sous <lb/>le sceau de la justice &amp; mayrie
+                     dudit <lb/><origPlace ref="loc007786">Neufchatel</origPlace> le <origDate
+                        when="1733-03-13">treizième mars mille sept <lb/>cent trente &amp;
+                        trois</origDate>. </p>
+                  <p>
+                     <lb/>Par <choice>
+                        <abbr>ord<hi rend="sup">ce</hi>
+                        </abbr>
+                        <expan>ordonnance</expan>
+                     </choice>. </p>
+               </div>
+               <div>
+                  <signed>
+                     <persName ref="per008687">
+                        <choice>
+                           <abbr>A</abbr>
+                           <expan>Abraham</expan>
+                        </choice> Renaud</persName>
+                     <figure type="notarial sign"/></signed>
+               </div>
+            </body>
+         </text>
+      </group>
+   </text>
+</TEI>

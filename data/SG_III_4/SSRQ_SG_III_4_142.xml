@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-08-19"/>
+            <date type="print"/>
+            <availability><p xml:id="facs">Sibylle Malamud</p></availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_142</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno source="https://archivverzeichnis.gl.ch/home/#/content/2c77b7cefb6742b4985f8038ba1405e2">LAGL AG III.2409:108</idno>
+                  <altIdentifier>
+                     <idno>LAGL IV.</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <head>Schiedsurteil im Streit zwischen den Nachbarn Jakob Lutziger und Jakob Aebli wegen des Platzes unter der Dachtraufe und des Abwasserkanals</head>
+               <msContents>
+                  <summary><p>Eine Kommission von ehrenwerten Männern vermittelt im Nachbarschaftskonflikt zwischen Jakob
+                        Lutziger und Jakob Aebli: Es ist gegen das Landrecht, dass einer dem andern
+                        unter seiner Dachtraufe etwas hinstellen oder Holz stapeln darf. Deshalb
+                        soll der Platz, so weit die Dachrinne der Dächlein über den Fenstern reicht,
+                        zu Jakob Aeblis Haus gehören. Dort soll der Platz frei und offen bleiben.
+                        Der Abwasserkanal darf nicht verändert werden.</p></summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <filiation type="current">Aufzeichnung (Einzelblatt, 1 Seite beschrieben)</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="28.5"/>
+                              <width unit="cm" quantity="21.0"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate from="1580-01-01" to="1600-12-31"/>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key003042">Nachbar</term>
+               <term ref="key000612">Nachbarrecht</term>
+               <term ref="key003043">Nachbarschaft</term>
+               <term ref="key000075">Haus</term>
+               <term ref="key001067">Dach</term>
+               <term ref="key000224"/>
+               <term ref="key000798"/>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <div>
+                  <pb facs="LAGL_AG_III.2409_108_r"/>
+                  <p><seg>
+                     <lb/>Zwüschent <persName ref="per008969">Jacob Lutziger</persName> unnd <persName
+                        ref="per008970a">Jacob Äbli</persName> irß khleinen <lb/><term ref="lem001995"
+                           >gspanß</term>
+                     <del>halben</del> deß <term ref="lem002645">platzeß</term> und <term ref="lem014900.02"
+                        >schitter lege</term> halb, <lb/>hand sich die <term ref="lem012094">ehren
+                           personnen</term><note>Hier handelt es sich wohl um eine Schiedskommission der Stadt
+                              <placeName ref="loc000016">Werdenberg</placeName>, die sich um bau- und nachbarrechtliche
+                              Konflikte kümmerte. In Zürich war dies die Dreierkommission der Baumeister vgl. <bibl><ref
+                                 target="http://permalink.snl.ch/bib/chbsg000030951">Sutter 2002</ref>, S.
+                                 207</bibl>.</note> von wegen und furder<lb break="no"/>ung gutter <term ref="lem005260.06"
+                                    >nachpurschafft</term> in der guttigkheidt er<lb break="no"/>khenndt:</seg>
+                     <seg><subst><del>Dz er</del><add place="overwritten">Die</add></subst>wyl unlidenlich und
+                        ouch nit <term ref="lem000597">landt<lb break="no"/>recht</term>, dz einen dem andren under
+                        ire <term ref="lem002528.05">dach<lb break="no"/>troüffer</term> gwallt habe, ettwz dahin zu
+                        <subst><del>ebnen</del>
+                           <add place="above">thun</add></subst>
+                        <lb/><subst><add place="left margin">oder</add>
+                           <del>so</del></subst> anderß dahin zu <term ref="lem014901.01">ebnen</term>. Deßhalben, so
+                        <lb/>sprächend <subst><del>disse personen</del>
+                           <add place="above">wir</add></subst> den platz, so with <lb/>alß die <term
+                              ref="lem002528.05">dachtroüffer</term> der <term ref="lem014902">kläbtächlinen</term> gond,
+                        <lb/>dem <persName ref="per008970a">Jacob Äbli</persName> für eigenthumblich zu, <lb/>der
+                        gstallt, dz er noch sinen nachkhommenn oder <lb/><term ref="lem002624.06">psitzer</term> deß
+                        <term ref="lem000248">hußeß</term>
+                        <add place="above">ouch</add> nützit dahin, so wyth <lb/>wie gmelt, weder legen noch <term
+                           ref="lem014901.01">ebnen</term>, sunder <lb/>der selbig blatz offen bliben
+                        <subst><del>selle</del>
+                           <add place="above">lassen
+                              sölle</add></subst>,
+                        damit <lb/>und er, <persName ref="per008970a">Jacob Äbli</persName>, umb sin <term
+                           ref="lem000248">huß</term> ettwz <lb/>zu schaffen, uff dem sinen verrichten khönne.</seg>
+                     <seg>
+                        <lb/>Unnd wz aber antreffe hinder den <term ref="lem014902.03">kläbtächler</term>
+                        <lb/>dem huß nahinderi <del>antriffe</del>, sölle dem <lb/>obern <term ref="lem000360.02"
+                           >tach</term> nahinderen gon, so with dz oberhuß <lb/>dach für ussen gath, unden dem <term
+                              ref="lem002645">platz</term> na<lb break="no"/>hinderi gon und den <term ref="lem014903.02"
+                                 >ferckel</term> laßen pliben, <lb/>wie eer jetzunder ist, und nit gwalt han, <lb/>witter
+                        hinuß zu machen und danerthin <lb/>fürthin gut <term ref="lem005243.09">nachpuren</term>
+                        sin.</seg>
+                  </p>
+               </div>
+               <pb facs="LAGL_AG_III.2409_108_v"/>
+               <div><ab type="dorsal" place="verso"><lb/>Jacob Ruo
+                  <lb/>ja</ab></div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div><p>Zu <term ref="key003343">Konflikten</term> zwischen <term ref="key003042">Nachbarn</term> vgl.
+            <bibl><ref>OGA Gams Nr. 90</ref></bibl> und zum <term ref="key000612">Nachbarrecht</term> vgl.
+            <ref>SSRQ_SG_III_4_174</ref>, Art. 29–30.</p></div>
+      </back>
+   </text>
+</TEI>
+

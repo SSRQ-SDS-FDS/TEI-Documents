@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+    xml:lang="fr" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"> 
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>XIX<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Vaud, D. Répression de la sorcellerie en Pays de Vaud (XV<hi rend="sup">e</hi>–XVII<hi rend="sup">e</hi> siècles), Tome 1&#160;: XV<hi rend="sup">e</hi> siècle</title>
+                <respStmt>
+                    <persName>Pau Castell Granados</persName> 
+                    <persName>Gwendolin Ortega</persName>
+                    <persName>Martine Ostorero</persName>
+                    <resp key="transcript"/>
+                </respStmt>
+                <respStmt>
+                    <persName>Martine Ostorero</persName>
+                    <resp key="qualitycheck"/>
+                </respStmt>
+                <respStmt>
+                    <persName>Gwendolin Ortega</persName>
+                    <resp key="tagging"/>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date type="electronic" when="2020"/>
+                <date type="print" when="2007"/>
+                <availability><p xml:id="facs">Archives cantonales vaudoises (ACV)</p></availability>
+            </publicationStmt>         
+            <seriesStmt xml:id="ssrq-sds-fds">
+                <title>Collection des sources du droit suisse</title>
+                <respStmt>
+                    <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+                    <resp/> 
+                </respStmt>
+                <idno>SDS_VD_D_1_0008</idno>
+            </seriesStmt>      
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <idno>ACV, Ac 29, p.&#160;92–103</idno>
+                    </msIdentifier>
+                    <head>Procès de sorcellerie intenté contre Jaquette Pelorinaz, de Martigny</head>
+                    <msContents>
+                        <summary>
+                            <p>Jaquette Pelorinaz, de Martigny, comparait le 25 avril 1459 devant le vice–inquisiteur [et représentant de l’évêque de Sion] Pierre Ginod, au château de Martigny. Après la quatrième monition et à la demande du procureur de la foi Victor Massenet, la sentence interlocutoire est rendue par la cour le 28 avril et exécutée le lendemain. L’inculpée avoue et dénonce au total 12 personnes (8 hommes, dont 3 déjà défunts&#160;; et 5 femmes, dont 2 déjà défuntes). Le 1<hi rend="sup">er</hi> mai, suite à la confirmation des aveux, le lieutenant de l’inquisiteur conclut le procès. Le 5 mai, Jaquette ratifie à nouveau ses aveux devant le vicaire épiscopal Pierre Cochard. La sentence est rendue le 10 mai au cimetière de l’église paroissiale de Martigny. Jaquette est condamnée à la confiscation de ses biens et à la remise au bras séculier pour être punie, ainsi que deux autres femmes, Michelle de Villa et Agnès de Luchia. Elles sont mises au bûcher le jour même.</p>
+                        </summary> 
+                        <msItem>
+                            <textLang>la</textLang>
+                            <filiation type="current"></filiation>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material>Papier</material>
+                                </support>
+                                <extent>
+                                    <dimensions type="leaves"> 
+                                        <height unit="cm" quantity="0.0"/>
+                                        <width unit="cm" quantity="0.0"/>
+                                    </dimensions>
+                                    <dimensions type="plica">
+                                        <width unit="cm" quantity="0.0"/>
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate from="1459-04-25" to="1459-05-10"/>
+                            <origPlace ref="loc010617.01">Château de Martigny</origPlace> 
+                        </origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <head>Edition</head> 
+                            <bibl>Ammann–Doubliez dans <ref target="http://permalink.snl.ch/bib/chbsg000048336">Ostorero 2007 et al.</ref>, p.&#160;166–185</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Littérature</head>
+                            <bibl>Ammann–Doubliez dans <ref target="http://permalink.snl.ch/bib/chbsg000048336">Ostorero 2007 et al.</ref>, p.&#160;199–223</bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+                    <term/>
+                </keywords>
+            </textClass>
+            <particDesc default="false"/>
+            <settingDesc default="false"/>
+        </profileDesc>
+    </teiHeader>
+    
+    <text> 
+        <group>
+            <text>
+                <body>
+                    <div>
+                <pb n="92" facs="ACV_AC-29_91_92"/>
+                        <div><ab type="archiving reference" hand="hand20c" place="left margin" medium="pencil"><date when="1459-04-25">1459 avril 25</date></ab></div>
+                        <head type="title" place="top">Processus contra <persName ref="per012525a.01">Jaquetam Pelorinaz</persName>, 
+                                                        <lb/>suspectam de secta heretice pravitatis</head>
+                        <head type="subtitle" resp="GO">25 avril 1459</head>
+                        <p><seg><origDate when="1459-04-25">Anno Domini millesimo IIII<hi rend="sup">C</hi> LIX<hi rend="sup">no</hi> et die vicesima quinta mensis
+                                        <lb/>aprilis</origDate>, in <placeName ref="loc010617.02">castro Martigniaci</placeName><note><placeName ref="loc010609.01">Martigny</placeName>, jadis seigneurie épiscopale, est passée au statut de châtellenie savoyarde en <date when="1384">1384</date>&#160;; au point de vue ecclésiastique, elle fait partie du diocèse de <orgName ref="org004185.01">Sion</orgName>.</note>, vigore assignacionis facte comparet
+                                        <lb/>coram venerabili et egregio viro fratre <persName ref="per012526a.01">Petro Ginodi</persName>, <orgName ref="org004150.05">ordinis fratrum
+                                        <lb/>Predicatorum</orgName>, sacre theologie professore, locumtenente reverendi patris
+                                        <lb/><term ref="lem017062.02">hereticeque pravitatis inquisitoris</term> a sancta Sede apostolica specialiter deputati
+                                        <lb/>in diocesibus <placeName ref="loc008973.04">Sedunensi</placeName>, <placeName ref="loc005781.05">Lausannensi</placeName> et <placeName ref="loc008750.05">Gebennensi</placeName>, necnon eciam vicesgerente
+                                        <lb/>in hac parte auctoritate sibi commissa reverendi in <persName ref="per000353a.17">Christo</persName> patris et domini
+                                        <lb/>domini <persName ref="per012516a.01">Vualterii</persName>, Dei et apostolice Sedis gracia <term ref="lem001847.01">episcopi</term> <orgName ref="org004185.03">Sedunensis</orgName>, <term ref="lem005360.01">comitis</term>
+                                        <lb/>et <term ref="lem018154.01">prefecti</term> <placeName ref="loc005954.10">Vallesii</placeName>, videlicet dicta <persName ref="per012525a.02">Jaqueta Pelorina</persName>, de <placeName ref="loc010616.02">Raspis</placeName><note>Un des quartiers de <placeName ref="loc010609.01">Martigny</placeName>.</note>,
+                                        <lb/>parrochie <placeName ref="loc010609.04">Martigniaci</placeName>, suspecta de <term ref="lem017269.02">crimine heretice</term> pravitatis. 
+                        </seg>
+                               <seg><lb/>Quequidem <persName ref="per012525a.01">Jaqueta</persName> promisit et juravit juramento suo corporali,
+                                        <lb/>tactis Dei euvangeliis per eandem in manibus prefati domini
+                                        <lb/><sic>locuntenentis</sic>, et sub pena habere delictum pro confesso de quo
+                                        <lb/>inculpatur et est supecta si de perjurio convicta fuerit. 
+                            </seg>
+                              <seg><lb/>Interrogata an sciat causam sue detencionis, que <persName ref="per012525a.01">Jaqueta</persName> dicit
+                                        <lb/>quod non. 
+                            </seg>
+                            <seg>Qui prefatus dominus vicarius sibi <persName ref="per012525a.01">Jaquete</persName> <sic>notifficavit</sic>
+                                        <lb/>quod est detenta pro crimine heresis et <sic><term ref="lem018087.02">appostassie</term></sic> de quo inculpatur
+                                        <lb/>et tenetur pro suspecta, presentans prefatus dominus vicarius dicte
+                                        <lb/><persName ref="per012525a.01">Jaquete</persName> presenti et audien<subst><del>d</del><add place="overwritten">t</add></subst>i eamque diligenter exortatus est quod si
+                                        <lb/>voluerit confiteri, dicere et declarare veritatem quam sciverit de et
+                                        <lb/>super dicto heresis crimine, se offert sui parte necnon prefati domini <orgName ref="org004185.03">Sedunensis</orgName>
+                                        <lb/>episcopi sibi facere misericordiam de jure redeuntibus et penitentibus
+                                        <lb/>ad sanctam matrem Ecclesiam, puro corde et fide non ficta, promissam facere
+                                        <lb/>et concedere auctoritate dicti inquisicionis officii. 
+                            </seg>
+                            <seg>Quequidem <persName ref="per012525a.01">Jaqueta</persName> dicit
+                                        <lb/>et respondit se numquam fuisse nec esse de <term ref="lem018331.01">secta</term> <term ref="lem017125.02">hereticorum</term> et non indigere
+                                        <lb/>propter hoc de misericordia sibi supra presentata.
+                            </seg>
+                            <seg>Quibus auditis, prefatus
+                                        <lb/>dominus <sic>locuntenens</sic> quo supra nomine dictam <persName ref="per012525a.01">Jaquetam</persName> pro prima <term ref="lem017130.01">monicione</term>
+                                        <lb/>juridica monuit et diligenter, ut convenit, exortatus est ut ipsa
+                                        <lb/><persName ref="per012525a.01">Jaqueta</persName> hinc ad <date when="1459-04-26" period="P5WD">diem jovis proximam XXVI dicti mensis aprilis</date>, hora none,
+                                        <lb/>super premissis advertere velit et compareat personaliter coram prefato domino locumtenente
+                                        <lb/>in ipsiusque presencia omnimode confiteatur veritatem de et super dicto crimine
+                                        <lb/>heresis de quo est inculpata et tenetur pro suspecta, presentans ut supra
+                                        <lb/>sibi <persName ref="per012525a.01">Jaquete</persName> misericordiam sancte matris Ecclesie que redeuntibus et penitentibus,
+                                        <lb/>puro corde et fide non ficta, est <sic>promissum</sic>. 
+                            </seg>
+                            <seg>De quibus premissis omnibus
+                                        <lb/>prefatus dominus <del rend="strikethrough">vi[carius]</del> locumtenens michi notario subscripto peciit litteram testimonialem,
+                                        <lb/>presentibus ad hec vocatis et rogatis, videlicet venerabilibus religiosis <persName ref="per012527a.01">Petro Vuilliens</persName> et <persName ref="per012528a.01">Petro
+                                         <lb/>Rolaz</persName>, canonicis <placeName ref="loc010622.02">Montis Jovis</placeName>, <persName ref="per012529a.01">Jacobo de Fausonay</persName>, <persName ref="per012530a.01">Johanne de Bertholinis</persName>, <persName ref="per012531a.01">Johanne
+                                        <lb/>de Prato</persName>, <persName ref="per012532a.01">Perrodo Morandi</persName>, <persName ref="per012533a.01">Rolando de Basqueria</persName> et pluribus aliis testibus <abbr>etc</abbr>. 
+                            </seg>
+                        </p>
+                        <p><seg><signed><persName ref="per012534a.01">Franciscus Bosseti</persName></signed>
+                            <figure type="notarial sign"/></seg></p>
+                 <pb n="93" facs="ACV_AC-29_93_94"/>
+                        <head type="subtitle" resp="GO">26 avril 1459</head>
+                        <head type="subtitle"><hi rend="center">Secunda monicio</hi></head>
+                        <p><seg><origDate when="1459-04-26">Anno et loco quibus supra et die vicesima sexta mensis aprilis</origDate>,
+                                        <lb/>vigore assignacionis suprascripte comparuit personaliter eadem
+                                        <lb/><persName ref="per012525a.01">Jaqueta</persName> coram venerabili religioso fratre <persName ref="per012535a.01">Victore Maceneti</persName>,
+                                        <lb/><orgName ref="org004150.05">ordinis fratrum Predicatorum</orgName><note>Il s’agit des <orgName ref="org004150.01">Dominicains</orgName> établis au couvent de <orgName ref="org004025.01">la Madeleine</orgName> à  <placeName ref="loc007885.01">Lausanne</placeName> (<bibl>Modestin dans <ref target="http://permalink.snl.ch/bib/chbsg000048336">Ostorero et al. 2007</ref>, p.&#160;364</bibl>).</note>, in decretis <sic>baccallario</sic> et ad hoc
+                                        <lb/><choice><sic>missis</sic><corr>misso</corr></choice> per egregium fratrem <persName ref="per012526a.01">Petrum Ginodi</persName> predictum, locuntenentem
+                                        <lb/>ut supra.
+                        </seg>
+                            <seg>Quiquidem frater <persName ref="per012535a.01">Victor</persName>, <term ref="lem017131.01">procurator fidei</term> quo supra nomine sibi
+                                        <lb/><persName ref="per012525a.01">Jaquete</persName> misericordiam Ecclesie in forma juris presentavit si
+                                        <lb/>puro corde, fide non ficta, redire vellet ad gremium sancte matris
+                                        <lb/>Ecclesie et omnimodam dicere veritatem de se et suis complicibus.
+                            </seg>
+                            <seg><lb/>Que dicta <persName ref="per012525a.01">Jaqueta</persName> respondit eidem fratri <persName ref="per012535a.01">Victori</persName> se nichil scire
+                                       <lb/>de hiis de quibus inquirebatur contra eam. 
+                            </seg>
+                            <seg>Quibus auditis
+                                        <lb/>per dictum fratrem <persName ref="per012535a.01">Victorem</persName>, assignavit eidem <persName ref="per012525a.01">Jaquete</persName> horam, videlicet
+                                        <lb/>ad eandem diem, hora vesperorum, coram ipso personaliter comparitur<choice><sic/><corr>am</corr></choice> pro
+                                        <lb/>tercia <supplied reason="omitted">monicione</supplied>, ut sibi <del rend="strikethrough">di[ceret]</del> veritatem diceret de hiis de <sic>qua</sic> inculpatur. 
+                            </seg>
+                              <seg><lb/>De quibus premissis omnibus dictus <del rend="strikethrough">dominus</del> frater <persName ref="per012535a.01">Victor</persName> quo supra
+                                        <lb/>nomine michi notario subscripto peciit litteram testimonialem,
+                                        <lb/>presentibus <persName ref="per012536a.01">Ansermo Albi</persName>, de <placeName ref="loc010611.02">Sancto Brancherio</placeName>, et <persName ref="per012537a.01">Johanne Bas</persName>, famulo castellani. 
+                            </seg>
+                        </p>
+                        <p><seg><signed><persName ref="per012534a.01">Franciscus Bosseti</persName></signed>
+                            <figure type="notarial sign"/></seg></p>
+                        <head type="subtitle" resp="GO">26 avril 1459, plus tard</head>
+                        <head type="subtitle"><hi rend="center">Tercia <term ref="lem017130.01">monicio</term></hi></head>
+                        <p><seg><origDate when="1459-04-26">Anno, indicione, die</origDate>, loco et coram testibus quibus supra,
+                                        <lb/>vigore assignacionis suprascripte comparuit personaliter eadem
+                                        <lb/><persName ref="per012525a.01">Jaqueta</persName> coram prefato domino <sic>locuntenente</sic>.
+                        </seg>
+                            <seg>Quiquidem
+                                        <lb/>locumtenens sibi <persName ref="per012525a.01">Jaquete</persName> misericordiam Ecclesie in forma juris
+                                         <lb/>presentavit si puro corde, fide non ficta, redire vellet
+                                         <lb/>ad gremium sancte matris Ecclesie et omnimodam dicere veritatem
+                                         <lb/>de se et suis complicibus. 
+                        </seg>
+                            <seg>Que dicta <persName ref="per012525a.01">Jaqueta</persName> respondit
+                                        <lb/>eidem domino locumtenenti se nichil scire de hiis de quibus
+                                        <lb/>inquirebatur contra eam. 
+                            </seg>
+                            <seg>Quibus auditis, dictus dominus
+                                        <lb/>locumtenens assignavit eandem <persName ref="per012525a.01">Jaquetam</persName>, <date when="1459-04-27" period="P7WD">ad diem sabbati sequentis
+                                        <lb/>XXVII dicti mensis</date><note>Le <date when="1459-04-27" period="P7WD">samedi 27 avril 1459</date> n’existant pas, il faut sans doute comprendre le <date when="1459-04-28" period="P7WD"> samedi 28 avril</date> ou le <date when="1459-04-27" period="P6WD">vendredi 27 avril</date>.</note> personaliter comparituram, coram ipso domino locumtenente,
+                                        <lb/><abbr>etc</abbr>. 
+                            </seg>
+                            <seg>De quibus premissis omnibus et singulis prefatus dominus locumtenens
+                                        <lb/>michi notario subscripto peciit litteram testimonialem, presentibus quibus
+                                        <lb/>supra. 
+                            </seg>
+                        </p>
+                        <pb n="94" facs="ACV_AC-29_93_94"/>
+                        <head type="subtitle" resp="GO">27 avril 1459</head>
+                        <head type="subtitle"><hi rend="center">Quarta <term ref="lem017130.01">monicio</term> ex habundanti</hi></head>
+                        <p><seg><origDate when="1459-04-27" period="P7WD">Anno et loco prenotatis et die sabbati vicesima septima mensis
+                                        <lb/>aprilis</origDate><note>Pour la date, voir la note précédente.</note>, vigore assignacionis prescripte comparuit
+                                        <lb/>personaliter eadem <persName ref="per012525a.01">Jaqueta</persName> coram prefato domino locumtenente. 
+                            </seg>
+                            <seg>Quiquidem
+                                        <lb/>locumtenens sibi <persName ref="per012525a.01">Jaquete</persName> pro ultimo dictarum monicionum termino et
+                                        <lb/>ex habundanti, quia misericordia sancte matris Ecclesie est major
+                                        <lb/>quam malicia et peccatum, dicte <persName ref="per012525a.01">Jaquete</persName> misericordiam Ecclesie
+                                        <lb/>in forma juris presentavit si tamen puro corde, fide non ficta,
+                                        <lb/>redire vellet ad gremium sancte matris Ecclesie et omnimodam dicere
+                                        <lb/>veritatem de se et suis complicibus.
+                        </seg>
+                            <seg>Que dicta
+                                        <lb/><persName ref="per012525a.01">Jaqueta</persName> respondit eidem domino locumtenenti se nichil scire de
+                                        <lb/>hiis de quibus inquirebatur contra eam. 
+                            </seg>
+                            <seg>Quibus auditis,
+                                        <lb/>dictus dominus locumtenens assignavit eandem <persName ref="per012525a.01">Jaquetam</persName> ad dies
+                                        <lb/>sequentes coram ipso personaliter comparituram ad inquirendum
+                                        <lb/>in propriam personam eiusdem <persName ref="per012525a.01">Jaquete</persName> secundum formam juris
+                                        <lb/>pro veritate ex ore suo habenda, alias dicturam et proposituram
+                                        <lb/>causam justam et racionabilem, si quam habeat, quare in
+                                        <lb/>propriam personam eiusdem inquiri non debeat, instante procuratore
+                                        <lb/>fidei, ulteriusque processurum, ut fuerit racionis.
+                            </seg>
+                            <seg><origDate when="1459-04-27">Datum die
+                                        <lb/>et anno quibus supra</origDate><note>Voir la note précédente.</note>, in <placeName ref="loc010617.02">castro Martigniaci</placeName>, presentibus ad hec
+                                        <lb/>vocatis testibus <persName ref="per012538a.01">Jacobo Cavelli</persName>, <term ref="lem009160.01">clerico</term> et <term ref="lem001992.01">notario</term> publico, et <persName ref="per012537a.01">Johanne
+                                         <lb/>Bas</persName>, famulo castellani. 
+                            </seg>
+                        </p>
+                        <p><seg><signed><persName ref="per012534a.01">Franciscus Bosseti</persName></signed>
+                            <figure type="notarial sign"/></seg></p>
+                        <head type="subtitle" resp="GO">27 ou 28 avril 1459</head>
+                        <head type="subtitle"><hi rend="center"><term ref="lem017305.01">Sentencia interlocutoria</term></hi></head>
+                        <p><seg><origDate when="1459-04-27">Anno, die et loco</origDate><note><date when="1459-04-27">27</date> ou <date when="1459-04-28">28 avril 1459</date>.</note> prenotatis comparuit in <placeName ref="loc010617.02">castro Martigniaci</placeName>
+                                        <lb/>dicta <persName ref="per012525a.01">Jaqueta</persName> assignata coram nobis et interrogata si et
+                                        <lb/>desuper hiis de quibus intitulabatur et inculpabatur veritatem
+                                        <lb/>dicere vellet.</seg>
+                            <seg> Que respondit se de dicta materia nichil
+                                        <lb/>scire nec scire velle.</seg>
+                            <seg>Quibus auditis, dictus dominus locumtenens
+                                        <lb/>interrogavit eam si aliquos inimicos capitales haberet
+                                        <lb/>et a testimonio repellere vellet. </seg>
+                            <seg>Que respondit et dicit quod
+                                        <lb/>non. </seg>
+                            <seg>Et insuper interrogata si se deffendere super <subst><del>hoc</del><add place="overwritten">hiis</add></subst>
+                                <pb n="95" facs="ACV_AC-29_95_96"/><lb/>vellet et ad suas deffensiones admitti, que dixit se
+                                        <lb/>esse bonam et perfectam et aliud nichil dixit.</seg>
+                            <seg>Quibus
+                                        <lb/>suis responsionibus auditis, prefatus frater <persName ref="per012535a.02">Victor Macteneti</persName>,
+                                        <lb/>jurisperitus et baccallarius in decretis, procurator fidei, attentis
+                                        <lb/>accusacionibus, variacionibus, indiciis et <choice><sic>famam</sic><corr>fama</corr></choice> magno
+                                        <lb/>tempore contra eandem <persName ref="per012525a.01">Jaquetam</persName> laborantibus, peciit in
+                                        <lb/>eius personam inquiri, donec et quousque veritas ex ore eius
+                                        <lb/>haberetur. </seg>
+                            <seg>Nos igitur frater <persName ref="per012526a.01">Petrus Ginodi</persName>, sacre
+                                        <lb/> theologie professor, vicarius locuntenens reverendi patris,
+                                        <lb/>fratris <persName ref="per012297a.03">Reymondi de Rota</persName>, <orgName ref="org004150.05">ordinis fratrum Predicatorum</orgName>, in
+                                        <lb/>diocesibus <placeName ref="loc005781.05">Lausannensi</placeName>, <placeName ref="loc008750.05">Gebennensi</placeName> et <placeName ref="loc008973.04">Sedunensi</placeName> inquisitoris
+                                        <lb/>auctoritate apostolica specialiter deputati, necnon et auctoritate reverendi
+                                        <lb/>in <persName ref="per000353a.17">Christo</persName> patris et domini domini <persName ref="per012516a.02">Vualterii de Supersaxo</persName>,
+                                        <lb/>Dei et apostolice Sedis gracia episcopi <orgName ref="org004185.03">Sedunensis</orgName>, in hac parte
+                                        <lb/>michi concessa usque ad sentenciam diffinitivam exclusive,
+                                        <lb/>ut patet per publicum instrumentum receptum per
+                                        <lb/>venerabilem virum dominum <persName ref="per012539a.01">Leonardum Prepositi</persName>, <term ref="lem006983.01">canonicum</term> ecclesie
+                                        <lb/><placeName ref="loc005883.04">Sedunensis</placeName> et procuratorem dicti reverendi domini <orgName ref="org004185.03">Sedunensis</orgName>, habito
+                                        <lb/>consilio cum libris et peritis, te <persName ref="per012525a.01">Jaquetam</persName>, attentis diffa<lb break="no"/>macionibus et maxima infamia contra te magno tempore
+                                        <lb/>laborante, perjurio et indiciis magnis et claris contra
+                                        <lb/>te laborantibus, in propriam personam inquiri, instante procuratore
+                                        <lb/>fidei, declaramus et ordinamus donec et quousque veritas
+                                        <lb/>ex ore tuo habeatur, citra tamen mortis periculum, sanguinis
+                                        <lb/>effusionem, membrorum mutillacionem, de quibus sollemniter
+                                        <lb/>protestamur. </seg>
+                            <seg>Datum in <placeName ref="loc010617.02">castro Martigniaci</placeName>, <origDate when="1459-04-27">die et anno premissis</origDate><note>Voir la note précédente.</note>,
+                                        <lb/>presentibus ad hec vocatis testibus, videlicet nobili <persName ref="per012540a.01">Jacobo Exchamperii</persName>,
+                                        <lb/>venerabilibus religiosis domino <persName ref="per012527a.01">Petro Vuilliens</persName> et domino <persName ref="per012528a.02">Petro
+                                         <lb/>Rola</persName>, canonicis <placeName ref="loc010622.02">Montis Jovis</placeName>, nobili <persName ref="per012542a.01">Henrico de Fausonay</persName>, <persName ref="per012536a.01">Ansermo
+                                         <lb/>Albi</persName>, <persName ref="per012544a.01">Bertholeto</persName> de <placeName ref="loc010621.06">Antronaz</placeName>, <persName ref="per012543a.01">Johanne de Drapello</persName> et <persName ref="per012532a.01">Perrodo
+                                         <lb/>Morandi</persName>.</seg>
+                        </p>
+                        <p><seg><signed><persName ref="per012534a.01">Franciscus Bosseti</persName></signed>
+                             <figure type="notarial sign"/></seg></p>
+                 <pb n="96" facs="ACV_AC-29_95_96"/>
+                        <head type="subtitle" resp="GO">30 avril 1459</head>
+                        <head type="subtitle"><hi rend="center"><handShift scribe="2"/>Responsio facta per <persName ref="per012525a.01">Jaquetam Perolinaz</persName>
+                           <lb/>inquisitam.</hi><note>La main semble changer, l’écriture étant beaucoup plus cursive.</note></head>
+                               
+                        <div><ab type="marginal note" place="left margin">Accusati</ab></div>
+                        <p><handShift scribe="2"/><seg><origDate when="1459-04-30">Anno Domini millesimo CCCCLIX<hi rend="sup">o</hi> et die ultima mensis aprilis</origDate>, vigore assignacionis
+                                        <lb/>prescripte comparuit coram prefato domino locumtenente domini inquisitoris
+                                        <lb/>prenominata <persName ref="per012525a.03">Jaqueta Perolinaz</persName> inquisita. 
+                                </seg>
+                                    <seg>Quiquidem dominus locumtenens
+                                        <lb/>interrogavit dictam <persName ref="per012525a.01">Jaquetam</persName> an velit confiteri et declarare veritatem
+                                        <lb/>quam sciverit de et super crimine heretice pravitatis de quo est inculpata,
+                                        <lb/><choice><sic><term ref="lem018156.02">deffamatata</term></sic><corr>diffamata</corr></choice> et suspecta. 
+                                    </seg>
+                                    <seg>Que <persName ref="per012525a.01">Jaqueta</persName>, liberata ab omni vinculo
+                                        <lb/>carceris, <term ref="lem018098.01">torture</term> et questionis, dicit, confitetur et deponit verum esse
+                                        <lb/>quod quadam vice, diu est, et non recordatur de tempore, ut dicit, <persName ref="per012545a.01">Johannetus
+                                        <lb/>Falquet</persName> quondam, eiusdem secte heretice pravitatis, sibi dixit quod iret ad domum
+                                        <lb/>ipsius <persName ref="per012545a.01">Johanneti</persName>&#160;; et venit eadem <persName ref="per012525a.01">Jaqueta</persName>, et dum fuit ante domum dicti
+                                        <lb/><persName ref="per012545a.01">Johanneti</persName>, reperit ibi dictum <persName ref="per012545a.01">Johannetum</persName> et quendam hominem nigre
+                                        <lb/>speciei. Qui <persName ref="per012545a.01">Johannetus</persName> dixit dicte <persName ref="per012525a.01">Jaquete</persName>&#160;: <q>&#160;Venisti huc&#160;; opportet quod
+                                        <lb/>tu maneas nobiscum&#160;</q>. Et adinvicem habuerunt multa verba.
+                                        <lb/>Deinde idem <persName ref="per012545a.01">Johannetus</persName> dixit dicte <persName ref="per012525a.01">Jaquete</persName>&#160;: <q>&#160;Opportet quod tu te reddas
+                                        <lb/>isti homini et habebis multa bona et omnia que volueris&#160;</q>. Que <persName ref="per012525a.01">Jaqueta</persName>,
+                                        <lb/>instigante dicto <persName ref="per012545a.02">Johanneto Falqueti</persName> quondam, fecit homagium dicto homini nigre
+                                        <lb/>speciei. 
+                                    </seg>
+                            <seg>Interrogat<subst><del rend="strikethrough">us</del><add place="overwritten">a</add></subst> qualis erat homo ille, dicit quod erat <term ref="lem017097.02">dyabolus</term>.</seg>
+                                    <seg><lb/>Interrogata quo nomine vocabatur, dicit quod vocabatur <foreign xml:lang="fr"><persName ref="per012546a.01">Bochar</persName></foreign>, prout
+                                              <lb/>sibi dixit. 
+                                    </seg>
+                                    <seg>Interrogata qualiter scit quod erat dyabolus, dicit quod eum
+                                        <lb/>cognovit in specie et eciam in actibus suis.
+                                    </seg>
+                                    <seg>Interrogata quomodo
+                                        <lb/>fecit homagium, dicit quod dedit sibi osculum in culo. Deinde,
+                                        <lb/>instigante dyabolo et <persName ref="per012545a.02">Johanneto Falqueti</persName> predicto quondam, negavit Deum
+                                        <lb/>et fidem catholicam et sacramenta Ecclesie et pro <term ref="lem018116.01">homagio</term>
+                                        <lb/>sibi dyabolo in specie qua supra donavit grossum digitum, et
+                                        <lb/>ipse dyabolus in specie qua supra mordidit digitum sibi donatum. 
+                                    </seg>
+                                    <seg><lb/>Interrogata in quo loco fuit in secta hereticorum, dicit quod fuit
+                                             <lb/>pluries in domo dicti <persName ref="per012545a.01">Johanneti</persName>. 
+                                    </seg>
+                                    <seg>Interrogata qui erant presentes,
+                                        <lb/>dicit quod erat dictus <foreign xml:lang="fr"><persName ref="per012546a.01">Bochar</persName></foreign>, quedam mulier vocata <foreign xml:lang="fr"><persName ref="per012547a.01">Berengiz</persName></foreign>
+                                        <lb/>quondam, <persName ref="per012545a.01">Johannetus Falquet</persName> quondam, <persName ref="per012548a.01">Anthonia</persName>, uxor <persName ref="per012549a.01"><choice><abbr>Jo</abbr><expan>Johannis</expan></choice> de Mollendino</persName> quondam,
+                                        <lb/><persName ref="per012550a.01">Agnex</persName>, uxor <persName ref="per012551a.01">Johannis de Luchia</persName>, <persName ref="per012552a.01">Michalla de Villa</persName><note><persName ref="per012550a">Agnès de Luchia</persName> et <persName ref="per012552a">Michelle de Villa</persName> furent condamnées en même temps que la dite <persName ref="per012525a">Jaquette Pelorinaz</persName> (<bibl><ref target="https://scopequery.vs.ch/detail.aspx?ID=108863">AACM, AcMy Mixte</ref>, nr.&#160;150</bibl> et <bibl>Ammann-Doubliez dans <ref target="http://permalink.snl.ch/bib/chbsg000048336">Ostorero 2007 et al.</ref>, p.&#160;186–187</bibl>.</note>, <persName ref="per012553a.01">Perretus
+                                        <lb/>Abbatis</persName>, <persName ref="per012554a.01">Johannetus Joren</persName> quondam, <persName ref="per012821a.01"><choice><abbr>P</abbr><expan>Petrus</expan></choice> de <foreign xml:lang="fr">Leschelleyr</foreign></persName>, et plures
+                                        <lb/>alii, in numero circa XVIII personarum, de quorum nominibus ad presens
+                                        <lb/>non recordatur&#160;; eciam erant plures stranei quos non cognoscebat. 
+                                    </seg>
+                                    <seg><lb/>Interrogata quid faciebant in dicta secta, dicit quod bibebant
+                                        <lb/>et comedebant, deinde supponebant. 
+                                    </seg>
+                                    <seg>Interrogata qualis
+                                        <lb/>eam cognovit in secta carnaliter, dicit quod dictus <persName ref="per012546a.01">Bochar</persName> dyabolus
+                                        <lb/>eam pluries cognovit carnaliter. 
+                                    </seg>
+                                    <seg>Interrogata an sit aliqua
+                  <pb n="97" facs="ACV_AC-29_97_98"/><lb/>differencia in <sic>cohitu</sic> carnali de dyabolo et homine, dicit quod
+                                        <lb/>sic, quia habet membrum grossum et multum frigidum et
+                                        <lb/>habitat ad modum bestiarum brutarum subvertendo ordinem
+                                        <lb/>nature hominis. 
+                                    </seg>
+                            <seg>Interrogata quomodo ibat ad sectas,
+                                <lb/>dicit quod dictus <persName ref="per012546a.01">Bochar</persName> eam multociens portabat ad
+                                <lb/>sectas. 
+                            </seg>
+                            <seg>Interrogata quomodo, dicit quod sibi tradiderat
+                                <lb/>unum <term ref="lem017132.01">baculum</term> cum <term ref="lem017273.03">onguento</term>, qui per <term ref="lem018126.01">invocacionem</term> dyaboli <del rend="strikethrough">nos</del>
+                                <lb/>ducebat eam ad sectam, dicendo <q>&#160;<foreign xml:lang="fr">Joz joz,</foreign> parte dyaboli&#160;!&#160;</q>.
+                            </seg>
+                            <seg><lb/>Interrogata quo <term ref="lem018099.01">lumine</term> utebantur in sectis, dicit quod
+                                <lb/>habebant lumen trublidum et candelam nigram&#160;; et quando
+                                <lb/>volebant supponere, candela erat suffocata&#160;; et dicit
+                                <lb/>quod in galli cantu incontinenti recedebant a secta. 
+                            </seg>
+                            <seg><lb/>Interrogata de quibus cibis comedebant in secta,
+                                <lb/>dicit quod comedebant panem, vinum et carnes. 
+                            </seg>
+                            <seg><lb/>Interrogata de quibus carnibus, dicit aliquando de
+                                <lb/>carnibus castronis et bovis, et aliquando de <term ref="lem018083.01">carnibus
+                                <lb/>puerorum</term>&#160;; tamen ipsa non commedebat, ut dicit, et
+                                <lb/>multociens erat <persName ref="per020572a.01">Johannes Abbatis</persName> et <persName ref="per012555a.01">Anthonia</persName>, uxor <persName ref="per012556a.01">Petri
+                                 <lb/>Begex</persName>.
+                            </seg>
+                            <seg>Interrogata in quo loco capiebant pueros,
+                                <lb/>dicit in cimisterio ecclesie parrochialis <placeName ref="loc010609.04">Martigniaci</placeName>. 
+                            </seg>
+                            <seg><lb/>Interrogata qui erant illi pueri qui fuerant capti
+                                <lb/>per eos in cimisterio, dicit quod non recordatur, quia
+                                <lb/>jam diu est quod non fuit in secta, ut dicit. 
+                            </seg>
+                            <seg><lb/>Item dicit quod quadam vice fuerunt in secta apud
+                                <lb/><placeName ref="loc010615.02">Levronum</placeName>, in domo <persName ref="per012557a.01">Perrodi Rasi</persName>, et ibidem erant eadem
+                                <lb/><persName ref="per012525a.01">Jaqueta</persName> et inter <del rend="strikethrough">eos</del> alios quidam vocatus <foreign xml:lang="fr"><persName ref="per012558a.01">Cognet</persName> de <placeName ref="loc010614.01">Alesses</placeName></foreign><note><placeName ref="loc010614.01">Alesses</placeName>, situé au-dessus de <placeName ref="loc010613.01">Dorénaz</placeName>, était un village régi au Moyen Âge par le droit écrit. Il se trouvait dans une situation compliquée au point de vue droit. En effet, il faisait partie de la paroisse de <placeName ref="loc008280.01">Saint-Maurice</placeName>, pays de droit écrit, mais il appartenait à la châtellenie de <orgName ref="org005356.01">Martigny</orgName>, pays de coutume. Aussi fut-il détaché en <date when="1431">1431</date> de la châtellenie de <orgName ref="org005356.01">Martigny</orgName> pour être rattaché à celle de <placeName ref="loc009131.01">Saint–Maurice</placeName> (<bibl><ref target="https://scopequery.vs.ch/detail.aspx?ID=109334">AACM, AcMy Mixte</ref>, nr.&#160;588</bibl>&#160;; voir aussi <bibl><ref target="https://scopequery.vs.ch/detail.aspx?ID=54658">AACM, AcMy, Bâtiaz, A 4</ref></bibl>).</note>
+                                <lb/>et <persName ref="per012559a.01">Perrussodus Veniandi</persName><note>Un <persName ref="per012560a.01">Ulric Viniandi</persName> est syndic de <placeName ref="loc010620.01">Charrat</placeName> en <date when="1423">1423</date> (<bibl><ref target="https://scopequery.vs.ch/detail.aspx?ID=108835">AACM, AcMy Mixte</ref>, nr.&#160;122</bibl>).</note> quondam. 
+                            </seg>
+                            <seg>Interrogata qualiter <choice><sic>apperiebat</sic><corr>apperiebant</corr></choice>
+                                <lb/>portas quando ibant in domibus et citurnis, dicit quod magister
+                                <lb/>ipsorum, scilicet dyabolus, apperiebat. 
+                            </seg>
+                            <seg>Interrogata qua die tenebant
+                                <lb/>sectam, dicit multociens in <date period="P5WD">die jovis</date>. 
+                            </seg>
+                            <seg>Interrogata an
+                                <lb/>timebat quando dyabolus portabat eam, dicit quod sic, aliquando&#160;;
+                                <lb/>eciam dicit quod occuli faciebant sibi malum propter velocitatem
+                                <lb/>quando ibat, eciam pro aere.
+                            </seg>
+                            <seg>Interrogata an tempore quo
+                                <lb/>ibat ad sectas, maritus suus se perceperit de eadem de nocte,
+                                <lb/>dicit quod non, quia dormiebat&#160;; tamen quando ipsa veniebat, idem
+                                <lb/>maritus suus sibi <persName ref="per012525a.01">Jaquete</persName> dicebat&#160;: <q>&#160;Quid habes&#160;? Tu es ita
+                                <lb/>frigida.&#160;</q>
+                            </seg>
+                            <seg>Interrogata an <subst><del rend="strikethrough">consa fuerit</del><add place="bottom">confessa fuerit</add></subst> capellano delictum 
+             <pb n="98" facs="ACV_AC-29_97_98"/><lb/>heresis, dicit quod non. 
+                            </seg>
+                            <seg>Interrogata an receperit <term ref="lem017061.01">corpus Christi</term>
+                                <lb/>in <date type="floating holiday">festo Pasche</date> quolibet anno, dicit quod sic, sicut alii
+                                <lb/>in ecclesia.
+                            </seg>
+                            <seg>Interrogata qua devocione recipiebat,
+                                <lb/>dicit quod aliquando habebat devocionem in se, tamen numquam
+                                <lb/>potuit venire ad confessionem de huiusmodi delicto
+                                <lb/>heresis, nec fuit illius <choice><sic>volunctatis</sic><corr>voluntatis</corr></choice>.
+                            </seg>
+                            <seg>Aliud nescit de
+                                <lb/>gestis per eam in secta, quia, ut dicit, diu est quod non
+                                <lb/>fuit in dicta secta et non recordatur de aliis
+                                <lb/>preter de suprascriptis, se offerens quod quando recordabitur,
+                                <lb/>confitebitur et declarabit prefato domino <term ref="lem018123.01">viceinquisitori</term> veritatem. 
+                            </seg>
+                            <seg><lb/>De quibus premissis omnibus prefatus dominus locumtenens
+                                <lb/>domini inquisitoris michi notario <choice><sic>subscripsto</sic><corr>subscripto</corr></choice> precepit litteram
+                                <lb/>testimonialem, presentibus ad hec vocatis testibus, videlicet
+                                <lb/>venerabilibus domino <persName ref="per012528a.01">Petro Rolaz</persName>, canonico <orgName ref="org004837.02">Ripallie</orgName>, domino
+                                <lb/><persName ref="per012527a.02">Petro Vullien</persName>, canonico <orgName ref="org004835.02">Montis Jovis</orgName>, nobili <persName ref="per012540a.01">Jacobo
+                               <lb/>Exchamperii</persName>, <persName ref="per012538a.01">Jacobo Cavelli</persName>, notario, <persName ref="per012544a.02">Anthonio Promentz alias
+                               <lb/>Bertholeto</persName>, de <placeName ref="loc010621.02">Introna</placeName>, et <persName ref="per012537a.01">Johanne Bas</persName>. 
+                            </seg>
+                        </p>
+                        <p><seg><signed><persName ref="per012534a.01">Franciscus Bosseti</persName></signed>
+                            <figure type="notarial sign"/></seg></p>
+                        <head type="subtitle" resp="GO">1<hi rend="sup">er</hi> mai 1459</head>
+                        <head type="subtitle"><hi rend="center">Repeticio facta dicte <persName ref="per012525a.01">Jaquete</persName>
+                            <lb/>et conclusio facta in processu</hi></head>
+                        <p><seg><origDate when="1459-05-01">Anno quo supra et die prima mensis maii</origDate>, vigore
+                            <lb/>assignacionis facte comparuit coram prefato domino
+                            <lb/>vicario et locumtenente domini inquisitoris, videlicet prenominata
+                            <lb/><persName ref="per012525a.03">Jaqueta Perolinaz</persName>. 
+                        </seg>
+                            <seg>Quiquidem dominus viceinquisitor
+                                <lb/>diligenter interrogavit et avisavit dictam <persName ref="per012525a.01">Jaquetam</persName>
+                                <lb/>an ea que supra deposuit sint vera et de eisdem
+                                <lb/>bene certifficata, et an velit aliquid a dicta sua
+                                <lb/>responsione removere, mutare vel addere pro sola
+                                <lb/>facti veritate dicenda <del rend="strikethrough">non</del>.
+                            </seg>
+                            <seg>Que <persName ref="per012525a.01">Jaqueta</persName> dicit <del rend="strikethrough">quod</del> et
+                                <lb/>suo corporali juramento, tactis per eam sanctis scripturis in
+                                <lb/>manibus prefati domini locumenentis, dicit quod ea que supra
+                                <lb/>deposuit sunt vera et de ipsis est in animo suo bene
+                                <lb/>certifficata et avisata et <del rend="strikethrough">quod</del> dicit quod nesciret aliud
+                                <lb/>dicere quia non recordatur. 
+                            </seg>
+                            <seg>Et fuit interrogata per
+                                <lb/>prefatum dominum inquisitorem an velit concludere in suo 
+                <pb n="99" facs="ACV_AC-29_99_100"/><lb/>presenti processu vel alias facere allegaciones pro suis
+                                <lb/>deffensionibus habendis&#160;; dicit quod non vult petere
+                                <lb/>preter misericordiam Dei et Ecclesie et contentatur quod
+                                <lb/>concludatur in suo processu, quia aliud nesciret
+                                <lb/>dicere preter ea que deposuit. 
+                            </seg>
+                            <seg>Et pari forma
+                                <lb/>comparuit egregius frater <persName ref="per012535a.02">Victor Macteneti</persName> <del rend="strikethrough">u[t]</del>,
+                                <lb/>in decretis baccallarius, procurator fidei, petens concludi
+                                <lb/>in dicto processu. 
+                            </seg>
+                            <seg>Quibus audittis, prefatus
+                                <lb/>dominus vicarius et locumtenens domini inquisitoris
+                                <lb/>de consensu dictorum <term ref="lem017131.01">procuratoris fidei</term> et <persName ref="per012525a.01">Jaquete</persName> conclusit
+                                <lb/>in dicto processu, dicendo&#160;: <q>&#160;In nomine Patris et
+                                <lb/>Filii et Spiritus Sancti amen&#160;</q>. 
+                            </seg>
+                            <seg>De quibus
+                                <lb/>premissis omnibus et singulis prefatus dominus
+                                <lb/>procurator fidei michi notario subscripto peciit
+                                <lb/>dari litteram testimonialem, presentibus ad hec vocatis
+                                <lb/>testibus, videlicet nobili <persName ref="per012541a.01">Johanne Exchamperii</persName>, <sic>vicedopno</sic>
+                                <lb/><orgName ref="org005356.02">Martigniaci</orgName>, <persName ref="per012538a.01">Jacobo Cavelli</persName>, notario, <persName ref="per012561a.01">Angellino
+                               <lb/>Obsert</persName>, <persName ref="per012532a.01">Perrodo Morandi</persName>, <persName ref="per012562a.01">Johanne Leonardi</persName>, <persName ref="per012544a.01">Bertholeto</persName>
+                                <lb/>de <foreign xml:lang="fr"><placeName ref="loc010621.03">Intronaz</placeName></foreign> et <persName ref="per012537a.01">Johanne Bas</persName>, familiaribus castri dicti
+                                <lb/>loci <placeName ref="loc010608.02">Martigniaci</placeName>. Actum in dicto <placeName ref="loc010617.02">castro</placeName>, <origDate when="1459-05-01">die et anno
+                                 <lb/>premissis</origDate>. 
+                            </seg>
+                        </p>
+                             <p><seg><signed><persName ref="per012534a.01">Franciscus Bosseti</persName></signed>
+                                    <figure type="notarial sign"/></seg></p>
+                        <head type="subtitle" resp="GO">5 mai 1459</head>
+                        <head type="subtitle"><hi rend="center"><term ref="lem018155.02">Rattifficacio</term> facta per dictam <persName ref="per012525a.01">Jaquetam</persName>
+                            <lb/>de premissis
+                        </hi></head>
+                        <p><seg><origDate when="1459-05-05" period="P7WD">Anno quo supra et die sabatti quinta mensis maii</origDate>, fuit eadem
+                            <lb/><persName ref="per012525a.01">Jaqueta</persName> interrogata per egregium dominum <persName ref="per012563a.01">Petrum Cochardi</persName>,
+                            <lb/>vicarium domini <orgName ref="org004185.03">Sedunensis</orgName> episcopi, de et super premissis an illa sint vera, sicut
+                            <lb/>deposuit. Que dicit quod sic et illa omnia ractifficat tamquam
+                            <lb/>vera.</seg>
+                            <seg>De quibus, <abbr>etc.</abbr>, presentibus ad hec vocatis testibus nobilibus
+                                <lb/><persName ref="per012564a.01">Petermando de Chivrone</persName>, vicedopno <placeName ref="loc005883.04">Sedunensi</placeName>, <persName ref="per012565a.01">Petro</persName> eius
+                                <lb/>filio, et <persName ref="per012540a.01">Jacobo Exchamperii</persName>. 
+                            </seg>
+                        </p>
+                        <p><seg><signed><persName ref="per012534a.01">Franciscus Bosseti</persName></signed>
+                            <figure type="notarial sign"/></seg></p>
+                                        <pb n="100" facs="ACV_AC-29_99_100"/>
+                        <head type="subtitle" resp="GO">10 mai 1459</head>
+                        <head type="subtitle"><handShift scribe="1"/><hi rend="center">Assignacio facta dicte <persName ref="per012525a.01">Jaquete</persName> ad audiendum
+                                <lb/>jus et <term ref="lem018088.03">diffinitivam sentenciam</term> super <del rend="strikethrough">eorum processibus</del>
+                                <lb/>suo processu
+                        </hi></head>
+                        <p><handShift scribe="1"/><seg><origDate when="1459-05-10">Anno quo supra et die decima mensis maii</origDate>, <time period="morning">hora
+                                <lb/>prime</time>, de mandato prefatorum dominorum vicariorum <del rend="strikethrough">fuerunt, fuit</del>
+                               <lb/>per me scribam inquisicionis assignata <supplied reason="omitted">fuit</supplied> prefata <persName ref="per012525a.01">Jaqueta</persName> super
+                                <lb/>intitulatis, ibidem presens et audiens, ad diem presentem,
+                                <lb/>hora none, coram prefatis dominis vicariis personaliter
+                                <lb/>comparitura ad audiendum jus et diffinitivam sentenciam
+                                <lb/>peremptorie et precise per eosdem ferendam super dict<subst><del rend="strikethrough">is</del><add place="overwritten">o</add></subst>
+                            <lb/><del rend="strikethrough">eorum processibus</del>suo processu contra eandem <persName ref="per012525a.01">Jaquetam</persName>
+                                <lb/>formato.</seg>
+                        <seg>Actum in <placeName ref="loc010617.02">castro Martigniaci</placeName>, <origDate when="1459-05-05">die et anno premissis</origDate>,
+                            <lb/>presentibus ad hec vocatis testibus <persName ref="per012543a.01">Johanne de Drapello</persName>,
+                            <lb/><persName ref="per012561a.01">Angellino Obsert</persName> et <persName ref="per012537a.01">Johanne Bas</persName>, famulo castellani. 
+                        </seg>
+                        </p>
+                        <p><seg><signed><persName ref="per012534a.01">Franciscus Bosseti</persName></signed>
+                            <figure type="notarial sign"/></seg></p>
+                        <pb n="101" facs="ACV_AC-29_101_102"/><p/>
+                        <pb n="102" facs="ACV_AC-29_101_102"/><p/>
+                        <pb n="103" facs="ACV_AC-29_103_104"/><p/>
+                            </div>
+                </body>
+            </text>
+        </group>
+        
+        <back>
+            <div>
+                <p>Bien que ce procès concerne le Valais savoyard et le diocèse de Sion, il a été réuni au registre ACV, Ac 29, qui contient majoritairement des procès relatifs au diocèse de Lausanne et au pays de Vaud. Les éditeurs respectent ainsi l’unité codicologique du registre ACV, Ac 29.</p>
+            </div>
+        </back>
+    </text>
+</TEI>

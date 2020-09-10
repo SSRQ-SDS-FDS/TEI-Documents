@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-08-15"/>
+            <date type="print"/>
+            <availability><p xml:id="facs">Sibylle Malamud</p></availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_100</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno source="https://archivverzeichnis.gl.ch/home/#/content/41904a837abc414f8b6d9244fc672ece">LAGL AG III.2409:012</idno>
+                  <altIdentifier>
+                     <idno>LAGL 23</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <head>Schiedsspruch von Luzern im Streit zwischen den Landleuten von Werdenberg, den Leuten derer von Griffensee und den Walsern von Werdenberg</head>
+               <msContents>
+                  <summary>
+                     <p>Schultheiss und Rat der Stadt Luzern entscheiden einen Streit zwischen den Landleuten von Werdenberg, den Leuten derer von Griffensee und den Walsern von Werdenberg. Die von Griffensee beanspruchen gemäss vorgelegten Urkunden frei zu sein. Die Landleute wollen ihnen aber dafür keine Rechte einräumen. Die Walser beanspruchen, ihr Vieh wie die Landleute auf die Allmend zu treiben. Die Landleute hingegen verlangen, dass deren Vieh in den Umzäunungen bleibt.</p>
+                     <p>Die Freiherren von Hewen sollen, da sich die Leute von Griffensee vor Zeiten um
+                        100 Gulden freigekauft haben, denen von Griffensee 60 Gulden und die
+                        Landleute 40 Gulden an ihre Pfandsumme geben.</p>
+                     <p>Bezüglich den Walsern und Landleuten wird entschieden, dass sie ihr Vieh in ihren Gehegen belassen sollen und bei ihren Freiheiten bleiben dürfen. Wenn sie Landleute werden wollen, soll ihre Busse gemäss der eines Landmannes vermindert werden. Wenn ein Walser aus dem Land zieht, soll er 10 Pfund für den Abzug entrichten.</p>
+                     <p>Der Aussteller siegelt.</p>
+                  </summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <filiation type="current">Original</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Pergament</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="15.5"/>
+                              <width unit="cm" quantity="43.0"/>
+                           </dimensions>
+                           <dimensions type="plica">
+                              <width unit="cm" quantity="5.5"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <sealDesc>
+                     <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI"
+                           n="1"
+                           nontei:condition="well-preserved"
+                           nontei:material="wax"
+                           nontei:shape="round"
+                           nontei:attachment="sealed on a parchment tag">
+                        <orgName role="sigillant" ref="org001195">Luzern</orgName>
+                     </seal>
+                  </sealDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1513-05-25"/>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000118">Walser</term>
+               <term ref="key000445">Landmann</term>
+               <term ref="key000298">Vieh</term>
+               <term ref="key000307">Allmend</term>
+               <term ref="key000336">Nutzung</term>
+               <term ref="key003217">Freiheit</term>
+               <term ref="key000446">Abzug</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <div org="uniform" sample="complete">
+                  <pb facs="LAGL_AG_III.2409_012_r"/>
+                  <p>
+                     <seg>
+                        <lb/>Wir, <orgName ref="org002991">schultheis unnd rätt der statt <placeName
+                              ref="loc000088.10">Lucernn</placeName></orgName>, thuͦnd kunnd
+                        allermengklichem offennlich mitt disem brieff, das uff dem tag siner date,
+                        alls wir in rättswiß byein<lb break="no"/>anndern versampt gewesen, vor unns
+                        erschinnen sind der ersammen lanndtlütten <orgName ref="org003218"
+                           >Griffensees</orgName> lütten unnd der <term ref="lem000198"
+                           >walsern</term> von <placeName ref="loc000440">Werdenberg</placeName>
+                        erber pottschafft unnd <lb/>hannd unns <term ref="lem007772"
+                           >erscheinntt</term> unnd erzelltt ein lanngwirigen span unnd zwytracht,
+                        so sy bißhar gegen unnd unnder einanndern gehept unnd noch haben. Der also
+                        ist:</seg>
+                     <seg>
+                        <lb/>Das die <orgName ref="org003218">Griffensees</orgName> lütt vermeinent,
+                        fry ze sitzen, wie sy sich von alter erkoufft unnd darumb ir brieff zuͦ
+                           verhören.<note anchored="true">Vgl. dazu
+                           <ref>SSRQ_SG_III_4_061</ref>.</note>
+                     </seg>
+                     <seg>Darwider aber die <term ref="lem008488">lanndtlütt</term> vermeinent,
+                        nein, sundern <lb/>inen etwas ze thuͦn schuldig sin. Dessglich so vermeinent
+                        die <term ref="lem000198">walßer</term>, mitt irem <term ref="lem000310"
+                           >vech</term> uff der landtlütten <term ref="lem000512">almendt</term>
+                        oder guͤtter ze faren wie die lanndtlütt, dess die landt<lb break="no"/>lütt
+                        ouch beschwertt. Vermeinent, die söllendt mit irem vech imm <term
+                           ref="lem000629">etter</term> bliben unnd nitt uff sy ützit zuͦ faren
+                        haben. Mitt mer unnd lenngern wortten, nitt nott <lb/>zuͦ melden.</seg>
+                     <seg>Also nach klag, antwurtt, red unnd wider red unnd verhörung der brieffen,
+                        nach lanngem hanndell haben wir unns erkennt, erkennen unns <lb/>hiemitt in
+                        krafft diss brieffs der lanndtlütten und <orgName ref="org003218"
+                           >Griffensees</orgName> lütten halb: </seg>
+                     <seg n="1">Das die edlen, wolgepornnen <choice>
+                           <abbr>hrn</abbr>
+                           <expan>herren</expan>
+                        </choice>
+                        <orgName ref="org000182">von Hewen</orgName>, umb das sich die <orgName
+                           ref="org003218">Griffensees</orgName> lütt von allter <lb/>har umb
+                           <measure type="currency" quantity="100" unit="fl">hunndertt
+                           guldin</measure> erkoufft,<note anchored="true">Vgl. dazu
+                              <ref>SSRQ_SG_III_4_061</ref>.</note> den <orgName ref="org003218"
+                           >Griffensees</orgName> lütten <measure type="currency" quantity="60"
+                           unit="fl">sechtzig guldin</measure> unnd die lanndtlütt <measure
+                           type="currency" quantity="40" unit="fl">viertzig guldin</measure> an iren
+                           <term ref="lem007614">pfannd schilling</term> geben söllendt unnd damitt
+                        <lb/>von ein anndern gericht, vereinbartt unnd geschlicht sin, jetz unnd
+                        hienach unnd fürhin ouch lanndtlütt bliben unnd heissen.</seg>
+                     <seg n="2">Item unnd der lanndtlütten unnd walsern <lb/>halb, haben wir unns
+                        erkennt, das die walser söllennd mitt irem vech im etter bliben, da by wölle
+                        man sy by iren <term ref="lem000314">fryheitten</term> bliben lassen.
+                        Wöllend sy aber landtlütt <lb/>sin, so sölle man inen ir grosse <term
+                           ref="lem000036.15">buͦss</term><note anchored="true">Freie und Walser
+                           bezahlten in der Regel für ein Delikt eine höhere Busse als Landsleute,
+                           vgl. dazu z. B. <ref>SSRQ_SG_III_4_049</ref>, Art. 6; <bibl>
+                              <ref
+                                 target="https://www.ssrq-sds-fds.ch/online/SG_III_2/index.html#p_163"
+                                 >SSRQ SG III/2.1</ref>, Nr. 51b</bibl>.</note> mindern wie einem
+                        lanndtman. Ob sich aber begebe, das ein walser <term ref="lem011964">uss
+                           lannd züchen</term> wurd, alls dann sölle der <measure type="currency"
+                           quantity="10" unit="lb">zechen <lb/>pfunnd</measure> für den <term
+                           ref="lem001009">abzug</term> geben.</seg>
+                     <seg>Unnd hiemitt ouch aller ir spennen unnd zwytracht ganntz vereinbartt,
+                        gericht unnd geschlicht sin in krafft diss brieffs, den wir <lb/>zuͦ
+                        urkunnde uff gemelltter parthyen beger mitt unnser statt angehenncktem
+                        secrett besigelltt unnd geben uff <origDate when="1513-05-25">sannt
+                              <persName ref="per000352">Urbanuͦß</persName> tag nach Cristi, unnsers
+                           <lb/>herren, gepurtt gezalltt fünnffzechen hunndertt unnd dryzechen
+                           jare</origDate>.</seg>
+                  </p>
+               </div>
+               <pb facs="LAGL_AG_III.2409_012_v"/>
+               <div org="uniform" sample="complete">
+                  <ab type="dorsal" place="verso" hand="hand18c">
+                     <lb/><date when="1513">Anno 1513</date>: <lb/>Rechtspruch zu <placeName
+                        ref="loc000088.02">Lucern</placeName>, die <orgName ref="org003218"
+                        >Gryffensees</orgName>
+                     <lb/>lüth, die vermeinten frey zu sitzen, und <lb/>die walser, die vermeinten,
+                     auff die all<lb break="no"/>meind zu fahren, <date when="1513">anno 1513</date>
+                     gegeben.</ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab type="archiving reference" place="verso">
+                     <del>N<hi rend="sup">o</hi> 166</del> N<hi rend="sup">o</hi> 23</ab>
+               </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div n="1" org="uniform" sample="complete">
+            <p>Die Grafen von <orgName ref="org000008">Werdenberg-Sargans</orgName> sind
+               Territorialherren der Walser im Raum <placeName ref="loc000828">Wartau</placeName>,
+               d. h. die Walser leisten ihnen <term ref="key000566">Kriegsdienste</term> und stehen
+               unter ihrem <term ref="key000565">Schutz</term>, wofür sie ein Geleitgeld
+               (Abgabe/Steuer auf die Person) bezahlen. <term ref="key000475">Güterrechtlich</term>
+               gehören sie jedoch zur Herrschaft <placeName ref="loc000827">Wartau</placeName> und
+               leisten dem Inhaber der Herrschaft die <term ref="key000570">Lehenzinse</term>. Zu
+               den <term ref="key000118">Walsern</term> vgl. auch <bibl><ref
+                     target="http://permalink.snl.ch/bib/chbsg000124601">Gabathuler 2012b</ref>, S.
+                  91–105</bibl>; <bibl><ref
+                     target="https://www.ssrq-sds-fds.ch/online/SG_III_2/index.html#p_LXXIII"
+                     >SSRQ SG III/2, S. LXXIII–LXXIV</ref></bibl> sowie die Stücke in <bibl><ref
+                     target="https://www.ssrq-sds-fds.ch/online/SG_III_2/index.html#p_III">SSRQ SG
+                     III/2</ref>, <ref
+                     target="https://www.ssrq-sds-fds.ch/online/SG_III_2/index.html#p_60"
+                     >Nr. 33</ref>, <ref
+                     target="https://www.ssrq-sds-fds.ch/online/SG_III_2/index.html#p_399"
+                     >Nr. 119</ref>, <ref
+                     target="https://www.ssrq-sds-fds.ch/online/SG_III_2/index.html#p_861"
+                     >Nr. 232</ref>, <ref
+                     target="https://www.ssrq-sds-fds.ch/online/SG_III_2/index.html#p_1114"
+                     >Nr. 332</ref></bibl>; <ref>SSRQ_SG_III_4_031</ref>;
+                  <ref>SSRQ_SG_III_4_072</ref>; <bibl><ref>Burgerarchiv Grabs U 0018</ref>
+                  (undatiert, zweite Hälfte 15. Jh.); <ref>U 0015</ref> (undatiert, um 1490</bibl>
+               ); <bibl><ref>PA Hilty weisse Mappe (in Schachtel)</ref></bibl>; <bibl><ref>StASG CK
+                     10</ref></bibl>.</p>
+         </div>
+         <!-- Die freien Walser entrichteten den Grafen von 
+     Werdenberg-Sargans Abgaben für Schutz und Schirm und dienten ih- nen mit «Schwert und Speer». 
+     Güterrechtlich gehörten sie jedoch zur Herrschaft Wartau, d.&#160;h., die Lehenszinsen bezahlten sie 
+     den Belmonter Herren und den Werdenberger Grafen.205 Offenbar wurden die Walser von den Sarganser Grafen bewusst auf Gütern angesiedelt, 
+     die den Belmontern und dann den Werdenbergern gehörten. SSRQ, S.&#160;LXXIII–LXXIV, 
+     1. Die in der Urkunde an Hans von Wartau1 verkauften Güter stellen den Siedlungs- und Wirtschafts-
+raum der freien Walser am Wartauer Berg dar, welche nicht zur Nachbarschaft Wartau gehörten, die sich im 15.&#160;Jh. bildete. Es handelt sich dabei um die im Sarganser Urbar von 1398 genannten Zinsgüter der Walser (Thommen, Sarganser Urbar, S.&#160;686). Die freien Walser entrichteten den Sarganser Grafen Abgaben für Schutz und Schirm (vgl. Thommen, Sarganser Urbar, S.&#160;686; Nr.&#160;51a, Art. 29) und leisteten
+Heeresfolge (vgl. Nr.&#160;51b, Art. 24).
+Güterrechtlich gehörten die Walser jedoch zur Herrschaft Wartau, d.&#160;h., die Lehenszinsen bezahlten
+25 sie den Werdenberger Grafen (Graber, Wartau, S.&#160;168). Im Wartauer Urbar ndet sich unter dem Jahr 1438 folgender Eintrag: Item und xj lib v  ₰ gend die walliser und sind versetzt Hansen von Wartow (StALU, Urk. 207/2988/1, fol.&#160;3r).
+Offenbar wurden die Walser von den Sarganser Grafen bewusst auf Gütern angesiedelt, die den Belmontern und dann den Werdenbergern gehörten (vgl. Nr.&#160;13; zu den romanischen Flurnamen am
+30 Walserberg vgl. Graber, Alp, S.&#160;141).
+ -->
+         <div n="2" org="uniform" sample="complete">
+            <p>Zu den <orgName ref="org000158">von Griffensee</orgName> und ihren <orgName
+                  ref="org003218">Eigenleuten</orgName>, vgl. auch <ref>SSRQ_SG_III_4_056</ref>;
+                  <ref>SSRQ_SG_III_4_061</ref>; <bibl><ref
+                     target="https://www.ssrq-sds-fds.ch/online/SG_III_2/index.html#p_LXII">SSRQ SG
+                     III/2, S. LXII</ref></bibl>; <bibl><ref
+                     target="http://permalink.snl.ch/bib/chbsg000118195">Gabathuler 2008</ref>,
+                  S. 186</bibl>.</p>
+         </div>
+      </back>
+   </text>
+</TEI>

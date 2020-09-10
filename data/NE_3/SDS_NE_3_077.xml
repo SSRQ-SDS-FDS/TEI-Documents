@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="headerinfo"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <date type="electronic" when="2020-08-17"/>   
+    <date type="print"/>
+    <availability><p xml:id="facs">Adrien Wyssbrod</p></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Collection des sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS_NE_3_077</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier>
+      <idno>AVN B 101.01.01.006, p. 252</idno>
+     </msIdentifier>
+     <head>Exposition des raisons d’une plainte, suite</head>
+     <msContents>
+      <summary>Celui qui porte plainte doit en exposer les raisons lors de la première assignation
+       en justice. La question est cependant renvoyée en justice.</summary>
+      <msItem>
+       <textLang>français</textLang>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="32"/>
+          <width unit="cm" quantity="22.5"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <origDate when="1625-01-10" calendar="Julian"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>
+      </origin>
+     </history>
+     <additional>
+      <listBibl>
+       <head/>
+       <bibl/>
+      </listBibl>
+     </additional>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key005130"></term>
+     <term ref="key005021"></term>
+     <term ref="key005128"></term>
+     <term ref="key004993"></term>
+     <term ref="key005189"></term>
+    </keywords>
+   </textClass>
+   <particDesc default="false"/>
+   <settingDesc default="false"/>
+  </profileDesc>
+ </teiHeader>
+ 
+ <text>
+  <group>
+   <text>
+    <body>
+
+     <pb n="252" facs="AVN_B_101.01.01.006_0252"/>
+
+     <div>
+      <head>
+       <lb/>Du <date when="1625-01-10" calendar="Julian">lundi x<hi rend="sup">e</hi> janvier</date>
+       en <orgName ref="org003085">conseil estroyt</orgName>
+       <choice>
+        <abbr>p<hi rend="sup">r</hi></abbr>
+        <expan>pour</expan>
+       </choice>pr les <lb/>elections. </head>
+     </div>
+     <div>
+      <p>
+       <lb/>Remis en deliberation la question de <persName ref="per011690a.01">Jonas
+        <sic>Stef</sic></persName>
+       <lb/>touchant la coustume ci deuant mentionnee. </p>
+      
+      <p><add place="left margin"><orgName ref="org003964.02">Steff</orgName></add></p>
+      
+      
+       <p><lb/>A esté dit et aresté telle question estre plustost de <lb/>droict, de despendre de
+       jugement, que de coustume, <lb/>partant <choice>
+        <abbr>led</abbr>
+        <expan>ledit</expan>
+       </choice>
+       <persName ref="per011690a.01">Steff</persName>
+       <term ref="lem014980.14">renuoyé a poursuiure son <lb/>droict pretendu par les voyes de
+        justice <sic>ordinayres</sic></term>
+       <lb/>pour sur les contestes de partis attendre jugement.</p> 
+     </div>
+     
+    </body>
+    <back>
+     <div>
+      <p>Ce point de coutume est la suite du point <ref>SDS_NE_3_076</ref>, juste au-dessus sur la même page.</p>
+     </div>
+    </back>
+   </text>
+  </group>
+ </text>
+</TEI>

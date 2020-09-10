@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+xml:lang="fr" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"> 
+<teiHeader>
+    <fileDesc>
+        <titleStmt>
+            <title>XIX<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Vaud, D. Répression de la sorcellerie en Pays de Vaud (XV<hi rend="sup">e</hi>–XVII<hi rend="sup">e</hi> siècles), Tome 1&#160;: XV<hi rend="sup">e</hi> siècle</title>
+            <respStmt>
+                <persName>Pau Castell Granados</persName>
+                <persName>Gwendolin Ortega</persName>
+                <persName>Martine Ostorero</persName>     
+                <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+                <persName>Martine Ostorero</persName>
+                <resp key="qualitycheck"/>
+            </respStmt>
+            <respStmt>
+                <persName>Gwendolin Ortega</persName>
+                <resp key="tagging"/>
+            </respStmt>
+        </titleStmt>
+        <publicationStmt>
+            <date type="electronic" when="2019"/>
+            <date type="print" when="1995"/>
+            <availability><p xml:id="facs">Archives cantonales vaudoises (ACV)</p></availability>
+        </publicationStmt>         
+        <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Collection des sources du droit suisse</title>
+            <respStmt>
+                <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+                <resp/>
+            </respStmt>
+            <idno>SDS_VD_D_1_0003</idno>
+        </seriesStmt>      
+        <sourceDesc>
+            <msDesc>
+                <msIdentifier>
+                    <idno>ACV, Ac 29, p.&#160;29–43</idno>
+                </msIdentifier>
+                <head>Procès de sorcellerie intenté contre Catherine Quicquat, de Vevey</head>
+                <msContents>
+                    <summary>
+                        <p>Suite à la déposition de Jean Brunet, clerc et bourgeois de Vevey, Catherine Quicquat, de Vevey, comparaît au château de La Tour–de–Peilz. Elle est diffamée d’hérésie et dénoncée par plusieurs inculpés. Son procès, instruit par l’inquisiteur Pierre d’Aulnay et le vicaire épiscopal Léonard de Bosco, débute le 15 mars 1448 et se déroule sur quatre jours. Après trois monitions, le procureur de la foi Pierre Rondinel produit des dépositions de témoins et des actes de procès pour renforcer l'accusation&#160;; il réclame la proclamation de la sentence interlocutoire. Après avoir été soumise à la torture, Catherine Quicquat passe aux aveux devant l’inquisiteur et dénonce 13 personnes. La sentence est proclamée le 18 mars devant l’église Saint-Martin de Vevey.</p>
+                    </summary> 
+                    <msItem>
+                        <textLang>la</textLang>
+                        <filiation type="current"></filiation>
+                    </msItem>
+                </msContents>
+                <physDesc>
+                    <objectDesc>
+                        <supportDesc>
+                            <support>
+                                <material>Papier</material>
+                            </support>
+                            <extent>
+                                <dimensions type="leaves"> 
+                                    <height unit="cm" quantity="0.0"/>
+                                    <width unit="cm" quantity="0.0"/>
+                                </dimensions>
+                                <dimensions type="plica">
+                                    <width unit="cm" quantity="0.0"/>
+                                </dimensions>
+                            </extent>
+                        </supportDesc>
+                    </objectDesc>
+                </physDesc>
+                <history>
+                    <origin>
+                        <origDate from="1448-03-15" to="1448-03-18"/>
+                        <origPlace ref="loc008768.01">Château de la Tour–de–Peilz</origPlace> 
+                    </origin>
+                </history>
+                <additional>
+                    <listBibl>
+                        <head>Edition</head>
+                        <bibl><ref target="http://permalink.snl.ch/bib/chbsg000079676">Ostorero 1995</ref>, p.&#160;236–257</bibl>
+                    </listBibl>
+                    <listBibl>
+                        <head>Littérature</head>
+                        <bibl><ref target="http://permalink.snl.ch/bib/chbsg000079676">Ostorero 1995</ref>, p.&#160;95–116</bibl>
+                        <bibl><ref target="http://permalink.snl.ch/bib/chbsg000051484">Maier 1996</ref>, p.&#160;81, 123, 157, 424</bibl>
+                        <bibl><ref target="http://permalink.snl.ch/bib/chbsg000010240">Ostorero 1999 et al.</ref>, p.&#160;336</bibl>
+                        <bibl><ref target="http://permalink.snl.ch/bib/chbsg000048336">Ostorero et al. 2007</ref><!--, p.&#160;13, 21, 25, 27, 29, 70, 73, 214, 228–229--></bibl>
+                        <bibl><ref target="http://permalink.snl.ch/bib/chbsg000139095">Modestin 2015</ref>, p.&#160;245</bibl>
+                    </listBibl>
+                </additional>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+        </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+        <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+                <term/> 
+            </keywords>
+        </textClass>
+        <particDesc default="false"/>
+        <settingDesc default="false"/>
+    </profileDesc>
+</teiHeader>
+
+<text>
+    <group>
+        <text>
+            <body>
+                <div>
+                    <pb n="29" facs="ACV_AC-29_28_29"/> 
+                    <div><ab type="archiving reference" hand="hand20c" place="left margin" medium="pencil"><date when="1448-03">1448 mars</date></ab></div>
+                                 <head type="title"  place="top" hand="other hand">Processus <persName ref="per010866a.02">Catherine Quiqctat</persName> de <placeName ref="loc008099.07">Viviaco</placeName></head> 
+                                 <p><seg>Sequitur inquisicio secreta sumpta per venerabiles viros
+                                                <lb/>dominos fratrem <persName ref="per010867a.01">Petrum de Alneto</persName> <orgName ref="org004150.03">ordinis
+                                                <lb/>Predicatorum</orgName><note>Il s’agit des <orgName ref="org004150.01">Dominicains</orgName> établis au couvent de <orgName ref="org004025.01">la Madeleine</orgName> à  <placeName ref="loc007885.01">Lausanne</placeName> (<bibl><ref target="http://permalink.snl.ch/bib/chbsg000079676">Ostorero 1995</ref>, p.&#160;195</bibl>).</note>, <term ref="lem017062.02">heretice pravitatis inquisitorem</term> in 
+                                                <lb/>diocesi <placeName ref="loc005781.05">Lausannensi</placeName> et <placeName ref="loc008750.02">Gebennensi</placeName> et quibusdam aliis
+                                                <lb/>civitatibus et locis, a sancta Sede apostolica specialiter
+                                                 <lb/>deputatum, et <persName ref="per010874a.01">Leopardum de Bosco</persName> <term ref="lem000013.01">vicarium</term>
+                                                <lb/>in hac parte reverendi in <persName ref="per000353a.17">Christo</persName> patris et domini nostri
+                                                <lb/>domini <persName ref="per010754a.01">Georgii de Saluciis</persName> Dei et apostolice Sedis
+                                                <lb/>gracia <orgName ref="org001749.03">Lausannensis</orgName> <term ref="lem001847.01">episcopi</term> et <term ref="lem005360.01">comitis</term>, contra et 
+                                                <lb/>adversus <persName ref="per010866a.01">Catherinam</persName> uxorem <persName ref="per010875a.01">Thome Quicquat</persName>
+                                                <lb/>inquisitam.
+                              </seg></p>
+                                <p><seg>Et primo<note>Il est rare que la déposition d’un témoin soit conservée, d’où le grand intérêt de ce document. Le terme <orig>&#160;primus&#160;</orig> nous indique par ailleurs que d’autres témoins ont été entendus au cours de cette enquête préalable. Ce témoignage ne porte malheureusement pas de date précise.</note> discretus vir <persName ref="per010876a.01">Johannes Bruneti</persName>
+                                                <lb/><term ref="lem009160.01">clericus</term> et <term ref="lem017295.01">burgensis</term> <orgName ref="org004460.03">Turris</orgName> primus testis productus
+                                                <lb/>juratus <sic>deligenter</sic> et secrete examinatus 
+                                                <lb/>de et super <term ref="lem016977.01">infamia</term> prefate <persName ref="per010866a.01">Catherine</persName> inquisite.
+                                                <lb/>Qui testis dicit et deponit quod, <date notBefore="1442" notAfter="1443" dur="P7Y">a sex <subst><del rend="strikethrough">a[nis]</del><add place="overwritten">aut</add></subst> septem  
+                                                <lb/>annis citra vel circa</date>, ipse testis dici audivit
+                                                <lb/>in villis <placeName ref="loc008099.07">Viviaci</placeName>, <placeName ref="loc008475.04">Turris de Peil</placeName> a pluribus
+                                                <lb/>personis notis et vicinis dicte <persName ref="per010866a.01">Catherine</persName>
+                                                <lb/>et quamplurimis aliis, quod ipsa <persName ref="per010866a.01">Catherina</persName> fuerat,
+                                                <lb/>erat et <subst><del>adhunc</del><add place="overwritten">adhuc</add></subst> est de <term ref="lem017109.01">heresis</term> pravitate 
+                                                <lb/><term ref="lem018156.01">diffamata</term>&#160;; dicens ulterius idem testis 
+                                                <lb/>se dici audivisse certis diebus et horis
+                                                <lb/>a pluribus personis fidedignis quod quadam
+                                                <lb/>die qua dicta <persName ref="per011000a.02">Sibilieta</persName> cumbrusta fuit 
+                                                <lb/>adducta ante <placeName ref="loc008830.03">Hospitale <choice><sic>novis veteri</sic><corr>Novum<note>L’<placeName ref="loc008830.01">Hôpital Neuf du Vieux–Mazel</placeName> a été fondé en <date when="1327">1327</date>. C’est dans la grande salle de cet édifice que se tenaient les séances du Conseil de Ville, dès <date when="1356">1356</date> (<bibl><ref target="http://permalink.snl.ch/bib/chbsg991001190348303977">De Montet 1884</ref>, p.&#160;84–89 et p.&#160;108</bibl>). Peut–être est–ce pour cette raison que <persName ref="per011000a">Sibylle</persName> y est conduite.</note> Veteris</corr></choice> 
+                                                <lb/>Macelli</placeName><note>Le quartier du <placeName ref="loc009333.01">Vieux–Mazel</placeName> (ou Vieux–Marché) est un bourg ancien de <placeName ref="loc008099.01">Vevey</placeName>, situé sur l’emplacement probable de la station romaine de <hi rend="italic">Vibiscum</hi> (<bibl><ref target="http://permalink.snl.ch/bib/chbsg991001190348303977">De Montet 1884</ref>, p.&#160;23–30</bibl>).</note> <placeName ref="loc008099.07">Viviaci</placeName> in <term ref="lem017124.01">jornatis</term> castelli predicti 
+                                                <lb/>loci pro cognicione de eadem <persName ref="per011000a.03"> Sibilia</persName> fienda
+                                                <lb/>de et super <term ref="lem017269.01">crimine heresis</term> tunc <subst><del>detentam</del><add place="overwritten">detenta</add></subst>&#160;; 
+                             <pb n="29bis" facs="ACV_AC-29_29bis_30"/><lb/>dicta <persName ref="per011000a.02">Sibilieta</persName> videns prefatam <persName ref="per010866a.01">Catherinam</persName>
+                                                <lb/>in quadam fenestra necnon dictam <persName ref="per011237a.01">Joliaz</persName><note>Une <orig>&#160;Joliat&#160;</orig> est déjà mentionnée dans le procès de <persName ref="per010753a">Jaquet Durier</persName> (<bibl><ref>ACV, Ac 29</ref>, p.&#160;24</bibl>).</note>, dixit 
+                                                <lb/>et ore suo proprio protulit&#160;: <q>&#160;Ultra sunt due
+                                                <lb/>mulieres –&#160;respiciendo contra easdem mulieres&#160;–
+                                                <lb/>que ita <add place="above">bene</add> <subst><del rend="strikethrough">meruerunt</del> <add place="above">meruissent</add></subst> esse hic
+                                                <lb/>loco quo <subst><del rend="strikethrough">sunt</del><add place="overwritten">sum</add></subst> adducta pro cognicione fienda, 
+                                                <lb/>prout et ego&#160;</q>. Subjungens quod quodam anno 
+                                                <lb/>lapso de quo dicit se non recordari ad presens
+                                                <lb/>quod idem ponens <sic>dietin</sic> continuabat in domo 
+                                                <lb/>domini <persName ref="per010878a.01">Johannis Gachet</persName> suo videre, in qua 
+                                                <lb/>morabatur prefata <persName ref="per010866a.01">Catherina</persName> inquisita, que
+                                                <lb/>quidem <persName ref="per010866a.01">Catherina</persName> quamplurimis diebus et
+                                                <lb/>vicibus eidem testi deponenti cum eadem 
+                                                <lb/><persName ref="per010866a.01">Catherina</persName> solo in stupa dicte domus existenti 
+                                                <lb/>levando litteras <subst><del>pergamenas</del><add place="overwritten">pergameneas</add></subst>, dixit eidem 
+                                                <lb/><persName ref="per010876a.01"><subst><del>Johanete</del><add place="overwritten">Johanni</add></subst></persName> deponenti, apponendo manus supra spatula 
+                                                <lb/>eius tamquam pota&#160;: <q>&#160;<persName ref="per010876a.01">Johannis</persName>&#160;</q> –&#160;loquendo
+                                                <lb/>eidem deponenti&#160;– <q>&#160;ego tanta mala <del rend="strikethrough">fec[i]</del> orribilia
+                                                <lb/>feci, nescio quid deveniam&#160;</q>. Aliud nescit
+                                                <lb/>nisi quod quamplurima <term ref="lem017127.01">nefandissima</term> <del rend="strikethrough">de crim[ina]</del> <add place="inline">eidem</add> 
+                                                <lb/><persName  ref="per010876a.01">Johanni</persName> dixit, de quibus non recordatur,
+                                                <lb/>sed dicens premissa per ipsum deposita
+                                                <lb/>prout deposuit sunt vera super generalibus&#160;;
+                                                <lb/>interrogatus an prece, precio, odio, timore vel favore <abbr>etc</abbr>., 
+                                                <lb/>dicit quod <choice><sic>nom</sic><corr>non</corr></choice> nisi pro sola veritate dicenda.
+                            </seg></p>
+                    <pb n="30" facs="ACV_AC-29_29bis_30"/> 
+                    <head type="subtitle" resp="GO">15 mars 1448</head>
+                                 <p><seg><origDate when="1448-03-15" period="P6WD">Anno Domini millesimo quatercentesimo
+                                                <lb/>quadragesimo octavo a nativitate Domini sumpto
+                                                <lb/>die vero veneris decima quinta mensis marcii</origDate>. Sequitur <del rend="strikethrough">pro[cessus]</del>
+                                                <lb/>inquisicio seu inquisicionalis processus qui et que
+                                                <lb/>faciunt seu fieri intenduntur per venerabiles et egregios viros
+                                                <lb/>dominos <del rend="strikethrough">inquisitorem</del> fratrem <persName ref="per010867a.01">Petrum de Alneto</persName> <orgName ref="org004150.03">ordinis 
+                                                <lb/>Predicatorum</orgName> heretice pravitatis inquisitorem <add place="left margin" type="sign">in civitate <placeName ref="loc007885.05">Lausannensi</placeName> 
+                                                <lb/> et quibusdam aliis <lb/>civitatibus et locis</add> et <persName ref="per010874a.01">Leopardum
+                                                <lb/>de Bosco</persName> <supplied reason="omitted">vicarium</supplied> in hac parte reverendi in <persName ref="per000353a.17">Christo</persName> patris et domini nostri 
+                                                <lb/>domini <persName ref="per010754a.01">Georgii de Saluciis</persName> Dei et apostolice Sedis gracia 
+                                                <lb/><orgName ref="org001749.03">Lausannensis</orgName> episcopi et comitis, contra et adversus <persName ref="per010866a.01">Catherinam</persName> 
+                                                <lb/>uxorem <persName ref="per010875a.01">Thome Quicquat</persName> de <placeName ref="loc008099.07">Viviaco</placeName> <placeName ref="loc005781.04">Lausannensis diocesis</placeName>, ex 
+                                                <lb/>mero officio sacre inquisicionis, diffamatam de 
+                                                <lb/>crimine heresis damnate atque inculpatam per plures 
+                                                <lb/>suos complices in crimine heresis dampnate qui 
+                                                <lb/>eam in suis processibus inculpaverunt atque in ipsa sua 
+                                                <lb/>inculpacione usque ad mortem inclusive perseveraverunt. 
+                             </seg></p> 
+                                <p><seg>Et primo <origDate when="1448-03-15">die predicta</origDate> in <placeName ref="loc008768.02">castro Turris de Peil</placeName> ipsa 
+                                                <lb/><persName ref="per010866a.01">Catherina</persName> inquisita in platea ipsius castri constituta 
+                                                <lb/>in conspectu predictorum dominorum inquisitoris et vicarii ac 
+                                               <lb/>monita per eosdem dominos et inducta sacris ac <term ref="lem017130.03">monicionibus</term> 
+                                               <lb/>ut veritatem de criminibus perpetratis in facto heresis
+                                               <lb/>dampnate vellet recognoscere, interrogata est prout sequitur.
+                             </seg></p>        
+                               <p><seg>Et primo utrum sciat se fore et esse diffamatam 
+                                              <lb/>inter bonos et graves cristianos de pravitate <term ref="lem017125.01">heretica</term>. 
+<lb/><label type="keyword" place="left margin" scribe="2">Confitetur infamiam</label> Que respondit et sponte recognovit <subst><del>ipsam</del><add place="overwritten">seipsam</add></subst> esse diffamatam 
+                                              <lb/>de huiusmodi crimine et quod multociens fuit sibi improperatam 
+                                              <lb/>a pluribus personis diversarum condicionum.
+                           </seg></p>
+                               <p><seg>Item magis interrogata a quo tempore fuit diffamata, 
+<lb/><label type="keyword" place="left margin" scribe="2">Tempus infamie</label> dixit et respondit quod a tempore mortis cuiusdam <persName ref="per011000a.03">Sibilie</persName> 
+                                              <lb/>que fuit combrusta in <placeName ref="loc008099.07">Viviaco</placeName>, ipsa sumpxit inicium
+                                              <lb/>sue diffamacionis.
+                            </seg></p>
+                    <pb n="31" facs="ACV_AC-29_31_32"/>
+                                <p><seg>Item magis interrogata quare sit diffamata a 
+                                               <lb/>tempore dicte <persName ref="per011000a.03">Sibilie</persName>, dixit et respondit quod ideo quia
+<lb/><label type="keyword" place="left margin" scribe="2">Causa infamie</label> ipsa conversabatur secum&#160;; addens ulterius quod ipsa <persName ref="per011000a.03">Sibilia</persName>, 
+                                                <lb/>combrusta pro heresis crimine, docuit ipsam dare ad 
+                                               <lb/>sumendum viro suo tres gutas sanguinis emissi 
+                                               <lb/>a corpore suo proprio, quod hoc fecit, ut videlicet
+                                               <lb/>vir suus eam adamaret et sibi non esset molestus.
+                          </seg></p>
+                                <p><seg>Item magis interrogata si aliud sciat de crimine heresis
+                                               <lb/>de qua diffamatur, dixit et respondit quod non, 
+                                               <lb/>sed juravit super sanctis Dei euvangeliis die
+                                               <lb/>crastina se dicturam omnem veritatem de et super
+                                               <lb/>sibi impositis quam noverit et sciverit, petens
+                                               <lb/>dilacionem usque in crastinum.
+                             </seg></p>
+                    <p><seg>Quibus peractis predicti domini inquisitor et vicarius
+                                                <lb/>predictam <persName ref="per010866a.01">Catherinam</persName> inquisitam caritative et in visceribus
+                                                <lb/><persName ref="per000353a.18">Jhesu Christi</persName> multipliciter <term ref="lem017137.01">admonuerunt</term> ut, spreta omni 
+                                               <lb/>seculi vanitate atque postposito omni timore humano,
+                                               <lb/>omnem puram et nudam veritatem super commissis
+                                                <lb/>criminibus de quibus inculpatur vellet
+                                               <lb/>recognoscere, promittentes eidem, si hoc faceret,
+                                               <lb/>omnem gratiam sancte matris Ecclesie, requirentes
+                                                <lb/>inde sibi dari et concedi litteras testimoniales
+                                                <lb/>per me infrascriptum juratum clericum et notarium
+                                               <lb/>auctoritate imperiali notarium publicum. Que quidem
+                                               <lb/><persName ref="per010866a.01">Catherina</persName> humiliter requisivit predictos
+                                               <lb/>dominos judices ut sibi terminum concederent
+                                               <lb/>usque ad diem crastinam ad se avisandum
+                                               <lb/>et super interrogatoriis sibi factis <del rend="strikethrough">interrogandum</del>  
+                                               <lb/>deliberandum.  
+                                    </seg>
+                                    <seg>Cui <persName ref="per010866a.01">Catherine</persName> inquisite ipsi
+                                               <lb/>domini judices assignaverunt diem sequentem
+                                               <lb/>que erit <date when="1448-03-16">decima sexta mensis huius marcii,
+                     <pb n="32" facs="ACV_AC-29_31_32"/><lb/><time period="morning">hora prime</time></date>, presentibus ibidem <persName ref="per010880a.01">Petro Ros</persName> <term ref="lem017142.01">castellano</term> 
+                                                <lb/><orgName ref="org005217.03">Viviaci</orgName>, <persName ref="per011152a.01">Anthonio Bonediei</persName>, <persName ref="per010978a.01">Johanne Catio</persName>, <persName ref="per010876a.01">Johanne 
+                                               <lb/>Bruneti</persName> et <persName ref="per010993a.01">Johanne de Berchiez</persName>, <term ref="lem017295.01">burgenses</term> <orgName ref="org004460.02">Turris
+                                               <lb/>de Peil</orgName>, testibus ibidem astantibus et me notario
+                                               <lb/>subscripto.
+                             </seg></p>
+                    <head type="subtitle" resp="GO">16 mars 1448</head>
+                                <p><seg><origDate when="1448-03-16">Anno et die predictis hora et loco superius 
+                                                <lb/>scriptis</origDate> vigore assignacionis suprascripte predicta
+                                                <lb/><persName ref="per010866a.01">Catherina</persName> inquisita fuit per prefatum dominum
+                                                <lb/>inquisitorem caritative admonita <add place="inline">ut</add>, per passionem 
+                                                <lb/>domini nostri <persName ref="per000353a.18">Jhesu Christi</persName>, omnem veritatem vellet 
+                                                <lb/>recognoscere. Que quidem <persName ref="per010866a.01">Catherina</persName> inquisita
+                                                <lb/>dixit et respondit ipsam non esse aliqualiter
+                                                <lb/><del rend="strikethrough">in[culpatam]</del> maculatam de <sic>heresii</sic>, nec unquam aliud diceret 
+                                                <lb/>seu recognosceret. Qua <term ref="lem017130.04">monicione</term> sic facta 
+                                                <lb/>visaque <sic>responssione</sic> attentisque infamia et
+                                                <lb/>accusacionibus contra eandem inquisitam per aliquos
+                                                <lb/><del rend="strikethrough">he[reticos]</del> concrematos hereticos <choice><sic>factas</sic><corr>factis</corr></choice>, produxit discretus vir
+                                                <lb/>frater <persName ref="per010881a.01">Petrus Randonelli</persName> <orgName ref="org004150.03">ordinis <choice><sic>Predictatorum</sic><corr>Predicatorum</corr></choice></orgName>
+                                                <lb/><term ref="lem017131.01">procurator fidei</term> in vim majoris probacionis quosdam
+                                                <lb/>testes et processus. Quibus premissis sic
+                                                <lb/>factis atque visis petiit idem procurator fidei
+                                                <lb/>debere inquiri in propriam personam ipsius inquisite
+                                                <lb/>atque <term ref="lem018147.01">torquiri</term> debere donec veritas ab ore suo
+                                                <lb/>eruatur, petens super premissis interloqui. Qui
+                                                <lb/>prefatus dominus inquisitor attentis productis
+                                                <lb/>et requisicionibus per procuratorem fidei factis, assignavit
+                                                <lb/>eisdem partibus <date when="1448-03-16" period="P7WD">diem sabbati predictam <time period="afternoon">hora none</time></date>
+                                                <lb/>ad procedendum ulterius in causa prout juris fuerit
+                                                <lb/>et racionis.
+                              </seg></p>
+                    <pb n="33" facs="ACV_AC-29_33_34"/>
+                                <p><seg><origDate when="1448-03-16" period="P7WD">Anno predicto, die vero sabbati que fuit
+                                                <lb/>decima <subst><del rend="strikethrough">seta</del><add place="above">sexta</add></subst> mensis huius marcii</origDate> vigore
+                                                <lb/>assignacionis suprascripte in <placeName ref="loc008768.01">castro</placeName> predicto 
+                                                <lb/>et in camera <choice><sic>superiori</sic><corr>superiore</corr></choice> juxta magnam aulam 
+                                                <lb/>comparuit prefata <persName ref="per010866a.01">Catherina</persName> inquisita 
+                                                <lb/>coram prefatis dominis inquisitore et
+                                                <lb/>vicario atque admonita per eosdem dominos 
+                                                <lb/>judices caritative pro tercia <term ref="lem017130.04">monicione</term> et 
+                                                <lb/>termino peremptorio, ut veritatem sponte
+                                                <lb/>et <choice><sic>cunfesstin</sic><corr>confestim</corr></choice> vellet recognoscere. Que quidem
+                                                <lb/><persName ref="per010866a.01">Catherina</persName> delata nichil in contrarium
+                                                <lb/>premissorum allegans, respondit&#160;: <q>&#160;Vere ego
+                                                <lb/>non amplius loquar quam supra jam locuta sum&#160;;
+                                                <lb/>faciatis de <add place="above">me</add> quid volueritis&#160;</q>.
+                                     </seg>
+                                       <seg>Qua responsione
+                                                <lb/>sic facta, prefatus frater <persName ref="per010881a.02">Petrus Rondinelli</persName>
+                                                <lb/>procurator fidei, videns suam dicte <persName ref="per010866a.01">Catherine</persName>
+                                                <lb/><choice><sic>pertinanciam</sic><corr>pertinaciam</corr></choice>, petiit prefatis dominis judicibus, 
+                                                <lb/>prout superius per ipsum petitum extitit,
+                                                <lb/>videlicet <del rend="strikethrough">dictum</del> <term ref="lem017305.02">sentenciam interloquutoriam</term> contra eandem
+                                                <lb/><persName ref="per010866a.01">Catherinam</persName> delatam proferri ipsamque exequutam
+                                                 <lb/>demandari, <add place="left margin" type="sign">dicens et proponens sic de, <abbr>etc</abbr>.</add> de jure fieri debere, <add place="right margin" type="sign">producens processum inquisitorialem <lb/>contra eandem ream factum atque<lb/> certos alios processus in<lb/> quibus ipsa delata<lb/> per plures suos complices<lb/> fuerat inculpata de<lb/> crimine heresis de qua<lb/> inquiritur, videlicet<lb/> processum <abbr>etc</abbr>.</add>  Que quidem
+                                                <lb/><persName ref="per010866a.01">Catherina</persName> fuit per prefatos dominos inquisitores
+                                                 <lb/>iterata vice caritative admonita in virtute
+                                                <lb/><choice><sic>passionibus</sic><corr>passionis</corr></choice> domini nostri <persName ref="per000353a.18">Jhesu Christi</persName> ut omnem
+                                                <lb/>veritatem de per eam in crimine heresis perpetratis
+                                                <lb/>vellet recognoscere. Que <persName ref="per010866a.01">Catherina</persName> delata
+                                                <lb/>aliud non respondit nisi prout supra. Qui prefatus
+                                                <lb/>procurator fidei petiit per prefatos dominos judices
+                                                <lb/>interloqui, prout supra per ipsum petitum extitit.
+                                      </seg>
+                                    <seg><lb/>Quibus auditis et per procuratorem fidei petitis
+                                                <lb/>ipsa <persName ref="per010866a.01">Catherina</persName> delata presente nichil in
+                                                <lb/>contrarium premissorum dicente seu allegante,
+                       <pb n="34" facs="ACV_AC-29_33_34"/><lb/>sed dicente&#160;: <q>&#160;Ecce me, faciatis quid volueritis,
+                                                <lb/>quia nichil aliud de me habebitis&#160;</q>. </seg>
+                                      <seg> Prefati
+                                                <lb/>domini judices habita deliberacione cum libris 
+                                                <lb/>et viris peritis suam tulerunt sentenciam <add place="right margin" type="sign"><sic>interloqutoriam</sic></add> in hunc 
+                                          <lb/>qui <del rend="strikethrough">qu[i]</del> sequitur modum&#160;: 
+                                     </seg>
+                                     <seg><figure type="drawing"/> †&#160;<persName ref="per000353a.17">Christi</persName> nomine  
+<lb/><label type="keyword" place="left margin" scribe="2">Prima sentencia interloqutoriam</label> invocato. Nos prefati inquisitor et vicarius, 
+                                                <lb/>actentis difamacionibus, accusacionibus et 
+                                                <lb/>requisicionibus procuratoris fidei certisque aliis animum 
+                                                <lb/>nostrum moventibus, te <persName ref="per010866a.01">Catherinam</persName> delatam
+                                                <lb/>decernimus, pronunciamus et judicamus per
+                                                <lb/>hanc nostram interlocutoriam sentenciam, te debere 
+                                                <lb/>in propriam personam inquiri, donec et quousque
+                                                <lb/>veritas ab ore tuo eruatur, citra tamen mortem,
+                                                <lb/>sanguinis effusionem et membrorum mutilacionem 
+                                                <lb/>de quibus expresse protestatur. 
+                                     </seg>
+                                      <seg>Qua sentencia
+                                                <lb/>lata, ipsa delata nichil in contrarium allegante,
+                                                <lb/>procurator fidei eandem sentenciam quantum potuit
+                                                <lb/>approbavit et petiit eandem sentenciam interlocutoriam
+                                                <lb/>exequucioni demandari. Quibus sic factis,
+                                                <lb/>predicta <del rend="strikethrough">Anthonia fuit</del><persName ref="per010866a.01">Catherina</persName> delata
+                                                <lb/>fuit ad <term ref="lem018158.01">cordam</term> ligata atque a terra pluribus
+                                                <lb/>vicibus elevata, tandem ad <sic>sui</sic> requestam
+                                                <lb/>fuit eadem <persName ref="per010866a.01">Catherina</persName> deposita, nil tamen
+                                                <lb/>aliud confiteri volente, sed solum dicente&#160;:
+                                                <lb/><q>&#160;Demictatis me pro nunc, et ego me avisabo&#160;</q>.
+                                                <lb/>Eo tunc <choice><sic>eandem Catherinam</sic><corr>eadem <persName ref="per010866a.01">Catherina</persName></corr></choice> juxta ignem in
+                                                <lb/>camera domini castellani fuit adducta pro 
+                                                <lb/>sua <choice><sic>calefacione</sic><corr>calefactione</corr></choice> recreativa, et ibidem
+                                                <lb/>demissa.
+                                    </seg>
+                                     <seg>Acta fuerunt hec prout supra, presentibus
+                                               <lb/>venerabilibus viris fratre <persName ref="per011006a.01">Petro Ansel</persName> <orgName ref="org002768.05">ordinis Sancti Francisci</orgName>,
+                                               <lb/><persName ref="per010995a.01">Girardo Albi</persName>, <persName ref="per010994a.01">Petro de Cultillia</persName> <term ref="lem017135.02">jurisperitis</term>,
+                                                <lb/><persName ref="per011007a.01">Guillelmo de Lavigniaco</persName> priore de <orgName ref="org004123.02">Septemsalis</orgName><note>Prieuré des chanoines du <placeName ref="loc010622.01">Grand–Saint–Bernard</placeName>.</note>,
+                                               <lb/>magistro <persName ref="per011013a.01">Bartholomeo</persName> de <placeName ref="loc008824.02">Linierolis</placeName>, <persName ref="per011009a.01">Johanne allumpno 
+                                               <lb/>de Blonay</persName>, <persName ref="per011008a.01">Jacobo de Flumine</persName>, <persName ref="per010880a.01">Petro Ros</persName> castellano,
+                                               <lb/><persName ref="per010993a.03">Johanne de Berchie</persName> et <persName ref="per010876a.01">Johanne Bruneti</persName> testibus ibidem astantibus.
+                                    </seg>
+                             </p>
+               <pb n="35" facs="ACV_AC-29_35_36"/>
+                    <head type="subtitle" resp="GO">17 mars 1448</head>
+                                <p><seg><origDate when="1448-03-17" period="P1WD">Anno domini millesimo quatercentesimo quadragesimo
+                                               <lb/>octavo a nativitate sumpto, die vero dominica de 
+                                                <lb/><term ref="lem005591.02">Ramispalmarum</term> decima septima mensis marcii <time period="afternoon">hora
+                                               <lb/>sexta ante meridiem</time></origDate>, prefata <persName ref="per010866a.01">Catherina</persName> misit
+                                               <lb/>per <persName ref="per010880a.01">Petrum <del rend="strikethrough">de</del> Ros</persName> castellanum dicti loci querere prefatum
+                                                <lb/>dominum inquisitorem ad ipsam <persName ref="per010866a.01">Catherinam</persName> audiendum
+                                                <lb/>de perpetratis per eam in crimine heresi&#160;; ad cuius 
+                                               <lb/><persName ref="per010880a.01">Petri Ros</persName> requestam et pro consolacione ipsius
+                                                <lb/>inquisite, ad eandem inquisitam accessit
+                                                <lb/>una secum <persName ref="per011152a.01">Anthonio Bonediei</persName>, fratre <persName ref="per010881a.02">Petro Rondinelli</persName>,
+                                                <lb/><persName ref="per011234a.01">Johanne Chevalier</persName> et me notario subscripto. 
+                                    </seg>
+                                     <seg><lb/>Quibus ibidem presentibus in <placeName ref="loc008768.02">castro Turris de Peil</placeName>
+                                              <lb/>in quadam camera juxta portam coram eadem 
+                                              <lb/><persName ref="per010866a.01">Catherina</persName>, eadem <persName ref="per010866a.01">Catherina</persName> dixit prefato
+                                                <lb/>domino inquisitori&#160;: <q>&#160;Habeatis misericordiam de me, quia
+                                              <lb/>vere ego volo confiteri omnia per me commissa in
+                                              <lb/>crimine heresi&#160;</q>. 
+                                   </seg>
+                            </p>       
+                                <p><seg>Et primo dixit et sponte confessa fuit quod
+                                               <lb/><date when="1437" dur="P11Y">sunt circiter <sic>undecin</sic> anni vel circa</date> quod ipsa
+                                               <lb/>inquisita veniendo de versus <placeName ref="loc008819.03">Sanctum Martinum</placeName> <placeName ref="loc008099.07">Viviaci</placeName>
+                                               <lb/><subst><del>oviavit</del><add place="overwritten">obviavit</add></subst> cuidam mulieri dicte <persName ref="per011000a.03">Sibilie</persName> que 
+                                               <lb/>fuit <sic>cumbrusta</sic>. Que quidem <persName ref="per011000a.03">Sibilia</persName> eidem
+                                               <lb/><persName ref="per010866a.01">Catherine</persName> dixit&#160;: <q>&#160;Vere opportet quod ego
+                                               <lb/>confitear tibi, et tu <subst><del>confiteris</del><add place="overwritten">confitearis</add></subst> michi&#160;</q>. Que 
+<lb/><label type="keyword" place="left margin" scribe="2">Introitus <term ref="lem017070.02">sinagoge</term></label> inquisita respondit&#160;: <q>&#160;Ego non sum presbiter, vere 
+                                               <lb/>non faciam&#160;</q>. Et tunc eadem <persName ref="per011000a.03">Sibilia</persName> eandem
+                                               <lb/><persName ref="per010866a.01">Catherinam</persName> invitavit ad cenam ad domum
+                                               <lb/>suam eadem die. Que quidem <persName ref="per010866a.01">Catherina</persName> ivit
+                                               <lb/>ad cenandum cum eadem <persName ref="per011000a.03">Sibilia</persName> et comedit
+                                               <lb/>bonas carnes, sed nescit que essent.
+                              </seg></p>
+            <pb n="36" facs="ACV_AC-29_35_36"/>      
+                               <p><seg>Item magis dixit et sponte confessa fuit quod quadam
+                                              <lb/><date period="P2WD">die lune <time period="evening">inter nonam et decimam horas</time></date> quidam 
+                                              <lb/><persName ref="per010999a.01">Petrus Flour</persName>, <persName ref="per011011a.01">Johanneta Avonsaz</persName> et predicta <persName ref="per011000a.03">Sibilie</persName><note>Dans la comptabilité de la châtellenie savoyarde de Vevey / La Tour–de–Peilz, figure à la fin du compte du <date from="1440-03-01" to="1441-03-01">1er mars 1440 au 1er mars 1441</date> reçu par le trésorier général de <placeName ref="loc005865.03">Savoie</placeName> <persName ref="per011506a">Michel de Ferro</persName> la mention selon laquelle une certaine <persName ref="per011697a">Sybille</persName>, épouse de <persName ref="per011507a">Jaquet Gonra</persName> (qualifié ailleurs de <orig>&#160;magister&#160;</orig> et habitant de <placeName ref="loc008099.01">Vevey</placeName>), a été brûlée pour ses «&#160;démérites&#160;», suite à une condamnation des bourgeois et des coutumiers de <placeName ref="loc008099.01">Vevey</placeName> (<bibl><ref target="http://permalink.snl.ch/bib/chbsg000048336">Modestin et al. 2007<!--Ostorero et al. 2007--></ref>, p.&#160;415–417, 433</bibl>).</note>, 
+                                              <lb/>blandis loquiis eandem <persName ref="per010866a.01">Catherinam</persName> duxerunt ad 
+                                              <lb/>quandam aream que erat <persName ref="per011004a.01">Johannis Got</persName>, vocata
+                                               <lb/>area de <placeName ref="loc008825.02">Gilamont</placeName>, et ibidem erat quidam <term ref="lem018122.01">renardus</term> 
+<lb/><label type="keyword" place="left margin" scribe="2"><term ref="lem018089.02">Nomen dyaboli</term></label> qui vocabatur <persName ref="per011235a.01">Rabiel</persName>. Interrogata quid esset ille  
+                                              <lb/>renardus, dixit quod predicta <persName ref="per011000a.03">Sibilie</persName> dixit ei 
+                                              <lb/>quod opporterat sibi facere <term ref="lem016607.01">homagium</term> quia erat magister
+                                              <lb/>sinagoge, sed non credebat ipsum renardum esse 
+                                              <lb/><term ref="lem017097.01">diabolum</term>&#160;; dicit tamen quod ipsa tunc renuit facere
+                                              <lb/>homagium. Interrogata qui erant presentes, dicit
+<lb/><label type="keyword" place="left margin" scribe="2">Complices </label>quod predicti <persName ref="per011004a.01">Johannes Got</persName> et <persName ref="per011010a.01">Johannes Boverat</persName> de <placeName ref="loc008099.07">Viviaco</placeName>, 
+                                              <lb/>dicens tamen quod nil aliud fecerunt, nec biberunt
+                                              <lb/>nec comederunt, sed assignaverunt <date period="P5WD">diem jovis</date>
+                                              <lb/>tunc inmediate <choice><sic>sequentum</sic><corr>sequentem</corr></choice> in eodem loco.
+                           </seg></p>    
+                             <p><seg>Item magis dixit et sponte confessa fuit quod 
+                                            <lb/>eadem <date period="P5WD">die jovis</date> superius dicta eadem <persName ref="per010866a.01">Catherina</persName>
+                                            <lb/>cum superius nominatis ivit ad sinagogam in area 
+                                            <lb/>predicta ibidemque diabolo in specie unius renardi 
+                                            <lb/>homagium fecit <add place="above">et</add> obsculata est in culo sub cauda 
+<lb/><label type="keyword" place="left margin" scribe="2"><term ref="lem017404.02">Ydolatria</term> </label> deditque eidem diabolo vocato <persName ref="per011235a.01">Rabiel</persName> in signum  
+                                            <lb/>homagii et fidelitatis <measure type="currency" unit="d" quantity="4" origin="Lausanne">quatuor denarios lausannenses</measure> 
+                                            <lb/>quos sibi posuit supra quendam lapidem.
+<lb/><label type="keyword" place="left margin" scribe="2">Census et tributum</label> Quo homagio facto idem <term ref="lem017140.01">demon</term> <persName ref="per011235a.01">Rabiel</persName>  
+                                            <lb/>magister suus precepit sibi inquisite ut ipsa
+                                            <lb/>negaret Deum omnipotentem, beatam Virginem 
+<lb/><label type="keyword" place="left margin" scribe="2"><term ref="lem018087.01">Apostasia</term> a fide</label> <persName ref="per000169a.02">Mariam</persName> totamque curiam celestem et omnia 
+                                            <lb/>Ecclesie sacramenta. Que quidem <persName ref="per010866a.01">Catherina</persName>
+                                            <lb/>premissa omnia negavit cupiavitque ad terram
+                                            <lb/>in despectu premissorum.
+                          </seg></p>
+                <pb n="37" facs="ACV_AC-29_37_38"/>
+<p><seg><label type="keyword" place="left margin" scribe="2">Comestio <term ref="lem018082.01">carnis humane</term></label> Item magis dixit et sponte confessa fuit quod ipsa 
+                                            <lb/><persName ref="per010866a.01">Catherina</persName> inquisita cum pluribus quos omnes non
+                                            <lb/>noscebat in eadem sinagoga comederunt <term ref="lem018083.01">carnes 
+                                            <lb/>puerorum</term> <add place="left margin" type="sign">cum aleis viridis</add>, bonum panem et biberunt bonum vinum album  
+                                            <lb/>et rubeum.
+                 </seg></p>            
+                            <p><seg>Item interrogata an esset de <time period="byDay">die</time> sive de <time period="byNight">nocte</time>, dixit 
+<lb/><label type="keyword" place="left margin" scribe="2">Quare qui male agit, odit lucem.</label> quod de <time period="byNight">nocte</time>. Interrogata qualiter se videbant, dixit
+                                            <lb/>et sponte confessa fuit quod se videbant mediantibus 
+                                            <lb/>quibusdam parvis candelis <term ref="lem018099.01">lumen</term> emictentibus 
+<lb/><label type="keyword" place="left margin" scribe="2">De candelis <term ref="lem017070.01">synagogue</term></label> obscurum ad modum aque que exit de fimo, 
+                                            <lb/>et sunt ille candele ad modum stercoris <term ref="lem018118.01">canis</term>.
+                          </seg></p>
+                            <p><seg>Item magis interrogata qualiter ibat ad sinagogam,
+                                            <lb/>dixit et respondit quod ibat et rediebat
+                                            <lb/>supra  unum parvum baculum album quem  
+<lb/><label type="keyword" place="left margin" scribe="2"><term ref="lem017132.01">Baculus</term></label> sibi tradiderant dicta <persName ref="per011000a.01">Sibiliez</persName> que fuit
+                                            <lb/>igne cremata et quedam dicta <persName ref="per011011a.01">Avonsaz</persName> de
+                                            <lb/><placeName ref="loc008099.07">Viviaco</placeName>. 
+                          </seg></p>       
+                            <p><seg>Item magis dixit et sponte confessa fuit
+                                            <lb/>quod magister suus videlicet <persName ref="per011235a.01">Rabiel</persName>, qui gerebat plurima 
+                                            <lb/>cornua in capite suo, dum erat in sinagoga 
+                                            <lb/>in specie predicta cum pluribus renardis, sibi inquisite 
+                                            <lb/>precepit et dixit quod in <date type="floating holiday"><term ref="lem018615.01">Paschate</term></date> non reciperet
+<lb/><label type="keyword" place="left margin" scribe="2">De <term ref="lem017061.01">corpore Christi</term></label> corpus Christi&#160;; et si recipereat, quod apportaret  
+                                            <lb/>sibi ad sinagogam aut saltin daret ad comedendum 
+                                            <lb/>canibus. Que quidem <persName ref="per010866a.01">Catherina</persName> dixit se corpus 
+                                            <lb/>Christi recepisse prout ceteri christiani nec fecit
+                                            <lb/>superius per magistrum suum sibi imposita.
+                         </seg></p>   
+                            <p><seg>Item magis dixit et sponte confessa fuit
+                                            <lb/>quod magister suus <persName ref="per011235a.01">Rabiel</persName> promisit sibi inquisite 
+<lb/><label type="keyword" place="left margin" scribe="2"><term ref="lem017097.02">Dyabolus</term> dabat ei stipendium</label> dare quolibet mense <measure type="currency" unit="S" quantity="5" origin="Lausanne">quinque solidos lausannenses</measure>. Interrogata 
+                                           <lb/>an ille magister sibi tradiderit, dixit quod non, ymo
+                                           <lb/><persName ref="per011004a.01">Johannes Got</persName> et post mortem ipsius quidam homo
+                                           <lb/>de <placeName ref="loc007851.10">Castello</placeName> qui est in medio etatis.
+                         </seg></p>
+                 <pb n="38" facs="ACV_AC-29_37_38"/>
+                            <p><seg>Item magis interrogata qui ibidem fuerunt presentes,
+                                           <lb/>dixit et sponte confessa fuit quod dicta
+<lb/><label type="keyword" place="left margin" scribe="2">Complices </label> <persName ref="per011000a.03">Sibilie</persName> et dicta <persName ref="per011011a.01">Avonsaz</persName>, uxor <persName ref="per011012a.01">Henrici de 
+                                            <lb/>Platea</persName><note>Nous apprendrons plus tard qu’elle se prénomme <persName ref="per011011a">Jeannette</persName>.</note> et dicta <persName ref="per011237a.01">Joliaz</persName>, filia <persName ref="per011236a.01">Stephani 
+                                           <lb/>douz Clochier</persName>, <persName ref="per011004a.01">Johannes Got</persName> et quidam
+                                           <lb/>homo de <placeName ref="loc007851.10">Castello</placeName> qui est in medio etatis. 
+                        </seg></p>
+                            <p><seg>Item magis dixit et sponte confessa fuit
+                                   <lb/>quod ipsa quadam alia die jovis fuit
+<lb/><label type="keyword" place="left margin" scribe="2">Complices </label> in sinagoga in area <persName ref="per011003a.01">Petri Tornerii</persName> de  
+                                    <lb/><placeName ref="loc009156.02">Autavillaz</placeName> ubi fuerunt omnes per ipsam superius 
+                                    <lb/>nominati et quedam <persName ref="per011002a.01">Colleta Rosetaz</persName><note>Il s’agit de la même <persName ref="per011002a.01">Colette Rosetaz</persName> mentionnée dans le procès de <persName ref="per010753a">Jaquet Durier</persName> (<bibl><ref>ACV, Ac 29</ref>, p.&#160;15, 23 et 24</bibl>).</note> de
+                                    <lb/><placeName ref="loc008821.02">Brent</placeName>&#160;; ibique comederunt quandam filiam
+                                   <lb/>que erat <persName ref="per011000a.03">Sibilie</persName> et quod ipsamet <persName ref="per011000a.03">Sibilia</persName>
+                                   <lb/>interfecit et apportavit ad sinagogam, 
+                                   <lb/>et quidam <persName ref="per010999a.02">Petrus Flourt</persName> eam preparavit quia 
+                                   <lb/>tunc erat quocus –&#160;et post ipsum fuit coquus
+                                   <lb/><persName ref="per010753a.01">Jaquetus Durier</persName> de <placeName ref="loc008181.02">Blonay</placeName>&#160;–, et postmodum 
+                                   <lb/>eandem filiam comederunt cum aleis albis. 
+                  </seg></p>            
+                            <p><seg>Item magis dixit et sponte confessa fuit  
+                                    <lb/>quod quando ipsi fuerunt cenati tripudiaverunt,
+                                    <lb/>et quod erant ibidem tum plures <term ref="lem017358.03">vurpes</term> 
+                                    <lb/>et cati, et quidam magnus qui sedebat in
+                                    <lb/>specie orribilissima quasi unius demonis qui 
+                                    <lb/>habebat os torsum&#160;; et postmodum habitabant,
+<lb/><label type="keyword" place="left margin" scribe="2">Coitus cum demone</label> primo magister sinagoge habitabat cum ipsa, 
+                                    <lb/>antequam alii et post eum alii homines.
+                   </seg></p>
+                            <p><seg>Item interrogata an ille diabolus emitteret
+                                    <lb/>semen prout alie persone, qui respondit et
+                                    <lb/>dixit quod non, sed dicit quod <sic>habent</sic> <choice><sic>senxum</sic><corr>sexum</corr></choice>
+                                    <lb/>ita frigidum quod est unum mirabile, dicens
+                                    <lb/>ulterius quod ipsa multociens ea de causa infirmabatur. 
+                  </seg></p>
+                    <pb n="39" facs="ACV_AC-29_39_40"/>
+                            <p><seg>Item magis interrogata quantis vicibus magister
+                                    <lb/>cum ea habitavit et qualiter habitabat,
+<lb/><label type="keyword" place="left margin" scribe="2">Quotiens demon coivit secum</label> dixit et sponte confessa est quod circa duodecim 
+                                    <lb/>vicibus et more sodometico. Item 
+                                    <lb/>magis interrogata quanti homines cum 
+                                    <lb/>ea habitabant, dixit quod aliquando sex
+                                    <lb/>et aliquando plures, et quod diabolus, quando
+                                    <lb/>ibat ad eam, erat sicut unius <foreign xml:lang="fr"><term ref="lem017359.01">sovajoz</term></foreign>. 
+                   </seg></p>
+                            <p><seg>Item magis dixit et sponte confessa fuit 
+                                    <lb/>ipsam inquisitam fuisse quadam alia vice 
+                                     <lb/>–&#160;fuit annus in vindemiis nuper lapsis&#160;– usque 
+                                     <lb/><placeName ref="loc008819.03">Sanctum Martinum</placeName> ubi tenerunt sinagogam et 
+                                    <lb/>fecerunt magnum tumultum cuidem presbitero qui
+                                <lb/>exivit curam<note>Il est difficile de situer précisément la demeure du curé de <placeName ref="loc008099.01">Vevey</placeName>, qui semble avoir occupé différents lieux entre le début du XIV<hi rend="sup">e</hi> siècle et le début du XVI<hi rend="sup">e</hi> siècle. En <date when="1462">1462</date>, elle est dite située au bourg supérieur d’<placeName ref="loc008074.01">Oron</placeName>, près de la porte du Chapitre, au nord de la maison des nobles de Belletruches (<bibl><ref target="http://permalink.snl.ch/bib/chbsg991001190348303977">De Montet 1884</ref>, p.&#160;75</bibl>).</note>, quod ipse incepit clamare, et
+                                     <lb/>fuit hoc juxta latrinas, fueruntque ibidem
+<lb/><label type="keyword" place="left margin" scribe="2">Complices </label> presentes, dixit quod predicta <persName ref="per011237a.01">Joliaz</persName>, <persName ref="per010997a.01">Anthonius 
+                                     <lb/>Bron</persName>, <persName ref="per010998a.01">Petrus Mugner</persName> et <persName ref="per011011b.01">Johanneta 
+                                     <lb/>de Platea</persName> superius nominata nil aliud ibidem 
+                                     <lb/>fecerunt, dicens ulterius quod ibant ad
+                                     <lb/>sinagogam bis in septimana videlicet <date period="P2WD"><supplied reason="omitted">diebus</supplied> lune</date> et 
+                                     <lb/><date period="P5WD">jovis</date>.
+                   </seg></p>
+                            <p><seg>Item magis dixit et sponte confessa <sic>fuit</sic><note>On attendrait <orig>&#160;fuisse&#160;</orig>.</note>
+                                    <lb/>ipsam fuit ad sinagogam quadam alia
+                                    <lb/>vice usque nemus dictum <placeName ref="loc008820.02">Orbereaz</placeName> ubi biberunt
+                                    <lb/>et comederunt prout <del rend="strikethrough">jam</del> in aliis sinagogis, 
+<lb/><label type="keyword" place="left margin" scribe="2">Complices </label> et vidit predictum <persName ref="per010998a.01">Petrum Mugner</persName>. Interrogata 
+                                    <lb/>sub periculo anime sue an esset hereticus, 
+                                    <lb/>dixit quod sic&#160;; dicens ulterius quod vidit
+                                    <lb/>eum in sinagoga circa octo vicibus et habitavit
+                                    <lb/>more sodometico cum ea prout ceteri. 
+                                    <lb/>Interrogata in quibus locis ipsa inquisita vidit
+                                    <lb/>ipsum <persName ref="per010998a.01">Petrum</persName>, dixit quod in locis superius
+                                    <lb/>nominatis per ipsam. Nulla alia pro tunc dixit. 
+                         </seg>
+                          <seg>
+                              <lb/>Et fuerunt presentes <del>Jo[hannes]</del> <persName ref="per011152a.01">Anthonius Bonediei</persName>, <persName ref="per011234a.01">Johannes 
+                             <lb/>Chevalier</persName>, frater <persName ref="per010881a.02">Petrus Rondinelli</persName> et ego notarius subscriptus. 
+                 </seg></p>
+              <pb n="40" facs="ACV_AC-29_39_40"/>
+                    <head type="subtitle" resp="GO">18 mars 1448</head>
+                             <p><seg><origDate when="1448-03-18" period="P2WD">Anno predicto die vero lune sequenti
+                                    <lb/><time period="morning">hora prime</time></origDate> loco predicto, coram prefatis dominis 
+                                    <lb/>inquisitore et vicario comparuit eadem 
+                                    <lb/><persName ref="per010866a.01">Catherina</persName> inquisita. Ultra premissa dixit 
+<lb/><label type="keyword" place="left margin" scribe="2">Rediit ad vomitum</label> quod ipsa  fuit confessa in <placeName ref="loc007646.05">Gebennis</placeName> ante  
+                                    <lb/>mortem <persName ref="per011000a.03">Sibilie</persName>, et post iterato  reincidit
+                                    <lb/>in sinagoga. Item magis fuerunt omnia 
+                                    <lb/>et singula superius scripta et per ipsam confessata
+                                    <lb/><choice><sic>retractata</sic><corr>reiterata</corr></choice> quibus reiteratis et sibi lectis, 
+                                     <lb/>eius medio juramento tactis Dei euvangeliis 
+                                    <lb/>omnia confirmavit esse vera<note>La contradiction avec la phrase précédente est inhérente au procès–verbal. Il s’agit d’une rétractation partielle, qui ne concerne que l’aveu lié à <persName ref="per010998a">Pierre Munier</persName></note>, sub dampnacione
+                                    <lb/>anime sue, excepto de <persName ref="per010998a.01">Petro Mugner</persName> quem
+                                    <lb/>accusaverat, quia dixit ipsum nunquam vidisse
+                                    <lb/>in aliqua <term ref="lem018331.01">secta</term>&#160;; bene dixit quod ipse
+                                    <lb/><persName ref="per010998a.01">Petrus Mugner</persName> cognoverat eam carnaliter. 
+                        </seg>
+                         <seg><lb/>Interrogata an aliud vellet addere vel diminuere,
+                                   <lb/>dixit quod non, et si vellet concludere in suo
+<lb/><label type="keyword" place="left margin" scribe="2">Renunciatio in causa</label> processui, dixit quod sic. Eo tunc eadem <persName ref="per010866a.01">Catherina</persName>
+                                   <lb/>inquisita et frater <persName ref="per010881a.02">Petrus Rondinelli</persName> renunciaverunt
+                                   <lb/>processui et cause et petierunt per prefatos
+                                   <lb/>dominos judices cum ipsis concludi. 
+                        </seg>
+                        <seg>Quiquidem
+                                   <lb/>prefati domini judices concluderunt et assigna<lb break="no"/>verunt eisdem partibus <choice><sic>eandem diem</sic><corr>eadem die</corr></choice> <time period="morning">hora
+                                   <lb/>none</time> ante ecclesiam <placeName ref="loc008819.02">Beati Martini</placeName> de <placeName ref="loc008099.07">Viviaco</placeName>
+                                   <lb/>ad audiendum jus sentenciamque diffinitivam proferendam.  
+                        </seg>
+                         <seg><lb/><origDate when="1448-03-18">Quibus die, <time period="morning">hora</time></origDate> et loco predictis, post
+                                  <lb/><term ref="lem017139.01">sermonem generalem</term> ibidem factum confirmatoque  
+                                  <lb/>per ipsam coram populo suo processu, prefati domini
+                                  <lb/>judices sedentes pro tribunali suam tulerunt 
+                                  <lb/>sentenciam in hunc qui sequitur modum&#160;: In nomine 
+                                <lb/>sancte et individue Trinitatis amen<note>La sentence définitive n’a pas été conservée.</note>. 
+                       </seg>
+                        <seg><lb/>Et fuerunt presentes in confessione et retractacione
+                                  <lb/>premissorum venerabiles viri discreti <persName ref="per010995a.01">Girardus Albi</persName>, <persName ref="per010994a.01">Petrus
+                                  <lb/>de Curtillia</persName> <term ref="lem017135.02">jurisperiti</term>, <persName ref="per011152a.01">Anthonius Bonediei</persName>, <persName ref="per010993a.02">Johannes 
+                                  <lb/>de Berchier</persName>, <persName ref="per010880a.01">Petrus Ros</persName> castellanus dicti <supplied reason="omitted">loci</supplied>, <persName ref="per010876a.01">Johannes
+                                  <lb/>Bruneti</persName> et ego notarius suscriptus. Datum ubi supra. 
+                       </seg>
+              </p>
+                             <p><seg rendition="right"><signed><persName ref="per010992a.01">Glaudius Burritaz</persName> <figure type="notarial sign"/></signed>
+                    </seg></p>
+                    <pb n="41" facs="ACV_AC-29_41_42"/><p/>
+                    <pb n="42" facs="ACV_AC-29_41_42"/><p/>
+                    <pb n="43" facs="ACV_AC-29_43_44"/><p/>
+                               <p><add hand="other hand" place="bottom">Extraxi nomina accusatorum infrascriptorum</add></p> 
+                </div>
+            </body> 
+        </text>
+    </group>
+    
+    <back>
+        <div>
+            <p>Les procès de Jaquet Durier (p.&#160;5–28 <ref>SDS_VD_D_1_0002</ref>), de Catherine Quicquat (p.&#160;29–43), de Pierre Munier (p.&#160;44–55 <ref>SDS_VD_D_1_0004</ref>), de Pierre Chavaz (p.&#160;56–71 <ref>SDS_VD_D_1_0005</ref>) et de Pierre Antoine (p.&#160;104–119 <ref>SDS_VD_D_1_0006</ref>) ont été intentés entre 1448–1449. Ils sont les témoins d’une vaste chasse aux sorciers menée sur la Riviera lémanique et dans le Nord vaudois au milieu du XV<hi rend="sup">e</hi> siècle.</p>
+        </div>
+    </back>
+</text>
+</TEI>

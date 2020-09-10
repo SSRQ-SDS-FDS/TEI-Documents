@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+    <persName>Sibylle Malamud</persName>
+    <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+    <persName>Sibylle Malamud</persName>
+    <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-07-11"/>
+            <date type="print"/>
+            <availability><p xml:id="facs">Staatsarchiv St. Gallen (StASG)</p></availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+    <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+    <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_076_1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+    <msIdentifier>
+       <idno>StASG AA 2a U 26</idno>
+    </msIdentifier>
+    <head>Vidimus von Friedrich Ludwig von Sax-Hohensax aus dem Jahre 1610 über den Verkauf des Frümsner Bergs durch Ulrich VIII. von Sax-Hohensax an die Dorfgenossen von Frümsen von 1486</head>
+    <msContents>
+       <summary>
+          <p>Friedrich Ludwig von Sax-Hohensax urkundet, dass er auf Bitte der Dorfgenossen von Frümsen den alten Kaufbrief um den Frümsner Berg und die Allmend erneuert habe. Ulrich VIII. von Sax-Hohensax, Freiherr von Sax-Forstegg, verkaufte am 18. April 1486 den namentlich genannten Dorfgenossen von Frümsen Güter, Wald und Feld am Frümsner Berg für 100 Gulden und zwei Ochsen.</p>Der Aussteller siegelt.</summary>
+       <msItem>
+          <textLang>Deutsch</textLang>
+          <filiation type="current">Original</filiation>
+       </msItem>
+    </msContents>
+    <physDesc>
+       <objectDesc>
+          <supportDesc>
+             <support>
+                <material>Pergament</material>
+             </support>
+             <extent>
+                <dimensions type="leaves">
+        <height unit="cm" quantity="38.5"/>
+        <width unit="cm" quantity="45.0"/>
+                </dimensions>
+             </extent>
+             <condition>starke Gebrauchsspuren, verblichen</condition>
+          </supportDesc>
+       </objectDesc>
+       <sealDesc>
+          <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI"
+                n="1"
+                nontei:condition="absent"
+                nontei:attachment="sealed on a parchment tag">
+             <persName role="sigillant" ref="per004774a">Friedrich Ludwig von Sax-Hohensax</persName>
+          </seal>
+       </sealDesc>
+    </physDesc>
+    <history>
+       <origin>
+          <origDate when="1486-04-18"/>
+       </origin>
+    </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+    <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+    <term ref="key000660">Berg</term>
+    <term ref="key000119">Erblehen</term>
+    <term ref="key000369">Kauf</term>
+    <term ref="key004192">Wohnortswechsel</term>
+    <term ref="key000335">Nutzungsrecht</term>
+    <term ref="key000305">Grenze</term>
+    <term ref="key000307"/>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <div org="uniform" sample="complete">
+                  <pb facs="StASG_AA_2a_U_26_r"/>
+                  <p>
+                     <seg>
+                        <lb/>Wir, <persName ref="per004774a">Friderich Lüdtwig, fryherr vonn der
+                           Hohen Sax</persName>, herr zuͦ <placeName ref="loc000278">Sax <choice>
+                              <sic>und <lb/>unndt</sic>
+                              <corr>und</corr>
+                           </choice> Vorsteggk</placeName>, bekennendt offendtlich unnd thundt
+                           <damage agent="faded ink"><supplied source="StASG AA 2 A 1-5-6">kund
+                              hiermit</supplied></damage> menniglich mit disem brieve für uns,
+                        unsere erben und nachkom<lb break="no"/>men, das uff dato <damage
+                           agent="faded ink"><supplied source="StASG AA 2 A 1-5-6">zu end
+                              benampt</supplied></damage> für uns kommen samptliche <damage
+                           agent="faded ink"><supplied source="StASG AA 2 A 1-5-6"><term
+                                 ref="lem005062">dorffgenossen</term></supplied></damage> einer
+                        gantzen ehrsammen <term ref="lem006896">gemeindt</term> von <placeName
+                           ref="loc006121">Frümsen</placeName>, unsere undertho<lb break="no"/>nen,
+                        und unnß underthenig fürbracht, wie daß sy einen <damage agent="faded ink"
+                              ><supplied source="StASG AA 2 A 1-5-6"><term ref="lem000008"
+                                 >koffbrieff</term> iren gemeinen <term ref="lem000573">berg</term>
+                              oder <term ref="lem010941.04">allgmeind</term></supplied></damage>
+                        besagende under wiland deß wollge<lb break="no"/>bornen herren <persName
+                           ref="per001640a">Uolrichs von Sax</persName>, fryherren <abbr>etc</abbr>,
+                        unsers lieben vattern <damage agent="faded ink"><supplied
+                              source="StASG AA 2 A 1-5-6">und vorfahren</supplied></damage>,
+                        christsäliger gedächtnus, alß verkoüfern obgenanten guet <lb/>und <term
+                           ref="lem000573">berg</term>s insigel verfertiget, welcher nun wegen lenge
+                        und elte der zit nit nur ann <term ref="lem002976">pergament</term> und
+                        sigel, sondern auch ann der <term ref="lem001179">gschrift</term>
+                        <lb/>zum theil verblichen und in ein abgang kommen wäre. Derhalben ihre
+                        underthenige pitt, wir wolten ihnen besagten <term ref="lem000008"
+                           >koufbrieff</term>
+                        <unclear>widrumen</unclear>
+                        <lb/>zue renovieren, ernüweren und zue bekrefftigen. Wie auch vonn
+                        deßelbigen wegen erhoüschender notturft nach <term ref="lem009088.02"
+                           >transumpt</term>, <term ref="lem002888">vidimus</term> und <lb/><term
+                           ref="lem000677">abgschrift</term> under unserem nahmen und insigel gnädig
+                        vergunnen, dergstalt, daß nun hinfüro der ernüwerte brief inn masen wie der
+                        vorige <lb/>und alte inn allen sinen puncten, crefften unnd articklen beston
+                        und verbliben, auch demselbigen zue ewigen ziten gloupt werden sölle.
+                        <lb/>Welche ihr zimliche pitt wir ihnen inn ansehen gehörter gstaltsamme nit
+                        abschlahen söllen noch wöllen, sondern hiermit gnädig <choice>
+                           <sic>undt <lb/>und</sic>
+                           <corr>und</corr>
+                        </choice> gern verwilliget. Und luͤtet demnach derselbige vonn wort zue wort
+                        also:</seg>
+                     <seg>Ich, <persName ref="per001640a">Uolrich von Sax von der Hohen
+                           Sax</persName>, fryherr, derzit <lb/>herr zue <placeName
+                           ref="loc000278.14">Vorsteggkh</placeName>, bekenn, vergych und thuen
+                        kundt allermeniglich mit dem brieve, daß ich mit guetem willen, wolbedachtß
+                        sinß und <lb/>muetß zue denn ziten, tagen unnd ann den stetten, da ich eß
+                        mit recht für mich, mine erben und nachkommen kreftiglich wol thuen möcht,
+                           be<lb break="no"/>sonder mit rath miner lieben getrüwen <term
+                           ref="lem000089">amptlüt</term>en recht und redlich verkouft und ze koüfen
+                        geben hab den erbern lüten von <orgName ref="org001786">Frümsen</orgName>,
+                        item mit <lb/>nammen <persName ref="per004775a">Hansen Hewen an der
+                              <placeName ref="loc006545.01">Halden</placeName></persName> und
+                           <persName ref="per004776b">Anna Mader</persName>in, sinem ehelich wib,
+                           <persName ref="per004777a">Uolin ab <placeName ref="loc006544.02"
+                              >Gristen</placeName></persName> und <persName ref="per004778a">Englen
+                           Brenner</persName>in, sim elichen wib, und <persName ref="per004779a"
+                           >Lienhart <lb/>Gros</persName>en und <persName ref="per004780b">Annen
+                           Götti</persName>n, sine elichen wyb, und <persName ref="per004781a"
+                           >Hansen Hanselman</persName>, <persName ref="per004782a">Haine
+                           Jäckle</persName>, <persName ref="per008563a">Hanß Lentzige</persName>
+                        <choice>
+                           <abbr>u</abbr>
+                           <expan>und</expan>
+                        </choice>
+                        <persName ref="per004784b">Greta Huberin</persName>, sinem elichen wib, und
+                           <persName ref="per004794a">Casper <lb/>Suss</persName> und <app>
+                           <lem><damage agent="faded ink"
+                              ><unclear>Rüediß</unclear></damage>üolin</lem>
+                           <rdg wit="StASG AA 2 A 1-5-6"><persName ref="per008564a"
+                                 >Rüdisülin</persName></rdg>
+                        </app> und <persName ref="per008565a">Nesa <damage agent="faded ink"
+                                 ><supplied source="StASG AA 2 A 1-5-6"
+                              >Lenntzige</supplied></damage></persName> und <persName
+                           ref="per004784b">Greta Huber</persName>in<note anchored="true">Greta
+                           Huber, die eine Zeile weiter oben erscheint, wird hier wohl
+                           fälschlicherweise wiederholt.</note>, sin elich wib,<note anchored="true"
+                           >Die weiteren Namen fehlen in der Kopie <bibl><ref>StASG AA 2 A
+                                 1-5-6</ref></bibl>, stattdessen folgt ein
+                           <abbr>etc</abbr>.</note> und <persName ref="per004785a">Hansen
+                           Haldtner</persName>, <persName ref="per004786b">Annen
+                           Laimgruberi</persName>, sin wib, und <persName ref="per008566a">Uolin von
+                              <damage agent="faded ink"><unclear>Lenaur</unclear><supplied
+                                 source="StASG AA 2B 001a, fol. 135v">Lenauwer</supplied></damage>
+                        </persName>
+                        <lb/>und <persName ref="per008567a">Greta Sues</persName>in, sin elich wib,
+                        und <persName ref="per004787a">Diepolt Rederer</persName> und <persName
+                           ref="per004788a">Greta</persName>, sin elich wib, und <persName
+                           ref="per008568a">Hansen En<damage agent="faded ink"><supplied
+                                 source="StASG AA 2 B 001a, fol. 135v"
+                           >gler</supplied></damage></persName>, <placeName ref="loc006544.02">ab
+                           Gristen</placeName>, <persName ref="per008569a">Elsa von
+                           Lenaur</persName>, sin wibe, <choice>
+                           <abbr>u</abbr>
+                           <expan>und</expan>
+                        </choice>
+                        <persName ref="per004789a">Ruͦdiß Huberß</persName>
+                        <lb/><choice>
+                           <abbr>s</abbr>
+                           <expan>seligen</expan>
+                        </choice> vier kindt, die er bi der <persName ref="per008570a"
+                           >Pfünnerin</persName> hatt, und <persName ref="per004790a">Hansen
+                           Haldtner</persName> und <persName ref="per004791b">Greta
+                           Pfünnerin</persName>, sin elich wib, <persName ref="per008571">Konrad
+                           Küchli</persName> und <persName ref="per008580a">Ursla ab <placeName
+                              ref="loc006544">Grista</placeName></persName>, sine elich wib,
+                           <persName ref="per004792a">Hansen <lb/>ab <placeName ref="loc006544"
+                              >Gristen</placeName></persName>
+                        <choice>
+                           <abbr>u</abbr>
+                           <expan>und</expan>
+                        </choice>
+                        <persName ref="per004793a">Elsa ab <placeName ref="loc006533"
+                              >Gardiß</placeName></persName>, sin wib, <persName ref="per004795a"
+                           >Hanß Giger von Lenaur</persName>
+                        <choice>
+                           <abbr>u</abbr>
+                           <expan>und</expan>
+                        </choice>
+                        <persName ref="per008573a">Zygen</persName>, sin wib, <persName
+                           ref="per008572">Simo</persName>ß tochter von <placeName
+                           ref="loc006533.02">Gardis</placeName>, <choice>
+                           <abbr>u</abbr>
+                           <expan>und</expan>
+                        </choice>
+                        <persName ref="per008574a">Uoli Rederer</persName>, <app>
+                           <lem><persName ref="per004797a">Greta Gröwin</persName></lem>
+                           <rdg wit="StASG AA B 2, fol. 135v"><unclear>Stauwin</unclear></rdg>
+                        </app>, sin wib, <persName ref="per008579a">Rudiß <lb/>Hanß</persName> und
+                           <persName ref="per008578a">Elsa Henser</persName>in, sin wib, <persName
+                           ref="per004798a">Balthaß Rugg</persName> und <persName ref="per004799b"
+                           >Ursla Henseri</persName>, sin wibe, <persName ref="per004800a"
+                           >Lutz</persName>en <choice>
+                           <abbr>u</abbr>
+                           <expan>und</expan>
+                        </choice>
+                        <persName ref="per004801a">Valentin, die Haldtner</persName>, <persName
+                           ref="per004802a">Lutz Hanselman</persName>
+                        <choice>
+                           <abbr>u</abbr>
+                           <expan>und</expan>
+                        </choice>
+                        <persName ref="per004803b">Greta Örin</persName>, sin wib, <lb/>
+                        <choice>
+                           <abbr>u</abbr>
+                           <expan>und</expan>
+                        </choice>
+                        <persName ref="per004802a">Hanselman</persName>s knaben und schwöster kindt,
+                        alle für ein koüfer, und <persName ref="per004804a">Elsa Süess</persName>in
+                        für ein koüfer und <persName ref="per004805a">Hanß</persName> und <persName
+                           ref="per004806a">Lutz</persName>, sin brüeder, <persName ref="per004807a"
+                           >Ursla</persName>, <persName ref="per004808a">Nesa</persName>, iren
+                        schwöstern, <lb/><persName ref="per004809a">Peter Süessen</persName> kind,
+                        alle für ein koüfer, <persName ref="per004810a">Wilhelm Ufrecht</persName>
+                        und <persName ref="per004811a">Älin</persName>, sin hußfrow, <persName
+                           ref="per008581a">Ruedi ab <placeName ref="loc006544"
+                           >Gristen</placeName></persName> und <persName ref="per008582a">Greta
+                           Lentzige</persName>, sin elich wib, <persName ref="per008583a">Martin
+                           Zaug</persName>
+                        <choice>
+                           <abbr>u</abbr>
+                           <expan>und</expan>
+                        </choice>
+                        <persName ref="per008584a">Anna</persName>, <lb/>sin wib, und <persName
+                           ref="per008585">Hanß</persName>, <persName ref="per004782">Haine
+                           Jäckli</persName>ß son, <choice>
+                           <abbr>u</abbr>
+                           <expan>und</expan>
+                        </choice>
+                        <persName ref="per008588a">Elsa</persName>, <persName ref="per008589a"
+                           >Jörgen tochter an der <placeName ref="loc007778"
+                           >Löwi</placeName></persName>, und <persName ref="per008589a">Jörgen an
+                           der <placeName ref="loc007778.02">Löwin</placeName></persName>
+                        <choice>
+                           <abbr>u</abbr>
+                           <expan>und</expan>
+                        </choice>
+                        <persName ref="per008587a">Uoli</persName>n, <persName ref="per004782a"
+                           >Haine Jäckli</persName>ß son, <choice>
+                           <abbr>u</abbr>
+                           <expan>und</expan>
+                        </choice>
+                        <persName ref="per008575a">Erhart Fuchß</persName> und <persName
+                           ref="per008576a">Ursla <lb/>Henser</persName>, sin wib, <persName
+                           ref="per008577a">Lutz Haldtner</persName>
+                        <choice>
+                           <abbr>u</abbr>
+                           <expan>und</expan>
+                        </choice> sin <term ref="lem000292">mueter</term> ze <placeName
+                           ref="loc006534.02">Büßmig</placeName>.</seg>
+                     <seg>Denen benempten <term ref="lem000220">man</term> und <term ref="lem002312"
+                           >frowen</term>, die vorgeschriben sindt, allen iren erben und nachkommen,
+                        geb ich, <lb/>vorgenanter <persName ref="per001640a">Uͦlrich, friherr von
+                           der Hohen Sax</persName>, also ze koufen in craft und urku̍nd deß briefß
+                        einß stäten, vesten und eigen <term ref="lem000179">koufß</term> dise
+                        nachbenemten stuckh und gut, hol<damage agent="faded ink"><supplied
+                              source="StASG AA 2 A 1-5-6">tz</supplied></damage>
+                        <lb/>und feldt gelegen an <placeName ref="loc006535.01">Frümsner
+                           Berg</placeName>, stost unnen an iren inhalblich guet und ainhalb an
+                           <placeName ref="loc006128.03">Huͦbach</placeName>, uffwert an die <term
+                           ref="lem014534.02">alpmarcken</term> an <placeName ref="loc006123.02"
+                           >Alpel</placeName> und <placeName ref="loc006126.01">Alpilen</placeName>
+                        und <damage agent="faded ink"><supplied source="StASG AA 2 A 1-5-6"
+                              >ob</supplied></damage>
+                        <lb/>denen <term ref="lem000693.13">marcken</term> der <term
+                           ref="lem014535.01">first</term>, zur vierti siten an <placeName
+                           ref="loc006536.02">Këlbach</placeName> und den <placeName
+                           ref="loc006536.03">Kelbach</placeName> uff untz an <placeName
+                           ref="loc006538.02">Oberwiß</placeName>. Die vorgenanten güeter alle mit
+                        grund, grat, wun, weid, mit <damage agent="faded ink"><supplied
+                              source="StASG AA 2 A 1-5-6">holtz und feld</supplied></damage>,
+                        <lb/>mit grüt und gstüdt, mit gengen, stegen und wegen und besonders mit
+                        allen recht und grechtigkeiten und besonderß für richtig, ledig und loß und
+                        gen allermenglich vor<damage agent="faded ink"><supplied
+                              source="StASG AA 2 A 1-5-6">mahls nit
+                           <lb/>unbekümbert</supplied></damage>.</seg>
+                     <seg>Doch hab ich inen die vorgenanten güeter geben ze koüfen in andere <term
+                           ref="lem000501">erblehen</term> güeter, die die <term ref="lem002446"
+                           >köfer</term> inhabent. Und welcher dieselben erblehen güter, <lb/>die
+                        denen köfer sind, <term ref="lem012845">zinßfelig</term> ließ werden, so
+                        soll demselben sin theil deß guets auch verfallen sin zum erblehenguet, doch
+                        den andern on schaden, die iren zinß <lb/>gebent.</seg>
+                     <seg>Und ob sach wäre, daß ein <term ref="lem002051">erbfall</term> fiele inen
+                        uß denen vorgenanten güeter, die sond nit hinweg zogen werden, die do nit
+                        seßhaft werend uf denen <damage agent="faded ink"><supplied
+                              source="StASG AA 2 A 1-5-6">güeter</supplied></damage>
+                        <lb/>zue <placeName ref="loc006121">Frümsen</placeName>.</seg>
+                     <seg>Und ob sach wäre, daß under denen <term ref="lem000169">höf</term>en einer
+                        oder mer wurde fallen zinßfellig mir oder minen erben, so soll dan dz
+                        obgenant guet mitfallen <lb/>und dann diser, der doran <term ref="lem009652"
+                           >sümig</term> wäre, kein ansprach mer haben und dz guet <term
+                           ref="lem008779">fergen</term>.</seg>
+                     <seg>Und ob einer oder me zuo unß in dz <term ref="lem000103">dorff</term> und
+                        uff die güeter ze <placeName ref="loc006121">Frümsen</placeName>
+                        <lb/><term ref="lem001293">ziehen</term> wett, gefiel dann er unserm
+                        gnädigen hern oder sinen erben, so mögend sy ain <term ref="lem001296"
+                           >uffnemen</term>, doch er sin <term ref="lem008197">anzal</term> gebe am
+                        guet.</seg>
+                     <seg>Und doch <damage agent="faded ink"><supplied
+                              source="StASG AA 2 A 1-5-6">was jetzt zu<lb break="no"
+                           /></supplied></damage>mal <term ref="lem002600">gerüt</term> ist, eß
+                        siendt wisen oder <term ref="lem000100">äcker</term>, wo eß am berg ligt,
+                        daß hab ich mir selbß behalten.</seg>
+                     <seg>Ob aber sy rütendt inn dem <damage agent="faded ink">
+                           <supplied source="StASG AA 2 A 1-5-6">holtz, da soll ich
+                              ihnen</supplied></damage>
+                        <lb/>kein intrag thuen, doch so sondt sy oder ire erben uß denselben gerüten
+                        güeter den <term ref="lem000073">zehend</term>en geben on alle
+                        fürwort.</seg>
+                     <seg>Und mer <damage agent="faded ink"><supplied source="StASG AA 2 A 1-5-6"
+                              >hab ich mir be<lb break="no"/></supplied>
+                        </damage>halten alle mine grechtigkeit in <damage agent="faded ink"
+                              ><supplied source="StASG AA 2 A 1-5-6">mein</supplied></damage>
+                        <term ref="lem000376">schloß</term> zu <placeName ref="loc006124"
+                           >Vorstegkh</placeName>, eß sigend klinne oder grose, mit <term
+                           ref="lem008360.01">hoch</term> oder <term ref="lem000976.22">nider
+                           gricht</term>en, die inen zue bieten <damage agent="faded ink"><supplied
+                              source="StASG AA 2 A 1-5-6">und zu verbiehten</supplied></damage>.
+                        <lb/>Und dann dannethin mit wun und mit waid, mit steg und weg, mit allem
+                        minem <term ref="lem000310">vech</term>, eß sige <term ref="lem000744"
+                           >lützel</term>
+                        <damage agent="faded ink"><supplied source="StASG AA 2 A 1-5-6">oder
+                              viel</supplied></damage>, <term ref="lem000057.02">schwin</term>,
+                           <term ref="lem001069.05">ross</term> oder <damage agent="faded ink"
+                              ><supplied source="StASG AA 2 A 1-5-6"><term ref="lem001076"
+                                 >küh</term></supplied></damage> oder mit <term ref="lem000759"
+                           >holtz</term>, <lb/><damage agent="faded ink"><supplied
+                              source="StASG AA 2 A 1-5-6">wie</supplied></damage> ich dz niesen
+                        mag zum schloß zu <placeName ref="loc006124.03">Vorstegk</placeName>
+                        <abbr>etc</abbr>.</seg>
+                     <seg>Und ist der redlich und ewig kouff geschehen umb <measure quantity="100"
+                           type="currency" unit="fl" origin="Rh">hundert Rinischen guldi</measure>
+                        und zwen <term ref="lem000110.02">ochsen</term>, dero ich <damage
+                           agent="faded ink"><supplied source="StASG AA 2 A 1-5-6"
+                           >von</supplied></damage>
+                        <lb/>inen an min benüegen bar ußgericht und bezalt worden. Unnd darum
+                        söllend unndt wöllendt ich, vorgenanter <persName ref="per001640a">Uolrich
+                           von <damage agent="faded ink"><supplied source="StASG AA 2 A 1-5-6"
+                                 >der Hohen Sax</supplied></damage></persName>, <lb/>alle mine erben
+                        unndt nachkommen umb daß vorgenant guet und <term ref="lem000028"
+                           >holtz</term> in sinen vorgenanten marcken und <term ref="lem009114"
+                           >zaichen</term> denn vorgenanten <damage agent="faded ink"><supplied
+                              source="StASG AA 2 A 1-5-6">ehrbahren <lb/>leüthen von <orgName
+                                 ref="org001786">Frümsen</orgName></supplied></damage>, iren erben
+                        und nachkommen gut, getrüw weren und fürstandt sin uf allen gerichtenn,
+                        geistlichen und weltlichen, <damage agent="faded ink"><supplied
+                              source="StASG AA 2 A 1-5-6">wo</supplied></damage>
+                        <lb/>sy deß bedürfendt inn unseren kösten, one iren schaden, by unsern
+                        gueten trüwen on alle widerred, uffzüg unnd geferde.</seg>
+                     <seg>Zu urkundt <lb/>mit unserm angebornen insigel verwaret <abbr>etc</abbr>,
+                        datum am <origDate when="1486-04-18">zinstag nächst vor st. <persName
+                              ref="per000270">Jörg</persName>en, deß <choice>
+                              <abbr>h</abbr>
+                              <expan>heiligen</expan>
+                           </choice> ritterß, tag, nach <persName ref="per000353">Christi</persName>
+                           geburt vierzehen<lb break="no"/>hundert und im sechß undt achtzigsten
+                           jahr.</origDate>
+                     </seg>
+                     <seg>Dises ist also obstendermasen deß vorigen und alten brieffß gentzlicher
+                        inhalt, dem nüwen <lb/>und gegenwürtigen aber glichßfalß, auch wie gmeldet,
+                        soll gelebt und gegloubt werden. Zue offner gezügnus und mehrer bekreftigung
+                        <lb/>obgeschribner dingen, hab ich, obgedachter <persName ref="per004774a"
+                           >Friderich Ludtwig, friherr zue der Hohen Sax,</persName> herr zue Sax
+                        und Vorsteggh <abbr>etc</abbr>, uß undertheniger pitt <lb/>besagter gmeindt
+                        vonn <orgName ref="org001786">Frümsen</orgName>, min angeborn innsigel für
+                        mich und mine erben ann disen brieff lassen hencken, der geben wardt
+                        <lb/>uff <origDate when="1610-06-24"><persName ref="per000049"
+                              >Johanniß</persName>, deß toüffers tag, nach der gnadenrichen unndt
+                           säligmachenden gebürt <persName ref="per000353">Christi</persName>,
+                           unnserß erlöserß, gezelt sechtzehenn<lb break="no"/>hundert unndt zehenn
+                           jhare.</origDate></seg>
+                  </p>
+               </div>
+                     <div><ab type="dorsal" place="below" hand="hand19c">
+                        <lb/>Eingesehen vom <choice>
+                           <abbr>Bez.gericht</abbr>
+                           <expan>Bezirksgericht</expan>
+                        </choice>
+                              <lb/><placeName ref="loc000962">Werdenberg</placeName>, den <date when="1845-10-04">4. 8ber
+                           1845</date>, <lb/><persName ref="per008544a">Hilty</persName>, <choice>
+                           <abbr>Prsdt</abbr>
+                           <expan>Präsident</expan>
+                           </choice>.</ab></div>
+               <pb facs="StASG_AA_2a_U_26_v"/>
+               <div org="uniform" sample="complete">
+                  <ab type="dorsal" place="verso" hand="hand17c">
+                     <lb/>Kauffbrieff vom berg, <lb/>wie er erkaufft <damage agent="faded ink"
+                        resp="SM">worden ist</damage>, nammlich umb <lb/><measure quantity="100"
+                        type="currency" unit="fl" origin="Rh">100 Reinische <damage
+                           agent="faded ink" resp="SM">gulden</damage></measure>, 2 ochsen.</ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab place="verso above left" type="archiving reference">N. 2.</ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab type="dorsal" place="verso" hand="hand19c">Vor <choice>
+                        <abbr>Kant.ger.</abbr>
+                        <expan>Kantonsgericht</expan>
+                     </choice>, <date when="1848-11-03">3. Nov. 1848</date>, <persName
+                        ref="per008590a">C. Seylern</persName>, <choice>
+                        <abbr>Prsdt</abbr>
+                        <expan>Präsident</expan>
+                     </choice>.</ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab type="dorsal" place="verso" hand="hand19c">Eingesehen <choice>
+                        <abbr>Bez.gericht</abbr>
+                        <expan>Bezirksgericht</expan>
+                     </choice>
+                     <lb/><placeName ref="loc000962.02">Werdenberg</placeName>, den <date when="1846-06-25">25. Juni
+                        1846</date>, <lb/><persName ref="per008544a">Hilty</persName>, <choice>
+                        <abbr>Prsdt</abbr>
+                        <expan>Präsident</expan>
+                     </choice>.</ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab type="dorsal" place="verso" hand="hand19c">Vor <choice>
+                        <abbr>Kant.ger.</abbr>
+                        <expan>Kantonsgericht</expan>
+                     </choice>, <date when="1848-02-10">10. <abbr>Febr.</abbr> 1848</date>, <persName ref="per008590a">C.
+                        Saylern</persName>, <choice>
+                        <abbr>Prsdt</abbr>
+                        <expan>Präsident</expan>
+                     </choice>.<note anchored="true">Vertikale Notiz.</note>
+                  </ab>
+               </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div org="uniform" sample="complete" n="1">
+            <p>Frühe Quellen zu <placeName ref="loc006121">Frümsen</placeName> gibt es wenige. In diesem
+            <term ref="key000822">Kaufbrief</term> treten die Dorfgenossen von <orgName ref="org001786">Frümsen</orgName> erstmals gemeinsam als Käufer auf, um ihr <term ref="key003834">Gemeindegut</term> am <placeName ref="loc006535.01">Frümsner
+            Berg</placeName> zu erweitern. Dabei werden die <term ref="key000305">Grenzen</term>
+          sowie alle Namen der Dorfgenossen, Männer und Frauen, aufgezählt. <persName ref="per001640a">Ulrich VIII. von Sax-Hohensax</persName> stellt zudem einige Artikel
+          zum <term ref="key000119">Erblehen</term> auf und behält sich gewisse Rechte, wie die
+          Nutzung der Weiden sowie das <term ref="key000524">Holz</term> für das Schloss Forstegg,
+          vor. Es ist ein frühes Zeugnis über Regelungen zum Erblehensrecht, zu <term ref="key000335">Nutzungsrechte</term> bei <term ref="key003822">Rodungen</term>, zum
+            <term ref="key004192">Wohnungswechsel</term> von Personen bzw. zur Beziehung zwischen
+          Herr und Gemeinde.</p></div>
+            <div org="uniform" sample="complete" n="2">
+    <p>Wenige Jahre später, am <origDate when="1492-12-20">20. Dezember 1492</origDate>, verkauft
+                     <persName ref="per001640a">Ulrich VIII. von Sax-Hohensax</persName> den
+                  Einwohnern von <orgName ref="org001784">Sennwald</orgName> den <term
+                     ref="key000660">Berg</term> in der <placeName ref="loc006564.01"
+                     >Chelen</placeName> um 40 Rheinische Gulden. <persName ref="per001640a">Der
+                     Verkäufer</persName> behält sich den <term ref="key000230">Wildbann</term>, die
+                     <term ref="key000047">Mühlen</term>, die <term ref="key000335"
+                     >Nutzungsrechte</term> der <term ref="key000004">Weiden</term> sowie das Holz
+                  für das Schloss <placeName ref="loc006124">Forstegg</placeName> und die Mühlen
+                  vor. Die Grenzen des Bergs werden beschrieben (<bibl><ref>StASG AA 2a
+                     U 06</ref></bibl>). <date when="1519">1519</date> sowie <date when="1527">1527</date> kommt es zum
+                  Streit zwischen <orgName ref="org003296">Sennwald</orgName> und den Leuten von
+       <orgName ref="org002818">Lienz</orgName>, <orgName ref="org004154">Plona</orgName> und
+       <orgName ref="org004155">Büchel</orgName> um die <term ref="key000336">Nutzung</term> des erkauften Bergs
+                        (<bibl><ref>StASG AA 2a U 08</ref></bibl>; <bibl><ref>StASG AA 2a U
+                     11</ref></bibl>).</p>
+            </div>
+      </back>
+   </text>
+</TEI>

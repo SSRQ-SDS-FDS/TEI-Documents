@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-08-19"/>
+            <date type="print"/>
+            <availability><p xml:id="facs">Sibylle Malamud</p></availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_152</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>StAZH A 346.3, Nr. 108</idno>
+               </msIdentifier>
+               <head>Lehenurkunde für die Fähre am Rhein zwischen Bendern und Haag</head>
+               <msContents>
+                  <summary>
+                     <p>Hauptmann Thomas Schmid von Glarus, Landvogt von Werdenberg und Wartau, verleiht für
+                   			10 Konstanzer Schilling die Fähre am Rhein zwischen Bendern und Haag mit allen Rechten
+                     		für 20 Jahre an Ammann Hans Wagner von Bendern, Mathis Rederer, Hans Rederer, Luzi
+                    			Hagmann, Christian Hagmann, Ulis Sohn, Thomas Hagmann, Adam Hagmanns Söhne Christian,
+                     			Thomas und Simon, Jos Wohlwend, Thomas Rederer, Davids Sohn, nochmals Thomas Rederer,
+                     			Valentin Wohlwend und seine Brüder Hans, Jos und Ulrich, alle wohnhaft in Haag.</p> <p>Der
+                   			Aussteller siegelt.</p>
+                  </summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <filiation type="current">Abschrift (Doppelblatt)</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="32.5"/>
+                              <width unit="cm" quantity="20.5"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1607-08-25">sambstag nach Bartholomeus tag</origDate>
+                     <origPlace>Schloss Werdenberg</origPlace>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000703">Fähre</term>
+               <term ref="key000704">Schifffahrt</term>
+               <term ref="key004456">Überführung</term>
+               <term ref="key004139">Fährleute</term>
+               <term ref="key000022">Lehen</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <div org="uniform" sample="complete">
+                  <p>
+                     <pb n="1" facs="StAZH_A_346.3_Nr._108_1"/>
+                     <lb/>Ich, <term ref="lem008485">hauptman</term>
+                     <persName ref="per008736a">Thoma Schmidt</persName> von <placeName
+                        ref="loc000326">Glarus</placeName>, <lb/>der zyt myner gnedigen herren
+                     lanndtvogt der <lb/>grafschafft <placeName ref="loc007867">Werdenberg unnd
+                        herschafft Wartauw</placeName>, be<lb break="no"/>kennen unnd thun kunndt
+                     offentlich mit diserem brieff, <lb/>das fürkhommen unnd erschinen sindt die
+                     ehrsammen, <lb/>nachverschribnen personen, nammlich ammen <persName
+                        ref="per009394a">Hannß <lb/>Wagner</persName> von <placeName ref="loc000689"
+                        >Bennderen</placeName>, item <persName ref="per009395a">Mathys
+                        Redner</persName>, <persName ref="per009396a">Hanns <lb/>Redner</persName>,
+                        <persName ref="per009400a">Luzi Hagman</persName>, <persName
+                        ref="per009401a">Christen Hagman</persName>, <persName ref="per009402a"
+                        >Uli</persName>s sohn, auch <lb/><persName ref="per009403a">Thoma
+                        Hagman</persName>, aber des <persName ref="per009404a">Adem
+                        Hagmans</persName>
+                     <choice>
+                        <abbr>sel</abbr>
+                        <expan>seligen</expan>
+                     </choice> söhn, <lb/>alls nammlich <persName ref="per009406"
+                        >Christen</persName>, <persName ref="per009407">Tomma</persName> unnd
+                        <persName ref="per009408">Simon Hagman</persName>, <persName ref="per009413"
+                        >Jos <lb/>Wollwennd</persName>, <persName ref="per009397a">Tomma
+                        Redner</persName>, des <persName ref="per009398">Davids</persName> sohn,
+                     aber <persName ref="per009399a">Thomma <lb/>Redner</persName>, <persName
+                        ref="per009410">Valenthin</persName> unnd syne brüder <persName
+                        ref="per009411a">Hanns</persName>, <persName ref="per009409a"
+                     >Jos</persName>, <persName ref="per009412">Uli <lb/>Wollwend</persName>, dise
+                     alle uß der herschafft <placeName ref="loc000278">Sax</placeName> unnd seß<lb
+                        break="no"/>haft im <placeName ref="loc000389">Hag</placeName>, alls dan für
+                     mich gebracht, wie das <term ref="lem002098.01">fahr</term>
+                     <lb/>unnd <term ref="lem015511.01">fahrrecht</term> im unnd uf dem <placeName
+                        ref="loc000644">Rhyn</placeName> entzwüschet <placeName ref="loc000689"
+                           >Ben<lb break="no"/>deren</placeName> unnd dem <term ref="lem000699"
+                        >brunnen</term> zu <placeName ref="loc000155">Baltzers</placeName> unnseren
+                     gnedigen <lb/>herren von <orgName ref="org001197">Glarus</orgName> ist, wie dan
+                     sy das erkauft unnd <lb/>an sy gewahsen<note anchored="true">Das <orig>c</orig>
+                        beim <orig>ch</orig> wird häufig nicht geschrieben und im Folgenden nicht
+                        mehr speziell vermerkt.</note> unnd khomen ist. Daruf wir, fehren unnd
+                        <lb/><term ref="lem000968">lehenlüth</term>, gsinnet, von eüh, gnedigen
+                     herren, das <term ref="lem015511.01">fahrrecht</term>
+                     <lb/>unnd <term ref="lem000038">lehen</term> widerumb zu empfahen nach luth
+                     ihres <term ref="lem000262">lehen<lb break="no"/>briefs</term>, wie dan das von
+                     alter khommen ist unnd von den <lb/>allten lanndtvögten in nammen ihrer herren
+                     unnd oberen <lb/>von <orgName ref="org001197">Glarus</orgName> verlihen worden.
+                        <seg>Unnd die wil ich das be<lb break="no"/>stimpt zyt der jahren der <term
+                           ref="lem000038">lehen</term> gestallt unnd begeren <lb/>angehört, daruf
+                        ich <add place="above">uß</add> schuldig pflicht eim jeden zu synen
+                        <lb/>rechten söliche <term ref="lem002098.01">fahr</term> unnd <term
+                           ref="lem015511.01">fahrrecht</term> gnedig zu lyhen. Dero<lb break="no"
+                        />wegen ich, lanndtvogt <persName ref="per008736a">Toma Schmidt</persName>,
+                        in nammen myner <lb/>gnedigen herren von <orgName ref="org001197"
+                           >Glarus</orgName>, disen verschribnen per<lb break="no"/>sonen, ihren
+                        unnd ihren nahkhommen, was von <term ref="lem002788.06">mansstamm<lb
+                              break="no"/>en</term> ist, in sonnderheit disen hernah verschribnen
+                        personen, <lb/>alls <term ref="lem000006">ammen</term>
+                        <persName ref="per009394a">Hanns Wagner</persName> von <placeName
+                           ref="loc000689">Bennderen</placeName> den <term ref="lem015513.02">achten
+                           theill</term>, <lb/><persName ref="per009395a">Matthys Redner</persName>
+                        den achten theill, <persName ref="per009396a">Hanns Redner</persName> ein
+                        <lb/>achten theill, <persName ref="per009400a">Lutz Hagman</persName> ein
+                           <term ref="lem015514.02">sechszehenden theill</term>, <persName
+                           ref="per009401a">Christen <lb/>Hagman</persName>, <persName
+                           ref="per009402a">Ulis</persName> sohn, ein sechszehenden theill,
+                           <persName ref="per009403a">Tommen Hag<lb break="no"/>man</persName> ein
+                        sechszehenden theill, aber <persName ref="per009406">Christen</persName>,
+                           <persName ref="per009407">Thomma</persName> unnd <lb/><persName
+                           ref="per009408">Simon Hagman</persName>, des <persName ref="per009404a"
+                           >Adems</persName> söhn, ein sechszehenden theil, <lb/><persName
+                           ref="per009413">Jos Wollwend</persName> ein sechszehenden theill,
+                           <persName ref="per009397a">Thomma Redner</persName>, <pb n="2"
+                           facs="StAZH_A_346.3_Nr._108_2-3"/>
+                        <lb/><persName ref="per009398a">Davids</persName> sohn, ein <term
+                           ref="lem015513.02">achten theill</term>, aber <persName ref="per009399a"
+                           >Thomen Redner</persName> ein <lb/>sechszehenden theill, <persName
+                           ref="per009410">Valenthyn</persName> ein sechszehenden theill, <lb/>item
+                           <persName ref="per009411a">Hanns</persName>, <persName ref="per009409a"
+                           >Jos</persName> unnd <persName ref="per009412">Uli Wollwend</persName>
+                        ein sechszehenden <lb/>theill, verlichen uß befelch myner vorgemelten
+                           gned<lb break="no"/>igen herren von <orgName ref="org001197"
+                           >Glarus</orgName> wüßentlich in kraft diß briefs <lb/>mit allen
+                        zugehörden, rechten, nuzen, nießen unnd bruchen <lb/><date dur="P20Y"
+                           >zwenzig jahr</date> lang, wie dan der allt <term ref="lem000262"
+                           >lehenbrief</term> zugibt.</seg>
+                  </p>
+                  <p>
+                     <lb/>Nah ein annderen nah datum deß briefs mit luterem ge<lb break="no"/>ding,
+                     das sy das <term ref="lem002098.01">fahr</term> unnd <term ref="lem015511.01"
+                        >fahrrecht</term> in guten wirde und <lb/>ehren innhaben söllend, zwüschet
+                     denen obgemelten zweyen <lb/><term ref="lem000693">marchen</term> unnd zeichen
+                     haben unnd bruchen söllend, ouch an stat <lb/>unnd ennden daselbst, mynen
+                     gnedigen herren von <orgName ref="org001197">Glarus</orgName>
+                     <lb/>unnd ihren vögten, welicher da ist, wo sy befunndend, das <lb/>fahr
+                     zuleggen, der <term ref="lem000114">straaß</term> zu glegnist unnd nah ihren
+                     herren <lb/>gfallen hinzuleggen. <seg>Sy söllend auh schuldig sye, ein jeder
+                        <lb/>hinüber zu füren, so balld einer das begert umb den ge<lb break="no"
+                        />machten <term ref="lem000282">lohn</term>, wie es gestellt ist unnd von
+                        allter herkhom<lb break="no"/>en ist, alls einer nah syner noturft reisen
+                        will.</seg>
+                     <seg>Unnd so <lb/>einer den annderen <term ref="lem009531">lybloß</term> oder
+                        söliche sahen gethon hete, <lb/>söllend sy in schuldig syn, <term
+                           ref="lem015512.02">flux</term> ze füren unnd vor unnd ehe <lb/>syn <term
+                           ref="lem001527.09">widerseher</term> ankhomme.<term ref="key000225"/>
+                        Desglichen ein jeden zufüren, <lb/>auh der nit pfenig hatt unnd sonnst gnug
+                        darumb thut, söl<lb break="no"/>lend sy füren. Desglichen die <term
+                           ref="lem000849">armen</term>, so nit gellt habend, <lb/>durch gottes
+                        willen hinüber füren.</seg>
+                     <seg>Ouch vorbehalten, wie <lb/>von allter har khommen ist, unnsere gnedige
+                        herren <term ref="lem000041">vögt</term>, <lb/><term ref="lem000882"
+                           >anwellt</term> unnd <term ref="lem005679">amptlüth</term> vergebens
+                        führen unnd fürderen, <lb/>ohne klag auch ihre <term ref="lem000281"
+                           >gsindt</term> ohne lohn. Es soll auh ein jeder dem <lb/>rechten fahr
+                        zugohn unnd fahren, auh niemannd zwüschet <lb/>den ernampten zwejen zillen
+                        khein fahr nit haben nah <lb/>ufrichten, auh niemand zu kheiner zyt nit
+                        füren.</seg>
+                     <seg>Darge<lb break="no"/>gen inen ihre natürliche <term ref="lem000960"
+                           >lehenherren</term> versprechend, wan <lb/>es die noturft erforderet, das
+                           <term ref="lem000759">holz</term> zu einem neüwen <lb/><term
+                           ref="lem002104">schiff</term>, so ein schiff notwenndig zu mahen ist, zu
+                        geben unnd <lb/>an <placeName ref="loc000644">Rhin</placeName> wie von
+                        allter har zu <term ref="lem001414">fertigen</term>. Unnd söllend die
+                           <lb/><term ref="lem002102.04">fehren</term> dan das schiff in ihrem
+                        lasten laßen machen, <lb/>ohne miner herren entgelltnus. Daruf söllend myne
+                        <lb/>herren sy by dem <term ref="lem015511.01">fahrrecht</term> gnedigklih
+                        hanndhaben unnd schir<lb break="no"/>men unnd das allt <term ref="lem002104"
+                           >schiff</term> söllend die von <orgName ref="org001878">Schan</orgName>
+                        schuldig <lb/>syn zunemmen unnd mynen heren oder lanndtvögten dar<lb
+                           break="no"/>
+                        <pb n="3" facs="StAZH_A_346.3_Nr._108_2-3"/>für geben <measure
+                           type="currency" origin="Feldkirch" unit="ß" quantity="30">drißig
+                           schilling pfenig Veldkirher weerung</measure>, <lb/>wie es von alter har
+                        khommen ist.</seg>
+                     <seg>Darzu söllend die <lb/><term ref="lem000968">lehenlüth</term> vom <term
+                           ref="lem002098.01">fahr</term> schuldig syn, fürhin einem lanndt<lb
+                           break="no"/>vogt uf <date when="--11-11" type="deadline_holiday"
+                           >Martini</date>, <term ref="lem014499">acht tag</term> vor oder nah, uf
+                        das <term ref="lem000376">schloß</term>
+                        <placeName ref="loc000015">Wer<lb break="no"/>denberg</placeName> erleggen,
+                        nammlich <measure type="currency" quantity="10" unit="ß" origin="Konstanz"
+                           >zehen schilling pfenig Costen<lb break="no"/>zer münntz und Veldkirher
+                           weerung</measure>, ohne unnser gned<lb break="no"/>igen herren costen
+                        unnd schaden. Unnd welches jahrs das <lb/>nit beschehe, so ist das lehen
+                        unnd fahrrecht mit aller <lb/>gerechtigkheit unnd zugehörden, sahen widerumb
+                           <term ref="lem002674">heim<lb break="no"/>gefallen</term>, ohne alles
+                        widersprechen.</seg>
+                     <seg>Es behalltend auch vor <lb/>unnser gnedig herren von <orgName
+                           ref="org001197">Glarus</orgName>, ob sih zutrüge, das sih <lb/>einer oder
+                        der annder <term ref="lem015727">unehrlich</term> hielte, es were mit
+                        <lb/>worten oder mit werken, das einem ehrlichen man <lb/>nit gebürt, es
+                        seig welicher gstallt das genampt möcht <lb/>werden, derselbig soll das
+                        lehen verwürkt und ver<lb break="no"/>fallen haben unnd soll syn <term
+                           ref="lem000961">lehen recht</term> mynen herren von <lb/><orgName
+                           ref="org001197">Glarus</orgName> widerheimgefallen syn, das zu verlihen
+                        nah ihrem <lb/>gutdunken.</seg>
+                     <seg>Daruf dise obgenampten personen alle <lb/>mit ein annderen verheißen <term
+                           ref="lem006985">mit munnd unnd hannd</term>, auh <lb/>mit ufgehabtem
+                           <term ref="lem000070">eydt</term> geschworen, treuw unnd wahr zu<lb
+                           break="no"/>hallten, miner heren nutz zu fürderen, ihren schaden zu<lb
+                           break="no"/>wenden unnd inen zethun, alles was einem ehrlichen <lb/><term
+                           ref="lem000968">lehenman</term> synem rechten <term ref="lem000960"
+                           >lehenheren</term> zethun schuldig ist. <lb/>Auh hannd sy in denselben
+                        eydt gnommen unnd versprohen <lb/>von des lehens wegen, ob einer oder der
+                        annder ver<lb break="no"/>schwigne lehen wüßte oder innen wurde, die mynen <lb/><choice>
+                           <abbr>gn</abbr>
+                           <expan>gnädigen</expan>
+                        </choice> herren von <orgName ref="org001197">Glarus</orgName> möchtend
+                        zugehören, die söllend <lb/>sy einem lanndtvogt angeben bi ihrem eyd unnd by
+                           ver<lb break="no"/>lierung ihrer lehen.</seg>
+                     <seg>Wyters ist auh beredt unnd abge<lb break="no"/>hanndlet, welher unnder den
+                           <term ref="lem000968">lehenlüthen</term> syn <term ref="lem002098.01"
+                           >fahr</term> oder <lb/><term ref="lem015511.01">fahrrecht</term>, er oder
+                        syn erben, wöltend von großer noturft <lb/><term ref="lem000852"
+                           >verkaufen</term> oder versezen innert der <date dur="P20Y">zwenzig
+                           jahren</date>, <lb/>das selbig ist inen vergunndt unnd zuglaßen,
+                        dergestalt, <lb/>das sy das füruß schuldig syn söllend, ihren gnedigen
+                        <lb/>herren anbieten, darnah ihren <term ref="lem001229">gesellen</term>,
+                        die am fahrrecht <lb/>hannd, zum dritten einem <term ref="lem001593.04"
+                           >herschafftman</term> zu <placeName ref="loc000440">Werden<lb break="no"
+                           />berg</placeName> unnd wyters nit unnd das alles mynen heren <lb/>von
+                           <orgName ref="org001197">Glarus</orgName> ohne schaden unnd
+                        unvergrifenlich an <pb n="4" facs="StAZH_A_346.3_Nr._108_4"/>
+                        <lb/>ihren freyheiten unnd grechtigkheiten. Unnd so fehr myn <lb/>gnedig
+                        herren oder die annderen, so verschriben, das fahr <lb/>nit wöltend kaufen
+                        oder daruf lyhen, so mag einer dan <lb/>an einem annderen ort syn nutz woll
+                        schaffen, doh mit <lb/>gunnst, wüßen unnd willen eines lanndtvogts. Unnd
+                        <lb/>so die <date dur="P20Y">zwenzig jahr</date> ummen, sindt sy schulldig,
+                        das <term ref="lem000038">lehen</term>
+                        <lb/>widerumb zeempfahen unnd <term ref="lem003147">verehrschatzen</term>
+                        unnd mine <lb/>gnedigen herren unnd ihre lanndtvögt das lehen inen <lb/>vor
+                        menigklichem zu khommen laßen.</seg>
+                     <seg>Unnd des zu wahr<lb break="no"/>em urkunndt unnd steter siherheit, so hab
+                        ih, genampter <lb/>lanndtvogt, von <del>wegen</del> wegen myner gnedigen
+                        herren <lb/>von <orgName ref="org001197">Glarus</orgName> unnd ihren
+                        nahkhommen, an der <term ref="lem000456">lehenschaft</term>
+                        <lb/>unnd ihren freyheiten, recht unnd grechtigkheiten, auh mir <lb/>unnd
+                        mynen erben in allweg ohne schaden, myn eigen <lb/>insigell ofentlich laßen
+                        henkhen an disen brief, der gäben <lb/>ist <origDate when="1607-08-25"
+                           >sambstag nach <persName ref="per000861">Bartolomej</persName> tag im
+                           jahr, das man <lb/>zallt nah <persName ref="per000353">Christi</persName>
+                           geburt sechszehenhunndert unnd im <lb/>sibenden jahr</origDate>.</seg>
+                  </p>
+               </div>
+               <pb facs="StAZH_A_346.3_Nr._108_v"/>
+               <div org="uniform" sample="complete">
+                  <ab type="dorsal" place="verso" hand="hand17c">
+                     <lb/>12. Abgschrifft: <lb/>des <term ref="lem000262">lechenbrief</term> das
+                        <term ref="lem002098.01">fahr</term> unnd <lb/><term ref="lem015511.01"
+                        >fahrrecht</term> uf dem <placeName ref="loc000644">Rhyn</placeName> bi
+                        <placeName ref="loc000689">Ben<lb break="no"/>deren</placeName> betreffendt
+                        <add place="above">1607</add>
+                     <del>
+                        <gap reason="illegible" quantity="1" unit="word"/> 1607 jahr</del></ab>
+               </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div n="1" org="uniform" sample="complete">
+            <p>Über den <placeName ref="loc000644">Rhein</placeName> führt bereits im Mittelalter
+               ein Übergang bei <placeName ref="loc000936">Gamprin</placeName>, der jedoch um 1394
+               durch einen Fährbetrieb zwischen <placeName ref="loc000389">Haag</placeName> und
+                  <placeName ref="loc000689">Bendern</placeName> abgelöst wird und Graf <persName
+                  ref="per000416a">Albrecht III. von Werdenberg-Heiligenberg</persName> gehört
+                     (<bibl><ref target="http://permalink.snl.ch/bib/chbsg000091563">LUB I/4</ref>,
+                  Nr. 26</bibl>). Nach 1517 gelangt das <term ref="key000571">Lehensrecht</term> an
+               der <term ref="key000703">Fähre</term> zwischen <placeName ref="loc000389"
+                  >Haag</placeName> und Bendern an <orgName ref="org001197">Glarus</orgName> als
+               Herr der Landvogtei <placeName ref="loc000440">Werdenberg</placeName>, während die
+               territoriale und gerichtliche Hoheit beim Herrn von <placeName ref="loc000278"
+                  >Sax-Forstegg</placeName> liegt (vgl. <ref>SSRQ_SG_III_4_123</ref>). </p>
+         </div>
+         <div n="2" org="uniform" sample="complete">
+            <p>Weitere <term ref="key000537">Verleihungen</term> der <term ref="key000703"
+                  >Fähre</term> zwischen <placeName ref="loc000389">Haag</placeName> und <placeName
+                  ref="loc000689">Bendern</placeName> siehe: <bibl><ref>StASG AA 3 U 20</ref></bibl>
+               (1647); <bibl><ref>StASG AA 2 A 11-1-6</ref></bibl> (1707);
+                     <bibl><ref>StAZH A 346.5, Nr. 348</ref></bibl> (1747); <bibl><ref>StASG AA 3 A
+                     10-4</ref></bibl> (Teildossier: 1787–1796). </p>
+            <p>Zur Fähre zwischen Haag und Bendern siehe auch: <ref>SSRQ_SG_III_4_143</ref>, Art. 9;
+                  <ref>SSRQ_SG_III_4_229</ref>, S. 94; das Dossier zur Rheinfahrt in <bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/44aa25e2ae054f6b9cd03f82d87f80b2"
+                     >LAGL AG III.2433</ref></bibl> sowie <bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/216d48a30f924e728b38309ab08801cc"
+                     >AG III.2401:027</ref></bibl>, S. 1; <bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/d5b3bac957af4b22bc58d8a224e10075"
+                     >AG III.2432:038</ref></bibl>; <bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/5697a57beeb44fce9e3078fd2d709a1f"
+                     >AG III.2445:005</ref></bibl>; <bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/fe218f4e88c146b98c8980c5ee332d3c"
+                     >AG III.2445:027</ref></bibl>; <bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/885a8968b1e64518a5a2b6d2ac868d6e"
+                     >AG III.2455:004</ref></bibl>; <bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/c49b307b222b4a10a83edc1ae7cbf11c"
+                     >AG III.2460:004</ref></bibl>; <bibl><ref>StAZH A 346.4, Nr. 52</ref>;
+                     <ref>A 346.4, Nr. 54</ref></bibl>; <bibl><ref>StASG AA 2 A 4-2-15</ref></bibl>;
+                     <bibl><ref>AA 2 A 11-1-3</ref>; <ref>AA 2 A 6b-6a-2-9</ref></bibl>;
+                     <bibl><ref>StAZH A 346.6, Nr. 177</ref></bibl>. </p>
+         </div>
+         <div n="3" org="uniform" sample="complete">
+            <p>1755 wird zwei Fährleuten das Fährlehen entzogen, weil sie Passanten nicht
+               übergesetzt und sich den Befehlen des Landvogts widersetzt haben (<bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/17c32bf585784520ae7ecbec4abe84f1"
+                     >LAGL AG III.2433:051</ref></bibl>).<term ref="key000417"/>
+            </p>
+         </div>
+         <div org="uniform" sample="complete" n="4">
+            <p>Zur Fähre bei <placeName ref="loc000434.01">Burgerau</placeName> als «Mittelfahr» und als sogenanntes Afterlehen der
+     Fähre bei Haag und Bendern siehe <ref>SSRQ_SG_III_4_256</ref>.</p>
+         </div>
+      </back>
+   </text>
+</TEI>

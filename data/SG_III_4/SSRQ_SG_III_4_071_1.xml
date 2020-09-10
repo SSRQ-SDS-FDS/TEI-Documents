@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+    <persName>Sibylle Malamud</persName>
+    <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+    <persName>Sibylle Malamud</persName>
+    <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-08-13"/>
+            <date type="print"/>
+            <availability><p xml:id="facs">Staatsarchiv St. Gallen (StASG)</p></availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+    <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+    <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_071_1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+    <msIdentifier>
+       <idno>StASG AA 2 U 08</idno>
+       <altIdentifier>
+          <idno>StASG AA 2 U 8</idno>
+       </altIdentifier>
+    </msIdentifier>
+    <head>Auslösung der Herrschaften Frischenberg und Sax-Forstegg von der Stadt St. Gallen durch Frau Ursula Mötteli, Witwe von Sax-Hohensax, mit ihren Kindern</head>
+    <msContents>
+       <summary>
+          <p>Bürgermeister und Rat der Stadt St. Gallen urkunden, dass Frau Ursula Mötteli, Witwe von Sax-Hohensax, und ihre Kinder, Junker Ulrich VIII. von Sax-Hohensax sowie seine Schwester Frau Veronika von Sax-Hohensax, Ehefrau des Hans von Landenberg, die an Lütfried Mötteli verpfändete Freiherrschaft Sax-Forstegg und Frischenberg, die er wiederum vor einiger Zeit der Stadt St. Gallen verpfändet hatte, mit 2100 Gulden ausgelöst haben.</p>Die Aussteller siegeln mit dem Sekretsiegel.</summary>
+       <msItem>
+          <textLang>Deutsch</textLang>
+          <filiation type="current">Original</filiation>
+       </msItem>
+    </msContents>
+    <physDesc>
+       <objectDesc>
+          <supportDesc>
+             <support>
+                <material>Pergament</material>
+             </support>
+             <extent>
+                <dimensions type="leaves">
+        <height unit="cm" quantity="24.5"/>
+        <width unit="cm" quantity="34.0"/>
+                </dimensions>
+                <dimensions type="plica">
+        <width unit="cm" quantity="5.5"/>
+                </dimensions>
+             </extent>
+          </supportDesc>
+       </objectDesc>
+       <sealDesc>
+          <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI"
+                n="1"
+                nontei:material="wax"
+                nontei:shape="round"
+                nontei:condition="well-preserved"
+                nontei:attachment="sealed on a parchment tag" facs="StASG_AA_2_U_08_s01">
+             <orgName role="sigillant" ref="org001179">St. Gallen</orgName>
+          </seal>
+       </sealDesc>
+    </physDesc>
+    <history>
+       <origin>
+          <origDate when="1481-11-15"/>
+       </origin>
+    </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+    <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+    <term ref="key000441">Pfand</term>
+    <term ref="key000685">Ablösung</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <div org="uniform" sample="complete">
+                  <pb facs="StASG_AA_2_U_08_r"/>
+                  <p>
+                     <seg>
+                        <lb/>Wir, der <orgName ref="org002601">burgermaister und raut der statt zuͦ
+                           Sant Gallen</orgName>, bekennen offembar und thuͦnd <lb/>kunt
+                        allermenklich mit disem brieff, als denn die herschafft <placeName
+                           ref="loc000278">Vorstegg</placeName> und <placeName ref="loc006069.05"
+                           >Fryschemberg</placeName> mit <lb/>aller zuͦgehoͤrd vor ettlichen ziten
+                           <persName ref="per004642a">Lu̍tpfriden Moͤttlin</persName> saͤligen in
+                        pfandswiß versetzt gewesen ist, <lb/>nach innhalt des <term
+                           ref="lem000259.01">pfandbrieff</term>s daru̍ber versigelt geben. Und uns
+                        nun derselb <persName ref="per004642a">Lu̍tpfrid Moͤttlin</persName>
+                        dieselben <lb/>herschafft <placeName ref="loc000278">Vorstegg</placeName>
+                        und <placeName ref="loc006069">Frischenberg</placeName> mit allen iren
+                        rechten ze köffend gegeben gehept hāt. Wir ōch die <lb/>ain namliche zit
+                        inngehept und genossen haben <abbr>etc</abbr>.</seg>
+                     <seg>Daz die edel fraw <persName ref="per004862b">Ursula Moͤttilin</persName>,
+                           <term ref="lem000216.20">wittaw</term> von <lb/>Sax, und der edel herr,
+                        junckherr <persName ref="per001640a">Uͦlrich von der Hochen Sax</persName>,
+                        fryher, und frow <persName ref="per004863b">Veronica von Sax</persName>, sin
+                        <lb/>eliche <term ref="lem000083.07">schwoͤster</term>, <persName
+                           ref="per004864a">Hansen von Landenberg</persName>s eliche <term
+                           ref="lem000267.03">gemahel</term>, der vorgenanten frow <persName
+                           ref="per004862b">Ursula von Sax</persName>
+                        <lb/>eliche <term ref="lem000130.04">kinder</term>, die obgeschriben
+                        herschafft <placeName ref="loc000278">Vorstegg</placeName> und <placeName
+                           ref="loc006069.06">Fryschenberg</placeName> mit aller zuͦgehoͤrde von uns
+                        <lb/>nach lutt des pfanndbrieffs, ouch nach lutt ains guͤtlichen spruchs,
+                        von den fu̍rsichtigen und wysen <lb/><orgName ref="org001936">burgermaister
+                           und raut <choice>
+                              <sic>der statt der statt</sic>
+                              <corr>der statt</corr>
+                           </choice> Costentz</orgName> ußgangen,<note anchored="true">Vgl. dazu den
+                           Schiedsspruch vom <date when="1481-10-30">30. Oktober 1481</date>,
+                              <ref>StAZH A 346.1.1, Nr. 5</ref>.</note> widerumb geloͤst haben mit
+                           <measure type="currency" unit="fl" origin="Rh" quantity="2100">zway<lb
+                              break="no"/>tusennt und hundert guldin Rinisch</measure>, guͦter und
+                        genger, dero wir von inen uff hu̍tt dato diß brieffs <lb/>durch den edeln
+                        und vesten <persName ref="per004864a">Hannsen von Landenberg zuͦ der Alten
+                           Klingen</persName> nach unserm guͦten benuͤg<lb break="no"/>en ußgericht
+                        und bezalt worden syen. Hierumb, so laussen und sagen wir die obgedachten
+                        frow <lb/><persName ref="per004862b">Ursulen von Sax</persName>, junckherr
+                           <persName ref="per001640a">Uͦlrichen von der Hochen Sax</persName> und
+                        fraw <persName ref="per004863a">Veroniken von Sax</persName>, ire kinder
+                        <lb/>und ire erben, umb die vorgeschriben <measure type="currency" unit="fl"
+                           origin="Rh" quantity="2100">zwaytusent und hundert guldin
+                           Rinisch</measure> und umb all vordrungen <lb/>und zuͦsprūch, so wir untz
+                        uff dato diß brieffs zuͦ der herschafft <placeName ref="loc000278"
+                           >Vorstegg</placeName> und <placeName ref="loc006069.06"
+                           >Fryschenberg</placeName> mit <lb/>aller zuͦgehoͤrd der <term
+                           ref="lem001905.06">pfanndschafft</term> und <term ref="lem002875"
+                           >loßung</term>halb ye gehept haben, gantz quitt, fry, ledig und loß,
+                        <lb/>fu̍r uns, gemain unser statt und fu̍r all unser nachkomen, sy darumb
+                        und deßhalb niemer mer an<lb break="no"/>zelangen noch zebeku̍mbern, weder
+                        mit recht, gaistlichem noch weltlichem, noch sunst mit dehainen <lb/>andern
+                        sachen <term ref="lem014555.02">fu̍nden</term> noch <term ref="lem014554.01"
+                           >listen</term> noch das schaffen getān werden in dehain wiß, āne
+                        gevaͤrde.</seg>
+                     <seg>Und <lb/>des alles zuͦ warem urku̍nd, so haben wir, obgedachten <orgName
+                           ref="org002601">burgermaister und raut zuͦ Sant Gallen</orgName>,
+                        <lb/>unser statt secret insigele, fu̍r uns, gemain unser statt und fu̍r all
+                        unser nachkomen, offenlich thuͦn <lb/>hencken an disen brieff, der geben ist
+                        uff <origDate when="1481-11-15">sant <persName ref="per003385"
+                              >Othmar</persName>s abent nach <persName ref="per000353"
+                              >Cristi</persName> gebu̍rtt thusent <lb/>vierhundert und in dem
+                           ainundachtzßigosten jare</origDate>.</seg>
+                  </p>
+                  <pb facs="StASG_AA_2_U_08_v"/>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab type="archiving reference" place="verso" hand="hand17c?">
+                     <lb/>Ingrossiert</ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab type="archiving reference" place="verso" hand="hand19c">
+                     <lb/>Sakristey trk. 39.L.2.N<hi rend="sup">o</hi> 9</ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab type="archiving reference" place="verso">
+                     <lb/>N<hi rend="sup">o</hi> 8; <lb/><del>N<hi rend="sup">o</hi> 5</del>
+                     <lb/>1481 <lb/><del>9</del></ab>
+               </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div org="uniform" sample="complete">
+            <p>Nach dem <term ref="key003024">Tod</term> von <persName ref="per000749a">Albrecht I. von
+      Sax-Hohensax</persName>
+    <date when="1463">1463</date> wird die Freiherrschaft <placeName ref="loc000278">Sax-Forstegg</placeName> mit <placeName ref="loc006069">Frischenberg</placeName> vor <date when="1466">1466</date> (vgl. <ref>SSRQ_SG_III_4_057</ref>) an <persName ref="per004642a">Lütfried Mötteli</persName> verpfändet. Dieser wiederum verpfändet die beiden Herrschaften
+     kurz vor seinem Tod an die Stadt <orgName ref="org001179">St. Gallen</orgName>. Beide <term ref="key000442">Pfandurkunden</term> sind nicht erhalten, weshalb die genauen Daten der <term ref="key000027">Verpfändung</term>en nicht bekannt sind. Im <date when="1479-05">Mai
+      1479</date> erscheint Mötteli noch als Pfandinhaber. Die Verpfändung selbst erfolgt an
+      <persName ref="per001805">Hilarius</persName>, also am <date when="--01-13">13. Januar</date>.
+     Da Mötteli <date when="1481">1481</date> stirbt, ist anzunehmen, dass die Verpfändung am 13.
+     Januar 1480 oder 1481 erfolgte.</p>
+            <p>Als die Witwe von Albrecht I. von Sax-Hohensax mit ihren Kindern die beiden Herrschaften
+     auslösen will, entsteht ein Streit mit der Stadt St. Gallen um den Zeitpunkt der
+    Übergabe bzw. der <term ref="key004483">Erträge</term> aus den Herrschaften. Laut des
+    <term ref="key001117">Schiedsspruch</term>s vom <date when="1481-10-30">30. Oktober 1481</date> 
+    wurden die beiden Herrschaften an Hilarius von Albrecht I. an die Stadt St. Gallen verpfändet. Deshalb darf der
+    <term ref="key003580">Vogt</term> von St. Gallen bis Hilarius in den Herrschaften bleiben und diese nutzen. 
+    Die Witwe muss die Stadt zudem für ihre baulichen Investitionen
+    entschädigen (<bibl><ref>StAZH A 346.1.1, Nr. 5</ref></bibl>).</p>
+         </div>
+      </back>
+   </text>
+</TEI>

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="headerinfo"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <date type="electronic" when="2020-08-17"/>    <date type="print"/>
+    <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Collection des sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS_NE_3_250</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier>
+      <idno>AVN B 101.14.001, fol. 508r</idno>
+     </msIdentifier>
+     <head>Délai d’opposition à une mise en taxe</head>
+     <msContents>
+      <summary>Un débiteur mis en taxe (faillite) par son créditeur doit faire opposition dans la
+       huitaine.</summary>
+      <msItem>
+       <textLang>français</textLang>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="33"/>
+          <width unit="cm" quantity="23.5"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <origDate when="1763-03-14" calendar="Julian"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>
+      </origin>
+     </history>
+     <additional>
+      <listBibl>
+       <head/>
+       <bibl/>
+      </listBibl>
+     </additional>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     
+     <term ref="key005130"></term>
+     <term ref="key005189"></term>
+     <term ref="key005095"></term>
+     <term ref="key003867"></term>
+     <term ref="key004001"></term>
+    </keywords>
+   </textClass>
+   <particDesc default="false"/>
+   <settingDesc default="false"/>
+  </profileDesc>
+ </teiHeader>
+ 
+ <text>
+  <group>
+   <text>
+    <body>
+     <pb n="508r" facs="AVN_B_101.14.001_0508r"/>
+     <div>
+      <head>
+       <lb/>Touchant le temps que l’on se peut <lb/><term ref="lem015647">clamer</term> sur une
+       <term ref="lem014995.02">taxe</term>, &amp; quand on est <term ref="lem015626.02">forclos</term>
+       <lb/>de former ladite demande. </head>
+      <p>
+       <lb/>Sur la requeste de noble &amp; prudent <lb/><choice>
+        <abbr>s<hi rend="sup">r</hi></abbr>
+        <expan>sieur</expan>
+       </choice>
+       <persName ref="per009993">Pierre Tribolet</persName>, maistre bourgeois &amp; du <orgName
+        ref="org003085">Conseil Estroit de <lb/>la Ville de <placeName ref="loc007786"
+         >Neufchastel</placeName></orgName>, adressée à <choice>
+        <abbr>M<hi rend="sup">r</hi></abbr>
+        <expan>monsieur</expan>
+       </choice> le maistre bourgeois <lb/>et audit <orgName ref="org003085">Conseil
+        Estroit</orgName>
+       <choice>
+        <abbr>dud.</abbr>
+        <expan>dudit</expan>
+       </choice>
+       <placeName ref="loc007786"><choice>
+         <abbr>Neufch<hi rend="sup">el</hi></abbr>
+         <expan>Neufchastel</expan>
+       </choice></placeName> le <origDate when="1763-03-14" calendar="Julian">14 de mars 1673</origDate>
+       <lb/>aux fins d’avoir le point de coustume suivant. </p>
+      <p>
+       <lb/>Assavoir, quand une personne a fait <term ref="lem014995.06">taxer</term> à un autre
+       &amp; <lb/>il vient à laisser escouler la <date dur="P8W">huictaine</date> apres que <choice>
+        <abbr>lad.</abbr>
+        <expan>ladite</expan>
+       </choice>
+       <term ref="lem014995.02">taxe</term>
+       <lb/>a esté faite, sy après ladite <date dur="P8W">huictaine</date> escoulée il vient
+       <lb/>assé tost pour se <term ref="lem015647">clamer</term>. </p>
+      <p>
+       <lb/><orgName ref="org003085">Mesdits <choice>
+         <abbr>S<hi rend="sup">rs</hi></abbr>
+         <expan>sieurs</expan>
+        </choice> du Conseil</orgName> ayants eu advis &amp; meure <choice>
+        <abbr>premedaon</abbr>
+        <expan>préméditation</expan>
+       </choice>
+       <lb/>par ensemble <term ref="lem015635.04">baillent</term> par declaration, suivant la <lb/>coustume usitée en la
+       souveraineté <choice>
+        <abbr>dud.</abbr>
+        <expan>dudit</expan>
+       </choice>
+       <placeName ref="loc007785">Neufchastel</placeName> de <lb/>pere à fils &amp; de tout temps
+       immemorial jusqu’à present <lb/>la coustume estre telle. </p>
+      <p>
+       <lb/>Assavoir, que quand un crediteur a fait faire une <term ref="lem014995.02">taxe</term> <lb/>sur les biens de son
+       debteur, lequel laissant escouler la <lb/><date dur="P8W">huictaine</date> apres que <choice>
+        <abbr>lad</abbr>
+        <expan>ladite</expan>
+       </choice> <term ref="lem014995.02">taxe</term> a esté faite, il est après <lb/>cela <term ref="lem015626.02">forclos</term> de se pouvoir <term ref="lem015647">clamer</term>
+       sur telle <term ref="lem014995.02">taxe</term>. </p>
+      <p>
+       <lb/>Ce qu’a esté ainsi passé, conclud &amp; arresté les an &amp; jour <lb/>que devant et
+       ordonné à moy secreaire de Ville l’expedier <lb/>en ceste forme, sous le <term ref="lem016327">seel</term> de
+       la mayorie &amp; justice <choice>
+        <abbr>dud</abbr>
+        <expan>dudit</expan>
+       </choice>
+       <lb/><origPlace ref="loc007786">Neufchastel</origPlace> &amp; signature de ma main. </p>
+      <p>
+       <lb/>Extrait le <choice>
+        <abbr>pnt</abbr>
+        <expan>présent</expan>
+       </choice> pour copie de sur celle qu’en avoit faite sur <lb/>l’original <choice>
+        <abbr>m<hi rend="sup">r</hi></abbr>
+        <expan>monsieur</expan>
+       </choice> le <choice>
+        <abbr>m<hi rend="sup">s</hi></abbr>
+        <expan>maitre bourgeois</expan>
+       </choice>
+       <persName ref="per009020"><choice>
+         <abbr>M</abbr>
+         <expan>Maurice</expan>
+        </choice> Tribolet</persName> par moy. </p>
+     </div>
+     <div>
+      <signed><persName ref="per008992"><choice><abbr>N</abbr><expan>Nicolas</expan></choice> Huguenaud</persName> <figure type="notarial sign"/></signed>
+     </div>
+    </body>
+   </text>
+  </group>
+ </text>
+</TEI>

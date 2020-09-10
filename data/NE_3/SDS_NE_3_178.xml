@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="headerinfo"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <date type="electronic" when="2020-08-17"/>    <date type="print"/>
+    <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Collection des sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS_NE_3_178</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier>
+      <idno>AVN B 101.14.001, fol. 453v–454v</idno>
+     </msIdentifier>
+     <head>Successions d’enfants morts sans enfants</head>
+     <msContents>
+      <summary>Si les enfants d’un couple marié viennent à mourir sans laisser eux-mêmes d’enfants,
+       leur père et mère survivant héritent de leurs biens, les biens remontant au tronc d’origine,
+       le maternel au maternel et le paternel au paternel, conformément aux franchises. Il est
+       rappelé que pour déshériter un parent proche, il est nécessaire de le nommer et de lui léguer
+       au moins cinq sols.</summary>
+      <msItem>
+       <textLang>français</textLang>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="33"/>
+          <width unit="cm" quantity="23.5"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <origDate when="1661-12-04" calendar="Julian"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>
+      </origin>
+     </history>
+     <additional>
+      <listBibl>
+       <head/>
+       <bibl/>
+      </listBibl>
+     </additional>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key000803"></term>
+     <term ref="key004770"></term>
+     <term ref="key000920"></term>
+     <term ref="key000815"></term>
+     <term ref="key000925"></term>
+     <term ref="key005297"></term>
+
+    </keywords>
+   </textClass>
+   <particDesc default="false"/>
+   <settingDesc default="false"/>
+  </profileDesc>
+ </teiHeader>
+ 
+ <text>
+  <group>
+   <text>
+    <body>
+        
+     
+     <pb n="453v" facs="AVN_B_101.14.001_0453v"/> 
+        
+     <div>
+      <head>
+       <lb/>Declaration si pere &amp; mere n’heritent <lb/>pas leurs enfans. </head>
+      <head>
+       <lb/>Item si une personne par testament <lb/>ou donation ne doit pas nommer son plus
+       <lb/>proche heritier, &amp; luy donner au moins <lb/><measure type="currency" origin="NE"
+        unit="sol faible" quantity="5">cinq sols</measure><note>Il s'agit probablement de sols
+        faibles et non de sols. Le sol faible est une dénomination rare du gros qui constitue un
+        douzième de livre faible de Neuchâtel.</note>. </head>
+      <p>
+       <lb/>Sur la requeste du sieur maistre <lb/>bourgeois <persName ref="per010145">Abraham
+        Francey</persName>, comme tuteur de la <lb/><persName ref="per010172">vefve</persName> de
+       feu honnorable <persName ref="per010171a.01">Jaques Redard</persName> adressée à
+        <lb/><orgName ref="org003085">messieurs du Conseil Estroit de la Ville de <placeName
+         ref="loc007786">Neufchatel</placeName></orgName> le <lb/><origDate when="1661-12-04"
+        calendar="Julian">4<hi rend="sup">e</hi> decembre 1661</origDate> aux fins d’avoir les
+       points de <lb/>coustume suivans. </p>
+      <pb n="454r" facs="AVN_B_101.14.001_0454r"/>
+      <p>
+       <lb/>Premierement, si pere &amp; mere n’heritent pas <lb/>leurs enfans, quand lesdits enfans
+       meurent sans laisser <lb/>heritiers de leur corps. </p>
+      <p>
+       <lb/>Secondement, si une personne qui veut desheriter <lb/>son plus proche heritier soit par
+       testament ou donation, <lb/>s’il n’est pas obligé de le nommer &amp; luy <term
+        ref="lem015635">bailler</term> au moins <lb/><measure type="currency" origin="NE"
+        unit="sol faible" quantity="5">cinq sols</measure><note>Il s'agit probablement de sols
+        faibles et non de sols. Le sol faible est une dénomination rare du gros qui constitue un
+        douzième de livre faible de Neuchâtel.</note> en departement de ses biens. </p>
+      <p>
+       <lb/><orgName ref="org003085">Mesdits sieurs du Conseil</orgName> ayans eu advis &amp;
+       <lb/>meure premeditation par ensemble ont donné &amp; <lb/>donnent par declaration que
+       suivant la coustume <lb/>usitée en cette souveraineté de <placeName ref="loc007785"
+        >Neufchâtel</placeName> de pere à <lb/>fils et de tout temps immemorial jusqu’à present,
+       <lb/>voire ensuite d’une declaration rendue le <date when="1574-01-04">4 de janvier <lb/><hi
+         rend="underline">1574</hi></date><note>Voir <ref>SDS_NE_3_008</ref>.</note>, la coustume
+       estre telle. </p>
+      <p>
+       <lb/>Assavoir, sur le premier poinct. Que estans <lb/>le mary &amp; femme conjoins au <choice>
+        <abbr>s<hi rend="sup">t</hi></abbr>
+        <expan>saint</expan>
+       </choice> Estat de mariage <lb/>esdites coustumes, ayans enfans procréés de leur <lb/>corps,
+       &amp; iceux par après venoyent à estre emancipés <lb/>et <term ref="lem014992.04"
+        >detronqués</term> d’avec leursdits pere &amp; mere, soit par <lb/>partage que mariage
+       divis, la coustume porte que <lb/>s’ils mouroyent sans <term ref="lem015995.02">hoirs</term>
+       procréés de leur corps, &amp; <lb/>sans faire testament ny donation, le bien par eux
+       <lb/>delaissé doit monter &amp; revenir au tronc d’ou il est <lb/>parti, assavoir le paternel
+       au paternel, &amp; le maternel <lb/>au maternel comme chose equitable &amp; raisonnable
+       <lb/>duquel lesdits pere &amp; mere suivant lesdites coustumes <lb/>mesmes les libertés &amp;
+       franchises, en peuvent &amp; <lb/>doivent faire à leur bon vouloir &amp; plaisir, &amp; le
+       tester <lb/>et donner à qui bon leur semblera comme francs <lb/>bourgeois reservé à <term
+        ref="lem016348.03">moines blancs</term>, sans contredit <lb/>de personne. </p>
+      <p>
+       <lb/>Sur le second a esté declaré ensuite aussi <lb/>d’une declaration rendue le <date
+        when="1629-06-17" calendar="Julian">17 de juin 1629</date><note>Voir
+        <ref>SDS_NE_3_091</ref>.</note> que <lb/>suivant ce que d’ancienneté a esté pratiqué, la
+       <lb/>coustume porte &amp; requiert que celuy ou celle que veut <pb n="454v"
+        facs="AVN_B_101.14.001_0454v"/>
+       <lb/><term ref="lem015554.02">exhereder</term> &amp; desheriter de ses biens aucuns de ses
+       <lb/>enfans ou aucuns de ses plus proches parens, lesquels <lb/>selon l’ordre &amp; droit de
+       nature, &amp; s’il n’en estoit disposé <lb/>autrement au deffaut d’enfans legitimes,
+       devroyent <lb/>estre ses heritiers, comme freres &amp; soeurs, neveus &amp; <lb/>niepces, ou
+       autres les plus proches en degré de consanguinité <lb/>les doit nommer specifiquement, &amp;
+       ce qu’ils legue &amp; <lb/>ordonne à un chacun en departement de ses biens, <lb/>soit argent,
+       obligations, terres &amp; autres choses, &amp; <lb/>pour le moins <measure type="currency"
+        origin="NE" unit="sol faible" quantity="5">cinq sols</measure> pour les priver &amp; <term
+        ref="lem015554.02">exhereder</term>
+       <lb/>du surplus de sesdits biens. </p>
+      <p>
+       <lb/>Ce qu’a esté ainsi passé, conclud &amp; arresté les an <lb/>et jour que devant, &amp;
+       ordonné à moy secretaire <lb/>de Ville l’expedier en cette forme sous le <term
+        ref="lem016327">seel</term> de <lb/>la mayorie &amp; justice dudit <origPlace
+        ref="loc007786">Neufchatel</origPlace>, &amp; signature <lb/>de ma main. </p>
+      <p>
+       <lb/>Copie extraite sur celle que feu <choice>
+        <abbr>mons<hi rend="sup">r</hi></abbr>
+        <expan>monsieur</expan>
+       </choice> le secretaire de <lb/>Ville <persName ref="per009020"><choice>
+         <abbr>M</abbr>
+         <expan>Maurice</expan>
+        </choice> Tribolet</persName> en avoit fait sur l’original. </p>
+     </div>
+      
+      <div>
+       <signed><persName ref="per008992"><choice><abbr>N</abbr><expan>Nicolas</expan></choice> Huguenaud</persName> <figure type="notarial sign"/></signed>
+      </div>
+     
+       
+    </body>
+   </text>
+  </group>
+ </text>
+</TEI>

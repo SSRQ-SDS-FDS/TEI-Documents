@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="headerinfo"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <date type="electronic" when="2020-08-17"/>    <date type="print"/>
+    <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Collection des sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS_NE_3_095</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier>
+      <idno>AVN B 101.14.001, fol. 395r</idno>
+     </msIdentifier>
+     <head>Résiliation d’un compromis reçu par un notaire</head>
+     <msContents>
+      <summary>Lorsque deux parties sont arrivées à un compromis définitif, stipulé et mis par écrit
+       par un notaire, elles ne peuvent pas s’en retirer et le résilier pour porter le cas en
+       justice, à moins d’un consentement mutuel.</summary>
+      <msItem>
+       <textLang>français</textLang>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="33"/>
+          <width unit="cm" quantity="23.5"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <origDate when="1629-10-20" calendar="Julian"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>
+      </origin>
+     </history>
+     <additional>
+      <listBibl>
+       <head/>
+       <bibl/>
+      </listBibl>
+     </additional>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term></term>
+     <term ref="key005066"></term>
+     <term ref="key000275"></term>
+     <term ref="key000297"></term>
+     <term ref="key005189"></term>
+
+    </keywords>
+   </textClass>
+   <particDesc default="false"/>
+   <settingDesc default="false"/>
+  </profileDesc>
+ </teiHeader>
+ 
+ <text>
+  <group>
+   <text>
+    <body>
+        
+     
+     <pb n="395r" facs="AVN_B_101.14.001_0395r"/> 
+        
+     <div>
+      
+      <p>
+       <lb/>Declaration du <origDate when="1629-10-20" calendar="Julian">xx<hi rend="sup">e</hi> jour d’octobre <hi
+         rend="underline">1629</hi></origDate>
+       <lb/>à l’instance d’honnorable <persName ref="per010425a.01">Guillaume Matthey <lb/>dit
+        Doret</persName> du <placeName ref="loc007795.02">Loscle</placeName>, residant à <placeName
+        ref="loc007897.06">La Chaux de <lb/>Estallieres</placeName>, pour sçavoir sy quand l’on a
+       faict un <lb/>compromis diffinitif receu par main de <choice>
+        <abbr>Not<hi rend="sup">re</hi></abbr>
+        <expan>notaire</expan>
+       </choice>
+       <lb/>sur quelques difficultez <choice>
+        <abbr>q</abbr>
+        <expan>qui</expan>
+       </choice> peuvent arriver l’on s’en <lb/>peut desporter pour rentrer en justice. </p>
+      
+      <p>
+       <lb/><orgName ref="org003085">Les seigneurs conseillers</orgName> ont rapporté &amp; declaré
+       la coustume usitée &amp; <lb/>pratiquée <term ref="lem017830.02">riere</term> ceste Ville &amp; Comté par le passé de temps
+       immemorial <lb/>jusques à <choice>
+        <abbr>pnt</abbr>
+        <expan>présent</expan>
+       </choice>, et mesme approuvée &amp; reconfirmée par des sentences <lb/>souveraines estre
+       telle, savoir quand des parties sont compromis <lb/>absolu &amp; diffinitif, et mesme stipulé
+       &amp; redigé par escript par main de <lb/><choice>
+        <abbr>not<hi rend="sup">re</hi></abbr>
+        <expan>notaire</expan>
+       </choice> pour terminer quelques difficultez <choice>
+        <abbr>q</abbr>
+        <expan>qui</expan>
+       </choice> sont entreux deuement sans <lb/>circonnention &amp; par gens capable de se faire,
+       ils ne s’en peuvent <lb/>detracter desporter ny ressiller pour entrer en justice, ains doibt
+       ledict <lb/>compromis estre stable &amp; effectué sy ce n’est que toutes parties d’un mutuel
+       <lb/>consentement s’en voullussent deporter.<note>Sans signature.</note></p>
+      
+     </div>
+
+     
+       
+    </body>
+    <back>
+     <div>
+      <p>Ce point de coutume est cité dans les points <ref>SDS_NE_3_297</ref> et
+        <ref>SDS_NE_3_439</ref>.</p>
+     </div>
+    </back>
+   </text>
+  </group>
+ </text>
+</TEI>

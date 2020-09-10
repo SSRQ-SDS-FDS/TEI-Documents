@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+
+			</titleStmt>
+
+			<publicationStmt>
+				<date type="electronic" when="2019-05-29"/>
+				<date type="print"/>
+			</publicationStmt>
+
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ_FR_I_2_8_0051_010</idno>
+			</seriesStmt>
+
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<idno>StAFR, Thurnrodel 11, S. 143–145</idno>
+					</msIdentifier>
+					<head>Jean Malley – Verhör / Interrogatoire</head>
+					<msContents>
+						<summary></summary> 
+						<msItem>
+							<textLang>fr, de</textLang> 
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support>
+									<material></material>
+								</support>
+								<extent>
+									<dimensions type="leaves">
+										<height unit="cm" quantity="0.0"/>
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+									<dimensions type="plica">
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+								</extent>
+							</supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1620-09-04"></origDate>
+							<origPlace></origPlace>
+						</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+							
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		
+		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+			<particDesc default="false"/>
+			<settingDesc default="false"/>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="143"/><p><lb/>Im <placeName ref="loc007683.02">bösen turn</placeName>
+							<seg><lb/><origDate when="1620-09-04">4<hi rend="sup">ten</hi> <choice><abbr>herbst</abbr><expan>herbstmonat</expan></choice> <hi rend="underline">1620</hi></origDate>, <choice><abbr>j</abbr><expan>judex</expan></choice> <abbr>h</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per009249">Daniel von Montenach</persName>.</note> – 1<note>Diese Zahl diente zur Verrechnung der Sitzungsgelder, und sie signalisiert, wie oft die Mitglieder des Gerichts anwesend waren.</note></seg>
+							<seg><lb/><abbr>H</abbr> <persName ref="per009250">Gerwer</persName>, <abbr>h</abbr> <persName ref="per009255">Affry</persName></seg>
+							<seg><lb/><persName ref="per009251">Känel</persName>, <persName ref="per009252">Rämi</persName>, <persName ref="per009123">Werli</persName></seg>
+							<seg><lb/><persName ref="per009387">Werli</persName></seg>
+							<seg><lb/>Weybel</seg></p>
+						
+						<p><seg><lb/><add place="left margin">Hat nüt bezalt.</add></seg> 
+							<seg><persName ref="per009614">Hausy Malley</persName> estant confronté a <persName ref="per009613">Hausy 
+						<lb/>Peller</persName> <foreign xml:lang="la">et eo non obstant</foreign> faisant negative 
+						<lb/>d’avoir fait du mal. Neantmoins en 
+						<lb/>la fin il a confessé comme s’ensuit.</seg></p>
+						
+						<p><lb/>Primierement de s’avoir oublié avec une 
+						<lb/><term ref="lem015014">moge</term> rouge aupres de <placeName ref="loc008028.03">Girmoine</placeName>, la ou il 
+						<lb/>fut <term ref="lem015989.03">fuatté</term> des paysans. <add place="left margin">–&#160;X&#160;–</add></p>
+							
+						<p><lb/><placeName ref="loc008026.04">Eyssert</placeName> s’<subst><del>est <add place="above">voulu</add></del><add place="inline">a oublié</add></subst> avec une <term ref="lem015407.02">pudre</term> grise, 
+						<lb/>app<subst><del>e</del><add place="overwritten">a</add></subst>rtenante aux <persName>Äbischer</persName>. <add place="left margin" >–&#160;N’est.&#160;–</add></p>
+							
+						<p><lb/>Entre <placeName ref="loc007613.04">Cormeraulx</placeName> et <placeName ref="loc008026.05">Eysserts</placeName> s’est <subst><del>derechef</del><add place="above">voulu</add></subst> 
+						<lb/>oublier avec une <term ref="lem015407.02">pudre</term> brunne&#160;; ne sait a 
+						<lb/>qui elle appartient. <add place="left margin">–&#160;N’est.&#160;–</add></p>
+						
+						<p><lb/><subst><del>Aux</del><add place="inline">A</add></subst> <placeName ref="loc007933.02">Libenstorff</placeName> <subst><del>s’a eut la volonté de 
+						<lb/>s’oublier</del><add place="above">s’est oublié</add></subst> avec une brebis <del>mais ne peult 
+						<lb/>pas</del>&#160;; aupres de <placeName ref="loc008027.02">Vivy</placeName> <add place="above">s’est voulu oublier</add> aussy avec une dinde.</p>
+						
+						<p><lb/>Item il a dit que <persName ref="per009618">Pierre Brasey</persName>, 
+						<add place="left margin" type="sign"><lb/>tout <term ref="lem015403">crotaloud</term>,  
+						<lb/>poilx grands et blonds, 
+						<lb/><term ref="lem015399.03">gippon</term> bleu avec 
+						<lb/>des grandes manges,</add> luy a,
+						<add place="left margin"><lb/><date dur="P3W">3 sepmaines</date>
+						<lb/>avant <term ref="lem015435.02">Noé</term>,</add> 
+							<lb/><term ref="lem015635.24">ballé</term> de la <term ref="lem018382.02">graise</term> <add place="above">verte</add> pour ouvrir les sarrures 
+						<lb/>et faire mourir les bestes, disant <subst><del>c</del><add place="overwritten">le</add></subst> <term ref="lem016981.01">mau<lb break="no"/>vais esprit</term> la luy avoir <term ref="lem015635.24">ballé</term>, laquelle 
+						<lb/>il a employé, comme s’ensuit.</p>
+							
+						<p><lb/><add place="left margin">A <placeName ref="loc007630.05">Tavy</placeName></add> qu’il a frotté <subst><del>a</del><add place="overwritten">une</add></subst> <term ref="lem015407.02">pudre</term> par les dents, 
+						<lb/>qu’aprés elle morut.</p>
+						
+						<p><lb/>Que <persName ref="per009617">Pierre le Fils</persName> est aussy son compagnon 
+						<lb/>a mal faire.</p>
+						
+						<pb n="144"/><p><lb/>Riere <placeName ref="loc000157.07">Berne</placeName>, avec ladite <term ref="lem018382.02">graise</term> il a fait 
+						<lb/>mourir deux chevals. <add place="inline">Ne sait s’ils sont mort.</add></p>
+							
+						<p><lb/>A <placeName ref="loc008025.02">Corbaz</placeName>, il a prins et desrobé avec ledit 
+							<lb/><persName ref="per009613">Peller</persName> <num value="1">i</num> <term ref="lem018643.02">formage</term> et un <term ref="lem014950.03">serez</term>&#160;; item audit lieu 
+						<lb/>a <persName>Bürgi</persName>, 2 pains.</p>
+							
+						<p><lb/>A <placeName ref="loc007937.05"><sic>Cirsie</sic></placeName>, il a desrobé un <term ref="lem018643.02">formage</term>, a <persName>Shal<lb break="no"/>ler</persName>.</p>
+						
+						<p><lb/>A <placeName ref="loc007977.05">Belfolz</placeName>, dans une borse, <measure type="currency" quantity="22" unit="bz">22 bz</measure>.</p>
+						
+						<p><lb/>Il a dit et confessé dadvantage que, une 
+						<lb/>nuict de Penthecostes, le <term ref="lem015433.06">malin</term> le vint 
+							<lb/>trouver <subst><del>du nuict</del><add place="left margin">a <placeName ref="loc007630.06">Tavi</placeName>, plusieurs y 
+						<lb/>estoent mais personne 
+						<lb/>ne le vid que luy,</add></subst> luy semblant avoir 
+						<lb/>un chappeau verd, lequel luy dit, si ne 
+						<lb/>vouloit pas faire du mal, qu’il <add place="inline">se</add> debvoit 
+						<lb/>donner a luy, le prendre pour son maistre <add place="left margin">–&#160;s’appelloit 
+						<lb/><unclear><persName>Gluda</persName></unclear>&#160;–</add>, 
+						<lb/>et rennier Dieu, ce qu’il fit. Allors luy 
+						<lb/><add place="left margin">un <hi rend="underline">coup</hi></add>a <term ref="lem015635.24">ballé</term> dessoubs le bras, et <del>se</del> <sic>se</sic> fit 
+						<lb/>baisser a luy, mais ne sait en quel lieu&#160;; 
+						<lb/>luy commandant de faire du mal et 
+						<lb/>tuer pere, mere et aultres gens. Et luy 
+							<lb/><term ref="lem015635.11">bailla</term> de la <subst><del><term ref="lem018382.02">graise</term></del><add place="below">graine</add></subst> pour faire mourir 
+							<lb/>les bestes, <add place="left margin" type="sign">et qu’il debvoit 
+						<lb/>mettre le feu au village 
+						<lb/>du <placeName ref="loc008328.03">Goteron</placeName>, mais 
+						<lb/>il n’a vouluz le 
+						<lb/>faire&#160;;</add> <add place="above">–&#160;peut estre</add> <add place="inline">l’eusse 
+						<lb/>fait, s’il eusse eu 
+							<lb/>du feu&#160;–</add>&#160;; et de la <term ref="lem018382.02">graise</term> par 2 fois a <placeName ref="loc008038.02">Bagewyl</placeName>, 
+						<lb/>avec laquelle il a fait mourir des <term ref="lem014874.06">geniles</term>, 
+							<lb/>en <placeName ref="loc008485.03">Wullie</placeName> 4 dindes <subst><del>d</del><add place="inline">et deux</add></subst> <term ref="lem015014.03">moges</term>&#160;; 
+							<add place="interlinear">avec la <term ref="lem018382.02">graise</term> de <persName ref="per009618">Brasey</persName> les deux <term ref="lem015014.03">moges</term>.</add></p>
+						
+						<p><lb/>Item il a dit d’avoir receu dudit son maistre 
+							<lb/><measure type="currency" unit="Gros" quantity="7">7 gros</measure>, que en aprés devinrent des <term ref="lem018302.04">feuilles</term>.</p>
+						
+						<pb n="145"/><p><lb/>Item qu’il a esté  par 2 fois en la <term ref="lem017043.01">secte</term>, que 
+						<lb/>le matin l’empourtoit hors d’une grange, 
+						<lb/>la ou il vid beaucoup d’esprits.</p> 
+						
+						<p><lb/>Plus il a confessé d’avoir eu la volonté de 
+						<lb/>mettre le feu a <placeName ref="loc007933.02">Libenstorff</placeName>, s’il eusse eu du 
+						<lb/>feu, ce que <subst><del>p</del><add place="inline">son</add></subst> maistre luy avoit com<lb break="no"/>mandé. </p>
+						
+						<p><lb/>Finalement, il a dit que un certain nommé 
+						<lb/><persName>Jean</persName>, executé a <placeName ref="loc000157.07">Berne</placeName>, mit le feu a un 
+						<lb/>village riere <placeName ref="loc000157.07">Berne</placeName>, dont fut aussy pri<lb break="no"/>sonnier a <placeName ref="loc000157.07">Berne</placeName>, par 2 fois, et <term ref="lem015989.02">fiatté</term> a cause 
+						<lb/>que pour lors il se trouva audit village, 
+						<lb/>mais n’auroit pas commandé audit <persName>Jean</persName> 
+						<lb/>de faire telle faulte. Aultre n’a dit.</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+
+
+
+<?oxy_options track_changes="on"?>

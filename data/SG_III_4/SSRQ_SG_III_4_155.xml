@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-08-15"/>
+            <date type="print"/>
+            <availability><p xml:id="facs">Sibylle Malamud</p></availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_155</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno source="https://archivverzeichnis.gl.ch/home/#/content/ce699777a3534cb28a885fd7e4a4f25a">LAGL AG III.2424:009</idno>
+                  <altIdentifier>
+                     <idno>LAGL X. 249</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <head>Urteil von Glarus im Streit um das Metzgen und den Verkauf von Fleisch in Werdenberg</head>
+               <msContents>
+                  <summary>
+                     <p>Statthalter und Rat von Glarus entscheiden einen Streit zwischen Lienhard Gantenbein
+                     		von Buchs, Lienhard Tischhauser von Sevelen, Christian Herstner aus dem Städtchen
+                    			Werdenberg zusammen mit Baumeister Ulrich Tschudi aus Glarus als Ausschüsse der
+                    			Landleute von Werdenberg einerseits und Matthias Montaschiner, Metzger im Städtchen
+                   			Werdenberg, im Namen der dortigen Bürgerschaft andererseits: Gantenbein beklagt sich,
+                   			dass Metzger Montaschiner während des Jahres das Monopol auf das Metzgen und den
+                    			Fleischverkauf beanspruche. Er bittet um das Recht für Wirte, Rinder, Kälber oder Schafe
+                    			selber metzgen zu dürfen. Montaschiner kann sich in seinen Rechten auf alte Urkunden
+                    			stützen. Es wird beschlossen, dass die Wirte an den drei grossen Festtagen, an
+                     			Kirchweihen und Hochzeiten metzgen dürfen. Sie dürfen aber kein Fleisch verkaufen.
+                   			Eigenes Vieh darf ein Landmann während des Jahres selber metzgen. Fleisch kaufen darf
+                     			man aber nur in der Metzgerei.</p> <p>Die Aussteller siegeln im Original mit dem
+                     			   Landessekretsiegel Glarus.</p>
+                  </summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <filiation type="original">
+                        <origDate when="1613-06-08"/>
+                        <idno></idno>
+                     </filiation>
+                     <filiation type="current">Abschrift (Doppelblatt, 3 Seiten beschrieben)</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="32.5"/>
+                              <width unit="cm" quantity="20.5"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate from="1601-01-01" to="1700-12-31"/>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000231">Verkauf</term>
+               <term ref="key000369">Kauf</term>
+               <term ref="key000830">Metzgerei</term>
+               <term ref="key000297">Bewilligung</term>
+               <term ref="key003217">Freiheit</term>
+               <term ref="key000346">Fleisch</term>
+               <term ref="key000624">Metzger</term>
+               <term ref="key004515">Metzgen</term>
+               <term ref="key000313">Bürgerschaft</term>
+               <term ref="key000109">Stadt</term>
+               <term ref="key000356">Wirt</term>
+               <term ref="key000841">Feiertag</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <div org="uniform" sample="complete">
+                  <pb n="1r" facs="LAGL_AG_III.2424_009_1r"/>
+                  <p>
+                     <seg>
+                        <lb/>Wir, der<orgName ref="org003243"> stathalter und rath zun<note
+                              anchored="true">Der häufige, wie ein <orig>d</orig> des Schreibers
+                              aussehende Schlenker am Wortende wird als <orig>n</orig> aufgelöst, da
+                              er meist bei Wörtern mit Endungen auf <orig>n</orig> auftritt.</note>
+                           Glaruß</orgName>, tund <lb/>kundt ofenbar, daß uff hüth dato für unß
+                        <lb/>kommen und erschynen sind, die fromen, ehrsammen <lb/><persName
+                           ref="per009225a">Lienhart Gantenbein</persName> von <placeName
+                           ref="loc000198">Buchß</placeName>, <persName ref="per009226a">Lienhart
+                           Tischhuser</persName>
+                        <lb/>von <placeName ref="loc000708">Sevellen</placeName>
+                        <choice>
+                           <abbr>u</abbr>
+                           <expan>und</expan>
+                        </choice>
+                        <persName ref="per009227a">Christen Herstner</persName> uß dem <term
+                           ref="lem005032.08">stetli</term>
+                        <lb/><placeName ref="loc000016">Werdenberg</placeName>, sambt <term
+                           ref="lem013464">baumeister</term>
+                        <persName ref="per009228a">Ulrich Tschudy</persName>, <term ref="lem007023"
+                              >landt<lb break="no"/>man</term>
+                        <choice>
+                           <abbr>u</abbr>
+                           <expan>und</expan>
+                        </choice> säßhafft <add place="left margin">zun <placeName ref="loc000326"
+                              >Glarus</placeName></add>, iren beystand, alß verordnete <lb/>und
+                        ußgeschoßne von gmeinen <orgName ref="org001816">landtleüthen <lb/>der
+                           graffschafft Werdenberg</orgName>, einßtheilß, hin<lb break="no"/>gegen
+                           <persName ref="per009229a">Mathiß Muntaschiner</persName>, <sic><term
+                              ref="lem000818.09">megzer</term></sic><note anchored="true">Der
+                           Schreiber schreibt Metzger oder Metzgerei im ganzen Stück auf diese
+                           Weise, was im Folgenden nicht mehr speziell vermerkt wird.</note> zu
+                           <placeName ref="loc000016">Werden<lb break="no"/>berg</placeName>, in
+                        namen und uß bevelch gemeiner <lb/><term ref="lem010577"
+                           >burgerschafft</term> dasälbsten deß anderen theilß, alß <lb/>unßere
+                        getreüwe, liebe underthonen <abbr>etc</abbr>.</seg>
+                     <seg>Also habend <lb/>unß obvermelte <persName ref="per009225a">Lienhart
+                           Gantenbein</persName> sambt <lb/>seinen <term ref="lem015408.02">mit
+                           konsorten</term>
+                        <choice>
+                           <abbr>u</abbr>
+                           <expan>und</expan>
+                        </choice>
+                        <term ref="lem001225">byständen</term> für bracht <lb/><choice>
+                           <abbr>u</abbr>
+                           <expan>und</expan>
+                        </choice> zu erkenen gäben, wil nun erstermelter <lb/><persName
+                           ref="per009229a">Mathiß Muntaschiner</persName>, <term ref="lem000818.10"
+                           >megzzer</term> im stetli <placeName ref="loc000016"
+                           >Werdenberg</placeName>, <lb/>sambt den <term ref="lem000227"
+                           >burgeren</term> vermeinen wellenn, etwaß <lb/>rächtsamme wegen deß
+                        megzens zu haben, daß menig<lb break="no"/>klicher durch daß ganze jar
+                        (vorbehalten am <term ref="lem000479">herbst</term>
+                        <choice>
+                           <sic/>
+                           <corr>)</corr>
+                        </choice>
+                        <lb/>in daß huß zu megzen, ist für sich selbst, <term ref="lem000810"
+                           >fleisch</term>
+                        <lb/>uß dißer <term ref="lem002779.05">megz</term> kauffen <choice>
+                           <abbr>u</abbr>
+                           <expan>und</expan>
+                        </choice> zu nämen schuldig sin. <lb/>Auch daß weder die <term
+                           ref="lem000842">wirth</term> noch andere keinerley <term ref="lem000310"
+                           >veech</term>
+                        <lb/>durch daß jar megzen <choice>
+                           <abbr>u</abbr>
+                           <expan>und</expan>
+                        </choice> daß fleisch verkauffen <lb/>sölten, daß doch dem gmeinen <term
+                           ref="lem008488">landtman</term>
+                        <choice>
+                           <abbr>u</abbr>
+                           <expan>und</expan>
+                        </choice> den <lb/>wirthen höchlichen beschwerlich fallen tüöge. Daß sey
+                        <lb/>umb so vil söltenn zwungen <choice>
+                           <abbr>u</abbr>
+                           <expan>und</expan>
+                        </choice> verbunnden sein, <pb n="1v" facs="LAGL_AG_III.2424_009_1v-2r"/>
+                        <lb/>nun von ermeltem <term ref="lem000818.09">megzer</term>
+                        <choice>
+                           <abbr>u</abbr>
+                           <expan>und</expan>
+                        </choice> uß deren <term ref="lem002779.05">megz</term> alles <lb/><term
+                           ref="lem000810">fleisch</term> zu kouffen, ist derowegen ir undertenig,
+                        <lb/>fründtlich <choice>
+                           <abbr>u</abbr>
+                           <expan>und</expan>
+                        </choice> bitlich begären, wir wellenn inen <lb/>verhilfflich seyn <choice>
+                           <abbr>u</abbr>
+                           <expan>und</expan>
+                        </choice> zu laßen, daß der wirth zu <lb/>jeder zeit, es were glich <term
+                           ref="lem000833">rinder</term>, <term ref="lem002088">kälber</term> oder
+                           <term ref="lem000055">schaff</term>, waß <lb/>namenß daß haben möchte,
+                        sälb megzen mögenn. <lb/><choice>
+                           <sic>Daß daß</sic>
+                           <corr>Daß</corr>
+                        </choice> begären sey alß gehorsamme underthonen <lb/>gägen iren herren <choice>
+                           <abbr>u</abbr>
+                           <expan>und</expan>
+                        </choice> oberen zu beschulden und zu verdienen.</seg>
+                     <seg>
+                        <lb/>Dargägen ließ mer gesagter <persName ref="per009229a">Mathiß
+                           Muntenschiner</persName>
+                        <lb/>durch sein fürsprächen antwurthen, wie daß <lb/>er brieff <choice>
+                           <abbr>u</abbr>
+                           <expan>und</expan>
+                        </choice> sigel zu erscheynen, daß wil die graff<lb break="no"/>schafft
+                           <placeName ref="loc000440">Werdenberg</placeName> noch zu der zeit den
+                        herren <orgName ref="org000531">Eidtgnoßen</orgName>
+                        <lb/>gen <placeName ref="loc000972">Lucernen</placeName> gehört, seye die
+                           <orgName ref="org001185">burgerschafft zu Werden<lb break="no"
+                           />berg</orgName> der <term ref="lem002779.05">megz</term> halb begabet <choice>
+                           <abbr>u</abbr>
+                           <expan>und</expan>
+                        </choice>
+                        <term ref="lem010497">befryet</term> worden,<note anchored="true">
+                           SSRQ_SG_III_4_087.</note> daß dem <lb/>gmeinen landtman wie auch <term
+                           ref="lem002432">krancken</term> personen <lb/>und <term ref="lem002316"
+                           >kindtbeteren</term> zu gutem reichen <choice>
+                           <abbr>u</abbr>
+                           <expan>und</expan>
+                        </choice> dienen könne. <lb/>Zu dem habe er noch ander brieff <choice>
+                           <abbr>u</abbr>
+                           <expan>und</expan>
+                        </choice> sigel, so durch <lb/>den herrn gsanten von <placeName
+                           ref="loc000326">Glaruß</placeName> sambt dem landt<lb break="no"/>vogt
+                           <persName ref="per010767">Wysen</persName><note anchored="true">Dietrich
+                           Weiss, der von 1593–1596 Landvogt von Werdenberg-Wartau war, vgl. die
+                           Bestätigung des alten Privilegs zur Führung einer Metzgerei für <persName
+                              ref="per008811a">Adam Montaschiner</persName> und andere Bürger des
+                           Städtchens <placeName ref="loc000016">Werdenberg</placeName> (<bibl><ref
+                                 target="https://archivverzeichnis.gl.ch/home/#/content/a08c1a76623847f9b8783695ccb191ca"
+                                 >LAGL AG III.2424:010</ref></bibl>, vgl. Kommentar 1).</note>
+                        sälbigen zu <placeName ref="loc000015">Werdenberg</placeName> uffgricht <lb/><choice>
+                           <abbr>u</abbr>
+                           <expan>und</expan>
+                        </choice> durch ein ganz gsäßnen <orgName ref="org001211">raht allhie zu
+                              <placeName ref="loc000326">Glaruß</placeName>
+                        </orgName>
+                        <lb/>bekrefftiget <choice>
+                           <abbr>u</abbr>
+                           <expan>und</expan>
+                        </choice> guot geheyßen worden. Waß nun <lb/>solliche brieff <choice>
+                           <abbr>u</abbr>
+                           <expan>und</expan>
+                        </choice> sigel in sich halten <choice>
+                           <abbr>u</abbr>
+                           <expan>und</expan>
+                        </choice> ußwysenn, <lb/>langt sein underthenig, fründtlich pit in
+                        <lb/>nammen gmeiner <term ref="lem010577">burgerschafft</term>, wir wellenn
+                        sey <lb/>bey sollichen brieffen <choice>
+                           <abbr>u</abbr>
+                           <expan>und</expan>
+                        </choice> siglen schüzen <choice>
+                           <abbr>u</abbr>
+                           <expan>und</expan>
+                        </choice> schirmen.</seg>
+                     <seg>
+                        <lb/>Mit mer <choice>
+                           <abbr>u</abbr>
+                           <expan>und</expan>
+                        </choice> wit lüöffigen worthen zu beiderseits <lb/>sich verlofen, annoch
+                        zumelden <abbr>etc</abbr>.</seg>
+                     <seg>Also nach abhörung <pb n="2r" facs="LAGL_AG_III.2424_009_1v-2r"/>
+                        <lb/>beider parthyen sambt ableßung zweyer brieffen, <lb/>habenn wir unß
+                        erkent <choice>
+                           <abbr>u</abbr>
+                           <expan>und</expan>
+                        </choice> bekhenenn beide brieff <lb/><choice>
+                           <abbr>u</abbr>
+                           <expan>und</expan>
+                        </choice> sigel in allen iren crefften, mit sollicher erleü<lb break="no"
+                        />therung namlichen,</seg>
+                     <seg>daß die <term ref="lem000842">wirth</term> in der graffschafft
+                           <lb/><placeName ref="loc000440">Werdenberg</placeName> an <num value="3"
+                           >dryen</num> helgen <term ref="lem003486">fästtagen</term>
+                        <term ref="lem005644">abents</term>, item <lb/>an <term ref="lem001039.33"
+                           >kilbenen</term>
+                        <choice>
+                           <abbr>u</abbr>
+                           <expan>und</expan>
+                        </choice>
+                        <term ref="lem003726">hochzeiten</term> wol megzen mögenn, <lb/>waß inen
+                        gefellig, doch mit dem lutheren vorbhalt, <lb/>daß sey keinerley <term
+                           ref="lem000810">fleisch</term> ußwegen noch <term ref="lem000852"
+                           >verkauffen</term>
+                        <lb/>sollenn.</seg>
+                     <seg>Item in ubriger zeit, ob ein <term ref="lem008488">landtman</term>
+                        <lb/>eige <term ref="lem000310">veech</term> in sein <term ref="lem000248"
+                           >hauß</term> hab zu megzen zugemag, <lb/>einer sollichß, wan es im
+                        gefellig, wol megzen gwalt <lb/>haben. Wo daß nit, sol durch dz jar, ob
+                        einer fleisch <lb/>zu haben begerte, sol jeder uß gesagter <term
+                           ref="lem002779.05">megz</term> zu <lb/><term ref="lem000179"
+                           >kouffen</term> schuldig sein, jedoch sol gedachter megzer <lb/>allwegen
+                        bescheidenheit bruchen <choice>
+                           <abbr>u</abbr>
+                           <expan>und</expan>
+                        </choice> die megz versächen, <lb/>damit kein klag volge, wan ein landtvogt
+                           jeder<lb break="no"/>zeith ein fleißig uffsächen haben wirth
+                           <abbr>etc</abbr>.</seg>
+                     <seg>In <lb/>krafft diß brieffs <choice>
+                           <abbr>u</abbr>
+                           <expan>und</expan>
+                        </choice> zu wahrem urkundt, habenn <lb/>wir unser landts secret insigel an
+                        dißen brieff <lb/>henckhen laßen, der gäben uff den <origDate
+                           when="1613-06-08">8.ten juni von <lb/><persName ref="per000353"
+                              >Christi</persName>, unsers erlößers <choice>
+                              <abbr>u</abbr>
+                              <expan>und</expan>
+                           </choice> selligmachers, geburt gezelt <lb/>sechßzechen hundert <choice>
+                              <abbr>u</abbr>
+                              <expan>und</expan>
+                           </choice> dry zächen jar</origDate>
+                        <abbr>etc</abbr>.</seg>
+                  </p>
+               </div>
+               <pb facs="LAGL_AG_III.2424_009_2v"/>
+               <div org="uniform" sample="complete">
+                  <ab type="dorsal" place="verso" hand="hand17c">
+                     <lb/>Geben den <date when="1613-06-08">8. juny anno 1613</date>,
+                     <lb/><handShift/>betrifft die metzg</ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab type="dorsal" place="verso" hand="hand19c?">
+                     <lb/>Wegen der metzg</ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab type="archiving reference" place="verso">
+                     <lb/>N 3; <lb/>C 24; <lb/>XXIX</ab>
+               </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div n="1" org="uniform" sample="complete">
+            <p>Bereits <date when="1595">1595</date> kommt es zu Streitigkeiten über die alte <term
+                  ref="key003217">Freiheit</term> der <orgName ref="org001185">Bürgerschaft von
+                  Werdenberg</orgName> zum alleinigen Besitz einer <term ref="key000830"
+                  >Metzgerei</term>, worauf <persName ref="per008811a">Adam Montaschiner</persName>
+               und der Bürgerschaft ihr Recht bestätigt wird (<bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/a08c1a76623847f9b8783695ccb191ca"
+                     >LAGL AG III.2424:010</ref></bibl>; siehe dazu den Kommentar in
+                  <ref>SSRQ_SG_III_4_087</ref>). Zur <term ref="key000297">Bewilligung</term>
+               von <orgName ref="org001195">Luzern</orgName> zur Errichtung einer <term
+                  ref="key000830">Metzgerei</term> in der <term ref="key000109">Stadt</term> aus dem
+               Jahr 1489 siehe <ref>SSRQ_SG_III_4_087</ref>.</p>
+         </div>
+         <div n="2" org="uniform" sample="complete">
+            <p>Metzger von Werdenberg werden erwähnt in: <bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/76edcd15a63844cdbb50630a4cb08ce5"
+                     >LAGL AG III.2443:038</ref>; <ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/f4286ede71074cd3b87dcfe0ecf84303"
+                     >AG III.2443:039</ref></bibl>; <bibl><ref>LLA RA 67/1/307</ref></bibl>.</p>
+         </div>
+      </back>
+   </text>
+</TEI>

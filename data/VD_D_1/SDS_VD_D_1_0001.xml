@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+    xml:lang="fr" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"> 
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                    <title>XIX<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Vaud, D. Répression de la sorcellerie en Pays de Vaud (XV<hi rend="sup">e</hi>–XVII<hi rend="sup">e</hi> siècles), Tome 1&#160;: XV<hi rend="sup">e</hi> siècle</title>
+                    <respStmt>
+                        <persName>Pau Castell Granados</persName>
+                        <persName>Gwendolin Ortega</persName>
+                        <persName>Martine Ostorero</persName>     
+                        <resp key="transcript"/>
+                    </respStmt>
+                <respStmt>
+                    <persName>Martine Ostorero</persName>
+                    <resp key="qualitycheck"/>
+                </respStmt>
+                <respStmt>
+                    <persName>Gwendolin Ortega</persName>
+                    <resp key="tagging"/>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date type="electronic" when="2019"/>
+                <date type="print" when="1999"/>
+                <availability><p xml:id="facs">Archives cantonales vaudoises (ACV)</p></availability>
+            </publicationStmt>         
+            <seriesStmt xml:id="ssrq-sds-fds">
+                <title>Collection des sources du droit suisse</title>
+                <respStmt>
+                    <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+                    <resp/> 
+                </respStmt>
+                <idno>SDS_VD_D_1_0001</idno>
+            </seriesStmt>      
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <idno>ACV, Ac 29, p.&#160;1–3</idno>
+                    </msIdentifier>
+                    <head>Confession et absolution d’Aymonet Maugetaz, d’Épesses</head>
+                    <msContents>
+                        <summary>
+                            <p>Le 30 juillet 1438, Aymonet Maugetaz, d’Épesses, se présente spontanément devant l’inquisiteur Ulric de Torrenté au couvent des dominicains de Lausanne, pour lui demander de l’absoudre de ses méfaits commis au sabbat avec feu son père. Il confesse ses péchés et est interrogé par l’inquisiteur. Il obtient l’absolution d’Antoine de Prez, vicaire de l’évêque Jean Prangins, et abjure son hérésie.</p>
+                        </summary> 
+                        <msItem>
+                            <textLang>la</textLang>
+                            <filiation type="current"></filiation>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material>Papier</material>
+                                </support>
+                                <extent>
+                                    <dimensions type="leaves"> 
+                                        <height unit="cm" quantity="0.0"/>
+                                        <width unit="cm" quantity="0.0"/>
+                                    </dimensions>
+                                    <dimensions type="plica">
+                                        <width unit="cm" quantity="0.0"/>
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate when="1438-07-30"/>
+                            <origPlace ref="loc010625.03">Couvent de la Madeleine</origPlace>
+                        </origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <head>Edition</head> 
+                            <bibl><ref target="http://permalink.snl.ch/bib/chbsg000010240">Ostorero 1999 et al.</ref>, p.&#160;344–353</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Littérature</head>
+                            <bibl><ref target="http://permalink.snl.ch/bib/chbsg000073884">Andenmatten/Utz Tremp 1992</ref></bibl>
+                            <bibl>Maier et al. dans <ref target="http://permalink.snl.ch/bib/chbsg000097648">Paravicini Bagliani et al. 1997</ref>, p.&#160;248–250</bibl>
+                            <bibl>Ostorero dans <ref target="http://permalink.snl.ch/bib/chbsg000010240">Ostorero et al. 1999</ref>, p.&#160;339–343</bibl>
+                            <bibl><ref target="http://permalink.snl.ch/bib/chbsg000048336">Ostorero et al. 2007</ref><!--, p.&#160;10, 15–16, 21, 27, 153, 352, 385, 403, 417, 429, 505, 513--></bibl>
+                            <bibl><ref target="http://permalink.snl.ch/bib/chbsg000139095">Modestin 2015</ref>, p.&#160;246</bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+                    <term/>
+                </keywords>
+            </textClass>
+            <particDesc default="false"/>
+            <settingDesc default="false"/>
+        </profileDesc>
+    </teiHeader>
+    
+    <text> 
+        <group>
+            <text>
+                <body>
+                    <div>
+      <pb n="1" facs="ACV_AC-29_01"/>
+                        <div><ab type="archiving reference" hand="hand20c" place="left margin" medium="pencil"><date when="1438-07-30">1438 juillet 30</date></ab></div>
+                        <head type="subtitle" resp="GO">30 juillet 1438</head>
+                        <p><seg><hi rend="center"><persName ref="per000353a.22">Jhesus</persName></hi></seg></p>
+                        <p><seg>Noverint universi presentes et futuri quod <origDate when="1438-07-30">anno currente millesimo
+                                <lb/>iiii<hi rend="sup">c</hi> xxxviii die trigesima mensis julii</origDate> coram venerabili fratre <persName ref="per010826a.01">Uldrico de 
+                                <lb/>Torrente</persName> <orgName ref="org004150.03">ordinis Predicatorum</orgName><note><persName ref="per010826a">Ulric de Torrenté</persName>, inquisiteur du couvent des dominicains de <orgName ref="org004025.01">La Madeleine</orgName> à <placeName ref="loc007885.01">Lausanne</placeName>, actif entre <date from="1420" to="1440">1420 et 1440</date>&#160;; c’est à lui que l’on doit l’établissement d’une inquisition permanente en Suisse romande (<bibl><ref target="http://permalink.snl.ch/bib/chbsg000073884">Andenmatten/Utz Tremp 1992</ref></bibl> et <bibl>Maier et al. dans <ref target="http://permalink.snl.ch/bib/chbsg000097648">Paravicini Bagliani et al. 1997</ref>, p.&#160;248–250</bibl>).</note>, in sacra pagina magistro, <term ref="lem017125.02">hereticorum</term> 
+                                <lb/><term ref="lem017062.01">inquisitore</term>, comparuit spontaneus et se presentavit absque eo quod de 
+                                <lb/><term ref="lem017109.01">heresie</term> esset infamatus nec abinde esset citatus vel <term ref="lem017107.01">monitus</term>, et eciam
+                                <lb/>in presencia mei jurati infrascripti, <persName ref="per010827a.02">Aymonetus</persName> filius quondam
+                                <lb/><persName ref="per010828a.02">Jaqueti Maugetaz alias dicti Cossandeir</persName>, habitatoris de <placeName ref="loc008538.02">Espesses</placeName>, jam 
+                                <lb/>pridem sententiati de heresi et eciam per curiam secularem ignibus concremati. 
+                                <lb/>Qui <persName ref="per010827a.02">Aymonetus</persName> <add place="left margin" type="sign">existens etatis fere <measure type="age" unit="year" quantity="20"><lb/>XX<hi rend="sup">ti</hi> annorum vel circa</measure></add> cum magnis lacrimis et replicatis singultibus 
+                                <lb/>atque suspiriis humiliter et devote petiit a prefato domino inquisitore,
+                                <lb/>quatenus eum vellet <term ref="lem017104.01">absolvere</term> a multis gravibus et enormibus 
+                                <lb/>peccatis que ipse commiserat in <term ref="lem018331.01">secta</term> <del rend="strikethrough">u[nacum]</del> hereticorum unacum
+                                <lb/>eius patre quondam. 
+                            </seg>
+                            <seg>Que peccata in modum qui sequitur, judicialiter 
+                                <lb/>coram me jurato infrascripto confessus est, videlicet quod sunt <date when="1433" dur="P5Y">jam quinque 
+                                <lb/>anni</date> quod eius pater<note>Il s’agit de <persName ref="per010828a">Jaquet Maugetaz</persName>, mentionné plusieurs fois par la suite.</note> eum volebat facere ire ad quoddam pratum, ut
+                                <lb/>ibi ipse negaret Deum. Sed ipse illuc accedere noluit, sed stetit 
+                                <lb/>tota die cum quibusdam pueris custodientibus equos et, veniente 
+                                <lb/>vespere, venit domum, quem pater verberavit atrociter eo quod non venerat
+                                <lb/>ad pratum. 
+                            </seg>
+                            <seg>Tandem <time period="byNight">una nocte</time> pater eius fecit eum venire secum. 
+                                <lb/>Cum fuerit in itinere prope <placeName ref="loc008538.02">Espesses</placeName>, pater suus ascendit super unum
+                                <lb/>parvum <term ref="lem018117.01">bovem</term> nigrum vel super pullum <term ref="lem018166.01">equi</term> nigrum –&#160;non bene sciret 
+                                <lb/>discernere quod esset&#160;–, et pater ipsius fecit eum ascendere retro se super 
+                                <lb/>dictum animal, et inceperunt ire, et ibant ita fortiter et impetuose 
+                                <lb/>quod erat unum mirabile&#160;; sed vere nesciret dicere locum ad quem iver<lb break="no"/>unt, nisi quod dicebant illi qui ibi aderant quod erant prope <placeName ref="loc000161.09">Basileam</placeName>. 
+                                <lb/>Et ibi reperierunt multas gentes, et putat quod erant plus quam
+                                <lb/>centum tam mares quam mulieres. Et ibi venit quidam homo niger 
+                                <lb/>qui erat <term ref="lem017097.02">dyabolus</term> et ipsi <persName ref="per010827a.02">Aymoneto</persName> dixit quod oportebat quod ipse negaret
+                                <lb/>Deum et quod caperet ipsum in Deum suum&#160;; quod et fecit. <add place="left margin" type="sign">Fecit eciam ei negare <lb/>totam Trinitatem et sanctum <lb/>baptismum et quidquit <lb/>ex eo erat.</add> Postea 
+                                <lb/>convertit se in modum unius magni candelabri nigri habentis unum 
+                                <lb/>foramen retro, et postea se convertit in speciem cati nigri, et omnes
+                                <lb/>qui ibi erant, venerunt ad osculandum eidem in culo&#160;; et ipse eciam 
+                                <lb/>fecit sicut ceteri. Et <term ref="lem017097.02">dyabolus</term> ei dedit <measure type="currency" unit="S" quantity="5">quinque solidos</measure>, sed non 
+                                <lb/>recordatur quid devenerint. Et postea hiis omnibus factis ibi 
+                                <lb/>comederunt et biberunt, et pater eius ei apportavit panem 
+                                <lb/>et unum frustum carnium supra, sed nescit que carnes essent. 
+                                <lb/>Et ipse loquens signavit <supplied reason="omitted">se</supplied> et statim cecidit bene longe, et nesci<lb break="no"/>ebat ubi erat, in quodam prato. Sed statim affuit quidam <choice><sic>que</sic><corr>qui</corr></choice> venit
+                                <lb/>eum quesitum, et reduxit eum ad locum in quo prius erat. Et
+     <pb n="2" facs="ACV_AC-29_02_03"/><lb/>dixit dictus <persName ref="per010827a.02">Aymonetus</persName> quod in dicta <term ref="lem016946.01">societate</term> erant plures candele que 
+                                <lb/>habebant lumen sive flammam, gallice <foreign xml:lang="fr"><term ref="lem016939.02">blovaz</term></foreign>, et facta dicta <term ref="lem017402.01">adoratione</term> 
+                                <lb/>omnes dicte gentes tam mares quam mulieres inceperunt commisceri adinvicem 
+                                <lb/>et cohire unum cum alio <add place="above">sicut canes</add>. 
+                            </seg> 
+                            <seg>Interrogatus qualiter se ponunt mulieres, dixit et
+                                <lb/>ostendit quod ponebant manus ad terram et homines ponebant se desuper 
+                                <lb/>a parte posteriori. 
+                            </seg>
+                            <seg>Interrogatus si ipse ita fecerit, dixit quod sic, cum quadam 
+                                <lb/>muliere quam non cognoscit.
+                            </seg>
+                            <seg>Interrogatus quid eis <term ref="lem017097.02">dyabolus</term> precipiebat 
+                                <lb/>de <term ref="lem017061.01">corpore Christi</term>, dixit quod precepit quod quando ipse caperet a sacerdote,
+                                <lb/>quod ipse non comederet, sed poneret manum sinistram ad os cum 
+                                <lb/>mappa et reservaret, et quod postea sibi <term ref="lem017097.02">dyabolo</term> portaret. 
+                            </seg>
+                            <seg>Interrogatus 
+                                <lb/>quantis vicibus recepit corpus Christi, dixit quod duabus.
+                            </seg>
+                            <seg>Interrogatus si ita 
+                                <lb/>fecerit sicut dixit, dicit quod non, sed fecit sicut precipiebat curatus, 
+                                <lb/>qui precipiebat quod non tangeretur corpus Christi cum dentibus, sed solum cum
+                                <lb/>lingua&#160;; et ideo quando venit in <date type="floating holiday">festo <term ref="lem018615.01">Pasche</term></date>, quando ipse receperat corpus
+                                <lb/>Christi et pater dicti deponentis ei dixit quid ipse fecerat de corpore Christi,
+                                <lb/>ipse respondit quod ipse comederat&#160;; cui pater suus intulit multas 
+                                <lb/>minas et dixit ei&#160;: <q>&#160;Tu non eris nisi unus mendax et nichil
+                                <lb/> tenebis de hiis que tu promisisti.&#160;</q>, et multa alia verba ei dixit.
+                            </seg>
+                            <seg><lb/>Item interrogatus quid preciperet <term ref="lem017097.02">dyabolus</term> de pane benedicto, qui dixit
+                                <lb/>quod precepit quod bene caperetur a presbitero, sed quod non manducetur, 
+                                <lb/>sed quod conculcetur pedibus et postea quod detur <term ref="lem018118.01">cani</term>.
+                            </seg>
+                            <seg>Item
+                                <lb/>interrogatus quid de aqua benedicta, dixit quod precipiebat quod non 
+                                <lb/>aspergeretur super se, <choice><sic>se</sic><corr>sed</corr></choice> retro se. 
+                            </seg>
+                            <seg>Item interrogatus de confessione quid 
+                                <lb/>precipiebat, dixit quod precipiebat quod bene confiteretur, sed non de 
+                                <lb/>hoc quod negaverat Deum et quod recepisset <term ref="lem017097.02">dyabolum</term> in deum, 
+                                <lb/><abbr>etc</abbr>.
+                            </seg>
+                            <seg>Interrogatus et monitus quod diceret et nominaret si aliquas 
+                                <lb/> personas cognoscebat in dicta societate, dixit verum non, nisi  
+                                <lb/>illam mulierem <add place="above">dictam</add> <persName ref="per016787a.01">Ruffam de Valle</persName><note>Il s’agit d’un surnom qui se traduirait par <orig>&#160;la Rousse de la Vallée&#160;</orig>.</note> que tunc bene erat&#160;; sed alios 
+                                <lb/>non cognoscebat, ymo et plurimum non intelligebat quid dicerent.
+                            </seg>
+                            <seg><lb/>Item dixit quod una alia vice fuit in dicta secta seu societate
+                                <lb/>cum patre suo ut supra, supra quendam montem retro <placeName ref="loc005708.08">Grueriam</placeName><note>Dans le procès contre <persName ref="per011218a">Jeannette Anyo</persName> en <date when="1461">1461</date>, le sabbat est localisé dans la même région (<bibl><ref>ACV, Ac 29</ref>, p.&#160;124</bibl>).</note>,
+                                <lb/>sed nescit quo nomine vocatur, et ibi reperierunt quosdam alios 
+                                <lb/>homines qui ibi frangebant grossa frusta <term ref="lem017108.01">glaciei</term> quas
+                                <lb/><term ref="lem017097.02">dyabolus</term> ministrabat cum maleis ferreis acutis. Et ibi erat 
+                                <lb/>unus gross<subst><del rend="strikethrough">os</del><add place="inline">us</add></subst> homo et magnus niger cum uno ysopo sive 
+                                <lb/>sparsorio qui infundebat aquam desuper, et glacies adinvicem 
+                                <lb/>congelabantur&#160;; <subst><del rend="strikethrough">et</del><add place="inline">sed</add></subst> ipse deponens nichil juvit ad frangendum, 
+                                <lb/>sed custodiebat animal super quod iverant. Et postea venit 
+                                <lb/>una grossa nubes obscura et nigra que totam illam glaciem
+                                <lb/>levavit in aerem&#160;; et ipse deponens ascendit animal super <add place="above">quod</add> iverant 
+                                <lb/>ipse et pater suus, et reversus est et fuit ante domum patris sui&#160;;
+                                <lb/>et <term ref="lem017097.02">dyabolus</term> apparuit in effigie patris sui in eorum parrochia cum
+      <pb n="3" facs="ACV_AC-29_02_03"/><lb/>aliis hominibus signantibus tempus, et subjunxit deponens, dum scit, quam bono
+                                <lb/>corde signabat tempus. Et dixit quod pater suus remanserat cum aliis 
+                                <lb/>hominibus qui fregerant dictas glacies, et <subst><del rend="strikethrough">freg[erunt]</del><add place="inline">fecerunt</add></subst> portari dictas
+                                <lb/>glacies et grandines supra <placeName ref="loc008099.07">Viviacum</placeName> et <term ref="lem017267.01">tempestaverunt</term> illos de <placeName ref="loc008099.07">Viviaco</placeName>.
+                            </seg>
+                            <seg><lb/>Interrogatus qua die fuit hoc, dicit quod fuit quadam <date period="P3WD">die martis</date> de 
+                                <lb/>mane <time period="morning">circa horam prime</time>.
+                            </seg>
+                            <seg>Subsequenter dixit quod quadam alia vice 
+                                <lb/>duxit eum pater suus versus <placeName ref="loc001095.07">Rodanum</placeName>, ubi <placeName ref="loc001095.07">Rodanus</placeName> intrat lacum<note><placeName ref="loc008578.01">Lac Léman</placeName> entre <placeName ref="loc008478.01">Villeneuve</placeName> et <placeName ref="loc008577.01">Le Bouveret</placeName>.</note>, et volebat  
+                                <lb/>pater suus quod ipse deponens caperet in quadam domo unum puerum&#160;; 
+                                <lb/>sed ipse noluit. Et tunc pater suus et quidam alii qui ibi erant, 
+                                <lb/>intraverunt dictam domum et ibi ceperunt sive occiderunt dictum 
+                                <lb/>puerum, nec bene scit quid ibi fecerunt.
+                            </seg>
+                            <seg>Item dixit quod in prima 
+                                <lb/>vice quando ipse fuit versus <placeName ref="loc000161.09">Basileam</placeName>, <term ref="lem017097.02">dyabolus</term> volebat quod ipse sibi daret 
+                                <lb/>corpus suum vel animam suam, sed ipse noluit facere. Et tunc pater suus 
+                                <lb/>dixit <term ref="lem017097.02">dyabolo</term>&#160;: <q>&#160;Ipse bene faciet alia vice&#160;</q>. Et tunc quando ipsi fuerunt 
+                                <lb/>in tertia vice, ipse dedit sibi parvum digitum eius sinistrum, 
+                                <lb/>quando ipse moriretur.
+                            </seg>
+                            <seg>Item dixit quod non sunt nisi tres septimane 
+                                <lb/>quod ipse deponens et confitens ibat a villa de <placeName ref="loc008538.06">Espesses</placeName> ad iuvandum 
+                                <lb/><term ref="lem017169.01">curatum</term> <placeName ref="loc008477.04">Culliaci</placeName>, et <term ref="lem017097.02">dyabolus</term> apparuit ei in specie unius parvi 
+                                <lb/><term ref="lem018119.01">leporis</term> et dixit ei&#160;: <q>&#160;Tu non servas mihi ea que promisisti&#160;; quare
+                                <lb/>est hoc quod non servas&#160;?&#160;</q>. Cui ipse deponens respondit&#160;: <q>&#160;Ego nolo tibi 
+                               <lb/>aliquid servare, sed te nego omnino nec volo aliquid habere 
+                               <lb/>agere tecum&#160;</q>. Et tunc lepus ille disparuit facto signo crucis 
+                                <lb/>per deponentem sive confitentem.
+                            </seg>
+                            <seg>Et hec fuere que prefatus <persName ref="per010827a.02">Aymonetus</persName>
+                                <lb/>confessus est eius propria et spontanea voluntate. Et tunc dictus 
+                                <lb/>inquisitor me juratum infrascriptum mandavit seu destinavit cum
+                                <lb/>dicto confitente ad venerabilem et circonspectum virum dominum cantorem <orgName ref="org004033.02">Lausannensem</orgName>, 
+                                <lb/><term ref="lem000013.01">vicarium</term><note>Il s’agit d’<persName ref="per010837a">Antoine de Prez</persName>, vicaire général de l’évêque de <date from="1436" to="1440">1436 à 1440</date>.</note> reverendi in <persName ref="per000353a.17">Christo</persName> patris et domini, domini <persName ref="per010831a.01"><choice><abbr>Jo</abbr><expan>Johannis</expan></choice></persName>, <orgName ref="org001749.03">Lausannensis</orgName> <term ref="lem001847.01">episcopi</term>, pro <term ref="lem017105.01">absolutione</term> 
+                                <lb/>sacramentali obtinenda per dictum <persName ref="per010827a.02">Aymonetum</persName>. Quem <persName ref="per010827a.02">Aymonetum</persName> ego juratus 
+                                <lb/>infrascriptus duxi ad dictum dominum cantorem, et, recepta absolucione 
+                                <lb/>eundem <persName ref="per010827a.02">Aymonetum</persName> <choice><sic>reduxit</sic><corr>reduxi</corr></choice> ad dictum dominum inquisitorem qui in 
+                                <lb/>presentia mei ut supra et testium infrascriptorum eidem <persName ref="per010827a.02">Aymoneto</persName> 
+                                <lb/><term ref="lem017111.01">abjurare</term> fecit dictam <term ref="lem017109.02">heresim</term> et sectam totam et omnia inde sequentia, 
+                                <lb/>videlicet sub pena juris, dicens eidem <persName ref="per010827a.02">Aymoneto</persName> quod quare ipse sponte ve<lb break="no"/>nerat, pro hac prima vice sancta mater Ecclesia eidem parcebat integre&#160;; 
+                                <lb/>sed sibi caveret quod amplius non reverteretur ad dictam heresim,
+                                <lb/>aliter contra eum procederetur ex forma juris. Qui <persName ref="per010827a.02">Aymonetus</persName> flexis genibus 
+                                <lb/>ambabus manibus super sancta Dei euvangelia juravit se numquam 
+                                <lb/>ad eandem heresim <subst><del rend="strikethrough">sive</del><add place="inline">et</add></subst> sectam rediturum.
+                            </seg>
+                            <seg>Et premissa facta fuerunt 
+                                <lb/>in presentia mei jurati infrascripti et fratrum <persName ref="per010830a.01">Reymondi</persName> et <persName ref="per010829a.01">Aymonis Ceriacti</persName><note>En <date when="1439-06">juin 1439</date>, on retrouve <persName ref="per010829a">Aymon Cerjat</persName> comme procureur de la foi dans le procès intenté contre <persName ref="per012511a">Jaquet dou Plain</persName> pour une affaire d'hérésie et d'idolâtrie à <placeName ref="loc007786.01">Neuchâtel</placeName> (<bibl><ref target="http://permalink.snl.ch/bib/chbsg000073884">Andenmatten/Utz Tremp 1992</ref>, p. 96–97, annexe 4a</bibl>.</note> 
+                                <lb/><orgName ref="org004025.02">ordinis Predicatorum Lausannensis</orgName> in <subst><del rend="strikethrough">domo</del><add place="inline">camera</add></subst> dicti domini inquisitoris
+                                <lb/>in domo dictorum fratrum Predicatorum, <origDate when="1438-07-30">anno et die quibus supra</origDate>.
+                            </seg>
+                        </p>
+                        <p><seg><hi rend="right">Ita est. <signed><persName><choice><abbr>Pe</abbr><expan>Petrus</expan></choice> <abbr>Cor<hi rend="sup">to</hi></abbr></persName> <figure type="notarial sign"/></signed></hi>
+                        </seg></p>
+                    </div>
+                </body>
+            </text>
+        </group>
+        
+        <back>
+            <div>
+                <p>Ce document est le plus ancien du regsitre ACV, Ac 29 (p.&#160;1–3). Il relate des évènements intervenus en 1438. Les procès suivants de Jaquet Durier (p.&#160;5–28 <ref>SDS_VD_D_1_0002</ref>), de Catherine Quicquat (p.&#160;29–43 <ref>SDS_VD_D_1_0003</ref>), de Pierre Munier (p.&#160;44–55 <ref>SDS_VD_D_1_0004</ref>), de Pierre Chavaz (p.&#160;56–71 <ref>SDS_VD_D_1_0005</ref>) et de Pierre Antoine (p.&#160;104–119 <ref>SDS_VD_D_1_0006</ref>) ont été menés une dizaine d'années plus tard, entre 1448–1449.</p>
+            </div>
+        </back>
+    </text>
+</TEI>

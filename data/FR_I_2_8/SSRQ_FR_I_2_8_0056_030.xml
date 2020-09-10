@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+
+			</titleStmt>
+
+			<publicationStmt>
+				<date type="electronic" when="2019-05-29"/>
+				<date type="print"/>
+			</publicationStmt>
+
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ_FR_I_2_8_0056_030</idno>
+			</seriesStmt>
+
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<idno>StAFR, Thurnrodel 11, S. 284</idno>
+					</msIdentifier>
+					<head>Pierre Feudy – Verhör / Interrogatoire</head>
+					<msContents>
+						<summary></summary> 
+						<msItem>
+							<textLang>fr, de</textLang> 
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support>
+									<material></material>
+								</support>
+								<extent>
+									<dimensions type="leaves">
+										<height unit="cm" quantity="0.0"/>
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+									<dimensions type="plica">
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+								</extent>
+							</supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1623-03-27"></origDate>
+							<origPlace></origPlace>
+						</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+							
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+			<particDesc default="false"/>
+			<settingDesc default="false"/>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<p><lb/>Im <placeName ref="loc007683.02">bösen turn</placeName>
+							<seg><lb/><origDate when="1623-03-27">27 <foreign xml:lang="la">martii</foreign> <hi rend="underline">1623</hi></origDate>, <foreign xml:lang="la"><choice><abbr>j</abbr><expan>judex</expan></choice></foreign> <persName><choice><abbr>Fleisch</abbr><expan><persName ref="per006840">Fleischman</persName></expan></choice></persName><note>Gemeint ist ein Stadtweibel.</note></seg>
+							<seg><lb/><abbr>H</abbr> <persName ref="per006751">Erhart</persName>, <abbr>h</abbr> <persName ref="per009261">Techterman</persName></seg>
+							<seg><lb/><persName ref="per009134">von Dießbach</persName>, <persName ref="per009455">Meister</persName>, <persName ref="per009451a.01"><choice><abbr>C</abbr> <expan>Christoph</expan></choice> von Ligertz</persName></seg>
+							<seg><lb/><persName ref="per009485">Perroman</persName>, <persName ref="per009253">Bocard</persName>, <persName ref="per009460">Gottrow</persName></seg>
+							<seg><lb/><choice><abbr>W</abbr> <expan>Weibel</expan></choice></seg></p>
+						
+						<p><seg><lb/><add place="left margin"><foreign xml:lang="la">Nihil <choice><abbr>ßt</abbr> <expan>solvit</expan></choice></foreign>.</add></seg> 
+							<seg><persName ref="per009534">Pierre Feudi</persName> confirmant sa derniere confes<lb break="no"/>sion, tant ses mesfaits de <term ref="lem018521">sorcellerie</term> que 
+						<lb/>lareçains commis, a sostenu n’avoir receu 
+						<lb/>la <term ref="lem018894.07">marque de <persName>Sathan</persName></term>, mais d’avoir veu 
+								<lb/>en la <term ref="lem017043.01">secte</term> vers <placeName ref="loc007868.07">S<hi rend="sup">t</hi> Aubin</placeName> la <persName>Matysera</persName> 
+						<lb/><choice><abbr>als</abbr> <expan>alias</expan></choice> <persName>Belle Merciere</persName> <del>et German vendeur de 
+							<lb/><term ref="lem015448.02">curbiles</term></del>, <sic>barbe courte et meslée</sic>.<note>Le greffier aurait aussi dû biffer la description du dénommé German.</note></seg></p>
+						
+						<p><lb/>Item d’avoir employé la <term ref="lem018382.02">graise</term> receu de 
+						<lb/>son maistre aux gens et bestes prememorés, 
+						<lb/>ne sachant touttefois s’ilz en son tous 
+						<lb/>morts&#160;; portant son intention estoit les 
+						<lb/>faire mourrir.</p>
+						
+						<p><lb/>A <placeName ref="loc008077.01">Kriegstetten</placeName> d’avoir emblé un pain, a 
+						<lb/><placeName ref="loc008084.02">Grange</placeName> riere <placeName ref="loc000738.09">Saleure</placeName> un pain.</p>
+							
+						<p><lb/>A <placeName ref="loc007597.02">Dirlaret</placeName> s’est aydé derober un pain et di<lb break="no"/>mie un <term ref="lem018643.02">formage</term>.</p> 
+						<p><lb/>Au curial <persName>Charrey</persName> de <placeName ref="loc007682.03">Grandwillard</placeName> 3 <term ref="lem015449.02">gatte<lb break="no"/>lets</term>.</p>
+						<p><lb/>En l’asle d’icy un pain d’un batz.</p>
+						<p><lb/>A <placeName ref="loc008025.02">Corbaz</placeName> un pain.</p> 
+						<p><lb/>Et en tout encoures 4 fer de chevals.</p> 
+						<p><lb/>Lesquels mesfaits a confirmé en la torture, 
+						<lb/>priant les luy pardonner et faire grace.</p>
+							
+						<p><lb/><add place="left margin">Hingricht mit <lb/>dem <term ref="lem007052.03">schwerdt</term>, <lb/><date when="1623-04-01">1<hi rend="sup"><unclear>ter</unclear></hi><foreign xml:lang="la">aprilis</foreign></date></add>.<note>Diese nachträgliche Marginalie steht im Original zu Beginn des Verhörs.</note></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+
+
+
+<?oxy_options track_changes="on"?>

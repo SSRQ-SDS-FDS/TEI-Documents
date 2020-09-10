@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     n="1234"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="headerinfo"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2020-08-17"/>    <date type="print"/>
+    <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Collection des sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS_NE_3_362</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>AVN B 101.14.001, fol. 614v–616r</idno>
+               </msIdentifier>
+               <head>Dissolution d’un mariage sans enfant</head>
+               <msContents>
+                  <summary>Détails sur les biens auxquels l’épouse a droit lorsque son mari décède,
+                     en particulier en ce qui concerne les acquêts et qu’il n’y a pas d’enfants. </summary>
+                  <msItem>
+                     <textLang>français</textLang>
+                     <filiation type="current"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="33"/>
+                              <width unit="cm" quantity="23.5"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1709-04-04"/>
+                     <origPlace ref="loc007786">Neuchâtel</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head/>
+                     <bibl/>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key005001"/>
+               <term ref="key003521"/>
+               <term ref="key000558"/>
+               <term ref="key000138"/>
+               <term ref="key000920"/>
+               <term ref="key000815"/>
+               <term ref="key000336"/>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="614v" facs="AVN_B_101.14.001_0614v"/>
+               <div>
+                  <head>
+                     <lb/>Touchant le mariage dissout apres <lb/>l’<date dur="P1Y6W"><term
+                           ref="lem014776">an et jours</term></date>, n’y ayant point
+                     d’enfans.</head>
+                  <p>
+                     <lb/>Sur la requeste presentée à <orgName ref="org003085"><choice>
+                           <abbr>Mess<hi rend="sup">rs</hi>
+                           </abbr>
+                           <expan>messieurs</expan>
+                        </choice> les <lb/>maitre bourgeois et Conseil Etroit de la <lb/>Ville de
+                           <placeName ref="loc007786">Neufchatel</placeName>
+                     </orgName> par <choice>
+                        <abbr>M<hi rend="sup">rs</hi>
+                        </abbr>
+                        <expan>messieurs</expan>
+                     </choice> les parens de <lb/>madame la veuve de <choice>
+                        <abbr>M<hi rend="sup">r</hi>
+                        </abbr>
+                        <expan>monsieur</expan>
+                     </choice> l’interperète <persName ref="per008872">Tschudi</persName>,
+                     <lb/>demandant en son nom declaration de la <lb/>coutume <choice>
+                        <abbr>dud</abbr>
+                        <expan>dudit</expan>
+                     </choice> lieu sur les articles suivans. </p>
+                  <p>
+                     <lb/>1. Quelle part et portion doit avoir une <lb/>femme aux profits en acquet
+                     faits pendant la <lb/>conjonction de mariage avec son mari&#160;? </p>
+                  <p>
+                     <lb/>2. Quel droit elle a sur les biens et effets de <lb/>son mari decedé sans
+                     enfans, ayant vécu <lb/><date dur="P1Y6W"><term>an et jours</term></date> avec
+                     lui depuis la conjonction de <lb/>leur mariage&#160;? </p>
+                  <p>
+                     <lb/>3. Quel est son droit d’usufruit sur les biens <lb/>de son mari defunt&#160;? </p>
+                  <p>
+                     <lb/><orgName ref="org003085"><choice>
+                           <abbr>Mesds<hi rend="sup">rs</hi>
+                           </abbr>
+                           <expan>Mesdits sieurs</expan>
+                        </choice> du Conseil</orgName> ayant eu avis par <lb/>ensemble, donnent par
+                     declaration que, de tout <lb/>tems immemorial de pere à fils jusqu’a present,
+                     <lb/>la coutume de <placeName ref="loc007785">Neufchatel</placeName> est telle.
+                     <lb/>Assavoir. </p>
+                  <p>
+                     <lb/>1. Quand deux personnes sont mariées aux lois <lb/>
+                     <add place="below" type="catchword">et</add>
+                     <pb n="615r" facs="AVN_B_101.14.001_0615r"/>
+                     <lb/>et coutume de <placeName ref="loc007785">Neufchatel</placeName>, les
+                     acquets et profits <lb/>faits au vivant du mari et de sa femme, iceux se
+                     <lb/>prennent et partagent par moitié, ensorte que le <lb/>survivant des deux
+                     retire en toute proprieté pour <lb/>lui et ses hoires, la juste moitié de
+                     toutes les accroissan<lb break="no"/>ces qu’ils ont fait pendant leur
+                     conjonction de mariage, <lb/>tant par trafic de marchandises, acquisitions,
+                        recom<lb break="no"/>pense de services, qu’<choice>
+                        <abbr>autrem<hi rend="sup">t</hi>
+                        </abbr>
+                        <expan>autrement</expan>
+                     </choice>, en quelque sorte et <lb/>maniere qu’iceux <choice>
+                        <abbr>d</abbr>
+                        <expan>dits</expan>
+                     </choice> acquets et profits ayent esté <lb/>faits, et en quoy qu’ils puissent
+                     consister, excepté <lb/>aux profits et acquets faits en la guerre par un
+                     <lb/>homme, soit-il capitaine ou autre, auxquels profits <lb/>faits en guerre,
+                     la femme y doit avoir <choice>
+                        <abbr>seulem<hi rend="sup">t</hi>
+                        </abbr>
+                        <expan>seulement</expan>
+                     </choice>
+                     <lb/>le quart pour elle et ses hoirs. </p>
+                  <p>
+                     <lb/>2. Deux personnes conjointes par mariage, ayant vécu <lb/>par ensemble
+                        <date dur="P1Y6W"><term ref="lem014776">an et jours</term></date>, qu’est un
+                        <date dur="P1Y6W">an et six semai<lb break="no"/>nes</date> à compter dès le
+                     jour de leurs nopces, si le mari <lb/>decède le premier sans delaisser aucun
+                     enfant <lb/>de leur mariage, ou d’autres precedens mariages, alors <lb/>la
+                     femme survivante doit heriter et avoir <choice>
+                        <abbr>po</abbr>
+                        <expan>pour</expan>
+                     </choice> elle <lb/>et ses hoirs, les vêtemens et habits appartenans <choice>
+                        <abbr>aud</abbr>
+                        <expan>audit</expan>
+                     </choice>
+                     <lb/>defunt son mari. <lb/>Et si la femme decède la premiere, sans delaisser
+                     <lb/>aucun enfant de leur mariage ou d’autres precedens <lb/>mariages, le mari
+                     survivant doit heriter et avoir <lb/>pour lui et les siens <choice>
+                        <abbr>entierem<hi rend="sup">t</hi>
+                        </abbr>
+                        <expan>entierement</expan>
+                     </choice> le trossel, les habits <lb/>et joyaux appartenans à sa defunte femme. <lb/>
+                     <add place="below" type="catchword">La</add>
+                     <pb n="615v" facs="AVN_B_101.14.001_0615v"/>
+                     <lb/>La moitié des meubles, linge, vaisselle et <lb/>ustensiles de menage
+                     appartenans au premier <lb/>decedé des deux à l’heure de sa mort, tant ceux
+                     <lb/>qui lui appartenoient en propre, que la moitié <lb/>de sa part de ceux qui
+                     ont esté acquis durant <lb/>leur mariage, cette moitié et des uns et des
+                     <lb/>autres appartient et doit parvenir au survi<lb break="no"/>vant, qui en
+                     peut disposer comme de chose sienne. <lb/>L’on entend par le mot de meubles,
+                     les <lb/>meubles meublans, compris le betail de la <lb/>maison lors du deceds,
+                     mais le betail à commande <lb/>ou <term ref="lem015053">chedal</term>, l’or,
+                     l’argent, lettres de rente, les <lb/>obligations, cedulles, comptes, articles
+                     sur les <lb/>livres de raison et autres redevances, et la <lb/>marchandises,
+                     non plus que le vin et le grain <lb/>ne sont point compris dans les meubles.
+                     <lb/>Quant au blé et vin qui se trouve à la maison <lb/>lors <choice>
+                        <abbr>dud</abbr>
+                        <expan>dudit</expan>
+                     </choice> deceds, <choice>
+                        <abbr>led</abbr>
+                        <expan>ledit</expan>
+                     </choice> survivant doit en choisir <lb/>et prendre sans excez pour sa
+                     nourriture et en<lb break="no"/>tretien et de son menage pour son année <choice>
+                        <abbr>seulem<hi rend="sup">t</hi>
+                        </abbr>
+                        <expan>seulement</expan>
+                     </choice>. <lb/>Et du surabondant <choice>
+                        <abbr>dud</abbr>
+                        <expan>dudit</expan>
+                     </choice> blé et vin, il en doit avoir <lb/>la moitié comme estant son propre
+                     bien, et quant <lb/>à l’autre moitié qui est censée estre du bien <choice>
+                        <abbr>dud</abbr>
+                        <expan>dudit</expan>
+                     </choice>
+                     <lb/>defunt, on doit la faire évaluer par gens de justice <lb/>et le prix et
+                     valeur doit estre mis en inventaire <lb/>afin que les heritiers <choice>
+                        <abbr>dud</abbr>
+                        <expan>dudit</expan>
+                     </choice> defunt puissent le retirer <lb/>et tems et lieu. <lb/><add
+                        place="below" type="catchword">Mais</add>
+                     <pb n="616r" facs="AVN_B_101.14.001_0616r"/>
+                     <lb/>Mais quant à l’autre victuaille, comme chair, fro<lb break="no"/>mage et
+                     beurre, le cuir et les autres choses convenantes <lb/>à un ménage, <choice>
+                        <abbr>led</abbr>
+                        <expan>ledit</expan>
+                     </choice> survivant n’en tient pas compte, ny <lb/>n’est obligé d’en restituer
+                     aucune chose. <lb/>Et pour ce qui concerne les armes d’un mari defunt,
+                     <lb/>soit qu’il ait laissé des enfans ou non, la femme n’y a <lb/>aucun droit
+                     et elles doivent incontinant apres le deceds <lb/><choice>
+                        <abbr>dud</abbr>
+                        <expan>dudit</expan>
+                     </choice> mari parvenir à ses legitimes heritiers, à moins <lb/>qu’il n’en eut
+                     testé et disposé autrement. <lb/>
+                     <del rend="rubbing">Et pour ce qui concern</del>
+                  </p>
+                  <p>
+                     <lb/>3. Deux personnes conjointes par mariage ayant <lb/>vecu par ensemble
+                        <date dur="P1Y6W">
+                        <term ref="lem014776">an et jours</term>
+                     </date>, tous les biens <choice>
+                        <abbr>genera<lb break="no"/>lem<hi rend="sup">t</hi>
+                        </abbr>
+                        <expan>généralement</expan>
+                     </choice> tant meubles qu’immeubles au defunt apparte<lb break="no"/>nans lors
+                     de son deceds, n’ayant point laissé d’enfant, <lb/>tant ceux qu’il avoit
+                     apporté en communion de mariage, <lb/>que ceux qui meuvent des profits et
+                     acquets faits <lb/>durant leur mariage, le survivant en doit <lb/>avoir la
+                     jouissance et usufruit sa vie naturelle durant, <lb/>soit qu’il se remarie ou
+                     non, et il peut accenser, <lb/>admodier à moiteresse ou <choice>
+                        <abbr>autrem<hi rend="sup">t</hi>
+                        </abbr>
+                        <expan>autrement</expan>
+                     </choice> les maix, <lb/>maisons et possessions qu’il tient d’usement comme
+                     <lb/>ses autres biens. </p>
+                  <p>
+                     <lb/>Laquelle declaration, <orgName ref="org003085"><choice>
+                           <abbr>Mesds<hi rend="sup">rs</hi>
+                           </abbr>
+                           <expan>mesdits sieurs</expan>
+                        </choice> du Conseil</orgName>
+                     <lb/>ont ordonné à moy, <choice>
+                        <abbr>secret</abbr>
+                        <expan>secrétaire</expan>
+                     </choice> de Ville soussigné, <lb/>de ainsi expedier sous le seau de la mairie
+                     et <lb/>justice de <choice>
+                        <abbr>lad</abbr>
+                        <expan>ladite</expan>
+                     </choice> Ville de <origPlace ref="loc007786">Neufchatel</origPlace>, le
+                        <origDate when="1709-04-04">4 d’avril <lb/>1709</origDate>. </p>
+               </div>
+               <div>
+                  <p>
+                     <lb/>L’original est signé par moy. </p>
+                  <signed>
+                     <persName ref="per009011">
+                        <choice>
+                           <abbr>J&#160;J</abbr>
+                           <expan>Jean-Jacques</expan>
+                        </choice> Favargier</persName>
+                     <figure type="notarial sign"/>
+                  </signed>
+               </div>
+            </body>
+         </text>
+      </group>
+   </text>
+</TEI>

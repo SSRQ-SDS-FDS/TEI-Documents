@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234" xml:lang="fr" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>XIX<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Vaud, D. Répression de la sorcellerie en Pays de Vaud (XV<hi rend="sup">e</hi>–XVII<hi rend="sup">e</hi> siècles), Tome 1&#160;: XV<hi rend="sup">e</hi> siècle</title>
+                <respStmt>
+                    <persName>Pau Castell Granados</persName>
+                    <persName>Gwendolin Ortega</persName>
+                    <persName>Martine Ostorero</persName>     
+                    <resp key="transcript"/>
+                </respStmt>
+                <respStmt>
+                    <persName>Martine Ostorero</persName>
+                    <resp key="qualitycheck"/>
+                </respStmt>
+                <respStmt>
+                    <persName>Gwendolin Ortega</persName>
+                    <resp key="tagging"/>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date type="electronic" when="2019"/>
+                <date type="print" when="1995"/> 
+                <availability><p xml:id="facs">Archives cantonales vaudoises (ACV)</p></availability>
+            </publicationStmt>         
+            <seriesStmt xml:id="ssrq-sds-fds">
+                <title>Collection des sources du droit suisse</title>
+                <respStmt>
+                    <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+                    <resp/> 
+                </respStmt>
+                <idno>SDS_VD_D_1_0004</idno> 
+            </seriesStmt>      
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <idno>ACV, Ac 29, p.&#160;44–55</idno>
+                    </msIdentifier>
+                    <head>Procès de sorcellerie intenté contre Pierre Munier, de Corsier</head>
+                    <msContents>
+                        <summary>
+                            <p>Pierre Munier, un meunier de Corsier, se présente spontanément devant l'inquisiteur Pierre d’Aulnay le 17 mars 1448. Incarcéré le lendemain au château de La Tour-de-Peilz, il est interrogé à deux reprises par l’inquisiteur, dont une fois conjointement avec le vicaire épiscopal Léopard de Bosco. La sentence est rendue le 23 mars&#160;: il est jugé hérétique <orig>&#160;de l’hérésie des vaudois modernes&#160;</orig> mais, après avoir abjuré et accepté de faire pénitence, il recoit la miséricorde de l’Eglise et est absous.</p>
+                        </summary> 
+                        <msItem>
+                            <textLang>la</textLang>
+                            <filiation type="current"/>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material>Papier</material>
+                                </support>
+                                <extent>
+                                    <dimensions type="leaves"> 
+                                        <height unit="cm" quantity="0.0"/>
+                                        <width unit="cm" quantity="0.0"/>
+                                    </dimensions>
+                                    <dimensions type="plica">
+                                        <width unit="cm" quantity="0.0"/>
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate from="1448-03-17" to="1448-03-23"/>
+                            <origPlace ref="loc008831.01">Hôpital Marie–Madeleine du Mont–Joux</origPlace>, <origPlace ref="loc008768.01">Château de la Tour–de–Peilz</origPlace>
+                        </origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <head>Edition</head> 
+                            <bibl><ref target="http://permalink.snl.ch/bib/chbsg000079676">Ostorero 1995</ref>, p.&#160;258–277.</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Littérature</head>
+                            <bibl><ref target="http://permalink.snl.ch/bib/chbsg000079676">Ostorero 1995</ref>, p.&#160;117–137</bibl>
+                            <bibl><ref target="http://permalink.snl.ch/bib/chbsg000051484">Maier 1996</ref>, p.&#160;54, 123, 129, 406, 410</bibl>
+                            <bibl><ref target="http://permalink.snl.ch/bib/chbsg000010240">Ostorero 1999 et al.</ref>, p.&#160;332</bibl>
+                            <bibl><ref target="http://permalink.snl.ch/bib/chbsg000048336">Ostorero et al. 2007</ref><!--, p.&#160;10, 13, 21, 25, 27, 29, 70, 136, 406, 443, 228–229--></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+                    <term/>
+                </keywords>
+            </textClass>
+            <particDesc default="false"/>
+            <settingDesc default="false"/>
+        </profileDesc>
+    </teiHeader>
+    <text> 
+        <group>
+            <text>
+                <body>
+                    <div>
+                        <pb n="44" facs="ACV_AC-29_43_44"/>
+                        <div><ab type="archiving reference" hand="hand20c" place="left margin" medium="pencil"><date when="1448-03-17">1448 mars 17</date></ab></div>
+                        <head type="title" place="top"><handShift scribe="2"/>Processus <persName ref="per010998a.02">Petri Munerii</persName> de <placeName ref="loc008099.07">Viviaco</placeName></head>
+                        <head type="subtitle" resp="GO">17 mars 1448</head>
+                        <p><seg><handShift scribe="1"/><origDate when="1448-03-17">Anno Domini millesimo quatercentesimo
+                                       <lb/>quadragesimo octavo a nativitate Domini
+                                       <lb/>sumpto die vero decima septima mensis
+                                       <lb/>marcii</origDate> in domo <placeName ref="loc008831.02">hospitalis pauperum Beate
+                                       <lb/>Marie <sic>Magdalenes</sic> Montis Jovis</placeName><note>L’<placeName ref="loc008831.01">Hôpital Marie–Madeleine du Mont–Joux</placeName>, situé alors en dehors de la ville, à proximité du <placeName ref="loc009133.01">pont de Vevey</placeName>, est le plus ancien hôpital de <placeName ref="loc008099.01">Vevey</placeName> (XIII<hi rend="sup">e</hi> siècle). Le vocable Marie–Madeleine provient de la chapelle qui en dépend (<bibl><ref target="http://permalink.snl.ch/bib/chbsg991001190348303977">De Montet 1884</ref>, p.&#160;81–84</bibl>). Quant aux raisons qui amènent <persName ref="per010998a">Pierre Munier</persName> à se rendre en ce lieu, voir <bibl><ref target="http://permalink.snl.ch/bib/chbsg000079676">Ostorero 1995</ref>, p.&#160;119–120</bibl>.</note> de <placeName ref="loc008099.07">Viviaco</placeName><note><persName ref="per010998a">Pierre Munier</persName> était meunier du <placeName ref="loc009455.01">moulin de la paroisse de Corsier</placeName>, qui appartenait en partie à l’<placeName ref="loc008831.03">hôpital du Mont–Joux</placeName>. Il est donc possible que ce lieu serve de terrain de rencontre informel entre lui et l’inquisition (<bibl><ref target="http://permalink.snl.ch/bib/chbsg000010240">Ostorero et al. 1999</ref> p.&#160;120</bibl>).</note>
+                                       <lb/>in stupa predicte domus, <persName ref="per010998a.01">Petrus Mugner</persName>
+                                       <lb/>parrochie de <placeName ref="loc008151.04">Corsie</placeName> <placeName ref="loc005781.04">Lausannensis diocesis</placeName> non  
+                                       <lb/><subst><del rend="strikethrough">deceptus</del><add place="inline">vocatus</add></subst>, non citatus, non cohactus, 
+                                       <lb/>sed sua spontanea voluntate accessit
+                                       <lb/>ad presenciam venerabilis <del rend="strikethrough">viri</del>et religiosi
+                                        <lb/>viri fratris <persName ref="per010867a.01">Petri de Alneto</persName> <orgName ref="org004150.03">ordinis Predicatorum</orgName> 
+                                       <lb/><term ref="lem017062.02">heretice pravitatis inquisitoris</term> in civitatibus
+                                        <lb/><placeName ref="loc007885.05">Lausannensi</placeName> et <placeName ref="loc007646.06">Gebennensi</placeName> et quibusdam aliis 
+                                        <lb/>civitatibus et locis a sancta Sede apostolica
+                                       <lb/>specialiter deputati, presentibus ibidem venerabili
+                                       <lb/>et discreto viro domino <persName ref="per011015a.01">Aymone de Fonte</persName>
+                                        <lb/><term ref="lem017169.01">curato</term> ecclesie parrochialis de <placeName ref="loc008898.03">Corsie</placeName><note>L’église paroissiale de <placeName ref="loc008151.02">Corsier</placeName> est placée sous le vocable de saint Maurice (<bibl><ref target="http://permalink.snl.ch/bib/chbsg000074603">Mottaz 1982</ref>, t. 1, p.&#160;530</bibl>).</note>, et 
+                                       <lb/>discreto viro <persName ref="per011016a.01">Vuillelmo de Gerdili</persName> notario 
+                                        <lb/>de <placeName ref="loc008151.04">Corsie</placeName>, et fratre <persName ref="per010881a.02">Petro Rondinelli</persName> <orgName ref="org004025.04">ordinis 
+                                        <lb/>Predicatorum conventus Lausannensis</orgName> et me notario
+                                       <lb/>infrascripto. 
+                            </seg>
+                            <seg>Et, genibus flexis, dixit,
+                                       <lb/>deposuit et sponte confessus est se fuisse
+                                       <lb/>et esse de <term ref="lem018331.01">secta</term> <term ref="lem017125.02">hereticorum</term> de qua fuerunt
+<lb/><label type="keyword" place="left margin" scribe="2">Prima confessio</label> <persName ref="per010753a">Jaquetus Durier alias Costumerii</persName> parrochie 
+                                       <lb/>de <placeName ref="loc008181.01">Blonay</placeName> et <persName ref="per010997a.01">Anthonius Bron</persName> quondam predicte
+                                       <lb/>parrochie nuper igne crematorum pro 
+                                        <lb/><term ref="lem017269.01">crimine heresis</term><note>Voir le procès de <persName ref="per010753a">Jaquet Durier</persName>. Par cette mention, nous apprenons qu’<persName ref="per010997a">Antoine Bron</persName>, dénoncé comme complice dans les deux procès précédents, vient d’être brûlé comme hérétique.</note>.
+                            </seg>
+                            <seg>Qua confessione sic facta,
+                                       <lb/>prestitit ipse <persName ref="per010998a.01">Petrus Mugnerii</persName> juramentum
+                                       <lb/>super sanctis Dei euvangeliis in manibus
+                      <pb n="45" facs="ACV_AC-29_45_46"/><lb/>prefati domini inquisitoris de veritate
+                                       <lb/>dicenda et falsitate evitanda. Post
+                                        <lb/>quod juramentum, multis interrogatoriis
+                                       <lb/>sibi factis, dixit quod predicti duo ipsum
+                                       <lb/>posuerunt in secta, et antequam de loco
+<lb/><label type="keyword" place="left margin" scribe="2">Variacio </label>predicto recederent, ipse <persName ref="per010998a.01">Petrus</persName> dedit 
+                                       <lb/>animam suam <term ref="lem017097.01">diabolo</term>, casu quo unquam fuisset
+                                        <lb/>in secta<note>Le sens de ces derniers mots demeure obscur&#160;: s’agit–il d’un pacte préalable avec le diable&#160;?</note>.
+                            </seg>
+                            <seg>Quibus dictis et auditis prefatus
+                                       <lb/>frater <persName ref="per010881a.02">Petrus Rondinelli</persName> <term ref="lem017131.01">procurator fidei</term> requisivit
+                                       <lb/>ipsum <persName ref="per010998a.01">Petrum Mugnerii</persName> detineri,
+                                       <lb/>actenta ipsius variacione, allegans quedam
+                                       <lb/>alia gravia testimonia contra <sic>eumdem</sic> 
+                                       <lb/><persName ref="per010998a.01">Petrum Mugner</persName>, de quibus affirmavit
+                                       <lb/>constare per quosdam alios processus <add place="inline" hand="other hand">hereticorum</add>.
+                            </seg>
+                              <seg><lb/>Quiquidem <persName ref="per010998a.01">Petrus Mugner</persName> deductus per
+                                        <lb/>prefatum dominum inquisitorem ad capellam
+                                       <lb/>dicti <placeName ref="loc008831.02">hospitalis</placeName> in presencia quorum supra nec<lb break="no"/>non venerabilis viri domini <persName ref="per011017a.01">Petri de Crosa</persName> 
+                                       <lb/><term ref="lem007833.02">presbiteri</term> et <persName ref="per011018a.01">Francisci Crachot</persName> de <placeName ref="loc008099.07">Viviaco</placeName>
+                                        <lb/>fuit per prefatum dominum inquisitorem <term ref="lem017137.01">admonitus</term>
+                                       <lb/>caritative per passionem domini nostri <persName ref="per000353a.18">Jhesu Christi</persName>,
+                                        <lb/>ut omnem veritatem vellet confiteri et
+                                       <lb/>recognoscere, promittentes eidem graciam sancte
+                                       <lb/>matris Ecclesie si sponte et <choice><sic>cum festin</sic><corr>confestim</corr></choice> puram
+                                       <lb/>et meram veritatem vellet recognoscere. 
+                            </seg>
+                            <seg>
+                                       <lb/>Qui predictus <persName ref="per010998a.01">Petrus Mugner</persName>, genibus
+                                       <lb/>flexis ante altare capelle predicte,
+                                       <lb/>juratoque prius super canone veritatem
+<lb/><label type="keyword" place="left margin" scribe="2">Secunda confessio</label> recognoscere, dixit et sponte confessus
+                                       <lb/>est ultra premissa se fuisse cum <choice><sic>prenominatorum</sic><corr>prenominatis</corr></choice> 
+               <pb n="46" facs="ACV_AC-29_46"/><lb/>ad <term ref="lem017070.02">sinagogam</term> in tribus locis, videlicet supra <placeName ref="loc009094.03">montem
+                                       <lb/>de Corsie</placeName> en prato rotumdo prima vice, iterum in 
+                                        <lb/>domo recluse juxta <placeName ref="loc009133.02">pontem Viviaci</placeName>, et in 
+                                       <lb/>tercia vice versus <placeName ref="loc008819.03">Sanctum Martinum</placeName> <placeName ref="loc008099.07">Viviaci</placeName>
+                                       <lb/>in <term ref="lem016946.01">societate</term> predictorum hereticorum. 
+                            </seg>
+                            <seg>Post
+                                        <lb/>que confessata predictus <persName ref="per010998a.01">Petrus Mugner</persName>
+                                        <lb/>fuit iterum caritative <term ref="lem017137.01">admonitus</term>, ut per
+                                        <lb/>passionem domini nostri <persName ref="per000353a.18">Jhesu Christi</persName> ante terciam <term ref="lem017130.01">monicionem</term>
+                                        <lb/>veritatem de culpis et perpetratis suis de crimine
+                                        <lb/>heresis vellet recognoscere, presentando eidem
+                                        <lb/>gratiam sancte matris Ecclesie, cum intimacione
+                                        <lb/>eidem <persName ref="per010998a.01">Petro Mugner</persName> facta quod nisi ante
+                                        <lb/>terciam monicionem suum reatum recognoverit,
+                                        <lb/>prout volunt canonice sanciones, quem terminum 
+                                        <lb/>sibi pro tempore gratie idem dominus inquisitor assignavit&#160;;
+                                        <lb/>si predicta pretereat, contra et adversus eumdem
+                                        <lb/><persName ref="per010998a.05">Petrum Mugnerii</persName> juxta iuris rigorem
+                                        <lb/>procedetur.
+                            </seg>
+                            </p>
+                        <head type="subtitle">18 mars 1448</head>
+                         <p><seg>Ipso vero <persName ref="per010998a.01">Petro Mugner</persName> a predictis vacilando et
+<lb/><label type="keyword" place="left margin" scribe="2">Secunda variacio</label> confessata retractante, predictus frater <persName ref="per010881a.02">Petrus 
+                                        <lb/>Rondinelli</persName> <choice><sic>procurator fidei procurator fidei</sic><corr>procurator fidei</corr></choice> instanter 
+                                        <lb/>requisivit in favorem fidei predictum <persName ref="per010998a.01">Petrum
+                                        <lb/>Mugner</persName> premissis actentis detineri. Et tunc
+                                        <lb/>premissis auditis, prefatus dominus inquisitor
+                                        <lb/>eidem <persName ref="per010998a.01">Petro</persName> districte et sub pena <choice><sic>confessati</sic><corr></corr></choice> 
+                                        <lb/>criminis jam confessati necnon et <measure type="currency" unit="lb" quantity="1000" origin="Lausanne">mille librarum
+                                        <lb/>lausannensium</measure>, pro medietate elemosine reverendi in
+                                        <lb/><persName ref="per000353a.17">Christo</persName> patris et domini nostri domini <persName ref="per010754a.01">Georgii de
+  <pb n="47" facs="ACV_AC-29_47_48"/><lb/>Saluciis</persName> Dei et apostolice Sedis gratia <orgName ref="org001749.03">Lausannensis</orgName> <term ref="lem001847.01">episcopi</term>
+                                        <lb/>et <term ref="lem005360.01">comitis</term> applicandarum, et pro alia medietate
+                                        <lb/>officio inquisicionis fidei apostolice, <supplied reason="omitted">petivit</supplied> quatenus indilate
+                                        <lb/>et evestigio se representaret apud <placeName ref="loc008768.02">castrum
+                                        <lb/>Turris de Peil</placeName> coram eodem domino inquisitore
+                                        <lb/>super premissis responsurum.
+                            </seg>
+                              <seg>Quibus peractis,
+                                        <lb/>predictus <persName ref="per010998a.01">Petrus Mugner</persName>, premissis consentiendo
+                                        <lb/>et consensum prebendo, petivit et requisivit
+                                        <lb/>quatenus ipse dominus inquisitor eidem <persName ref="per010998a.01">Petro</persName>
+                                        <lb/>terminum ad se plenius avisandum super premissis
+                                        <lb/>et se representandum ubi supra <del rend="strikethrough">s[ub]</del> dilacione 
+                                        <lb/>sub penis predictis usque <date when="1448-03-19">ad diem crastinam 
+                                        <lb/>et usque ad <time period="noon">horam meridianam seu duodecimam</time></date> 
+                                        <lb/>concedere dignaretur sub caucione
+                                        <lb/>idonea sub pena predicta per eum prestanda.
+                             </seg>
+                             <seg><lb/>Quiquidem prefatus dominus inquisitor cupiens
+                                        <lb/>cum eodem <persName ref="per010998a.01">Petro Mugner</persName> pie, misericorditer,
+                                        <lb/><choice><sic>begnine</sic><corr>benigne</corr></choice> et caritative procedere, recepta
+                                        <lb/>prius caucione idonea juratoria et sub pena
+                                        <lb/>predicta a dicto <persName ref="per010998a.01">Petro</persName>, ad sancta Dei euvangelia
+                                        <lb/>in manibus ipsius domini inquisitoris manualiter
+                                        <lb/>tacta et sub obligacione omnium et singulorum
+                                        <lb/>bonorum suorum quorumcumque mobilium et immobilium
+                                        <lb/>presencium et futurorum quorumcumque, ipso <persName ref="per010998a.01">Petro</persName>
+                                        <lb/>in libertate constituto de se representando
+                                        <lb/>personaliter coram prefato domino inquisitore infra
+                                        <lb/><placeName ref="loc008768.02">castrum Turris de Peil</placeName> <time period="noon">hora suprascripta</time> nec
+                                        <lb/>inde recedendo absque ipsius licencia. Honora<lb break="no"/>biles viri ibidem astantes, videlicet dompnus
+                      <pb n="48" facs="ACV_AC-29_47_48"/><lb/><persName ref="per011015a.02">Aymo de Fonte</persName> curatus de <placeName ref="loc008151.05">Corsier</placeName>, <persName ref="per011016a.01">Vuillelmus de 
+                                        <lb/>Gerdili</persName> <term ref="lem017142.01">castellanus</term> dicti loci de <orgName ref="org005218.02">Corsie</orgName> pro domino
+                                        <lb/>nostro <orgName ref="org001749.03">Lausannensi</orgName> episcopo et comite, <persName ref="per011018a.02">Franciscus Crachoz</persName>
+                                        <lb/>et <persName ref="per011063a.01">Johannes Perrin</persName> ad preces et requisiciones 
+                                        <lb/>dicti <persName ref="per010998a.01">Petri Mugner</persName> se fidejussores et 
+                                        <lb/>principales in premisso debito et sub pena
+                                        <lb/>predicta precibus dicti <persName ref="per010998a.01">Petri</persName> per ipsos et eorum
+                                        <lb/>quemlibet commutenda se constituerunt, bona
+                                        <lb/>sua quecumque obligando, de representando
+                                        <lb/>dictum <persName ref="per010998a.01">Petrum</persName> ubi supra, quibuscumque
+                                        <lb/>juribus, deffensionibus, renunciacionibus, <subst><del>cavillationum</del><add place="above">cavillacionibus</add></subst>,
+                                        <lb/>cautelis et aliis renunciando et se et
+                                        <lb/>quemlibet ipsorum submictendo expresse juridictioni,
+                                        <lb/>cohercioni curiarum prefati domini nostri <orgName ref="org001749.03">Lausannensis</orgName> episcopi 
+                                        <lb/>et comitis et dicti domini inquisitoris
+                                        <lb/>pro premissis ut supra promissis, <abbr>etc</abbr>. 
+                             </seg>
+                             <seg>Acta
+                                        <lb/>fuerunt hec die et loco predictis, presentibus 
+                                        <lb/>ibidem prefato venerabili viro domino <persName ref="per011017a.01">Petro de
+                                        <lb/>Crosa</persName> presbitero, <persName ref="per010993a.02">Johanne de Berchier</persName> <term ref="lem009160.01">clerico</term>, <persName ref="per011050a.01">Petro
+                                        <lb/>Cerracti</persName> <term ref="lem007472.01">domicello</term> et <persName ref="per011057a.01">Johanne Hugonini</persName> 
+                                        <lb/><subst><del>hospites</del><add place="overwritten">hospite</add></subst> testibus ad premissa vocatis et
+                                        <lb/>rogatis.</seg>
+                              <seg><lb/><origDate when="1448-03-18">Anno quo supra die vero decima octava eiusdem
+                                        <lb/>mensis <time period="morning">hora circiter undecima ante meridiem</time></origDate>,
+                                        <lb/>existentibus in predicto <placeName ref="loc008768.02">castro Turris de Peil</placeName> predicto
+                                        <lb/>domino inquisitore atque venerabili et egregio viro domino
+                                        <lb/><persName ref="per010874a.01">Leopardo de Bosco</persName> <term ref="lem000013.01">vicario</term> in hac parte reverendi in <persName ref="per000353a.17">Christo</persName>
+                                        <lb/>patris et domini nostri domini <persName ref="per010754a.01">Georgii</persName> Dei et apostolice Sedis 
+                                        <lb/>gracia <orgName ref="org001749.03">Lausannensis</orgName> episcopi et comitis pro certis negociis
+                                        <lb/>fidei accessit predictus <persName ref="per010998a.05">Petrus Mugnerii</persName> inquisitus 
+               <pb n="49" facs="ACV_AC-29_49_50"/><lb/>cum predictis suis fidejussoribus, exhibens semetipsum
+                                        <lb/>ipsique fidejussores ipsum restituentes juxta et secundum
+                                        <lb/>promissionem atque obligacionem <del rend="strikethrough">in[frascriptas]</del> suprascriptas petentesque
+                                        <lb/>a penis et obligacionibus suprascriptis relaxari, ipsisque
+                                        <lb/>fidejussoribus per prefatos dominos inquisitores relaxatis
+                                        <lb/>a predictis fidejussonibus et obligationibus, statuerunt
+                                        <lb/>et ordinaverunt predictum <persName ref="per010998a.05">Petrum Mugneri</persName> personaliter 
+                                        <lb/>in eodem castro detineri tanquam in carceribus 
+                                        <lb/>inquisicionalibus, apostolicis et ordinariis, in manu
+                                        <lb/>et custodia <persName ref="per010880a.01">Petri Ros</persName> <term ref="lem017142.01">castellani</term> predicti loci <orgName ref="org005217.04">Turris 
+                                        <lb/>de Peil</orgName>, quantum fuerit de beneplacito ipsorum dominorum
+                                        <lb/>judicum. </seg>
+                             <seg>Quo detento, predicti domini judices
+                                         <lb/>pro certis aliis negociis fidei occupati inde recesserunt
+                                        <lb/>redieruntque <time period="evening">hora vesperorum</time> ad predictum <persName ref="per010998a.01">Petrum</persName> inquisitum
+                                         <lb/>ipsumque caritative et in virtute passionis <persName ref="per000353a.17">Christi</persName>
+                                         <lb/>admonuerunt, ut puram et meram veritatem super
+                                        <lb/>commissis per eumdem in crimine heresis sponte et confestin
+                                        <lb/>vellet recognoscere. Qui <persName ref="per010998a.01">Petrus</persName> delatus humiliter
+                                        <lb/>rogavit et supplicavit sibi per prefatos dominos inquisitores
+                                         <lb/>terminum dari usque in crastinum ad se avisandum
+                                         <lb/>promittens omnem veritatem se dicturum. Quam
+                                        <lb/>diem predicti domini inquisitores eidem concedentes,
+                                        <lb/>ipsum iterum caritative admonuerunt, ut se bene de per eum
+                                         <lb/>perpetratis avisaret.          
+                             </seg>
+                        </p>
+                        <head type="subtitle" resp="GO">19 mars 1448</head>
+                        <p><seg><origDate when="1448-03-19">Die igitur decima nona mensis marcii</origDate>, vigore
+                                        <lb/>assignacionis suprascripte comparuit predictus
+                                        <lb/><choice><sic>Anthonius</sic><corr><persName ref="per010998a.01">Petrus</persName></corr></choice> inquisitus coram prefatis dominis inquisitoribus 
+                                        <lb/><time period="evening">hora vesperorum</time> in camera superiori juxta magnam
+                                        <lb/>aulam predicti castri, presentibus ibidem nobili viro
+                                        <lb/><persName ref="per011051a.01">Andrea de Blona</persName>, magistro <persName ref="per011052a.01">Johanne de Ulmo</persName> in 
+                                        <lb/><add place="left margin">artibus magistro</add>, <persName ref="per011016a.01">Vuillelmo de Gerdili</persName> et <subst><del>patre</del><add place="overwritten">fratre</add></subst> <persName ref="per010881a.02">Petro Rondinelli</persName>
+                                        <lb/><orgName ref="org004025.04">ordinis Predicatorum conventus Lausannensis</orgName>. 
+                            </seg>
+                            <seg>Ipse siquidem
+                                        <lb/><persName ref="per010998a.01">Petrus Mugner</persName> inquisitus sua spontanea voluntate
+                                        <lb/>et cum magna contricione <term ref="lem018158.01">cordis</term>, genibus flexis,
+                                        <lb/>dixit et sponte confessus est, a nemine interrogatus,
+                       <pb n="50" facs="ACV_AC-29_49_50"/><lb/>prout sequitur. Et primo dixit et sponte confitetur quod
+                                        <lb/>a tribus annis et citra <persName ref="per010753a.01">Jaquetus Durier</persName> quondam 
+                                        <lb/>duxit eum ad quendam locum versus pratum rotundum
+                                        <lb/>ibique reperit <term ref="lem017140.01">demonem</term>&#160;; cui demoni genibus flexis
+                                        <lb/>fecit <term ref="lem016607.01">homagium</term> et reverenciam, et in signum veri
+                                        <lb/>homagii dedit ei unam capram quam diabolus
+                                        <lb/>arripiut ante domum ipsius ubi ipse <del rend="strikethrough">Jaq[uetus]</del> <persName ref="per010998a.01">Petrus</persName>
+                                        <lb/>delatus eam dimiserat, negavitque ibidem Deum
+                                        <lb/>omnipotentem et que Dei sunt.
+                            </seg>
+                            <seg>Interrogatus qualiter 
+                                <lb/>vocabatur predictus diabolus, dixit quod <persName>Sarat</persName><note>Ce nom attribué au diable surprend, puisque ce mot est employé pour désigner un cri prononcé par le démon dans le procès de Jaquet Durier (<bibl><ref>ACV, Ac 29</ref>, p.&#160;14</bibl> et <bibl><ref target="http://permalink.snl.ch/bib/chbsg000079676">Ostorero 1995</ref>, p.&#160;207, n.&#160;21</bibl>). Il s’agit donc probablement d’une confusion de la part de l’inquisiteur, du greffier ou de l’accusé.</note>, dicens
+                                        <lb/>ulterius et sponte confitens quod una alia vice
+                                        <lb/>fuit in sinagoga cum hereticis in domo recluse
+                                        <lb/>juxta <placeName ref="loc009133.02">pontem Viviaci</placeName> ubi fecerunt homagium
+                                        <lb/>prout supra&#160;; et fecerunt timorem ancille
+                                        <lb/>predicte recluse, ita quod ipsa recedente et
+                                        <lb/>intrante domum magistre sue, ipsi cum quodam
+                                        <lb/>turbine recludentes portam <sic>postequam</sic> predicte 
+                                        <lb/>ancille, remanxit vestis predicte ancille interclusa
+                                        <lb/>inter portam ligneam et <foreign xml:lang="fr">loz baten</foreign>&#160;; dicens ulterius
+                                        <lb/>quod ipse delatus fuit in quadam secta usque <placeName ref="loc008819.03">Sanctum Martinum</placeName>
+                                        <lb/>prout jam dixit&#160;; dicens premissa esse vera sub periculo
+                                        <lb/>anime sue et per vim sui prestiti juramenti ad sancta
+                                        <lb/>Dei euvangelia per ipsum in manibus prefati domini inquisitoris <del rend="strikethrough">facta</del>
+                                        <lb/>manualiter tacta, protestans quod si de pluribus
+                                        <lb/>aliis per eum commissis possit recordari, illa libenti
+                                        <lb/>et contricto animo die crastina recognoscet
+                                        <lb/>et confitebitur, petens et requirens humiliter
+                                        <lb/>gratiam sancte matris Ecclesie sibi concedi et penitentiam
+                                        <lb/>injungi salutarem. Quam diem prefati domini
+                                        <lb/>judices assignaverunt ad amplius procedendum in presenti
+                                        <lb/>causa prout juris fuerit et rationis. 
+                            </seg>
+                            <seg>Acta fuerunt
+                                        <lb/>hec loco, die, hora et presentibus quibus supra et
+                                        <lb/>me notario subscripto.
+                            </seg>
+                        </p>
+                        <p><seg><signed><persName ref="per010992a.01">Glaudius Burritaz </persName><figure type="notarial sign"/></signed></seg></p>   
+                        <pb n="51" facs="ACV_AC-29_51_52"/>
+                        <head type="subtitle" resp="GO">20 mars 1448</head>
+                         <p><seg><origDate when="1448-03-20">Anno quo supra, die vicesima mensis marcii</origDate>
+                                        <lb/>in castro <choice><sic>et et</sic><corr>et</corr></choice> loco predictis, predictus <persName ref="per010998a.05">Petrus
+                                         <lb/>Mugnerii</persName> fuit adductus coram prefatis dominis
+                                        <lb/>inquisitore et vicario, <choice><sic>solitus</sic><corr>solutus</corr></choice> et liber omni
+                                        <lb/>vinculo, et interrogatus per eosdem dominos judices
+                                        <lb/>an illa que <choice><sic>eri</sic><corr>ieri</corr></choice> confessus fuerat  essent vera.
+                                        <lb/>Qui dixit et respondit sub vi juramenti jam
+                                         <lb/>prestiti omnia illa que prius confessus fuit fuisse
+                                         <lb/>et esse vera, dicens et affirmans prout supra
+                                        <lb/>se trina vice fuisse in secta hereticorum et
+                                        <lb/>ibidem demonem <term ref="lem017268.01">adorasse</term>, dedisse et homagiasse, 
+                                         <lb/>prout superius habetur, <choice><sic>adens</sic><corr>addens</corr></choice> ultra preconfessata
+                                         <lb/>quod ipse diabolus magister sinagoge erat in
+                                        <lb/>specie unius cati nigri, quando ipsum adoravit. 
+                         </seg>
+                                <seg><lb/>Et dixit ulterius quod in secunda sinagoga,
+                                          <lb/>cui interfuit, que fuit celebrata in domo
+                                           <lb/>reclusorii predicti, vidit per predictum <persName ref="per010753a.06">Jaquetum
+                                          <lb/>Costumerii</persName> et alios secum assistentes <del rend="strikethrough">de</del>
+                                          <lb/>dequoquere quandam carnem in domo sua quam
+                                          <lb/>dicebant esse unius pueri&#160;; de qua carne
+                                          <lb/>dixit se non comedisse cum esset novus
+                                          <lb/>et hoc aborreret. </seg>
+                             <seg>Interrogatus amplius
+                                          <lb/>si aliquis eum induxit ad dicendum predictam
+                                          <lb/>seu agnegandum veritatem sive ad aliqua
+                                          <lb/>confitendum fuerat inductus, qui <persName ref="per010998a.01">Petrus</persName> dixit
+                                          <lb/>sub periculo et dampnacione anime sue
+                                         <lb/>illa que de suis peccatis et criminibus
+                                          <lb/>confessus est ex sola contricione et intencione
+                                          <lb/>redeundi ad Deum, confessus fuit sicut et
+                                          <lb/>de presenti confitetur&#160;; unde genibus flexis et
+                                          <lb/>manibus junctis ante pectus <choice><sic>et</sic><corr/></choice> petivit
+                                          <lb/>humiliter a predictis suis criminibus perpetratis
+                                            <lb/>in facto <term ref="lem017109.01">heresis</term> predicte beneficium <term ref="lem017105.01">absolucionis</term>
+                                          <lb/>et penitenciam sibi injungi salutarem, offerens
+                         <pb n="52" facs="ACV_AC-29_51_52"/><lb/>se ad eam implendam bono corde paratum,
+                                        <lb/>se offerens ad renunciandum et abjurandum
+                                        <lb/>omnem heresim tam preteritam, <supplied reason="omitted">quam</supplied> presentem et futuram.
+                              </seg>
+                               <seg><lb/>Acta fuerunt hec <origDate when="1448-03-20">anno, die, hora</origDate> et loco predictis,
+                                        <lb/>presentibus ibidem venerabilibus viris dominis <persName ref="per010995a.01">Girardo
+                                        <lb/>Albi</persName> et <persName ref="per010994a.02">Petro de Cultillia</persName> <term ref="lem017135.01">jurisperitis</term>
+                                        <lb/>et magistro <persName ref="per011052a.01">Johanne de Ulmo</persName> in artibus
+                                        <lb/>licenciato, discretis viris <persName ref="per010880a.02">Petro Ros 
+                                        <lb/>alias de Eschiens</persName> castellano predicti loci,
+                                        <lb/><persName ref="per011016a.01">Vuillelmo de Gerdili</persName>, fratre <persName ref="per010881a.02">Petro Rondinelli</persName>
+                                        <lb/><orgName ref="org004150.03">ordinis Predicatorum</orgName> et me notario infrascripto.
+                               </seg>
+                            </p>
+                        <p><seg rendition="right"><signed><persName ref="per010992a.01">Glaudius Burritaz</persName></signed><figure type="notarial sign"/></seg></p>
+                        <head type="subtitle" resp="GO">23 mars 1448</head>
+                        <p><seg><origDate when="1448-03-23">Anno quo supra et loco predicto die vero
+                                        <lb/>vicesima tercia mensis predicti <time period="morning"><add place="right margin" type="sign" hand="other hand">hora prime</add></time></origDate>, comparuerunt
+                                        <lb/>judicialiter partes predicte coram prefato domino
+                                        <lb/>inquisitore, <choice><sic>renuntientes</sic><corr>renunciantes</corr></choice> et concludi petentes 
+                                        <lb/>in presenti causa atque jus dici et sententiam diffinitivam
+                                        <lb/>proferri&#160;; conclusoque in presenti causa et renunciato
+                                        <lb/>ut supra, assignavit dominus inquisitor predictus
+                                        <lb/>partibus predictis diem predictam <time period="morning">hora terciarum</time> ad diffinendum
+                                        <lb/>jus dicendum et sententiam proferendum, presentibus ibidem
+                                        <lb/>venerabili viro magistro <persName ref="per011052a.01">Johanne de Ulmo</persName> in artibus
+                                        <lb/>magistro, <persName ref="per010880a.01">Petro <del rend="strikethrough">de</del> Ros</persName> castellano <orgName ref="org005217.03">Viviaci</orgName>, <persName ref="per010993a.02">Johanne de 
+                                         <lb/>Berchier</persName> et <persName ref="per011234a.02">Johanne <del rend="strikethrough">de</del> Chevallier</persName> testibus 
+                                        <lb/>ibidem astantibus. Datum ut supra.
+                        </seg></p>
+                        <p><seg><origDate when="1448-03-23">Eodem die, <time period="morning">hora predicta terciarum</time></origDate>, in platea communi
+                                        <lb/>ante portam castri predicti, comparentibus predictis
+                                        <lb/>partibus assignatis coram prefatis dominis inquisitore et vicario,
+                                        <lb/>petentibus jus et sententiam diffinitivam proferri, ipsi domini judices
+                                        <lb/>suam sententiam diffinitivam protulerunt in hunc modum
+                                        <lb/>qui sequitur&#160;: In nomine <abbr>etc</abbr>. 
+                           </seg> 
+                            <seg>Presentibus ibidem venerabilibus <choice><sic>viris viris</sic><corr>viris</corr></choice>
+                                <lb/>dominis <persName ref="per010995a.01">Girardo Albi</persName>, <persName ref="per011056a.01">Johanne Probi</persName>, <persName ref="per010994a.02">Petro de Cultillia</persName>
+                                <lb/>in legibus licentiato, <persName ref="per010880a.01">Petro Ros</persName> castellano, <persName ref="per011152a.01">Anthonius Bonediei</persName>,
+                                <lb/><persName ref="per011016a">Vuillelmo</persName> et <persName ref="per011054a">Humberto de Gerdili</persName>, <persName ref="per010876a.01">Johanne Bruneti</persName>, <persName ref="per010993a.02">Johanne de
+                                <lb/>Berchier</persName> et magistro <persName ref="per011052a.01">Johanne de Ulmo</persName>, testibus ad premissa 
+                                <lb/>astantibus, et me notario subscripto.
+                       </seg></p>
+                   <pb n="53" facs="ACV_AC-29_53_54"/>
+                        <p><seg><hi rend="font change">In nomine Domini amen<note>Commence ici l’une des rares sentences conservées dans le registre <bibl><ref>ACV, Ac 29</ref></bibl>, avec formule d’abjuration.</note>. Quia</hi>
+                                        <lb/>nos frater <persName ref="per010867a.01">Petrus de Alneto</persName> <orgName ref="org004150.03">ordinis <subst><del>[p]redicatorum</del><add place="overwritten">Predicatorum</add></subst></orgName> heretice
+                                        <lb/>pravitatis inquisitor in civitatibus <placeName ref="loc007885.05">Lausannensi</placeName>, <placeName ref="loc007646.06">Gebennensi</placeName>
+                                        <lb/>et quibusdam aliis civitatibus et locis a sancta
+                                        <lb/>Sede apostolica specialiter deputatus, et <persName ref="per010874a.01">Leopardus de
+                                         <lb/>Bosco</persName> vicarius in hac parte reverendi in <persName ref="per000353a.17">Christo</persName> patris et domini
+                                        <lb/>nostri domini <persName ref="per010754a.01">Georgii de Saluciis</persName> Dei et apostolice Sedis
+                                        <lb/>gratia <orgName ref="org004150.03">Lausannensis</orgName> episcopi et comitis, per inquisicionem
+                                        <lb/><choice><sic>solertam</sic><corr>solertem</corr></choice> in et super facto heresis dampnatissime
+                                        <lb/>contra nonnullos notatos et suspectos de ipso
+                                        <lb/>crimine heresis, specialiter per processum per nos tam conjunctin
+                                       <lb/>quam divisin, contra te, <persName ref="per010998a.01">Petrum Mugner</persName> molendinatorem
+                                        <lb/>parrochie <placeName ref="loc008898.02">Sancti Mauricii</placeName> de <placeName ref="loc008151.04">Corsie</placeName><note>Le <placeName ref="loc009455.01">moulin de Corsier</placeName> appartient pour les deux tiers à l’<placeName ref="loc008831.03">hôpital du Mont–Joux,</placeName> et pour le tiers restrant à l’<placeName ref="loc008830.01">hôpital Neuf du Vieux–Mazel</placeName> depuis <date when="1336">1336</date> (<bibl><ref target="http://permalink.snl.ch/bib/chbsg991001190348303977">De Montet 1884</ref>, p.&#160;83 et p.&#160;75, doc.&#160;84–85</bibl> et <bibl><ref target="http://permalink.snl.ch/bib/chbsg000079676">Ostorero 1995</ref>, p.&#160;119–120</bibl>).</note> <placeName ref="loc005781.04">Lausannensis diocesis</placeName>,
+                                        <lb/>invenimus, comperimus et ex ipso tuo processu
+                                        <lb/>nobis clarissime constat te dictum <persName ref="per010998a.01">Petrum</persName> multa
+                                        <lb/><term ref="lem017127.01">nefanda</term> et orribilia commisisse in facto dampnatissime
+                                        <lb/>heresis contra sacrosanctam fidem catholicam et nostram
+                                        <lb/>matrem Ecclesiam, videlicet Deum omnipotentem
+                                        <lb/>et omnia que Dei sunt agnegando, fidelitatem
+                                        <lb/>et homagium diabolo humane nature <add place="right margin" type=" sign" hand="other hand">inimico</add> faciendo
+                                        <lb/>atque eidem in signum <choice><sic>viri</sic><corr>veri</corr></choice> homagii et fidelitatis
+                                        <lb/>quoddam animal brutum videlicet unam capram eidem
+                                        <lb/>donando atque multa alia committendo que in tuo
+                                        <lb/>processu lacius continentur, que etiam ore tuo proprio
+                                        <lb/>sponte <add place="interlinear">et</add> cumfestin ante terciam monicionem
+                                        <lb/>recognovisti. 
+                             </seg>
+                              <seg>Propterea adjunctis nobiscum
+                                        <lb/>ad hec laudabilius exequenda pluribus notabilibus
+                                        <lb/>viris tam ecclesiasticis quam secularibus in jure divino
+                                        <lb/>et canonico expertis de quorum consilio et assensu
+                                        <lb/>ad nostram <term ref="lem018088.02">sententiam diffinitivam</term> procedimus prout sequitur&#160;: 
+                              </seg>
+                                <seg><lb/><figure type="drawing"/>†&#160;<persName ref="per000353a.17">Christi</persName> nomine invocato a quo omne rectum procedit
+                                        <lb/>judicium, non declinantes <choice><sic>ad</sic><corr>a</corr></choice> dextris neque a sinistris,
+                                        <lb/>sed equo libramine procedentes, Deum et sacram
+                                        <lb/>scripturam pre occulis habentes, ut de vultu Dei nostrum
+                                        <lb/>prodeat judicium et occuli nostri videant equitatem,
+                                        <lb/>pro tribunali sedentes, per hanc nostram diffinitivam
+                                        <lb/>sententiam decernimus, pronunciamus et declaramus
+                                        <lb/>te dictum <persName ref="per010998a.01">Petrum Mugner</persName> fuisse hereticum, penitentem
+                                        <lb/>autem et reversum de heresi ad gremium sancte
+                                        <lb/>matris Ecclesie, si tamen de corde puro et consciencia
+                                        <lb/>non ficta redeas ad ipsum gremium <del rend="strikethrough">sancte matris</del>
+                            <pb n="54" facs="ACV_AC-29_53_54"/><lb/>sancte matris Ecclesie, <add place="interlinear" hand="other hand">prout per signa exteriora pretendis</add>, et omnem heresim judicialiter
+                                        <lb/>in nostris manibus abjuraveris, ad quod faciendum
+                                        <lb/>te adjudicamus per hanc nostram sententiam diffinitivam. 
+                            </seg>
+                                <seg><lb/>Qua sententia ut premictitur lata, predictus <persName ref="per010998a.01">Petrus
+                                         <lb/>Mugner</persName>, genibus flexis coram prefatis dominis
+                                         <lb/>judicibus, ambabus manibus super sanctis Dei euvangeliis
+                                         <lb/>positis, omnem heresim abjuravit, prout sequitur&#160;:
+                                </seg>
+                               <seg><lb/>Ego <persName ref="per010998a.01">Petrus Mugner</persName> quondam deceptus
+                                        <lb/>atque lapsus in heresim, abjuro omnem heresim
+                                         <lb/>extollentem se adversus et contra honorem divine
+                                         <lb/>magestatis et sancte fidei catholice atque
+                                        <lb/>sancte matris Ecclesie, specialiter heresim illorum hereticorum
+                                        <lb/><term ref="lem017310.03">modernorum Valdensium</term> in quorum numero fueram 
+                                        <lb/>dampnabiliter agregatus et promitto Deo <del rend="strikethrough">omnip[otenti]</del> 
+                                        <lb/>omnipotenti et vobis dominis judicibus inquisitori
+                                        <lb/>et vicario suprascriptis et hic presencialiter
+                                         <lb/>pro tribunali sedentibus quod a modo in antea ero
+                                         <lb/>bonus et fidelis catholicus, sustinendo veros
+                                        <lb/>fideles et persequendo hereticos posse meo
+                                         <lb/>atque eorundem fugiam consorcia, petens humiliter
+                                        <lb/>de premissis beneficium absolucionis et penitentiam salutarem.
+                                </seg></p>
+                        <p><seg>Et nos prefati inquisitor et vicarius, attendentes
+                                          <lb/>quod nostra sancta mater Ecclesia nulli claudit
+                                          <lb/>gremium redeunti, <choice><sic>auctortatibus</sic><corr>auctoritatibus</corr></choice> apostolica et ordinaria <add place="right margin">quibus fungimur</add>,
+                                          <lb/><add place="left margin">te</add><del rend="strikethrough">qui</del> dictum <persName ref="per010998a.01">Petrum Mugner</persName> absolvimus a reatu
+                                          <lb/>predicte heresis et restituimus te catholice
+                                          <lb/>unitati et participacioni sacramentorum Ecclesie,
+                                          <lb/>injungentes preterea et loco penitencie salutaris
+                                          <lb/>imponentes, ut <date type="floating holiday">die secunda sollempnitatis
+                                          <lb/><term ref="lem018615.01">Paschalis</term></date> instantis, remoto capucio et zona
+                                          <lb/>soluta, tenens duas candelas cereas ascensas
+                                          <lb/>ponderantes duas libras, <choice><sic>ascedas</sic><corr>ascendas</corr></choice> horam offertorii
+                                          <lb/>ad ecclesiam tuam parrochialem <placeName ref="loc008898.02">Sancti Mauricii</placeName>
+                                          <lb/>de <placeName ref="loc008151.06">Corsiaco</placeName> atque predictas candelas deportes 
+                                          <lb/>usque ad angulum altarius illasque genibus
+                                          <lb/>flexis offeras manus sacerdotis, quodque
+                                          <lb/>per annum integrum tenearis ministrare oleum
+                                          <lb/>neccessarium ad unam <choice><sic>lampandem</sic><corr>lampadem</corr></choice> die ac nocte
+                   <pb n="55" facs="ACV_AC-29_55_56"/><lb/>ardentem ante conspectum <term ref="lem017061.01">corporis Christi</term>, incipiendo a
+                                          <lb/>data presencium. 
+                            </seg>
+                            <seg>Item magis, per annum integrum <del rend="strikethrough">jegu[nabis]</del>
+                                        <lb/>gegunabis omnibus diebus <date period="P6WD"><sic>venerinis</sic></date>, atque toto tempore
+                                        <lb/>vite tue abstinebis in diebus <date period="P4WD">mercurii</date> ab omni esu carnium
+                                        <lb/><choice><sic>quorumquumque</sic><corr>quorumcumque</corr></choice>&#160;; et qualibet septimana hinc ad septem
+                                        <lb/>ebdomadas inmediate sequentes reficias in domo
+                                        <lb/>tua tres pauperes cum pane et vino et <term ref="lem017676.02">pidancie</term>
+                                        <lb/>condecenti, et hoc in die <date period="P2WD">lune</date>, si commode fieri
+                                        <lb/>possit, sinautem prima die opportuna ipsius
+                                        <lb/>septimane. 
+                            </seg>
+                            <seg>Item et quod visitare personaliter tenearis
+                                        <lb/>limina et ecclesiam <placeName ref="loc009136.02">Beati Jacobi</placeName> de <placeName ref="loc009135.02">Galicia</placeName> et
+                                        <lb/><placeName ref="loc009138.02">Beate Marie</placeName> de <placeName ref="loc009137.02">Podio</placeName>, de quibus peregrenacionibus per te
+                                        <lb/>factis nos certifficare tenearis per litteras testimoniales
+                                        <lb/>dominorum rectorum earundem ecclesiarum. 
+                            </seg>
+                            <seg>Que omnia et singula
+                                        <lb/>suprascripta rigorem juris mictigantes atque graciose
+                                        <lb/>tecum agentes, injungimus et imponimus loco penitencie
+                                        <lb/>salutaris ad implenda et perficienda sub pena
+                                        <lb/>hereticis impenitentibus et obstinatis debita.
+                            </seg>
+                            <seg>Quas
+                                        <lb/>sententiam et penitentiam ipse <persName ref="per010998a.01">Petrus Mugner</persName> approbavit
+                                        <lb/>tanquam justas et equas submisitque se et promisit omnia
+                                        <lb/>se ad impleturum bona fide et sub pena suprascripta.
+                            </seg>
+                             <seg><lb/>Data, lata et lecta fuit presens sententia hora, die,
+                                       <lb/>loco et presentibus quibus supra, fecitque juramentum <del rend="strikethrough">pro[ut]</del> ipse
+                                        <lb/><persName ref="per010998a.01">Petrus</persName> prout in eadem sententia continetur, et me notario
+                                       <lb/>subscripto.
+                            </seg>
+                        </p>
+                        <p><seg rendition="right"><signed><persName ref="per010992a.01">Glaudius Burritaz</persName><figure type="notarial sign"/></signed></seg></p>
+                        <p><seg><handShift scribe="2"/>Processus <persName ref="per010998a.05">Petri Mugnerii</persName></seg></p> 
+                        <add place="bottom">Extracta sunt nomina accusatorum retroscriptorum.</add>
+                    </div>
+                </body>
+            </text>
+        </group>
+        
+        <back>
+            <div>
+                <p>Les procès de Jaquet Durier (p.&#160;5–28 <ref>SDS_VD_D_1_0002</ref>), de Catherine Quicquat (p.&#160;29–43 <ref>SDS_VD_D_1_0003</ref>), de Pierre Munier (p.&#160;44–55), de Pierre Chavaz (p.&#160;56–71 <ref>SDS_VD_D_1_0005</ref>) et de Pierre Antoine (p.&#160;104–119 <ref>SDS_VD_D_1_0006</ref>) ont été intentés entre 1448–1449. Ils sont les témoins d’une vaste chasse aux sorciers menée sur la Riviera lémanique et dans le Nord vaudois au milieu du XV<hi rend="sup">e</hi> siècle.</p>
+            </div>
+        </back>
+    </text>
+</TEI>
+

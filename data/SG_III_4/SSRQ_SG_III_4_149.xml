@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-08-15"/>
+            <date type="print"/>
+            <availability><p xml:id="facs">Sibylle Malamud</p></availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_149</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>StAZH A 346.3, Nr. 68</idno>
+               </msIdentifier>
+               <head>Erläuterung über die Hochgerichtsbarkeit in der Freiherrschaft Sax-Forstegg
+                  (Auszug aus dem Vertrag vom 16. Dezember 1602, Artikel 3)</head>
+               <msContents>
+                  <summary>
+                     <p>Wird eine Person von den Richtern als malefizisch erkannt und zum Tod
+                        verurteilt, ist diese Person anwesend oder nicht, soll Johann Christoph von
+                        Sax-Hohensax seinen Teil von den Einnahmen bekommen. Wird eine verurteilte
+                        Person begnadigt und am Leben gelassen, jedoch an ihrem Hab und Gut
+                        bestraft, soll Johann Christoph ebenfalls seinen Teil bekommen. Er soll
+                        dafür eine in der Herrschaft wohnhafte Person bestimmen, die für ihn seinen
+                        Teil einzieht.</p>
+                  </summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <filiation type="current">Aufzeichnung (Doppelblatt)</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="31.0"/>
+                              <width unit="cm" quantity="21.5"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1602-12-16">Undatiert, datiert nach dem Vertrag vom 16.
+                        Dezember 1602.</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000044">Hochgericht</term>
+               <term ref="key004483">Ertrag</term>
+               <term ref="key000341">Ordnung</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb facs="StAZH_A_346.3_Nr._68"/>
+               <div org="uniform" sample="complete">
+                  <head>
+                     <lb/>Wie der puncten das <term ref="lem001470">malefitz</term> betreffendt <lb/>umb etwas beßer zu
+       erlütheren.</head>
+                  <p>
+                     <seg>
+                        <lb/>Was vor <term ref="lem005841">gricht</term> mit <term ref="lem001289">urtheil</term> und recht
+       <term ref="lem001473">malefitzisch</term>
+                        <lb/>erkhendt unnd <term ref="lem015222.02">zum tod verurtheilt</term> wirt, <lb/>die <term ref="lem008106">verfelte</term> ald
+       verurtheilte person sye under <lb/>augen oder nit, darinnen dann die <term ref="lem000342">richtere</term>
+                        <lb/>allwegen by iren eiden, wie brüchig, nach <lb/>dem <term ref="lem018816">keyßerlichen rechten</term> ir
+       <term ref="lem014818">urteil fellen</term>
+                        <lb/>und dem, so den <term ref="lem000418">tod verschuldet</term>, nit schonen
+       <lb/>söllent. Davon sölle herr <persName ref="per004678">Johann Christoff</persName>
+                        <lb/>syn gebürender theil, es syge inn nutz oder <lb/>costen, zugerechnet werden.</seg>
+                     <seg>
+        Ob <lb/>aber einer maleficischen person, nachdem die<lb break="no"/>selb vom gricht
+        <term ref="lem015222">zum tod verurteilt</term> were, <lb/>
+                        <del>etwan</del> umb gwüßer ursachen willen <add place="left margin">von der hohen oberkeit</add> das <lb/>
+                        <term ref="lem002291">leben</term> geschenckt,
+        <term ref="lem000999">gnad</term> bewißen und aber dar<lb break="no"/>nebent ein sölliche person an
+        <term ref="lem005362">gut</term> gestrafft <lb/>wurde, wie etwan von den hohen oberkeiten <lb/>beschicht
+        unnd inn derselben macht stadt, <lb/>von denselbigen straffen sölle herr <persName ref="per004678">Johann
+         <lb/>Christoffen</persName> auch syn gebürender theil ge<lb break="no"/>volgen.</seg>
+                     <seg>Unnd ob herr <persName ref="per004678">Johann <lb/>Christoff</persName> ein bestelte person, die sye
+        deß <lb/>
+                        <term ref="lem000431">grichts</term> oder ußerthalb, doch das die inn der <lb/>herrschafft
+        wonhafft, zum <term ref="lem000382">intzug</term> synes jeder<lb break="no"/>wylen inn söllichen sachen
+        zufallenden theils <lb/>haben will, das sölle ime fryg zugelaßen <lb/>syn.</seg>
+                  </p>
+               </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div n="1" org="uniform" sample="complete">
+            <p>Aus der <term ref="key000920">Erbschaft</term> seines verstorbenen <term
+                  ref="key000159">Bruders</term> erhält <persName ref="per004678">Johann Christoph
+                  von Sax-Hohensax</persName> zuerst den vierten Teil und wohl nach dem Verkauf
+               durch <persName ref="per004677">Johann Albrecht von Sax-Hohensax</persName> den
+               dritten Teil des <term ref="key000044">Hochgerichts</term> an der Freiherrschaft
+                  <placeName ref="loc000278">Sax-Forstegg</placeName> (vgl. den Kommentar in
+                  <ref>SSRQ_SG_III_4_147</ref>). Am 7. Juli 1600 beschwert sich Johann
+               Christoph bei Zürich, dass <persName ref="per004549">Adriana Franziska von
+                  Sax-Hohensax</persName> ohne sein Wissen in der Freiherrschaft Sax-Forstegg
+               Hochgericht gehalten habe, obwohl ihm in Malefizsachen der dritte Teil gehöre. Er
+               fordert, dass sie für dieses Mal die <term ref="key003505">Gerichtskosten</term> und
+               die Kosten der <term ref="key004830">Boten</term> übernehme und das nächste Mal
+               zuwarte, bis er einen <term ref="key000065">Amtmann</term> für das Gericht bestimmt
+               habe (<bibl><ref>StAZH A 346.3,  Nr. 62</ref></bibl>). Auf weitere Beschwerden von
+               Johann Christoph über die Witwe von Sax-Hohensax schlichten Bürgermeister und Rat von
+               Zürich am 16. Dezember 1602 die Streitigkeiten zwischen den beiden Parteien
+               (Original: <bibl><ref>StAZH C I, Nr. 3221</ref></bibl>). Bei der hier vorliegenden
+               Erläuterung zum Hochgericht handelt es sich um einen Auszug des Vertrags von 1602
+                     (<bibl><ref>StAZH C I, Nr. 3221</ref>, Art. 3</bibl>).</p>
+         </div>
+         <div n="2" org="uniform" sample="complete">
+            <p><persName ref="per004678">Johann Christoph</persName> behält seinen Teil am <term
+                  ref="key000044">Hochgericht</term> auch nach dem Verkauf der Herrschaft
+               Sax-Forstegg 1615 (<ref>SSRQ_SG_III_4_158</ref>). Am 18. Juli 1625 verkauft
+               sein Sohn <persName ref="per004680">Christoph Friedrich von Sax-Hohensax</persName>
+               den Anteil am Hochgericht an Zürich für <measure quantity="5000" type="currency"
+                  unit="fl">5000 Gulden</measure> (Original:
+               <bibl><ref>StASG AA 2 U 52</ref></bibl>; zum Verkauf des Hochgerichts siehe auch
+                     <bibl><ref>StAZH A 346.4, Nr. 26</ref></bibl>; <bibl><ref>StASG AA 2 A
+                     03-10</ref></bibl>); zur Hochgerichtsbarkeit vgl.
+                  <ref>SSRQ_SG_III_4_057</ref>.</p>
+         </div>
+      </back>
+   </text>
+</TEI>

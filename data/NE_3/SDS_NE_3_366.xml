@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     n="1234"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="headerinfo"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2020-08-17"/>    <date type="print"/>
+    <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Collection des sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS_NE_3_366</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>AVN B 101.14.001, fol. 620r–620v</idno>
+               </msIdentifier>
+               <head>Émancipation du fils marié</head>
+               <msContents>
+                  <summary>Un jeune homme âgé de dix-neuf à vingt ans atteint la majorité. Lorsqu’il est
+                     marié, il est émancipé et le bien qu’il gagne ainsi que les dettes qu’il
+                     contracte sont pour son propre compte, même s’il est associé avec son
+                     père.</summary>
+                  <msItem>
+                     <textLang>français</textLang>
+                     <filiation type="current"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="33"/>
+                              <width unit="cm" quantity="23.5"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1710-12-18"/>
+                     <origPlace ref="loc007786">Neuchâtel</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head/>
+                     <bibl/>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key003288"/>
+               <term ref="key000244"/>
+               <term ref="key000058"/>
+               <term ref="key005153"/>
+               <term ref="key000460"/>
+               <term ref="key003331"></term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="620r" facs="AVN_B_101.14.001_0620r"/>
+               <div>
+                  <head>
+                     <lb/>Sur l’emancipation.</head>
+                  <p>
+                     <lb/>Sur la requeste presentée par dame <lb/><persName ref="per008868">Susanne
+                        Bourguet</persName>, refugiée habitante <lb/>dans cette ville, par devant
+                     monsieur le <lb/><choice>
+                        <abbr>M<hi rend="sup">tr</hi>.</abbr>
+                        <expan>maître</expan>
+                     </choice>
+                     <choice>
+                        <abbr>B&#160;:</abbr>
+                        <expan>bourgeois</expan>
+                     </choice> et messieurs du <orgName ref="org003085">Conseil Etroit de la
+                        <lb/>Ville de <placeName ref="loc007786">Neuchâtel</placeName></orgName>,
+                     aux fins d’avoir le <lb/>point de coutume suivant. </p>
+                  <p>
+                     <lb/>Sçavoir si un jeune homme, qui a passé l’aage <lb/>de <measure type="age"
+                        unit="year" quantity="20">vingt ans</measure>, marié et qui negotie, étant
+                     associé <lb/>avec son pere, n’est pas émancipé. </p>
+                  <p>
+                     <lb/><orgName ref="org003085">Mesdits <choice>
+                           <abbr>S<hi rend="sup">rs</hi>
+                           </abbr>
+                           <expan>sieurs</expan>
+                        </choice> du Conseil</orgName>, ayant eu avis et meure <lb/>premeditation
+                     par ensembles, baillent par <lb/>declaration, suivant la coutume usitée en la
+                     <lb/>souveraineté de <placeName ref="loc007785">Neuchâtel</placeName>, de pere
+                     à fils et de <lb/>tout temps immemorial la coutume estre telle. </p>
+                  <p>
+                     <lb/>Assavoir qu’un jeune homme ayant l’aage <lb/>de <measure type="age"
+                        unit="year" quantity="19">dix neuf</measure> a <measure type="age"
+                        unit="year" quantity="20">vingt ans</measure>, a atteint l’aage de
+                     <lb/>majorité, que quand il est marié, il est <lb/>émancippé, et que s’il est
+                     associé, soit avec <lb/>son pere ou autre, que le bien qu’il gagne <lb/>et les
+                     debtes qu’il fait, c’est pour son <lb/>propre compte. </p>
+                  <p>
+                     <lb/>Laquelle declaration <orgName ref="org003085">mesdits sieurs du
+                        <lb/>Conseil</orgName> ont ordonné a moy, <choice>
+                        <abbr>secrete</abbr>
+                        <expan>secretaire</expan>
+                     </choice> de ville <lb/>
+                     <add place="below" type="catchword">soussigné</add>
+                     <pb n="620v" facs="AVN_B_101.14.001_0620v"/>
+                     <lb/>soussigné, de ainsi expedier, sous le seau de la <lb/>maiorie et justice
+                     de la ditte ville de <origPlace ref="loc007786">Neuchâtel</origPlace>
+                     <lb/>le <origDate when="1710-12-18">18<hi rend="sup">e</hi>
+                        <choice>
+                           <abbr>xbre</abbr>
+                           <expan>décembre</expan>
+                        </choice>
+                        <hi rend="underline">1710.</hi>
+                     </origDate>
+                  </p>
+               </div>
+               <div>
+                  <p>
+                     <lb/>L’original est signé par moy.
+       </p>
+                  <signed>
+                     <persName ref="per008874">Bourgeois dit Francey</persName>
+                     <figure type="notarial sign"/>
+                  </signed>
+               </div>
+            </body>
+         </text>
+      </group>
+   </text>
+</TEI>

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="headerinfo"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <date type="electronic" when="2020-08-17"/>    <date type="print"/>
+    <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Collection des sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS_NE_3_318</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier>
+      <idno>AVN B 101.14.001, fol. 555v–556r</idno>
+     </msIdentifier>
+     <head>Cautionnement d’un fils mineur</head>
+     <msContents>
+      <summary>Un fils de famille mineur ne peut pas cautionner. Les créanciers ne peuvent pas
+       saisir les biens des père et mère vivants pour les cautionnements de leur fils. Le créancier
+       peut en revanche agir sur le bien propre du mineur ainsi que sur le bien qui lui est dévolu
+       par succession.</summary>
+      <msItem>
+       <textLang>français</textLang>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="33"/>
+          <width unit="cm" quantity="23.5"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <origDate when="1693-01-31" calendar="Julian"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>
+      </origin>
+     </history>
+     <additional>
+      <listBibl>
+       <head/>
+       <bibl/>
+      </listBibl>
+     </additional>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key000499"></term>
+     <term ref="key000874"></term>
+     <term ref="key004001"></term>
+     <term ref="key003521"></term>
+     <term ref="key000244"></term>
+     <term ref="key000476"></term>
+     <term ref="key005000"></term>
+     <term ref="key000920"></term> 
+     <term ref="key000815"></term>
+    </keywords>
+   </textClass>
+   <particDesc default="false"/>
+   <settingDesc default="false"/>
+  </profileDesc>
+ </teiHeader>
+
+ <text>
+  <group>
+   <text>
+    <body>
+        
+     
+     <pb n="555v" facs="AVN_B_101.14.001_0555v"/> 
+        
+     <div>
+      
+      <head>
+       <lb/>Le fils de famille qui n’est pas majeur
+        <lb/>ne peut cautionner.
+      </head>
+      
+      <p>
+       <lb/>Sur la requeste presentée par <choice>
+        <abbr>honn</abbr>
+        <expan>honnorable</expan>
+       </choice>
+       <persName ref="per008994">Abraham <lb/>Jaquet</persName> de <placeName ref="loc007803">Lignieres</placeName> par devant
+       monsieur le maistre bourgeois <lb/>et <orgName ref="org003085">Conseil Estroit de la Ville de
+        <placeName ref="loc007786">Neufchatel</placeName></orgName>, le <origDate when="1693-01-31" calendar="Julian">dernier jour
+        <lb/>du mois de janvier 1693</origDate>, tandante aux fins d’avoir le <lb/>point de coutume
+       suivant. </p>
+      
+      <p>
+       <lb/>Scavoir sy un fils de famille estant dans le mesnage <lb/>avec son pere sans avoir aucun
+       bien en son propre et sans <lb/>estre <term ref="lem014992">detronqué</term>, ains a pain et sel avec <choice>
+        <abbr>led</abbr>
+        <expan>ledit</expan>
+       </choice> son pere, s’il <lb/>est en estat de cautionner vallablement et, venant à faire
+       <lb/>un cautionnement durant qu’il est ainsi sous l’obeissance <lb/>paternelle, sy pour un
+       tel cautionnement on peut saisir <lb/>le bien de son pere ou de sa mere avant partage fait et
+       <lb/>pendant qu’il n’a rien en propre. </p>
+      
+      <p>
+       <lb/><orgName ref="org003085">Messieurs du Conseil</orgName>, ayans sur ce eu advis et meure
+       <lb/>déliberation par ensemble, donne par declaration que, <lb/>suivant la coutume usitée en
+       la souveraineté de <lb/><placeName ref="loc007785">Neufchatel</placeName> de pere à fils et de tous temps
+       immemorial <lb/>jusques à present, la coutume est telle. </p>
+      
+      <p>
+       <lb/>Assavoir, qu’un fils de famille qui n’a pas <choice><abbr>enor</abbr><expan>encore</expan></choice>
+       <lb/>atteint l’âge de majorité n’est point en estat de cautionner
+       <lb/>et que les creanciers ne peuvent point saisir les biens
+       <lb/>des peres et mere vivans pour les cautionnemens de leur fils,
+       <lb/>mais s’ils estoit <del rend="strikethrough">pas</del> majeur en faisant <choice><abbr>led</abbr><expan>ledit</expan></choice> cautionnement
+       <lb/>et qu’il eu du bien qui luy fust <choice><sic>revolu</sic><corr>dévolu</corr></choice> par succession
+       <lb/>de son pere ou de sa mere et que d’ailleurs il eu quelque bien à luy
+       <lb/>apartenant en propre, le creancier alors peut agir sur iceux
+       <lb/>sans pouvoir saisir le bien de ses pere et mere vivans.
+      </p>
+      
+      <pb n="556r" facs="AVN_B_101.14.001_0556r"/>
+      
+      <p>
+       <lb/>Ce qu’a esté ainsi fait et arresté <choice>
+        <abbr>aud</abbr>
+        <expan>audit</expan>
+       </choice>
+       <orgName ref="org003085">Conseil</orgName>, le jour et an <lb/>susdit et ordonné à moy, notaire, pour
+       l’absence <choice>
+        <abbr>dus<hi rend="sup">r</hi></abbr>
+        <expan>dusieur</expan>
+       </choice> secretaire <lb/>de ville de l’expedier en cette forme, sous le <term ref="lem016327.02">séel</term> de la mayorie
+       &amp; <lb/>justice <choice>
+        <abbr>dud</abbr>
+        <expan>dudit</expan>
+       </choice>
+       <origPlace ref="loc007786">Neufchatel</origPlace> et signature de ma main. </p>
+  
+      <div>
+       <p>
+        <lb/>Copie extraite de sur l’original
+        <lb/>signé par moy.
+       </p>
+       <signed><persName ref="per008992"><choice><abbr>N</abbr><expan>Nicolas</expan></choice> Huguenaud</persName> <figure type="notarial sign"/></signed>
+      </div>
+      
+    
+      </div>
+     
+       
+    </body>
+   </text>
+  </group>
+ </text>
+</TEI>

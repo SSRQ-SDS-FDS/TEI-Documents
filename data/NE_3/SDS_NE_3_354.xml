@@ -1,0 +1,594 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="headerinfo"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <date type="electronic" when="2020-08-17"/>    <date type="print"/>
+    <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Collection des sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS_NE_3_354</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier>
+      <idno>AVN B 101.14.001, fol. 601r–605v</idno>
+     </msIdentifier>
+     <head>Coutume, droit romain et testaments</head>
+     <msContents>
+      <summary>Vingt-et-un points de coutume concernant les modalités de succession en général et dans des
+       cas très spécifiques. Rejet par le Petit Conseil du droit romain au profit de la
+       coutume.</summary>
+      <msItem>
+       <textLang>français</textLang>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="33"/>
+          <width unit="cm" quantity="23.5"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <origDate when="1705-05-08"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>
+      </origin>
+     </history>
+     <additional>
+      <listBibl>
+       <head/>
+       <bibl/>
+      </listBibl>
+     </additional>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key000468"></term>
+     <term ref="key005123"></term>
+     <term ref="key005125"></term>
+     <term ref="key005097"></term>
+     <term ref="key003288"></term>
+     <term ref="key000635"></term>
+     <term ref="key000078"></term>
+     <term ref="key000920"></term>
+     <term ref="key000815"></term>
+     <term ref="key000058"></term>
+     <term ref="key000336"></term>
+     <term ref="key000670"></term>
+     <term ref="key000803"></term>
+     <term ref="key005111"></term>
+     <term ref="key004774"></term>
+     <term ref="key000241"></term>
+     <term ref="key005084"></term>
+     <term ref="key005117"></term>
+     <term ref="key005179"></term>
+     <term ref="key004770"></term>
+     <term ref="key001112"></term>
+     <term ref="key004428"></term>
+     <term ref="key003331"></term>
+     <term ref="key005216"></term>
+
+     
+    </keywords>
+   </textClass>
+   <particDesc default="false"/>
+   <settingDesc default="false"/>
+  </profileDesc>
+ </teiHeader>
+
+ <text>
+  <group>
+   <text>
+    <body>
+        
+     
+     <pb n="601r" facs="AVN_B_101.14.001_0601r"/> 
+        
+     <div>
+      <head>
+       <lb/>Touchant les testamens.</head>
+      <p>
+       <lb/>Sur la requeste presentée à <orgName ref="org003085"><choice>
+         <abbr>Mess<hi rend="sup">rs</hi></abbr>
+         <expan>messieurs</expan>
+        </choice> le <lb/>maitre bourgeois et Conseil Etroit de la Ville de <lb/><placeName
+         ref="loc007786">Neufchastel</placeName></orgName> par le <choice>
+        <abbr>S<hi rend="sup">r</hi></abbr>
+        <expan>sieur</expan>
+       </choice>
+       <persName ref="per008886">David Dupaquier</persName>, <choice>
+        <abbr>not</abbr>
+        <expan>notaire</expan>
+       </choice>
+       <lb/>bourgeois de <choice>
+        <abbr>lad</abbr>
+        <expan>ladite</expan>
+       </choice> ville, agissant au nom du <choice>
+        <abbr>S<hi rend="sup">r</hi></abbr>
+        <expan>sieur</expan>
+       </choice>
+       <lb/><persName ref="per008887">Jaques Baron</persName>, bourgeois de <placeName
+        ref="loc007941">Blaye</placeName> en <placeName ref="loc007940">Guyenne</placeName>,
+       <lb/>tendante aux fins d’avoir declaration de la cou<lb break="no"/>tume <choice>
+        <abbr>dud</abbr>
+        <expan>dudit</expan>
+       </choice>
+       <placeName ref="loc007785">Neufchastel</placeName> sur les points et arti<lb break="no"/>cles
+       suivans. </p>
+      <p>
+       <lb/>1. Si dans la souveraineté de <placeName ref="loc007785">Neufchatel</placeName>
+       <lb/>l’on juge suivant le droit romain ou suivant <lb/>une coutume locale&#160;? </p>
+      <p>
+       <lb/>2. Si par la coutume de <placeName ref="loc007785">Neufchastel</placeName>, l’on n’en<lb
+        break="no"/>tend pas tant les anciennes usances qui ne <lb/>sont point redigées par ecrit,
+       que les declara<lb break="no"/>tions rendues par <orgName ref="org003085"><choice>
+         <abbr>mess<hi rend="sup">rs</hi></abbr>
+         <expan>messieurs</expan>
+        </choice> du Conseil Etroit</orgName>
+       <lb/>de cette ville et qui se trouvent par ecrit <lb/>scelées du seau de la ville et signées
+       par le <lb/><choice>
+        <abbr>secret</abbr>
+        <expan>secrétaire</expan>
+       </choice> de ville, ou vidimées et collationnées <lb/>sur l’original par un <choice>
+        <abbr>not</abbr>
+        <expan>notaire</expan>
+       </choice> fameux&#160;? </p>
+      <p>
+       <lb/>3. Si une personne qui veut faire un <choice>
+        <abbr>testam<hi rend="sup">t</hi></abbr>
+        <expan>testament</expan>
+       </choice>
+       <lb/>ne doit pas estre en bon sens, de franche et <lb/>libre condition, aagée de <measure
+        type="age" unit="year" quantity="19">dix neuf</measure> ans accom<lb break="no"/>plis,
+       disposer de chose qui soit en sa puissance, <pb n="601v" facs="AVN_B_101.14.001_0601v"/>
+       <lb/>sans sollicitation, ni induction de personne, <lb/>et si le <choice>
+        <abbr>not</abbr>
+        <expan>notaire</expan>
+       </choice> ne doit pas faire mention de cet <lb/>état et disposition dans <choice>
+        <abbr>led</abbr>
+        <expan>ledit</expan>
+       </choice> testament&#160;? </p>
+      <p>
+       <lb/>4. Si un testateur n’est pas obligé de nommer <lb/><choice>
+        <abbr>specifiquem<hi rend="sup">t</hi></abbr>
+        <expan>specifiquement</expan>
+       </choice> par nom et surnom tous les heritiers <lb/>et legataires à peine de nullité de son <choice>
+        <abbr>testam<hi rend="sup">t</hi></abbr>
+        <expan>testament</expan>
+       </choice>&#160;? </p>
+      <p>
+       <lb/><del rend="strikethrough"><add place="left margin">fol. 56</add></del> 5<hi rend="sup"
+        >e</hi> Si le <choice>
+        <abbr>testate<hi rend="sup">r</hi></abbr>
+        <expan>testateur</expan>
+       </choice> n’est pas obligé d’<term ref="lem015554">exhereder </term><lb/>aussi <choice>
+        <abbr>nommém<hi rend="sup">t</hi></abbr>
+        <expan>nommément</expan>
+       </choice> et <choice>
+        <abbr>specifiquem<hi rend="sup">t</hi></abbr>
+        <expan>specifiquement</expan>
+       </choice> tous ceux, qui <lb/><choice>
+        <abbr>autrem<hi rend="sup">t</hi></abbr>
+        <expan>autrement</expan>
+       </choice> seroient ses heritiers legitimes et <lb/>ab intestat, et leur laisser au moins à
+       <lb/>titre de proprieté <measure origin="NE" type="currency" unit="sol faible" quantity="5"
+        >cinq sols faibles</measure><note>Le sol faible est une dénomination rare du gros qui
+        constitue un douzième de livre faible de Neuchâtel.</note> en <choice>
+        <abbr>depar<lb break="no"/>tem<hi rend="sup">t</hi></abbr>
+        <expan>departement</expan>
+        </choice> de ses biens&#160;? </p>
+      <p>
+       <lb/>6. Si le <choice>
+        <abbr>testate<hi rend="sup">r</hi></abbr>
+        <expan>testateur</expan>
+       </choice> n’est pas obligé de faire les <lb/>denominations <choice>
+        <abbr>susd</abbr>
+        <expan>susdites</expan>
+       </choice> à haute voix de sa propre <lb/>bouche et en presence des témoins et du <choice>
+        <abbr>not</abbr>
+        <expan>notaire</expan>
+       </choice>, ou <lb/>s’il peut les donner par écrit <choice>
+        <abbr>po</abbr>
+        <expan>pour</expan>
+       </choice> ensuite estre <lb/>revetues par un <choice>
+        <abbr>not</abbr>
+        <expan>notaire</expan>
+       </choice> des solemnités necessaires&#160;? </p>
+      <p>
+       <lb/>7. Si dans tous les testamens il n’y doit pas <lb/>y avoir une institution d’heritier
+       apres les <lb/>legataires, avec charge de payer et acquitter <lb/>les dettes d’un defunct&#160;? </p>
+      <p>
+       <lb/>8. Si, avant la Reformation, il estoit en ce <pb n="602r" facs="AVN_B_101.14.001_0602r"/>
+       <lb/>pays permis de donner son bien a son confesseur, <lb/>ou s’il l’est encore dans les
+       lieux de ce pays où la <lb/>religion catolique romaine est encore professée&#160;? </p>
+      <p>
+       <lb/>9. Si une disposition faite au profit des enfans <lb/>d’un tiers, sans designer ny par
+       leurs noms, ni par <lb/>leur nombre, ni par leur sexe peut subsister <lb/>par la coutume du
+       pays&#160;? </p>
+      <p>
+       <lb/>10. Si l’on peut leguer l’usufruit d’un bien <lb/>à une personne, à la charge de laisser
+        parve<lb break="no"/>nir apres sa mort la proprieté de ce bien <lb/>aux enfans qu’elle a
+       dans le tems de la disposi<lb break="no"/>tion, et si une telle disposition ne tient pas
+       <lb/>de la substitution deffendue par la coutume <lb/>du pays&#160;? </p>
+      <p>
+       <lb/>11. Si n’estant pas fait mention dans <choice>
+        <abbr>led</abbr>
+        <expan>ledit</expan>
+       </choice>
+       <lb/><choice>
+        <abbr>testam<hi rend="sup">t</hi></abbr>
+        <expan>testament</expan>
+       </choice> qu’il a esté lu et ensuite reconu par <lb/>le <choice>
+        <abbr>testate<hi rend="sup">r</hi></abbr>
+        <expan>testateur</expan>
+       </choice> et les témoins, cela n’est pas une <lb/>nullité essentielle au <choice>
+        <abbr>testam<hi rend="sup">t</hi></abbr>
+        <expan>testament</expan>
+       </choice>&#160;? </p>
+      <p>
+       <lb/>12. En quel degré les témoins peuvent estre <lb/>parens du testateur, des legataires, de
+       l’heri<lb break="no"/>tier institué et du notaire&#160;? </p>
+      <p>
+       <lb/>13. Si un <choice>
+        <abbr>testam<hi rend="sup">t</hi></abbr>
+        <expan>testament</expan>
+       </choice> sollemnel doit estre <pb n="602v" facs="AVN_B_101.14.001_0602v"/>
+       <lb/>revestu de la signature du testateur et des <lb/>témoins avec celle du notaire&#160;? </p>
+      <p>
+       <lb/>14. Si l’on ne doit pas faire apposer le seau <lb/>de la seigneurie à l’acte que l’on
+       veut produire <lb/>sur le jour fatal, ou produire attestation qu’on <lb/>la demandé à la
+       seigneurie. </p>
+      <p>
+       <lb/>15. Si un heritier institué et tous ceux qui <lb/>ont des pretentions en la succession
+       d’un defunt <lb/>par droit de proximité ou <choice>
+        <abbr>autrem<hi rend="sup">t</hi></abbr>
+        <expan>autrement</expan>
+       </choice>, ne doivent <lb/>pas estre munis et pourvus de leurs droits, titres <lb/>et
+       informations sur le jour fatal, et s’ils ne les <lb/>font pas, ils ne sont pas <choice>
+        <abbr>entierem<hi rend="sup">t</hi></abbr>
+        <expan>entierement</expan>
+       </choice> privés et dejettés. </p>
+      <p>
+       <lb/>16. Si le jour fatal n’est pas le <date dur="P40D">quarantième <lb/>jour</date> apres l’<choice>
+        <abbr>ensevelissem<hi rend="sup">t</hi></abbr>
+        <expan>ensevelissement</expan>
+       </choice> du defunt, et au cas <lb/>que <choice>
+        <abbr>led</abbr>
+        <expan>ledit</expan>
+       </choice> defunt soit enseveli le dimanche, s’il <lb/>ne faut pas demander l’<term
+        ref="lem015531">investiture</term> le samedi <lb/>devant. </p>
+      <p>
+       <lb/>17. Si les absens de l’Etat de <placeName ref="loc007785">Neufchatel</placeName> sont
+       <lb/>obligés de se presenter sur <choice>
+        <abbr>led</abbr>
+        <expan>ledit</expan>
+       </choice> jour fatal, et <lb/>s’ils n’ont pas un <date dur="1Y6W">an et six semaines</date> à
+       compter <add place="above">ou</add> dès <lb/>le jour de la mort du defunt, ou dès le jour
+       qu’ils <lb/>ont appris cette mort. </p>
+      <p>
+       <lb/>18. Si l’heritier institué ne doit pas presenter <pb n="603r" facs="AVN_B_101.14.001_0603r"/>
+       <lb/>sur le jour fatal, or et argent sur tables <choice>
+        <abbr>po</abbr>
+        <expan>pour</expan>
+       </choice>
+       <lb/>payer les legs, ou faire offre de les payer. </p>
+      <p>
+       <lb/>19. Si un legataire est obligé sans distinction <lb/>de prendre la possession en <term
+        ref="lem015531">investiture</term> sur le jours <lb/>fatal en justice, tant des meubles que
+       des immeubles <lb/>à lui legués&#160;? </p>
+      <p>
+       <lb/>20. En quel tems un legataire peut il deman<lb break="no"/>der à l’heritier la
+       delivrance de son leg, et dans quel <lb/>tems l’heritier peut il lui opposer la prescription. </p>
+      <p>
+       <lb/>21. Si un <choice>
+        <abbr>testam<hi rend="sup">t</hi></abbr>
+        <expan>testament</expan>
+       </choice> nul en un point, <del rend="blackened"><gap unit="cm" quantity="2.5"/></del>
+       <lb/>ne l’est pas en tous. </p>
+      <p>
+       <lb/><orgName ref="org003085"><choice>
+         <abbr>MesdS<hi rend="sup">rs</hi></abbr>
+         <expan>Mesdits sieurs</expan>
+        </choice> du Conseil</orgName>, ayant eu <lb/>avis par ensemble, donnent par declaration,
+       <lb/>que de tout tems immemorial de pere à fils <lb/>jusqu’a present, la coutume de
+        <placeName ref="loc007785">Neufchastel</placeName>
+       <lb/>est telle. </p>
+      <p>
+       <lb/>Assavoir, sur le 1. et 2. article <lb/>que, en jugeant, on ne suit pas le droit
+       <lb/>romain, mais bien la coutume particuliere <lb/>et ancienne ecrite et non ecrite usitée
+       <lb/>dans cette souveraineté.<note>Le Petit Conseil ne répond ici nullement au point deux&#160;!</note>
+      </p>
+      <pb n="603v" facs="AVN_B_101.14.001_0603v"/>
+      <p>
+       <lb/>Sur le 3<hi rend="sup">me</hi>. Une personne, <choice>
+        <abbr>po</abbr>
+        <expan>pour</expan>
+       </choice> pouvoir <lb/><choice>
+        <abbr>valablem<hi rend="sup">t</hi></abbr>
+        <expan>valablement</expan>
+       </choice> faire <choice>
+        <abbr>testam<hi rend="sup">t</hi></abbr>
+        <expan>testament</expan>
+       </choice>, donnation ou <lb/>autre disposition de ses biens, doit avoir <choice>
+        <abbr>po</abbr>
+        <expan>pour</expan>
+       </choice>
+       <lb/>le moins <measure type="age" unit="year" quantity="19">19 ans</measure> accomplis, et il
+       doit estre <lb/>de condition franche et en bon sens, sans <lb/>estre induit, sollicité ni
+       contraint, et il <lb/>convient qu’elle dispose de chose qui soit <lb/>en sa puissance et
+       disposition, <choice>
+        <abbr>autrem<hi rend="sup">t</hi></abbr>
+        <expan>autrement</expan>
+       </choice> le <lb/><choice>
+        <abbr>testam<hi rend="sup">t</hi></abbr>
+        <expan>testament</expan>
+       </choice>, donation ou autre disposition de <lb/>bien sont deffectueux. </p>
+      <p>
+       <lb/>Sur le 4. 5. et 6. Celui, (n’ayant point <lb/>d’enfans) qui veut exhereder de ses biens
+       <lb/>aucuns de ses plus proches parens, lesquels <lb/>à deffaut d’enfans legitimes devroient
+       estre <lb/>selon le droit de nature ses heritiers legiti<lb break="no"/>mes et ab intestat
+       s’il n’en estoit disposé <lb/><choice>
+        <abbr>autrem<hi rend="sup">t</hi></abbr>
+        <expan>autrement</expan>
+       </choice>, il les doit <choice>
+        <abbr>specifiquem<hi rend="sup">t</hi></abbr>
+        <expan>specifiquement</expan>
+       </choice> nommer, et <lb/>declarer ce qu’il lègue et ordonne à un <lb/>chacun d’eux en <choice>
+        <abbr>departem<hi rend="sup">t</hi></abbr>
+        <expan>département</expan>
+       </choice> de ses biens, l’or, <lb/>argent, obligations, terres ou autres choses <lb/>et pour
+       le moins la <choice>
+        <abbr>vale<hi rend="sup">r</hi></abbr>
+        <expan>valeur</expan>
+       </choice> de <measure unit="sol faible" quantity="5">cinq sols foibles</measure>. </p>
+      <p>
+       <lb/>Sur le 7. dans tous les testamens il y <lb/>doit avoir institution d’heritier, et celui
+       qui <lb/>en consequence se porte heritier d’un defunt <lb/>est obligé d’acquitter les dettes
+       et les legs <lb/><choice>
+        <abbr>dud</abbr>
+        <expan>dudit</expan>
+       </choice> defunt. </p>
+      <pb n="604r" facs="AVN_B_101.14.001_0604r"/>
+      <p>
+       <lb/>Sur le 8. Toute personne qui est de franche <lb/>condition et qui n’a point d’enfans
+       peut tester <lb/>et disposer de tous ses biens et les donner à <lb/>qui il lui plait, excepté
+       à moines blancs. </p>
+      <p>
+       <lb/>Sur le 9. Une disposition faite au profit <lb/>des enfans d’un tiers qui est <choice>
+        <abbr>clairem<hi rend="sup">t</hi></abbr>
+        <expan>clairement</expan>
+       </choice> et <choice>
+        <abbr>speci<lb break="no"/>fiquem<hi rend="sup">t</hi></abbr>
+        <expan>specifiquement</expan>
+       </choice> nommé peut subsister, sans qu’il <lb/>soit necessaire d’une plus particuliere
+        desi<lb break="no"/>gnation <choice>
+        <abbr>desd</abbr>
+        <expan>desdits</expan>
+       </choice> enfans. </p>
+      <p>
+       <lb/>Sur le 10. On peut disposer d’un bien <lb/>fond et donner la proprieté à une per<lb
+        break="no"/>sonne, et leguer l’usufruit <choice>
+        <abbr>dud</abbr>
+        <expan>dudit</expan>
+       </choice> bien à <lb/>une autre personne, sans que cela puisse <lb/>passer pour substitution. </p>
+      <p>
+       <lb/>Sur le 11. il n’est pas de pratique que le <lb/><choice>
+        <abbr>not</abbr>
+        <expan>notaire</expan>
+       </choice> énonce que le <choice>
+        <abbr>testam<hi rend="sup">t</hi></abbr>
+        <expan>testament</expan>
+       </choice> a esté lu. </p>
+      <p>
+       <lb/>Sur le 12. le <choice>
+        <abbr>not</abbr>
+        <expan>notaire</expan>
+       </choice> qui reçoit un acte tes<lb break="no"/>tamentaire, ne doit estre plus près qu’au
+       <lb/>quatrième degré de parentage avec le <lb/>testateur et avec l’heritier institué. <lb/>Et
+       les témoins qui sont appellés à la passation <lb/><choice>
+        <abbr>dud</abbr>
+        <expan>dudit</expan>
+       </choice> acte, ne doivent estre plus près qu’au tier <lb/>en quart degré de parentage avec
+       le notaire, <lb/>avec le testateur et avec l’heritier institué <lb/>par <choice>
+        <abbr>led</abbr>
+        <expan>ledit</expan>
+       </choice> testament. </p>
+      <pb n="604v" facs="AVN_B_101.14.001_0604v"/>
+      <p>
+       <lb/>Sur le 13. Il n’est pas necessaire qu’un <lb/><choice>
+        <abbr>testam<hi rend="sup">t</hi></abbr>
+        <expan>testament</expan>
+       </choice> passé par main de <choice>
+        <abbr>not</abbr>
+        <expan>notaire</expan>
+       </choice> en presence <lb/>de cinq témoins non suspects soit signé du <lb/>testateur ni des
+       témoins. </p>
+      <p>
+       <lb/>Sur le 14. 15. 16. 17. et 18<hi rend="sup">e</hi>. Celui <lb/>sachant la mort d’un
+       defunt, qui pretend <lb/>avoir action à la succession d’icelui, par <lb/>droit de proximité,
+       ou en vertu d’un tes<lb break="no"/>tament ou donation, doit demander la <lb/>mise en
+       possession et <term ref="lem015531">investiture</term> en justice <lb/>de son pretendu sur le
+       jour des <date dur="P6W">six semai<lb break="no"/>nes</date> de l’<choice>
+        <abbr>ensevelissem<hi rend="sup">t</hi></abbr>
+        <expan>ensevelissement</expan>
+       </choice> du defunt, muni de <lb/>ses droits et informations. </p>
+      <p>
+       <lb/>Et quand un defunt est enseveli par un <lb/>jour de dimanche, la mise en possession et
+        <lb/><term ref="lem015531">investiture</term> se doit demander le samedi <lb/>precedent le
+       jour des <date dur="P6W">six semaines</date>, qu’est <lb/>la veille d’iceluy. </p>
+      <p>
+       <lb/>Et en demandant la mise en possession <lb/>et <term ref="lem015531">investiture</term>
+       sur <choice>
+        <abbr>led</abbr>
+        <expan>ledit</expan>
+       </choice> jour, en vertu <lb/>d’un <choice>
+        <abbr>testam<hi rend="sup">t</hi></abbr>
+        <expan>testament</expan>
+       </choice>, donnation ou autre disposi<lb break="no"/>tion de biens, il doit produire en
+       ouverte <lb/>justice l’acte seelé du <term ref="lem016327">seel</term> de la seigneu<lb break="no"/>rie, ou à ce deffaut,
+       attestation de la <lb/>recherche qui en auroit esté faite. </p>
+      <pb n="605r" facs="AVN_B_101.14.001_0605r"/>
+      <p>
+       <lb/>Et l’heritier testamentaire ayant produit <lb/>son acte en due forme, doit sur <choice>
+        <abbr>led</abbr>
+        <expan>ledit</expan>
+       </choice>
+       <choice>
+        <abbr>jo</abbr>
+        <expan>jour</expan>
+       </choice> presenter <lb/>or et <choice>
+        <abbr>arg<hi rend="sup">t</hi></abbr>
+        <expan>argent</expan>
+       </choice> sur table en justice <choice>
+        <abbr>po</abbr>
+        <expan>pour</expan>
+       </choice> satisfaire <lb/>les legs pecuniaires en son tems, s’il y en a, <lb/>ou au moins
+       faire offre de les payer suivant <lb/>l’ordonnance testamentaire. </p>
+      <p>
+       <lb/>Et estant dans le lieu et ils ne s’approche <lb/>pas sur <choice>
+        <abbr>led</abbr>
+        <expan>ledit</expan>
+       </choice> jour pour demander la mise en <lb/>possession et <term ref="lem015531"
+        >investiture</term>, estant bien certioré <lb/>du trépas du defunt, il ne pourra <choice>
+        <abbr>aucunem<hi rend="sup">t</hi></abbr>
+        <expan>aucunement</expan>
+       </choice>
+       <lb/>avoir accès au bien d’icelui, ains il en est entiere<lb break="no"/>ment et pour le tout
+       privé et dejetté. </p>
+      <p>
+       <lb/>Mais celui qui n’est pas dans le lieu, il a <date dur="P1Y6W">an <lb/>et jours</date>
+       qu’est <date dur="P1Y6W">un an et six semaines</date> pour <lb/>s’approcher et demander la
+       mise en possession <lb/>et <term ref="lem015531">investiture</term> du bien delaissé par le
+       defunt, <lb/>alors venant dans <choice>
+        <abbr>led</abbr>
+        <expan>ledit</expan>
+       </choice> tems, il peut jouir de son <lb/>pretendu. Et s’il ne vient dans <choice>
+        <abbr>led</abbr>
+        <expan>ledit</expan>
+       </choice> terme d’un <lb/>an et six semaines à compter du jour de l’<choice>
+        <abbr>enseve<lb break="no"/>lissem<hi rend="sup">t</hi></abbr>
+        <expan>ensevelissement</expan>
+       </choice>, ains le laisse passer et expirer, il est <lb/><choice>
+        <abbr>entierem<hi rend="sup">t</hi></abbr>
+        <expan>entierement</expan>
+       </choice> frustré de la succession <choice>
+        <abbr>dud</abbr>
+        <expan>dudit</expan>
+       </choice> defunt <lb/>et il n’en peut avoir aucune part, s’il n’en est <lb/>relevé par la
+       justice souveraine. </p>
+      <p>
+       <lb/>Sur le 19. à l’egard des legataires, la pratique <lb/>n’a pas esté bien fixe jusqu’à
+       present, les uns en <lb/>ayant demandé la mise en possession et <term ref="lem015531"
+        >investiture</term>
+       <lb/>et les autres ne l’ayant pas fait, sans que pour <lb/>cela ils ayent perdu leurs legs. </p>
+      <pb n="605v" facs="AVN_B_101.14.001_0605v"/>
+      <p>
+       <lb/>Sur le 20. les legs portés dans un <choice>
+        <abbr>testam<hi rend="sup">t</hi></abbr>
+        <expan>testament</expan>
+       </choice>
+       <lb/>se doivent payer au tems et terme que le tes<lb break="no"/>tateur l’ordonne, moyennant
+       qu’il n’y ait au<lb break="no"/>cun usufruit sur les biens d’icelui. Cependant <lb/>un
+       heritier testamentaire d’un defunt n’est <lb/>pas obligé de payer les legs portés au <choice>
+        <abbr>testam<hi rend="sup">t</hi></abbr>
+        <expan>testament</expan>
+       </choice>
+       <lb/>au terme designé dans icelui lors qu’il y a <lb/>procès ou cause intentée pour annuller <choice>
+        <abbr>led</abbr>
+        <expan>ledit</expan>
+       </choice>
+       <lb/><choice>
+        <abbr>testam<hi rend="sup">t</hi></abbr>
+        <expan>testament</expan>
+       </choice>, ains <choice>
+        <abbr>seulem<hi rend="sup">t</hi></abbr>
+        <expan>seulement</expan>
+       </choice> à la fin de la cause ou <lb/>procès. Et la prescription n’arrive qu’au <lb/>bout de
+       dix ans à compter dès le jour que <lb/>l’heritier est ivestu et reconu. </p>
+      <p>
+       <lb/>Sur le 21. Quand un <choice>
+        <abbr>testam<hi rend="sup">t</hi></abbr>
+        <expan>testament</expan>
+       </choice> est deffec<lb break="no"/>tueux en un point essentiel, il est censé <lb/>estre
+       deffectueux en tous. </p>
+      <p>
+       <lb/>Laquelle declaration, <orgName ref="org003085"><choice>
+         <abbr>MesdS<hi rend="sup">rs</hi></abbr>
+         <expan>mesdits sieurs</expan>
+        </choice> du Conseil</orgName>
+       <lb/>ont ordonné à moy, <choice>
+        <abbr>secret</abbr>
+        <expan>secrétaire</expan>
+       </choice> de ville soussigné, <lb/>d’expedier en cette forme, munie du seau de <lb/>la mairie
+       et justice <choice>
+        <abbr>dud</abbr>
+        <expan>dudit</expan>
+       </choice>
+       <origPlace ref="loc007786">Neufchastel</origPlace>, à <lb/><placeName ref="loc007786"
+        >Neufchatel</placeName> le <origDate when="1705-05-08">8. may 1705</origDate>. </p>
+     </div>
+      
+      <div>
+       <p>
+        <lb/>L’original est signé par moy.
+       </p>
+       <signed><persName ref="per009011"><choice><abbr>J&#160;J</abbr><expan>Jean-Jacques</expan></choice> Favargier</persName> <figure type="notarial sign"/></signed>
+      </div>
+  
+
+     
+       
+    </body>
+   </text>
+  </group>
+ </text>
+</TEI>

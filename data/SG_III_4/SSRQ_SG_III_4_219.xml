@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-08-15"/>
+            <date type="print"/>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_219</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+     <msIdentifier>
+      <idno>StASG AA 3 B 06, 09.09.1733</idno>
+      <altIdentifier>
+       <idno>StASG AA 3 B 6</idno>
+      </altIdentifier>
+     </msIdentifier>
+             <head>Feuerordnung für die Landvogtei Werdenberg</head>
+     <msContents>
+      <summary>
+       <p>Die Feuerordnung für die Landvogtei Werdenberg regelt folgende Brandschutzmassnahmen, die
+        in allen drei Kirchen verlesen werden:</p>
+       <p>1. Landvogt Johann Peter Zwicky soll dafür sorgen, dass alle Häuser Kamine haben.</p>
+       <p>2. Öfen und Herdstellen sollen mit steinernen Platten versehen werden.</p>
+       <p>3. Leicht brennbares Material soll feuersicher aufbewahrt werden.</p>
+       <p>4. Brotbacken ist bei windigem Wetter verboten.</p>
+       <p>5. Schmiede und Schlosser dürfen bei Wind kein Feuer entzünden.</p>
+       <p>6. Waschen ist bei Wind ebenfalls verboten.</p>
+       <p>7.–10. Nachts muss ein Geschirr mit Wasser unter das Licht gestellt werden und man darf
+        nur mit Laternen ausser Haus gehen.</p>
+       <p>11.–12. In der Nähe von leicht brennbarem Material darf nicht geraucht werden und Vögel
+        oder Wild geschossen werden.</p>
+       <p>13. Nachts sollten Feuer gelöscht werden.</p>
+       <p>14. Zwei Mal jährlich müssen die Kamine gefegt werden.</p>
+       <p>15.–16. Grabs, Buchs und Sevelen müssen diverses Material zur Feuerbekämpfung anschaffen.
+        Es werden 12 Feuerschauer eingesetzt, die für die Gemeindesechstel oder -drittel verantwortlich
+        sind und zwei Mal jährlich die Kamine, Feuerstätten etc. zu kontrollieren haben. Im
+        Brandfall haben sie die Löscharbeiten zu koordinieren.</p>
+      </summary>
+      <msItem>
+       <textLang>Deutsch</textLang>
+       <filiation type="current">Aufzeichnung (unpaginiert) mit kartoniertem
+        Ledereinband</filiation>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="33.0"/>
+          <width unit="cm" quantity="22.0"/>
+         </dimensions>
+        </extent>
+        <condition>Anfang des Buches fehlt, zahlreiche Blätter dazwischen und im hinteren Teil
+         herausgeschnitten, Blatt 1 und 2 lose</condition>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <origDate when="1733-09-09"/>
+      </origin>
+     </history>
+    </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000392">Feuerordnung</term>
+               <term ref="key000404">Feuer</term>
+               <term ref="key000401">Feuereimer</term>
+               <term ref="key000406">Feuerhaken</term>
+               <term ref="key000400">Feuerleiter</term>
+               <term ref="key000408">Feuerschauer</term>
+               <term ref="key000405">Feuerstätte</term>
+               <term ref="key000184">Busse</term>
+               <term ref="key000341">Ordnung</term>
+               <term ref="key000395">Kaminfeger</term>
+               <term ref="key000491">Mandat</term>
+               <term ref="key000394">Hauskontrollen</term>
+               <term ref="key000396"/>
+               <term ref="key005368"/>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+    <text>
+  <group>
+   <text>
+    <body>
+     <!-- Zeit im Portal date Frühling, Herbst nicht an; zudem pb hier leer, da keine Seitennummerierung, wie sollen wir das darstellen? ok, man müsste das ganze Buch paginieren, daher hier lassen-->
+     <div>
+      <p><gap reason="irrelevant"/><note>Die vorangehenden, unpaginierten Seiten enthalten die
+        verkündeten Mandate seit dem <date when="1733-04-07">7. April 1733</date>.</note>
+       <seg><lb/>Erichte <term ref="lem003366.02">feür ordnung</term> für die graffschafft
+         <placeName ref="loc000440">Werdenberg</placeName>
+        <lb/>anno 1733, auch zu jeedermans hier kömpfttigem verhalt <lb/>in allen dry <term
+         ref="lem000240">kirchen</term> zu verlesen, den <origDate when="1733-09-09">9. tag
+         7bris</origDate>.</seg>
+       <seg>
+        <lb/>1.<hi rend="sup">o</hi> Weillen dem vernehmen nach zimblich vill <term ref="lem000248"
+         >haüser</term>, <lb/>darinnen keine <term ref="lem004643.03">camin</term>, alß gehett der
+        ernstliche <lb/>befelch <del>dahin</del> heren landtammen <persName ref="per002122">Johann
+         Petter Zwikhis</persName>
+        <lb/>alß unßer dißmahligen, hochgeachten und gnädigen <lb/>herren landtvogts dahin, das alle
+        mangelbahre, so <lb/>bald es immer sein kann, mit <term ref="lem002306">leimb</term>, <term
+         ref="lem005397.03">taugstein</term> und <lb/>anderen erforderlichen materialien versehen
+        und zu <lb/>eigner, auch benachparten sicherheit guete <term ref="lem004643.03">camin</term>
+        machen <lb/>lassen.</seg>
+       <pb/>
+       <seg>
+        <lb/>2.<hi rend="sup">o</hi> Da gleichmäßig in villen <term ref="lem000248">haüseren</term>
+        umb die <term ref="lem009234.03">feür<lb break="no"/>stätt</term>, <term ref="lem016872.02"
+         >härdtblaten</term> undt <term ref="lem007139">öffen</term>, absonderlich die <term
+         ref="lem016582.04">bach<lb break="no"/>öffenn</term>, alzu nach hölzerne theillinen, <term
+         ref="lem005400">rigel</term> oder ander <lb/><term ref="lem004133.05">holzwerkh</term>, als
+        beschichet der ernstliche befelch durch legung <lb/><term ref="lem010415">steinernen</term>
+        <term ref="lem002643">platenn</term> undt errichtung diensammer <term ref="lem001749"
+         >mauern</term>, <lb/>sonderheitlich gueter verschließunng der <term ref="lem007139"
+         >öffen</term>, das mangel<lb break="no"/>bahre so zu verbeßeren undt in solchen standt zu
+        <lb/>stellenn, damit dardurch niemandt kein schaden zu ge<lb break="no"/>füegett werde. </seg>
+       <seg>
+        <lb/>3.<hi rend="sup">o</hi> Da so gar dem vernehmmen nach hin und wider <lb/>in haüßeren,
+        ja gar nache zu denn <term ref="lem009234.04">feüwrstätten</term>, <term ref="lem000142"
+         >haüw</term>, <lb/><term ref="lem002450.19">strauw</term>, <term ref="lem016871.01"
+         >bettlaub</term>, <term ref="lem009116.03">durholz</term> undt ander dergleichen leicht
+        <lb/>brünnende sachen eingelegt undt gesamblet werden, als <lb/>gehett die ernstliche
+        anstimung dahin, sich darfür ge<lb break="no"/>flißen zu hüeten undt wo albereit verdeüt
+        gefärliche <lb/><choice>
+         <sic>sagen</sic>
+         <corr>sachen</corr>
+        </choice> eingel<add place="above">eg</add>t, solche widerum hinweg zu nehmen und an
+        <lb/>solche orth zu verwahren, alwo wegen dem <term ref="lem003365.06">feüwr</term> keine
+        <lb/>gefahr nit zubeförchten.</seg>
+       <seg>Wan danne an villen orthen auch sonsten gar ohn<lb break="no"/>behuetsamb undt
+        ohnsorgfeltig das <term ref="lem003365.06">feüwr</term> gebraucht <lb/>old auch verwarth
+        werden, soll <del>als</del> darauß grosen <lb/>jahmmer, nachtheil, schaden und schrekhen
+        erwachsen <lb/>könte, als gebietet ferners: </seg>
+       <seg>
+        <lb/>4.<hi rend="sup">o</hi> Unser hochgeachte und gnädige herr landtvogt, das <lb/>bey
+        großen <term ref="lem000909">föhn</term> und <term ref="lem003031">winde</term> weeder die
+         <term ref="lem003398">bekhen</term>
+        <lb/>noch andere kein <term ref="lem000847">brott</term> bakhen ald darzu ein<lb break="no"
+        />heizen, bey <measure quantity="5" unit="k" type="currency">5 cronen</measure> ohnnachläßer
+         <term ref="lem000036">buoß</term>.</seg>
+       <seg>
+        <lb/>5.<hi rend="sup">o</hi> Das gleichmäsig bey ohngestürmer windeszeit <lb/>die <term
+         ref="lem002277.07">schmidt</term> undt <term ref="lem009062">schlosser</term> kein <term
+         ref="lem003365.06">feüwr</term> nit anzünden, <lb/>bey <measure quantity="2" unit="k"
+         type="currency">2 cronen</measure> ohnnachlächlicher buoß. </seg>
+       <seg>
+        <lb/>6.<hi rend="sup">o</hi> In solch gefärlicher zeit auch niemand kein <term
+         ref="lem016877.02">wösche</term>
+        <lb/>halte bey <measure quantity="3" unit="k" type="currency">3 cronen</measure>
+        ohnnachsächlicher buoß.</seg>
+       <seg>
+        <lb/>7.<hi rend="sup">o</hi>
+        <term ref="lem013357">Nächtlicher</term> zeit niemand <add place="above">in</add> keinen
+         <term ref="lem000248">haüßeren</term> bim <term ref="lem009298">liecht</term> nit
+         <lb/><term ref="lem006097">schleize</term>, man habe dann ein <term ref="lem005072"
+         >gschir</term> voll <term ref="lem000511">waßer</term> undter <del>sich</del> dem licht,
+        <lb/>bey <measure quantity="1" unit="k" type="currency">1 cronen</measure> ohn nachläßlicher
+         <term ref="lem000036">buoß</term>.</seg>
+       <seg>
+        <lb/>8.<hi rend="sup">o</hi> Auch kein <term ref="lem016873.01">holzarbeiter</term>, <term
+         ref="lem002167.01">tischmacher</term>, <term ref="lem003988.01">schreiner</term>, <term
+         ref="lem003692.10">zimmerleuth</term>, <term ref="lem003855.06">keüfer</term>
+        <lb/>oldt andere <term ref="lem013357">nächtlicher</term> weiße bim <term ref="lem009298"
+         >liecht</term> arbeiten, sie habendt dan <lb/>ein <term ref="lem005072">gschir</term> voll
+         <term ref="lem000511">waßer</term> undter dem liecht, bey <measure quantity="2" unit="k"
+         type="currency">2 cronen</measure> buoß. </seg>
+       <pb/>
+       <seg>
+        <lb/>9.<hi rend="sup">o</hi> Niemandt mit einem <term ref="lem009298">licht</term> ohne in
+        einer <term ref="lem003101">latternen</term>
+        <lb/><term ref="lem016875.01">schleizens</term> oder <term ref="lem016878.02"
+         >tröschzeit</term> über die <term ref="lem003094">gaßen</term> oder <term ref="lem001611"
+         >ställ</term>
+        <lb/>gehe, bey <measure quantity="2" unit="k" type="currency">2 cronen</measure>
+        ohnnachläßlicher <term ref="lem000036">buoß</term>. </seg>
+       <seg>
+        <lb/>10.<hi rend="sup">o</hi> Auch niemandt in der <term ref="lem016875.02"
+         >schleizzeit</term> kein offen <term ref="lem003365.06">feüwr</term>
+        <lb/>über die <term ref="lem003094">gaßen</term> trage, bey <measure quantity="1" unit="k"
+         type="currency">1 cronen</measure> ohnnachsechlicher buoß.</seg>
+       <seg>
+        <lb/>11.<hi rend="sup">o</hi> Bim <term ref="lem006097">schleizen</term>, <term
+         ref="lem016876.02">stenglen</term>, <term ref="lem002450.19">strauw</term> in <term
+         ref="lem000500.07">städtlen</term>
+        <subst><del>oldt</del><add place="above">undt</add></subst>
+        <lb/><term ref="lem000249.02">scheüren</term> ald ander der gleichen gefärlichen ortthen,
+        niemand <lb/>kein <term ref="lem003266">tabakh</term>
+        <term ref="lem005852">rauchi</term>, jeedes mahl demme, so es übersicht, <lb/>bei <measure
+         quantity="1" unit="k" type="currency">1 cronen</measure> ohnaußsezlicher buoß.</seg>
+       <seg>
+        <lb/>12.<hi rend="sup">o</hi> Niemand bimm <term ref="lem000500.07">städtlen</term>, <term
+         ref="lem000249.02">scheüren</term>, <term ref="lem002792">hanff</term>, <term
+         ref="lem002450.19">strauw</term>
+        <lb/>und <term ref="lem016876.02">stänglen</term>
+        <term ref="lem004315">vögel</term>, <term ref="lem001552">gwild</term> ald sonsten <term
+         ref="lem007078">schießen</term>, <lb/>bey <measure quantity="1" unit="k" type="currency">1
+         cronen</measure>
+        <term ref="lem000036">buoß</term>.</seg>
+       <seg>
+        <lb/>13.<hi rend="sup">o</hi> Ohne erforderliche nothwendigkeit <term ref="lem013357"
+         >nächtlicher</term> zeit weeder <lb/><term ref="lem011414.03">gwirbs</term>, <term
+         ref="lem003395">handtwerkhs</term> noch andere leüth kein <term ref="lem003365.06"
+         >feüwr</term>
+        <lb/>anmachen oder undterhalten, sonderen daßelbige <lb/>sorgfeltig und gewahrsamblich
+        löschen und versorgen, <lb/>bey <measure quantity="1" unit="k" type="currency">1
+         cronen</measure> ohnnachläßlicher buoß.</seg>
+       <seg>
+        <lb/>14.<hi rend="sup">o</hi> Jeedes <term ref="lem000248">hauß</term>
+        <term ref="lem002869">inwohnere</term>
+        <date dur="R/P1Y">alljärlichen</date> zwey mahlen, <lb/>namblich am <date period="spring"
+         >früehling</date> undt <date period="fall">herbst</date>, die <term ref="lem004643.09"
+         >kähmin</term>
+        <lb/>selbsten geflißen buzen und fägen ald aber <lb/>die ordinary <term ref="lem004644.03"
+         >kähmi fäger</term> buzen und fägen <lb/>laßenn, bey <measure quantity="1" unit="k"
+         type="currency">1 cronen</measure> buoß.</seg>
+       <seg>
+        <lb/>Und weillen bekanth, daß ohngeachtet sorgfeltig undt <lb/>nothwendig errichteten <term
+         ref="lem003366.04">feürordnungen</term>, etwan aus <lb/><sic>verwahrloßnung</sic>
+        <add place="inline">ohn</add>sorgfeltigen leüthen, etwan aus <lb/>ohnfursichtigkeit und
+        etwann aus anderen, ja bis weillen <lb/>verborgenen ursachenn, <term ref="lem016870.02"
+         >feüwrsausbrüch</term> ald <term ref="lem003374.07">feüwrs brunsten</term>
+        <lb/>entstehen können, zu deren widerstandt old <term ref="lem016911.02">dempf</term>
+        <lb/>und auslöschung auch aller orthen üeblich und <lb/>gleichmäßig hießigen orths
+        erforderlich, guette <lb/>gegen <sic>verangstaltungen</sic> zu machen, alß gebietet
+        <lb/>nach weiters unser <abbr>etc etc etc</abbr>:</seg>
+       <seg>
+        <lb/>15.<hi rend="sup">o</hi> Das ohne aufschub eine ehrsamme gmeind <orgName
+         ref="org001828">Grabß</orgName>
+        <lb/>sich versehe und anschaffen laße: <lb/>6 <term ref="lem009233.04">feüwr hägen</term>
+        von einer nit alzu grosen schwäre, <lb/>die von 2 männeren <term ref="lem000837"
+         >geferkhet</term> und gefürth werden <lb/>möggen, 6 <term ref="lem002324">leiteren</term>
+        von einer gnugsammen länge, <lb/>das dardurch alle, auch die hochsten <term ref="lem000248"
+         >haüßer</term> zubesteigen, <pb/>
+        <lb/>6 <term ref="lem016874.02">hänkel</term>, 6 <term ref="lem016010.02">bikhel</term> undt
+        12 <term ref="lem010042">schauflenn</term>, 12 guete <term ref="lem001390">äxen</term>, so
+        <lb/>auch 24 <term ref="lem001728.04">feür kübel</term>, welch alles in die 6tel gleich ein
+        <lb/>getheilt undt an füeglich undt gelegenen orthen wohl <lb/>undt sicher verwarth werden
+        solle.</seg>
+       <seg>
+        <lb/>16.<hi rend="sup">o</hi> Das die beeden anderen gemeinden <orgName ref="org001912"
+         >Buchß</orgName> und <lb/><orgName ref="org001834">Sefelenn</orgName> auch gemeinsamb sich
+        auf eben gesagte <lb/>weiß versehe undt jeede für sich anschaffe: <lb/>3 <term
+         ref="lem009233.05">feüwrhägen</term> von gesagter schwäre, <lb/>3 <term ref="lem003369.05"
+         >feüwrleiteren</term> von gemelter lenge, <lb/>3 <sic><term ref="lem016874.03"
+          >hächel</term></sic><note>Wahrscheinlich wie oben Henkel.</note>, 3 <term
+         ref="lem016010.03">bikel</term>, 6 <term ref="lem010042">schauflen</term> undt 6 guete
+         <term ref="lem001390">äxen</term>, <lb/>auch 12 <term ref="lem001728.07"
+        >feürkübel</term>.</seg>
+       <seg>
+        <lb/>So alles in die <term ref="lem013406">drittel</term> gleich eingetheilt undt an den
+        <lb/>fueglich und gelegnesten orthen wohl undt sicher <lb/>verwarth werden solle.</seg>
+       <seg>
+        <lb/>Damit nun hinkömpfftig dißer <term ref="lem000809">ordnung</term> wohl <lb/>undt sicher
+        nachgelebt werde, alß wirdt aller forde<lb break="no"/>rest jeweilig hin kömpftten heren
+        landtvögten die <lb/>allererste vorsorg anheimb gesezt undt überlaßen, die <lb/>nach
+        aufhabendt ihrer pflicht für das beste des landts <lb/>guete sorge tragen und je nach
+        beschafenheit der zeiten <lb/>erforderlichs nach dißer <term ref="lem003309"
+         >verordnung</term> selbsten beysezen <lb/>werden.</seg>
+       <seg>
+        <lb/>So danne darnach werden zu geflißenen <term ref="lem004328">aufseheren</term>
+        <lb/>und anfüehreren verordnet des <term ref="lem000449">landts ammen</term> und <lb/><term
+         ref="lem000342">richter</term> insgemein und ihnnen noch beygesezt aus je<lb break="no"
+        />dem ⅙tel old ⅓del ins besonder:</seg>
+       <seg>
+        <lb/>Aus dem <placeName ref="loc006025.01">Grapser hinderen Berg</placeName> ⅙tel <persName
+         ref="per010799a">Davidt Strickher</persName>, </seg>
+       <seg>
+        <lb/>aus demm <placeName ref="loc006025.01">vorderen berg</placeName> ⅙tel <persName
+         ref="per010800">Hanß Winnenwiser</persName>,</seg>
+       <seg>
+        <lb/>aus dem <placeName ref="loc007826.02">Oberdorffer</placeName> sechstentheil <choice>
+         <abbr>sekhelmr</abbr>
+         <expan><term ref="lem001645">sekhelmeister</term></expan>
+        </choice>
+        <persName ref="per010801a">Jacob Vetsch</persName>,</seg>
+       <seg>
+        <lb/>aus dem <placeName ref="loc007827.03">Undter Dorffner</placeName> ⅙tel <persName
+         ref="per010802">Andres Schlegel</persName>, <term ref="lem009062.05"
+        >schloserly</term>,</seg>
+       <seg>
+        <lb/>aus dem <placeName ref="loc000755.02">Studner</placeName> ⅙tel <persName
+         ref="per010803">Burkhardt Zogg</persName>,</seg><seg>
+        <lb/>aus dem <placeName ref="loc000016">Stattner</placeName> ⅙tel <choice>
+         <abbr>sekhelmr</abbr>
+         <expan><term ref="lem001645">sekhelmeister</term></expan>
+        </choice>
+        <persName ref="per010804">Johannes <del>Vets</del> Hilty</persName>,</seg>
+       <seg>
+        <lb/>aus dem <placeName ref="loc006035">Buxner</placeName> dritel <choice>
+         <abbr>bauwmr</abbr>
+         <expan><term ref="lem013464">baumeister</term></expan>
+        </choice>
+        <persName ref="per010805">Galliß Rohrer</persName>,</seg>
+       <seg>
+        <lb/>aus dem <placeName ref="loc006060">Altendorffner</placeName> dritel <persName
+         ref="per010806">Burgarth Senn</persName>, der <term ref="lem001743">müller</term>,</seg>
+       <seg><lb/>aus dem <placeName ref="loc000428">Refißer</placeName> dritel <choice>
+         <abbr>sekhelmr</abbr>
+         <expan><term ref="lem001645">sekhelmeister</term></expan>
+        </choice>
+        <persName ref="per009551a">Hanß Büsch</persName>,</seg>
+       <seg>
+        <lb/>aus dem <placeName ref="loc008674.02">Oberweiser</placeName> dritel von <placeName
+         ref="loc008556.01">Rans</placeName>
+        <choice>
+         <abbr>sekhelmr</abbr>
+         <expan><term ref="lem001645">sekhelmeister</term></expan>
+        </choice>
+        <persName ref="per010807">Jacob Spiz</persName>,</seg>
+       <pb/>
+       <seg>
+        <lb/>aus dem <placeName ref="loc006171">dorff</placeName> dritel <term ref="lem000264"
+         >haubtman</term>
+        <persName ref="per009550a">Galliß Tischouser</persName></seg>
+       <seg>
+        <lb/>und aus dem <placeName ref="loc000709">bergdritel</placeName>
+        <term ref="lem013429">schuelvogt</term>
+        <persName ref="per010808a">Matis <unclear>Saxer</unclear></persName>.</seg>
+       <seg>
+        <lb/>Diße werden und sollen <date dur="R/P1Y">aljärlichen</date> 2 mahl im <date
+         period="spring">früeh<lb break="no"/>jahr</date> und <date period="fall">herbst</date> old,
+        so es die nothwendigkeit noch <lb/>mehr erforderett, auch noch zwüschett ihnen, alle
+         <lb/><term ref="lem000248">haüßer</term> geflißentlich undtersuechen von undten <lb/>bis
+        obenn, ob die <term ref="lem009234.05">feürstätt</term> und <term ref="lem004643.03"
+         >camin</term> versorget und <lb/>sonsten alleß geflißentlich nach dißer ordnung alles
+        <lb/>eingerichtet seye, auch die fehlbahren und ohngehorsammen <lb/>an seiner hochen behörde
+        ohne verschonen eingeben und <lb/>anzeigenn.</seg>
+       <seg>
+        <lb/>Auch sollen sie bey ohnglüks zutragenheiten old <lb/>auf stoßenden <term
+         ref="lem003374.08">feüwrsbrunsten</term> (die <add place="above">gott</add> gnädig
+        verheüten <lb/>wolle) auß überlaßung jeweiligen heren landt<lb break="no"/>vogts, die <term
+         ref="lem003309">verordnungen</term> thüen, wie jeederman sich zu <lb/>verhalten, was für
+         <del>verordenung</del> instrumenten jeeder <lb/>soll mit sich herbringen, gebrauchen und
+        für <term ref="lem005104">arbeit</term>
+        <lb/>verrichten, welch an sezenden verordnungen danne <lb/>jeederman folgen, gehorchen und
+        nachleben soll <lb/>bey hocherwartender straff und ohngnad, zum nachricht. <gap
+         reason="irrelevant"/><note>Es folgen weitere Mandate bis zum <date when="1761-11-11">11.
+          November 1761</date>.</note>
+       </seg>
+      </p>
+     </div>
+    </body>
+   </text>
+  </group>
+  <back>
+   <div n="1">
+    <p>Die vorliegende Feuerordnung von 1733 für Werdenberg ist die älteste, überlieferte Ordnung
+     und ist im Verkündbuch (Mandatbuch) enthalten, das obrigkeitliche Beschlüsse bzw. <term
+      ref="key000491">Mandate</term> vom 7. April 1733 bis zum 11. November 1761 umfasst, die zum
+     Verkünden in den drei <term ref="key000794">Kirchen</term>
+     <placeName ref="loc007991">Salez</placeName>, <placeName ref="loc006249">Sax</placeName> und
+      <placeName ref="loc007990">Sennwald</placeName> verlesen wurden
+       (<bibl><ref>StASG&#160;AA&#160;3&#160;B 6</ref></bibl>). Neben den Mandaten, z.&#160;B. zum
+      <term ref="key000231">Verkauf</term> von <term ref="key004244">Most</term> und <term
+      ref="key000129">Wein</term> ausser Landes, zu <term ref="key005351">Jagdhunden</term> oder zum
+      <term ref="key000599">Reislauf</term>, finden sich auch Ankündigungen, wann und wo der <term
+      ref="key000049">Zehnt</term> oder andere <term ref="key000273">Abgaben</term> eingesammelt
+     werden, Bekanntmachungen über <term ref="key000997">Vormundschaften</term> oder <term
+      ref="key005352">Todesfälle</term>, damit die <term ref="key004001">Gläubiger</term>
+     rechtzeitig ihre Ansprüche anmelden können, Informationen über Veranstaltungen wie z.&#160;B.
+      <term ref="key000295">Jahrmärkte</term>, Aufrufe zu <term ref="key000902"
+      >Waffeninspektionen</term> oder zur <term ref="key000574">Rechnungsablegung</term>, <term
+      ref="key005021">Zitationen</term> vor Gericht u.&#160;ä. Besonders häufig sind
+     Bekanntmachungen über <term ref="key005319">Durchfahrverbote</term>, die von <term
+      ref="key004731">Privatpersonen</term> erwirkt worden sind.</p></div>
+    <div n="2"><p>Zu den Brandereignissen in der Region Werdenberg vgl. das <bibl><ref>Werdenberger Jahrbuch</ref>
+      <ref target="http://www.digishelf.de/objekt/bsz407473181_2007_020/1/LOG_0003/"
+      >20/2007</ref></bibl>, insbesondere die erneuerte <placeName ref="loc000440"
+      >Werdenberger</placeName>
+     <term ref="key000392">Feuerordnung</term> von <date when="1770">1770</date>, ediert bei
+       <bibl><ref target="http://permalink.snl.ch/bib/chbsg000141032">Reich 2007</ref>,
+      S.&#160;50–52</bibl> sowie diejenige von <placeName ref="loc000827">Wartau</placeName> um
+     <date when="1700">1700</date> (<bibl><ref target="http://permalink.snl.ch/bib/chbsg991001202049803977">Stricker 2007</ref>, <ref
+       target="http://www.digishelf.de/objekt/bsz407473181_2007_020/52/"
+     >S.&#160;48–49</ref></bibl>). Die 1770 erneuerte Feuerordnung basiert auf der hier edierten,
+     älteren Feuerordnung von <date when="1733">1733</date>. Einzelne Artikel sind zwar inhaltlich
+     gleich oder ähnlich, andere wurden jedoch <date when="1770">1770</date> wesentlich verändert
+     und ergänzt, weshalb die ältere Feuerordnung von 1733 in die Rechtsquellensammlung aufgenommen
+     wurde. </p>
+    <p>Zum <term ref="key005368">Brandschutz</term> vgl. auch <ref>SSRQ_SG_III_4_048</ref>,
+     Art.&#160;4; <ref>SSRQ_SG_III_4_049</ref>, Art.&#160;3 (<term ref="key000408"
+      >Feuerschauer</term> in der Stadt <placeName ref="loc000016">Werdenberg</placeName>);
+       <bibl><ref>PGA&#160;Sevelen C20</ref></bibl>. </p></div>
+    <div n="3"><p>Zum Brandschutz in <placeName ref="loc000278">Sax-Forstegg</placeName> vgl.
+      <ref>SSRQ_SG_III_4_153</ref>, Art.&#160;32; <ref>SSRQ_SG_III_4_208</ref>, Art. 6
+     sowie Kommentar 2.</p></div>
+  </back>
+ </text>
+</TEI>

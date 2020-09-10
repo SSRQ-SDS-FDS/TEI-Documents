@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+    <persName>Sibylle Malamud</persName>
+    <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+    <persName>Sibylle Malamud</persName>
+    <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-07-09"/>
+            <date type="print"/>
+            <availability><p xml:id="facs">Staatsarchiv St. Gallen (StASG)</p></availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+    <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+    <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_041</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+    <msIdentifier>
+       <idno>StASG CK 06/1</idno>
+    </msIdentifier>
+    <head>Ulrich von St. Johann entlässt Konrad Rohrer von Altendorf und dessen Kinder um 45 Pfund Pfennig aus der Leibeigenschaft</head>
+    <msContents>
+       <summary>
+          <p>Ulrich von St. Johann urkundet, dass er den ehrbaren Knecht Konrad Rohrer von Altendorf und alle seine ehelichen Kinder um 45 Pfund Pfennig Konstanzer und Feldkircher Währung aus der Leibeigenschaft entlässt.</p>
+          <p>Der Aussteller siegelt.</p>
+          <p/>
+       </summary>
+       <msItem>
+          <textLang>Deutsch</textLang>
+          <filiation type="current">Original</filiation>
+       </msItem>
+    </msContents>
+    <physDesc>
+       <objectDesc>
+          <supportDesc>
+             <support>
+                <material>Pergament</material>
+             </support>
+             <extent>
+                <dimensions type="leaves">
+                   <height unit="cm" quantity="9.5"/>
+                   <width unit="cm" quantity="23.0"/>
+                </dimensions>
+             </extent>
+          </supportDesc>
+       </objectDesc>
+       <sealDesc>
+          <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI"
+                n="1"
+                nontei:condition="fragmentary"
+                nontei:material="wax"
+                nontei:shape="round"
+                nontei:attachment="sealed on a parchment tag">
+             <persName role="sigillant" ref="per008052a">Ulrich von St. Johann</persName>
+          </seal>
+       </sealDesc>
+    </physDesc>
+    <history>
+       <origin>
+          <origDate when="1437-12-21"/>
+       </origin>
+    </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+    <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+    <term ref="key000084">Leibeigenschaft</term>
+    <term ref="key000685">Ablösung</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+    <div org="uniform" sample="complete">
+       <pb facs="StASG_CK_06-1_r"/>
+       <p>
+                     <seg>
+                        <lb/>Ich, <persName ref="per008052a">Uͦlrich von Sant Johann</persName>,
+                        bekenn, vergich und tuͦn kund mit krafft und urkund diß brieffs fûr mich und
+                        <lb/>all min erben und nachkomen, das ich den erbern <term ref="lem005826"
+                           >knecht</term>
+                        <persName ref="per004445">Cuͦntzen Rorer</persName> vom <placeName
+                           ref="loc006060.02">Altendorff</placeName> und allen sinen elichen
+                           <lb/><term ref="lem000130">kind</term>, die mir von <term
+                           ref="lem008350.07">aygenschafft</term> wegen zuͤgehört hand, si
+                        abzekoffen und abzelǒsen geben hân umb <measure quantity="45" unit="lb"
+                           type="currency">fûnff und <lb/>viertzig pfund pfenning</measure>
+                        <placeName ref="loc000008">Costentz</placeName>er muntz und <placeName
+                           ref="loc000061">Veldkilch</placeName>er werung, die ich von inen
+                        gäntzlichen und gar gewert <lb/>und bezalt bin worden nach minem guͤten
+                        willen und benûgen. Und entzich mich fûr mich und min erben <lb/>gegen inen
+                        ald iren erben aller der rechtung, vordrung und ansprach, es sig von <term
+                           ref="lem008350.07">aygenschafft</term> ald <term ref="lem000456.02"
+                              >lechen<lb break="no"/>schafft</term> wegen ald sûnst, so ich ye zuͤ
+                        inen gehept han ald haben mocht, yetz und hyenach. Und sol <lb/>weder ich
+                        noch min erben gen inen noch gegen iren erben hinfûr dhain zuͦsprûch,
+                        vordrung noch rech<lb break="no"/>tung me haben in dhain weg. Und sol ich
+                        und min erben, ir und ir erben, daruff gût, getrûw wer sin <lb/>nach dem
+                        rechten, es sig uff gerichten, gaistlichen ald weltlichen, ald an andern
+                        stetten by guͦten ge<lb break="no"/>trûwen und ân geverde.</seg>
+                     <seg>Zǔ urkûnd und guͤter getzûcknuss, so hab ich inen disen brieff geben fur
+                        <lb/>mich und min erben, besiglet mit minem aygnen angehenckten insigel,
+                        geben ist an <origDate when="1437-12-21">sant <persName ref="per000354"
+                              >Thomas</persName>
+                           <lb/>tag von gottes gebûrd tûsend vierhundert drissig und siben jar
+                              <abbr>etc</abbr></origDate>.</seg>
+                  </p>
+    </div>
+               <pb facs="StASG_CK_06-1_v"/>
+    <div org="uniform" sample="complete">
+       <ab type="dorsal" place="verso" hand="hand18c">Rorer brieff</ab>
+    </div>
+    <div org="uniform" sample="complete">
+       <ab type="archiving reference" place="verso" hand="hand19c">N<hi rend="sup">o</hi> 18</ab>
+    </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div n="1" org="uniform" sample="complete">
+            <p>Die Bürgerkorporation Buchs übergibt 1963 diese Urkunde dem Staatsarchiv St. Gallen
+               als Depositum (Depositumsvertrag: <bibl><ref>StASG CK 06/3</ref></bibl>). Es handelt
+               sich bei dieser Ablösung nicht um die Ersterwähnung der Familie <orgName
+                  ref="org001796">Rohrer</orgName> von Altendorf wie im Archivverzeichnis steht.
+               Bereits im Urbar der Kapelle von <placeName ref="loc006078">St. Niklaus</placeName>,
+               das um <date when="1400">1400</date> entstanden ist, wird <persName ref="per004445"
+                  >Konrad Rohrer</persName> erwähnt (<ref>SSRQ_SG_III_4_024</ref>). Allerdings
+               handelt es sich bei den Einträgen zur Familie Rohrer um Nachträge, die wahrscheinlich
+               zwischen <date when="1425">1425</date> und <date when="1440">1440</date> entstanden
+               sind. Zur Familie Rohrer von Buchs und den sogenannten «Rohrerbrief» vgl. auch den
+               Artikel von 1937 aus der Zeitung «Werdenberger und Obertoggenburger»
+                     (<bibl><ref>StASG CK 06/2</ref></bibl>).</p>
+            <p>Der Pergamentstreifen des Siegels ist beschriftet, da er von einer anderen, wohl kassierten Urkunde wiederverwendet wurde.</p>
+         </div>
+         <div n="2" org="uniform" sample="complete">
+            <p>Als <term ref="key000084">Leibeigenschaft</term> bezeichnet man das persönliche
+               Abhängigkeitsverhältnis des Leibeigenen gegenüber seinem Herren. Dieses äussert sich
+               insbesondere in der fehlenden Freizügigkeit, der Verpflichtung zu <term
+                  ref="key000479">Frondiensten</term> sowie in diversen <term ref="key000273"
+                  >Abgaben</term> (<bibl><ref
+                     target="https://drw-www.adw.uni-heidelberg.de/drw-cgi/zeige?index=lemmata&amp;term=abgabe&amp;firstterm=abgaben*"
+                     >DRW</ref></bibl>). Leibeigene hatten jedoch die Möglichkeit, sich um einen
+               bestimmten Betrag von der Leibeigenschaft und den damit verbundenen Abhängigkeiten
+               loszukaufen. Zur <term ref="key000685">Ablösung</term> von Leibeigenen vgl. auch
+                     <bibl><ref target="https://query-staatsarchiv.lu.ch/detail.aspx?ID=1110373"
+                     >StALU URK 290/5206 A</ref></bibl>; <ref>StASG AA  4 U 18</ref>; <bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/58765cd7de484cb0b09c41c41e26d8b3"
+                     >LAGL AG III.2401:039, S. 551</ref>; <ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/58765cd7de484cb0b09c41c41e26d8b3"
+                     >AG III.2401:039, S. 553</ref></bibl>; <bibl><ref>PA Hilty S 006/049</ref>;
+                     <ref>S 006/050</ref></bibl>; <bibl><ref>PGA Sevelen C12</ref></bibl>. Weitere
+               Loskäufe befinden sich in der Schachtel <bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/c20e7502ed124b70abb604206253961e"
+                     >LAGL AG III.2417</ref></bibl> im Landesarchiv Glarus sowie den sogenannten
+               Leibeigenenbüchern (<bibl><ref>EKGA Sax-Frümsen 29.4</ref></bibl>; <bibl><ref>EKGA
+                     Sennwald 020.04.02</ref></bibl>). Zum <term ref="key000369">Kauf</term>, <term
+                  ref="key000237">Tausch</term> oder zur <term ref="key000023">Schenkung</term> von
+               Leibeigenen vgl. auch <bibl><ref target="http://permalink.snl.ch/bib/chbsg000056393"
+                     >ChSG</ref>, <ref
+                     target="http://monasterium.net/mom/CSGIII/Nr_1257_S_217/charter">Bd. 3,
+                     Nr. 1257</ref></bibl>; <bibl><ref
+                     target="http://permalink.snl.ch/bib/chbsg000056393">ChSG</ref>, <ref
+                     target="https://www.monasterium.net/mom/CSGXI/6776./charter">Bd. 11,
+                     Nr. 6776</ref></bibl>; <bibl><ref
+                     target="http://permalink.snl.ch/bib/chbsg000110415">UBSSG</ref>, Bd. 2,
+                  Nr. 1178</bibl>; <bibl><ref target="http://permalink.snl.ch/bib/chbsg000141324"
+                     >Jecklin, Griffenseer Kopialbuch</ref>, Nr. 6</bibl>; <bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/54f40ffd641d46e6a914d4b2fcf0fad6"
+                     >LAGL AG III.2417:002</ref>; <ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/ddf1c2667a8140e6ab600671ca7f341a"
+                     >AG III.2417:003</ref></bibl>; <bibl><ref
+                     target="http://scope.stiftsarchiv.sg.ch/detail.aspx?id=412">StiAPf
+                     Urk. 10.01.1432</ref></bibl>).</p>
+         </div>
+         <div n="3" org="uniform" sample="complete">
+            <p>Zur Ablösung der Leibeigenschaft bei einem <term ref="key004192"
+                  >Wohnortswechsel</term> in eine andere <term ref="key000140">Herrschaft</term>
+               vgl. <ref target="https://www.ssrq-sds-fds.ch/online/SG_III_2/index.html#p_557"
+                  >SSRQ SG III/2, Nr. 154</ref>; <bibl><ref
+                     target="https://www.ssrq-sds-fds.ch/online/SG_III_2/index.html#p_768">SSRQ SG
+                     III/2, Nr. 203</ref></bibl>; <bibl><ref>StAZH A 346.4, Nr. 186</ref>;
+                     <ref>Nr. 188</ref></bibl>. Über Unklarheiten zur Zugehörigkeit eines
+               Leibeigenen zu einem Herrn vgl. auch <ref>SSRQ_SG_III_4_083</ref>.</p>
+         </div>
+         <div n="4" org="uniform" sample="complete">
+            <p>Da sich sehr viele Untertanen von <placeName ref="loc000278">Sax-Forstegg</placeName>
+               von der Leibeigenschaft loskaufen, gibt <orgName ref="org001196">Zürich</orgName> am
+                  <date when="1723-08-19">19. August 1723</date> ein Mandat aus, dass jeder, der
+               sich loskaufen will, sein Ansuchen direkt bei der Obrigkeit stellen muss. Kauft er
+               sich bei jemand anderem aus, so verliert er das Geld und bleibt ein Leibeigener
+                     (<bibl><ref>EKGA Sennwald 020.04.02</ref></bibl> [Einleitung zur Erneuerung des
+               Leibeigenenbuchs, da das alte Buch von <date when="1647">1647</date> unbrauchbar
+               geworden ist]). Vgl. dazu auch das Gutachten über den Loskauf vom <date
+                  when="1723-06-16">16. Juni 1723</date>, das am gleichen Tag wie das Mandat vom
+               Zürcher Rat angenommen wird (<bibl><ref>StASG AA 2 A 3-7</ref></bibl>). </p>
+         </div>
+      </back>
+   </text>
+</TEI>

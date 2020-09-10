@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+
+			</titleStmt>
+
+			<publicationStmt>
+				<date type="electronic" when="2019-03-20"/>
+				<date type="print"/>
+			</publicationStmt>
+
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ_FR_I_2_8_0028_001</idno>
+			</seriesStmt>
+
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<idno>StAFR, Thurnrodel 10, S. 84</idno>
+					</msIdentifier>
+					<head>François Blanchet – Verhör / Interrogatoire</head>
+					<msContents>
+						<summary></summary> 
+						<msItem>
+							<textLang>fr, de</textLang>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support>
+									<material></material>
+								</support>
+								<extent>
+									<dimensions type="leaves">
+										<height unit="cm" quantity="0.0"/>
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+									<dimensions type="plica">
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+								</extent>
+							</supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate when="1608-05-28">28 <foreign xml:lang="la">maii</foreign> 1608</origDate>
+							<origPlace></origPlace>
+						</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+							
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc> 
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+			<particDesc default="false"/>
+			<settingDesc default="false"/>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div> 
+					
+						<p><lb/> <foreign xml:lang="la">Ibidem presentibus et die ut supra</foreign><note>Das Verhör fand im <placeName ref="loc007594">Rosey</placeName> statt.</note></p>	
+						
+						<p><seg><lb/><add place="left margin">Hatt nüt bezalt.</add></seg>
+					<seg><persName ref="per009109a.01">Franceois Blanchet</persName> de <placeName ref="loc008012">Combremont le Grand</placeName> dit n’avoir 
+						<lb/>fait mal a persone que ce soit, toutesfois que par faulx tes<lb break="no"/>moignage de quelques persones il aye souffert la torture 
+						<lb/>et <term ref="lem018305.02">droit imperial</term>, aussy accepté par aprés le serement 
+						<lb/>des terres de messeigneurs. Et nonobstant ledit serement, 
+						<lb/>s’est transpourté en ceste ville pour accomplir son vo<lb break="no"/>yage et devotion par luy prinse, quant aux prieres  
+						<lb/>qu’il a cy devant et encour dites, il veult soustenir estre 
+						<lb/><choice><abbr>boes</abbr><expan>bonnes</expan></choice> oraisons. Et n’est deneguant avoir jetté de 
+						<lb/>l’argent sur la <term ref="lem017721.02">charriere</term>, ce qu’il fist par mal advis  
+						<lb/>et courroux, disant que ceux <subst><del>qu’il ny</del><add place="inline">qui luy</add></subst> fairoient 
+						<lb/>tort, il deussent comparoir a la <placeName ref="loc008697.02">val de Josaphat</placeName><note>Vermutlich wird ein Bezug zur Bibel hergestellt, vgl. Joel 3.2, 4.2: <quote>will alle Heiden zusammenbringen und will sie in das Tal Josaphat hinabführen</quote>. Blanchet hat die Freiburger Obrigkeit somit indirekt als Heiden bezeichnet.</note>.</seg> <seg>Tou<lb break="no"/>tesfois, si tost qu’on luy aura refraichi<del>r</del> son passeport,  
+						<lb/>il quitera volontairement le pais et terres de 
+						<lb/><choice><abbr>messeig</abbr><expan>messeigneurs</expan></choice> a perpertuité.</seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>

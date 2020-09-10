@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+
+			</titleStmt>
+
+			<publicationStmt>
+				<date type="electronic" when="2019-05-29"/>
+				<date type="print"/>
+			</publicationStmt>
+
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ_FR_I_2_8_0041_011</idno>
+			</seriesStmt>
+
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<idno>StAFR, Thurnrodel 11, S. 8</idno>
+					</msIdentifier>
+					<head>Jenon Rey, George Gauzon-Vilaud – Verhör / Interrogatoire</head>
+					<msContents>
+						<summary></summary> 
+						<msItem>
+							<textLang>fr, de</textLang> 
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support>
+									<material></material>
+								</support>
+								<extent>
+									<dimensions type="leaves">
+										<height unit="cm" quantity="0.0"/>
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+									<dimensions type="plica">
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+								</extent>
+							</supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1618-08-30"></origDate>
+							<origPlace></origPlace>
+						</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+							
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+			<particDesc default="false"/>
+			<settingDesc default="false"/>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<p><lb/>In <placeName ref="loc007683.17">Zollets thurn</placeName>
+						<seg><lb/><origDate when="1618-08-30">30 <foreign xml:lang="la">augustii</foreign> 1618</origDate></seg>
+							<seg><lb/><foreign xml:lang="la"><choice><abbr>J</abbr><expan>Judex</expan></choice></foreign> <abbr>h</abbr> <choice><abbr>groß</abbr> <expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per009391">Wilhelm Reynold</persName>.</note></seg>
+							<seg><lb/><abbr>H</abbr> <persName ref="per009250">Gerwer</persName></seg>
+							<seg><lb/><persName ref="per009578a.01"><choice><abbr>Pan</abbr><expan>Pancraz</expan></choice> Gottrow</persName>, <persName ref="per009388a.01"><choice><abbr>P</abbr><expan>Peter</expan></choice> Reiff</persName></seg>
+							<seg><lb/><persName ref="per009123">Werly</persName>, <persName ref="per009259">Ligertz</persName></seg>
+						<seg><lb/>Weybel</seg></p>
+						
+						<p><lb/><add place="left margin"><foreign xml:lang="la">Nota:</foreign> sol <measure type="currency" unit="lb" quantity="6">6 </measure> 
+						<lb/>verrechnet unndt 
+						<lb/>ußgeben werden, 
+						<lb/>wyl 2 examiniert 
+						<lb/>worden.</add></p>
+							
+						<p><lb/><add place="left margin">Die <persName ref="per009583">Reyna</persName> hat 
+						<lb/>nüt bezalt.</add></p>
+								
+						<p><seg><lb/><add place="left margin"><foreign xml:lang="la"><choice><abbr>ßt</abbr><expan>Solvit</expan></choice></foreign> <measure type="currency" unit="lb" quantity="3">3 </measure>.</add></seg>
+							<seg><persName ref="per009583">Jenon Rey</persName>, a ce quelle fust accusee de la <persName ref="per009587">Gauzona</persName> 
+						<lb/>de l’avoir menacé, disant qu’elle s’en repentiroit, 
+						<lb/>touchant le combat qu’eurent par ensemble, ladite 
+							<lb/><persName ref="per009583">Jenon</persName> nye ne l’avoir menacé, dont ladite <persName ref="per009587">Gauzona</persName> 
+							<lb/>estant menee par devant ladite <persName ref="per009583">Jenon Rey</persName>, a con<lb break="no"/>firmé ce qu’elle a dit, <choice><abbr>ass</abbr><expan>assavoir</expan></choice> de l’avoir menacé, 
+							<lb/>adjoustant que ladite <persName ref="per009583">Reyna</persName> gerisoit des enfants, 
+							<lb/>ce que ladite <persName ref="per009583">Jenon Rey</persName> a confessé, disant d’aller 
+								<lb/>ouffrir des chandeles aux cordelliers a l’au<lb break="no"/>tel de <choice><abbr>s<hi rend="sup">t</hi></abbr><expan>saint</expan></choice> <persName ref="per010888a.02">Qintin</persName>, et faire du <term ref="lem015415.02">vinaige</term>, et 
+						<lb/>ce estre bon pour guerir l’<term ref="lem015416.02">enflona</term>, e<subst><del>t</del><add place="overwritten">n</add></subst> priant 
+							<lb/>au chappalet.</seg> <seg>Dadvantage ladite <persName ref="per009587">Gauzona</persName> a 
+							<lb/>dit avoir ouy dire, ladite <persName ref="per009583">Reina</persName> avoir une 
+						<lb/>fois donné a boire a un certain en l’hostelle<lb break="no"/>rie du <placeName ref="loc008042.02">Struß</placeName>, dont celuy avoit prins du 
+						<lb/>mal, et que ledit malade seroit retourné vers 
+							<lb/>ladite <persName ref="per009583">Reyna</persName>, laquelle l’auroit reguery, disant 
+							<lb/>l’avoir ouy dire, ce que ladite <persName ref="per009583">Reina</persName> nye a plat, 
+							<lb/>disant ladite <persName ref="per009587">Gauzona</persName> luy faire meschamment 
+							<lb/>tort.</seg> <seg>Ladite <persName ref="per009583">Reina</persName> a dit dadvantage l’avoir 
+						<lb/>fait du <term ref="lem015415.02">vinaige</term> pour feu <choice><abbr>mons</abbr><expan>monsieur</expan></choice> <persName>Wildt</persName><!-- welcher? --> pour 
+						<lb/>l’enfleure, mais pour ce ne penser rien de mal.</seg></p> 
+							
+						<p><lb/><add place="left margin">Sol <subst><del>mit</del><add place="inline">lär</add></subst> <lb/>uffzogen werden.</add></p>
+						<p><lb/><addSpan place="left margin" spanTo="#add1"/>Sol <subst><del>mit</del><add place="inline">lär</add></subst> <lb/>uffzogen werden.<anchor xml:id="add1"/></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+
+
+
+<?oxy_options track_changes="on"?>

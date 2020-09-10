@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-08-19"/>
+            <date type="print"/>
+            <availability><p xml:id="facs">Sibylle Malamud</p></availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_241</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>StAZH A 346.6, Nr. 55</idno>
+               </msIdentifier>
+               <head>Das Urteil des Herrschaftsgerichts von Sax-Forstegg in der Schuldsache zwischen Andreas und Hans Bernegger wird nach Zürich appelliert</head>
+               <msContents>
+                  <summary>
+                     <p>Landammann Hans Jakob Hanselmann urteilt in Anwesenheit des Landvogts Johann
+                        Jakob Escher in einem Schuldkonflikt zwischen Richter und Weinschenk Andreas
+                        Bernegger und Seiler Hans Bernegger, beide von Sax: Die Schwiegereltern, die
+                        Ehefrau und der Bruder von Hans Bernegger, der Geld verspielt und vertrunken
+                        hat, bringen vor, dass der Gläubiger nicht alle Schulden korrekt
+                        eingefordert habe, weshalb sie einen Posten von 15 Gulden nicht begleichen
+                        wollen. Andreas Bernegger antwortet, dass er die Wirtshausschulden in seinem
+                        Rechnungsbuch notiert habe, weshalb die Forderungen vom Herrschaftsgericht
+                        geschützt werden müssen. Das Urteil zerfällt in zwei Teile: Das Minderurteil
+                        lautet, dass Richter Bernegger einen Eid schwören soll, dass er weder die 15
+                        Gulden empfangen noch Zins zum Kapital geschlagen noch sonst mit dem
+                        betrunkenen Hans Bernegger etwas Betrügerisches vorgenommen habe. Das
+                        Mehrheitsurteil lautet, dass Richter Bernegger bei seinem Rechenbuch
+                        geschützt werden solle. Der Seiler Hans Bernegger appelliert das Urteil nach
+                        Zürich, welches ihm gestattet wird.</p> <p>Landvogt Johann Jakob Escher siegelt.</p>
+                  </summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <author role="scribe">Kanzlei der Landvogtei Sax-Forstegg</author>
+                     <filiation type="current">Original (2 Doppelblätter)</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="37.0"/>
+                              <width unit="cm" quantity="23.5"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <sealDesc>
+                     <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI"
+                           n="1"
+                           nontei:condition="well-preserved"
+                           nontei:material="papered seal"
+                           nontei:place="end"
+                           nontei:shape="round"
+                           nontei:attachment="applied">
+                        <persName role="sigillant" ref="per002744a">Landvogt Johann Jakob Escher</persName>
+                     </seal>
+                  </sealDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1767-10-03">den driten weinmonat</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000057">Gericht</term>
+               <term ref="key000892">Gerichtsverhandlung</term>
+               <term ref="key000287">Appellation</term>
+               <term ref="key000683">Urteil</term>
+               <term ref="key000058">Schulden</term>
+               <term ref="key004980">Schuldklage</term>
+               <term ref="key003037">Gerichtsverfahren</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <div org="uniform" sample="complete">
+                  <p>
+                     <pb n="1r" facs="StAZH_A_346.6_Nr._55_1r"/>
+                     <seg><lb/>Ich, <persName ref="per010747">Hanß Jacob Hanßelman</persName>, der zeit
+                        <term ref="lem000449">landaman</term> der freyen herschafft <placeName
+                        ref="loc000278">Sax</placeName>, <lb/>beken unnd thun kundt offendlich hier
+                     mit dieserem brieff, das in gegenwart <lb/>und beysitz deß wohlgeachten, wohl
+                     edel gebohrnen, gestrengen herren, herren <lb/><persName ref="per002744a">Johan
+                        Jacob Eschers</persName>, des mehren raths hoch<note anchored="true">Die
+                        Urkunde ist flüchtig geschrieben. Das <orig>ch</orig> wir häufig nur als
+                           <orig>h</orig> geschrieben. In der Transkription wird dieses
+                           <orig>h</orig> jedoch zur besseren Lesbarkeit als <orig>ch</orig>
+                        aufgelöst.</note> loblichen stands <orgName ref="org001196"
+                     >Zürich</orgName>, der mahlen regierender <lb/>landtvogt der freyen herschafft
+                        <placeName ref="loc000278">Sax</placeName>, vor mich und ein gnedig <term
+                        ref="lem016390.02">herschafft gricht</term> erschinen <lb/><persName
+                        ref="per010749a">Andreaß Berneger</persName>, <term ref="lem000342"
+                        >richter</term> und <term ref="lem001388">weinschennk</term>, an einem,
+                     danne <persName ref="per010750a">Hans Berneger</persName>, der <lb/><term
+                        ref="lem001807.01">seiler</term>, in beywesen <term ref="lem016411.02"
+                        >schwiger elteren</term> und <term ref="lem000131">bruoders</term>, beyde
+                     aus dem <term ref="lem000103">dorff</term>
+                     <placeName ref="loc006068">Sax</placeName>, <lb/>am anderen theil:</seg> <seg>Da dan
+                        des letsteren <term ref="lem016411.02">schwiger elteren</term>, <term
+                           ref="lem000655">weibe</term> und <term ref="lem000131">bruoder</term>
+                        <lb/>klagend vorgebracht, das nit nur letsteren verstrichnen <term
+                           ref="lem002113">sommer</term> des obgedachten <lb/><persName
+                           ref="per010749a">Andreas Bernegers</persName> bruoder eine <term
+                           ref="lem001929">schuold anforderung</term>, welche meistens <term
+                           ref="lem002576">verspilt</term>
+                        <lb/>und <term ref="lem016413">versoffen</term> seyn solle, von mehr als
+                           <measure quantity="100" type="currency" unit="fl">hundert
+                           guldin</measure> an ermelten <persName ref="per010750a">Hans
+                           Berneger</persName>, <lb/><term ref="lem001807.01">seiler</term>,
+                        gemacht, endlichen aber auf gütliches über geben. Hingegen die <measure
+                           quantity="40" type="currency" unit="fl">40 </measure> ihme ab
+                        <lb/>gesprochen worden, nun ohne daß damahls der <term ref="lem000342"
+                           >richter</term>
+                        <persName ref="per010749a">Berneger</persName> deß geringsten
+                           <lb/><unclear>werr</unclear> gedacht noch sich verrichten lassen. Mehr er
+                        eine gliche vor villen jahren, da der <lb/><term ref="lem001807.01"
+                           >seiler</term> unter der <term ref="lem002282">elteren</term>
+                        <term ref="lem006622">gewalt</term> wahre, auf aller handt art und weyse
+                        aufgeloffen <lb/>und gegen die <measure quantity="94" type="currency"
+                           unit="fl">94 </measure> sich belauffende <term ref="lem001929">schuld
+                           anforderung</term>, worunter auch <term ref="lem003509">posten</term>,
+                        <lb/>sonderbahr eine von <measure quantity="15" type="currency" unit="fl">15
+                           </measure>, die er dem richter <persName ref="per010749a"
+                           >Berneger</persName> bezalt, disem aber nit <lb/>geständig, hoffend also,
+                        wie disere schulden nit nur zum schaden seines <term ref="lem009278">weibs
+                           <lb/>und kinderen</term> gereiche, sonder wider alle <term
+                           ref="lem007979">gesetz</term> und <sic>ordtnugen</sic> gemacht und
+                        <lb/>aufgeloffen sey, werde der <term ref="lem000342">richter</term> damit
+                        gäntzlich ab und zur sich gewysen <lb/>werden, setze solches zum
+                        rechten.</seg>
+                  </p>
+                  <p><seg>
+                     <lb/>Worauf <term ref="lem000342">richter</term>
+                     <persName ref="per010749a">Andereaß Berneger</persName> sich dahin
+                     verantwortet, eß sey wahr, vor <unclear>in</unclear>
+                     <lb/>circa <date dur="P12Y">12</date> biß <date dur="P14Y">14 jahren</date>
+                     habe der <term ref="lem001807.01">seiler</term> angefangen durch <term
+                        ref="lem008904">esen und trinken</term>
+                     <lb/>disere <term ref="lem000037">schuold</term> bey ihme zu machen, nit minder
+                     seye dan und wan vor <measure unit="Mass" type="volume" quantity="0.5"
+                        commodity="wine">ein halb <lb/>mas wein</measure>, wehr solche bezahlen
+                     müse, darumb <term ref="lem016412.02">gekürtzweilet</term> worden, sonsten aber
+                     <lb/>hab er mit ihme abgerechnet und sey er der <sic>rechnug</sic> all zeit
+                     zufriden, auch die <lb/>schuld alzeit verzinset, hooffe also, ein ehrsam <term
+                        ref="lem016390.02">herschafft gricht</term> werde ihn lediger <lb/>dingen
+                     und ohne anderes bey seinem <term ref="lem001763">rechenbuch</term> schützen
+                     und schirmen, setze auch <lb/>solches zum rechten.</seg></p>
+                  <p><seg>
+                     <lb/>Auf welches und ein weitläuffigeres vor und widerbringen der partheyen
+                     <lb/>ab hoch ehren gedachten herr landtvogt <persName ref="per002744a"
+                        >Eschers</persName> nebst <term ref="lem000342">richter</term> und <term
+                        ref="lem016410.02">freyhaubtman</term>
+                     <persName ref="per010751">Berger</persName>
+                     <lb/>von <placeName ref="loc000691">Salletz</placeName> sich dahin erkendt und
+                     gesprochen: Der richter <persName ref="per010749a">Andreaß Berneger</persName>
+                     <lb/>solle eidlich anloben, das er nit nur streitige <measure quantity="15"
+                        type="currency" unit="fl">15 </measure> nicht entpfangen, sunderen
+                     <lb/>auch keine <term ref="lem000237">zins</term> zu <term ref="lem002247"
+                        >capital</term> geschlagen noch sonsten mit dem all zeit
+                        <sic>betrukenen</sic>
+                     <lb/><persName ref="per010750a">Hans Berneger</persName> bey <sic>mahnug</sic>
+                     diser <term ref="lem000037">schuld</term> waß betrieglichs vorgenommen
+                     worden.</seg></p>
+                  <p><seg>
+                     <lb/>Der überige und <term ref="lem002605">mehrere theil</term> eines <term
+                        ref="lem016390.02">herschaffts grichts</term> hat einheellig sich dahin
+                     <lb/>erkendt, es solle der richter <persName ref="per010749a"
+                        >Berneger</persName> von <placeName ref="loc006042">Sax</placeName> bey
+                     seinem <term ref="lem001763">rechenbuch</term> geschützt und <lb/>geschirmbt
+                     werden und umb die gantze schuld der <term ref="lem001807.01">seiler</term>
+                     ihne aus weysen <lb/>und bezahlen.</seg> <seg>Welch letstere <sic>meynug</sic>
+                        offtermelter <persName ref="per010750a">Hans Berneger</persName>, seiler,
+                           <pb n="1v" facs="StAZH_A_346.6_Nr._55_1v"/>
+                        <lb/>an unser gnädig heren und oberen, in <sic>hoffnug</sic> beser recht zu
+                           er<lb break="no"/>langen, <term ref="lem001043">appelliert</term>,
+                        welches ihme nit nur willig gestattet, sonder gegen<lb break="no"/>wärtiger
+                        brieff mit ob hochehren, gedachten herren landtvogt <persName
+                           ref="per002744a">Eschers</persName> secret <lb/>insigel verwahret, in
+                        gehändiget worden.</seg>
+                     <seg>So geschehen, den <origDate when="1767-10-03">driten <unclear>weinm<lb
+                                 break="no"/>munt</unclear> nach <persName ref="per000353"
+                              >Christi</persName> geburth, unsers heren, gezehlt siben hundert
+                           sechzig und <lb/>siben jahr</origDate>.</seg>
+                  </p>
+                  <p>
+                     <lb/>Cantzley der frey herschafft <placeName ref="loc000278">Sax</placeName>.
+                  </p>
+               </div>
+               <pb facs="StAZH_A_346.6_Nr._55_2v"/>
+               <div org="uniform" sample="complete">
+                  <ab type="dorsal" place="verso" hand="hand18c">
+                     <lb/><term ref="lem000639">Appellation</term>
+                     <lb/>an <lb/>unser gnädig herren und oberen, <lb/>wan dem mehren theil des
+                        <term ref="lem016390">herschafft<lb break="no"/>gerichts</term> von
+                        <placeName ref="loc000278">Sax</placeName>
+                     <lb/>an betreffende <lb/>eine von richter und <term ref="lem003984"
+                        >färber</term>
+                     <persName ref="per010749a">Andreaß <lb/>Bernegger</persName> an <persName
+                        ref="per010750a">Hanß Berneger</persName>, <lb/>beyde von <placeName
+                        ref="loc006068">Sax</placeName>, machende <term ref="lem001929">schuld
+                        <lb/>anforderung</term>, <lb/><handShift/>
+                     <date when="1767">1767</date></ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab type="archiving reference" place="verso">
+                     <lb/>Tr 150, W 5 N 1</ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab type="archiving reference" place="verso">
+                     <lb/><choice>
+                        <abbr><unclear>Erk</unclear></abbr>
+                        <expan>Erkenntnis</expan>
+                     </choice> vide sub <lb/><origDate when="1768-02-20">20. febr 1768</origDate>
+                     <note anchored="true">Vgl. <bibl><ref>StAZH B II 940</ref>, S. 67–68</bibl>:
+                        Zürich erkennt, dass der Appellant insofern richtig appelliert habe, als
+                        dass die Schuldanforderung von Richter Bernegger <orig>als eine liederliche
+                           und heillose schuld</orig> nichtig sein solle.</note>
+                     <lb/>U<hi rend="sup">o</hi> M</ab>
+               </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div n="1" org="uniform" sample="complete">
+            <p>Das vorliegende <term ref="key000683">Urteil</term> des <term ref="key005288"
+                  >Herrschaftsgerichts</term>
+               <placeName ref="loc000278">Sax-Forstegg</placeName> wird nach <placeName
+                  ref="loc000065">Zürich</placeName> appelliert und dient als Beispiel eines <term
+                  ref="key003037">Gerichtsverfahrens</term> unter <orgName ref="org001196"
+                  >Zürcher</orgName> Obrigkeit nach dem Kauf <date when="1615">1615</date> (weitere
+                  <term ref="key000287">Appellationen</term> siehe <ref>SSRQ_SG_III_4_166</ref>,
+               Art. 8; <bibl><ref>StAZH A 346.4, Nr. 303</ref></bibl>; <bibl><ref>OGA Sennwald Mappe
+                     Nachbarn</ref>, 04.02.1707–01.09.1707</bibl>; <bibl><ref>StAZH A 346.5,
+                     Nr. 2</ref></bibl>; <bibl><ref>StASG AA 2 A 7-1b-9</ref>; <ref>AA 2
+                  U 58</ref></bibl>; <bibl><ref>StAZH A 346.5, Nr. 93</ref>; <ref>A 346.5,
+                     Nr. 94</ref></bibl>; <bibl><ref>StAZH A 346.6, Nr. 58</ref>; <ref>Nr. 86</ref>;
+                     <ref>Nr. 95</ref>; <ref>Nr. 96</ref>; <ref>Nr. 108</ref>; <ref>Nr. 112</ref>;
+                     <ref>Nr. 116</ref>; <ref>Nr. 145</ref>; <ref>Nr. 154</ref>; <ref>Nr. 181</ref>;
+                     <ref>Nr. 234</ref></bibl>; Literatur: <bibl><ref
+                     target="http://permalink.snl.ch/bib/chbsg000143948">Aebi 1974</ref>,
+                  S. 87–88</bibl>; <bibl><ref target="http://permalink.snl.ch/bib/chbsg000141314"
+                     >Kreis 1923</ref>, S. 24–25</bibl>).</p>
+            <p>Unter den Freiherren von <orgName ref="org000384">Sax-Hohensax</orgName> können
+               Urteile an den Herren der Herrschaft als letzte Instanz appelliert werden (vgl.
+                  <ref>SSRQ_SG_III_4_120</ref>). Unter Zürcher Herrschaft werden im <term
+                  ref="key003298">Landesrecht</term> von <date when="1627">1627</date> nur <term
+                  ref="key000287">Appellationen</term> an den <term ref="key000180">Landvogt</term>
+               erwähnt. Ab wann Appellationen nach <placeName ref="loc000065">Zürich</placeName>
+               möglich waren, ist nicht klar. In den Quellen sind sie erst Ende des 17. Jh. fassbar.
+               Das Rechtsmittel einer Appellation nach Zürich muss aber bereits vor <date
+                  when="1687">1687</date> bestanden haben, da in diesem Jahr bestimmt wird, dass
+               keine Appellationen mehr unter einem Streitwert von 100 Gulden nach Zürich gezogen
+               werden dürfen (<bibl><ref target="http://permalink.snl.ch/bib/chbsg000143948">Aebi
+                     1974</ref>, S. 87</bibl>; <bibl><ref
+                     target="http://permalink.snl.ch/bib/chbsg000141314">Kreis 1923</ref>,
+                  S. 25</bibl>, beide nach <bibl><ref
+                     target="http://permalink.snl.ch/bib/chbsg991001180045603977">Werdmüller,
+                     Memorabilia</ref>, Bd. 2, S. 107</bibl>). Auch im Verwaltungsbuch von Landvogt
+                  <persName ref="per010271a">Johannes Ulrich</persName> (1746–1755 im Amt) wird die
+               Appellation nach Zürich vom <term ref="key005288">Herrschaftsgericht</term> erwähnt,
+               die der <term ref="key000180">Landvogt</term> keinem verwehren soll (<bibl><ref>StASG
+                     AA 2 B 006</ref>, S. 90–91</bibl>). Ein Landvogt kann aber auch mittellose
+               Parteien in <term ref="key000058">Schuld</term>- und <term ref="key000728"
+                  >Wegstreitigkeiten</term> an das jährliche <term ref="key001042"
+                  >Zeitgericht</term> (falls dieses zeitlich nicht zu weit weg liegt) oder an ein
+               Kaufgericht weisen, das aus dem Landammann und den fünf ältesten Richtern besteht.
+               Von beiden Gerichten geht die Appellation an den Landvogt (<bibl><ref>StASG AA 2 B
+                     006</ref>, S. 88–90, 96</bibl>). </p>
+         </div>
+         <div n="2" org="uniform" sample="complete">
+            <p>Über die einzelnen <term ref="key000057">Gerichte</term> in der Landvogtei <placeName
+                  ref="loc000278">Sax-Forstegg</placeName> ist nur wenig bekannt, da kaum <term
+                  ref="key000809">Gerichtsprotokolle</term> erhalten sind und das <term
+                  ref="key003298">Landesrecht</term> von 1627 nur ein monatlich tagendes Gericht
+               erwähnt unter dem Vorsitz des <term ref="key003718">Landammanns</term> mit sechs
+               <term ref="key000103">Richtern</term> (<ref>SSRQ_SG_III_4_166</ref>, Art. 1).
+               Dieses Gericht tagte bis 1627 zu unregelmässigen Zeiten. Danach wird jeweils der
+               erste Dienstag im <term ref="key000437">Monat</term> um <time when="09:00:00">9
+                  Uhr</time> als <term ref="key000503">Rechtstag</term> festgelegt. Zwischen dem
+               monatlichen Gericht ist auch ein <term ref="key000617">Kaufgericht</term> möglich.
+                  <term ref="key000287">Appellationen</term> gehen gegen eine Gebühr von drei Talern
+               in das <term ref="key000186">Schloss</term>
+               <placeName ref="loc006124">Forstegg</placeName> vor den <term ref="key000180"
+                  >Landvogt</term> (<ref>SSRQ_SG_III_4_166</ref>, Art. 8).</p>
+            <p>Dieses monatliche Gericht wird in der Literatur als <term ref="key005289"
+                  >Monatsgericht</term> bezeichnet, als Quellenterminus wird ab der <date
+                  from="1651-01-01" to="1700-12-31">zweiten Hälfte des 17. Jh.</date> der Name <term
+                  ref="key005288">Herrschaftsgericht</term> fassbar. Aus dem Quellenmaterial wird
+               ersichtlich, dass es sich beim Herrschaftsgericht um das im Landesrecht 1627 erwähnte
+               monatliche Gericht handeln muss. Dieses Herrschaftsgericht tagt unter dem Vorsitz des
+                  <term ref="key003718">Landammanns</term> mit den sechs <term ref="key000103"
+                  >Richtern</term> (so z. B. in <bibl><ref>StAZH A 346.4, Nr. 303</ref></bibl>) das
+               Jahr hindurch; der erste Dienstag im Monat als <term ref="key000503"
+                  >Gerichtstag</term> ist jedoch nicht auszumachen. Nach den Quellen wird das
+               Gericht an den unterschiedlichsten Tagen abgehalten. </p>
+            <p>Ab <date from="1740-01-01" to="1760-12-31">Mitte des 18. Jh.</date> nimmt die
+               Einflussnahme des Landvogts auf das Herrschaftsgericht zu. In den Quellen wird die
+               Anwesenheit des Landvogts am Herrschaftsgericht explizit erwähnt, der in einigen
+               Fällen (vor allem gegen Ende des 18. Jh.) auch miturteilt (so z. B. <bibl><ref>OGA
+                     Sennwald Mappe Verschiedene Dokumente: Wuhr, Stickerei, Forst etc.,
+                     15.06.1786</ref></bibl>; <bibl><ref>StAZH A 346.6, Nr. 209</ref></bibl>). Nach
+               der Beschreibung von Landvogt <persName ref="per010271a">Johannes Ulrich</persName>
+               um <date when="1755">1755</date> sitzen in diesem Gericht neben <term ref="key000180"
+                  >Landvogt</term> und <term ref="key003718">Landammann</term> nur fünf <term
+                  ref="key000103">Richter</term>. Wahrscheinlich wurde die Richterzahl von sechs auf
+               fünf aufgrund des Einsitzes des Landvogts reduziert (siehe auch <bibl><ref
+                     target="http://permalink.snl.ch/bib/chbsg000143948">Aebi 1974</ref>,
+                  S. 88</bibl>), der laut Ulrich <orig>seine meinung zu erst oder zu lest</orig>
+               geben kann (<ref>SSRQ_SG_III_4_234</ref>, S. 88). Der Wechsel muss irgendwann in
+               der <date from="1701-01-01" to="1750-12-31">ersten Hälfte des 18. Jh.</date> erfolgt
+               sein. <date when="1707">1707</date> werden in einem Streitfall sechs Richter genannt
+                  (<ref>OGA Sennwald Mappe Nachbarn</ref>, 04.02.1707), <date when="1708"
+                  >1708</date> fünf Richter (<ref>OGA Sennwald Mappe Nachbarn</ref>, 01.05.1708). In
+               beiden Fällen geht aber nicht klar hervor, ob es sich um ein Urteil des gängigen
+               Herrschaftsgericht handelt oder nicht.</p>
+            <p><persName ref="per010728">Kaspar Thomann</persName> unterscheidet in seiner
+               Beschreibung der Freiherrschaft <placeName ref="loc000278">Sax-Forstegg</placeName>
+               <date when="1741">1741</date> neben Ehe- und Bussengericht ein <term ref="key005288"
+                  >Herrschaftsgericht</term> mit dem <term ref="key003718">Landammann</term> als
+               Vorsitzender und 13 <term ref="key000103">Richtern</term>, ein <term ref="key005289"
+                  >Monatsgericht</term> mit dem Landammann und sechs Richtern, ein <term
+                  ref="key001042">Zeitgericht</term> (April oder Mai) und ein Malefizgericht (Druck: <bibl><ref target="http://permalink.snl.ch/bib/chbsg000142638">Senn,
+                     Frey-Herschafft Sax</ref>, S. 21–23</bibl>). Das bei Thomann erwähnte <term
+                  ref="key005288">Herrschaftsgericht</term> mit 13 Richtern scheint auf die
+               Zusammensetzung des <term ref="key000044">Hochgerichts</term> zu deuten, das bei
+               Landvogt <persName ref="per010271a">Johannes Ulrich</persName> ebenfalls als
+               Herrschaftsgericht bezeichnet wird (<ref>SSRQ_SG_III_4_234</ref>, S. 87), denn
+               in diesem Gericht sitzt nach Thomann auch ein Richter aus der <placeName
+                  ref="loc000951">Lienz</placeName>. Lienz gehört zum <term ref="key000044"
+                     >Hochgericht</term> der Landvogtei Sax-Forstegg, nicht aber zum <term
+                  ref="key000151">Niedergericht</term>. Dass Lienz als eine zum Hochgericht gehörige
+               Gemeinde wie die anderen Gemeinden von <placeName ref="loc000278"
+                  >Sax-Forstegg</placeName> Anspruch auf einen oder je nach Grösse der Gemeinde
+               mehrere Richtersitze hat, liegt auf der Hand. Hingegen ist ein Lienzer Richtersitz in
+               einem Niedergericht in Sax-Forstegg wenig wahrscheinlich. Zeitweise muss das
+               Hochgericht jedoch nach den Landvogteirechnungen mit 24 Richtern besetzt worden sein
+                     (<bibl><ref target="http://permalink.snl.ch/bib/chbsg000141314">Kreis
+                     1923</ref>, S. 30</bibl>).</p>
+            <p>Zu den <term ref="key000892">Verhandlungen</term> vor dem <term ref="key005288"
+                  >Herrschaftsgericht</term> vgl. z. B. <bibl><ref>OGA Sennwald Mappe Verschiedene
+                     Dokumente: Wuhr, Stickerei, Forst etc.</ref>, 15.04.1687</bibl>;
+                     <bibl><ref>StAZH A 346.4</ref>, <ref>Nr.  37</ref>; <ref>Nr.  61</ref>;
+                     <ref>Nr. 113</ref>; <ref>Nr. 138</ref>; <ref>Nr. 162</ref></bibl>;
+                  <ref>Nr. 280</ref>; <ref>Nr. 295 (S. 1–20)</ref>; <bibl><ref>OGA Sax
+                     05.10.1786</ref>; <ref>10.07.1784</ref></bibl>; <bibl><ref>StASG AA 2
+                     A 07-2-14</ref></bibl>; <bibl><ref>OGA Haag 12.07.1699</ref></bibl>.</p>
+            <div org="uniform" sample="complete"/>
+            <p><!--Appelation davon in das Schloss vor den landvogt, der in Zürich Rat suchen soll falls kompliziert. 3 Taler. Urteile nur Herrschaftsgericht OGA&#160;Sax 05.10.1786, 10.07.1784; StASG&#160;AA&#160;2&#160;A 7-2-14
+15.04.1687 Büleraustreit, keine Einigung, Recht begehrt, Herrschaftsgericht auf Schloss; 20. Okt Parteien in Zürich
+Thomann: App ZH, Neben LV gehört zum Herrschaftsgericht LA, der von ZH gewählt auf 3er Vorschlag LV, 13 Richter 3 Sax 2 Frümsen 3 Sennwald 1 Lienz 2 Salez und 2 Haag. Wahl LV, 3. Landschreiber, 4. Landweibel. Jährliche Maiengericht im April oder Mai im Schloss, wo LA mit Richtern ohne Beisein LV über kleinere Klagen und Schäden richten, 2. Monatsgericht: monatliches Gericht: LV mit LA und etlichen Richtern über Schuld, Erb und Streitsachen richten oder LV die Parteien an Herrschaftsgericht weisen ohne Beisein und kann man von da an LV appellieren und von da an ZH, 3 Taler erlegen. Malefizgericht: LA mit Richter ohne Beisitz LV, LV bestätigen. Scharfrichter Feldkirch. Ehegericht: LV mit 3 Pfarrer, LA und 5 Richter der älteste aus jeder Gemeinde, nach Zürcher Ehegerichtsordnung. Landvogt: Frevel
+Kreis (nach Thomann mit einigen Ergänzungen): Herrschaftsgericht 13 Richter wie Thomann, Lebenszeit
+Monatsgericht: Zivielstritigkeiten LV LA und 5 ältesten Richtern, LV nicht unbedingt anwesend, unregelmässig, dann 1. Dienstag 9 Uhr. Appell vom Monatsgericht an ZH bsp 1687 Beschluss, mind. 100 Gulden und Ehre und ewige Gerechtigkeit. 
+Kaufgericht: 5 Richter und LS, App an LV 3 Taler, LV LS und Richter teilen sich zu 1/3 Gebühren der Monatsgerichte. 
+Zeitgericht: April, Mai: 
+Landvogt: Strafrechtliche Vergehen ausser Ehe und Blutgericht: Frevel (ev. anstelle Zeitgericht?) Bussentage, Bussen an Obrigkeit, dem LV drei BZ pro Gulden. z. T. mit 5 Richtern.
+Malefizgericht: Freiherren bereits Blutsbann laut kaiserlicher Belehnung, ZH nicht mehr eingeholt. z. T. 24 Richter in LVrechnungen, Hochgericht, Gut gehört Obrigkeit, Bsp (S.&#160;30) Scharfrichter
+Ehegericht: LV Vorsitz 3 Pfarrer, LA und den ältesten Richtern aus den 5 Gemeinden. Nach Zürcherischen Ehesatzungen, 1714: Pfarrer alle 2 Mt zu LV, um Bericht erstatten (siehe 1714 Art.&#160;11)
+Aebi: 83: nur Monatsgericht erwähnt, A 6 Richter, LV Ulrich um 1750 LV LA und 5 Richter, LS, Änderungen nicht vor 1669 (Abschrift Landbrauch ohne Hinweis auf Änderung)
+Kaufgericht: 3 Taler, selten, 
+87: Seit mindestens 1686 App an ZH bei Sachen von mind. 100 Gulden, Gebühren 3 Taler, Landbrauch: an LV, Änderung wohl dann, als LV im Monatsgericht Einsitz, LV App für Kaufgericht.--></p>
+         </div>
+      </back>
+   </text>
+</TEI>

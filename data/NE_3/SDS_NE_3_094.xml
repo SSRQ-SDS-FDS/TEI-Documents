@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome
+     3&#160;: Les points de coutume neuchâtelois</title>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="headerinfo"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <date type="electronic" when="2020-08-17"/>
+    <date type="print"/>
+    <availability>
+     <p xml:id="facs">Adrien Wyssbrod</p>
+    </availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Collection des sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS_NE_3_094</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier>
+      <idno>AVN B 101.01.01.006, p. 470</idno>
+     </msIdentifier>
+     <head>Lieu et validité de l’envoi en possession d’une succession</head>
+     <msContents>
+      <summary>La mise en possession d’une succession doit être demandée sur le jour des six
+       semaines après l’inhumation, auprès de la justice du domicile du de cujus. Celle-ci est
+       valide dans toutes les juridictions du comté et les héritiers n’ont pas besoin de la demander
+       ailleurs.</summary>
+      <msItem>
+       <textLang>français</textLang>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="32"/>
+          <width unit="cm" quantity="22.5"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <origDate when="1629-09-05" calendar="Julian"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>
+      </origin>
+     </history>
+     <additional>
+      <listBibl>
+       <head>Bibliographie</head>
+       <bibl><ref target="http://permalink.snl.ch/bib/chbsg000142327">Boyve 1854–1861</ref>, t. 4, p.
+        12</bibl>
+      </listBibl>
+     </additional>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key000494"/>
+     <term ref="key000920"/>
+     <term ref="key000815"/>
+     <term ref="key005117"/>
+     <term ref="key003024"/>
+    </keywords>
+   </textClass>
+   <particDesc default="false"/>
+   <settingDesc default="false"/>
+  </profileDesc>
+ </teiHeader>
+ 
+ <text>
+  <group>
+   <text>
+    <body>
+     
+     <pb n="469"/>
+     <div>
+      <head>
+       <lb/>Du <origDate when="1629-09-05" calendar="Julian">V septembre 1629</origDate> en <orgName ref="org007660">Conseil <choice><abbr>gnal</abbr><expan>général</expan></choice></orgName>
+       <lb/>presidant le <choice><abbr>s<hi rend="sup">r</hi></abbr><expan>sieur</expan></choice> <persName ref="per010434">de Montmollin</persName>.
+      </head>
+     </div>
+     <gap reason="irrelevant"/>
+    
+     
+     
+     <pb n="470" facs="AVN_B_101.01.01.006_0470"/> 
+     
+     <div><head><lb/><choice><abbr>Dud</abbr><expan>Dudit</expan></choice> jour en <orgName ref="org003085">Conseil estroict</orgName>.</head>
+    
+      <p>
+       <lb/>Le <choice>
+        <abbr>commiss<hi rend="sup">e</hi></abbr>
+        <expan>commissaire</expan>
+       </choice>
+       <persName ref="per011646a.01">Jehan Cordier</persName> de <placeName ref="loc007800.03"
+        >Sainct Blayse</placeName>, a demandé <lb/><choice>
+        <abbr>declairaon</abbr>
+        <expan>declaration</expan>
+       </choice> de l’us et de la coustume pour scavoir <lb/>si apres le deces et trespaz d’ung
+       deffunct, les <term ref="lem015995.03">heoires</term> et <lb/>ayants droict en sa succession
+       et <term ref="lem014982.02">heoirie</term>, sont tesnus <lb/>de demander la mise en
+       possession et investiture, de <lb/>telle succession, en toutes les justices des lieux, ou le
+       <lb/>deffunct pere avoit delaissé du bien fond adgisant <lb/>ou s’il ne doibt pas suffire que
+       sur le jour des <lb/><date dur="P6W">six sepmaines</date> de l’ensevelissement, les heritiers
+       du <lb/>deffunct apprehendent la mise es possession et investiture <lb/>de tous les biens par
+       luy delaissé, en la justice du <lb/>lieu de son domicille, et de son juge ordinaire, afin
+       <lb/>d’estre faict jouissans de tous <choice>
+        <abbr>lesd</abbr>
+        <expan>lesdits</expan>
+       </choice> bien <choice>
+        <abbr>gnallement</abbr>
+        <expan>générallement</expan>
+       </choice>
+       <lb/>quelconque sans <choice>
+        <abbr>excption</abbr>
+        <expan>exception</expan>
+       </choice>, <choice>
+        <sic>ores</sic>
+        <corr>hors</corr>
+       </choice> que partie d’iceux <lb/>soient situés riere d’aultre jurisdictions, et nonobstant
+       <lb/>quelque mise en possession et investitures particulieres <lb/>qu’aultres pretendants
+       pourraient avoir pourchassés <lb/>de quelque piece dependante de <choice>
+        <abbr>lad</abbr>
+        <expan>ladite</expan>
+       </choice> succession <lb/>riere d’aultre mayorie ou <choice>
+        <abbr>Chlaine</abbr>
+        <expan>châtellenie</expan>
+       </choice>
+       <choice>
+        <abbr>dud</abbr>
+        <expan>dudit</expan>
+       </choice> comte <lb/>ou elles <choice>
+        <sic>soiraient</sic>
+        <corr>seraient</corr>
+       </choice> situées.</p>
+      <lb/>
+      <add place="left margin">Coustume <lb/><persName ref="per011646a.01"><choice>
+         <abbr>J&#160;:</abbr>
+         <expan>Jean</expan>
+        </choice> Cordier</persName></add>
+      <lb/>
+      <add place="left margin" hand="later hand" medium="pencil">Boyve IV, <lb/>page
+          12<note><bibl><ref target="http://permalink.snl.ch/bib/chbsg000142327">Boyve
+          1854–1861</ref>, t. 4, p. 12</bibl>.</note></add>
+      <p>
+       <lb/>Sur ce a esté dict et declairé, la coustume usitée et <lb/>pratiquée riere ceste ville
+       et Comté, par le passé <lb/>de temps immemorial jusqu’a <choice>
+        <abbr>pnt</abbr>
+        <expan>présent</expan>
+       </choice>, estre telle que <lb/>quand une ou plusieurs personnes, ont apprehendé la
+       <lb/>possession et investiture de toute la succession et <lb/>hoirie d’ung deffunct bourgeois
+       ou de franche condition <lb/>sur le jour des <date dur="P6W">six sepmaines</date> de son
+       ensepvelissement <lb/>en la justice du lieu, ou le deffunct estoit domicilie <lb/>et
+       justiciable, elles peuvent et doibvent estre saisies <lb/>et faict jouissantes de tous et <choice>
+        <abbr>cheungs</abbr>
+        <expan>chescungs</expan>
+       </choice> les biens <lb/>meubles et immeubles delaissés par <choice>
+        <abbr>led</abbr>
+        <expan>ledit</expan>
+       </choice> deffunct, <lb/>et a luy apartenants a l’heure de son deces, en quelque <lb/>lieux
+       et riere quelles seigneurie et jurisdiction <lb/>qu’ils soient gisantes, et se puissant
+       trouver sans <lb/>aulcune exception, ou sans estre tenus de pourchasser de pour <lb/>s’il ne
+       plaist, aultre mise en possession et <lb/>investitures, en justice des aultres lieux, riere
+       <lb/>lesquels <choice>
+        <abbr>led</abbr>
+        <expan>ledit</expan>
+       </choice> deffunct pourroit avoir du bien, sur<lb break="no"/>tout quant c’est riere ce mesme
+       d’estat, et <lb/>souveraineté. </p>
+     
+     </div>
+       
+    </body>
+   </text>
+  </group>
+ </text>
+</TEI>

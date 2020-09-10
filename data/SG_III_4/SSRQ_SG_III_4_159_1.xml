@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften
+     und Landstädte, Band 4: Die Rechtsquellen der Region Werdenberg: Grafschaft Werdenberg und
+     Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-08-19"/>
+            <date type="print"/>
+            <availability default="false">
+               <p xml:id="facs">Staatsarchiv St. Gallen (StASG)</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_159_1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>StASG AA 2 A 3-3, S. 9</idno>
+                  <altIdentifier>
+                     <idno>StASG AA 2 A 3-3</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <head>Entwurf des Eids eines Försters oder Bannwarts</head>
+               <msContents>
+                  <summary><p>Der Förster soll schwören, die Wälder der Herrschaft fleissig zu kontrollieren, vor
+			Schaden zu bewahren und niemandem zu erlauben zu holzen. Wenn der Landvogt jemandem Holz
+			bewilligt und verkauft, soll der Förster das Holz kennzeichnen und kontrollieren, damit
+			nur diejenige Menge geschlagen wird, die ausgegeben worden ist. Holzfrevel soll er
+			sofort dem Landvogt melden. Er soll auch vermeiden, dass Vieh in die jungen Wälder
+			gelassen wird.</p></summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <filiation type="current">Aufzeichnung, Heft (4 Doppelblätter) mit Umschlag</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="34.0"/>
+                              <width unit="cm" quantity="22.0"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate from="1615-04-15" to="1700-12-31">Undatiert, da Zürich als Herr genannt wird, ist der Eid nach dem Kauf der Herrschaft durch 1615 entstanden.</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000179">Eid</term>
+               <term ref="key000066">Bannwart</term>
+               <term ref="key000249">Wald</term>
+               <term ref="key000640">Holzschlag</term>
+               <term ref="key000336">Nutzung</term>
+               <term ref="key000524">Holz</term>
+               <term ref="key000065">Amtmann</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <div>
+                  <p><gap source="SSRQ_SG_III_4_147_1"/><note>Die Seiten 1 bis 8 enthalten die Eidesformeln
+                     der Untertanen von Sax-Forstegg und von Lienz sowie der Amtleute (Landammann, Richter,
+                     Weibel) um 1615, die den Eiden von 1597 entsprechen; nur die Anredeformeln wurden an die
+                     neue Herrschaft <orgName ref="org001196">Zürich</orgName> angepasst
+                     (<ref>SSRQ_SG_III_4_147</ref>).</note></p>
+               </div>
+               <pb n="9" facs="StASG_AA_2_A_03-03_9"/>
+               <div>
+                  <head><lb/>Projectierter <term ref="lem000070">eid</term>
+                     <lb/>für einen <term ref="lem015297.02">holzfoster</term> oder <term ref="lem014600"
+                        >bahnwart</term> zu <placeName ref="loc000278">Sax</placeName></head>
+                  <p><seg>
+                        <lb/>Ihr sollet schweeren, alle der herrschafft <placeName ref="loc000278"
+                           >Sax</placeName> zugehörige <lb/><term ref="lem000028">hölzer</term>
+                        fleißig zu durchgehen und dieselbe best fürers <lb/>vermögens vor <term
+                           ref="lem005099">abgang</term> mit schaden zu <term ref="lem012662"
+                           >vergoumen</term>
+                        <lb/>und für eüch selbsten niemandem zu erlauben, darinnen, <lb/>vil oder
+                        wenig, <term ref="lem002810">zuholzen</term>.</seg>
+                     <seg>Und wann von einem herren <lb/><term ref="lem000266">landtvogt</term>
+                        jemandem <term ref="lem000759">holz</term> bewilliget und verkaufft
+                        <lb/>wurde <sic>?</sic>, sollet ihr solches an weißen und <term
+                           ref="lem003863">zeichnen</term>
+                        <lb/>und dann sorgfeltiges aufsehen haben, daß nur die <lb/>bestimte zahl
+                        und mehrers nicht gefellet werde.</seg>
+                     <seg>
+                        <lb/>Und so ihr in dem <term ref="lem000028">holz</term> den eint ald
+                        anderen <term ref="lem000044">freffel</term>
+                        <lb/>gewähreten, sollet ihr dan keines wägs verschwygen, <lb/>sonderen ohne
+                        ansehen der persohn einem jeweiligen <lb/>herr <choice>
+                           <abbr>landtv</abbr>
+                           <expan>landvogt</expan>
+                        </choice> zu gebührender <term ref="lem003808">abstraffung</term>
+                        <term ref="lem000829">leiden</term>.</seg>
+                     <seg>
+                        <lb/>Insonderheit sollet ihr auch sorgfeltig verhüeten, <lb/>daß keinerlei
+                           <term ref="lem000310">vych</term> in die junge <term ref="lem015798"
+                           >heüw</term> gelaßen <lb/>werden und sonsten in allen, waß zu <term
+                           ref="lem009271">üffnung</term> der <lb/>herrschafft <term ref="lem000028"
+                           >hölzeren</term> dienet, eüwer weyst und bestes <lb/>thun, getreülich und
+                        ohngefahrlich.</seg>
+                  </p>
+               </div>
+               <pb facs="StASG_AA_2_A_03-03_v"/>
+               <div>
+                  <ab type="dorsal" place="verso" hand="hand17c"><lb/>Projectierter eid <lb/>für einen
+                     holzfoster <lb/>zu <placeName ref="loc000278">Sax</placeName></ab>
+               </div>
+               <div>
+                  <ab type="archiving reference" place="verso"><lb/><del>N<hi rend="sup">o</hi> 5</del>;
+                     <lb/>N<hi rend="sup">o</hi> 2; <lb/>N<hi rend="sup">o</hi> 213; 34 </ab>
+               </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div n="1">
+            <p>Der <term ref="key000179">Eid</term> des <term ref="key000066">Bannwarts</term> ist nicht
+               datiert und wurde später als Doppelblatt den drei Doppelblättern mit den Eiden der <orgName
+                  ref="org001228">Bewohnerschaft von Sax-Forstegg</orgName> und der <orgName ref="org002818"
+                     >Lienz</orgName> sowie der <term ref="key000065">Amtleute</term> beigelegt. Letztere sind
+               ebenfalls nicht datiert und sind vom Schriftbild her wohl um die Zeit der Übernahme der
+               Herrschaft um 1615 zu datieren (<bibl><ref>StASG&#160;AA&#160;2&#160;A 3-3</ref></bibl>). Der Eid des
+               Försters stammt von einer späteren Hand, die eher aus dem Ende des 17. Jh. stammt.</p>
+            <p>Als eine der wenigen Quellen umschreibt dieser <term ref="key000179">Eid</term> die Aufgaben
+               eines Försters oder <term ref="key000066">Bannwarts</term> in <placeName ref="loc000278"
+                  >Sax-Forstegg</placeName>. </p>
+            <p>Zur Bewirtschaftung des <term ref="key000249">Waldes</term> in Sax-Forstegg
+               vgl. auch die <term ref="key000341">Ordnung</term> wegen des <term ref="key000747"
+                  >Bannwaldes</term> am <placeName ref="loc007997">Sennwalder Berg</placeName>
+               (<ref>SSRQ_SG_III_4_246</ref>) sowie die beiden <term ref="key000750"
+                  >Holzordnungen</term> von <placeName ref="loc006042">Sax</placeName>
+               (<bibl><ref>OGA Sax 26.02.1783</ref></bibl>).</p>
+         </div>
+         <div n="2">
+            <p>Zu dem Eid eines <term ref="key000180">Landvogts</term>, der Bewohnerschaft von <orgName
+               ref="org001228">Sax-Forstegg</orgName> und der <orgName ref="org002818">Lienz</orgName> oder
+               der <term ref="key000065">Amtleute</term> von <placeName ref="loc000278"
+                  >Sax-Forstegg</placeName> vgl. <ref>SSRQ_SG_III_4_207</ref>;
+               <ref>SSRQ_SG_III_4_147</ref>.</p>
+         </div>
+      </back>
+   </text>
+</TEI>
+

@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-08-15"/>
+            <date type="print"/>
+            <availability><p xml:id="facs">Staatsarchiv St. Gallen (StASG)</p></availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_117_1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>StASG AA 3 U 10</idno>
+               </msIdentifier>
+               <head>Schiedsspruch zwischen der Herrschaft Hohensax-Gams und der Landvogtei Werdenberg über die Grenze und die Fischereirechte in der Simmi</head>
+               <msContents>
+                  <summary>
+                     <p>Ulrich Gubser, alt Vogt im Gaster, Georg Füres, Vogt von Uznach, beide von Schwyz, sowie Dionys Bussy, alt Landammann, und Paulus Schuler, alt Vogt von Werdenberg, beide von Glarus, einigen sich im Streit um die Herrschaftsgrenzen zwischen der Herrschaft Hohensax-Gams und der Landvogtei Werdenberg sowie um die Fischereirechte in der Simmi. Die vier Personen besichtigen die Grenzen und legen die umstrittenen Grenzen fest: </p>
+                     <p>1. Die Grenzen verlaufen von einem Grenzstein in einem Feld, Heinrich Scherrers Feld genannt, hinauf zu einer Eiche mit zwei Kreuzen unterhalb von Hans Scherrers Haus und Hof und von der Eiche hinauf in einen Eichstock vor Hans Scherrers Haus und von da der Simmi entlang bis in das Orloch. </p>
+                     <p>2. Die Fischereirechte vom Rhein bis zur Eiche bei Hans Scherrers Haus gehören Gams; die Fischereirechte von der Eiche bis zum Orloch gehören zu Werdenberg.</p>
+                     <p>3. Wer Güter innerhalb der Grenzen der jeweils anderen Herrschaft besitzt, soll diese nutzen wie bisher.</p>
+                     <p>Glarus und Schwyz siegeln.</p>
+                  </summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <filiation type="current">Original</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Pergament</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="30.0"/>
+                              <width unit="cm" quantity="57.0"/>
+                           </dimensions>
+                           <dimensions type="plica">
+                              <width unit="cm" quantity="9.5"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <sealDesc>
+                     <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI"
+                           n="1"
+                           nontei:condition="well-preserved"
+                           nontei:shape="round"
+                           nontei:material="wax"
+                           nontei:attachment="sealed on a parchment tag" facs="StASG_AA_3_U_10_s_01">
+                        <orgName role="sigillant" ref="org001191">Schwyz</orgName>
+                     </seal>
+                     <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI"
+                           n="2"
+                           nontei:condition="well-preserved"
+                           nontei:shape="round"
+                           nontei:material="wax"
+                           nontei:attachment="sealed on a parchment tag" facs="StASG_AA_3_U_10_s_02">
+                        <orgName role="sigillant" ref="org001197">Glarus</orgName>
+                     </seal>
+                  </sealDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1538-09-30">mentags nach sanct Mychels tag</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000305">Grenze</term>
+               <term ref="key000258">Fischenz</term>
+               <term ref="key000140">Herrschaft</term>
+               <term ref="key000980">Landesgrenze</term>
+               <term ref="key000940">Eigengut</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <div org="uniform" sample="complete">
+                  <pb facs="StASG_AA_3_U_10_r"/>
+                  <p>
+                     <seg>
+                        <lb/>In gotes namen amen. Wyr, dis nachbenempten <persName ref="per005564a"
+                           >Uͦlrich Güpfer</persName>, alt vogt ze <placeName ref="loc000842"
+                           >Wynndegg unnd im Gaster</placeName>, <persName ref="per009053a">Gorgis
+                           Füreß</persName><note anchored="true">Die Familie Füress ist ein heute
+                           ausgestorbenes Geschlecht, das in Schwyz nur selten in Erscheinung tritt
+                           (für den Hinweis danke ich Oliver Landolt).</note>, diser zit vogt der
+                        graffschafft <placeName ref="loc001076">Utznach</placeName>, bed lanndtlüte
+                        unnd des rates zuͦ <placeName ref="loc000730">Schwytz</placeName>, <lb/>unnd
+                        wyr, <persName ref="per001885a.05">Dionisiûs Buͤssy</persName>, alt
+                        lanndtamman, <persName ref="per001752a">Paly Schuͦler</persName>, alt vogt
+                        ze <placeName ref="loc000440">Werdennberg</placeName>, bed lanndtlüte unnd
+                        des rates zǔ <placeName ref="loc000326">Glarûs</placeName>, thuͦnd khunnd
+                        vor menngklichem, hierann offennlich bekhennen<lb break="no"/>de, als sich
+                        dann lanng zit daharr spenn, irthûmb unnd zwytracht begeben unnd gehaltenn
+                        hat ennzwüschend denn ersamen, wysenn, unnserenn liebenn unnd gethrûwenn
+                           <orgName ref="org001881">ammann und <lb/>ganntzer gemeynnd zu <placeName
+                              ref="loc000221">Gammps</placeName></orgName>, so unns, denn obgemelten
+                        beden orten, glich unnd gmeyn zuͦgehörig an einem, unnd die ersamen, wysenn
+                           <orgName ref="org001816">ammann und gemeind der graffschafft <placeName
+                              ref="loc000440">Wer<lb break="no"/>dennberg</placeName></orgName>, so
+                        unns von <orgName ref="org001197">Glarûs</orgName> allein unnd innsonnders
+                        zuͦgehörig, annders theyls, alles von wegenn der <term ref="lem002870"
+                           >lanndtmarch</term> zwüschennd den gemeltenn bedenn lannden <placeName
+                           ref="loc006040">Gamps</placeName> und <placeName ref="loc000440"
+                              >Werdenn<lb break="no"/>berg,</placeName> ouch von wegenn der <term
+                           ref="lem000030">fyschetz</term> in der <placeName ref="loc006290.02"
+                           >Soymgienn</placeName> ursprünglich hargeflossenn ist unnd aber vormals
+                        brieff unnd sygel die lanndtmarch beruͤrend zwüschend inen uffgericht,
+                        dardûrch sy beder <lb/>sit nit genǔgsam lüterûng gehabenn mochtenn noch
+                        dardûrch solicher spenn die lanndtmarch betreffennd geruͤwygot.</seg>
+                     <seg>Dann das wyr, die obgemelten fier mann, uß bevelch der frommen, vesten,
+                        fursichtigen, <lb/>wysen lanndtammann unnd rats beder obgenampter lannden
+                        unnsrer gepieten, den herren uff yrs stöß zekhommen gewyst, die ze
+                        besichtigen unnd ze end ze bringen, solicher massen man fürohin die landt<lb
+                           break="no"/>march, ouch wo yeder theyl ze fyschenn recht hab, wüssenn
+                        mög.</seg>
+                     <seg>Unnd nach dem wyr zügnûs, lüt, urber unnd brieff unnd was harzuͦ
+                        dienstlich gewesenn, ouch was yeder theyll ze hörenn begert, inen beder<lb
+                           break="no"/>sit eygenntlich verhört unnd den hanndel von einem ennd bis
+                        ann das annder besehenn und beschowet. Unnd als wyr denn hanndel, ouch
+                        gelegennheit der sach, bedacht und erwogen, habennd wyr uns <lb/>der
+                        lanndtmarch zwüschennd denn obgenampten lanndenn <placeName ref="loc006040"
+                           >Gamps</placeName> unnd <placeName ref="loc000440"
+                           >Werdennberg</placeName> früntlich unnd guͤtlich vereynbart, gesetzt unnd
+                        beschlossenn, doch vorbehaltenn denn <term ref="lem000008"
+                           >khouffbrieffenn</term>, <lb/>
+                        <term ref="lem000372">urbenn</term> unnd herlikheyt ussert disenn artycklenn
+                        ganntz unvergryffenn unnd unschädlich, alles inmassen wie hernach
+                        volgt:</seg>
+                     <seg n="1">Also das nûn fürohinn wie ein steiny <term ref="lem000693"
+                           >march</term> in dem <lb/>
+                        <term ref="lem000171">veld</term> stadt, das man vornaher <placeName
+                           ref="loc007698.02"><persName ref="per004871">Heiny Schärer</persName>s
+                           Veld</placeName> genampt hat, von diser march richtigs hinûff in die eich
+                        mit zwey <term ref="lem006147">krützinenn</term> bezeichnot, so unnder
+                           <persName ref="per007130a">Hanns Scherer</persName>s hûs und hoff <lb/>im
+                           <term ref="lem000469">gestüd</term> stat unnd von diser <term
+                           ref="lem001138">eych</term> obsich in denn <term ref="lem014676.02"
+                           >eychstock</term>, darinn ein crutz gemacht, so vor <persName
+                           ref="per007130a">Hanns Scherer</persName>s hûs<note anchored="true">Im
+                           Grenzbrief von 1496 (<ref>SSRQ_SG_III_4_091</ref>) wird Heinrich Scherers
+                           Haus als Grenze genannt. Wahrscheinlich bezieht sich <placeName
+                              ref="loc007698">Heinrich Scherers Feld</placeName> auf den ehemaligen
+                           Besitzer des Hauses. <persName ref="per007130a">Hans Scherer</persName>
+                           ist wohl ein Nachfahre von <persName ref="per004871">Heinrich
+                              Scherer</persName>.</note> uffhinwertz uff dem <placeName
+                           ref="loc006290.03">Soymgien</placeName>
+                        <term ref="lem002177">bort</term> usserthalb des <term ref="lem003219"
+                           >hags</term> stadt unnd da dannenn <lb/>dem <term ref="lem000572"
+                           >tal</term> nach hinûff in das <placeName ref="loc007324"
+                           >Orloch</placeName>. Das sol nûn hinfür die <term ref="lem002870"
+                           >lanndtmarch</term> zwüschend den obgenampten lanndenn <placeName
+                           ref="loc006040">Gamps</placeName> unnd <placeName ref="loc000440"
+                           >Werdennberg</placeName> heyssenn unnd sin.</seg>
+                     <seg n="2">Der <term ref="lem000030">fyschetz</term> halb <lb/>in der
+                           <placeName ref="loc006290.04">Söymgienn</placeName>, wohin oder uff
+                        welicher lanndtmarch die <placeName ref="loc006290">Söymgien</placeName>
+                        fürohin vallenn, fliessenn oder ußbrechenn wûrd, so sol doch der fyschetz
+                        vom <placeName ref="loc000644">Ryn</placeName> uffhar bis in die gedachtenn
+                           <term ref="lem001138">eych</term>
+                        <choice>
+                           <sic>mit zwey <lb/>mit zwey</sic>
+                           <corr>mit zwey</corr>
+                        </choice>
+                        <term ref="lem006147">crützinenn</term> bezeichnet, nûn fürhin zuͦ der
+                        lanndtschafft unnd herlikheit <placeName ref="loc006040">Gammps</placeName>
+                        gehörenn unnd dienenn unnd das niemanntz anndrer darin nit fischenn noch ze
+                        fischenn khein glimpf, <lb/>fuͦg noch recht habenn sol. Unnd vonn gemelter
+                        eych obsich bis in das <placeName ref="loc007324">Orloch</placeName>;
+                        derselbig fischetz sol zuͦ der herschafft <placeName ref="loc000440"
+                           >Werdennberg</placeName> dienen unnd zuͦgehörig sin, unngehindert unnd
+                        ons inntrag men<lb break="no"/>gklichs.</seg>
+                     <seg n="3">Es ist ouch hierinne lûter ußbedingt unnd vorbehaltenn, jedem theyl
+                        sine eigenn, sine leehen, sine weydgenng, holtz, veld, wûnn oder weyd, recht
+                        und grechtikheit, ob yemanndt die in des <lb/>anndrenn lanndtzmarch hety,
+                        wie das yeder theyl bißhar gehept unnd gebrûcht hat, das sy zuͦ bedenn
+                        sitenn daby belybenn, das nûtzenn, niessenn unnd bruchenn sollennd unnd
+                        mögennd, <lb/>wie das von allterhar gebrûcht unnd harkhomenn ist. Unnd das
+                        sy zuͦ bedenn theylenn einanndren früntlichenn, nachpurlichenn unnd guͦtenn
+                        wyllenn erzeygenn, bewysenn unnd thuͦn <lb/>sollennd als solichs gutenn
+                        frundenn zimpt, geburt unnd wol annstadt.</seg>
+                     <seg>Unnd hiemit um disenn lanngwirigenn gespann, die lanndtmarch unnd fyschetz
+                        obgemelt beruͤrennde, früntlich <lb/>und guͤtlich betragenn sin unnd
+                        blybenn, jetz unnd hirnach unnd in allenn dingenn dis artyckel beruͤrend,
+                        früntlich unnd nachpürlich gegenn einanndrenn hanndlen unnd lebenn, alles
+                        <lb/>inn krafft dis brieffs, dero zwen glych hellende geschrybenn unnd yedem
+                        theyl einer mit unnser beder lennder <orgName ref="org001191"
+                           >Schwytz</orgName> unnd <orgName ref="org001197">Glarûs</orgName>
+                        annhangendenn innsiglen, doch unnserenn <lb/>oberkhaitenn friheytenn und
+                        grechtikheiten, so wyr der enndenn habend, inn all annder weg ganntz
+                        unvergryffenn unnd unnschedlich besiglenn lassenn <origDate
+                           when="1538-09-30">mentags nach sanct <persName ref="per000390"
+                              >Mychel</persName>s tag <lb/>nach Cristy gebûrt fünnffzehennhûndert
+                           drissig unnd acht jar</origDate>.</seg>
+                  </p>
+               </div>
+               <pb facs="StASG_AA_3_U_10_r"/>
+               <div org="uniform" sample="complete">
+                  <ab type="dorsal" place="verso" hand="hand18c">Verglich zwüschent <placeName ref="loc000211">Gams</placeName>
+       undt <lb/>
+                     <placeName ref="loc000440">Werdenberg</placeName> der landtmarckhen <lb/>halber <abbr>etc</abbr>
+       anno 1538</ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab type="archiving reference" place="verso">N<hi rend="sup">o</hi>
+                     <del>128</del>; Werd. N<hi rend="sup">o</hi> 10</ab>
+               </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div n="1" org="uniform" sample="complete">
+            <p>Vor dieser Schlichtung wird eine <term ref="key003261">Kundschaft</term> aufgenommen
+               um die <term ref="key000535">Fischereirechte</term> in der <placeName ref="loc006290"
+                  >Simmi</placeName> und die <term ref="key000980">Landesgrenzen</term>. Dabei wird
+               zusätzlich der Grenzpunkt zwischen den drei Herrschaften <placeName ref="loc000440"
+                  >Werdenberg</placeName>, <placeName ref="loc006040">Hohensax-Gams</placeName> und
+                  <placeName ref="loc000278">Sax-Forstegg</placeName> erwähnt: Es wird ausgesagt,
+                  <orig>das die drü gricht by der <placeName ref="loc006227">Zapfend
+                     Müly</placeName> zesamenn <lb/>stossind und seit, dz die Zapfend Müly gestanden
+                  syg hinder <lb/>der <placeName ref="loc007113.03">Blutloße</placeName></orig>
+                     (<bibl><ref>StASZ HA.IV.404, Nr. 2, S. 3</ref></bibl>). Die Zapfenmüli wird
+               bereits am <date when="1329-08-13">16. August 1329</date> zur Grenze zwischen dem
+                  <placeName ref="loc000782">Toggenburg</placeName> und den saxischen Besitzungen,
+               denn <persName ref="per004980">Ulrich Stephan</persName> und <persName
+                  ref="per004981">Ulrich Branthoch von Sax-Hohensax</persName> verkaufen alle ihre
+               toggenburgischen Besitzungen (<orig>alles daz wir hatton entzwischan der <placeName
+                     ref="loc006227">Zaphenden Múli</placeName> und <placeName ref="loc000754"
+                     >Starkenstein</placeName></orig>) mit Ausnahme der <placeName ref="loc006138"
+                  >Alp Tesel</placeName> an die Grafen <persName ref="per005120">Friedrich
+                  V.</persName> und <persName ref="per005122">Diethelm V. von Toggenburg</persName>
+                     (<bibl><ref
+                     target="http://monasterium.net/mom/CH-StiASG/Urkunden/CC.2.B.4/charter">StiASG
+                     CC.2.B.4</ref></bibl>). Zu den Grenzen zwischen Werdenberg und Gams vgl. auch
+                  <ref>SSRQ_SG_III_4_091</ref>. </p>
+         </div>
+         <div n="2" org="uniform" sample="complete">
+            <p>Die Grenzen zwischen Werdenberg und Hohensax-Gams werden erst wieder <date
+                  when="1724">1724</date> erneuert, weil der <date when="1538">1538</date> gesetzte
+               Grenzstein auf dem Bord der Simmi ausserhalb des Hages von dem <term ref="key000259"
+                  >Bach</term> weggeschwemmt wurde. Neues Grenzzeichen wird ein <term
+                  ref="key000175">Nussbaum</term> bei der Simmi mit einer beidseitigen Hintermarch
+               (vgl. dazu <bibl><ref>OGA Grabs O 1722-1</ref></bibl>; <bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/eab3281d6e7547258e88ca0b6a201d27"
+                     >LAGL AG III.2419:004</ref>; <ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/2678c8b4a8984900bfac2c8e4b9774ab"
+                     >AG III.2419:005</ref>; <ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/0e9370d3f4174d7985ef753a784daebe"
+                     >AG III.2419:021</ref>; <ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/da1b88ea69174bcab0ed7cedb79d4782"
+                     >AG III.2419:023</ref>; <ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/bff4caaae0c24ecbb3d0aa395281fa1c"
+                     >AG III.2419:024</ref>; <ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/d73ece5e43614be3b4883c285643fcc8"
+                     >AG III.2426:004</ref>; <ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/2f0bc340e9234e708b6a47a3c2e51867"
+                     >AG III.2426:005</ref></bibl>; <bibl><ref>StASG AA 3 A 02-2</ref></bibl>;
+                     <bibl><ref>OGA Gams Nr. 146b</ref></bibl>).</p>
+         </div>
+         <div n="3" org="uniform" sample="complete">
+            <p>
+               <date when="1765">1765</date> wird der als Grenze bestimmte Nussbaum wegen <term ref="key003511">Überschwemmungen</term> der Simmi weggerissen und die Grenzen werden neu bestimmt: <orig>1.
+      Nimbt diese marchung ihren anfang by dem <placeName ref="loc007576.02">Bätzlybad</placeName>
+      in <lb/>das <placeName ref="loc007578.02">Simmy Tobel</placeName> und durch das <term ref="lem000288">tobel</term> beständig hinaus bis <lb/>2. in die <placeName ref="loc006290.05">Simy</placeName> zwischen <persName ref="per007131a">Adrian
+       Fetschen</persName> guth, <placeName ref="loc007699.02">Simystauden</placeName> genanth, und
+       <persName ref="per007132a">Anthonny Scherters</persName> guth, wo die <term ref="lem010688">haubtmarch</term>
+                  <lb/>vom <term ref="lem002181">strom</term> volkomen versenkt.</orig> Es werden weitere
+     Grenzsteine gesetzt und beschrieben (<bibl><ref>OGA Grabs O 1765-1</ref></bibl>).</p>
+         </div>
+         <div n="4" org="uniform" sample="complete">
+            <p>
+               <date when="1783">1783</date> wird nochmals eine Grenzbereinigung durchgeführt: Der
+               Werdenberger Landvogt <persName ref="per002114a">Konrad Blumer</persName> und
+                  <persName ref="per007133a">Joseph Anton von Tschudi</persName>, Landvogt im
+               Gaster, legen nach einem gemeinsamen <term ref="key000748">Augenschein</term> den
+               neuen Marchenbrief für die Grenze zwischen Werdenberg und Gams vor, nachdem seit
+                  <date when="1765">1765</date> keine Grenzerneuerung mehr vorgenommen und durch die
+               Simmi mehrere Haupt- und Hintermarchen zerstört worden sind. Die Urkunde beschreibt
+               die Grenze vom <placeName ref="loc007576">Bätzlibad</placeName> der Simmi entlang bis
+               zum <placeName ref="loc007700.02">Rinderhaag</placeName> beim <placeName
+                  ref="loc007701.01">Buchsergraben</placeName> (<bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/b0eeb3eac27340e5a1160f201913daa3"
+                     >LAGL AG III.2419:016</ref></bibl>; zu dieser Grenzbereinigung vgl. auch
+                     <bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/85c96dea346e4850b81cacad11d29b21"
+                     >LAGL AG III.2419:014</ref>; <ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/accf6606160a440f8a70f4bb3d5eaf59"
+                     >AG III.2419:015</ref>; <ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/4ae5dc41b6874015b530daca12f91ca9"
+                     >AG III.2419:033</ref>; <ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/bba9d9ae970a42c8a28c801d6bcd7128"
+                     >AG III.2419:034</ref>; <ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/2ffecb1bf1cd4ef4bd21cc0d0f64f44f"
+                     >AG III.2468:002</ref>, Art. 1</bibl>; <bibl><ref>StASG
+                        AA 3 A 02-4</ref></bibl>; <bibl><ref>StASZ  HA.IV.405, o. Nr.</ref> (16.05.1783)</bibl>; <bibl><ref>OGA Grabs O 1783-1</ref></bibl>).</p>
+         </div>
+      </back>
+   </text>
+</TEI>

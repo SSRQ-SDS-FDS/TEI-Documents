@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="headerinfo"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <date type="electronic" when="2020-08-17"/>
+    <date type="print"/>
+    <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Collection des sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS_NE_3_048</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier>
+      <idno>AVN B 101.14.001, fol. 400r–403r</idno>
+     </msIdentifier>
+     <head>Succession d’une veuve remariée</head>
+     <msContents>
+      <summary>Nombreuses précisions sur la manière de partager les biens et notamment le bétail
+       dans le cas d’une veuve s’étant remarié et ayant eu une fille de son second mariage, tandis
+       que le mari décédé avait lui-même des enfants d’un premier lit.</summary>
+      <msItem>
+       <textLang>français</textLang>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="33"/>
+          <width unit="cm" quantity="23.5"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <origDate when="1604-04-27" calendar="Julian"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>
+      </origin>
+     </history>
+     <additional>
+      <listBibl>
+       <head/>
+       <bibl/>
+      </listBibl>
+     </additional>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+    
+     <term ref="key005098"></term>
+     <term ref="key004770"></term>
+     <term ref="key000920"></term>
+     <term ref="key000815"></term>
+     <term ref="key000336"></term>
+     <term ref="key000803"></term>
+     <term ref="key004428"></term>
+     <term ref="key001112"></term>
+     <term ref="key005101"></term>
+     <term ref="key005072"></term>
+         </keywords>
+   </textClass>
+   <particDesc default="false"/>
+   <settingDesc default="false"/>
+  </profileDesc>
+ </teiHeader>
+ 
+ <text>
+  <group>
+   <text>
+    <body>
+     
+     
+     <pb n="400r" facs="AVN_B_101.14.001_0400r"/> 
+        
+     <div>
+     
+     <head>
+      <lb/>Partage entre la mere &amp; l’enfant.
+     </head>
+      
+      <p>
+       <lb/>Je, <persName ref="per010508">Daniel Huguenaud</persName>, mayre <lb/>et du <orgName
+        ref="org003085">Conseil de la Ville de <placeName ref="loc007786"
+        >Neufchâtel</placeName></orgName>, pour &amp; au <lb/>nom de l’excellence &amp; grandeur de
+        <persName ref="per010509">madame la duchesse <lb/>de Longueville &amp; de
+        Touteville</persName>, &amp; de <persName ref="per010445">monseigneur son <lb/>tres illustre
+        fils nostre souverain prince</persName> &amp; sçavoir <lb/>fais à qui il appartiendra que
+       par devant moy et <lb/>aucuns des sieurs conseillers de <choice>
+        <abbr>lad</abbr>
+        <expan>ladite</expan>
+       </choice> ville assemblés en <lb/>ouverte justice, vertueuse femme <persName
+        ref="per010448a.01">Barbeli Clerc</persName>, vefve <lb/>en premieres nopces de feu
+       honnorable <persName ref="per010510">Jean Grenot</persName> le <lb/>jeune, &amp; à present
+       vefve de feu le <choice>
+        <abbr>s<hi rend="sup">r</hi></abbr>
+        <expan>sieur</expan>
+       </choice>
+       <persName ref="per010449a.02">Olivier Des Costes</persName>
+       <lb/>son second marry, tous deux en leur vivant bourgeois &amp; <lb/><choice>
+        <abbr>Conseill<hi rend="sup">rs</hi></abbr>
+        <expan>conseillers</expan>
+       </choice> de cette Ville a fait proposer &amp; entendre par le <lb/>sieur <persName
+        ref="per010460a.02">Nicolas Trybolet</persName> bourgeois dudit <placeName ref="loc007786"
+        >Neufchatel</placeName> son <lb/>beaufils, pourveu d’un parlier par moy à luy ottroyé, &amp;
+       <lb/>assisté des honnorables &amp; prudents <persName ref="per010511a.01">Jean Clerc dit
+        Guy</persName>, <lb/>banderet &amp; du Conseil <choice>
+        <abbr>dud</abbr>
+        <expan>dudit</expan>
+       </choice>
+       <placeName ref="loc007786">Neufchâtel</placeName>, frere d’<persName ref="per010512a.01"
+        >Abraham <lb/>Tribollet</persName> ancien chatelain de <placeName ref="loc007878"
+        >Thielle</placeName> beau frere, &amp; autres <lb/>proches parens d’icelle. Comme ainsi soit
+       qu’il ait plu <lb/>à Dieu de retirer à sa part <choice>
+        <abbr>sond</abbr>
+        <expan>sondit</expan>
+       </choice> dernier mary duquel <lb/>elle a eu une fille, &amp; qu’elle soit sur le point
+       d’entrer en <lb/>partage avec les tuteurs &amp; advoyer tant de sadite <lb/>fille que de deux
+       autres enfans eus par ledit deffunt <persName ref="per010449">Des <lb/>Costes</persName> son
+       mary en loyal mariage avec feue honnorable <lb/><persName ref="per010513">Susanne <choice>
+         <abbr>Bourg<hi rend="sup">s</hi></abbr>
+         <expan>Bourgeois</expan>
+        </choice></persName> sa premiere femme&#160;: Pour lequel <lb/>partage faire seroit requis
+       de sçavoir les coustumes <lb/>usitées en cette Ville &amp; Comté de <placeName
+        ref="loc007785">Neufchatel</placeName> sur le <lb/>fait de mariage, d’autant que lesdits
+       mariages ont <lb/>esté faits &amp; contractés selon <choice>
+        <abbr>lesd</abbr>
+        <expan>lesdits</expan>
+       </choice> us &amp; coustumes, ce <lb/>qui l’occasionnoit de demander droit &amp; judicialle
+       <lb/>cognoissance que declairation luy fut faite des poincts <lb/>et articles contenus &amp;
+       specifiés par la requeste presentée <lb/>à cet effect, afin de se regler &amp; conduire selon
+       ladite <lb/>declairation. </p>
+      
+      <p>
+       <lb/>Et en ayant esté par moydit mayre demandé <choice>
+        <abbr>auxd.</abbr>
+        <expan>auxdits</expan>
+       </choice>
+       <lb/><choice>
+        <abbr>s<hi rend="sup">rs</hi></abbr>
+        <expan>sieurs</expan>
+       </choice> conseillers lors assemblés en assés petit nombre, iceux <lb/>pour en declairer
+       meurement prindrent jour d’avis <pb n="400v" facs="AVN_B_101.14.001_0400v"/>
+       <lb/>pour referer le fait en Conseil afin d’en prendre <lb/>resolution avec le reste de
+       <orgName ref="org003085">messieurs les vingt quatre <lb/>conseillers</orgName> leurs confreres, &amp; de
+       fait au bout de quelques <lb/>jours estant le <orgName ref="org003085">Conseil</orgName> convoqué &amp;
+       assemblé, par meure <lb/>deliberation &amp; consultation prinse, suivant ce que par <lb/>le
+       passé a esté usité, &amp; de coustume de temps immemorial <lb/>jusques à present lesdits <choice>
+        <abbr>s<hi rend="sup">rs</hi></abbr>
+        <expan>sieurs</expan>
+       </choice> conseillers ont dit &amp; declairé <lb/>ce que s’ensuit, conformement à d’autres
+       precedentes <lb/>declairations. </p>
+      
+      <p>
+       <lb/>Sur le premier article, par lequel ladite suppliante <lb/>requeroit luy estre declairé
+       si <choice>
+        <abbr>led.</abbr>
+        <expan>ledit</expan>
+       </choice> feu <choice>
+        <abbr>s<hi rend="sup">r</hi></abbr>
+        <expan>sieur</expan>
+       </choice>
+       <persName ref="per010449a.02">Olivier Des Costes</persName>
+       <lb/>son second mary pour avoir survecu sa premiere femme <lb/>pouvoit pas en premier lieu
+       relever d’avec ses enfans <lb/>(si partage fut entrevenu) tous ses biens tant en
+       <lb/>heritaiges, argent, doibts, obligations que meubles morts <lb/>et vifs comme pour luy
+       servir de fond, &amp; que c’est <lb/>qui celuy pouvoit retirer pour luy &amp; pour les siens
+       <lb/>sur les biens meubles, <term ref="lem014766.02">trossel</term>, habits &amp; joyaux de <lb/>sadite premiere
+       femme, &amp; sur les accroissances faites <lb/>constant leur mariage, par consequent aussi ce
+       qu’il <lb/>en pouvoit tenir &amp; jouir par us. </p>
+      
+      <p>
+       <lb/>A esté sur ce point dit &amp; declairé suivant la <lb/>coustume de cette Ville &amp;
+       Comté, que feu <choice>
+        <abbr>led.</abbr>
+        <expan>ledit</expan>
+       </choice>
+       <choice>
+        <abbr>s<hi rend="sup">r</hi></abbr>
+        <expan>sieur</expan>
+       </choice>
+       <lb/><persName ref="per010449a.02">Olivier Des Costes</persName> pouvoit après le decès de sa premiere <lb/>femme
+       relever tous ses biens tant en heritaiges, argent <lb/>debts, obligations que meubles morts
+       &amp; vifs qu’il avoit <lb/>mis en communion avec elle comme pour luy servir <lb/>de fond,
+       puisque <choice>
+        <abbr>sesd.</abbr>
+        <expan>sesdits</expan>
+       </choice> biens n’estoyent pas diminués, <lb/>ains plustot augmentés, comme <choice>
+        <abbr>Mesd</abbr>
+        <expan>mesdits</expan>
+       </choice>
+       <choice>
+        <abbr>s<hi rend="sup">rs</hi></abbr>
+        <expan>sieurs</expan>
+       </choice> veulent <lb/>croire, sans par ce neantmoins frustrer ses enfans <lb/>du droit
+       qu’ils y pourroyent avoir à cause de leur <lb/><term ref="lem015074.02">legitime</term>. Quant aux accroissances
+       qu’ils pouvoyent <lb/>avoir faites par ensemble, soit en terres, possessions <lb/>et biens
+       meubles et immeubles, de quelle espece &amp; <lb/>qualité qu’ils fussent, d’autant qu’il y
+       avoit des <lb/>enfans procrés de leur mariage, ledit deffunt pouvoit <lb/>avoir &amp; relever
+       la moitié restante &amp; appartenante <lb/><choice>
+        <abbr>auxd</abbr>
+        <expan>auxdits</expan>
+       </choice> enfans à cause de leur mere entenir la moitié <lb/>qu’est le quart du toutage par
+       usement, sa vie <lb/>naturelle durant. </p>
+      
+      <p>
+       <lb/>Et touchant le <term ref="lem014766.02">trosel</term>, habits &amp; joyaux de <lb/><choice>
+        <abbr>sad</abbr>
+        <expan>sadite</expan>
+       </choice> premiere femme, advenant qu’il n’y eut point eu <pb n="401r"
+        facs="AVN_B_101.14.001_0401r"/>
+       <lb/>d’enfans survivans la mere de leurdit mariage, ledit feu <lb/><persName
+        ref="per010449a.02">Des Costes</persName> eut deu avoir &amp; heriter <choice>
+        <abbr>lesd</abbr>
+        <expan>lesdits</expan>
+       </choice>
+       <term ref="lem014766.02">trossel</term>, habits <lb/>et joyaux entierement pour luy &amp; les
+       siens selon <lb/>coustume, puis qu’il avoit survecu <choice>
+        <abbr>sad.</abbr>
+        <expan>sadite</expan>
+       </choice> premiere femme <lb/>après avoir esté passé <date dur="P1Y6W"><term ref="lem014776"
+         >an &amp; jour</term></date> conjoints par mariage <lb/>mais puis qu’il y avoit des enfans,
+       il devoit par la <lb/>mesme, coustume se contenter d’en avoir &amp; relever la <lb/>moitié,
+       assavoir un quart pour luy &amp; les siens, &amp; <lb/>un autre quart pour le tenir seulement
+       par us&#160;; &amp; l’autre <lb/>moitié devoit rester &amp; demeurer auxdits enfans de
+       <lb/>leur mariage. </p>
+      
+      <p>
+       <lb/>Sur le second point et article, si icelle <lb/>suppliante ne peut &amp; ne doit de mesme
+       relever tout <lb/>le bien qu’elle a apporté avec <choice>
+        <abbr>sond</abbr>
+        <expan>sondit</expan>
+       </choice> mary, consistant <lb/>tant en meubles, or &amp; argent, obligations, debts &amp;
+       <lb/>retenues de censes qu’elle fera justement paroir luy <lb/>estre deus et escheus avant
+       leur promesse de mariage, <lb/>comme aussi le bestail de la maison, <term ref="lem015053.02">chedals</term> de
+       bestes <lb/>et tous autres biens de quelle nature &amp; qualité qu’ils <lb/>puissent estre,
+       &amp; ce comme luy faisant fond avant <lb/>qu’entrer en nul autre partage, soit
+       d’accroissances, <lb/>meubles ou autres biens pour son usement. Item si <lb/>ledit argent
+       recouvré se doit relever sur les accroissances, <lb/>ou bien restituer en argent content. </p>
+      
+      <p>
+       <lb/>A esté dit et declairé que en ensuivant la <lb/>coustume, ladite suppliante peut &amp;
+       doit relever &amp; <lb/>retirer à elle tout le bien qu’elle a porté avec ledit <lb/>feu sieur
+       <persName ref="per010449a.02">Olivier Des Costes</persName> son mary, consistant en <lb/>meubles, or &amp;
+       argent, obligations, debts, retenues de <lb/><term ref="lem015877.02">censes</term>, qu’elle fera justement
+       paroir avoir esté par <lb/>luy recouvrées, à elle deues et escheutes avant leur
+       <lb/>conjonction de mariage, ensemble le bestail de la <lb/>mayson, <term ref="lem015053.02">chedals</term> de
+       bestes, &amp; tous autres biens <lb/>generallement quelconques par elle portés avec luy
+       <lb/>&amp; qu’il aura eux en charge &amp; maniance, &amp; ce comme <lb/>luy fond, et avant
+       qu’entrer en nul autre partage <lb/>soit d’accroissances, meubles &amp; autre bien pour son
+       <lb/>usement. Et toutes fois si estoit mesavenu d’aucunes <lb/><choice>
+        <abbr>desd</abbr>
+        <expan>desdites</expan>
+       </choice> bestes, elle en peut demander restitution. Et pour <lb/>sçavoir où ledit argent
+       recouvrer se doit relever, a <lb/>esté declairé que ce pourroit estre sur l’argent content
+       <lb/>qui se seroit trouvé après le decèz du deffunt, &amp; n’y <pb n="401v" facs="AVN_B_101.14.001_0401v"/>
+       <lb/>en ayant assés, le surplus se devroit relever sur <lb/>les accroissances, &amp; acquets
+       qu’ils auroyent faits par <lb/>ensemble, &amp; sur le plus clair bien provenant desdites
+       <lb/>accroissances, si elles se peuvent estendre si avant <lb/>pour remplacer tout ledit
+       argent recouvré, sinon la <lb/>perte et diminution qu’il y en auroit, &amp; que lesdits
+       <lb/>mariés auroyent dependu par ensemble, se devroit <lb/>prendre sur le bien desdits
+       mariés, tant du mary <lb/>que de la femme un chacun pour la moitié. </p>
+      
+      <p>
+       <lb/>Tiercement, quant au point et article par <lb/>lequel elle supplie d’estre éclaircie
+       comment c’est <lb/>que partage se doit faire du bien fond, aussi des <lb/>meubles,
+       obligations, <term ref="lem015053.03">chedaux</term> de bestes et de toutes <lb/>autres debtes &amp; bien acquis
+       d’autant qu’il se trouve <lb/>des declairations anciennes &amp; modernes redigées par
+       <lb/>escrit, &amp; rendues pour semblables faits, <choice>
+        <abbr>lesd</abbr>
+        <expan>lesdits</expan>
+       </choice>
+       <choice>
+        <abbr>s<hi rend="sup">rs</hi></abbr>
+        <expan>sieurs</expan>
+       </choice>
+       <lb/>conseillers sont demeurés auprès d’icelles, lesquelles <lb/>contiennent sommairement que
+       quand le mary &amp; <lb/>sa femme ont esté <date dur="P1Y6W"><term ref="lem014776">an &amp; jour</term></date> par
+       ensemble, ayans <lb/>des enfans par ensemble, &amp; sur ce le pere meurt <lb/>laissant
+       lesdits enfans eus de <choice>
+        <abbr>sad</abbr>
+        <expan>sadite</expan>
+       </choice> femme, icelle se <lb/>voulant remarier à un autre mary, &amp; voulant partir
+       <lb/>avec sesdits enfans un ou plusieurs, alors <choice>
+        <abbr>lad</abbr>
+        <expan>ladite</expan>
+       </choice> mere &amp; <lb/>lesdits enfans partissement egalement l’heritage, soyent
+       <lb/>meubles ou immeubles du deffunt, autant l’un que l’autre, <lb/>soit tant l’ancien
+       heritage que les accroissances que <lb/><choice>
+        <abbr>lesd</abbr>
+        <expan>lesdits</expan>
+       </choice> pere &amp; mere auroyent faits par ensemble, à <lb/>condition telle que tant qu’il
+       touche la moitié de l’ancien <lb/>heritage que pourra avoir retiré <choice>
+        <abbr>lad</abbr>
+        <expan>ladite</expan>
+       </choice> femme dans ses <lb/>enfans ou enfant, elle les doit tenir seulement sa vie
+       <lb/>durant par usement, sans que aucunement elle les <lb/>puisse et les doibge vendre,
+       aliener ny engager hors de <lb/>ses mains, sinon que ce fut par cognoissance de <lb/>justice
+       ou par necessité cognue, &amp; après le decès de <lb/><choice>
+        <abbr>lad</abbr>
+        <expan>ladite</expan>
+       </choice> mere reviennent entierement <choice>
+        <abbr>esd</abbr>
+        <expan>esdits</expan>
+       </choice> enfans sans <lb/>ce qu’elle puisse à personne qu’elle soit, &amp; au regard <lb/>de
+       la moitié des biens des accroissances qu’auroit <lb/>retiré <choice>
+        <abbr>lad</abbr>
+        <expan>ladite</expan>
+       </choice> mere, la coustume est telle que de la <lb/>moitié d’<choice>
+        <abbr>icelled</abbr>
+        <expan>icelledite</expan>
+       </choice> moitié qu’est la quarte moitié, elle en <lb/>pourra faire son bon plaisir, &amp;
+       l’autre moitié devra <lb/>revenir franchement <choice>
+        <abbr>esd</abbr>
+        <expan>esdits</expan>
+       </choice> enfans ou enfant après le <lb/>decéz de <choice>
+        <abbr>lad</abbr>
+        <expan>ladite</expan>
+       </choice> mere sans les devoir aliener sinon par <lb/>cas de necessité &amp; par cognoissance
+       judiciale. Et quant <lb/>aux biens, <term ref="lem014766.02">trossel</term>, argent &amp; autres qu’auroit
+       apporté <lb/><choice>
+        <abbr>lad</abbr>
+        <expan>ladite</expan>
+       </choice> mere avec <choice>
+        <abbr>sond.</abbr>
+        <expan>sondit</expan>
+       </choice> feu mary, la coustume est telle <pb n="402r" facs="AVN_B_101.14.001_0402r"/>
+       <lb/>que <choice>
+        <abbr>lad</abbr>
+        <expan>ladite</expan>
+       </choice> mere peut &amp; doit librement, franchement &amp; <lb/>paisiblement retirer sans
+       nul contredit tout le bien et <lb/>mariage porté avec <choice>
+        <abbr>sond.</abbr>
+        <expan>sondit</expan>
+       </choice> feu mary, de quelle qualité ou <lb/>espece qu’il soit sans rien reserver, sans
+       qu’elle soit tenue <lb/>en laisser à sesdits enfans ou enfant si ce n’est de son <lb/>bon gré
+       &amp; vouloir&#160;; lequel bien elle pourra tenir, fruir <lb/>et posseder jusques après son decés
+       qu’alors lesdits <lb/>enfans ou enfant hus en loyal mariage tant du premier <lb/>que du
+       second mary partageront iceluy bien egallement <lb/>autant l’un que l’autre, advenant qu’il
+       n’y eut testament <lb/>de ladite mere, laquelle ne pourra ny devra tester ny <lb/>leguer à
+       autre qu’à sesdits enfans sinon de la moitié de <lb/><choice>
+        <abbr>sond.</abbr>
+        <expan>sondit</expan>
+       </choice> mariage pour ce que lesdits enfans ne peuvent ny <lb/>doivent estre frustrés par
+       raison de leur <term ref="lem015074.02">legitime</term>. Et si <lb/>icelle mere avoit des enfans d’un autre
+       mary, iceux <lb/>enfans pourront alors retrouver &amp; partir la moitié des <lb/>biens de <choice>
+        <abbr>leurd.</abbr>
+        <expan>leurdite</expan>
+       </choice> mere advenus par partage <choice>
+        <abbr>esd.</abbr>
+        <expan>esdits</expan>
+       </choice> premiers <lb/>enfans leurs freres &amp; soeurs tant paternels que maternels,
+       <lb/>et partir egalement comme freres &amp; soeurs doivent faire, <lb/>là où on luy
+       trouveroit des biens de <choice>
+        <abbr>leurd</abbr>
+        <expan>leurdite</expan>
+       </choice> mere. Mais si <lb/>elle n’avoit plus d’enfans sinon ceux par elle heus de son
+       <lb/>premier mary, la coustume est telle que après decéz de <lb/>ladite mere lesdits enfans
+       retireront leur <term ref="lem015074.02">legitime</term>, sans <lb/>qu’elle en doivent frustrer, comme par
+       raison appartiendra <lb/>aussi ne devront lesdits enfans alliener, vendre, engager <lb/>ne
+       hypothequer ce que leur adviendra à cause de <choice>
+        <abbr>leurd</abbr>
+        <expan>leurdite</expan>
+       </choice>
+       <lb/>mere comme dessus est dit. </p>
+      
+      <p>
+       <lb/>Pour le quatrieme point, touchant ce que
+       <lb/><choice><abbr>lad</abbr><expan>ladite</expan></choice> suppliante peut retirer pour elle &amp; les siens des
+       <lb/>biens meubles &amp; habits dudit feu son mary, &amp; ce qu’elle
+       <lb/>en peut jouir par us, a esté sur ce declairé que à forme
+       <lb/>de <choice><abbr>lad.</abbr><expan>ladite</expan></choice> coustume, elle en peut &amp; doit avoir &amp; retirer la
+       <lb/>quarte partie pour elle &amp; ses hoirs. Item un autre quart
+       <lb/>pour le jouir par us, &amp; l’autre moitié doit parvenir &amp;
+       <lb/>demeurer aux enfans <choice><abbr>dud.</abbr><expan>dudit</expan></choice> deffunt.
+      </p>
+      
+      <p>
+       <lb/>En cinquième lieu sur le point, combien c’est <lb/>qu’elle doit retirer du revenu
+       rapport de l’année du <lb/>decéz de sondit mary, soit en vignes, champs, préz &amp;
+       <lb/><term ref="lem016279">courtil</term>, maison &amp; <term ref="lem015877.02">censes</term>, de la vituaille &amp; provision
+       <lb/>estant en la maison après la mort d’iceluy tant en <lb/>bled, vin, chair, cuir que
+       autres choses concernant le <lb/>mesnage. </p>
+      
+      <p><pb n="402v" facs="AVN_B_101.14.001_0402v"/>
+       <lb/><orgName ref="org003085">Lesdits sieurs conseillers</orgName> ont dit &amp; declairé <lb/>la coustume
+       estre telle que du blé &amp; vin estant en <lb/>la maison l’année du decès du deffunt, la
+       survivante <lb/>sa vefve s’y devoit prendre honnestement pour la <lb/>nourriture &amp;
+       entretenement d’icelle &amp; de son mesnage <lb/>sans en faire excès seulement pour son
+       année, comme <lb/>d’autres costé les enfans dudit deffunt en devroyent <lb/>avoir pour leur
+       entretenement de ladite année aussi <lb/>honnestement &amp; sans excès, &amp; du
+       superabondant ladite <lb/>vefve en devoit avoir la moitié en faire son plaisir. <lb/>Item la
+       moitié de l’autre moitié qu’est le quart du <lb/>toutage par usufruict &amp; jouissant sa vie
+       durant en ce <lb/>que ledit quart qu’elle tiendra pas us se devra esvaluer <lb/>par gens
+       entendus, &amp; le prix &amp; valeur d’iceluy <lb/>s’inventaiser pour estre retrouvé par
+       lesdits enfans &amp; <lb/>heritiers du deffunt en temps &amp; lieu. L’autre quart <lb/>dudit
+       superabondant devoit promptement parvenir &amp; <lb/>demeurer <choice>
+        <abbr>auxd</abbr>
+        <expan>auxdits</expan>
+       </choice> enfans &amp; heritiers dudit deffunt. <lb/>Et à attendre que l’argent prevenant <choice><sic>de <lb/>de</sic><corr>de</corr></choice> loage de maison, &amp; de foin &amp; rosée qui se vendent, <lb/>c’est revenu qui se
+       doit de mesme partager que <choice>
+        <abbr>lesd</abbr>
+        <expan>lesdits</expan>
+       </choice>
+       <lb/>bled &amp; vin estant en la maison l’année du decès <choice>
+        <abbr>dud</abbr>
+        <expan>dudit</expan>
+       </choice>
+       <lb/>deffunt.</p> 
+      
+      <p>
+       <lb/>Quant à l’autre victuaille, comme chair,
+       <lb/>fromage, cuir &amp; autres provisions du mesnage, le
+       <lb/>survivant n’est tenu d’en rendre compte. Vray est que
+       <lb/>les enfans du deffunt y doivent participer pour leur
+       <lb/>honneste entretenement, et selon necessité.
+      </p>
+      
+      <p>
+       <lb/>Et sur le sixième point et article de la
+       <lb/>requeste et demande de ladite suppliante, si la
+       <lb/>coustume peut permettre qu’un homme ayant espousé
+       <lb/>une femme vefve d’un premier mary que auroit delaissé
+       <lb/>des enfans, à cause desquels ayant tout le bien d’iceux
+       <lb/>meslé avec le sien, iceluy jouisse tout le bien tant des
+       <lb/>enfans que de la mere <del rend="strikethrough">entretenir</del> &amp; que n’en <del rend="strikethrough">aucun</del> tenant
+       <lb/>aucun compte à part, soit à <choice><abbr>lad.</abbr><expan>ladite</expan></choice> mere ou <choice><abbr>esd.</abbr><expan>esdits</expan></choice> enfans.
+       <lb/>Ce neantmoins il leur puisse mettre en compte tout ce
+       <lb/>qu’il leur aura fourni, &amp; delivré pour eux, &amp; aussi ce
+       <lb/>qui s’est dependu pour entretenir le mesnage.
+      </p>
+      
+      <p>
+       <lb/>A esté declaré que suivant coustume le
+       <lb/>personnage qu’il qui soit jouissant le bien des enfans
+       <pb n="403r" facs="AVN_B_101.14.001_0403r"/>
+       <lb/>du premier mary, mellé avec celuy de la mere est estans en
+       <lb/>communion sans division &amp; sans opposition des parents <choice><abbr>desd</abbr><expan>desdits</expan></choice>,
+       <lb/>iceluy personnage n’est tenu de tenir compte dudit bien
+       <lb/>d’iceux enfans à part&#160;; veu mesmement que s’il fait des
+       <lb/>accroissances, ils participent à la moitié qu’en revient
+       <lb/>à leur mere, &amp; toutesfois il n’est pas raisonnable que du
+       <lb/>temps qu’il jouit ainsi le bien <choice><abbr>desd.</abbr><expan>desdits</expan></choice> enfans il leur en
+       <lb/>doivent mettre en compte ce qu’il leur fournira pour eux,
+       <lb/>pour les nourir, vestir &amp; entretenir, ny aussi ce qui
+       <lb/>a esté dependu pour l’entretien du mesnage.
+      </p>
+      
+      <p>
+       <lb/>Lesquels poincts de coustume ayant esté <lb/>en cette sorte resolus, memoriés &amp;
+       declairés par <choice>
+        <abbr>lesd.</abbr>
+        <expan>lesdits</expan>
+       </choice>
+       <lb/><orgName ref="org003085">sieurs vingt &amp; quatre conseillers</orgName>, selon que par
+       le passé <lb/>en tels evenements a esté usité, &amp; à forme d’aucunes <lb/>precedentes
+       declairations qui desja ont esté faites à <lb/>l’endroit d’autres,
+       <gap unit="character" quantity="4" reason="illegible"/> quelque temps après et
+       comparu <lb/><choice>
+        <abbr>led</abbr>
+        <expan>ledit</expan>
+       </choice>
+       <persName ref="per010460a.03">Nicolas Tribollet</persName> sur ce jourd’huy date en justice <lb/><choice>
+        <abbr>dud</abbr>
+        <expan>dudit</expan>
+       </choice>
+       <choice>
+        <abbr>s<hi rend="sup">r</hi></abbr>
+        <expan>sieur</expan>
+       </choice>
+       <persName ref="per010512a.01">Abraham Tribollet</persName> son oncle par devant moydit
+       <lb/>mayre, &amp; partie desdits sieurs conseillers requerants <lb/>judiciallement au nom de <choice>
+        <abbr>lad.</abbr>
+        <expan>ladite</expan>
+       </choice>
+       <persName ref="per010448">Barbely Clerc</persName> sa belle mere <lb/>avoir <choice>
+        <abbr>lesd</abbr>
+        <expan>lesdits</expan>
+       </choice> declairations par escript en acte authentique <lb/>pour s’en servir, &amp; selon
+       iceux se conduire, ce qui luy <lb/>a esté ottroyé sous le seau de la mayorie de <placeName
+        ref="loc007786">Neufchatel</placeName>
+       <lb/>&amp; le signet notarial du secretaire de ladite justice <lb/>soussigné, cy mis en
+       tesmoignage de verité des choses <lb/><choice>
+        <abbr>susd</abbr>
+        <expan>susdites</expan>
+       </choice> par l’adjuration des honnorables, prudens &amp; sages <lb/><persName
+        ref="per010514a.01">Nicolas Henzely</persName>, <persName ref="per010427a.03">Jehan
+        Rougemont</persName>, <persName ref="per010469a">Jonas Jaquemet</persName>, <lb/><persName
+        ref="per010515">Pierre Quelin</persName>, <persName ref="per010465a.01">Henry
+        Bonvespre</persName>, <persName ref="per010516a.01">Jehan Chambrier</persName>,
+        <lb/><persName ref="per010451a.01">David Boyve</persName>, <choice>
+        <abbr>led</abbr>
+        <expan>ledit</expan>
+       </choice> notaire soussigné, &amp; autres <lb/>conseillers dudit <placeName ref="loc007786"
+        >Neufchatel</placeName>, le <origDate when="1604-04-27" calendar="Julian">vingt &amp; septieme jour <lb/>du
+        mois d’avril, l’an de salut mille six cent &amp; quatre</origDate>. </p>
+      
+     </div>
+   
+     
+       
+    </body>
+    <back>
+     <div>
+      <p>Ce point de coutume est cité dans les points <ref>SDS_NE_3_074</ref>, <ref>SDS_NE_3_173</ref>,
+        <ref>SDS_NE_3_264</ref>. et <ref>SDS_NE_3_294</ref>.</p>
+     </div>
+    </back>
+    
+
+   </text>
+  </group>
+ </text>
+</TEI>

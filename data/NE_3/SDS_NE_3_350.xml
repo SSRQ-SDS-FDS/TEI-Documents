@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     n="1234"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="headerinfo"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2020-08-17"/>    <date type="print"/>
+    <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Collection des sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS_NE_3_350</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>AVN B 101.14.001, fol. 597r–597v</idno>
+               </msIdentifier>
+               <head>Légitime d’un enfant</head>
+               <msContents>
+                  <summary>Lorsqu’un homme ou une femme fait quittance de biens paternels ou
+                     maternels, cette quittance est valable s’il n’a pas perçu sa légitime. Un mari
+                     ne peut pas faire quittance pour la légitime ou renoncer à la succession
+                     appartenant à sa femme sans le consentement de celle-ci. La légitime est due
+                     aux enfants et ils ne peuvent pas en être privés.</summary>
+                  <msItem>
+                     <textLang>français</textLang>
+                     <filiation type="current"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="33"/>
+                              <width unit="cm" quantity="23.5"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1703-10-05"/>
+                     <origPlace ref="loc007786">Neuchâtel</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head/>
+                     <bibl/>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000920"/>
+               <term ref="key000815"/>
+               <term ref="key000138"/>
+               <term ref="key005061"/>
+               <term ref="key000558"/>
+               <term ref="key000803"/>
+               <term ref="key005155"/>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="597r" facs="AVN_B_101.14.001_0597r"/>
+               <div>
+                  <head>
+                     <p><lb/>Touchant la <term ref="lem015074">legitime</term> d’un enfant.</p> <p><lb/>Si un
+                     mari peut accorder <choice>
+                        <abbr>po</abbr>
+                        <expan>pour</expan>
+                     </choice> la <lb/><term ref="lem015074">legitime</term> et succession de la
+                     femme sans <lb/>son aveu.</p></head>
+                  <p>
+                     <lb/>Sur la requeste presentée à <choice>
+                        <abbr>M<hi rend="sup">rs</hi>
+                        </abbr>
+                        <expan>messieurs</expan>
+                     </choice> le <choice>
+                        <abbr>M<hi rend="sup">tre</hi>
+                        </abbr>
+                        <expan>maître</expan>
+                     </choice>
+                     <lb/>bourgeois et <orgName ref="org003085">Conseil Etroit de la Ville de
+                           <placeName ref="loc007786">
+                           <choice>
+                              <abbr>N<hi rend="sup">tel</hi>
+                              </abbr>
+                              <expan>Neuchâtel</expan>
+                           </choice></placeName></orgName>
+                     <lb/>par <choice>
+                        <abbr>hon</abbr>
+                        <expan>honorable</expan>
+                     </choice>
+                     <persName ref="per008893">Jonas Montandon</persName> de <placeName
+                        ref="loc007794">Traver</placeName>, aux fins <lb/>d’avoir declaration de la
+                     coutume <choice>
+                        <abbr>dud</abbr>
+                        <expan>dudit</expan>
+                     </choice> lieu <lb/>sur les articles suivans. </p>
+                  <p>
+                     <lb/>1. Si un enfant, ayant renoncé à la <term ref="lem015074">legitime</term>
+                     <lb/>et succession de pere et mere moyennant une <lb/>somme accordée, venant à
+                     prouver qu’il est <lb/>lezé et circonvenu dans <choice>
+                        <abbr>sad</abbr>
+                        <expan>sadite</expan>
+                     </choice>
+                     <term ref="lem015074">legitime</term>, s’il <lb/>ne peut pas en ce cas estre
+                     admis au partage <lb/>de tous <choice>
+                        <abbr>lesd</abbr>
+                        <expan>lesdits</expan>
+                     </choice> biens, de même que l’un des au<lb break="no"/>tres enfans. </p>
+                  <p>
+                     <lb/>2. Si le mari et le <choice>
+                        <abbr>tute</abbr>
+                        <expan>tuteur</expan>
+                     </choice> d’une femme majeure <lb/>peuvent, sans le <choice>
+                        <abbr>consentem<hi rend="sup">t</hi>
+                        </abbr>
+                        <expan>consentement</expan>
+                     </choice> et ratification ex<lb break="no"/>presse d’icelle, <choice>
+                        <abbr>vallablem<hi rend="sup">t</hi>
+                        </abbr>
+                        <expan>vallablement</expan>
+                     </choice> quitter et renoncer <lb/>pour une somme à toute la succession de ses
+                     <lb/>pere et mere, et si au contraire, le deffaut <lb/>de tel <choice>
+                        <abbr>consentem<hi rend="sup">t</hi>
+                        </abbr>
+                        <expan>consentement</expan>
+                     </choice> et ratification ne rend pas <lb/>tel acte illusoire et incapable de
+                     produire aucun <lb/>effet. </p>
+                  <p>
+                     <lb/>3. Si un pere peut instituer un de ses enfans <lb/>heritier au prejudice
+                     de la <term ref="lem015074">legitime</term> que la <lb/>coutume ajuge aux
+                     autres. </p>
+                  <p>
+                     <lb/><orgName ref="org003085"><choice>
+                           <abbr>MesdS<hi rend="sup">rs</hi>
+                           </abbr>
+                           <expan>Mesdits sieurs</expan>
+                     </choice> du Conseil</orgName>, ayant en avis par ensemble <pb n="597v" facs="AVN_B_101.14.001_0597v"/>
+                     <lb/>donnent par declaration, que de tout tems <lb/>immemorial de pere à fils
+                     jusqu’à present, la cou<lb break="no"/>tume de <placeName ref="loc007785"
+                        >Neufchastel</placeName> est telle. </p>
+                  <p>
+                     <lb/>Assavoir sur le premier point&#160;: quand un <lb/>homme ou une femme font
+                     quittance de biens pa<lb break="no"/>ternels ou maternels, <choice>
+                        <abbr>lad</abbr>
+                        <expan>ladite</expan>
+                     </choice> quittance est vala<lb break="no"/>ble, si tant est qu’ils ne fassent
+                     paroitre que le <lb/>jour qu’ils passerent <add place="above"><choice>
+                           <abbr>lad</abbr>
+                           <expan>ladite</expan>
+                        </choice></add> quittance, ils n’ont pas eu <lb/>leur <term ref="lem015074"
+                        >legitime</term>. </p>
+                  <p>
+                     <lb/>Sur le second&#160;: un mari ne peut pas traitter et <lb/>accorder pour la
+                        <term ref="lem015074">legitime</term> et succession appartenant <lb/>à sa
+                     femme, sans le <choice>
+                        <abbr>consentem<hi rend="sup">t</hi>
+                        </abbr>
+                        <expan>consentement</expan>
+                     </choice> ou <choice>
+                        <abbr>ratificaon</abbr>
+                        <expan>ratification</expan>
+                     </choice> d’icelle. </p>
+                  <p>
+                     <lb/>Sur le troisième&#160;: la <term ref="lem015074">legitime</term> est due aux
+                     enfans, <lb/>un ou plusieurs, sur les biens de pere ou de mere, <lb/>des aussi
+                     tost qu’ils sont nés, <choice>
+                        <abbr>laq<hi rend="sup">lle</hi>
+                        </abbr>
+                        <expan>laquelle</expan>
+                     </choice>
+                     <term ref="lem015074">legitime</term> empor<lb break="no"/>te la moitié des
+                     biens de leurs pere et mere, tant <lb/>d’acquets qu’<choice>
+                        <abbr>autrem<hi rend="sup">t</hi>
+                        </abbr>
+                        <expan>autrement</expan>
+                     </choice> et de quelle espece qu’ils soient <lb/>sans que <choice>
+                        <abbr>lesd</abbr>
+                        <expan>lesdits</expan>
+                     </choice> pere et mere les en puissent priver <lb/>ni frustrer, sinon qu’ils
+                     s’en rendissent indignes, <lb/>en commettant des crimes execrables à la
+                        verifi<lb break="no"/>cation et <term ref="lem014980">connoissannce de
+                        justice</term>. </p>
+                  <p>
+                     <lb/><choice>
+                        <abbr>Laq<hi rend="sup">lle</hi>
+                        </abbr>
+                        <expan>Laquelle</expan>
+                     </choice>
+                     <choice>
+                        <abbr>declaraon</abbr>
+                        <expan>déclaration</expan>
+                     </choice>
+                     <orgName ref="org003085"><choice>
+                           <abbr>MesdS<hi rend="sup">rs</hi>
+                           </abbr>
+                           <expan>mesdits sieurs</expan>
+                        </choice>
+                     </orgName> ont ordonné à moi, <lb/><choice>
+                        <abbr>secret</abbr>
+                        <expan>secrétaire</expan>
+                     </choice> de Ville soussigné, d’expedier en cette forme, <lb/>sous le seau de
+                     la mayrie et justice <choice>
+                        <abbr>dud</abbr>
+                        <expan>dudit</expan>
+                     </choice>
+                     <origPlace ref="loc007786">Neuf<lb break="no"/>chastel</origPlace>, le
+                        <origDate when="1703-10-05">5 d’octobre 1703</origDate>. </p>
+               </div>
+               <div>
+                  <p>
+                     <lb/>L’original est signé par moy.
+       </p>
+                  <signed>
+                     <persName ref="per009011">
+                        <choice>
+                           <abbr>J&#160;J</abbr>
+                           <expan>Jean-Jacques</expan>
+                        </choice> Favargier</persName> <figure type="notarial sign"/>
+                  </signed>
+               </div>
+            </body>
+         </text>
+      </group>
+   </text>
+</TEI>

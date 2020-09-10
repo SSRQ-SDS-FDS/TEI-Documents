@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+    <persName>Sibylle Malamud</persName>
+    <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+    <persName>Sibylle Malamud</persName>
+    <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-07-01"/>
+            <date type="print"/>
+            <availability><p xml:id="facs">Sibylle Malamud</p></availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+    <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+    <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_028</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>AT-OeStA/HHStA AUR HS R 57, fol. 14v–15r</idno>
+                  <altIdentifier>
+                     <idno>AT-OeStA/HHStA Cod. 410, fol. 11r, Nr. 48</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <head>Herzog Friedrich IV. von Habsburg-Österreich nimmt die Grafen von
+                  Montfort-Tettnang mit Burg und Stadt Werdenberg in Schutz und Schirm</head>
+               <msContents>
+                  <summary>Herzog Friedrich IV. von Habsburg-Österreich urkundet, dass ihm Graf
+                     Heinrich IV. von Montfort-Tettnang mit seinen Söhnen Rudolf VI., Wilhelm V. und
+                     Hugo IX. Burg und Stadt Werdenberg, solange sie ihr Pfand sind, geöffnet haben.
+                     Deshalb nimmt er die Grafen mit Burg, Stadt, Leuten und Gütern in seinen Schutz
+                     und Schirm.</summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <filiation type="original">
+                        <origDate when="1404-12-27"/>
+                        <idno/>
+                     </filiation>
+                     <filiation type="current">Aufzeichnung, Buch (46 Seiten)</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Pergament/Papier, eingebunden in Karton</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="24.0"/>
+                              <width unit="cm" quantity="16.0"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate from="1404-01-01" to="1406-12-31"/>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head>Regesten</head>
+                     <bibl><ref target="http://permalink.snl.ch/bib/chbsg000141369">Krüger,
+                           Regesten</ref>, Nr. 1144</bibl>
+                     <bibl><ref target="http://permalink.snl.ch/bib/chbsg000135620">Thommen,
+                           Urkunden</ref>, Bd. 2, Nr. 556</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+    <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+    <term ref="key000565">Schutz</term>
+    <term ref="key000021">Burg</term>
+    <term ref="key003765">Offenhaltung</term>
+    <term ref="key000441">Pfand</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+    <div org="uniform" sample="complete">
+       <p>
+                     <seg>
+                        <pb n="14v" facs="AT-OeStA-HHStA_AUR_HS_R_57_14v_15r"/>
+                        <lb/><add place="above" hand="later hand"><placeName ref="loc000440"
+                              >Werdenberg</placeName></add>
+                        <lb/>Wir, <choice>
+                           <abbr>Fridr</abbr>
+                           <expan><persName ref="per000346a">Fridrich</persName></expan>
+                        </choice><note anchored="true">Die vielen Abkürzungen werden stillschweigend
+                           aufgelöst.</note>
+                        <abbr>etc</abbr>, bekennen, als dy edeln, unßer lieben <term ref="lem000477"
+                           >oͤheimen</term>, graf <persName ref="per000436a">Hainrich <lb/>von
+                           Montfort, herr zu Tetnang</persName>, und graff <persName
+                           ref="per006640a">Ruͦdolf</persName> und graf <persName ref="per000710a"
+                           >Wilhelm</persName>, <lb/>seine sûne, fûr sich selber und den edeln,
+                        unsern lieben oheim, graf <persName ref="per006642">Haugen</persName>,
+                        <lb/>auch des <choice>
+                           <abbr>vorgen</abbr>
+                           <expan>vorgenannten</expan>
+                        </choice> graf <persName ref="per000436a">Hainrichen</persName> su̍ne und
+                        iren <term ref="lem000131.14">pruͦder</term>n und ir erben den <lb/>hochen
+                        fu̍rsten, unßern lieben pruͦdern, uns und unßern erben dy <term
+                           ref="lem000183">vest</term> und <placeName ref="loc000016"
+                           >stat</placeName>
+                        <lb/><placeName ref="loc000015">Werdemberg</placeName>, alle dy weil dy ir
+                           <term ref="lem004412">satz</term> sind, geoffennt und aufgetan habent <pb
+                              n="15r" facs="AT-OeStA-HHStA_AUR_HS_R_57_14v_15r"/>
+                        <lb/>zu allen unßern notdurften nach des prieffs sag, den wir darumb von in
+                        <lb/>haben, das wir also hingegen dießen <term ref="lem000003">grafen</term>
+                        mit sambt der <choice>
+                           <abbr>egen</abbr>
+                           <expan>egenannten</expan>
+                        </choice>
+                        <placeName ref="loc000015">vest</placeName> und <lb/>stat <placeName
+                           ref="loc000016">Werdemberg</placeName> und allen den leuten und guͤtern,
+                        so darzu gehoͤrend, <lb/>inn unsern besunder gnad und <term ref="lem000286"
+                           >scherm</term> genomen haben und nemen auch <lb/>wissentlich mit dem
+                        brief. Und wellen und su̍llen sy auch alle dy weil <lb/>dieselben <term
+                           ref="lem000183">vest</term> und <term ref="lem000184">stat</term> also
+                           <term ref="lem014537.03">satz weis</term> inne habent, hanthaben und
+                        <lb/>schwermen zum rechten als andere unsere <term ref="lem014681.02"
+                           >dyener</term> und undertanen, getrüwlich <lb/>und ungevêrlich.</seg>
+                     <seg>Mit urkund ditz priefs <abbr>etc</abbr>, <foreign xml:lang="la">
+                           <choice>
+                              <abbr>dat</abbr>
+                              <expan>datum</expan>
+                           </choice> ut <choice>
+                              <abbr>sup</abbr>
+                              <expan>supra</expan>
+                           </choice></foreign><note anchored="true">Eintrag unter dem <date
+                              when="1404-12-27">27. Dezember 1404</date>.</note>.</seg>
+                  </p>
+    </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div n="1" org="uniform" sample="complete">
+            <p>Der Eintrag stammt aus dem Kanzleibuch (1404–1406) über die Besitzungen von <orgName ref="org000088">Habsburg-Österreich</orgName> in <placeName ref="loc000916">Schwaben</placeName> und der <placeName ref="loc001012">Schweiz</placeName> im Haus-, Hof-
+               und Staatsarchiv Wien (<bibl><ref>AT-OeStA/HHStA AUR HS R 57, fol. 14v–15r</ref></bibl>). Die
+     Originalurkunde ist nicht mehr erhalten. </p>
+         </div>
+         <div n="2" org="uniform" sample="complete">
+            <p><placeName ref="loc000015">Burg</placeName> und Stadt <placeName ref="loc000016"
+       >Werdenberg</placeName> erscheinen hier als <term ref="key000441">Pfand</term> in
+    Besitz der Grafen von <orgName ref="org000202">Montfort-Tettnang</orgName> und nicht
+    mehr in demjenigen der Grafen <orgName ref="org000019"
+       >Werdenberg-Heiligenberg</orgName>. Nach Krüger könnte die Grafschaft <placeName
+       ref="loc000440">Werdenberg</placeName> bereits am <date when="1401-07-29">29. Juli
+       1401</date> in Besitz von Graf <persName ref="per000436a">Heinrich IV. von
+       Montfort-Tettnang</persName> gewesen sein (<bibl><ref
+          target=" http://permalink.snl.ch/bib/chbsg000141369">Krüger 1887</ref>,
+       S. 253</bibl>). Seine Annahme lässt sich jedoch nicht belegen. Der Übergang der
+    Grafschaft Werdenberg als Pfand an die Grafen von Montfort-Tettnang bleibt offen, da
+    ein Pfandbrief fehlt und die vorhandenen Angaben widersprüchlich sind.</p>
+            <p>Mit Sicherheit ist die Grafschaft <placeName ref="loc000440">Werdenberg</placeName>
+               noch vor Mitte 1404 in den Händen von <persName ref="per000436">Heinrich IV. von
+                  Montfort-Tettnang</persName>. Nach der <term ref="key004519">Chronik</term> von
+                  <persName ref="per008535a">Ulrich Tränkle</persName> wird am <date
+                  when="1404-08-10">10. August 1404</date>
+               <placeName ref="loc000440">Werdenberg</placeName> durch österreichische Truppen
+               eingenommen (<bibl><ref target="http://permalink.snl.ch/bib/chbsg000150469">Winkler
+                     1973</ref>, S. 34</bibl>), weil dem Herzog <persName ref="per000346">Friedrich
+                  IV. von Habsburg-Österreich</persName> und seinem Bruder <orig>ain smaeh und
+                  unzucht</orig> auf der Burg <placeName ref="loc000015">Werdenberg</placeName>
+               durch Graf <persName ref="per000710a">Wilhelm V. von Montfort-Tettnang</persName>,
+               Sohn von <persName ref="per000436a">Heinrich IV. von Montfort-Tettnang</persName>,
+                  <term ref="key003389">widerfahren</term> ist (<bibl><ref
+                     target="http://permalink.snl.ch/bib/chbsg000141369">Krüger, Regesten</ref>, Nr.
+                  649</bibl>. Nach <bibl><ref target="http://permalink.snl.ch/bib/chbsg000141029"
+                     >Burmeister 1991</ref>, S. 18</bibl>, wird offenbar <persName ref="per000416b"
+                  >Albrecht III. von Werdenberg-Heiligenberg(-Bludenz)</persName>, habsburgischer
+               Gefolgsmann und Onkel von <persName ref="per000429a">Rudolf II.</persName> und
+                  <persName ref="per000386a">Hugo V.</persName> von Werdenberg-Heiligenberg aufgrund
+               von Schulden gefangengesetzt). Werdenberg kommt für kurze Zeit in die Hände von
+                  <orgName ref="org000088">Habsburg-Österreich</orgName>, wird jedoch noch vor dem
+                  <date when="1405-02-13">13. Februar 1405</date> wieder <persName ref="per000436a"
+                  >Heinrich IV. von Montfort-Tettnang</persName>, dem Vater von Wilhelm V.,
+               übergeben (<bibl><ref target="http://permalink.snl.ch/bib/chbsg000141029">Burmeister
+                     1991</ref>, S. 18</bibl>). Die schnelle Rückgabe ist wohl darauf
+               zurückzuführen, dass auch Heinrich IV. von Montfort-Tettnang ein führender
+               Parteigänger von <orgName ref="org000088">Habsburg-Österreich</orgName> ist.</p>
+            <p>Die Eroberung richtet sich also nicht gegen <persName ref="per000429a">Rudolf II. von
+       Werdenberg-Heiligenberg</persName>, wie Tschudi angibt (<bibl><ref
+          target="http://permalink.snl.ch/bib/chbsg000071960">Tschudi, Chronicon</ref>,
+       Bd. 7, S. 55–56</bibl>). Wahrscheinlicher sind die Angaben von <persName
+       ref="per008535a">Ulrich Tränkle</persName>: Der Chronist stammt aus Feldkirch. Er
+    zählt in chronologischer Reihenfolge in knapper, nüchterner Form einzelne Ereignisse
+    aus der Zeit seines Herrn <persName ref="per000415">Rudolf V. von
+       Montfort-Feldkirch</persName> sowie nach dessen Tod 1390 bis 1412 auf. Nach
+    Stettler schildert Tränkle z. B. die Ereignisse zu den <term ref="key000240"
+       >Appenzellerkriegen</term> zwar nicht sehr ausführlich, dafür jedoch mit
+    historisch korrekten Angaben (vgl. <bibl><ref
+       target="
+       http://permalink.snl.ch/bib/chbsg000150350">Stettler
+       2004</ref>, <ref target="https://www.e-periodica.ch/cntmng?pid=ajb-001:2004:132::371">S. 34–35</ref></bibl>; zur Glaubwürdigkeit siehe auch <bibl><ref target="http://permalink.snl.ch/bib/chbsg000150469">Winkler
+          1973</ref>, S. 14</bibl>). Damit würde auch die Urkunde vom <date
+       when="1404-08-22">22. August 1404</date> Sinn ergeben, worin Herzog <persName
+       ref="per000346a">Friedrich IV. von Habsburg-Österreich</persName> urkundet, dass
+    er die eroberte Burg <placeName ref="loc000015">Werdenberg</placeName>, die als <term
+       ref="key000441">Pfand</term> um 10’400 Pfund an die Grafen <orgName
+       ref="org000202">Montfort-Tettnang</orgName> gekommen ist, den letzten Grafen
+       <persName ref="per000429a">Rudolf II.</persName> und <persName ref="per000386a"
+       >Hugo V. von Werdenberg-Heiligenberg</persName> wieder einlösen will (<bibl><ref
+          target="http://permalink.snl.ch/bib/chbsg000141369">Krüger, Regesten</ref>,
+       Nr. 649</bibl>; <bibl><ref target="http://permalink.snl.ch/bib/chbsg000143829"
+          >Vanotti 1845</ref>, S. 256, Anm. 1</bibl>). Leider lässt sich die Urkunde
+    nicht finden. Krüger und Vanotti geben als Quelle <bibl><ref
+          target="http://permalink.snl.ch/bib/chbsg000142709">Lichnowsky, Regesten</ref>,
+          Bd. 6, Nachträge Nr. 639b (S. XIX)</bibl> an. Dieser wiederum verweist dort
+    allgemein auf das <quote>k. k. g. A</quote> (königliches und kaiserliches geheimes
+    Archiv), womit das HHSTA Wien gemeint ist. Im HHSTA Wien ist die Urkunde jedoch nicht
+    vorhanden (besucht: 14.10.2016).</p>
+            <p>Den Grafen von <orgName ref="org000019">Werdenberg-Heiligenberg</orgName> gelingt es nicht
+     mehr, die Grafschaft <placeName ref="loc000440">Werdenberg</placeName> wieder auszulösen. Diese bleibt bis zum Tod von <persName ref="per000884">Wilhelm VIII.</persName> 1483 in den Händen der Grafen von Montfort-Tettnang.
+     Zum Ende des Grafengeschlechts der Werdenberg-Heiligenberg vgl. den Kommentar in
+      <ref>SSRQ_SG_III_4_034</ref>.
+    </p>
+         </div>
+      </back>
+   </text>
+</TEI>

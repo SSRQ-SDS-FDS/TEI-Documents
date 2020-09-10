@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+    <persName>Sibylle Malamud</persName>
+    <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+    <persName>Sibylle Malamud</persName>
+    <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-08-19"/>
+            <date type="print"/>
+            <availability><p xml:id="facs">Sibylle Malamud</p></availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+    <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+    <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_079</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+    <msIdentifier>
+       <idno source="https://query-staatsarchiv.lu.ch/detail.aspx?ID=1191865">StALU URK 209/3021, fol. 9r–9v</idno>
+    </msIdentifier>
+    <head>Eid der Untertanen und Strafrechtsordnung der Grafschaft Werdenberg</head>
+    <msContents>
+       <summary>
+          <p>Eid der Untertanen und Strafrechtsordnung der Grafschaft Werdenberg.</p>	
+       </summary>
+       <msItem>
+          <textLang>Deutsch</textLang>
+          <filiation type="current">Aufzeichnung, Heft (unpaginiert) mit Pergamentumschlag</filiation>
+       </msItem>
+    </msContents>
+    <physDesc>
+       <objectDesc>
+          <supportDesc>
+             <support>
+                <material>Papier</material>
+             </support>
+             <extent>
+                <dimensions type="leaves">
+                   <height unit="cm" quantity="30.5"/>
+                   <width unit="cm" quantity="23.0"/>
+                </dimensions>
+             </extent>
+          </supportDesc>
+       </objectDesc>
+    </physDesc>
+    <history>
+       <origin>
+          <origDate when="1487-02-09">fritag nechst nach Dorathe</origDate>
+       </origin>
+    </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+    <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+    <term ref="key000594">Untertanen</term>
+    <term ref="key000179">Eid</term>
+    <term ref="key000586">Strafrecht</term>
+    <term ref="key000506">Friedbruch</term>
+    <term ref="key003279">Friedensrecht</term>
+    <term ref="key000592">Friedenssicherung</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+    <div org="uniform" sample="complete">
+       <p>
+          <pb n="9r" facs="StALU_URK_209-3021_9r"/>
+                     <lb/><app>
+                        <lem/>
+                        <rdg wit="StALU URK 209/3021"><head>In die gravschafft <placeName
+                                 ref="loc000440">Werdenberg</placeName>
+                              <lb/>gehoͤrende</head></rdg>
+                     </app><note anchored="true">Die Ergänzung ist aus dem Entwurf, der dem Heft
+                        beiliegt.</note>
+                     <seg n="1"><lb/>Item ein <term ref="lem006896">gemeind</term>
+                        <term ref="lem000335">swert</term> ein <term ref="lem000227">burger</term>
+                        als ein burger, <lb/>ein eigen man als ein <term ref="lem001448"
+                           >eigenman</term>, <app>
+                           <lem>ein <term ref="lem000198">walser</term> als <lb/>ein walser</lem>
+                              <rdg wit="SSRQ_SG_III_4_129, Art. 2"/>
+                        </app>, ein <term ref="lem000745">hinderseͣß</term> als ein hinderseͣß,
+                        miner herren <lb/>von <orgName ref="org001195">Lutzern</orgName> nutz und
+                        ere ze furdren und ir schaden <lb/>und ze wenden und ir <term ref="lem005935">ampt</term> zuͤ behan, als
+                        ver sy mugend, <lb/>untz an min herren und ir lantvogt <term ref="lem000716"
+                           >bott</term> und verbotten <lb/>gehorsam ze sin.</seg>
+                     <seg n="2">
+                        <lb/>Und wer sach, dz sy jemant sechent, argkwengklich durch <lb/>miner
+                        herren <app>
+                           <lem>graffschafft und gericht fuͤren oder ob man <lb/>jemant da fachen
+                              und usser miner herren <term ref="lem003769.02">biet</term> fuͤren
+                              welte</lem>
+                           <rdg wit="SSRQ_SG_III_4_129, Art. 3">ampt unnd <lb/>gepiet fachen oder
+                              füerenn</rdg>
+                        </app>, <lb/>da soͤllen sy by dem <choice>
+                           <abbr>obgenten</abbr>
+                           <expan>obgenannten</expan>
+                        </choice>
+                        <term ref="lem000070">eide</term> all zuͤ louffen und <term ref="lem001272"
+                              >ge<lb break="no"/>schrey</term> machen mit <term ref="lem000578"
+                           >mund</term> oder mit <term ref="lem000705">gloggen</term>
+                        <term ref="lem014576.02">sturmen</term>, <lb/>da einandern helfen, dz
+                        soͤlicher schad gewent werd <lb/>und die selben, die denn solich schaden
+                        tuͤn welten, <term ref="lem000513">fachen</term>
+                        <lb/>und miner herren lantvogt <term ref="lem005906">antwurten</term>.</seg>
+                     <seg n="3">
+                        <lb/>Item wa ouch <term ref="lem000719">mißhellung</term> zwuschen
+                              z<subst><del rend="overwritten">e</del><add place="overwritten"
+                              >w</add></subst>eyen oder mer <lb/>sich machten und ufferstünden,
+                        welche das sechent <lb/>und hoͤren, die soͤllen by dem eide von stundan
+                        trūlich <lb/>zuͤlouffen und <term ref="lem001856">scheiden</term> und <term
+                           ref="lem014577.02">frid uffnemen</term> und die <lb/>sachen zuͤ guͦten
+                        bringen on all argenlist so verre sy <lb/>dz vermögen.</seg>
+                     <seg n="4">
+                        <lb/>Item wenn und so dick einer umb <term ref="lem006039">frid zuͤ
+                           geben</term> erfordert wirt <lb/>und so offt er den nit gebe, so sol er
+                        zuͤ jedem mal <measure type="currency" unit="lb" quantity="3">iij <lb/>lib
+                           ₰</measure> on gnad zuͤ buͤß verfallen sin zuͤ geben.</seg>
+                     <seg n="5">
+                        <lb/>Item welcher ouch der wer, der den <term ref="lem006040">frid
+                           breͣch</term>
+                        <term ref="lem001259">mit worten <lb/>oder mit werchen</term>, der sol von
+                        stundan on gnad minen <lb/>herren <measure type="currency" unit="d"
+                           quantity="15">xv <app>
+                              <lem>₰</lem>
+                              <rdg wit="StALU URK 209/3021">lib ₰</rdg>
+                           </app></measure><note anchored="true">Eine Busse von 15 Denar für
+                           Friedbruch ist viel zu gering. Es handelt sich deshalb um einen Fehler
+                           des Schreibers. Die Angabe in der Vorlage ist denn auch Pfund
+                           Denar.</note> zuͤ büß verfallen sin.</seg>
+                     <seg n="6">
+                        <lb/>Item welcher ouch den andern in <term ref="lem000344">friden</term>
+                        <term ref="lem001985">liblos taͤt</term>, zuͤ dem sol <lb/>gericht werden
+                        glich als zuͤ eim <term ref="lem005703.04">moͤrder</term> on gnad.</seg>
+                     <seg n="7">
+                        <lb/>Item welcher <term ref="lem006039">frid git</term>, der git frid fur
+                        sich selbs und alle <lb/>die sinen fur wort und werch.</seg>
+          <pb n="9v" facs="StALU_URK_209-3021_9v"/>
+                     <seg n="8">
+                        <lb/>Item welche och die weren, die ane miner herren oder ir lantvogts
+                           <lb/><term ref="lem005674">urlob</term>, gunst und willen inn <term
+                           ref="lem000866">frömd</term>
+                        <term ref="lem000599">krieg</term> giengen und wenn <lb/>die selben wider
+                        zuͤ land kemen, welche denn das gewar wurden, <lb/>die soͤllen by dem
+                        obgemelten eide die selben vencklich annemen <lb/>und die miner herren
+                        lantvogt antwurten und in <term ref="lem000442">turn</term>
+                        <lb/>geleit werden und darzuͦ jecklich on gnad <measure type="currency"
+                           unit="fl" quantity="10">x gulden</measure> zü büß <lb/>verfallen sin zuͤ
+                        geben. Und wa einer die buͦß nit zü bezalen <lb/>hett, so sol er im turn sin
+                        und bliben fur jetlichen gulden <lb/>ein <term ref="lem000665">wuchen</term>
+                        und nun <term ref="lem007326">wasser und brott</term> niessen, als lang, bis
+                        <lb/>er die <measure type="currency" unit="fl" quantity="10">x
+                           guldin</measure> buͦß mit <lb/>solchem abzalt. Und sol ouch nach <lb/>dem
+                        selben <date dur="P1Y">zechen jar die nechsten</date> sin <term
+                           ref="lem004388">zung</term> nieman nutz <lb/>noch schad sin an gericht
+                        noch an ratt.<note anchored="true">Hier ist wohl der Racheverzicht (=<term
+                              ref="key000480">Urfehde</term>) damit gemeint.</note>
+                     </seg>
+                     <seg n="9">
+                        <lb/>Item welche ouch die weͣren, die <term ref="lem000874.20">biderben
+                           luten</term> ir <term ref="lem000130">kind</term>, <term ref="lem000128"
+                           >frund</term> oder <lb/><term ref="lem005075">dienst</term>
+                        <term ref="lem005105">zoͤchten</term> in sölich <term ref="lem000599"
+                           >krieg</term> und <term ref="lem007019.03">uff<lb break="no"
+                           />wigloten</term> und fuͤrten, zuͤ den selben, wo man die an kumpt, sol
+                        man griffen <lb/>und sy <term ref="lem004397">hinrichten</term> mit dem
+                           <term ref="lem007052.04">sweͣrt</term>.<note anchored="true">Dieser
+                              Artikel ist in <ref>SSRQ_SG_III_4_129</ref> nicht mehr
+                           enthalten.</note></seg>
+                     <seg n="10">
+                        <lb/>Item und ob einer oder mer miner herren land und biet durch obge<lb
+                           break="no"/>melten büssen, so er veͣllig wurd, <term ref="lem006238"
+                           >schuchen</term> welt, wann denn dem <lb/>selben guͤt in miner herren
+                        biet zuͤfiele von <term ref="lem001571">erbschafft</term> oder <lb/>andrer
+                        sachen wegen, da söllen und wöllen min herren <lb/>oder ir lantvogt sölich
+                        buͦß von solichem gefalnen güt <lb/>nemen.<note anchored="true">Dieser
+                           Artikel ist in <ref>SSRQ_SG_III_4_129</ref> nicht mehr
+                           enthalten.</note></seg>
+                     <seg n="11">
+                        <lb/>Item und ouch ob dz weͣr, dz <term ref="lem000558.14"
+                           >kriegsloͤuff</term> ufferstünden und ein <lb/><term
+                           ref="lem014578.02">geschrey</term> von <term ref="lem001468.07"
+                           >vyenden</term> kaͤm und man <term ref="lem009237">sturm lûte</term>, so
+                        sol <lb/>mengklich ußgenomen die, die dann sich illentz mit dem <lb/><term
+                           ref="lem001004">uberfal</term> der vyeden dz ir beschirmen und retten
+                        müsten, <lb/>dem <term ref="lem000376">sloß</term> zuͤ louffen und nieman
+                        fur sich selbs nutz enden <lb/>noch anfachen bis miner herren <term
+                           ref="lem000266">lantvogt</term> sy bericht, was <lb/>man dargegen
+                        furneͣmen und handeln soͤlle.</seg>
+                  </p>
+    </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div org="uniform" sample="complete">
+            <p>Dieser <term ref="key000179">Eid</term> der <term ref="key000594">Untertanen</term>
+               mit den <term ref="key000586">strafrechtlichen Bestimmungen</term> findet sich nach
+               der Rechnung des ersten Luzerner Landvogts <persName ref="per001103">Ulrich
+                  Feiss</persName> vom <date when="1487-02-08">8. Februar 1487</date> im <term
+                  ref="key004320">Rechnungsbuch</term> der Luzerner Landvögte (vgl. dazu
+               <ref>SSRQ_SG_III_4_078</ref>). Wir datieren ihn gemäss dem Erstellungsdatum des
+               Rechnungsbuchs auf den <date when="1487-02-09">9. Februar 1487</date>. Erstmals ist
+               hier eine Strafrechtsordnung für <placeName ref="loc000440">Werdenberg</placeName>
+               erhalten. Der inhaltliche Schwerpunkt der Regelungen liegt auf der <term
+                  ref="key000592">Friedenssicherung</term> (<term ref="key000595"
+                  >Friedensgebot</term>, <term ref="key000506">Friedbruch</term> und <term
+                  ref="key000591">Anzeigepflicht</term>) zur Einschränkung von Gewalt innerhalb der
+               Grafschaft oder richtet sich gegen <term ref="key000599">Reislauf</term> und <term
+                  ref="key000668">Unruhestiftung</term>.</p>
+         </div>
+      </back>
+   </text>
+</TEI>

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     n="1234"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="headerinfo"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2020-08-17"/>    <date type="print"/>
+    <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Collection des sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des
+      sources
+      du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS_NE_3_447</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>AVN B 101.14.002, fol. 75v–76r</idno>
+               </msIdentifier>
+               <head>Obligations des enfants concernant les dettes de leurs parents décédés</head>
+               <msContents>
+                  <summary>Les enfants sont obligés de payer les dettes de leurs pères et mère après
+                     leur mort, à moins qu’ils n’aient renoncé devant la justice aux biens de leurs
+                     parents. Une fille majeure ou une veuve sans tuteur ni avoyer peuvent
+                     valablement contracter. Si une femme ayant des dettes de ses parents quitte le
+                     pays, le créancier peut se retourner contre son mari.</summary>
+                  <msItem>
+                     <textLang>français</textLang>
+                     <filiation type="current"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="34.5"/>
+                              <width unit="cm" quantity="22"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1773-07-26"/>
+                     <origPlace ref="loc007786">Neuchâtel</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head/>
+                     <bibl/>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000058"/>
+               <term ref="key000803"/>
+               <term ref="key000244"/>
+               <term ref="key000476"/>
+               <term ref="key005055"/>
+               <term ref="key000138"/>
+               <term ref="key003331"></term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="75v" facs="AVN_B_101.14.002_0075v"/>
+               <div>
+                  <p>
+                     <lb/>Du <origDate when="1773-07-26">26<hi rend="sup">e</hi> juillet
+                        1773</origDate>. </p>
+                  <p>
+                     <lb/>Monsieur <persName ref="per008707">Pettavel</persName> du <orgName
+                        ref="org003085">Petit Conseil</orgName>, <term ref="lem014997"
+                        >moderne</term> maître bourgeois, a <lb/>présenté une requête par laquelle
+                     il a demandé les points de <lb/>coutume suivant. </p>
+                  <p>
+                     <lb/>1<hi rend="sup">o</hi> Si les enfans ne sont pas obligés, après la mort de
+                     leur père &amp; mère <lb/>de payer leurs dettes, lors que les dits enfants
+                     n’ont pas fait abandon <lb/>en ouverte justice des biens de leurs dits père
+                     &amp; mère. </p>
+                  <p>
+                     <lb/>2<hi rend="sup">o</hi> Si une fille en âge de majorité, ou une veuve étant
+                     sans <lb/>tuteur ni avoyer ne peuvent pas valablement contracter, s’obliger,
+                     <lb/>se céduler &amp; faire toutes sortes de conventions. </p>
+                  <p>
+                     <lb/>3<hi rend="sup">o</hi> Lors qu’une femme qui a des dettes dérivant de ses
+                     père &amp; mère, <lb/>venant à quitter son mary pour passer dans l’étranger
+                     pour y <lb/>servir, le créancier voulant être payé de ce qui luy est dû par
+                     <lb/>cette femme, ne doit-il pas addresser les usages au mary qui <lb/>est dans
+                     le pays. </p>
+                  <p>
+                     <seg><lb/>Sur laquelle requête, monsieur le maître bourgeois en chef &amp; <orgName
+                        ref="org003085">messieurs <lb/>du Petit Conseil</orgName>, ayant consulté
+                     ensembles &amp; déliberé, ont donné <lb/>par déliberation</seg> <seg>sur le 1<hi
+                           rend="sup">er</hi> article que la coutume a été <lb/>constament dans ce
+                        païs que les enfans sont obligés, après la <lb/>mort de père &amp; mère de
+                        payer leurs dettes, lorsque les dits <pb n="76r" facs="AVN_B_101.14.002_0076r"/>
+                        <lb/>enfants n’ont pas fait abandon en ouverte justice des biens de
+                        <lb/>leur dit père &amp; mère.</seg> <seg>Sur le second article, la coutume invaria<lb
+                           break="no"/>blement est aussi qu’une fille en âge de majorité, ou une
+                        veuve, <lb/>étant sans tuteur ny avoyer, peut va<del rend="overwritten"
+                           >ri</del>lablement contracter, <lb/>s’obliger, se céduler &amp; faire
+                           toutes sortes de conventions.</seg> <seg>Sur le <lb/>3<hi rend="sup">e</hi> article, la
+                        coutume est aussi lors qu’une femme qui a des <lb/>dettes dérivant de ses
+                        père ou mère, venant a quitter son <lb/>mary &amp; passant dans l’étranger
+                        pour y servir, le créancier <lb/>qui voudra être payé de ce qui luy est dû
+                        par cette femme, peut <lb/>addresser les usages au mary qui est dans le
+                        pays, à moins qu’il ne <lb/>soit survenu sentence de divorce ou de
+                        séparation de biens.</seg>
+                  </p>
+                  <p>
+                     <lb/>Laquelle déclaration ainsi rendue, il a été ordonné au soussigné
+                     <lb/>faisant les fonction de secrétaire du Conseil de Ville, en l’absence
+                     <lb/>de monsieur <persName ref="per008706">Perroud</persName> de l’expédier en
+                     cette forme, sous le sceau de <lb/>la mairie &amp; de la justice de cette
+                     Ville, à <origPlace ref="loc007786">Neufchatel</origPlace> dans l’<origPlace
+                        ref="loc007793">hôtel <lb/>de ville</origPlace> ce <origDate
+                        when="1773-07-26">vingt six juillet <hi rend="underline"
+                        >1773</hi></origDate>. </p>
+               </div>
+               <div>
+                  <signed>
+                     <persName ref="per008708">
+                        <choice>
+                           <abbr>Fr<hi rend="sup">çois</hi>
+                           </abbr>
+                           <expan>François</expan>
+                        </choice> Bonhôte</persName>
+                     <figure type="notarial sign"/></signed>
+               </div>
+            </body>
+         </text>
+      </group>
+   </text>
+</TEI>

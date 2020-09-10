@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+    <persName>Sibylle Malamud</persName>
+    <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+    <persName>Sibylle Malamud</persName>
+    <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-10-28"/>
+            <date type="print"/>
+            <availability><p xml:id="facs">Staatsarchiv St. Gallen (StASG)</p></availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+    <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+    <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_043_1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+    <msIdentifier>
+       <idno>StASG AA 2a U 02</idno>
+       <altIdentifier>
+          <idno>StASG AA 2a U 2</idno>
+       </altIdentifier>
+    </msIdentifier>
+    <head>Erblehenbrief der Freiherren Diepold und Albrecht von Sax-Hohensax um die Alp Alpeel</head>
+    <msContents>
+       <summary>
+          <p>Die Freiherren Diepold und Albrecht von Sax-Hohensax, Gebrüder, verleihen die Alp Alpeel je zu einem Viertel den beiden Ehepaaren Peter und Adelheid Göldiner, Heinz und Katharina Heeb, den Geschwistern Walter, Konrad, Margaretha, Agnes und Dorothea Rhyner, den Geschwistern Hans, Heinz, Georg und Margaretha Heeb zu Erblehen. Jährlich an Martini (11.11.), 14 Tage davor oder danach, müssen sie zwei Viertel Sommerschmalz, Feldkircher Gewicht, als Zins nach Forstegg liefern. Bei Nichtbezahlen des Zinses fällt die Alp an den Lehenherrn zurück, ausgenommen sind Kriegs- oder Pestzeiten. Der Ehrschatz beträgt 51 Rheinische Gulden. Will ein Lehennehmer seinen Teil verkaufen, soll er die Alp zuerst dem Lehenherrn anbieten. Wenn der Lehenherr den Zins versetzen oder verkaufen will, muss er ihn auch zuerst den Lehenleuten anbieten.</p>
+          <p>Die Aussteller siegeln.</p>
+       </summary>
+       <msItem>
+          <textLang>Deutsch</textLang>
+          <filiation type="current">Original</filiation>
+       </msItem>
+    </msContents>
+    <physDesc>
+       <objectDesc>
+          <supportDesc>
+             <support>
+                <material>Pergament</material>
+             </support>
+             <extent>
+                <dimensions type="leaves">
+        <height unit="cm" quantity="34.0"/>
+        <width unit="cm" quantity="37.5"/>
+                </dimensions>
+             </extent>
+          </supportDesc>
+       </objectDesc>
+       <sealDesc>
+          <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI"
+                n="1"
+                nontei:condition="damaged"
+                nontei:material="wax"
+                nontei:shape="round"
+                nontei:attachment="sealed on a parchment tag" facs="StASG_AA_2a_U_02_s_01">
+             <persName role="sigillant" ref="per004507a">Freiherr Diepold von Sax-Hohensax</persName>
+          </seal>
+          <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI"
+                n="2"
+                nontei:condition="damaged"
+                nontei:material="wax"
+                nontei:shape="round"
+                nontei:attachment="sealed on a parchment tag" facs="StASG_AA_2a_U_02_s_02">
+             <persName role="sigillant" ref="per000749a">Freiherr Albrecht von Sax-Hohensax</persName>
+          </seal>
+       </sealDesc>
+    </physDesc>
+    <history>
+       <origin>
+          <origDate when="1439-05-15"/>
+       </origin>
+    </history>
+    <additional>
+       <listBibl>
+          <head>Editionen</head>
+          <bibl><ref target="http://permalink.snl.ch/bib/chbsg000080728">Rüdisühli 1984</ref>, S. 120–124 (Kommentar, Transkription und Übersetzung)</bibl>
+       </listBibl>
+       <listBibl>
+          <head>URL</head>
+          <bibl type="url"><ref target="http://www.digishelf.de/objekt/bsz407599347_1984_001/122/">http://www.digishelf.de/objekt/bsz407599347_1984_001/122/</ref></bibl>
+       </listBibl>
+    </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+    <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+    <term ref="key000006">Alp</term>
+    <term ref="key000119">Erblehen</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <div org="uniform" sample="complete">
+                  <pb facs="StASG_AA_2a_U_02_r"/>
+                  <p>
+                     <seg>
+                        <lb/>Ich, <persName ref="per004507a">Diepolt von Sax</persName>, und ich,
+                           <persName ref="per000749a">Albrecht von Sax</persName>, gebruͦder, baid
+                        fryherren, verjehent offenlich und tuͦnd kund menglich mit dem brieve, das
+                        wir baid guͦts, <lb/>wolbedachts synns und muͦts ze den ziten, tagen und an
+                        den stetten, do wir es mit recht wol krefftenklich getuͦn mochtent fur uns
+                        und fur alle unser erben <lb/>und nachkomen recht und redlich ze ainem
+                        statten, ewigen, immerwerenden <term ref="lem000501">erplehen</term> gelihen
+                        und verlihen haben nach <term ref="lem003023">erplehensrecht</term> den
+                        erbern luten <lb/><persName ref="per004580">Petern Göldiner</persName> und
+                           <persName ref="per004581">Aͤllin</persName>, siner elichen husfrowen,
+                           <persName ref="per004538a">Haintzen Hewen</persName>, <persName
+                           ref="per004539">Katherin</persName>en, sinem elichen wib, <persName
+                           ref="per004544">Waltin Riner</persName>, <persName ref="per004545">Cunin
+                           Riner</persName>, sinem bruͦder, und <persName ref="per004546"
+                           >Gret</persName>en, <lb/><persName ref="per004547">Nesen</persName> und
+                           <persName ref="per004548">Thowreen</persName>, irn swestren, und
+                           <persName ref="per004540">Hannsen Hewen</persName>, <persName
+                           ref="per004542">Haintz</persName>en und <persName ref="per004541"
+                           >Jörg</persName>en, sinen bruͦdern, und <persName ref="per004543">Greten
+                           Hewin</persName>en, iro swester, und iro aller erben und <lb/>nachkomen
+                        und verliehent inen och also wissentlich mit krafft diss briefs ze ewigem
+                        erplehen:</seg>
+                     <seg>Unser aigen guͦt und alb genant <placeName ref="loc006123"
+                           >Alpel</placeName> uff und uff <lb/>untz uff den <term ref="lem002389"
+                           >grat</term> gelegen in <placeName ref="loc006120">Sags</placeName>er
+                        kirchsper, die obgenanten <term ref="lem000306">alp</term> genant <placeName
+                           ref="loc006123">Alpel</placeName> alle mit grund, mit grat, mit wunn, mit
+                        waid, mit gestud und gerut, <lb/>mit holtz, mit veld, mit stock, mit stain,
+                        mit gengen, stegen und mit wegen und namlich mit allen irn rechten, <term
+                           ref="lem001909">ehafftin</term>en, nutzen, früchten und
+                        <lb/>zuͦgehoͤrden, so denn von alter, von gewonhait oder von recht darzuͦ
+                        und darin gehoͤrt und gehoͤren sol und mag, es sie benemmpt oder unbenempt,
+                        <lb/>nutz ussgenommen und als fur ledig und los und gen menglich
+                        unverkumbert. Und sol diss erplich verlihen also ze merkent sin, das die
+                        obgenanten per<lb break="no"/>sonen alle gemainlich und in sunder und alle
+                        ir erben und nachkomen die egenanten alpen genant <placeName ref="loc006123"
+                           >Alpel</placeName> mit allen irn vorgenanten rechten und zuͦgehorden
+                        <lb/>nu furohien ewenklich innhaben, nutzen, niessen, besetzen und <term
+                           ref="lem010431">entsetzen</term>, irn nutz und fromen damit und daruss
+                        gewalteklich schaffen und damit tuͦn <lb/>und lassen so̍llent und mu̍gent,
+                        was si wellent und inen nutzlich und fuͦgklich ist ane unser und unser erben
+                        und aller menglichs sumen und <lb/>irren, also das wir noch unser erben noch
+                        niemant von unsern wegenn daran darzuͦ noch darnach kain ansprach,
+                        vordrungen <damage agent="fold"><gap quantity="6.5" unit="cm"/></damage>
+                        <lb/><damage agent="fold"><gap unit="cm" quantity="2"/></damage> haben noch
+                        gewünnen sollent, mugent noch wellent in dehainen weg, furo oder anders denn
+                        hernach stat.</seg>
+                     <seg>Dem ist also, das sy alle und alle <lb/>ir erben und nachkomen, wer die
+                        obgenanten alpen je innhends hat und niesset, uns und allen unsern erben und
+                        nachkomen davon nu fürohien ewklich <lb/>
+                        <date dur="R/P1Y">järlich</date>s und jeglichs jars in sunder je allweg uff
+                           <origDate when="--11-11">sant Martinstag</origDate>, <date dur="P14D"
+                           >vierzehen tag</date> vor oder nach, ungevarlich <measure type="volume"
+                           commodity="lard" quantity="2" unit="Viertel" origin="Feldkirch">zwai
+                           viertal guots sumer alpschmaltzes <lb/>kumolkens Veltkircher
+                           gewicht</measure> ze rechtem zins richten und geben und gen <placeName
+                           ref="loc006124.02">Vorstegg</placeName> zuͦ unsern handen und gewalt
+                        antwurten sollent fur aller menglichs <lb/>hefften und verbietten und
+                        gentzlich ane unsern kosten und schaden. Als welis jars des nit beschäch
+                        uber kurtz oder uber lang zit und das ain <term ref="lem000237">zins</term>
+                        <lb/>den andern ungewertt erluff, so ist uns denn die obgenant alp mit allen
+                        irn rechten und bessrungen zinsvellig worden und wider zuͦ unsern händen
+                        <lb/>gevallen und verfallen aigenlich und gar ane iro und allermenglichs
+                        irrung und widerred. Es wer denn, das soͤlich <term ref="lem012977.02"
+                           >lanndskrieg</term> oder <term ref="lem012978.02">gross tod</term>
+                        <lb/>im lannd werent, davon die alp wüst lag. So sollent denn wir oder unser
+                        erben die obgenanten alp umb unser ussligend vervallen zins angriffen
+                        <lb/>und darumb anlangen naͤch recht ungevarlich und also sollent wir und
+                        alle unser erben und nachkomenn der vorgenanten personen und aller <lb/>ir
+                        erben und nachkomen diss erplichen verlihens umb die vorgenanten alp mit
+                        allen irn <choice>
+                           <abbr>vorgent</abbr>
+                           <expan>vorgenanten</expan>
+                        </choice> rechten und zuͦgehorden und aller vor und <lb/>nachgeschriben ding
+                        darumb und daruff iro recht, guͦt und getruͤw weren und versprechen sin uff
+                        allen gaistlichen und weltlichen gerichten, <lb/>wa und gen wem si das jemer
+                        bedurffent als notdurfftig werdent nach recht und allvart in unserm costen
+                        ane ir schaden bi guͦten truwen <lb/>ane all widerred und geverd.</seg>
+                     <seg> Und darumb so haben wir von inen ze rechtem <term ref="lem000601"
+                           >erschatz</term> also bar ingenommen und empfangen <measure origin="Rh"
+                           unit="fl" quantity="51" type="currency">ainen und funffzig <lb/>guldin
+                           guͦter Rinischer guldi</measure> guͦt an gold und an gebruch, die och
+                        alle in unsern guͦten nutz und fromen komen und bewendt sind.</seg>
+                     <seg>Es sol och <lb/>menglich ze wissent sin, das dem obgenanten <persName
+                           ref="per004580">Petern Goͤldiner</persName>, sinem vorgenanten elichen
+                        wib oder irn erben der <choice>
+                           <abbr>egent</abbr>
+                           <expan>egenanten</expan>
+                        </choice> alpen mit allen irn <choice>
+                           <abbr>obgent</abbr>
+                           <expan>obgenanten</expan>
+                        </choice>
+                        <lb/>rechten ain vierdentail zuͦgehört und gehören sol. Item <persName
+                           ref="per004538">Haintzen Hewen</persName>, sinem obgenanten elichen wib
+                        oder irn erben och ain vierden tail. Item <persName ref="per004544"
+                           >Walti</persName>n <lb/>und <persName ref="per004545">Cünin, den
+                           Riner</persName>n, irn obgenanten swestern oder irn erben och ain vierden
+                        tail. Item und <persName ref="per004540a">Hans</persName>en, <persName
+                           ref="per004542">Haintz</persName>en und <persName ref="per004541">Jörgen,
+                           den Hewen</persName> gebruͦdern, <persName ref="per004543"
+                           >Gret</persName>en, <lb/>iro swester, oder irn erben der ander vierden
+                        tail in mauss als sy des <damage agent="fold"><unclear>mitnand
+                           us</unclear></damage> komen sind.</seg>
+                     <seg>Ouch ist namlich hie inn beredt worden, wer sach, dz es <lb/>sich also
+                        gefügte uber kurtz oder uber lang zit, das die obgenanten tail und personen
+                        gemainlich oder in sunder oder ir erben irn tail an der obgenanten alpen
+                        <lb/>jemer versetzen oder verkoffen woͤlten, so sollent sy uns oder unsern
+                        erben dz vor menglich anbietten und volgen lassen, ob wir sovil als ander
+                        lüt <lb/>darumb geben. Wolten wir aber das nit, so mugent sy dz geben, wem
+                        si wellent, von uns ungesummpt. Desglich herwiderummb wer, das wir oder
+                        <lb/>unser erben unsern obgenanten zins, die <measure type="volume"
+                           commodity="lard" quantity="2" unit="Viertel" origin="Feldkirch">zway
+                           viertal schmaltzgelts</measure> jemer versetzen und verkoffen woͤlten, so
+                        soͤllent wir inen oder irn erben die <lb/>vormenglich anbietten und geben,
+                        ob si sovil als ander lut darumb geben wellent. Wer aber das nit, so mugent
+                        wir das geben, wem wir wellen, <lb/>von in ungesumpt alles
+                        ungevarlich.</seg>
+                     <seg>Und des alles ze warem, offem urkund und guͦten gezuknuss nu und hienach,
+                        so haben wir, <choice>
+                           <abbr>obgent</abbr>
+                           <expan>obgenante</expan>
+                        </choice>
+                        <lb/><orgName ref="org000384">von Sax</orgName>, baid unsre insigel für uns
+                        offenlich lassen henken an den brieve, darunder wir uns und unser erben und
+                        nachkomenn aller obgenanten <lb/>ding verbunden haben. Geben an <origDate
+                           when="1439-05-15">fritag nach dem hailigen uffartt tag nach <persName
+                              ref="per000353">Cristus</persName> geburtt viertzehenhundert und im
+                           nünden <lb/>und drissigosten jar</origDate>.</seg>
+                  </p>
+               </div>
+               <pb facs="StASG_AA_2a_U_02_v"/>
+               <div org="uniform" sample="complete">
+                  <ab type="dorsal" place="below" hand="hand19c">Eingesehen vom <choice>
+                        <abbr>Bez.ger</abbr>
+                        <expan>Bezirksgericht</expan>
+                     </choice>
+                     <lb/>Werdenberg, den <date when="1845-10-04">4. <abbr>8bre</abbr> 1845</date>,
+                     <lb/>Hilty, <choice>
+                        <abbr>Prsdt</abbr>
+                        <expan>Präsident</expan>
+                     </choice></ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab type="dorsal" place="below" hand="hand19c">Deßgleichen, den <date
+                        when="1846-06-23">23. Juni 1846</date>, <lb/>Hilty, <choice>
+                        <abbr>Prsdt</abbr>
+                        <expan>Präsident</expan>
+                     </choice></ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab type="dorsal" place="verso" hand="hand15c?">Alpellbrieff</ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab type="dorsal" place="verso" hand="hand19c">Vor <choice>
+                        <abbr>Kant.ger</abbr>
+                        <expan>Kantonsgericht</expan>
+                     </choice>, <date when="1845-03-03">3. <damage agent="faded ink"
+                              ><unclear>Merz</unclear></damage> 1845</date>, <persName
+                        ref="per008590a">C. Saylern</persName>, <choice>
+                        <abbr>Prsdt</abbr>
+                        <expan>Präsident</expan>
+                     </choice>; vor <choice>
+                        <abbr>Kant.ger</abbr>
+                        <expan>Kantonsgericht</expan>
+                     </choice>, <date when="1845-02-10">10. febr. 1845</date>, <persName
+                        ref="per008590a">C. Saylern</persName>, <choice>
+                        <abbr>Prsdt</abbr>
+                        <expan>Präsident</expan>
+                     </choice></ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab type="dorsal" place="verso"><del>N<hi rend="sup">o</hi> V; N<hi
+                           rend="sup">o</hi> I</del> Ab anno 1439</ab>
+               </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div n="1" org="uniform" sample="complete">
+            <p>Die Alp <placeName ref="loc006123">Alpeel</placeName> war immer in Privatbesitz und
+               gehörte nie einer Ortsgemeinde. Die Lehensurkunde blieb bei den Nachkommen der
+               Besitzer. <date when="1890">1890</date> stammten diese aus Frümsen und Sax. <date
+                  when="1962">1962</date> kaufte der Kanton <placeName ref="loc000810">St.
+                  Gallen</placeName> die Alp als Ergänzung für den Landwirtschaftsbetrieb der
+               Strafanstalt <placeName ref="loc006125">Saxerriet</placeName> und übergab die Urkunde
+               dem Staatsarchiv St. Gallen. Seit <date when="1965">1965</date> ist die Alpeel wieder
+               in Privatbesitz (vgl. dazu <bibl><ref
+                     target="http://permalink.snl.ch/bib/chbsg000141183">Reich 1989</ref>,
+                  S. 15</bibl>; <bibl><ref target="http://permalink.snl.ch/bib/chbsg000080728"
+                     >Rüdisühli 1984</ref>, S. 120–124</bibl>; <bibl><ref
+                     target="https://search.ortsnamen.ch/record/4059315">ortsnamen.ch</ref></bibl>).
+               Nicht zu verwechseln mit der Alp <placeName ref="loc006126">Alpila</placeName>, heute
+                  <placeName ref="loc006126">Frümsner Alp</placeName>, die der Gemeinde <orgName
+                  ref="org001786">Frümsen</orgName> gehörte (vgl. <ref>SSRQ_SG_III_4_130</ref>)
+               und noch heute im Besitz der Ortsgemeinde Frümsen ist.</p>
+         </div>
+         <div n="2" org="uniform" sample="complete">
+            <p>Vgl. auch die älteste Lehensurkunde der Alp Arin <ref>SSRQ_SG_III_4_012</ref>.</p>
+         </div>
+      </back>
+   </text>
+</TEI>

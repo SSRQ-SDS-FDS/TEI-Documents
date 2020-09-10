@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-08-15"/>
+            <date type="print"/>
+            <availability><p xml:id="facs">Sibylle Malamud</p></availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_227</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>OGA Sevelen U 1745</idno>
+               </msIdentifier>
+               <head>Erkenntnis von Glarus wegen fremder Frauen, die in die Gemeinde Sevelen einheiraten</head>
+               <msContents>
+                  <summary><p>Auf Bericht von Landvogt Johann Christoph Zweifel im Namen der Gemeinde Sevelen erkennt
+   Glarus, dass eine fremde Frau, die einen Seveler Gemeindsgenossen heiratet, 200 Gulden mitbringen
+   und 30 Gulden in den Gemeindesäckel zahlen muss.</p></summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <author role="scribe"><persName ref="per010662">Elmer</persName>, Landschreiber</author>
+                     <filiation type="current">Aufzeichnung (Doppelblatt)</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="35.0"/>
+                              <width unit="cm" quantity="23.0"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1745-11-23" calendar="Gregorian"></origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000110"/>
+               <term ref="key004452"/>
+               <term ref="key000325"/>
+               <term ref="key004059">Gemeindegenosse</term>
+               <term ref="key004966">Gemeinde</term>
+               <term ref="key000433">Aufnahme</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb facs="OGA_Sevelen_U_1745"/>
+               <div>
+                  <p><seg>
+                     <lb/>Meine gnädigen <abbr>hh</abbr> und oberen, <orgName ref="org003239">landammann und rath
+                        gmeinen <lb/>standts <placeName ref="loc000326.07">Glaruß</placeName></orgName>, haben über
+                     den gezimmend gemachten vortrag <abbr>hr</abbr>
+                     <lb/>haubtmann <persName ref="per002682a">Johann Christoph Zweyffells</persName>, nomine der
+                     <orgName ref="org001834">gmeind Seveln</orgName>
+                     <lb/>in der graffschafft <placeName ref="loc000440">Werdenberg</placeName>,<note>Vgl. das
+                        Gesuch <bibl><ref
+                           target="https://archivverzeichnis.gl.ch/home/#/content/902f3037c5994ffbbef04ce06e7cfbb5"
+                           >LAGL&#160;AG&#160;III.2429:080</ref></bibl>.</note> erkendt,</seg>
+                     <seg>das, wann könfftig hin <lb/>ein <term ref="lem002448">gmeinds-gnoß</term> zu <placeName
+                        ref="loc000708.15">Seveln</placeName> ein <term ref="lem010958">frömbd</term> auß-ländische
+                        <term ref="lem001577"><add place="above">weibs</add>person</term>
+                        <lb/><term ref="lem009285">heürathen</term> thäte, das ein solche nit allein die <measure
+                           quantity="200" type="currency" unit="fl">zwey hundert gulden</measure>
+                        <lb/>solle mit sich an guten mittlen in das land zubringen, sonderen <lb/>noch zu diesen
+                        <measure quantity="200" type="currency" unit="fl">200 </measure> in den <term
+                           ref="lem001662">gmeinds-seckell</term> noch zu zahlen <lb/>schuldig sein <measure
+                              quantity="30" type="currency" unit="fl">dreyßig gut gulden</measure>, welches in das
+                        künfftig und zu allen <lb/>zeiten geschehen und observiert werden solle. Und wäre, das ein
+                        solche <lb/>die <measure quantity="30" type="currency" unit="fl">30 </measure> nit
+                        bezahlte, solche zu keinen zeiten das <term ref="lem012399">gmeind recht</term> nicht
+                        <lb/>zugenießen haben solle, den <origDate calendar="Gregorian" when="1745-11-23">12./23.
+                           9bris 1745</origDate>.</seg>
+                     <seg>
+                        <lb/><choice>
+                           <abbr>Ldtschr</abbr>
+                           <expan>Landtschreiber</expan>
+                        </choice>
+                        <persName ref="per010662">Elmer</persName></seg>
+                  </p>
+               </div>
+               <pb facs="OGA_Sevelen_U_1745v"/>
+               <div>
+                  <ab type="dorsal" place="verso" hand="hand18c"><lb/>Gmeine <term ref="lem013002">rathserkandtnuß</term>
+                     <lb/>wegen <term ref="lem010958">fremden</term>
+                     <term ref="lem000655">wei<lb break="no"/>beren</term> in die <term ref="lem006896">gemeind</term>
+                     <lb/>zu <term ref="lem009285">heürahten</term>, <lb/>den <date when="1745-11-23">12./23. <choice><abbr>winterm</abbr><expan>wintermonat</expan></choice> 1745</date></ab>
+               </div>
+               <div>
+                  <ab type="archiving reference" place="verso"><lb/>N<hi rend="sup">o</hi>
+                     2<subst><del>2</del><add place="overwritten">3</add></subst></ab>
+               </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div n="1"><p>Nach dem <term ref="key003298">Landesrecht</term> von <date when="1639">1639</date> müssen sowohl
+            fremde <term ref="key004497">Männer</term> als auch <term ref="key004965">Frauen</term> bei der
+            <term ref="key000110">Heirat</term> mit Werdenberger <term ref="key000679">Einwohnern</term>
+            200 Gulden <term ref="key004452">Vermögen</term> besitzen (<ref>SSRQ_SG_III_4_174</ref>,
+            Art.&#160;56). <date when="1742">1742</date> stellt jedoch der Landvogt von <placeName
+               ref="loc000440">Werdenberg</placeName> das Gesuch an <orgName ref="org001197"
+                  >Glarus</orgName>, dass Fremde, die Einheimische aus <placeName ref="loc000440"
+                     >Werdenberg</placeName> heiraten, zukünftig neben 200 Gulden für das <term ref="key003816"
+                        >Landrecht</term> 25 oder 30 Gulden für die jeweilige Gemeinde erlegen sollen, wie dies auch
+            im <placeName ref="loc000203">Bündnerland</placeName> üblich sei (<bibl><ref
+               target="https://archivverzeichnis.gl.ch/home/#/content/69a7bc36a8ee42bfa869ba8c9ab49ddf"
+               >LAGL&#160;AG&#160;III.2463:003</ref></bibl>). Wie das vorliegende Stück zeigt, wird 1745
+            diesem Gesuch für die Gemeinde <orgName ref="org001834">Sevelen</orgName> hinsichtlich der
+            <term ref="key000110">Heirat</term> fremder <term ref="key004965">Frauen</term> entsprochen.
+            <date when="1749">1749</date> wird auch der Gemeinde <orgName ref="org001828">Grabs</orgName>
+            von Glarus <orig>eine gleiche gnad wie der gmeind <orgName ref="org001834">Sefelen</orgName>
+               zugestanden</orig> (vgl. die Ratserkenntnis von 1749 sowie die besiegelte Ausfertigung vom
+            <date when="1751-06-12" calendar="Gregorian">12. Juni 1751</date> im <ref>OGA&#160;Grabs O
+               1749-1</ref>). Die Verschärfung der Aufnahmepraxis korreliert mit deutlich zunehmenden <term
+                  ref="key000582">Beschwerden</term> der Gemeinden über die wachsende Zahl der <term
+                     ref="key004468">Zuzüger</term> sowie mit vermehrten Konflikten mit <term ref="key000325"
+                        >Fremden</term> um die Erhaltung der Ressourcen ab Mitte des <date from="1751" to="1800">18.
+                           Jh.</date> (besonders in den Gemeinden Grabs und Sevelen,
+            <bibl><ref>StASG&#160;AA&#160;3&#160;A&#160;7-4-7</ref></bibl>; <bibl><ref>PGA&#160;Sevelen
+               C13</ref></bibl>; <bibl><ref>OGA&#160;Grabs O&#160;1763-1</ref>; <ref>O&#160;1767-1</ref>;
+                  <ref>O&#160;1768-2</ref>; <ref>O&#160;1775-1</ref>; <ref>O 1776-2</ref>;
+                  <ref>O&#160;1794-1</ref></bibl>; <bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/509b25e973f84ef18fdb381be7d9f1c9"
+                     >LAGL&#160;AG&#160;III.2463:015</ref>; <ref
+                        target="https://archivverzeichnis.gl.ch/home/#/content/dc461846d0504cef806883258095b292"
+                        >AG&#160;III.2463:014</ref>; <ref
+                           target="https://archivverzeichnis.gl.ch/home/#/content/8fc7b97717e54d398446b4c96f2803a9"
+                           >AG&#160;III.2434:023</ref>; <ref
+                              target="https://archivverzeichnis.gl.ch/home/#/content/5f10b34b1e874354a30e76c9cc81dbbf"
+                              >AG&#160;III.2434:001</ref></bibl>). Diese Entwicklung ist wohl im Zusammenhang mit dem <term
+                                 ref="key003877">Bevölkerungswachstum</term> und den wirtschaftlichen Entwicklungen in Werdenberg in der zweiten Hälfte des 18. Jh. zu
+            sehen (zu diesen Veränderungen vgl. <bibl><ref
+               target="http://permalink.snl.ch/bib/chbsg000113548">Schindler 1986</ref>, S.&#160;155–187,
+               279–288</bibl>).</p></div>
+         <div n="2"><p>Viele <term ref="key004966">Gemeinden</term> beklagen sich bereits im 16. Jh., dass Auswärtige in
+            ihre <term ref="key000712">Dörfer</term> ziehen und unentgeltlich ihre <term ref="key003834"
+               >Gemeindegüter</term> nutzen. Sie ersuchen deshalb die Obrigkeiten um eine Bewilligung zur
+            <term ref="key000433">Aufnahme</term>
+            <term ref="key000325">Fremder</term> als <term ref="key000277">Nachbarn</term> oder <term
+               ref="key000314">Hintersassen</term>, damit diese zu einem Beitrag verpflichtet werden können
+            (so z. B. <ref>SSRQ_SG_III_4_121</ref>; <ref>SSRQ_SG_III_4_133</ref>). Zur Aufnahme
+            Fremder und zum <term ref="key003468">Einzugsgeld</term> siehe auch <ref>SSRQ_SG_III_4_109</ref>;
+            <ref>SSRQ_SG_III_4_121</ref>; <ref>SSRQ_SG_III_4_165</ref>;
+            <ref>SSRQ_SG_III_4_184</ref>, Art.&#160;17; <ref>SSRQ_SG_III_4_216</ref>, Art.&#160;4;
+            <ref>SSRQ_SG_III_4_229</ref>, S.&#160;92).</p></div>
+      </back>
+   </text>
+</TEI>

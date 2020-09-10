@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+
+			</titleStmt>
+
+			<publicationStmt>
+				<date type="electronic" when="2019-05-29"/>
+				<date type="print"/>
+			</publicationStmt>
+
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ_FR_I_2_8_0041_003</idno>
+			</seriesStmt>
+
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<idno>StAFR, Thurnrodel 11, S. 3</idno>
+					</msIdentifier>
+					<head>Jenon Rey – Verhör / Interrogatoire</head>
+					<msContents>
+						<summary></summary> 
+						<msItem>
+							<textLang>fr, de</textLang> 
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support>
+									<material></material>
+								</support>
+								<extent>
+									<dimensions type="leaves">
+										<height unit="cm" quantity="0.0"/>
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+									<dimensions type="plica">
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+								</extent>
+							</supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1618-08-25"></origDate>
+							<origPlace></origPlace>
+						</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+							
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+			<particDesc default="false"/>
+			<settingDesc default="false"/>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<p><lb/>In <placeName ref="loc007683.17">Zollets thurn</placeName>
+						<seg><lb/><origDate when="1618-08-25">25<hi rend="sup">ten</hi> <foreign xml:lang="la">augusti</foreign> <hi rend="underline">1618</hi></origDate>, <foreign xml:lang="la">presentibus</foreign> </seg>
+							<seg><lb/><foreign xml:lang="la"><choice><abbr>Jud</abbr><expan>Judice</expan></choice></foreign> <abbr>h</abbr> <choice><abbr>groß</abbr> <expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per009391">Wilhelm Reynold</persName>.</note></seg>
+							<seg><lb/><abbr>H</abbr> <persName ref="per009250">Gerwer</persName></seg>
+							<seg><lb/><persName ref="per009388"><choice><abbr>P</abbr><expan>Peter</expan></choice> Reyff</persName>, <persName ref="per009579a.01"><choice><abbr>Lud</abbr><expan>Ludwig</expan></choice> Gotrou</persName></seg>
+							<seg><lb/><persName ref="per009259a.01">Ligertz</persName>, <persName ref="per009123">Werly</persName></seg>
+						<seg><lb/>Weybel</seg></p>
+						
+						<p><seg><lb/><add place="left margin">Hat nüt bezalt.</add></seg> 
+							<seg><persName ref="per009583">Jenon Rey</persName> a dict ne savoir l’occasion de sa deten<lb break="no"/>tion, et avant <date dur="P70Y">70 ans</date> estre venus de <placeName><abbr>S<hi rend="sup">t</hi></abbr> Mury</placeName><note>L’identification du lieu est incertaine. Il pourrait s’agir de <placeName ref="loc008280.02">Saint-Maurice</placeName>.</note>, 
+						<lb/>et long temps avoir gouverné les malades du <orgName>grand 
+							<lb/>hospital</orgName> de cette ville<note>L’identification de cet hôpital demeure incertaine, qui est à situer soit à Fribourg, soit à Saint-Maurice, où l’hôpital Saint-Jacques est attesté depuis le X<hi rend="sup">e</hi> siècle.</note>, et avoir la prevende dudit 
+						<lb/>hospital&#160;; a dict bien cognoistre la <persName ref="per009584">Volande</persName>, mais 
+						<lb/>pour femme d’honneur&#160;; et de la femme de <persName ref="per009585">Gauzon</persName> 
+						<lb/>a dict, que en absence de son mary se <term ref="lem015984.02">corroce</term> 
+						<lb/>de se mesme, a cause que les gens la jugent 
+						<lb/>qu’elle soit sorciere&#160;; de celle d’<placeName ref="loc007603.04">Avenche</placeName><note>Gemeint ist <persName ref="per009582">Clauda Grandjean</persName>.</note> a dict 
+						<lb/>et pense qu’elle soit bannie dudit lieu, estant esté 
+						<lb/>procellee d’estre de ce mistier&#160;; de <persName>Hanns Gavié</persName> 
+						<lb/>ne savoir que tout bien et honneur&#160;; a dict estre 
+						<lb/>vray qu’allant en prison avoir prié l’officier 
+						<lb/>ne la debvoir mener vers la <persName ref="per009584">Volande</persName>, a cau<lb break="no"/>se qu’elle n’a bon nom&#160;; et avoir ouy dire que 
+						<lb/>ladite <persName ref="per009584">Volande</persName> seroit esté <term ref="lem015356.04">acculpee</term> par des gens 
+						<lb/>possedez du <term ref="lem016981.01">mauvais esprit</term>. Aultre ne sçait, ains  
+						<lb/>priant <choice><abbr>libraon</abbr><expan>liberation</expan></choice>.</seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+
+
+
+<?oxy_options track_changes="on"?>

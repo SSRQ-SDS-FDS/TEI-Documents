@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-08-15"/>
+            <date type="print"/>
+            <availability><p xml:id="facs">Sibylle Malamud</p></availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_252_1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>OGA Sevelen U 1785</idno>
+               </msIdentifier>
+               <head>Die Gemeinde Sevelen kauft ein Stück Baumgarten als Steinbruch</head>
+               <msContents>
+                  <summary><p>Hans Jakob Burgätzi und Christian Litscher, beides Richter von Sevelen, kaufen im Namen der
+                        Gemeinde Sevelen von Christian Litscher von Sevelen ein Stück Baumgarten
+                        (Bungert) bei seinem Haus oberhalb seines Bungerts für 288 Gulden. Der
+                        Verkäufer behält den Nutzen an den Fruchtbäumen auf diesem Gut, und man
+                        setzt ihm ohne seine Kosten zwei Grenzsteine gegen seinen Bungert.</p> <p>Der
+   teure Kauf geschah aus Mangel an Steinen für die Rheinwuhr und den Bach, deshalb soll dieses
+   Stück ein Steinbruch sein und keine Allmend und unbebaut bleiben, was von der Gemeindeversammlung
+   angenommen wird. Die Gemeinde beschliesst zudem, dass der Verkauf durch die beiden Richter
+   abgeschlossen werden soll.</p></summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <filiation type="current">Aufzeichnung (Doppelblatt)</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="22.5"/>
+                              <width unit="cm" quantity="17.5"/>
+                           </dimensions>
+                        </extent>
+                        <condition>Teile der Rückseite abgerissen</condition>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1785-07-19"/>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000689">Baumgarten</term>
+               <term ref="key000076">Obstgarten</term>
+               <term ref="key004796">Steinbruch</term>
+               <term ref="key000369">Kauf</term>
+               <term ref="key004045">Käufer</term>
+               <term ref="key000931">Gemeindebeschluss</term>
+               <term ref="key004966">Gemeinde</term>
+               <term ref="key000561">Gemeindeversammlung</term>
+               <term ref="key004796">Steinbruch</term>
+               <term ref="key004966">Gemeinde</term>
+               <term ref="key000561">Gemeindeversammlung</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <div>
+                  <p><pb n="1r" facs="OGA_Sevelen_U_1785_1r"/><seg>
+                     <lb/><origDate when="1785-07-19">1785, den 19. heüwet</origDate>, ist ein auf rechten und
+                     <lb/>gandz unbebetrogenen <term ref="lem000822">mart</term> geschehen endtzwüschendt
+                     <lb/>herr nach folgendten ehren personen, <term ref="lem002447">verkeüfer</term>
+                     <persName ref="per010769">Christen <lb/>Litscher</persName> von <placeName ref="loc000708"
+                        >Sevellen</placeName>
+                     <sic>umd</sic>
+                     <term ref="lem002446">keüfer</term>
+                     <persName ref="per010771">Hanß Jacob Burgädzy</persName>
+                     <lb/>und <persName ref="per010770a">Christian Litscher</persName>, beidi <term
+                        ref="lem000342">richter</term> von <placeName ref="loc000708">Sevelen</placeName> und in
+                     namen <lb/>und vohr die ehrsame gemeind da <sic>seblsten</sic>.</seg>
+                     <seg>Und gibt ob beme<lb break="no"/><add place="left margin">ltr</add>
+                        <persName ref="per010769">Litscher</persName> denen richteren zuo kaufen ein stug <term
+                           ref="lem001121.24">bongert</term> bey <lb/>seinem <term ref="lem000248">hauß</term> ab
+                        seinem bongert vohr ledig und los, obwollen <lb/>etwas <term ref="lem002531">boden
+                           zins</term> auf dem gandzen bongert, so hat er selben <lb/>auf den sinigen genomen. Und ist
+                        der bongert derren <lb/>ersamen <term ref="lem006896">gmeind</term> er kaufft zuo einem
+                        <term ref="lem011033.01">steinbruch</term> und <term ref="lem016702.02">riß</term>
+                        <lb/>zuo <app>
+                           <lem>yeez</lem>
+                           <rdg wit="OGA&#160;Sevelen B 04.11, S.&#160;150–151">jez</rdg>
+                        </app> und nach komendten zeidten, vohr <measure type="currency" quantity="288" unit="fl"
+                           >zwey hundert und <lb/>acht und achzig gulden</measure> auf <date type="deadline"
+                              when="--04-25"><persName ref="per000270">Görgi</persName> 1786</date><note>Nach Grotefend
+                                 ist im Bistum Chur der Georgstag der 25. April, wobei dies nach den
+                                 neuesten Erkenntnissen von Tschaikner offenbar nicht für das ganze Bistum
+                                 gilt (vgl. dazu ausführlicher die Fussnote in
+                                 <ref>SSRQ_SG_III_4_250</ref>).</note> zuo bezahlen, das
+                        gelt <lb/>nach dem <term ref="lem016705.02">landt lauf</term>.</seg>
+                     <seg>Es behaltet sich aber der <term ref="lem002447">verkeüfer</term> vohr, <lb/>die hier auf
+                        stehendte <term ref="lem000486">böm</term> vohr eigen zuo behalten. Selbe mögen <lb/>von
+                        <term ref="lem010128">steinen</term> verschlagen oder gesund bliben.</seg>
+                     <seg>Ferner dinget er an, <lb/>daß man ime ane seinen cösten gegen seinem bongert solle zwey
+                        <term ref="lem000693">marchen</term>
+                        <lb/>sedzen, die erste <measure quantity="2" unit="Schuh" type="length">2 schuow</measure>
+                        von dem gezeigeten <term ref="lem017068.02">hengelen bom</term>, <lb/>die oberi <measure
+                           quantity="3.5" unit="Schuh" type="length">3½ schuow</measure> anoch von einem
+                        <term ref="lem017068">hengelen bom</term>. Es sole anoch <lb/>der <origDate when="1785">1785</origDate>er
+                        nudzen dem <term ref="lem002447">verkeüfer</term> gehören, biß <term ref="lem003604"
+                           >obs</term> und <term ref="lem000027">weid</term> genudzet, <lb/>jene mit <term
+                              ref="lem010128">steinen</term> nichts verunsüberen, herrnach mögen si mit <lb/>steinen
+                        machen nach ihrem belieben und sole der verkeüfer den <lb/><term ref="lem001035">zun</term>
+                        mögen hin wegnemen, daß sinig mit ein zuo zünen.</seg></p>
+                  <p><pb n="1v" facs="OGA_Sevelen_U_1785_1v"/>
+                     <seg>
+                        <lb/>Ist anoch zuo wüßen, das diß eren <term ref="lem000179">kouf</term> geschehen auß
+                        <lb/>not und mangell der <term ref="lem010128">steinen</term>, so woll die <term
+                           ref="lem004063.07">rinwuohr</term> alls <term ref="lem000320">bach</term>
+                        <lb/>zuo underhalten. Alß haben sich die <term ref="lem000342">richter</term> bey dem
+                        <lb/>diß mahlige regierendten, hochgeachten, hoch edell geborner, from <lb/>und
+                        vohrsichtigen, gnedig gebietendten herren landtvogt um <lb/>rat erholt, welcher inen
+                        liebreich und fründtlich darzuo <lb/>geraten und nebst inen nötig gefunden, das dißeren
+                        <lb/>ane zwifell türen <term ref="lem000179.35">kauof</term> nicht köne wie anderi <term
+                           ref="lem000512">allmeind</term>
+                        <lb/>geachtet ald gar verbauwen old verlegt werden und inen <lb/>ale gerechte hilfs leistung
+                        versprochen.</seg>
+                     <seg>Nach dißerem <lb/>haben die enhalb geschribene <term ref="lem000342">richter</term>
+                        <add place="above">die</add> an banung und <term ref="lem000179">kauf</term>
+                        <lb/>so widt gebracht, einer gandzen versamlet ald zuo samen ge<lb break="no"/>ruofenen
+                        <term ref="lem006896">gemeind</term> vohr gestelt, weidt leüfig umgefragt <lb/>und alle
+                        gedancken und rat gleich mündig und zum vohr<lb break="no"/>auß erkendt, das dißer <term
+                           ref="lem002530">boden</term>, obzwahren schon <term ref="lem000512">allmend</term>,
+                        <lb/>zuo jedz und noch comendten zeiten deren ehrsamen <sic>gemeid</sic>
+                        <lb/>zuo einem <term ref="lem016703.02">stein riß</term> und <term ref="lem016704.02"
+                           >lager</term> dienen und zuo dem <term ref="lem011033.01">stein<lb break="no"
+                           />bruch</term>, so das absehen zuo machen gehören und weder ver<lb break="no"/>bauwen noch
+                        verlegen und anoch so wenig von anderen <sic><term ref="lem002816.14">gemeid
+                           <lb/>leidten</term></sic> ald privaten erlaubt werden, weder in den bruch noch <lb/>auf
+                        dißen <sic>erkausten</sic> boden mit steinen zuo kommen. <lb/>Und solle anoch von den <term
+                           ref="lem009711">undergengeren</term> der gemeid zum eigen<lb break="no"/>tum eingemarchet
+                        werden.</seg>
+                     <seg>Zum zweidten hatt eine ersame <lb/>gemeind erkendt, dißen <term ref="lem000179"
+                        >kauf</term>, so es <sic>mglich</sic>, <term ref="lem012119.03">werck stellig</term>
+                        <lb/>zuo machen, den zwey schon gemelten <term ref="lem000342">richteren</term> in <lb/>die
+                        armen zuo werfen und vollkomen über geben, mit <lb/>dißer sach zuo machen, so guot alß
+                        <sic>miglich</sic>. Ist also der <lb/><term ref="lem000179.35">kauof</term> geschehen, wie
+                        vohr halb zuo sehen. </seg>
+                  </p>
+               </div>
+               <pb facs="OGA Sevelen U 1785_2v"/>
+               <div>
+                  <ab type="dorsal" place="verso" hand="hand18c">
+                     <lb/><term ref="lem000008">Kauf</term> und <term ref="lem016701.02">mardt<lb break="no"
+                     />brief</term> vohr die ersame <lb/><sic>gemeidt</sic>
+                     <orgName ref="org001834">Sevelen</orgName>
+                     <lb/>betrefendt 1 stug <term ref="lem001121.24">bongert</term>
+                     <lb/>verkeüfer <persName ref="per010769">Christen <lb/>Litscher</persName></ab>
+               </div>
+               <div>
+                  <ab type="archiving reference" place="verso"><lb/>Abgeschrieben folio 150, <lb/>N<hi
+                     rend="sup">o</hi> 18 <lb/><del>N<hi rend="sup">o</hi> 55</del>
+                     <lb/>N<hi rend="sup">o</hi> 6</ab>
+               </div>
+            </body>
+         </text>
+      </group><back>
+         <div n="1"><p><date when="1727">1727</date> kommt es zum Streit um das <term ref="key005072">Eigentum</term>
+            eines <term ref="key004796">Steinbruchs</term>, als <persName ref="per010772">Hans
+               Beck</persName> von <placeName ref="loc006060">Altendorf</placeName> im Auftrag des Landvogts
+            für den oberen Boden und das Gewölbe im <term ref="key000186">Schloss</term> in einem
+            Steinbruch bei <placeName ref="loc000708">Sevelen</placeName> Platten aushauen will. <persName ref="per010774"
+               >Hans Jakob Bargetzi</persName> verhindert den Abbau von <term ref="key004608">Steinen</term>,
+            da er den Steinbruch als sein Eigentum beansprucht (<bibl><ref target="https://archivverzeichnis.gl.ch/home/#/content/d73ece5e43614be3b4883c285643fcc8">LAGL&#160;AG
+               III.2426:004</ref></bibl>).</p></div>
+         <div n="2"><p>Als die Drittel der Gemeinde <orgName ref="org001834">Sevelen</orgName>
+            <date when="1789">1789</date> wegen der <term ref="key004591">Steinfuhren</term> zum Unterhalt
+            der <term ref="key000520">Wuhren</term> in Streit geraten, beschliesst <orgName ref="org001197"
+               >Glarus</orgName>, dass die Gemeinde <orgName ref="org001834">Sevelen</orgName> neue <term
+                  ref="key004796">Steinbrüche</term> anlegen solle, um dort auf Kosten des Gemeindesäckels <term
+                     ref="key004608">Steine</term> zu brechen (<bibl><ref>OGA&#160;Sevelen U&#160;1789</ref></bibl>; zu
+            Steinfuhren für den Unterhalt der Wuhren vgl. <ref>SSRQ_SG_III_4_250</ref>). </p></div>
+         <div n="3"><p>Als sich <date when="1790">1790</date>
+            <persName ref="per010775a">Heinrich Tischhauser</persName> wegen der Schäden in seinem <term
+               ref="key000689">Baumgarten</term> im <placeName ref="loc008542.01">Bürlis</placeName> durch
+            das Sprengen von <term ref="key004608">Steinen</term> im <term ref="key004796"
+               >Steinbruch</term> beklagt, schlichtet der Landvogt den Streit dahingehend, dass die Gemeinde
+            <orgName ref="org001834">Sevelen</orgName> auf Ratifikation ihrer Gemeinde den Baumgarten um
+            31 Gulden kaufen soll (<bibl><ref>PA&#160;Litscher I</ref>, 13.06.1790</bibl>).</p></div>
+      </back>
+   </text>
+</TEI>

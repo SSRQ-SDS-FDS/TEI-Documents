@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-07-01"/>
+            <date type="print"/>
+            <availability><p xml:id="facs">Sibylle Malamud</p></availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_020</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>Fürstlich Fürstenbergisches Archiv Donaueschingen OA 22 III 10</idno>
+               </msIdentifier>
+               <head>Schiedsspruch zwischen Bischof Hartmann II. von Chur und Graf Rudolf II. von Werdenberg-Heiligenberg um den Hof in Sevelen</head>
+               <msContents>
+                  <summary>
+                     <p>Goswin Bäsinger, Vogt von Sargans, und Heinrich Stöckli, Bürger von Feldkirch, entscheiden als Schiedsrichter wegen des Hofs in Sevelen, dass  Bischof Hartmann II. von Chur Graf Rudolf II. von Werdenberg-Heiligenberg den Hof mit allen Rechten überlassen soll. Dafür soll Graf Rudolf dem Bischof 900 Pfund Konstanzer Pfennige geben.</p>Die Aussteller siegeln.</summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <filiation type="current">Original</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Pergament</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="36.0"/>
+                              <width unit="cm" quantity="27.0"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <sealDesc>
+                     <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI"
+                           n="1"
+                           nontei:condition="absent"
+                           nontei:attachment="slit">
+                        <persName role="sigillant" ref="per000435">Goswin Bäsiger</persName>
+                     </seal>
+                     <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI"
+                           n="2"
+                           nontei:condition="damaged"
+                           nontei:material="wax"
+                           nontei:shape="round"
+                           nontei:attachment="sealed on a parchment tag">
+                        <persName role="sigillant" ref="per004386">Heinrich Stöckli</persName>
+                     </seal>
+                  </sealDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1397-11-02">aller selen tag</origDate>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head>Regesten</head>
+                     <bibl><ref target="http://permalink.snl.ch/bib/chbsg000070135">BUB</ref>, Bd. 8, Nr. 4954</bibl>
+                     <bibl><ref target="http://permalink.snl.ch/bib/chbsg000091563">LUB</ref> I/5.10, Nr. 598</bibl>
+                     <bibl><ref target="http://permalink.snl.ch/bib/chbsg000141369">Krüger, Regesten</ref>, Nr. 596</bibl>
+                     <bibl><ref target="
+                        http://permalink.snl.ch/bib/chbsg000143829">Vanotti, Regesten</ref>, Nr. 142</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key001117">Schiedsspruch</term>
+               <term ref="key004478">Hof</term>
+               <term ref="key000058">Schulden</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <div org="uniform" sample="complete">
+                  <pb facs="FFA_Donaueschingen_OA_22_III_10_r"/>
+                  <p>
+                     <seg>
+                        <lb/>Ich, <persName ref="per000435a.02">Goͤswin Baͤsiger</persName>, ze
+                        disen ziten vogt ze <placeName ref="loc000925">Sangans</placeName>, und ich,
+                           <persName ref="per004386a.02">Hainrich Stoͤkli</persName>, burger ze
+                           <placeName ref="loc000061">Veltkirch</placeName>, tuͦnd kunt mit disem
+                        brief menlichem und verjehent offenlich: Als die edeln, <lb/>wolgeborn,
+                        ûnßer genaͤdigen herren byschoff <persName ref="per000377b"
+                           >Hartman</persName>, von gottes genaden byschoff ze <orgName
+                           ref="org000053">Chur</orgName>, und graf <persName ref="per000429a"
+                           >Ruͦdolf von Werdenberg</persName> uff ûns zwen kommen sint und ûns
+                        gentzlichen getruwet <lb/>hand ze sprechen von aller der zuͦspru̍ch wegen,
+                        so der <choice>
+                           <abbr>egent</abbr>
+                           <expan>egenannt</expan>
+                        </choice> herr byschoff <persName ref="per000377b">Hartman</persName> von
+                        sin und sins gotzhus wegen untz uff disen hu̍tigen tag hat gehept zu dem <choice>
+                           <abbr>ebepn</abbr>
+                           <expan>ebenempten</expan>
+                        </choice>
+                        <lb/>ûnserm herren graf <persName ref="per000429a">Ruͦdolfen</persName> von
+                        des hofs wegen ze <placeName ref="loc006049">Sevelen</placeName> mit allen
+                        sinen rechten und zuͦgehoͤrden. Und ûns die <choice>
+                           <abbr>egent</abbr>
+                           <expan>egenannten</expan>
+                        </choice> herren beid fu̍r sich, ir nachkommen und erben bi iren <lb/>guͦten
+                        trûwen verhaissen und gelopt hand, vest und staͤt ze halten, alles das, so
+                        wir ûns hierumb erkennet und uss sprechent an all geverd. Da haben wir ûns
+                        beid <lb/>ainhelklichen erkent und sprechent och uss nach rǎt wiser lu̍t
+                        und mit guͦter vorbetrachtung:</seg>
+                     <seg>Das der egedacht erwirdig herr byschoff <persName ref="per000377b"
+                           >Hartman</persName> fu̍r sich, sin nach<lb break="no"/>kommen und gotzhus
+                        ze <orgName ref="org000053">Chur</orgName> dem egeschribnen herren graf
+                           <persName ref="per000429a">Ruͦdolfen</persName> und sinen erben den
+                        vorbenempten hǒf ze <placeName ref="loc006049">Sevelen</placeName> mit
+                        aigenschaft lediklichen sol lassen mit <term ref="lem000458"
+                           >kilchensaͤtzen</term>, <lb/>mit lût, mit gu̇tern, mit gerichten, <term
+                           ref="lem000362">ehaften</term>, <term ref="lem000067">twing und
+                           benn</term>, mit allen rechten, nûtzen und zuͦgehoͤrden und oͤch
+                        aigenlichen fertigen mit im selben und mit dem capitel ze <orgName
+                           ref="org000053">Chur</orgName>, <lb/>das er daran habent si, und im und
+                        sinen erben von dem egedachten byschoff <persName ref="per000377b"
+                           >Hartman</persName>, sinen nachkommen und gotzhus ze <orgName
+                           ref="org000053">Chur</orgName> unbekûnbert und unanspraͤchig beliben mug
+                        <lb/>fu̍r aigen in aller wis und mass, als er und sin vordren den selben
+                        hoff in <term ref="lem010753">pfands wis</term> untz har hand ingehept, und
+                        sol oͤch das beschehen hinnen ze <date type="deadline" when="1399-12-06"
+                           >sant <persName ref="per001536">Niclaus</persName> tag des hai<lb
+                              break="no"/>ligen byschoffs schierest ku̍nftig</date> nach gab diss
+                        briefs.</seg>
+                     <seg>Darnach sprechen wir oͤch uss mit raͤt wiser lu̍t und mit guͦter
+                        vorbetrachtung, das der ebenempt ûnser her graf <lb/><persName
+                           ref="per000429a">Ruͦdolf</persName> dem egedachten herren byschoff
+                           <persName ref="per000377b">Hartman</persName> und sinem gotzhus fu̍r den
+                        ebenempten hoff ze <placeName ref="loc006049">Sevelen</placeName> und umb
+                        all <choice>
+                           <abbr>vorges</abbr>
+                           <expan>vorgeschribner</expan>
+                        </choice> rechtung, so zu dem hof gehoͤret, richten, geben <lb/>und bezalen
+                        sol <measure type="currency" unit="lb" origin="Konstanz" quantity="900"
+                           >nu̍nhundert <choice>
+                              <abbr>phnt</abbr>
+                              <expan>pfund</expan>
+                           </choice> Costentzer pfennig</measure> oder da fûr semlich mûnss als jetz
+                        ze <placeName ref="loc000061.07">Veltkirch</placeName> in der statt fûr
+                        Costentzer pfennig geng und genaͤm ist. Und sol im und <lb/>sinem gotzhus an
+                        dem gelt richten und guͦt machen an <persName ref="per000431a">Johansen
+                           Stoͤkli</persName>n, amptman ze <placeName ref="loc000061"
+                           >Veltkirch</placeName>, und an <persName ref="per004423"
+                        >Hans</persName>en, sinem sun, so vil gelts als sich mit rechter rechnung
+                        befindet, <lb/>das er und sin gotzhus inen schuldig sint, es si hoptguͦt,
+                        zins oder andere redlich <term ref="lem001341">geltschuld</term>. Und sol si
+                        darumb hinen zu dem <choice>
+                           <abbr>egent</abbr>
+                           <expan>egenannten</expan>
+                        </choice>
+                        <date type="deadline" when="1399-12-06">sant <persName ref="per001536"
+                              >Niclaus</persName> tag</date>, der aller erst kûnftig <lb/>wirt nach
+                        gab diss briefs, gentzlichen ledgan und entrihen an allen one schaden und
+                        inen widerschaffen ledig und loz all <term ref="lem001905"
+                           >pfantschaft</term> und brief, so die <choice>
+                           <abbr>ebenpt</abbr>
+                           <expan>ebenempten</expan>
+                        </choice>
+                        <persName ref="per000431a">Johans <lb/>Stoͤkli</persName> und sin <persName
+                           ref="per004423">sun</persName> von dem <choice>
+                           <abbr>vorges</abbr>
+                           <expan>vorgeschribenen</expan>
+                        </choice> byschoff <persName ref="per000377b">Hartman</persName> oder sinem
+                        gotzhus in hand. Und sond das tuͦn hinnen ze dem <choice>
+                           <abbr>vorgent</abbr>
+                           <expan>vorgenannten</expan>
+                        </choice>
+                        <date type="deadline" when="1399-12-06">sant <persName ref="per001536a.03"
+                              >Niclaus</persName> tag</date> an all widerred und geverd. <lb/>Und
+                        waz sich denn mit rechter rechnung befindet, das der egedacht graf <persName
+                           ref="per000429a">Ruͦdolf</persName> dem vorgeschribnen byschoff <persName
+                           ref="per000377b">Hartman</persName> und sinem gotzhus fûrbaz schuldig
+                        belipt, an den <choice>
+                           <abbr>vorgnt</abbr>
+                           <expan>vorgenannten</expan>
+                        </choice>
+                        <lb/><measure type="currency" unit="lb" origin="Konstanz" quantity="900"
+                           >nûnhundert <choice>
+                              <abbr>phnt</abbr>
+                              <expan>pfund</expan>
+                           </choice> Costentzer</measure>, so aman <persName ref="per000431a"
+                           >Stoͤckli</persName>s und sins suns geltschuld abgeschlagen ist, als <choice>
+                           <abbr>vorges</abbr>
+                           <expan>vorgeschriben</expan>
+                        </choice> ist, darumb sol der dikbenempt graf <persName ref="per000429a"
+                           >Ruͦdolf</persName> dem egeschribnen byschoff <lb/><persName
+                           ref="per000377b">Hartman</persName> und sinem gotzhus guͦt sicherhait
+                        tuͦn, wie si dez notdurftig sind, mit guͦten <term ref="lem000225"
+                           >bu̍rgen</term> und <term ref="lem000226">giseln</term>, damit er und sin
+                        gotzhus wol versorget sient, das im graf <lb/><persName ref="per000429a"
+                           >Ruͦdolf</persName> und sin erben das selb gelt alles gentzlichen geb und
+                        bezal hinnen ze <date type="deadline" when="--06-24">sant <persName
+                              ref="per000049">Johans</persName> tag des toͤffers</date> schierost
+                        kûnftig nach gab diss briefs an allen sinen schaden. <lb/>Und wie der genant
+                        byschoff <persName ref="per000377b">Hartman</persName> oder sin gotzhus und
+                        nachkomen dannehin nach dem selben <date type="deadline" when="1400-06-24"
+                           >sant <persName ref="per000049">Johans tag</persName>
+                        </date> von des <choice>
+                           <abbr>egent</abbr>
+                           <expan>egenannten</expan>
+                        </choice> gelts wegen jemer ze schaden kommen <lb/>an <term ref="lem000575"
+                           >juden</term>, an <term ref="lem004401">cristan</term> oder wie sich das
+                        umb gefuͦgte si standent umb so vil gelts an schaden oder man nemes uff si
+                        ze schaden, das der <choice>
+                           <abbr>egent</abbr>
+                           <expan>egenannt</expan>
+                        </choice> graf <persName ref="per000429a">Ruͦdolf</persName> und sin erben
+                        <lb/>den ebenempten byschoff <persName ref="per000377b">Hartman</persName>
+                        und sin gotzhus da von gar und gentzlichen ledgan und loͤsen soͤllent undnd
+                        sol der ebenempt graf <persName ref="per000429a">Ruͦdolf</persName> diss
+                        besorgnust und sicher<lb break="no"/>hait tuͦn und vollfuͤren vor dem <choice>
+                           <abbr>vorges</abbr>
+                           <expan>vorgeschribenen</expan>
+                        </choice>
+                        <date type="deadline" when="1399-12-06">sant <persName ref="per001536a.03"
+                              >Niclaus</persName> tag</date> naͤchst kûnftig.</seg>
+                     <seg>Oͤch sprechen wir, das die <choice>
+                           <abbr>egent</abbr>
+                           <expan>egenannten</expan>
+                        </choice> herren beid disen spruch und alles, das so an dise brief
+                        <lb/>geschriben stat, vesteklich halten und vollfuͤren sond bi den trûwen,
+                        so si ûns darumb geben und gelopt hand.</seg>
+                     <seg>Und dez ze urkund und gantzer staͤter sicherhait, so haben wir, <lb/><choice>
+                           <abbr>ebenpt</abbr>
+                           <expan>ebenempte</expan>
+                        </choice>
+                        <persName ref="per000435a.02">Goͤswin Baͤsiger</persName>, <persName
+                           ref="per004386a.02">Hainrich Stoͤkli</persName>, jetweder sin aigen
+                        insigel gehenkt an disen brief, der geben ist ze <origPlace ref="loc000061"
+                           >Veltkirch</origPlace>, an <origDate when="1397-11-02">allerselen tag und
+                           gedaͤchnust nach <persName ref="per000353">Cristi</persName>
+                           <lb/>gebûrt drûzehenhundert und nûntzig jar darnach in dem sibenden
+                           jar</origDate>.</seg>
+                  </p>
+               </div>
+               <pb facs="FFA_Donaueschingen_OA_22_III_10_v"/>
+               <div org="uniform" sample="complete">
+                  <ab type="dorsal" place="verso" hand="later hand"><lb/>Vertragsbrieff zwischen dem
+                     <lb/>bischof zu <orgName ref="org000053">Chur</orgName> und graff <lb/><persName ref="per000429a">Rudolff
+                        von Werdenberg</persName>
+                     <lb/>von wegen deß hoffs zu <placeName ref="loc006049">Sevelen</placeName>.</ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab type="dorsal" place="verso" hand="other hand"><choice>
+                        <abbr>Ddo</abbr>
+                        <expan>De dato</expan>
+                     </choice>
+                     <placeName ref="loc000061">Veldtkirch</placeName> an allerseelen tag <lb/>1397.</ab>
+               </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div n="1" org="uniform" sample="complete">
+            <p>1304 verpfändet der <orgName ref="org000053">Chur</orgName>er Bischofs <persName ref="per000006a">Siegfried von
+   			Gelnhausen</persName> den Hof <placeName ref="loc006049">Sevelen</placeName>
+   		an Graf <persName ref="per004424">Hugo II. von
+   			Werdenberg-Heiligenberg</persName>, vgl. dazu <ref>SSRQ_SG_III_4_005</ref>.</p>
+         </div>
+         <div n="2" org="uniform" sample="complete">
+            <p>Nachdem die Grafen <persName ref="per000416a">Albrecht III. von
+                  Werdenberg-Heiligenberg</persName>, <persName ref="per000382a">Albrecht IV. von
+                  Werdenberg-Heiligenberg</persName> und die Brüder <persName ref="per000429a"
+                  >Rudolf II.</persName> und <persName ref="per000386a">Hugo V. von
+                  Werdenberg-Heiligenberg</persName> in der sogenannten Werdenberger Fehde (<date
+                  from="1393" to="1397"/>1393–1397) gegen den Bischof von Chur mit seinen Verbündeten
+               verloren haben (Druck: <bibl><ref
+                  target="https://www.eliechtensteinensia.li/viewer/object/000020964/336/"
+                     >LUB</ref> I/1, Nr. 148</bibl>; Regest: <bibl><ref
+                     target="https://www.ssrq-sds-fds.ch/online/SG_III_2/index.html#p_45">SSRQ SG
+                     III/2.1, Nr. 25</ref></bibl>), erhebt der Bischof von Chur beim Friedensschluss
+                  <date when="1397">1397</date> Ansprüche auf den Hof Sevelen. Bereits als <date
+                  when="1395">1395</date> Herzog <persName ref="per000387a">Leopold IV. von
+                  Habsburg-Österreich</persName> dem Anti-Werdenbergischen Bündnis des Bischofs
+               beigetreten ist, haben sich die Bündnispartner die Besitzungen der Gegner aufgeteilt:
+               Die Besitzungen südlich des Nussbaums bei <placeName ref="loc000428"
+                  >Räfis</placeName>, der die Grenze zwischen den Grafschaften <placeName
+                  ref="loc000440">Werdenberg</placeName> und <placeName ref="loc000925"
+                  >Sargans</placeName> bildet, sollten dem Bischof zufallen, ebenso der Hof Sevelen,
+               falls diese Besitzungen in die Hände des Bischofs oder seiner Bündnispartner fallen.
+               Das Gebiet nördlich des Nussbaums bis zum <placeName ref="loc000096"
+                  >Bodensee</placeName> samt den Besitzungen im <placeName ref="loc000778"
+                  >Thurtal</placeName> soll seinen Bündnispartnern zufallen (Druck: <bibl><ref
+                     target="http://permalink.snl.ch/bib/chbsg000091563"
+                     >LUB</ref> <ref target="https://www.eliechtensteinensia.li/viewer/object/000020964/368/">I/1, Nr. 154</ref></bibl>).</p>
+            <p><persName ref="per000435a">Goswin Bäsinger</persName> entscheidet betreffend die
+               Ansprüche des Bischofs von Chur auf den Hof Sevelen zu Gunsten von Graf <persName
+                  ref="per000429a">Rudolf II. von Werdenberg-Heiligenberg</persName>, der dem
+               Bischof jedoch eine Summe von 900 Pfund bezahlen muss (vgl.
+                  <ref>SSRQ_SG_III_4_021</ref>). Graf Rudolf II. soll einen Teil der Summe den
+               Schuldnern des Bischofs, <persName ref="per000431a">Johann Stöckli</persName>, Ammann
+               der Herrschaft Österreich in <placeName ref="loc000061">Feldkirch</placeName>, und
+               seinem <persName ref="per004423">Sohn</persName>, bezahlen. Was nach Abzug der
+               Schuldsumme von den 900 Pfund noch übrig ist, soll der Graf dem Bischof geben.</p>
+         </div>
+      </back>
+   </text>
+</TEI>

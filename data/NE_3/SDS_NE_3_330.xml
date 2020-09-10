@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="headerinfo"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <date type="electronic" when="2020-08-17"/>    <date type="print"/>
+    <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Collection des sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS_NE_3_330</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier>
+      <idno>AVN B 101.14.001, fol. 556v–557v</idno>
+     </msIdentifier>
+     <head>Mariage, widerfall, succession, délivrance de taxe et tiers denier</head>
+     <msContents>
+      <summary>Le widerfall est une dette réciproque pour laquelle le survivant n’est pas obligé de
+       demander une mise en possession. En faisant délivrance de taxe sur un bien-fonds, il est
+       possible de prendre le tiers denier si l’on veut agir sur le bien-fonds duquel il est pris.
+       L’intérêt n’est dû que lorsque la taxe est notifiée par écrit.</summary>
+      <msItem>
+       <textLang>français</textLang>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="33"/>
+          <width unit="cm" quantity="23.5"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <origDate when="1696-01-29" calendar="Julian"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>
+      </origin>
+     </history>
+     <additional>
+      <listBibl>
+       <head/>
+       <bibl/>
+      </listBibl>
+     </additional>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key005028"></term>
+     <term ref="key000920"></term>
+     <term ref="key000815"></term>
+     <term ref="key000863"></term>
+     <term ref="key005095"></term>
+     <term ref="key005225"></term>
+    </keywords>
+   </textClass>
+   <particDesc default="false"/>
+   <settingDesc default="false"/>
+  </profileDesc>
+ </teiHeader>
+
+ <text>
+  <group>
+   <text>
+    <body>
+        
+     
+     <pb n="556v" facs="AVN_B_101.14.001_0556v"/> 
+        
+     <div>
+      
+      <p>
+       <lb/>Sur la requeste presentée par le sieur <lb/><persName ref="per008897">Elie
+        Petter</persName>, greffier et juré en l’honnorable justice de <lb/><placeName
+        ref="loc007800">Saint Blaise</placeName>, agissant au nom et en qualité de tutteur <lb/>de
+        <persName ref="per010097.01">Madelaine, Jean Henry</persName><note>D’après une généalogie
+        établie par Jean Yves Barbier sur <bibl><ref target="www.geneanet.org"
+          >www.geneanet.org</ref></bibl>, Madeleine née Dardel se serait mariée avec Jean-Jacques
+        Fornachon en 1677. En revanche, la présence des noms «&#160;Jean&#160;» et
+        «&#160;Henry&#160;» n’est pas claire. Peut-être a-t-elle épousé un certain Jean Henry en
+        seconde noces. Il pourrait également s’agir du patronyme Jeanhenry, dont il existe une
+        alliance avec un individu de la famille Dardel au début du XVII<hi rend="sup">e</hi>
+        siècle.</note> veuve de feu <persName ref="per008926">Jaques Fornachon</persName>
+       <lb/><choice>
+        <abbr>dud</abbr>
+        <expan>dudit</expan>
+       </choice>
+       <placeName ref="loc007800">Saint Blaise</placeName>, à monsieur le maistre bourgeois <lb/>et
+        <orgName ref="org003085">Conseil Estroit de <choice>
+         <abbr>lad</abbr>
+         <expan>ladite</expan>
+        </choice> Ville de <placeName ref="loc007786">Neufchatel</placeName></orgName>, tendante
+       <lb/>aux fins d’avoir les points de coutumes suivans. Assavoir. </p>
+      
+      <p>
+       <lb/>En permier lieu, si par un traité de mariage fait <lb/>suivant la louable coûtume de
+       <placeName ref="loc007785">Neufchatel</placeName> on est obligé de <lb/>demander la mise en possession quand
+       il ne s’agit uniquement <lb/>que de ce que l’on appelle <term ref="lem015070.04">Widerfal</term>, et qu’on est
+       pas obligé <lb/>de prendre du bien fond, sur tout quand il ne paroit aucun <lb/>testament ny
+       donnation contraire et qu’il se trouve des heritiers <lb/>reconnus qui sont obligés de payer
+       les dettes du deffunt. </p>
+      
+      <pb n="557r" facs="AVN_B_101.14.001_0557r"/>
+      
+      <p>
+       <lb/>En second lieu. Si un semblable traité ne doit pas <lb/>etre regardé et avoir lieu comme
+       une obligation reciproque <lb/>entre les conjoins, et si en vertu d’un tel contract on ne
+       peut <lb/>pas ce faire payer des heritiers reconnus par <term ref="lem015545"
+        >levation</term>, vendition <lb/>et <term ref="lem014995.02">taxe</term>. </p>
+      
+      <p>
+       <lb/>En troisieme lieu, si faisant <term ref="lem014968.02">delivrance de taxe</term> ont
+       <lb/>peut prendre le <term ref="lem015540">tier denier</term> en cas qu’on veuille agir sur du <lb/>bien fond
+       <term ref="lem017830.02">riere</term> les lieux où le <term ref="lem015540">tier denier</term> se prend. </p>
+      
+      <p>
+       <lb/>En quatrieme lieu, si l’interest en est deu par les heritiers <lb/>dès la mort du
+       deffunct, dès le jour que les heritiers ont estés <lb/>reconnus, ou dès la <term ref="lem014995.02">taxe</term>
+       faite. </p>
+      
+      <p>
+       <lb/><orgName ref="org003085"><choice>
+         <abbr>Mess<hi rend="sup">r</hi></abbr>
+         <expan>Mesdits </expan>
+        </choice> sieurs du Conseil</orgName>, ayants eu advis et meure <lb/>deliberation par
+       ensemble, donnent par declaration suivant <lb/>la coutume usitée en la souveraineté de
+       <placeName ref="loc007785">Neufchatel</placeName> de <lb/>pere à fils et de tout temps immemorial la coutume
+       <lb/>estre telle. </p>
+      
+      <p>
+       <lb/>Assavoir, sur le premier et second points, que le <term ref="lem015070">Widerfal</term>
+       <lb/>estant une dette reciproque contractée par les parties, que <lb/>le survivant n’est
+       point obligé d’en demander aucune mise <lb/>en possession, et qu’il peut s’en faire payer
+       comme d’une <lb/>obligation par <term ref="lem015545">levation</term> vendition et <term ref="lem014995.02">taxe</term>. </p>
+      
+      <p>
+       <lb/>Et sur le troisieme et quatrieme points, declarent <lb/>qu’en faisant <term
+        ref="lem014968">delivrance de taxe</term> sur du bien fond ont peut <lb/>prendre le <term
+        ref="lem015540">tier denier</term> au cas qu’on vueille agir sur du <lb/>bien fond, où il se
+       prend. Et que l’interest n’estant <lb/>point promis, qu’il n’est deu que dès que la
+       <term ref="lem014995.02">taxe</term> est <lb/>faite et écrite. </p>
+      
+      <pb n="557v" facs="AVN_B_101.14.001_0557v"/>
+      
+      <p>
+       <lb/>Ce qu’a esté ainsi passé, conclud et arresté et ordonné au <lb/>secretaire de ville
+       soussigné de l’ainsy expedier, sous le <lb/>seau de la mayorie et justice <choice>
+        <abbr>dud</abbr>
+        <expan>dudit</expan>
+       </choice>
+       <origPlace ref="loc007786">Neufchatel</origPlace>, ce <origDate when="1696-01-29" calendar="Julian">29<hi rend="sup">e</hi>
+        <lb/>janvier <hi rend="underline">1696</hi></origDate>. </p>
+      
+     </div>
+  
+      <div>
+       <p>
+        <lb/>Copie extraite de sur l’original
+        <lb/>signé par moy.
+       </p>
+       <signed><persName ref="per008992"><choice><abbr>N</abbr><expan>Nicolas</expan></choice> Huguenaud</persName> <figure type="notarial sign"/></signed>
+      </div>
+     
+     
+       
+    </body>
+   </text>
+  </group>
+ </text>
+</TEI>

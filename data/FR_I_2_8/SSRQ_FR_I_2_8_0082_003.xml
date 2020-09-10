@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+
+			</titleStmt>
+
+			<publicationStmt>
+				<date type="electronic" when="2019-07-23"/>
+				<date type="print"/>
+			</publicationStmt>
+
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ_FR_I_2_8_0082_003</idno>
+			</seriesStmt>
+
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<idno>StAFR, Thurnrodel 12, S. 311–312</idno>
+					</msIdentifier>
+					<head>Jacques Chollet – Verhör / Interrogatoire</head>
+					<msContents>
+						<summary></summary> 
+						<msItem>
+							<textLang>fr, de</textLang> 
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support>
+									<material></material>
+								</support>
+								<extent>
+									<dimensions type="leaves">
+										<height unit="cm" quantity="0.0"/>
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+									<dimensions type="plica">
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+								</extent>
+							</supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1629-01-03"/>
+							<origPlace></origPlace>
+						</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc> 
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+			<particDesc default="false"/>
+			<settingDesc default="false"/>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="311"/>
+						<p><lb/>Im <placeName ref="loc009267">altten Züghauss</placeName>
+							<seg><lb/><origDate when="1629-01-03">3 <foreign xml:lang="la">januarii</foreign> 1629</origDate>, <foreign xml:lang="la"><choice><abbr>jud</abbr><expan>judex</expan></choice></foreign> <abbr>h</abbr> <choice><abbr>groß</abbr> <expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per009276">Franz Karl Gottrau</persName>.</note></seg>
+							<seg><lb/><abbr>H</abbr> <persName ref="per009100">Weck</persName> <term ref="lem018597.02">burgermeister</term>, <abbr>h</abbr> <persName ref="per009266">Feldtner</persName></seg>
+							<seg><lb/><persName ref="per006838">Zur Tannen</persName>, <persName ref="per009264">Amman</persName></seg>
+							<seg><lb/><choice><abbr>W</abbr><expan>Weibel</expan></choice></seg></p>
+						
+						<p><seg><lb/><persName ref="per009382a.01">Jaques Zollet</persName>, enquis sur lesditz points de l’examen, en nie partie, 
+						<lb/>et dict que s’il a parlé quelque chose du rosaire, ce n’a pas 
+						<lb/>esté a aucune mauvaise intention. Ains pour n’avoir faict grand 
+						<lb/>cas du prenommé pere <persName>David</persName>, qui preschoit du rosaire, et 
+						<lb/>en distribuoit, faisant par ses predications qu’un chescun petit 
+					<pb n="312"/><lb/>et grand se feit <sic>enrooller</sic> en la <orgName ref="org004385">Confrerie du Rosaire</orgName>&#160;; si que s’il a 
+						<lb/>proferé que l’inventeur dudit rosaire estoit ou auroit peu estre 
+						<lb/>un sorcier, il ne visoit a autre personne qu’audit pere <persName>David</persName>.</seg> 
+						<seg><lb/>Quand a ce qu’il avoit dict qu’il n’y avoit qu’un sainct sacrement, 
+						<lb/>son intention et ses parolles avoir esté telles, qu’entendant a <placeName>La 
+						<lb/>Rochette</placeName><!-- Ort --> discourir et tenir propos des sept sainctz sacrementz, il 
+						<lb/>dict s’il avoit plus qu’un seul Dieu, et s’ilz ne se rapportoient  
+						<lb/>tous a nostre Sauveur, Createur du ciel et de la terre, en prenantz 
+						<lb/>tous leur source, et que defaict <del>qu’</del> il pense qu’il n’aye un seul 
+						<lb/>Dieu, le Pere, le Filz et le Saint Esprit.</seg> <seg>Enquis s’il ne savoit 
+							<lb/>faire quelques <term ref="lem018384.02">onguentz</term>, a respondu que non pas d’autres, sinon avec 
+						<lb/>du lard, suif et poix, duquel <term ref="lem018384">onguent</term> il s’estoit servy pour <term ref="lem015302.02">medeciner</term> 
+						<lb/>sa main qui avoit esté brisee sur la remonstrance de messeigneurs 
+						<lb/>de l’honnorable justice, qu’il devoit confesser la verité  
+						<lb/>des charges a luy mises sus par gens dignes de foy.</seg> <seg>Dict 
+						<lb/>que ceux qui le chargent d’aucun mesfaict, sont ses malveillants 
+						<lb/>et haineux, qui luy portes envie, de ce qu’il <term ref="lem017483.02">essarte</term> et deffri<lb break="no"/>che les terres, disantz de luy qu’il leur retranche le pain 
+							<lb/>de la bouche.</seg> <seg>Ist dry mal mit dem kleinen <term ref="lem018287">stein</term> <term ref="lem016150">uffgezogen</term> 
+						<lb/>worden; bittet umb gnad. Sagt, er sye bißwyllen verruckt 
+						<lb/><term ref="lem014668.01">wanwitzig</term> unndt wüsse nitt, waß er rede.</seg></p>
+					</div>
+				</body>
+				
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+
+<?oxy_options track_changes="on"?>

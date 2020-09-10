@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     n="1234"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="headerinfo"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2020-08-17"/>    <date type="print"/>
+    <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Collection des sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des
+      sources
+      du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS_NE_3_443</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>AVN B 101.14.002, fol. 73r–73v</idno>
+               </msIdentifier>
+               <head>Poursuite par le sautier d’un débiteur pour plusieurs titres</head>
+               <msContents>
+                  <summary>Lorsqu’un sautier poursuit un débiteur en vertu de plusieurs titres, la mise en taxe doit être écrite sur chacun d’eux. La signature de deux juge n’est pas nécessaire.</summary>
+                  <msItem>
+                     <textLang>français</textLang>
+                     <filiation type="current"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="34.5"/>
+                              <width unit="cm" quantity="22"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1770-03-26"/>
+                     <origPlace ref="loc007786">Neuchâtel</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head/>
+                     <bibl/>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key005095"/>
+               <term ref="key000547"/>
+               <term ref="key000058"/>
+               <term ref="key003331"></term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="73r" facs="AVN_B_101.14.002_0073r"/>
+               <div>
+                  <p>
+                     <lb/>Du <origDate when="1770-03-26">26 mars 1770</origDate>.
+      </p>
+                  <p>
+                     <lb/>Le <choice>
+                        <abbr>S<hi rend="sup">r</hi>
+                        </abbr>
+                        <expan>sieur</expan>
+                     </choice>
+                     <persName ref="per008703">Convert</persName>, <term ref="lem014993">grand sautier</term>, a présenté une
+       requette par la <lb/>quelle il a demandé les deux points de coutume suivants. </p>
+                  <p>
+                     <lb/>1<hi rend="sup">o</hi>. Si un <term ref="lem014994">sautier</term>, qui poursuit un
+       débiteur en vertu de deux <lb/>titres de différentes dattes et sommes, peut se contenter de
+       <lb/>faire écrire une seule simple <term ref="lem014995">taxe</term> pour les deux titres, ou <lb/>s’ils
+       doivent avoir chacun leur <term ref="lem014995">mise en taxe</term>. </p>
+                  <p>
+                     <lb/>2<hi rend="sup">o</hi>. Si, pour faire revivre un titre, une seule et simple attesta<lb break="no"/>tion du <term ref="lem014994">sautier</term> suffit ou s’il doit y avoir une
+       <term ref="lem014995">mise en <lb/>taxe</term> écrite et signée par deux <term ref="lem015079">justiciers</term>. </p>
+                  <p>
+                     <lb/>Sur la requette cy dessus, monsieur le maître bourgeois <pb n="73v" facs="AVN_B_101.14.002_0073v"/>
+                     <lb/>en chef et messieurs du <orgName ref="org003085">Petit Conseil</orgName>, ayant consulté ensemble
+       <lb/>et déliberé, ont donné par déclaration que la coutume a <lb/>constamment été dans ce
+       pais. </p>
+                  <p>
+                     <lb/>1<hi rend="sup">o</hi>. Que lorsqu’un <term ref="lem014994">sautier</term> poursuit un débiteur en vertu
+       <lb/>de deux ou plusieurs titres de différentes dattes et somme, <lb/>la <term ref="lem014995">mise en taxe</term> doit être écrite sur chacun d’eux. </p>
+                  <p>
+                     <lb/>2<hi rend="sup">o</hi>. Pour faire revivre un titre, la <term ref="lem014995">mise en
+        taxe</term> doit être <lb/>écrite au pied du dit titre et signifiée par le
+       <term ref="lem014994">sautier</term>. </p>
+                  <p>
+                     <lb/>Laquelle déclaration ainsi rendue, il a été ordonné au <lb/>secrétaire du Conseil
+       soussigné de l’expédier en cette <lb/>forme, sous le seau de la mairie et justice de cette
+       Ville, <lb/>à <origPlace ref="loc007786">Neufchatel</origPlace> le <origDate when="1770-03-26">vingt six mars
+        mille sept cent soixante <lb/>et dix</origDate>. </p>
+               </div>
+               <div>
+                  <signed>
+                     <persName ref="per008702">
+                        <choice>
+                           <abbr>J F</abbr>
+                           <expan>Jean Frédéric</expan>
+                        </choice> Bosset</persName>
+                     <figure type="notarial sign"/><note>La fin de la page est laissée blanche, ce qui est inhabituel.</note>
+                  </signed>
+               </div>
+            </body>
+         </text>
+      </group>
+   </text>
+</TEI>

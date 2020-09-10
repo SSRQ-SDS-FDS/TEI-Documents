@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-07-04"/>
+            <date type="print"/>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_017</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>AT-OeStA/HHStA UR AUR 1395 VI 29</idno>
+               </msIdentifier>
+               <head>Bündnis gegen die Grafen von Werdenberg-Heiligenberg</head>
+               <msContents>
+                  <summary>
+                     <p>Bündnis des Churer Bischofs Hartmann II. von Werdenberg-Sargans, Abt
+                        Burkhard von Pfäfers, Graf Heinrich V. von Werdenberg-Sargans-Vaduz sowie
+                        den Grafen Johann I. von Werdenberg-Sargans und Rudolf VI., Johann II., Hugo
+                        II. und Heinrich II. von Werdenberg-Sargans mit Herzog Leopold IV. von
+                        Habsburg-Österreich gegen Graf Albrecht IV. von Werdenberg-Heiligenberg und
+                        die Grafen Rudolf II. und Hugo V. von
+                        Werdenberg-Heiligenberg(-Rheineck).</p>Es siegeln Bischof Hartmann II. von
+                     Werdenberg-Sargans, Abt Burkhard von Pfäfers und Graf Johann I. von Werdenberg
+                     Sargans.</summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <filiation type="current">Original</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Pergament</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="27.5"/>
+                              <width unit="cm" quantity="49.5"/>
+                           </dimensions>
+                           <dimensions type="plica">
+                              <width unit="cm" quantity="3.5"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <sealDesc>
+                     <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI"
+                           n="1"
+                           nontei:condition="well-preserved"
+                           nontei:material="wax with margin"
+                           nontei:shape="round"
+                           nontei:attachment="sealed on a parchment tag">
+                        <persName role="sigillant" ref="per000377b">Bischof Hartmann II. von Chur</persName>
+                     </seal>
+                     <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI"
+                           n="2"
+                           nontei:condition="damaged"
+                           nontei:material="wax with margin"
+                           nontei:shape="round"
+                           nontei:attachment="sealed on a parchment tag">
+                        <persName role="sigillant" ref="per000381a">Abt Burkhard von Pfäfers</persName>
+                     </seal>
+                     <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI"
+                           n="3"
+                           nontei:condition="fragmentary"
+                           nontei:material="wax with margin"
+                           nontei:shape="round"
+                           nontei:attachment="sealed on a parchment tag">
+                        <persName role="sigillant" ref="per000118a">Johann I. von Werdenberg-Sargans</persName>
+                     </seal>
+                  </sealDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1395-06-29">Sand Peters und sand Pauls tag der haylgen zwölffbotten</origDate>
+                     <origPlace>Feldkirch</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head>Editionen</head>
+                     <bibl><ref target="http://permalink.snl.ch/bib/chbsg000091563">LUB</ref> I/3.5, Nr. 315</bibl>
+                  </listBibl>
+                  <listBibl>
+                     <head>Regesten</head>
+                     <bibl><ref target="http://permalink.snl.ch/bib/chbsg000056393">ChSG</ref>, Bd. 11, Nr. 6715</bibl>
+                     <bibl><ref target="http://permalink.snl.ch/bib/chbsg000135620">Thommen, Urkunden</ref>, Bd. 2, Nr. 359</bibl>
+                  </listBibl>
+                  <listBibl>
+                     <head>URL</head>
+                     <bibl type="url"><ref target="http://monasterium.net/mom/CSGXI/6715./charter">http://monasterium.net/mom/CSGXI/6715./charter</ref></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text type="summary">
+            <body>
+               <div org="uniform" sample="complete">
+                  <p><term ref="key000173">Bündnis</term> des Churer Bischofs <persName
+                        ref="per000377b">Hartmann II.</persName>, Abt <persName ref="per000381a"
+                        >Burkhard von Pfäfers</persName>, Graf <persName ref="per006582a">Heinrich V.
+                        von Werdenberg-Sargans-Vaduz</persName> sowie den Grafen <persName
+                        ref="per000118a">Johann I.</persName> und <persName ref="per000119a">Rudolf
+                        VI.</persName>, <persName ref="per000120a">Johann II.</persName>, <persName
+                        ref="per000122a">Hugo II.</persName> und <persName ref="per000123a">Heinrich
+                        II. von Werdenberg-Sargans</persName> mit <persName ref="per000387">Herzog
+                        Leopold IV. von Habsburg-Österreich</persName> gegen Graf <persName
+                        ref="per000382a">Albrecht IV. von Werdenberg-Heiligenberg</persName> und die
+                     Grafen <persName ref="per000429a">Rudolf II.</persName> und <persName
+                        ref="per000386a">Hugo V. von Werdenberg-Heiligenberg</persName>.</p>
+               <p>Folgendes wird unter den Bündnispartnern vereinbart:</p>
+               <p>1. Alle zukünftigen territorialen Gewinne vom <term ref="key000175"
+                           >Nussbaum</term> bei <placeName ref="loc000428.01">Räfis</placeName>
+                        diesseits und jenseits des <placeName ref="loc000644">Rheins</placeName>
+                        hinab bis an den <placeName ref="loc000096">Bodensee</placeName> und von da
+                        zurück in das <placeName ref="loc000782">Toggenburg</placeName> bis ins
+                           <placeName ref="loc000777">Thurgau</placeName> sollen <orgName
+                           ref="org000088">Habsburg-Österreich</orgName> gehören. Alles <orig>ob dem
+                           obgenanten <term ref="lem001023">nusspaum</term> ze <placeName
+                              ref="loc000428.09">Refes</placeName> enhalb und dishalb des <placeName
+                              ref="loc000644">Ryns</placeName> untz uff <placeName
+                              ref="loc000043.04">Muͤntinen</placeName><note anchored="true">Gebiet
+                              ob dem Flimserwald, heutige Surselva, siehe das Register von
+                                    <bibl><ref
+                                    target="https://www.ssrq-sds-fds.ch/online/GR_B_III_1/index.html#p_2065"
+                                    >SSRQ GR B III/1, S. 2065.</ref></bibl></note>, dieselben <term
+                              ref="lem000376.15">geslozz</term>, <term ref="lem000184">stett</term>,
+                              <term ref="lem000183">vesten</term>, <term ref="lem000075">lut</term>
+                           und <term ref="key000147">guͤter</term> suͤllent uns, <persName
+                              ref="per006582a">dem obgenanten von Chur</persName>, und unsern
+                              mitgetayln</orig> gehören.</p>
+                  <p>2. Alle Besitzungen und besonders die Burg <placeName ref="loc000829"
+                           >Wartau</placeName>, welche die <orgName ref="org000008"
+                           >Sarganser</orgName> und ihre Verbündeten jetzt inne haben, sollen dem
+                        Haus <orgName ref="org000088">Habsburg-Österreich</orgName>
+                     offenstehen.</p>
+                     <p>3. Sollte der Hof <placeName ref="loc006049">Sevelen</placeName> erobert
+                        werden, soll er dem Bischof von Chur gehören.</p>
+                        <p>4. Sollten <placeName ref="loc000015">Burg</placeName> und Stadt
+                        <placeName ref="loc000016">Werdenberg</placeName> in die Hände der
+                     Verbündeten fallen, soll ein Schiedsgericht über die Ansprüche der Gräfin
+                        <persName ref="per006583a">Katharina von Werdenberg-Heiligenberg</persName>,
+                     Ehefrau von <persName ref="per006582a">Heinrich V. von
+                        Werdenberg-Sargans(-Vaduz)</persName>, die diese aufgrund ihrer <term
+                        ref="key000920">Erbschaft</term> väterlich- und mütterlicherseits sowie
+                     wegen ihres verstorbenen Bruders, Graf <persName ref="per000418a">Hugo
+                        IV.</persName> erhebt, entscheiden.</p>
+                           <p>5. <persName ref="per004528">Ulrich Eberhard II. von
+                              Sax-Hohensax</persName> soll bei seinen Rechten bleiben.</p></div>
+               <div org="uniform" sample="complete">
+                  <ab type="dorsal" place="verso" hand="hand15c">
+                     <lb/>Der haimleich puntbrief 
+       <lb/>von dem von Chuer</ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab type="dorsal" place="verso" hand="later hand">
+                     <lb/>Werdenberg</ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab type="dorsal" place="verso" hand="hand15c">
+                     <lb/>Underm Huntz<lb break="no"/>koph</ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab type="archiving reference" place="verso">
+                     <lb/>135; 1395</ab>
+               </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div org="uniform" sample="complete"/>
+         <div n="1" org="uniform" sample="complete">
+            <p><date when="1393">1393</date> verbünden sich die Grafen von <orgName ref="org000008"
+                  >Werdenberg-Sargans</orgName> gegen die Grafen von <orgName ref="org000019"
+                  >Werdenberg-Heiligenberg</orgName>, um ihre territorialen Ansprüche im Raum
+                  <placeName ref="loc000828">Wartau</placeName> und <placeName ref="loc000708"
+                  >Sevelen</placeName> durchzusetzen (Druck: <bibl><ref target="https://www.ssrq-sds-fds.ch/online/SG_III_2/index.html#p_45">SSRQ SG
+                     III/2.1, Nr. 25</ref></bibl>). <date when="1395">1395</date> tritt Herzog
+                  <persName ref="per000387">Leopold IV. von Habsburg-Österreich</persName> dem
+               antiwerdenbergischen <term ref="key000173">Bündnis</term> bei und stellt <date
+                  dur="P1D">einen Tag</date> nach dem hier aufgeführten Bündnis ein <term
+                  ref="key003914">Revers</term> aus (<bibl><ref>BAC Urk. 013.0647</ref></bibl>). Zur
+                  <term ref="key000174">Fehde</term> gegen die Grafen von <orgName ref="org000019"
+                  >Werdenberg-Heiligenberg</orgName> und das Antiwerdenbergische Bündnis siehe auch
+                     <bibl><ref target="http://permalink.snl.ch/bib/chbsg000038423">Graber
+                     2003</ref>, S. 51</bibl>; <bibl><ref target="http://permalink.snl.ch/bib/chbsg000048502">Rigendinger 2007</ref>,
+                  S. 261–265</bibl>; <bibl><ref target="https://www.ssrq-sds-fds.ch/online/SG_III_2/index.html#p_LXXIII">SSRQ SG III/2.1, S. LXXIII</ref></bibl>;
+               <ref>SSRQ_SG_III_4_027</ref>.</p>
+            <p>Mit dem <term ref="key001117">Schiedsspruch</term> von <date when="1399">1399</date>
+                  (<ref>SSRQ_SG_III_4_023</ref>) müssen die Grafen von Werdenberg-Sargans ihre
+               wichtigste Eroberung während der Werdenberger <term ref="key000174">Fehde</term>, die
+               Burg <placeName ref="loc000829">Wartau</placeName>, an die Grafen von
+               Werdenberg-Heiligenberg zurückgeben. Der Hof <placeName ref="loc006049"
+                  >Sevelen</placeName> wird letzteren bereits in dem Schiedsspruch von <date
+                  when="1397">1397</date> zugesprochen (<ref>SSRQ_SG_III_4_020</ref>;
+                  <ref>SSRQ_SG_III_4_021</ref>). Allerdings müssen die Grafen von
+               Werdenberg-Heiligenberg für den Hof dem Churer Bischof 900 Pfund bezahlen
+                  (<ref>SSRQ_SG_III_4_020</ref>). Die Grafen von Werdenberg-Heiligenberg
+               verlieren zudem ihre Besitzungen im <placeName ref="loc000648">Rheintal</placeName>,
+               die in die Hände von Habsburg-Österreich fallen. Diese werden deshalb als die
+               eigentlichen Gewinner der Fehde bezeichnet (<bibl><ref
+                     target="http://permalink.snl.ch/bib/chbsg000048502">Rigendinger 2007</ref>,
+                  S. 263–265, 269</bibl>). Aufgrund finanzieller Schwierigkeiten muss <persName
+                  ref="per000429a">Rudolf II. von Werdenberg-Heiligenberg</persName> wenige Jahre
+               später die Grafschaft <placeName ref="loc000440">Werdenberg</placeName> an die
+                  <orgName ref="org000202">Montfort-Tettnang</orgName>
+               <term ref="key000441">verpfänden</term> (vgl. dazu
+               <ref>SSRQ_SG_III_4_028</ref>). Auch die Sarganser ziehen keinen Gewinn aus der
+               Fehde. Ebenfalls aufgrund finanzieller Schwierigkeiten verpfänden sie bereits <date
+                  when="1396">1396</date> ihre Grafschaft Sargans an Habsburg-Österreich (<bibl><ref
+                     target="https://www.ssrq-sds-fds.ch/online/SG_III_2/index.html#p_56">SSRQ SG
+                     III/2.1, Nr. 30</ref>; <ref target="https://www.ssrq-sds-fds.ch/online/SG_III_2/index.html#p_LII">S. LII</ref></bibl>; <bibl><ref target="http://permalink.snl.ch/bib/chbsg000048502">Rigendinger
+                     2007</ref>, S. 263–264</bibl>).</p>
+         </div>
+         <div n="2" org="uniform" sample="complete">
+            <p>Der <term ref="key000305">Grenzverlauf</term> zwischen den beiden Herrschaften
+                  <placeName ref="loc000925">Sargans</placeName> und <placeName ref="loc000440"
+                  >Werdenberg</placeName> wird hier erstmals beschrieben. Die Grenze bleibt jedoch
+               umstritten und wird erst <date when="1488">1488</date> endgültig festgelegt (Druck:
+                     <bibl><ref target="https://www.ssrq-sds-fds.ch/online/SG_III_2/index.html#p_334">SSRQ SG
+                     III/2.1, Nr. 101</ref></bibl>; Regest: <ref>SSRQ_SG_III_4_084</ref>). Die
+               Grenzstreitigkeiten sind in den Rechtsquellen Sarganserland ausführlich dokumentiert
+                  (<bibl>SSRQ SG III/2.1, <ref target="https://www.ssrq-sds-fds.ch/online/SG_III_2/index.html#p_106">Nr. 46</ref>; <ref target="https://www.ssrq-sds-fds.ch/online/SG_III_2/index.html#p_213">Nr. 66</ref>; <ref target="https://www.ssrq-sds-fds.ch/online/SG_III_2/index.html#p_334">Nr. 101</ref></bibl>; Literatur: <bibl><ref
+                     target="http://permalink.snl.ch/bib/chbsg000124577">Gabathuler 2011</ref>,
+                  S. 246–251</bibl>; <bibl><ref target="http://permalink.snl.ch/bib/chbsg000038423">Graber 2003</ref>, S. 73–76</bibl>).</p>
+         </div>
+      </back>
+   </text>
+</TEI>

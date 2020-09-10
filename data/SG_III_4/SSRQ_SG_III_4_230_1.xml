@@ -1,0 +1,2423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-08-15"/>
+            <date type="print"/>
+            <availability><p xml:id="facs">Staatsarchiv St. Gallen (StASG)</p></availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_230_1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>StASG AA 3 B 02, S. 13–16, 21–81, 370–371, 568–569</idno>
+               </msIdentifier>
+               <head>Eid, Wahl, Pflichten und Einkommen der Amtleute der Landvogtei Werdenberg – aus
+                  dem erneuerten Urbar der Landvogtei Werdenberg und Herrschaft Wartau</head>
+               <msContents>
+                  <summary>
+                     <p>S. 13–16: Landvogt</p>
+                     <p>S. 21: Wahl und Pflicht von Gesandten</p>
+                     <p>S. 23–50: Ammann</p>
+                     <p>S. 53–56: Landschreiber</p>
+                     <p>S. 58–60: Richter</p>
+                     <p>S. 62–65: Landweibel</p>
+                     <p>S. 66–69: Läufer</p>
+                     <p>S. 70–72: Stadtknecht</p>
+                     <p>S. 73–74: Mass- und Weingartvogt</p>
+                     <p>S. 75: Wahl des Landeshauptmanns</p>
+                     <p>S. 76: Wahl des Landesfähnrichs</p>
+                     <p>S. 77–79: Wahl der Offiziere, Hauptleute, Leutnante und Fähnriche</p>
+                     <p>S. 80–81: Eide der Bürger, Landleute, Beisassen und Einwohner der Landvogtei
+                        Werdenberg</p>
+                     <p>S. 370–371: Fortsetzung der Pflichten des Weingarten- und Massvogtes von S.
+                        74</p>
+                     <p>S. 568–569: Eide von Landeshauptmann und Landesfähnrich</p>
+                  </summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <filiation type="current">Original, Buch (940 Seiten) mit kartoniertem Einband mit
+                        Stoffüberzug</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="40.0"/>
+                              <width unit="cm" quantity="25.5"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1754-04-28"/>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000555">Wahl</term>
+               <term ref="key000065">Amtleute</term>
+               <term ref="key000122">Urbar</term>
+               <term ref="key000179">Eid</term>
+               <term ref="key003718">Landammann</term>
+               <term ref="key000310">Landschreiber</term>
+               <term ref="key000320">Landeshauptmann</term>
+               <term ref="key000696">Landesfähnrich</term>
+               <term ref="key000180">Landvogt</term>
+               <term ref="key004374">Hauptmann</term>
+               <term ref="key004383">Offizier</term>
+               <term ref="key003016">Militär</term>
+               <term ref="key000200">Pflicht</term>
+               <term ref="key000212">Lohn</term>
+               <term ref="key000452">Appellationsgericht</term>
+               <term ref="key000287">Appellation</term>
+               <term ref="key000205">Einkommen</term>
+               <term ref="key000209">Gesandte</term>
+               <term ref="key000274">Ehrschatz</term>
+               <term ref="key000103">Richter</term>
+               <term ref="key000151">Niedergericht</term>
+               <term ref="key004317">Landschreiberei</term>
+               <term ref="key000324">Landweibel</term>
+               <term ref="key004838">Läufer</term>
+               <term ref="key000147">Gut</term>
+               <term ref="key000243">Dienst</term>
+               <term ref="key004857">Stadtknecht</term>
+               <term ref="key005238">Weingartenvogt</term>
+               <term ref="key000003">Weinberg</term>
+               <term ref="key000594">Untertan</term>
+               <term ref="key000838">Mannschaft</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <div org="uniform" sample="complete">
+                  <seg>
+                     <gap source="SSRQ_SG_III_4_229"/><note anchored="true">S. 1–12 enthalten
+                        Einträge zu den Hoheitsrechten (<ref>SSRQ_SG_III_4_229</ref>).</note>
+                  </seg>
+                  <pb n="13" facs="StASG_AA_3_B_002_12_13"/>
+                  <head n="1" type="title">
+                     <lb/><term ref="lem000266">Landtvogts</term> jeweiligen <term ref="lem002086"
+                        >wahl</term> und <term ref="lem018594">pflicht</term>
+                     <term ref="key000180"/>
+                     <term ref="key000555"/>
+                     <term ref="key000200"/>
+                  </head>
+                  <p>
+                     <lb/>Landvogt ein jeweiliger wirt erwehlet krafft <lb/>vertrag de <origDate
+                        when="1638">1638</origDate> an einer evangelischen <lb/>landtsgmeind.<note
+                        anchored="true">Vgl. <ref>SSRQ_SG_III_4_171</ref>.</note>
+                  </p>
+                  <p>
+                     <lb/>Mueß im letsten gemeinen rath vor seinem <lb/><term ref="lem004051"
+                        >aufrit</term> zuhanden seiner gnädigen herren landt<lb break="no"/>ammen
+                     und rath deß gemeinen stands, folgen<lb break="no"/>den <term ref="lem000070"
+                        >eid</term> schweren:</p>
+                  <lb/>
+                  <head n="2" type="subtitle">
+                     <lb/>Der <term ref="lem000266">landtvögten</term> zu <placeName ref="loc000440"
+                        >Werdenberg</placeName>
+                     <term ref="lem000070">eid</term>, <lb/>auch waß ihnen anbefohlen wirt<term
+                        ref="key000179"/>
+                  </head>
+                  <p>
+                     <seg n="2.1">
+                        <lb/>Anno <origDate when="1595">1595</origDate> ist ermehret, welchen unser
+                        landtleüth <lb/>zu einem vogt gen <placeName ref="loc000440"
+                           >Werdenberg</placeName> geben, der soll <lb/>schweren <choice>
+                           <abbr>m</abbr>
+                           <expan>meinen</expan>
+                        </choice> herren landtamen und rähten und <lb/>ganzer gemeind nutzen zu
+                        fürderen und hingegen <lb/>den schaden zu wenden und zu warnen und in der
+                        <lb/>graffschafft <placeName ref="loc007867">Werdenberg und herrschafft
+                           Wartau</placeName> ihre <lb/>gült, zinß, zehenden, bueßen, fähl und
+                        anders in die <lb/>jeztgenante vogtey gehörige zum treülichsten einzu<lb
+                           break="no"/>ziehen und zu verrechnen. <app>
+                           <lem>Auch die <term ref="lem000036">bueßen</term> in keine <lb/><term
+                                 ref="lem009621">verehrungen</term> weder gegen ihme, seiner <term
+                                 ref="lem002312">frauen</term> noch <lb/>den seinigen überal nit
+                              entziehen oder verwandlen, <lb/>sonderen <choice>
+                                 <abbr>mg</abbr>
+                                 <expan>meinen gnädigen</expan>
+                              </choice> herren und oberen nach anleitung der <lb/>neü gemachten
+                                 <term ref="lem002582">reformation</term><note anchored="true"
+                                 ><ref>Vgl. SSRQ_SG_III_4_231</ref>.</note> redliche und guete <term
+                                 ref="lem007398">rechnung</term>
+                              <lb/>zu erstatten, ihme treülich angelegen seyn lassen,</lem>
+                           <rdg wit="SSRQ_SG_III_4_128"/>
+                        </app>
+                        <lb/>auch derselben graffschafft <placeName ref="loc007867">Werdenberg und
+                           herrschafft <lb/>Wartau</placeName> kein zinß, zehenden, eigenleüt,
+                        güeter noch <lb/>anders nit verkauffen, vertauschen noch veränderen
+                        <lb/>ohne unsers amans und des raths gunst und wüßen, <lb/>auch ein gemeiner
+                        gleicher <term ref="lem000342">richter</term> zu seyn, dem reichen <lb/>als
+                        dem armen und dem armen als dem reichen, <lb/>auch meiner herren gricht und
+                        recht, nutzung und <lb/>oberkeit nit lassen zu verscheinen und in solchem
+                        allem <lb/>sein bestes zu thun nach seinem vermögen ohne alle böse
+                        <lb/>gefährde.</seg>
+                  </p>
+                  <lb/>
+                  <head type="subtitle">Landtvögts jeweiligen eid, pflicht <lb/>und
+                        schuldigkeit<note anchored="true">Die Artikel 2.2 bis 2.5 fehlen im früheren
+                        Eid (<ref>SSRQ_SG_III_4_128</ref>). Der Titel, der im
+                        Original an jedem Seitenanfang wiederholt wird und hier innerhalb des Textes
+                        steht, wird der Lesbarkeit halber als Titel nach oben gesetzt.</note>
+                     <term ref="key000180"/>
+                     <term ref="key000003"/>
+                     <term ref="key000200"/>
+                     <term ref="key000260"/>
+                  </head>
+                  <p>
+                     <seg n="2.2">
+                        <lb/>Und solle <date dur="R/P1Y">alle jahr</date> daßjenig, waß ein vogt <pb
+                           n="14" facs="StASG_AA_3_B_002_14_15"/>
+                        <lb/>schuldig bleibt, auf den tag der <term ref="lem007398">rechnung</term>
+                        erlegt werden. <lb/>Mein gnädig herren landtammen und gantz gesä<lb
+                           break="no"/>ßener rath haben sich auf die klag, so ihnen für<lb
+                           break="no"/>kohmen, daß etliche landvögt <term ref="lem000142">haü</term>
+                        ab den güetern <lb/>verkaufft und auch etliche angebaut und <term
+                           ref="lem000049">koren</term>
+                        <lb/>gesäet, dardurch dann der <term ref="lem002330">bau</term> den <term
+                           ref="lem000164">weingärten</term>
+                        <lb/>entzogen und solche zu <term ref="lem005099">abgang</term> kohmen,
+                        erkent, <lb/>daß fürohin ein landtvogt in vorermeldtem eid <lb/>auch
+                        schweren solle, daß er kein häü ab den güete<lb break="no"/>ren verkauffen
+                        noch abfüehren solle.</seg>
+                  </p>
+                  <p>
+                     <seg n="2.3">
+                        <lb/>Deßgleichen, daß er auch nichts anbauen noch an<lb break="no"/>säyen,
+                        sonder den bau, so vom häü kombt, in die <lb/><term ref="lem000164"
+                           >weingärten</term> thun und verwenden solle und wolle, <lb/>wie von
+                        alters her.</seg>
+                  </p>
+                  <p>
+                     <seg n="2.4">
+                        <lb/>Item, daß auch kein landtvogt fürohin <term ref="lem000055"
+                           >schaf</term> weder <lb/><date period="fall">herbst</date> noch <date
+                           period="spring">
+                           <term ref="lem016671.03">lanzig</term>
+                        </date> zeit in die <term ref="lem000164">weingärten</term> zu <lb/>weiden
+                        schicken sollen. Im original folio 25, <lb/>anno <origDate when="1725"
+                           >1725</origDate> errichtete von hochgeachten landt<lb break="no"/>ammen
+                           <persName ref="per010915">Reding</persName> und mir selbsten als landt<lb
+                           break="no"/>statthalteren auß commission unserer gnädigen <lb/>herren
+                        nacher <placeName ref="loc000440">Werdenberg</placeName> außgelieferte,
+                        allda <lb/>an einer follckohmen besambleten <term ref="lem009590"
+                           >landtsgmeind</term>
+                        <lb/>vorgeöffnet und abgeleßne mit behörigen <choice>
+                           <sic>nemons<lb break="no"/>trationen</sic>
+                           <corr><term ref="lem016933.01">demonstrationen</term></corr>
+                        </choice> begleitete <term ref="lem016932.01">remedur</term>,<note
+                           anchored="true">Vgl. <ref>SSRQ_SG_III_4_216</ref>.</note> darauf
+                        auch die <lb/>graffschaffts einwohner und angehörige geschworen, <lb/>soll
+                        er in guet und reiffe observanz nehmen, <lb/>als die zu dem ende auf dem
+                           <term ref="lem000376">schloß</term> gelaßen <lb/>worden.</seg>
+                  </p>
+                  <p>
+                     <seg n="2.5">Diesere <term ref="lem016932.01">remedur</term> ist hinderhalb <choice>
+                           <abbr>pag</abbr>
+                           <expan>pagina</expan>
+                        </choice> 301 biß 318 <lb/>auch selbsten dieserem urbario eingetragen.<note
+                           anchored="true">Vgl. <ref>SSRQ_SG_III_4_216</ref>.</note>
+                        <lb/>Daß libel, so hinderhalb <choice>
+                           <abbr>pag</abbr>
+                           <expan>pagina</expan>
+                        </choice> 295 biß 299 beygesetzt.<note anchored="true">Vgl.
+                              <ref>SSRQ_SG_III_4_117</ref>.</note>
+                        <lb/>Daß <term ref="lem007043">landtsbuech</term>, so auch mit seinen
+                        zusätzen <lb/>hinderhalb <choice>
+                           <abbr>pag</abbr>
+                           <expan>pagina</expan>
+                        </choice> 270 biß 291 copialiter eingeschriben.<note anchored="true">Vgl.
+                              <ref>SSRQ_SG_III_4_174</ref>.</note>
+                     </seg>
+                  </p>
+                  <pb n="15" facs="StASG_AA_3_B_002_14_15"/>
+                  <head n="3" type="subtitle">
+                     <lb/><term ref="lem000266">Landtvogt</term>, waß für gwalt und <term
+                        ref="lem016196">consilarii</term> er hat, <lb/>auch wie daß <term
+                        ref="lem016170.01">beneficium appellationis</term> beschaffen<term
+                        ref="key000287"/>
+                     <term ref="key000452"/>
+                     <term ref="key000270"/>
+                     <term ref="key000531"/>
+                     <term ref="key000151"/>
+                  </head>
+                  <p>
+                     <seg n="3.1">
+                        <lb/>Landtvogt ein jeweiliger macht auß und ist wäh<lb break="no"/>rend
+                        seiner regierung der graffschafft <placeName ref="loc007867">Werdenberg
+                           <lb/>und herrschaft Wartau</placeName> herr, der die geringe <lb/><term
+                           ref="lem002925">fähler</term> abstraffen kan, auch selbsten <term
+                           ref="lem016202.02">incarcerieren</term>
+                        <lb/>und <term ref="lem001568">türnen</term>. Darvon er aber in schwähreren
+                        fählen <lb/>jederzeit seine gnädige herren, landtammen <lb/>und rath deß
+                        gemeinen stands, zu berichten, auch <lb/>nach ihrem guetachten, willen und
+                        befelch sich zu <lb/>richten verbunden.</seg>
+                  </p>
+                  <p>
+                     <seg n="3.2">
+                        <lb/>Deme dannoch als <term ref="lem016196">consilarii</term> sonderlich in
+                           <term ref="lem009770">bueßen<lb break="no"/>grichten</term> zu geben der
+                        graffschafft <term ref="lem015445">amman</term>, <lb/><term ref="lem002854"
+                           >landtschreiber</term> und auch wechselweise ein <term ref="lem000342"
+                           >richter</term>, <lb/>an deren meinungen er dannoch keineswegß
+                        <lb/>gebunden, so selbe ihme nit gefellig.</seg>
+                  </p>
+                  <p>
+                     <seg n="3.3">
+                        <lb/>Den <term ref="lem010924">nideren grichten</term> wohnt er bey mit
+                           gebüh<lb break="no"/>render beziehung des <term ref="lem013620"
+                           >vorsitzes</term>, so lang als pro <lb/>et contra gemacht, <term
+                           ref="lem000582">kundschafften</term> verhört und der <lb/>follckohmne
+                        rechtsatz gesetzt ist, darauf tritet <lb/>er ab.</seg>
+                  </p>
+                  <p>
+                     <seg n="3.4">
+                        <lb/>Die <term ref="lem000639.17">appellaz</term>, so der eint oder anderen
+                        parthey die <lb/>urthel nit gefällig, geth an ihne, deren auch als
+                        <lb/>consiliarii und actuarius beywohnend deß <term ref="lem000449">lands<lb
+                              break="no"/>amann</term> und <term ref="lem002854"
+                           >landtschreiber</term>. Und ist der appellaz<lb break="no"/>kosten
+                           <measure type="currency" unit="k" quantity="3">3 cronen</measure>, darvon
+                           <abbr>hr</abbr> landtvogt <measure type="currency" unit="k" quantity="1"
+                           >1</measure>.</seg>
+                  </p>
+                  <p>
+                     <seg n="3.5">
+                        <lb/>Die <term ref="lem000639.17">appellaz</term> geth von ihme auch widerum
+                        an <lb/>loblich gemeinen magistrat, <orgName ref="org003239">landamen und
+                           <lb/>rath zu Glaruß</orgName>, so es eint old anderer theil
+                        <lb/>dienstlich und nöhtig findt.</seg>
+                  </p>
+                  <p>
+                     <seg n="3.6">
+                        <lb/>Darum aber bey <abbr>hr</abbr> landtvogt 1 schreiben an <lb/>hochermelt <choice>
+                           <abbr>löbl</abbr>
+                           <expan>löblichen</expan>
+                        </choice> magistrat zu fixierung deß <term ref="lem016180.01">verhör<lb
+                              break="no"/>tags</term> außzubiten, durch <term ref="lem002854"
+                           >landtschreiber</term> schreiben zu <lb/>laßen und <term ref="lem002319"
+                           >laüffer</term>
+                        <term ref="lem016160.02">expresse</term> zu überschicken. <lb/>Kost der
+                           <term ref="lem003535">sigeltax</term>: <measure type="currency" unit="Taler"
+                           quantity="1">1 thaller</measure> à <measureGrp><measure type="currency"
+                              unit="fl" quantity="1"> 1</measure>
+                           <measure type="currency" unit="xr" quantity="48">x
+                           48</measure></measureGrp>. <lb/><term ref="lem003534">Schreibtax</term>
+                        auch so vil. <lb/>Laüffers <term ref="lem000612">belohnung</term> für den
+                        gang: <measure type="currency" unit="Taler" quantity="2">2 thaller</measure>
+                        thuet <measureGrp><measure type="currency" unit="fl" quantity="3">
+                              3</measure>
+                           <measure type="currency" unit="xr" quantity="36">
+                              <add place="above">x</add> 36</measure></measureGrp>.<term
+                           ref="key004838"/>
+                     </seg>
+                  </p>
+                  <pb n="16" facs="StASG_AA_3_B_002_16_17"/>
+                  <head n="4" type="subtitle">
+                     <lb/>Landtvogts <term ref="lem002802">einckohmen</term>
+                     <term ref="key000205"/>
+                     <term ref="key000180"/>
+                  </head>
+                  <p>
+                     <seg n="4.1">
+                        <lb/><term ref="lem000266">Landtvogt</term> ein jeweiliger residiert und
+                        bewohnt <lb/>seine <date dur="P3Y">3 regierungßjahre</date> daß schloß
+                           <placeName ref="loc000015">Werdenberg</placeName>, da <lb/>der alt
+                        abgehende, ob er gleich seine geschäffte zu <lb/>beenden noch etwaß zeits zu
+                        verbleiben nötig hat, bey <lb/>der anckonfft jederzeit <date when="--05-16"
+                           >zu mit dem alten meyen</date>, <lb/>da die regierungsabänderung
+                        eintrifft, dem neü<lb break="no"/>anckohmend die besten <term
+                           ref="lem003691">zimmer</term> und tags darauf <lb/>nach beschechner <term
+                           ref="lem001906">huldigung</term> auch die <term ref="lem002961"
+                           >regierung</term> ein<lb break="no"/>raumen und überlaßen mueß.</seg>
+                  </p>
+                  <p>
+                     <seg n="4.2">
+                        <lb/>Er bewirbt auch und hat während seiner <date dur="P3Y">3
+                           jährigen</date>
+                        <lb/>regierung zu genießen und nutzen wie vorste<lb break="no"/>hende <term
+                           ref="lem000076">güeter</term>, <term ref="lem000164.11">wingert</term>,
+                           <term ref="lem000101">wiesen</term> und <term ref="lem005038"
+                           >alpli</term> mit <lb/>der in dem 2.<hi rend="sup">ten</hi>
+                        <term ref="lem016932.01">remedurs</term> punckten <term ref="lem004253"
+                           >stipulierten</term>
+                        <term ref="lem000688">tratte</term>,<note anchored="true">Vgl.
+                              <ref>SSRQ_SG_III_4_216</ref>, Art. 2.</note>
+                        <lb/>so all andere hernach folgend in dieseren <term ref="lem000372"
+                           >urben</term>
+                        <lb/>deütlich außgeworffen und biß dahin genoßene hoch<lb break="no"
+                        />loblichem stand <orgName ref="org001197">Glaruß</orgName> zustehende recht
+                        und <lb/>gerechtigkeiten mit vorbehalt deßen, so allda sigen
+                           <lb/><abbr>hr</abbr> geistlichen und <term ref="lem005080"
+                           >pfarrherren</term>, wie seiner <term ref="lem004967">behörden</term>
+                        <lb/>außgesetzt, auch <term ref="lem016934.02">äbtsleüt</term>, <term
+                           ref="lem005030.04">ambsdiener</term> und anderen <lb/>nach langwieriger
+                        üebung gegeben und gelaßen wirt. Doch <lb/>so, daß er <date dur="R/P1Y"
+                           >alljährlichen</date> auf ansetzend termin in <placeName ref="loc000084"
+                           >Glarus</placeName>
+                        <lb/>seinen gnädig herren und oberen, <orgName ref="org003239">landtammen
+                           und <lb/>rath gemeinen stands Glaruß</orgName>, durch den eben
+                        <lb/>deßtwegen an ihne abordnenden <term ref="lem014391.04"
+                           >läüffersboten</term> die <lb/><term ref="lem007398">rechnung</term>
+                        eingerichtet besag vorstehender eidtsform, <lb/>der <choice>
+                           <abbr>a</abbr>
+                           <expan>anno</expan>
+                        </choice>
+                        <origDate when="1692">1692</origDate> errichtet, doch anjetzo in etwaß
+                           abgeän<lb break="no"/>dert und in folgender pagina folgenden <placeName
+                           ref="loc000440">Werden<lb break="no"/>berger</placeName>
+                        <term ref="lem002582">reformation</term>, ja auch nach dem hinden an pagina
+                        <lb/>900 stehenden formulare einsenden zur übersehung, auch <lb/>darauf mit
+                        zuzug deß jeweiligen amans in persona <lb/>auf dem <term ref="lem000925"
+                           >rathhauß</term> ablegen. Geschicht gemeincklich in den <lb/>
+                        <date dur="P14D" from="--06-01" to="--06-15">1.<hi rend="sup">ten</hi> 14
+                           tagen deß junii</date>.</seg>
+                  </p>
+                  <p>
+                     <seg n="4.3">
+                        <lb/>Auß vermeldten rechnungßformulare ist auch in zim<lb break="no"/>licher
+                        deütlichkeit zu ersehen, waß <abbr>hr</abbr> landtvogt gebührt.</seg>
+                     <pb n="17" facs="StASG_AA_3_B_002_16_17"/>
+                     <seg><gap source="SSRQ_SG_III_4_231"/><note anchored="true">S. 17– 19
+                           enthält eine Abschrift der Werdenberger Reformation von
+                        1754.</note></seg>
+                  </p>
+                  <pb n="21" facs="StASG_AA_3_B_002_20_21"/>
+                  <head n="5" type="title">
+                     <lb/><term ref="lem001504">Abgesandte</term> jeweilige, von weme sie <term
+                        ref="lem000406">erwehlt</term>
+                     <lb/>werden, waß ihr pflicht, gewalt und genuß <term ref="key000209"/>
+                     <term ref="key000274"/>
+                     <term ref="key000555"/>
+                  </head>
+                  <p>
+                     <seg n="5.1">
+                        <lb/>Landtvogt ein jeweiliger wird aufgefüehrt und an <lb/>offner <term
+                           ref="lem009590">landtsgmeind</term> im <placeName ref="loc007758.01"
+                           >Graben</placeName> als gewohntem orthe <lb/>representiert von zweyen
+                           <term ref="lem002718">gesandten</term>, einem <term ref="lem008441"
+                              >evangeli<lb break="no"/>schen</term>, dene er selbsten wehlen und
+                        nach seinem belieben <lb/>nehmen kan. Und dann einem <term ref="lem003056"
+                           >catholischen</term>, der an <term ref="lem003056">catholi<lb break="no"
+                           />scher</term> landtsgmeind erwehlt wirt.</seg>
+                  </p>
+                  <p>
+                     <seg n="5.2">
+                        <lb/>Füehren mit alt und neüen <abbr>hr</abbr> landtvögten während
+                        <lb/>ihrem aufenthalt und so lang sie geschäffte haben <lb/>gleichsamm die
+                        regierung und behandlen gemeinsamm <lb/>alle vorkohmende geschäffte in
+                        ordentlichen <lb/><term ref="lem016185.02">syndicats sessionen</term>.</seg>
+                  </p>
+                  <p>
+                     <seg n="5.3">
+                        <lb/>Alles währender zeit an <term ref="lem000337">fählen</term> und anderem
+                        fallende <lb/>gebührt ihnen allen vieren gemeinschafftlich und zu
+                        <lb/>gleichen theilen.</seg>
+                  </p>
+                  <p>
+                     <seg n="5.4">
+                        <lb/><term ref="lem016162.02">Ehrschatzgsandten</term> werden je zu <date
+                           dur="P10Y">10 jahren</date> von <lb/>jeder <term ref="lem008440"
+                           >religion</term> an den particular landtsgmeinden <lb/>
+                        <unclear>1<hi rend="sup">e</hi>
+                        </unclear> erwehlt und mit einander hinauß geschickt um überge<lb break="no"
+                        />bung einer exacten instruction, die <term ref="lem016164.02">ehrschatz
+                           güeter</term> zu <lb/>besorgen, undersuechen und wieder vergeben.<note
+                           anchored="true">Vgl. dazu <ref>SSRQ_SG_III_4_171</ref>,
+                           Art. 4.</note>
+                     </seg>
+                  </p>
+                  <p>
+                     <seg n="5.5">
+                        <lb/>Anno <origDate when="1748">1748</origDate> während ihrem aufenthalt
+                           prætendier<lb break="no"/>ten sie mit obigen gleiche recht, sonderlich
+                        auch den von <lb/><term ref="lem000342">richter</term>
+                        <persName ref="per010261">Engeler</persName> gefallenen fahl, behaubteten
+                        solchen auch <lb/>würcklichen vor rath, weilen ein großer <term
+                           ref="lem015271">außstand</term> ware.</seg>
+                  </p>
+                  <p>
+                     <lb/>Bey widermaligen anzug aber, <origDate when="1749-06-27">freitags, den
+                           27<hi rend="sup">ten</hi>
+                        <lb/><choice>
+                           <abbr>a<hi rend="sup">o</hi>
+                           </abbr>
+                           <expan>anno</expan>
+                        </choice> 1749</origDate><note anchored="true">Monatsangabe fehlt. Im Jahr
+                        1749 war nur im Juni der 27. ein Freitag.</note> ist in einem rath bim eid
+                     erckent, daß diß <lb/>exempel zu keiner consequenz dienen, auch hinkönfftig
+                     <lb/>die <term ref="lem016162.03">ehrschatz g’sandten</term> anders nichts
+                     behandlen sollen <lb/>nach bis dahin beständiger üebung als die ehrschatz<lb
+                        break="no"/>geschäffte. Folgsamm auch keine anderen als rechtmänßig
+                     <lb/>daher gebührenden genuß haben.</p>
+                  <pb n="22" facs="StASG_AA_3_B_002_22_23"/>
+                  <pb n="23" facs="StASG_AA_3_B_002_22_23"/>
+                  <head n="6" type="title">
+                     <lb/><term ref="lem015445">Amans</term> jeweiligen <term ref="lem002086"
+                        >wahl</term> und <term ref="lem018594">pflicht</term>
+                     <term ref="key003718"/>
+                     <term ref="key000555"/>
+                     <term ref="key000200"/>
+                  </head>
+                  <p>
+                     <lb/>Amann ein jeweiliger wirt auch einsendende notifi<lb break="no"/>cation
+                     deß landtvogts, daß einer ermangle und <lb/>beyfüegende <term
+                        ref="lem016167.02">recomendation</term> einer ander getreüw und
+                     <lb/>tauglichen persohn <term ref="lem002826">ernamset</term> von
+                        <abbr>hr</abbr> landtamen und <lb/>rath unsers gemeinen <orgName
+                        ref="org001197">standß Glaruß</orgName>.</p>
+                  <head n="7" type="subtitle">Deß amans zu <placeName ref="loc000440"
+                        >Werdenberg</placeName>
+                     <term ref="lem000070">eid</term>
+                     <term ref="key000179"/>
+                     <term ref="key003718"/>
+                  </head>
+                  <p>
+                     <seg n="7.1">
+                        <lb/>Ihr sollet und werdet schwehren eüweren gnädigen und <lb/>hochgeachten
+                        herren und oberen, <orgName ref="org003239">landtammen und rath, <lb/>auch
+                           gantzer gemeine <choice>
+                              <abbr>löbl</abbr>
+                              <expan>löblichen</expan>
+                           </choice> stands Glaruß</orgName>, dermahlen <lb/>und jeweiligen in ihrem
+                        nahmen regierenden <abbr>hr</abbr> landt<lb break="no"/>vogt in der
+                        graffschafft <placeName ref="loc007867">Werdenberg und herrschafft
+                           <lb/>Wartau</placeName> gewährtig und gehorsamm zu seyn, hoch deroselben
+                        <lb/>nutzen, ehr und frommen zu förderen, hingegen ihren <lb/>schaden und
+                        nachtheil zu wahrnen und zu wenden. Alle <lb/>ihre in <placeName
+                           ref="loc007867">Werdenberg und Wartau</placeName> habende hoche recht und
+                        <lb/>gerechtigkeiten nach eüwerem verstand und besten <lb/>vermögen zu
+                        schützen und zu schirmen, auch darvon <lb/>in kein weiß noch weg nichts
+                        schwechen, viel weniger <lb/>entwenden zu laßen, keine bueßfehlige sachen
+                        und <lb/>geschäffte zu verschweigen, bemäntelen old gar <term
+                           ref="lem000983">vertädi<lb break="no"/>gen</term>, sondern behöriger
+                        maußen einem jeweiligen <abbr>hr</abbr>
+                        <lb/>landtvogt zu <term ref="lem000829">leiden</term> und anzuzeigen, keine
+                           verschreibun<lb break="no"/>gen, pfandtbahre kauffzedel oder einicher
+                        gatung <lb/>versatz oder pfandtbahre briefe niemahlen für <term
+                           ref="lem000867">frömbde</term>, <lb/>woher selbe immer, sonder einig und
+                        allein für die <lb/>von unserem gefreyten stand <orgName ref="org001197"
+                           >Glaruß</orgName> selbsten oder <lb/>gesagt unserer graffschafft
+                           <placeName ref="loc007867">Werdenberg und herrschaft
+                           <lb/>Wartau</placeName> würcklichen dependierende. So in gleichem
+                        <lb/>nichts wider die <term ref="lem016932.01">remedur</term><note
+                           anchored="true">Vgl. <ref>SSRQ_SG_III_4_216</ref>.</note> und
+                        darüber nachbesetzt <lb/>gemachten erlaüterung zu siglen, vil weniger
+                        besiglet <lb/>außzuhändigen. Über all besiglen des aber ein follckohmen
+                        <lb/>richtigeß <term ref="lem004621">protocoll</term> zu füehren.</seg>
+                  </p>
+                  <p>
+                     <seg n="7.2">
+                        <lb/>Die <term ref="lem000337">fähle</term> nach billich und redlichkeit
+                        helffen zu <term ref="lem000839">schätzen</term>, <lb/>darzu auch nach
+                        verstahnd und billichkeit ein gleich <lb/>und unpartheyischer <term
+                           ref="lem000342">richter</term> zu seyn, dem armen <lb/>wie dem reichen
+                        und dem reichen wie dem armen, <lb/>dem frömbden wie dem heimbschen und dem
+                        heimschen wie dem <pb n="24" facs="StASG_AA_3_B_002_24_25"/>
+                        <lb/>frömden und dardurch niemand im geringsten <lb/>weder gunst noch
+                        ungunst zu bezeigen um keinerlei <lb/>sachen wegen, sonderen sich gantz
+                        imparcial und unan<lb break="no"/>stößig zu halten. Gleicher weise auch zu
+                           <term ref="lem000635">verschweigen</term>
+                        <lb/>in und bey oberckeitlichen geschäfften, waß erforder<lb break="no"
+                        />lich und nothwendig old absonderlich von höcher oder <lb/>höchsten
+                        obrigkeit und oberen gebot und verboten <lb/>wirt, treülich und
+                        ungefahrlich.</seg>
+                  </p>
+                  <lb/>
+                  <head n="8" type="subtitle">Erkandtnuß</head>
+                  <seg><gap reason="irrelevant"/><note anchored="true">Es folgt eine nicht datierte
+                        Erkenntnis von Glarus über die Ausfertigung von <term ref="key000242"
+                           >letztwilligen Verfügungen</term> und <term ref="key000635"
+                           >Testamenten</term>. Diese sollen vor <term ref="key000057"
+                           >Gericht</term> errichtet, vom <term ref="key000310">Landschreiber</term>
+                        geschrieben und vom <term ref="key003718">Landammann</term> wie die
+                        Gültbriefe besiegelt werden.</note>
+                  </seg>
+                  <pb n="25" facs="StASG_AA_3_B_002_24_25"/>
+                  <lb/>
+                  <head n="9" type="subtitle"><term ref="lem015445">Aman</term> jeweilige <term
+                        ref="lem009860.03">præses</term> im <term ref="lem010924">nideren
+                        gricht</term>
+                     <lb/>und landvogts <term ref="lem016196.02">consiliarius</term>
+                     <term ref="key003211"/>
+                     <term ref="key000151"/>
+                     <term ref="key000151"/>
+                     <term ref="key003718"/>
+                  </head>
+                  <p>
+                     <seg n="9.1">
+                        <lb/>Der jeweilige aman ist im nideren gricht præses <lb/>oder <term
+                           ref="lem000423">obman</term> und <term ref="lem016158.02"
+                           >stabfüehrer</term>, hat hiermit auch <lb/>auf den <abbr>hr</abbr>
+                        landtvogt und die herren geistlichen <lb/>in der graffschafft von
+                        daselbstigen einwohneren <lb/>den ersten <term ref="lem003458"
+                        >rang</term>.</seg>
+                  </p>
+                  <p>
+                     <seg n="9.2">
+                        <lb/>Darvon hat er gleich einem <term ref="lem000342">richter</term>
+                        <term ref="lem000612">belohnung</term>.<term ref="key000212"/>
+                        <term ref="key000103"/>
+                     </seg>
+                  </p>
+                  <p>
+                     <seg n="9.3">
+                        <lb/>Wohnt <choice>
+                           <sic>alt</sic>
+                           <corr>als</corr>
+                        </choice>
+                        <term ref="lem016196.02">consiliarius</term> sine voto den <term
+                           ref="lem001047.05">appellaz<lb break="no"/>grichten</term> bey und hat
+                        zur belohnung,</seg>
+                  </p>
+                  <p>
+                     <lb/>auf gleiche weiß wohnt er den <term ref="lem000920">bueßen tägen</term>
+                     <lb/>bey und hat jedes tagß zur <term ref="lem000612">belohnung</term>
+                     <measure type="currency" quantity="30" unit="xr">x 30</measure>
+                     <lb/>laut vorstehend 17 und 18 pagina geseyter <term ref="lem002582">refor<lb
+                           break="no"/>mation</term>.</p>
+                  <p>
+                     <seg n="9.4">
+                        <lb/>Ist auch der erste <term ref="lem015693">fahlschätzer</term> und laut
+                        ersagter <lb/>reformation hat er von jeder <term ref="lem014658"
+                           >schatzung</term> zu <term ref="lem000282">lohn</term>
+                        <measure type="currency" quantity="24" unit="xr">x 24</measure>.<term
+                           ref="key000212"/>
+                     </seg>
+                  </p>
+                  <p>
+                     <seg n="9.5">
+                        <lb/><term ref="lem016181.02">Siglet</term> die <term ref="lem001659"
+                           >verschreibungen</term> und hat von <lb/>jedem <measure type="currency"
+                           quantity="100" unit="fl">100 </measure>
+                        <measure type="currency" quantity="24" unit="xr">x 24</measure>.</seg>
+                  </p>
+                  <p>
+                     <seg n="9.6">
+                        <lb/>Für die obrigkeitliche <term ref="lem000387">farb</term> old 3 <term
+                           ref="lem000381">jahrlöhn</term>
+                        <measure type="currency" quantity="24" unit="xr">x 24</measure>.</seg>
+                  </p>
+                  <p>
+                     <seg n="9.7">
+                        <lb/>Die <date dur="R/P1Y">alljährliche</date> grichtsducaten
+                        <measureGrp><measure type="currency" quantity="3" unit="fl">
+                              3</measure>
+                           <measure type="currency" quantity="36" unit="xr">x
+                           36</measure></measureGrp>.</seg>
+                  </p>
+                  <p>
+                     <seg n="9.8">
+                        <lb/>Für die 6 ordonierte <term ref="lem005841">gricht</term> deß tagß
+                           <measure type="currency" quantity="5" unit="bz">5 <choice>
+                              <abbr>g</abbr>
+                              <expan>gute</expan>
+                           </choice> btz</measure>
+                        <lb/>hiermit <date dur="R/P1Y">alljährlichen</date>
+                        <measure type="currency" quantity="2" unit="fl"> 2</measure>.</seg>
+                  </p>
+                  <p>
+                     <seg n="9.9">
+                        <lb/>Von beeidigung einer pehrsohn, so ein <term ref="lem002393"
+                           >unehlich</term>
+                        <lb/><term ref="lem000130">kind</term> gebihrt, <measure type="currency"
+                           quantity="36" unit="xr">x 36</measure>.</seg>
+                  </p>
+                  <p>
+                     <seg n="9.10">
+                        <lb/>Bey anderen obrigkeitlichen handlungen und <lb/>vorfallenheiten, da er
+                        berueffen wirt und beywoh<lb break="no"/>nen mueß, ohngefehr nach obiger
+                        mensur die gebühr.</seg>
+                  </p>
+                  <pb n="26" facs="StASG_AA_3_B_002_26_27"/>
+                  <head n="10" type="subtitle"><term ref="lem015445">Aman</term> ein jeweiliger
+                     zeücht von folgenden <lb/>posten den <term ref="lem000237">zinß</term>
+                     <date dur="R/P1Y">jährlichen</date> ein<term ref="key003718"/>
+                     <term ref="key000154"/>
+                     <term ref="key000332"/>
+                  </head>
+                  <seg><note anchored="true">S. 26–50 folgt ein Verzeichnis der Zinszahler, der
+                        Güter mit den Anstössern und der Zinsen (<placeName ref="loc000708"
+                           >Sevelen</placeName>, <placeName ref="loc000428">Räfis</placeName>,
+                           <placeName ref="loc000755.01">Studen</placeName>, <placeName
+                           ref="loc006060">Altendorf</placeName>, <placeName ref="loc006026.07"
+                           >Ampilos bzw. Pilols</placeName>, <placeName ref="loc000335"
+                           >Grabs</placeName>, <placeName ref="loc006025">Grabser Berg</placeName>,
+                           <placeName ref="loc000015">Schloss</placeName> und <placeName
+                           ref="loc000016">Stadt Werdenberg</placeName>). S. 38–39 ist ein
+                        Erblehensbrief über die <placeName ref="loc008901.02">Zechentwis</placeName>
+                        aus dem Jahr <date when="1668">1668</date> abgebildet.</note>
+                  </seg>
+                  <pb n="53" facs="StASG_AA_3_B_002_52_53"/>
+                  <head n="11" type="title"><term ref="lem002854">Landtschreibers</term> deß
+                     jeweiligen <term ref="lem002086">wahl</term> und <term ref="lem018594"
+                        >pflicht</term>
+                     <term ref="key000310"/>
+                     <term ref="key000555"/>
+                     <term ref="key000200"/>
+                  </head>
+                  <p>
+                     <lb/>Landtschreiber ein jeweiliger wirt auf einsendende <lb/>notification deß
+                     landtvogts, daß einer ermangle, <lb/>erwehlt von <choice>
+                        <abbr>mghr</abbr>
+                        <expan>meinen gnädigen herren</expan>
+                     </choice> landtamen und rath deß ge<lb break="no"/>meinen standß <orgName
+                        ref="org001197">Glaruß</orgName> und das ein <term ref="lem008441"
+                        >evangelischer</term>
+                     <lb/>landtman von <placeName ref="loc000326">Glaruß</placeName>, denen mann 8
+                     nach gewohn<lb break="no"/>ter repartition der 3 theillen, 2 namlichen im
+                     <lb/>hindersten, 4 im mitlesten und 2 im understen, <lb/>ins <term
+                        ref="lem002565">looß</term> thuet.</p>
+                  <head n="12" type="subtitle">
+                     <lb/>Deß <term ref="lem002854">landtschreibers</term> zu <placeName
+                        ref="loc000440">Werdenberg</placeName>
+                     <term ref="lem000070">eid</term>
+                     <term ref="key000179"/>
+                  </head>
+                  <p>
+                     <lb/>Ihr sollet und werdet schwehren eüweren hochgeachten <lb/>und gnädigen
+                     herren und oberen, <orgName ref="org003239">landtammen und <lb/>rath, auch
+                        gantzer gemeine <choice>
+                           <abbr>löbl</abbr>
+                           <expan>löblichen</expan>
+                        </choice> stands <orgName ref="org001197">Glaruß</orgName></orgName>,
+                     <lb/>dermahlen und jeweiligen in ihrem nahmen regie<lb break="no"/>renden
+                     landtvogt in der graffschafft <placeName ref="loc007867">Werdenberg und
+                        <lb/>herrschafft Wartau</placeName> gewährtig und gehorsam zu seyn,
+                     <lb/>hochderoselben nutzen, ehr und frommen zu förderen, <lb/>hingegen ihren
+                     schaden und nachtheil zu wahrnen und <lb/>zu wenden. Alle ihre in <placeName
+                        ref="loc007867">Werdenberg und Wartau</placeName>
+                     <lb/>habende recht und gerechtigkeiten bestmöglichist und <lb/>nach eüwerem
+                     verstand zu schützen und zu schirmen, <lb/>auch darvon in kein weiß noch weg
+                     nichts entwenden <lb/>noch schwechen zu laßen, keine bueßfellige sachen zu
+                     <lb/>verschweigen, bemäntelen old gar <term ref="lem000983">vertädigen</term>,
+                     sondern <lb/>behöriger maußen einem jeweiligen landtvogt anzuzeigen, <lb/>keine
+                     verschreibungen, pfandtbahren kauffzedel oder <lb/>einicher gatung versatz oder
+                     pfandtbahre brieffe <lb/>niemahlen für <term ref="lem000867">frömbde</term>,
+                     woher selbe immer, als einig <lb/>und allein für die von unserem gefreiten
+                     stand <lb/>selbsten oder gesagt unserer graffschafft <placeName ref="loc007867"
+                           >Werden<lb break="no"/>berg und herrschafft Wartau</placeName>
+                     würcklichen dependie<lb break="no"/>rende zu schreiben und außzufertigen. Auch
+                        hier<lb break="no"/>über ein richtig und erforderliches <term
+                        ref="lem004621">protocol</term> zu füehren. <lb/>Darzu auch nach
+                     erforderlich oberkeitlichem getreü <lb/>und geflißen außfertigenden nach
+                     verstand und <lb/>billichkeit ein gleich und unpartheiischen <pb n="54"
+                        facs="StASG_AA_3_B_002_54_55"/>
+                     <lb/>schreiber zu seyn und dardurch niemand im gering<lb break="no"/>sten weder
+                     gunst noch ungunst zu bezeigen um kei<lb break="no"/>nerlein sachen wegen,
+                     sonderen mit behörig derselben <lb/>außfertigung sich gantz impartial und
+                     unanstößig <lb/>aufzufüehren, treülich und ungefahrlich.</p>
+                  <head n="13" type="subtitle">
+                     <lb/>Gegenwehrtig deßen <term ref="lem014292">wohnsitz</term> laut
+                     <lb/>nachbesetzten erckandtnuß</head>
+                  <seg>
+                     <gap reason="irrelevant"/><note anchored="true">S. 54–55: Nach dem Tod von
+                           <persName ref="per010263a">Katharina Schwendener</persName> wird am
+                           <origDate when="1740-09-09">9. September 1740</origDate> das Haus ihres
+                        verstorbenen Ehemannes, Richter <persName ref="per010262a">Michael
+                           Vorburger</persName>, samt Garten, Stall, Hofstatt und Platz <orig>nache
+                           außert <placeName ref="loc006035">Buchß</placeName> gelegen</orig> auf
+                        Bitten des Landschreibers <persName ref="per008878a">Joachim
+                           Legler</persName> von <placeName ref="loc000326">Glarus</placeName> zur
+                           <term ref="key004317">Landschreiberei</term> erklärt. Der Landschreiber
+                        darf inskünftig darin wohnen, muss das Haus jedoch auf eigene Kosten
+                        unterhalten. Die Grundstücksgrenzen werden beschrieben. Laut der Remedur
+                           (<ref>SSRQ_SG_III_4_216</ref>) wird Michael Vorburger für ehrlos
+                        erklärt und in die Landvogtei Werdenberger verbannt bzw. unter Arrest
+                        gesetzt.</note></seg>
+                  <pb n="55" facs="StASG_AA_3_B_002_54_55"/>
+                  <lb/>
+                  <head resp="sm" n="14" type="subtitle">Das <term ref="key000205">Einkommen</term>
+                     des <term ref="key000310">Landschreibers</term>
+                  </head>
+                  <p>
+                     <seg n="14.1">Ist in allen oberkeitlichen handlungen und vorfallenheiten
+                        <lb/>auch rechtlichen zutragenheiten und processen, actuarius und schreiber,
+                        <lb/>deßgleichen bey <term ref="lem000920">bueßentagen</term> sine voto
+                           <term ref="lem016196.02">consiliarius</term>, hat,</seg>
+                  </p>
+                  <p>
+                     <seg n="14.2">
+                        <lb/>laut 18 pagina vorhalb 7<hi rend="sup">do</hi> puncktens der <term
+                           ref="lem002582">reformation</term>, an <lb/>einem solchen <term
+                           ref="lem000612">belohnung</term>
+                        <measure type="currency" quantity="30" unit="xr"> x 30</measure>.</seg>
+                  </p>
+                  <p>
+                     <seg n="14.3">
+                        <lb/>Er wohnt auch den <term ref="lem016171.02">appellazsprüchen</term> bey
+                        und <lb/>hat belohnung.</seg>
+                  </p>
+                  <p>
+                     <seg n="14.4">
+                        <lb/>Von außfertigenden <term ref="lem001659">verschreibungen</term> hat er
+                        <lb/>von jedem <measure type="currency" quantity="100" unit="fl">100
+                           </measure>
+                        <measure type="currency" quantity="48" unit="xr">x 48</measure>.</seg>
+                  </p>
+                  <p>
+                     <seg n="14.5">
+                        <lb/>Sein <term ref="lem000381">jahrlohn</term> von <abbr>hr</abbr>
+                        landtvogt ist <measure type="currency" quantity="25" unit="fl">
+                           25</measure>.</seg>
+                  </p>
+                  <p>
+                     <seg n="14.6">
+                        <lb/>Für die oberkeitliche farb hat er je zu <date dur="R/P3Y">3
+                           jahren</date>
+                        <lb/>um, namlichen bey jedes <abbr>hr</abbr> landtvogts <term
+                           ref="lem004051">aufrit</term>
+                        <measure type="currency" quantity="8" unit="fl"> 8</measure>.</seg>
+                  </p>
+                  <p>
+                     <seg n="14.7">
+                        <lb/>Die <date dur="R/P1Y">alljährliche</date> grichts ducaten
+                        <measureGrp><measure type="currency" quantity="3" unit="fl">
+                              3</measure>
+                           <measure type="currency" quantity="36" unit="xr">x
+                           36</measure></measureGrp>.</seg>
+                  </p>
+                  <p>
+                     <seg n="14.8">
+                        <lb/>Für die 6 <term ref="lem004540">ordonierte</term>
+                        <term ref="lem005841">gricht</term> deß tagß <measure type="currency"
+                           quantity="5" unit="bz">5 <abbr>g</abbr> bazen</measure>
+                        <lb/>hiermit <date dur="R/P1Y">alljährlichen</date>
+                        <measure type="currency" quantity="2" unit="fl"> 2</measure>.</seg>
+                  </p>
+                  <p>
+                     <seg n="14.9">
+                        <lb/>
+                        <term ref="lem016187.02">Brotwegerlohn</term>
+                        <date dur="R/P1Y">jedes jahr</date>
+                        <measure type="currency" quantity="1" unit="k">1 cr</measure>
+                        <measureGrp><measure type="currency" quantity="1" unit="fl"> 1</measure>
+                           <measure type="currency" quantity="36" unit="xr">x
+                           36</measure></measureGrp>.</seg>
+                  </p>
+                  <p>
+                     <seg n="14.10">
+                        <lb/>Von der beeidigung der persohn, so ein <term ref="lem002393"
+                           >unehlich</term>
+                        <lb/><term ref="lem000130">kind</term> gebihrt, <measure type="currency"
+                           quantity="36" unit="xr">x 36</measure>.</seg>
+                  </p>
+                  <p>
+                     <seg n="14.11">
+                        <lb/>Bey anderen oberkeitlichen handlungen und allen <lb/>vorfallenheiten,
+                        denen er beywohnt, ungefehr nach <lb/>obiger mensur die gebühr.</seg>
+                  </p>
+                  <pb n="56" facs="StASG_AA_3_B_002_56_57"/>
+                  <head n="15" type="subtitle">
+                     <lb/>Deß jeweiligen <term ref="lem002854">landtschreibers</term>
+                     <term ref="lem002802">einkohmen</term>
+                     <term ref="key000205"/>
+                     <term ref="key000310"/>
+                  </head>
+                  <p>
+                     <seg n="15.1">
+                        <lb/>Von 1 <term ref="lem001765">schreiben</term> auf <placeName
+                           ref="loc000326">Glaruß</placeName>, dardurch ein <term ref="lem016169"
+                              >appellaz<lb break="no"/>tag</term> außgebeten wirt, von dem ders
+                        begehrt <measure type="currency" quantity="1" unit="Taler">1 th</measure>
+                        <measureGrp><measure type="currency" quantity="1" unit="fl"> 1</measure>
+                           <measure type="currency" quantity="48" unit="xr">48 <hi rend="sup"
+                              >x</hi></measure></measureGrp>.</seg>
+                  </p>
+                  <p>
+                     <seg n="15.2">
+                        <lb/>Wie hinderhalb <choice>
+                           <abbr>pag</abbr>
+                           <expan>pagina</expan>
+                        </choice> 152 zu sehen, hat er ohne <term ref="lem000601">ehrschätz</term>
+                        <lb/>in dem <placeName ref="loc006054.05">Oßwaldßhof</placeName> in der
+                           <placeName ref="loc008289.02">Großen Graf</placeName>
+                        <measure type="area" unit="Mitmal" quantity="3">mitmel 3</measure>.</seg>
+                  </p>
+                  <p>
+                     <seg n="15.3">
+                        <lb/>Item, laut 158, hat er in <placeName ref="loc006053.04">Leüt<subst>
+                              <del>engens</del>
+                              <add place="above">manns</add>
+                           </subst> Hof</placeName>
+                        <lb/>ferner in der <placeName ref="loc008289">Großen Graf</placeName> ohne
+                        ehrschatz <measure type="area" unit="Mitmal" quantity="6">mitmel
+                        6</measure>.</seg>
+                  </p>
+                  <p>
+                     <seg n="15.4">
+                        <lb/>Item gegen <term ref="lem016183.02">schloßwachtmeister</term>
+                        <persName ref="per010264">Hans Rohrer</persName> grad <lb/>an der <term
+                           ref="lem012796">landschreiberei</term> ligend abgetauschtes ohne
+                        ehrschatz <measure type="area" unit="Mitmal" quantity="1">mitmel
+                        1</measure>.</seg>
+                  </p>
+                  <p>
+                     <seg n="15.5">
+                        <lb/>Item auf der <placeName ref="loc006072.09">Bauchserwisen</placeName>
+                        auch ohne ehrschatz <measure type="area" unit="Mannmad" quantity="1">
+                           <choice>
+                              <abbr>mmad</abbr>
+                              <expan>manmad</expan>
+                           </choice> 1</measure>.</seg>
+                  </p>
+                  <p>
+                     <seg n="15.6">
+                        <lb/>Item, laut 172 pagina, hat er weiter ehrschatzfrey im <lb/><placeName
+                           ref="loc008293.03">Walterts Hof</placeName> in dem <placeName
+                           ref="loc008311.02">Grabser Rieth</placeName>
+                        <measure type="area" unit="Mannmad" quantity="2">manmad 2</measure>.</seg>
+                  </p>
+                  <pb n="57" facs="StASG_AA_3_B_002_56_57"/>
+                  <pb n="58" facs="StASG_AA_3_B_002_568_59"/>
+                  <head n="16" type="title">
+                     <lb/><term ref="lem000342">Richteren</term> der jeweiligen <term
+                        ref="lem002086">wahl</term> und <term ref="lem018594">pflicht</term>
+                     <term ref="key000103"/>
+                     <term ref="key000555"/>
+                     <term ref="key000200"/>
+                  </head>
+                  <p>
+                     <lb/>Richtere jeweilige deren 7 an der zahl und zwahren <lb/>anjetzt: <term
+                        ref="lem002708">Landtsfänderich</term>
+                     <persName ref="per010265">Cristen Litscher</persName>, <lb/><persName
+                        ref="per010266">Hans Engeler</persName>, beide von <placeName
+                        ref="loc000708">Sevelen</placeName>.</p>
+                  <p>
+                     <lb/><persName ref="per010267a">Michel Hilti</persName> auf dem <term
+                        ref="lem003172">korenhaus</term> aus der <placeName ref="loc000335"
+                        >Grabser</placeName>
+                     <choice>
+                        <abbr>g</abbr>
+                        <expan>gemeinde</expan>
+                     </choice>. <lb/><persName ref="per010268a">Anderrß Schwendener</persName> von
+                        <placeName ref="loc008411.02">Under</placeName>
+                     <choice>
+                        <sic>Rötiß</sic>
+                        <corr>Röfis</corr>
+                     </choice>, <placeName ref="loc000198">Buchser</placeName>
+                     <lb/>gemeind.</p>
+                  <p>
+                     <lb/><persName ref="per010269a">Hans Vetsch</persName>, an seins vatters <choice>
+                        <abbr>selg</abbr>
+                        <expan>selgen</expan>
+                     </choice> statt <abbr>a<hi rend="sup">o</hi>
+                     </abbr>
+                     <origDate when="1733-02">1733 <lb/>im hornung</origDate> von mir, als
+                     regierenden <lb/>landtvogt, selbsten <term ref="lem003551">erkießt</term>,
+                     wohnhafft zu <placeName ref="loc000335">Grabß</placeName>.</p>
+                  <p>
+                     <lb/><persName ref="per009825a">Jooß Senn</persName>, an <term ref="lem000342"
+                        >richter</term>
+                     <persName ref="per010270">Rorers</persName>
+                     <choice>
+                        <abbr>selg</abbr>
+                        <expan>selgen</expan>
+                     </choice> statt <abbr>a<hi rend="sup">o</hi>
+                     </abbr>
+                     <origDate when="1733-06">1733 <lb/>im junio</origDate> von mir selbsten
+                     erkießt, wohnhafft <lb/>zu <placeName ref="loc000198">Buchß</placeName>.</p>
+                  <p>
+                     <lb/><persName ref="per009822a">Johannes Gantenbein</persName>, an richter
+                        <persName ref="per009823a">Lipauners</persName>
+                     <lb/>selgen statt <abbr>a<hi rend="sup">o</hi>
+                     </abbr>
+                     <origDate when="1734">1734</origDate> auch von mir bestelt, <lb/>wohnhafft zu
+                        <placeName ref="loc000335">Grabß</placeName>.</p>
+                  <p>
+                     <lb/>Hiermit 3 in der <placeName ref="loc000335">Grabser</placeName>, 2 in der
+                        <placeName ref="loc000198">Buchser</placeName> und <lb/>auch 2 in der
+                        <placeName ref="loc000708">Seveler</placeName> gemeinde nach bestähn<lb
+                        break="no"/>diger ueb- und ordnung <lb/>werden <term ref="lem003551"
+                        >erckießt</term> und in erforderendem fahl, da <lb/>abgehen durch den
+                     zeitlichen tod oder wie sonsten immer <lb/>das seyn möchte, widerum ergäntzt
+                     und gesetzt von <lb/>jederweilig regierenden <abbr>hr</abbr>
+                     <term ref="lem000266">landtvogt</term>.</p>
+                  <head n="17" type="subtitle">Der <term ref="lem000342">richteren</term>
+                     <term ref="lem000070">eid</term>
+                     <term ref="key000179"/>
+                     <term ref="key000103"/>
+                  </head>
+                  <p>
+                     <seg n="17.1">
+                        <lb/>Ihr sollet und werdet schweren eüweren hochgeacht <lb/>und gnädigen
+                        herren, <orgName ref="org003239">landtammen und rath, auch <lb/>gantzer
+                           gemeindt <choice>
+                              <abbr>löbl</abbr>
+                              <expan>löblichen</expan>
+                           </choice> stands <orgName ref="org001197">Glaruß</orgName></orgName>,
+                        dermahlen <lb/>und jeweiligen in ihrem nahmen regierenden
+                           <lb/><abbr>hr</abbr> landtvogt in der graffschafft <placeName
+                           ref="loc007867">Werdenberg und <lb/>herrschafft Wartau</placeName>
+                        gewährtig und gehorsam zu seyn, <lb/>hochderoselben nutz, ehr und frommen zu
+                        förderen, hingegen <lb/>ihren schaden und nachtheil zu wahrnen und zu
+                        wenden.</seg>
+                  </p>
+                  <p>
+                     <lb/>Alle ihre in <placeName ref="loc007867">Werdenberg und Wartau</placeName>
+                     habende <lb/>recht und gerechtigkeiten nach eüwerem verstand und <lb/>besten
+                     vermögen, so vil an eüch steht, zu schützen und <lb/>zu schirmen, auch darvon
+                     in kein weiß noch weg <lb/>nichts schwechen, vilweniger entwenden zu laßen,
+                     <lb/>keine bueßfellige sachen und geschäffte zu verschweigen, <pb n="59"
+                        facs="StASG_AA_3_B_002_58_59"/>
+                     <lb/>bemäntelen old gar <term ref="lem000983">verthädigen</term>, sonderen
+                     behöriger<lb/> maußen einem jeweiligen <abbr>hr</abbr> landtvogt zu leiden und
+                     <lb/>anzuzeigen.</p>
+                  <p>
+                     <seg n="17.2">
+                        <lb/>Darzu auch nach verstand und billichkeit ein gleicher <lb/>richter zu
+                        seyn, dem armen wie dem reichen, <lb/>dem reichen wie dem armen, dem
+                        frömbden wie <lb/>dem heimbschen, dem heimbschen wie dem frömden <lb/>und
+                        dardurch niemand im geringsten weder gunst <lb/>noch ungunst zu bezeigen um
+                        keinerlein sachen wegen, <lb/>dem rechten nach und nach einhalt deß <term
+                           ref="lem007043">landtbuechß</term>.<note anchored="true">Vgl.
+                              <ref>SSRQ_SG_III_4_174</ref>, Art. 15.</note>
+                     </seg>
+                  </p>
+                  <p>
+                     <seg n="17.3">
+                        <lb/>Die <term ref="lem000612">belohnung</term> old <term ref="lem003133"
+                           >grichtskosten</term> von jeder <term ref="lem001289">urthel</term>
+                        <lb/>ist:</seg>
+                  </p>
+                  <p>
+                     <lb/>Von der hochen landtsobrigkeit hat jeder <date dur="R/P1Y">jährlich</date>
+                     <lb/><measure type="currency" quantity="1" unit="Dukat">1 ducaten</measure>
+                     nach altem curs, genant die grichts<lb break="no"/>ducaten zu beziehen, die
+                     macht <measureGrp><measure type="currency" quantity="3" unit="fl"> 3</measure>
+                        <measure type="currency" quantity="36" unit="xr">x
+                     36</measure></measureGrp>.</p>
+                  <p>
+                     <seg n="17.4">
+                        <lb/>Für die 6 ordonierte <term ref="lem005841">gricht</term> deß tags
+                           <measure type="currency" quantity="5" unit="bz">5 <abbr>g</abbr>
+                           bz</measure>, <lb/>hiermit <date dur="R/P1Y">alljährlichen</date>
+                        <measure type="currency" quantity="2" unit="fl"> 2</measure>.</seg>
+                  </p>
+                  <p>
+                     <seg n="17.5">
+                        <lb/>Alternatim wohnt auch einer den <term ref="lem009770">bueßengrich<lb
+                              break="no"/>ten</term> als <term ref="lem016196.02"
+                           >consiliarius</term> und hiermit sine voto bey, <lb/>der hat danne auch
+                        laut <term ref="lem002582">reformation</term> deß tagß <lb/>zur belohnung
+                           <measure type="currency" quantity="30" unit="xr">x 30</measure>.</seg>
+                  </p>
+                  <p>
+                     <seg n="17.6">
+                        <lb/>Von einem <term ref="lem016172.03">augescheinsgericht</term> hat jeder
+                        im <lb/>boden, der <term ref="lem000202">ebene</term>, <term ref="lem000103"
+                           >dörfferen</term> und so weit die <term ref="lem000248">häuser</term>
+                        <measure type="currency" quantity="1" unit="fl"> 1</measure>.</seg>
+                  </p>
+                  <p>
+                     <lb/>In <term ref="lem016145">berg</term> und <term ref="lem000306"
+                        >alpen</term> aber <measure type="currency" quantity="1" unit="k">1
+                        cr</measure>
+                     <measureGrp><measure type="currency" quantity="1" unit="fl"> 1</measure>
+                        <measure type="currency" quantity="36" unit="xr">x
+                     36</measure></measureGrp>.</p>
+                  <pb n="60" facs="StASG_AA_3_B_002_60_61"/>
+                  <head n="18" type="subtitle">
+                     <lb/><term ref="lem000342">Richteren</term>
+                     <term ref="lem018594">pflicht</term> und schuldigkeit<term ref="key000103"/>
+                     <term ref="key000200"/>
+                  </head>
+                  <p>
+                     <seg n="18.1">
+                        <lb/>Sprechen und urtheilen, es treffe ehr old guet.</seg>
+                  </p>
+                  <p>
+                     <seg n="18.2">
+                        <lb/>Es sollen aber die <term ref="lem001365">rechtsprecher</term> der <term
+                           ref="lem001289">urtlen</term> (wie et<lb break="no"/>wann beschechen)
+                        kein verdanck nehmen, sonderen die ur<lb break="no"/>tel auf klag und
+                        antwort auf der steth außsprechen, es <lb/>wäre dann, daß sie harinne meiner
+                        herren raths begehren <lb/>möchten, da sie in einer sach bestrickt werend,
+                        daß sollend <lb/>und mögend sie thun <date dur="P14D">innert 14 tagen</date>
+                        und lenger die sach <lb/>nit aufziehen.</seg>
+                  </p>
+                  <p>
+                     <seg n="18.3">
+                        <lb/><choice>
+                           <abbr>Mg</abbr>
+                           <expan>Meine gnädigen</expan>
+                        </choice> herren gebend anjetz den <term ref="lem000089">ambtleüten</term>
+                        und <term ref="lem001365">recht<lb break="no"/>sprecheren</term>
+                        <lb/>jedem zum tag für <term ref="lem000938">mahl</term> und auch beloh<lb
+                           break="no"/>nung, wie schon vorgehender <choice>
+                           <abbr>pag</abbr>
+                           <expan>pagina</expan>
+                        </choice> vermelt.</seg>
+                  </p>
+                  <p>
+                     <seg n="18.4">
+                        <lb/>Item, so sollend sie mit den <term ref="lem002156">kauffgrichten</term>
+                        den alten <lb/>brauch halten und nit mehreren kosten nehmen, es <lb/>treffe
+                        an ehr oder guet. Und da der grichten zwey <lb/>oder drey auf ein tag
+                        vorfiehlen, sollend die richter <lb/>nach einhalt jüngster <term
+                           ref="lem015537">taxierung</term> im <term ref="lem002550.01"
+                           >ordnungbüechli</term><note anchored="true">Vgl.
+                              <ref>SSRQ_SG_III_4_127</ref>;
+                              <ref>SSRQ_SG_III_4_128</ref>;
+                              <ref>SSRQ_SG_III_4_129</ref>.</note>, <lb/>so
+                        bscheidenlich ist, forfahren.</seg>
+                  </p>
+                  <pb n="61" facs="StASG_AA_3_B_002_60_61"/>
+                  <pb n="62" facs="StASG_AA_3_B_002_62_63"/>
+                  <head n="19" type="title"><term ref="lem000642">Landtweibels</term> eines
+                     jeweiligen <term ref="lem002086">wahl</term> und <term ref="lem018594"
+                        >pflicht</term>
+                     <term ref="key000324"/>
+                     <term ref="key000555"/>
+                     <term ref="key000200"/>
+                  </head>
+                  <p>
+                     <lb/>Landtweibel ein jeweiliger wirt auf einsendende <lb/>notification deß
+                     landtvogts, daß einer ermangle, <lb/><term ref="lem000406">erwelt</term> von <choice>
+                        <abbr>mghr</abbr>
+                        <expan>meinen gnädigen herren</expan>
+                     </choice> landtammen und rath deß gemeinen <lb/>standß <orgName ref="org001197"
+                        >Glaruß</orgName> und das ein <term ref="lem008441">evangelischer</term>
+                        landt<lb break="no"/>mann, deren mann 8 nach gewohnter repartition der
+                     <lb/>3 theilen, 2 namlich im hindersten, 4 im mitlesten und <lb/>2 im understen
+                     ins <term ref="lem002565">looß</term> thuet.</p>
+                  <head n="20" type="subtitle">
+                     <lb/>Deß <term ref="lem000642">landtweibels</term>
+                     <term ref="lem000070">eidt</term>
+                     <term ref="key000179"/>
+                  </head>
+                  <p>
+                     <seg n="20.1">
+                        <gap source="SSRQ_SG_III_4_230, Art. 17.1"/><note anchored="true"
+                           >Identisch mit Art. 17.1 des Richtereids.</note>
+                     </seg>
+                     <seg n="20.2">
+                        <lb/>So darzu auch zu verschweigen, waß erfor<lb break="no"/>derlich und
+                        nothwendig old absonderlich von höcher <lb/>und höchster oberkeit gebot oder
+                        verboten wirt.</seg>
+                     <seg n="20.3">
+                        <lb/>Die fähl nach der gebühr und billichkeit helffen <term ref="lem000839"
+                           >schätzen</term>, <lb/>auch daß wegen <term ref="lem000073"
+                           >zehenden</term> heimgestelte und übergebene <lb/>geflißnest zu besorgen
+                        und verrichten getreülich und <lb/>ohngefehrlich.</seg>
+                  </p>
+                  <pb n="63" facs="StASG_AA_3_B_002_62_63"/>
+                  <head n="21" type="subtitle">
+                     <lb/><term ref="lem000642">Landtweibels</term>
+                     <term ref="lem018594">pflicht</term> und <term ref="lem002802"
+                        >einckohmen</term>
+                     <term ref="key000324"/>
+                     <term ref="key000205"/>
+                     <term ref="key000200"/>
+                  </head>
+                  <p>
+                     <seg n="21.1">
+                        <lb/>Leistet bey obrigkeitlicher handlungen und auch den <lb/><term
+                           ref="lem009770">bueßengrichten</term> seine pflichtmäußige <term
+                           ref="lem016174.02">abwahrt</term> und <lb/>hat <date dur="R/P1D">jedes
+                           tagß</date> zur gebührenden <term ref="lem000612">belohnung</term>
+                        <measure type="currency" quantity="10" unit="xr"> x 30</measure>.</seg>
+                  </p>
+                  <p>
+                     <seg n="21.2">
+                        <lb/>Ein gleiche <term ref="lem016174.02">abwahrt</term> hat er auch
+                        pflichtmäusig zu <lb/>leisten bey den ordinari <term ref="lem009066"
+                           >zeitgrichten</term> und so auch den <lb/>extraordinari, <term
+                           ref="lem002156">kaufft</term> old <term ref="lem016172"
+                           >augenscheinsgrichten</term>, darvon <lb/>er belohnung hat gleich einem
+                           richter.<term ref="key000617"/>
+                     </seg>
+                  </p>
+                  <p>
+                     <seg n="21.3">
+                        <lb/>Jeden der 6 ordonierten <term ref="lem008523">grichtstagen</term>
+                        <measure type="currency" quantity="5" unit="bz">5 <abbr>g</abbr>
+                           bz</measure>, trifft <date dur="R/P1Y">jähr<lb break="no"/>lichen</date>
+                        und kohmbt aus obrigkeitlicher rechnung <measure type="currency"
+                           quantity="2" unit="fl"> 2</measure>.</seg>
+                  </p>
+                  <p>
+                     <seg n="21.4">
+                        <lb/>So darzu sein portion von fallenden grichtskösteli.</seg>
+                  </p>
+                  <p>
+                     <seg n="21.5">
+                        <lb/>Item die <date dur="R/P1Y">alljährliche</date> grichtsducaten
+                        <measureGrp><measure type="currency" quantity="3" unit="fl">
+                              3</measure>
+                           <measure type="currency" quantity="36" unit="xr">x
+                           36</measure></measureGrp>.</seg>
+                  </p>
+                  <p>
+                     <seg n="21.6">
+                        <lb/>Von <term ref="lem016172.04">augenscheinsgrichten</term> gleich im
+                           <term ref="lem002530">boden</term>, <lb/>in <term ref="lem000306"
+                           >alp</term> und <term ref="lem000573">bergen</term> = einem <term
+                           ref="lem000342">richter</term>, <lb/>wie auch in <term ref="lem002156"
+                           >kauffgrichten</term>.<term ref="key000617"/>
+                     </seg>
+                  </p>
+                  <p>
+                     <seg n="21.7">
+                        <lb/>Bey beeidigung einer persohn, die ein <term ref="lem002393"
+                           >unehelich</term>
+                        <lb/><term ref="lem000130">kind</term> gebihrt, leistet er gleicher
+                        g’stalten die abwahrt, <lb/>wo es nach <abbr>hr</abbr> landtvogts befehle
+                        beschicht und jedes <lb/>mahl zur belohnung.</seg>
+                  </p>
+                  <p>
+                     <seg n="21.8">
+                        <lb/>Wo er bey <term ref="lem016190.01">gefangennehmung</term> und
+                        einsetzung <term ref="lem013159">ar<lb break="no"/>restanten</term> und
+                           <term ref="lem004394">delinquenten</term> beholffen ist und seyn
+                        <lb/>muß, hat er sein belohnung laut <placeName ref="loc000326"
+                           >Glarner</placeName>
+                        <term ref="lem002582">reformation</term>.</seg>
+                  </p>
+                  <p>
+                     <seg n="21.9">
+                        <lb/>Von <term ref="lem003960">citationen</term> und folfüehrung anderer
+                           obrig<lb break="no"/>keitlichen befehlen, hat er auch die gewohnte
+                        gebühr.</seg>
+                  </p>
+                  <p>
+                     <seg n="21.10">
+                        <lb/>Geleicher g’stalten von anbefehlend leistender <lb/><term
+                           ref="lem016174.02">abwahrt</term>
+                        <term ref="lem000728">gefangener</term>.</seg>
+                  </p>
+                  <p>
+                     <seg n="21.11">
+                        <lb/>Er ist auch einer von den 3 <term ref="lem015693">fahlschätzeren</term>
+                        und <lb/>von jeder <term ref="lem014658">schatzung</term> hat er von
+                        jeweiligen <abbr>hr</abbr> landt<lb break="no"/>vogt zur <term
+                           ref="lem000612">belohnung</term>
+                        <measure type="currency" quantity="24" unit="xr">x 24</measure>.</seg>
+                  </p>
+                  <pb n="64" facs="StASG_AA_3_B_002_64_65"/>
+                  <head n="22" type="subtitle">
+                     <lb/><term ref="lem000642">Landtweibels</term> weiteres <term ref="lem002802"
+                        >einkohmen</term>
+                     <term ref="key000324"/>
+                     <term ref="key000205"/>
+                  </head>
+                  <p>
+                     <seg n="22.1">
+                        <lb/><date dur="R/P3Y">Je zu 3 jahren um</date>, namlich in dem jahre, wan
+                        ein <lb/>neüer landtvogt aufreitet, hat er für die <term ref="lem000387"
+                           >farb</term> auf <lb/>oberkeitliche rechnung zu erheben <measure
+                           type="currency" quantity="8" unit="fl"> 8 xr</measure>.</seg>
+                  </p>
+                  <p>
+                     <seg n="22.2">
+                        <lb/><term ref="lem002206.03">Wahrtgelt</term>
+                        <date dur="R/P1Y">alljährlich</date>
+                        <measure type="currency" quantity="20" unit="fl"> 20</measure>.</seg>
+                  </p>
+                  <p>
+                     <seg n="22.3">
+                        <lb/><term ref="lem016187">Brotwägerlohn</term>
+                        <date dur="R/P1Y">alljährlich</date>
+                        <measureGrp><measure type="currency" quantity="1" unit="fl"> 1</measure>
+                           <measure type="currency" quantity="36" unit="xr">x
+                           36</measure></measureGrp>.</seg>
+                  </p>
+                  <p>
+                     <seg n="22.4">
+                        <lb/><term ref="lem016195.03">Zechetmäßerlohn</term>
+                        <date dur="R/P1Y">alljährlich</date>
+                        <measureGrp><measure type="currency" quantity="8" unit="fl"> 8</measure>
+                           <measure type="currency" quantity="24" unit="xr">x
+                           24</measure></measureGrp>.</seg>
+                  </p>
+                  <p>
+                     <seg n="22.5">
+                        <lb/>Von <term ref="lem016936.01">kilbizungen</term><note anchored="true">Es
+                           ist unklar, um was es sich bei den erwähnten Kirchweihzungen handelt,
+                           evtl. eine Delikatesse?</note>.</seg>
+                  </p>
+                  <head n="23" type="subtitle">
+                     <lb/>Nachfolgende <term ref="lem000076">güeter</term> werden dem <term
+                        ref="lem016935">weibel</term> g’laßen <lb/>und mögen mein herren solche
+                     widerum <lb/>zu handen nehmen, wann sie wollen<note anchored="true">Vgl. dazu
+                        auch <ref>SSRQ_SG_III_4_143</ref>, Art. 13.</note>
+                     <term ref="key000205"/>
+                     <term ref="key000324"/>
+                     <term ref="key000147"/>
+                  </head>
+                  <p>
+                     <seg n="23.1">
+                        <lb/>Ein <term ref="lem000076">guet</term> bey dem <placeName
+                           ref="loc007013.06">Underen Graben</placeName>, genant <lb/>daß <placeName
+                           ref="loc007014.04">Straüimad</placeName>, stoßt gegen morgen an die
+                           <lb/><term ref="lem000596">landtstraß</term>, gegen mitag an meiner
+                        herren <lb/><placeName ref="loc007014">Underen Graben</placeName>, gegen
+                        abend <space quantity="1.5" unit="line"/>.</seg>
+                  </p>
+                  <p>
+                     <seg n="23.2">
+                        <lb/>Item ein stuck <term ref="lem000548">riet</term> unden am <placeName
+                           ref="loc007014.05">Sträüimad</placeName>
+                        <lb/>gelegen, stoßt gegen morgen an die <term ref="lem000596"
+                           >landtstraße</term>, <lb/>gegen mitag an ermelt <placeName
+                           ref="loc007014.05">Sträüimad</placeName>, gegen abend <space quantity="1"
+                           unit="line"/>.</seg>
+                  </p>
+                  <pb n="65" facs="StASG_AA_3_B_002_64_65"/>
+                  <head type="subtitle">
+                     <lb/><term ref="lem000642">Landtweibel</term> angewisen und nutzende
+                     <lb/>güeter</head>
+                  <p>
+                     <seg n="23.3">
+                        <lb/>Item aber ein guet auf dem <term ref="lem000548">rieth</term>, sind
+                           <measure type="area" unit="Mannmad" quantity="4" commodity="marsh">4
+                              mans<lb break="no"/>mad</measure>, genant daß <space quantity="0.5"
+                           unit="line"/>.</seg>
+                  </p>
+                  <p>
+                     <seg n="23.4">
+                        <lb/>Item <measure type="area" unit="Mannmad" quantity="1"
+                           commodity="grassland">1 manmad wisen</measure> auf den <placeName
+                           ref="loc006072.01">Buchser <lb/>Wisen</placeName>, genant <space
+                           quantity="0.5" unit="line"/>.</seg>
+                  </p>
+                  <p>
+                     <seg n="23.5">
+                        <lb/>Item ein <term ref="lem005038">alpli</term> old <term
+                           ref="lem016188.02">bergweid</term> am <placeName ref="loc006025.05"
+                           >Grabserberg</placeName>, <lb/>der <placeName ref="loc007831.02">Klein
+                           Roßhag</placeName> genant, stoßt an meiner herren <lb/><placeName
+                           ref="loc007830.06">Schillenschwendi</placeName> oder <placeName
+                           ref="loc007830.05">Groß Roßhag</placeName>, anderseitz an <space
+                           quantity="1" unit="line"/>.</seg>
+                  </p>
+                  <p>
+                     <seg n="23.6">
+                        <lb/>Von dieseren stuck soll der weibel <date dur="R/P1Y">jährlich</date>
+                        <lb/><add place="left margin"><measure quantity="5" unit="fl"
+                              type="currency">5 </measure></add> zu handen dem <abbr>hr</abbr>
+                        landtvogt zahlen.</seg>
+                  </p>
+                  <p>
+                     <seg n="23.7">
+                        <lb/>Ferner hat er zum dienst ohne <term ref="lem000601">ehrschatz</term>
+                        auß dem 4.<hi rend="sup">ten theil</hi>
+                        <lb/><placeName ref="loc006050.05">Monthana Hof</placeName>, hinderhalb <choice>
+                           <abbr>pag</abbr>
+                           <expan>pagina</expan>
+                        </choice> 156, auf <unclear><placeName ref="loc008676.02"
+                           >Flöß</placeName></unclear>
+                        <measure type="area" unit="Mitmal" quantity="3">mitmel 3</measure>.</seg>
+                  </p>
+                  <pb n="66" facs="StASG_AA_3_B_002_66_67"/>
+                  <head n="24" type="title">
+                     <lb/><term ref="lem002319">Laüffers</term> eines jeweiligen <term
+                        ref="lem002086">wahl</term> und <term ref="lem000070">eid</term>
+                     <term ref="key004838"/>
+                     <term ref="key000179"/>
+                     <term ref="key000555"/>
+                  </head>
+                  <p>
+                     <lb/>Laüffer ein jeweiliger wirt auf einsendende <lb/>notification, daß einer
+                     ermangle, wieder gesetzt <lb/>von <choice>
+                        <abbr>mg</abbr>
+                        <expan>meine gnädigen</expan>
+                     </choice> herren landtammen und rath gemeinen standß <lb/><orgName
+                        ref="org001197">Glaruß</orgName> und zwahren ein alldasig <term
+                        ref="lem008441">evangelischer</term>
+                     <lb/>landtmann gemeincklich durch daß <term ref="lem002565">looß</term>, wie
+                        vorbe<lb break="no"/>melte landtschreiber und landtweibel.</p>
+                  <head n="25" type="subtitle">
+                     <lb/>Deß <term ref="lem002319">laüffers</term>
+                     <term ref="lem000070">eid</term>
+                     <term ref="key004838"/>
+                     <term ref="key000179"/>
+                  </head>
+                  <p>
+                     <seg n="25.1">
+                        <lb/><gap source="SSRQ_SG_III_4_230, Art. 17.1"/><note anchored="true"
+                           >Identisch mit Art. 17.1 des Richtereids.</note>
+                     </seg>
+                  </p>
+                  <p>
+                     <seg n="25.2">
+                        <lb/>So darzu auch zu verschweigen, waß erforderlich <lb/>und nothwendig old
+                        absonderlich von höcher und <lb/>höchster oberkeit gebot old verboten
+                        wirt.</seg>
+                  </p>
+                  <p>
+                     <seg n="25.3">
+                        <lb/>Und letstlich, daß wegen zechenden übergebene <lb/>geflißen zu
+                        besorgen, <add place="below"><lb/>auch jeweiligen <abbr>hr</abbr> landtvogt
+                           zustehenden <term ref="lem000349">zohl</term> geflissenst
+                           <lb/>einzuziehen und ihme von eim monath zum anderen <lb/>einzuhändigen,
+                           alles</add> getreülich und ohne alle gefährde.</seg>
+                  </p>
+                  <pb n="67" facs="StASG_AA_3_B_002_66_67"/>
+                  <head n="26" type="subtitle">
+                     <lb/><term ref="lem002319">Laüffers</term>
+                     <term ref="lem018594">pflicht</term> und <term ref="lem002802">einkohmen</term>
+                     <term ref="key000212"/>
+                     <term ref="key004838"/>
+                     <term ref="key000205"/>
+                     <term ref="key000200"/>
+                  </head>
+                  <p>
+                     <seg n="26.1">
+                        <lb/>Wan und wo es ein jeweiliger <abbr>hr</abbr> landtvogt nötig
+                        <lb/>befindt und befilcht und gebiehtet, soll er gehorsamst <lb/>laut
+                        geschwornen eid abwahrten und folge leisten, hat <lb/>davon <date
+                           dur="R/P1D">jedeß tagß</date> als den ordinari <term ref="lem000282"
+                           >lohn</term>
+                        <measure quantity="30" unit="xr" type="currency">x<hi rend="sup">r</hi>
+                           30</measure>.</seg>
+                     <seg n="26.2">
+                        <lb/>Von <term ref="lem016190.01">gefangennehmung</term> und einsetzung der
+                        <lb/>arrestanten und <term ref="lem001472.03">maleficanten</term> old <term
+                           ref="lem004394">delinquenten</term>
+                        <lb/>hat er von jedem auch ein solchen widerum aus <lb/>und ledig zu laßen
+                           <measure quantity="36" unit="xr" type="currency">x 36</measure>.</seg>
+                  </p>
+                  <p>
+                     <seg n="26.3">
+                        <lb/>So danne auß einer <term ref="lem003195">gefangenschafft</term> in die
+                        <lb/>andere zu thun, wie auch an und ab den <lb/><term ref="lem016165.01"
+                           >eisen</term>: Item von jedem <term ref="lem003708">examen</term>, darzu
+                        auch darvon <lb/>zu füehren und abzuwahrten, jedes mahl <measure
+                           quantity="6" unit="xr" type="currency">x 6</measure>.</seg>
+                  </p>
+                  <p>
+                     <seg n="26.4">
+                        <lb/>Gleicher g’stalten von <term ref="lem003960">citationen</term> und
+                        folfüehrung <lb/>anderer obrigkeitlichen befehlen hat er die <lb/>gewohnte
+                        gebühr.</seg>
+                  </p>
+                  <p>
+                     <seg n="26.5">
+                        <lb/>Er hat auch bey beeidigung einer <term ref="lem001577"
+                           >weibßpersohn</term>, <lb/>die ein <term ref="lem002393">unehelich</term>
+                        <term ref="lem000130">kind</term> gebihrt, wo und wann solches
+                        <lb/>beschicht, für sein schuldige abwahrt <measure quantity="36" unit="xr"
+                           type="currency">x 36</measure>.</seg>
+                  </p>
+                  <p>
+                     <seg n="26.6">
+                        <lb/>Er ist auch schuldig bey ordinari <term ref="lem009066"
+                           >zeitgrichten</term> und <lb/>auch den extraordinari <term
+                           ref="lem002156">kauff-</term> und <term ref="lem016172.04"
+                              >augenscheins<lb break="no"/>grichten</term> gehorsamme abwahrt zu
+                        leisten, <lb/>hat darvon <term ref="lem000612">belohnung</term> gleich einem
+                        richter, jeden <lb/>der 6 ordonierten <term ref="lem008523"
+                           >grichtßtagen</term>
+                        <measure quantity="5" unit="bz" type="currency">5 <abbr>g</abbr>
+                           bazen</measure>, trifft <date dur="R/P1Y">jährlich</date>
+                        <measure quantity="2" unit="fl" type="currency"> 2</measure>.</seg>
+                  </p>
+                  <p>
+                     <seg n="26.7">
+                        <lb/>So darzu sein portion von fallenden grichtskösten.</seg>
+                  </p>
+                  <p>
+                     <seg n="26.8">
+                        <lb/>Item <date dur="R/P1Y">alljährlich</date>
+                        <measure type="currency" quantity="0.5" unit="Dukat">½
+                           grichtßducaten</measure>, <measureGrp><measure type="currency"
+                              quantity="1" unit="fl"> 1</measure>
+                           <measure type="currency" quantity="48" unit="xr">x
+                           48</measure></measureGrp>.</seg>
+                  </p>
+                  <p>
+                     <seg n="26.9">
+                        <lb/>Von <term ref="lem016172.04">augenscheinsgrichten</term> gleich im
+                           <term ref="lem002530">boden</term>, <lb/>in <term ref="lem000306"
+                           >alp</term> und <term ref="lem000573">bergen</term> einem richter, wie
+                        auch <lb/>in <term ref="lem002156">kauffgrichten</term>.</seg>
+                  </p>
+                  <pb n="68" facs="StASG_AA_3_B_002_68_69"/>
+                  <head type="subtitle">
+                     <lb/><term ref="lem002319">Laüffers</term> mehrers <term ref="lem002802"
+                        >einkohmen</term>
+                     <term ref="key000212"/>
+                     <term ref="key004838"/>
+                     <term ref="key000205"/>
+                  </head>
+                  <p>
+                     <seg n="26.10">
+                        <lb/><date dur="R/P3Y">Je zu 3 jahren um</date>, namlich in dem jahr, wann
+                        ein <lb/>neüer landtvogt aufreitet, hat er für die <term ref="lem000387"
+                           >farb</term>
+                        <lb/>auf oberkeitliche rechnung zu erheben <measure type="currency"
+                           quantity="8" unit="fl"> 8</measure>.</seg>
+                  </p>
+                  <p>
+                     <seg n="26.11">
+                        <lb/>Wegen dem <term ref="lem016937">brunnenjahrlohn</term>, namlich darzu
+                        <lb/>zu schauen und inenzurichten, <measureGrp><measure type="currency"
+                           quantity="1" unit="fl"> 1</measure>
+                           <measure type="currency" quantity="48" unit="xr">48 x</measure></measureGrp>.</seg>
+                  </p>
+                  <p>
+                     <seg n="26.12">
+                        <lb/>
+                        <term ref="lem016195.03">Zechetmäßerlohn</term>
+                        <measureGrp><measure type="currency" quantity="7" unit="fl"> 7</measure>
+                           <measure type="currency" quantity="20" unit="xr"
+                           >x 20</measure></measureGrp>.</seg>
+                  </p>
+                  <p>
+                     <seg n="26.13">
+                        <lb/>Wegen <term ref="lem000028">holtz</term>
+                        <placeName ref="loc008417.01">Vogelweid</placeName>, so <persName
+                           ref="per009824">Hans Thoman Schwendener</persName>
+                        <lb/>selig gehabt, zechetmeßer und abtragerlohn <measure type="currency"
+                           quantity="2" unit="fl"> 2</measure>.</seg>
+                  </p>
+                  <p>
+                     <seg n="26.14">
+                        <lb/>Von einem <term ref="lem016161">expressen</term> ganz auf <placeName
+                           ref="loc000084">Glaruß</placeName> nach <lb/>alt bestähndiger uebung und
+                        gewohnhait <measure type="currency" quantity="2" unit="Taler">2
+                           thaller</measure>
+                        <measureGrp><measure type="currency" quantity="3" unit="fl"> 3</measure>
+                           <measure type="currency" quantity="36" unit="xr">x
+                           36</measure></measureGrp>.</seg>
+                     <seg>
+                        <lb/>Betrifft es oberkeitliche geschäffte, so kohmbt es auch <lb/>in
+                        oberkeitliche rechnung.</seg>
+                     <seg>
+                        <lb/>Trifft es aber an particularen um außbitung <lb/>eines <term
+                           ref="lem016169.02">appellaz-tages</term>, <term ref="lem009601"
+                           >ehegerichts</term> old was es sonsten, <lb/>geth es auf kosten deß
+                        begehrenden old eigentlich im <lb/>recht habenden theils.</seg>
+                  </p>
+                  <p>
+                     <seg n="26.15">
+                        <lb/>Von anderen verrichtungen außert der graff<lb break="no"/>schafft hat
+                        er in der <term ref="lem005260">nachpahrschafft</term> gen <placeName
+                           ref="loc006197">Vaduz</placeName>, <lb/>
+                        <placeName ref="loc000211">Gambß</placeName>
+                        <abbr>etc</abbr> für jeden gang <measure type="currency" quantity="30"
+                           unit="xr">x 30</measure>.</seg>
+                  </p>
+                  <p>
+                     <lb/>Geth es aber weiters <date dur="R/P1D">jedeß tagß</date>
+                     <measure type="currency" quantity="48" unit="xr">x 48</measure>.</p>
+                  <p>
+                     <lb/>Vom <term ref="lem000382">einzug</term> deß landtvogts old <term
+                        ref="lem000349">zöhls</term>, <term ref="lem005586">märckten</term>
+                     <measure type="currency" quantity="3" unit="fl"> 3</measure>.</p>
+                  <p>
+                     <lb/>Vom <term ref="lem016193.02">mercktabenderungßrueffe</term>
+                     <lb/>mueß wenigstens an 3 zerschidenen orten außrueffen <lb/>old wo und wie es
+                        <abbr>hr</abbr> landtvogt befihlt.</p>
+                  <pb n="69" facs="StASG_AA_3_B_002_68_69"/>
+                  <head n="27" type="subtitle">
+                     <lb/><term ref="lem002319">Laüffers</term> deß jeweiligen zum <term
+                        ref="lem000238">dienst</term>
+                     <lb/>habende <term ref="lem000076">güeter</term>
+                     <term ref="key004838"/>
+                     <term ref="key000147"/>
+                     <term ref="key000243"/>
+                  </head>
+                  <p>
+                     <seg n="27.1">
+                        <lb/>In dem <placeName ref="loc008312.02">Orthhof</placeName>, hinderhalb <choice>
+                           <abbr>pag</abbr>
+                           <expan>pagina</expan>
+                        </choice> 167, hat er wegen <lb/>besorgung deß <term ref="lem015535"
+                           >schloßbrunnens</term> ohne <term ref="lem000601">ehrschatz</term> und
+                        ohne <lb/>zinß die sogenante <placeName ref="loc008412.02">Brunnen
+                           Ägerten</placeName> ob dem <term ref="lem016197.02">haubt<lb break="no"
+                           />zechet</term>
+                        <term ref="lem001611">stall</term> ein stückli baß oben zur rechten hand in
+                        <lb/>miten der <placeName ref="loc000335">Grabseren</placeName>
+                        <term ref="lem000512.07">allmeind</term>, <placeName ref="loc008287.02"
+                           >Ägerten</placeName> genant, ist <lb/><unclear>sinß</unclear> guet ein
+                        eigner einfang in circa <measure unit="Mitmal" type="area" quantity="3"
+                           >mitmel 3</measure>.</seg>
+                  </p>
+                  <p>
+                     <seg n="27.2">
+                        <lb/>Item bim <placeName ref="loc008415.02">Lugner</placeName> 1 bongertli
+                        auch <unclear>sinß</unclear> in circa <measure unit="Mitmal" type="area"
+                           quantity="1">mitmel 1</measure>.</seg>
+                  </p>
+                  <p>
+                     <seg n="27.3">
+                        <lb/>Item ein stückli <term ref="lem000548">rieth</term> auf dem <placeName
+                           ref="loc008311.02">Grabser Rieth</placeName> bey <lb/>der <placeName
+                           ref="loc008413.02">Butzifähren</placeName>
+                        <measure unit="Mannmad" type="area" quantity="2">groß mannmad 2</measure>.
+                        <lb/>Im <origDate when="1748">1748<hi rend="sup">r</hi>
+                        </origDate>
+                        <term ref="lem016163.01">ehrschatzrodel</term> sind solche auß unachtsamkeit
+                        <lb/>old irrthum dem <placeName ref="loc007022.01">Zollershof</placeName>
+                        eingetragen. <lb/>In elteren ehrschatzrödlen alle obvermeltem <term
+                           ref="lem000169">hof</term>
+                        <lb/>und zwahren nur für <measure unit="Mitmal" type="area" quantity="4">4
+                           mitmel</measure>.</seg>
+                     <seg n="27.4">
+                        <lb/>Er hat ferner zum dienst, doch mit gebührender <lb/>abzahlung deß
+                        ehrschatz und gewohnten zinses</seg>
+                     <seg>
+                        <lb/>auß dem <placeName ref="loc008293.04">Waltertshof</placeName>,
+                        hinderhalb <choice>
+                           <abbr>pag</abbr>
+                           <expan>pagina</expan>
+                        </choice> 172, <lb/>auf dem <placeName ref="loc008311.02">Grabser
+                           Rieth</placeName>
+                        <measure unit="Mitmal" type="area" quantity="1">mitmel 1</measure>.</seg>
+                     <seg n="27.5">
+                        <lb/>Item in gleicher form und mit gleichen <lb/>rechten, laut gesagter
+                        pagina, in der <placeName ref="loc008289.02">Großen Graf</placeName>
+                        <measure unit="Mitmal" type="area" quantity="1">mitmel 1</measure>.</seg>
+                  </p>
+                  <pb n="70" facs="StASG_AA_3_B_002_70_71"/>
+                  <head n="28" type="title">
+                     <lb/><term ref="lem008776">Stattknechts</term>
+                     <term ref="lem002086">wahl</term> und <term ref="lem018594">pflicht</term>
+                     <term ref="key004857"/>
+                     <term ref="key000555"/>
+                     <term ref="key000200"/>
+                  </head>
+                  <p>
+                     <lb/>Statknecht ein jeweiliger wirt laut enthalt <term ref="lem016189.02"
+                           >burger<lb break="no"/>libels</term>, hinderhalb pagina 298, wann einer
+                     ermanglet <lb/><term ref="lem000406">erwelt</term> von den <term
+                        ref="lem000227">burgeren</term>.<note anchored="true">Vgl.
+                           <ref>SSRQ_SG_III_4_116</ref>.</note>
+                  </p>
+                  <head n="29" type="subtitle">
+                     <lb/>Deß <term ref="lem008776">stattknechts</term>
+                     <term ref="lem000070">eid</term>
+                     <term ref="key004857"/>
+                     <term ref="key000179"/>
+                  </head>
+                  <p>
+                     <seg n="29.1">
+                        <gap source="SSRQ_SG_III_4_230, Art. 17.1"/><note anchored="true"
+                           >Identisch mit Art. 17.1 des Richtereids.</note>
+                     </seg>
+                  </p>
+                  <p>
+                     <seg n="29.2">
+                        <lb/>So darzu auch zu verschweigen, waß erforderlich <lb/>und nothwendig old
+                        absonderlich von höcher und höchster <lb/>oberkeit gebot und verboten wirt.
+                     </seg>
+                  </p>
+                  <p>
+                     <seg n="29.3">
+                        <lb/>Die fähl nach gebühr und billichkeit helffen schätzen.</seg>
+                  </p>
+                  <p>
+                     <seg n="29.4">
+                        <lb/>Und letstlichen daß wegen <term ref="lem000073">zechenden</term>
+                        übergebene <lb/>geflißen zu besorgen, auch die <term ref="lem013095"
+                           >standgelter</term> fleißigst <lb/>einzuziehen und <abbr>hr</abbr>
+                        landtvogt zu bestellen, alles <lb/>getreülich und ohne alle gefährde.</seg>
+                  </p>
+                  <pb n="71" facs="StASG_AA_3_B_002_70_71"/>
+                  <head n="30" type="subtitle">
+                     <lb/><term ref="lem008776">Stattknechts</term>
+                     <term ref="lem018594">pflicht</term> und <term ref="lem002802">einkohmen</term>
+                     <term ref="key004857"/>
+                     <term ref="key000205"/>
+                     <term ref="key000200"/>
+                  </head>
+                  <p>
+                     <seg n="30.1">
+                        <lb/>Wan und wo es <choice>
+                           <sic>ein ein</sic>
+                           <corr>ein</corr>
+                        </choice> jeweiliger <abbr>hr</abbr> landtvogt <lb/>nöthig befindt und
+                        befihlt und gebietet, soll er <add place="right margin"> x</add>
+                        <lb/>gehorsambst laut geschwornen eid abwahrten und <lb/>folge leisten.
+                        <lb/>Hat darvon <date dur="R/P1D">jedeß tagß</date> als den ordinari <term
+                           ref="lem000282">lohn</term>
+                        <measure quantity="30" unit="xr" type="currency">x 30</measure>.</seg>
+                  </p>
+                  <p>
+                     <seg n="30.2">
+                        <lb/>Von anderen verrichtungen und follfüehrung <lb/>obrigkeitlichen
+                        befehlen, worin imer dieselbe bestehen, <lb/>und auch von citationen hat er
+                        jedesmahl gewohnte <lb/>gebühr, wie bey vorgenderen <term ref="lem005030.05"
+                           >ambtsdieneren</term> schon <lb/>vermelt.</seg>
+                  </p>
+                  <p>
+                     <seg n="30.3">
+                        <lb/>Er ist der 3<hi rend="sup">te</hi>
+                        <term ref="lem015693">fahlschätzer</term> und laut <term ref="lem002582"
+                           >reformation</term>
+                        <lb/>jedesmahl gleich einem andern <term ref="lem000612">belohnung</term>
+                        <measure quantity="21" unit="xr" type="currency">x 21</measure>.</seg>
+                  </p>
+                  <p>
+                     <seg n="30.4">
+                        <lb/>Ist auch schuldig bey ordinari <term ref="lem009066"
+                           >zeitgrichten</term> und <lb/>auch den extraordinari <term
+                           ref="lem002156">kauffgrichten</term> und <term ref="lem016172.02"
+                              >augen<lb break="no"/>scheinsgrichten</term> gehorsame abwahrt zu
+                        leisten, hat <lb/>darvon belohnung gleich einem richter, jeden der <lb/>6
+                        ordonierten <term ref="lem008523">gerichtstagen</term>
+                        <measure quantity="5" unit="bz" type="currency">5 g bz</measure>, trifft
+                           <date dur="R/P1Y">jährlich</date>
+                        <measure quantity="2" unit="fl" type="currency"> 2</measure>.</seg>
+                     <seg n="30.5">
+                        <lb/>So darzu sein betreffende portion von fallenden
+                        <lb/>grichtskösteli.</seg>
+                  </p>
+                  <p>
+                     <seg n="30.6">
+                        <lb/>
+                        <date dur="R/P1Y">Alljährlich</date>
+                        <measure type="currency" quantity="0.5" unit="Dukat">½
+                           grichtsducaten</measure>, weillen er und <lb/>
+                        <term ref="lem002319">laüffer</term> 1<hi rend="sup">e</hi> nur miteinander
+                        haben, <measureGrp><measure type="currency" quantity="1" unit="fl">
+                              1</measure>
+                           <measure type="currency" quantity="48" unit="xr">x
+                           48</measure></measureGrp>.</seg>
+                  </p>
+                  <p>
+                     <seg n="30.7">
+                        <lb/>Von <term ref="lem016172">augenscheins grichten</term> im <term
+                           ref="lem016369">boden</term>, <lb/>in <term ref="lem000306">alp</term>
+                        und <term ref="lem000573">bergen</term>
+                        <lb/>wie auch in <term ref="lem002156">kauffgrichten</term>
+                        <lb/>gleich einem <term ref="lem000342">richter</term>. </seg>
+                     <seg n="30.8">
+                        <lb/>Von der <term ref="lem012836">burgersteür</term> einzuliferen hat er
+                        <measure type="currency" quantity="1" unit="fl"> 1</measure>.</seg>
+                     <seg n="30.9">
+                        <lb/>Vom <term ref="lem000382">einzug</term> deß <term ref="lem013095"
+                           >stand-gelts</term> alle <term ref="lem010294">marcktstage</term>
+                        <lb/>hat er <date dur="R/P1Y">jedeß jahre</date>
+                        <measure type="currency" quantity="1" unit="fl"> 1</measure>.</seg>
+                  </p>
+                  <pb n="72" facs="StASG_AA_3_B_002_72_73"/>
+                  <head type="subtitle">
+                     <lb/><term ref="lem008776">Stattknechts</term> fernere pflicht und <term
+                        ref="lem002802">einkohmen</term>
+                     <term ref="key004857"/>
+                     <term ref="key000205"/>
+                  </head>
+                  <p>
+                     <seg n="30.10">
+                        <lb/>Je zu <date dur="R/P3Y">3 jahren um</date>, namlich in dem jahr, wann
+                        <lb/>ein neüwer landtvogt aufreitet, hat er für die <add
+                           place="right margin" hand="later hand"> x</add>
+                        <lb/><term ref="lem000387">farb</term> auf oberkeitliche rechnung zu erheben
+                        <measure type="currency" quantity="8" unit="fl"> 8</measure>.</seg>
+                     <seg n="30.11">
+                        <lb/><term ref="lem016195.02">Zechetmeßerlohn</term>
+                        <date dur="R/P1Y">alljährlichen</date>
+                        <measureGrp><measure type="currency" quantity="6" unit="fl"> 6</measure>
+                           <measure type="currency" quantity="30" unit="xr">x
+                           30</measure></measureGrp>.</seg>
+                     <pb n="73" facs="StASG_AA_3_B_002_72_73"/>
+                     <seg>
+                        <head n="31" type="title">
+                           <lb/><term ref="lem016061.02">Wingert</term> und <term ref="lem016062.02"
+                              >mäßvogts</term>
+                           <term ref="lem002086">wahl</term> und <term ref="lem018594"
+                              >pflicht</term>
+                           <term ref="key000555"/>
+                           <term ref="key000200"/>
+                        </head>
+                     </seg>
+                  </p>
+                  <p>
+                     <seg>
+                        <lb/><term ref="lem016061.02">Wingert</term> und <term ref="lem016062.02"
+                           >mäßvogt</term> ein jeweiliger, der dermahlen <lb/><term ref="lem000342"
+                           >richter</term>
+                        <persName ref="per009825a">Jooß Senn</persName>, wirt auf einsendende
+                        nachricht <lb/>deß <abbr>hr</abbr> landvogts, daß einer ermangle, erwehlt
+                        auf <lb/>beysetzenden vorschlag von <choice>
+                           <abbr>mghr</abbr>
+                           <expan>meinen gnädigen herren</expan>
+                        </choice> landtammen und rath <lb/>deß gemeinen stands.</seg>
+                     <seg>
+                        <head n="32" type="subtitle">
+                           <lb/>Deßen <term ref="lem000070">eid</term>
+                           <term ref="key000179"/>
+                        </head>
+                     </seg>
+                  </p>
+                  <seg n="32.1">
+                     <gap source="SSRQ_SG_III_4_229, Art. 17.1"/><note anchored="true"
+                        >Identisch mit dem ersten Abschnitt von Art. 17.1 des Richtereids.</note>
+                  </seg>
+                  <p>
+                     <seg n="32.2">
+                        <lb/>Auf alle ihre in der graffschaft <placeName ref="loc000440"
+                           >Werdenberg</placeName> haben<lb break="no"/>den <term ref="lem000076"
+                           >güeter</term>, <term ref="lem000164.11">wingert</term>, <term
+                           ref="lem001210">zechentrechte</term> und gerechtig<lb break="no"/>keiten
+                        geflißen acht zu haben und daran old darvon <lb/>mit eüwerem wüßen wenigstes
+                        nichts schwechen, <lb/>vil weniger gar entwenden zu laßen, sonderlichen
+                        <lb/>den <placeName ref="loc008286.01">Herren Wingert</placeName> geflißnest
+                        zu besorgen, daß <lb/><date dur="R/P1Y">alljährlich</date> daß nöthig und
+                        uebliche richtig und recht <lb/>gegruebet, auch der tung oder bau nach der
+                        ordnung <lb/>dahin verwent werde. So danne den daher auch <lb/>zugleich auß
+                        dem sogenanten <placeName ref="loc008285.04">Flüri Zoggen</placeName>, doch
+                           ober<lb break="no"/>keitlichen wingert und von allen zechenden harkoh<lb
+                           break="no"/>menden <term ref="lem003553">most</term> bey <term
+                           ref="lem016186.02">torcklung</term> und zufüehrung un<lb break="no"
+                        />gesaumbt und geflißenlich benebst auch all gewöhnt <lb/>und ueblichen
+                           <term ref="lem009958">früchten</term> zu meßen treülich und <lb/>ohne
+                        einiche gefährde.</seg>
+                  </p>
+                  <p>
+                     <lb/>Alles nach anleihtung in folgend 12 punckten <lb/>eüch deütlich
+                     vorschreibend und übergebend schrifft<lb break="no"/>lichen <term
+                        ref="lem000809">ordnung</term>:</p>
+                  <pb n="74" facs="StASG_AA_3_B_002_74_75"/>
+                  <head n="33" type="subtitle">
+                     <lb/><term ref="lem016061">Wingert</term> und <term ref="lem016062.02"
+                        >mäßvogts</term>
+                     <term ref="lem018594">pflicht</term>
+                     <term ref="key000200"/>
+                  </head>
+                  <p>
+                     <seg n="33.1">
+                        <lb/>Erstlich geflißen und guete acht und aufsehen zu <lb/>haben, daß
+                        jeweilig auf dem schloß <placeName ref="loc000015">Werdenberg</placeName>
+                        <lb/>residierend und regierende landtvögt die darzu gehö<lb break="no"/>rige
+                        güeter recht und bescheidenlich <term ref="lem001166">etzen</term>,
+                        absonderlich <lb/>in dem letsten jahr ihrer regierung, da sie widerum
+                        <lb/>abreiten bis an den theil im <placeName ref="loc007533.02">Oberen
+                           Graben</placeName>, so mann <lb/>daßselbige jahr etzt und etzen laßt,
+                        angeetzt und nach <lb/>gewohnheit dem nachfahrer übergeben und zu handen
+                        stellen.</seg>
+                     <seg n="33.2">
+                        <lb/>Zweitens, daß die jeweiligen <term ref="lem000266">landvögt</term> die
+                           <term ref="lem001035">zaün</term>
+                        <lb/>aller orten, wie auch die <term ref="lem001749">mauren</term>, wo
+                        mangel, <lb/>verbeßeren laßen, damit solche in rechten und guten <lb/>ehren
+                        erhalten werden.</seg>
+                  </p>
+                  <p>
+                     <seg n="33.3">
+                        <lb/>Dritens, daß auch alle <term ref="lem009374">fruchtbahre baüm</term>
+                        sowohlen <lb/>in dem <term ref="lem016182.02">schloßwingert</term>, als
+                        anderen <term ref="lem015258">schloßgüeteren</term> wohl <lb/>gepflantzet,
+                        erforderlicher maußen beschniten und in ehren <lb/>gehalten, auch anstath
+                        der alt abgehenden widerum <lb/>ander junge gesetzt und gepflantzet
+                        werden.</seg>
+                  </p>
+                  <p>
+                     <seg n="33.4">
+                        <lb/>Viertens, daß kein <abbr>s v</abbr>
+                        <term ref="lem002330">bau</term>, so bey dem <term ref="lem000376"
+                           >schloß</term> um <lb/>und an old im und auf oder ab den <term
+                           ref="lem015258">schloßgüeteren</term>
+                        <lb/>gemacht wirt, verkaufft oder hinweg gethan, sonderen <lb/>geflißenlich,
+                        so vil nöhtig und üeblich, erstlich und vor<lb break="no"/>aus zu den <term
+                           ref="lem004267">räben</term> und darnach auf die güeter selbsten
+                        <lb/>gethan und gebraucht werde.</seg>
+                  </p>
+                  <p>
+                     <seg n="33.5">
+                        <lb/>Fünfftens, daß zu dem süeß und auch sauren, ja <lb/>allem <term
+                           ref="lem000143">fueter</term> old <term ref="lem016168.02"
+                           >winterätzig</term> genug <term ref="lem002450.20">strau</term> und
+                        <lb/>staüwi vorbehalten und gebraucht werde.</seg>
+                  </p>
+                  <p>
+                     <seg n="33.6">
+                        <lb/>Sechßtens, daß der herren und auch um d’halben <lb/><placeName
+                           ref="loc008285.03"><persName ref="per009652">Flüri Zogg</persName>
+                           verlaßene <term ref="lem000164.11">wingert</term></placeName> wohl auf
+                        und in ehren <lb/>gehalten, daß erforderliche ordenlich, namlich auf jeden
+                        <lb/>theil <date dur="R/P1Y">jährlich</date> ein <date dur="P0.5D">halben
+                           tag</date> und danne je von 2 auf ihr <lb/>theil noch <date dur="P1D">1
+                           tag</date> in jedem <date dur="P0.5D">½ tag</date>, allso in allem von
+                        all 8<hi rend="sup">ten</hi>
+                        <lb/><date dur="P5D">5 gantze tag</date>
+                        <term ref="lem007718">gegruebet</term>, zu oberst im wingert durch <lb/>den
+                           <term ref="lem002390.02">köpflenen</term> old <term ref="lem016159.02"
+                           >steinklipen</term> nach durch gand, doplete <lb/><term
+                           ref="lem005025.08">trüechter</term> von gueten tragechten <term
+                           ref="lem004267">reben</term> gepflantzet. <lb/>Und wo dunnen in dem
+                        gantzen wingert lebendige <lb/>nachen gestreckt, die unfruchtbar und nix
+                        nutzenden, <lb/>sonderlichen obendurch nach und nach außgereütet und dar<lb
+                           break="no"/>gegen guet und fruchtbahre, wo man nit strecken kan, von
+                        <lb/>ander gut und diensamben orten nachen gepflantzet und mit <lb/>dem neüw
+                        nebet dem <term ref="lem003107">torckel</term> und <term ref="lem000376"
+                           >schloß</term> old grad zwü<lb break="no"/>schent innen ligenden
+                        besetzten stück deß neüen <term ref="lem002333">gartens</term>
+                        <lb/>an <term ref="lem005025.08">trüechter</term> und <term ref="lem002451"
+                           >sticklen</term> aufs best und geflißneste <lb/>besorget, der behörig und
+                        erforderliche <term ref="lem002330">bau</term>, <add place="below">folgt 370 <choice>
+                              <abbr>pag</abbr>
+                              <expan>pagina</expan>
+                           </choice></add>. <pb n="370" facs="StASG_AA_3_B_002_369_370"/>
+                        <head type="subtitle">
+                           <lb/>Continuatio deß wingert und mäßvogts <lb/>pflicht, auf 74 paginam
+                           folgend,</head>
+                        <lb/>namlich in jeden theil zum grueben 2 <term ref="lem000204"
+                           >fueder</term> und <lb/>darnach noch darüber wechßelßweiß <date
+                           dur="R/P1Y">jedes jahr</date> in 3 theil, <lb/>9 hiermit in jeder dieser
+                        3 theilen 3 fueder gethan <lb/>und darinn verbraucht am nutzlichsten werde.
+                        Der <lb/><term ref="lem016199.01">herd</term>, so hinab geschwembt old
+                        gestoßen, fleißig widerum <lb/>an erforderliche orth getragen, <date
+                           dur="R/P1Y">alljährlich</date>
+                        <term ref="lem016176.02">früelingß</term>, <lb/><term ref="lem016177.01"
+                           >sommer</term> und <term ref="lem016178.01">herbstarbeit</term>
+                        geflißenlich mit schneiden, <lb/>folgen, erbrechen und <term
+                           ref="lem002651.04">jeten</term>, <term ref="lem016194.02">kerricht</term>
+                        und daher koh<lb break="no"/>mend jet, herd und waß zum faulen und fetigkeit
+                           dienst<lb break="no"/>lich nit darauß getragen, sonderen darinn verstraüt
+                        und <lb/>an dienstliche orthe verwent werde.</seg>
+                     <seg>
+                        <lb/>Daß sogenante <placeName ref="loc008285.02">Fluri Wingertli</placeName>
+                        wirt gleich einen <lb/>theil im großen wingert geachtet im <term
+                           ref="lem002330">bau</term>. Darin gibt <lb/>mann auch, waß an <term
+                           ref="lem004133">holtzwerck</term> nöhtig und zeücht halben <term
+                           ref="lem003553">most</term>.</seg>
+                  </p>
+                  <p>
+                     <seg n="33.7">
+                        <lb/>Sibendeß, daß in den <term ref="lem004267">räben</term> keiner gatung
+                           <term ref="lem000310">veich</term> ge<lb break="no"/>laßen werde,
+                        vilweniger <term ref="lem000055">schaf</term> old <term ref="lem000057"
+                           >schwein</term>, danne daß <lb/>außgeländ old von räben im <term
+                           ref="lem000164.11">wingert</term> nit besetzte boden <lb/>und weite
+                        anderst nit als von angehefft old gestumpten <lb/>veich geetzt werden
+                        sollen.</seg>
+                  </p>
+                  <p>
+                     <seg n="33.8">
+                        <lb/>Achtens, daß der <term ref="lem000053">wein</term> sowohlen auß den zum
+                           <term ref="lem000376">schloß</term>
+                        <lb/>gehörigen <term ref="lem000164">weingärten</term> als auch von <term
+                           ref="lem000073">zechenden</term> zu fliesend <lb/>bey einem recht
+                        gefochtenen ohmen fleißig und unbe<lb break="no"/>trugenlich gemeßen und,
+                        waß <measure type="volume" quantity="0.5" unit="Viertel">½ viertel</measure>
+                        old mehr be<lb break="no"/>tragen, mag in richtige verzeichnuß genohmen
+                        werde.</seg>
+                  </p>
+                  <p>
+                     <seg n="33.9">
+                        <lb/>Neüntens, so danne <term ref="lem000051">weitzen</term>, <term
+                           ref="lem001374.04">röcken</term>, <term ref="lem008910.04">fäsen</term>
+                        und <term ref="lem010284.03">rauch<lb break="no"/>korn</term> ordenlich
+                        recht und wohl <term ref="lem016173.02">außgetröscht</term> und auch all<lb
+                           break="no"/>zu vil <term ref="lem017045.02">gschwingkorn</term> nit
+                        gemacht, daß außgetröschte <lb/>aber alles unbetrugenlich bey <measure
+                           type="volume" quantity="1" unit="Viertel">dem viertel</measure> old
+                           <measure type="volume" quantity="0.5" unit="Viertel">halben
+                           <lb/>viertel</measure>, waß so vil oder mehrers leiden mag, gemeßen,
+                        <lb/>darüber ein richtige verzeichnuß gemacht und danne <lb/>bey <term
+                           ref="lem002819">bestallung</term> der obrigkeitlichen rechnung richtig
+                        <lb/>eingegeben werde.</seg>
+                  </p>
+                  <p>
+                     <seg n="33.10">
+                        <lb/>Zechendeß, daß er über allbereit außgesetztes, auch <lb/>sonsten in
+                        allweg, wo etwaß auf eint oder andere weiß <lb/>zu verbeßeren und zum nutzen <choice>
+                           <abbr>mghr</abbr>
+                           <expan>meiner gnädigen herren</expan>
+                        </choice> und oberen zu <lb/>renovieren nöthig und diensam erachten und
+                        befinden wirt, <lb/>solches in treüen zu erstatten, damit der landtvogtey
+                           ein<lb break="no"/>nohmen <term ref="lem009514.03">geäüffnet</term>
+                        werden mögen.</seg>
+                  </p>
+                  <p>
+                     <seg n="33.11">
+                        <lb/>Eilfftes, daß wann von ihme eint old anderes in gesagt <lb/>nutzlich
+                        und gueter ordnung nit erhalten werden <lb/>möchte, einem jeweiligen
+                           <abbr>hr</abbr> landtvogt, oder so es <lb/>erforderlich, selbsten <choice>
+                           <abbr>mghr</abbr>
+                           <expan>meinen gnädigen herren</expan>
+                        </choice>
+                        <abbr>hr</abbr> landtammen und rath <lb/>hochlöblichen standß <orgName
+                           ref="org001197">Glaruß</orgName> ohne anstand richtig und geflißen
+                        <lb/>anzuzeigen und einzugeben, damit er so dannethin bey<pb n="371"
+                           facs="StASG_AA_3_B_002_371_372"/>
+                        <head type="subtitle">Vortsetzung deß wingen und mäßvogts pflicht</head>
+                        <lb/>den vogtheylichen rechnungßablagen oder auch dar<lb break="no"
+                        />zwüschent je nach befindender nothwenigkeit zu ablegung <lb/>deß
+                        vollkohmnen berichts möge berueffen und fürgeforde<lb break="no"/>ret, auch
+                        darauf mit obrigkeitlichem ernst vorgekehrt <lb/>werden, waß diensamm,
+                        erforderlich, nutzlich und guet seyn <lb/>mag.</seg>
+                  </p>
+                  <p>
+                     <seg n="33.12">
+                        <lb/>Zwölfftens, daß er auch <date dur="R/P1Y">alljährlich</date> zu handen
+                           jewei<lb break="no"/>ligem <abbr>hr</abbr> landtvogts deütlich, richtig
+                        und guete <term ref="lem000390">rechnung</term>
+                        <lb/>seines außgebens ablegen wolle.</seg>
+                  </p>
+                  <p>
+                     <lb/>Deßen zu vast und wahren urckund.</p>
+                  <p>
+                     <lb/>Zu dem dienst hat er wie vorhalb 164. pagina <lb/>zu ersechen im
+                        <placeName ref="loc006052.01">Appenzellerhof</placeName> auf <placeName
+                        ref="loc000278">Sax</placeName>
+                     <unclear>sinß</unclear>
+                     <measure type="area" quantity="1" unit="Mitmal">mitmel 1</measure>.</p>
+                  <p>
+                     <lb/>Item in der <placeName ref="loc008289.02">Großen Graf</placeName> auch
+                        <unclear>sinß</unclear>
+                     <measure type="area" quantity="1" unit="Mitmal">mitmel 1</measure>.</p>
+                  <p>
+                     <lb/>Dannoch ist er in gewohnter zeit darvon den <term ref="lem000601"
+                        >ehrschatz</term> und <lb/>auch daß <date dur="R/P1Y">alljährlich</date>
+                     stipulierte zinßli zu zahlen schuldig.</p>
+                  <pb n="75" facs="StASG_AA_3_B_002_74_75"/>
+                  <head n="34" type="title">
+                     <lb/><term ref="lem000775">Landtshaubtmans</term>
+                     <term ref="lem002086">wahl</term><note anchored="true">Der Eid des
+                        Landeshauptmanns befindet sich auf Seite 568, siehe unten. Vgl. auch den Eid
+                        vom <date when="1696-09-10">10. September 1696</date> in <ref
+                           target="https://archivverzeichnis.gl.ch/home/#/content/2c608ea271b643d89387aa5142f548cb"
+                           >LAGL AG III.2442:061</ref>.</note>
+                     <term ref="key000555"/>
+                     <term ref="key000320"/>
+                  </head>
+                  <p>
+                     <seg n="34.1">
+                        <lb/>Landtshaubtman ein jeweiliger, der dermahlen <lb/><persName
+                           ref="per009660a">Johannes Hilty</persName>, wirt auf einsendende
+                        nachricht, <lb/>daß einer ermangle, erwehlt von <choice>
+                           <abbr>mghr</abbr>
+                           <expan>meinen gnädigen herren</expan>
+                        </choice> landtammen <lb/>und rath deß gemeinen standß.</seg>
+                  </p>
+                  <p>
+                     <seg n="34.2">
+                        <lb/>Laut hochoberkeitlicher erkandtnuß gehört ihme die <lb/>nutznießung,
+                        wie hinderhalb <choice>
+                           <abbr>pag</abbr>
+                           <expan>pagina</expan>
+                        </choice> 154 im 2<hi rend="sup">ten</hi>, <placeName ref="loc006050.06"
+                           >Monthona Hof</placeName>
+                        <lb/>in der <placeName ref="loc008414.02">Kleinen Graf</placeName> von
+                           <measure unit="Mitmal" type="area" quantity="1">1
+                              <unclear>sueßen</unclear> mitmel</measure>.</seg>
+                  </p>
+                  <p>
+                     <seg n="34.3">
+                        <lb/>Item im <placeName ref="loc006054.05">Oßwaldßhof</placeName>, laut <choice>
+                           <abbr>pag</abbr>
+                           <expan>pagina</expan>
+                        </choice> 152, auch in der <placeName ref="loc008414.02">Kleinen
+                           Graf</placeName>
+                        <measure unit="Mitmal" type="area" quantity="1">
+                           <abbr>mitm</abbr> 1</measure>, <lb/>beide müeßen gleichwohlen
+                        verehrschätzet werden in ge<lb break="no"/>wohnter zeit und <date
+                           dur="R/P1Y">alljährlich</date> betragend zinßli zahlen.</seg>
+                  </p>
+                  <pb n="76" facs="StASG_AA_3_B_002_76_77"/>
+                  <head n="35" type="title">
+                     <lb/><term ref="lem002708">Landtsfähnerichß</term>
+                     <term ref="lem002086">wahl</term><note anchored="true">Der Eid des
+                        Landesfähnrichs befindet sich auf S. 569, siehe unten.</note>
+                     <term ref="key000555"/>
+                     <term ref="key000696"/>
+                  </head>
+                  <p>
+                     <seg n="35.1">
+                        <lb/>Landtsfähnerich ein jeweiliger, der anjetzt <persName ref="per010265"
+                           >Christen <lb/>Litscher</persName>, <term ref="lem000342">richter</term>
+                        von <placeName ref="loc000708">Sevelen</placeName>, wirt auf gebührende
+                           ein<lb break="no"/>berichtung eines landtvogts, daß einer ermangle,
+                           wie<lb break="no"/>derum <term ref="lem003551">erckießt</term> von <choice>
+                           <abbr>mghr</abbr>
+                           <expan>meinen gnädigen herren</expan>
+                        </choice> des gemeinen standß.</seg>
+                  </p>
+                  <p>
+                     <seg n="35.2">
+                        <lb/>Hat krafft hoch oberkeitlicher erckantnuß die nutz<lb break="no"
+                        />nießung im 2<hi rend="sup">ten</hi> theil <placeName ref="loc006057.04"
+                           >Aülershof</placeName>, hinderhalb <choice>
+                           <abbr>pag</abbr>
+                           <expan>pagina</expan>
+                        </choice> 137, von <measure unit="Mannmad" type="area" quantity="1">
+                           <abbr>mannm</abbr> 1</measure>, <lb/>im <placeName ref="loc008416.02"
+                           >Langen Graben</placeName>.</seg>
+                  </p>
+                  <p>
+                     <seg n="35.3">
+                        <lb/>So darzu im 4<hi rend="sup">ten</hi> theil <placeName
+                           ref="loc006057.04">Aülershof</placeName> hinderhalb <choice>
+                           <abbr>pag</abbr>
+                           <expan>pagina</expan>
+                           </choice> 142 von <measure unit="Mannmad" type="area" quantity="1">mannmad
+                           1</measure>, <lb/>auch im <placeName ref="loc008416.02">Langen
+                           Graben</placeName>.</seg>
+                  </p>
+                  <p>
+                     <seg n="35.4">
+                        <lb/>Ist gleichwohlen von beiden auf gewohnte zeit, den <lb/><term
+                           ref="lem000601">ehrschatz</term> und auch daß <date dur="R/P1Y"
+                           >alljährliche</date> zinßli zu zahlen schuldig.</seg>
+                  </p>
+                  <seg>
+                     <gap source="SSRQ_SG_III_4_138"/><note anchored="true">Es folgt eine
+                        Abschrift des sogenannten Fähnlibriefs über die erneute Bewilligung von
+                        Glarus für Werdenberg zur Besetzung der Ämter eines Landeshauptmanns und
+                        eines Landesfähnrichs (Fortsetzung der Abschrift auf den Seiten
+                        565–567).</note>
+                  </seg>
+                  <pb n="77" facs="StASG_AA_3_B_002_76_77"/>
+                  <head n="36" type="title">
+                     <lb/><term ref="lem016191.02">Miliz officiers</term>, <term ref="lem000264.16"
+                        >haubtleüth</term>, <term ref="lem003615">leütenambts</term> und <lb/><term
+                        ref="lem003459">fändrichen</term>, deren <term ref="lem002086">wahl</term>
+                     <term ref="key000978"/>
+                     <term ref="key000555"/>
+                     <term ref="key003597"/>
+                     <term ref="key004374"/>
+                  </head>
+                  <p>
+                     <lb/><term ref="lem016191.03">Miliz-offizier</term>, haubtleüth, leütenambt und
+                     fähnerich <lb/>werden auf jede sich aüßerende erfordernuß ergäntzt <lb/>und
+                        <term ref="lem003551">erckießt</term> von jeweilig regierenden
+                        <abbr>hr</abbr>
+                     <term ref="lem000266">landtvogt</term>.</p>
+                  <head n="37" type="title">
+                     <lb/>Wer die gegenwehrtig mit ihren <term ref="lem003093.03"
+                        >wachtmeisteren</term>
+                     <lb/>von der 1<hi rend="sup">ten</hi> old <term ref="lem016184.02"
+                        >schloßcompagnie</term>
+                     <term ref="key003016"/>
+                  </head>
+                  <seg>
+                     <gap reason="irrelevant"/><note anchored="true">Es folgt ein Verzeichnis der
+                        acht Kompagnien mit den Namen der Hauptleute und der Wachtmeister. Dieses
+                        wurde nicht in die Edition aufgenommen. Ein Verzeichnis der Mannschaften der
+                        einzelnen Gemeinden in der Landvogtei <placeName ref="loc000278"
+                           >Sax-Forstegg</placeName> findet sich unter <ref>StAZH A 346.5, Nr.
+                           139</ref>. Letzteres ist interessant, da es neben der Namensliste auch
+                        Alters- und Berufsangaben sowie den Waffenbesitz der einzelnen Männern
+                        enthält und nicht nur die Namen der Hauptleute.</note>
+                  </seg>
+                  <pb n="80" facs="StASG_AA_3_B_002_80_81"/>
+                  <head n="38" type="title">
+                     <lb/><term ref="lem003236">Eidtsform</term> der <term ref="lem000227"
+                        >bürger</term>, <term ref="lem000507">landtleüth</term>, <term
+                        ref="lem007652">beysaßen</term>, <lb/>auch sammtlichen einwohneren der
+                     graffschafft <lb/><placeName ref="loc000440">Werdenberg</placeName>
+                     <term ref="key000179"/>
+                     <term ref="key000086"/>
+                     <term ref="key000314"/>
+                     <term ref="key000586"/>
+                     <term ref="key000341"/>
+                  </head>
+                  <p>
+                     <seg n="38.1">
+                        <lb/>Ihr sollet und werdet schweren eüweren hochgeacht <lb/>und gnädigen
+                        herren und oberen landtamen und <lb/>rath, auch gantzer gemeindt <choice>
+                           <abbr>lobl</abbr>
+                           <expan>loblichen</expan>
+                        </choice> orthß und standß <lb/><orgName ref="org001197">Glaruß</orgName>,
+                        gehorsamm und gewährtig zu seyn, hoch dero<lb break="no"/>selben nutz und
+                        frommen ehr und ansechen zu förderen <lb/>und zu <term ref="lem009514"
+                           >aüfnen</term>, ihr nachtheil und schaden zu wahrnen <lb/>und zu wenden.
+                        Auch ihr ambt zu behalten, so weit <lb/>eüwer leib und guet langt und
+                        vermag.</seg>
+                  </p>
+                  <p>
+                     <lb/>So zugleich ihrem dermahligen und von zeit zu zeiten <lb/>eüch abordnend
+                     und zuschickenden landtvögten und <term ref="lem002718">ge<lb break="no"
+                        />sandten</term>
+                     <term ref="lem003289.14">landtvogtey-ambte</term>, auch von ihnen old ihne
+                     <lb/>ergehenden <term ref="lem001738">geboth und verbohten</term> gefolgig und
+                     gehorsam zu seyn.<note anchored="true">Vgl. <ref>SSRQ_SG_III_4_216</ref>,
+                        Art. 1.</note>
+                  </p>
+                  <p>
+                     <seg n="38.2">
+                        <lb/>
+                        <gap source="SSRQ_SG_III_4_216, Art. 2"/>
+                     </seg>
+                  </p>
+                  <p>
+                     <seg n="38.3">
+                        <lb/>
+                        <gap source="SSRQ_SG_III_4_216, Art. 3"/>
+                     </seg>
+                  </p>
+                  <p>
+                     <seg n="38.4">
+                        <lb/>
+                        <gap source="SSRQ_SG_III_4_216, Art. 4–7"/><note anchored="true"
+                           >Artikel 8 von der Reformation wurde hier nicht aufgenommen
+                              (<ref>SSRQ_SG_III_4_216</ref>, Art. 8).</note>
+                     </seg>
+                  </p>
+                  <p>
+                     <seg n="38.5">
+                        <lb/>
+                        <gap source="SSRQ_SG_III_4_216, Art. 9"/>
+                     </seg>
+                  </p>
+                  <p>
+                     <seg n="38.6">
+                        <lb/>
+                        <gap source="SSRQ_SG_III_4_216, Art. 10"/>
+                     </seg>
+                  </p>
+                  <p>
+                     <pb n="81" facs="StASG_AA_3_B_002_80_81"/>
+                     <seg n="38.7">
+                        <lb/>
+                        <gap source="SSRQ_SG_III_4_216, Art. 11"/>
+                     </seg>
+                  </p>
+                  <p>
+                     <seg n="38.8">
+                        <lb/>Achtens, daß ihr auch under eüch keine heimliche <lb/>noch offentliche
+                           <term ref="lem002939">zusahmenkönfften</term> oder <term ref="lem001054"
+                           >gemeinden</term>
+                        <lb/>halten und darüber etwaß berahten und noch vil we<lb break="no"/>niger
+                        gegen <term ref="lem000867">frömbden</term> durch schreiben oder auf ande<lb
+                           break="no"/>re weis etwaß fürnehmen wollet ohne eüwerer gnädigen
+                        <lb/>herren gunst, wüßen und willen einer jeden gemeind <lb/>gleichwohlen
+                        ihre gemeindsanligenheiten zu berathen <lb/>und zu besorgen, absonderliche
+                        gemeinden anzustellen <lb/>nach erfindender nothwendigkeit überlaßen nach
+                           anleih<lb break="no"/>tung der under dem <origDate when="1725-05-23"
+                           >12./23. may anno 1725</origDate> errichteten <lb/><term
+                           ref="lem016932.01">remedur</term><note anchored="true">Vgl.
+                              <ref>SSRQ_SG_III_4_216</ref>, Art. 12.</note> und regierungsform,
+                        darbey es sein allig<lb break="no"/>lich verbleiben hat und haben
+                        wirt.</seg>
+                  </p>
+                  <p>
+                     <seg n="38.9">
+                        <lb/>Neüntens, daß ihr weder insgesambt noch ins<lb break="no"/>besonders
+                        ohne eüweren gnädigen herren und oberkeit <lb/>vorwüssen und willen eüch
+                        außert die graffschafft <lb/>mit leib und guet begeben und wegziechen wollet
+                        <lb/>noch weniger haushäblich niderlassen.<note anchored="true">Vgl.
+                              <ref>SSRQ_SG_III_4_216</ref>, Art. 15.</note>
+                     </seg>
+                  </p>
+                  <p>
+                     <seg n="38.10">
+                        <lb/>Zechendes und letstlichen, daß ihr denjenigen, so <lb/>bannisiert
+                        hochoberkeitlich sind oder hinckünfftig wer<lb break="no"/>den möchten, kein
+                           <term ref="lem014132">underschlauf</term> geben oder <term
+                           ref="lem005743">hausen <lb/>und hofen</term> wollet, sonder wo ihr deren
+                        immer im land <lb/>gespühret und gewahret, der obrigkeit ohnverzüglich
+                        <lb/>in der stille angeben und anzeigen, ja wann es in <lb/>eüwerem vermögen
+                        handvest machen, gefänglich annehmen <lb/>und regierenden <abbr>hr</abbr>
+                        landtvogt auf dem <term ref="lem000376">schloß</term> einliferen.<note
+                           anchored="true">Vgl. <ref>SSRQ_SG_III_4_216</ref>, Art. 17.</note>
+                     </seg>
+                  </p>
+                  <seg>
+                     <gap source="SSRQ_SG_III_4_229, S. 82"/><note anchored="true">S. 82–120
+                        folgen weitere Hoheitsrechte (<ref>SSRQ_SG_III_4_229</ref>).</note>
+                  </seg>
+                  <pb n="568" facs="StASG_AA_3_B_002_568_569"/>
+                  <head n="39" type="title">
+                     <lb/><term ref="lem000070">Eid</term> deß jeweiligen <term ref="lem000775"
+                        >landtshauptmans</term>
+                     <lb/>und auch deß <term ref="lem002708">landtsfänderichß</term>
+                     <term ref="key000320"/>
+                     <term ref="key000696"/>
+                     <term ref="key000179"/>
+                     <term ref="key003016"/>
+                     <term ref="key000838"/>
+                     <term ref="key000266"/>
+                     <term ref="key004426"/>
+                  </head>
+                  <p>
+                     <seg n="39.1">
+                        <gap source="SSRQ_SG_III_4_230, Art. 17.1"/><note anchored="true"
+                           >Identisch mit Art. 17.1 des Richtereids.</note>
+                     </seg>
+                  </p>
+                  <p>
+                     <seg n="39.2">
+                        <lb/>Alle ihre in <placeName ref="loc007867">Werdenberg und
+                           Wartau</placeName>
+                        <lb/>habende recht und gerechtigkeiten nach eüwerem ver<lb break="no"/>stand
+                        und besten vermögen zu schützen und zu schirmen, <lb/>auch darvon in kein
+                        weiß noch weg nichts schwechen, vilweni<lb break="no"/>ger entwenden zu
+                        laßen, sonderheitlich in mißlich, gefahr<lb break="no"/>lich und
+                        kriegerischen zeiten, da nach rechtmäßig höcher <lb/>oder allerhochsten
+                        ordres und befelch es erforderlich were, <lb/>daß land oder deß landeß
+                        marchen, <term ref="lem004308">gräntzen</term> mit under<lb break="no"
+                        />habender <term ref="lem003083">mantschafft</term> zu bedecken und zu
+                        bewahren oder <lb/>gar auß, ja uns zu zuziechen, all mögliches vorzuckehren,
+                        <lb/>hochsolche befehle zu follziechen und nach bester treüwe <lb/>unsere
+                        sache, recht und gerechtigkeiten zu <term ref="lem012190">vertädigen</term>,
+                        <lb/>auch allbey und under eüch habende auf daß geflißenst <lb/>und
+                        tapferste darzu anzufüehren, treülich und ohn<lb break="no"
+                        />gefahrlich.</seg>
+                  </p>
+                  <pb n="569" facs="StASG_AA_3_B_002_568_569"/>
+                  <head n="40" type="title">
+                     <lb/><term ref="lem000070">Eid</term> eines jeweiligen <term ref="lem002708"
+                        >landtsfänderichs</term>
+                     <term ref="key000696"/>
+                     <term ref="key000179"/>
+                     <term ref="key001084"/>
+                     <term ref="key000266"/>
+                     <term ref="key004426"/>
+                  </head>
+                  <p>
+                     <seg n="40.1">
+                        <gap source="SSRQ_SG_III_4_229, Art. 17.1"/><note anchored="true"
+                           >Identisch mit Art. 17.1 des Richtereids.</note>
+                     </seg>
+                  </p>
+                  <p>
+                     <seg n="40.2">
+                        <lb/>Alle ihre in <placeName ref="loc007867">Werdenberg und
+                           Wartauw</placeName>
+                        <lb/>habende recht und gerechtigkeiten nach eüweren verstand <lb/>und besten
+                        vermögen zu schützen und zu schirmen, auch dar<lb break="no"/>von in kein
+                        weiß noch weg nichtß schwechen, fil weniger ent<lb break="no"/>wenden zu
+                        laßen, sonderheitlich in mißlich, gefahrlich und <lb/>kriegerischen zeiten,
+                        da nach rechtmäußig hocher oder aller<lb break="no"/>höchsten ordres und
+                        befehlen erforderlich, ja nöthig erfunden <lb/> wurde, daß land oder deß
+                        landeß <term ref="lem004308">gräntzen</term> zu besetzen <lb/>und bedecken
+                        oder gar aus, ja uns zu zuziechen und den <lb/><term ref="lem000334"
+                           >landtsfahnen</term> zu übergeben, all mögliches vorzuckehren,
+                        <lb/>hochselbe ordres und befehle zu vollziechen und nach mög<lb break="no"
+                        />lichster geflißenheit und treüwe ersagten <term ref="lem000334"
+                           >landtsfahnen</term>
+                        <lb/>zu füehren und bewahren, ja unsere sache, recht und gerech<lb
+                           break="no"/>tigkeiten zu vertädigen, auch alle bey und um eüch sich
+                        <lb/>findende aufs und tapferste darzu anzumahnen und <lb/>anzufüehren,
+                        treülich und ohn<lb break="no"/>gefahrlich.</seg>
+                  </p>
+               </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div n="1" org="uniform" sample="complete">
+            <p>Es handelt sich hier um Auszüge aus dem <term ref="key000122">Urbar</term> von <date
+                  when="1754">1754</date> über <term ref="key000179">Eide</term>, <term
+                  ref="key000555">Wahlen</term>, <term ref="key000200">Pflichten</term> und <term
+                  ref="key000205">Einkommen</term> der <term ref="key000065">Amtleute</term> von
+                  <placeName ref="loc000440">Werdenberg</placeName> (<ref>SSRQ_SG_III_4_229</ref>).
+               Da die Einträge zu den Amtleuten im Urbar verteilt (S. 13–16; S. 21–24; S. 53–77;
+               S. 80–81 und S. 370–371) und nicht in einem Kapitel zusammengefasst sind, werden sie
+               hier zur besseren Übersicht als eigenes Stück ediert.</p>
+            <p>Die älteren Urbare enthalten noch keine Einträge zu den Amtleuten (ausgenommen zu den
+               Gütern und zum Einkommen eines <term ref="key000324">Landweibels</term> in den
+               Urbaren 1581, 1639 und 1742 [vgl. dazu <ref>SSRQ_SG_III_4_143</ref>]). Das Luzerner
+               Rechnungsbuch von 1487–1493 enthält nur Einträge zum Eid und zum Einkommen eines
+                  <term ref="key000180">Landvogts</term> (<ref>SSRQ_SG_III_4_075</ref>). Frühere
+               Einträge zu den Amtleuten (<term ref="key003718">Landammann</term>, <term
+                  ref="key000310">Landschreiber</term>, <term ref="key000324">Landweibel</term> und
+                  <term ref="key004857">Stadtknecht</term>) befinden sich in dem aus dem 16. Jh.
+               stammende <orig>Amts- und Eidverzeichnis</orig>, auch <orig>Kleines
+                  Urbarbüchlein</orig> genannt (<ref>SSRQ_SG_III_4_127</ref>). Die dort enthaltenen
+               Einträge zu den <term ref="key000065">Amtleuten</term> in <placeName ref="loc000827"
+                  >Wartau</placeName> sind gedruckt in <bibl><ref
+                     target="https://www.ssrq-sds-fds.ch/online/SG_III_2/index.html#p_381">SSRQ
+                     SG III/2.1, Nr. 112</ref></bibl>; die Einträge zu den Wartauer Amtleuten im
+               Urbar von 1754 sind gedruckt in <bibl><ref
+                     target="https://www.ssrq-sds-fds.ch/online/SG_III_2/index.html#p_1105">SSRQ
+                     SG III/2.1, Nr. 329</ref></bibl>.</p>
+         </div>
+         <div n="2" org="uniform" sample="complete">
+            <p>Der hier abgedruckte <term ref="key000179">Eid</term> des <term ref="key000180"
+                  >Landvogts</term> ist eine Erneuerung des Eides aus dem Jahr <date when="1595"
+                  >1595</date>, der in das Urbar von 1754 eingetragen wurde. Zwei weitere
+               Abschriften dieser Erneuerung befinden sich im <ref>StASG AA 3 A 1b-4a</ref> und im
+               Kopialbuch von <persName ref="per009061">Johannes Beusch</persName> um 1611
+                     (<bibl><ref>[PA Hilty] Privatarchiv Kopialbuch Johannes Beusch,
+                  S. 2–3</ref></bibl>). Zu den Eiden der <term ref="key000065">Amtleute</term> vgl.
+               auch die Eidformel des Werdenberger <term ref="key000320">Landeshauptmanns</term> vom
+                  <date when="1696-09-10">10. September 1696</date> (<bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/2c608ea271b643d89387aa5142f548cb"
+                     >LAGL AG III.2442:061</ref></bibl>). Die Eidformeln des <term ref="key000324"
+                  >Landweibels</term>, <term ref="key000310">Landschreibers</term> und des <term
+                  ref="key004857">Stadtknechts</term> (<bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/c5f7e67a1a1945ffb868ba2123924ac3"
+                     >LAGL AG III.2442:046</ref> [12.08.1785]; <ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/59b5cc31a8e649c48756acb04589359b"
+                     >AG III.2442:047</ref> [16.01.1779)]; <ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/4eb9c8b497d447b482f7175ee6869caa"
+                     >AG III.2442:048</ref>[29.09.1786]</bibl>) sind inhaltlich identisch mit den
+               Eidformeln im Urbar von 1754. </p>
+            <p>Der <term ref="key000179">Eid</term> der <term ref="key000594">Untertanen</term>, der
+               auch strafrechtliche Bestimmungen enthält, ist inhaltlich ähnlich wie der Eid in der
+                  <term ref="key005257">Remedur</term> (<ref>SSRQ_SG_III_4_216</ref>), der
+               wiederum auf dem Eid im <orig>Amts- und Eidverzeichnis</orig>
+                  (<ref>SSRQ_SG_III_4_129</ref>) beruht. Letzterer lehnt sich an den
+               unter <orgName ref="org001195">Luzerner</orgName> Herrschaft entstanden Eid mit <term
+                  ref="key000586">Strafrechtsordnung</term> von <date when="1487">1487</date> an
+                  (<ref>SSRQ_SG_III_4_079</ref>). Eine wörtliche Abschrift des Eids der
+               Bewohnerschaft von <orgName ref="org003242">Werdenberg</orgName> zusammen mit den
+               strafrechtlichen Bestimmungen aus dem <term ref="key000122">Urbar</term> von <date
+                  when="1754">1754</date> befindet sich im Staatsarchiv St. Gallen (<bibl><ref>StASG
+                     AA 3 A 1b-4b</ref></bibl>).</p>
+         </div>
+         <div n="3" org="uniform" sample="complete">
+            <p>Zu den <term ref="key000065">Amtleuten</term> von <placeName ref="loc000440"
+                  >Werdenberg</placeName> vgl. auch <ref>SSRQ_SG_III_4_127</ref>;
+                  <ref>SSRQ_SG_III_4_175</ref>; <ref>SSRQ_SG_III_4_216</ref>;
+                  <ref>SSRQ_SG_III_4_222</ref> sowie das Dossier <bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/7fbd0b84cbba41b7be6c13c448c201e0"
+                     >LAGL AG III.2442</ref></bibl>.</p>
+         </div>
+      </back>
+   </text>
+</TEI>

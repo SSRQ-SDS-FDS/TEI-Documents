@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-08-15"/>
+            <date type="print"/>
+            <availability><p xml:id="facs">Sibylle Malamud</p></availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_210</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno source="https://archivverzeichnis.gl.ch/home/#/content/d47ae3802d4f40c49dc8556f0599fdef">LAGL AG III.2464:006</idno>
+                  <altIdentifier>
+                     <idno>LAGL VIII.</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <head>Zeugnis des Schnitt- und Wundarztes Rudolf Ölkuch über die geistige Gesundheit von Andreas Schlegel</head>
+               <msContents>
+                  <summary><p>Rofenberg: Auf Ansuchen der Kanzlei des Schlosses Werdenberg wird wegen eines Streits
+   zwischen Andreas Schlegel und Katharina Tischhauser das Zeugnis des fünfzigjährigen Schnitt- und
+   Wundarztes Rudolf Ölkuch von Gamprin aufgenommen: Andreas Schlegel hat sich während des
+   vierzehntägigen Aufenthalts bei Rudolf Ölkuch anständig verhalten und musste nicht bewacht oder
+   angekettet werden.</p></summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <author role="scribe">Kanzlei Liechtenstein</author>
+                     <filiation type="original">
+                        <origDate when="1714-04-21"/>
+                        <idno>LAGL AG III.2464:006</idno>
+                     </filiation>
+                     <filiation type="current">Auszug (Doppelblatt, 2 Seiten beschrieben)</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="33.0"/>
+                              <width unit="cm" quantity="21.0"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1714-04-21"/>
+                     <origPlace>Liechtenstein</origPlace>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000976">Arzt</term>
+               <term ref="key003261">Kundschaft</term>
+               <term ref="key003496">Krankheit</term>
+               <term ref="key005067">Geistesschwäche</term>
+               <term ref="key003037">Gerichtsverfahren</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+   <group>
+      <text>
+         <body>
+            <div>
+               <p><pb n="1r" facs="LAGL_AG_III.2464_006_1r"/><seg><head><lb/>Extract <term ref="lem016090.02">verhör prothocolls</term>
+                  <lb/>auff <placeName ref="loc008421.02">Roffenberg</placeName>, <abbr>dd</abbr> den
+                  <origDate when="1714-04-21">21.ten apprill 1714</origDate></head>
+                  <lb/>Demnach von <choice>
+                     <abbr>löbl</abbr>
+                     <expan>löblicher</expan>
+                  </choice>
+                  <term ref="lem000887">canzley</term> dess schloss <placeName ref="loc000015"
+                     >Werdenberg</placeName> undterem <lb/><origDate when="1714-03-23">23.ten merz
+                        1714</origDate> dz nachbahrliche ansuechen geschechen, weylen <lb/>zwüschen <persName
+                           ref="per010287a">Andreas Schlegel</persName> undt <persName ref="per010288a">Catharina
+                              <sic>Thihauserin</sic></persName> sich <lb/>ein <term ref="lem013887.03"
+                                 >rechtsstrittikheit</term> erhebt, zue dero vollfüehrung dess <lb/><persName
+                                    ref="per010289">Ruodolph Öllkuech</persName> zue <placeName ref="loc000936.04"
+                                       >Gampenrin</placeName>
+                  <term ref="lem000582">khundtschafft</term> der warheit <lb/>einzuenemmen nottwendig.</seg>
+                  <seg>Alß ist ermelter <persName ref="per010289">Öllkuech</persName>
+                     <lb/>seines <term ref="lem004402">alters</term>
+                     <measure type="age" quantity="50" unit="year">50 jahr </measure>undt von <term
+                        ref="lem012393.01">profession</term> ein <term ref="lem016092.02">schnit</term> undt
+                     <lb/><term ref="lem016091.02">wundtarzt</term>. Nachdemme er in gegenwarth <persName
+                        ref="per010262a">Michael Fohr<lb break="no"/>burger</persName>, <persName ref="per010290"
+                           >Johan Egenberger</persName> undt gedachtem <persName ref="per010287a">Andreas
+                              Schlegels</persName>
+                     <lb/>auff vorhero ergangene erinnerung dess <term ref="lem001963.06">maynaidts</term> undt
+                     <lb/>dessen straff, den würkhlichen aydt abgeschworen, abgehört <lb/>worden undt vollgendtes
+                     außgesagt:</seg></p>
+               <p>
+                  <lb/>Ehr habe <persName ref="per010287a">Andreas Schlegel</persName>
+                  <date dur="P14D">vierzechen tag</date> in dem hauß gehabt <lb/>undt undter denen <date
+                     dur="P14D">14 tagen</date> khein ungebührliches worth <lb/>gehört, ihne auch nit müessen
+                  <term ref="lem013378">verwachen</term> undt <date dur="P14D">14 nächt</date>
+                  <lb/>auff seinem <term ref="lem016093.02">heüstokh</term> ohnverwachter gelegen, ihme auch
+                  ge<lb break="no"/>hollffen <term ref="lem002241">mayen</term>, <term ref="lem008904">essen
+                     undt trinkhen</term>, was ihme zue <lb/>gelassen worden angenommen, dz verbottene gelassen
+                  <lb/>undt sich nit widerspanstig erzaigt. Man habe auch bevollchen, <lb/>ihne <term
+                     ref="lem004372">in eysen undt bandt zue schlagen</term> undt haben ihm für <lb/><term
+                        ref="lem003945">taub</term> yberbracht. Wie er ihme aber die eysene bandt habe <pb n="1v" facs="LAGL_AG_III.2464_006_1v"/>
+                  <lb/>wollen anlegen, habe er umb gottes willen betten, ehr solle <lb/>ihme doch khein
+                  sollchen <term ref="lem002120">spott</term> anthuen, ehr wolle ja alles volgen, <lb/>was man
+                  ihme anweise, ehr wisse undt begehre niemandt nichts <lb/><unclear>kondt</unclear> zue
+                  thuen, weder wider gott noch denen leüthen, das <lb/>habe ehr gesagt mit guetter
+                  gedächtnuss. Underdessen habe <lb/>ehr ihme freyen willen gelassen undt haimmlicher weiß
+                  <term ref="lem016096.02">aufge<lb break="no"/>warthet</term>, ob ehr möchte schallkhhafftig
+                  seyn oder nit, ob ihme zue <lb/>trauen wäre, habe nichts an ihme gespührt alß ein <term
+                     ref="lem016097.01">ver<lb break="no"/>stopfung</term> dess <unclear><term ref="lem016846"
+                        >milz</term></unclear> undt im ybrigen, dz ihme ein stukh <term ref="lem000308"
+                           >gelth</term>
+                  <lb/><term ref="lem000312">entfrömbdet</term> worden, seye ehr khleinmüetig darbey, aber
+                  <lb/>nit <term ref="lem016094.02">taubsüchtig</term> gewesen. Vor dz aber bette ehr bey
+                  ihnen, <lb/>wan er darvor taubsichtig gewesen, wisse ehr nichts darvon, <lb/>so lang ehr bey
+                  ihme gewesen, habe ehr kheine <term ref="lem016095.02">taubsüchti<lb break="no"
+                  />kheit</term> an ihme gemerkt.</p>
+               <p><lb/>Hochfürstliche <placeName ref="loc000485">Liechtenstainische</placeName>
+                  <lb/><term ref="lem000887">canzley</term>. 
+               </p>
+            </div>
+            <pb facs="LAGL_AG_III.2464_006_v"/>
+            <div>
+               <ab type="dorsal" place="verso" hand="hand18c"><lb/>Extract <lb/><term ref="lem016090.02">verhör prothocolls</term> <lb/>auff
+                  <placeName ref="loc008421.02">Roffenberg</placeName>, <lb/>so gehörigen orthen eröffnet <lb/>werden solle</ab>
+            </div>
+            <div>
+               <ab type="archiving reference" place="verso"><lb/>XXIV, <date when="1714">1714</date></ab>
+            </div>
+         </body>
+      </text>
+   </group>
+   <back>
+      <div n="1">
+         <p>Im <term ref="key000987">Rechtsstreit</term> zwischen <persName ref="per010287a">Andreas
+            Schlegel</persName> und <persName ref="per010288a">Katharina Tischhauser</persName> wird ein
+            Zeugnis über die geistige Gesundheit von <persName ref="per010287a">Andreas Schlegel</persName>
+            eingeholt, wohl um die Einstellung des Verfahrens oder die Aufhebung eines bereits bestehenden
+            Urteils durch die geistige Unzurechnungsfähigkeit von <persName ref="per010287a">Andreas
+               Schlegel</persName> zu erreichen. Über den Inhalt des Konflikts ist nichts bekannt.</p>
+      </div>
+      <div n="2">
+         <p><date when="1689">1689</date> bringt der an Tobsucht leidende <persName ref="per010291"
+            >Christian Stricker</persName> vom <placeName ref="loc006025">Grabserberg</placeName>
+            verschiedene Personen um, darunter auch seine <term ref="key000476">Mutter</term> und seine
+            <term ref="key000803">Kinder</term>. Er wird an <orig>strickh und band</orig> in seinem <term
+               ref="key004521">Wohnhaus</term> auf Kosten der <term ref="key001043">Verwandtschaft</term>
+            verwahrt und man sucht ein geeignetes <orig><term ref="lem016100.02">krankh</term>- oder <term
+               ref="lem016099.01">taubhaus</term></orig>, um ihn unterzubringen (<bibl><ref
+                  target="https://archivverzeichnis.gl.ch/home/#/content/8a92d5516b1a43779c474b52746be64d"
+                  >LAGL&#160;AG III.2464:001</ref></bibl>). In anderen Fällen muss die Gemeinde für den <term
+                     ref="key000187">Unterhalt</term> aufkommen (<bibl><ref>OGA Grabs O&#160;1753-1</ref>;
+                        <ref>O&#160;1754-1</ref></bibl>) oder im Falle von vorhandenem Vermögen des Kranken bekommt
+            z.&#160;B. die Ehefrau für die Pflege einen Teil der <term ref="key000920">Erbschaft</term>
+            (<bibl><ref
+               target="https://archivverzeichnis.gl.ch/home/#/content/2bc5d90f329c4fc499e07c05100f3e43"
+               >LAGL AG III.2464:003</ref></bibl>).</p>
+         <p>Zu <term ref="key005067">Geisteskrankheiten</term> siehe auch: <bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/58bd1ff35df04f5db62948214c3c7b44"
+                     >LAGL AG&#160;III.2443:130</ref></bibl>; <bibl><ref>StAZH
+                     A&#160;346.3,&#160;Nr.&#160;206</ref>;
+                     <ref>A&#160;346.4,&#160;Nr.&#160;237</ref></bibl> (Bitte um Aufnahme ins <term
+                  ref="key003983">Armenhaus</term> von <placeName ref="loc000065"
+               >Zürich</placeName>); <bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/3dd46ed0877c42b3aed15895eda61a52"
+                     >LAGL AG III.2431:010</ref></bibl>; vgl. auch die Ordnungen über Pflege und
+               spitalmässige Einweisung Kranker, die jedoch eher auf die Stadt <placeName
+                  ref="loc000065">Zürich</placeName> als auf die Untertanengebiete ausgerichtet sind
+                     (<bibl><ref>EKGA Salez 32.01.41, Gesundheitswesen</ref>, 1757, 1769</bibl>).
+               Psychische <term ref="key003496">Erkrankungen</term>, wie die in den Quellen
+               bezeichnete Schwermut oder Melancholie, stehen immer wieder im Zusammenhang mit <term
+                  ref="key000956">Selbstmord</term>, so z.&#160;B. <bibl><ref>StAZH
+                     A&#160;346.5,&#160;Nr.&#160;123</ref>; <ref>Nr.&#160;130</ref></bibl>;
+                     <bibl><ref>StASG AA&#160;3&#160;A 5-12</ref></bibl>; <bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/3f6e8e08e36244c0b408d1bbbb581ded"
+                     >LAGL AG III.2422:049</ref>; <ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/1cd76dc9f8f34a63a51541c35f6e39e2"
+                     >AG&#160;III.2464:010</ref></bibl>. Zur Geschichte psychisch Kranker vgl.
+                     <bibl><ref target="http://www.hls-dhs-dss.ch/textes/d/D16597.php"
+                  >HLS</ref></bibl>; <bibl><ref target="http://permalink.snl.ch/bib/chbsg000047936"
+                     >Steinbrecher 2006</ref></bibl>.</p>
+      </div>
+   </back>
+   </text>
+</TEI>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="headerinfo"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <date type="electronic" when="2020-08-17"/>   
+    <date type="print"/>
+    <availability><p xml:id="facs">Adrien Wyssbrod</p></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Collection des sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS_NE_3_144</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier>
+      <idno>AVN B 101.01.01.007, fol. 329r</idno>
+     </msIdentifier>
+     <head>Hypothèque d’une fratrie en indivision</head>
+     <msContents>
+      <summary>Demande sur la possibilité d’hypothéquer un bien pour un frère sans passer par le
+       partage des biens.</summary>
+      <msItem>
+       <textLang>français</textLang>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="34"/>
+          <width unit="cm" quantity="23.5"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <origDate when="1656-02-06" calendar="Julian"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>
+      </origin>
+     </history>
+     <additional>
+      <listBibl>
+       <head/>
+       <bibl/>
+      </listBibl>
+     </additional>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key000759"></term>
+     <term ref="key005110"></term>
+     <term ref="key005030"></term>
+     <term ref="key004368"></term>
+     <term ref="key005072"></term>
+     <term ref="key005061"></term>
+     <term ref="key000997"></term>
+     <term ref="key005096"></term>
+    </keywords>
+   </textClass>
+   <particDesc default="false"/>
+   <settingDesc default="false"/>
+  </profileDesc>
+ </teiHeader>
+ 
+ <text>
+  <group>
+   <text>
+    <body>
+     
+     <pb n="328v"/> 
+     
+     <div>
+      <head>
+       <lb/>Le <origDate when="1656-02-06" calendar="Julian">VI<hi rend="sup">e</hi> de fébvrier <hi rend="underline">1656</hi></origDate>, en <orgName ref="org007660">Conseil <choice><abbr>gnal</abbr><expan>général</expan></choice></orgName>,
+       <lb/>president <choice><abbr>s<hi rend="sup">r</hi></abbr><expan>sieur</expan></choice> <choice><abbr>mr<hi rend="sup">e</hi></abbr><expan>maitre</expan></choice> bourgeois <persName ref="per019660a.01"><choice><abbr>Ab.</abbr><expan>Abraham</expan></choice> Dardel</persName>.
+      </head>
+     </div>
+     <gap reason="irrelevant"/>
+     
+     
+     <pb n="329r" facs="AVN_B_101.01.01.007_0329r"/> 
+     
+     
+     <div><head><lb/><choice><abbr>Dud</abbr><expan>Dudit</expan></choice> jour que devant en <orgName ref="org003085">Conseil estroict</orgName>.</head></div>
+     
+     <div>
+      
+     
+      <lb/><add place="left margin"><choice><abbr>Po<hi rend="sup">r</hi></abbr><expan>Pour</expan></choice> un points de
+       <lb/>coustume</add>
+      
+      <add place="left margin" rend="pencil" hand="later hand"><choice><abbr>Délibér</abbr><expan>Délibération</expan></choice></add>
+      
+    
+      
+      <p>
+       <lb/>Sur la requeste de <persName ref="per011302a.01">Jehan Jeannin</persName> tuteur de <persName ref="per011472a">Marguerite</persName> <choice><abbr>ffeu</abbr><expan>fille de feu</expan></choice>
+       <lb/><persName ref="per010232a">Pierre Mayre</persName> des <placeName ref="loc007799.02">Verrieres</placeName>, aux fins d’avoir le poinct de
+       <lb/>coustume suivant, sçavoir si un frère peu <choice><abbr>hyter</abbr><expan>hypothéquer</expan></choice> de son bien a
+       <lb/>autre condition que celle d’un partage.
+      </p>
+      
+      </div>
+     
+       
+    </body>
+   </text>
+  </group>
+ </text>
+</TEI>

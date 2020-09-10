@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="headerinfo"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <date type="electronic" when="2020-08-17"/>
+    <date type="print"/>
+    <availability><p xml:id="facs">Adrien Wyssbrod</p></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Collection des sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS_NE_3_191</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier>
+      <idno>AVN B 101.01.01.008, p. 61</idno>
+     </msIdentifier>
+     <head>Délai pour suivre une demande formée en justice</head>
+     <msContents>
+      <summary>Si une demande est formée en justice mais n’est pas suivie dans l’an et jour, elle
+       s’en trouve nulle.</summary>
+      <msItem>
+       <textLang>français</textLang>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="42.8"/>
+          <width unit="cm" quantity="29.6"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <origDate when="1663-09-28" calendar="Julian"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>
+      </origin>
+     </history>
+     <additional>
+      <listBibl>
+       <head/>
+       <bibl/>
+      </listBibl>
+     </additional>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key003037"></term>
+     <term ref="key005189"></term>
+     <term ref="key005117"></term>
+
+    </keywords>
+   </textClass>
+   <particDesc default="false"/>
+   <settingDesc default="false"/>
+  </profileDesc>
+ </teiHeader>
+ 
+ <text>
+  <group>
+   <text>
+    <body>
+
+     <pb n="61" facs="AVN_B_101.01.01.008_0061"/>
+     
+     <div>
+      <head>
+       <lb/>Le <origDate when="1663-09-28" calendar="Julian">28<hi rend="sup">e</hi> de <choice><abbr>7<hi rend="sup">bre</hi></abbr><expan>septembre</expan></choice> <hi rend="underline">1663</hi></origDate> en <orgName ref="org007660">Conseil general</orgName>,
+       <lb/>president <choice><abbr>mons<hi rend="sup">r</hi></abbr><expan>monsieur</expan></choice> le <choice><abbr>mr<hi rend="sup">e</hi></abbr><expan>maitre</expan></choice> bourgeois <persName ref="per010132"><choice><abbr>Ab</abbr><expan>Abraham</expan></choice> Bullot</persName>.
+      </head>
+     </div>
+     <gap reason="irrelevant"/>
+     
+     <div><head><lb/><choice><abbr>Led</abbr><expan>Ledit</expan></choice> jour que devant en <orgName ref="org003085">Conseil estroict</orgName>.</head></div>
+     
+
+     <div>
+      
+      <add place="left margin">Point de coustume</add>
+      <add place="left margin" medium="pencil" hand="later hand">Deliberation</add>
+
+      <p>
+       <lb/>Acordé sur la requeste du <choice>
+        <abbr>S<hi rend="sup">r</hi></abbr>
+        <expan>sieur</expan>
+       </choice>
+       <term ref="lem015881.02">recepveur</term>
+       <persName ref="per010898a.01">Samuel Purri</persName> qu’il luy sera expedié <lb/>pour poinct
+       de coustume, que quand un homme a formé demande a un autre <lb/>et il ne la suit dans l’<date
+        dur="P1Y6W"><term ref="lem014776">an et jour</term></date> quelle demeure nulle.</p>
+    
+
+     </div>
+
+    </body>
+   </text>
+  </group>
+ </text>
+</TEI>

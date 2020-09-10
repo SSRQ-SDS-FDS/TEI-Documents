@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+
+			</titleStmt>
+
+			<publicationStmt>
+				<date type="electronic" when="2019-05-29"/>
+				<date type="print"/>
+			</publicationStmt>
+
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ_FR_I_2_8_0063_005</idno>
+			</seriesStmt>
+
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<idno>StAFR, Thurnrodel 11, S. 317–318</idno>
+					</msIdentifier>
+					<head>Jean Chevaley – Verhör / Interrogatoire</head>
+					<msContents>
+						<summary></summary> 
+						<msItem>
+							<textLang>fr</textLang> 
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support>
+									<material></material>
+								</support>
+								<extent>
+									<dimensions type="leaves">
+										<height unit="cm" quantity="0.0"/>
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+									<dimensions type="plica">
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+								</extent>
+							</supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1623-06-19"></origDate>
+							<origPlace></origPlace>
+						</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+							
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		
+		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+			<particDesc default="false"/>
+			<settingDesc default="false"/>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+					<pb n="317"/><p><lb/><foreign xml:lang="la">Eodem die</foreign>, present les cy devant 
+						<lb/>en la <placeName ref="loc007683.12">tour a Ratzé</placeName></p>
+						
+					<p><seg><lb/><add place="left margin"><foreign xml:lang="la">Nihil solvit</foreign>.</add></seg>
+					<seg><persName ref="per009445a.03">Jean Chevalley</persName> de <placeName ref="loc007869.01">Vallon</placeName> a confessé qu’il a faict 
+						<lb/>voler du foin es pré de <placeName ref="loc007868.03"><abbr>S<hi rend="sup">t</hi></abbr> Albin</placeName>, le jettant par sus 
+						<lb/>sa teste <subst><del><gap reason="illegible" unit="cm" quantity="1"/></del><add place="inline">aussi</add></subst> hault qu’une tour, le faisant enporter 
+						<lb/>par un <term ref="lem016129.02">fullet</term> d’ora, disant qu’il l’a veu faire a 
+						<lb/><persName>Claude Ramuz</persName> et <persName>Jacques Ramuz</persName> de <placeName ref="loc007868.03"><abbr>S<hi rend="sup">t</hi></abbr> Albin</placeName>. 
+						<lb/>Et quant il vouloit faire voler ledit foin, il s’apparoit 
+						<lb/>la un homme noir ayant les cornes que les aultres 
+						<lb/>ne pouvoent voir.</seg></p>
+						
+					<p><lb/>Item a dit <persName>Sathan</persName> s’estre apparu les deux premieres foys 
+						<lb/>a luy, luy promettant le faire riche et luy donner des 
+						<lb/>beaux testons, mais il se recommendat a Dieu et 
+						<lb/>il le quittat. Mais la tierce <add place="above">ou quarte</add> foys, vers la <placeName ref="loc008383">Broye</placeName>, 
+						<lb/>aupres du pont neuf, il se donnoit a luy, qui s’appelloit 
+						<lb/><persName>Satan Grabiel</persName>, <del>et le <term ref="lem018895.07">marquat</term> dessoub le bras</del> et 
+						<lb/>luy donnat d’argent, que puis aprés furent des <term ref="lem018302.05">follies</term> de 
+						<lb/><term ref="lem016908.05">chasno</term>, et reniat Dieu, faisant hommage au <term ref="lem017521">diable</term>, 
+						<lb/>le baisant.</p>
+						
+					<p><lb/>Item confesse avoir fait la <term ref="lem018102.02">gresle</term> vers <placeName ref="loc007886.03">Vauruz</placeName> avec 
+						<lb/>troys aultres, assavoir <persName>Jacques Vally</persName>, <add place="above"><persName>Michele Vanex</persName></add> de <placeName ref="loc007950.02">Villa</placeName> vers 
+						<lb/><placeName ref="loc007647.01">Romont</placeName>, <persName>Andrey</persName> <add place="above"><persName>Jean</persName></add> <subst><del>de V</del><add place="inline"><persName>Chevalley</persName></add></subst> de <placeName ref="loc007952.01">Corsalettes</placeName> et <persName>Daniel 
+						<lb/>Chevalley</persName> de <placeName ref="loc007952.01">Corsalettes</placeName>.</p>
+						
+					<p><lb/>Item confesse avoir fait mourir a <persName>Cugniet</persName> de <placeName ref="loc007649.03">Dondidy</placeName> 
+						<lb/>une <term ref="lem017507">vache</term> noire et un cheval, avec du <term ref="lem014886.02">pusset</term>, et a 
+						<lb/>un nommé <persName><add place="above">Benney</add> Pontau</persName> d’<placeName ref="loc007603.04">Avenche</placeName> une <term ref="lem017507">vache</term> noire et une 
+						<lb/>rouge.</p>
+						
+					<p><lb/>Item avoir faict mourir a <placeName ref="loc007953.02">Donatire</placeName> <add place="above">la fille</add> <persName>Jean eyz Osto</persName> <add place="left margin" type="sign"><del>nommee <persName>Elysabet</persName></del></add>, luy 
+						<lb/>ayant soufflé a l’encontre, <hi rend="underline">il y a</hi> <subst><del><date dur="P1M">un moys</date></del><add place="above"><date dur="P7Y">sept ans</date></add></subst>, <del>et 
+						<lb/>a <placeName ref="loc007600.08">Villarrepoz</placeName> <persName>Jacques du Bugnion</persName></del> et au moulin de 
+						<lb/><placeName ref="loc008568">Baume</placeName> <subst><del>la femme</del> <add place="above">le <choice><abbr>mre</abbr><expan>maitre</expan></choice> nommé Jaques</add></subst>, es <term ref="lem016909.02">rampos</term> passé. A <placeName ref="loc007648">Dompierre</placeName>, 
+						<lb/><subst><del><persName>Beney</persName></del><add place="left margin">la fille a</add></subst> <persName>Pochons</persName>, il y a <subst><del><date dur="P7W">sept semaines</date></del><add place="above"><subst><del><date dur="P6Y">six ans</date></del><add place="above"><date dur="P3Y">3 ans</date></add></subst></add></subst>&#160;; a <placeName ref="loc007957.03">Myssy</placeName>, <add place="left margin" type="sign"><persName>Magdeleyne</persName> femme <lb/>de</add> <persName>Niclaus 
+							<lb/>Cotzat</persName>, il y a environ <subst><del><date dur="P7W">7 sepmaines</date></del><add place="above"><subst><del>ans</del><add place="above"><date dur="P3Y">3 ans</date></add></subst></add></subst>, luy ayant <subst><del>jetté du 
+						<lb/><term ref="lem014886.02">pusset</term> contre le sein</del><add place="inline">soufflé a l’encontre</add> .</subst></p>
+						
+						<pb n="318"/><p><lb/>A dit avoir esté quattre fois a la <term ref="lem017043.01">secte</term>, une 
+						<lb/>foys entre <placeName ref="loc007868.06"><abbr>S<hi rend="sup">t</hi></abbr> Aulbin</placeName> et <placeName ref="loc007955.03">Villard</placeName> <add place="left margin" type="sign"><subst><del>en</del><add place="above">vers</add></subst> un <term ref="lem015027.04">rioux</term></add> ou il estoit 
+						<lb/><persName>Claude Ramu</persName>, qu’a esté bruslé, et le lieutenant 
+						<lb/><persName>Arbin Jomini</persName> de <placeName ref="loc007868.04"><abbr>S<hi rend="sup">t</hi></abbr> Albin</placeName>, de <placeName ref="loc007955.03">Villard</placeName> <persName>Claude 
+						<lb/>Ramu</persName>, <del><persName>Jean Grassu</persName></del> qui dansoent es <term ref="lem015231">coraules</term> 
+						<lb/>et mangeoent des <term ref="lem015233.02">cocques</term> que les aultres portoent.</p>
+						
+						<p><lb/>Item entre <placeName ref="loc007956.02">Chesaz</placeName> et <placeName ref="loc007869.01">Vallon</placeName> a esté a la <term ref="lem017043.01">secte</term> avec 
+						<lb/><persName>Niclaus Cotzet</persName> et la femme d’<persName>Andrey <subst><del><unclear>pr</unclear></del> <add place="inline">Tywo</add></subst></persName> 
+						<lb/>nommee <persName>Lysa</persName> de <placeName ref="loc007957.03">Myssy</placeName>, et de <placeName ref="loc007956.02">Chesaz</placeName> la 
+						<lb/>femme a <persName>Michel Marion</persName> nommee <persName>Clauda</persName>, et 
+						<lb/>de <del><placeName ref="loc007648">Dompierre</placeName> la femme</del>.</p>
+						
+					<p><lb/>Item en <placeName ref="loc008234.02">Boz Geraz</placeName> vers <placeName ref="loc007655.01">Montagny</placeName> a esté a la 
+						<lb/><term ref="lem017043.01">secte</term> avec de ceux de <placeName ref="loc007919.04">Corselles</placeName>, qu’il ne cognoit.</p>
+						
+					<p><lb/>A <placeName ref="loc007958.02">Otavox</placeName> vers <placeName ref="loc007693.04">Estavayer</placeName>, il a fait mourir a <persName>Pilliod</persName> 
+						<lb/><subst><del>des</del><add place="above"><subst><del>4</del><add place="left margin">2</add></subst></add></subst> <term ref="lem015240.02">fayes</term> et <subst><del>des</del><add place="above"><subst><del>6</del><add place="inline">4</add></subst></add></subst> primmes bestes, et <subst><del>un cheval</del><add place="above">six bestes</add></subst> au 
+						<lb/>granger <subst><del>d’un <choice><abbr>s<hi rend="sup">r</hi></abbr> <expan>seigneur</expan></choice> d’Aut</del><add place="inline">du recepveur d’<placeName ref="loc007693.04">Estavayer</placeName></add></subst> nommé 
+						<lb/>le <del>m</del><choice><abbr>s<hi rend="sup">r</hi></abbr> <expan>seigneur</expan></choice> <persName>Antony Roguet</persName>.</p>
+						
+					<p><lb/>Item entre <placeName ref="loc007961.04">Vullie le Frique</placeName> et <placeName ref="loc008235.02">Contentina</placeName> au bas des 
+						<lb/>vignes vers le lac, ou il n’a cogneu personne, a esté 
+						<lb/>a la <term ref="lem017043.01">secte</term>.</p>
+						
+						<p><lb/>Item a esté a la <term ref="lem017043.01">secte</term> vers le lac de <placeName ref="loc005824.03">Morat</placeName>, mais 
+						<lb/> il ne cognoit ceux qui y estoent.</p>
+						
+						<p><lb/>Item a esté en un boys au <placeName ref="loc009222">Graboz</placeName> vers <placeName ref="loc007935.03">Favargny</placeName> 
+							<lb/>a la <term ref="lem017043.01">secte</term> <del>avec</del>.</p>
+						
+					<p><lb/>Il a <term ref="lem015356.05">acculpé</term> un pauvre qui s’appelle <del><persName>Jean Pierroz</persName> 
+						<lb/>qui dit estre de <placeName ref="loc007959.02">Rueyry</placeName> vers <placeName ref="loc007693">Estavayer le Lac</placeName></del> 
+						<lb/>et <persName>Claude Wadin</persName> de <placeName ref="loc007608.01">Gletterens</placeName> mendiant, et 
+						<lb/><del><persName>Claude Vallon</persName> de <placeName ref="loc007869.01">Vallon</placeName>, et <persName>Jean Pirolet</persName> de 
+						<lb/><placeName ref="loc007608.01">Gletterens</placeName>, et <persName>Andrey Tyvo</persName> de <placeName ref="loc007608.01">Gletterens</placeName></del> pour 
+						<lb/>estre sorciers et avoir esté a la <term ref="lem017043.01">secte</term> avec <subst><del>luy</del><add place="above">eux</add></subst> 
+						<lb/>entre <placeName ref="loc007956.02">Chesaz</placeName> et <placeName ref="loc007869.01">Vallon</placeName>.</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+
+
+
+<?oxy_options track_changes="on"?>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="headerinfo"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <date type="electronic" when="2020-08-17"/>
+    <date type="print"/>
+    <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Collection des sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS_NE_3_022</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier>
+      <idno>AVN B 101.14.001, fol. 370v–371r</idno>
+     </msIdentifier>
+     <head>Revenus du bien de l’épouse dans un régime d’indivision</head>
+     <msContents>
+      <summary>Un mari qui vit en indivision de bien avec ses frères et y a ajouté le bien de son
+       épouse, et dont la famille a vécu sur les revenus ainsi générés, ne peut pas ensuite demander
+       des contreparties pour le revenu généré par le bien de sa femme.</summary>
+      <msItem>
+       <textLang>français</textLang>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="33"/>
+          <width unit="cm" quantity="23.5"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <origDate when="1595-03-25" calendar="Julian"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>
+      </origin>
+     </history>
+     <additional>
+      <listBibl>
+       <head/>
+       <bibl/>
+      </listBibl>
+     </additional>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+ 
+     <term ref="key005030"></term>
+     <term ref="key004483"></term>
+     <term ref="key000558"></term>
+     <term ref="key000138"></term>
+     <term ref="key000376"></term>
+     <term ref="key005006"></term>
+     
+    </keywords>
+   </textClass>
+   <particDesc default="false"/>
+   <settingDesc default="false"/>
+  </profileDesc>
+ </teiHeader>
+ 
+ <text>
+  <group>
+   <text>
+    <body>
+        
+     
+     <pb n="370v" facs="AVN_B_101.14.001_0370v"/>
+        
+     <div>
+       <add place="left margin" hand="later hand"><lb/>Il ne se faict recompence <lb/>des <term ref="lem015365.02">rosées</term> du bien de
+        <lb/>la femme, mis en <lb/>commun sans reserve.</add>
+      <head>
+       <lb/>Par declaration faicte le <lb/><origDate when="1595-03-25" calendar="Julian">xxv<hi
+         rend="sup">e</hi> de mars <hi rend="underline">1595</hi></origDate> à l’instance de
+       <lb/>sieur <persName ref="per010450">Abraham Gallandre</persName>, notaire de <lb/><placeName
+        ref="loc008492">La Coudre</placeName>, &amp; de ses freres<note>Dans les manuels du Conseil
+        de ville, ce point est daté du <date when="1595-03-19">19 mars 1595</date> (AVN B
+        101.01.01.004, p.&#160;197) et l'on apprend que l'un des frères se prénomme <persName
+         ref="per023780a.01">Jehan</persName>.</note> pour sçavoir si on <lb/>peut repeter et
+       demander restitution ou recompence. <lb/>des fruicts, <term ref="lem015365.02">rosées</term>
+       et revenus du bien et <lb/>mariage qu’une femme porte avec son mary <lb/>et mect en commun
+       avec l’autre bien de <lb/>la maison indivis entre sondict mary et <lb/>ses freres.</head>
+      <p>
+       <lb/>A esté dit et ordonné par desclaration que quand un <lb/>homme qui est <term
+        ref="lem015629">entronqué</term> et en bien commun avec ses <lb/>freres vient à se marier et
+       mect le bien de sa femme <lb/>en commun avec l’autre bien de la maison sans faire <pb
+        n="371r" facs="AVN_B_101.14.001_0371r"/>
+       <lb/>aucune <term ref="lem015551">proteste</term> ny reserve d’en tirer recompense, se
+       <lb/>nourrissant et entretenant mesme avec sadicte femme et <lb/>les enffans qu’ils ont de
+       leur mariage en la maison et <lb/>sur le bien. Icelluy ne peut par après repeter ny demander
+       <lb/>les <term ref="lem015365.02">rosées</term> du bien de sadicte femme ny parties d’icelles
+       <lb/>pour ledict temps qu’il a esté ainsi en communion n’ayans <lb/>lesdicts sieurs
+       conseillers par veu usiter par le passé <lb/>qu’on ait retiré telles <term ref="lem015365.02"
+        >rosées</term> et leur estant admis que <lb/>ce n’est la raison ny l’equité. </p>
+     </div>
+     
+       
+    </body>
+   </text>
+  </group>
+ </text>
+</TEI>

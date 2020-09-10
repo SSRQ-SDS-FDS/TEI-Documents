@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-08-19"/>
+            <date type="print"/>
+            <availability default="false">
+               <p xml:id="facs">Staatsarchiv St. Gallen (StASG)</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_160</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>StASG AA 2 A 3-5</idno>
+                  
+               </msIdentifier>
+               <head>Zeremoniell beim Aufritt des Landvogts</head>
+               <msContents>
+                  <summary>
+                     <p>Detaillierte Beschreibung des Zeremoniells beim Aufritt des Landvogts.</p>
+                  </summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <filiation type="original">
+                        <origDate from="1615-05-01" to="1615-05-09">Undatiert.</origDate>
+                        <idno></idno>
+                     </filiation>
+                     <filiation type="current">Aufzeichnung (Doppelblatt)</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="20.0"/>
+                              <width unit="cm" quantity="17.0"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate from="1615-01-01" to="1700-12-31">nach</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000180">Landvogt</term>
+               <term ref="key000204">Verwaltung</term>
+               <term ref="key004378">Aufritt</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <div org="uniform" sample="complete">
+                  <pb n="1r" facs="StASG_AA_2_A_03-05_01"/>
+                  <head>
+                     <term ref="lem015312.02">Ceremoniale</term> bey dem <placeName ref="loc000278">Saxeschen</placeName>
+                     <term ref="lem004051">aufrit</term>
+                  </head>
+                  <p>
+                     <lb/>Erstens proponirt <abbr>hr</abbr>
+                     <choice>
+                        <abbr>smr</abbr>
+                        <expan>
+                           <term ref="lem001645">seckelmeister</term></expan>
+                     </choice> folgenden ohngfarlichen innhaltes: <lb/>Weilen <abbr>hr</abbr> N
+                        <term ref="lem015313.02">regierungs jahr</term> glüklichen zu ende geloffen,
+                     haben <choice>
+                        <abbr>m h</abbr>
+                        <expan>meine herren</expan>
+                     </choice>
+                     <choice>
+                        <abbr>rathrn</abbr>
+                        <expan>ratherren</expan>
+                     </choice> burger <lb/><unclear>sein</unclear> zu einem <choice>
+                        <abbr>landtv</abbr>
+                        <expan>landtvogt</expan>
+                     </choice> über dißere <term ref="lem000268">herschaft</term> erwehlt <choice>
+                        <abbr>hrn</abbr>
+                        <expan>herrn</expan>
+                     </choice> N N.</p>
+                  <p>
+                     <lb/>Welchen er hiermit auch nach biß horiger ubung deroselben in nammen und von wegen <choice>
+                        <abbr>mgh</abbr>
+                        <expan>meiner gnädigen herren</expan>
+                     </choice>
+                     <lb/>gebürend vorstellen, dem neuen <abbr>hr</abbr>
+                     <choice>
+                        <abbr>ldtv</abbr>
+                        <expan>landtvogt</expan>
+                     </choice> dar zu von hertzen beglückwunschen, anbey zu dem <lb/>selben das sunder
+        verkeünden<sic/>, daß er seinen auf habenden pflichten gnug thun und wol <lb/>regieren
+        werde.</p>
+                  <p>
+                     <lb/>An sie, seine neu undergebene, lange hiermit das befelchiche, oberkeitliche ansinnen,
+        <lb/>daß sie denne alß neu ihrem von und auß <choice>
+                        <abbr>mgnhh</abbr>
+                        <expan>meinen gnädigen herren</expan>
+                     </choice>
+                     <unclear>gsetzten</unclear>
+                     <term ref="lem000266">landtvogt</term> alle erforderliche <lb/>ehre, respect, treu,
+        gehorsamm, lieben erweißen.</p>
+                  <p>
+                     <lb/>Und darmit ein jeder under ihnen wußen mogen, was harinnen fals seine pflichten,
+        <lb/>so sollen sie <unclear>thruw</unclear> auf den ihnen verleßenden eyd achtung geben und
+        denne hernach <lb/>gewohnter maßen.</p>
+                  <p>
+                     <lb/>
+                     <foreign xml:lang="la">Clauditur voto</foreign>
+                  </p>
+                  <p>
+                     <lb/>Darauf nimt der <term ref="lem000449">landtammann</term> das wort:
+                        <lb/><term ref="lem015316.01">Beneventiert</term>
+                     <foreign xml:lang="la">communi nomine </foreign>dem <abbr>hr</abbr>
+                     <choice>
+                        <abbr>smr</abbr>
+                        <expan>seckelmeister</expan>
+                     </choice> und neuen <choice>
+                        <abbr>hrn landtv</abbr>
+                        <expan>herrn landtvogt</expan>
+                     </choice>, <lb/><term ref="lem015315.01">encomisiert</term> deß alten <choice>
+                        <abbr>hrn ldtv</abbr>
+                        <expan>herrn landtvogt</expan>
+                     </choice>
+                     <term ref="lem002961">regierung</term>
+                     <abbr>etc</abbr>. <lb/>Gratuliert darauf dem neuen <choice>
+                        <abbr>hrn ldtvgt</abbr>
+                        <expan>herrn landtvogt</expan>
+                     </choice>
+                     <lb/>mit anfügen, daß si so willig alß schuldig, demme den gewohnten <term
+                        ref="lem000070">eyd</term>
+                     <unclear>zekreften</unclear>
+                     <lb/>versechen, hingegen gegen demselben <lb/><choice>
+                        <abbr>lobl</abbr>
+                        <expan>lobliche</expan>
+                     </choice> regierung und daß er sie bei ihren rechten und freiheiten kraftig
+                     schützen und schirmen <lb/>und <unclear>so</unclear> sie mit keinen neuerungen
+                     beschwerden werde.</p>
+                  <pb n="1v" facs="StASG_AA_2_A_03-05_02"/>
+                  <p>
+                     <lb/>Nach dißem <term ref="lem008112">verloßt</term> der <term ref="lem002854">landtschreiber</term> den eyd mit ludter und verstandtlicher <lb/>stimme:</p>
+                  <p>
+                     <lb/>Denne <unclear>so</unclear>
+                     <foreign xml:lang="la">vox coro </foreign> der neue <choice>
+                        <abbr>landtv</abbr>
+                        <expan>landtvogt</expan>
+                     </choice> der <term ref="lem006896">gemeind</term> gebet und die denne schweret. <lb/>Auf
+       dißes hin nimt der neue <choice>
+                        <abbr>h ldtv</abbr>
+                        <expan>herr landtvogt</expan>
+                     </choice> das wort, <lb/>anerbietet sich der gemeind alles gueten, <foreign xml:lang="la">per
+        specialitem</foreign> verspricht, sie bei ihren <lb/>rechten und gerechtigkeiten zeschützen
+       und zeschirmen <abbr>etc</abbr>. <lb/>Ermahnet sie hingegen zu schuldiger gehorsammen und
+       getruwer erstattung <lb/>deß nun geleisteten eydes.</p>
+                  <p>
+                     <lb/>Endtlicher ersucht der alte <choice>
+                        <abbr>hr ldtv</abbr>
+                        <expan>herr landtvogt</expan>
+                     </choice>, ihne seines aufgehabten <lb/><term ref="lem000070">eydes</term>
+                     gnedig zeentlaßen, gleich er hier mit auch die ganntze gemeinde deß <lb/>ihme
+                     geleisteten eydes entlaße, gratulirt dem neuen <choice>
+                        <abbr>hr ldtvogt</abbr>
+                        <expan>herr landtvogt</expan>
+                     </choice>, <lb/>anfugend, er verhoffe, seine <term ref="lem002892"
+                        >verwaltung</term> innmaßen eingerichtet zehaben, daß niemand <lb/>sich dero
+                     mit grund beschweren konne, <unclear>vermeintinte</unclear> aber jemand
+                     beschwert zesein, <lb/>sölle der sich freymütig angeben, weilen <abbr>hr</abbr>
+                     <choice>
+                        <abbr>smr</abbr>
+                        <expan>seckelmeister</expan>
+                     </choice> annoch bey der stellen. </p>
+               </div>
+               <pb facs="StASG_AA_2_A_03-05_03"/>
+               <div org="uniform" sample="complete">
+                  <ab type="dorsal" hand="hand18c?" place="cover">
+                     <lb/>Sino dato.</ab>
+               </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div n="1" org="uniform" sample="complete">
+            <p>Kurz nach dem <term ref="key000369">Kauf</term> der Freiherrschaft <placeName
+                  ref="loc000278">Sax-Forstegg</placeName> (<ref>SSRQ_SG_III_4_158</ref>) durch
+                  <orgName ref="org001196">Zürich</orgName> beschliessen am 25. April 1615 beide
+                  <term ref="key000133">Bürgermeister</term>, die <orig><term ref="lem015317.02"
+                     >obristen meisterr</term></orig> und die <term ref="key000636"
+                  >Säckelmeister</term> von <placeName ref="loc000065">Zürich</placeName>, dass die
+               drei Zürcher Gesandten, Bürgermeister <persName ref="per002294a">Rahn</persName>,
+               Statthalter <persName ref="per009063a">Keller</persName> und Bannerherr <persName
+                  ref="per002157a">Holzhalb</persName>, den neu gewählten <term ref="key000180"
+                  >Landvogt</term> in die <term ref="key000204">Verwaltung</term> einführen sollen.
+               Die <orgName ref="org001228">Bewohnerschaft von Sax-Forstegg</orgName> soll aus dem
+                  <term ref="key000179">Eid</term> mit Freiherr <persName ref="per004774">Friedrich
+                  Ludwig von Sax-Hohensax</persName> entlassen werden und den neuen Herren huldigen.
+               Der sogenannte Aufritt eines Landvogts dauert in Sax-Forstegg drei Tage und wird
+               ausführlich für 1718 (7. bis 9. Mai 1718) beschrieben: In Anwesenheit von
+               Säckelmeister <persName ref="per009089a">Johann Konrad Escher</persName>, Ratsherr
+                  <persName ref="per009090a">Waser</persName>, alt Landvogt <persName
+                  ref="per009092">Hans Ulrich Bodmer</persName> und dem neuen Landvogt <persName
+                  ref="per009091a">Konrad Waser</persName> werden am ersten Tag der <term
+                  ref="key000185">Hausrat</term> des <term ref="key000186">Schlosses</term>
+               <placeName ref="loc006124">Forstegg</placeName> revidiert sowie das <term
+                  ref="key005166">Zeughaus</term> besichtigt und inventarisiert, diverse
+               Verwaltungssachen entschieden und einige Anliegen der Herrschaftleute behandelt. Am
+               zweiten Tag werden die <term ref="key000215">Huldigungen</term> vorgenommen und am
+               dritten <term ref="key000748">Besichtigungen</term> über den Zustand der
+               herrschaftlichen <term ref="key000147">Güter</term>, <term ref="key000794"
+                  >Kirchen</term>, <term ref="key000047">Mühlen</term> etc. vorgenommen und vor Ort
+               Streitigkeiten geschlichtet (ausführlich beschrieben in <bibl><ref>StASG AA 2 B
+                     007</ref></bibl>, S. 549–571).</p>
+            <p>Die vorliegende Niederschrift über die Zeremonie beim Aufritt eines Landvogts ist
+               undatiert. Wahrscheinlich ist sie vor dem ersten <term ref="key004378">Aufritt</term>
+               des <term ref="key000180">Landvogts</term> von Sax-Forstegg am 9. Mai 1615
+               entstanden. Solche Zeremonien sind kaum verschriftlicht; häufiger finden sich
+               Beschränkungen der <term ref="key000600">Begleitung</term> des Landvogts und der
+                  <term ref="key004191">Mahlzeiten</term>, da ein solcher <term ref="key004378"
+                  >Aufritt</term> recht aufwändig und mit grossen <term ref="key000270"
+                  >Kosten</term> verbunden ist (vgl. z. B. <bibl><ref
+                     target="https://www.ssrq-sds-fds.ch/online/AG_II_8/index.html#p_164">SSRQ AG
+                     II/8, Nr. 61</ref></bibl>; <bibl><ref
+                     target="https://www.ssrq-sds-fds.ch/online/GL_1.2/index.html#p_782">SSRQ GL
+                     1.2, Nr. 32</ref></bibl>; <bibl><ref
+                     target="https://www.ssrq-sds-fds.ch/online/LU_II_2.1/index.html#p_501"
+                     >SSRQ LU II/2.1, Nr. 121</ref></bibl>). Auch <orgName ref="org001196"
+                  >Zürich</orgName> beschränkt die Ausgaben ihres Landvogts beim Aufritt in
+               Sax-Forstegg für Mahlzeiten (<ref>SSRQ_SG_III_4_207</ref>, Art. 2; zu den
+               Kosten vgl. z. B. die Rechnung betreffend den Aufritt vom 28. bis zum 30. April 1746
+                     [<bibl><ref>StASG AA 2 A 3-13-38</ref></bibl>] sowie die Kosten allein für die
+               Reise vom 29. April bis zum 5. Mai 1784 nach Sax-Forstegg in der Höhe von
+                     <measureGrp><measure quantity="410" type="currency" unit="fl">410
+                     Gulden</measure> und <measure quantity="45" type="currency" unit="xr">45
+                     Kreuzer</measure></measureGrp> [<bibl><ref>StASG AA 2 A
+               03-13-53</ref></bibl>]). </p>
+         </div>
+         <div n="2" org="uniform" sample="complete">
+            <p>Zum Zeremoniell beim Aufritt eines Landvogts von <placeName ref="loc000440"
+                  >Werdenberg</placeName> siehe <bibl><ref>(PA Hilty) Privatarchiv Kopial- und
+                     Formularbuch von Christian Litscher</ref></bibl>, S. 25–28, mit dem Titel:
+                  <orig><lb/>Folget, wie ein <choice>
+                     <abbr>lama</abbr>
+                     <expan>landammann</expan>
+                  </choice> zuo <placeName ref="loc000440">Werdenberg</placeName>, wan mann ein
+                  neüwen <choice>
+                     <abbr>lvogt</abbr>
+                     <expan>
+                        <term ref="lem000266">landvogt</term>
+                     </expan>
+                  </choice>
+                  <term ref="lem014851">uffüört</term>, selbige ehren gesanten samt dem neü<lb/>wen <choice>
+                     <abbr>lvogt</abbr>
+                     <expan>landvogt</expan>
+                  </choice> kan sallutieren, auch wie mann <term ref="lem000374">huldigen</term>
+                  <lb/>soll <abbr>etc</abbr></orig>. </p>
+            <p>Zum Zeremoniell vgl. auch den Aufritt eines Landvogts in <placeName ref="loc005948"
+                  >Willisau</placeName> (<bibl><ref
+                     target="https://www.ssrq-sds-fds.ch/online/LU_II_2.1/index.html#p_502"
+                     >SSRQ LU II/2.1, Nr. 121, Bem. 2</ref></bibl>) sowie die detaillierte
+               Beschreibung von <term ref="key000180">Landvogt</term>
+               <persName ref="per009093a">Johann Jakob Holzhalb</persName> von <placeName
+                  ref="loc000065">Zürich</placeName> über seinen Aufritt in den <placeName
+                  ref="loc000285.01">Freien Ämtern</placeName> 1717 (<bibl><ref
+                     target="https://www.ssrq-sds-fds.ch/online/AG_II_9/index.html#p_26">SSRQ AG
+                     II.9, Nr. 7a</ref></bibl>).</p>
+         </div>
+      </back>
+   </text>
+</TEI>

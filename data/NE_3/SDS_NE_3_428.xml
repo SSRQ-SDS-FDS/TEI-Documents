@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     n="1234"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="headerinfo"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2020-08-17"/>    <date type="print"/>
+    <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Collection des sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des
+      sources
+      du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS_NE_3_428</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>AVN B 101.14.002, fol. 64v–65r</idno>
+               </msIdentifier>
+               <head>Succession d’oncle et tante</head>
+               <msContents>
+                  <summary>La succession d’un oncle ou d’une tante morts ab intestat, les neveux et
+                     nièces viennent en concours de succession avec un oncle ou une tante encore
+                     vivants, par droit de représentation de leur père ou mère à l’héritage du
+                     défunt (par souche). S’il n’y a plus d’oncle ou de tante encore vivants, les
+                     neveux et nièces sont admis à la succession par tête.</summary>
+                  <msItem>
+                     <textLang>français</textLang>
+                     <filiation type="current"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="34.5"/>
+                              <width unit="cm" quantity="22"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1748-04-22"/>
+                     <origPlace ref="loc007786">Neuchâtel</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head/>
+                     <bibl/>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000920"/>
+               <term ref="key000815"/>  
+               <term ref="key000091"/>
+               <term ref="key005073"/>
+               <term ref="key000232"/>
+               <term ref="key005074"/>
+               <term ref="key000803"/>
+               <term ref="key003521"/>
+               <term ref="key004995"/>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="64v" facs="AVN_B_101.14.002_0064v"/>
+               <div>
+                  <p>
+                     <lb/>À monsieur le maître bourgeois <lb/>en chef et à messieurs du <orgName
+                        ref="org003085">Conseil Étroit de <lb/>la Ville de <placeName
+                           ref="loc007786">Neuchatel</placeName></orgName>. </p>
+                  <p>
+                     <lb/><persName ref="per008683">Daniel François Matthieu</persName>, un de vos
+                     bourgeois, vous <lb/>supplie très humblement de luy acorder votre déclaration
+                     <lb/>de l’usage &amp; de la coutume dans le cas suivant. </p>
+                  <p>
+                     <lb/>Si, lors qu’il est dit que plusieurs enfans en la succession
+       <lb/>du bien de leur oncle &amp; tante ne peuvent représenter que
+       <lb/>la personne de leur père ou mère &amp; qu’ils ne peuvent
+       <lb/>retirer &amp; percevoir entre tous qu’une portion desdits biens,
+       <lb/>&amp; rien plus qu’un autre neveu qui sera seul, la coutume
+       <lb/>n’admet aucune distinction des cas, où des neveux viennent
+       <lb/>en concours en la succession du deffunt avec un oncle ou
+       <lb/>une tante encore vivans, ou lors qu’il n’y a plus d’oncle
+       <lb/>ni de tante, c’est à dire si au premier égard la coutume
+                     <lb/>y appelle les neveux par représentation&#160;; &amp; si au second
+       <lb/>elle les appelle indistinctement par tête, ou invariable<lb break="no"/>ment dans l’un ou l’autre cas &amp; sans égard à cette
+       <lb/>distinction.
+      </p>
+                  <p>
+                     <lb/>Sur la requête cy dessus, messieurs le maître bourgeois <lb/>en chef &amp;
+       <orgName ref="org003085">Conseil Étroit</orgName>, ayant consulté &amp; délibéré, <lb/>donnent par
+       déclaration. </p>
+                  <p>
+                     <lb/>Que, dans la succession d’un oncle ou d’une tante mort
+       <lb/>ab intestat, le neveus &amp; nièces viennent en concours de
+       <lb/>succession avec un oncle ou une tante encore vivans, par
+       <lb/>droit de représentation de leur père ou mère à l’héritage du
+       <lb/>deffunt, tout comme si leurdit père ou mère étoient
+       <lb/>encore vivans &amp; héritent dans le cas susdit par souche, mais
+       <lb/>lors qu’il n’y a plus d’oncle ni de tante vivans, l’usage en ce
+       <lb/>dernier cas appelle les neveus &amp; nièces vivans a être admis
+       <lb/>par tête dans ladite succession.
+      </p>
+                  <pb n="65r" facs="AVN_B_101.14.002_0065r"/>
+                  <p>
+                     <lb/>Laquelle déclaration ainsy rendue il a été ordonné au <lb/>secrétaire du
+                     Conseil soussigné de l’expédier en cette forme <lb/>sous le sceau de la mairie
+                     et justice de <origPlace ref="loc007786">Neuchatel</origPlace> ce <origDate
+                        when="1748-04-22">22<hi rend="sup">e</hi>
+                        <lb/>avril <hi rend="underline">1748</hi></origDate>.
+                  </p>
+               </div>
+            </body>
+         </text>
+      </group>
+   </text>
+</TEI>

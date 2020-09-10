@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-08-15"/>
+            <date type="print"/>
+            <availability><p xml:id="facs">Sibylle Malamud</p></availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_154_1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>OGA Gams Nr. 73</idno>
+               </msIdentifier>
+               <head>Schwyz und Glarus bewilligt Gams den Abzug auf Güter, die aus dem Land gezogen werden</head>
+               <msContents>
+                  <summary>
+                     <p>Vor Schwyz und Glarus erscheinen Ammann Hans Schöb und Säckelmeister Thür als
+                        Abgeordnete der Gemeinde Gams und berichten, dass sie bis jetzt von Gütern, die ins
+                        Ausland transferiert werden, keine Gebühr oder Steuer (Abzug) genommen haben. Sie haben
+                        beschlossen, einen Abzug einzuführen, wie dies auch in Uznach und Gaster und anderen
+                        Herrschaften getan wird. Der Antrag wird von Schwyz und Glarus bewilligt. Zwei Drittel
+                        des Abzugs gehen an Schwyz und Glarus und ein Drittel darf Gams behalten.</p> <p>Die Aussteller
+                           siegeln.</p>
+                  </summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <filiation type="current">Original</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support><material>Pergament</material></support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="26.0"/>
+                              <width unit="cm" quantity="49.5"/>
+                           </dimensions>
+                           <dimensions type="plica">
+                              <width unit="cm" quantity="7.5"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <sealDesc>
+                     <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI"
+                           n="1"
+                           nontei:condition="well-preserved"
+                           nontei:material="wax in a box"
+                           nontei:shape="round"
+                           nontei:attachment="sealed on a parchment tag">
+                        <orgName role="sigillant" ref="org001191">Schwyz</orgName>
+                     </seal>
+                     <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI"
+                           n="2"
+                           nontei:condition="in a box"
+                           nontei:material="wax"
+                           nontei:shape="round"
+                           nontei:attachment="sealed on a parchment tag">
+                        <orgName role="sigillant" ref="org001197">Glarus</orgName>
+                     </seal>
+                  </sealDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1612-12-25"/>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000446">Abzug</term>
+               <term ref="key000431">Gegenrecht</term>
+               <term ref="key000297">Bewilligung</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <div org="uniform" sample="complete">
+                  <pb facs="OGA_Gams_Nr._73"/>
+                  <p>
+                     <seg>
+                        <lb/>Wir, <orgName ref="org003265">landtaman und räth beider lannden
+                           Schwytz</orgName> und <orgName ref="org003239">Glaruß</orgName>,
+                        bekhennend offenbar unnd thund <lb/>khundt aller menigckhlichem hiemit
+                        dißerm brieffe, daß uff hütt dato vor unnß erschinen synnd <term
+                           ref="lem009653">amman</term>
+                        <persName ref="per009073a">Hanß Schoüb</persName> und <term ref="lem001645"
+                              >seckelmeist<lb break="no"/>er</term>
+                        <persName ref="per009094a">Thür</persName> als abgeordneti anwält von
+                        unßeren lieben und gethrewen, einer ganntzen gmeind zu <orgName
+                           ref="org001881">Gammbs</orgName>, und unß in namen derselbigen
+                        <lb/>fürgebracht, wie und waß gestalt sy sich biß har gägen mengckhlichem,
+                        so guth uß irer gmeind gezogen, deß <term ref="lem001009">abzugs</term>
+                        halben verhaltten, <lb/>als nammlich:</seg>
+                     <seg>Obglychwol alleß <term ref="lem001066">hab und guth</term>, so sy in ir
+                           <term ref="lem006896">gmeind</term>
+                        <term ref="lem012371">gezogen</term>, an orthen, da es gfallen, ver abzuget
+                        wärden müeßen, habend sy <lb/>doch biß dahin von nieman khein <term
+                           ref="lem001009">abzug</term> genommen, sonder menigkhlich mit allem guth,
+                        so by inen gfallen, ohne eynichen nachzug ver<lb break="no"/>faren
+                           laßen.<note anchored="true">Am gleichen Tag legt Gams eine Kundschaft vor
+                           mit dem Beweis, dass die Gemeinde bisher nie einen Abzug genommen habe.
+                           Die Gemeinde will jetzt eine Gebühr von 5% nehmen von Gemeinden, die
+                           ebenfalls Gebühren erheben (<bibl><ref>StASZ HA.IV.404, Nr. 11</ref></bibl>).</note> Unnd diewyl sich dann ein
+                        gmeind <orgName ref="org001881">Gammbs</orgName> erinnert, daß dißer bißhar
+                        geüebter <term ref="lem001670">bruch</term> inen mer zu <lb/>nachtheyl dann
+                        befürderung ires nutzes diene, habend sy sich under einanderen vereinbareth,
+                        sich in khünfftigem deß abzugs <lb/>halben zu gebruchen, wie sy
+                        verstendiget, sich die unßern der grafschafft <placeName ref="loc001076.01"
+                           >Utznach</placeName> und <placeName ref="loc000842">Gaster</placeName>
+                        ouch gebruchend. Und ließ<lb break="no"/>ennd unß daruff in namen einer
+                        gmeind zu <orgName ref="org001881">Gammbs</orgName> gantz underthenig und
+                        demüetig bitten, inen nach irem fürbringenden be<lb break="no"/>garen
+                        gnädigkhlichen zu willfaren und daß sy sich in khunfftigem wie andere
+                        unnßere underenthonen im <placeName ref="loc000842">Gaster</placeName> deß
+                        abzugs <lb/>halben verhaltten mögennd zu laßen. Daß begärend sy in aller
+                        underthenigkheitt ganntz demüetig und guttwillig zu ver<lb break="no"
+                        />dienen <abbr>etc</abbr>.</seg>
+                     <seg>Nach dem wir nun die unßeren in irem fürbringen abghörtt und ir begären
+                        nüt unzim<lb break="no"/>lich befunden, hannd wir inen so fürtragend pitten
+                        nüt abschlachen, sonder in gutter form zu laßen und bewiligen wellen:</seg>
+                     <seg>
+                        <lb/>Nammlich daß sy, die unßern von <orgName ref="org001881"
+                           >Gammbs</orgName>, deß <term ref="lem001009">abzugs</term> halben gägen
+                        iren <term ref="lem006532">nachpuren</term> und anderen <term
+                           ref="lem011868">ußertt unßeren land<lb break="no"/>en</term> deß haltten
+                        sollend und mögend in weyß und gstalt, wie sich andere, so es dann antreffen
+                        möcht, gägend inen auch ver<lb break="no"/>haltend. Da dann die <term
+                           ref="lem015321.02">zwen theyl</term> deß selben unß, beiden orthen, und
+                        der <term ref="lem009984.04">dritte</term> den unßeren von <orgName
+                           ref="org001881">Gammbs</orgName> ghören sölle, <lb/>alles wie vor stath,
+                        unß und unßeren altten rächtsammenen ohne schaden, also auch den unßeren von
+                           <orgName ref="org001881">Gambs</orgName> an allen <lb/>anderen iren von
+                        unß gegäbnen und gutt gheysinen fryheytten on ingriffen, sonder wellend sy
+                        by selbigen schützen und schirmen.</seg>
+                     <seg>
+                        <lb/>Unnd deß zu warem urkhundt, so hannd wir, beide orth <orgName
+                           ref="org001191">Schwytz</orgName> und <orgName ref="org001197"
+                           >Glaruß</orgName>, uff der unßeren pitt hin unnßer <lb/>secreth insigel
+                        offentlich heran henckhen und gäben lassen, den <origDate when="1612-12-25"
+                           >25isten tag decemmbris nach <persName ref="per000353">Cristi</persName>,
+                           unßers herren, geburth <lb/>als man zaltt sächs zachen hundertt und
+                           zwölff jare</origDate>.</seg>
+                  </p>
+               </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div n="1" org="uniform" sample="complete">
+            <p>Die beiden Orte <orgName ref="org001191">Schwyz</orgName> und <orgName
+                  ref="org001197">Glarus</orgName> bewilligen in dieser Urkunde vom 25. Dezember
+               1612 der Gemeinde <orgName ref="org001881">Gams</orgName> eine Gebühr oder Steuer
+                  (<term ref="key000446">Abzug</term>) auf Güter, die ins <term ref="key000847"
+                  >Ausland</term> transferiert werden. Doch bereits zwei Jahre später versucht
+               Glarus, die hier bewilligten Rechte am <term ref="key000446">Abzug</term> zu
+               schmälern, weshalb sich Gams am 22. Dezember 1615 bei <orgName ref="org001191"
+                  >Schwyz</orgName> beschwert. Schwyz sichert ihnen darauf den Schutz ihrer Rechte
+               und Freiheiten gegenüber Glarus zu (Original:
+                  <bibl><ref>PA Hilty S 006/023</ref></bibl>; Kopie: <bibl><ref>StASG AA 2 A
+                     14-13</ref></bibl>). Am 15. Februar 1616 bestätigt Glarus Gams erneut den
+               Abzug, mit der Bedingung, dass Glarus weiterhin einen Drittel der Einnahmen bekomme
+                     (<bibl><ref>PA Hilty S 006/024</ref></bibl>). </p>
+            <p>1736 beschweren sich die Gamser bei Schwyz, dass der Abzug anderer Ortschaften bei
+               Gütern, die von ausserhalb nach Gams transferiert werden, oft sehr hoch sei. Da es
+               fast überall üblich sei, sich des <term ref="key000431">Gegenrechts</term> zu
+               bedienen, bestimmt Schwyz, dass Gams laut Gegenrecht von solchen Orten den Abzug in
+               gleicher Höhe beziehen soll (<bibl><ref>OGA Gams  Nr. 158</ref></bibl>).</p>
+         </div>
+         <div n="2" org="uniform" sample="complete">
+            <p>Zum <term ref="key000446">Abzug</term> zwischen <placeName ref="loc000211"
+                  >Gams</placeName> und anderen Ortschaften vgl.
+                  <bibl><ref>PA Hilty S 006/020</ref>; <ref>S 006/035</ref> und <ref>S
+                  006/025</ref></bibl> (<placeName ref="loc000026">Walenstadt</placeName>);
+                     <bibl><ref>PA Hilty S 006/022</ref></bibl> und
+                  <bibl><ref>OGA Gams Nr. 78</ref></bibl> (<placeName ref="loc000439"
+                  >Altstätten</placeName>); <bibl><ref>OGA Gams Nr. 76</ref></bibl> (<placeName
+                  ref="loc000007">Chur</placeName>); <bibl><ref>OGA Gams Nr. 82</ref></bibl>
+               (Hofgemeinde <placeName ref="loc006307">Eichberg</placeName>);
+               <bibl><ref>StASZ HA.IV.405, o. Nr.</ref></bibl>
+               (25.03.1791–12.07.1791); <bibl><ref>StASZ HA.IV.405, o. Nr.</ref></bibl>
+               (09.10.1791, <placeName ref="loc005996">Appenzell</placeName>). Zahlreiche Dokumente
+               zum Abzug im OGA Gams fehlen (Nr. 74–75, Nr. 77, Nr. 79–81, Nr. 83–86, Nr. 88–89
+               [1613–1621, besucht Juni 2014]).</p>
+            <p>Zum Abzug zwischen Gams und <placeName ref="loc000278">Sax-Forstegg</placeName> vgl.
+     <ref>SSRQ_SG_III_4_164</ref>.</p>
+         </div>
+      </back>
+   </text>
+</TEI>

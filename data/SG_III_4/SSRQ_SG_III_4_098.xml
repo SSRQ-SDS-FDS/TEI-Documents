@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-08-15"/>
+            <date type="print"/>
+            <availability><p xml:id="facs">Sibylle Malamud</p></availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_098</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>PA Hilty S 006/008</idno>
+               </msIdentifier>
+               <head>Fragment einer Strafrechtsordnung mit Artikeln zu Friedbruch, zu Körperverletzung und zu Schlägereien</head>
+               <msContents>
+                  <summary>Fragment einer Strafrechtsordnung mit Artikeln zu Friedbruch, zu Körperverletzung
+			und zu bewaffneten Schlägereien: Wer den Frieden mit Taten bricht, muss vor dem
+			Landgericht vertrösten. – Wenn jemand den Frieden mit Worten bricht, soll das Recht vor dem
+			Niedergericht gesucht werden. – Wer jemanden verletzt oder mit einer Waffe schlägt, wird vor
+			Landgericht gerichtet.</summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <filiation type="current">Aufzeichnung, Fragment (Einzelblatt)</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="16.0"/>
+                              <width unit="cm" quantity="22.0"/>
+                           </dimensions>
+                        </extent>
+                        <condition>gut, Ränder mit Papier verstärkt</condition>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate from="1501-01-01" to="1600-12-31">Undatiert</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000586">Strafrecht</term>
+               <term ref="key000341">Ordnung</term>
+               <term ref="key000592">Friedenssicherung</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <div>
+                  <p><pb n="1r" facs="PA_Hilty_S_003-008_1r"/>
+                     <seg n="1"><lb/>Item welicher ouch den andren uber botnen und gmachten <term ref="lem005859"
+                        >friden</term> mit <lb/>der <term ref="lem001913">fûnst</term>
+                        <term ref="lem013962">schlacht</term>, der sol fur <term ref="lem001187">landtgricht</term>
+                        <term ref="lem000734">vertroͤsten</term>.</seg>
+                     <seg n="2">Welicher <lb/>aber den <term ref="lem006040">friden mit wortten bricht</term>, den
+                        sol man mit recht <lb/>vor der <term ref="lem010924">nidren grichten</term> suͦchen und den
+                        darûm <term ref="lem000630">straffen</term>.</seg></p>
+                  <p><seg n="3"><lb/>Item und welicher oûch den andren mit der <term ref="lem001913">fûnst</term>
+                     freffenlich <term ref="lem010822">bluͦtrûnsi <lb/>schlacht</term> oder sûnst einer den
+                     andren <term ref="lem001989">mit gewaffneter hand</term>, mitt <lb/><term ref="lem002311"
+                        >stecken</term> oder <term ref="lem001916">sparen</term> schlacht, die selbigen alle
+                     sollend fur landgricht <lb/>vertroͤsten und jeder da selbs recht gon lassen, alles lût
+                     <lb/>fridzedels.</seg>
+                     <seg><add place="below" hand="hand19c" scribe="per005429a">Fragment eines malefizrechtes
+                        (strafgesezes), wahrscheinlich <lb/>der herrschaft <placeName ref="loc006040">Hohensax und
+                           Gams</placeName></add></seg></p>
+                  <pb n="1v" facs="PA_Hilty_S_003-008_1v"/>
+                  <p><seg n="4"><lb/>Item und also ist eines <term ref="lem000266">landtvogts</term> geheiß an
+                     jeder <lb/><term ref="lem000043">weibel</term>, <term ref="lem000006.04">amann</term> und
+                     ander <term ref="lem000089">amptlüt</term>, das sy soliches <lb/>alles, wie obstatt, halten.
+                     Und wer über <term ref="lem005859">frid</term> handlety, <lb/>wie das ein <term
+                        ref="lem000625">lantzratt</term> angesehen hatt, für <term ref="lem001187"
+                           >landgricht</term>
+                     <lb/>vertroͤsten, heissen und nit vor den wydren grichten <lb/>suͦchen, wie das angesehen
+                     ist <abbr>etc</abbr>.</seg>
+                     <!--Vorderseite: Item und wo des...
+        lütten vil muͤg ...
+        dan frid brechen ...
+        huͤten kan, haben....
+        gmeiner zwifach...
+        rügen nüw ...
+        recht zuͦ straffen...
+        Wer der syg unan...
+        parthyt und ...
+        ...zwen...
+        mit der funst oder...
+        parthyt der sol für...
+        gon lassen...
+        zedels etc.
+        Rückseite:... vogt und gemeiner erber zwifacher lantzratt
+        ...dtvogt und gmein landtlüt des in 
+        ... rätten sich mit ein andren vereint und 
+       ...ein andren darby zuͦ schirmen zuͦ geseit 
+       ... und jeder landtman dester fürderlichen 
+       ... und hinder dem friden geston etc.
+       ....ein andren in frid komen und darüber 
+       ... machten friden einer den andren mit 
+       .... er und bluͦtruns macht von dem
+       ...kuntschafft hatt und an den tag kompt 
+       ... wol alweg mit ratt handlen kan 
+       ... annemen und für ein recht stellen.
+       ...recht gon lassen. Welicher aber 
+       ... über botten und gmachten friden ire 
+       ...für landtgricht vertrösten heissen
+       ... alles nach lut und sag des.
+       -->
+                  </p>
+               </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div n="1"><p>Es handelt sich hier um ein Fragment einer <term ref="key000586">Strafrechtsordnung</term> aus
+            dem frühen <date from="1501-01-10" to="1600-12-31">16.&#160;Jh.</date> Hinter diesen Regelungen steht die Idee der <term
+               ref="key000592">Sicherung</term> des <term ref="key003246">Frieden</term>s innerhalb eines
+            Herrschaftsbereichs. <term ref="key000506">Friedbruch</term>, <term ref="key003394"
+               >Körperverletzung</term>, <term ref="key000642">Schlägereien</term> und die jeweilige
+            Zuständigkeit des <term ref="key000337">Landgerichts</term> oder <term ref="key000151"
+               >Niedergerichts</term> je nach Art des begangenen Gewaltdelikts werden erwähnt. Ein Friedbruch
+            mit Worten, z.&#160;B. durch eine <term ref="key000292">Verleumdung</term>, wiegt weniger
+            schwer als ein Friedbruch mit <term ref="key000902">Waffen</term> und kommt deshalb vor das
+            niedere Gericht und nicht das Landgericht.</p></div>
+         <div n="2"><p>Zu welcher Herrschaft die Friedensordnung gehört, ist unklar. Die Entstehungszeit sowie die
+               Erwähnung eines <term ref="key000180">Landvogts</term> lässt darauf schliessen, dass
+               es sich um ein <term ref="key000649">Herrschaftsgebiet</term> der <orgName
+                  ref="org000531">Eidgenossen</orgName> handelt. Aus diesem Zeitraum existieren für
+                  <placeName ref="loc000440">Werdenberg</placeName> oder <placeName ref="loc006040"
+                  >Hohensax-Gams</placeName> Friedensordnungen, die jedoch inhaltlich nicht mit dem
+               Fragment übereinstimmen. Vom Wortlaut her steht das Fragment der Friedensordnung von
+               Hohensax-Gams näher. In der Vereinbarung der beiden Orte <orgName ref="org001191"
+                  >Schwyz</orgName> und <orgName ref="org001197">Glarus</orgName> mit <orgName
+                  ref="org001881">Gams</orgName> betreffend die Herrschaft Hohensax-Gams von <date
+                  when="1497">1497</date> ist die Tat ähnlich wie im Fragment dem jeweiligen <term
+                  ref="key000057">Gericht</term> zugeordnet. Das Fragment könnte sich demnach auf
+               Hohensax-Gams beziehen. Auch <persName ref="per005429">David Heinrich
+                  Hilty</persName> vermutete laut seiner Notiz auf dem Fragment den Bezug zu
+               Hohensax-Gams. Allerdings enthält die Vereinbarung von 1497 im Gegensatz zum Fragment
+               das <term ref="key000905">Strafmass</term>. Auch wird im Fragment der Begriff
+               Landgericht gebraucht, während 1497 die Begriffe Hoch- bzw. Niedergericht verwendet
+               werden. Die Begriffe <term ref="key000337">Landgericht</term> und <term
+                  ref="key000481">Landrat</term> erinnern eher an das <placeName ref="loc000925"
+                  >Sarganserland</placeName>, wo diese z.&#160;B. bereits <date when="1438"
+                  >1438</date> in dem Entwurf des <term ref="key001113">Herrschaftsrodels</term> und
+               der <term ref="key000338">Landgerichtsoffnung</term> der Grafschaft <placeName
+                  ref="loc000925">Sargans</placeName> vorkommen (<bibl><ref
+                     target="https://www.ssrq-sds-fds.ch/online/SG_III_2/index.html#p_147"
+                     >SSRQ&#160;SG III/2, Nr.&#160;51a</ref></bibl>). Die sogenannten <term
+                  ref="key000587">Mannzuchtordnungen</term> (<term ref="key000586"
+               >Strafrecht</term>) des Sarganserlandes unterscheiden sich jedoch deutlich von diesem
+               Fragment; auch wird dort vor allem das Wort <orig>trostung</orig> und nicht
+                  <orig>friden</orig> verwendet (<bibl><ref
+                     target="https://www.ssrq-sds-fds.ch/online/SG_III_2/index.html#p_III"
+                     >SSRQ&#160;SG III/2</ref>, <ref
+                     target="https://www.ssrq-sds-fds.ch/online/SG_III_2/index.html#p_226"
+                     >Nr.&#160;69</ref>; <ref
+                     target="https://www.ssrq-sds-fds.ch/online/SG_III_2/index.html#p_245"
+                     >Nr.&#160;75</ref>; <ref
+                     target="https://www.ssrq-sds-fds.ch/online/SG_III_2/index.html#p_452"
+                     >Nr.&#160;137</ref></bibl>; <bibl><ref
+                     target="https://www.ssrq-sds-fds.ch/online/SG_III_2/index.html#p_939"
+                     >Nr.&#160;261</ref></bibl>). Welcher Herrschaft die Friedensordnung zugeordnet
+               werden kann, muss deshalb offen bleiben.</p></div>
+         <div n="3"><p>Die beiden Blätter gehören inhaltlich zusammen, sind von gleicher Hand geschrieben und haben das gleiche Mass (22.0 x 16.0). Vom zweiten Blatt fehlt die rechte Hälfte, so
+            dass der Inhalt nicht mehr rekonstruierbar ist.
+         </p></div>
+         
+      </back>
+   </text>
+</TEI>
+

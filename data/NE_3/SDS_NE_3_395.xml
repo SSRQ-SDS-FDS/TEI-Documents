@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     n="1234"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="headerinfo"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2020-08-17"/>    <date type="print"/>
+    <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Collection des sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS_NE_3_395</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>AVN B 101.14.002, fol. 29r–33r</idno>
+               </msIdentifier>
+               <head>Types de testaments, validité et modalités de succession</head>
+               <msContents>
+                  <summary>Définition du type de testament cité dans la demande, précisions
+                     concernant les différents testaments existants et leur validité ainsi que sur
+                     les modalités de succession. La qualification d’immeubles de certains biens
+                     ainsi qu’une règle de convections d’unité monétaire figurent également dans ce
+                     point de coutume. </summary>
+                  <msItem>
+                     <textLang>français</textLang>
+                     <filiation type="current"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="34.5"/>
+                              <width unit="cm" quantity="22"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1723-02-17"/>
+                     <origPlace ref="loc007786">Neuchâtel</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head/>
+                     <bibl/>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000920"/>
+               <term ref="key000815"/>  
+               <term ref="key000635"/>
+               <term ref="key000275"/>
+               <term ref="key005079"/>
+               <term ref="key003521"/>
+               <term ref="key004489"/>
+               <term ref="key004428"/>
+               <term ref="key000446"/>
+               <term ref="key005143"/>
+               <term ref="key004531"/>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="29r" facs="AVN_B_101.14.002_0029r"/>
+               <div>
+                  <p>
+                     <lb/>Sur la requête présentée <lb/>par le sieur <persName ref="per008828"
+                        >Hugues Faton</persName>, substitut du procu<lb break="no"/>reur du roy au
+                     balliage de <placeName ref="loc007820">Quingey</placeName> en <placeName
+                        ref="loc007821">Franche <lb/>Comté</placeName>, à <orgName ref="org003085"><choice>
+                           <abbr>Mess<hi rend="sup">rs</hi>
+                           </abbr>
+                           <expan>messieurs</expan>
+                        </choice> du Conseil Étroit de la Ville de <lb/><placeName ref="loc007785"
+                           >Neufchatel</placeName></orgName>, le mecredy <origDate when="1723-02-17"
+                           >17<hi rend="sup">e</hi> février 1723</origDate>, aux <lb/>fins d’avoir
+                     les points de coutume suivants. </p>
+                  <p>
+                     <lb/>1<hi rend="sup">o</hi>. Si un <choice>
+                        <abbr>testam<hi rend="sup">t</hi>
+                        </abbr>
+                        <expan>testament</expan>
+                     </choice> qui commence par ces mots : <lb/>Par devant moy <persName
+                        ref="per008955">Jacob Jelieu</persName>, notaire public et <lb/>greffier de
+                        <placeName ref="loc007810">
+                        <choice>
+                           <abbr>S<hi rend="sup">t</hi>
+                           </abbr>
+                           <expan>Saint</expan>
+                        </choice> Aubin</placeName> en la baronnie de <placeName ref="loc008001"
+                        >Gorgier</placeName>, <lb/>au comté de <placeName ref="loc007785.09"
+                        >Neufchatel</placeName> en <placeName ref="loc001012.09">Suisse</placeName>,
+                     et en <choice>
+                        <abbr>pnce</abbr>
+                        <expan>présence</expan>
+                     </choice>
+                     <lb/>des témoins sous nommés&#160;; s’est en propre personne <lb/>constitué et
+                     établie demoiselle <persName ref="per008956">Claire Moureau</persName>
+                     <lb/>fille de feu <choice>
+                        <abbr>Mons<hi rend="sup">r</hi>
+                        </abbr>
+                        <expan>monsieur</expan>
+                     </choice>
+                     <persName ref="per008957">Pierre Moureau</persName> de <placeName
+                        ref="loc008002.02">Sallin</placeName>
+                     <lb/>au comté de <placeName ref="loc005628">Bourgogne</placeName>, laqu’elle
+                     étant par la <lb/>grâce de Dieu en bonne santé de corps et d’Esprit, <lb/>et
+                     voyant que le jour de sa mort luy est <lb/>incertain, et ne souhaittant
+                     cependant de <lb/>mourir avant que d’avoir disposé de ses biens&#160;;
+                     <lb/>elle a donc à ce sujet, de son propre <choice>
+                        <abbr>mouvem<hi rend="sup">t</hi>
+                        </abbr>
+                        <expan>mouvement</expan>
+                     </choice>
+                     <lb/>et sans aucune solicitation, fait déclaré et <lb/>dicté son <choice>
+                        <abbr>testam<hi rend="sup">t</hi>
+                        </abbr>
+                        <expan>testament</expan>
+                     </choice> et ordonnance de dernière <lb/>volonté en la manière suivante. <choice>
+                        <abbr>Premierem<hi rend="sup">t</hi>
+                        </abbr>
+                        <expan>Permièrement</expan>
+                     </choice>, <lb/>elle recommande son âme à Dieu, notre <lb/>souverain créateur,
+                     le priant qu’alors <lb/>qu’il luy plaira de faire la séparation <lb/>d’icelle
+                     d’avec son corps, luy ayant <choice>
+                        <abbr>gratuitem<hi rend="sup">t</hi>
+                        </abbr>
+                        <expan>gratuitement</expan>
+                     </choice>
+                     <lb/>pardonné tous ses péchés par notre seigneur <pb n="29v"
+                        facs="AVN_B_101.14.002_0029v"/>
+                     <lb/>Jésus Christ, il la veuille recevoir dans <lb/>son <choice>
+                        <abbr>S<hi rend="sup">t</hi>
+                        </abbr>
+                        <expan>saint</expan>
+                     </choice> paradis avec les bienheureux. <lb/><choice>
+                        <abbr>Secondem<hi rend="sup">t</hi>
+                        </abbr>
+                        <expan>Secondement</expan>
+                     </choice>, pour ce qui est de ses biens <lb/>mondains, <choice>
+                        <abbr>lad.</abbr>
+                        <expan>ladite</expan>
+                     </choice> demoiselle en ordonne <lb/>comme s’en suit. En premier lieu, elle
+                     <lb/>donne aux demoiselles <persName ref="per008958">Claudine</persName>,
+                        <persName ref="per008959">Susanne</persName>
+                     <lb/>et <persName ref="per008960">Anne Baptiste Mélatons</persName>, ses
+                     nièces, <lb/>à chacune <measure type="currency" origin="NE" unit="Taler"
+                        quantity="12">douze écus blancs</measure>. Item, elle <lb/>donne à <choice>
+                        <abbr>M<hi rend="sup">r</hi>
+                        </abbr>
+                        <expan>monsieur</expan>
+                     </choice> son neveu l’abé <persName ref="per008961">Pierre Melatons</persName>
+                     <lb/><measure type="currency" origin="NE" unit="Taler" quantity="3">trois écus
+                        blancs</measure>&#160;; items, à <choice>
+                        <abbr>M<hi rend="sup">r</hi>
+                        </abbr>
+                        <expan>monsieur</expan>
+                     </choice> son neveu <lb/><persName ref="per008962">Henry Guiblot</persName>,
+                     elle luy cède tout ce qu’il <lb/>peut avoir receu pour cy devant d’elle,
+                     <lb/>sans en pouvoir être recherché en <lb/><choice>
+                        <abbr>departem<hi rend="sup">t</hi>
+                        </abbr>
+                        <expan>département</expan>
+                     </choice> et privation de <choice>
+                        <abbr>sesd.</abbr>
+                        <expan>sesdits</expan>
+                     </choice> biens, <lb/>or, d’autant que le chef et <choice>
+                        <abbr>fondem<hi rend="sup">t</hi>
+                        </abbr>
+                        <expan>fondement</expan>
+                     </choice> de tous <lb/>testamens git à l’institution d’héritiers, <lb/>elle a
+                     créé et nommé et institué, crée, nomme <lb/>et institue pour la seule vraye et
+                     unique <lb/>héritière en tous et singuliers ses biens <lb/>meubles et
+                     immeubles, or, argent, obliga<lb break="no"/>tions de qu’elle nature qu’ils
+                     puissent être <lb/>et en quel lieu qu’ils se trouverons être <lb/>situé et
+                     gisants, et tels qu’ils se trouve<lb break="no"/>rons luy appartenir à l’heure
+                     de son trépas <lb/>sans aucune réserve. Assavoir dame <lb/><persName
+                        ref="per008963a">Susanne Moureau</persName>, femme de noble <lb/><persName
+                        ref="per008788">François de Mollombe</persName>, avocat et mayre <lb/>de
+                        <placeName ref="loc007820">Cingé</placeName>
+                     <choice>
+                        <abbr>aud.</abbr>
+                        <expan>audit</expan>
+                     </choice>
+                     <placeName ref="loc005628">Bourgogne</placeName>, sa bien aimée <pb n="30r"
+                        facs="AVN_B_101.14.002_0030r"/>
+                     <lb/>et chère soeur, et c’est en reconnoissance de <lb/>la sincère amitié
+                     qu’elle luy a toujours <lb/>témoigné et en ce qu’elle sera obligée, ou <lb/>les
+                     siens, de faire prier pour elle après <lb/>son décès de la volonté et
+                     discrésion, ou <lb/>des siens susdits, et suivant leur bon <lb/>naturel. Item, <choice>
+                        <abbr>lad.</abbr>
+                        <expan>ladite</expan>
+                     </choice> dame de <persName ref="per008963b">Molombe</persName>, ou <lb/>ses
+                     nobles hoirs, seront obligés de satis<lb break="no"/>faire aux frais des
+                     funérailles de <choice>
+                        <abbr>lad.</abbr>
+                        <expan>ladite</expan>
+                     </choice>
+                     <lb/>demoiselle <persName ref="per008956">Moureau</persName> testamantaire,
+                     <lb/>suivant sa portée et condition, et <lb/>au foy de payer toutes ses dettes
+                     où elles <lb/>serons, au cas qu’il y en eut après <lb/><choice>
+                        <abbr>sond.</abbr>
+                        <expan>sondit</expan>
+                     </choice> décès, avec aussy tous legs par <choice>
+                        <abbr>lad.</abbr>
+                        <expan>ladite</expan>
+                     </choice>
+                     <lb/>demoiselle cy devant faits cassant, <lb/>révoquant et annulant tous autres
+                     <lb/>testamens, donnations ou autres actes <lb/>dispositifs qu’elle pourroit
+                     avoir fait par <lb/>cy devant, soit <choice>
+                        <abbr>verballem<hi rend="sup">t</hi>
+                        </abbr>
+                        <expan>verballement</expan>
+                     </choice> ou par écrit, <lb/>privant et déjettant toutes personnes
+                     <lb/>contrevenans à cette présente donnation <lb/>qui prétendront d’avoir droit
+                     en la <lb/>succession de ses biens pour chacun <measure type="currency"
+                        origin="NE" unit="sol faible" quantity="5">cinq <lb/>sols
+                        foibles</measure><note>Le sol faible est une dénomination rare du gros qui
+                        constitue un douzième de livre faible de Neuchâtel.</note>, voulant et
+                     entendant que <lb/>le contenu au présent <choice>
+                        <abbr>testam<hi rend="sup">t</hi>
+                        </abbr>
+                        <expan>testament</expan>
+                     </choice> doivent <lb/>sortir sont plein et entier effet, renonceant <lb/>à
+                     toutes exeptions coutumes et loix y <lb/>étant contraires. Ce fut ainsy fait et
+                        <pb n="30v" facs="AVN_B_101.14.002_0030v"/>
+                     <lb/>passé sous la corroboration du seau des <lb/>contracts de la baronie de
+                        <placeName ref="loc008001">Gorgier</placeName>, sauf et <lb/>réservé les
+                     droits seigneuriaux et ceux <lb/>d’autruy au château <choice>
+                        <abbr>dud.</abbr>
+                        <expan>dudit</expan>
+                     </choice>
+                     <placeName ref="loc008001">Gorgier</placeName>, le <lb/><date when="1702-05-26"
+                        >vingt sixième may mil sept cent deux</date>, <lb/><choice>
+                        <abbr>pnt</abbr>
+                        <expan>présent </expan>
+                     </choice>
+                     <choice>
+                        <abbr>M<hi rend="sup">r</hi>
+                        </abbr>
+                        <expan>monsieur</expan>
+                     </choice>
+                     <persName ref="per008964">Jean Jaques Müller</persName> prêtre et
+                     <lb/>bourgeois de la ville et canton de <placeName ref="loc001060"
+                        >Fribourg</placeName>
+                     <lb/>en <placeName ref="loc001012">Suisse</placeName>, des <choice>
+                        <abbr>honn</abbr>
+                        <expan>honnorables</expan>
+                     </choice>
+                     <persName ref="per008965">David Baillod</persName>, justicier, <lb/><persName
+                        ref="per008966">Claude Cornu</persName> de <placeName ref="loc008004"
+                        >Gorgier</placeName>, <persName ref="per008967">David Bourquin</persName>, <lb/><choice>
+                        <abbr>dud.</abbr>
+                        <expan>dudit</expan>
+                     </choice> lieu, et <persName ref="per008968">Pierre Elxinguer</persName> de
+                        <placeName ref="loc007906">Vaumarcus</placeName>
+                     <lb/>munier <choice>
+                        <abbr>aud.</abbr>
+                        <expan>audit</expan>
+                     </choice>
+                     <placeName ref="loc008004">Gorgier</placeName> témoins, <lb/><persName
+                        ref="per008956a.01"><choice>
+                           <sic>Cleres Mouraux</sic>
+                           <corr>Claire Moureau</corr>
+                        </choice></persName>, <lb/><persName ref="per008964">Müller</persName>
+                     <choice>
+                        <sic>Prétre</sic>
+                        <corr>prêtre</corr>
+                     </choice>, <persName ref="per008967">David Bourquin</persName>, <persName
+                        ref="per008965">David <lb/>Baillod</persName>, <persName ref="per008968"
+                        >Pierre Elxinguer</persName>, <persName ref="per008966">Claude
+                        Cornu</persName>&#160;; <lb/>n’est pas le stile qu’employe un notaire
+                     <lb/>dans les testamens solemnels.</p>
+                  <p>
+                     <lb/>2<hi rend="sup">o</hi>. Si le <choice>
+                        <abbr>testam<hi rend="sup">t</hi>
+                        </abbr>
+                        <expan>testament</expan>
+                     </choice> cy dessus énoncé ne se trou<lb break="no"/>vant point paraffé ny en registé, peut 
+       <lb/>sortir son exécution. </p>
+                  <p>
+                     <lb/>3<hi rend="sup">o</hi>. Si le <choice>
+                        <abbr>testam<hi rend="sup">t</hi>
+                        </abbr>
+                        <expan>testament</expan>
+                     </choice> qui est rapporté cy dessus <lb/>peut être regardé comme un <choice>
+                        <abbr>testam<hi rend="sup">t</hi>
+                        </abbr>
+                        <expan>testament</expan>
+                     </choice>
+                     <lb/><term ref="lem015631">nuncupatif</term>&#160;? </p>
+                  <p>
+                     <lb/>4<hi rend="sup">o</hi>. Si un pareil <choice>
+                        <abbr>testam<hi rend="sup">t</hi>
+                        </abbr>
+                        <expan>testament</expan>
+                     </choice> peut être placé au
+       <lb/>rang des olograffes et en sortir l’effet. </p>
+                  <p>
+                     <lb/>5<hi rend="sup">o</hi>. Qu’elles espèces de testaments sont receus dans
+                     <lb/>la comté de <placeName ref="loc007785"><choice>
+                           <abbr>Neuf<hi rend="sup">el</hi>
+                           </abbr>
+                           <expan>Neufchatel</expan>
+                        </choice></placeName> et si un <choice>
+                        <abbr>testam<hi rend="sup">t</hi>
+                        </abbr>
+                        <expan>testament</expan>
+                     </choice> deffec<lb break="no"/>tueux en un point ne l’est pas en tout. <lb/>
+                     <add place="below" type="catchword">6<hi rend="sup">o</hi>.</add>
+                  </p>
+                  <pb n="31r" facs="AVN_B_101.14.002_0031r"/>
+                  <p>
+                     <lb/>6<hi rend="sup">o</hi>. Si les neveux et nièces d’un deffunt, mort sans 
+       <lb/>avoir testé, ne sont pas admissibles par droit
+       <lb/>de représentation de leurs père ou mère à
+       <lb/>receuillir la succession du deffunt <choice>
+                        <abbr>conjointem<hi rend="sup">t</hi>
+                        </abbr>
+                        <expan>conjointement</expan>
+                     </choice>
+                     <lb/>ou par égale part et portion avec leurs oncles
+       <lb/>vivans, frères du deffunt. </p>
+                  <p>
+                     <lb/>7<hi rend="sup">o</hi>. Si le bétail à comande, rentes, obligations,
+       <lb/>or, argent, cédules, comptes, ou articles sur
+       <lb/>les livres de raisons sont réputés pour des
+       <lb/>immeubles. </p>
+                  <p>
+                     <lb/>8<hi rend="sup">o</hi>. Si une personne qui prétendroit être l’héritier 
+       <lb/>universel d’un deffunt, soit par <choice>
+                        <abbr>testam<hi rend="sup">t</hi>
+                        </abbr>
+                        <expan>testament</expan>
+                     </choice>
+                     <lb/>ou ab’intestat, ayant paru par procureur
+       <lb/>devant le juge du lieu du deffunt, sur le
+       <lb/>jour des <date dur="P6W">six semaines</date>, n’avoit demandé
+       <lb/>l’investiture des biens du mort que pour
+       <lb/>un tier et consenty que deux autres parens
+       <lb/>d’un côté plus éloigné, se fussent procuré
+       <lb/>l’investiture des deux autres tiers du bien, 
+       <lb/>si cette personne pourroit se faire relever
+       <lb/>de la gestion de son procureur malgré le
+       <lb/>temps fatal de <date dur="P6W">six semaines</date>, et obliger
+       <lb/>ces deux parens à luy restituer ce dont ils 
+       <lb/>ont étés invêtus, quoy que cette personne 
+       <lb/>ait été passé trois mois dans le silence, et 
+       <lb/>sans avoir fait aucun exploit de justice pour 
+       <lb/>révoquer la négotiation de son procureur, et 
+       <lb/>receu même d’abord le tier de cette succession, 
+                     <pb n="31v" facs="AVN_B_101.14.002_0031v"/>
+                     <lb/>sans difficulté ne pouvant alléguer pour 
+       <lb/>obtenir ce relief que le deffaut du pouvoir 
+       <lb/>du constitué. </p>
+                  <p>
+                     <lb/>9<hi rend="sup">o</hi>. Si, dans toute l’étandue de cette souveraineté
+                     <lb/>et <choice>
+                        <abbr>particulierem<hi rend="sup">t</hi>
+                        </abbr>
+                        <expan>particulièrement</expan>
+                     </choice> dans la baronie de <lb/><placeName ref="loc008001"
+                        >Gorgier</placeName>, le droit de traitte de foraine ou <lb/><term
+                        ref="lem001009">abzug</term>, n’est pas établie sur le pied de cinq
+                     <lb/>pour cent, et si tout étranger qui receuille <lb/>une succession dans ce
+                     pays n’est pas <lb/>tenu de payer ce droit pour la valeur de <lb/>toute la
+                     succession soit mobiliaire ou <lb/>immobiliaire. </p>
+                  <p>
+                     <lb/>10<hi rend="sup">o</hi>. Combien de sols ou de batz vaut la livre <lb/>foible dans cet
+       État, et qu’elle partie de <lb/>monoye c’est qu’une sole foible.</p>
+                  <p>
+                     <lb/><orgName ref="org003085"><choice>
+                           <abbr>Mesd.</abbr>
+                           <expan>Mesdits</expan>
+                        </choice> sieurs du Conseil</orgName>, ayant eu avis <lb/>et meure
+                     préméditation par ensembles, <lb/>donnent par <choice>
+                        <abbr>declaraon</abbr>
+                        <expan>déclaration</expan>
+                     </choice> que, suivant la <lb/>coutume usitée dans la souveraineté <lb/>de
+                        <placeName ref="loc007785">Neufchatel</placeName> de père à fils et de tous
+                     tems <lb/>immémorial jusques à présent, la <lb/>coutume être telle. </p>
+                  <p>
+                     <lb/>1<hi rend="sup">o</hi>. Sur le premier article, que le stile employé
+       <lb/>dans le <choice>
+                        <abbr>testam<hi rend="sup">t</hi>
+                        </abbr>
+                        <expan>testament</expan>
+                     </choice> cy devant est le stile dont 
+       <lb/>les notaires de cet État se servent <choice>
+                        <abbr>ordinai<lb break="no"/>rem<hi rend="sup">t</hi>
+                        </abbr>
+                        <expan>ordinairement</expan>
+                     </choice> pour les testaments publics et 
+       <lb/>solemnels. 
+       <lb/>
+                     <add place="below" type="catchword">2<hi rend="sup">o</hi>.</add>
+                  </p>
+                  <pb n="32r" facs="AVN_B_101.14.002_0032r"/>
+                  <p>
+                     <lb/>2<hi rend="sup">o</hi>. Sur le second article, ils s’en raportent au 
+       <lb/>premier article de leur déclaration déjà rendue 
+                     <lb/>le <date when="1722-02-12">douzième février mil sept cent vingt deux</date><note>Voir <ref>SDS_NE_3_390</ref>.</note>. </p>
+                  <p>
+                     <lb/>3<hi rend="sup">o</hi>. Sur le troisième article, que le testament cy <lb/>devant, ne
+       peut pas être considéré, suivant <lb/>l’usage et la pratique de ce pays, comme un
+                     <lb/>testament <term ref="lem015631">nuncupatif</term>. </p>
+                  <p>
+                     <lb/>4<hi rend="sup">o</hi>. Sur le quatrième article, l’on n’a pas remarqué 
+       <lb/>jusques icy, que le stile employé dans le <choice>
+                        <abbr>testam<hi rend="sup">t</hi>
+                        </abbr>
+                        <expan>testament</expan>
+                     </choice>
+                     <lb/>cy devant l’ait été dans aucun testament 
+       <lb/>olograffe. </p>
+                  <p>
+                     <lb/>5<hi rend="sup">o</hi>. Sur le cinquième article, qu’il y a trois sortes <lb/>d’espèces
+       de testaments, qui sont receu dans cet <lb/>État, savoir 1<hi rend="sup">o</hi>. le <choice>
+                        <abbr>testam<hi rend="sup">t</hi>
+                        </abbr>
+                        <expan>testament</expan>
+                     </choice> public et solemnel, <lb/>receu par un notaire juré en presence de <lb/>sept ou de
+       cinq témoins pour le moins, <lb/>2<hi rend="sup">o</hi>. L’olograffe. 3<hi rend="sup">o</hi>.
+                     et enfin le <term ref="lem015631">nuncupatif</term>. Et <lb/>que touts testaments deffectueux en un
+       <lb/>point essenciel l’est en tout. </p>
+                  <p>
+                     <lb/>6<hi rend="sup">o</hi>. Sur le sixième article, lors qu’un frère ou <lb/>une soeur vient
+       à décéder ab’intestat et <lb/>laisse frères et soeurs, aussy bien que des neveux <lb/>et
+       nièces, décendans d’un ou de plusieurs autres <lb/>frères et soeurs, <choice>
+                        <abbr>lesd.</abbr>
+                        <expan>lesdits</expan>
+                     </choice> neveux et nièces, decendans <lb/>d’un seul, soit frère ou soeur du deffunt,
+       <lb/>qu’ils soient un ou plusieurs d’un même
+       <lb/>frere, ou soeur, ont droit de representation
+       <lb/>de leur père ou mère à l’héritage du deffunt 
+                     <pb n="32v" facs="AVN_B_101.14.002_0032v"/>
+                     <lb/>tout comme si chacun <choice>
+                        <abbr>desd.</abbr>
+                        <expan>desdits</expan>
+                     </choice> père ou mère <lb/>étoient vivants et non plus. </p>
+                  <p>
+                     <lb/>7<hi rend="sup">o</hi>. Sur le septième article, le bétail à comande <lb/>rentes,
+       obligations, or, argent, cédules, <lb/>comptes, et articles sur les livres, sont <lb/>réputés
+       immeubles. </p>
+                  <p>
+                     <lb/>8<hi rend="sup">o</hi>. Sur le huitième, lors qu’une personne veut <lb/>être relevée de
+       la gestion de son procureur <lb/>et prétend<del rend="blackened">ant</del> rentrer dans tous
+       ses droits <lb/>à cause du deffaut du pouvoir du constitué, <lb/>peut se présenter par devant
+       messieurs <lb/>des
+       <orgName ref="org003167">Trois
+        États</orgName> pour demander relief de <lb/>tout ce qui s’est passé, en interpellant
+       <lb/>sa partie pour y opposer, si par droit <lb/>faire elle le peut. </p>
+                  <p>
+                     <lb/>9<hi rend="sup">o</hi>. Sur le neuvième, comme le droit de <lb/>traitte foraine et <term ref="lem001009">abzug</term>
+       appartient au <lb/>souverain, on le renvoye à se présenter <lb/>pour cela par devant
+       <orgName ref="org003098">messieurs du
+       Conseil
+        <lb/>d’État</orgName>, pour avoir les éclaircissement nécessai<lb break="no"/>res là dessus. </p>
+                  <p>
+                     <lb/>10<hi rend="sup">o</hi>. Sur le dixième article, il faut <measure
+                        type="currency" origin="NE" unit="sol faible" quantity="20">vingt sols
+                        <lb/>foibles</measure><note>Le sol faible est une dénomination rare du gros
+                        qui constitue un douzième de livre faible de Neuchâtel.</note>, ou <measure
+                        type="currency" origin="NE" unit="bz" quantity="4">quatre batz</measure>
+                     pour la valeur d’<measure type="currency" origin="NE" unit="livre faible"
+                        quantity="1">une <lb/>livre foible</measure>&#160;; dans cet État, le sols
+                     faible, est <lb/>une monoye imaginaire, il en faut deux <lb/>et demy pour un
+                     sols argent courant dans <lb/>cet État, et <measure type="currency" origin="NE"
+                        unit="S" quantity="8">huit sols argent courant</measure> pour <lb/><measure
+                        type="currency" origin="NE" unit="livre faible" quantity="1">une livre
+                        foibles</measure>, et <measure type="currency" origin="NE"
+                        unit="livre faible" quantity="2.5">deux livres et demy foible</measure>
+                     <lb/><add place="below" type="catchword">font</add>
+                     <pb n="33r" facs="AVN_B_101.14.002_0033r"/>
+                     <lb/>font <measure type="currency" unit="lb" quantity="1">une livre tournoix</measure>. </p>
+                  <p>
+                     <lb/>Ce qu’a été ainsy conclud et arrêté les an <lb/>et jour que devant et par
+                     monsieur le <lb/>maitre bourgeois en chef à été ordonné <lb/>à moy soussigné,
+                     faisant fonction de <lb/>secrétaire de ville, de les luy expédier en <lb/>cette
+                     forme, sous le seau de la justice et <lb/>mairie de <origPlace ref="loc007786"><choice>
+                           <abbr>Neuf<hi rend="sup">el</hi>
+                           </abbr>
+                           <expan>Neufchatel</expan>
+                        </choice></origPlace> et signature de ma <lb/>main. </p>
+                  <p>
+                     <lb/>L’original signé. </p>
+               </div>
+               <div>
+                  <signed>
+                     <persName ref="per008833">
+                        <choice>
+                           <abbr>D</abbr>
+                           <expan>Daniel</expan>
+                        </choice> Bonvepre</persName>
+                     <figure type="notarial sign"/>
+                  </signed>
+               </div>
+            </body>
+            <back>
+               <div>
+                  <p>Ce point de coutume est cité dans le point <ref>SDS_NE_3_396</ref>.</p>
+               </div>
+            </back>
+         </text>
+      </group>
+   </text>
+</TEI>

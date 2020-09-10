@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+
+			</titleStmt>
+
+			<publicationStmt>
+				<date type="electronic" when="2019-05-29"/>
+				<date type="print"/>
+			</publicationStmt>
+
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ_FR_I_2_8_0063_002</idno>
+			</seriesStmt>
+
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<idno>StAFR, Thurnrodel 11, S. 311–312</idno>
+					</msIdentifier>
+					<head>Jean Chevaley – Verhör / Interrogatoire</head>
+					<msContents>
+						<summary></summary> 
+						<msItem>
+							<textLang>fr</textLang> 
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support>
+									<material></material>
+								</support>
+								<extent>
+									<dimensions type="leaves">
+										<height unit="cm" quantity="0.0"/>
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+									<dimensions type="plica">
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+								</extent>
+							</supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1623-06-10"></origDate>
+							<origPlace></origPlace>
+						</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+							
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		
+		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+			<particDesc default="false"/>
+			<settingDesc default="false"/>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+					<pb n="311"/><p><lb/><origDate when="1623-06-10"><num value="10">x</num> <foreign xml:lang="la">junii</foreign> <hi rend="underline">1623</hi></origDate><note>Der Verhörort wird nicht genannt.</note>, <foreign xml:lang="la"><choice><abbr>j</abbr><expan>judex</expan></choice></foreign> <abbr>h</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per009249">Daniel von Montenach</persName>.</note></p>
+						
+						<p><gap reason="irrelevant"/><note>Ce passage concerne les procès menés contre <persName ref="per009489">Jean Cordey</persName> et <persName ref="per009593">Louise Perroud</persName>. Voir 
+							<ref>SSRQ_FR_I_2_8_0060_006</ref>.</note></p>
+						
+						<p><lb/><foreign xml:lang="la"><choice><abbr>Ex</abbr><expan>Exepto</expan></choice></foreign> <abbr>h</abbr> <persName ref="per009271">Wildt</persName><note>Mit Ausnahme des abwesenden Ratsherrn <persName ref="per009271">Wild</persName> wurden die anwesenden Richter und der Verhörort nicht genannt.</note></p>
+					
+					<p><seg><lb/><persName ref="per009445a.02">Jehan Chevaley</persName> de <placeName ref="loc007869.01">Vallon</placeName> a librement 
+						<lb/>dit que, venant mecredi passé de la 
+						<lb/>charstreuse de la <placeName ref="loc008343">Part <add place="above">Dieu</add></placeName>, avoir rencontré 
+						<lb/>sus le chemin vers une fontaine, aupres 
+						<lb/>de <subst><del><placeName ref="loc007886">Vaulruz</placeName></del><add place="above"><placeName ref="loc007947.02">Wuadens</placeName></add></subst>, trois compagnons, les ap<lb break="no"/>pellant trestous de la race de <persName>Chevaley</persName>, 
+						<lb/>disant une fois s’appeller <persName>Jaques</persName>, <persName>Jean</persName>, 
+						<lb/><persName>Michiel</persName>, <persName>Andrey</persName>, et tantost aultrement. 
+						<lb/>Lesquels l’auroent fait approcher la 
+						<lb/>fontaine pour veoir comme ils voloent 
+						<lb/>faire la <term ref="lem018102.02">gresle</term>, et la conduire du costé 
+						<lb/>de <placeName ref="loc007595.03">Planfayon</placeName>, a cause qu’ils estoent 
+						<lb/>des mauvaises gens. Et ayant l’un d’iceux 
+						<lb/>prins une vergetta, et avec icelle battu 
+						<lb/>en l’eau, subitament s’esleva une <term ref="lem015226.02">noile</term>, 
+						<lb/>laquelle s’augmentoit de plus en plus, 
+						<lb/>allant du costé de <placeName ref="loc007595.03">Planfayon</placeName>.</seg> <seg>Lesquels 
+						<lb/>compagnons n’a gueres, qu’il a frequenté, 
+					<pb n="312"/><lb/>pourtant les a veu desrober de la 
+						<lb/><term ref="lem015227.02">ferementa</term> a <placeName ref="loc007933.02">Libenstorff</placeName>, <placeName ref="loc007937.07">Crisié</placeName> et 
+						<lb/><placeName ref="loc007948.03">Sauvagnie</placeName>. Item a <placeName ref="loc007613.03">Cormerod</placeName> un cheval 
+						<lb/>gris, lequel il vendirent a <placeName ref="loc007949.02">Lustrie</placeName> 
+						<lb/>a un <term ref="lem017275.02">Bourgognon</term> pour <measure type="currency" unit="k" quantity="50">50 </measure>&#160;; desquels luy 
+						<lb/>donnarent un teston. L’un d’iceux a 
+						<lb/>une barbe noire, habillé de drap noir, 
+						<lb/>bas blancs et un chappeau noir <term ref="lem015228.02">rebrassy</term>. 
+						<lb/>L’aultre n’a point de barbe, il a un 
+						<lb/>chappeau pointu, habillé de toile blanche 
+						<lb/>et bas noirs.</seg> <seg>A la quelle confession 
+						<lb/>on ne se sait encoures bonnement 
+						<lb/>arrester, a cause de la varieté de 
+						<lb/>noms des accusés.</seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+
+
+
+<?oxy_options track_changes="on"?>

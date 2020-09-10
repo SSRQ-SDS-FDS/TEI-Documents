@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="1234"
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+
+			</titleStmt>
+
+			<publicationStmt>
+				<date type="electronic" when="2019-05-29"/>
+				<date type="print"/>
+			</publicationStmt>
+
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ_FR_I_2_8_0041_012</idno>
+			</seriesStmt>
+
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<idno>StAFR, Thurnrodel 11, S. 8–9</idno>
+					</msIdentifier>
+					<head>Franz Gauzon – Verhör / Interrogatoire</head>
+					<msContents>
+						<summary></summary> 
+						<msItem>
+							<textLang>fr, de</textLang> 
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support>
+									<material></material>
+								</support>
+								<extent>
+									<dimensions type="leaves">
+										<height unit="cm" quantity="0.0"/>
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+									<dimensions type="plica">
+										<width unit="cm" quantity="0.0"/>
+									</dimensions>
+								</extent>
+							</supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1618-08-30"></origDate>
+							<origPlace></origPlace>
+						</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+							
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+			<particDesc default="false"/>
+			<settingDesc default="false"/>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="8"/><p><lb/>Ufm <placeName ref="loc007890.03">Jaquemar</placeName>,  
+						<lb/><foreign xml:lang="la">die, anno, presentibus ut supra</foreign></p> 
+						
+						<p><seg><lb/><add place="left margin"><foreign xml:lang="la"><choice><abbr>ßt</abbr><expan>Solvit</expan></choice></foreign> <measure type="currency" unit="lb" quantity="3">3 </measure>.</add></seg> 
+							<seg><persName ref="per009585">Frantz Gauzon</persName> crie mercy pour ce que n’auroit 
+								<lb/>obey a <choice><abbr>mons</abbr><expan>monsieur</expan></choice> le <term ref="lem014993.06">grandsaulthier</term>, pensant que la 
+						<lb/>chose ne viendroit <subst><del>s</del><add place="inline">cy</add></subst> avant. A dit avoir 
+						<pb n="9"/><lb/>l’environ une <measure type="currency" quantity="20" unit="k">vingtaine d’escus</measure>, ce qu’auroit <add place="above" type="sign">gagné</add> en 
+						<lb/>travalliant, duquel argent en pourroit <term ref="lem015417.02">com<lb break="no"/>petir</term> a sa femme <measure type="currency" unit="k" quantity="2" >2 </measure>. Et a dit qu’estant avec 
+						<lb/>sadite femme l’environ <date dur="P29Y">29 ans</date>, n’avoir apperceu 
+						<lb/><add place="left margin"><hi rend="underline">du mal</hi></add> d’elle, mais que luy  plaisoit <addSpan place="above" spanTo="#add1"/><subst><del>bien grandement</del><add place="below">bien</add></subst><anchor xml:id="add1"/>, qu’elle prioit si rare<lb break="no"/>ment, touttefois ne savoir rien de mal d’elle. 
+						<lb/>Criant mercy, prie <choice><abbr>liberaon</abbr><expan>liberation</expan></choice>.</seg> <seg>A dit dadvan<lb break="no"/>tage avoir caché ledit argent en quelque lieu 
+						<lb/>pour estre asseuré, et non pour aultre subject. Et 
+						<lb/>estre vray d’avoir ouvert ung <term ref="lem017002.02">tro</term> <subst><del>p</del><add place="above" type="sign">par force</add></subst> pour prendre 
+						<lb/>des chemises, ne pensant mal faire.</seg></p>
+							
+						<p><lb/><add place="left margin">Ist <term ref="lem016800">ledig</term> mitt <lb/>abtrag des kostens.</add></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+
+
+
+<?oxy_options track_changes="on"?>

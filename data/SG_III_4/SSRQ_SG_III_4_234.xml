@@ -1,0 +1,841 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-08-15"/>
+            <date type="print"/>
+            <availability default="false">
+               <p xml:id="facs">Staatsarchiv St. Gallen (StASG)</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_234</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>StASG AA 2 B 006, S. 80–97</idno>
+                  <altIdentifier>
+                     <idno>StASG AA 2 B 6</idno>
+                  </altIdentifier>
+               </msIdentifier>
+              <head>Beschreibung der Gerichte in der Landvogtei Sax-Forstegg durch Landvogt Johannes Ulrich</head>
+               <msContents>
+                  <summary><p>Der Landvogt Johannes Ulrich beschreibt folgende Gerichte: Ehegericht, landvögtliches
+   Bussengericht, Hochgericht, schiedsrichterliche Tätigkeit des Landvogts, Herrschaftsgericht und
+   Appellationen, Zeitgericht, Kaufgericht und Appellationen sowie die daran beteiligten Personen,
+   die Abläufe, die damit verknüpften Mahlzeiten, Kosten etc.</p></summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                    <author role="scribe"><persName ref="per010271">Johannes Ulrich</persName>, Landvogt von Sax-Forstegg</author>
+                     <filiation type="current">Aufzeichnung, Buch (134 Seiten) mit kartoniertem Einband</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="24.5"/>
+                              <width unit="cm" quantity="19.5"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate from="1755-01-01" to="1755-12-31">Ohne Monat und Tag.</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000057">Gericht</term>
+               <term ref="key000892">Gerichtsverhandlung</term>
+               <term ref="key000287">Appellation</term>
+               <term ref="key000683">Urteil</term>
+               <term ref="key000058">Schulden</term>
+               <term ref="key004980">Schuldklage</term>
+               <term ref="key003037">Gerichtsverfahren</term>
+               <term ref="key004344">Ehegericht</term>
+               <term ref="key000180">Landvogt</term>
+               <term ref="key000088">Landammann einer Landvogtei</term>
+               <term ref="key000103">Richter</term>
+               <term ref="key000683">Urteil</term>
+               <term ref="key003017">Möbel</term>
+               <term ref="key000882">Lebensmittel</term>
+               <term ref="key004191">Mahlzeit</term>
+               <term ref="key001042">Zeitgericht</term>
+               <term ref="key005288">Herrschaftsgericht</term>
+               <term ref="key000044">Hochgericht</term>
+               <term ref="key000270">Kosten</term>
+               <term ref="key000617">Kaufgericht</term>
+               <term ref="key000184">Busse</term>
+               <term ref="key000531">Bussengericht</term>
+               <term ref="key000212">Lohn</term>
+               <term ref="key004755">Beamtenlohn</term>
+               <term ref="key000474">Maiengericht</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+  <group>
+   <text>
+    <body>
+     <div>
+            <p><gap reason="irrelevant"/>
+              <pb n="80" facs="StASG_AA_2_B_006_080_081"/>
+              <lb/><add place="left margin">§ 30</add> Nach bestmöglichster beschreibung nun alles
+              deßen, was <lb/>ein <choice>
+                <abbr>hr</abbr>
+                <expan>herr</expan>
+              </choice><note>Die häufig gebrauchten Abkürzungen von <orig>herr</orig> oder
+                  <orig>herren</orig> werden im Folgenden stillschweigend aufgelöst.</note>
+              <term ref="lem000266">landtvogt</term> anfangs seiner <term ref="lem002961"
+                >regierung</term> theils zu ver<lb break="no"/>lichen, theils zu belöhnen, theils
+              aber auch zu besetzen und <lb/>zu bestellen habe, folget nun, was ein herr landtvogt
+                <del>theils</del>
+              <lb/>so wohl in seinen regierungs-, alß auch in <del>sein</del> dennen hauß<lb
+                break="no"/>sachen zu beobachten habe: Da aber die regierungs-sachen <lb/>von sehr
+              ungleichen und ungewüßen vorfählen sind, so ist <lb/>gantz natürlich, daß sich
+              hierüber nicht viel eigentliches <lb/>bestimmen laße und ich mich deßetwegen mit einer
+                supe<add place="above">r</add>fici<lb break="no"/>ellen andeütung benüegen
+              müeße.</p>
+            <head resp="sm"><term ref="key004344">Ehegericht</term></head>
+            <p><lb/>Einem herr <term ref="lem000266">landtvogt</term> gehörret dann bevorderest das
+                <term ref="lem016489.02">præsi<lb break="no"/>dium</term> im <term ref="lem009601"
+                >ehegricht</term>, krafft deßen dann niemand ein ehegricht <lb/>samlen kan alß er
+              und sind deßetwegen dann die herrn <term ref="lem000672">pfarrer</term>
+              <lb/>pflichtig, alle ehegrichtliche fähl, die ihnen bekant werden, <lb/>einem herrn
+              landtvogt ehemöglich zu ofenbahren, nach welchem <lb/>ihme dann frey stehet, ein <term
+                ref="lem016490.01">pro examen</term> mit denen <term ref="lem001301"
+                >partheyen</term>
+              <lb/>anzustellen oder nicht, und den <term ref="lem001247">tag</term> des ehegrichts
+              zu bestim<lb break="no"/>men, an welchem er, oben an dem <term ref="lem002164"
+                >tisch</term> sitzende, den fahl <lb/>mit wenigem vortragt, zu welchem ich
+              gewohnlich den <lb/>titul gebrauchet, <q>wohl ehrwürdige, <choice>
+                  <abbr>hochw</abbr>
+                  <expan>hochwürdige</expan>
+                </choice> und wohlgelehrte, <lb/>insonders hochgeehrte herren pfarrere, fromme,
+                ehrsame und <lb/>bescheidene herren <term ref="lem000449">landamman</term> und liebe
+                <term ref="lem008800">mitrichtere</term></q>, in dem <pb n="81" facs="StASG_AA_2_B_006_080_081"/>
+              <lb/>fortgang aber nur <q>hochgeehrte heren pfarere, herr landamman <lb/>und ihr liebe
+                mitrichtere</q>.
+            <seg>So thut ein herr landtvogt alß <term ref="lem009860">præ<lb break="no"/>ses</term>
+              auch die an- und <term ref="lem000802">umfrag</term> halten und die <term
+                ref="lem001251">stimmen</term> samlen. <lb/>Da ich dann offt den herren <choice>
+                <abbr>pfr</abbr>
+                <expan>pfarrern</expan>
+              </choice> des ohrts, aus welchem die partheyen <lb/>waren, meistens aber den ältesten
+              herrn pfarer angefraget <lb/>und die umfrag, wie in <placeName ref="loc000065"
+                >Zürich</placeName>, der lincken hand nach gerichtet, <lb/>worüber aber weitläüfig
+              zu seyn ich um so überflüßiger seyn <lb/>erachte, alß der <term ref="lem014849">neüe
+                herr landtvogt</term> dem <placeName ref="loc000066">Züricherischen</placeName>
+              <term ref="lem009601">ehe<lb break="no"/>gricht</term>
+              <date dur="P2Y">2 jahr</date> beygewohnet, und melde also nur nach, daß <lb/>ein <term
+                ref="lem009601">ehegricht</term> alhier auf <measureGrp><measure quantity="13"
+                  type="currency" unit="fl">13 </measure>
+                <measure quantity="15" type="currency" unit="xr">15 xr</measure></measureGrp> zu
+              stehen kombt, worvon <lb/><measure quantity="9" type="currency" unit="fl">9
+                </measure> alß sitzgelter vertheilet werden, namlich <measureGrp><measure
+                  quantity="1" type="currency" unit="fl">1 </measure>
+                <measure quantity="48" type="currency" unit="xr">48 xr</measure></measureGrp>
+              <lb/>für den herrn landtvogt, für jeden <num value="3">3</num> herren <term
+                ref="lem000672">pfarern</term>
+              <measure quantity="54" type="currency" unit="xr">54 xr</measure>, <lb/>für den <term
+                ref="lem000449">landamman</term>
+              <measure quantity="40" type="currency" unit="xr">40 xr</measure>, für den <term
+                ref="lem002854.27"><choice>
+                  <abbr>landschrb</abbr>
+                  <expan>landschriber</expan>
+                </choice></term>
+              <measure quantity="40" type="currency" unit="xr">40 xr</measure>, dem <lb/><term
+                ref="lem000642">landtweibel</term>
+              <term ref="lem016531.02">biehter</term>
+              <add place="above">und <term ref="lem016532.02">abwahrt</term></add> lohn
+                  <measureGrp><measure quantity="1" type="currency" unit="fl">1 </measure>
+                <measure quantity="10" type="currency" unit="xr">10 xr</measure></measureGrp> und
+              jedem der <num value="5">5</num>
+              <term ref="lem000342">richteren</term>, <lb/>welches die elteste in jeder <term
+                ref="lem006896">gemeind</term> sind, <measure quantity="24" type="currency"
+                unit="xr">24 xr</measure>. Die übrige <lb/><measureGrp><measure quantity="4"
+                  type="currency" unit="fl">4 </measure>
+                <measure quantity="15" type="currency" unit="xr">15 xr</measure></measureGrp> dienen
+              zu einem <term ref="lem001492">abendtrunk</term>, welcher nach geendetem
+              <lb/>ehegricht, ein jeder an seinem ohrt sitzende, genoßen wird <lb/>und aus <term
+                ref="lem000053">wein</term>, <term ref="lem000847.03">brodt</term>, <term
+                ref="lem000054">käs</term> und <term ref="lem016516.02">küchlenen</term> bestehet.
+                Wei<lb break="no"/>ters gehöret dem <term ref="lem009601">ehegricht</term> nichts zu
+              vertheilen, es werdind <lb/>dann <term ref="lem016485.01">ehepfand</term>
+              <term ref="lem016503.02">sequestrirt</term>, sonderen es werden die fallende
+                <lb/><term ref="lem000036">buesen</term> von einem herrn landtvogt gegen
+                <abbr>mngndhhr</abbr> under <lb/>dem titul eingenommen an buesen verrechnet.</seg>
+            <seg>Es wolten <lb/>mich zwahren die herren <term ref="lem000672">pfarrere</term> und
+              <term ref="lem000342">richter</term> auf die leste <pb n="82" facs="StASG_AA_2_B_006_082_083"/>
+              <lb/>überreden, daß <add place="above">ich</add> halbe fallende buesen (gleiches auch
+              <lb/>in <placeName ref="loc000065">Zürich</placeName> üblich seye) oder wenigstens nur
+              von den <term ref="lem014384.03">ehe<lb break="no"/>schimpfen</term> vertheilen
+              möchte, allein ich könte mich nebst <lb/>anderen ihnen vorgelegten gründen umb so
+              weniger darzu <lb/>verstehen, alß ich ein solches neü einzuführendes recht
+              <lb/>billich gegen <abbr>mngnd hherren</abbr> zu verantworten haben wusde <lb/>und mir
+              seltsam vorkame, daß mann solches an dem ang<lb break="no"/>rukten end meiner <term
+                ref="lem002961">regierung</term> von mir forderete und habe <lb/>deßetwegen ein
+              solches <term ref="lem016487.02">rotunde</term> abgeschlagen.</seg></p>
+            <p>
+              <lb/>Einem herrn <term ref="lem000266">landtvogt</term> kommet die <term
+                ref="lem003808">abstraffung</term> der frühzei<lb break="no"/>tigen <term
+                ref="lem015681.06">beyschlääffen</term> allein zu, bey welcher ich disere ord<lb
+                break="no"/>nung beobachtete, daß ich diejennige <term ref="lem001301"
+                >partheyen</term>, dennen der <lb/><term ref="lem015681.03">beyschlaaff</term> von
+              der <term ref="lem012405.02">copulation</term> aus gekommen und deßnahen <lb/>an einem
+                <term ref="lem005237">sambstag</term>
+              <term ref="lem003726">hochzeit</term> machen müesen, gelinder an<lb break="no"
+              />gesehen alß diejennige, welchen es <term ref="lem000635">verschwigen</term> gebliben
+              und <lb/>des nahen mit allen <term ref="lem016535.01">ehrenzeichen</term> als <term
+                ref="lem016506.02">schappellen</term> copulirt <lb/>worden. Und bestraffete also
+              disen <term ref="lem002925">fehler</term> nach diserem <lb/>umstand und nach
+              gestaltsame der mitlen von <measure quantity="2" type="currency" unit="fl">2</measure>
+              biß <lb/>auf <measure quantity="8" type="currency" unit="fl">8 </measure>. Auch
+              gehörret einem herrn landtvogt allein zu <lb/>die abstraffung des <term
+                ref="lem016501.02">heürahtens</term> im <num value="3">3</num><hi rend="sup"
+                >ten</hi>
+              <term ref="lem002388">grad</term>, bey welcher <lb/>ich auch auf die umständ der
+              mitlen gesehen und gleiche <lb/>grad der <term ref="lem000345">straff</term>, wie eben
+              bedeütet, beobachtet. Welche <lb/><term ref="lem000036">buesen</term> aber auch mit
+              vorbehalt eines sitzgeltlis gegen <pb n="83" facs="StASG_AA_2_B_006_082_083"/>
+              <lb/><abbr>mngndhherren</abbr> verrechnet werden, doch daß auch des <term
+                ref="lem000043.01">wei<lb break="no"/>bels</term>
+              <term ref="lem016531.02">biehter lohn</term> von <measure quantity="30"
+                type="currency" unit="xr">30 xr</measure>, wann er darzu gebraucht wird,
+              <lb/>hiervon abzuziehen oder daraus zu bezahlen ist.</p>
+            <p>
+              <lb/>Kein herr <term ref="lem000672">pfarrer</term> ist berechtiget, ohne vorwüßen
+              eines landtvogts, <lb/><term ref="lem001424">frömbde</term> oder einheimsche <term
+                ref="lem016502.02">hochzeit-leüht</term> zu <term ref="lem016491.02"
+                >promulgiren</term>, viel <lb/>weniger aber zu <term ref="lem009867.04"
+                >copuliren</term>. Es soll des nahen ein jeder herr pfarer <lb/>diser herrschafft
+              das ansuchen der frömbden um die <term ref="lem012405.02">copulation</term>
+              <lb/>allhier einem herrn landtvogt zu wüßen thun, welcher dann, wann <lb/>er
+              vermeinet, genugsamen grund darzu zu haben, solche, die <lb/>allhiesige copulation
+              suchende partheyen, abweisen kan.</p>
+            <p>
+              <lb/>Die alhiesige <term ref="lem016502.02">hochzeit-leüht</term> aber müesen sich mit
+              einem <term ref="lem001765">schrei<lb break="no"/>ben</term> von
+                  <subst><del>dem</del><add place="above">ihrem</add></subst> herrn <choice>
+                <abbr>pfr</abbr>
+                <expan>pfarrer</expan>
+              </choice> durch den hochzeiter um deßet willen <lb/>vor de<subst><del>m</del><add
+                  place="overwritten">r</add></subst>
+              <del>schloß hochzeit und</del>
+              <term ref="lem016492.01">promulgation</term> im <term ref="lem000376">schloß</term>
+                an<lb break="no"/>melden, damit sie in das <term ref="lem016543.02">frey- und
+                eigen-buch</term><note>Vgl. die beiden Bücher mit den Verzeichnissen der Freien und
+                Leibeigenen in der Landvogtei <placeName ref="loc000278">Sax-Forstegg</placeName>:
+                    <bibl><ref>EKGA&#160;Sax-Frümsen 29.4</ref></bibl>;
+                    <bibl><ref>EKGA&#160;Sennwald 020.04.02</ref></bibl>.</note> aufgezeich<lb
+                break="no"/>net werden könnend. Die <term ref="lem009377">töchteren</term> aber, so
+              außert das <lb/>land <term ref="lem001569">mannen</term>, damit sie, wenn sie ihre
+                <term ref="lem002282">elteren</term> nach haben, <lb/>das <term ref="lem016544.02"
+                >frey-pfund</term> allein, wann sie aber allbereit ererbte <lb/>mittel hättind und
+              allein hausen köntind, das <term ref="lem016544.02">frey-pfund</term>
+              <lb/>oder den <term ref="lem000337">fahl</term> für <abbr>mngndhheren</abbr>, das
+                <term ref="lem016493.02">tagwen-gelt</term> aber <lb/>für das jahr, darinen sie aus
+              dem land ziehen, <add place="above">für den herrn landtvogt</add> bezahlen
+              <lb/>könnind und mann sich zugleich auch um die aus dem land zie<lb break="no"/>henden
+              mittel des <term ref="lem001009">abzugs</term> wegen erkundigen könne.</p>
+       <p><pb n="84" facs="StASG_AA_2_B_006_084_085"/>
+            <lb/>
+            <add place="left margin">§ 31</add>
+            Folget nun zu beschreiben, was in anderen grichtlichen und <lb/>regierungssachen zu
+              beobachten seye: <seg><head resp="sm"><term ref="key000531"
+                  >Bussengericht</term></head></seg>
+              <seg>Da den erstlich zu <lb/>bemerken, daß das strafen und die bestimmung der <term
+                  ref="lem000036">bueßen</term>
+                <lb/>um <term ref="lem000044">frefel</term> an <term ref="lem000486">bäümen</term>,
+                  <term ref="lem008214">holtz und feldt</term>, so auch wegen <term ref="lem009567"
+                    >spih<lb break="no"/>lens</term> und andere wider das hochobrigkeitliche und
+                auch wi<lb break="no"/>der die <term ref="lem000333.12">mandata</term>, so ein herr
+                  <term ref="lem000266">landtvogt</term> under seinem nam<lb break="no"/>men
+                verlesen laßt,<note>Vgl. die grossen Mandate <ref>SSRQ_SG_III_4_176</ref>;
+                    <ref>SSRQ_SG_III_4_177</ref>; <ref>SSRQ_SG_III_4_178</ref>. </note>
+                laufende <term ref="lem002925">fehler</term>, einem herr landtvogt <lb/>allein
+                zustehet, doch daß er den <term ref="lem000449">landamman</term>, <term
+                  ref="lem000560">schriber</term> und <lb/><term ref="lem000043.01">weibel</term>,
+                wann sie ihre obbeschribene schuldigkeit in acht <lb/>nemmen, auch zu sich ziehet. </seg>
+              <seg>Ja, es stehet auch <add place="above">bey</add> einem herr <lb/>landtvogt, einen
+                fehlbahren <term ref="lem001568.02">thürnen</term> zu laßen, besonders <lb/>wann
+                sich einer eines <add place="above">wahrscheinlich</add> begangenen fehlers halber
+                auf das <lb/><term ref="lem001931">lougnen</term> legen wolte oder daß ein herr
+                landtvogt den fehler <lb/>also <del><unclear>stra</unclear></del> mit dem thurn zu
+                straffen würdig achtete. Ich <lb/>funde grad anfangs meiner regierung, ja vast biß
+                zu <lb/>dem ende wegen diser vorgenommenen übung und puncten <lb/>jedem recht von
+                vielen <term ref="lem000342">richteren</term> grosen widerspruch, alß <lb/>welche
+                vermeinten, es könne kein herrschaffts mensch <term ref="lem001568">gethur<lb
+                    break="no"/>net</term> werden, es seye oder geschehe dann aus erkantnuß <add
+                  place="above">und <term ref="lem001289">urtheil</term></add> des <lb/><term
+                  ref="lem016390.03">herrschaffts-grichts</term>. Allein ich wolte und könte solches
+                nicht al<lb break="no"/>so verstehen und je nachdemme mir von den richteren die sach
+                <lb/>manirlich oder unmanirlich vorgestellet wurde, je nach dem <lb/>habe ich ihnen
+                freündlich oder steiff geantwortet, allezeit <pb n="85" facs="StASG_AA_2_B_006_084_085"/>
+                <lb/>aber <subst><del>geantwortet</del><add place="above">behauptet</add></subst>,
+                daß ich das recht, einen fehlbahren ohne <lb/>ein <term ref="lem004300"
+                  >grichtsurtheil</term>
+                <term ref="lem001568.02">thürnen</term> zu laßen, niemahls vergeben <lb/>werde noch
+                wolle.</seg>
+              <seg>Begeben sich nun solche fähl, die mit einer <lb/><term ref="lem010448"
+                  >geltbues</term> angesehen werden müesen, so dictiret der herr landt<lb break="no"
+                />vogt die bues und ordnet zu vorderst die <term ref="lem004265.05"
+                  >sitzgelter</term>:</seg>
+              <seg>Also vor <lb/>sich <measureGrp><measure quantity="1" type="currency" unit="fl">1
+                    </measure>
+                  <measure quantity="18" type="currency" unit="d">18 ₰</measure></measureGrp>, für
+                  <term ref="lem000449">landamman</term>, <term ref="lem000560">schreiber</term> und
+                  <term ref="lem000043.01">weibel</term>, jederen <measureGrp><measure quantity="40"
+                    type="currency" unit="xr">40 xr</measure>
+                  <lb/>und <measure quantity="30" type="currency" unit="d">30
+                  ₰</measure></measureGrp>, dem <term ref="lem000043.01">weibel</term>
+                <term ref="lem016531.03">biehterlohn</term>, wäre es aber sach, daß <lb/>ein herr
+                landtvogt mit undersuchung eines fehlers mehrmahlen <lb/>bemüehet worden, so darff
+                er sein <term ref="lem004265.06">sizgelt</term> auch verbeßeren, <lb/>welches ich
+                mehr mahlen gethan und es auch dennen <term ref="lem001301">partheyen</term>,
+                <lb/>welche meinem ernst durch eine <term ref="lem013781">discretion</term> zu
+                vorkommen wollen, <lb/>dannklich zu verstehen gegeben, welches mich dann auch vor
+                  weite<lb break="no"/>ren versuchungen und antragenden <term ref="lem002018"
+                  >gaaben</term> in sicherheit gestelt. <lb/>Um so viel mehr, alß ich einem der
+                meiner liebsten um ihne <lb/>und seinen gespannen bey mir das wort zu führen,
+                  <measure quantity="6.5" type="currency" unit="Louistaler">6 halb Louis</measure>
+                  an<lb break="no"/>getragen, welche sie aber nicht angenommen, nach beendigtem
+                <lb/>geschafft solche über mein <term ref="lem004265.02">sitzgelt</term> aus
+                abgeforderet und den<lb break="no"/>selben annoch ohne nachlaß um so viel
+                gestrafft.</seg>
+              <seg>Wann ein herr <lb/><term ref="lem000266">landtvogt</term> einen <term
+                  ref="lem002925">fehler</term> gelt-bueswürdig findet, so thut <lb/>er wohl, wann
+                er die <term ref="lem000036">bues</term> bey sich steiff <term ref="lem016938.02"
+                  >revolviret</term> und lieber <lb/>zu erst dieselbige gelinder machet, als aber
+                darvon abmark<lb break="no"/>ten laßet. Dann, wo ein solches einmahl eingerißen und
+                ein <pb n="86" facs="StASG_AA_2_B_006_086_087"/>
+                <lb/>herr landtvogt <subst><del>von</del><add place="above">mit</add></subst> den
+                gestrafften partheyen sich in das <term ref="lem016520.01">mark<lb break="no"
+                  />ten</term> einlaßet, so wird mann ihne nachgehends auch von dennen
+                <lb/>geringsten buesen abmarkten wollen, worzu auch selbsten <lb/>die <term
+                  ref="lem003599">beambtete</term> sehr geneigt sind. Des nahen ich zur hand ge<lb
+                  break="no"/>nommen und ehe ich die fehlbahre partheyen widerum hin <lb/>eintreten
+                laßen, eine <term ref="lem000036">bues</term> gemachet, hernach dennen bey <lb/>mir
+                geseßenen <term ref="lem003599">beambteten</term> angezeiget, wie viel ich auf ihre
+                  <lb/><term ref="lem010720.02">intercession</term> hin nachsehen wolle; übrigens
+                dann sollen sie <lb/>mir mit weiterem <term ref="lem016546.02">intercediren</term>
+                verschonen, worbey ich mich <lb/>wohl befunden, dann ich dennen beambteten
+                einerseihts eine <lb/>etwelchen glimpf gelaßen, anderseihts aber das verdries<lb
+                  break="no"/>lichen und unanständigen <term ref="lem016520.01">marktens</term>
+                befreyet worden. Nach <lb/>welchem ich dann keinem gestrafften erlaubt, aus dem
+                  <term ref="lem000376">schloß</term>
+                <lb/>zu gehen, er habe dann die <term ref="lem000279">kösten</term> und <term
+                  ref="lem000036">bues</term> bezahlt oder, <lb/>wann er das gelt nicht völlig bey
+                handen gehabt, mir ver<lb break="no"/>sprochen, daß er solches innert <time
+                  dur="PT24H">24</time><note>Die Einheit fehlt, wahrscheinlich Stunden.</note> in
+                das schloß bringen wolle. <lb/>Ob ich gleich <subst><del>vor</del><add place="above"
+                    >oben</add></subst> gesagt, daß die benamsete fehler abzu<lb break="no"
+                />straffen mit zuzug des <term ref="lem000449">landammans</term>, <term
+                  ref="lem000560">schreibers</term> und <term ref="lem000043.01">weibels</term>
+                <lb/>allein bey dem herrn <term ref="lem000266">landtvogt</term> stehe,
+                    <subst><del>allein es</del><add place="above">so</add></subst> können <add
+                  place="above">doch</add> auch sol<lb break="no"/>che fehler von einer solchen ahrt
+                seyn, daß ein herr landt<lb break="no"/>vogt wohl thut, wann er zu ausmachung der
+                sach auch die <num value="5">5</num>
+                <lb/><term ref="lem016549.02">älteste richtere</term> der <term ref="lem006896"
+                  >gemeinden</term> zu sich ziehet, besonders <pb n="87" facs="StASG_AA_2_B_006_086_087"/>
+                <lb/>wann die interessirte <term ref="lem001301">partheyen</term>
+                <del>stehen</del> im vermögen stehen, <lb/>die <term ref="lem004265.07"
+                  >sitz-gelter</term> und kösten zu bezahlen. Doch bleibet das recht, <lb/>die bues
+                zu bestimmen, einig und allein bey dem herrn landtvogt. <lb/>Das
+                    <subst><del>mehren</del><add place="above">beurtheilen</add></subst> aber, wer
+                die <term ref="lem000279">kösten</term> von beyden partheyen (wann <lb/>namlich
+                klagende und beklagte partheyen sind) bezahlen müese, <lb/>beschihet von dem herrn
+                  <term ref="lem000266">landtvogt</term> und den <term ref="lem000342"
+                  >richteren</term> zugleich.</seg></p>
+            <head resp="sm"><term ref="key000044">Hochgericht</term></head>
+            <p><lb/>Fahlet aber ein <term ref="lem001473">malefizischer</term> fahl vor, so
+              beschehen die <term ref="lem003708">examina</term>
+              <lb/>von dem herrn <term ref="lem000266">landtvogt</term>
+              <del>b</del> in beyseyn des <term ref="lem000449">landammans</term>, <term
+                ref="lem000560">schreibers</term>, <lb/><term ref="lem000043.01">weibels</term> und
+                <num value="2">2</num>
+              <term ref="lem000342">richteren</term>, dennen dann jedes mahl ein bescheidener
+                <lb/><term ref="lem003674">trunk</term> gegeben wird. Hernach wird von ihnen und den
+                <term ref="lem016549">ältesten <lb/>richteren</term> in einem <term ref="lem016160"
+                >express</term> deswegen angestehlten <term ref="lem005841">gricht</term> ein <term
+                ref="lem001247">tag</term>
+              <lb/>zur ausmachung angesetzet und an demselbigen von dem <lb/>herrn landtvogt und dem
+              gesambten <term ref="lem016390.03">herrschafts-gricht</term> zuerst <lb/>die frag
+              eröhrteret, ob mann den fehler für <term ref="lem001473">malefizisch</term> ansehen
+              <lb/>wolle und wann solches erkennet ist, so trittet der herr landtvogt <add
+                place="above">ab</add>
+              <lb/>und überlaßet das urtheilen dem <term ref="lem005841">gricht</term>, welches dann
+              seine <lb/>abgefaßte <term ref="lem001289">urtheil</term> dem herrn <term
+                ref="lem000266">landtvogt</term>
+              <term ref="lem001176">schrifftlichen</term> einhän<lb break="no"/>digen laßet, welcher
+              dann gewalt hat, dieselbige zu <term ref="lem011475">milte<lb break="no"/>ren</term>.
+              Und weilen die <term ref="lem000342">richtere</term> bey solchen anlääsen kein <term
+                ref="lem004265.02">sitzgelt</term>
+              <lb/>haben, so gibet mann ihnen ein bescheidenes <term ref="lem010455.02"
+                >mittageßen</term>, so <lb/>aus den mitlen des <term ref="lem004394"
+                >delinquenten</term>
+              <add place="above">bezalt</add> oder bey deßen <term ref="lem005098">abgang</term>
+              gegen <lb/><abbr>mn gndhherren</abbr> verrechnet wird.</p>
+       <pb n="88" facs="StASG_AA_2_B_006_088_089"/>
+            <head resp="sm">Schiedsrichterliche Tätigkeit des Landvogts</head>
+            <p><lb/>Gibt es eine <term ref="lem001301">parthey</term>, welche mit einer anderen in
+              einen <lb/>streit gerahtet, seye es nun in <term ref="lem016508.01">schuld</term>, in
+                <term ref="lem016536.01">erb</term> oder <term ref="lem016486.01">weg<lb break="no"
+                />streit</term>
+              <del>halber</del> sachen und kommet zu einem herrn <term ref="lem000266"
+                >landtvogt</term>, <lb/>sich <term ref="lem000346">rahts</term> zu erhollen, der
+              bekommet einen raht ohne ent<lb break="no"/>gelt. Hat aber die gegen-parthey etwas
+              wider den gege<lb break="no"/>benen raht und darmit verknüpften befehl, etwas grund<lb
+                break="no"/>liches ein zu wenden, so bescheidet ein herr landtvogt beyde <lb/>solche
+              streitende partheyen vor sich, verhörret dieselbige, <lb/>trachtet sie güetlich zu
+              vergleichen oder anerbiehtet ihnen, <lb/>einen güetlichen spruch zu thun, mit dem
+              anhang zwahren, <lb/>daß ein jeder seine sach ihme frey willig übergeben und
+              <lb/>hernach sich mit dem ausspruch benüegen müese, hiemit <lb/>sich keines weiteren
+              rechtens zu getrösten habe und der <lb/>herr landtvogt forderet sein <term
+                ref="lem004265.02">sitzgelt</term> oder er gibt beyde <lb/>partheyen <term
+                ref="lem001247">tag</term> vor das <term ref="lem005841">gericht</term>: Kombt aber
+              einer, sich in ei<lb break="no"/>ner wichtig scheinenden sach <del>sach</del> rahts zu
+              erhollen und auf <lb/>erhalt desselbigen thut er sich mit seiner <term ref="lem001301"
+                >parthey</term> vergleich<lb break="no"/>chen, auch ein solcher ist dem herrn
+              landtvogt, wo nicht das <lb/>völlige, doch <measure quantity="1" type="currency"
+                unit="fl">1 </measure>
+              <term ref="lem004265.02">sitzgelt</term> verfallen. Viele aber fragen <lb/>den herrn
+              landtvogt, was er für seine gehabte müeh fordere, <lb/>dennen es dann wohl in ihren
+              freyen willen zu stellen ist, <lb/>doch daß ich minder alß <measure quantity="1"
+                type="currency" unit="fl">1 </measure> niemahls genommen hätte, <pb n="89" facs="StASG_AA_2_B_006_088_089"/>
+              <lb/>hingegen dan dennen bekant <term ref="lem013761">unbemittleten</term>,
+              ohngeachtet <lb/>ihres guten anerbiehtens, den antrag abgeschlagen habe.</p>
+            <head resp="sm"><term ref="key005288">Herrschaftsgericht</term> und <term
+                ref="key000287">Appellation</term></head>
+            <p>
+              <lb/>Kombt dann eine streitsach vor das <term ref="lem005841">gericht</term><note>Es
+                handelt sich hier um das bereits im Landrecht 1627 beschriebene monatliche Gericht,
+                das in den Quellen Herrschaftsgericht genannt wird (vgl. dazu ausführlicher
+                  <ref>SSRQ_SG_III_4_241</ref>).</note>, welches nebst dem <lb/>herrn landtvogt aus
+              dem <term ref="lem000449">landtamman</term>, <term ref="lem000560">schreiber</term>
+              und <num value="5">5</num> der <term ref="lem016549">älte<lb break="no"/>sten
+                richteren</term> bestehet und mit dem <term ref="lem003378">gebett</term>, gleich
+              das <term ref="lem009601">ehegricht</term>, <lb/>angehebt wird, so hat ein jeder die
+              freyheit nach seinem wüßen <lb/>und gewüßen über das vorkommende zu urtheilen und
+              stehet dem <lb/>herrn landtvogt frey, seine meinung zu erst oder zu lest zugeben.
+              <lb/>Nebst dem <term ref="lem004265">sitzgelt</term> spricht mann auch noch etwas zu
+              einem be<lb break="no"/>scheidenen <term ref="lem003674">trunk</term>, welches
+              wenigstens für jeden <term ref="lem008972.11">beysäßen</term>, <lb/>derren mit dem
+              herrn <term ref="lem000266">landtvogt</term> jederweilen <num value="9">9</num>
+              persohnen sind, <measure quantity="0.5" type="volume" unit="Mass" commodity="wine">½
+                <lb/>maas wein</measure>, <measure commodity="bread" unit="Pfund" quantity="0.5"
+                type="weight">½ ℔ brodt</measure> und <measure commodity="cheese" unit="Pfund"
+                quantity="0.25" type="weight">¼ ℔ käs</measure> zu seyn pfleget. Ist <lb/>aber das
+              geschäfft von sonderer erheblichkeit <del>und</del> gibet extra <lb/>müeh und haben es
+              die partheyen im vermögen, so habe ich den <lb/><term ref="lem000342">richteren</term>
+              eine <term ref="lem003936">suppen</term> oder <term ref="lem011436">muß</term> und auf
+              jeden mann <measure commodity="meat" unit="Pfund" quantity="0.5" type="weight">½ ℔
+                <lb/>fleisch</measure>, 3 <term ref="lem016554.02">stotzen</term>
+              <term ref="lem000053">wein</term> und genug <term ref="lem000847.03">brodt</term>
+              <del>gerechnet</del> zu kommen <lb/>laßen. Und wann es sich auch je schikete oder mit
+              der <term ref="lem001289">urtheil</term>
+              <lb/>übereinstimmen könte, so trachtete ich die <term ref="lem000279">kösten</term> in
+              gleiche <lb/>theil oder wenigstens doch dem an sich selbsten unschuldigen <lb/>theil
+              auch etwas darvon zu zu theilen, es ware dann sach, daß <lb/>der klagende theil in
+              allweiß und weg unschuldig gewesen. <pb n="90" facs="StASG_AA_2_B_006_090_091"/>
+              <lb/>Dennen <term ref="lem000867">frömbden</term> aber burdete ich ohne genugsamen
+              grund <lb/>keine <term ref="lem000279">kösten</term> auf, hatten sie aber solches wohl
+              verschuldet <lb/>und im vermögen, so ordnete ich dann ein vorbeschribenes
+              <lb/>bescheidenliches <term ref="lem016496.02">mittageßeli</term>, trachtete aber, daß
+              die <term ref="lem003599">be<lb break="no"/>ambtete</term> und <term ref="lem000342"
+                >richtere</term> allein beysamen saßen und die vor <lb/>gerichte gestandene <term
+                ref="lem001301">partheyen</term>, wann sie je annoch bleiben <lb/>und trinken
+              wolten, auch allein ursach, weilen es sich offt <lb/>begeben, daß die partheyen mit
+              dem <term ref="lem000342">richter</term> zu zänklen <lb/>oder denselben zu stichlen
+              anfiengen, woraus leichtlich mehr<lb break="no"/>re weitläüffigkeiten entstehen
+              können.</p>
+            <p>
+              <lb/>Hat ein herr <term ref="lem000266">landtvogt</term> die ergangene einhellige oder
+                er<lb break="no"/>mehrete <term ref="lem001289">urtheil</term> (derrin ich allemahl
+              beygefüeget, was <lb/>sich die eint oder andere parthey beschwehret zu seyn ver<lb
+                break="no"/>meinte, so seye ihro die <term ref="lem000639">appellation</term>
+              <del>f</del> an <abbr>mn gndhhrrn</abbr>
+              <lb/>gestattet) dennen partheyen eröfnet, so thut er wohl, wann  <lb/>er straks von
+              seinem <term ref="lem003788">stuhl</term> aufstehet und sich in kein contra<lb
+                break="no"/>dictorium mit den partheyen einlaßet, sonderen dem <term
+                ref="lem000043.01">wei<lb break="no"/>bel</term> befehlet, die <term ref="lem012155"
+                >thüren</term> zu öfnen, dennen partheyen aber <lb/>abzutretten und die <term
+                ref="lem000279">kösten</term> zu bezahlen, an sonsten <add place="above"
+              >be</add>kommen <lb/>der herr landtvogt spahten <term ref="lem002001">feyr
+                abend</term> und hat mehrers <lb/>zu reden alß von der sach selber.</p> <p><pb n="91" facs="StASG_AA_2_B_006_090_091"/>
+              <lb/>Auch thut ein herr landtvogt wohl, wann er keinem einigen die <lb/><term
+                ref="lem000639">appellation</term> abschlagen, sonderen einem jederen dieselbige gar
+              <lb/>gern und willig zu stellen thut, dann das begehren einer appel<lb break="no"
+              />lation meistens nur geschihet, des herrn landtvogts herzhafftig<lb break="no"/>keit
+              auf die prob zu setzen. <term ref="lem004933.06">Troüete</term> mir einer, er wolle
+              auf <lb/><placeName ref="loc000065">Zürich</placeName>, so wünschte ich ihme glük auf
+              die straß und gute ver<lb break="no"/>richtung, ja, ich sagte ihme nach, bey welchem
+              herr burger<lb break="no"/>meister er sich anmelden müeße.</p>
+            <head resp="sm"><term ref="key001042">Zeitgericht</term>, <term ref="key000617"
+                >Kaufgericht</term> und <term ref="key000287">Appellation</term></head>
+            <p><lb/>Gibt es schuldstreitigkeiten oder auch <term ref="lem016486.01">wegstreit</term>
+              under <term ref="lem016498.02">mittel<lb break="no"/>loßen</term>
+              <term ref="lem001301">partheyen</term>, so kan ein herr landtvogt solche für das
+                <lb/><term ref="lem009066.09">zeit-gricht</term> verweisen, besonders wann die zeit
+              nicht zu weit <lb/>entfehrnet ist. Verweilete es sich aber mit dem <term
+                ref="lem009066.01">zeitgericht</term>
+              <lb/>oder leidet das geschäfft sonsten keinen aufschub, so kan die sach <lb/>für ein
+              so geheißenes <term ref="lem002156.05">kaufften-gericht</term> gewisen werden,
+              <lb/>welches in dem <term ref="lem000449">landtamman</term> und den <num value="5"
+                >5</num>
+              <term ref="lem016549.03">ältesten richteren</term>
+              <lb/>bestehet und bey welchem der landamman den <term ref="lem000804">stab</term>
+              führet. <lb/>Die parthey nun, die ein solch <term ref="lem002156.06">kaufftes
+                gericht</term> begehret, leget <lb/>zuvor <measure unit="Taler" type="currency"
+                quantity="3">3 thlr</measure> oder <measure unit="fl" type="currency" quantity="4.5"
+                >4½ </measure> in daßelbig, aus welchem dann <lb/>die <term ref="lem000342"
+                >richtere</term> ihre <term ref="lem002833">besoldung</term> und <term
+                ref="lem000514">zehrung</term> suchen müeßen. <lb/>Ihre <term ref="lem001289"
+                >urtheil</term>
+              <del><unclear>hat</unclear></del> aber kan für den herrn <term ref="lem000266"
+                >landvogt</term>
+              <term ref="lem001043">appellirt</term>
+              <pb n="92" facs="StASG_AA_2_B_006_092_093"/>
+              <lb/>werden, doch daß diejennige parthey, so also appelliren <lb/>will, solches
+              eröfne, ehe das gricht aufstehet und ausein<lb break="no"/>anderen gehet und dem
+              gricht <measure unit="Taler" type="currency" quantity="3">3 thlr</measure> alß das
+                <term ref="lem016533.02">appellations<lb break="no"/>gelt</term> erlegen thue, wie
+              solches aber in dem <term ref="lem006922">landtsbrauch</term><note>Vgl.
+                  <ref>SSRQ_SG_III_4_166</ref>.</note>
+              <lb/>enthalten ist. <seg>Under meiner <term ref="lem002961">regierung</term> waren
+                über <lb/><num value="2">2</num>
+                <term ref="lem002156.07">kauffte grichter</term> nicht und von einem einigen wurde
+                <lb/>von selbigem an mich appelliret, aber die <term ref="lem000639"
+                  >appellation</term>
+                <lb/>nicht ausgeführet. Diseres betraffe einen <term ref="lem016486.02"
+                  >weg-streit</term>
+                <lb/>zwischen herrn <term ref="lem016410">freyhaubtmann</term>
+                <persName ref="per010756a">Ziegler</persName> und <num value="3">3</num>
+                <placeName ref="loc006121">Frümsener</placeName>. <lb/>Es ist aber diß geschäfft
+                mehr von <add place="above">dem</add> unglüklichen, jungen <lb/>landtvogt <persName
+                  ref="per002483">Beat</persName>,<note>Möglicherweise bezieht sich hier der
+                  Verfasser auf die Giftaffäre von <date when="1732">1732</date>, die dem Landvogt
+                  Beat Ziegler wegen seiner Unfähigkeit viel Hohn und Spott sowie das Missfallen und
+                  Misstrauen des <orgName ref="org001217">Zürcher Rates</orgName> eingebracht hat
+                  (vgl. den Kommentar in <ref>SSRQ_SG_III_4_218</ref>).</note> alß dem herrn
+                  <term ref="lem016410">freyhaubtmann</term> geführet <lb/>und betriben worden.
+                Deßen ohngeachtet, wann disere herren <lb/>ihre <term ref="lem000639"
+                  >appellation</term> ausgeführet hätten, hätte ich nicht anders <lb/>können, alß
+                die <term ref="lem004300">grichts-urthel</term>, welche für die <placeName
+                  ref="loc006121">Frümsner</placeName>
+                <lb/>auch gar zu glimpflich ausgefallen, in etwas einzuschren<lb break="no"/>ken, um
+                dennen erhaltenen freyheiten ein näheres oder <lb/>engeres zihl zu setzen.</seg></p>
+            <p>
+              <lb/>Der <term ref="lem016312">audienzen</term> halben insgemein besihe § 36, pag
+              112.</p>
+       <p><pb n="93" facs="StASG_AA_2_B_006_092_093"/>
+            <lb/>
+            <add place="left margin">§ 32</add>
+            <seg><head resp="sm"><term ref="key001042">Zeitgericht</term></head></seg>
+            <seg>Die bestimmung des <term ref="lem000228">tags</term>, wann das <date dur="R/P1Y"
+                >alljährliche</date>
+              <term ref="lem009066.10">zeit-ge<lb break="no"/>richt</term> gehalten werden solle:
+              Stehet bey einem herrn landtvogt und <lb/>gewohnlich im <term ref="lem012083"
+                >aprellen</term> oder grad in der <term ref="lem000665">wochen</term> nach <term
+                ref="lem000155">ostern</term>, <lb/>wann schon selbiges auch das <term
+                ref="lem000035.04">meyen gericht</term> genennet wird. We<lb break="no"/>gen dennen
+              benachbahrten <term ref="lem000663">wochen markten</term> habe ich selbiges
+              <lb/>meistens auf einen <term ref="lem005235">freytag</term> angesehen und solches
+              wird <term ref="lem001881">sonntags</term>
+              <lb/>zuvor durch ein <term ref="lem000333.01">mandat</term> in allen <num value="3"
+                >3</num>
+              <term ref="lem000240">kirchen</term> verkündet und für <lb/>die ausbleibenden <measure
+                unit="lb" quantity="1" type="currency">1  pfenning</measure> (ist
+                  <measureGrp><measure unit="fl" quantity="1" type="currency">1 </measure>
+                <measure unit="xr" quantity="8" type="currency">8 krzr</measure>
+                <measure unit="h" quantity="18" type="currency">18 hlr</measure></measureGrp>)<term
+                ref="key004924"/>
+              <lb/>zur <term ref="lem000036">bues</term> dictirt. Um <time when="07:00:00">7
+                uhren</time> sollen der <term ref="lem000449">landamman</term> und die <lb/><term
+                ref="lem000342">richtere</term>, um <time when="08:00:00">8 uhren</time> aber die
+                <term ref="lem001593">herschaffts-leüht</term> im <term ref="lem000376"
+                >schloß</term> ver<lb break="no"/>samlet seyn, da dann die richtere zum voraus das
+                <term ref="lem001110">weg<lb break="no"/>gelt</term> dem <term ref="lem000671"
+                >zoller</term> abnemmen, die præstanda daraus <term ref="lem011810"
+                >abherschen</term>. <lb/>Hernach mit gleiche theil theilen, den einten einem herrn
+                landt<lb break="no"/>vogt zu handen <abbr>mnrgndhheren</abbr> zu stellen, den
+              anderen aber <lb/>under den gemeinden vertheilen, <add place="bottom" type="sign"
+                    ><del><unclear>Wo</unclear> das</del>worvon das mehrere § 22 zu sehen</add> zu
+              deßen beschleünigung, <lb/>weilen es meistens sehr langsam zugehet, sie angemahnet
+              <lb/>werden müeßen. Nach diserem setzen sich die ambtleüht, <lb/>die richtere und der
+              zoller an den tisch und wird aufgestellet <lb/>3 <term ref="lem002643">blatten</term>
+              mit <term ref="lem016499.02">erbs-muß</term>, in 3 blatten gesotten <term
+                ref="lem000812">rindfleisch</term>, <lb/>etwann <measure commodity="meat"
+                quantity="12" unit="Pfund" type="weight">12 ℔</measure>, bey deßen mangel aber so
+              viel <term ref="lem002768">kalbfleisch</term>, <lb/>in 2 <term ref="lem002643"
+                >blatten</term>
+              <term ref="lem001679">fisch</term> weiß von kalbfleisch, so auch kernis <pb n="94" facs="StASG_AA_2_B_006_094_095"/>
+              <lb/><term ref="lem000847.03">brodt</term> und <term ref="lem000069.03">schenk-</term>
+              oder <term ref="lem016539.02">forster-wein</term> (nach verfluß aber <lb/>einer oder
+              höchstens <date dur="P1H15M">5/4
+              stunden</date><!-- Umsetzung im Portal nicht richtig, auch nicht 1.25H oder 75M gehen nicht -->
+              sollen sie aufbrechen und <lb/>dem <term ref="lem009066.01">zeitgericht</term> den
+              anfang machen. Ist es troken <term ref="lem002090">wetter</term>, <lb/>so geschihet
+              die ceremonie in dem <term ref="lem015506">hoff</term> under freyem <term
+                ref="lem003162">himmel</term>, <lb/>dahin wird ein mit einem <term
+                ref="lem016494.02">tischtüchli</term> bedekter <term ref="lem002164">tisch</term>
+                ge<lb break="no"/>stellet, oben an dem selben ein <term ref="lem004030.01"
+                >seßel</term> für den herrn <term ref="lem000266">landt<lb break="no"/>vogt</term>,
+              ringsumher aber <term ref="lem016537.02">sidelen</term> und <term ref="lem003788"
+                >stühl</term>, auf welchen <lb/>sich der <term ref="lem000449">landamman</term> und
+              zwahren diser auf der rechten <lb/>der <term ref="lem002854">landschreiber</term>,
+              aber auf der lincken hand des herren <lb/>landtvogts, und die <term ref="lem000342"
+                >richtere</term> nach dem <term ref="lem004402">alter</term>, wie sie in <lb/>das
+              gericht gekommen, setzen thutt. Zwischend dem her land<lb break="no"/>vogt und dem
+              landamman steht der <term ref="lem000043.01">weibel</term> mit der <term
+                ref="lem000387">farb</term>, <lb/>der <term ref="lem000531.06">grichtsstab</term>
+              liget auf dem <term ref="lem002164">tisch</term>, das <term ref="lem000900"
+                >volk</term> aber stehet <lb/>in einem <term ref="lem016538.02">circul</term> hinder
+              den richteren, ein jedlicher mit se<lb break="no"/>nem <term ref="lem002410">seihten
+                gwehr</term> versehen.</seg>
+            <seg>Wann nun alles also versam<lb break="no"/>let, fraget der <term ref="lem000449"
+                >landamman</term> einen herrn <term ref="lem000266">landtvogt</term>, ob er dem
+              <lb/>volk etwas vorzutragen gedenke, welches dem herrn land<lb break="no"/>vogt zu
+              thun oder nicht zu thun frey stehet und von mir <lb/>mehr nicht alß 4 oder 5 mahl
+              beschehen ist und etwann der <lb/>freyheit in ausübung des <term ref="lem009066.01"
+                >zeitgerichts</term> alß ein herrliches <lb/>gut vorgestellet, öffters aber auch die
+              schlechte in ehren<lb break="no"/>haltung der <term ref="lem000114">straaßen</term>,
+                <term ref="lem001145">stägen und wegen</term>, alß ein bew<supplied resp="SM"
+                reason="omitted">eis</supplied>
+              <pb break="no" n="95" facs="StASG_AA_2_B_006_094_095"/><lb/>schlechter gehorsame gegen der obrigkeitlichen dißfähligen
+                man<lb break="no"/>daten dem volk vorgehalten. Wann nun solches beschehen, so
+                  <subst><del>fan</del><add place="above">ma</add></subst><lb break="no"/>chet der
+                <term ref="lem000449">landtamman</term> dem <term ref="lem009066.01"
+                >zeitgericht</term> den anfang und hat ein <lb/>herr landtvogt nichts weiters
+              hierbey zu reden, sonderen so bald <lb/>das gericht <term ref="lem001637"
+                >verbannet</term> und der <term ref="lem000921.05">bueßen rodel</term> verlesen ist,
+              so <lb/>stehet so wohl er alß das ganze <term ref="lem005841">gricht</term> widerum
+              auf und gehet <lb/><del>ter</del> in seine <term ref="lem016534.02"
+                >audienz-stuben</term>, allwo er offt mehr geschäfft hat <lb/>mit <term
+                ref="lem000346">raht</term> erheilen und thätigen alß das sambtliche gericht.
+              <lb/>Diseres sitzet dann bey warmer <term ref="lem004662">witterung</term> auf der
+                <term ref="lem016488.01">richterlauben</term>, <lb/>bey kalter aber in der <term
+                ref="lem009907">stuben</term> zu gricht über streitige <term ref="lem011771"
+                  >schuld<lb break="no"/>sachen</term>, auch etwann <term ref="lem016486.01"
+                >wegstreit</term>, worüber die <term ref="lem000342">richtere</term> ohne <term
+                ref="lem004634">ent<lb break="no"/>gelt</term> absprechen müeßen. So bestraffen sie
+              auch die mindere <lb/>fehler, alß da sind die underlaßung des <term ref="lem010694"
+                >zäünens</term> und <term ref="lem009938">grabens</term>, <lb/>die <term
+                ref="lem011701">schäden</term>, so das <term ref="lem016940.02">einasen</term>
+              <term ref="lem000310">veich</term> in des anderen güter verur<lb break="no"/>sachet
+              und was dergleichen. Welch gefallene <term ref="lem000036">buesen</term> dann <lb/>in
+                <term ref="lem008752.14">3 theil</term> getheilet, worvon den einten
+                <abbr>mngndhheren</abbr>, den <lb/>anderen der <abbr>landamman</abbr> und den 3<hi
+                rend="sup">ten</hi> der <abbr>landweibel</abbr> inhantt. <lb/>Ich meinerseihts weiß
+              von wenigen <term ref="lem000036">bueßen</term>, die an dem <term ref="lem009066.11"
+                  >zeit<lb break="no"/>gricht</term> eingegangen seyind und ist etwas eingegangen,
+              so <lb/>ordnete ich <del>ar</del> vor der vertheilung auch etwas dem <term
+                ref="lem002854">landschreiber</term>, <lb/>der es aber alß kein recht forderen
+              darfft. Disere session nun <lb/>währet biß um <time when="13:00:00">1</time>, ja offt
+              biß gegen den <time when="15:00:00">3 uhren</time>, dann alles <pb n="96" facs="StASG_AA_2_B_006_096_097"/>
+              <lb/>sehr langsam hergehet und die <term ref="lem000342">richtere</term> dennen
+              partheyen <lb/>vor und nach der <term ref="lem001289">urtheil</term> allzuviel
+              freyheit zum reden, <lb/><term ref="lem016454.02">kolderen</term> und <term
+                ref="lem003626.03">polderen</term> gestaten thun, so daß manches ge<lb break="no"
+              />schäfft, welches in <date dur="P0.5H">½ stund</date> bereiniget werden könte, auf
+              die <lb/><date dur="P1.5H">1½</date> stund währen thut. Gefalt einer parthey die
+                ausge<lb break="no"/>fählte urtheil nicht, kan sie an den herrn <term
+                ref="lem000266">landtvogt</term>
+              <term ref="lem001043">appelliren</term>, <lb/>zuvor aber muß sie <measure unit="Taler"
+                quantity="3" type="currency">3 thlr</measure> in das gericht erlegen.</seg></p>
+            <p>
+              <lb/>Wann nun landamman und richtere ihre gerichts-geschäfft ben<lb break="no"/>diget,
+              so folget ihr <term ref="lem010455.03">mittag-eßen</term>, bey demme sich widerum
+                ein<lb break="no"/>findet der <term ref="lem000671">zoller</term>, so auch der <term
+                ref="lem001677">fischer</term>, so die <term ref="lem016513.02">forellen
+                bannbach</term> under <lb/>handen hat, und der fischer, so den <placeName
+                ref="loc000644">Rhein</placeName>
+              <term ref="lem014605.02">ärich</term> bewirbet, di<lb break="no"/>seren zusamen (also
+                <num value="19">19</num>
+              <term ref="lem001575">persohnen</term>), stellet mann auf in 3 bla<lb break="no"/>ten
+                <term ref="lem016499.03">erbs-mues</term>, in 3 <term ref="lem002643">blatten</term>
+              <term ref="lem016509.01">schnitz</term> oder <term ref="lem016510.02"
+                >äpfel-stükli</term>, in <lb/>3 blatten <term ref="lem016511.01">digen</term>
+              <term ref="lem000812">rindfleisch</term>, 3 mittelmäßige <term ref="lem016512.02"
+                >basteten</term>, <lb/>4 mittelmäßige <term ref="lem016514.02">kälberen
+                brähten</term>, ohngefahr <measure unit="Pfund" type="weight" quantity="7"
+                commodity="meat">7 ℔</measure>, <term ref="lem000848">ge<lb break="no"
+                />bachene</term>
+              <term ref="lem001679">fisch</term> in 2 blatten und auf jeden mann 2 bachis <lb/><term
+                ref="lem016517.02">küchli</term>, kernis <term ref="lem000847.03">brodt</term> und
+              für den ersten anlauff <term ref="lem016539.03">for<lb break="no"/>sten-wein</term>,
+              hernach aber beßeren, allezeit aber genug. <lb/>Das über bleibende an <term
+                ref="lem016512.02">basteten</term>, <term ref="lem016515.02">brahtis</term> und
+                <term ref="lem016516.02">küchlenen</term>
+              <lb/>gibt mann ihnen in <term ref="lem017048.02">krämen</term> heim und solche <term
+                ref="lem000939">mahlzeit</term>
+              <lb/>mag etwann, wann sie um <time when="14:00:00">2 uhren</time> zu sitzen könen biß
+              <lb/>umb <time when="18:00:00">6 uhren</time> währen, je nach dem ein herr landtvogt
+              <lb/>mit hilfft. <pb n="97" facs="StASG_AA_2_B_006_096_097"/><lb/>Ich meinerseihts pflegte mit den lieben meinigen das
+                mittag<lb break="no"/>eßen, wann es mir die geschäfft immer zuliesen, zur ordinari
+              zeit <lb/>zu geniesen und sezte mich hernach nicht zu den <term ref="lem000342"
+                >richteren</term>, biß <lb/>die <term ref="lem016512.03">bastetten</term>
+              aufgestellet worden. Dann zu mahlen aber saße <lb/>ich zu ihnen und trachtete nach und
+              nach dieselbigen zu erlüsti<lb break="no"/>gen, welches sie eben gern sehen und für
+              eine billiche <term ref="lem001151">ehre</term>
+              <lb/>halten thun. Für disere <term ref="lem000939">mahlzeit</term> nun hat ein herr
+                landt<lb break="no"/>vogt gegen <abbr>mngndhheren</abbr> zu verrechnen <measure
+                quantity="24" type="currency" unit="fl">24 </measure> under <lb/>dem titul ausgeben
+              kösten, so über das <term ref="lem009066">zeit</term> und <term ref="lem009770.17"
+                  >bueßen<lb break="no"/>gricht</term> ergangen. Ehedemme mag disere solemnitet für
+              das <lb/><term ref="lem000376">schloß</term> nach beschwehrlicher gewesen seyn, dann
+              dazumahlen auch <lb/>die herren und frauen verburgerte von <placeName ref="loc000066"
+                >Zürich</placeName>, geist- und <lb/>weltlichen stands, im schloß zu mittag geeßen,
+              anno <origDate when="1739">1739</origDate>
+              <lb/>aber regierete alhier ein geist der uneinigkeit, die einla<lb break="no"/>dung
+              wurde under underschidlichen ausflüchten abgeschla<lb break="no"/>gen, sinther aber
+              gar geflißentlich underlaßen. Dann <lb/>was sint anno <date when="1739">1739</date>
+              biß <date when="1746">1746</date> erkaltet, wolte ich nicht gern <lb/>widerum
+              aufwärmen, sonderen stelte mich, als wann <lb/>ich von dennen gewesenen <term
+                ref="lem005067">gebräuchen</term> nicht das wenigste <lb/>wüßte und es ist mir auch
+              biß diser stund nicht mehr <lb/>zu sinn kommen.<pb n="98"/><gap reason="irrelevant"/>
+            </p>
+          </div>
+   
+    </body>
+   </text>
+  </group>
+   <back>
+      <div n="1">
+        <p>Der Auszug über die Gerichtssituation in der Landvogtei <placeName ref="loc000278"
+            >Sax-Forstegg</placeName> stammt aus dem <term ref="key000204"
+          >Verwaltung</term>shandbuch von <persName ref="per010271a">Johannes Ulrich</persName>, der
+          von <date when="1746">1746</date> bis <date when="1755">1755</date> Landvogt von
+            <placeName ref="loc000278">Sax-Forstegg</placeName> war (auch Handbuch der «Saxer
+          Kommlichkeiten» genannt). Das Handbuch ist nicht datiert, doch aus dem Inhalt wird
+          ersichtlich, dass <persName ref="per010271a">Ulrich</persName> das Handbuch rückblickend
+          am Ende seiner <term ref="key004482">Regierungszeit</term> für seinen Nachfolger verfasst
+          haben muss: So schreibt er z.&#160;B., dass in seiner gesamten Regierungszeit nur zwei
+            <term ref="key000617">Kaufgerichte</term> einberufen worden seien, oder er erachtet eine
+          ausführliche Beschreibung des <term ref="key004344">Ehegerichts</term> für unnötig, da der
+          neue Landvogt zwei Jahre im <placeName ref="loc000065">Zürcher</placeName> Ehegericht
+          gesessen habe. </p>
+        <p>Das Handbuch ist mit 134 Seiten sehr umfangreich und eine wichtige Quelle zur
+          landvögtlichen Verwaltung der Landvogtei <placeName ref="loc000278"
+            >Sax-Forstegg</placeName>. <persName ref="per010271a">Ulrich</persName> beschreibt nicht
+          nur die einzelnen <term ref="key000057">Gerichte</term> der Herrschaft, sondern auch die
+          zum <term ref="key000186">Schloss</term> gehörigen <term ref="key000147">Güter</term>,
+            <term ref="key000139">Höfe</term>, <term ref="key000342">Alpstösse</term>, <term
+            ref="key000047">Mühlen</term>, <term ref="key000259">Bäche</term> und <term
+            ref="key000615">Hoheitsrechte</term> wie <term ref="key000230">Wildbann</term>, <term
+            ref="key000536">Fischerei</term>, <term ref="key000199">Zölle</term> auf Waren, auf
+            <term ref="key000295">Jahr-</term> und <term ref="key000294">Wochenmärkte</term> sowie
+          auf Vieh (<ref>SSRQ_SG_III_4_232</ref>), <term ref="key000183">Fälle</term>, <term
+            ref="key000479">Frondienste</term>, <term ref="key000049">Zehnten</term>, <term
+            ref="key000795">Schulen</term>, <term ref="key000510">Ungeld</term>, <term
+            ref="key000156">Mesmerdienst</term>, <term ref="key000555">Wahl</term> der <term
+            ref="key000065">Amtleute</term>, <term ref="key000574">Gemeinderechnungen</term>, <term
+            ref="key003500">Landvogteirechnung</term> usw. Die detaillierten Schilderungen wie Zeit-
+          oder Ortsangaben, Sitzordnungen, Teilnehmer, Mahlzeiten oder Sitzgelder sowie die
+          Beschreibungen über das persönliche Vorgehen und Verhalten in gewissen Situationen lassen
+          zwar die einen oder anderen Angaben missen, doch gehen die Informationen weit über die
+          üblichen Verwaltungsordnungen hinaus und geben viele wertvolle Hinweise auf die <term
+            ref="key000214">Verwaltungspraxis</term> im Alltag. Die Einträge zu den Mühlen sind
+          ausführlich dargestellt bei <bibl><ref target="http://permalink.snl.ch/bib/chbsg000007884"
+              >Reich, 1999</ref>, S. 182–183</bibl>. Zu den herrschaftlichen Gütern und Rechten vgl.
+          auch das Verkaufsurbar (<ref>SSRQ_SG_III_4_157</ref>) sowie den Verkaufsbrief von 1615
+            (<ref>SSRQ_SG_III_4_158</ref>).</p>
+      </div>
+      <div n="2">
+        <p>Die Beschreibung des <term ref="key001042">Zeitgerichts</term> ist sehr detailliert, doch
+          fehlen genaue Angaben über die Zahl der Richter (ebenso beim Hochgericht). Anhand der
+          Sitzordnung sowie der Angabe von 19 Personen, die nach der Gerichtsverhandlung an der
+            <term ref="key004191">Mahlzeit</term> teilnehmen, kann man die Anzahl der <term
+            ref="key000103">Richter</term> rekonstruieren. Im <term ref="key000057">Gericht</term>
+          sitzt der <term ref="key000180">Landvogt</term>, der <term ref="key000088"
+            >Landammann</term> zu seiner Linken, der <term ref="key000310">Landschreiber</term> zu
+          seiner Rechten und der <term ref="key000324">Landweibel</term> zwischen Landvogt und
+          Landammann. Am Essen nehmen zusätzlich die beiden <term ref="key003963">Fischer</term>
+          sowie der <term ref="key000692">Zöllner</term> teil; demnach sitzen 12 Richter im Gericht,
+          da das Essen für 19 Personen ausgerichtet wird. Die Zusammensetzung des Gerichts ist wohl
+          dieselbe wie im <term ref="key000044">Hochgericht</term> mit 13 Richtern (ohne den Richter
+          aus <placeName ref="loc000951">Lienz</placeName>, das nur hochgerichtlich zur Herrschaft
+          gehört), vgl. dazu den Kommentar in <ref>SSRQ_SG_III_4_241</ref>.</p>
+        <p>Bereits unter den <term ref="key000456">Freiherren</term> von <orgName ref="org000384"
+            >Sax-Hohensax</orgName> findet jährlich im Mai ein <term ref="key001042"
+            >Zeitgericht</term> statt, an dem die <term ref="key000065">Amtleute</term> die
+          busswürdigen Personen bekannt geben und die <term ref="key000103">Richter</term> deren
+            <term ref="key000184">Busse</term> und <term ref="key000905">Strafe</term> bestimmen
+              (<bibl><ref>StASG&#160;AA&#160;2&#160;A&#160;3-9-1</ref></bibl>). Kurz nach dem <term
+            ref="key000369">Kauf</term> der Herrschaft übergibt <orgName ref="org001196"
+            >Zürich</orgName>
+          <date when="1616">1616</date> dem <term ref="key000180">Landvogt</term> jedoch das
+          alleinige Recht, strafwürdige Personen zu büssen. Dazu kann er bei Bedarf Amtleute und
+          Richter beiziehen, doch die Busse bestimmt er alleine
+              (<bibl><ref>StASG&#160;AA&#160;2&#160;A&#160;3-9-1</ref></bibl>). Wie die Ausführungen
+          von Ulrich zeigen, besteht das <term ref="key001042">Zeitgericht</term> zusammen mit dem
+          landvögtlichen <term ref="key000531">Bussengericht</term> in etwas anderer Form weiter;
+          beide werden am gleichen Tag im April oder Mai abgehalten: Im verbannten Zeitgericht wird
+          vor Beginn der Verhandlungen zuerst das <term ref="key000735">Bussenverzeichnis</term>
+          verlesen, danach tritt der Landvogt ab und der <term ref="key000088">Landammann</term>
+          übernimmt als Vorsitzender die Verhandlungsführung. <term ref="key000184">Bussen</term>
+          werden im <term ref="key001042">Zeitgericht</term> nur noch vereinzelt bei
+          Ungehorsamkeiten zum Unterhalt von <term ref="key000519">Zäunen</term> oder <term
+            ref="key000609">Gräben</term> ausgesprochen. Der Betrag von 24 Gulden für die Mahlzeiten
+          beider Gerichte erscheint in den Landvogtrechnungen unter dem Posten <orig>Ußgegeben
+            cösten, so über das <term ref="lem009066">zeit</term> und <term ref="lem009770">bussen
+              gricht</term> ergangen: <measure quantity="24" type="currency" unit="fl">24
+              </measure> ist über daß zeit und bussengricht ergangen für daß morgen, mittag und
+            nachteßen</orig> (so z.&#160;B. 1739 <bibl><ref>StASG AA&#160;2&#160;B&#160;063</ref>,
+            S.&#160;27</bibl>). Zum Herrschaftsgericht und zum Hochgericht vgl. auch
+            <ref>SSRQ_SG_III_4_241</ref>; <ref>SSRQ_SG_III_4_149</ref>; zum Ehegericht
+            <ref>SSRQ_SG_III_4_177</ref>; <ref>SSRQ_SG_III_4_211</ref>, Art.&#160;11.</p>
+      </div>
+    </back>
+ </text>
+</TEI>
