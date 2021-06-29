@@ -6,4 +6,4 @@ TEI Documents incl. metadata published in TEI Publisher (https://www.ssrq-sds-fd
 
 ## License
 
-* Data published under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (https://creativecommons.org/licenses/by-nc-sa/4.0/) license
+* Data published under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International] (https://creativecommons.org/licenses/by-nc-sa/4.0/) license
